@@ -69,10 +69,10 @@ public final class bieb extends bien {
         PlacesParams placesParams = this.f120388a;
         bpqk c = bhqq.m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = bhqq.m101359a(6, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bxvd da = bpqa.f138688d.mo74144da();
         if (((double) bhqq.f119344a.nextFloat()) < cgfl.f186724a.mo6606a().mo83595b() && str != null) {
             if (da.f164950c) {

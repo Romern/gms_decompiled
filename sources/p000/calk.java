@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: calk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class calk extends bxvk implements bxxd {
+public final class calk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final bxvu f175134i = new calh();
@@ -49,7 +49,7 @@ public final class calk extends bxvk implements bxxd {
     static {
         calk calk = new calk();
         f175135l = calk;
-        bxvk.m124024a(calk.class, calk);
+        GeneratedMessageLite.m124024a(calk.class, calk);
     }
 
     private calk() {
@@ -66,7 +66,7 @@ public final class calk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175135l, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0002\u0000\u0001ဇ\u0000\u0002ဈ\u0001\u0003\u001a\u0004င\u0002\u0005ဈ\u0003\u0006ဇ\u0004\u0007\u001e\bဌ\u0005\tဇ\u0006\nဂ\u0007", new Object[]{"m", "a", "b", "c", "d", "e", "f", "h", calj.m126755b(), "g", cagz.m126623b(), "j", "k"});
+            return GeneratedMessageLite.m124022a(f175135l, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0002\u0000\u0001ဇ\u0000\u0002ဈ\u0001\u0003\u001a\u0004င\u0002\u0005ဈ\u0003\u0006ဇ\u0004\u0007\u001e\bဌ\u0005\tဇ\u0006\nဂ\u0007", new Object[]{"m", "a", "b", "c", "d", "e", "f", "h", calj.m126755b(), "g", cagz.m126623b(), "j", "k"});
         } else if (i2 == 3) {
             return new calk();
         } else {

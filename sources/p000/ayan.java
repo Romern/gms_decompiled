@@ -253,7 +253,7 @@ public final class ayan implements Runnable, axyv, ayjm {
         long j2 = j;
         ayev ayev2 = ayev;
         axyt axyt2 = axyt;
-        sdo.m34966a(ayev2, "message was null");
+        sdo.checkIfNull(ayev2, "message was null");
         if (this.f96941a != null) {
             int i4 = this.f96950n.f97345e;
             int i5 = this.f96948l;

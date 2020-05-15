@@ -104,7 +104,7 @@ public final class jku {
                             int size = a4.size() - 1;
                             byte[] a6 = jtq.mo14080a(((jto) a4.get(size)).f23189b);
                             jto jto3 = (jto) a5.get(size);
-                            if (a6 == null || Arrays.equals(((jto) a4.get(size)).f23188a.mo73780k(), a6)) {
+                            if (a6 == null || Arrays.equals(((jto) a4.get(size)).f23188a.getKey(), a6)) {
                                 z = true;
                             } else {
                                 bxvd da = jto.f23186d.mo74144da();
@@ -120,7 +120,7 @@ public final class jku {
                                     da.f164950c = false;
                                 }
                                 ((jto) da.f164949b).f23190c = j2;
-                                bxtx a7 = bxtx.m123261a(a6);
+                                ByteString a7 = ByteString.m123261a(a6);
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;
@@ -145,7 +145,7 @@ public final class jku {
                     throw new jkt("Failed to generate beacon seeds");
                 }
                 bxvd da2 = jtp.f23191d.mo74144da();
-                bxtx a8 = bxtx.m123261a(b);
+                ByteString a8 = ByteString.m123261a(b);
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -161,11 +161,11 @@ public final class jku {
                 str.getClass();
                 jtp.f23194b = str;
                 if (!jtp.f23195c.mo73666a()) {
-                    jtp.f23195c = bxvk.m124021a(jtp.f23195c);
+                    jtp.f23195c = GeneratedMessageLite.m124021a(jtp.f23195c);
                 }
                 bxsy.m123078a(list, jtp.f23195c);
                 try {
-                    aucu.m76783a(this.f22719b.mo24732b(new inm("DeviceSync:BetterTogether", account2, ((jtp) da2.mo74062i()).mo73642k(), f22718a)), cchu.m129751g(), TimeUnit.SECONDS);
+                    aucu.m76783a(this.f22719b.mo24732b(new inm("DeviceSync:BetterTogether", account2, ((jtp) da2.mo74062i()).serializeToBytes(), f22718a)), cchu.m129751g(), TimeUnit.SECONDS);
                     a.mo14055k(syncedCryptauthDevice == null ? 0 : 1);
                 } catch (InterruptedException | ExecutionException | TimeoutException e) {
                     a.mo14055k(2);

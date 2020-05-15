@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 public abstract class avqd {
 
     /* renamed from: a */
-    public static final sek f93765a = avpq.m79020g("NetworkRequester");
+    public static final Logger f93765a = avpq.m79020g("NetworkRequester");
 
     /* renamed from: b */
     protected final Context f93766b;

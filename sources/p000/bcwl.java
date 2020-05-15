@@ -76,7 +76,7 @@ public final class bcwl implements bcnl {
         cbmb cbmb = (cbmb) da2.f164949b;
         cbma.getClass();
         if (!cbmb.f177600a.mo73666a()) {
-            cbmb.f177600a = bxvk.m124021a(cbmb.f177600a);
+            cbmb.f177600a = GeneratedMessageLite.m124021a(cbmb.f177600a);
         }
         cbmb.f177600a.add(cbma);
         if (da.f164950c) {

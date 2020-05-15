@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lai */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lai extends bxvk implements bxxd {
+public final class lai extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final lai f25545e;
@@ -25,7 +25,7 @@ public final class lai extends bxvk implements bxxd {
     static {
         lai lai = new lai();
         f25545e = lai;
-        bxvk.m124024a(lai.class, lai);
+        GeneratedMessageLite.m124024a(lai.class, lai);
     }
 
     private lai() {
@@ -42,7 +42,7 @@ public final class lai extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25545e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0002\u0000\u0001\t\u0002\t\u0003\u001b\u0004,", new Object[]{"a", "b", "c", lba.class, "d"});
+            return GeneratedMessageLite.m124022a(f25545e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0002\u0000\u0001\t\u0002\t\u0003\u001b\u0004,", new Object[]{"a", "b", "c", lba.class, "d"});
         } else if (i2 == 3) {
             return new lai();
         } else {

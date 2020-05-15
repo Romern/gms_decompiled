@@ -8,7 +8,7 @@ import android.net.ConnectivityManager;
 public final class igu {
 
     /* renamed from: g */
-    public static final sek f20977g = new sek("DeviceStateSyncManager");
+    public static final Logger f20977g = new Logger("DeviceStateSyncManager");
 
     /* renamed from: h */
     private static igu f20978h;

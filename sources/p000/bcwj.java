@@ -99,7 +99,7 @@ public final class bcwj implements bcnl {
             httpsURLConnection.setConnectTimeout(((Long) bcwg.f105052b.f103147ap.mo58455c()).intValue());
             httpsURLConnection.setReadTimeout(((Long) bcwg.f105052b.f103148aq.mo58455c()).intValue());
             httpsURLConnection.setInstanceFollowRedirects(true);
-            httpsURLConnection.setRequestProperty("X-Goog-Download-Metadata", Base64.encodeToString(cbna.mo73642k(), 2));
+            httpsURLConnection.setRequestProperty("X-Goog-Download-Metadata", Base64.encodeToString(cbna.serializeToBytes(), 2));
             String valueOf = String.valueOf(bcwg.f105053c);
             httpsURLConnection.setRequestProperty("Authorization", valueOf.length() == 0 ? new String("Bearer ") : "Bearer ".concat(valueOf));
             BufferedInputStream bufferedInputStream = new BufferedInputStream(httpsURLConnection.getInputStream());

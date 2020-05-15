@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bodq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bodq extends bxvk implements bxxd {
+public final class bodq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bodq f132725c;
@@ -19,7 +19,7 @@ public final class bodq extends bxvk implements bxxd {
     static {
         bodq bodq = new bodq();
         f132725c = bodq;
-        bxvk.m124024a(bodq.class, bodq);
+        GeneratedMessageLite.m124024a(bodq.class, bodq);
     }
 
     private bodq() {
@@ -36,7 +36,7 @@ public final class bodq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132725c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bodp.f132724a});
+            return GeneratedMessageLite.m124022a(f132725c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bodp.f132724a});
         } else if (i2 == 3) {
             return new bodq();
         } else {

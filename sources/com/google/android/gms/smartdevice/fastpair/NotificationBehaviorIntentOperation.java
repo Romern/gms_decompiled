@@ -35,9 +35,9 @@ public class NotificationBehaviorIntentOperation extends IntentOperation {
         sek.mo25409a(valueOf.length() == 0 ? new String("onHandleIntent(). Action: ") : "onHandleIntent(). Action: ".concat(valueOf), new Object[0]);
         String action = intent.getAction();
         try {
-            bowb bowb = (bowb) bxvk.m124014a(bowb.f135084g, intent.getByteArrayExtra("key_for_notification_log"));
+            bowb bowb = (bowb) GeneratedMessageLite.m124014a(bowb.f135084g, intent.getByteArrayExtra("key_for_notification_log"));
             bxvd bxvd = (bxvd) bowb.mo74142c(5);
-            bxvd.mo73625a((bxvk) bowb);
+            bxvd.mo73625a((GeneratedMessageLite) bowb);
             this.f108074a = bxvd;
         } catch (bxwf e) {
             f108073b.mo25410a((Throwable) e);
@@ -47,7 +47,7 @@ public class NotificationBehaviorIntentOperation extends IntentOperation {
             bovz = bovz.f135078d;
         }
         bxvd bxvd2 = (bxvd) bovz.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bovz);
+        bxvd2.mo73625a((GeneratedMessageLite) bovz);
         if ("com.google.android.gms.smartdevice.fastpair.DISMISS".equals(action)) {
             f108073b.mo25412b("Notification gets dismissed.", new Object[0]);
             if (bxvd2.f164950c) {

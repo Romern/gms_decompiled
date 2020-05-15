@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpll */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpll extends bxvk implements bxxd {
+public final class bpll extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpll f138105c;
@@ -19,7 +19,7 @@ public final class bpll extends bxvk implements bxxd {
     static {
         bpll bpll = new bpll();
         f138105c = bpll;
-        bxvk.m124024a(bpll.class, bpll);
+        GeneratedMessageLite.m124024a(bpll.class, bpll);
     }
 
     private bpll() {
@@ -36,7 +36,7 @@ public final class bpll extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138105c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bplk.f138104a});
+            return GeneratedMessageLite.m124022a(f138105c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bplk.f138104a});
         } else if (i2 == 3) {
             return new bpll();
         } else {

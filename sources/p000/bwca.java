@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwca */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwca extends bxvk implements bxxd {
+public final class bwca extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bwca f158803c;
@@ -19,7 +19,7 @@ public final class bwca extends bxvk implements bxxd {
     static {
         bwca bwca = new bwca();
         f158803c = bwca;
-        bxvk.m124024a(bwca.class, bwca);
+        GeneratedMessageLite.m124024a(bwca.class, bwca);
     }
 
     private bwca() {
@@ -36,7 +36,7 @@ public final class bwca extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f158803c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\f\u0002Ȉ", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f158803c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\f\u0002Ȉ", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bwca();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpnk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpnk extends bxvk implements bxxd {
+public final class bpnk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bpnk f138412g;
@@ -31,7 +31,7 @@ public final class bpnk extends bxvk implements bxxd {
     static {
         bpnk bpnk = new bpnk();
         f138412g = bpnk;
-        bxvk.m124024a(bpnk.class, bpnk);
+        GeneratedMessageLite.m124024a(bpnk.class, bpnk);
     }
 
     private bpnk() {
@@ -48,7 +48,7 @@ public final class bpnk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138412g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001င\u0000\u0002ဏ\u0001\u0003ဏ\u0002\u0004င\u0003\u0005ဏ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f138412g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001င\u0000\u0002ဏ\u0001\u0003ဏ\u0002\u0004င\u0003\u0005ဏ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new bpnk();
         } else {

@@ -35,7 +35,7 @@ final class xcv {
       sdo.a(java.lang.String, java.lang.Object):void */
     public xcv(String str, PublicKey publicKey) {
         sdo.m34969a(str, (Object) "keyStorageIdentifier cannot be empty");
-        sdo.m34966a(publicKey, "publicKey cannot be null");
+        sdo.checkIfNull(publicKey, "publicKey cannot be null");
         String substring = str.substring(2);
         try {
             this.f51972a = xmq.m43182a(Character.getNumericValue(str.charAt(0)));
@@ -94,7 +94,7 @@ final class xcv {
       sdo.a(java.lang.String, java.lang.Object):void */
     public xcv(String str, byte[] bArr) {
         sdo.m34969a(str, (Object) "rpId cannot be empty");
-        sdo.m34966a(bArr, "keyHandle cannot be null");
+        sdo.checkIfNull(bArr, "keyHandle cannot be null");
         try {
             this.f51972a = xmq.m43182a(bArr[0]);
             this.f51973b = Arrays.copyOfRange(bArr, 1, 33);

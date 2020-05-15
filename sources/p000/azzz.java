@@ -14,7 +14,7 @@ import java.util.Map;
 public final class azzz implements azzy {
 
     /* renamed from: a */
-    private static final bxtx f100351a = bxtx.m123261a(new byte[]{58});
+    private static final ByteString f100351a = ByteString.m123261a(new byte[]{58});
 
     /* renamed from: b */
     private static final banl f100352b;
@@ -56,9 +56,9 @@ public final class azzz implements azzy {
     }
 
     /* renamed from: b */
-    private final bxtx m86435b(baab baab) {
+    private final ByteString m86435b(baab baab) {
         if (this.f100354d.get(bygy.m124802a(baab.mo55529c().f166412a)) != null) {
-            return f100352b.mo55805a(bxtx.m123258a(((babq) this.f100354d.get(bygy.m124802a(baab.mo55529c().f166412a))).mo55563a(baab.mo55529c()))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(bxtx.m123258a(baab.mo55528b().type))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(bxtx.m123258a(baab.mo55528b().name))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(bxtx.m123258a(baab.mo55527a()))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(bxtx.m123258a(baab.mo55530d())));
+            return f100352b.mo55805a(ByteString.m123258a(((babq) this.f100354d.get(bygy.m124802a(baab.mo55529c().f166412a))).mo55563a(baab.mo55529c()))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(ByteString.m123258a(baab.mo55528b().type))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(ByteString.m123258a(baab.mo55528b().name))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(ByteString.m123258a(baab.mo55527a()))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(ByteString.m123258a(baab.mo55530d())));
         }
         throw new UnsupportedOperationException("Operation not supported for the specified ChannelId.");
     }
@@ -68,12 +68,12 @@ public final class azzz implements azzy {
         bamq a = m86434a();
         HashSet hashSet = new HashSet();
         if (this.f100354d.get(bygy.m124802a(bygz.f166412a)) != null) {
-            byte[] k = f100352b.mo55805a(bxtx.m123258a(((babq) this.f100354d.get(bygy.m124802a(bygz.f166412a))).mo55563a(bygz))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(bxtx.m123258a(account.type))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(bxtx.m123258a(account.name))).mo73780k();
+            byte[] k = f100352b.mo55805a(ByteString.m123258a(((babq) this.f100354d.get(bygy.m124802a(bygz.f166412a))).mo55563a(bygz))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(ByteString.m123258a(account.type))).mo73770a(f100351a).mo73770a(f100352b.mo55805a(ByteString.m123258a(account.name))).getKey();
             byte[] a2 = baqr.m87412a(k);
             banx a3 = a.mo55766a().mo55798a();
             try {
                 for (Pair pair : a.mo55768a(a3, k, a2)) {
-                    bygr bygr = (bygr) bxvk.m124014a(bygr.f166375e, (byte[]) pair.second);
+                    bygr bygr = (bygr) GeneratedMessageLite.m124014a(bygr.f166375e, (byte[]) pair.second);
                     baab a4 = baab.m86441a(bygr.f166379c, account, bygz, bygr.f166380d);
                     bygx bygx = bygr.f166378b;
                     if (bygx == null) {
@@ -112,7 +112,7 @@ public final class azzz implements azzy {
         bamq a = m86434a();
         bany b = a.mo55766a().mo55799b();
         try {
-            bxtx b2 = m86435b(baab);
+            ByteString b2 = m86435b(baab);
             bxvd da = bygr.f166375e.mo74144da();
             String a2 = baab.mo55527a();
             if (da.f164950c) {
@@ -161,8 +161,8 @@ public final class azzz implements azzy {
         try {
             Iterator it = collection.iterator();
             while (it.hasNext()) {
-                bxtx b2 = m86435b((baab) it.next());
-                bygr bygr = (bygr) bxvk.m124007a(bygr.f166375e, a.mo55767a((banx) b, b2));
+                ByteString b2 = m86435b((baab) it.next());
+                bygr bygr = (bygr) GeneratedMessageLite.m124007a(bygr.f166375e, a.mo55767a((banx) b, b2));
                 Intent intent = new Intent();
                 intent.setPackage(bygr.f166379c);
                 intent.setAction(bygr.f166380d);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: birp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class birp extends bxvk implements bxxd {
+public final class birp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final birp f121441b;
@@ -19,7 +19,7 @@ public final class birp extends bxvk implements bxxd {
     static {
         birp birp = new birp();
         f121441b = birp;
-        bxvk.m124024a(birp.class, birp);
+        GeneratedMessageLite.m124024a(birp.class, birp);
     }
 
     private birp() {
@@ -40,7 +40,7 @@ public final class birp extends bxvk implements bxxd {
             this.f121444c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121441b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", biro.class});
+            return GeneratedMessageLite.m124022a(f121441b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", biro.class});
         } else if (i2 == 3) {
             return new birp();
         } else {

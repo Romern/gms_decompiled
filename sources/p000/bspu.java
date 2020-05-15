@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bspu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bspu extends bxvk implements bxxd {
+public final class bspu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bspu f146587f;
@@ -28,7 +28,7 @@ public final class bspu extends bxvk implements bxxd {
     static {
         bspu bspu = new bspu();
         f146587f = bspu;
-        bxvk.m124024a(bspu.class, bspu);
+        GeneratedMessageLite.m124024a(bspu.class, bspu);
     }
 
     private bspu() {
@@ -45,7 +45,7 @@ public final class bspu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f146587f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002ဌ\u0001\u0003ဈ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", bspt.f146586a, "d", "e"});
+            return GeneratedMessageLite.m124022a(f146587f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002ဌ\u0001\u0003ဈ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", bspt.f146586a, "d", "e"});
         } else if (i2 == 3) {
             return new bspu();
         } else {

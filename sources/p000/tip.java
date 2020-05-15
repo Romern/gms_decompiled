@@ -94,7 +94,7 @@ public final class tip {
                 bxvd2.f164950c = false;
             }
             bxce bxce3 = bxce.f162766k;
-            ((bxce) bxvd2.f164949b).f162776i = bxvk.m124030de();
+            ((bxce) bxvd2.f164949b).f162776i = GeneratedMessageLite.m124030de();
             List list = this.f46142b;
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
@@ -102,7 +102,7 @@ public final class tip {
             }
             bxce bxce4 = (bxce) bxvd2.f164949b;
             if (!bxce4.f162776i.mo73666a()) {
-                bxce4.f162776i = bxvk.m124021a(bxce4.f162776i);
+                bxce4.f162776i = GeneratedMessageLite.m124021a(bxce4.f162776i);
             }
             bxsy.m123078a(list, bxce4.f162776i);
         }
@@ -117,7 +117,7 @@ public final class tip {
             bxeu = bxeu.f163125e;
         }
         bxvd bxvd = (bxvd) bxeu.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxeu);
+        bxvd.mo73625a((GeneratedMessageLite) bxeu);
         int a = bxet.m122640a(((bxeu) bxvd.f164949b).f163128b);
         if (a == 0) {
             a = 3;
@@ -186,7 +186,7 @@ public final class tip {
         bxcp = bxcp == null ? bxcp.f162974g : bxcp;
         long currentTimeMillis = System.currentTimeMillis();
         bxvd bxvd = (bxvd) bxcp.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxcp);
+        bxvd.mo73625a((GeneratedMessageLite) bxcp);
         int i3 = bxcp.f162979d + 1;
         if (bxvd.f164950c) {
             bxvd.mo74035c();

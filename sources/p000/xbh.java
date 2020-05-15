@@ -10,7 +10,7 @@ public final class xbh {
     static final xia f51872a;
 
     /* renamed from: b */
-    public static final sek f51873b = new sek(new String[]{"NetworkTimeProvider"}, (short[]) null);
+    public static final Logger f51873b = new Logger(new String[]{"NetworkTimeProvider"}, (short[]) null);
 
     static {
         try {

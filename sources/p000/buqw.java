@@ -8,15 +8,15 @@ final class buqw extends burt {
     private final aiaa f154745a;
 
     /* renamed from: b */
-    private final bxtx f154746b;
+    private final ByteString f154746b;
 
     /* renamed from: c */
-    private final bxtx f154747c;
+    private final ByteString f154747c;
 
     /* renamed from: d */
     private final String f154748d;
 
-    public buqw(aiaa aiaa, bxtx bxtx, bxtx bxtx2, String str) {
+    public buqw(aiaa aiaa, ByteString bxtx, ByteString bxtx2, String str) {
         this.f154745a = aiaa;
         this.f154746b = bxtx;
         this.f154747c = bxtx2;
@@ -29,12 +29,12 @@ final class buqw extends burt {
     }
 
     /* renamed from: b */
-    public final bxtx mo73011b() {
+    public final ByteString mo73011b() {
         return this.f154746b;
     }
 
     /* renamed from: c */
-    public final bxtx mo73012c() {
+    public final ByteString mo73012c() {
         return this.f154747c;
     }
 

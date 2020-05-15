@@ -11,6 +11,6 @@ final /* synthetic */ class celb implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (caen) bxvk.m124014a(caen.f172838b, bArr);
+        return (caen) GeneratedMessageLite.m124014a(caen.f172838b, bArr);
     }
 }

@@ -23,7 +23,7 @@ public final class rqt {
     public static final imn f43529a = new rqs();
 
     /* renamed from: b */
-    private static final sek f43530b = new sek("GLSUser", "ChannelBindingManager");
+    private static final Logger f43530b = new Logger("GLSUser", "ChannelBindingManager");
 
     /* renamed from: c */
     private final Context f43531c;
@@ -46,7 +46,7 @@ public final class rqt {
         } else {
             z2 = false;
         }
-        f43530b.mo25409a("Checking whether channelId is enabled. isEnabledGmsCore? %s, isEnabledSdk? %s, isAtLeastIceCreamSandwich? %s", Boolean.valueOf(z), Boolean.valueOf(z2), true);
+        f43530b.logVerbose("Checking whether channelId is enabled. isEnabledGmsCore? %s, isEnabledSdk? %s, isAtLeastIceCreamSandwich? %s", Boolean.valueOf(z), Boolean.valueOf(z2), true);
         return z && z2;
     }
 
@@ -77,7 +77,7 @@ public final class rqt {
             return false;
         }
         ((aboy) abop.f57803a).f57826e = sSLSocketFactory;
-        f43530b.mo25409a("Attempting to set channel binding key on GMSCore's SSLSocketFactory.", new Object[0]);
+        f43530b.logVerbose("Attempting to set channel binding key on GMSCore's SSLSocketFactory.", new Object[0]);
         if (!mo25034a()) {
             return false;
         }
@@ -105,7 +105,7 @@ public final class rqt {
             String a2 = rqr.f43528d.mo13139a("channel_binding_manager_publicKey");
             if (a != null) {
                 if (a2 != null) {
-                    rqr.f43526b.mo25409a("Using existing Channel ID key.", new Object[0]);
+                    rqr.f43526b.logVerbose("Using existing Channel ID key.", new Object[0]);
                     KeyFactory instance = KeyFactory.getInstance("EC");
                     keyPair = new KeyPair(instance.generatePublic(new X509EncodedKeySpec(sqd.m35966a(a2))), instance.generatePrivate(new PKCS8EncodedKeySpec(sqd.m35966a(a))));
                     lock = rqr.f43525a;
@@ -122,7 +122,7 @@ public final class rqt {
                 }
             }
             int i = Build.VERSION.SDK_INT;
-            rqr.f43526b.mo25409a("Checking for old wrapped keys", new Object[0]);
+            rqr.f43526b.logVerbose("Checking for old wrapped keys", new Object[0]);
             keyPair = rqr.mo25033a();
             lock = rqr.f43525a;
             lock.unlock();
@@ -134,9 +134,9 @@ public final class rqt {
                 rqu.f43532a.mo25414c("Successfully bound channel!", new Object[0]);
                 return true;
             } catch (Exception e2) {
-                sek sek = rqu.f43532a;
+                Logger Logger = rqu.f43532a;
                 String valueOf = String.valueOf(e2.getMessage());
-                sek.mo25416d(valueOf.length() == 0 ? new String("Exception: unable to bind channel ") : "Exception: unable to bind channel ".concat(valueOf), new Object[0]);
+                Logger.mo25416d(valueOf.length() == 0 ? new String("Exception: unable to bind channel ") : "Exception: unable to bind channel ".concat(valueOf), new Object[0]);
                 return true;
             }
         } catch (Exception e3) {

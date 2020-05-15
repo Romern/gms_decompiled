@@ -17,7 +17,7 @@ import com.google.android.gms.fido.u2f.api.view.ViewOptions;
 public final class ydg extends yct implements View.OnClickListener {
 
     /* renamed from: a */
-    private static final sek f53652a = new sek(new String[]{"WelcomeFragment"}, (short[]) null);
+    private static final Logger f53652a = new Logger(new String[]{"WelcomeFragment"}, (short[]) null);
 
     /* access modifiers changed from: protected */
     /* renamed from: a */

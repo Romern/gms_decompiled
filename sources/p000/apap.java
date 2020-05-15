@@ -190,7 +190,7 @@ public final class apap implements Runnable {
                                     bzcu bzcu = (bzcu) it2.next();
                                     int i6 = i5 + 1;
                                     bxvd bxvd = (bxvd) bzcu.mo74142c(5);
-                                    bxvd.mo73625a((bxvk) bzcu);
+                                    bxvd.mo73625a((GeneratedMessageLite) bzcu);
                                     bzcs bzcs = (bzcs) bxvd;
                                     if (bzcs.f164950c) {
                                         bzcs.mo74035c();
@@ -276,7 +276,7 @@ public final class apap implements Runnable {
                                     bzdh = bzdh.f169466A;
                                 }
                                 bxvd bxvd2 = (bxvd) bzdh.mo74142c(5);
-                                bxvd2.mo73625a((bxvk) bzdh);
+                                bxvd2.mo73625a((GeneratedMessageLite) bzdh);
                                 bzdb bzdb = (bzdb) bxvd2;
                                 if (bzdb.f164950c) {
                                     bzdb.mo74035c();
@@ -301,7 +301,7 @@ public final class apap implements Runnable {
                             bzdh4 = bzdh.f169466A;
                         }
                         bxvd bxvd3 = (bxvd) bzdh4.mo74142c(5);
-                        bxvd3.mo73625a((bxvk) bzdh4);
+                        bxvd3.mo73625a((GeneratedMessageLite) bzdh4);
                         bzdb bzdb2 = (bzdb) bxvd3;
                         if (a3.mo66813a()) {
                             boolean z6 = !str3.equals(a3.mo66814b());
@@ -341,7 +341,7 @@ public final class apap implements Runnable {
                                     int i12 = i11 + 1;
                                     bzcu bzcu4 = (bzcu) it5.next();
                                     bxvd bxvd4 = (bxvd) bzcu4.mo74142c(5);
-                                    bxvd4.mo73625a((bxvk) bzcu4);
+                                    bxvd4.mo73625a((GeneratedMessageLite) bzcu4);
                                     bzcs bzcs2 = (bzcs) bxvd4;
                                     if (bzcs2.f164950c) {
                                         bzcs2.mo74035c();
@@ -393,7 +393,7 @@ public final class apap implements Runnable {
                                 bzdx3.getClass();
                                 ((bzel) da4.f164949b).f169675g = bzdx3;
                                 a7.mo46992a(da4);
-                                byte[] k = bzcx5.mo73642k();
+                                byte[] k = bzcx5.serializeToBytes();
                                 if (((apaj) aozz).f84021h) {
                                     ((apaj) aozz).f84023j.mo47010a();
                                 }

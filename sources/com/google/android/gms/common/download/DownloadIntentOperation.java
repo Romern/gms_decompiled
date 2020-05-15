@@ -816,7 +816,7 @@ public class DownloadIntentOperation extends IntentOperation {
      */
     /* renamed from: a */
     public static boolean m22558a(Context context, DownloadDetails downloadDetails, String str, String str2) {
-        sdo.m34966a(downloadDetails, "DownloadDetails required");
+        sdo.checkIfNull(downloadDetails, "DownloadDetails required");
         synchronized (f30185f) {
             DownloadDetails d = ryd.m34647d(context, downloadDetails.f30175a);
             if (d != null) {

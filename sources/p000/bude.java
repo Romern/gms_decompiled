@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bude */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bude extends bxvk implements bxxd {
+public final class bude extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bude f153453a;
@@ -13,7 +13,7 @@ public final class bude extends bxvk implements bxxd {
     static {
         bude bude = new bude();
         f153453a = bude;
-        bxvk.m124024a(bude.class, bude);
+        GeneratedMessageLite.m124024a(bude.class, bude);
     }
 
     private bude() {
@@ -30,7 +30,7 @@ public final class bude extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153453a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f153453a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bude();

@@ -43,7 +43,7 @@ final /* synthetic */ class atug implements aubq {
             Intent putExtra = new Intent().setClassName(atuh.f90898f, "com.google.android.gms.tapandpay.tokenization.SummaryActivity").putExtra("tokenization_status", atsy.f90831W).putExtra("save_status", atsy.f90828T).putExtra("tsp", atsy.f90843f).putExtra("tsp_info_from_platform", i).putExtra("nfc_device", asjw.m74255a()).putExtra("nfcf_device", atgf.m75807a(atuh.f90898f).mo49940a()).putExtra("pay_pal_available", z);
             btnf btnf = atsy.f90832X;
             if (btnf != null) {
-                bArr = btnf.mo73642k();
+                bArr = btnf.serializeToBytes();
             } else {
                 bArr = null;
             }
@@ -54,7 +54,7 @@ final /* synthetic */ class atug implements aubq {
         Intent putExtra2 = className.putExtra("tokenization_status", atsy.f90831W).putExtra("save_status", atsy.f90828T).putExtra("tsp", atsy.f90843f).putExtra("tsp_info_from_platform", i).putExtra("nfc_device", asjw.m74255a()).putExtra("nfcf_device", atgf.m75807a(atuh.f90898f).mo49940a()).putExtra("pay_pal_available", z);
         btnf btnf2 = atsy.f90832X;
         if (btnf2 != null) {
-            bArr2 = btnf2.mo73642k();
+            bArr2 = btnf2.serializeToBytes();
         } else {
             bArr2 = null;
         }

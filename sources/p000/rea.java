@@ -112,7 +112,7 @@ final class rea {
         synchronized (this.f42780b) {
             for (cagn cagn : this.f42780b) {
                 bxvd bxvd = (bxvd) cagn.mo74142c(5);
-                bxvd.mo73625a((bxvk) cagn);
+                bxvd.mo73625a((GeneratedMessageLite) cagn);
                 bxvf bxvf = (bxvf) bxvd;
                 if (bxvf.f164950c) {
                     bxvf.mo74035c();
@@ -150,10 +150,10 @@ final class rea {
         }
         List list = this.f42780b;
         if (!cafz.f173063b.mo73666a()) {
-            cafz.f173063b = bxvk.m124021a(cafz.f173063b);
+            cafz.f173063b = GeneratedMessageLite.m124021a(cafz.f173063b);
         }
         bxsy.m123078a(list, cafz.f173063b);
-        return ((cafz) da.mo74062i()).mo73642k();
+        return ((cafz) da.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: a */

@@ -35,7 +35,7 @@ final /* synthetic */ class atsk implements View.OnClickListener {
                 } else {
                     bzub = bzub.f171399d;
                 }
-                asxx.mo49649a(bzub.f171403c.mo73780k());
+                asxx.mo49649a(bzub.f171403c.getKey());
             }
             atso.f90782h.mo24717a(atso.getActivity().getContainerActivity(), 1300, asxx);
         }

@@ -52,7 +52,7 @@ class bxtu extends bxtt {
         if (obj == this) {
             return true;
         }
-        if (!(obj instanceof bxtx) || mo73744a() != ((bxtx) obj).mo73744a()) {
+        if (!(obj instanceof ByteString) || mo73744a() != ((ByteString) obj).mo73744a()) {
             return false;
         }
         if (mo73744a() == 0) {
@@ -100,9 +100,9 @@ class bxtu extends bxtt {
     }
 
     /* renamed from: a */
-    public final bxtx mo73754a(int i, int i2) {
+    public final ByteString mo73754a(int i, int i2) {
         int c = m123267c(i, i2, mo73744a());
-        return c != 0 ? new bxtp(this.f164789a, mo73747b() + i, c) : bxtx.f164797b;
+        return c != 0 ? new bxtp(this.f164789a, mo73747b() + i, c) : ByteString.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -118,7 +118,7 @@ class bxtu extends bxtt {
 
     /* renamed from: a */
     public final void mo73757a(OutputStream outputStream) {
-        outputStream.write(mo73780k());
+        outputStream.write(getKey());
     }
 
     /* renamed from: a */
@@ -133,7 +133,7 @@ class bxtu extends bxtt {
     }
 
     /* renamed from: a */
-    public final boolean mo73750a(bxtx bxtx, int i, int i2) {
+    public final boolean mo73750a(ByteString bxtx, int i, int i2) {
         if (i2 <= bxtx.mo73744a()) {
             int i3 = i + i2;
             if (i3 > bxtx.mo73744a()) {

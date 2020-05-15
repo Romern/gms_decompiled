@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvrt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvrt extends bxvk implements bxxd {
+public final class bvrt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvrt f157460a;
@@ -13,7 +13,7 @@ public final class bvrt extends bxvk implements bxxd {
     static {
         bvrt bvrt = new bvrt();
         f157460a = bvrt;
-        bxvk.m124024a(bvrt.class, bvrt);
+        GeneratedMessageLite.m124024a(bvrt.class, bvrt);
     }
 
     private bvrt() {
@@ -30,7 +30,7 @@ public final class bvrt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157460a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f157460a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvrt();

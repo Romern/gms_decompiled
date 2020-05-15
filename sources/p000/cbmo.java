@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbmo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbmo extends bxvk implements bxxd {
+public final class cbmo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final cbmo f177654h;
@@ -14,13 +14,13 @@ public final class cbmo extends bxvk implements bxxd {
     public String f177656a = "";
 
     /* renamed from: b */
-    public bxtx f177657b = bxtx.f164797b;
+    public ByteString f177657b = ByteString.f164797b;
 
     /* renamed from: c */
     public String f177658c = "";
 
     /* renamed from: d */
-    public bxtx f177659d = bxtx.f164797b;
+    public ByteString f177659d = ByteString.f164797b;
 
     /* renamed from: e */
     public cbly f177660e;
@@ -34,7 +34,7 @@ public final class cbmo extends bxvk implements bxxd {
     static {
         cbmo cbmo = new cbmo();
         f177654h = cbmo;
-        bxvk.m124024a(cbmo.class, cbmo);
+        GeneratedMessageLite.m124024a(cbmo.class, cbmo);
     }
 
     private cbmo() {
@@ -51,7 +51,7 @@ public final class cbmo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177654h, "\u0000\u0007\u0000\u0000\u0001\n\u0007\u0000\u0000\u0000\u0001Ȉ\u0003Ȉ\u0006\n\u0007\t\bȈ\t\n\n\t", new Object[]{"a", "c", "d", "e", "f", "b", "g"});
+            return GeneratedMessageLite.m124022a(f177654h, "\u0000\u0007\u0000\u0000\u0001\n\u0007\u0000\u0000\u0000\u0001Ȉ\u0003Ȉ\u0006\n\u0007\t\bȈ\t\n\n\t", new Object[]{"a", "c", "d", "e", "f", "b", "g"});
         } else if (i2 == 3) {
             return new cbmo();
         } else {

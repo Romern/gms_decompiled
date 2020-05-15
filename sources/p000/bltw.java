@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bltw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bltw extends bxvk implements bxxd {
+public final class bltw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bltw f127753c;
@@ -19,7 +19,7 @@ public final class bltw extends bxvk implements bxxd {
     static {
         bltw bltw = new bltw();
         f127753c = bltw;
-        bxvk.m124024a(bltw.class, bltw);
+        GeneratedMessageLite.m124024a(bltw.class, bltw);
     }
 
     private bltw() {
@@ -36,7 +36,7 @@ public final class bltw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127753c, "\u0001\u0002\u0000\u0000\u0002\u0003\u0002\u0000\u0002\u0000\u0002\u001b\u0003\u001b", new Object[]{"a", blub.class, "b", blua.class});
+            return GeneratedMessageLite.m124022a(f127753c, "\u0001\u0002\u0000\u0000\u0002\u0003\u0002\u0000\u0002\u0000\u0002\u001b\u0003\u001b", new Object[]{"a", blub.class, "b", blua.class});
         } else if (i2 == 3) {
             return new bltw();
         } else {

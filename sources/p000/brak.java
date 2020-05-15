@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brak */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brak extends bxvk implements bxxd {
+public final class brak extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final brak f142152e;
@@ -25,7 +25,7 @@ public final class brak extends bxvk implements bxxd {
     static {
         brak brak = new brak();
         f142152e = brak;
-        bxvk.m124024a(brak.class, brak);
+        GeneratedMessageLite.m124024a(brak.class, brak);
     }
 
     private brak() {
@@ -42,7 +42,7 @@ public final class brak extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142152e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001ဈ\u0000\u0003ဉ\u0002\u0004\u001a", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f142152e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001ဈ\u0000\u0003ဉ\u0002\u0004\u001a", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new brak();
         } else {

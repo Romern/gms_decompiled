@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boit */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boit extends bxvk implements bxxd {
+public final class boit extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final boit f133228c;
@@ -19,7 +19,7 @@ public final class boit extends bxvk implements bxxd {
     static {
         boit boit = new boit();
         f133228c = boit;
-        bxvk.m124024a(boit.class, boit);
+        GeneratedMessageLite.m124024a(boit.class, boit);
     }
 
     private boit() {
@@ -36,7 +36,7 @@ public final class boit extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133228c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bois.f133227a});
+            return GeneratedMessageLite.m124022a(f133228c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bois.f133227a});
         } else if (i2 == 3) {
             return new boit();
         } else {

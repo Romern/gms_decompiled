@@ -82,7 +82,7 @@ public class AuditGcmTaskChimeraService extends aeah {
                                 bssn = bssn.f146882h;
                             }
                             bxvd = (bxvd) bssn.mo74142c(5);
-                            bxvd.mo73625a((bxvk) bssn);
+                            bxvd.mo73625a((GeneratedMessageLite) bssn);
                             bssn2 = a.f18256b;
                             if (bssn2 != null) {
                                 bssn2 = bssn.f146882h;
@@ -92,7 +92,7 @@ public class AuditGcmTaskChimeraService extends aeah {
                                 bssu = bssu.f146916d;
                             }
                             bxvd2 = (bxvd) bssu.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) bssu);
+                            bxvd2.mo73625a((GeneratedMessageLite) bssu);
                             long j2 = j;
                             long currentTimeMillis = System.currentTimeMillis();
                             if (!bxvd2.f164950c) {
@@ -142,7 +142,7 @@ public class AuditGcmTaskChimeraService extends aeah {
                 if (bssn == null) {
                 }
                 bxvd = (bxvd) bssn.mo74142c(5);
-                bxvd.mo73625a((bxvk) bssn);
+                bxvd.mo73625a((GeneratedMessageLite) bssn);
                 bssn2 = a.f18256b;
                 if (bssn2 != null) {
                 }
@@ -150,7 +150,7 @@ public class AuditGcmTaskChimeraService extends aeah {
                 if (bssu != null) {
                 }
                 bxvd2 = (bxvd) bssu.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bssu);
+                bxvd2.mo73625a((GeneratedMessageLite) bssu);
                 long j22 = j;
                 long currentTimeMillis2 = System.currentTimeMillis();
                 if (!bxvd2.f164950c) {

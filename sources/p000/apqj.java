@@ -34,7 +34,7 @@ public class apqj extends aplq {
                 synchronized (acrl.f60625g) {
                     abul d = acrl.mo33026d(str2);
                     bxvd bxvd = (bxvd) d.mo74142c(5);
-                    bxvd.mo73625a((bxvk) d);
+                    bxvd.mo73625a((GeneratedMessageLite) d);
                     abtf a = abtf.m48246a(((abul) bxvd.f164949b).f58422i);
                     if (a == null) {
                         a = abtf.UNSET;
@@ -61,7 +61,7 @@ public class apqj extends aplq {
                     abuk abuk = acrl.f60622d;
                     if (abuk != null) {
                         bxvd bxvd2 = (bxvd) abuk.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) abuk);
+                        bxvd2.mo73625a((GeneratedMessageLite) abuk);
                         int i = 0;
                         while (true) {
                             if (i >= ((abuk) bxvd2.f164949b).f58411b.size()) {

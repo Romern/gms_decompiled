@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btnr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btnr extends bxvk implements bxxd {
+public final class btnr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btnr f149678b;
@@ -16,7 +16,7 @@ public final class btnr extends bxvk implements bxxd {
     static {
         btnr btnr = new btnr();
         f149678b = btnr;
-        bxvk.m124024a(btnr.class, btnr);
+        GeneratedMessageLite.m124024a(btnr.class, btnr);
     }
 
     private btnr() {
@@ -33,7 +33,7 @@ public final class btnr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149678b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0007", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f149678b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0007", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btnr();
         } else {

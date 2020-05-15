@@ -36,7 +36,7 @@ public final class ciic extends InputStream implements chsj {
     public final int read() {
         bxxc bxxc = this.f190395a;
         if (bxxc != null) {
-            this.f190397c = new ByteArrayInputStream(bxxc.mo73642k());
+            this.f190397c = new ByteArrayInputStream(bxxc.serializeToBytes());
             this.f190395a = null;
         }
         ByteArrayInputStream byteArrayInputStream = this.f190397c;
@@ -55,7 +55,7 @@ public final class ciic extends InputStream implements chsj {
                 this.f190397c = null;
                 return -1;
             } else if (i2 < db) {
-                this.f190397c = new ByteArrayInputStream(this.f190395a.mo73642k());
+                this.f190397c = new ByteArrayInputStream(this.f190395a.serializeToBytes());
                 this.f190395a = null;
             } else {
                 bxuk c = bxuk.m123644c(bArr, i, db);

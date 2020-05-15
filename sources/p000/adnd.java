@@ -154,7 +154,7 @@ public final class adnd {
         }
         boly boly = (boly) da.f164949b;
         boly.f133596b = size2;
-        boly.f133604j = bxvk.m124030de();
+        boly.f133604j = GeneratedMessageLite.m124030de();
         if (arrayList.size() > 0) {
             aucb a4 = this.f62202b.mo32869a((brhy[]) arrayList.toArray(new brhy[arrayList.size()]));
             j = j2;

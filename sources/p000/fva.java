@@ -130,7 +130,7 @@ public final class fva {
         }
         bzfc bzfc4 = (bzfc) da.f164949b;
         if (!bzfc4.f169777f.mo73666a()) {
-            bzfc4.f169777f = bxvk.m124021a(bzfc4.f169777f);
+            bzfc4.f169777f = GeneratedMessageLite.m124021a(bzfc4.f169777f);
         }
         bxsy.m123078a(arrayList, bzfc4.f169777f);
         ArrayList arrayList2 = new ArrayList(list.size());
@@ -315,7 +315,7 @@ public final class fva {
         }
         bzfc bzfc5 = (bzfc) da.f164949b;
         if (!bzfc5.f169774c.mo73666a()) {
-            bzfc5.f169774c = bxvk.m124021a(bzfc5.f169774c);
+            bzfc5.f169774c = GeneratedMessageLite.m124021a(bzfc5.f169774c);
         }
         bxsy.m123078a(arrayList2, bzfc5.f169774c);
         if (i7 != 0) {
@@ -457,7 +457,7 @@ public final class fva {
                     bzgb bzgb2 = (bzgb) da13.f164949b;
                     bzgl3.getClass();
                     if (!bzgb2.f169906c.mo73666a()) {
-                        bzgb2.f169906c = bxvk.m124021a(bzgb2.f169906c);
+                        bzgb2.f169906c = GeneratedMessageLite.m124021a(bzgb2.f169906c);
                     }
                     bzgb2.f169906c.add(bzgl3);
                 }
@@ -546,7 +546,7 @@ public final class fva {
             bzfc11.f169772a |= 128;
         } else if (bArr != null) {
             bxvd da20 = bzfq.f169849g.mo74144da();
-            bxtx a4 = bxtx.m123261a(bArr);
+            ByteString a4 = ByteString.m123261a(bArr);
             if (da20.f164950c) {
                 da20.mo74035c();
                 da20.f164950c = false;
@@ -602,7 +602,7 @@ public final class fva {
                     bzfv6 = bzfv.f169875e;
                 }
                 bxvd bxvd = (bxvd) bzfv6.mo74142c(5);
-                bxvd.mo73625a((bxvk) bzfv6);
+                bxvd.mo73625a((GeneratedMessageLite) bzfv6);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -627,7 +627,7 @@ public final class fva {
                     bzfv9 = bzfv.f169875e;
                 }
                 bxvd bxvd2 = (bxvd) bzfv9.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bzfv9);
+                bxvd2.mo73625a((GeneratedMessageLite) bzfv9);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
@@ -755,10 +755,10 @@ public final class fva {
             }
             blbw blbw = (blbw) da3.f164949b;
             if (!blbw.f125877a.mo73666a()) {
-                blbw.f125877a = bxvk.m124021a(blbw.f125877a);
+                blbw.f125877a = GeneratedMessageLite.m124021a(blbw.f125877a);
             }
             bxsy.m123078a(list2, blbw.f125877a);
-            fuw.f17316d = ((blbx) fux.f17317a.mo25513a(clientContext3, 1, "/fetch?alt=proto", ((blbw) da3.mo74062i()).mo73642k(), blbx.f125879b)).f125881a;
+            fuw.f17316d = ((blbx) fux.f17317a.mo25513a(clientContext3, 1, "/fetch?alt=proto", ((blbw) da3.mo74062i()).serializeToBytes(), blbx.f125879b)).f125881a;
             if (fuw.mo11374a()) {
                 int b = fuw.mo11375b();
                 if (fuw.mo11374a()) {

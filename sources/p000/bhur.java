@@ -76,10 +76,10 @@ final /* synthetic */ class bhur implements Runnable {
                 dataOutputStream.writeLong(bhux.f119667c);
                 dataOutputStream.writeInt(1);
                 bxsz bxsz = bxszArr[0];
-                int i = ((bxvk) bxsz).f164961ai;
+                int i = ((GeneratedMessageLite) bxsz).f164961ai;
                 if (i == -1) {
                     i = bxxm.f165037a.mo74228a(bxsz).mo74223b(bxsz);
-                    ((bxvk) bxsz).f164961ai = i;
+                    ((GeneratedMessageLite) bxsz).f164961ai = i;
                 }
                 byte[] bArr = new byte[i];
                 bxsz.mo73644a(bxuk.m123637a(bArr));

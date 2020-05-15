@@ -12,7 +12,7 @@ import java.util.List;
 public final class jtv {
 
     /* renamed from: a */
-    private static final sek f23202a = jsy.m17256a("FeatureSharedPreferences");
+    private static final Logger f23202a = jsy.m17256a("FeatureSharedPreferences");
 
     /* renamed from: b */
     private final rtj f23203b;

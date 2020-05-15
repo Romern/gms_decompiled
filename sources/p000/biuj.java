@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biuj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biuj extends bxvk implements bxxd {
+public final class biuj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final biuj f121795b;
@@ -22,7 +22,7 @@ public final class biuj extends bxvk implements bxxd {
     static {
         biuj biuj = new biuj();
         f121795b = biuj;
-        bxvk.m124024a(biuj.class, biuj);
+        GeneratedMessageLite.m124024a(biuj.class, biuj);
     }
 
     private biuj() {
@@ -43,7 +43,7 @@ public final class biuj extends bxvk implements bxxd {
             this.f121799d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121795b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔄ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f121795b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔄ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new biuj();
         } else {

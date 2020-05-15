@@ -105,7 +105,7 @@ public class AddAccountChimeraActivity extends jxf implements jvd {
             bocq = bocq.f132590d;
         }
         bxvd bxvd = (bxvd) bocq.mo74142c(5);
-        bxvd.mo73625a((bxvk) bocq);
+        bxvd.mo73625a((GeneratedMessageLite) bocq);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -135,7 +135,7 @@ public class AddAccountChimeraActivity extends jxf implements jvd {
             bocq = bocq.f132590d;
         }
         bxvd bxvd = (bxvd) bocq.mo74142c(5);
-        bxvd.mo73625a((bxvk) bocq);
+        bxvd.mo73625a((GeneratedMessageLite) bocq);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -198,7 +198,7 @@ public class AddAccountChimeraActivity extends jxf implements jvd {
             bocq = bocq.f132590d;
         }
         bxvd bxvd = (bxvd) bocq.mo74142c(5);
-        bxvd.mo73625a((bxvk) bocq);
+        bxvd.mo73625a((GeneratedMessageLite) bocq);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -246,7 +246,7 @@ public class AddAccountChimeraActivity extends jxf implements jvd {
             bocq = bocq.f132590d;
         }
         bxvd bxvd = (bxvd) bocq.mo74142c(5);
-        bxvd.mo73625a((bxvk) bocq);
+        bxvd.mo73625a((GeneratedMessageLite) bocq);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

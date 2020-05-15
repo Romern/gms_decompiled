@@ -14,7 +14,7 @@ public final class fgh {
     static final String[] f16500a = {"com.google.android.webview", "com.android.webview"};
 
     /* renamed from: b */
-    public static final sek f16501b = ffw.m11631a("RequestContextHelper");
+    public static final Logger f16501b = ffw.m11631a("RequestContextHelper");
 
     /* renamed from: e */
     private static final bmzi f16502e = bmzn.m108682a(fgf.f16497a, 1, TimeUnit.HOURS);
@@ -146,7 +146,7 @@ public final class fgh {
             bsyi bsyi2 = (bsyi) da.mo74062i();
             bsyi2.getClass();
             if (!bsvm.f147295b.mo73666a()) {
-                bsvm.f147295b = bxvk.m124021a(bsvm.f147295b);
+                bsvm.f147295b = GeneratedMessageLite.m124021a(bsvm.f147295b);
             }
             bsvm.f147295b.add(bsyi2);
         }
@@ -169,7 +169,7 @@ public final class fgh {
             bsyh bsyh2 = (bsyh) da2.mo74062i();
             bsyh2.getClass();
             if (!bsvm2.f147296c.mo73666a()) {
-                bsvm2.f147296c = bxvk.m124021a(bsvm2.f147296c);
+                bsvm2.f147296c = GeneratedMessageLite.m124021a(bsvm2.f147296c);
             }
             bsvm2.f147296c.add(bsyh2);
         }

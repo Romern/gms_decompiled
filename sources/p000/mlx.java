@@ -50,7 +50,7 @@ public final class mlx extends mjk implements mlh {
             SequenceInputStream sequenceInputStream = new SequenceInputStream(new ByteArrayInputStream(new byte[]{(byte) inputStream.read()}), inputStream);
             mlq mlq = this.f33979e;
             mlq.f33956a.mo25412b("sendStream", new Object[0]);
-            sdo.m34966a(sequenceInputStream, "Cannot create Payload.Stream from null InputStream.");
+            sdo.checkIfNull(sequenceInputStream, "Cannot create Payload.Stream from null InputStream.");
             ahiq a = ahiq.m55838a(new ahip(null, sequenceInputStream), ahiq.m55836a());
             mlq.f33959d.put(a.f67251a, mjm);
             mlq.mo20153a(a);
@@ -82,7 +82,7 @@ public final class mlx extends mjk implements mlh {
             mpn2.getClass();
             mpm2.f34184e = mpn2;
             mpm2.f34180a |= 8;
-            mo20104c(((mpm) da.mo74062i()).mo73642k());
+            mo20104c(((mpm) da.mo74062i()).serializeToBytes());
         }
     }
 

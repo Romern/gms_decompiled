@@ -86,14 +86,14 @@ final class aqbw {
             if (arrayList.size() < aqbv.f85614a.f85696b.size()) {
                 aqcr aqcr3 = aqbv.f85614a;
                 bxvd bxvd = (bxvd) aqcr3.mo74142c(5);
-                bxvd.mo73625a((bxvk) aqcr3);
+                bxvd.mo73625a((GeneratedMessageLite) aqcr3);
                 aqcq aqcq2 = (aqcq) bxvd;
                 if (aqcq2.f164950c) {
                     aqcq2.mo74035c();
                     aqcq2.f164950c = false;
                 }
                 aqcr aqcr4 = aqcr.f85693e;
-                ((aqcr) aqcq2.f164949b).f85696b = bxvk.m124030de();
+                ((aqcr) aqcq2.f164949b).f85696b = GeneratedMessageLite.m124030de();
                 aqcq2.mo47755a(arrayList);
                 aqbv.f85614a = (aqcr) aqcq2.mo74062i();
             }

@@ -38,7 +38,7 @@ public final class bjmx extends bjhs {
         }
         bwqs bwqs = (bwqs) da.f164949b;
         if (!bwqs.f160720a.mo73666a()) {
-            bwqs.f160720a = bxvk.m124021a(bwqs.f160720a);
+            bwqs.f160720a = GeneratedMessageLite.m124021a(bwqs.f160720a);
         }
         bxsy.m123078a(list, bwqs.f160720a);
         return (bwqs) da.mo74062i();

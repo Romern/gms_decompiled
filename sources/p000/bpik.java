@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpik */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpik extends bxvk implements bxxd {
+public final class bpik extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: s */
     public static final bpik f137757s;
@@ -67,7 +67,7 @@ public final class bpik extends bxvk implements bxxd {
     static {
         bpik bpik = new bpik();
         f137757s = bpik;
-        bxvk.m124024a(bpik.class, bpik);
+        GeneratedMessageLite.m124024a(bpik.class, bpik);
     }
 
     private bpik() {
@@ -84,7 +84,7 @@ public final class bpik extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f137757s, "\u0001\u0011\u0000\u0001\u0001 \u0011\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\nဉ\u0002\u000bဉ\u0004\rဉ\u0005\u0014ဉ\u0003\u0015ဉ\u0006\u0016ဉ\u0007\u0018ဉ\b\u0019ဉ\t\u001aဉ\n\u001bဉ\u000b\u001cဉ\f\u001dဉ\r\u001eဉ\u000e\u001fဉ\u000f ဉ\u0010", new Object[]{"a", "b", "c", "d", "f", "g", "e", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r"});
+            return GeneratedMessageLite.m124022a(f137757s, "\u0001\u0011\u0000\u0001\u0001 \u0011\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\nဉ\u0002\u000bဉ\u0004\rဉ\u0005\u0014ဉ\u0003\u0015ဉ\u0006\u0016ဉ\u0007\u0018ဉ\b\u0019ဉ\t\u001aဉ\n\u001bဉ\u000b\u001cဉ\f\u001dဉ\r\u001eဉ\u000e\u001fဉ\u000f ဉ\u0010", new Object[]{"a", "b", "c", "d", "f", "g", "e", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r"});
         } else if (i2 == 3) {
             return new bpik();
         } else {

@@ -13,7 +13,7 @@ final /* synthetic */ class hkf implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = hkh.f19936a;
+        Logger Logger = hkh.f19936a;
         SignInCredential signInCredential = ((InternalSignInCredentialWrapper) obj).f10233g;
         if (signInCredential.f10253f != null) {
             return Integer.valueOf(signInCredential.mo7495a());

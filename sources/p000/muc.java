@@ -74,7 +74,7 @@ public final class muc {
             List list = mub.f34739b;
             if (list != null) {
                 if (!mql.f34315d.mo73666a()) {
-                    mql.f34315d = bxvk.m124021a(mql.f34315d);
+                    mql.f34315d = GeneratedMessageLite.m124021a(mql.f34315d);
                 }
                 bxsy.m123078a(list, mql.f34315d);
             }
@@ -86,7 +86,7 @@ public final class muc {
         }
         mqo mqo2 = (mqo) da.f164949b;
         if (!mqo2.f34331b.mo73666a()) {
-            mqo2.f34331b = bxvk.m124021a(mqo2.f34331b);
+            mqo2.f34331b = GeneratedMessageLite.m124021a(mqo2.f34331b);
         }
         bxsy.m123078a(arrayList, mqo2.f34331b);
         if (a.f164950c) {
@@ -105,11 +105,11 @@ public final class muc {
     /* renamed from: a */
     public final void mo20245a(mqk mqk, mqj mqj) {
         if (!ccli.f179330a.mo6606a().mo76270c()) {
-            f34740a.mo25409a("Logging is disabled.", new Object[0]);
+            f34740a.logVerbose("Logging is disabled.", new Object[0]);
             return;
         }
-        f34740a.mo25409a("Logging to Clearcut eventCode: %s, flowId: %d, event: %s", mqj, Integer.valueOf(this.f34743d), mqk);
-        qwo a = this.f34742c.mo24335a(mqk.mo73642k());
+        f34740a.logVerbose("Logging to Clearcut eventCode: %s, flowId: %d, event: %s", mqj, Integer.valueOf(this.f34743d), mqk);
+        qwo a = this.f34742c.mo24335a(mqk.serializeToBytes());
         a.mo24328b(mqj.f34275R);
         a.mo24323a((long) this.f34743d);
         a.mo24327b();

@@ -17,7 +17,7 @@ public final class cbdz extends bxvd implements bxxd {
         cbea cbea2 = cbea.f176814b;
         cbds.getClass();
         if (!cbea.f176816a.mo73666a()) {
-            cbea.f176816a = bxvk.m124021a(cbea.f176816a);
+            cbea.f176816a = GeneratedMessageLite.m124021a(cbea.f176816a);
         }
         cbea.f176816a.add(cbds);
     }

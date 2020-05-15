@@ -43,7 +43,7 @@ public final class asbj extends AsyncTask {
     public asbj(AccountChallengeWebView accountChallengeWebView, String str, String str2) {
         this.f88658a = accountChallengeWebView;
         this.f88659b = str;
-        sdo.m34966a((Object) str2, (Object) "authCode cannot be null.");
+        sdo.checkIfNull((Object) str2, (Object) "authCode cannot be null.");
         this.f88660c = str2;
     }
 
@@ -55,7 +55,7 @@ public final class asbj extends AsyncTask {
             Context context = this.f88664g;
             String str = this.f88659b;
             String str2 = this.f88660c;
-            sek sek = AccountChallengeWebView.f108239a;
+            Logger Logger = AccountChallengeWebView.f108239a;
             sdp = new asbg(context, str, str2);
         } else if (!TextUtils.isEmpty(this.f88661d)) {
             Context context2 = this.f88664g;
@@ -63,14 +63,14 @@ public final class asbj extends AsyncTask {
             String str4 = this.f88661d;
             String str5 = this.f88662e;
             String str6 = this.f88663f;
-            sek sek2 = AccountChallengeWebView.f108239a;
+            Logger logger2 = AccountChallengeWebView.f108239a;
             sdp = new asbh(context2, str3, str4, str5, str6);
         } else {
             sdp = null;
         }
         if (sdp != null) {
             AccountChallengeWebView accountChallengeWebView = this.f88658a;
-            sek sek3 = AccountChallengeWebView.f108239a;
+            Logger logger3 = AccountChallengeWebView.f108239a;
             accountChallengeWebView.mo59182g();
             AccountChallengeWebView.m92965a(sdp);
             return null;
@@ -97,7 +97,7 @@ public final class asbj extends AsyncTask {
     public asbj(AccountChallengeWebView accountChallengeWebView, String str, String str2, String str3, String str4) {
         this.f88658a = accountChallengeWebView;
         this.f88659b = str;
-        sdo.m34966a((Object) str2, (Object) "credentials cannot be null.");
+        sdo.checkIfNull((Object) str2, (Object) "credentials cannot be null.");
         this.f88661d = str2;
         this.f88662e = str3;
         this.f88663f = str4;

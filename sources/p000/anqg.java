@@ -15,7 +15,7 @@ public final class anqg {
     private final Set f77452b = new LinkedHashSet();
 
     public anqg(Audience audience) {
-        sdo.m34966a(audience, "Audience must not be null.");
+        sdo.checkIfNull(audience, "Audience must not be null.");
         this.f77451a = audience;
     }
 
@@ -31,7 +31,7 @@ public final class anqg {
 
     /* renamed from: a */
     public final void mo42124a(Audience audience, Object obj) {
-        sdo.m34966a(audience, "Audience must not be null.");
+        sdo.checkIfNull(audience, "Audience must not be null.");
         this.f77451a = audience;
         for (anqf anqf : this.f77452b) {
             anqf.mo42031a(obj);

@@ -15,7 +15,7 @@ public final class ipx {
     public final SharedPreferences f21535b;
 
     /* renamed from: c */
-    public final sek f21536c = new sek(new String[]{"ClientDirectiveStore"}, (byte[]) null);
+    public final Logger f21536c = new Logger(new String[]{"ClientDirectiveStore"}, (byte[]) null);
 
     /* renamed from: d */
     private final int f21537d;

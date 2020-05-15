@@ -25,10 +25,10 @@ public interface bafv extends Closeable {
     void mo55688a(bany bany, badr badr, long j, int i, long j2, long j3);
 
     /* renamed from: a */
-    void mo55689a(bany bany, bxtx bxtx, long j);
+    void mo55689a(bany bany, ByteString bxtx, long j);
 
     /* renamed from: a */
-    void mo55690a(bany bany, bxtx bxtx, long j, String str);
+    void mo55690a(bany bany, ByteString bxtx, long j, String str);
 
     /* renamed from: a */
     void mo55691a(bany bany, byjj byjj);

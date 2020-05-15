@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amla */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amla extends bxvk implements bxxd {
+public final class amla extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final amla f75146d;
@@ -22,7 +22,7 @@ public final class amla extends bxvk implements bxxd {
     static {
         amla amla = new amla();
         f75146d = amla;
-        bxvk.m124024a(amla.class, amla);
+        GeneratedMessageLite.m124024a(amla.class, amla);
     }
 
     private amla() {
@@ -39,7 +39,7 @@ public final class amla extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75146d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", amjy.f75043a, "c"});
+            return GeneratedMessageLite.m124022a(f75146d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", amjy.f75043a, "c"});
         } else if (i2 == 3) {
             return new amla();
         } else {

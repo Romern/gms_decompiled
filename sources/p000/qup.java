@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qup */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qup extends bxvk implements bxxd {
+public final class qup extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final qup f42184a;
@@ -13,7 +13,7 @@ public final class qup extends bxvk implements bxxd {
     static {
         qup qup = new qup();
         f42184a = qup;
-        bxvk.m124024a(qup.class, qup);
+        GeneratedMessageLite.m124024a(qup.class, qup);
     }
 
     private qup() {
@@ -30,7 +30,7 @@ public final class qup extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f42184a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f42184a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new qup();

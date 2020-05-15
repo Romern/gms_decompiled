@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aafn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aafn extends bxvk implements bxxd {
+public final class aafn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final aafn f28027i;
@@ -37,7 +37,7 @@ public final class aafn extends bxvk implements bxxd {
     static {
         aafn aafn = new aafn();
         f28027i = aafn;
-        bxvk.m124024a(aafn.class, aafn);
+        GeneratedMessageLite.m124024a(aafn.class, aafn);
     }
 
     private aafn() {
@@ -55,7 +55,7 @@ public final class aafn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28027i, "\u0001\u0007\u0000\u0001\u0001\n\u0007\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဈ\u0001\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဂ\u0005\u0007ဂ\u0006\nဂ\b", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f28027i, "\u0001\u0007\u0000\u0001\u0001\n\u0007\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဈ\u0001\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဂ\u0005\u0007ဂ\u0006\nဂ\b", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new aafn();
         } else {

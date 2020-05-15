@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btrg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btrg extends bxvk implements bxxd {
+public final class btrg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final btrg f150089i;
@@ -37,7 +37,7 @@ public final class btrg extends bxvk implements bxxd {
     static {
         btrg btrg = new btrg();
         f150089i = btrg;
-        bxvk.m124024a(btrg.class, btrg);
+        GeneratedMessageLite.m124024a(btrg.class, btrg);
     }
 
     private btrg() {
@@ -54,7 +54,7 @@ public final class btrg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150089i, "\u0000\b\u0000\u0000\u0001\u0012\b\u0000\u0000\u0000\u0001Ȉ\u0003\t\u0004\t\u0005\f\t\t\f\t\u0011Ȉ\u0012\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f150089i, "\u0000\b\u0000\u0000\u0001\u0012\b\u0000\u0000\u0000\u0001Ȉ\u0003\t\u0004\t\u0005\f\t\t\f\t\u0011Ȉ\u0012\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new btrg();
         } else {

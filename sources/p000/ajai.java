@@ -243,13 +243,13 @@ public final class ajai implements aixa {
         Integer valueOf = Integer.valueOf(i);
         Integer valueOf2 = Integer.valueOf(i2);
         Double valueOf3 = Double.valueOf(d);
-        String a = boan.f132472f.mo68794a(byys2.f169006c.mo73780k());
+        String a = boan.f132472f.mo68794a(byys2.f169006c.getKey());
         String a2 = bzal.m125582a(i3);
         if (i4 != 0) {
             bnsl.mo68428a("BleDeviceCache: new Fast Pair device [%s]: rssi=%d, tx=%d, distance=%.2fm, id=%s, scanMode=%s", str, valueOf, valueOf2, valueOf3, a, a2);
             aiya aiya = this.f70252m;
             aixx aixx = new aixx();
-            bxtx bxtx = byys2.f169006c;
+            ByteString bxtx = byys2.f169006c;
             if (bxtx != null) {
                 aixx.f70039a = bxtx;
                 aixx.f70040b = valueOf;
@@ -473,7 +473,7 @@ public final class ajai implements aixa {
                         a = ajaf.mo38358a((Collection) bnon.f131923a);
                     }
                     bxvd bxvd = (bxvd) a.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a);
+                    bxvd.mo73625a((GeneratedMessageLite) a);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;

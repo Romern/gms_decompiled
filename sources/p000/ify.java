@@ -8,7 +8,7 @@ import com.felicanetworks.sdu.ErrorInfo;
 public abstract class ify extends aaab {
 
     /* renamed from: a */
-    private static final sek f20895a = new sek("CryptauthKeyServiceOperation");
+    private static final Logger f20895a = new Logger("CryptauthKeyServiceOperation");
 
     public ify(String str) {
         super(ErrorInfo.TYPE_SDU_FAILED, str);

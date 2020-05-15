@@ -33,7 +33,7 @@ public final class arim extends dck implements arin {
     public arim(arao arao) {
         super("com.google.android.gms.smartdevice.d2d.internal.ISourceBootstrapListener");
         this.f87781b = new arjm(this, Looper.getMainLooper());
-        sdo.m34966a(arao, "listener cannot be null.");
+        sdo.checkIfNull(arao, "listener cannot be null.");
         this.f87780a = arao;
     }
 

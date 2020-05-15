@@ -21,7 +21,7 @@ public final class sds {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public static Uri m34979a(String str) {
-        sdo.m34966a((Object) str, (Object) "Resource name must not be null.");
+        sdo.checkIfNull((Object) str, (Object) "Resource name must not be null.");
         return f44073a.buildUpon().appendPath(str).build();
     }
 }

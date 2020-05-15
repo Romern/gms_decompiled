@@ -17,7 +17,7 @@ public final class bqna extends bxvd implements bxxd {
         bqnb bqnb2 = bqnb.f141289f;
         bqmm.getClass();
         if (!bqnb.f141295e.mo73666a()) {
-            bqnb.f141295e = bxvk.m124021a(bqnb.f141295e);
+            bqnb.f141295e = GeneratedMessageLite.m124021a(bqnb.f141295e);
         }
         bqnb.f141295e.add(bqmm);
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzir */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzir extends bxvk implements bxxd {
+public final class bzir extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bzir f170226b;
@@ -16,7 +16,7 @@ public final class bzir extends bxvk implements bxxd {
     static {
         bzir bzir = new bzir();
         f170226b = bzir;
-        bxvk.m124024a(bzir.class, bzir);
+        GeneratedMessageLite.m124024a(bzir.class, bzir);
     }
 
     private bzir() {
@@ -33,7 +33,7 @@ public final class bzir extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f170226b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bzio.class});
+            return GeneratedMessageLite.m124022a(f170226b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bzio.class});
         } else if (i2 == 3) {
             return new bzir();
         } else {

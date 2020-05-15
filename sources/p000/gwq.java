@@ -16,7 +16,7 @@ final /* synthetic */ class gwq implements gwu {
     public final void mo12286a(Status status, Object obj) {
         rnt rnt = this.f19129a;
         Void voidR = (Void) obj;
-        sek sek = gwt.f19132a;
+        Logger Logger = gwt.f19132a;
         rnt.mo11797a(status);
     }
 }

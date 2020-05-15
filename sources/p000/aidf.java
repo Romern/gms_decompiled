@@ -109,7 +109,7 @@ public final class aidf {
     public final synchronized aucb mo37437a(rjx rjx, roh roh, rpf rpf) {
         aucb a;
         rob a2 = roh.mo24969a();
-        sdo.m34966a(a2, "Key must not be null");
+        sdo.checkIfNull(a2, "Key must not be null");
         this.f68795c.add(a2);
         a = rjx.mo24699a(roh, rpf);
         a.mo50372a(new aidd(this, rjx, a2));
@@ -131,7 +131,7 @@ public final class aidf {
         rod a;
         a = rjx.mo24714a(obj, str);
         rob rob = a.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         Set set = (Set) this.f68794b.get(str);
         if (set == null) {
             set = new C1225nr();

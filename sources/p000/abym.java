@@ -241,7 +241,7 @@ public final class abym {
         long d = cema.m137237d();
         if (mo32452a(d)) {
             bxvd bxvd = (bxvd) bpyu.mo74142c(5);
-            bxvd.mo73625a((bxvk) bpyu);
+            bxvd.mo73625a((GeneratedMessageLite) bpyu);
             int a = m48546a(bpyu.f139937b);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -407,7 +407,7 @@ public final class abym {
                 }
                 bpxg bpxg4 = (bpxg) da.f164949b;
                 if (!bpxg4.f139707h.mo73666a()) {
-                    bpxg4.f139707h = bxvk.m124019a(bpxg4.f139707h);
+                    bpxg4.f139707h = GeneratedMessageLite.m124019a(bpxg4.f139707h);
                 }
                 Iterator it = set.iterator();
                 while (it.hasNext()) {

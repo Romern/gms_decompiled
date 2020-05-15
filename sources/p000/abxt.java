@@ -246,7 +246,7 @@ public final class abxt {
             if (cemz.m137436b()) {
                 if (f58698d == null) {
                     try {
-                        f58698d = new abxt((abvh) bxvk.m124010a(abvh.f58535c, context.openFileInput("icing-predefined-type-configs")));
+                        f58698d = new abxt((abvh) GeneratedMessageLite.m124010a(abvh.f58535c, context.openFileInput("icing-predefined-type-configs")));
                     } catch (IOException e) {
                         f58698d = new abxt(m48508c().mo32420a());
                     }

@@ -12,7 +12,7 @@ final /* synthetic */ class abjg implements bmxj {
     public final Object apply(Object obj) {
         bsmi bsmi = (bsmi) obj;
         if ((bsmi.f145033a & 1) != 0) {
-            return bsmi.f145034b.mo73780k();
+            return bsmi.f145034b.getKey();
         }
         return null;
     }

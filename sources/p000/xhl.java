@@ -9,7 +9,7 @@ import java.net.URISyntaxException;
 public class xhl {
 
     /* renamed from: b */
-    private static final sek f52299b = new sek(new String[]{"FidoApiImpl"}, (short[]) null);
+    private static final Logger f52299b = new Logger(new String[]{"FidoApiImpl"}, (short[]) null);
 
     /* renamed from: a */
     public xhp f52300a;
@@ -42,12 +42,12 @@ public class xhl {
 
     /* renamed from: a */
     public final void mo29750a(StateUpdate stateUpdate) {
-        sek sek = f52299b;
+        Logger Logger = f52299b;
         String valueOf = String.valueOf(stateUpdate.f31875e);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 32);
         sb.append("updateTransaction is called for ");
         sb.append(valueOf);
-        sek.mo25414c(sb.toString(), new Object[0]);
+        Logger.mo25414c(sb.toString(), new Object[0]);
         StateUpdate.Type type = StateUpdate.Type.CANCEL;
         switch (stateUpdate.f31875e.ordinal()) {
             case 0:

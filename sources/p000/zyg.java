@@ -97,6 +97,6 @@ public final class zyg {
     /* renamed from: a */
     public final void mo31588a(brtt brtt) {
         zyh.m46683c("FontsClearcutWrapper", "Logging to Clearcut %s", brtt.toString());
-        this.f56174a.mo24335a(brtt.mo73642k()).mo24327b();
+        this.f56174a.mo24335a(brtt.serializeToBytes()).mo24327b();
     }
 }

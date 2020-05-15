@@ -1056,7 +1056,7 @@ public final class axbr extends bkdx implements bkdb, bkfe, bjwt, bjwp {
             bmgl.f129267a |= 1;
             bmgl.f129268b = str;
             if (bmgk.f129250d.mo73744a() > 0) {
-                bxtx bxtx = bmgk.f129250d;
+                ByteString bxtx = bmgk.f129250d;
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -1186,7 +1186,7 @@ public final class axbr extends bkdx implements bkdb, bkfe, bjwt, bjwp {
         }
         bmgo bmgo3 = (bmgo) da.f164949b;
         if (!bmgo3.f129294c.mo73666a()) {
-            bmgo3.f129294c = bxvk.m124020a(bmgo3.f129294c);
+            bmgo3.f129294c = GeneratedMessageLite.m124020a(bmgo3.f129294c);
         }
         bxsy.m123078a(arrayList, bmgo3.f129294c);
         if (da.f164950c) {
@@ -1195,7 +1195,7 @@ public final class axbr extends bkdx implements bkdb, bkfe, bjwt, bjwp {
         }
         bmgo bmgo4 = (bmgo) da.f164949b;
         if (!bmgo4.f129295d.mo73666a()) {
-            bmgo4.f129295d = bxvk.m124020a(bmgo4.f129295d);
+            bmgo4.f129295d = GeneratedMessageLite.m124020a(bmgo4.f129295d);
         }
         bxsy.m123078a(arrayList2, bmgo4.f129295d);
         return (bmgo) da.mo74062i();

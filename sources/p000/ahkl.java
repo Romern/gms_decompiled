@@ -204,7 +204,7 @@ public final class ahkl {
             bxvu bxvu = bveq.f155770e;
             bvef.getClass();
             if (!bveq.f155778g.mo73666a()) {
-                bveq.f155778g = bxvk.m124021a(bveq.f155778g);
+                bveq.f155778g = GeneratedMessageLite.m124021a(bveq.f155778g);
             }
             bveq.f155778g.add(bvef);
             this.f67361m = null;
@@ -238,7 +238,7 @@ public final class ahkl {
             bxvu bxvu = bveq.f155770e;
             bvel.getClass();
             if (!bveq.f155777f.mo73666a()) {
-                bveq.f155777f = bxvk.m124021a(bveq.f155777f);
+                bveq.f155777f = GeneratedMessageLite.m124021a(bveq.f155777f);
             }
             bveq.f155777f.add(bvel);
             this.f67362n = null;
@@ -308,7 +308,7 @@ public final class ahkl {
             bveh bveh2 = bveh.f155721d;
             bveq2.getClass();
             if (!bveh.f155725c.mo73666a()) {
-                bveh.f155725c = bxvk.m124021a(bveh.f155725c);
+                bveh.f155725c = GeneratedMessageLite.m124021a(bveh.f155725c);
             }
             bveh.f155725c.add(bveq2);
             this.f67355g = null;
@@ -357,7 +357,7 @@ public final class ahkl {
         bxvu bxvu = bveq.f155770e;
         bveg5.getClass();
         if (!bveq.f155781j.mo73666a()) {
-            bveq.f155781j = bxvk.m124021a(bveq.f155781j);
+            bveq.f155781j = GeneratedMessageLite.m124021a(bveq.f155781j);
         }
         bveq.f155781j.add(bveg5);
     }
@@ -474,7 +474,7 @@ public final class ahkl {
             bvel bvel2 = bvel.f155746f;
             bvej.getClass();
             if (!bvel.f155752e.mo73666a()) {
-                bvel.f155752e = bxvk.m124021a(bvel.f155752e);
+                bvel.f155752e = GeneratedMessageLite.m124021a(bvel.f155752e);
             }
             bvel.f155752e.add(bvej);
             return true;
@@ -584,7 +584,7 @@ public final class ahkl {
             }
             bvel bvel = (bvel) da.f164949b;
             if (!bvel.f155750c.mo73666a()) {
-                bvel.f155750c = bxvk.m124019a(bvel.f155750c);
+                bvel.f155750c = GeneratedMessageLite.m124019a(bvel.f155750c);
             }
             int size = list.size();
             for (int i = 0; i < size; i++) {
@@ -720,7 +720,7 @@ public final class ahkl {
             bvef bvef2 = bvef.f155706e;
             bvej.getClass();
             if (!bvef.f155711d.mo73666a()) {
-                bvef.f155711d = bxvk.m124021a(bvef.f155711d);
+                bvef.f155711d = GeneratedMessageLite.m124021a(bvef.f155711d);
             }
             bvef.f155711d.add(bvej);
             return true;
@@ -803,7 +803,7 @@ public final class ahkl {
             }
             bvef bvef = (bvef) da.f164949b;
             if (!bvef.f155710c.mo73666a()) {
-                bvef.f155710c = bxvk.m124019a(bvef.f155710c);
+                bvef.f155710c = GeneratedMessageLite.m124019a(bvef.f155710c);
             }
             int size = list.size();
             for (int i = 0; i < size; i++) {
@@ -998,7 +998,7 @@ public final class ahkl {
             bvel bvel2 = bvel.f155746f;
             bvek3.getClass();
             if (!bvel.f155751d.mo73666a()) {
-                bvel.f155751d = bxvk.m124021a(bvel.f155751d);
+                bvel.f155751d = GeneratedMessageLite.m124021a(bvel.f155751d);
             }
             bvel.f155751d.add(bvek3);
         }

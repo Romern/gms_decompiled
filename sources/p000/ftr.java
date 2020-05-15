@@ -178,6 +178,6 @@ public final class ftr {
         fsa.f17179b = true;
         fsa.f17183f = str;
         fsa.f17178a = "blob";
-        return new DocumentSection(cixm.mo73642k(), fsa.mo11234a());
+        return new DocumentSection(cixm.serializeToBytes(), fsa.mo11234a());
     }
 }

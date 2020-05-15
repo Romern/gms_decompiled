@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ajnl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ajnl extends bxvk implements bxxd {
+public final class ajnl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final ajnl f70979f;
@@ -28,7 +28,7 @@ public final class ajnl extends bxvk implements bxxd {
     static {
         ajnl ajnl = new ajnl();
         f70979f = ajnl;
-        bxvk.m124024a(ajnl.class, ajnl);
+        GeneratedMessageLite.m124024a(ajnl.class, ajnl);
     }
 
     private ajnl() {
@@ -45,7 +45,7 @@ public final class ajnl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f70979f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0003ဈ\u0000\u0004\u001b", new Object[]{"a", "b", ajnh.class, "c", ajnt.class, "d", "e", ajoa.class});
+            return GeneratedMessageLite.m124022a(f70979f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0003ဈ\u0000\u0004\u001b", new Object[]{"a", "b", ajnh.class, "c", ajnt.class, "d", "e", ajoa.class});
         } else if (i2 == 3) {
             return new ajnl();
         } else {

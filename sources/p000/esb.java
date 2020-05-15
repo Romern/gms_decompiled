@@ -147,10 +147,10 @@ public final class esb implements ero {
     public final void mo10455c(ffk ffk, bsxn bsxn, esr esr) {
         esp esp = new esp(ffk, bsxn, esr, this.f15591a, this.f15594d, this.f15595e, (eor) this.f15597g.mo6606a(), this.f15596f);
         if (((eps) esp.f15632k.mo2448b()).f15497a) {
-            esp.f15622a.mo25409a("loadScreenGraph root request ongoing already for %s", Integer.valueOf(esp.f15624c.f147589b));
+            esp.f15622a.logVerbose("loadScreenGraph root request ongoing already for %s", Integer.valueOf(esp.f15624c.f147589b));
             return;
         }
-        esp.f15622a.mo25409a("loadScreenGraph root for %s", Integer.valueOf(esp.f15624c.f147589b));
+        esp.f15622a.logVerbose("loadScreenGraph root for %s", Integer.valueOf(esp.f15624c.f147589b));
         esp.f15631j = null;
         if (ffr.m11620a(esp.f15623b)) {
             bsxn bsxn2 = esp.f15624c;

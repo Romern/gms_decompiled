@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abdl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abdl extends bxvk implements bxxd {
+public final class abdl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final abdl f57099a;
@@ -13,7 +13,7 @@ public final class abdl extends bxvk implements bxxd {
     static {
         abdl abdl = new abdl();
         f57099a = abdl;
-        bxvk.m124024a(abdl.class, abdl);
+        GeneratedMessageLite.m124024a(abdl.class, abdl);
     }
 
     private abdl() {
@@ -31,7 +31,7 @@ public final class abdl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57099a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f57099a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new abdl();

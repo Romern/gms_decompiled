@@ -147,7 +147,7 @@ public final class ahjo extends aigk {
 
     /* renamed from: a */
     private static void m55881a(Object obj, String str) {
-        sdo.m34966a(obj, str.concat(" requires a non-null callback object"));
+        sdo.checkIfNull(obj, str.concat(" requires a non-null callback object"));
     }
 
     /* renamed from: b */
@@ -263,7 +263,7 @@ public final class ahjo extends aigk {
     /* renamed from: a */
     public final void mo36590a(AcceptConnectionRequestParams acceptConnectionRequestParams) {
         if (acceptConnectionRequestParams.f80562e == null) {
-            sdo.m34966a(acceptConnectionRequestParams.f80559b, "AcceptConnection requires either a ConnectionEventListener or PayloadListener but neither was found.");
+            sdo.checkIfNull(acceptConnectionRequestParams.f80559b, "AcceptConnection requires either a ConnectionEventListener or PayloadListener but neither was found.");
             aigr aigr = acceptConnectionRequestParams.f80558a;
             ahjj ahjj = this.f67286g;
             if (ahjj != null) {
@@ -288,7 +288,7 @@ public final class ahjo extends aigk {
     /* renamed from: a */
     public final void mo36591a(CancelPayloadParams cancelPayloadParams) {
         m55881a(cancelPayloadParams.f80563a, "cancelPayload()");
-        sdo.m34966a(Long.valueOf(cancelPayloadParams.f80564b), "Must specify a Payload to cancel.");
+        sdo.checkIfNull(Long.valueOf(cancelPayloadParams.f80564b), "Must specify a Payload to cancel.");
         ahki ahki = this.f67280a;
         ahki.mo36637a(cancelPayloadParams.f80563a, new ahjt(ahki, this.f67281b, cancelPayloadParams));
     }
@@ -368,8 +368,8 @@ public final class ahjo extends aigk {
     /* renamed from: a */
     public final void mo36596a(SendConnectionRequestParams sendConnectionRequestParams) {
         if (sendConnectionRequestParams.f80621g == null) {
-            sdo.m34966a(sendConnectionRequestParams.f80616b, "SendConnectionRequest requires either a ConnectionEventListener or ConnectionLifecycleListener but neither was found.");
-            sdo.m34966a(sendConnectionRequestParams.f80617c, "SendConnectionRequest requires either a ConnectionResponseListener or ConnectionLifecycleListener but neither was found.");
+            sdo.checkIfNull(sendConnectionRequestParams.f80616b, "SendConnectionRequest requires either a ConnectionEventListener or ConnectionLifecycleListener but neither was found.");
+            sdo.checkIfNull(sendConnectionRequestParams.f80617c, "SendConnectionRequest requires either a ConnectionResponseListener or ConnectionLifecycleListener but neither was found.");
             aiig aiig = new aiig(sendConnectionRequestParams);
             aiig.mo37521a((aifv) null);
             aiig.mo37523a((aigb) null);
@@ -410,9 +410,9 @@ public final class ahjo extends aigk {
         }
         sdo.m34975b(z, "remoteEndpointIds cannot be empty");
         ParcelablePayload parcelablePayload = sendPayloadParams.f80626c;
-        sdo.m34966a(parcelablePayload, "Payload cannot be null");
+        sdo.checkIfNull(parcelablePayload, "Payload cannot be null");
         if (parcelablePayload.f80606b == 1) {
-            sdo.m34966a(parcelablePayload.f80607c, "Payload bytes cannot be null");
+            sdo.checkIfNull(parcelablePayload.f80607c, "Payload bytes cannot be null");
             m55882a(parcelablePayload.f80607c, (int) AndroidInputTypeSignal.TYPE_TEXT_FLAG_AUTO_CORRECT);
         }
         ahki ahki = this.f67280a;
@@ -451,7 +451,7 @@ public final class ahjo extends aigk {
             sdo.m34969a(startAdvertisingParams.f80631d, (Object) "You must provide a non-empty service ID for advertising");
         }
         if (startAdvertisingParams.f80634g == null) {
-            sdo.m34966a(startAdvertisingParams.f80629b, "StartAdvertising requires either an AdvertisingCallback or ConnectionLifecycleListener but neither was found.");
+            sdo.checkIfNull(startAdvertisingParams.f80629b, "StartAdvertising requires either an AdvertisingCallback or ConnectionLifecycleListener but neither was found.");
             this.f67286g = new ahjj(startAdvertisingParams.f80629b);
             aiik aiik2 = new aiik(startAdvertisingParams);
             aiik2.mo37535a((aifs) null);
@@ -476,7 +476,7 @@ public final class ahjo extends aigk {
             if (str != null) {
                 bArr = str.getBytes();
             }
-            sdo.m34966a(bArr, "Either endpoint name or info must not be null");
+            sdo.checkIfNull(bArr, "Either endpoint name or info must not be null");
             int length = bArr.length;
             if (length <= 17) {
                 z = true;
@@ -528,7 +528,7 @@ public final class ahjo extends aigk {
     /* renamed from: a */
     public final void mo36599a(StartDiscoveryParams startDiscoveryParams) {
         if (startDiscoveryParams.f80641f == null) {
-            sdo.m34966a(startDiscoveryParams.f80637b, "StartDiscovery requires either an DiscoveryCallback or DiscoveryListener but neither was found.");
+            sdo.checkIfNull(startDiscoveryParams.f80637b, "StartDiscovery requires either an DiscoveryCallback or DiscoveryListener but neither was found.");
             aiim aiim = new aiim(startDiscoveryParams);
             aiim.mo37543a((aige) null);
             aiim.mo37544a(new ahiz(startDiscoveryParams.f80637b));

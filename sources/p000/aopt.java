@@ -32,7 +32,7 @@ final /* synthetic */ class aopt implements bmxj {
         aorx aorx = (aorx) obj;
         atomicReference.set(aorx);
         bxvd bxvd = (bxvd) aorw.mo74142c(5);
-        bxvd.mo73625a((bxvk) aorw);
+        bxvd.mo73625a((GeneratedMessageLite) aorw);
         String b = aopu.m66279b(str, str2);
         b.getClass();
         aorx.getClass();

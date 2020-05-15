@@ -83,11 +83,11 @@ public class TargetDeviceApiService extends zzx {
             armn.f87916g = new armp(boul.f134940e.mo74144da());
             armn.f87917h = new armt(b.f87890a);
             bxvd bxvd = armn.f87923n;
-            bxvd.f164949b = (bxvk) bxvd.f164949b.mo74142c(4);
+            bxvd.f164949b = (GeneratedMessageLite) bxvd.f164949b.mo74142c(4);
             bxvd bxvd2 = armn.f87920k;
-            bxvd2.f164949b = (bxvk) bxvd2.f164949b.mo74142c(4);
+            bxvd2.f164949b = (GeneratedMessageLite) bxvd2.f164949b.mo74142c(4);
             bxvd bxvd3 = armn.f87921l;
-            bxvd3.f164949b = (bxvk) bxvd3.f164949b.mo74142c(4);
+            bxvd3.f164949b = (GeneratedMessageLite) bxvd3.f164949b.mo74142c(4);
             armn.f87918i = new armq(armn.f87915f);
             armn.f87919j = new armr();
         }

@@ -14,7 +14,7 @@ import org.json.JSONObject;
 public final class ihc {
 
     /* renamed from: b */
-    public static final sek f21003b = new sek("ScreenlockStateHistoryManager");
+    public static final Logger f21003b = new Logger("ScreenlockStateHistoryManager");
 
     /* renamed from: a */
     public final SharedPreferences f21004a;

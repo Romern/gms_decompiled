@@ -39,13 +39,13 @@ public final class mce {
     /* renamed from: c */
     public static void m24862c() {
         int i = Build.VERSION.SDK_INT;
-        f33399a.mo25409a("Using O+ request backup api", new Object[0]);
+        f33399a.logVerbose("Using O+ request backup api", new Object[0]);
     }
 
     /* renamed from: d */
     public static void m24864d() {
         int i = Build.VERSION.SDK_INT;
-        f33399a.mo25409a("Using O+ select transport api", new Object[0]);
+        f33399a.logVerbose("Using O+ select transport api", new Object[0]);
     }
 
     /* renamed from: a */
@@ -99,7 +99,7 @@ public final class mce {
     public static void m24860b(Context context) {
         try {
             File a = m24856a(context);
-            f33399a.mo25409a("Clearing migrate temp dir: %s", a.getAbsolutePath());
+            f33399a.logVerbose("Clearing migrate temp dir: %s", a.getAbsolutePath());
             srj.m36120a(a);
         } catch (mcd e) {
             f33399a.mo25417e("Couldn't clear temp directory", e, new Object[0]);

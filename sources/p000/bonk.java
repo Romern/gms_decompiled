@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bonk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bonk extends bxvk implements bxxd {
+public final class bonk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bonk f133815e;
@@ -28,10 +28,10 @@ public final class bonk extends bxvk implements bxxd {
     static {
         bonk bonk = new bonk();
         f133815e = bonk;
-        bxvk.m124024a(bonk.class, bonk);
+        GeneratedMessageLite.m124024a(bonk.class, bonk);
         bygn bygn = bygn.f166357a;
         bonk bonk2 = f133815e;
-        f133816f = bxvk.m124006a(bygn, bonk2, bonk2, 78432438, bxzf.MESSAGE);
+        f133816f = GeneratedMessageLite.m124006a(bygn, bonk2, bonk2, 78432438, bxzf.MESSAGE);
     }
 
     private bonk() {
@@ -48,7 +48,7 @@ public final class bonk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133815e, "\u0001\u0003\u0000\u0001\u0001\u0006\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဈ\u0000\u0006ဈ\u0001", new Object[]{"a", "b", boni.class, "c", "d"});
+            return GeneratedMessageLite.m124022a(f133815e, "\u0001\u0003\u0000\u0001\u0001\u0006\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဈ\u0000\u0006ဈ\u0001", new Object[]{"a", "b", boni.class, "c", "d"});
         } else if (i2 == 3) {
             return new bonk();
         } else {

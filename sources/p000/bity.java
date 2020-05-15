@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bity */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bity extends bxvk implements bxxd {
+public final class bity extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bity f121743f;
@@ -31,7 +31,7 @@ public final class bity extends bxvk implements bxxd {
     static {
         bity bity = new bity();
         f121743f = bity;
-        bxvk.m124024a(bity.class, bity);
+        GeneratedMessageLite.m124024a(bity.class, bity);
     }
 
     private bity() {
@@ -52,7 +52,7 @@ public final class bity extends bxvk implements bxxd {
             this.f121750g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121743f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0003\u0001ᔌ\u0000\u0002ᔄ\u0001\u0003င\u0002\u0004ᐉ\u0003", new Object[]{"a", "b", biub.f121765a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f121743f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0003\u0001ᔌ\u0000\u0002ᔄ\u0001\u0003င\u0002\u0004ᐉ\u0003", new Object[]{"a", "b", biub.f121765a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new bity();
         } else {

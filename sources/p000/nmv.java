@@ -403,7 +403,7 @@ public final class nmv extends nsn implements ojv, ojn, ojo {
                 CarSensorEvent carSensorEvent8 = new CarSensorEvent(8, SystemClock.elapsedRealtimeNanos(), 0, Math.max(1, i8 + 1));
                 carSensorEvent8.f29367e[0] = (byte) i8;
                 if ((bipy.f121240a & 1) != 0) {
-                    System.arraycopy(bipy.f121241b.mo73780k(), 0, carSensorEvent8.f29367e, 1, bipy.f121241b.mo73744a());
+                    System.arraycopy(bipy.f121241b.getKey(), 0, carSensorEvent8.f29367e, 1, bipy.f121241b.mo73744a());
                 }
                 return carSensorEvent8;
             case 9:

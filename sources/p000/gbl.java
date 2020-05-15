@@ -20,7 +20,7 @@ final class gbl extends tdl {
     /* renamed from: a */
     public final void mo11623a(int i) {
         gbm gbm = this.f17835a;
-        sek sek = gbm.f17836a;
+        Logger Logger = gbm.f17836a;
         gbm.f17839d.mo26402a(gbm.f17840e, 57, 7);
         int i2 = i - 2;
         int i3 = 2;
@@ -43,7 +43,7 @@ final class gbl extends tdl {
     /* renamed from: a */
     public final void mo11624a(tdw tdw) {
         gbm gbm = this.f17835a;
-        sek sek = gbm.f17836a;
+        Logger Logger = gbm.f17836a;
         gbm.f17839d.mo26403a(gbm.f17840e, 57, 70, tdw.getMessage());
         gbf gbf = new gbf();
         gbm gbm2 = this.f17835a;

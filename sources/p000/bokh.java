@@ -16,7 +16,7 @@ public final class bokh extends bxvg implements bxvh {
     static {
         bokh bokh = new bokh();
         f133408a = bokh;
-        bxvk.m124024a(bokh.class, bokh);
+        GeneratedMessageLite.m124024a(bokh.class, bokh);
     }
 
     private bokh() {
@@ -37,7 +37,7 @@ public final class bokh extends bxvg implements bxvh {
             this.f133410b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f133408a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f133408a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new bokh();

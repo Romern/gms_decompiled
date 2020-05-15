@@ -37,7 +37,7 @@ public final class qli {
         try {
             byte[] a = sqd.m35966a(this.f41640a.getString("Chimera.moduleSetJournal", ""));
             if (a != null) {
-                return (qor) bxvk.m124016a(qor.f41889b, a, bxus.m123743b());
+                return (qor) GeneratedMessageLite.m124016a(qor.f41889b, a, bxus.m123743b());
             }
             throw new bxwf("Module set journal bytes are invalid!");
         } catch (bxwf | IllegalArgumentException e) {

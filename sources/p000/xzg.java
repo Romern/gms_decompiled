@@ -25,7 +25,7 @@ public final class xzg extends xhw implements xhq {
     public static final NfcViewOptions f53428b = new NfcViewOptions(true, false);
 
     /* renamed from: n */
-    public static final sek f53429n = new sek(new String[]{"NfcSKRequestController"}, (short[]) null);
+    public static final Logger f53429n = new Logger(new String[]{"NfcSKRequestController"}, (short[]) null);
 
     /* renamed from: c */
     public final Context f53430c;
@@ -175,7 +175,7 @@ public final class xzg extends xhw implements xhq {
 
     /* renamed from: a */
     public final boolean mo30283a(com.google.android.gms.fido.communication.channel.nfc.Tag tag) {
-        bxtx bxtx;
+        ByteString bxtx;
         xky xky;
         if (((Boolean) xmn.f52767q.mo58455c()).booleanValue()) {
             xfo xfo = this.f53434g;

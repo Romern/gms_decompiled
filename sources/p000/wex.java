@@ -18,7 +18,7 @@ final class wex extends wfr {
     public final void mo29070a(Status status, ReadDeviceLevelSettingsResult readDeviceLevelSettingsResult) {
         if (status.mo17710c()) {
             try {
-                rpc.m34202a(status, (bxok) bxvk.m124016a(bxok.f164161d, readDeviceLevelSettingsResult.f31273a, bxus.m123744c()), this.f50600a);
+                rpc.m34202a(status, (bxok) GeneratedMessageLite.m124016a(bxok.f164161d, readDeviceLevelSettingsResult.f31273a, bxus.m123744c()), this.f50600a);
             } catch (bxwf e) {
                 this.f50600a.mo50390a((Exception) e);
             }

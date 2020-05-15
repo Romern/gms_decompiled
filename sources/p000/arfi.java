@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutionException;
 public final class arfi extends arfh implements aqxy {
 
     /* renamed from: l */
-    public static final sek f87594l = ascp.m73787a("D2D", arfi.class.getSimpleName());
+    public static final Logger f87594l = ascp.m73787a("D2D", arfi.class.getSimpleName());
 
     /* renamed from: m */
     private arem f87595m;
@@ -23,7 +23,7 @@ public final class arfi extends arfh implements aqxy {
 
     /* renamed from: c */
     private final void m72649c() {
-        f87594l.mo25409a("resetBootstrapController()", new Object[0]);
+        f87594l.logVerbose("resetBootstrapController()", new Object[0]);
         arem arem = this.f87595m;
         if (arem != null) {
             arem.mo48239e();

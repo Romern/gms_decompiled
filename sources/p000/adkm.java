@@ -495,7 +495,7 @@ public final class adkm extends adge implements sjr {
             adid adid = (adid) da.f164949b;
             adid.f61778b = currentTimeMillis;
             adid.f61779c++;
-            adik.f61808c.mo33512a(bytes, ((adid) da.mo74062i()).mo73642k());
+            adik.f61808c.mo33512a(bytes, ((adid) da.mo74062i()).serializeToBytes());
         } catch (IOException e) {
             f62044a.mo33425a(e, "Unable to persist launch of app, continuing", new Object[0]);
         }
@@ -666,7 +666,7 @@ public final class adkm extends adge implements sjr {
         if (bArr != null) {
             try {
                 bxus b = bxus.m123743b();
-                this.f62055l.mo33531a(str, (adhx) bxvk.m124016a(adhx.f61745d, bArr, b));
+                this.f62055l.mo33531a(str, (adhx) GeneratedMessageLite.m124016a(adhx.f61745d, bArr, b));
                 rnt.mo11797a(Status.f30107a);
             } catch (IOException e) {
                 f62044a.mo33425a(e, "setAppOverrides", new Object[0]);

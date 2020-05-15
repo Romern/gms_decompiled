@@ -17,8 +17,8 @@ public final class xbu implements aubw {
     public final /* bridge */ /* synthetic */ void mo10462a(Object obj) {
         KeyInvalidationResult keyInvalidationResult = (KeyInvalidationResult) obj;
         int i = ((KeyInvalidationResult) this.f51895a.mo50386d()).f10540b.f30115i;
-        sek sek = xbx.f51896c;
+        Logger Logger = xbx.f51896c;
         String valueOf = String.valueOf(iov.m15809b(i));
-        sek.mo25412b(valueOf.length() == 0 ? new String("Result status of key invalidation is ") : "Result status of key invalidation is ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("Result status of key invalidation is ") : "Result status of key invalidation is ".concat(valueOf), new Object[0]);
     }
 }

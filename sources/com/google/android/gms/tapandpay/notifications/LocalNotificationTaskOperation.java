@@ -12,7 +12,7 @@ public class LocalNotificationTaskOperation implements aspm {
     public final int mo49332a(aecc aecc, Context context) {
         byte[] byteArray = aecc.f63129b.getByteArray("localNotification");
         try {
-            new atau(context).mo49771a((btqg) bxvk.m124016a(btqg.f149933q, byteArray, bxus.m123744c()));
+            new atau(context).mo49771a((btqg) GeneratedMessageLite.m124016a(btqg.f149933q, byteArray, bxus.m123744c()));
             return 0;
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) f108612a.mo68388c();

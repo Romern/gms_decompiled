@@ -147,7 +147,7 @@ public final class oyn extends omh implements ojv, ojn, ofq {
         int size = arrayList.size();
         for (int i = 0; i < size; i++) {
             try {
-                ((oym) arrayList.get(i)).f38618a.mo21167a(biva.f121920w, bxxc.mo73642k());
+                ((oym) arrayList.get(i)).f38618a.mo21167a(biva.f121920w, bxxc.serializeToBytes());
             } catch (RemoteException e) {
             }
         }
@@ -220,7 +220,7 @@ public final class oyn extends omh implements ojv, ojn, ofq {
         }
         bxxc c = ojx.mo22230c(i);
         if (c != null) {
-            return c.mo73642k();
+            return c.serializeToBytes();
         }
         return null;
     }

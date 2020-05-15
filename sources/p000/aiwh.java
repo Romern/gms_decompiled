@@ -5,7 +5,7 @@ package p000;
 public final class aiwh extends aixy {
 
     /* renamed from: a */
-    public final bxtx f69930a;
+    public final ByteString f69930a;
 
     /* renamed from: b */
     public final int f69931b;
@@ -22,7 +22,7 @@ public final class aiwh extends aixy {
     /* renamed from: f */
     public final int f69935f;
 
-    public aiwh(bxtx bxtx, int i, int i2, double d, String str, int i3) {
+    public aiwh(ByteString bxtx, int i, int i2, double d, String str, int i3) {
         this.f69930a = bxtx;
         this.f69931b = i;
         this.f69932c = i2;
@@ -32,7 +32,7 @@ public final class aiwh extends aixy {
     }
 
     /* renamed from: a */
-    public final bxtx mo38150a() {
+    public final ByteString mo38150a() {
         return this.f69930a;
     }
 

@@ -12,7 +12,7 @@ public final class qev {
     public static final qgc f41093a = new qet();
 
     /* renamed from: b */
-    private static final sek f41094b = qgn.m32143a("CallbackManager");
+    private static final Logger f41094b = qgn.m32143a("CallbackManager");
 
     /* renamed from: c */
     private final Object f41095c = new Object();
@@ -66,9 +66,9 @@ public final class qev {
 
     /* renamed from: a */
     public final void mo23996a(qeu qeu, long j) {
-        sek sek = f41094b;
+        Logger Logger = f41094b;
         Long valueOf = Long.valueOf(j);
-        sek.mo25412b("Callback added for checkin started after: %d for manager %s", valueOf, toString());
+        Logger.mo25412b("Callback added for checkin started after: %d for manager %s", valueOf, toString());
         synchronized (this.f41095c) {
             this.f41096d.put(qeu, valueOf);
         }

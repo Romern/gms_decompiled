@@ -209,7 +209,7 @@ public final class bkiz extends bkdx implements View.OnClickListener, bjzm, bjwp
                     m105897a(0);
                     bmkj u = mo66069u();
                     bxvd bxvd = (bxvd) u.mo74142c(5);
-                    bxvd.mo73625a((bxvk) u);
+                    bxvd.mo73625a((GeneratedMessageLite) u);
                     String uri = intent.getData().toString();
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
@@ -295,20 +295,20 @@ public final class bkiz extends bkdx implements View.OnClickListener, bjzm, bjwp
                     }
                     bmkj u2 = mo66069u();
                     bxvd bxvd2 = (bxvd) u2.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) u2);
+                    bxvd2.mo73625a((GeneratedMessageLite) u2);
                     if (bxvd2.f164950c) {
                         bxvd2.mo74035c();
                         bxvd2.f164950c = false;
                     }
                     bmkj bmkj3 = bmkj.f129827l;
-                    ((bmkj) bxvd2.f164949b).f129839k = bxvk.m124030de();
+                    ((bmkj) bxvd2.f164949b).f129839k = GeneratedMessageLite.m124030de();
                     if (bxvd2.f164950c) {
                         bxvd2.mo74035c();
                         bxvd2.f164950c = false;
                     }
                     bmkj bmkj4 = (bmkj) bxvd2.f164949b;
                     if (!bmkj4.f129839k.mo73666a()) {
-                        bmkj4.f129839k = bxvk.m124021a(bmkj4.f129839k);
+                        bmkj4.f129839k = GeneratedMessageLite.m124021a(bmkj4.f129839k);
                     }
                     bxsy.m123078a(arrayList, bmkj4.f129839k);
                     this.f124349k = (bmkj) bxvd2.mo74062i();
@@ -555,7 +555,7 @@ public final class bkiz extends bkdx implements View.OnClickListener, bjzm, bjwp
             if (bmdn4 == null) {
                 bmdn4 = bmdn.f128831k;
             }
-            bxtx bxtx = bmdn4.f128836d;
+            ByteString bxtx = bmdn4.f128836d;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -681,7 +681,7 @@ public final class bkiz extends bkdx implements View.OnClickListener, bjzm, bjwp
             } else if (this.f124351m) {
                 bmkj u = mo66069u();
                 bxvd bxvd = (bxvd) u.mo74142c(5);
-                bxvd.mo73625a((bxvk) u);
+                bxvd.mo73625a((GeneratedMessageLite) u);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -693,7 +693,7 @@ public final class bkiz extends bkdx implements View.OnClickListener, bjzm, bjwp
                 this.f124349k = (bmkj) bxvd.mo74062i();
                 Bundle bundle = Bundle.EMPTY;
                 if (bmmv.f130056b == 14) {
-                    bundle = m105896a(((bmmi) bmmv.f130057c).f130018a.mo73780k());
+                    bundle = m105896a(((bmmi) bmmv.f130057c).f130018a.getKey());
                 }
                 mo51905a(8, bundle);
                 return;
@@ -701,7 +701,7 @@ public final class bkiz extends bkdx implements View.OnClickListener, bjzm, bjwp
         }
         this.f124340b = true;
         if (bmmv.f130056b == 14) {
-            this.f124342d = ((bmmi) bmmv.f130057c).f130018a.mo73780k();
+            this.f124342d = ((bmmi) bmmv.f130057c).f130018a.getKey();
         }
         mo66068t();
     }

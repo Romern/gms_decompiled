@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abpp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abpp extends bxvk implements bxxd {
+public final class abpp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final abpp f57880b;
@@ -16,7 +16,7 @@ public final class abpp extends bxvk implements bxxd {
     static {
         abpp abpp = new abpp();
         f57880b = abpp;
-        bxvk.m124024a(abpp.class, abpp);
+        GeneratedMessageLite.m124024a(abpp.class, abpp);
     }
 
     private abpp() {
@@ -33,7 +33,7 @@ public final class abpp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57880b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", abpn.f57876a});
+            return GeneratedMessageLite.m124022a(f57880b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", abpn.f57876a});
         } else if (i2 == 3) {
             return new abpp();
         } else {

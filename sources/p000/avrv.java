@@ -20,7 +20,7 @@ import java.util.Locale;
 public final class avrv extends avrk {
 
     /* renamed from: a */
-    private static final sek f93829a = avpq.m79022i("NoUpdateController");
+    private static final Logger f93829a = avpq.m79022i("NoUpdateController");
 
     /* renamed from: b */
     private static final String m79120b(Activity activity) {

@@ -16,7 +16,7 @@ final class arcm implements Runnable {
         ardc ardc = arcn.f87367b;
         arit arit = arcn.f87366a;
         sdo.m34964a(ardc.f87414c);
-        ardc.f87412a.mo25409a("getBootstrappableAccounts called on package side.", new Object[0]);
+        ardc.f87412a.logVerbose("getBootstrappableAccounts called on package side.", new Object[0]);
         ardc.f87413b.mo48652e(3);
         armj.m73128a(ardc.f87413b, 10);
         ardc.f87416e.mo48446a(arit);

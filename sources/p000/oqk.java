@@ -7,7 +7,7 @@ import android.telephony.TelephonyManager;
 public final class oqk {
 
     /* renamed from: a */
-    public final sek f38239a = new sek("carrierauth", new String[0]);
+    public final Logger f38239a = new Logger("carrierauth", new String[0]);
 
     /* renamed from: b */
     public final TelephonyManager f38240b = ((TelephonyManager) rpr.m34216b().getSystemService("phone"));

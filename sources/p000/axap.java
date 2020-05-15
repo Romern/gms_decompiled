@@ -96,7 +96,7 @@ public final class axap extends awzb implements bjwh, bjwp, bjwm, bkdb {
     /* renamed from: f */
     public final bwhx mo52950f() {
         bxvd da = bwhx.f159598d.mo74144da();
-        bxtx bxtx = this.f95545i.f159593f;
+        ByteString bxtx = this.f95545i.f159593f;
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -115,7 +115,7 @@ public final class axap extends awzb implements bjwh, bjwp, bjwm, bkdb {
             bwhx bwhx2 = (bwhx) da.f164949b;
             c.getClass();
             if (!bwhx2.f159601b.mo73666a()) {
-                bwhx2.f159601b = bxvk.m124021a(bwhx2.f159601b);
+                bwhx2.f159601b = GeneratedMessageLite.m124021a(bwhx2.f159601b);
             }
             bwhx2.f159601b.add(c);
         }

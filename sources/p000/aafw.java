@@ -158,7 +158,7 @@ public final class aafw extends DialogFragment implements DialogInterface.OnClic
         aafk aafk3 = (aafk) da.mo74062i();
         long clearCallingIdentity = Binder.clearCallingIdentity();
         try {
-            new qws(getContext(), "GAMES", null).mo24335a(aafk3.mo73642k()).mo24327b();
+            new qws(getContext(), "GAMES", null).mo24335a(aafk3.serializeToBytes()).mo24327b();
         } finally {
             Binder.restoreCallingIdentity(clearCallingIdentity);
         }

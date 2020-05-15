@@ -108,7 +108,7 @@ final class bgln extends bmxe {
                     btyb btyb5 = (btyb) da2.mo74062i();
                     btyb5.getClass();
                     if (!btxv2.f152867c.mo73666a()) {
-                        btxv2.f152867c = bxvk.m124021a(btxv2.f152867c);
+                        btxv2.f152867c = GeneratedMessageLite.m124021a(btxv2.f152867c);
                     }
                     btxv2.f152867c.add(btyb5);
                     i++;

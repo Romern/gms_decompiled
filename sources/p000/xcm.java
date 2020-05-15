@@ -36,7 +36,7 @@ public final class xcm {
     public static final adcb f51937d = adca.m50151b(xck.f51928a);
 
     /* renamed from: e */
-    public static final sek f51938e = new sek(new String[]{"KeySQLiteDataStore"}, (short[]) null);
+    public static final Logger f51938e = new Logger(new String[]{"KeySQLiteDataStore"}, (short[]) null);
 
     /* renamed from: f */
     private final xwt f51939f;
@@ -58,7 +58,7 @@ public final class xcm {
                 throw a3.mo33301a();
             }
             KeyFactory instance = KeyFactory.getInstance("EC");
-            return new KeyPair(instance.generatePublic(new X509EncodedKeySpec(((bypx) bnim.get(a2)).mo74445d().f167357a.mo73780k())), instance.generatePrivate(new PKCS8EncodedKeySpec(((bypx) bnim.get(a)).mo74445d().f167357a.mo73780k())));
+            return new KeyPair(instance.generatePublic(new X509EncodedKeySpec(((bypx) bnim.get(a2)).mo74445d().f167357a.getKey())), instance.generatePrivate(new PKCS8EncodedKeySpec(((bypx) bnim.get(a)).mo74445d().f167357a.getKey())));
         } catch (bypq | bypw | NoSuchAlgorithmException | InvalidKeySpecException e) {
             adbd a4 = adbe.m50105a();
             a4.f61234c = 8;

@@ -26,7 +26,7 @@ public class SearchEntryPointChimeraActivity extends ffm {
     public final bsxn mo6348j() {
         bsxn j = super.mo6348j();
         bxvd bxvd = (bxvd) j.mo74142c(5);
-        bxvd.mo73625a((bxvk) j);
+        bxvd.mo73625a((GeneratedMessageLite) j);
         bsxl bsxl = (bsxl) bxvd;
         String stringExtra = getIntent().getStringExtra(":settings:fragment_args_key");
         Integer num = null;

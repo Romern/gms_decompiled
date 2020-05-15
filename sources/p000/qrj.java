@@ -109,7 +109,7 @@ public abstract class qrj {
             try {
                 bxxb aM2 = ((bxxc) this.f41998d.mo73661b(qtq.f42115d, bxus.m123744c())).mo73645aM();
                 aM2.mo73628a(mo24230c(i, bmxv));
-                bxtx aL = aM2.mo74062i().mo73639aL();
+                ByteString aL = aM2.mo74062i().mo73639aL();
                 qtp qtp = new qtp(qtq);
                 qtp.f42107b = aL;
                 return qtp;

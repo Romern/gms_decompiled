@@ -15,7 +15,7 @@ public final class qte {
     public static final imo f42092a = new qtd();
 
     /* renamed from: c */
-    private static final sek f42093c = qqu.m32671b("AffiliationStore");
+    private static final Logger f42093c = qqu.m32671b("AffiliationStore");
 
     /* renamed from: b */
     public final qth f42094b;
@@ -35,17 +35,17 @@ public final class qte {
         try {
             rawQuery.moveToFirst();
             if (!rawQuery.isAfterLast()) {
-                byts byts = (byts) bxvk.m124014a(byts.f167713b, qto.m32873a(rawQuery, "value"));
+                byts byts = (byts) GeneratedMessageLite.m124014a(byts.f167713b, qto.m32873a(rawQuery, "value"));
                 bxvd bxvd = (bxvd) byts.mo74142c(5);
-                bxvd.mo73625a((bxvk) byts);
+                bxvd.mo73625a((GeneratedMessageLite) byts);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
                 }
-                ((byts) bxvd.f164949b).f167715a = bxvk.m124030de();
+                ((byts) bxvd.f164949b).f167715a = GeneratedMessageLite.m124030de();
                 for (bytw bytw : byts.f167715a) {
                     bxvd bxvd2 = (bxvd) bytw.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) bytw);
+                    bxvd2.mo73625a((GeneratedMessageLite) bytw);
                     String a3 = qqt.m32667a(bytw.f167728b);
                     if (bxvd2.f164950c) {
                         bxvd2.mo74035c();
@@ -95,7 +95,7 @@ public final class qte {
                     String str = ((bytw) byts.f167715a.get(0)).f167728b;
                     ContentValues contentValues = new ContentValues();
                     contentValues.put("id", str);
-                    contentValues.put("value", byts.mo73642k());
+                    contentValues.put("value", byts.serializeToBytes());
                     qto.m32871a(a, "affiliation_data", contentValues);
                     bngs j = bngx.m109377j();
                     for (bytw bytw : byts.f167715a) {

@@ -230,7 +230,7 @@ public final class phy {
                 i.f164950c = false;
             }
             bpsz bpsz = bpsz.f139036I;
-            ((bpsz) i.f164949b).f139059m = bxvk.m124030de();
+            ((bpsz) i.f164949b).f139059m = GeneratedMessageLite.m124030de();
             synchronized (this.f39159c) {
                 ArrayList arrayList = this.f39159c;
                 if (i.f164950c) {
@@ -570,7 +570,7 @@ public final class phy {
                 }
                 bptk bptk2 = (bptk) da.f164949b;
                 if (!bptk2.f139137c.mo73666a()) {
-                    bptk2.f139137c = bxvk.m124020a(bptk2.f139137c);
+                    bptk2.f139137c = GeneratedMessageLite.m124020a(bptk2.f139137c);
                 }
                 bptk2.f139137c.mo74161a(j2);
             } else {
@@ -605,7 +605,7 @@ public final class phy {
             }
             bpsz bpsz3 = (bpsz) bpsy.f164949b;
             if (!bpsz3.f139057k.mo73666a()) {
-                bpsz3.f139057k = bxvk.m124019a(bpsz3.f139057k);
+                bpsz3.f139057k = GeneratedMessageLite.m124019a(bpsz3.f139057k);
             }
             bxsy.m123078a(b, bpsz3.f139057k);
         }
@@ -887,7 +887,7 @@ public final class phy {
                     bpsy.f164950c = false;
                 }
                 bpsz bpsz = bpsz.f139036I;
-                ((bpsz) bpsy.f164949b).f139059m = bxvk.m124030de();
+                ((bpsz) bpsy.f164949b).f139059m = GeneratedMessageLite.m124030de();
                 bxvd da = bpta.f139073e.mo74144da();
                 if (da.f164950c) {
                     da.mo74035c();
@@ -933,7 +933,7 @@ public final class phy {
                 bpsy.f164950c = false;
             }
             bpsz bpsz2 = bpsz.f139036I;
-            ((bpsz) bpsy.f164949b).f139059m = bxvk.m124030de();
+            ((bpsz) bpsy.f164949b).f139059m = GeneratedMessageLite.m124030de();
             bxvd da4 = bpta.f139073e.mo74144da();
             if (da4.f164950c) {
                 da4.mo74035c();
@@ -949,7 +949,7 @@ public final class phy {
                 bpsy.f164950c = false;
             }
             bpsz bpsz3 = bpsz.f139036I;
-            ((bpsz) bpsy.f164949b).f139059m = bxvk.m124030de();
+            ((bpsz) bpsy.f164949b).f139059m = GeneratedMessageLite.m124030de();
             bxvd da5 = bpta.f139073e.mo74144da();
             if (da5.f164950c) {
                 da5.mo74035c();
@@ -1124,7 +1124,7 @@ public final class phy {
             bpth4.getClass();
             bpsz.f139072z = bpth4;
             bpsz.f139048b |= 1;
-            qwo a2 = this.f39163i.mo24335a(((bpsz) bpsy.mo74062i()).mo73642k());
+            qwo a2 = this.f39163i.mo24335a(((bpsz) bpsy.mo74062i()).serializeToBytes());
             a2.mo24328b(i3 - 1);
             a2.mo24327b();
         }
@@ -1325,7 +1325,7 @@ public final class phy {
 
     /* renamed from: a */
     public final void mo23110a(bpsz bpsz, int i) {
-        qwo a = this.f39163i.mo24335a(bpsz.mo73642k());
+        qwo a = this.f39163i.mo24335a(bpsz.serializeToBytes());
         a.mo24328b(i - 1);
         a.mo24327b();
     }
@@ -1860,7 +1860,7 @@ public final class phy {
                 bptr bptr2 = (bptr) da.f164949b;
                 a.getClass();
                 if (!bptr2.f139170d.mo73666a()) {
-                    bptr2.f139170d = bxvk.m124021a(bptr2.f139170d);
+                    bptr2.f139170d = GeneratedMessageLite.m124021a(bptr2.f139170d);
                 }
                 bptr2.f139170d.add(a);
             }
@@ -1874,7 +1874,7 @@ public final class phy {
                 bptr bptr3 = (bptr) da.f164949b;
                 a2.getClass();
                 if (!bptr3.f139171e.mo73666a()) {
-                    bptr3.f139171e = bxvk.m124021a(bptr3.f139171e);
+                    bptr3.f139171e = GeneratedMessageLite.m124021a(bptr3.f139171e);
                 }
                 bptr3.f139171e.add(a2);
             }
@@ -1988,14 +1988,14 @@ public final class phy {
                 b.f164950c = false;
             }
             bpsz bpsz = bpsz.f139036I;
-            ((bpsz) b.f164949b).f139060n = bxvk.m124030de();
+            ((bpsz) b.f164949b).f139060n = GeneratedMessageLite.m124030de();
             if (b.f164950c) {
                 b.mo74035c();
                 b.f164950c = false;
             }
             bpsz bpsz2 = (bpsz) b.f164949b;
             if (!bpsz2.f139060n.mo73666a()) {
-                bpsz2.f139060n = bxvk.m124021a(bpsz2.f139060n);
+                bpsz2.f139060n = GeneratedMessageLite.m124021a(bpsz2.f139060n);
             }
             bxsy.m123078a(arrayList, bpsz2.f139060n);
             mo23110a((bpsz) b.mo74062i(), (int) BaseMfiEventCallback.TYPE_INVALID_LINKAGE_DATA);
@@ -2025,7 +2025,7 @@ public final class phy {
                 b.f164950c = false;
             }
             bpsz bpsz = bpsz.f139036I;
-            ((bpsz) b.f164949b).f139065s = bxvk.m124030de();
+            ((bpsz) b.f164949b).f139065s = GeneratedMessageLite.m124030de();
             b.mo68982a(m30370b(set));
             boolean g = this.f39157a.mo23855g();
             if (b.f164950c) {
@@ -2076,7 +2076,7 @@ public final class phy {
             bpsz bpsz3 = (bpsz) b.f164949b;
             bpsz3.f139047a |= 67108864;
             bpsz3.f139068v = e;
-            bpsz3.f139065s = bxvk.m124030de();
+            bpsz3.f139065s = GeneratedMessageLite.m124030de();
             b.mo68982a(m30370b(set));
             if (bptf != null) {
                 if (b.f164950c) {

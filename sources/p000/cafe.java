@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cafe */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cafe extends bxvk implements bxxd {
+public final class cafe extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final cafe f172889e;
@@ -25,7 +25,7 @@ public final class cafe extends bxvk implements bxxd {
     static {
         cafe cafe = new cafe();
         f172889e = cafe;
-        bxvk.m124024a(cafe.class, cafe);
+        GeneratedMessageLite.m124024a(cafe.class, cafe);
     }
 
     private cafe() {
@@ -42,7 +42,7 @@ public final class cafe extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172889e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001င\u0000\u0002င\u0001\u0003/", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f172889e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001င\u0000\u0002င\u0001\u0003/", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new cafe();
         } else {

@@ -262,7 +262,7 @@ public abstract class aovg extends aove {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final ContentProviderOperation mo46934a(int i, bxxc bxxc) {
-        return ContentProviderOperation.newInsert(aota.f83571a).withValue("account_id", Long.valueOf(this.f83672d.f83507a)).withValue("operation_api", Integer.valueOf(i)).withValue("operation_request", bxxc.mo73642k()).build();
+        return ContentProviderOperation.newInsert(aota.f83571a).withValue("account_id", Long.valueOf(this.f83672d.f83507a)).withValue("operation_api", Integer.valueOf(i)).withValue("operation_request", bxxc.serializeToBytes()).build();
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead

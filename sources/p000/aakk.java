@@ -55,6 +55,6 @@ public final class aakk {
 
     /* renamed from: a */
     public final void mo16931a(aaql aaql) {
-        this.f28365b.mo24335a(aaql.mo73642k()).mo24327b();
+        this.f28365b.mo24335a(aaql.serializeToBytes()).mo24327b();
     }
 }

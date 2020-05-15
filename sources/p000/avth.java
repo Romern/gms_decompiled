@@ -5,7 +5,7 @@ package p000;
 public final class avth extends avti {
 
     /* renamed from: c */
-    private static final sek f93885c = avpq.m79021h("IntegerListKey");
+    private static final Logger f93885c = avpq.m79021h("IntegerListKey");
 
     public avth(String str) {
         super(str, bngx.m109376e());

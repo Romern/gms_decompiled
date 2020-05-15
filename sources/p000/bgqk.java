@@ -5,9 +5,9 @@ package p000;
 final class bgqk {
 
     /* renamed from: a */
-    public final bxtx f117286a;
+    public final ByteString f117286a;
 
-    public bgqk(bxtx bxtx) {
+    public bgqk(ByteString bxtx) {
         this.f117286a = bxtx;
     }
 }

@@ -14,7 +14,7 @@ public final /* synthetic */ class aqlm implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = ConsentChimeraActivity.f107656b;
+        Logger Logger = ConsentChimeraActivity.f107656b;
         return (Scope) ((Parcelable) obj);
     }
 }

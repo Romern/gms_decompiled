@@ -44,14 +44,14 @@ public final class mzg extends luf {
         }
         mzf mzf = (mzf) lva;
         if (account.equals(mzf.mo19624a())) {
-            mzf.f35034a.mo25409a("Backup account not changed.", new Object[0]);
+            mzf.f35034a.logVerbose("Backup account not changed.", new Object[0]);
         } else if (mzf.mo20347a(account)) {
             lvn lvn = mzf.f35034a;
             String valueOf = String.valueOf(account);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 24);
             sb.append("Setting backup account: ");
             sb.append(valueOf);
-            lvn.mo25409a(sb.toString(), new Object[0]);
+            lvn.logVerbose(sb.toString(), new Object[0]);
             if (mzf.f35035b.getSharedPreferences("BackupAccount", 0).edit().putString("accountName", account.name).putString("accountType", account.type).putBoolean("accountInitialized", false).commit()) {
                 Context context = mzf.f35035b;
                 context.startService(mcc.m24854b(context));

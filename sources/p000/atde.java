@@ -76,7 +76,7 @@ public final class atde implements atcv {
                 asjq = asjq.f89078f;
             }
             bxvd bxvd = (bxvd) asjq.mo74142c(5);
-            bxvd.mo73625a((bxvk) asjq);
+            bxvd.mo73625a((GeneratedMessageLite) asjq);
             asjp asjp = (asjp) bxvd;
             asrx a2 = m75576a(a);
             asjq asjq2 = (asjq) asjp.f164949b;
@@ -109,7 +109,7 @@ public final class atde implements atcv {
             asjq4.getClass();
             asjr3.f89088b = asjq4;
             asjr3.f89087a = 2;
-            return new assj(a, a2, a3, ((asjq) asjp.f164949b).f89084e.mo73780k(), this.f90114c, asqq, str);
+            return new assj(a, a2, a3, ((asjq) asjp.f164949b).f89084e.getKey(), this.f90114c, asqq, str);
         } catch (JSONException e) {
             bnsl bnsl = (bnsl) f90112b.mo68387b();
             bnsl.mo68437a(e);
@@ -199,7 +199,7 @@ public final class atde implements atcv {
 
     /* renamed from: h */
     public final byte[] mo49806h() {
-        return ((asjr) this.f90113a.mo74062i()).mo73642k();
+        return ((asjr) this.f90113a.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: a */
@@ -215,13 +215,13 @@ public final class atde implements atcv {
             asjq = (asjq) asjr.f89088b;
         }
         bxvd bxvd = (bxvd) asjq.mo74142c(5);
-        bxvd.mo73625a((bxvk) asjq);
+        bxvd.mo73625a((GeneratedMessageLite) asjq);
         asjp asjp = (asjp) bxvd;
         asjq asjq2 = (asjq) asjp.f164949b;
         if (asjq2.f89083d < asjq2.f89081b.size()) {
             try {
                 try {
-                    assc a2 = assh.mo3416a(a, new JSONObject(asjp.mo49201a(((asjq) asjp.f164949b).f89083d)), Arrays.copyOf(((asjq) asjp.f164949b).f89084e.mo73780k(), ((asjq) asjp.f164949b).f89084e.mo73744a()), asse, new atdd(askf));
+                    assc a2 = assh.mo3416a(a, new JSONObject(asjp.mo49201a(((asjq) asjp.f164949b).f89083d)), Arrays.copyOf(((asjq) asjp.f164949b).f89084e.getKey(), ((asjq) asjp.f164949b).f89084e.mo73744a()), asse, new atdd(askf));
                     int i3 = ((asjq) asjp.f164949b).f89083d + 1;
                     if (asjp.f164950c) {
                         asjp.mo74035c();
@@ -237,7 +237,7 @@ public final class atde implements atcv {
                     }
                     asjr asjr2 = asjr.f89085h;
                     ((asjr) bxvd2.f164949b).f89093g = i4;
-                    bxtx a3 = bxtx.m123261a(a2.mo3408a(((asjq) asjp.f164949b).f89084e.mo73780k()));
+                    ByteString a3 = ByteString.m123261a(a2.mo3408a(((asjq) asjp.f164949b).f89084e.getKey()));
                     if (asjp.f164950c) {
                         asjp.mo74035c();
                         asjp.f164950c = false;
@@ -337,7 +337,7 @@ public final class atde implements atcv {
             asjq = (asjq) asjr.f89088b;
         }
         bxvd bxvd = (bxvd) asjq.mo74142c(5);
-        bxvd.mo73625a((bxvk) asjq);
+        bxvd.mo73625a((GeneratedMessageLite) asjq);
         asjp asjp = (asjp) bxvd;
         if (assj.f89567c.mo3403b() || z) {
             asjq asjq2 = (asjq) asjp.f164949b;
@@ -373,7 +373,7 @@ public final class atde implements atcv {
                 }
             }
         }
-        bxtx a2 = bxtx.m123261a(assj.f89567c.mo3402a(((asjq) asjp.f164949b).f89084e.mo73780k()));
+        ByteString a2 = ByteString.m123261a(assj.f89567c.mo3402a(((asjq) asjp.f164949b).f89084e.getKey()));
         if (asjp.f164950c) {
             asjp.mo74035c();
             asjp.f164950c = false;
@@ -443,7 +443,7 @@ public final class atde implements atcv {
                 asjq = asjq.f89078f;
             }
             bxvd bxvd = (bxvd) asjq.mo74142c(5);
-            bxvd.mo73625a((bxvk) asjq);
+            bxvd.mo73625a((GeneratedMessageLite) asjq);
             asjp asjp = (asjp) bxvd;
             asrx a2 = m75576a(a);
             asjq asjq2 = (asjq) asjp.f164949b;
@@ -476,7 +476,7 @@ public final class atde implements atcv {
             asjq4.getClass();
             asjr3.f89088b = asjq4;
             asjr3.f89087a = 2;
-            return new assj(a, a2, a3, ((asjq) asjp.f164949b).f89084e.mo73780k(), this.f90114c, asqq, str);
+            return new assj(a, a2, a3, ((asjq) asjp.f164949b).f89084e.getKey(), this.f90114c, asqq, str);
         } catch (JSONException e) {
             bnsl bnsl = (bnsl) f90112b.mo68387b();
             bnsl.mo68437a(e);
@@ -588,11 +588,11 @@ public final class atde implements atcv {
                 asjq = asjq.f89078f;
             }
             bxvd bxvd = (bxvd) asjq.mo74142c(5);
-            bxvd.mo73625a((bxvk) asjq);
+            bxvd.mo73625a((GeneratedMessageLite) asjq);
             asjp asjp = (asjp) bxvd;
             asjq asjq2 = (asjq) asjp.f164949b;
             if (asjq2.f89083d < asjq2.f89081b.size()) {
-                assc a3 = a.mo3416a(a2, new JSONObject(asjp.mo49201a(((asjq) asjp.f164949b).f89083d)), Arrays.copyOf(((asjq) asjp.f164949b).f89084e.mo73780k(), ((asjq) asjp.f164949b).f89084e.mo73744a()), asse, new atdd(askf));
+                assc a3 = a.mo3416a(a2, new JSONObject(asjp.mo49201a(((asjq) asjp.f164949b).f89083d)), Arrays.copyOf(((asjq) asjp.f164949b).f89084e.getKey(), ((asjq) asjp.f164949b).f89084e.mo73744a()), asse, new atdd(askf));
                 int i5 = ((asjq) asjp.f164949b).f89083d + 1;
                 if (asjp.f164950c) {
                     asjp.mo74035c();
@@ -608,7 +608,7 @@ public final class atde implements atcv {
                 }
                 asjr asjr2 = asjr.f89085h;
                 ((asjr) bxvd2.f164949b).f89093g = i6;
-                bxtx a4 = bxtx.m123261a(a3.mo3408a(((asjq) asjp.f164949b).f89084e.mo73780k()));
+                ByteString a4 = ByteString.m123261a(a3.mo3408a(((asjq) asjp.f164949b).f89084e.getKey()));
                 if (asjp.f164950c) {
                     asjp.mo74035c();
                     asjp.f164950c = false;

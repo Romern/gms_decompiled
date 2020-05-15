@@ -101,11 +101,11 @@ public final class xue implements Runnable {
                         String str = xkn.f52570h;
                         xkb xkb = new xkb(xka, publicKeyCredentialDescriptor.f31776a);
                         xwn xwn = this.f53146g;
-                        sdo.m34966a(xwj, "Session context cannot be null");
-                        sdo.m34966a(bArr2, "Client data hash cannot be null");
-                        sdo.m34966a((Object) str, (Object) "Relying party identifier cannot be null");
-                        sdo.m34966a(xkb, "Key handle cannot be null");
-                        sdo.m34966a(xwn, "Event logger cannot be null");
+                        sdo.checkIfNull(xwj, "Session context cannot be null");
+                        sdo.checkIfNull(bArr2, "Client data hash cannot be null");
+                        sdo.checkIfNull((Object) str, (Object) "Relying party identifier cannot be null");
+                        sdo.checkIfNull(xkb, "Key handle cannot be null");
+                        sdo.checkIfNull(xwn, "Event logger cannot be null");
                         try {
                             if (sdg.m34949a(xkb.mo29856b(), xka.SOFTWARE_KEY) || sdg.m34949a(xkb.mo29856b(), xka.STRONGBOX_KEY)) {
                                 if (!xdx.mo29673a(str, xkb)) {
@@ -113,7 +113,7 @@ public final class xue implements Runnable {
                                         if (!str.equals("google.com")) {
                                         }
                                     }
-                                    sek sek = xdy.f52039a;
+                                    Logger Logger = xdy.f52039a;
                                     String a = boan.f132472f.mo68794a(xkb.mo29857c());
                                     StringBuilder sb = new StringBuilder(String.valueOf(a).length() + 61 + String.valueOf(str).length());
                                     sb.append("The key handle ");
@@ -121,7 +121,7 @@ public final class xue implements Runnable {
                                     sb.append(" registered with rpId ");
                                     sb.append(str);
                                     sb.append(" is not in this KeyStore");
-                                    sek.mo25418e(sb.toString(), new Object[0]);
+                                    Logger.mo25418e(sb.toString(), new Object[0]);
                                     xwn.mo30185a(xwj, new IllegalArgumentException("The key handle provided for the specified rpId was not located on the device"), 53);
                                     xkg = new xkg(xkj.CTAP2_ERR_INVALID_CREDENTIAL, null);
                                     if (sdg.m34949a(xkg.f52499a, xkj.CTAP1_ERR_SUCCESS)) {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: imb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class imb extends bxvk implements bxxd {
+public final class imb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final imb f21338b;
@@ -16,7 +16,7 @@ public final class imb extends bxvk implements bxxd {
     static {
         imb imb = new imb();
         f21338b = imb;
-        bxvk.m124024a(imb.class, imb);
+        GeneratedMessageLite.m124024a(imb.class, imb);
     }
 
     private imb() {
@@ -33,7 +33,7 @@ public final class imb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f21338b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", ima.class});
+            return GeneratedMessageLite.m124022a(f21338b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", ima.class});
         } else if (i2 == 3) {
             return new imb();
         } else {

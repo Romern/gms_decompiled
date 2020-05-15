@@ -61,7 +61,7 @@ public final class apyv extends aqas {
             it.seekToFirst();
             while (it.isValid()) {
                 byte[] key = it.key();
-                apyu apyu = (apyu) bxvk.m124014a(apyu.f85187f, it.value());
+                apyu apyu = (apyu) GeneratedMessageLite.m124014a(apyu.f85187f, it.value());
                 Bundle bundle = new Bundle();
                 bundle.putByteArray("digest", key);
                 bundle.putString("package_name", apyu.f85189a);

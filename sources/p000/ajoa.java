@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ajoa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ajoa extends bxvk implements bxxd {
+public final class ajoa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final ajoa f71043e;
@@ -25,7 +25,7 @@ public final class ajoa extends bxvk implements bxxd {
     static {
         ajoa ajoa = new ajoa();
         f71043e = ajoa;
-        bxvk.m124024a(ajoa.class, ajoa);
+        GeneratedMessageLite.m124024a(ajoa.class, ajoa);
     }
 
     private ajoa() {
@@ -42,7 +42,7 @@ public final class ajoa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f71043e, "\u0001\u0003\u0000\u0001\u0002\u0004\u0003\u0000\u0000\u0000\u0002ဈ\u0000\u0003ဌ\u0001\u0004ဂ\u0002", new Object[]{"a", "b", "c", ajnz.m58903b(), "d"});
+            return GeneratedMessageLite.m124022a(f71043e, "\u0001\u0003\u0000\u0001\u0002\u0004\u0003\u0000\u0000\u0000\u0002ဈ\u0000\u0003ဌ\u0001\u0004ဂ\u0002", new Object[]{"a", "b", "c", ajnz.m58903b(), "d"});
         } else if (i2 == 3) {
             return new ajoa();
         } else {

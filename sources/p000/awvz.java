@@ -26,7 +26,7 @@ public final class awvz {
     public static bmaj m81269a(bmaj bmaj) {
         blxa blxa;
         bxvd bxvd = (bxvd) bmaj.mo74142c(5);
-        bxvd.mo73625a((bxvk) bmaj);
+        bxvd.mo73625a((GeneratedMessageLite) bmaj);
         bmaj bmaj2 = (bmaj) bxvd.f164949b;
         if (bmaj2.f128455b != 10) {
             blxa = blxa.f127989R;
@@ -34,7 +34,7 @@ public final class awvz {
             blxa = (blxa) bmaj2.f128456c;
         }
         bxvd bxvd2 = (bxvd) blxa.mo74142c(5);
-        bxvd2.mo73625a((bxvk) blxa);
+        bxvd2.mo73625a((GeneratedMessageLite) blxa);
         blwr blwr = (blwr) bxvd2;
         if (blwr.f164950c) {
             blwr.mo74035c();
@@ -109,7 +109,7 @@ public final class awvz {
             blwr.mo74035c();
             blwr.f164950c = false;
         }
-        ((blxa) blwr.f164949b).f128002M = bxvk.m124030de();
+        ((blxa) blwr.f164949b).f128002M = GeneratedMessageLite.m124030de();
         if (blwr.f164950c) {
             blwr.mo74035c();
             blwr.f164950c = false;
@@ -132,7 +132,7 @@ public final class awvz {
 
     /* renamed from: a */
     public static bmaj m81270a(bmaj bmaj, BuyFlowConfig buyFlowConfig, Context context, boolean z) {
-        return m81271a(bmaj.f128457d.mo73780k(), bmaj.f128463j, buyFlowConfig, context, z);
+        return m81271a(bmaj.f128457d.getKey(), bmaj.f128463j, buyFlowConfig, context, z);
     }
 
     /* renamed from: a */

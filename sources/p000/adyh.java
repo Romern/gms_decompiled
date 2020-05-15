@@ -14,7 +14,7 @@ final class adyh implements adyj {
 
     /* renamed from: a */
     public final Map mo33926a() {
-        return bnmt.m109794a();
+        return bnmt.getNewHashMap();
     }
 
     /* renamed from: b */

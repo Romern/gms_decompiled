@@ -179,7 +179,7 @@ public final class abvs {
         synchronized (acrl.f60625g) {
             abul d = acrl.mo33026d(str);
             bxvd bxvd = (bxvd) d.mo74142c(5);
-            bxvd.mo73625a((bxvk) d);
+            bxvd.mo73625a((GeneratedMessageLite) d);
             if (j != ((abul) bxvd.f164949b).f58426m) {
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();

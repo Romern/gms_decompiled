@@ -9,7 +9,7 @@ import java.util.HashMap;
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
 public final class rqw extends sia {
     protected rqw(String str, HashMap hashMap, bxxc bxxc, bxxc bxxc2, rqx rqx) {
-        super(1, str, bxxc.mo73642k(), bxxc2, rqx, rqx, null, null, false, hashMap, 1025, Process.myUid());
+        super(1, str, bxxc.serializeToBytes(), bxxc2, rqx, rqx, null, null, false, hashMap, 1025, Process.myUid());
     }
 
     /* renamed from: a */

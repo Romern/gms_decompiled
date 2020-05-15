@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: braw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class braw extends bxvk implements bxxd {
+public final class braw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bxvu f142192e = new brav();
@@ -31,7 +31,7 @@ public final class braw extends bxvk implements bxxd {
     static {
         braw braw = new braw();
         f142193g = braw;
-        bxvk.m124024a(braw.class, braw);
+        GeneratedMessageLite.m124024a(braw.class, braw);
     }
 
     private braw() {
@@ -48,7 +48,7 @@ public final class braw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142193g, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0001\u0000\u0001ဉ\u0000\u0002ဇ\u0001\u0003\u001e\u0005ဉ\u0003", new Object[]{"a", "b", "c", "d", brej.m113931b(), "f"});
+            return GeneratedMessageLite.m124022a(f142193g, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0001\u0000\u0001ဉ\u0000\u0002ဇ\u0001\u0003\u001e\u0005ဉ\u0003", new Object[]{"a", "b", "c", "d", brej.m113931b(), "f"});
         } else if (i2 == 3) {
             return new braw();
         } else {

@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutionException;
 public final class arfj extends arfh implements arib {
 
     /* renamed from: l */
-    public static final sek f87596l = ascp.m73787a("D2D", arfj.class.getSimpleName());
+    public static final Logger f87596l = ascp.m73787a("D2D", arfj.class.getSimpleName());
 
     /* renamed from: m */
     private argu f87597m;
@@ -23,7 +23,7 @@ public final class arfj extends arfh implements arib {
 
     /* renamed from: c */
     private final void m72657c() {
-        f87596l.mo25409a("resetNearbyDirectTransferController", new Object[0]);
+        f87596l.logVerbose("resetNearbyDirectTransferController", new Object[0]);
         argu argu = this.f87597m;
         if (argu != null) {
             argu.mo48264a();

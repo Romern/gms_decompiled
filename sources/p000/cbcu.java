@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbcu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbcu extends bxvk implements bxxd {
+public final class cbcu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbcu f176689d;
@@ -14,7 +14,7 @@ public final class cbcu extends bxvk implements bxxd {
     public cbmo f176691a;
 
     /* renamed from: b */
-    public bxtx f176692b = bxtx.f164797b;
+    public ByteString f176692b = ByteString.f164797b;
 
     /* renamed from: c */
     public bxvt f176693c = bxvm.f164965b;
@@ -22,7 +22,7 @@ public final class cbcu extends bxvk implements bxxd {
     static {
         cbcu cbcu = new cbcu();
         f176689d = cbcu;
-        bxvk.m124024a(cbcu.class, cbcu);
+        GeneratedMessageLite.m124024a(cbcu.class, cbcu);
     }
 
     private cbcu() {
@@ -39,7 +39,7 @@ public final class cbcu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176689d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0001\u0000\u0001\t\u0002\n\u0003,", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f176689d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0001\u0000\u0001\t\u0002\n\u0003,", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cbcu();
         } else {

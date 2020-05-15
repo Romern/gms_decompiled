@@ -46,7 +46,7 @@ public final class bwny extends bxvg implements bxvh {
     static {
         bwny bwny = new bwny();
         f160414k = bwny;
-        bxvk.m124024a(bwny.class, bwny);
+        GeneratedMessageLite.m124024a(bwny.class, bwny);
     }
 
     private bwny() {
@@ -67,7 +67,7 @@ public final class bwny extends bxvg implements bxvh {
             this.f160426l = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f160414k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0004\u0004\u0001ᐉ\u0000\u0002ဇ\u0001\u0003ဈ\u0002\u0004Л\u0005Л\u0006Л\u0007င\u0003\bဉ\u0004\t\u001b", new Object[]{"a", "b", "c", "d", "e", bwou.class, "f", bwoi.class, "g", bwoq.class, "h", "i", "j", bxaz.class});
+            return GeneratedMessageLite.m124022a(f160414k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0004\u0004\u0001ᐉ\u0000\u0002ဇ\u0001\u0003ဈ\u0002\u0004Л\u0005Л\u0006Л\u0007င\u0003\bဉ\u0004\t\u001b", new Object[]{"a", "b", "c", "d", "e", bwou.class, "f", bwoi.class, "g", bwoq.class, "h", "i", "j", bxaz.class});
         } else if (i2 == 3) {
             return new bwny();
         } else {

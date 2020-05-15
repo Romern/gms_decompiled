@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btac */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btac extends bxvk implements bxxd {
+public final class btac extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final btac f147931d;
@@ -28,7 +28,7 @@ public final class btac extends bxvk implements bxxd {
     static {
         btac btac = new btac();
         f147931d = btac;
-        bxvk.m124024a(btac.class, btac);
+        GeneratedMessageLite.m124024a(btac.class, btac);
     }
 
     private btac() {
@@ -49,7 +49,7 @@ public final class btac extends bxvk implements bxxd {
             this.f147937f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f147931d, "\u0000\u0004\u0000\u0000\u0002\u0005\u0004\u0000\u0001\u0001\u0002Л\u0003\t\u0004\u0002\u0005\u0004", new Object[]{"a", btbe.class, "e", "b", "c"});
+            return GeneratedMessageLite.m124022a(f147931d, "\u0000\u0004\u0000\u0000\u0002\u0005\u0004\u0000\u0001\u0001\u0002Л\u0003\t\u0004\u0002\u0005\u0004", new Object[]{"a", btbe.class, "e", "b", "c"});
         } else if (i2 == 3) {
             return new btac();
         } else {

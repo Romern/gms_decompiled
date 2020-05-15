@@ -10,6 +10,6 @@ final /* synthetic */ class auae implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        return ((bxtx) obj).mo73780k();
+        return ((ByteString) obj).getKey();
     }
 }

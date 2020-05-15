@@ -14,7 +14,7 @@ public class GassIntentOperation extends IntentOperation {
     public final void onHandleIntent(Intent intent) {
         if (intent != null) {
             try {
-                aaip aaip = (aaip) bxvk.m124014a(aaip.f28209d, intent.getExtras().getByteArray("IntentParameter"));
+                aaip aaip = (aaip) GeneratedMessageLite.m124014a(aaip.f28209d, intent.getExtras().getByteArray("IntentParameter"));
                 aahl a = aahm.m21261a(aaip);
                 if (a == null) {
                     Log.w(f32751a, "Failed to create task");

@@ -11,7 +11,7 @@ public final class zyw {
     private final zyv f56232a;
 
     public zyw(zyv zyv) {
-        sdo.m34966a(zyv, "directory");
+        sdo.checkIfNull(zyv, "directory");
         this.f56232a = zyv;
     }
 

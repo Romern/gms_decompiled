@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bbnu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bbnu extends bxvk implements bxxd {
+public final class bbnu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bbnu f102981f;
@@ -31,7 +31,7 @@ public final class bbnu extends bxvk implements bxxd {
     static {
         bbnu bbnu = new bbnu();
         f102981f = bbnu;
-        bxvk.m124024a(bbnu.class, bbnu);
+        GeneratedMessageLite.m124024a(bbnu.class, bbnu);
     }
 
     private bbnu() {
@@ -52,7 +52,7 @@ public final class bbnu extends bxvk implements bxxd {
             this.f102988g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f102981f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0001\u0001Л\u0002ဂ\u0000\u0003ဂ\u0001\u0004\u001b", new Object[]{"a", "b", bbns.class, "c", "d", "e", bbnt.class});
+            return GeneratedMessageLite.m124022a(f102981f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0001\u0001Л\u0002ဂ\u0000\u0003ဂ\u0001\u0004\u001b", new Object[]{"a", "b", bbns.class, "c", "d", "e", bbnt.class});
         } else if (i2 == 3) {
             return new bbnu();
         } else {
@@ -79,14 +79,14 @@ public final class bbnu extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo56250b() {
         if (!this.f102987e.mo73666a()) {
-            this.f102987e = bxvk.m124021a(this.f102987e);
+            this.f102987e = GeneratedMessageLite.m124021a(this.f102987e);
         }
     }
 
     /* renamed from: a */
     public final void mo56249a() {
         if (!this.f102984b.mo73666a()) {
-            this.f102984b = bxvk.m124021a(this.f102984b);
+            this.f102984b = GeneratedMessageLite.m124021a(this.f102984b);
         }
     }
 }

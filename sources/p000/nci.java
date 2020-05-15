@@ -73,7 +73,7 @@ public final class nci implements Callable {
             mde b = this.f35264d.mo20437b();
             lsz k = this.f35269i.mo74073k();
             bxvd bxvd = (bxvd) k.mo74142c(5);
-            bxvd.mo73625a((bxvk) k);
+            bxvd.mo73625a((GeneratedMessageLite) k);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -89,7 +89,7 @@ public final class nci implements Callable {
                 bxvd2.f164950c = false;
             }
             lth lth = lth.f32914q;
-            ((lth) bxvd2.f164949b).f32926k = bxvk.m124030de();
+            ((lth) bxvd2.f164949b).f32926k = GeneratedMessageLite.m124030de();
             bxvd2.mo74015a(lsz3);
             if (a.mo66813a()) {
                 mcp mcp2 = (mcp) a.mo66814b();
@@ -106,7 +106,7 @@ public final class nci implements Callable {
                 mcp = m25936a(a2, b);
             }
             this.f35263c.mo20433a(this.f35266f, mcp);
-            f35261b.mo25409a("Saved chunk listing for %s", this.f35266f);
+            f35261b.logVerbose("Saved chunk listing for %s", this.f35266f);
             srz.m36171a((Closeable) this.f35265e);
             return null;
         } catch (mbj e) {

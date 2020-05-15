@@ -173,17 +173,17 @@ public final class aagx extends aahl {
         String str3 = "";
         aago aago = null;
         try {
-            bxtx bxtx = aaip.f28213c;
+            ByteString bxtx = aaip.f28213c;
             bxus c = bxus.m123744c();
             aaiq aaiq = aaiq.f28214c;
             bxuc h = bxtx.mo73764h();
-            bxvk bxvk = (bxvk) aaiq.mo74142c(4);
-            bxxv a = bxxm.f165037a.mo74228a(bxvk);
-            a.mo74220a(bxvk, bxud.m123454a(h), c);
-            a.mo74225d(bxvk);
+            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) aaiq.mo74142c(4);
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+            a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+            a.mo74225d(GeneratedMessageLite);
             h.mo73787a(0);
-            bxvk.m124027b(bxvk);
-            str3 = ((aaiq) bxvk).f28217b;
+            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+            str3 = ((aaiq) GeneratedMessageLite).f28217b;
             try {
                 new Object[1][0] = str3;
                 PackageInfo packageInfo = context.getPackageManager().getPackageInfo(str3, 0);

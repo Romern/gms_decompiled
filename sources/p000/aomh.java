@@ -109,7 +109,7 @@ public final class aomh extends Fragment implements TextView.OnEditorActionListe
         Settings settings;
         Audience audience;
         if (!this.f78471p && (settings = this.f78468m) != null && (audience = this.f78463h) != null && settings.f82567d) {
-            sdo.m34966a(audience, "Audience must not be null.");
+            sdo.checkIfNull(audience, "Audience must not be null.");
             List list = audience.f30287b;
             int size = list.size();
             for (int i = 0; i < size; i++) {

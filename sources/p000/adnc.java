@@ -27,7 +27,7 @@ final class adnc implements aubt {
         adns.m50862a().mo33690a(this.f62196a);
         boly boly = this.f62197b;
         bxvd bxvd = (bxvd) boly.mo74142c(5);
-        bxvd.mo73625a((bxvk) boly);
+        bxvd.mo73625a((GeneratedMessageLite) boly);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

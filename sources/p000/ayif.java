@@ -51,10 +51,10 @@ final class ayif extends ayfu {
             if (Log.isLoggable("ChannelManager", 2)) {
                 Log.v("ChannelManager", String.format("Posting createChannel(%s, %s, %s, callbacks)", axue.f96377a, str, str2));
             }
-            sdo.m34966a(axue, "appKey");
-            sdo.m34966a((Object) str, (Object) "nodeId");
-            sdo.m34966a((Object) str2, (Object) "path");
-            sdo.m34966a(ayig, "callback");
+            sdo.checkIfNull(axue, "appKey");
+            sdo.checkIfNull((Object) str, (Object) "nodeId");
+            sdo.checkIfNull((Object) str2, (Object) "path");
+            sdo.checkIfNull(ayig, "callback");
             axvr.mo53625a(new axuz(axvr, axue, str, str2, ayig, ayem));
         } catch (RuntimeException e) {
             Log.w("WearableService", "openChannel: exception during processing", e);

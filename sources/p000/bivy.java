@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bivy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bivy extends bxvk implements bxxd {
+public final class bivy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bivy f122059c;
@@ -25,7 +25,7 @@ public final class bivy extends bxvk implements bxxd {
     static {
         bivy bivy = new bivy();
         f122059c = bivy;
-        bxvk.m124024a(bivy.class, bivy);
+        GeneratedMessageLite.m124024a(bivy.class, bivy);
     }
 
     private bivy() {
@@ -46,7 +46,7 @@ public final class bivy extends bxvk implements bxxd {
             this.f122064e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f122059c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔄ\u0001", new Object[]{"d", "a", bisf.m102782b(), "b"});
+            return GeneratedMessageLite.m124022a(f122059c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔄ\u0001", new Object[]{"d", "a", bisf.m102782b(), "b"});
         } else if (i2 == 3) {
             return new bivy();
         } else {

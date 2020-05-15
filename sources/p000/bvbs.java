@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvbs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvbs extends bxvk implements bxxd {
+public final class bvbs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bvbs f155560d;
@@ -17,12 +17,12 @@ public final class bvbs extends bxvk implements bxxd {
     public int f155563b;
 
     /* renamed from: c */
-    public bxtx f155564c = bxtx.f164797b;
+    public ByteString f155564c = ByteString.f164797b;
 
     static {
         bvbs bvbs = new bvbs();
         f155560d = bvbs;
-        bxvk.m124024a(bvbs.class, bvbs);
+        GeneratedMessageLite.m124024a(bvbs.class, bvbs);
     }
 
     private bvbs() {
@@ -39,7 +39,7 @@ public final class bvbs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155560d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ည\u0001", new Object[]{"a", "b", bvbt.f155565a, "c"});
+            return GeneratedMessageLite.m124022a(f155560d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ည\u0001", new Object[]{"a", "b", bvbt.f155565a, "c"});
         } else if (i2 == 3) {
             return new bvbs();
         } else {

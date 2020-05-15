@@ -38,7 +38,7 @@ import java.util.regex.Pattern;
 public final class asai extends Fragment implements asdb, asba {
 
     /* renamed from: a */
-    public static final sek f88581a = ascp.m73787a("Setup", "UI", "SelectWifiFragment");
+    public static final Logger f88581a = ascp.m73787a("Setup", "UI", "SelectWifiFragment");
 
     /* renamed from: f */
     private static final Pattern f88582f = Pattern.compile(".*");
@@ -128,13 +128,13 @@ public final class asai extends Fragment implements asdb, asba {
     public final void onActivityResult(int i, int i2, Intent intent) {
         super.onActivityResult(i, i2, intent);
         if (i != 4) {
-            sek sek = f88581a;
+            Logger Logger = f88581a;
             StringBuilder sb = new StringBuilder(33);
             sb.append("Unknown request code: ");
             sb.append(i);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
         } else if (i2 == -1) {
-            f88581a.mo25409a("Location enabled successfully.", new Object[0]);
+            f88581a.logVerbose("Location enabled successfully.", new Object[0]);
         } else if (i2 == 0) {
             f88581a.mo25418e("Enabling location was canceled by user.", new Object[0]);
             mo48998a(true);

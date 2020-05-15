@@ -27,7 +27,7 @@ public final class bhqo {
 
     /* renamed from: a */
     public final void mo64166a(bpqk bpqk) {
-        qwo a = this.f119335b.mo24335a(bhqq.m101346a(bpqk).mo73642k());
+        qwo a = this.f119335b.mo24335a(bhqq.m101346a(bpqk).serializeToBytes());
         a.mo24329b("Places");
         a.f42323g = this.f119336c;
         a.mo24327b();

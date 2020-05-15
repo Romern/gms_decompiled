@@ -8,7 +8,7 @@ import com.google.android.gms.org.conscrypt.PSKKeyManager;
 public final class tdf {
 
     /* renamed from: a */
-    private static final sek f45687a = tea.m36798a("audit_recorder");
+    private static final Logger f45687a = tea.m36798a("audit_recorder");
 
     /* renamed from: a */
     static int m36742a(int i) {
@@ -74,7 +74,7 @@ public final class tdf {
         }
         try {
             bxvd da = bsmu.f145306c.mo74144da();
-            bsna bsna = (bsna) bxvk.m124007a(bsna.f146214c, bxtx.m123261a(ggj.m13107a()));
+            bsna bsna = (bsna) GeneratedMessageLite.m124007a(bsna.f146214c, ByteString.m123261a(ggj.m13107a()));
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -211,14 +211,14 @@ public final class tdf {
             bsrc2.getClass();
             bsqw3.f146700d = bsrc2;
             bsqw3.f146697a = i5 | 2;
-            byte[] k = ((bsqw) bsqv.mo74062i()).mo73642k();
+            byte[] k = ((bsqw) bsqv.mo74062i()).serializeToBytes();
             ggp ggp = new ggp();
             ggp.f18143b = i3;
-            ggp.f18145d = bsmu2.mo73642k();
+            ggp.f18145d = bsmu2.serializeToBytes();
             ggp.f18142a = 1;
             ggp.mo11800a(k);
             ggh.m13102a(context).mo11796a(ggp.mo11799a()).mo50371a(aubq);
-            return bsmu2.mo73642k();
+            return bsmu2.serializeToBytes();
         } catch (bxwf e) {
             f45687a.mo25418e("failed to generate audit token", new Object[0]);
             return null;

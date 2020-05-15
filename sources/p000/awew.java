@@ -35,7 +35,7 @@ public final class awew implements awpj {
         byab.f165226c = str;
         byab.f165224a = i2 | 4;
         byab.f165227d = i;
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -53,7 +53,7 @@ public final class awew implements awpj {
         byab2.f165224a = i4 | 16;
         byab2.f165229f = str2;
         if (!byab2.f165230g.mo73666a()) {
-            byab2.f165230g = bxvk.m124019a(byab2.f165230g);
+            byab2.f165230g = GeneratedMessageLite.m124019a(byab2.f165230g);
         }
         int size = arrayList.size();
         for (int i5 = 0; i5 < size; i5++) {

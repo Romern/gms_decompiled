@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aylx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aylx extends bxvk implements bxxd {
+public final class aylx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final aylx f97942d;
@@ -22,7 +22,7 @@ public final class aylx extends bxvk implements bxxd {
     static {
         aylx aylx = new aylx();
         f97942d = aylx;
-        bxvk.m124024a(aylx.class, aylx);
+        GeneratedMessageLite.m124024a(aylx.class, aylx);
     }
 
     private aylx() {
@@ -39,7 +39,7 @@ public final class aylx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f97942d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", aylt.f97931a});
+            return GeneratedMessageLite.m124022a(f97942d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", aylt.f97931a});
         } else if (i2 == 3) {
             return new aylx();
         } else {

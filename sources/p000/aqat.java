@@ -34,7 +34,7 @@ public final class aqat {
             apyq apyq2 = (apyq) a.f164949b;
             apyo.getClass();
             if (!apyq2.f85176a.mo73666a()) {
-                apyq2.f85176a = bxvk.m124021a(apyq2.f85176a);
+                apyq2.f85176a = GeneratedMessageLite.m124021a(apyq2.f85176a);
             }
             apyq2.f85176a.add(apyo);
             apyo = (apyo) this.f85476c.poll();
@@ -45,7 +45,7 @@ public final class aqat {
     /* renamed from: a */
     public final apyq mo47723a(byte[] bArr) {
         try {
-            return (apyq) bxvk.m124014a(apyq.f85174b, bArr);
+            return (apyq) GeneratedMessageLite.m124014a(apyq.f85174b, bArr);
         } catch (bxwf e) {
             return apyq.f85174b;
         }

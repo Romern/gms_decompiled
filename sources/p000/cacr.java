@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cacr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cacr extends bxvk implements bxxd {
+public final class cacr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final cacr f172605f;
@@ -28,7 +28,7 @@ public final class cacr extends bxvk implements bxxd {
     static {
         cacr cacr = new cacr();
         f172605f = cacr;
-        bxvk.m124024a(cacr.class, cacr);
+        GeneratedMessageLite.m124024a(cacr.class, cacr);
     }
 
     private cacr() {
@@ -45,7 +45,7 @@ public final class cacr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172605f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0003\u001b\u0004ဈ\u0000", new Object[]{"a", "b", cabo.class, "c", cabo.class, "d", cabw.class, "e"});
+            return GeneratedMessageLite.m124022a(f172605f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0003\u001b\u0004ဈ\u0000", new Object[]{"a", "b", cabo.class, "c", cabo.class, "d", cabw.class, "e"});
         } else if (i2 == 3) {
             return new cacr();
         } else {

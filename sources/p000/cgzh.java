@@ -11,6 +11,6 @@ final /* synthetic */ class cgzh implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (cixp) bxvk.m124014a(cixp.f191704b, bArr);
+        return (cixp) GeneratedMessageLite.m124014a(cixp.f191704b, bArr);
     }
 }

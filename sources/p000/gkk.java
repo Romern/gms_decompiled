@@ -9,7 +9,7 @@ import android.content.pm.PackageManager;
 public final class gkk {
 
     /* renamed from: a */
-    public static final sek f18400a = ght.m13171a("BroadcastManager");
+    public static final Logger f18400a = ght.m13171a("BroadcastManager");
 
     /* renamed from: b */
     public static final imr f18401b = imr.m15727a("accountsAdded");

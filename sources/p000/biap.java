@@ -86,7 +86,7 @@ public final class biap implements bial {
                 bvms bvms2 = (bvms) hashMap.get(bhzs.f119985a);
                 if ((bvms2.f156784a & 2) == 0) {
                     bxvd bxvd = (bxvd) bvms2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bvms2);
+                    bxvd.mo73625a((GeneratedMessageLite) bvms2);
                     bxvd da = bzrv.f171206c.mo74144da();
                     double d = bhzs.f119986b;
                     if (da.f164950c) {

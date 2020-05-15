@@ -25,7 +25,7 @@ final /* synthetic */ class bape implements bmxj {
             return (bpyi) da.mo74062i();
         }
         bxvd bxvd = (bxvd) bpyi.mo74142c(5);
-        bxvd.mo73625a((bxvk) bpyi);
+        bxvd.mo73625a((GeneratedMessageLite) bpyi);
         bqaq bqaq2 = bqaq.SUCCESS;
         if (bxvd.f164950c) {
             bxvd.mo74035c();

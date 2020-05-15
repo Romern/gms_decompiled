@@ -17,7 +17,7 @@ public final class hnn extends bmxe {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo12636a(Object obj) {
         bmxv bmxv = (bmxv) obj;
-        return bmxv.mo66813a() ? sqd.m35968b(((bxxc) bmxv.mo66814b()).mo73642k()) : "<<absent>>";
+        return bmxv.mo66813a() ? sqd.m35968b(((bxxc) bmxv.mo66814b()).serializeToBytes()) : "<<absent>>";
     }
 
     /* access modifiers changed from: protected */

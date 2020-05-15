@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ciml */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ciml extends bxvk implements bxxd {
+public final class ciml extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final ciml f190743c;
@@ -22,7 +22,7 @@ public final class ciml extends bxvk implements bxxd {
     static {
         ciml ciml = new ciml();
         f190743c = ciml;
-        bxvk.m124024a(ciml.class, ciml);
+        GeneratedMessageLite.m124024a(ciml.class, ciml);
     }
 
     private ciml() {
@@ -43,7 +43,7 @@ public final class ciml extends bxvk implements bxxd {
             this.f190747d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f190743c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f190743c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new ciml();
         } else {

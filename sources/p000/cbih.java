@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbih */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbih extends bxvk implements bxxd {
+public final class cbih extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final cbih f177242h;
@@ -34,7 +34,7 @@ public final class cbih extends bxvk implements bxxd {
     static {
         cbih cbih = new cbih();
         f177242h = cbih;
-        bxvk.m124024a(cbih.class, cbih);
+        GeneratedMessageLite.m124024a(cbih.class, cbih);
     }
 
     private cbih() {
@@ -51,7 +51,7 @@ public final class cbih extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177242h, "\u0000\u0007\u0000\u0000\u0001\u0007\u0007\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005\t\u0006Ȉ\u0007\t", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f177242h, "\u0000\u0007\u0000\u0000\u0001\u0007\u0007\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005\t\u0006Ȉ\u0007\t", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
         } else if (i2 == 3) {
             return new cbih();
         } else {

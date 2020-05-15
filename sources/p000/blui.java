@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blui */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blui extends bxvk implements bxxd {
+public final class blui extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final blui f127810b;
@@ -16,7 +16,7 @@ public final class blui extends bxvk implements bxxd {
     static {
         blui blui = new blui();
         f127810b = blui;
-        bxvk.m124024a(blui.class, blui);
+        GeneratedMessageLite.m124024a(blui.class, blui);
     }
 
     private blui() {
@@ -33,7 +33,7 @@ public final class blui extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127810b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", brzn.class});
+            return GeneratedMessageLite.m124022a(f127810b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", brzn.class});
         } else if (i2 == 3) {
             return new blui();
         } else {

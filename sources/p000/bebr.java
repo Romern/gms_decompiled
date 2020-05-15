@@ -140,7 +140,7 @@ public final class bebr {
                         bkxr2.f125413a |= 4;
                         ArrayList arrayList = session.f111418b;
                         if (!bkxr2.f125414b.mo73666a()) {
-                            bkxr2.f125414b = bxvk.m124021a(bkxr2.f125414b);
+                            bkxr2.f125414b = GeneratedMessageLite.m124021a(bkxr2.f125414b);
                         }
                         bxsy.m123078a(arrayList, bkxr2.f125414b);
                         session.f111418b.clear();

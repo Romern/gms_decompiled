@@ -422,7 +422,7 @@ public final class alse {
     public static bleu m61619a(String str, boolean z) {
         bleu f = m61636f(str);
         bxvd bxvd = (bxvd) f.mo74142c(5);
-        bxvd.mo73625a((bxvk) f);
+        bxvd.mo73625a((GeneratedMessageLite) f);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvor */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvor extends bxvk implements bxxd {
+public final class bvor extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: l */
     public static final bvor f157199l;
@@ -35,7 +35,7 @@ public final class bvor extends bxvk implements bxxd {
     public int f157208h;
 
     /* renamed from: i */
-    public bxtx f157209i = bxtx.f164797b;
+    public ByteString f157209i = ByteString.f164797b;
 
     /* renamed from: j */
     public String f157210j = "";
@@ -46,7 +46,7 @@ public final class bvor extends bxvk implements bxxd {
     static {
         bvor bvor = new bvor();
         f157199l = bvor;
-        bxvk.m124024a(bvor.class, bvor);
+        GeneratedMessageLite.m124024a(bvor.class, bvor);
     }
 
     private bvor() {
@@ -63,7 +63,7 @@ public final class bvor extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157199l, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0001\u0000\u0001ဉ\u0000\u0002စ\u0001\u0003ဈ\u0002\u0004ဉ\u0003\u0005စ\u0004\u0006ခ\u0005\u0007င\u0006\bည\u0007\tဈ\b\n\u001c", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"});
+            return GeneratedMessageLite.m124022a(f157199l, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0001\u0000\u0001ဉ\u0000\u0002စ\u0001\u0003ဈ\u0002\u0004ဉ\u0003\u0005စ\u0004\u0006ခ\u0005\u0007င\u0006\bည\u0007\tဈ\b\n\u001c", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"});
         } else if (i2 == 3) {
             return new bvor();
         } else {

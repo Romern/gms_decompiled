@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqzo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqzo extends bxvk implements bxxd {
+public final class bqzo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bqzo f142071a;
@@ -13,11 +13,11 @@ public final class bqzo extends bxvk implements bxxd {
     static {
         bqzo bqzo = new bqzo();
         f142071a = bqzo;
-        bxvk.m124024a(bqzo.class, bqzo);
+        GeneratedMessageLite.m124024a(bqzo.class, bqzo);
     }
 
     private bqzo() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -31,7 +31,7 @@ public final class bqzo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142071a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f142071a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bqzo();

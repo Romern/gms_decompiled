@@ -66,7 +66,7 @@ public final class bgyk {
     public Integer f118080s;
 
     public bgyk(Account account) {
-        sdo.m34966a(account, "null account");
+        sdo.checkIfNull(account, "null account");
         this.f118062a = account;
     }
 

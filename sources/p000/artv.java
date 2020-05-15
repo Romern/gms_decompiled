@@ -22,7 +22,7 @@ final /* synthetic */ class artv implements aubg {
     public final Object mo7031a(aucb aucb) {
         Challenge challenge = this.f88289a;
         byte[] bArr = this.f88290b;
-        sek sek = aruc.f88303a;
+        Logger Logger = aruc.f88303a;
         return new Assertion(challenge.f108122c, bArr, ((SignCryptedBlob) aucb.mo50386d()).f10555c, challenge.f108125f, challenge.f108124e);
     }
 }

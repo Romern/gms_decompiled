@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ataq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ataq extends bxvk implements bxxd {
+public final class ataq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final ataq f89963f;
@@ -28,7 +28,7 @@ public final class ataq extends bxvk implements bxxd {
     static {
         ataq ataq = new ataq();
         f89963f = ataq;
-        bxvk.m124024a(ataq.class, ataq);
+        GeneratedMessageLite.m124024a(ataq.class, ataq);
     }
 
     private ataq() {
@@ -45,7 +45,7 @@ public final class ataq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f89963f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0000\u0001ဉ\u0000\u0002\u001b\u0003င\u0001\u0004\u001b", new Object[]{"a", "b", "c", bmsz.class, "e", "d", btma.class});
+            return GeneratedMessageLite.m124022a(f89963f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0000\u0001ဉ\u0000\u0002\u001b\u0003င\u0001\u0004\u001b", new Object[]{"a", "b", "c", bmsz.class, "e", "d", btma.class});
         } else if (i2 == 3) {
             return new ataq();
         } else {

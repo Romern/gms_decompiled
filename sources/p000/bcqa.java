@@ -20,7 +20,7 @@ public final class bcqa {
     }
 
     /* renamed from: a */
-    public static bcti m89618a(bxtx bxtx) {
+    public static bcti m89618a(ByteString bxtx) {
         if (bxtx != null) {
             return new bcpy(bxtx);
         }

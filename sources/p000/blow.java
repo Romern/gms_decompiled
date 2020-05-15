@@ -16,7 +16,7 @@ public final class blow extends bxvg implements bxvh {
     static {
         blow blow = new blow();
         f127157a = blow;
-        bxvk.m124024a(blow.class, blow);
+        GeneratedMessageLite.m124024a(blow.class, blow);
     }
 
     private blow() {
@@ -37,7 +37,7 @@ public final class blow extends bxvg implements bxvh {
             this.f127159b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127157a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f127157a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new blow();

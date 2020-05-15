@@ -127,7 +127,7 @@ public final class vyd {
         str.getClass();
         vwa.f50107a |= 1;
         vwa.f50108b = str;
-        intent.putExtra("data", ((vwa) da.mo74062i()).mo73642k());
+        intent.putExtra("data", ((vwa) da.mo74062i()).serializeToBytes());
         this.f50224a.startService(intent);
     }
 }

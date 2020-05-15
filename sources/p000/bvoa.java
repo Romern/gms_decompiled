@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvoa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvoa extends bxvk implements bxxd {
+public final class bvoa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final bvoa f156994o;
@@ -58,7 +58,7 @@ public final class bvoa extends bxvk implements bxxd {
     static {
         bvoa bvoa = new bvoa();
         f156994o = bvoa;
-        bxvk.m124024a(bvoa.class, bvoa);
+        GeneratedMessageLite.m124024a(bvoa.class, bvoa);
     }
 
     private bvoa() {
@@ -82,7 +82,7 @@ public final class bvoa extends bxvk implements bxxd {
             this.f157010p = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f156994o, "\u0001\r\u0000\u0001\u0001\u001b\r\u0000\u0004\u0004\u0001ᐉ\u0000\u0002ဍ\u0002\u0003ဍ\u0003\u0005ဈ\u0005\n\u001b\u000bဇ\u0001\f\u001b\u0012Л\u0015ဏ\u000e\u0017ᐉ\u0010\u0018$\u001aဌ\b\u001bᐉ\u0012", new Object[]{"a", "b", "d", "e", "f", "h", bvnz.class, "c", "i", bvod.class, "j", bvnc.class, "k", "l", "m", "g", bvng.f156860a, "n"});
+            return GeneratedMessageLite.m124022a(f156994o, "\u0001\r\u0000\u0001\u0001\u001b\r\u0000\u0004\u0004\u0001ᐉ\u0000\u0002ဍ\u0002\u0003ဍ\u0003\u0005ဈ\u0005\n\u001b\u000bဇ\u0001\f\u001b\u0012Л\u0015ဏ\u000e\u0017ᐉ\u0010\u0018$\u001aဌ\b\u001bᐉ\u0012", new Object[]{"a", "b", "d", "e", "f", "h", bvnz.class, "c", "i", bvod.class, "j", bvnc.class, "k", "l", "m", "g", bvng.f156860a, "n"});
         } else if (i2 == 3) {
             return new bvoa();
         } else {

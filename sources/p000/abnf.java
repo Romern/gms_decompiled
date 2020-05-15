@@ -267,7 +267,7 @@ final class abnf {
             }
             bosi bosi2 = (bosi) da4.f164949b;
             if (!bosi2.f134595a.mo73666a()) {
-                bosi2.f134595a = bxvk.m124021a(bosi2.f134595a);
+                bosi2.f134595a = GeneratedMessageLite.m124021a(bosi2.f134595a);
             }
             bxsy.m123078a(arrayList, bosi2.f134595a);
             List<RouteInfo> routes = linkProperties.getRoutes();
@@ -319,7 +319,7 @@ final class abnf {
             }
             bosi bosi3 = (bosi) da4.f164949b;
             if (!bosi3.f134596b.mo73666a()) {
-                bosi3.f134596b = bxvk.m124021a(bosi3.f134596b);
+                bosi3.f134596b = GeneratedMessageLite.m124021a(bosi3.f134596b);
             }
             bxsy.m123078a(arrayList2, bosi3.f134596b);
             bosi = (bosi) da4.mo74062i();
@@ -395,7 +395,7 @@ final class abnf {
                 }
                 bosm bosm3 = (bosm) da.f164949b;
                 if (!bosm3.f134620d.mo73666a()) {
-                    bosm3.f134620d = bxvk.m124021a(bosm3.f134620d);
+                    bosm3.f134620d = GeneratedMessageLite.m124021a(bosm3.f134620d);
                 }
                 bxsy.m123078a(arrayList, bosm3.f134620d);
                 return (bosm) da.mo74062i();

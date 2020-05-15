@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cblw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cblw extends bxvk implements bxxd {
+public final class cblw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cblw f177572b;
@@ -16,11 +16,11 @@ public final class cblw extends bxvk implements bxxd {
     static {
         cblw cblw = new cblw();
         f177572b = cblw;
-        bxvk.m124024a(cblw.class, cblw);
+        GeneratedMessageLite.m124024a(cblw.class, cblw);
     }
 
     private cblw() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -34,7 +34,7 @@ public final class cblw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177572b, "\u0000\u0001\u0000\u0000\u0004\u0004\u0001\u0000\u0000\u0000\u0004\t", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f177572b, "\u0000\u0001\u0000\u0000\u0004\u0004\u0001\u0000\u0000\u0000\u0004\t", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cblw();
         } else {

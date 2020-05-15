@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amms */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amms extends bxvk implements bxxd {
+public final class amms extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final amms f75372c;
@@ -19,7 +19,7 @@ public final class amms extends bxvk implements bxxd {
     static {
         amms amms = new amms();
         f75372c = amms;
-        bxvk.m124024a(amms.class, amms);
+        GeneratedMessageLite.m124024a(amms.class, amms);
     }
 
     private amms() {
@@ -36,7 +36,7 @@ public final class amms extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75372c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", amji.f74997a});
+            return GeneratedMessageLite.m124022a(f75372c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", amji.f74997a});
         } else if (i2 == 3) {
             return new amms();
         } else {

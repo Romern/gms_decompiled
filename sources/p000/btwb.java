@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btwb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btwb extends bxvk implements bxxd {
+public final class btwb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btwb f152683c;
@@ -19,7 +19,7 @@ public final class btwb extends bxvk implements bxxd {
     static {
         btwb btwb = new btwb();
         f152683c = btwb;
-        bxvk.m124024a(btwb.class, btwb);
+        GeneratedMessageLite.m124024a(btwb.class, btwb);
     }
 
     private btwb() {
@@ -36,7 +36,7 @@ public final class btwb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f152683c, "\u0000\u0002\u0000\u0000\u0006\u0007\u0002\u0000\u0000\u0000\u0006\t\u0007\t", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f152683c, "\u0000\u0002\u0000\u0000\u0006\u0007\u0002\u0000\u0000\u0000\u0006\t\u0007\t", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new btwb();
         } else {

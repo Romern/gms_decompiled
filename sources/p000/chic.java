@@ -45,9 +45,9 @@ public final class chic implements chhz {
         bdyx.m91610a(bdyw, "androidpay.enable_buy_flow_template_prefetch", true);
         bdyx.m91610a(bdyw, "androidpay.use_preferred_account_from_json_params", false);
         try {
-            f188640c = bdyx.m91608a(bdyw, "InstantbuyFeatures__integrators_redirect_to_bender3", (bydj) bxvk.m124014a(bydj.f165795b, new byte[0]), chia.f188636a);
+            f188640c = bdyx.m91608a(bdyw, "InstantbuyFeatures__integrators_redirect_to_bender3", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[0]), chia.f188636a);
             try {
-                f188641d = bdyx.m91608a(bdyw, "InstantbuyFeatures__integrators_redirect_to_bender3_from_ib_service", (bydj) bxvk.m124014a(bydj.f165795b, new byte[0]), chib.f188637a);
+                f188641d = bdyx.m91608a(bdyw, "InstantbuyFeatures__integrators_redirect_to_bender3_from_ib_service", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[0]), chib.f188637a);
                 f188642e = bdyx.m91610a(bdyw, "InstantbuyFeatures__populate_transaction_info_from_cart", false);
                 f188643f = bdyx.m91610a(bdyw, "InstantbuyFeatures__redirect_to_bender3", false);
                 f188644g = bdyx.m91610a(bdyw, "InstantbuyFeatures__redirect_to_bender3_from_ib_service", false);

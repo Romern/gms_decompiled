@@ -159,7 +159,7 @@ public final class oig extends ojh {
             b.mo68432a("oig", "a", 84, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             b.mo68409a("Received invalid message type: %d", i);
         } else {
-            int i10 = ((birn) bxvk.m124012a(birn.f121428b, byteBuffer)).f121430a;
+            int i10 = ((birn) GeneratedMessageLite.m124012a(birn.f121428b, byteBuffer)).f121430a;
         }
     }
 }

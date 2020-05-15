@@ -31,7 +31,7 @@ final /* synthetic */ class bcxn implements bmxj {
             }
             cbfv cbfv = (cbfv) da2.f164949b;
             if (!cbfv.f176978a.mo73666a()) {
-                cbfv.f176978a = bxvk.m124021a(cbfv.f176978a);
+                cbfv.f176978a = GeneratedMessageLite.m124021a(cbfv.f176978a);
             }
             bxsy.m123078a(a2, cbfv.f176978a);
             cbfv cbfv2 = (cbfv) da2.mo74062i();

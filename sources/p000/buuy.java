@@ -55,7 +55,7 @@ final class buuy implements bvbr {
                     if (a2 != 0 && a2 == 4) {
                         buzk buzk = buuz2.f155019d;
                         bxvd bxvd = (bxvd) buzk.mo74142c(5);
-                        bxvd.mo73625a((bxvk) buzk);
+                        bxvd.mo73625a((GeneratedMessageLite) buzk);
                         int a3 = buzs.m120815a(b[0]);
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
@@ -85,7 +85,7 @@ final class buuy implements bvbr {
                 } else if (i2 == 1) {
                     srn srn2 = bvcm.f155598a;
                     buuz buuz4 = this.f155015b;
-                    buuz4.f155021f = new bvcz(buuz4.f155020e, buuz4.f155019d.f155395c.mo73780k());
+                    buuz4.f155021f = new bvcz(buuz4.f155020e, buuz4.f155019d.f155395c.getKey());
                 } else if (i2 == 2) {
                     srn srn3 = bvcm.f155598a;
                     buuz buuz5 = this.f155015b;
@@ -187,7 +187,7 @@ final class buuy implements bvbr {
                             buzl4.f155402d = e3;
                             buzl4.f155399a |= 4;
                             bxvd da4 = buzq.f155418c.mo74144da();
-                            bxtx a7 = bxtx.m123261a(b2);
+                            ByteString a7 = ByteString.m123261a(b2);
                             if (da4.f164950c) {
                                 da4.mo74035c();
                                 da4.f164950c = false;

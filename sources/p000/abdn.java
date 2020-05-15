@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abdn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abdn extends bxvk implements bxxd {
+public final class abdn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final abdn f57103e;
@@ -25,7 +25,7 @@ public final class abdn extends bxvk implements bxxd {
     static {
         abdn abdn = new abdn();
         f57103e = abdn;
-        bxvk.m124024a(abdn.class, abdn);
+        GeneratedMessageLite.m124024a(abdn.class, abdn);
     }
 
     private abdn() {
@@ -42,7 +42,7 @@ public final class abdn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57103e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f57103e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new abdn();
         } else {

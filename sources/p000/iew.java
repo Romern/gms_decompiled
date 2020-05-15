@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: iew */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class iew extends bxvk implements bxxd {
+public final class iew extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final iew f20831b;
@@ -16,7 +16,7 @@ public final class iew extends bxvk implements bxxd {
     static {
         iew iew = new iew();
         f20831b = iew;
-        bxvk.m124024a(iew.class, iew);
+        GeneratedMessageLite.m124024a(iew.class, iew);
     }
 
     private iew() {
@@ -33,7 +33,7 @@ public final class iew extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f20831b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", iev.f20830a});
+            return GeneratedMessageLite.m124022a(f20831b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", iev.f20830a});
         } else if (i2 == 3) {
             return new iew();
         } else {

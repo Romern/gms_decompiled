@@ -53,7 +53,7 @@ final class bxxe {
                 String str3 = valueOf2.length() == 0 ? new String(valueOf) : valueOf.concat(valueOf2);
                 Method method2 = (Method) hashMap.get(str2);
                 if (method2 != null && method2.getReturnType().equals(List.class)) {
-                    m124170a(sb, i, m124168a(str3), bxvk.m124023a(method2, bxxc, new Object[0]));
+                    m124170a(sb, i, m124168a(str3), GeneratedMessageLite.m124023a(method2, bxxc, new Object[0]));
                 }
             }
             if (str.endsWith("Map") && !str.equals("Map")) {
@@ -62,7 +62,7 @@ final class bxxe {
                 String str4 = valueOf4.length() == 0 ? new String(valueOf3) : valueOf3.concat(valueOf4);
                 Method method3 = (Method) hashMap.get(str2);
                 if (method3 != null && method3.getReturnType().equals(Map.class) && !method3.isAnnotationPresent(Deprecated.class) && Modifier.isPublic(method3.getModifiers())) {
-                    m124170a(sb, i, m124168a(str4), bxvk.m124023a(method3, bxxc, new Object[0]));
+                    m124170a(sb, i, m124168a(str4), GeneratedMessageLite.m124023a(method3, bxxc, new Object[0]));
                 }
             }
             String valueOf5 = String.valueOf(str);
@@ -80,9 +80,9 @@ final class bxxe {
                 String valueOf10 = String.valueOf(str);
                 Method method5 = (Method) hashMap.get(valueOf10.length() == 0 ? new String("has") : "has".concat(valueOf10));
                 if (method4 != null) {
-                    Object a = bxvk.m124023a(method4, bxxc, new Object[0]);
+                    Object a = GeneratedMessageLite.m124023a(method4, bxxc, new Object[0]);
                     if (method5 != null) {
-                        if (!((Boolean) bxvk.m124023a(method5, bxxc, new Object[0])).booleanValue()) {
+                        if (!((Boolean) GeneratedMessageLite.m124023a(method5, bxxc, new Object[0])).booleanValue()) {
                         }
                     } else if (a instanceof Boolean) {
                         if (!((Boolean) a).booleanValue()) {
@@ -96,8 +96,8 @@ final class bxxe {
                     } else if (!(a instanceof Double)) {
                         if (a instanceof String) {
                             z = a.equals("");
-                        } else if (a instanceof bxtx) {
-                            z = a.equals(bxtx.f164797b);
+                        } else if (a instanceof ByteString) {
+                            z = a.equals(ByteString.f164797b);
                         } else if (a instanceof bxxc) {
                             if (a == ((bxxc) a).mo74067j()) {
                             }
@@ -123,7 +123,7 @@ final class bxxe {
                 m124170a(sb, i, sb2.toString(), entry.getValue());
             }
         }
-        bxyo bxyo = ((bxvk) bxxc).f164960ah;
+        bxyo bxyo = ((GeneratedMessageLite) bxxc).f164960ah;
         if (bxyo != null) {
             for (int i3 = 0; i3 < bxyo.f165103b; i3++) {
                 m124170a(sb, i, String.valueOf(bxzh.m124563b(bxyo.f165104c[i3])), bxyo.f165105d[i3]);
@@ -150,15 +150,15 @@ final class bxxe {
             sb.append(str);
             if (obj instanceof String) {
                 sb.append(": \"");
-                sb.append(bxyj.m124411a(bxtx.m123258a((String) obj)));
+                sb.append(bxyj.m124411a(ByteString.m123258a((String) obj)));
                 sb.append('\"');
-            } else if (obj instanceof bxtx) {
+            } else if (obj instanceof ByteString) {
                 sb.append(": \"");
-                sb.append(bxyj.m124411a((bxtx) obj));
+                sb.append(bxyj.m124411a((ByteString) obj));
                 sb.append('\"');
-            } else if (obj instanceof bxvk) {
+            } else if (obj instanceof GeneratedMessageLite) {
                 sb.append(" {");
-                m124169a((bxvk) obj, sb, i + 2);
+                m124169a((GeneratedMessageLite) obj, sb, i + 2);
                 sb.append("\n");
                 while (i2 < i) {
                     sb.append(' ');

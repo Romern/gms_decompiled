@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpsv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpsv extends bxvk implements bxxd {
+public final class bpsv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bpsv f139020g;
@@ -31,7 +31,7 @@ public final class bpsv extends bxvk implements bxxd {
     static {
         bpsv bpsv = new bpsv();
         f139020g = bpsv;
-        bxvk.m124024a(bpsv.class, bpsv);
+        GeneratedMessageLite.m124024a(bpsv.class, bpsv);
     }
 
     private bpsv() {
@@ -48,7 +48,7 @@ public final class bpsv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139020g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဋ\u0000\u0002က\u0001\u0003က\u0002\u0004က\u0003\u0005က\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f139020g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဋ\u0000\u0002က\u0001\u0003က\u0002\u0004က\u0003\u0005က\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new bpsv();
         } else {

@@ -18,7 +18,7 @@ final /* synthetic */ class xdn implements bmxz {
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
         Context context = this.f52002a;
-        sek sek = xdr.f52012a;
+        Logger Logger = xdr.f52012a;
         String d = sqd.m35972d(((PublicKeyCredentialDescriptor) obj).f31776a);
         int i = Build.VERSION.SDK_INT;
         new xde(context);

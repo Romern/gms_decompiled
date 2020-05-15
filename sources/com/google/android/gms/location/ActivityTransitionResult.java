@@ -50,7 +50,7 @@ public class ActivityTransitionResult extends AbstractSafeParcelable {
 
     public ActivityTransitionResult(List list, Bundle bundle) {
         boolean z;
-        sdo.m34966a(list, "transitionEvents list can't be null.");
+        sdo.checkIfNull(list, "transitionEvents list can't be null.");
         if (!list.isEmpty()) {
             for (int i = 1; i < list.size(); i++) {
                 if (((ActivityTransitionEvent) list.get(i)).f79309c >= ((ActivityTransitionEvent) list.get(i - 1)).f79309c) {

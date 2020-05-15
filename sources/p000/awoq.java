@@ -39,7 +39,7 @@ final class awoq implements Runnable {
         bmrb.f130461a |= 1;
         byte[] bArr = this.f94749a.f94762k;
         if (bArr != null) {
-            bxtx a2 = bxtx.m123261a(bArr);
+            ByteString a2 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

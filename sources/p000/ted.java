@@ -9,7 +9,7 @@ import android.telephony.TelephonyManager;
 public final class ted {
 
     /* renamed from: d */
-    private static final sek f45726d = tea.m36798a("telephony_info_provider");
+    private static final Logger f45726d = tea.m36798a("telephony_info_provider");
 
     /* renamed from: a */
     final tdx f45727a;
@@ -61,7 +61,7 @@ public final class ted {
     public final boolean mo26421a() {
         int i = Build.VERSION.SDK_INT;
         if (C1133kh.m17835a(rpr.m34216b(), "android.permission.READ_PRIVILEGED_PHONE_STATE") != 0) {
-            f45726d.mo25409a("Doesn't have carrier id permission.", new Object[0]);
+            f45726d.logVerbose("Doesn't have carrier id permission.", new Object[0]);
             return false;
         }
         try {

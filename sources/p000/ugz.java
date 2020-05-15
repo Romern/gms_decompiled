@@ -1062,9 +1062,9 @@ public final class ugz extends ugx implements uhn {
                 }
             } else {
                 ujl c2 = mo27429c(uey);
-                sdo.m34966a(c2, "App does not exist.");
+                sdo.checkIfNull(c2, "App does not exist.");
                 l = c2.f47795d;
-                sdo.m34966a(l, "App data root does not exist.");
+                sdo.checkIfNull(l, "App data root does not exist.");
             }
             try {
                 return mo27402a(uey, ukk.m38862a(l.longValue()));

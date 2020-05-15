@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cabo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cabo extends bxvk implements bxxd {
+public final class cabo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final cabo f172459e;
@@ -25,7 +25,7 @@ public final class cabo extends bxvk implements bxxd {
     static {
         cabo cabo = new cabo();
         f172459e = cabo;
-        bxvk.m124024a(cabo.class, cabo);
+        GeneratedMessageLite.m124024a(cabo.class, cabo);
     }
 
     private cabo() {
@@ -42,7 +42,7 @@ public final class cabo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172459e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0002\u0004ဈ\u0001", new Object[]{"a", "b", "d", "c"});
+            return GeneratedMessageLite.m124022a(f172459e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0002\u0004ဈ\u0001", new Object[]{"a", "b", "d", "c"});
         } else if (i2 == 3) {
             return new cabo();
         } else {

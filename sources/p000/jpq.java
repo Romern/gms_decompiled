@@ -12,7 +12,7 @@ public final class jpq {
     public static final /* synthetic */ int f22996a = 0;
 
     /* renamed from: b */
-    private static final sek f22997b = jsy.m17256a("ForceCryptauthSyncHelper");
+    private static final Logger f22997b = jsy.m17256a("ForceCryptauthSyncHelper");
 
     /* renamed from: a */
     public static final boolean m17076a(Context context, Account account) {

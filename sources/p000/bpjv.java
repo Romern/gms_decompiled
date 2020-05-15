@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpjv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpjv extends bxvk implements bxxd {
+public final class bpjv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpjv f137913c;
@@ -19,7 +19,7 @@ public final class bpjv extends bxvk implements bxxd {
     static {
         bpjv bpjv = new bpjv();
         f137913c = bpjv;
-        bxvk.m124024a(bpjv.class, bpjv);
+        GeneratedMessageLite.m124024a(bpjv.class, bpjv);
     }
 
     private bpjv() {
@@ -36,7 +36,7 @@ public final class bpjv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f137913c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bpju.f137912a});
+            return GeneratedMessageLite.m124022a(f137913c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bpju.f137912a});
         } else if (i2 == 3) {
             return new bpjv();
         } else {

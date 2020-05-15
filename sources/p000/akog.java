@@ -46,7 +46,7 @@ public final class akog {
                                 if (blob == null || blob.length <= 0) {
                                     blcs = null;
                                 } else {
-                                    blcs = (blcs) bxvk.m124016a(blcs.f125974l, blob, bxus.m123744c());
+                                    blcs = (blcs) GeneratedMessageLite.m124016a(blcs.f125974l, blob, bxus.m123744c());
                                 }
                             } catch (bxwf e2) {
                                 bnsl bnsl = (bnsl) f72352a.mo68387b();
@@ -136,7 +136,7 @@ public final class akog {
                 }
                 ContentValues contentValues = new ContentValues(4);
                 contentValues.put("key", str);
-                contentValues.put("payload", blcs.mo73642k());
+                contentValues.put("payload", blcs.serializeToBytes());
                 contentValues.put("insertion_time_ms", Long.valueOf(System.currentTimeMillis()));
                 contentValues.put("creation_time_usec", Long.valueOf(blcs.f125983h));
                 SQLiteDatabase b = aknu.m60098b(context);

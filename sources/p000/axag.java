@@ -127,7 +127,7 @@ public final class axag extends bkdx implements bkfe, bkdb, bjwp {
         bxvd da = bmeu.f129030f.mo74144da();
         Object obj = this.f95508d.get(Long.valueOf(this.f95509e));
         if (obj instanceof bmet) {
-            bxtx bxtx = ((bmet) obj).f129028j;
+            ByteString bxtx = ((bmet) obj).f129028j;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -137,7 +137,7 @@ public final class axag extends bkdx implements bkfe, bkdb, bjwp {
             bmeu.f129032a |= 1;
             bmeu.f129033b = bxtx;
         } else if (obj instanceof bmes) {
-            bxtx bxtx2 = ((bmes) obj).f129014e;
+            ByteString bxtx2 = ((bmes) obj).f129014e;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -178,7 +178,7 @@ public final class axag extends bkdx implements bkfe, bkdb, bjwp {
             if (bmdn3 == null) {
                 bmdn3 = bmdn.f128831k;
             }
-            bxtx bxtx3 = bmdn3.f128836d;
+            ByteString bxtx3 = bmdn3.f128836d;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

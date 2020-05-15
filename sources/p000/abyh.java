@@ -237,7 +237,7 @@ public final class abyh {
             str.getClass();
             abqa.f57933b = str;
             if (!abqa.f57934c.mo73666a()) {
-                abqa.f57934c = bxvk.m124021a(abqa.f57934c);
+                abqa.f57934c = GeneratedMessageLite.m124021a(abqa.f57934c);
             }
             bxsy.m123078a(arrayList, abqa.f57934c);
             long j3 = elapsedRealtime + (j * 1000);

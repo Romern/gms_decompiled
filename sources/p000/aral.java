@@ -19,7 +19,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public final class aral {
 
     /* renamed from: a */
-    public static final sek f87205a = ascp.m73787a("D2D", "SourceAccountExportController");
+    public static final Logger f87205a = ascp.m73787a("D2D", "SourceAccountExportController");
 
     /* renamed from: b */
     public final aram f87206b;
@@ -77,7 +77,7 @@ public final class aral {
     public final synchronized void mo48334a() {
         boolean z;
         String str;
-        f87205a.mo25409a("Using exportAccounts()", new Object[0]);
+        f87205a.logVerbose("Using exportAccounts()", new Object[0]);
         this.f87210f.clear();
         this.f87214j.mo48651d(3);
         if (this.f87215k == null) {
@@ -147,7 +147,7 @@ public final class aral {
 
     /* renamed from: a */
     public final void mo48335a(AccountTransferPayload accountTransferPayload) {
-        f87205a.mo25409a("Importing authenticator data", new Object[0]);
+        f87205a.logVerbose("Importing authenticator data", new Object[0]);
         AccountTransferMsg b = accountTransferPayload.mo59088b();
         if (b == null) {
             mo48336a("AccountTransferMsg is null");
@@ -158,7 +158,7 @@ public final class aral {
         gtq.mo12205a(b.f10044e);
         gtq.mo12206a(b.f10042c);
         Status a = ascs.m73792a(this.f87207c.mo12200a(gtq.mo12203a()));
-        f87205a.mo25409a("importAccounts status = %s", a);
+        f87205a.logVerbose("importAccounts status = %s", a);
         if (!a.mo17710c()) {
             mo48336a("Failure importing data from target");
         }

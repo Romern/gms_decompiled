@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cacn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cacn extends bxvk implements bxxd {
+public final class cacn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cacn f172581d;
@@ -25,7 +25,7 @@ public final class cacn extends bxvk implements bxxd {
     static {
         cacn cacn = new cacn();
         f172581d = cacn;
-        bxvk.m124024a(cacn.class, cacn);
+        GeneratedMessageLite.m124024a(cacn.class, cacn);
     }
 
     private cacn() {
@@ -46,7 +46,7 @@ public final class cacn extends bxvk implements bxxd {
             this.f172586e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f172581d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f172581d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cacn();
         } else {

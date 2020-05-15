@@ -31,20 +31,20 @@ final class arcg implements Runnable {
         ardc.f87413b.mo48652e(2);
         armj.m73128a(ardc.f87413b, 4);
         arbt arbt = ardc.f87415d;
-        sdo.m34966a(d2DDevice, "device cannot be null.");
-        sdo.m34966a(ariq, "connectionListener cannot be null.");
+        sdo.checkIfNull(d2DDevice, "device cannot be null.");
+        sdo.checkIfNull(ariq, "connectionListener cannot be null.");
         arbt.f87322h = ariq;
         int i = d2DDevice.f107873b;
         if (i == 1) {
             arbt.f87317c.mo48653f(2);
         } else if (i != 2) {
-            sek sek = arbt.f87315a;
+            Logger Logger = arbt.f87315a;
             int i2 = d2DDevice.f107873b;
             StringBuilder sb = new StringBuilder(77);
             sb.append("Unsupported device protocol (");
             sb.append(i2);
             sb.append(") for logging device connection type!");
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
         } else {
             arbt.f87317c.mo48653f(4);
         }
@@ -68,12 +68,12 @@ final class arcg implements Runnable {
                         arbt.m72422c(arit, status);
                     }
                 }
-                sek sek2 = arbt.f87315a;
+                Logger logger2 = arbt.f87315a;
                 String valueOf = String.valueOf(d2DDevice.f107874c);
-                sek2.mo25412b(valueOf.length() == 0 ? new String("Connecting to: ") : "Connecting to: ".concat(valueOf), new Object[0]);
-                sek sek3 = arbt.f87315a;
+                logger2.mo25412b(valueOf.length() == 0 ? new String("Connecting to: ") : "Connecting to: ".concat(valueOf), new Object[0]);
+                Logger logger3 = arbt.f87315a;
                 String valueOf2 = String.valueOf(str2);
-                sek3.mo25409a(valueOf2.length() == 0 ? new String("Connecting using PIN: ") : "Connecting using PIN: ".concat(valueOf2), new Object[0]);
+                logger3.logVerbose(valueOf2.length() == 0 ? new String("Connecting using PIN: ") : "Connecting using PIN: ".concat(valueOf2), new Object[0]);
                 arbb arbb = arbt.f87320f;
                 armu a = arbt.mo48376a(ariq);
                 int i4 = d2DDevice.f107873b;

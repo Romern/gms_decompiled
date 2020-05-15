@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: absk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class absk extends bxvk implements bxxd {
+public final class absk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final absk f58105c;
@@ -19,7 +19,7 @@ public final class absk extends bxvk implements bxxd {
     static {
         absk absk = new absk();
         f58105c = absk;
-        bxvk.m124024a(absk.class, absk);
+        GeneratedMessageLite.m124024a(absk.class, absk);
     }
 
     private absk() {
@@ -36,7 +36,7 @@ public final class absk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58105c, "\u0001\u0004\u0001\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000", new Object[]{"b", "a", bxup.class, bxup.class, abso.class, bxup.class});
+            return GeneratedMessageLite.m124022a(f58105c, "\u0001\u0004\u0001\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000", new Object[]{"b", "a", bxup.class, bxup.class, abso.class, bxup.class});
         } else if (i2 == 3) {
             return new absk();
         } else {

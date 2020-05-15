@@ -43,9 +43,9 @@ public final class zyu {
     }
 
     public zyu(zxi zxi, zxh zxh, int i) {
-        sdo.m34966a(zxi, "family");
+        sdo.checkIfNull(zxi, "family");
         this.f56228b = zxi;
-        sdo.m34966a(zxh, "font");
+        sdo.checkIfNull(zxh, "font");
         this.f56229c = zxh;
         this.f56230d = i;
     }

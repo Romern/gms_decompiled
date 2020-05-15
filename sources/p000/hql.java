@@ -8,7 +8,7 @@ import com.google.android.gms.auth.api.credentials.HintRequest;
 public final class hql implements hep {
 
     /* renamed from: a */
-    public static final sek f20228a = ght.m13172b("ListHintsOperation");
+    public static final Logger f20228a = ght.m13172b("ListHintsOperation");
 
     /* renamed from: b */
     public final bngx f20229b;

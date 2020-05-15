@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwer */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwer extends bxvk implements bxxd {
+public final class bwer extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bwer f159019c;
@@ -22,7 +22,7 @@ public final class bwer extends bxvk implements bxxd {
     static {
         bwer bwer = new bwer();
         f159019c = bwer;
-        bxvk.m124024a(bwer.class, bwer);
+        GeneratedMessageLite.m124024a(bwer.class, bwer);
     }
 
     private bwer() {
@@ -39,7 +39,7 @@ public final class bwer extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f159019c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"d", "a", bwep.f159018a, "b"});
+            return GeneratedMessageLite.m124022a(f159019c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"d", "a", bwep.f159018a, "b"});
         } else if (i2 == 3) {
             return new bwer();
         } else {

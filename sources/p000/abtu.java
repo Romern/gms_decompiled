@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abtu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abtu extends bxvk implements bxxd {
+public final class abtu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final abtu f58310g;
@@ -31,7 +31,7 @@ public final class abtu extends bxvk implements bxxd {
     static {
         abtu abtu = new abtu();
         f58310g = abtu;
-        bxvk.m124024a(abtu.class, abtu);
+        GeneratedMessageLite.m124024a(abtu.class, abtu);
     }
 
     private abtu() {
@@ -48,7 +48,7 @@ public final class abtu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58310g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0002\u0000\u0001င\u0000\u0002\u001b\u0004\u001b\u0005က\u0001\u0006င\u0002", new Object[]{"a", "b", "c", abub.class, "d", abut.class, "e", "f"});
+            return GeneratedMessageLite.m124022a(f58310g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0002\u0000\u0001င\u0000\u0002\u001b\u0004\u001b\u0005က\u0001\u0006င\u0002", new Object[]{"a", "b", "c", abub.class, "d", abut.class, "e", "f"});
         } else if (i2 == 3) {
             return new abtu();
         } else {
@@ -75,7 +75,7 @@ public final class abtu extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo32345a() {
         if (!this.f58314c.mo73666a()) {
-            this.f58314c = bxvk.m124021a(this.f58314c);
+            this.f58314c = GeneratedMessageLite.m124021a(this.f58314c);
         }
     }
 }

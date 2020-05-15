@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvvr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvvr extends bxvk implements bxxd {
+public final class bvvr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bvvr f157835e;
@@ -25,7 +25,7 @@ public final class bvvr extends bxvk implements bxxd {
     static {
         bvvr bvvr = new bvvr();
         f157835e = bvvr;
-        bxvk.m124024a(bvvr.class, bvvr);
+        GeneratedMessageLite.m124024a(bvvr.class, bvvr);
     }
 
     private bvvr() {
@@ -42,7 +42,7 @@ public final class bvvr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157835e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", bvvc.f157788a, "c", bvvq.f157834a, "d"});
+            return GeneratedMessageLite.m124022a(f157835e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", bvvc.f157788a, "c", bvvq.f157834a, "d"});
         } else if (i2 == 3) {
             return new bvvr();
         } else {

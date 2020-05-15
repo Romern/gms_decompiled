@@ -73,7 +73,7 @@ public final class azbr implements bdai {
             bcoe f2 = bcoh.m89462f();
             f2.mo57055a(a);
             byte[] bArr = azct.f99004a;
-            f2.mo57056a(bArr == null ? bxtx.f164797b : bxtx.m123261a(bArr));
+            f2.mo57056a(bArr == null ? ByteString.f164797b : ByteString.m123261a(bArr));
             f2.mo57053a(bcog.VALID);
             azbj.m85193a(context).mo54570j().mo56664a(f2.mo57051a(), a3);
         }

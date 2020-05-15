@@ -25,11 +25,11 @@ public final class atqp implements atfd {
 
     public final /* bridge */ /* synthetic */ void onResponse(Object obj) {
         btjg btjg = (btjg) obj;
-        this.f90680b.f108838g = btjg.f149112b.mo73780k();
+        this.f90680b.f108838g = btjg.f149112b.getKey();
         this.f90680b.f108839h = new ArrayList(btjg.f149111a);
         SelectUntokenizedCardChimeraActivity selectUntokenizedCardChimeraActivity = this.f90680b;
         selectUntokenizedCardChimeraActivity.f108840i = btjg.f149113c;
-        selectUntokenizedCardChimeraActivity.f108841j = btjg.f149114d.mo73780k();
+        selectUntokenizedCardChimeraActivity.f108841j = btjg.f149114d.getKey();
         if (!this.f90679a) {
             SelectUntokenizedCardChimeraActivity selectUntokenizedCardChimeraActivity2 = this.f90680b;
             byte[] bArr = selectUntokenizedCardChimeraActivity2.f108838g;

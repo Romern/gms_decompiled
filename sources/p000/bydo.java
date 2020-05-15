@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bydo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bydo extends bxvk implements bxxd {
+public final class bydo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bydo f165818a;
@@ -22,7 +22,7 @@ public final class bydo extends bxvk implements bxxd {
     static {
         bydo bydo = new bydo();
         f165818a = bydo;
-        bxvk.m124024a(bydo.class, bydo);
+        GeneratedMessageLite.m124024a(bydo.class, bydo);
     }
 
     private bydo() {
@@ -43,7 +43,7 @@ public final class bydo extends bxvk implements bxxd {
             this.f165822d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f165818a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔉ\u0000", new Object[]{"b", "c"});
+            return GeneratedMessageLite.m124022a(f165818a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔉ\u0000", new Object[]{"b", "c"});
         } else if (i2 == 3) {
             return new bydo();
         } else {

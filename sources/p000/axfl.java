@@ -23,7 +23,7 @@ public final class axfl implements Parcelable.Creator {
         byte[] createByteArray = parcel.createByteArray();
         if (createByteArray != null) {
             try {
-                btsb = (btsb) bxvk.m124014a(btsb.f150174d, createByteArray);
+                btsb = (btsb) GeneratedMessageLite.m124014a(btsb.f150174d, createByteArray);
             } catch (bxwf e) {
                 throw new RuntimeException(e);
             }

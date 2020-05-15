@@ -53,7 +53,7 @@ public final class bbgi implements bbgj {
                 bnre i = bbhf.m88013a(iterable, bbfw.mo56107a()).listIterator();
                 while (i.hasNext()) {
                     bbhf bbhf = (bbhf) i.next();
-                    this.f102588b.put((bxtx) bbhf.mo56138a(), bbgh.m87988a((bbfz) bbhf.mo56139b(), a));
+                    this.f102588b.put((ByteString) bbhf.mo56138a(), bbgh.m87988a((bbfz) bbhf.mo56139b(), a));
                 }
             } catch (IllegalStateException e) {
                 return bqga.m112777a((Throwable) e);

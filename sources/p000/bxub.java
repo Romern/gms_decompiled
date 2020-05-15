@@ -165,16 +165,16 @@ final class bxub extends bxuc {
     }
 
     /* renamed from: l */
-    public final bxtx mo73803l() {
+    public final ByteString mo73803l() {
         int t = mo73811t();
         if (t > 0 && t <= m123377E()) {
             byte[] bArr = new byte[t];
             long j = (long) t;
             bxyx.m124500a(this.f164820h, bArr, j);
             this.f164820h += j;
-            return bxtx.m123264b(bArr);
+            return ByteString.m123264b(bArr);
         } else if (t == 0) {
-            return bxtx.f164797b;
+            return ByteString.f164797b;
         } else {
             if (t < 0) {
                 throw bxwf.m124089b();

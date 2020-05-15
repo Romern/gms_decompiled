@@ -36,7 +36,7 @@ public final class atuq extends atvb {
         byte[] byteArray = bundle.getByteArray("data_card_id");
         if (byteArray != null) {
             try {
-                btiy = (btiy) bxvk.m124016a(btiy.f149054c, byteArray, bxus.m123744c());
+                btiy = (btiy) GeneratedMessageLite.m124016a(btiy.f149054c, byteArray, bxus.m123744c());
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) f90927a.mo68388c();
                 bnsl.mo68437a(e);
@@ -141,7 +141,7 @@ public final class atuq extends atvb {
                 message = Message.obtain((Handler) null, this.f90988g);
                 btnf btnf = this.f90987f;
                 if (btnf != null) {
-                    bArr = btnf.mo73642k();
+                    bArr = btnf.serializeToBytes();
                 }
                 bundle.putByteArray("tap_and_pay_api_error", bArr);
             } catch (RemoteException e) {
@@ -149,7 +149,7 @@ public final class atuq extends atvb {
             }
         } else {
             Message obtain = Message.obtain((Handler) null, 21001);
-            bundle.putByteArray("data_response", btko.mo73642k());
+            bundle.putByteArray("data_response", btko.serializeToBytes());
             message = obtain;
         }
         message.setData(bundle);

@@ -179,7 +179,7 @@ public class TapLocationReportingIntentOperation extends asjx {
                                             btqm btqm = (btqm) bxvd.mo74062i();
                                             btqm.getClass();
                                             if (!btqn.f149989b.mo73666a()) {
-                                                btqn.f149989b = bxvk.m124021a(btqn.f149989b);
+                                                btqn.f149989b = GeneratedMessageLite.m124021a(btqn.f149989b);
                                             }
                                             btqn.f149989b.add(btqm);
                                         }
@@ -197,7 +197,7 @@ public class TapLocationReportingIntentOperation extends asjx {
                                 btqn btqn2 = (btqn) da2.mo74062i();
                                 btqn2.getClass();
                                 if (!btqp.f150002i.mo73666a()) {
-                                    btqp.f150002i = bxvk.m124021a(btqp.f150002i);
+                                    btqp.f150002i = GeneratedMessageLite.m124021a(btqp.f150002i);
                                 }
                                 btqp.f150002i.add(btqn2);
                             }

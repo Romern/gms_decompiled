@@ -17,7 +17,7 @@ public final class dsz implements eev {
             try {
                 byte[] c = tjq.mo26593c();
                 bxus c2 = bxus.m123744c();
-                this.f13973a.put(tjq.mo26594d().mo26605b(), (bxht) bxvk.m124016a(bxht.f163469c, c, c2));
+                this.f13973a.put(tjq.mo26594d().mo26605b(), (bxht) GeneratedMessageLite.m124016a(bxht.f163469c, c, c2));
                 new Object[1][0] = tjq.mo26594d().mo26605b();
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) dss.f13961a.mo68387b();
@@ -55,7 +55,7 @@ public final class dsz implements eev {
                 bnsl.mo68405a("[KeyStore] Got more than one key.");
             }
             try {
-                bxht bxht2 = (bxht) bxvk.m124016a(bxht.f163469c, ((tjq) a2.get(0)).mo26593c(), bxus.m123744c());
+                bxht bxht2 = (bxht) GeneratedMessageLite.m124016a(bxht.f163469c, ((tjq) a2.get(0)).mo26593c(), bxus.m123744c());
                 this.f13973a.put(str, bxht2);
                 bxht = bxht2;
             } catch (bxwf e) {
@@ -66,6 +66,6 @@ public final class dsz implements eev {
                 return null;
             }
         }
-        return bxht.f163472b.mo73780k();
+        return bxht.f163472b.getKey();
     }
 }

@@ -30,7 +30,7 @@ public final class kwf {
     /* renamed from: a */
     public final bmxv mo14895a() {
         try {
-            return bmxv.m108566b((kwi) bxvk.m124014a(kwi.f25265b, (byte[]) this.f25255b.mo60643a(this.f25256c, behp.m95056a(), new beer[0])));
+            return bmxv.m108566b((kwi) GeneratedMessageLite.m124014a(kwi.f25265b, (byte[]) this.f25255b.mo60643a(this.f25256c, behp.m95056a(), new beer[0])));
         } catch (IOException e) {
             bnsl bnsl = (bnsl) f25254a.mo68387b();
             bnsl.mo68437a(e);
@@ -43,7 +43,7 @@ public final class kwf {
     /* renamed from: a */
     public final void mo14896a(kwi kwi) {
         try {
-            this.f25255b.mo60643a(this.f25256c, behv.m95070a(kwi.mo73642k()), new beer[0]);
+            this.f25255b.mo60643a(this.f25256c, behv.m95070a(kwi.serializeToBytes()), new beer[0]);
         } catch (IOException e) {
             bnsl bnsl = (bnsl) f25254a.mo68387b();
             bnsl.mo68437a(e);

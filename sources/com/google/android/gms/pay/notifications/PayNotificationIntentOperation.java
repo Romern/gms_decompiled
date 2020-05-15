@@ -18,7 +18,7 @@ public class PayNotificationIntentOperation extends IntentOperation {
         bztg bztg;
         bztf bztf;
         try {
-            bxbn bxbn = (bxbn) bxvk.m124016a(bxbn.f161818c, Base64.decode(intent.getStringExtra("data"), 1), bxus.m123744c());
+            bxbn bxbn = (bxbn) GeneratedMessageLite.m124016a(bxbn.f161818c, Base64.decode(intent.getStringExtra("data"), 1), bxus.m123744c());
             if ((bxbn.f161820a & PSKKeyManager.MAX_KEY_LENGTH_BYTES) == 0) {
                 bnsl bnsl = (bnsl) f81675a.mo68388c();
                 bnsl.mo68432a("com.google.android.gms.pay.notifications.PayNotificationIntentOperation", "a", 63, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -34,13 +34,13 @@ public class PayNotificationIntentOperation extends IntentOperation {
             bztc bztc = bztc.f171313b;
             try {
                 bxuc h = bxtx.mo73764h();
-                bxvk bxvk = (bxvk) bztc.mo74142c(4);
-                bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                a.mo74220a(bxvk, bxud.m123454a(h), c);
-                a.mo74225d(bxvk);
+                GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bztc.mo74142c(4);
+                bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                a.mo74225d(GeneratedMessageLite);
                 h.mo73787a(0);
-                bxvk.m124027b(bxvk);
-                bzte bzte = ((bztc) bxvk).f171315a;
+                GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                bzte bzte = ((bztc) GeneratedMessageLite).f171315a;
                 if (bzte == null) {
                     bnsl bnsl2 = (bnsl) f81675a.mo68388c();
                     bnsl2.mo68432a("com.google.android.gms.pay.notifications.PayNotificationIntentOperation", "a", 70, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -107,7 +107,7 @@ public class PayNotificationIntentOperation extends IntentOperation {
         try {
             if ("com.google.android.gms.pay.notifications.HANDLE_NOTIFICATION".equals(intent.getAction())) {
                 try {
-                    bxbn bxbn = (bxbn) bxvk.m124016a(bxbn.f161818c, Base64.decode(intent.getStringExtra("data"), 1), bxus.m123744c());
+                    bxbn bxbn = (bxbn) GeneratedMessageLite.m124016a(bxbn.f161818c, Base64.decode(intent.getStringExtra("data"), 1), bxus.m123744c());
                     if ((bxbn.f161820a & PSKKeyManager.MAX_KEY_LENGTH_BYTES) == 0) {
                         bnsl bnsl = (bnsl) f81675a.mo68388c();
                         bnsl.mo68432a("com.google.android.gms.pay.notifications.PayNotificationIntentOperation", "a", 63, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -122,13 +122,13 @@ public class PayNotificationIntentOperation extends IntentOperation {
                         bztc bztc = bztc.f171313b;
                         try {
                             bxuc h = bxtx.mo73764h();
-                            bxvk bxvk = (bxvk) bztc.mo74142c(4);
-                            bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                            a.mo74220a(bxvk, bxud.m123454a(h), c);
-                            a.mo74225d(bxvk);
+                            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bztc.mo74142c(4);
+                            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                            a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                            a.mo74225d(GeneratedMessageLite);
                             h.mo73787a(0);
-                            bxvk.m124027b(bxvk);
-                            bzte bzte = ((bztc) bxvk).f171315a;
+                            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                            bzte bzte = ((bztc) GeneratedMessageLite).f171315a;
                             if (bzte == null) {
                                 bnsl bnsl2 = (bnsl) f81675a.mo68388c();
                                 bnsl2.mo68432a("com.google.android.gms.pay.notifications.PayNotificationIntentOperation", "a", 70, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");

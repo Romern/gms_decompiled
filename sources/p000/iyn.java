@@ -232,11 +232,11 @@ public class iyn extends dck implements iyo {
             Account account = tokenWorkflowRequest.f10819i;
             jes jes = new jes(new Bundle());
             boolean booleanValue = ((Boolean) this.f21936c.mo12091a(account, gqd.f18815i, false)).booleanValue();
-            sek sek = DefaultAuthDelegateChimeraService.f9969a;
+            Logger Logger = DefaultAuthDelegateChimeraService.f9969a;
             StringBuilder sb = new StringBuilder(23);
             sb.append("Use browser flow? ");
             sb.append(booleanValue);
-            sek.mo25414c(sb.toString(), new Object[0]);
+            Logger.mo25414c(sb.toString(), new Object[0]);
             if (booleanValue) {
                 jes.mo13678b("https://accounts.google.com/o/android/auth?");
             }

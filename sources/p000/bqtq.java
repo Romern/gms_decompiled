@@ -24,12 +24,12 @@ final class bqtq extends bqnq {
         if (bqsv == null) {
             bqsv = bqsv.f141581e;
         }
-        BigInteger bigInteger = new BigInteger(1, bqsv.f141585c.mo73780k());
+        BigInteger bigInteger = new BigInteger(1, bqsv.f141585c.getKey());
         bqsv bqsv2 = bqsu.f141574b;
         if (bqsv2 == null) {
             bqsv2 = bqsv.f141581e;
         }
-        RSAPrivateCrtKey rSAPrivateCrtKey = (RSAPrivateCrtKey) keyFactory.generatePrivate(new RSAPrivateCrtKeySpec(bigInteger, new BigInteger(1, bqsv2.f141586d.mo73780k()), new BigInteger(1, bqsu.f141575c.mo73780k()), new BigInteger(1, bqsu.f141576d.mo73780k()), new BigInteger(1, bqsu.f141577e.mo73780k()), new BigInteger(1, bqsu.f141578f.mo73780k()), new BigInteger(1, bqsu.f141579g.mo73780k()), new BigInteger(1, bqsu.f141580h.mo73780k())));
+        RSAPrivateCrtKey rSAPrivateCrtKey = (RSAPrivateCrtKey) keyFactory.generatePrivate(new RSAPrivateCrtKeySpec(bigInteger, new BigInteger(1, bqsv2.f141586d.getKey()), new BigInteger(1, bqsu.f141575c.getKey()), new BigInteger(1, bqsu.f141576d.getKey()), new BigInteger(1, bqsu.f141577e.getKey()), new BigInteger(1, bqsu.f141578f.getKey()), new BigInteger(1, bqsu.f141579g.getKey()), new BigInteger(1, bqsu.f141580h.getKey())));
         bqsv bqsv3 = bqsu.f141574b;
         if (bqsv3 == null) {
             bqsv3 = bqsv.f141581e;
@@ -47,12 +47,12 @@ final class bqtq extends bqnq {
         if (bqsv4 == null) {
             bqsv4 = bqsv.f141581e;
         }
-        BigInteger bigInteger2 = new BigInteger(1, bqsv4.f141585c.mo73780k());
+        BigInteger bigInteger2 = new BigInteger(1, bqsv4.f141585c.getKey());
         bqsv bqsv5 = bqsu.f141574b;
         if (bqsv5 == null) {
             bqsv5 = bqsv.f141581e;
         }
-        RSAPublicKey rSAPublicKey = (RSAPublicKey) keyFactory.generatePublic(new RSAPublicKeySpec(bigInteger2, new BigInteger(1, bqsv5.f141586d.mo73780k())));
+        RSAPublicKey rSAPublicKey = (RSAPublicKey) keyFactory.generatePublic(new RSAPublicKeySpec(bigInteger2, new BigInteger(1, bqsv5.f141586d.getKey())));
         bqsv bqsv6 = bqsu.f141574b;
         if (bqsv6 == null) {
             bqsv6 = bqsv.f141581e;

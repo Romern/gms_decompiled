@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayeo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayeo extends bxvk implements bxxd {
+public final class ayeo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final ayeo f97339i;
@@ -40,7 +40,7 @@ public final class ayeo extends bxvk implements bxxd {
     static {
         ayeo ayeo = new ayeo();
         f97339i = ayeo;
-        bxvk.m124024a(ayeo.class, ayeo);
+        GeneratedMessageLite.m124024a(ayeo.class, ayeo);
     }
 
     private ayeo() {
@@ -61,7 +61,7 @@ public final class ayeo extends bxvk implements bxxd {
             this.f97349j = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f97339i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0002\u0001ᔈ\u0000\u0002ᔈ\u0001\u0003ဂ\u0002\u0004င\u0005\u0005င\u0003\u0006င\u0004\u0007ဈ\u0006", new Object[]{"a", "b", "c", "d", "g", "e", "f", "h"});
+            return GeneratedMessageLite.m124022a(f97339i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0002\u0001ᔈ\u0000\u0002ᔈ\u0001\u0003ဂ\u0002\u0004င\u0005\u0005င\u0003\u0006င\u0004\u0007ဈ\u0006", new Object[]{"a", "b", "c", "d", "g", "e", "f", "h"});
         } else if (i2 == 3) {
             return new ayeo();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bypc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bypc extends bxvk implements bxxd {
+public final class bypc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final bypc f167305k;
@@ -14,7 +14,7 @@ public final class bypc extends bxvk implements bxxd {
     public int f167307a;
 
     /* renamed from: b */
-    public bxtx f167308b = bxtx.f164797b;
+    public ByteString f167308b = ByteString.f164797b;
 
     /* renamed from: c */
     public long f167309c;
@@ -35,7 +35,7 @@ public final class bypc extends bxvk implements bxxd {
     public byoh f167314h;
 
     /* renamed from: i */
-    public bxtx f167315i = bxtx.f164797b;
+    public ByteString f167315i = ByteString.f164797b;
 
     /* renamed from: j */
     public int f167316j;
@@ -43,7 +43,7 @@ public final class bypc extends bxvk implements bxxd {
     static {
         bypc bypc = new bypc();
         f167305k = bypc;
-        bxvk.m124024a(bypc.class, bypc);
+        GeneratedMessageLite.m124024a(bypc.class, bypc);
     }
 
     private bypc() {
@@ -60,7 +60,7 @@ public final class bypc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167305k, "\u0001\t\u0000\u0001\u0001c\t\u0000\u0000\u0000\u0001ည\u0000\u0002ဉ\u0002\u0003ဉ\b\u0004ဈ\u0004\u0006ဉ\t\nဂ\u0001\fဉ\n\u000eည\fcင\r", new Object[]{"a", "b", "d", "f", "e", "g", "c", "h", "i", "j"});
+            return GeneratedMessageLite.m124022a(f167305k, "\u0001\t\u0000\u0001\u0001c\t\u0000\u0000\u0000\u0001ည\u0000\u0002ဉ\u0002\u0003ဉ\b\u0004ဈ\u0004\u0006ဉ\t\nဂ\u0001\fဉ\n\u000eည\fcင\r", new Object[]{"a", "b", "d", "f", "e", "g", "c", "h", "i", "j"});
         } else if (i2 == 3) {
             return new bypc();
         } else {

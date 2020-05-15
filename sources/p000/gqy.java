@@ -41,7 +41,7 @@ public final class gqy extends aaab {
     private final svq f18867h;
 
     /* renamed from: i */
-    private final sek f18868i = ght.m13171a("RemoveAccountOperation");
+    private final Logger f18868i = ght.m13171a("RemoveAccountOperation");
 
     /* renamed from: j */
     private final gko f18869j;
@@ -76,7 +76,7 @@ public final class gqy extends aaab {
     /* renamed from: a */
     private static void m13755a(boet boet, Context context) {
         Random random = new Random();
-        long a = spn.m35843a(context);
+        long a = spn.getAndroidId(context);
         if (a != 0) {
             random.setSeed(a);
         }
@@ -152,7 +152,7 @@ public final class gqy extends aaab {
                 a3 = bsoa.f146351k;
             }
             bxvd bxvd = (bxvd) a3.mo74142c(5);
-            bxvd.mo73625a((bxvk) a3);
+            bxvd.mo73625a((GeneratedMessageLite) a3);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -191,7 +191,7 @@ public final class gqy extends aaab {
                 bogg2.f132979a |= 1;
                 bogg2.f132980b = str2;
             }
-            AppDescription a4 = this.f18866g.mo13121a(ilq.f21311f, this.f18864e, this.f18871l, i, ilq);
+            AppDescription a4 = this.f18866g.mo13121a(ilq.appUid, this.f18864e, this.f18871l, i, ilq);
             if (!"^^_account_id_^^".equals(this.f18863d)) {
                 try {
                     TokenResponse a5 = ddx.mo8553a(this.f18862c, this.f18863d, this.f18870k, a4, this.f18865f, da);

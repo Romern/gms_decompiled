@@ -27,7 +27,7 @@ public final class bach implements cayy {
         if (!ceny.f183130a.mo6606a().mo79479e()) {
             String str = (String) b2.mo6606a();
             Integer num = (Integer) b3.mo6606a();
-            ((achw) b.mo16713a()).mo25409a("[ProdGrpcChannelModule] Binding to %s:%d with OkHttp", str, num);
+            ((achw) b.mo16713a()).logVerbose("[ProdGrpcChannelModule] Binding to %s:%d with OkHttp", str, num);
             bmzi = bmzn.m108681a((bmzi) new bacg(str, num, executor));
         } else {
             bmzi = new babx(b, b2, b3, new bacf(b, executor));

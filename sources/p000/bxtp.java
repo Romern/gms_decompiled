@@ -49,7 +49,7 @@ final class bxtp extends bxtu {
 
     /* access modifiers changed from: package-private */
     public Object writeReplace() {
-        return bxtx.m123264b(mo73780k());
+        return ByteString.m123264b(getKey());
     }
 
     /* access modifiers changed from: protected */

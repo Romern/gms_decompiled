@@ -17,7 +17,7 @@ public final class byjc extends bxvd implements bxxd {
         byjh byjh2 = byjh.f166649h;
         byje.getClass();
         if (!byjh.f166653c.mo73666a()) {
-            byjh.f166653c = bxvk.m124021a(byjh.f166653c);
+            byjh.f166653c = GeneratedMessageLite.m124021a(byjh.f166653c);
         }
         byjh.f166653c.add(byje);
     }
@@ -32,7 +32,7 @@ public final class byjc extends bxvd implements bxxd {
         byjh byjh2 = byjh.f166649h;
         byje.getClass();
         if (!byjh.f166654d.mo73666a()) {
-            byjh.f166654d = bxvk.m124021a(byjh.f166654d);
+            byjh.f166654d = GeneratedMessageLite.m124021a(byjh.f166654d);
         }
         byjh.f166654d.add(byje);
     }

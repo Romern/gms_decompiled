@@ -24,7 +24,7 @@ final class asdw implements asbm {
     public final void mo48991a(String str) {
         if (str == null) {
             bqgy bqgy = this.f88744a;
-            sek sek = asdx.f88745a;
+            Logger Logger = asdx.f88745a;
             bqgy.mo69138b(new C1240of(new Status(10600), asdx.m73850a()));
             return;
         }

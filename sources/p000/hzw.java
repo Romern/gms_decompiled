@@ -19,7 +19,7 @@ import java.util.ListIterator;
 public final class hzw {
 
     /* renamed from: a */
-    public static final sek f20609a = new sek("SmsRetrieverCore");
+    public static final Logger f20609a = new Logger("SmsRetrieverCore");
 
     /* renamed from: b */
     public final ibh f20610b = new ibh();
@@ -197,9 +197,9 @@ public final class hzw {
         bmxy.m108581a(str);
         synchronized (hzv.class) {
             long currentTimeMillis = System.currentTimeMillis();
-            sek sek = f20609a;
+            Logger Logger = f20609a;
             Long valueOf = Long.valueOf(currentTimeMillis);
-            sek.mo25412b("addAutofillRequest. Timestamp: %d", valueOf);
+            Logger.mo25412b("addAutofillRequest. Timestamp: %d", valueOf);
             hzm hzm = hzv.m15096a(context).f20612d;
             bmxy.m108581a(str);
             hyb hyb = hzm.f20596c;
@@ -278,10 +278,10 @@ public final class hzw {
         bofz bofz;
         synchronized (hzv.class) {
             long currentTimeMillis = System.currentTimeMillis();
-            sek sek = f20609a;
+            Logger Logger = f20609a;
             Long valueOf = Long.valueOf(currentTimeMillis);
             int i = 0;
-            sek.mo25412b("addConsentRequest. Timestamp: %d", valueOf);
+            Logger.mo25412b("addConsentRequest. Timestamp: %d", valueOf);
             hyf hyf = hzv.m15096a(context).f20612d.f20595b;
             hyf.f20556a.mo25412b("addRequest. Timestamp: %d", valueOf);
             hyf.mo12806a(currentTimeMillis);

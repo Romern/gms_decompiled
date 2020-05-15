@@ -18,7 +18,7 @@ public final class hzu {
     /* renamed from: a */
     public final long mo12840a(long j) {
         long currentTimeMillis;
-        sek sek = hzw.f20609a;
+        Logger Logger = hzw.f20609a;
         long currentTimeMillis2 = System.currentTimeMillis() + j;
         Context context = (Context) this.f20607a.f20611c.get();
         if (context == null) {

@@ -7,7 +7,7 @@ import android.content.Context;
 public final class iqt {
 
     /* renamed from: e */
-    public static final sek f21581e = new sek(new String[]{"GcmNotificationHandler"}, (byte[]) null);
+    public static final Logger f21581e = new Logger(new String[]{"GcmNotificationHandler"}, (byte[]) null);
 
     /* renamed from: a */
     public final Context f21582a;

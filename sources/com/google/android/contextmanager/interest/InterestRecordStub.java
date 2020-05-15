@@ -29,7 +29,7 @@ public class InterestRecordStub extends AbstractSafeParcelable {
     public InterestRecordStub(byte[] bArr) {
         bxcx bxcx;
         try {
-            bxcx = (bxcx) bxvk.m124016a(bxcx.f163000i, bArr, bxus.m123744c());
+            bxcx = (bxcx) GeneratedMessageLite.m124016a(bxcx.f163000i, bArr, bxus.m123744c());
         } catch (bxwf e) {
             Log.e("InterestRecordStub", "Could not deserialize interest bytes.", e);
             bxcx = null;

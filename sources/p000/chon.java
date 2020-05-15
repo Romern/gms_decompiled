@@ -21,7 +21,7 @@ public final class chon implements chol {
         bdyw bdyw = new bdyw("com.google.android.westworld");
         f188918a = bdyx.m91610a(bdyw, "awp_enabled", false);
         try {
-            bdyx.m91608a(bdyw, "westworld_config_591770101420044721", (bky) bxvk.m124014a(bky.f5051v, new byte[0]), chom.f188917a);
+            bdyx.m91608a(bdyw, "westworld_config_591770101420044721", (bky) GeneratedMessageLite.m124014a(bky.f5051v, new byte[0]), chom.f188917a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"westworld_config_591770101420044721\"");
         }

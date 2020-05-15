@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buuq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buuq extends bxvk implements bxxd {
+public final class buuq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final buuq f154972e;
@@ -20,12 +20,12 @@ public final class buuq extends bxvk implements bxxd {
     public long f154976c;
 
     /* renamed from: d */
-    public bxtx f154977d = bxtx.f164797b;
+    public ByteString f154977d = ByteString.f164797b;
 
     static {
         buuq buuq = new buuq();
         f154972e = buuq;
-        bxvk.m124024a(buuq.class, buuq);
+        GeneratedMessageLite.m124024a(buuq.class, buuq);
     }
 
     private buuq() {
@@ -42,7 +42,7 @@ public final class buuq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154972e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001င\u0000\u0002ဂ\u0001\u0003ည\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f154972e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001င\u0000\u0002ဂ\u0001\u0003ည\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new buuq();
         } else {

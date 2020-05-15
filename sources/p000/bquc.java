@@ -72,7 +72,7 @@ public final class bquc {
         bqrj.getClass();
         ((bqri) da2.f164949b).f141437a = bqrj;
         bxvd da3 = bqsf.f141514d.mo74144da();
-        bxtx aL = ((bqri) da2.mo74062i()).mo73639aL();
+        ByteString aL = ((bqri) da2.mo74062i()).mo73639aL();
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;
@@ -119,7 +119,7 @@ public final class bquc {
         bqsx.getClass();
         bqsw.f141589a = bqsx;
         bqsw.f141590b = i4;
-        bxtx a = bxtx.m123261a(bigInteger.toByteArray());
+        ByteString a = ByteString.m123261a(bigInteger.toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -127,7 +127,7 @@ public final class bquc {
         a.getClass();
         ((bqsw) da2.f164949b).f141591c = a;
         bxvd da3 = bqsf.f141514d.mo74144da();
-        bxtx aL = ((bqsw) da2.mo74062i()).mo73639aL();
+        ByteString aL = ((bqsw) da2.mo74062i()).mo73639aL();
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;
@@ -164,7 +164,7 @@ public final class bquc {
         bqst.getClass();
         bqss.f141565a = bqst;
         bqss.f141566b = i2;
-        bxtx a = bxtx.m123261a(bigInteger.toByteArray());
+        ByteString a = ByteString.m123261a(bigInteger.toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -172,7 +172,7 @@ public final class bquc {
         a.getClass();
         ((bqss) da2.f164949b).f141567c = a;
         bxvd da3 = bqsf.f141514d.mo74144da();
-        bxtx aL = ((bqss) da2.mo74062i()).mo73639aL();
+        ByteString aL = ((bqss) da2.mo74062i()).mo73639aL();
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;

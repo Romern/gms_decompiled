@@ -104,7 +104,7 @@ public final class atau {
                         bozl3 = bozl.f135386f;
                     }
                     bxvd bxvd = (bxvd) bozl3.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bozl3);
+                    bxvd.mo73625a((GeneratedMessageLite) bozl3);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -141,11 +141,11 @@ public final class atau {
     /* renamed from: a */
     public final void mo49772a(byte[] bArr) {
         try {
-            btqg btqg = (btqg) bxvk.m124016a(btqg.f149933q, bArr, bxus.m123744c());
+            btqg btqg = (btqg) GeneratedMessageLite.m124016a(btqg.f149933q, bArr, bxus.m123744c());
             if (btqg.f149935a > 0) {
                 Context context = this.f89974b;
                 Bundle bundle = new Bundle();
-                bundle.putByteArray("localNotification", btqg.mo73642k());
+                bundle.putByteArray("localNotification", btqg.serializeToBytes());
                 aeat a = aeat.m51532a(context);
                 aebi aebi = new aebi();
                 long j = (long) btqg.f149935a;

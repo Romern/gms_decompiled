@@ -12,9 +12,9 @@ final /* synthetic */ class bgpz implements bgqb {
     private final ClientContext f117257b;
 
     /* renamed from: c */
-    private final bxtx f117258c;
+    private final ByteString f117258c;
 
-    public bgpz(bgqc bgqc, ClientContext clientContext, bxtx bxtx) {
+    public bgpz(bgqc bgqc, ClientContext clientContext, ByteString bxtx) {
         this.f117256a = bgqc;
         this.f117257b = clientContext;
         this.f117258c = bxtx;
@@ -24,7 +24,7 @@ final /* synthetic */ class bgpz implements bgqb {
     public final void mo63091a() {
         bgqc bgqc = this.f117256a;
         ClientContext clientContext = this.f117257b;
-        bxtx bxtx = this.f117258c;
+        ByteString bxtx = this.f117258c;
         aepr aepr = bgqc.f117264h;
         bxvd da = buor.f154576d.mo74144da();
         if (da.f164950c) {

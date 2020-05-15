@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: botj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class botj extends bxvk implements bxxd {
+public final class botj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final botj f134781a;
@@ -13,7 +13,7 @@ public final class botj extends bxvk implements bxxd {
     static {
         botj botj = new botj();
         f134781a = botj;
-        bxvk.m124024a(botj.class, botj);
+        GeneratedMessageLite.m124024a(botj.class, botj);
     }
 
     private botj() {
@@ -30,7 +30,7 @@ public final class botj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134781a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f134781a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new botj();

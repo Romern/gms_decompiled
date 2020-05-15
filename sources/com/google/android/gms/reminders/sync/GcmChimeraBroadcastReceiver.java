@@ -43,7 +43,7 @@ public class GcmChimeraBroadcastReceiver extends WakefulBroadcastReceiver {
         String string = extras.getString("rcp");
         if (!bmxx.m108577a(string)) {
             try {
-                blre = (blre) bxvk.m124016a(blre.f127439b, Base64.decode(string, 1), bxus.m123744c());
+                blre = (blre) GeneratedMessageLite.m124016a(blre.f127439b, Base64.decode(string, 1), bxus.m123744c());
             } catch (bxwf | IllegalArgumentException e) {
                 aowu.m69733a("Reminders_GcmBroadcastReceiver", "Failed to parse RemindersChimePayload. %s", e);
                 blre = null;

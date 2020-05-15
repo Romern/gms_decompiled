@@ -59,7 +59,7 @@ public final class adkk extends sji {
                             str = null;
                         }
                         if (str != null) {
-                            adhz adhz = (adhz) bxvk.m124016a(adhz.f61753e, a.mo33503b(), bxus.m123743b());
+                            adhz adhz = (adhz) GeneratedMessageLite.m124016a(adhz.f61753e, a.mo33503b(), bxus.m123743b());
                             if (z) {
                                 adhv2 = adik.mo33538f(str);
                             } else {

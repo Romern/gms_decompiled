@@ -27,7 +27,7 @@ public final class yrh implements yri {
         }
         cace cace = (cace) da.f164949b;
         if (!cace.f172530b.mo73666a()) {
-            cace.f172530b = bxvk.m124021a(cace.f172530b);
+            cace.f172530b = GeneratedMessageLite.m124021a(cace.f172530b);
         }
         bxsy.m123078a(a, cace.f172530b);
         bngx a2 = yrm.m44666a(yre.f54482b);
@@ -37,7 +37,7 @@ public final class yrh implements yri {
         }
         cace cace2 = (cace) da.f164949b;
         if (!cace2.f172531c.mo73666a()) {
-            cace2.f172531c = bxvk.m124021a(cace2.f172531c);
+            cace2.f172531c = GeneratedMessageLite.m124021a(cace2.f172531c);
         }
         bxsy.m123078a(a2, cace2.f172531c);
         String str = yre.f54486f;
@@ -57,7 +57,7 @@ public final class yrh implements yri {
             }
             cace cace4 = (cace) da.f164949b;
             if (!cace4.f172533e.mo73666a()) {
-                cace4.f172533e = bxvk.m124021a(cace4.f172533e);
+                cace4.f172533e = GeneratedMessageLite.m124021a(cace4.f172533e);
             }
             bxsy.m123078a(bngx, cace4.f172533e);
         }
@@ -93,6 +93,6 @@ public final class yrh implements yri {
 
     /* renamed from: a */
     public final yre mo30688a(byte[] bArr, zrd zrd) {
-        return m44659a((cace) bxvk.m124016a(cace.f172527h, bArr, bxus.m123744c()), zrd, null);
+        return m44659a((cace) GeneratedMessageLite.m124016a(cace.f172527h, bArr, bxus.m123744c()), zrd, null);
     }
 }

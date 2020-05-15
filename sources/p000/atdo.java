@@ -27,7 +27,7 @@ public final class atdo implements atcv {
 
     public atdo(bydf bydf, atcl atcl) {
         bxvd bxvd = (bxvd) bydf.mo74142c(5);
-        bxvd.mo73625a((bxvk) bydf);
+        bxvd.mo73625a((GeneratedMessageLite) bydf);
         this.f90135a = (bydd) bxvd;
         this.f90136d = atcl;
     }
@@ -189,11 +189,11 @@ public final class atdo implements atcv {
 
     /* renamed from: h */
     public final byte[] mo49806h() {
-        return ((bydf) this.f90135a.mo74062i()).mo73642k();
+        return ((bydf) this.f90135a.mo74062i()).serializeToBytes();
     }
 
     public final int hashCode() {
-        return Arrays.hashCode(((bydf) this.f90135a.mo74062i()).mo73642k());
+        return Arrays.hashCode(((bydf) this.f90135a.mo74062i()).serializeToBytes());
     }
 
     /* access modifiers changed from: package-private */
@@ -230,7 +230,7 @@ public final class atdo implements atcv {
         assl assl = (assl) asqs;
         if (assl.f89590g || z) {
             bydf bydf = assl.f89587d;
-            if (bydf.f165773c != ((bydf) this.f90135a.f164949b).f165773c || !Arrays.equals(bydf.f165776f.mo73780k(), ((bydf) this.f90135a.f164949b).f165776f.mo73780k())) {
+            if (bydf.f165773c != ((bydf) this.f90135a.f164949b).f165773c || !Arrays.equals(bydf.f165776f.getKey(), ((bydf) this.f90135a.f164949b).f165776f.getKey())) {
                 bnsl bnsl2 = (bnsl) f90133b.mo68388c();
                 bnsl2.mo68432a("atdo", "a", 253, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                 bnsl2.mo68405a("updateAfterTap atc or luk mismatch!");
@@ -283,7 +283,7 @@ public final class atdo implements atcv {
             bydd.f164950c = false;
         }
         bydf bydf = bydf.f165769j;
-        ((bydf) bydd.f164949b).f165774d = bxvk.m124030de();
+        ((bydf) bydd.f164949b).f165774d = GeneratedMessageLite.m124030de();
         bydd.mo74347a(Arrays.asList(strArr));
     }
 
@@ -372,7 +372,7 @@ public final class atdo implements atcv {
             }
             String c = mo49836c();
             int i = mo49839i();
-            byte[] k = ((bydf) this.f90135a.f164949b).f165776f.mo73780k();
+            byte[] k = ((bydf) this.f90135a.f164949b).f165776f.getKey();
             StringBuilder sb = new StringBuilder(String.valueOf(c).length() + 11 + String.valueOf(str).length());
             sb.append(c);
             sb.append(i);
@@ -404,7 +404,7 @@ public final class atdo implements atcv {
             }
             btmc btmc = (btmc) da.f164949b;
             if (!btmc.f149470d.mo73666a()) {
-                btmc.f149470d = bxvk.m124021a(btmc.f149470d);
+                btmc.f149470d = GeneratedMessageLite.m124021a(btmc.f149470d);
             }
             bxsy.m123078a(unmodifiableList, btmc.f149470d);
             if (da.f164950c) {

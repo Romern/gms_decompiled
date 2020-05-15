@@ -84,10 +84,10 @@ public final class aeyk implements aubq {
                         String a2 = aeyr.f64009a.mo34660a(bxxc);
                         avua a3 = aeyr.f64009a.mo34659a();
                         if (!aeyr.f64009a.mo34661b()) {
-                            aucb2 = rjx.mo24695a(str, bxxc.mo73642k(), a3, i3);
+                            aucb2 = rjx.mo24695a(str, bxxc.serializeToBytes(), a3, i3);
                         } else {
-                            byte[] k = bxxc.mo73642k();
-                            sdo.m34966a((Object) a2, (Object) "filteredField cannot be null. Use the other upload method to explicitly indicate that whitelisting filtering is not applicable.");
+                            byte[] k = bxxc.serializeToBytes();
+                            sdo.checkIfNull((Object) a2, (Object) "filteredField cannot be null. Use the other upload method to explicitly indicate that whitelisting filtering is not applicable.");
                             roz b2 = rpa.m34196b();
                             b2.f43472a = new avuf(rjx, str, k, a2, a3);
                             b2.f43473b = new Feature[]{avtu.f93904b};

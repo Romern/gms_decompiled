@@ -23,7 +23,7 @@ final class acyc {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.String, java.lang.Object):void */
     public acyc(Context context, String str) {
-        sdo.m34966a(context, "Context must not be null.");
+        sdo.checkIfNull(context, "Context must not be null.");
         sdo.m34969a(str, (Object) "Alias must not be empty.");
         sdo.m34975b(str.matches("[a-zA-Z0-9_]*"), "Alias must match: [a-zA-Z0-9_]*");
         this.f61072a = context;

@@ -44,7 +44,7 @@ public abstract class agpw {
             return null;
         }
         try {
-            return (btas) bxvk.m124016a(btas.f148044c, asByteArray, bxus.m123744c());
+            return (btas) GeneratedMessageLite.m124016a(btas.f148044c, asByteArray, bxus.m123744c());
         } catch (bxwf e) {
             bnsl a = f66257a.mo26019b(agyt.m55307c());
             a.mo68437a(e);
@@ -60,7 +60,7 @@ public abstract class agpw {
             return null;
         }
         try {
-            return (bxzx) bxvk.m124016a(bxzx.f165197j, asByteArray, bxus.m123744c());
+            return (bxzx) GeneratedMessageLite.m124016a(bxzx.f165197j, asByteArray, bxus.m123744c());
         } catch (bxwf e) {
             bnsl a = f66257a.mo26019b(agyt.m55307c());
             a.mo68437a(e);
@@ -76,7 +76,7 @@ public abstract class agpw {
             return null;
         }
         try {
-            return (bxzz) bxvk.m124016a(bxzz.f165211e, asByteArray, bxus.m123744c());
+            return (bxzz) GeneratedMessageLite.m124016a(bxzz.f165211e, asByteArray, bxus.m123744c());
         } catch (bxwf e) {
             bnsl a = f66257a.mo26019b(agyt.m55307c());
             a.mo68437a(e);

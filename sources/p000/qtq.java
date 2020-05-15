@@ -14,10 +14,10 @@ public final class qtq {
     public final String f42114c;
 
     /* renamed from: d */
-    public final bxtx f42115d;
+    public final ByteString f42115d;
 
     /* renamed from: e */
-    public final bxtx f42116e;
+    public final ByteString f42116e;
 
     /* renamed from: f */
     public final boolean f42117f;
@@ -25,7 +25,7 @@ public final class qtq {
     /* renamed from: g */
     public final boolean f42118g;
 
-    public qtq(int i, String str, bxtx bxtx, bxtx bxtx2, boolean z, boolean z2) {
+    public qtq(int i, String str, ByteString bxtx, ByteString bxtx2, boolean z, boolean z2) {
         this.f42113b = i;
         this.f42114c = str;
         this.f42115d = bxtx;

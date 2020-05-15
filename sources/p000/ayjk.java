@@ -48,7 +48,7 @@ public final class ayjk {
         }
         ayjy ayjy = (ayjy) da.f164949b;
         if (!ayjy.f97809a.mo73666a()) {
-            ayjy.f97809a = bxvk.m124021a(ayjy.f97809a);
+            ayjy.f97809a = GeneratedMessageLite.m124021a(ayjy.f97809a);
         }
         bxsy.m123078a(arrayList2, ayjy.f97809a);
         return new ayjj((ayjy) da.mo74062i(), arrayList);
@@ -194,7 +194,7 @@ public final class ayjk {
                 ayjw ayjw9 = (ayjw) da.f164949b;
                 ayjw9.f97798b = 1;
                 ayjw9.f97797a |= 1;
-                bxtx a5 = bxtx.m123261a((byte[]) obj2);
+                ByteString a5 = ByteString.m123261a((byte[]) obj2);
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -218,7 +218,7 @@ public final class ayjk {
                 }
                 ayjv ayjv9 = (ayjv) da2.f164949b;
                 if (!ayjv9.f97790l.mo73666a()) {
-                    ayjv9.f97790l = bxvk.m124021a(ayjv9.f97790l);
+                    ayjv9.f97790l = GeneratedMessageLite.m124021a(ayjv9.f97790l);
                 }
                 bxsy.m123078a(asList, ayjv9.f97790l);
             } else if (obj2 instanceof long[]) {
@@ -236,7 +236,7 @@ public final class ayjk {
                 }
                 ayjv ayjv10 = (ayjv) da2.f164949b;
                 if (!ayjv10.f97791m.mo73666a()) {
-                    ayjv10.f97791m = bxvk.m124020a(ayjv10.f97791m);
+                    ayjv10.f97791m = GeneratedMessageLite.m124020a(ayjv10.f97791m);
                 }
                 bxsy.m123078a(b, ayjv10.f97791m);
             } else if (obj2 instanceof float[]) {
@@ -254,7 +254,7 @@ public final class ayjk {
                 }
                 ayjv ayjv11 = (ayjv) da2.f164949b;
                 if (!ayjv11.f97792n.mo73666a()) {
-                    ayjv11.f97792n = bxvk.m124018a(ayjv11.f97792n);
+                    ayjv11.f97792n = GeneratedMessageLite.m124018a(ayjv11.f97792n);
                 }
                 bxsy.m123078a(a6, ayjv11.f97792n);
             } else if (obj2 instanceof Asset) {
@@ -317,7 +317,7 @@ public final class ayjk {
                 }
                 ayjv ayjv13 = (ayjv) da2.f164949b;
                 if (!ayjv13.f97788j.mo73666a()) {
-                    ayjv13.f97788j = bxvk.m124021a(ayjv13.f97788j);
+                    ayjv13.f97788j = GeneratedMessageLite.m124021a(ayjv13.f97788j);
                 }
                 bxsy.m123078a(asList2, ayjv13.f97788j);
             } else if (!(obj2 instanceof ArrayList)) {
@@ -372,7 +372,7 @@ public final class ayjk {
                         ayjv ayjv14 = (ayjv) da2.f164949b;
                         a8.getClass();
                         if (!ayjv14.f97789k.mo73666a()) {
-                            ayjv14.f97789k = bxvk.m124021a(ayjv14.f97789k);
+                            ayjv14.f97789k = GeneratedMessageLite.m124021a(ayjv14.f97789k);
                         }
                         ayjv14.f97789k.add(a8);
                         i3++;
@@ -421,7 +421,7 @@ public final class ayjk {
                 ayjv = ayjv.f97777p;
             }
             if (a == 1) {
-                axos2.mo53331a(str2, ayjv.f97780b.mo73780k());
+                axos2.mo53331a(str2, ayjv.f97780b.getKey());
                 return;
             }
             if (a == 11) {

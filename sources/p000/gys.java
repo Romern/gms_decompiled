@@ -13,7 +13,7 @@ final /* synthetic */ class gys implements View.OnTouchListener {
     }
 
     public final boolean onTouch(View view, MotionEvent motionEvent) {
-        sek sek = gyt.f19252a;
+        Logger Logger = gyt.f19252a;
         return true;
     }
 }

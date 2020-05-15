@@ -148,7 +148,7 @@ public final class aavr implements aarn {
                             abdp = abdp.f57112g;
                         }
                         bxvd bxvd = (bxvd) abdp.mo74142c(5);
-                        bxvd.mo73625a((bxvk) abdp);
+                        bxvd.mo73625a((GeneratedMessageLite) abdp);
                         int size2 = aawe4.f56691d.size();
                         if (size2 != 0) {
                             aawe4.f56694g.set(size2 - 1, Boolean.valueOf(!aawe4.mo31847a(abdf)));
@@ -198,21 +198,21 @@ public final class aavr implements aarn {
                                     bxvd.f164950c = false;
                                 }
                                 abdp abdp5 = abdp.f57112g;
-                                ((abdp) bxvd.f164949b).f57118e = bxvk.m124030de();
+                                ((abdp) bxvd.f164949b).f57118e = GeneratedMessageLite.m124030de();
                             } else {
                                 if (bxvd.f164950c) {
                                     bxvd.mo74035c();
                                     bxvd.f164950c = false;
                                 }
                                 abdp abdp6 = abdp.f57112g;
-                                ((abdp) bxvd.f164949b).f57118e = bxvk.m124030de();
+                                ((abdp) bxvd.f164949b).f57118e = GeneratedMessageLite.m124030de();
                                 if (bxvd.f164950c) {
                                     bxvd.mo74035c();
                                     bxvd.f164950c = false;
                                 }
                                 abdp abdp7 = (abdp) bxvd.f164949b;
                                 if (!abdp7.f57118e.mo73666a()) {
-                                    abdp7.f57118e = bxvk.m124021a(abdp7.f57118e);
+                                    abdp7.f57118e = GeneratedMessageLite.m124021a(abdp7.f57118e);
                                 }
                                 bxsy.m123078a(arrayList, abdp7.f57118e);
                             }

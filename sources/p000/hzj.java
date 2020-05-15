@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public final class hzj implements hzs {
 
     /* renamed from: a */
-    private static final sek f20590a = new sek("OtpMessageDetector");
+    private static final Logger f20590a = new Logger("OtpMessageDetector");
 
     /* renamed from: b */
     private static final Pattern f20591b = Pattern.compile("(^|[\\s:;!\\.,\\\"'\\(]|[a-zA-Z]-|[^\\u0000-\\u007F])(?=[a-zA-Z]*[0-9]+)([a-zA-Z0-9]{4,10})($|[\\s:;!\\.,\\\"'\\)]|[^\\u0000-\\u007F])");

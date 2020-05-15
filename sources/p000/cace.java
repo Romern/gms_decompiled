@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cace */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cace extends bxvk implements bxxd {
+public final class cace extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final cace f172527h;
@@ -34,7 +34,7 @@ public final class cace extends bxvk implements bxxd {
     static {
         cace cace = new cace();
         f172527h = cace;
-        bxvk.m124024a(cace.class, cace);
+        GeneratedMessageLite.m124024a(cace.class, cace);
     }
 
     private cace() {
@@ -51,7 +51,7 @@ public final class cace extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172527h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0003ဈ\u0000\u0004\u001b\u0005ဉ\u0001\u0006ဇ\u0002", new Object[]{"a", "b", caaa.class, "c", caaa.class, "d", "e", caat.class, "f", "g"});
+            return GeneratedMessageLite.m124022a(f172527h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0003ဈ\u0000\u0004\u001b\u0005ဉ\u0001\u0006ဇ\u0002", new Object[]{"a", "b", caaa.class, "c", caaa.class, "d", "e", caat.class, "f", "g"});
         } else if (i2 == 3) {
             return new cace();
         } else {

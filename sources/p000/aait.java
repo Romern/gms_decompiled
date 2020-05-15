@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aait */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aait extends bxvk implements bxxd {
+public final class aait extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final aait f28219k;
@@ -43,7 +43,7 @@ public final class aait extends bxvk implements bxxd {
     static {
         aait aait = new aait();
         f28219k = aait;
-        bxvk.m124024a(aait.class, aait);
+        GeneratedMessageLite.m124024a(aait.class, aait);
     }
 
     private aait() {
@@ -60,7 +60,7 @@ public final class aait extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28219k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0000\u0000\u0001ဈ\u0000\u0002င\u0002\u0003ဂ\u0001\u0004ဇ\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0006\bတ\u0007\tဉ\b", new Object[]{"a", "b", "d", "c", "e", "f", "g", "h", "i", "j"});
+            return GeneratedMessageLite.m124022a(f28219k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0000\u0000\u0001ဈ\u0000\u0002င\u0002\u0003ဂ\u0001\u0004ဇ\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0006\bတ\u0007\tဉ\b", new Object[]{"a", "b", "d", "c", "e", "f", "g", "h", "i", "j"});
         } else if (i2 == 3) {
             return new aait();
         } else {

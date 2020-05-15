@@ -21,7 +21,7 @@ public final class ecu {
             return null;
         }
         try {
-            return new ecu((tnj) bxvk.m124016a(tnj.f46291e, tjq.mo26593c(), bxus.m123744c()), tjq.mo26592b().mo18096c());
+            return new ecu((tnj) GeneratedMessageLite.m124016a(tnj.f46291e, tjq.mo26593c(), bxus.m123744c()), tjq.mo26592b().mo18096c());
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) dss.f13961a.mo68387b();
             bnsl.mo68437a(e);
@@ -54,7 +54,7 @@ public final class ecu {
     public final void mo9971a(tni tni) {
         tnj tnj = this.f14703a;
         bxvd bxvd = (bxvd) tnj.mo74142c(5);
-        bxvd.mo73625a((bxvk) tnj);
+        bxvd.mo73625a((GeneratedMessageLite) tnj);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

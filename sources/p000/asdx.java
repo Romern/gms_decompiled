@@ -13,7 +13,7 @@ import java.util.concurrent.ExecutionException;
 public final class asdx extends aaab {
 
     /* renamed from: a */
-    public static final sek f88745a = ascp.m73787a("Wifi", "GetWifiCredentialsOperation");
+    public static final Logger f88745a = ascp.m73787a("Wifi", "GetWifiCredentialsOperation");
 
     /* renamed from: b */
     private final asdq f88746b;

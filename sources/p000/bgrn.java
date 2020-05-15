@@ -152,7 +152,7 @@ public final class bgrn extends bgtf {
                         }
                         buof buof2 = (buof) bxvd.f164949b;
                         if (!buof2.f154518c.mo73666a()) {
-                            buof2.f154518c = bxvk.m124019a(buof2.f154518c);
+                            buof2.f154518c = GeneratedMessageLite.m124019a(buof2.f154518c);
                         }
                         buof2.f154518c.mo74153d(a4);
                         int a5 = buoc.mo72963a(i7, i6, 1, d);
@@ -162,7 +162,7 @@ public final class bgrn extends bgtf {
                         }
                         buof buof3 = (buof) bxvd.f164949b;
                         if (!buof3.f154519d.mo73666a()) {
-                            buof3.f154519d = bxvk.m124019a(buof3.f154519d);
+                            buof3.f154519d = GeneratedMessageLite.m124019a(buof3.f154519d);
                         }
                         buof3.f154519d.mo74153d(a5);
                         int a6 = buoc.mo72963a(i7, i6, 2, d);
@@ -172,7 +172,7 @@ public final class bgrn extends bgtf {
                         }
                         buof buof4 = (buof) bxvd.f164949b;
                         if (!buof4.f154520e.mo73666a()) {
-                            buof4.f154520e = bxvk.m124019a(buof4.f154520e);
+                            buof4.f154520e = GeneratedMessageLite.m124019a(buof4.f154520e);
                         }
                         buof4.f154520e.mo74153d(a6);
                         j7 += j5;

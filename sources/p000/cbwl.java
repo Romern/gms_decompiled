@@ -10,7 +10,7 @@ public final class cbwl implements cbwj {
     static {
         bdyw a = new bdyw(bdyj.m91581a("com.google.android.gms.audit")).mo58443a();
         try {
-            f178474a = bdyx.m91608a(a, "ConfigFeature__upload_blacklist", (ggx) bxvk.m124014a(ggx.f18150b, new byte[0]), cbwk.f178473a);
+            f178474a = bdyx.m91608a(a, "ConfigFeature__upload_blacklist", (ggx) GeneratedMessageLite.m124014a(ggx.f18150b, new byte[0]), cbwk.f178473a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"ConfigFeature__upload_blacklist\"");
         }

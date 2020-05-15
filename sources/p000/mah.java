@@ -28,7 +28,7 @@ public final class mah {
     /* renamed from: a */
     public final mag mo19803a(maf maf, String str, String str2) {
         mce.m24864d();
-        f33328a.mo25409a("Using Post-O selectBackupTransport API", new Object[0]);
+        f33328a.logVerbose("Using Post-O selectBackupTransport API", new Object[0]);
         bxvd bxvd = ((met) this.f33331d).f33543l;
         if (bxvd.f164950c) {
             bxvd.mo74035c();

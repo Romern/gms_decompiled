@@ -54,7 +54,7 @@ public final class augu extends auft {
             z = false;
         }
         bmxy.m108588a(z);
-        return new augu(new URL(aufk.f91689d), aufk.f91688c, aufk.f91692g.mo73780k());
+        return new augu(new URL(aufk.f91689d), aufk.f91688c, aufk.f91692g.getKey());
     }
 
     /* renamed from: a */
@@ -85,7 +85,7 @@ public final class augu extends auft {
         boolean z = this.f91793b;
         aufk2.f91686a = i | 2;
         aufk2.f91688c = z;
-        bxtx a = bxtx.m123261a(this.f91794c);
+        ByteString a = ByteString.m123261a(this.f91794c);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -219,7 +219,7 @@ public final class augu extends auft {
                 aufd aufd = (aufd) auhp.m77075a(augv).mo60776a().get(cgyq.f188062a.mo6606a().mo84765i(), TimeUnit.MILLISECONDS);
                 bxvd da = auez.f91620d.mo74144da();
                 for (int i2 = 0; i2 < aufd.f91635a.size(); i2++) {
-                    da.mo73625a((bxvk) ((auez) aufd.f91635a.get(i2)));
+                    da.mo73625a((GeneratedMessageLite) ((auez) aufd.f91635a.get(i2)));
                 }
                 auez auez = (auez) da.mo74062i();
                 if ((auez.f91622a & 4) != 0) {

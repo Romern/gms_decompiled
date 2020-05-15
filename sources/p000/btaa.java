@@ -18,7 +18,7 @@ public final class btaa extends bxvd implements bxxd {
         btab btab2 = btab.f147917l;
         btbe.getClass();
         if (!btab.f147920b.mo73666a()) {
-            btab.f147920b = bxvk.m124021a(btab.f147920b);
+            btab.f147920b = GeneratedMessageLite.m124021a(btab.f147920b);
         }
         btab.f147920b.add(btbe);
     }

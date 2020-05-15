@@ -50,7 +50,7 @@ public final class mnx extends aaab {
             }
             if (j == 0 || j == 1) {
                 if (ccls.m130539r()) {
-                    j = spn.m35843a(context);
+                    j = spn.getAndroidId(context);
                 } else {
                     f34067a.mo25416d("No ancestor Id", new Object[0]);
                     throw new aaaj(13, "Device was not restored");

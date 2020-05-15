@@ -24,7 +24,7 @@ public final class tcy extends tdl {
     /* renamed from: a */
     public final void mo26315a(String str, ArrayList arrayList) {
         ConstellationDebugChimeraActivity constellationDebugChimeraActivity = this.f45664b;
-        sek sek = ConstellationDebugChimeraActivity.f30575b;
+        Logger Logger = ConstellationDebugChimeraActivity.f30575b;
         constellationDebugChimeraActivity.f30583e = str;
         constellationDebugChimeraActivity.f30584f = arrayList;
         constellationDebugChimeraActivity.f30581c.post(new tcx(this));
@@ -32,9 +32,9 @@ public final class tcy extends tdl {
 
     /* renamed from: a */
     public final void mo11624a(tdw tdw) {
-        sek sek = ConstellationDebugChimeraActivity.f30575b;
+        Logger Logger = ConstellationDebugChimeraActivity.f30575b;
         String valueOf = String.valueOf(tdw.getMessage());
-        sek.mo25412b(valueOf.length() == 0 ? new String("fail:") : "fail:".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("fail:") : "fail:".concat(valueOf), new Object[0]);
         this.f45664b.f30582d.mo26404a(this.f45663a, 3, tdw);
         this.f45664b.f30581c.post(new tcw(this));
     }

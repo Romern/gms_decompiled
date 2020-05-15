@@ -14,6 +14,6 @@ public final /* synthetic */ class mek implements Runnable {
         mgj mgj = this.f33514a;
         mgj.f33630h.mo19753a(5);
         mib mib = mgj.f33631i;
-        mib.f33745d.mo20097a(mib.mo20030a(9, (String) null).mo73642k());
+        mib.f33745d.mo20097a(mib.mo20030a(9, (String) null).serializeToBytes());
     }
 }

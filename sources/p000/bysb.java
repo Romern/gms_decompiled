@@ -14,6 +14,6 @@ public final class bysb extends Exception {
 
     /* renamed from: a */
     public final byte[] mo74491a() {
-        return this.f167550a.mo73642k();
+        return this.f167550a.serializeToBytes();
     }
 }

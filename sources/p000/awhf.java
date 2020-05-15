@@ -142,7 +142,7 @@ public final class awhf extends Fragment implements bkcy {
         super.onCreate(bundle);
         setRetainInstance(true);
         Bundle arguments = getArguments();
-        sdo.m34966a(getArguments(), "Fragment requires arguments!");
+        sdo.checkIfNull(getArguments(), "Fragment requires arguments!");
         sdo.m34975b(arguments.containsKey("account"), "Fragment requires account extra!");
         this.f94349a = (Account) arguments.getParcelable("account");
         sdo.m34975b(arguments.containsKey("tokenTypes"), "Fragment requires tokenTypes extra!");

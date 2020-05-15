@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: quj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class quj extends bxvk implements bxxd {
+public final class quj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final quj f42147e;
@@ -25,7 +25,7 @@ public final class quj extends bxvk implements bxxd {
     static {
         quj quj = new quj();
         f42147e = quj;
-        bxvk.m124024a(quj.class, quj);
+        GeneratedMessageLite.m124024a(quj.class, quj);
     }
 
     private quj() {
@@ -42,7 +42,7 @@ public final class quj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f42147e, "\u0001\u0003\u0000\u0001댱%\u0003\u0000\u0000\u0000댱ဉ\u0001﹡\u0013ဉ\u0002%ဉ\u0003", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f42147e, "\u0001\u0003\u0000\u0001댱%\u0003\u0000\u0000\u0000댱ဉ\u0001﹡\u0013ဉ\u0002%ဉ\u0003", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new quj();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpyt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpyt extends bxvk implements bxxd {
+public final class bpyt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bpyt f139932a;
@@ -13,7 +13,7 @@ public final class bpyt extends bxvk implements bxxd {
     static {
         bpyt bpyt = new bpyt();
         f139932a = bpyt;
-        bxvk.m124024a(bpyt.class, bpyt);
+        GeneratedMessageLite.m124024a(bpyt.class, bpyt);
     }
 
     private bpyt() {
@@ -30,7 +30,7 @@ public final class bpyt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139932a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f139932a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bpyt();

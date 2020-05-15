@@ -42,7 +42,7 @@ import org.json.JSONObject;
 public final class kaa extends jwx implements LoaderManager.LoaderCallbacks, kab, imh {
 
     /* renamed from: d */
-    public static final sek f23599d = ght.m13171a("MinuteMaid", "MinuteMaidFragment");
+    public static final Logger f23599d = ght.m13171a("MinuteMaid", "MinuteMaidFragment");
 
     /* renamed from: e */
     public static final imr f23600e = imr.m15727a("account_name");
@@ -244,14 +244,14 @@ public final class kaa extends jwx implements LoaderManager.LoaderCallbacks, kab
             z2 = true;
         }
         this.f23621H = z2;
-        sek sek = f23599d;
+        Logger Logger = f23599d;
         boolean z6 = this.f23630Q;
         StringBuilder sb = new StringBuilder(65);
         sb.append("shouldDrawStatusBarInWebview: ");
         sb.append(z6);
         sb.append(" useNativeNavigationBar: ");
         sb.append(z2);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         this.f23631s = new adzt();
         this.f23633u = (InputMethodManager) getActivity().getSystemService("input_method");
         this.f23624K = imy.m15745a(gnv.m13526aH());
@@ -862,7 +862,7 @@ public final class kaa extends jwx implements LoaderManager.LoaderCallbacks, kab
         xnw xnw;
         xwz xwz = this.f23622I;
         if (xwz == null) {
-            f23599d.mo25409a("No FIDO API call to pause because the api client is null.", new Object[0]);
+            f23599d.logVerbose("No FIDO API call to pause because the api client is null.", new Object[0]);
         } else {
             xwz.mo30206a(StateUpdate.f31872b).mo50372a(jzc.f23561a);
         }
@@ -880,7 +880,7 @@ public final class kaa extends jwx implements LoaderManager.LoaderCallbacks, kab
         if (xwz != null) {
             xwz.mo30206a(StateUpdate.f31873c).mo50372a(jza.f23559a);
         } else {
-            f23599d.mo25409a("No FIDO API call to resume because the api client is null.", new Object[0]);
+            f23599d.logVerbose("No FIDO API call to resume because the api client is null.", new Object[0]);
         }
         if (ccba.m129181b() && (xnw = this.f23618E) != null) {
             xnw.mo29958a(com.google.android.gms.fido.fido2.api.StateUpdate.f31692c);
@@ -908,9 +908,9 @@ public final class kaa extends jwx implements LoaderManager.LoaderCallbacks, kab
     /* renamed from: e */
     public final void mo14279e(String str) {
         this.f23616C = null;
-        sek sek = f23599d;
+        Logger Logger = f23599d;
         String valueOf = String.valueOf(str);
-        sek.mo25409a(valueOf.length() == 0 ? new String("Sending result ") : "Sending result ".concat(valueOf), new Object[0]);
+        Logger.logVerbose(valueOf.length() == 0 ? new String("Sending result ") : "Sending result ".concat(valueOf), new Object[0]);
         StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 21);
         sb.append("window.setSkResult(");
         sb.append(str);
@@ -934,7 +934,7 @@ public final class kaa extends jwx implements LoaderManager.LoaderCallbacks, kab
             settings.setUserAgentString(sb.toString());
         }
         if (this.f23625L) {
-            f23599d.mo25409a("Registering sms receiver...", new Object[0]);
+            f23599d.logVerbose("Registering sms receiver...", new Object[0]);
             this.f23626M = new MinuteMaidAuthSmsReceiver(this.f23634v);
             getActivity().registerReceiver(this.f23626M, new IntentFilter("android.provider.Telephony.SMS_RECEIVED"));
         }
@@ -1005,9 +1005,9 @@ public final class kaa extends jwx implements LoaderManager.LoaderCallbacks, kab
     /* renamed from: a */
     public final void mo14276a(JSONObject jSONObject) {
         String jSONObject2 = jSONObject.toString();
-        sek sek = f23599d;
+        Logger Logger = f23599d;
         String valueOf = String.valueOf(jSONObject2);
-        sek.mo25409a(valueOf.length() == 0 ? new String("Sending fido2 result ") : "Sending fido2 result ".concat(valueOf), new Object[0]);
+        Logger.logVerbose(valueOf.length() == 0 ? new String("Sending fido2 result ") : "Sending fido2 result ".concat(valueOf), new Object[0]);
         StringBuilder sb = new StringBuilder(String.valueOf(jSONObject2).length() + 26);
         sb.append("window.setFido2SkResult(");
         sb.append(jSONObject2);

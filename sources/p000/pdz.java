@@ -1197,7 +1197,7 @@ public final class pdz implements pec {
     public final void mo22947a(bxxc bxxc, int i) {
         synchronized (this.f38925b) {
             if (!dcm.SHUTDOWN.equals(this.f38927d)) {
-                byte[] k = bxxc.mo73642k();
+                byte[] k = bxxc.serializeToBytes();
                 int length = k.length;
                 int i2 = length + 4;
                 ByteBuffer a = mo22942a(i, k);
@@ -1205,7 +1205,7 @@ public final class pdz implements pec {
                 if (this.f38911O != null) {
                     Pair a2 = pcm.m30203a(a.array(), a.arrayOffset() + 2, length + 2);
                     if (a2 != null) {
-                        a = mo22942a(((Integer) a2.first).intValue(), ((bxxc) a2.second).mo73642k());
+                        a = mo22942a(((Integer) a2.first).intValue(), ((bxxc) a2.second).serializeToBytes());
                         i2 = a.limit();
                     } else {
                         z = false;

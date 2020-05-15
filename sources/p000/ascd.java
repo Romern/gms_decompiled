@@ -9,7 +9,7 @@ import android.content.pm.PackageManager;
 public final class ascd {
 
     /* renamed from: a */
-    private static final sek f88687a = ascp.m73787a("Utils", "PackageVerifier");
+    private static final Logger f88687a = ascp.m73787a("Utils", "PackageVerifier");
 
     /* renamed from: b */
     private final Context f88688b;
@@ -18,7 +18,7 @@ public final class ascd {
     private final PackageManager f88689c;
 
     public ascd(Context context) {
-        sdo.m34966a(context, "context cannot be null.");
+        sdo.checkIfNull(context, "context cannot be null.");
         this.f88688b = context;
         this.f88689c = context.getPackageManager();
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bucc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bucc extends bxvk implements bxxd {
+public final class bucc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bucc f153322d;
@@ -25,7 +25,7 @@ public final class bucc extends bxvk implements bxxd {
     static {
         bucc bucc = new bucc();
         f153322d = bucc;
-        bxvk.m124024a(bucc.class, bucc);
+        GeneratedMessageLite.m124024a(bucc.class, bucc);
     }
 
     private bucc() {
@@ -42,7 +42,7 @@ public final class bucc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153322d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဋ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"e", "a", "b", buce.m119319b(), "c", bucs.m119337b()});
+            return GeneratedMessageLite.m124022a(f153322d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဋ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"e", "a", "b", buce.m119319b(), "c", bucs.m119337b()});
         } else if (i2 == 3) {
             return new bucc();
         } else {

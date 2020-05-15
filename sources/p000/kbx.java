@@ -36,7 +36,7 @@ public final class kbx {
                     kci kci = (kci) da.f164949b;
                     str.getClass();
                     if (!kci.f23783b.mo73666a()) {
-                        kci.f23783b = bxvk.m124021a(kci.f23783b);
+                        kci.f23783b = GeneratedMessageLite.m124021a(kci.f23783b);
                     }
                     kci.f23783b.add(str);
                 }
@@ -61,7 +61,7 @@ public final class kbx {
                     kci kci2 = (kci) da.f164949b;
                     charSequence2.getClass();
                     if (!kci2.f23785d.mo73666a()) {
-                        kci2.f23785d = bxvk.m124021a(kci2.f23785d);
+                        kci2.f23785d = GeneratedMessageLite.m124021a(kci2.f23785d);
                     }
                     kci2.f23785d.add(charSequence2);
                 }
@@ -136,7 +136,7 @@ public final class kbx {
             kci kci3 = (kci) da.f164949b;
             a.getClass();
             if (!kci3.f23788g.mo73666a()) {
-                kci3.f23788g = bxvk.m124021a(kci3.f23788g);
+                kci3.f23788g = GeneratedMessageLite.m124021a(kci3.f23788g);
             }
             kci3.f23788g.add(a);
             i++;
@@ -183,7 +183,7 @@ public final class kbx {
                 }
                 kcf kcf = (kcf) da3.f164949b;
                 if (!kcf.f23747a.mo73666a()) {
-                    kcf.f23747a = bxvk.m124021a(kcf.f23747a);
+                    kcf.f23747a = GeneratedMessageLite.m124021a(kcf.f23747a);
                 }
                 bxsy.m123078a(list, kcf.f23747a);
             }
@@ -290,7 +290,7 @@ public final class kbx {
             }
             kci kci4 = (kci) da.f164949b;
             if (!kci4.f23800s.mo73666a()) {
-                kci4.f23800s = bxvk.m124021a(kci4.f23800s);
+                kci4.f23800s = GeneratedMessageLite.m124021a(kci4.f23800s);
             }
             bxsy.m123078a(arrayList, kci4.f23800s);
         }
@@ -335,7 +335,7 @@ public final class kbx {
             }
             kci kci5 = (kci) da.f164949b;
             if (!kci5.f23806y.mo73666a()) {
-                kci5.f23806y = bxvk.m124019a(kci5.f23806y);
+                kci5.f23806y = GeneratedMessageLite.m124019a(kci5.f23806y);
             }
             bxsy.m123078a(b, kci5.f23806y);
         }
@@ -347,7 +347,7 @@ public final class kbx {
             }
             kci kci6 = (kci) da.f164949b;
             if (!kci6.f23807z.mo73666a()) {
-                kci6.f23807z = bxvk.m124019a(kci6.f23807z);
+                kci6.f23807z = GeneratedMessageLite.m124019a(kci6.f23807z);
             }
             bxsy.m123078a(b2, kci6.f23807z);
         }

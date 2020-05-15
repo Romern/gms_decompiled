@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwgr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwgr extends bxvk implements bxxd {
+public final class bwgr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bwgr f159249e;
@@ -28,7 +28,7 @@ public final class bwgr extends bxvk implements bxxd {
     static {
         bwgr bwgr = new bwgr();
         f159249e = bwgr;
-        bxvk.m124024a(bwgr.class, bwgr);
+        GeneratedMessageLite.m124024a(bwgr.class, bwgr);
     }
 
     private bwgr() {
@@ -45,7 +45,7 @@ public final class bwgr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f159249e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဌ\u0003\u0004ဉ\u0002", new Object[]{"f", "a", "b", "d", bwgz.m121953b(), "c"});
+            return GeneratedMessageLite.m124022a(f159249e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဌ\u0003\u0004ဉ\u0002", new Object[]{"f", "a", "b", "d", bwgz.m121953b(), "c"});
         } else if (i2 == 3) {
             return new bwgr();
         } else {

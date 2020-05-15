@@ -65,7 +65,7 @@ public final class baig implements Callable {
         banx a;
         Throwable th2;
         long j;
-        ((achw) this.f100968i.mo16713a()).mo25409a("Reading time series footprints from %s/%s.", Integer.valueOf(this.f100965f), Integer.valueOf(this.f100966g));
+        ((achw) this.f100968i.mo16713a()).logVerbose("Reading time series footprints from %s/%s.", Integer.valueOf(this.f100965f), Integer.valueOf(this.f100966g));
         try {
             bafv a2 = this.f100960a.mo55681a(this.f100964e, this.f100965f, this.f100966g);
             try {

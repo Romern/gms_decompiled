@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caip */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caip extends bxvk implements bxxd {
+public final class caip extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final caip f174755b;
@@ -19,7 +19,7 @@ public final class caip extends bxvk implements bxxd {
     static {
         caip caip = new caip();
         f174755b = caip;
-        bxvk.m124024a(caip.class, caip);
+        GeneratedMessageLite.m124024a(caip.class, caip);
     }
 
     private caip() {
@@ -40,7 +40,7 @@ public final class caip extends bxvk implements bxxd {
             this.f174758c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f174755b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", caio.class});
+            return GeneratedMessageLite.m124022a(f174755b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", caio.class});
         } else if (i2 == 3) {
             return new caip();
         } else {

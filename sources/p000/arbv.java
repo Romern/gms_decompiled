@@ -11,7 +11,7 @@ import com.google.android.gms.smartdevice.d2d.BootstrapProgressResult;
 public final class arbv extends arbt implements aqxy {
 
     /* renamed from: l */
-    public static final sek f87327l = ascp.m73787a("D2D", arbv.class.getSimpleName());
+    public static final Logger f87327l = ascp.m73787a("D2D", arbv.class.getSimpleName());
 
     /* renamed from: m */
     private aray f87328m;
@@ -36,7 +36,7 @@ public final class arbv extends arbt implements aqxy {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final void mo48377a() {
-        f87327l.mo25409a("resetBootstrapController()", new Object[0]);
+        f87327l.logVerbose("resetBootstrapController()", new Object[0]);
         aray aray = this.f87328m;
         if (aray != null) {
             aray.mo48239e();
@@ -66,7 +66,7 @@ public final class arbv extends arbt implements aqxy {
         if (aray != null) {
             sdo.m34971a(aray.f87245h, (Object) "Bootstrap needs to first be paused before it can be resumed.");
             if (bundle.containsKey("pendingIntentResult") && aray.f87247j != null) {
-                aray.f87241d.mo25409a("Resuming bootstrap, pending intents are completed", new Object[0]);
+                aray.f87241d.logVerbose("Resuming bootstrap, pending intents are completed", new Object[0]);
                 bundle.getInt("pendingIntentResult");
                 if (aray.f87247j.f87209e.decrementAndGet() == 0) {
                     aray.f87245h = false;
@@ -108,8 +108,8 @@ public final class arbv extends arbt implements aqxy {
     public final void mo48379a(BootstrapConfigurations bootstrapConfigurations) {
         aray aray = this.f87328m;
         if (aray != null) {
-            aray.f87241d.mo25409a("Updating BootstrapConfigurations.", new Object[0]);
-            sdo.m34966a(bootstrapConfigurations, "bootstrapConfigurations cannot be null.");
+            aray.f87241d.logVerbose("Updating BootstrapConfigurations.", new Object[0]);
+            sdo.checkIfNull(bootstrapConfigurations, "bootstrapConfigurations cannot be null.");
             aray.f87244g = bootstrapConfigurations;
             aray.mo48357a(bootstrapConfigurations, true);
         }

@@ -5,6 +5,6 @@ package p000;
 public final class bbff {
     /* renamed from: a */
     public static bavd m87924a(baui baui) {
-        return (bavd) bxvk.m124016a(bavd.f101869m, baui.mo73642k(), bxus.m123743b());
+        return (bavd) GeneratedMessageLite.m124016a(bavd.f101869m, baui.serializeToBytes(), bxus.m123743b());
     }
 }

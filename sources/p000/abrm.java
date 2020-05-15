@@ -275,7 +275,7 @@ final class abrm extends acpn {
                     if (abpr == null) {
                         abpr = abpr.f57891d;
                     }
-                    abrv2.f58062A = b2.mo68722a(abpr.mo73642k()).toString();
+                    abrv2.f58062A = b2.mo68722a(abpr.serializeToBytes()).toString();
                     acrl acrl = abrv2.f58071g;
                     Context context2 = abrv2.f58066b;
                     abrv2.f58077m = new abyx(new abyw(acrl, context2, context2.getPackageManager(), abrv2.f58065D, abrv2.f58085u));
@@ -354,8 +354,8 @@ final class abrm extends acpn {
                                                     Map.Entry entry = (Map.Entry) it.next();
                                                     abul abul = (abul) entry.getValue();
                                                     bxvd bxvd = (bxvd) abul.mo74142c(5);
-                                                    bxvd.mo73625a((bxvk) abul);
-                                                    bxvd.f164949b = (bxvk) bxvd.f164949b.mo74142c(4);
+                                                    bxvd.mo73625a((GeneratedMessageLite) abul);
+                                                    bxvd.f164949b = (GeneratedMessageLite) bxvd.f164949b.mo74142c(4);
                                                     acrn.m49773a(edit, (String) entry.getKey(), (abul) bxvd.mo74062i());
                                                     it.remove();
                                                 }

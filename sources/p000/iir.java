@@ -36,7 +36,7 @@ public final class iir {
     public final void mo13046a() {
         if (((Boolean) igt.f20973w.mo58455c()).booleanValue()) {
             Random random = new Random();
-            long a = spn.m35843a(this.f21066a);
+            long a = spn.getAndroidId(this.f21066a);
             if (a == 0) {
                 Long l = this.f21072g;
                 if (l != null) {

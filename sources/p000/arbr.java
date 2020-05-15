@@ -22,7 +22,7 @@ public final class arbr implements arbb {
     public static final Strategy f87298a = Strategy.f80482c;
 
     /* renamed from: b */
-    public static final sek f87299b = ascp.m73787a("D2D", "SourceDeviceConnectorNearbyConnections");
+    public static final Logger f87299b = ascp.m73787a("D2D", "SourceDeviceConnectorNearbyConnections");
 
     /* renamed from: c */
     public final ahie f87300c;
@@ -90,7 +90,7 @@ public final class arbr implements arbb {
                 if (ahie != null) {
                     ahie.mo36526a(str, a);
                 }
-                f87299b.mo25409a("Sent encrypted auth token", new Object[0]);
+                f87299b.logVerbose("Sent encrypted auth token", new Object[0]);
             }
         } catch (GeneralSecurityException e) {
             f87299b.mo25417e("Encryption error", e, new Object[0]);
@@ -109,7 +109,7 @@ public final class arbr implements arbb {
             }
             f87299b.mo25410a(e);
         }
-        sdo.m34966a(status, "Result must not be null");
+        sdo.checkIfNull(status, "Result must not be null");
         rou rou = new rou(Looper.getMainLooper());
         rou.mo17716a(status);
         return rou;
@@ -172,12 +172,12 @@ public final class arbr implements arbb {
         int i;
         String str = this.f87304g;
         if (str != null) {
-            sek sek = f87299b;
+            Logger Logger = f87299b;
             StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 58);
             sb.append("Already connected to another device ");
             sb.append(str);
             sb.append(". Refusing to connect.");
-            sek.mo25409a(sb.toString(), new Object[0]);
+            Logger.logVerbose(sb.toString(), new Object[0]);
             return aucu.m76777a((Exception) new rjp(new Status(10566)));
         }
         if (cgql.m146579d()) {
@@ -228,7 +228,7 @@ public final class arbr implements arbb {
             aqzd aqzd = new aqzd();
             aqzd.f87136b = false;
             this.f87308k = aqzd.mo48294a();
-            sek sek = f87299b;
+            Logger Logger = f87299b;
             String str3 = d2DDevice.f107874c;
             String str4 = d2DDevice.f107875d;
             StringBuilder sb = new StringBuilder(String.valueOf(str3).length() + 36 + String.valueOf(str4).length());
@@ -237,19 +237,19 @@ public final class arbr implements arbb {
             sb.append(" (");
             sb.append(str4);
             sb.append(")");
-            sek.mo25409a(sb.toString(), new Object[0]);
+            Logger.logVerbose(sb.toString(), new Object[0]);
             this.f87302e = armu;
             this.f87304g = d2DDevice.f107875d;
             this.f87306i = bowh.m111606a(d2DDevice.f107879h);
             bmxy.m108582a(this.f87304g, "Connection endpoint ID is null.");
             return mo48370a(this.f87304g, cgql.m146578c(), this.f87310m);
         }
-        sek sek2 = f87299b;
+        Logger logger2 = f87299b;
         StringBuilder sb2 = new StringBuilder(String.valueOf(str2).length() + 58);
         sb2.append("Already connected to another device ");
         sb2.append(str2);
         sb2.append(". Refusing to connect.");
-        sek2.mo25418e(sb2.toString(), new Object[0]);
+        logger2.mo25418e(sb2.toString(), new Object[0]);
         return aucu.m76777a((Exception) new rjp(new Status(10566)));
     }
 
@@ -273,9 +273,9 @@ public final class arbr implements arbb {
     /* renamed from: a */
     public final void mo48371a(String str) {
         if (this.f87304g != null) {
-            sek sek = f87299b;
+            Logger Logger = f87299b;
             String valueOf = String.valueOf(str);
-            sek.mo25409a(valueOf.length() == 0 ? new String("Disconnected from device endpoint ") : "Disconnected from device endpoint ".concat(valueOf), new Object[0]);
+            Logger.logVerbose(valueOf.length() == 0 ? new String("Disconnected from device endpoint ") : "Disconnected from device endpoint ".concat(valueOf), new Object[0]);
             this.f87304g = null;
             this.f87303f = null;
             armu armu = this.f87302e;
@@ -294,7 +294,7 @@ public final class arbr implements arbb {
             arhn arhn = this.f87305h;
             if (arhn != null) {
                 arhn.mo48550a(bArr);
-                f87299b.mo25409a("Verified auth token", new Object[0]);
+                f87299b.logVerbose("Verified auth token", new Object[0]);
             }
             armu armu = this.f87302e;
             ahie ahie = this.f87300c;
@@ -302,7 +302,7 @@ public final class arbr implements arbb {
             bmxy.m108582a(ahie, "connectionsClient must not be null!");
             m72412c(str);
             armu.mo48349a(new arhb(ahie, str), new TargetConnectionArgs());
-            f87299b.mo25409a("Connection complete.", new Object[0]);
+            f87299b.logVerbose("Connection complete.", new Object[0]);
         } catch (GeneralSecurityException e) {
             f87299b.mo25417e("Failed to validate authentication token", e, new Object[0]);
             m72411b(str);

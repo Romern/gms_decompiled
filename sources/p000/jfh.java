@@ -49,7 +49,7 @@ public class jfh extends AsyncTask {
     }
 
     public jfh(Context context, TokenRequest tokenRequest, String str, String str2, boolean z, boolean z2, boolean z3) {
-        sdo.m34966a(tokenRequest, String.valueOf(f22366a).concat(" <init> tokenRequest cannot be null"));
+        sdo.checkIfNull(tokenRequest, String.valueOf(f22366a).concat(" <init> tokenRequest cannot be null"));
         this.f22367b = tokenRequest;
         this.f22369d = str;
         this.f22368c = str2;

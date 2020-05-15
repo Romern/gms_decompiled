@@ -17,7 +17,7 @@ final class lya extends lyq {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo19745a(InputStream inputStream) {
-        return (bzoo) bxvk.m124010a(bzoo.f170846c, inputStream);
+        return (bzoo) GeneratedMessageLite.m124010a(bzoo.f170846c, inputStream);
     }
 
     /* access modifiers changed from: protected */

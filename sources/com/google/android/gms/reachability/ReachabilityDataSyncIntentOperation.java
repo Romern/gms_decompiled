@@ -126,7 +126,7 @@ public class ReachabilityDataSyncIntentOperation extends IntentOperation {
                         }
                         btbr btbr = (btbr) da2.f164949b;
                         if (!btbr.f148205a.mo73666a()) {
-                            btbr.f148205a = bxvk.m124021a(btbr.f148205a);
+                            btbr.f148205a = GeneratedMessageLite.m124021a(btbr.f148205a);
                         }
                         bxsy.m123078a(arrayList, btbr.f148205a);
                         if (!arrayList.isEmpty()) {

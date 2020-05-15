@@ -13,7 +13,7 @@ public abstract class ikz extends Fragment {
     private long f21274a = 0;
 
     static {
-        new sek("TaggedFragment");
+        new Logger("TaggedFragment");
     }
 
     /* renamed from: a */

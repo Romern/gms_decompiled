@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blac */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blac extends bxvk implements bxxd {
+public final class blac extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final blac f125735a;
@@ -22,7 +22,7 @@ public final class blac extends bxvk implements bxxd {
     static {
         blac blac = new blac();
         f125735a = blac;
-        bxvk.m124024a(blac.class, blac);
+        GeneratedMessageLite.m124024a(blac.class, blac);
     }
 
     private blac() {
@@ -43,7 +43,7 @@ public final class blac extends bxvk implements bxxd {
             this.f125739d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f125735a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"b", "c", blfy.f126415a});
+            return GeneratedMessageLite.m124022a(f125735a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"b", "c", blfy.f126415a});
         } else if (i2 == 3) {
             return new blac();
         } else {

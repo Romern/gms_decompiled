@@ -24,7 +24,7 @@ final /* synthetic */ class xdo implements DialogInterface.OnClickListener {
         xwn xwn = this.f52003a;
         xwj xwj = this.f52004b;
         xeg xeg = this.f52005c;
-        sek sek = xdr.f52012a;
+        Logger Logger = xdr.f52012a;
         xwn.mo30186a(xwj, xag.TYPE_FINGERPRINT_NOT_RECOGNIZED);
         xeg.mo29667a(new xma("The flow was cancelled"));
     }

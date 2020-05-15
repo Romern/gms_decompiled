@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbia */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbia extends bxvk implements bxxd {
+public final class cbia extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbia f177224a;
@@ -13,7 +13,7 @@ public final class cbia extends bxvk implements bxxd {
     static {
         cbia cbia = new cbia();
         f177224a = cbia;
-        bxvk.m124024a(cbia.class, cbia);
+        GeneratedMessageLite.m124024a(cbia.class, cbia);
     }
 
     private cbia() {
@@ -30,7 +30,7 @@ public final class cbia extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177224a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f177224a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbia();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bony */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bony extends bxvk implements bxxd {
+public final class bony extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bony f133869c;
@@ -19,7 +19,7 @@ public final class bony extends bxvk implements bxxd {
     static {
         bony bony = new bony();
         f133869c = bony;
-        bxvk.m124024a(bony.class, bony);
+        GeneratedMessageLite.m124024a(bony.class, bony);
     }
 
     private bony() {
@@ -36,7 +36,7 @@ public final class bony extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133869c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0007\u0002,", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f133869c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0007\u0002,", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bony();
         } else {

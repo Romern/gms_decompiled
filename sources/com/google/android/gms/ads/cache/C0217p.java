@@ -2,7 +2,7 @@ package com.google.android.gms.ads.cache;
 
 /* renamed from: com.google.android.gms.ads.cache.p */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class C0217p extends bxvk implements bxxd {
+public final class C0217p extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final C0217p f7911g;
@@ -31,7 +31,7 @@ public final class C0217p extends bxvk implements bxxd {
     static {
         C0217p pVar = new C0217p();
         f7911g = pVar;
-        bxvk.m124024a(C0217p.class, pVar);
+        GeneratedMessageLite.m124024a(C0217p.class, pVar);
     }
 
     private C0217p() {
@@ -48,7 +48,7 @@ public final class C0217p extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f7911g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဈ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f7911g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဈ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new C0217p();
         } else {

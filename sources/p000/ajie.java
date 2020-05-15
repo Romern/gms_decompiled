@@ -17,7 +17,7 @@ public final class ajie extends bxvd implements bxxd {
         ajif ajif2 = ajif.f70694l;
         str.getClass();
         if (!ajif.f70700e.mo73666a()) {
-            ajif.f70700e = bxvk.m124021a(ajif.f70700e);
+            ajif.f70700e = GeneratedMessageLite.m124021a(ajif.f70700e);
         }
         ajif.f70700e.add(str);
     }
@@ -32,7 +32,7 @@ public final class ajie extends bxvd implements bxxd {
         ajif ajif2 = ajif.f70694l;
         str.getClass();
         if (!ajif.f70701f.mo73666a()) {
-            ajif.f70701f = bxvk.m124021a(ajif.f70701f);
+            ajif.f70701f = GeneratedMessageLite.m124021a(ajif.f70701f);
         }
         ajif.f70701f.add(str);
     }

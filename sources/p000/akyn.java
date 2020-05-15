@@ -12,7 +12,7 @@ import org.json.JSONObject;
 public final class akyn implements akww {
 
     /* renamed from: c */
-    private static final sek f73124c = akzt.m60725a("OctarineUiBridge");
+    private static final Logger f73124c = akzt.m60725a("OctarineUiBridge");
 
     /* renamed from: a */
     public final akym f73125a;

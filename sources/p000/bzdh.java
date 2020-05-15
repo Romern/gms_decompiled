@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzdh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzdh extends bxvk implements bxxd {
+public final class bzdh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: A */
     public static final bzdh f169466A;
@@ -94,7 +94,7 @@ public final class bzdh extends bxvk implements bxxd {
     static {
         bzdh bzdh = new bzdh();
         f169466A = bzdh;
-        bxvk.m124024a(bzdh.class, bzdh);
+        GeneratedMessageLite.m124024a(bzdh.class, bzdh);
     }
 
     private bzdh() {
@@ -117,7 +117,7 @@ public final class bzdh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f169466A, "\u0001\u001a\u0000\u0001\u0001\u001f\u001a\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\bဇ\u0007\nဂ\t\u000bဂ\n\fဂ\u000b\rဇ\f\u000eက\r\u000fဂ\u0010\u0010ဌ\u0011\u0012င\u0013\u0015\u001b\u0017ဇ\u0014\u0018ဌ\u0015\u0019ဌ\u0016\u001aဇ\u0017\u001bဂ\u0018\u001cဈ\u0019\u001dဈ\u001a\u001eဈ\u001b\u001fဌ\u001c", new Object[]{"a", "b", "c", "d", "e", "f", "B", "g", "h", "i", "j", "k", "l", "m", "n", "o", bzdf.f169465a, "p", "q", bzdk.class, "r", "s", bzdd.f169464a, "t", bzdd.f169464a, "u", "v", "w", "x", "y", "z", bzdc.f169463a});
+            return GeneratedMessageLite.m124022a(f169466A, "\u0001\u001a\u0000\u0001\u0001\u001f\u001a\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\bဇ\u0007\nဂ\t\u000bဂ\n\fဂ\u000b\rဇ\f\u000eက\r\u000fဂ\u0010\u0010ဌ\u0011\u0012င\u0013\u0015\u001b\u0017ဇ\u0014\u0018ဌ\u0015\u0019ဌ\u0016\u001aဇ\u0017\u001bဂ\u0018\u001cဈ\u0019\u001dဈ\u001a\u001eဈ\u001b\u001fဌ\u001c", new Object[]{"a", "b", "c", "d", "e", "f", "B", "g", "h", "i", "j", "k", "l", "m", "n", "o", bzdf.f169465a, "p", "q", bzdk.class, "r", "s", bzdd.f169464a, "t", bzdd.f169464a, "u", "v", "w", "x", "y", "z", bzdc.f169463a});
         } else if (i2 == 3) {
             return new bzdh();
         } else {

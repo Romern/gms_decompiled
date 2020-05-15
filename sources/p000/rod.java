@@ -17,7 +17,7 @@ public final class rod {
 
     public rod(Looper looper, Object obj, String str) {
         this.f43430c = new roa(this, looper);
-        sdo.m34966a(obj, "Listener must not be null");
+        sdo.checkIfNull(obj, "Listener must not be null");
         this.f43428a = obj;
         sdo.m34977c(str);
         this.f43429b = new rob(obj, str);
@@ -31,7 +31,7 @@ public final class rod {
 
     /* renamed from: a */
     public final void mo24968a(roc roc) {
-        sdo.m34966a(roc, "Notifier must not be null");
+        sdo.checkIfNull(roc, "Notifier must not be null");
         this.f43430c.sendMessage(this.f43430c.obtainMessage(1, roc));
     }
 }

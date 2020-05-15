@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbil */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbil extends bxvk implements bxxd {
+public final class cbil extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final cbil f177257h;
@@ -34,7 +34,7 @@ public final class cbil extends bxvk implements bxxd {
     static {
         cbil cbil = new cbil();
         f177257h = cbil;
-        bxvk.m124024a(cbil.class, cbil);
+        GeneratedMessageLite.m124024a(cbil.class, cbil);
     }
 
     private cbil() {
@@ -53,7 +53,7 @@ public final class cbil extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177257h, "\u0000\u000f\u0001\u0000\u0001\u0010\u000f\u0000\u0000\u0000\u0001<\u0000\u0002<\u0000\u0003<\u0000\u0004<\u0000\u0005<\u0000\u0006<\u0000\u0007\t\b\f\tȈ\u000b<\u0000\f\u0002\r<\u0000\u000e\t\u000f<\u0000\u0010<\u0000", new Object[]{"b", "a", cbiv.class, cbin.class, cbmh.class, cbix.class, cbir.class, cbih.class, "d", "c", "e", cbmp.class, "f", cbiu.class, "g", cbiy.class, cbhw.class});
+            return GeneratedMessageLite.m124022a(f177257h, "\u0000\u000f\u0001\u0000\u0001\u0010\u000f\u0000\u0000\u0000\u0001<\u0000\u0002<\u0000\u0003<\u0000\u0004<\u0000\u0005<\u0000\u0006<\u0000\u0007\t\b\f\tȈ\u000b<\u0000\f\u0002\r<\u0000\u000e\t\u000f<\u0000\u0010<\u0000", new Object[]{"b", "a", cbiv.class, cbin.class, cbmh.class, cbix.class, cbir.class, cbih.class, "d", "c", "e", cbmp.class, "f", cbiu.class, "g", cbiy.class, cbhw.class});
         } else if (i2 == 3) {
             return new cbil();
         } else {

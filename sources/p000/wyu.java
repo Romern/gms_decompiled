@@ -20,7 +20,7 @@ public final class wyu {
     public static void m42479a(Context context, ErrorReport errorReport, int i, Account account, String str, String str2, int i2) {
         abeh b = m42481b(context, errorReport, account);
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -211,7 +211,7 @@ public final class wyu {
         }
         abeh b = m42481b(context, errorReport, account);
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

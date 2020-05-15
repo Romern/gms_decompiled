@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: birx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class birx extends bxvk implements bxxd {
+public final class birx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final birx f121479i;
@@ -23,7 +23,7 @@ public final class birx extends bxvk implements bxxd {
     public String f121484d = "";
 
     /* renamed from: e */
-    public bxtx f121485e = bxtx.f164797b;
+    public ByteString f121485e = ByteString.f164797b;
 
     /* renamed from: f */
     public String f121486f = "";
@@ -37,7 +37,7 @@ public final class birx extends bxvk implements bxxd {
     static {
         birx birx = new birx();
         f121479i = birx;
-        bxvk.m124024a(birx.class, birx);
+        GeneratedMessageLite.m124024a(birx.class, birx);
     }
 
     private birx() {
@@ -54,7 +54,7 @@ public final class birx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f121479i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ည\u0003\u0005ဈ\u0004\u0006ဋ\u0005\u0007င\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f121479i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ည\u0003\u0005ဈ\u0004\u0006ဋ\u0005\u0007င\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new birx();
         } else {

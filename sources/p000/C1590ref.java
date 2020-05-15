@@ -14,13 +14,13 @@ final class C1590ref extends RequestFinishedInfo.Listener {
     final /* synthetic */ caik f42793b;
 
     /* renamed from: c */
-    final /* synthetic */ bxtx f42794c;
+    final /* synthetic */ ByteString f42794c;
 
     /* renamed from: d */
     final /* synthetic */ reg f42795d;
 
     /* JADX INFO: super call moved to the top of the method (can break code semantics) */
-    public C1590ref(reg reg, Executor executor, Object obj, caik caik, bxtx bxtx) {
+    public C1590ref(reg reg, Executor executor, Object obj, caik caik, ByteString bxtx) {
         super(executor);
         this.f42795d = reg;
         this.f42792a = obj;

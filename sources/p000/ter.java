@@ -14,7 +14,7 @@ import com.google.android.gms.constellation.verifier.SilentSmsReceiver$SilentSms
 public final class ter implements tes {
 
     /* renamed from: a */
-    public static final sek f45794a = tea.m36798a("silent_sms_receiver");
+    public static final Logger f45794a = tea.m36798a("silent_sms_receiver");
 
     /* renamed from: b */
     public SmsMessage f45795b = null;
@@ -32,7 +32,7 @@ public final class ter implements tes {
     private String f45799f = "";
 
     public ter(int i) {
-        f45794a.mo25409a("start", new Object[0]);
+        f45794a.logVerbose("start", new Object[0]);
         this.f45798e = rpr.m34216b();
         m36861a(i);
     }
@@ -54,7 +54,7 @@ public final class ter implements tes {
 
     /* renamed from: b */
     public final void mo26448b() {
-        f45794a.mo25409a("stop", new Object[0]);
+        f45794a.logVerbose("stop", new Object[0]);
         Context context = this.f45798e;
         if (context != null) {
             context.unregisterReceiver(this.f45797d);

@@ -15,7 +15,7 @@ final /* synthetic */ class akwe implements bmzi {
     /* renamed from: a */
     public final Object mo6606a() {
         PackageManager packageManager = this.f72990a;
-        sek sek = akwg.f72993b;
+        Logger Logger = akwg.f72993b;
         return packageManager.getInstalledPackages(4224);
     }
 }

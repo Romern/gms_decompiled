@@ -173,7 +173,7 @@ public final class bicx implements bhuk {
             }
             bpoh bpoh2 = (bpoh) da.f164949b;
             if (!bpoh2.f138515f.mo73666a()) {
-                bpoh2.f138515f = bxvk.m124019a(bpoh2.f138515f);
+                bpoh2.f138515f = GeneratedMessageLite.m124019a(bpoh2.f138515f);
             }
             bxsy.m123078a(b, bpoh2.f138515f);
         }
@@ -184,7 +184,7 @@ public final class bicx implements bhuk {
     public final bpoh mo64531a(bpnd bpnd) {
         bpoh a = mo64530a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -206,7 +206,7 @@ public final class bicx implements bhuk {
     public final bpoh mo64532a(bpnx bpnx) {
         bpoh a = mo64530a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -228,7 +228,7 @@ public final class bicx implements bhuk {
     public final bpoh mo64533a(bpop bpop) {
         bpoh a = mo64530a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -265,7 +265,7 @@ public final class bicx implements bhuk {
         bpnj bpnj4 = (bpnj) da.mo74062i();
         bpoh a = mo64530a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -307,7 +307,7 @@ public final class bicx implements bhuk {
         bpnp bpnp5 = (bpnp) da.mo74062i();
         bpoh a = mo64530a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -359,7 +359,7 @@ public final class bicx implements bhuk {
         bpob bpob2 = (bpob) da.mo74062i();
         bpoh a = mo64530a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -396,7 +396,7 @@ public final class bicx implements bhuk {
         bpnm bpnm2 = (bpnm) da.mo74062i();
         bpoh a = mo64530a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -448,7 +448,7 @@ public final class bicx implements bhuk {
             printWriter.println("\nPlace Inference Clearcut Logs:");
             for (bpoh bpoh : this.f120266h) {
                 printWriter.print(" ");
-                printWriter.println(sqd.m35970c(bpoh.mo73642k()));
+                printWriter.println(sqd.m35970c(bpoh.serializeToBytes()));
             }
         }
     }

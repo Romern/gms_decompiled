@@ -322,7 +322,7 @@ public final class bjcj {
                     }
                     if (bleStrengthProto.mo71608b() != null) {
                         try {
-                            bxtx a = bxtx.m123261a(Base64.decode(bleStrengthProto.mo71608b(), 10));
+                            ByteString a = ByteString.m123261a(Base64.decode(bleStrengthProto.mo71608b(), 10));
                             if (da2.f164950c) {
                                 da2.mo74035c();
                                 da2.f164950c = false;
@@ -373,7 +373,7 @@ public final class bjcj {
                     bvvy bvvy = (bvvy) da.f164949b;
                     bvxz16.getClass();
                     if (!bvvy.f157873a.mo73666a()) {
-                        bvvy.f157873a = bxvk.m124021a(bvvy.f157873a);
+                        bvvy.f157873a = GeneratedMessageLite.m124021a(bvvy.f157873a);
                     }
                     bvvy.f157873a.add(bvxz16);
                 }
@@ -480,7 +480,7 @@ public final class bjcj {
                     }
                     if (bleSensorData.mo71605b() != null) {
                         try {
-                            bxtx a2 = bxtx.m123261a(Base64.decode(bleSensorData.mo71605b(), 10));
+                            ByteString a2 = ByteString.m123261a(Base64.decode(bleSensorData.mo71605b(), 10));
                             if (da3.f164950c) {
                                 da3.mo74035c();
                                 da3.f164950c = false;
@@ -501,7 +501,7 @@ public final class bjcj {
                     bvvy bvvy2 = (bvvy) da.f164949b;
                     bvxx6.getClass();
                     if (!bvvy2.f157874b.mo73666a()) {
-                        bvvy2.f157874b = bxvk.m124021a(bvvy2.f157874b);
+                        bvvy2.f157874b = GeneratedMessageLite.m124021a(bvvy2.f157874b);
                     }
                     bvvy2.f157874b.add(bvxx6);
                 }

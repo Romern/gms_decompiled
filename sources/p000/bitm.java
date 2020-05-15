@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bitm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bitm extends bxvk implements bxxd {
+public final class bitm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bitm f121674d;
@@ -25,7 +25,7 @@ public final class bitm extends bxvk implements bxxd {
     static {
         bitm bitm = new bitm();
         f121674d = bitm;
-        bxvk.m124024a(bitm.class, bitm);
+        GeneratedMessageLite.m124024a(bitm.class, bitm);
     }
 
     private bitm() {
@@ -46,7 +46,7 @@ public final class bitm extends bxvk implements bxxd {
             this.f121679e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121674d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0001\u0001Л\u0002ဋ\u0000", new Object[]{"a", "b", bitj.class, "c"});
+            return GeneratedMessageLite.m124022a(f121674d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0001\u0001Л\u0002ဋ\u0000", new Object[]{"a", "b", bitj.class, "c"});
         } else if (i2 == 3) {
             return new bitm();
         } else {

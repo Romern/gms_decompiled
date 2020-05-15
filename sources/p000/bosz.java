@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bosz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bosz extends bxvk implements bxxd {
+public final class bosz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final bosz f134750j;
@@ -40,7 +40,7 @@ public final class bosz extends bxvk implements bxxd {
     static {
         bosz bosz = new bosz();
         f134750j = bosz;
-        bxvk.m124024a(bosz.class, bosz);
+        GeneratedMessageLite.m124024a(bosz.class, bosz);
     }
 
     private bosz() {
@@ -57,7 +57,7 @@ public final class bosz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134750j, "\u0001\b\u0000\u0001\u0001\b\b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ခ\u0004\u0004ဇ\u0005\u0005ဇ\u0006\u0006ဂ\u0007\u0007င\u0002\bဇ\u0003", new Object[]{"a", "b", bosy.f134749a, "c", "f", "g", "h", "i", "d", "e"});
+            return GeneratedMessageLite.m124022a(f134750j, "\u0001\b\u0000\u0001\u0001\b\b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ခ\u0004\u0004ဇ\u0005\u0005ဇ\u0006\u0006ဂ\u0007\u0007င\u0002\bဇ\u0003", new Object[]{"a", "b", bosy.f134749a, "c", "f", "g", "h", "i", "d", "e"});
         } else if (i2 == 3) {
             return new bosz();
         } else {

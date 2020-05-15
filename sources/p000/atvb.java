@@ -89,7 +89,7 @@ public abstract class atvb extends AsyncTask {
                 message = Message.obtain((Handler) null, this.f90988g);
                 btnf btnf = this.f90987f;
                 if (btnf != null) {
-                    bArr = btnf.mo73642k();
+                    bArr = btnf.serializeToBytes();
                 }
                 bundle.putByteArray("tap_and_pay_api_error", bArr);
             } catch (RemoteException e) {
@@ -97,7 +97,7 @@ public abstract class atvb extends AsyncTask {
             }
         } else {
             Message obtain = Message.obtain((Handler) null, i2);
-            bundle.putByteArray("data_response", bxxc.mo73642k());
+            bundle.putByteArray("data_response", bxxc.serializeToBytes());
             message = obtain;
         }
         message.setData(bundle);

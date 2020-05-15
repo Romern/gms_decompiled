@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buug */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buug extends bxvk implements bxxd {
+public final class buug extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final buug f154941c;
@@ -19,7 +19,7 @@ public final class buug extends bxvk implements bxxd {
     static {
         buug buug = new buug();
         f154941c = buug;
-        bxvk.m124024a(buug.class, buug);
+        GeneratedMessageLite.m124024a(buug.class, buug);
     }
 
     private buug() {
@@ -36,7 +36,7 @@ public final class buug extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154941c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f154941c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new buug();
         } else {

@@ -22,7 +22,7 @@ final class aemx extends aemc {
         aene aene = (aene) rjd;
         List asList = Arrays.asList(this.f63527a);
         aemf aemf = new aemf(this);
-        sdo.m34966a(aemf, "callback == null");
+        sdo.checkIfNull(aemf, "callback == null");
         ((aenl) aene.mo25289B()).mo34374a(asList, aene.f63536a, aemf);
     }
 }

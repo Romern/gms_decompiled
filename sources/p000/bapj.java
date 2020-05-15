@@ -45,7 +45,7 @@ final /* synthetic */ class bapj implements bmxj {
         bpyi bpyi = (bpyi) obj;
         synchronized (bapk.f101495k.f101508j) {
             bxvd bxvd = (bxvd) bpyi.mo74142c(5);
-            bxvd.mo73625a((bxvk) bpyi);
+            bxvd.mo73625a((GeneratedMessageLite) bpyi);
             bapk.mo55862a(j, z, baqa, l, z2, z3, bxvd);
         }
         return null;

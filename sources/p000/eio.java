@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: eio */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class eio extends bxvk implements bxxd {
+public final class eio extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final eio f15067h;
@@ -34,7 +34,7 @@ public final class eio extends bxvk implements bxxd {
     static {
         eio eio = new eio();
         f15067h = eio;
-        bxvk.m124024a(eio.class, eio);
+        GeneratedMessageLite.m124024a(eio.class, eio);
     }
 
     private eio() {
@@ -51,7 +51,7 @@ public final class eio extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f15067h, "\u0000\u0007\u0001\u0000\u0001\u001d\u0007\u0000\u0000\u0000\u0001\u0002\u0006=\u0000\u000b\u0004\u000f\u0010\u0011\u0002\u0017\t\u001dȻ\u0000", new Object[]{"b", "a", "c", "d", "f", "e", "g"});
+            return GeneratedMessageLite.m124022a(f15067h, "\u0000\u0007\u0001\u0000\u0001\u001d\u0007\u0000\u0000\u0000\u0001\u0002\u0006=\u0000\u000b\u0004\u000f\u0010\u0011\u0002\u0017\t\u001dȻ\u0000", new Object[]{"b", "a", "c", "d", "f", "e", "g"});
         } else if (i2 == 3) {
             return new eio();
         } else {

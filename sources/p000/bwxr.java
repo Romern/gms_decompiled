@@ -18,7 +18,7 @@ public final class bwxr extends bxvd implements bxxd {
         bwxs bwxs2 = bwxs.f161407d;
         bwxq.getClass();
         if (!bwxs.f161411c.mo73666a()) {
-            bwxs.f161411c = bxvk.m124021a(bwxs.f161411c);
+            bwxs.f161411c = GeneratedMessageLite.m124021a(bwxs.f161411c);
         }
         bwxs.f161411c.add(bwxq);
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsno */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsno extends bxvk implements bxxd {
+public final class bsno extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bsno f146308c;
@@ -11,7 +11,7 @@ public final class bsno extends bxvk implements bxxd {
     private static volatile bxxk f146309d;
 
     /* renamed from: a */
-    public bxtx f146310a = bxtx.f164797b;
+    public ByteString f146310a = ByteString.f164797b;
 
     /* renamed from: b */
     public String f146311b = "";
@@ -19,7 +19,7 @@ public final class bsno extends bxvk implements bxxd {
     static {
         bsno bsno = new bsno();
         f146308c = bsno;
-        bxvk.m124024a(bsno.class, bsno);
+        GeneratedMessageLite.m124024a(bsno.class, bsno);
     }
 
     private bsno() {
@@ -36,7 +36,7 @@ public final class bsno extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f146308c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\n\u0002Ȉ", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f146308c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\n\u0002Ȉ", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bsno();
         } else {

@@ -719,7 +719,7 @@ public final class dus extends duq {
                 bxlo bxlo3 = (bxlo) da.f164949b;
                 s.getClass();
                 if (!bxlo3.f163876d.mo73666a()) {
-                    bxlo3.f163876d = bxvk.m124021a(bxlo3.f163876d);
+                    bxlo3.f163876d = GeneratedMessageLite.m124021a(bxlo3.f163876d);
                 }
                 bxlo3.f163876d.add(s);
             }
@@ -736,7 +736,7 @@ public final class dus extends duq {
     }
 
     public final String toString() {
-        return Base64.encodeToString(((bxcm) this.f14076c).mo73642k(), 2);
+        return Base64.encodeToString(((bxcm) this.f14076c).serializeToBytes(), 2);
     }
 
     /* renamed from: u */
@@ -956,14 +956,14 @@ public final class dus extends duq {
         if (ordinal == 1 || ordinal == 2 || ordinal == 3) {
             bxcm bxcm = (bxcm) this.f14076c;
             bxvd bxvd = (bxvd) bxcm.mo74142c(5);
-            bxvd.mo73625a((bxvk) bxcm);
+            bxvd.mo73625a((GeneratedMessageLite) bxcm);
             bxcj bxcj = (bxcj) bxvd;
             if (bxcj.f164950c) {
                 bxcj.mo74035c();
                 bxcj.f164950c = false;
             }
             bxvu bxvu = bxcm.f162812v;
-            ((bxcm) bxcj.f164949b).f162816c = bxvk.m124030de();
+            ((bxcm) bxcj.f164949b).f162816c = GeneratedMessageLite.m124030de();
             bxwc bxwc = ((bxcm) this.f14076c).f162816c;
             int size = bxwc.size();
             for (int i = 0; i < size; i++) {
@@ -998,19 +998,19 @@ public final class dus extends duq {
             }
             bxec bxec = (bxec) k.f14076c;
             bxvd bxvd2 = (bxvd) bxec.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bxec);
+            bxvd2.mo73625a((GeneratedMessageLite) bxec);
             bxdz bxdz = (bxdz) bxvd2;
             if (bxdz.f164950c) {
                 bxdz.mo74035c();
                 bxdz.f164950c = false;
             }
             bxec bxec2 = bxec.f163078i;
-            ((bxec) bxdz.f164949b).f163086g = bxvk.m124030de();
+            ((bxec) bxdz.f164949b).f163086g = GeneratedMessageLite.m124030de();
             if (bxdz.f164950c) {
                 bxdz.mo74035c();
                 bxdz.f164950c = false;
             }
-            ((bxec) bxdz.f164949b).f163084e = bxvk.m124030de();
+            ((bxec) bxdz.f164949b).f163084e = GeneratedMessageLite.m124030de();
             if (!hashSet.isEmpty()) {
                 bxdz.mo73567a(hashSet);
             }
@@ -1020,7 +1020,7 @@ public final class dus extends duq {
             k.f14076c = (bxec) bxdz.mo74062i();
             bxcm bxcm2 = (bxcm) this.f14076c;
             bxvd bxvd3 = (bxvd) bxcm2.mo74142c(5);
-            bxvd3.mo73625a((bxvk) bxcm2);
+            bxvd3.mo73625a((GeneratedMessageLite) bxcm2);
             bxcj bxcj2 = (bxcj) bxvd3;
             bxec bxec3 = (bxec) k.f14076c;
             if (bxcj2.f164950c) {

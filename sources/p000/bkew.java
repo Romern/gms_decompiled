@@ -387,7 +387,7 @@ public final class bkew extends LinearLayout implements AdapterView.OnItemSelect
         if (bmdn == null) {
             bmdn = bmdn.f128831k;
         }
-        bxtx bxtx = bmdn.f128836d;
+        ByteString bxtx = bmdn.f128836d;
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

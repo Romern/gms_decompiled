@@ -31,7 +31,7 @@ final class C1589rcs extends LruCache {
                 return null;
             }
             try {
-                return (caik) bxvk.m124016a(caik.f174711o, b, bxus.m123744c());
+                return (caik) GeneratedMessageLite.m124016a(caik.f174711o, b, bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("LogStoreUtil", "Couldn't parse PlayLoggerContext proto.", e);
                 return null;

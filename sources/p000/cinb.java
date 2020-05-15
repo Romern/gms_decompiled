@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cinb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cinb extends bxvk implements bxxd {
+public final class cinb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cinb f190910c;
@@ -19,7 +19,7 @@ public final class cinb extends bxvk implements bxxd {
     static {
         cinb cinb = new cinb();
         f190910c = cinb;
-        bxvk.m124024a(cinb.class, cinb);
+        GeneratedMessageLite.m124024a(cinb.class, cinb);
     }
 
     private cinb() {
@@ -36,7 +36,7 @@ public final class cinb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f190910c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f190910c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cinb();
         } else {

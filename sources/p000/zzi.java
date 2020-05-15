@@ -120,7 +120,7 @@ public final class zzi {
     /* renamed from: d */
     public final zyv mo31628d(Context context) {
         zyv zyv;
-        sdo.m34966a(context, "context");
+        sdo.checkIfNull(context, "context");
         synchronized (this.f56268b) {
             zyv = this.f56283q;
         }
@@ -212,7 +212,7 @@ public final class zzi {
     /* renamed from: c */
     public final zxv mo31627c(Context context) {
         zxv zxv;
-        sdo.m34966a(context, "context");
+        sdo.checkIfNull(context, "context");
         synchronized (this.f56268b) {
             if (this.f56270d == null) {
                 Context applicationContext = context.getApplicationContext();
@@ -247,7 +247,7 @@ public final class zzi {
     /* renamed from: a */
     public final zyg mo31621a(Context context) {
         zyg zyg;
-        sdo.m34966a(context, "context");
+        sdo.checkIfNull(context, "context");
         synchronized (this.f56268b) {
             if (this.f56269c == null) {
                 this.f56269c = new zyg(context.getApplicationContext());
@@ -414,18 +414,18 @@ public final class zzi {
         List list;
         Context context2 = context;
         Runnable runnable2 = runnable;
-        sdo.m34966a(context2, "context");
+        sdo.checkIfNull(context2, "context");
         Context applicationContext = context.getApplicationContext();
         synchronized (this.f56268b) {
             if (this.f56271e == null) {
-                sdo.m34966a(runnable2, "resultPump");
+                sdo.checkIfNull(runnable2, "resultPump");
             } else {
                 return;
             }
         }
         if (zyv != null) {
             zyw zyw = new zyw(zyv);
-            sdo.m34966a(context2, "context");
+            sdo.checkIfNull(context2, "context");
             synchronized (this.f56268b) {
                 zxn = this.f56276j;
             }

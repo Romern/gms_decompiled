@@ -37,7 +37,7 @@ public final class bzcn extends bxvg implements bxvh {
     static {
         bzcn bzcn = new bzcn();
         f169375h = bzcn;
-        bxvk.m124024a(bzcn.class, bzcn);
+        GeneratedMessageLite.m124024a(bzcn.class, bzcn);
     }
 
     private bzcn() {
@@ -58,7 +58,7 @@ public final class bzcn extends bxvg implements bxvh {
             this.f169384i = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f169375h, "\u0001\u0006\u0000\u0001\u0001\n\u0006\u0000\u0003\u0001\u0001\u001b\u0002ဉ\u0000\u0006ဈ\u0003\bЛ\tဈ\u0004\n\u001b", new Object[]{"a", "b", byzy.class, "c", "d", "e", byyt.class, "g", "f", bzab.class});
+            return GeneratedMessageLite.m124022a(f169375h, "\u0001\u0006\u0000\u0001\u0001\n\u0006\u0000\u0003\u0001\u0001\u001b\u0002ဉ\u0000\u0006ဈ\u0003\bЛ\tဈ\u0004\n\u001b", new Object[]{"a", "b", byzy.class, "c", "d", "e", byyt.class, "g", "f", bzab.class});
         } else if (i2 == 3) {
             return new bzcn();
         } else {

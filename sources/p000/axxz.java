@@ -79,7 +79,7 @@ public final class axxz implements axyu, axxg, ayjm {
             ayfe ayfe2 = (ayfe) da2.f164949b;
             ayfd3.getClass();
             if (!ayfe2.f97470c.mo73666a()) {
-                ayfe2.f97470c = bxvk.m124021a(ayfe2.f97470c);
+                ayfe2.f97470c = GeneratedMessageLite.m124021a(ayfe2.f97470c);
             }
             ayfe2.f97470c.add(ayfd3);
         }
@@ -410,7 +410,7 @@ public final class axxz implements axyu, axxg, ayjm {
                 axxi.f96653h = ayfc.f97459j;
                 Uri parse = Uri.parse(ayfc.f97453d);
                 axxi.f96647b = new axxf(parse.getHost(), parse.getPath());
-                axxi.f96647b.f96642d = ayfc.f97454e.mo73780k();
+                axxi.f96647b.f96642d = ayfc.f97454e.getKey();
                 axxf axxf = axxi.f96647b;
                 if (ayfc.f97458i.size() != 0) {
                     bxwc bxwc2 = ayfc.f97458i;

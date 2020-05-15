@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adhe */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adhe extends bxvk implements bxxd {
+public final class adhe extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final adhe f61675i;
@@ -37,7 +37,7 @@ public final class adhe extends bxvk implements bxxd {
     static {
         adhe adhe = new adhe();
         f61675i = adhe;
-        bxvk.m124024a(adhe.class, adhe);
+        GeneratedMessageLite.m124024a(adhe.class, adhe);
     }
 
     private adhe() {
@@ -54,7 +54,7 @@ public final class adhe extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61675i, "\u0000\b\u0000\u0000\u0001\t\b\u0000\u0001\u0000\u0001\u0007\u0002\u0004\u0003\u0004\u0004Ȉ\u0005Ȉ\u0006Ȉ\u0007\u001b\t\u0004", new Object[]{"a", "b", "c", "d", "e", "f", "g", adhf.class, "h"});
+            return GeneratedMessageLite.m124022a(f61675i, "\u0000\b\u0000\u0000\u0001\t\b\u0000\u0001\u0000\u0001\u0007\u0002\u0004\u0003\u0004\u0004Ȉ\u0005Ȉ\u0006Ȉ\u0007\u001b\t\u0004", new Object[]{"a", "b", "c", "d", "e", "f", "g", adhf.class, "h"});
         } else if (i2 == 3) {
             return new adhe();
         } else {

@@ -86,11 +86,11 @@ final class ajfe {
             }
             bvhm bvhm2 = (bvhm) da.f164949b;
             if (!bvhm2.f156098d.mo73666a()) {
-                bvhm2.f156098d = bxvk.m124021a(bvhm2.f156098d);
+                bvhm2.f156098d = GeneratedMessageLite.m124021a(bvhm2.f156098d);
             }
             bxsy.m123078a(a, bvhm2.f156098d);
             if (bxxc != null) {
-                bxtx aL = bxxc.mo73639aL();
+                ByteString aL = bxxc.mo73639aL();
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -103,7 +103,7 @@ final class ajfe {
             aiwq aiwq = this.f70514c;
             bvhk bvhk = this.f70516e;
             bxvd bxvd = (bxvd) bvhk.mo74142c(5);
-            bxvd.mo73625a((bxvk) bvhk);
+            bxvd.mo73625a((GeneratedMessageLite) bvhk);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -143,7 +143,7 @@ final class ajfe {
             }
             bvhl bvhl2 = (bvhl) da.f164949b;
             if (!bvhl2.f156091e.mo73666a()) {
-                bvhl2.f156091e = bxvk.m124021a(bvhl2.f156091e);
+                bvhl2.f156091e = GeneratedMessageLite.m124021a(bvhl2.f156091e);
             }
             bxsy.m123078a(a, bvhl2.f156091e);
             if (str != null) {
@@ -157,7 +157,7 @@ final class ajfe {
                 bvhl3.f156089c = str;
             }
             if (bxxc != null) {
-                bxtx aL = bxxc.mo73639aL();
+                ByteString aL = bxxc.mo73639aL();
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

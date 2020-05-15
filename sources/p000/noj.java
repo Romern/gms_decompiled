@@ -2198,7 +2198,7 @@ public final class noj extends nqt implements nmw, npy, nxb, nxd, nio, nlm, olo,
 
     /* renamed from: b */
     public final void mo21328b(bpdn bpdn, bpdo bpdo, String str) {
-        sdo.m34966a(bpdn, "errorCode is necessary");
+        sdo.checkIfNull(bpdn, "errorCode is necessary");
         synchronized (this.f36226m) {
             this.f36226m.put(bpdn.f136282v, true);
         }
@@ -3072,7 +3072,7 @@ public final class noj extends nqt implements nmw, npy, nxb, nxd, nio, nlm, olo,
             bitp.f121692b = j;
             bitp.f121691a = i | 2;
             bitp.f121693c = z;
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -3276,7 +3276,7 @@ public final class noj extends nqt implements nmw, npy, nxb, nxd, nio, nlm, olo,
 
     /* renamed from: a */
     public final void mo21273a(bpdn bpdn, bpdo bpdo, String str) {
-        sdo.m34966a(bpdn, "errorCode is necessary");
+        sdo.checkIfNull(bpdn, "errorCode is necessary");
         this.f36225l.post(new nno(this, bpdn, bpdo, str));
     }
 

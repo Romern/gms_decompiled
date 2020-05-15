@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bioz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bioz extends bxvk implements bxxd {
+public final class bioz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bioz f121125c;
@@ -22,7 +22,7 @@ public final class bioz extends bxvk implements bxxd {
     static {
         bioz bioz = new bioz();
         f121125c = bioz;
-        bxvk.m124024a(bioz.class, bioz);
+        GeneratedMessageLite.m124024a(bioz.class, bioz);
     }
 
     private bioz() {
@@ -43,7 +43,7 @@ public final class bioz extends bxvk implements bxxd {
             this.f121129d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121125c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f121125c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bioz();
         } else {

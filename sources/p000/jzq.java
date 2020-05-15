@@ -24,7 +24,7 @@ final class jzq implements xxm {
 
     /* renamed from: a */
     public final void mo14253a() {
-        kaa.f23599d.mo25409a("onDisableNfcReaderMode is called", new Object[0]);
+        kaa.f23599d.logVerbose("onDisableNfcReaderMode is called", new Object[0]);
         xhy a = xhy.m42973a(this.f23584b.getActivity().getApplicationContext());
         if (a != null) {
             a.mo29773a(this.f23584b.getActivity().getContainerActivity());
@@ -47,7 +47,7 @@ final class jzq implements xxm {
 
     /* renamed from: a */
     public final void mo14256a(String str) {
-        kaa.f23599d.mo25409a("onViewSelected is called with %s", str);
+        kaa.f23599d.logVerbose("onViewSelected is called with %s", str);
         try {
             this.f23583a.mo14326a(ViewOptions.m23647a(new JSONObject(str)));
         } catch (JSONException e) {
@@ -58,7 +58,7 @@ final class jzq implements xxm {
 
     /* renamed from: a */
     public final void mo14257a(xhx xhx, int i) {
-        kaa.f23599d.mo25409a("onEnableNfcReaderMode is called", new Object[0]);
+        kaa.f23599d.logVerbose("onEnableNfcReaderMode is called", new Object[0]);
         jzp jzp = new jzp(xhx);
         xhy a = xhy.m42973a(this.f23584b.getActivity().getApplicationContext());
         if (a != null) {

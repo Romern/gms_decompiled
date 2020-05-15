@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsur */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsur extends bxvk implements bxxd {
+public final class bsur extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bsur f147174f;
@@ -31,7 +31,7 @@ public final class bsur extends bxvk implements bxxd {
     static {
         bsur bsur = new bsur();
         f147174f = bsur;
-        bxvk.m124024a(bsur.class, bsur);
+        GeneratedMessageLite.m124024a(bsur.class, bsur);
     }
 
     private bsur() {
@@ -48,7 +48,7 @@ public final class bsur extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147174f, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0002\u0000\u0001ဈ\u0000\u0002င\u0001\u0003င\u0002\u0004\u0016\u0005\u0016", new Object[]{"g", "a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f147174f, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0002\u0000\u0001ဈ\u0000\u0002င\u0001\u0003င\u0002\u0004\u0016\u0005\u0016", new Object[]{"g", "a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bsur();
         } else {

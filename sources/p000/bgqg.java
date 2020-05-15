@@ -88,9 +88,9 @@ final /* synthetic */ class bgqg implements bgql {
             buot buot2 = (buot) da2.mo74062i();
             buot2.getClass();
             ((buoq) da.f164949b).f154573a = buot2;
-            bxtx aL = ((buoq) da.mo74062i()).mo73639aL();
+            ByteString aL = ((buoq) da.mo74062i()).mo73639aL();
             bxvd da3 = buor.f154576d.mo74144da();
-            bxtx bxtx = bgqm.f117292k.f117286a;
+            ByteString bxtx = bgqm.f117292k.f117286a;
             if (da3.f164950c) {
                 da3.mo74035c();
                 da3.f164950c = false;

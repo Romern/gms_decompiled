@@ -40,7 +40,7 @@ public final class atux extends atvb {
         btiy btiy = null;
         if (bArr2 != null) {
             try {
-                btiy = (btiy) bxvk.m124016a(btiy.f149054c, bArr2, bxus.m123744c());
+                btiy = (btiy) GeneratedMessageLite.m124016a(btiy.f149054c, bArr2, bxus.m123744c());
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) f90956a.mo68388c();
                 bnsl.mo68437a(e);
@@ -64,7 +64,7 @@ public final class atux extends atvb {
     public final /* bridge */ /* synthetic */ Object doInBackground(Object[] objArr) {
         Boolean[] boolArr = (Boolean[]) objArr;
         bxvd da = btme.f149477d.mo74144da();
-        bxtx a = bxtx.m123261a(this.f90957b);
+        ByteString a = ByteString.m123261a(this.f90957b);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -96,7 +96,7 @@ public final class atux extends atvb {
                 }
                 if (i - 2 == 15) {
                     this.f90987f = e.f90231a;
-                    byte[] k = a2.f149549b.mo73780k();
+                    byte[] k = a2.f149549b.getKey();
                     this.f90961j = k;
                     if (k == null || k.length == 0) {
                         this.f90988g = 102;
@@ -125,7 +125,7 @@ public final class atux extends atvb {
     /* renamed from: a */
     public final Integer mo50212a(Boolean... boolArr) {
         bxvd da = btme.f149477d.mo74144da();
-        bxtx a = bxtx.m123261a(this.f90957b);
+        ByteString a = ByteString.m123261a(this.f90957b);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -157,7 +157,7 @@ public final class atux extends atvb {
                 }
                 if (i - 2 == 15) {
                     this.f90987f = e.f90231a;
-                    byte[] k = a2.f149549b.mo73780k();
+                    byte[] k = a2.f149549b.getKey();
                     this.f90961j = k;
                     if (k == null || k.length == 0) {
                         this.f90988g = 102;
@@ -195,7 +195,7 @@ public final class atux extends atvb {
                     message = Message.obtain((Handler) null, this.f90988g);
                     btnf btnf = this.f90987f;
                     if (btnf != null) {
-                        bArr = btnf.mo73642k();
+                        bArr = btnf.serializeToBytes();
                     }
                     bundle.putByteArray("tap_and_pay_api_error", bArr);
                     bundle.putByteArray("data_recovery_token", this.f90961j);

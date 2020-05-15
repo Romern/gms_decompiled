@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvro */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvro extends bxvk implements bxxd {
+public final class bvro extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvro f157450a;
@@ -13,7 +13,7 @@ public final class bvro extends bxvk implements bxxd {
     static {
         bvro bvro = new bvro();
         f157450a = bvro;
-        bxvk.m124024a(bvro.class, bvro);
+        GeneratedMessageLite.m124024a(bvro.class, bvro);
     }
 
     private bvro() {
@@ -30,7 +30,7 @@ public final class bvro extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157450a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f157450a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvro();

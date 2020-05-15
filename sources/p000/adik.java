@@ -93,7 +93,7 @@ public final class adik {
         if (a == null) {
             return null;
         }
-        return (adhd) bxvk.m124016a(adhd.f61664j, a, bxus.m123743b());
+        return (adhd) GeneratedMessageLite.m124016a(adhd.f61664j, a, bxus.m123743b());
     }
 
     /* renamed from: c */
@@ -103,7 +103,7 @@ public final class adik {
         if (a == null) {
             return null;
         }
-        return (adhz) bxvk.m124016a(adhz.f61753e, a, bxus.m123743b());
+        return (adhz) GeneratedMessageLite.m124016a(adhz.f61753e, a, bxus.m123743b());
     }
 
     /* renamed from: d */
@@ -144,7 +144,7 @@ public final class adik {
         if (a == null) {
             return null;
         }
-        return (adhv) bxvk.m124016a(adhv.f61728m, a, bxus.m123743b());
+        return (adhv) GeneratedMessageLite.m124016a(adhv.f61728m, a, bxus.m123743b());
     }
 
     /* renamed from: g */
@@ -152,7 +152,7 @@ public final class adik {
         mo33534b();
         byte[] a = this.f61808c.mo33514a(mo33544l(str));
         if (!(a == null || a.length == 0)) {
-            adhw adhw = (adhw) bxvk.m124016a(adhw.f61742b, a, bxus.m123743b());
+            adhw adhw = (adhw) GeneratedMessageLite.m124016a(adhw.f61742b, a, bxus.m123743b());
             if (adhw.f61744a != null) {
                 long currentTimeMillis = System.currentTimeMillis();
                 adia adia = adhw.f61744a;
@@ -306,7 +306,7 @@ public final class adik {
         if (a == null) {
             return null;
         }
-        return (adie) bxvk.m124016a(adie.f61780d, a, bxus.m123743b());
+        return (adie) GeneratedMessageLite.m124016a(adie.f61780d, a, bxus.m123743b());
     }
 
     /* renamed from: a */
@@ -392,7 +392,7 @@ public final class adik {
                     adia.getClass();
                     ((adhw) da.f164949b).f61744a = adia;
                 }
-                this.f61808c.mo33512a(l, ((adhw) da.mo74062i()).mo73642k());
+                this.f61808c.mo33512a(l, ((adhw) da.mo74062i()).serializeToBytes());
                 return;
             }
             this.f61808c.mo33516b(l);
@@ -408,7 +408,7 @@ public final class adik {
             bxvd = adie.f61780d.mo74144da();
         } else {
             bxvd bxvd2 = (bxvd) a.mo74142c(5);
-            bxvd2.mo73625a((bxvk) a);
+            bxvd2.mo73625a((GeneratedMessageLite) a);
             bxvd = bxvd2;
         }
         if (i == 0) {
@@ -427,14 +427,14 @@ public final class adik {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((adie) bxvd.f164949b).f61783b = bxvk.m124030de();
+            ((adie) bxvd.f164949b).f61783b = GeneratedMessageLite.m124030de();
             bxvd.mo73957T(a2);
             List a3 = m50513a(Collections.unmodifiableList(((adie) bxvd.f164949b).f61784c), str2);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((adie) bxvd.f164949b).f61784c = bxvk.m124030de();
+            ((adie) bxvd.f164949b).f61784c = GeneratedMessageLite.m124030de();
             bxvd.mo73958U(a3);
         } else if (i != 1) {
             List a4 = m50513a(Collections.unmodifiableList(((adie) bxvd.f164949b).f61782a), str2);
@@ -442,7 +442,7 @@ public final class adik {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((adie) bxvd.f164949b).f61782a = bxvk.m124030de();
+            ((adie) bxvd.f164949b).f61782a = GeneratedMessageLite.m124030de();
             bxvd.mo73959V(a4);
             if (!Collections.unmodifiableList(((adie) bxvd.f164949b).f61783b).contains(str2)) {
                 if (bxvd.f164950c) {
@@ -459,7 +459,7 @@ public final class adik {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((adie) bxvd.f164949b).f61784c = bxvk.m124030de();
+            ((adie) bxvd.f164949b).f61784c = GeneratedMessageLite.m124030de();
             bxvd.mo73958U(a5);
         } else {
             List a6 = m50513a(Collections.unmodifiableList(((adie) bxvd.f164949b).f61782a), str2);
@@ -467,14 +467,14 @@ public final class adik {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((adie) bxvd.f164949b).f61782a = bxvk.m124030de();
+            ((adie) bxvd.f164949b).f61782a = GeneratedMessageLite.m124030de();
             bxvd.mo73959V(a6);
             List a7 = m50513a(Collections.unmodifiableList(((adie) bxvd.f164949b).f61783b), str2);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((adie) bxvd.f164949b).f61783b = bxvk.m124030de();
+            ((adie) bxvd.f164949b).f61783b = GeneratedMessageLite.m124030de();
             bxvd.mo73957T(a7);
             if (!Collections.unmodifiableList(((adie) bxvd.f164949b).f61784c).contains(str2)) {
                 if (bxvd.f164950c) {
@@ -487,6 +487,6 @@ public final class adik {
                 adie3.f61784c.add(str2);
             }
         }
-        this.f61808c.mo33512a(mo33540h(str), ((adie) bxvd.mo74062i()).mo73642k());
+        this.f61808c.mo33512a(mo33540h(str), ((adie) bxvd.mo74062i()).serializeToBytes());
     }
 }

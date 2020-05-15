@@ -149,7 +149,7 @@ public final class anhy {
                     hashSet = a4;
                     Cursor query3 = sQLiteDatabase.query("Packages", new String[]{"serializedDeclarativeRegInfo"}, "packageName = ?", new String[]{braj2.f142144d}, null, null, null);
                     try {
-                        if (query3.moveToNext() && (blob = query3.getBlob(0)) != null && blob.length > 0 && Arrays.equals(braj2.mo73642k(), blob)) {
+                        if (query3.moveToNext() && (blob = query3.getBlob(0)) != null && blob.length > 0 && Arrays.equals(braj2.serializeToBytes(), blob)) {
                             if (query3 != null) {
                                 query3.close();
                             }
@@ -203,7 +203,7 @@ public final class anhy {
                         sQLiteDatabase2.insert("WeakExperimentIds", null, contentValues2);
                     }
                 }
-                byte[] k = braj2.f142148h.mo73780k();
+                byte[] k = braj2.f142148h.getKey();
                 if (k.length != 0) {
                     bArr = k;
                 } else {
@@ -409,7 +409,7 @@ public final class anhy {
         m64445a(braj);
         bxvd da = bqzz.f142114e.mo74144da();
         bxvd bxvd = (bxvd) braj.mo74142c(5);
-        bxvd.mo73625a((bxvk) braj);
+        bxvd.mo73625a((GeneratedMessageLite) braj);
         braf braf = (braf) bxvd;
         String str5 = braj.f142144d;
         String str6 = "";
@@ -439,7 +439,7 @@ public final class anhy {
                 braf.mo74035c();
                 braf.f164950c = false;
             }
-            ((braj) braf.f164949b).f142146f = bxvk.m124030de();
+            ((braj) braf.f164949b).f142146f = GeneratedMessageLite.m124030de();
             braf.mo69472a(a3);
         }
         braj braj4 = (braj) braf.mo74062i();
@@ -453,7 +453,7 @@ public final class anhy {
         bqzz2.f142116a |= 1;
         int a4 = brai.m113818a(braj4.f142150j);
         if (!(a4 == 0 || a4 != 2 || (a = m64446a(context, braj4)) == null)) {
-            bxtx a5 = bxtx.m123261a(a);
+            ByteString a5 = ByteString.m123261a(a);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -467,16 +467,16 @@ public final class anhy {
             anff anff = anff.REGISTRATION;
             bxxk bxxk = (bxxk) bqzz.f142114e.mo74142c(7);
             fileInputStream = new FileInputStream(new File(anff.mo41772a(context), a2));
-            bxvk bxvk = (bxvk) bxxk.mo73656a(fileInputStream);
+            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bxxk.mo73656a(fileInputStream);
             fileInputStream.close();
-            bqzz = (bqzz) bxvk;
+            bqzz = (bqzz) GeneratedMessageLite;
         } catch (FileNotFoundException e) {
             bqzz = null;
         } catch (Throwable th) {
             bqye.m113761a(th, th);
         }
         if (!(bqzz == null || (bqzz.f142116a & 4) == 0)) {
-            bxtx bxtx = bqzz.f142119d;
+            ByteString bxtx = bqzz.f142119d;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -565,7 +565,7 @@ public final class anhy {
                     if (braj9 == null) {
                         braj9 = braj.f142139l;
                     }
-                    bxtx bxtx2 = braj9.f142148h;
+                    ByteString bxtx2 = braj9.f142148h;
                     braj braj10 = bqzz.f142117b;
                     if (braj10 == null) {
                         braj10 = braj.f142139l;
@@ -714,7 +714,7 @@ public final class anhy {
                 braj braj2 = (braj) a.get(i2);
                 i2++;
                 if (braj2.f142144d.equals(braj.f142144d)) {
-                    return braj2.mo73642k();
+                    return braj2.serializeToBytes();
                 }
             }
             return null;

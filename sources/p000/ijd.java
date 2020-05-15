@@ -14,7 +14,7 @@ import java.util.Locale;
 public final class ijd {
 
     /* renamed from: e */
-    private static final sek f21088e = new sek("AuthzenGcmDeviceInfoBuilder");
+    private static final Logger f21088e = new Logger("AuthzenGcmDeviceInfoBuilder");
 
     /* renamed from: a */
     public final Context f21089a;

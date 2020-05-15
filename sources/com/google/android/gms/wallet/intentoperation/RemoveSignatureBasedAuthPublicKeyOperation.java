@@ -28,7 +28,7 @@ public class RemoveSignatureBasedAuthPublicKeyOperation extends IntentOperation 
             byah a2 = this.f110262a.mo52680a(i, account);
             if (a2 != null) {
                 bxvd bxvd = (bxvd) a2.mo74142c(5);
-                bxvd.mo73625a((bxvk) a2);
+                bxvd.mo73625a((GeneratedMessageLite) a2);
                 byae byae = (byae) bxvd;
                 ArrayList arrayList = new ArrayList();
                 for (bmcv bmcv : Collections.unmodifiableList(((byah) byae.f164949b).f165263f)) {
@@ -44,7 +44,7 @@ public class RemoveSignatureBasedAuthPublicKeyOperation extends IntentOperation 
                     byae.mo74035c();
                     byae.f164950c = false;
                 }
-                ((byah) byae.f164949b).f165263f = bxvk.m124030de();
+                ((byah) byae.f164949b).f165263f = GeneratedMessageLite.m124030de();
                 byae.mo74339a(arrayList);
                 this.f110262a.mo52681a(i, account, (byah) byae.mo74062i());
             }

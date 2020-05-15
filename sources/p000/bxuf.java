@@ -154,7 +154,7 @@ class bxuf extends bxuk {
     }
 
     /* renamed from: a */
-    public final void mo73832a(int i, bxtx bxtx) {
+    public final void mo73832a(int i, ByteString bxtx) {
         mo73845b(i, 2);
         mo73838a(bxtx);
     }
@@ -255,7 +255,7 @@ class bxuf extends bxuk {
     }
 
     /* renamed from: b */
-    public final void mo73847b(int i, bxtx bxtx) {
+    public final void mo73847b(int i, ByteString bxtx) {
         mo73845b(1, 3);
         mo73856d(2, i);
         mo73832a(3, bxtx);
@@ -291,7 +291,7 @@ class bxuf extends bxuk {
     }
 
     /* renamed from: a */
-    public final void mo73838a(bxtx bxtx) {
+    public final void mo73838a(ByteString bxtx) {
         mo73855d(bxtx.mo73744a());
         bxtx.mo73756a(this);
     }

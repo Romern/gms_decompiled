@@ -5,7 +5,7 @@ package p000;
 public final class tev {
 
     /* renamed from: a */
-    private static final sek f45802a = tea.m36798a("verification factory");
+    private static final Logger f45802a = tea.m36798a("verification factory");
 
     /* renamed from: b */
     private final sza f45803b;
@@ -21,12 +21,12 @@ public final class tev {
         char c;
         tdx tdx2 = tdx;
         cbqy cbqy2 = cbqy;
-        sek sek = f45802a;
+        Logger Logger = f45802a;
         String valueOf = String.valueOf(cbqy);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 30);
         sb.append("get verifier for verification ");
         sb.append(valueOf);
-        sek.mo25409a(sb.toString(), new Object[0]);
+        Logger.logVerbose(sb.toString(), new Object[0]);
         try {
             tdz.m36796a();
             if (tdz.m36797a(cbqy)) {

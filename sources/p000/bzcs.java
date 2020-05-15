@@ -72,7 +72,7 @@ public final class bzcs extends bxvd implements bxxd {
         bzcu bzcu = (bzcu) this.f164949b;
         bzcu bzcu2 = bzcu.f169408q;
         if (!bzcu.f169413d.mo73666a()) {
-            bzcu.f169413d = bxvk.m124021a(bzcu.f169413d);
+            bzcu.f169413d = GeneratedMessageLite.m124021a(bzcu.f169413d);
         }
         bxsy.m123078a(iterable, bzcu.f169413d);
     }

@@ -27,7 +27,7 @@ public final class kdc implements Parcelable.Creator {
         }
         if (parcel.readInt() == 1) {
             try {
-                kdg = (kdg) bxvk.m124016a(kdg.f23871j, parcel.createByteArray(), bxus.m123744c());
+                kdg = (kdg) GeneratedMessageLite.m124016a(kdg.f23871j, parcel.createByteArray(), bxus.m123744c());
             } catch (bxwf e) {
                 throw new BadParcelableException(e);
             }

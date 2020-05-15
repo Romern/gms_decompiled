@@ -84,18 +84,18 @@ public final /* synthetic */ class acst implements bqeh {
                                 }
                                 if (".private:action".equals(abqo.f57988m)) {
                                     try {
-                                        bxtx bxtx = abqd.f57947c;
+                                        ByteString bxtx = abqd.f57947c;
                                         bxus c2 = bxus.m123744c();
                                         cixm cixm2 = cixm.f191686d;
                                         try {
                                             bxuc h = bxtx.mo73764h();
-                                            bxvk bxvk = (bxvk) cixm2.mo74142c(i);
-                                            bxxv a3 = bxxm.f165037a.mo74228a(bxvk);
-                                            a3.mo74220a(bxvk, bxud.m123454a(h), c2);
-                                            a3.mo74225d(bxvk);
+                                            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) cixm2.mo74142c(i);
+                                            bxxv a3 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                                            a3.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c2);
+                                            a3.mo74225d(GeneratedMessageLite);
                                             h.mo73787a(i2);
-                                            bxvk.m124027b(bxvk);
-                                            bxwc bxwc2 = ((cixm) bxvk).f191690c;
+                                            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                                            bxwc bxwc2 = ((cixm) GeneratedMessageLite).f191690c;
                                             int size2 = bxwc2.size();
                                             int i4 = 0;
                                             while (i4 < size2) {
@@ -189,7 +189,7 @@ public final /* synthetic */ class acst implements bqeh {
                             }
                             actf actf2 = (actf) da3.f164949b;
                             if (!actf2.f60736a.mo73666a()) {
-                                actf2.f60736a = bxvk.m124021a(actf2.f60736a);
+                                actf2.f60736a = GeneratedMessageLite.m124021a(actf2.f60736a);
                             }
                             bxsy.m123078a(a4, actf2.f60736a);
                             actf = (actf) da3.mo74062i();
@@ -202,7 +202,7 @@ public final /* synthetic */ class acst implements bqeh {
                             }
                             actf actf3 = (actf) da4.f164949b;
                             if (!actf3.f60737b.mo73666a()) {
-                                actf3.f60737b = bxvk.m124021a(actf3.f60737b);
+                                actf3.f60737b = GeneratedMessageLite.m124021a(actf3.f60737b);
                             }
                             bxsy.m123078a(a5, actf3.f60737b);
                             actf = (actf) da4.mo74062i();
@@ -232,7 +232,7 @@ public final /* synthetic */ class acst implements bqeh {
                             j = acxq.f61046a.f58477g;
                         }
                         UUID nameUUIDFromBytes = UUID.nameUUIDFromBytes(String.format(Locale.US, "%s-%s-%d-%d", str4, str5, Long.valueOf(j), Long.valueOf(acsz.f60715a)).getBytes());
-                        bxtx a6 = bxtx.m123261a(ByteBuffer.allocate(16).putLong(nameUUIDFromBytes.getMostSignificantBits()).putLong(nameUUIDFromBytes.getLeastSignificantBits()).array());
+                        ByteString a6 = ByteString.m123261a(ByteBuffer.allocate(16).putLong(nameUUIDFromBytes.getMostSignificantBits()).putLong(nameUUIDFromBytes.getLeastSignificantBits()).array());
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -285,19 +285,19 @@ public final /* synthetic */ class acst implements bqeh {
                             a10 = abtc.UNKNOWN;
                         }
                         acsz.m49825a(caee, "eventStatus", j4, (long) a10.f58200d);
-                        bxtx c3 = actb.mo33069c(".private:action");
+                        ByteString c3 = actb.mo33069c(".private:action");
                         try {
                             bxus c4 = bxus.m123744c();
                             cixm cixm3 = cixm.f191686d;
                             try {
                                 bxuc h2 = c3.mo73764h();
-                                bxvk bxvk2 = (bxvk) cixm3.mo74142c(4);
-                                bxxv a11 = bxxm.f165037a.mo74228a(bxvk2);
-                                a11.mo74220a(bxvk2, bxud.m123454a(h2), c4);
-                                a11.mo74225d(bxvk2);
+                                GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) cixm3.mo74142c(4);
+                                bxxv a11 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+                                a11.mo74220a(GeneratedMessageLite2, bxud.m123454a(h2), c4);
+                                a11.mo74225d(GeneratedMessageLite2);
                                 h2.mo73787a(0);
-                                bxvk.m124027b(bxvk2);
-                                cixm = (cixm) bxvk2;
+                                GeneratedMessageLite.m124027b(GeneratedMessageLite2);
+                                cixm = (cixm) GeneratedMessageLite2;
                                 acsz.m49827a(caee, "additionalType", cixm.f191689b);
                                 caee.mo74632a(acta.m49828a(cixm).f172814d);
                                 caef caef2 = (caef) caee.mo74062i();

@@ -13,28 +13,28 @@ import java.util.UUID;
 public final class ilq {
 
     /* renamed from: a */
-    public final Context f21306a;
+    public final Context context;
 
     /* renamed from: b */
-    public final PackageManager f21307b;
+    public final PackageManager packageManager;
 
     /* renamed from: c */
-    public final svq f21308c = svr.m36484b(this.f21306a);
+    public final svq f21308c = svr.m36484b(this.context);
 
     /* renamed from: d */
-    public final String f21309d = this.f21306a.getPackageName();
+    public final String packageName = this.context.getPackageName();
 
     /* renamed from: e */
     public final int f21310e = stu.m36316b();
 
     /* renamed from: f */
-    public final int f21311f = this.f21306a.getApplicationInfo().uid;
+    public final int appUid = this.context.getApplicationInfo().uid;
 
     public ilq(Context context) {
-        sdo.m34966a(context, "Context cannot be null!");
+        sdo.checkIfNull(context, "Context cannot be null!");
         Context applicationContext = context.getApplicationContext();
-        this.f21306a = applicationContext;
-        this.f21307b = applicationContext.getPackageManager();
+        this.context = applicationContext;
+        this.packageManager = applicationContext.getPackageManager();
     }
 
     /* renamed from: a */
@@ -46,7 +46,7 @@ public final class ilq {
     /* renamed from: b */
     public final String mo13125b(String str) {
         try {
-            return spn.m35882e(this.f21306a, str).toLowerCase(Locale.US);
+            return spn.m35882e(this.context, str).toLowerCase(Locale.US);
         } catch (PackageManager.NameNotFoundException e) {
             return null;
         }
@@ -66,11 +66,11 @@ public final class ilq {
     /* renamed from: a */
     public final AppDescription mo13123a() {
         String uuid = UUID.randomUUID().toString();
-        return new AppDescription(this.f21309d, this.f21311f, uuid, uuid);
+        return new AppDescription(this.packageName, this.appUid, uuid, uuid);
     }
 
     /* renamed from: a */
     public final boolean mo13124a(int i) {
-        return rfz.m33557a(this.f21306a).mo24608b(i);
+        return rfz.m33557a(this.context).mo24608b(i);
     }
 }

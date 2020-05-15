@@ -105,7 +105,7 @@ public class aasc {
             try {
                 bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(new File(this.f56422a.getFilesDir(), mo31656a(str))));
                 try {
-                    bufferedOutputStream.write(bxxc.mo73642k());
+                    bufferedOutputStream.write(bxxc.serializeToBytes());
                     bufferedOutputStream.flush();
                     bufferedOutputStream.close();
                 } catch (Throwable th) {

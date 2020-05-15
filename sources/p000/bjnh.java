@@ -35,7 +35,7 @@ final class bjnh extends bjhs {
         }
         bwse bwse = (bwse) da.f164949b;
         if (!bwse.f160849a.mo73666a()) {
-            bwse.f160849a = bxvk.m124021a(bwse.f160849a);
+            bwse.f160849a = GeneratedMessageLite.m124021a(bwse.f160849a);
         }
         bxsy.m123078a(arrayList, bwse.f160849a);
         ArrayList arrayList2 = this.f123007e;
@@ -45,7 +45,7 @@ final class bjnh extends bjhs {
         }
         bwse bwse2 = (bwse) da.f164949b;
         if (!bwse2.f160850b.mo73666a()) {
-            bwse2.f160850b = bxvk.m124021a(bwse2.f160850b);
+            bwse2.f160850b = GeneratedMessageLite.m124021a(bwse2.f160850b);
         }
         bxsy.m123078a(arrayList2, bwse2.f160850b);
         return (bwse) da.mo74062i();

@@ -19,7 +19,7 @@ import java.util.concurrent.TimeoutException;
 public final class jlg {
 
     /* renamed from: a */
-    public static final sek f22747a = jsy.m17256a("FeatureEnabledController");
+    public static final Logger f22747a = jsy.m17256a("FeatureEnabledController");
 
     /* renamed from: b */
     public final jtv f22748b;
@@ -143,7 +143,7 @@ public final class jlg {
         }
         boolean a2 = this.f22748b.mo14090a(account, bsni);
         boolean a3 = this.f22749c.mo14090a(account, bsni);
-        sek sek = f22747a;
+        Logger Logger = f22747a;
         Object[] objArr = new Object[4];
         objArr[0] = bsni.name();
         String str = "disabled";
@@ -153,7 +153,7 @@ public final class jlg {
         }
         objArr[2] = str;
         objArr[3] = Boolean.valueOf(a3);
-        sek.mo25414c("Marking feature %s as %s. Local feature state: %s. Was pending disable: %s", objArr);
+        Logger.mo25414c("Marking feature %s as %s. Local feature state: %s. Was pending disable: %s", objArr);
         if (a2 != z || a3) {
             if (!z && !a3) {
                 this.f22749c.mo14092b(account, bsni);

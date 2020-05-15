@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbdk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbdk extends bxvk implements bxxd {
+public final class cbdk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbdk f176751b;
@@ -16,7 +16,7 @@ public final class cbdk extends bxvk implements bxxd {
     static {
         cbdk cbdk = new cbdk();
         f176751b = cbdk;
-        bxvk.m124024a(cbdk.class, cbdk);
+        GeneratedMessageLite.m124024a(cbdk.class, cbdk);
     }
 
     private cbdk() {
@@ -33,7 +33,7 @@ public final class cbdk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176751b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\f", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f176751b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\f", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cbdk();
         } else {

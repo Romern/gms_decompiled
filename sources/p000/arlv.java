@@ -31,7 +31,7 @@ final /* synthetic */ class arlv implements aubg {
                 str = "";
             }
             String str2 = null;
-            if (cgps.f187469a.mo6606a().mo84247d() && (a = spn.m35862a(Long.toString(spn.m35843a(arly.f87872c)), "SHA1")) != null && (length = a.length) >= 2) {
+            if (cgps.f187469a.mo6606a().mo84247d() && (a = spn.m35862a(Long.toString(spn.getAndroidId(arly.f87872c)), "SHA1")) != null && (length = a.length) >= 2) {
                 byte[] bArr = new byte[2];
                 bArr[1] = a[length - 1];
                 bArr[0] = (byte) (a[length - 2] & 3);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: calg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class calg extends bxvk implements bxxd {
+public final class calg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final calg f175118j;
@@ -40,7 +40,7 @@ public final class calg extends bxvk implements bxxd {
     static {
         calg calg = new calg();
         f175118j = calg;
-        bxvk.m124024a(calg.class, calg);
+        GeneratedMessageLite.m124024a(calg.class, calg);
     }
 
     private calg() {
@@ -58,7 +58,7 @@ public final class calg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175118j, "\u0001\b\u0000\u0001\u0001\n\b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\nဉ\t", new Object[]{"a", "b", cale.f175117a, "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f175118j, "\u0001\b\u0000\u0001\u0001\n\b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\nဉ\t", new Object[]{"a", "b", cale.f175117a, "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new calg();
         } else {

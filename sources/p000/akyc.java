@@ -19,7 +19,7 @@ final /* synthetic */ class akyc implements Runnable {
     public final void run() {
         WebView webView = this.f73098a;
         String str = this.f73099b;
-        sek sek = akyf.f73106d;
+        Logger Logger = akyf.f73106d;
         webView.evaluateJavascript(str, null);
     }
 }

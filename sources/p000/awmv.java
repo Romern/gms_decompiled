@@ -501,7 +501,7 @@ public class awmv extends awzg implements View.OnClickListener, bkio, bjwt {
             }
         }
         if (bArr != null) {
-            bxtx a3 = bxtx.m123261a(bArr);
+            ByteString a3 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -955,7 +955,7 @@ public class awmv extends awzg implements View.OnClickListener, bkio, bjwt {
             } else {
                 bmmp = bmmp.f130032e;
             }
-            byte[] k = bmmp.f130037d.mo73780k();
+            byte[] k = bmmp.f130037d.getKey();
             Bundle bundle = new Bundle();
             bjvp.m104737a(bundle, "EventListener.EXTRA_TRIGGER_VALUE_REFERENCES", list);
             if (bmmv.f130056b == 4) {
@@ -977,7 +977,7 @@ public class awmv extends awzg implements View.OnClickListener, bkio, bjwt {
             } else {
                 bmmp3 = bmmp.f130032e;
             }
-            byte[] k2 = bmmp3.f130037d.mo73780k();
+            byte[] k2 = bmmp3.f130037d.getKey();
             Bundle bundle2 = new Bundle();
             bjvp.m104737a(bundle2, "EventListener.EXTRA_TRIGGER_VALUE_REFERENCES", list);
             mo52296a((bmaf) null, bundle2, k2);

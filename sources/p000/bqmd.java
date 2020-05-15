@@ -8,7 +8,7 @@ public final class bqmd extends bxvd implements bxxd {
     }
 
     /* renamed from: a */
-    public final void mo69278a(bxtx bxtx) {
+    public final void mo69278a(ByteString bxtx) {
         if (this.f164950c) {
             mo74035c();
             this.f164950c = false;
@@ -17,7 +17,7 @@ public final class bqmd extends bxvd implements bxxd {
         bqme bqme2 = bqme.f141196d;
         bxtx.getClass();
         if (!bqme.f141199b.mo73666a()) {
-            bqme.f141199b = bxvk.m124021a(bqme.f141199b);
+            bqme.f141199b = GeneratedMessageLite.m124021a(bqme.f141199b);
         }
         bqme.f141199b.add(bxtx);
     }

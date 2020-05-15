@@ -111,7 +111,7 @@ final /* synthetic */ class adsz implements Runnable {
         }
         bome bome = (bome) da.mo74062i();
         bxvd bxvd2 = (bxvd) bome.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bome);
+        bxvd2.mo73625a((GeneratedMessageLite) bome);
         long elapsedRealtime = SystemClock.elapsedRealtime();
         if (z) {
             adta.m51153b(adta2.f62686d);

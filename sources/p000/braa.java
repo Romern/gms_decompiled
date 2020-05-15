@@ -18,7 +18,7 @@ public final class braa extends bxvd implements bxxd {
         brac brac2 = brac.f142121d;
         brad.getClass();
         if (!brac.f142125c.mo73666a()) {
-            brac.f142125c = bxvk.m124021a(brac.f142125c);
+            brac.f142125c = GeneratedMessageLite.m124021a(brac.f142125c);
         }
         brac.f142125c.add(brad);
     }

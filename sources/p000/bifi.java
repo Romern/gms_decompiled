@@ -71,7 +71,7 @@ public final class bifi implements bieq {
         int i = checkInReport.f109556d;
         bpqk a = bhqq.m101354a(placesParams, 7);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bxvd da = bprn.f138873d.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -89,7 +89,7 @@ public final class bifi implements bieq {
             bprw = bprw.f138909d;
         }
         bxvd bxvd2 = (bxvd) bprw.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bprw);
+        bxvd2.mo73625a((GeneratedMessageLite) bprw);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;

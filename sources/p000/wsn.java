@@ -24,7 +24,7 @@ final /* synthetic */ class wsn implements View.OnClickListener {
         List list = wsp.f51258d;
         if (list != null && childLayoutPosition < list.size() && childLayoutPosition >= 0) {
             wse wse = wsp.f51257a;
-            wts a = wts.m42239a(((ahza) wsp.f51258d.get(childLayoutPosition)).f68444b.mo73780k());
+            wts a = wts.m42239a(((ahza) wsp.f51258d.get(childLayoutPosition)).f68444b.getKey());
             wse.getSupportFragmentManager().beginTransaction().addToBackStack("fast_pair_account_settings").replace(16908290, a, "fast_pair_device_details").commit();
             buqu buqu = wse.f51235b;
             if (buqu != null) {

@@ -13,6 +13,6 @@ final class axly implements qwq {
 
     /* renamed from: a */
     public final byte[] mo14930a() {
-        return this.f96171a.mo73642k();
+        return this.f96171a.serializeToBytes();
     }
 }

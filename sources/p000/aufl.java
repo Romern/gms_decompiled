@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aufl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aufl extends bxvk implements bxxd {
+public final class aufl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final aufl f91693a;
@@ -16,7 +16,7 @@ public final class aufl extends bxvk implements bxxd {
     static {
         aufl aufl = new aufl();
         f91693a = aufl;
-        bxvk.m124024a(aufl.class, aufl);
+        GeneratedMessageLite.m124024a(aufl.class, aufl);
     }
 
     private aufl() {
@@ -38,7 +38,7 @@ public final class aufl extends bxvk implements bxxd {
             this.f91695b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f91693a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f91693a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new aufl();

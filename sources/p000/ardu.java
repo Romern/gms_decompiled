@@ -8,7 +8,7 @@ import com.google.android.gms.smartdevice.d2d.D2DDevice;
 public final class ardu implements ardt {
 
     /* renamed from: a */
-    private static final sek f87473a = ascp.m73787a("D2D", "SourceDeviceScanController");
+    private static final Logger f87473a = ascp.m73787a("D2D", "SourceDeviceScanController");
 
     /* renamed from: b */
     private final ariz f87474b;

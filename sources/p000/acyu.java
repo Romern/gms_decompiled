@@ -13,7 +13,7 @@ final /* synthetic */ class acyu implements bmxz {
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
         String str = this.f61093a;
-        sek sek = acza.f61102a;
+        Logger Logger = acza.f61102a;
         return ((aczd) obj).f61129c.equals(str);
     }
 }

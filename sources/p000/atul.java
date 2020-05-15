@@ -21,7 +21,7 @@ public final class atul extends atue {
             return true;
         }
         try {
-            int a = bmul.m108394a(((bmum) bxvk.m124016a(bmum.f130943d, bArr, bxus.m123744c())).f130947c);
+            int a = bmul.m108394a(((bmum) GeneratedMessageLite.m124016a(bmum.f130943d, bArr, bxus.m123744c())).f130947c);
             if (a == 0 || a != 2) {
                 return false;
             }
@@ -45,7 +45,7 @@ public final class atul extends atue {
             byte[] bArr = atsy.f90820L;
             if (bArr != null) {
                 try {
-                    int a = bmul.m108394a(((bmum) bxvk.m124016a(bmum.f130943d, bArr, bxus.m123744c())).f130947c);
+                    int a = bmul.m108394a(((bmum) GeneratedMessageLite.m124016a(bmum.f130943d, bArr, bxus.m123744c())).f130947c);
                     if (a != 0) {
                     }
                 } catch (bxwf e) {

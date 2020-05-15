@@ -13,7 +13,7 @@ public final /* synthetic */ class tbn implements View.OnClickListener {
     }
 
     public void onClick(View view) {
-        sek sek = ConstellationDebugChimeraActivity.f30575b;
+        Logger Logger = ConstellationDebugChimeraActivity.f30575b;
         szm.m36651a().mo26277c();
     }
 }

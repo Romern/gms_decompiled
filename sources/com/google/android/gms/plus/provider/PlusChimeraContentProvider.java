@@ -123,7 +123,7 @@ public class PlusChimeraContentProvider extends sgo implements OnAccountsUpdateL
     /* renamed from: a */
     private final ContentValues m68544a(Uri uri) {
         String str;
-        sdo.m34966a(uri, "URI must not be null.");
+        sdo.checkIfNull(uri, "URI must not be null.");
         if ("com.google.android.gms.plus".equals(uri.getAuthority())) {
             List<String> pathSegments = uri.getPathSegments();
             if (pathSegments.size() == 2) {

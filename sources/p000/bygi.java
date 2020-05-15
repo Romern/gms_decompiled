@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bygi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bygi extends bxvk implements bxxd {
+public final class bygi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bygi f166311g;
@@ -31,7 +31,7 @@ public final class bygi extends bxvk implements bxxd {
     static {
         bygi bygi = new bygi();
         f166311g = bygi;
-        bxvk.m124024a(bygi.class, bygi);
+        GeneratedMessageLite.m124024a(bygi.class, bygi);
     }
 
     private bygi() {
@@ -48,7 +48,7 @@ public final class bygi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166311g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001က\u0000\u0002က\u0001\u0003က\u0002\u0004ခ\u0003\u0005က\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f166311g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001က\u0000\u0002က\u0001\u0003က\u0002\u0004ခ\u0003\u0005က\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new bygi();
         } else {

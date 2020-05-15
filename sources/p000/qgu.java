@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qgu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qgu extends bxvk implements bxxd {
+public final class qgu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: A */
     public static final qgu f41220A;
@@ -97,7 +97,7 @@ public final class qgu extends bxvk implements bxxd {
     static {
         qgu qgu = new qgu();
         f41220A = qgu;
-        bxvk.m124024a(qgu.class, qgu);
+        GeneratedMessageLite.m124024a(qgu.class, qgu);
     }
 
     private qgu() {
@@ -112,21 +112,21 @@ public final class qgu extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo24047b() {
         if (!this.f41228e.mo73666a()) {
-            this.f41228e = bxvk.m124021a(this.f41228e);
+            this.f41228e = GeneratedMessageLite.m124021a(this.f41228e);
         }
     }
 
     /* renamed from: c */
     public final void mo24048c() {
         if (!this.f41236m.mo73666a()) {
-            this.f41236m = bxvk.m124021a(this.f41236m);
+            this.f41236m = GeneratedMessageLite.m124021a(this.f41236m);
         }
     }
 
     /* renamed from: d */
     public final void mo24049d() {
         if (!this.f41239p.mo73666a()) {
-            this.f41239p = bxvk.m124021a(this.f41239p);
+            this.f41239p = GeneratedMessageLite.m124021a(this.f41239p);
         }
     }
 
@@ -145,7 +145,7 @@ public final class qgu extends bxvk implements bxxd {
             this.f41223C = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f41220A, "\u0001\u001a\u0000\u0001\u0001\u001e\u001a\u0000\u0004\u0002\u0001ဈ\u0000\u0002ဂ\u0004\u0003ဈ\u0006\u0004ᔉ\b\u0006ဈ\u0007\u0007ဂ\u0005\t\u001a\nဈ\u0001\u000b\u001a\fဈ\u000b\rစ\f\u000eင\r\u000f\u001a\u0010ဈ\u0002\u0011ဈ\u0003\u0012ᐉ\u000e\u0013\u001a\u0014င\u000f\u0016င\u0011\u0017ဉ\u0012\u0018ဈ\u0013\u0019ဈ\u0014\u001aဌ\u0015\u001bဉ\u0016\u001dဇ\u0017\u001eဇ\u0018", new Object[]{"a", "b", "h", "j", "l", "k", "i", "d", "c", "m", "n", "o", "B", "p", "f", "g", "q", "e", "r", "s", "t", "u", "v", "w", qgt.m32150b(), "x", "y", "z"});
+            return GeneratedMessageLite.m124022a(f41220A, "\u0001\u001a\u0000\u0001\u0001\u001e\u001a\u0000\u0004\u0002\u0001ဈ\u0000\u0002ဂ\u0004\u0003ဈ\u0006\u0004ᔉ\b\u0006ဈ\u0007\u0007ဂ\u0005\t\u001a\nဈ\u0001\u000b\u001a\fဈ\u000b\rစ\f\u000eင\r\u000f\u001a\u0010ဈ\u0002\u0011ဈ\u0003\u0012ᐉ\u000e\u0013\u001a\u0014င\u000f\u0016င\u0011\u0017ဉ\u0012\u0018ဈ\u0013\u0019ဈ\u0014\u001aဌ\u0015\u001bဉ\u0016\u001dဇ\u0017\u001eဇ\u0018", new Object[]{"a", "b", "h", "j", "l", "k", "i", "d", "c", "m", "n", "o", "B", "p", "f", "g", "q", "e", "r", "s", "t", "u", "v", "w", qgt.m32150b(), "x", "y", "z"});
         } else if (i2 == 3) {
             return new qgu();
         } else {
@@ -172,7 +172,7 @@ public final class qgu extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo24046a() {
         if (!this.f41227d.mo73666a()) {
-            this.f41227d = bxvk.m124021a(this.f41227d);
+            this.f41227d = GeneratedMessageLite.m124021a(this.f41227d);
         }
     }
 }

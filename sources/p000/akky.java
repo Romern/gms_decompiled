@@ -72,7 +72,7 @@ final class akky extends aaab {
                     caey = null;
                 }
                 if (caey != null) {
-                    akka.f72133h.mo10352a(Base64.encodeToString(caey.mo73642k(), 0));
+                    akka.f72133h.mo10352a(Base64.encodeToString(caey.serializeToBytes(), 0));
                     if (!caey.equals(a2)) {
                         int i2 = spn.f44932a;
                         SQLiteDatabase a3 = akmh.f72258c.mo39569a();

@@ -14,7 +14,7 @@ import com.google.android.gms.auth.firstparty.shared.AppDescription;
 public final class gkp {
 
     /* renamed from: c */
-    private static final sek f18420c = ght.m13171a("ReauthNotificationManager");
+    private static final Logger f18420c = ght.m13171a("ReauthNotificationManager");
 
     /* renamed from: a */
     public final Context f18421a;
@@ -63,9 +63,9 @@ public final class gkp {
                 tokenWorkflowRequest.f10818h = appDescription;
                 mo11992a(m13339d(account), gjy.mo11950a(tokenWorkflowRequest), account, this.f18421a.getString(C0126R.string.account_level_title), BitmapFactory.decodeResource(this.f18421a.getResources(), C0126R.C0127drawable.ic_google), true);
             } catch (gkb e) {
-                sek sek = f18420c;
+                Logger Logger = f18420c;
                 String valueOf = String.valueOf(e.getMessage());
-                sek.mo25418e(valueOf.length() == 0 ? new String("Unable to get a valid intent to display the notification: ") : "Unable to get a valid intent to display the notification: ".concat(valueOf), new Object[0]);
+                Logger.mo25418e(valueOf.length() == 0 ? new String("Unable to get a valid intent to display the notification: ") : "Unable to get a valid intent to display the notification: ".concat(valueOf), new Object[0]);
             }
         }
     }

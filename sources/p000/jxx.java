@@ -73,13 +73,13 @@ public abstract class jxx extends jwz {
                 bodh = bodh.f132682k;
             }
             bxvd bxvd = (bxvd) bodh.mo74142c(5);
-            bxvd.mo73625a((bxvk) bodh);
+            bxvd.mo73625a((GeneratedMessageLite) bodh);
             botr botr = ((bodh) bxvd.f164949b).f132691h;
             if (botr == null) {
                 botr = botr.f134863f;
             }
             bxvd bxvd2 = (bxvd) botr.mo74142c(5);
-            bxvd2.mo73625a((bxvk) botr);
+            bxvd2.mo73625a((GeneratedMessageLite) botr);
             long c = mo7860c();
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
@@ -131,14 +131,14 @@ public abstract class jxx extends jwz {
                     bodh = bodh.f132682k;
                 }
                 bxvd bxvd = (bxvd) bodh.mo74142c(5);
-                bxvd.mo73625a((bxvk) bodh);
+                bxvd.mo73625a((GeneratedMessageLite) bodh);
                 if ((bodh.f132684a & 64) != 0) {
                     botr botr = bodh.f132691h;
                     if (botr == null) {
                         botr = botr.f134863f;
                     }
                     da2 = (bxvd) botr.mo74142c(5);
-                    da2.mo73625a((bxvk) botr);
+                    da2.mo73625a((GeneratedMessageLite) botr);
                     da = bxvd;
                 } else {
                     da = bxvd;
@@ -259,7 +259,7 @@ public abstract class jxx extends jwz {
                 bodh = bodh.f132682k;
             }
             bxvd bxvd = (bxvd) bodh.mo74142c(5);
-            bxvd.mo73625a((bxvk) bodh);
+            bxvd.mo73625a((GeneratedMessageLite) bodh);
             if (a.mo14213a()) {
                 int i3 = a.f23486a;
                 if (bxvd.f164950c) {
@@ -274,7 +274,7 @@ public abstract class jxx extends jwz {
                     botr = botr.f134863f;
                 }
                 bxvd bxvd2 = (bxvd) botr.mo74142c(5);
-                bxvd2.mo73625a((bxvk) botr);
+                bxvd2.mo73625a((GeneratedMessageLite) botr);
                 String b = this.f23497d.mo7863b();
                 StringBuilder sb = new StringBuilder(String.valueOf(b).length() + 11);
                 sb.append(b);

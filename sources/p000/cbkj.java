@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbkj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbkj extends bxvk implements bxxd {
+public final class cbkj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final cbkj f177405k;
@@ -23,7 +23,7 @@ public final class cbkj extends bxvk implements bxxd {
     public int f177410d;
 
     /* renamed from: e */
-    public bxtx f177411e = bxtx.f164797b;
+    public ByteString f177411e = ByteString.f164797b;
 
     /* renamed from: f */
     public long f177412f;
@@ -43,7 +43,7 @@ public final class cbkj extends bxvk implements bxxd {
     static {
         cbkj cbkj = new cbkj();
         f177405k = cbkj;
-        bxvk.m124024a(cbkj.class, cbkj);
+        GeneratedMessageLite.m124024a(cbkj.class, cbkj);
     }
 
     private cbkj() {
@@ -60,7 +60,7 @@ public final class cbkj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177405k, "\u0000\u0010\u0001\u0000\u0001l\u0010\u0000\u0000\u0000\u0001Ȉ\u0002\f\u0003\u0002\u0005\f\b\t\t\t\n\t\f\nd<\u0000e<\u0000f<\u0000g<\u0000h<\u0000j<\u0000k<\u0000l<\u0000", new Object[]{"b", "a", "c", "d", "f", "j", "g", "h", "i", "e", cbjj.class, cbbn.class, cblr.class, cbjm.class, cbkg.class, cblu.class, cbmh.class, cbmp.class});
+            return GeneratedMessageLite.m124022a(f177405k, "\u0000\u0010\u0001\u0000\u0001l\u0010\u0000\u0000\u0000\u0001Ȉ\u0002\f\u0003\u0002\u0005\f\b\t\t\t\n\t\f\nd<\u0000e<\u0000f<\u0000g<\u0000h<\u0000j<\u0000k<\u0000l<\u0000", new Object[]{"b", "a", "c", "d", "f", "j", "g", "h", "i", "e", cbjj.class, cbbn.class, cblr.class, cbjm.class, cbkg.class, cblu.class, cbmh.class, cbmp.class});
         } else if (i2 == 3) {
             return new cbkj();
         } else {

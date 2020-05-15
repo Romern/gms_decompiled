@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ajif */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ajif extends bxvk implements bxxd {
+public final class ajif extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: l */
     public static final ajif f70694l;
@@ -46,7 +46,7 @@ public final class ajif extends bxvk implements bxxd {
     static {
         ajif ajif = new ajif();
         f70694l = ajif;
-        bxvk.m124024a(ajif.class, ajif);
+        GeneratedMessageLite.m124024a(ajif.class, ajif);
     }
 
     private ajif() {
@@ -63,7 +63,7 @@ public final class ajif extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f70694l, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0002\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004\u001a\u0005\u001a\u0006ဇ\u0003\u0007ဇ\u0004\bဇ\u0005\tဂ\u0006\nဇ\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"});
+            return GeneratedMessageLite.m124022a(f70694l, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0002\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004\u001a\u0005\u001a\u0006ဇ\u0003\u0007ဇ\u0004\bဇ\u0005\tဂ\u0006\nဇ\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"});
         } else if (i2 == 3) {
             return new ajif();
         } else {

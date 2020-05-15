@@ -49,7 +49,7 @@ public final class bspp extends bxvg implements bxvh {
     static {
         bspp bspp = new bspp();
         f146553l = bspp;
-        bxvk.m124024a(bspp.class, bspp);
+        GeneratedMessageLite.m124024a(bspp.class, bspp);
     }
 
     private bspp() {
@@ -70,7 +70,7 @@ public final class bspp extends bxvg implements bxvh {
             this.f146566n = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f146553l, "\u0001\n\u0000\u0001\u0001\f\n\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဈ\u0002\u0004င\u0003\u0005ဇ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\tဉ\b\u000bဉ\n\fဉ\u000b", new Object[]{"a", "b", bsmt.m115988b(), "c", bsmq.f145054a, "d", "e", "f", "g", "h", "i", "j", "k"});
+            return GeneratedMessageLite.m124022a(f146553l, "\u0001\n\u0000\u0001\u0001\f\n\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဈ\u0002\u0004င\u0003\u0005ဇ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\tဉ\b\u000bဉ\n\fဉ\u000b", new Object[]{"a", "b", bsmt.m115988b(), "c", bsmq.f145054a, "d", "e", "f", "g", "h", "i", "j", "k"});
         } else if (i2 == 3) {
             return new bspp();
         } else {

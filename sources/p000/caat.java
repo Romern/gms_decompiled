@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caat */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caat extends bxvk implements bxxd {
+public final class caat extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final caat f172373c;
@@ -22,7 +22,7 @@ public final class caat extends bxvk implements bxxd {
     static {
         caat caat = new caat();
         f172373c = caat;
-        bxvk.m124024a(caat.class, caat);
+        GeneratedMessageLite.m124024a(caat.class, caat);
     }
 
     private caat() {
@@ -39,7 +39,7 @@ public final class caat extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172373c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f172373c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new caat();
         } else {

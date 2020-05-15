@@ -24,16 +24,16 @@ import org.apache.http.util.EntityUtils;
 public final class iem {
 
     /* renamed from: a */
-    public static final sek f20798a = new sek("GLSUser", "AppCertManager");
+    public static final Logger log = new Logger("GLSUser", "AppCertManager");
 
     /* renamed from: b */
-    static final Charset f20799b = Charset.forName("UTF-8");
+    static final Charset charset = Charset.forName("UTF-8");
 
     /* renamed from: i */
     private static WeakReference f20800i = new WeakReference(null);
 
     /* renamed from: c */
-    public final ilq f20801c;
+    public final ilq packageInfo;
 
     /* renamed from: d */
     public final ien f20802d;
@@ -42,17 +42,17 @@ public final class iem {
     public final Object f20803e = new Object();
 
     /* renamed from: f */
-    private final SecureRandom f20804f = new SecureRandom();
+    private final SecureRandom random = new SecureRandom();
 
     /* renamed from: g */
     private boolean f20805g = false;
 
     /* renamed from: h */
-    private long f20806h = 0;
+    private long elapsedTime = 0;
 
     public iem(ilq ilq, ien ien) {
         sdo.m34959a(ilq);
-        this.f20801c = ilq;
+        this.packageInfo = ilq;
         sdo.m34959a(ien);
         this.f20802d = ien;
     }
@@ -74,25 +74,25 @@ public final class iem {
     /* JADX WARNING: Removed duplicated region for block: B:93:0x01f2 A[Catch:{ all -> 0x01fa }] */
     /* JADX WARNING: Removed duplicated region for block: B:98:0x01fd A[SYNTHETIC, Splitter:B:98:0x01fd] */
     /* renamed from: a */
-    public final boolean mo12955a() {
+    public final boolean createAndWriteDeviceKey() {
         String str;
         FileOutputStream openFileOutput;
         if (!gnv.m13498H()) {
-            f20798a.mo25409a("DeviceKey is turned off", new Object[0]);
+            log.logVerbose("DeviceKey is turned off", new Object[0]);
             return false;
         }
         synchronized (this.f20803e) {
             long elapsedRealtime = SystemClock.elapsedRealtime();
-            if (elapsedRealtime - this.f20806h >= gnv.m13580y() * 1000) {
-                this.f20806h = elapsedRealtime;
-                long nextLong = this.f20804f.nextLong();
-                long a = spn.m35843a(this.f20801c.f21306a);
-                HashMap a2 = bnmt.m109794a();
-                a2.put("dg_androidId", Long.toHexString(a));
-                a2.put("dg_session", Long.toHexString(nextLong));
-                a2.put("dg_gmsCoreVersion", "201515033");
-                a2.put("dg_sdkVersion", String.valueOf(Build.VERSION.SDK_INT));
-                String a3 = glq.m13399a(this.f20801c.f21306a, "devicekey", a2);
+            if (elapsedRealtime - this.elapsedTime >= gnv.m13580y() * 1000) {
+                this.elapsedTime = elapsedRealtime;
+                long nextLong = this.random.nextLong();
+                long androidId = spn.getAndroidId(this.packageInfo.context);
+                HashMap droidGuardInfoMap = bnmt.getNewHashMap();
+                droidGuardInfoMap.put("dg_androidId", Long.toHexString(androidId));
+                droidGuardInfoMap.put("dg_session", Long.toHexString(nextLong));
+                droidGuardInfoMap.put("dg_gmsCoreVersion", "201515033");
+                droidGuardInfoMap.put("dg_sdkVersion", String.valueOf(Build.VERSION.SDK_INT));
+                String a3 = glq.m13399a(this.packageInfo.context, "devicekey", droidGuardInfoMap); //droidguard request
                 try {
                     bxvd da = bzxc.f171723g.mo74144da();
                     if (da.f164950c) {
@@ -102,7 +102,7 @@ public final class iem {
                     bzxc bzxc = (bzxc) da.f164949b;
                     int i = bzxc.f171725a | 2;
                     bzxc.f171725a = i;
-                    bzxc.f171727c = a;
+                    bzxc.f171727c = androidId;
                     int i2 = i | 4;
                     bzxc.f171725a = i2;
                     bzxc.f171728d = nextLong;
@@ -113,9 +113,9 @@ public final class iem {
                     }
                     HttpEntity httpEntity = null;
                     try {
-                        str = addi.m50206a(this.f20801c.f21306a).mo33343a(gnv.m13501K(), gnv.m13502L());
+                        str = addi.m50206a(this.packageInfo.context).mo33343a(gnv.m13501K(), gnv.m13502L());
                     } catch (IOException e) {
-                        f20798a.mo25415d("Failed to get security token.", e, new Object[0]);
+                        log.mo25415d("Failed to get security token.", e, new Object[0]);
                         str = null;
                     }
                     if (str != null) {
@@ -149,9 +149,9 @@ public final class iem {
                     bzxi2.getClass();
                     bzxc3.f171729e = bzxi2;
                     bzxc3.f171725a |= 8;
-                    ByteArrayEntity byteArrayEntity = new ByteArrayEntity(((bzxc) da.mo74062i()).mo73642k());
+                    ByteArrayEntity byteArrayEntity = new ByteArrayEntity(((bzxc) da.mo74062i()).serializeToBytes());
                     byteArrayEntity.setContentType("application/octet-stream");
-                    HttpResponse a4 = gmv.m13464a(String.valueOf(gnv.m13522aD()).concat("/devicekey"), this.f20801c.mo13123a().f10841e, byteArrayEntity, this.f20801c.f21306a);
+                    HttpResponse a4 = gmv.m13464a(String.valueOf(gnv.m13522aD()).concat("/devicekey"), this.packageInfo.mo13123a().f10841e, byteArrayEntity, this.packageInfo.context);
                     try {
                         httpEntity = a4.getEntity();
                         try {
@@ -164,10 +164,10 @@ public final class iem {
                                     httpEntity.getContent().close();
                                 }
                             }
-                            bzxb bzxb = (bzxb) bxvk.m124016a(bzxb.f171716f, byteArray, bxus.m123744c());
+                            bzxb bzxb = (bzxb) GeneratedMessageLite.m124016a(bzxb.f171716f, byteArray, bxus.m123744c());
                             try {
                                 ien ien = this.f20802d;
-                                ien.f20807a.mo25409a("Storing device key...", new Object[0]);
+                                ien.f20807a.logVerbose("Storing device key...", new Object[0]);
                                 Lock writeLock = ien.f20809b.writeLock();
                                 writeLock.lock();
                                 try {
@@ -185,7 +185,7 @@ public final class iem {
                                     throw th;
                                 }
                             } catch (IOException e3) {
-                                f20798a.mo25415d("Error storing key: ", e3, new Object[0]);
+                                log.mo25415d("Error storing key: ", e3, new Object[0]);
                                 this.f20805g = false;
                                 return false;
                             }
@@ -220,7 +220,7 @@ public final class iem {
                         throw th;
                     }
                 } catch (IOException e6) {
-                    f20798a.mo25415d("IOException while requesting key: ", e6, new Object[0]);
+                    log.mo25415d("IOException while requesting key: ", e6, new Object[0]);
                 }
             } else {
                 boolean z = this.f20805g;
@@ -230,18 +230,18 @@ public final class iem {
     }
 
     /* renamed from: a */
-    public final byte[] mo12956a(bzxb bzxb, String str) {
-        Mac c = spn.m35871c("HMACSHA256");
-        if (c != null) {
+    public final byte[] getHMACSHA256ofString(bzxb bzxb, String str) {
+        Mac hmacsha256 = spn.m35871c("HMACSHA256");
+        if (hmacsha256 != null) {
             try {
-                c.init(new SecretKeySpec(bzxb.f171721d.mo73780k(), "HMACSHA256"));
-                return c.doFinal(str.getBytes(f20799b));
+                hmacsha256.init(new SecretKeySpec(bzxb.f171721d.getKey(), "HMACSHA256"));
+                return hmacsha256.doFinal(str.getBytes(charset));
             } catch (InvalidKeyException e) {
-                f20798a.mo25418e("Invalid key.", new Object[0]);
+                log.mo25418e("Invalid key.", new Object[0]);
                 throw new IOException("Invalid key.", e);
             }
         } else {
-            f20798a.mo25418e("Failed to get Mac.", new Object[0]);
+            log.mo25418e("Failed to get Mac.", new Object[0]);
             throw new IOException("Failed to get Mac.");
         }
     }

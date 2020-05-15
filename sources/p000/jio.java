@@ -8,7 +8,7 @@ import java.util.List;
 public final class jio {
 
     /* renamed from: a */
-    public static final sek f22559a = jsy.m17256a("BleAdvDeviceQueue");
+    public static final Logger f22559a = jsy.m17256a("BleAdvDeviceQueue");
 
     /* renamed from: b */
     public final List f22560b = new ArrayList();

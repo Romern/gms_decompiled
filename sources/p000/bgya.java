@@ -25,7 +25,7 @@ public final class bgya {
     private final long f117980e;
 
     public bgya(long j, long j2, long j3, long j4, ClientIdentity clientIdentity) {
-        sdo.m34966a(clientIdentity, "No source package provided");
+        sdo.checkIfNull(clientIdentity, "No source package provided");
         this.f117978c = j;
         this.f117979d = j2;
         this.f117976a = j3;

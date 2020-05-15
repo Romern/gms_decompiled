@@ -6,7 +6,7 @@ public final class baiv {
     /* renamed from: a */
     public static void m86943a(byhi byhi) {
         if ((byhi.f166453a & 2) != 0) {
-            byhi.f166455c.mo73780k();
+            byhi.f166455c.getKey();
         }
     }
 }

@@ -625,7 +625,7 @@ public class ChatConversationChimeraActivity extends deu implements aarn, abaf, 
                         } else {
                             abdq abdq = (abdq) aawe2.f56692e.get(a);
                             bxvd bxvd = (bxvd) abdq.mo74142c(5);
-                            bxvd.mo73625a((bxvk) abdq);
+                            bxvd.mo73625a((GeneratedMessageLite) abdq);
                             if (bxvd.f164950c) {
                                 bxvd.mo74035c();
                                 bxvd.f164950c = false;

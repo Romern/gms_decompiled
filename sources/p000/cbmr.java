@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbmr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbmr extends bxvk implements bxxd {
+public final class cbmr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbmr f177669c;
@@ -14,12 +14,12 @@ public final class cbmr extends bxvk implements bxxd {
     public String f177671a = "";
 
     /* renamed from: b */
-    public bxtx f177672b = bxtx.f164797b;
+    public ByteString f177672b = ByteString.f164797b;
 
     static {
         cbmr cbmr = new cbmr();
         f177669c = cbmr;
-        bxvk.m124024a(cbmr.class, cbmr);
+        GeneratedMessageLite.m124024a(cbmr.class, cbmr);
     }
 
     private cbmr() {
@@ -36,7 +36,7 @@ public final class cbmr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177669c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȉ\u0002\n", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f177669c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȉ\u0002\n", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cbmr();
         } else {

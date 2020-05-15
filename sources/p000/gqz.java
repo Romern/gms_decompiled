@@ -30,7 +30,7 @@ public final class gqz extends aaab {
     /* renamed from: a */
     public final void mo6502a(Context context) {
         adyd a = adyd.m51363a(context);
-        sek a2 = ght.m13171a("RemoveAccountOperation");
+        Logger a2 = ght.m13171a("RemoveAccountOperation");
         try {
             this.f18873b.mo12112a(Status.f30107a, (Bundle) a.mo33923c(this.f18872a).getResult(5, TimeUnit.SECONDS));
         } catch (AuthenticatorException | OperationCanceledException | IOException e) {

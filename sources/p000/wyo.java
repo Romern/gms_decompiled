@@ -109,7 +109,7 @@ public final class wyo extends aayk {
         bzpk2.f170924g = a;
         bzpk2.f170921d = 1;
         bzpk2.f170918a = i | 4;
-        return ((bzpk) da.mo74062i()).mo73642k();
+        return ((bzpk) da.mo74062i()).serializeToBytes();
     }
 
     /* access modifiers changed from: protected */

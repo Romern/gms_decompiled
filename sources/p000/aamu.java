@@ -95,7 +95,7 @@ public final class aamu {
         if (file.exists()) {
             try {
                 try {
-                    bxwc bxwc = ((aaiu) bxvk.m124014a(aaiu.f28231b, srz.m36174a(file))).f28233a;
+                    bxwc bxwc = ((aaiu) GeneratedMessageLite.m124014a(aaiu.f28231b, srz.m36174a(file))).f28233a;
                     int size = bxwc.size();
                     for (int i2 = 0; i2 < size; i2++) {
                         aait aait = (aait) bxwc.get(i2);
@@ -154,7 +154,7 @@ public final class aamu {
                 aaiu aaiu = (aaiu) da.f164949b;
                 c.getClass();
                 if (!aaiu.f28233a.mo73666a()) {
-                    aaiu.f28233a = bxvk.m124021a(aaiu.f28233a);
+                    aaiu.f28233a = GeneratedMessageLite.m124021a(aaiu.f28233a);
                 }
                 aaiu.f28233a.add(c);
                 i2++;

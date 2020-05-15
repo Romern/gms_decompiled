@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbok */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbok extends bxvk implements bxxd {
+public final class cbok extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbok f177826d;
@@ -22,7 +22,7 @@ public final class cbok extends bxvk implements bxxd {
     static {
         cbok cbok = new cbok();
         f177826d = cbok;
-        bxvk.m124024a(cbok.class, cbok);
+        GeneratedMessageLite.m124024a(cbok.class, cbok);
     }
 
     private cbok() {
@@ -39,7 +39,7 @@ public final class cbok extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177826d, "\u0000\u0003\u0000\u0000\u0001\u0004\u0003\u0000\u0000\u0000\u0001Ȉ\u0003\t\u0004Ȉ", new Object[]{"a", "c", "b"});
+            return GeneratedMessageLite.m124022a(f177826d, "\u0000\u0003\u0000\u0000\u0001\u0004\u0003\u0000\u0000\u0000\u0001Ȉ\u0003\t\u0004Ȉ", new Object[]{"a", "c", "b"});
         } else if (i2 == 3) {
             return new cbok();
         } else {

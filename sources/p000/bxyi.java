@@ -5,9 +5,9 @@ package p000;
 final class bxyi {
 
     /* renamed from: a */
-    final /* synthetic */ bxtx f165094a;
+    final /* synthetic */ ByteString f165094a;
 
-    public bxyi(bxtx bxtx) {
+    public bxyi(ByteString bxtx) {
         this.f165094a = bxtx;
     }
 

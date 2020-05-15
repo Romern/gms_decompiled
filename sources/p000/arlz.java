@@ -13,7 +13,7 @@ import java.util.List;
 public final class arlz {
 
     /* renamed from: a */
-    private static final sek f87874a = ascp.m73787a("WorkProfileHelper");
+    private static final Logger f87874a = ascp.m73787a("WorkProfileHelper");
 
     /* renamed from: b */
     private final UserManager f87875b;

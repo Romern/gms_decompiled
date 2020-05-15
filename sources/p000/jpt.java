@@ -21,7 +21,7 @@ public final class jpt extends aaab {
     static final long f23003a = TimeUnit.SECONDS.toMillis(5);
 
     /* renamed from: b */
-    private static final sek f23004b = jsy.m17256a("GetMyPublicKey");
+    private static final Logger f23004b = jsy.m17256a("GetMyPublicKey");
 
     /* renamed from: c */
     private final jsd f23005c;

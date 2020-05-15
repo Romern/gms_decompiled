@@ -20,10 +20,10 @@ final class arek implements arel {
     private final BootstrapConfigurations f87516c;
 
     public arek(arem arem, aqxy aqxy, BootstrapConfigurations bootstrapConfigurations) {
-        sdo.m34966a(arem, "controller cannot be null.");
+        sdo.checkIfNull(arem, "controller cannot be null.");
         this.f87514a = arem;
         this.f87515b = aqxy;
-        sdo.m34966a(bootstrapConfigurations, "bootstrapConfigurations cannot be null.");
+        sdo.checkIfNull(bootstrapConfigurations, "bootstrapConfigurations cannot be null.");
         this.f87516c = bootstrapConfigurations;
     }
 
@@ -31,10 +31,10 @@ final class arek implements arel {
     public final void mo48472a() {
         arem.f87517d.mo25412b("Processing Wi-Fi in BootstrapConfigurations.", new Object[0]);
         String str = this.f87516c.f107812d;
-        sek sek = arem.f87517d;
+        Logger Logger = arem.f87517d;
         String valueOf = String.valueOf(str);
-        sek.mo25409a(valueOf.length() == 0 ? new String("BootstrapConfigurations SSID: ") : "BootstrapConfigurations SSID: ".concat(valueOf), new Object[0]);
-        arem.f87517d.mo25409a("Creating WifiConfiguration", new Object[0]);
+        Logger.logVerbose(valueOf.length() == 0 ? new String("BootstrapConfigurations SSID: ") : "BootstrapConfigurations SSID: ".concat(valueOf), new Object[0]);
+        arem.f87517d.logVerbose("Creating WifiConfiguration", new Object[0]);
         try {
             BootstrapConfigurations bootstrapConfigurations = this.f87516c;
             if (new ascz(this.f87514a.f87518e).mo49053a(asdd.m73821a(bootstrapConfigurations.f107814f, bootstrapConfigurations.f107812d, bootstrapConfigurations.f107813e, false)) == -1) {

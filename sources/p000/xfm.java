@@ -22,7 +22,7 @@ public final class xfm extends xfo {
     }
 
     /* renamed from: a */
-    public final bxtx mo29694a() {
+    public final ByteString mo29694a() {
         return ((xfq) this.f52129a.get(0)).f52135b;
     }
 

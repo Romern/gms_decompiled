@@ -16,7 +16,7 @@ public final /* synthetic */ class idr implements bmyl {
     public final void mo12292a(Object obj) {
         ids ids = this.f20772a;
         adbq adbq = (adbq) obj;
-        sek sek = SignInChimeraService.f10359a;
+        Logger Logger = SignInChimeraService.f10359a;
         qws qws = ids.f20774b;
         adbj adbj = (adbj) SignInChimeraService.f10360b.get(adbq.f61346a.getClass());
         sdo.m34959a(adbj);

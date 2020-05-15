@@ -135,7 +135,7 @@ public final class vdk implements vcy {
                 bkxp2 = bkxp.f125396e;
             }
             bxvd bxvd2 = (bxvd) bkxp2.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bkxp2);
+            bxvd2.mo73625a((GeneratedMessageLite) bkxp2);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
@@ -152,7 +152,7 @@ public final class vdk implements vcy {
                 bkxl2 = bkxl.f125386d;
             }
             bxvd bxvd3 = (bxvd) bkxl2.mo74142c(5);
-            bxvd3.mo73625a((bxvk) bkxl2);
+            bxvd3.mo73625a((GeneratedMessageLite) bkxl2);
             long a = bebq.f106875a.mo58543a();
             if (bxvd3.f164950c) {
                 bxvd3.mo74035c();
@@ -1446,7 +1446,7 @@ public final class vdk implements vcy {
         }
         bkze bkze = (bkze) da.f164949b;
         if (!bkze.f125566b.mo73666a()) {
-            bkze.f125566b = bxvk.m124019a(bkze.f125566b);
+            bkze.f125566b = GeneratedMessageLite.m124019a(bkze.f125566b);
         }
         int size = arrayList.size();
         for (int i = 0; i < size; i++) {
@@ -1660,14 +1660,14 @@ public final class vdk implements vcy {
                 da.mo74035c();
                 da.f164950c = false;
             }
-            ((bkys) da.f164949b).f125492d = bxvk.m124028dc();
+            ((bkys) da.f164949b).f125492d = GeneratedMessageLite.m124028dc();
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
             }
             bkys bkys = (bkys) da.f164949b;
             if (!bkys.f125492d.mo73666a()) {
-                bkys.f125492d = bxvk.m124019a(bkys.f125492d);
+                bkys.f125492d = GeneratedMessageLite.m124019a(bkys.f125492d);
             }
             int size = arrayList.size();
             for (int i3 = 0; i3 < size; i3++) {

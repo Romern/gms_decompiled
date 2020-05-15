@@ -16,7 +16,7 @@ public final class bsoj extends bxvd implements bxxd {
         bsok bsok = (bsok) this.f164949b;
         bsok bsok2 = bsok.f146389h;
         if (!bsok.f146392b.mo73666a()) {
-            bsok.f146392b = bxvk.m124019a(bsok.f146392b);
+            bsok.f146392b = GeneratedMessageLite.m124019a(bsok.f146392b);
         }
         bxsy.m123078a(iterable, bsok.f146392b);
     }
@@ -30,7 +30,7 @@ public final class bsoj extends bxvd implements bxxd {
         bsok bsok = (bsok) this.f164949b;
         bsok bsok2 = bsok.f146389h;
         if (!bsok.f146393c.mo73666a()) {
-            bsok.f146393c = bxvk.m124019a(bsok.f146393c);
+            bsok.f146393c = GeneratedMessageLite.m124019a(bsok.f146393c);
         }
         bxsy.m123078a(iterable, bsok.f146393c);
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayub */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayub extends bxvk implements bxxd {
+public final class ayub extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final ayub f98493c;
@@ -22,7 +22,7 @@ public final class ayub extends bxvk implements bxxd {
     static {
         ayub ayub = new ayub();
         f98493c = ayub;
-        bxvk.m124024a(ayub.class, ayub);
+        GeneratedMessageLite.m124024a(ayub.class, ayub);
     }
 
     private ayub() {
@@ -43,7 +43,7 @@ public final class ayub extends bxvk implements bxxd {
             this.f98497d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f98493c, "\u0001\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᐼ\u0000\u0002ᐼ\u0000", new Object[]{"b", "a", dco.class, ayuf.class});
+            return GeneratedMessageLite.m124022a(f98493c, "\u0001\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᐼ\u0000\u0002ᐼ\u0000", new Object[]{"b", "a", dco.class, ayuf.class});
         } else if (i2 == 3) {
             return new ayub();
         } else {

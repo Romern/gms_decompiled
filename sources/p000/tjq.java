@@ -27,7 +27,7 @@ public final class tjq {
     /* renamed from: a */
     public static tjq m37091a(int i, bxxc bxxc) {
         tjo tjo = new tjo(null, i);
-        tjo.mo26590a(bxxc.mo73642k());
+        tjo.mo26590a(bxxc.serializeToBytes());
         return tjo.mo26587a();
     }
 
@@ -57,7 +57,7 @@ public final class tjq {
 
     /* renamed from: c */
     public final byte[] mo26593c() {
-        return this.f46204a.f163484d.mo73780k();
+        return this.f46204a.f163484d.getKey();
     }
 
     /* renamed from: d */
@@ -82,7 +82,7 @@ public final class tjq {
     public tjq(byte[] bArr, int i, doh doh) {
         bxhx bxhx;
         try {
-            bxhx = (bxhx) bxvk.m124016a(bxhx.f163479f, bArr, bxus.m123744c());
+            bxhx = (bxhx) GeneratedMessageLite.m124016a(bxhx.f163479f, bArr, bxus.m123744c());
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) dss.f13961a.mo68387b();
             bnsl.mo68437a(e);
@@ -99,7 +99,7 @@ public final class tjq {
     /* renamed from: a */
     public static tjq m37092a(doh doh, int i, bxxc bxxc) {
         tjo tjo = new tjo(doh, i);
-        tjo.mo26590a(bxxc.mo73642k());
+        tjo.mo26590a(bxxc.serializeToBytes());
         return tjo.mo26587a();
     }
 }

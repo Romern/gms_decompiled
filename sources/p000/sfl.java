@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: sfl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class sfl extends bxvk implements bxxd {
+public final class sfl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final sfl f44122b;
@@ -16,7 +16,7 @@ public final class sfl extends bxvk implements bxxd {
     static {
         sfl sfl = new sfl();
         f44122b = sfl;
-        bxvk.m124024a(sfl.class, sfl);
+        GeneratedMessageLite.m124024a(sfl.class, sfl);
     }
 
     private sfl() {
@@ -33,7 +33,7 @@ public final class sfl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f44122b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", sfn.class});
+            return GeneratedMessageLite.m124022a(f44122b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", sfn.class});
         } else if (i2 == 3) {
             return new sfl();
         } else {

@@ -60,14 +60,14 @@ public final class lxd {
             f33136a.mo25412b("Secondary key already initialized: %s", ((lwp) c.mo66814b()).f33123a);
             return (lwp) c.mo66814b();
         }
-        f33136a.mo25409a("Initializing for crypto: generating a secondary key.", new Object[0]);
+        f33136a.logVerbose("Initializing for crypto: generating a secondary key.", new Object[0]);
         try {
             lwp a = this.f33139d.mo19711a();
             String str = a.f33123a;
             f33136a.mo25414c("Generated new secondary key %s", str);
             try {
                 this.f33140e.mo19705a(str, bnoj.f131912b);
-                f33136a.mo25409a("Successfully synced %s with server.", str);
+                f33136a.logVerbose("Successfully synced %s with server.", str);
                 try {
                     lwc lwc = this.f33138c;
                     sdo.m34971a(!lwc.mo19698c(), (Object) "Attempting to initialize an already initialized settings.");
@@ -75,7 +75,7 @@ public final class lxd {
                     SharedPreferences.Editor edit = lwc.f33100c.edit();
                     edit.putBoolean("isInitialized", true);
                     edit.apply();
-                    f33136a.mo25409a("Successfully saved %s as active secondary to disk.", str);
+                    f33136a.logVerbose("Successfully saved %s as active secondary to disk.", str);
                     return a;
                 } catch (lwg e) {
                     this.f33141f.mo19822a(20, 4);

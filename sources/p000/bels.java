@@ -123,7 +123,7 @@ public final class bels implements beis {
         bpyq.getClass();
         bpxb.f139620M = bpyq;
         bpxb.f139626b |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_IME_MULTI_LINE;
-        qwo a = this.f111797c.mo24335a(((bpxb) da.mo74062i()).mo73642k());
+        qwo a = this.f111797c.mo24335a(((bpxb) da.mo74062i()).serializeToBytes());
         a.mo24328b(bpzd.m112421a(17002));
         a.mo24327b();
     }

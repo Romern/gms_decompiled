@@ -27,9 +27,9 @@ public final class ccpf implements ccpc {
         bdyw bdyw = new bdyw(bdyj.m91581a("com.google.android.gms.car"));
         f179677a = bdyx.m91610a(bdyw, "enable_audio_codec_preferences", true);
         try {
-            f179678b = bdyx.m91608a(bdyw, "usb_preferred_audio_codec_list", (bydh) bxvk.m124014a(bydh.f165789b, new byte[]{10, 3, 1, 2, 4}), ccpd.f179675a);
+            f179678b = bdyx.m91608a(bdyw, "usb_preferred_audio_codec_list", (bydh) GeneratedMessageLite.m124014a(bydh.f165789b, new byte[]{10, 3, 1, 2, 4}), ccpd.f179675a);
             try {
-                f179679c = bdyx.m91608a(bdyw, "wifi_preferred_audio_codec_list", (bydh) bxvk.m124014a(bydh.f165789b, new byte[]{10, 3, 2, 4, 1}), ccpe.f179676a);
+                f179679c = bdyx.m91608a(bdyw, "wifi_preferred_audio_codec_list", (bydh) GeneratedMessageLite.m124014a(bydh.f165789b, new byte[]{10, 3, 2, 4, 1}), ccpe.f179676a);
             } catch (bxwf e) {
                 throw new AssertionError("Could not parse proto flag \"wifi_preferred_audio_codec_list\"");
             }

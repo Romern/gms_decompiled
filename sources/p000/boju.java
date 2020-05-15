@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boju */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boju extends bxvk implements bxxd {
+public final class boju extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final boju f133349e;
@@ -25,7 +25,7 @@ public final class boju extends bxvk implements bxxd {
     static {
         boju boju = new boju();
         f133349e = boju;
-        bxvk.m124024a(boju.class, boju);
+        GeneratedMessageLite.m124024a(boju.class, boju);
     }
 
     private boju() {
@@ -42,7 +42,7 @@ public final class boju extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133349e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0002\u0000\u0001\u001b\u0003\u001b\u0004င\u0000", new Object[]{"a", "b", bojy.class, "c", bojv.class, "d"});
+            return GeneratedMessageLite.m124022a(f133349e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0002\u0000\u0001\u001b\u0003\u001b\u0004င\u0000", new Object[]{"a", "b", bojy.class, "c", bojv.class, "d"});
         } else if (i2 == 3) {
             return new boju();
         } else {
@@ -69,7 +69,7 @@ public final class boju extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo68913a() {
         if (!this.f133352b.mo73666a()) {
-            this.f133352b = bxvk.m124021a(this.f133352b);
+            this.f133352b = GeneratedMessageLite.m124021a(this.f133352b);
         }
     }
 }

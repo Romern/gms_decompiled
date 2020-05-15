@@ -15,7 +15,7 @@ final /* synthetic */ class bbgg implements bmxj {
 
     public final Object apply(Object obj) {
         bbgi bbgi = this.f102586a;
-        bxtx bxtx = (bxtx) obj;
+        ByteString bxtx = (ByteString) obj;
         bbgh bbgh = (bbgh) bbgi.f102588b.get(bxtx);
         if (bbgh != null) {
             long a = bbgi.f102587a.mo54417a();

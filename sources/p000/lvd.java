@@ -18,11 +18,11 @@ final class lvd extends RestoreObserver {
     }
 
     public final void onUpdate(int i, String str) {
-        lve.f33023a.mo25409a("Restore update. Current package = %s", str);
+        lve.f33023a.logVerbose("Restore update. Current package = %s", str);
     }
 
     public final void restoreFinished(int i) {
-        lve.f33023a.mo25409a("Restore finished, status: %d", Integer.valueOf(i));
+        lve.f33023a.logVerbose("Restore finished, status: %d", Integer.valueOf(i));
         if (ccmh.m130653c()) {
             try {
                 this.f33022a.f33024b.mo11797a(i != 0 ? new Status(29030) : Status.f30107a);
@@ -44,9 +44,9 @@ final class lvd extends RestoreObserver {
             i = 0;
         }
         objArr[0] = Integer.valueOf(i);
-        lvn.mo25409a("Received restore sets: %s sets", objArr);
+        lvn.logVerbose("Received restore sets: %s sets", objArr);
         if (restoreSetArr == null) {
-            lve.f33023a.mo25409a("Returned restore sets array is null", new Object[0]);
+            lve.f33023a.logVerbose("Returned restore sets array is null", new Object[0]);
             this.f33022a.f33027e.mo69138b(bngx.m109376e());
             return;
         }
@@ -54,6 +54,6 @@ final class lvd extends RestoreObserver {
     }
 
     public final void restoreStarting(int i) {
-        lve.f33023a.mo25409a("Restore starting for %d packages", Integer.valueOf(i));
+        lve.f33023a.logVerbose("Restore starting for %d packages", Integer.valueOf(i));
     }
 }

@@ -176,7 +176,7 @@ final /* synthetic */ class lbp implements Callable {
             lau lau = (lau) da.f164949b;
             lau.f25617c = z;
             lau.f25621g = lat.m18861a(4);
-            bArr = ((lau) da.mo74062i()).mo73642k();
+            bArr = ((lau) da.mo74062i()).serializeToBytes();
         } else {
             fillField = fillField9;
             bArr = new byte[0];

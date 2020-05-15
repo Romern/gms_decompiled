@@ -384,7 +384,7 @@ public class CheckoutChimeraActivity extends awce implements awhd, bkcy, awgr, a
                     for (int i5 = 0; i5 < size2; i5++) {
                         bphh bphh = (bphh) bxwc2.get(i5);
                         bxvd bxvd = (bxvd) bphh.mo74142c(5);
-                        bxvd.mo73625a((bxvk) bphh);
+                        bxvd.mo73625a((GeneratedMessageLite) bphh);
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;

@@ -165,7 +165,7 @@ public final class bgcj implements Runnable {
                                 bpkm bpkm2 = (bpkm) da.f164949b;
                                 bpkj3.getClass();
                                 if (!bpkm2.f137990b.mo73666a()) {
-                                    bpkm2.f137990b = bxvk.m124021a(bpkm2.f137990b);
+                                    bpkm2.f137990b = GeneratedMessageLite.m124021a(bpkm2.f137990b);
                                 }
                                 bpkm2.f137990b.add(bpkj3);
                             }

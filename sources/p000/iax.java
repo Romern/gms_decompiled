@@ -12,7 +12,7 @@ import java.util.Arrays;
 public final class iax {
 
     /* renamed from: a */
-    public static final sek f20660a = new sek("AppCodesUtil");
+    public static final Logger f20660a = new Logger("AppCodesUtil");
 
     /* renamed from: b */
     private static final Charset f20661b = Charset.forName("UTF-8");

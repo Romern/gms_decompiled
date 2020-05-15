@@ -39,7 +39,7 @@ public final /* synthetic */ class ieo implements bmxj {
             iey = (iey) bxww.get(str);
         }
         bxvd bxvd = (bxvd) iey.mo74142c(5);
-        bxvd.mo73625a((bxvk) iey);
+        bxvd.mo73625a((GeneratedMessageLite) iey);
         ifb ifb = ifb.f20840b;
         str2.getClass();
         Map unmodifiableMap = Collections.unmodifiableMap(((iey) bxvd.f164949b).f20837a);
@@ -47,7 +47,7 @@ public final /* synthetic */ class ieo implements bmxj {
             ifb = (ifb) unmodifiableMap.get(str2);
         }
         bxvd bxvd2 = (bxvd) ifb.mo74142c(5);
-        bxvd2.mo73625a((bxvk) ifb);
+        bxvd2.mo73625a((GeneratedMessageLite) ifb);
         str3.getClass();
         ieu.getClass();
         if (bxvd2.f164950c) {
@@ -74,7 +74,7 @@ public final /* synthetic */ class ieo implements bmxj {
         }
         iey2.f20837a.put(str2, ifb3);
         bxvd bxvd3 = (bxvd) iew.mo74142c(5);
-        bxvd3.mo73625a((bxvk) iew);
+        bxvd3.mo73625a((GeneratedMessageLite) iew);
         iey iey3 = (iey) bxvd.mo74062i();
         str.getClass();
         iey3.getClass();

@@ -83,7 +83,7 @@ public final class GroundOverlayOptions extends AbstractSafeParcelable {
 
     /* renamed from: a */
     public final void mo43863a(afgv afgv) {
-        sdo.m34966a(afgv, "imageDescriptor must not be null");
+        sdo.checkIfNull(afgv, "imageDescriptor must not be null");
         this.f79893l = afgv;
     }
 

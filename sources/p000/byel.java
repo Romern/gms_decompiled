@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byel */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byel extends bxvk implements bxxd {
+public final class byel extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byel f165914c;
@@ -22,7 +22,7 @@ public final class byel extends bxvk implements bxxd {
     static {
         byel byel = new byel();
         f165914c = byel;
-        bxvk.m124024a(byel.class, byel);
+        GeneratedMessageLite.m124024a(byel.class, byel);
     }
 
     private byel() {
@@ -39,7 +39,7 @@ public final class byel extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165914c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001စ\u0000\u0002စ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f165914c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001စ\u0000\u0002စ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new byel();
         } else {

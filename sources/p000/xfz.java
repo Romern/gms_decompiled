@@ -15,7 +15,7 @@ public final class xfz {
     public static final adcb f52155a = adca.m50151b(xfx.f52153a);
 
     /* renamed from: c */
-    public static final sek f52156c = new sek(new String[]{"PreferredTransportDataStore"}, (short[]) null);
+    public static final Logger f52156c = new Logger(new String[]{"PreferredTransportDataStore"}, (short[]) null);
 
     /* renamed from: b */
     public final xwt f52157b;

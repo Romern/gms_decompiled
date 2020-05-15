@@ -31,12 +31,12 @@ public final class acsp extends acpn {
     private final abym f60698n;
 
     /* renamed from: o */
-    private final bxtx f60699o;
+    private final ByteString f60699o;
 
     /* renamed from: p */
     private final bdsg f60700p;
 
-    public acsp(Context context, acao acao, abqv abqv, NativeIndex nativeIndex, abzo abzo, abyp abyp, abym abym, bxtx bxtx, bdsg bdsg) {
+    public acsp(Context context, acao acao, abqv abqv, NativeIndex nativeIndex, abzo abzo, abyp abyp, abym abym, ByteString bxtx, bdsg bdsg) {
         super(bqbd.USER_ACTIONS_PUSH_NOTIFICATIONS_HANDLE, 2);
         this.f60692a = context;
         this.f60693b = acao;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxge */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxge extends bxvk implements bxxd {
+public final class bxge extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bxge f163238b;
@@ -16,7 +16,7 @@ public final class bxge extends bxvk implements bxxd {
     static {
         bxge bxge = new bxge();
         f163238b = bxge;
-        bxvk.m124024a(bxge.class, bxge);
+        GeneratedMessageLite.m124024a(bxge.class, bxge);
     }
 
     private bxge() {
@@ -33,7 +33,7 @@ public final class bxge extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f163238b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001e", new Object[]{"a", bxco.m122578b()});
+            return GeneratedMessageLite.m124022a(f163238b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001e", new Object[]{"a", bxco.m122578b()});
         } else if (i2 == 3) {
             return new bxge();
         } else {

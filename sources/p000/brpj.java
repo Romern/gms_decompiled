@@ -14,16 +14,16 @@ import com.google.firebase.auth.api.model.ResetPasswordResponse;
 public class brpj {
 
     /* renamed from: b */
-    public final sek f143128b;
+    public final Logger f143128b;
 
     /* renamed from: c */
     public final brpp f143129c;
 
-    public brpj(brpp brpp, sek sek) {
+    public brpj(brpp brpp, Logger Logger) {
         sdo.m34959a(brpp);
         this.f143129c = brpp;
-        sdo.m34959a(sek);
-        this.f143128b = sek;
+        sdo.m34959a(Logger);
+        this.f143128b = Logger;
     }
 
     /* renamed from: a */

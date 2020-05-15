@@ -32,12 +32,12 @@ public final class axyl implements axyk {
         if ((ayfb.f97443a & 4) == 0) {
             return new axzx(ayev, null);
         }
-        String a = axxv.m83495a(ayev.mo73642k());
+        String a = axxv.m83495a(ayev.serializeToBytes());
         ayfb ayfb2 = ayev.f97379b;
         if (ayfb2 == null) {
             ayfb2 = ayfb.f97441e;
         }
-        String a2 = axxv.m83495a(ayfb2.f97446d.mo73780k());
+        String a2 = axxv.m83495a(ayfb2.f97446d.getKey());
         File a3 = axyn.m83572a(this.f96776a, a);
         try {
             fileOutputStream = new FileOutputStream(a3);

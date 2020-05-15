@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blpt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blpt extends bxvk implements bxxd {
+public final class blpt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final blpt f127292a;
@@ -16,7 +16,7 @@ public final class blpt extends bxvk implements bxxd {
     static {
         blpt blpt = new blpt();
         f127292a = blpt;
-        bxvk.m124024a(blpt.class, blpt);
+        GeneratedMessageLite.m124024a(blpt.class, blpt);
     }
 
     private blpt() {
@@ -37,7 +37,7 @@ public final class blpt extends bxvk implements bxxd {
             this.f127294b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127292a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f127292a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new blpt();

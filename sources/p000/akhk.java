@@ -8,12 +8,12 @@ public final class akhk {
     public final ajhl f71998a;
 
     /* renamed from: b */
-    public final bxtx f71999b;
+    public final ByteString f71999b;
 
     /* renamed from: c */
     public final boolean f72000c;
 
-    public akhk(ajhl ajhl, bxtx bxtx, boolean z) {
+    public akhk(ajhl ajhl, ByteString bxtx, boolean z) {
         this.f71998a = ajhl;
         this.f71999b = bxtx;
         this.f72000c = z;

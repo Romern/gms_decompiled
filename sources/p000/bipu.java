@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bipu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bipu extends bxvk implements bxxd {
+public final class bipu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bipu f121213d;
@@ -28,7 +28,7 @@ public final class bipu extends bxvk implements bxxd {
     static {
         bipu bipu = new bipu();
         f121213d = bipu;
-        bxvk.m124024a(bipu.class, bipu);
+        GeneratedMessageLite.m124024a(bipu.class, bipu);
     }
 
     private bipu() {
@@ -49,7 +49,7 @@ public final class bipu extends bxvk implements bxxd {
             this.f121219f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121213d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0001\u0001ᔌ\u0000\u0002ဋ\u0001\u0003\u001d", new Object[]{"e", "a", bips.f121212a, "b", "c"});
+            return GeneratedMessageLite.m124022a(f121213d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0001\u0001ᔌ\u0000\u0002ဋ\u0001\u0003\u001d", new Object[]{"e", "a", bips.f121212a, "b", "c"});
         } else if (i2 == 3) {
             return new bipu();
         } else {

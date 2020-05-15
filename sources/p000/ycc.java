@@ -13,7 +13,7 @@ import com.google.android.gms.fido.u2f.api.view.ViewOptions;
 public final class ycc implements yas {
 
     /* renamed from: j */
-    private static final sek f53581j = new sek(new String[]{"ViewPresenter"}, (short[]) null);
+    private static final Logger f53581j = new Logger(new String[]{"ViewPresenter"}, (short[]) null);
 
     /* renamed from: a */
     public final xic f53582a;

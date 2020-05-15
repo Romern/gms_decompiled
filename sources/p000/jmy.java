@@ -12,7 +12,7 @@ final /* synthetic */ class jmy implements Callable {
     }
 
     public final Object call() {
-        sek sek = jnc.f22855a;
+        Logger Logger = jnc.f22855a;
         return jpx.m17092b(rpr.m34216b());
     }
 }

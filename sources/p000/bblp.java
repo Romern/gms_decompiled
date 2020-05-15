@@ -53,16 +53,16 @@ public final class bblp implements bbks {
             bler = bler.f126245D;
         }
         bxvd bxvd = (bxvd) btdb.mo74142c(5);
-        bxvd.mo73625a((bxvk) btdb);
+        bxvd.mo73625a((GeneratedMessageLite) btdb);
         btda btda = (btda) bxvd;
         if (btda.f164950c) {
             btda.mo74035c();
             btda.f164950c = false;
         }
         btdb btdb2 = btdb.f148370b;
-        ((btdb) btda.f164949b).f148372a = bxvk.m124030de();
+        ((btdb) btda.f164949b).f148372a = GeneratedMessageLite.m124030de();
         bxvd bxvd2 = (bxvd) btec.mo74142c(5);
-        bxvd2.mo73625a((bxvk) btec);
+        bxvd2.mo73625a((GeneratedMessageLite) btec);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;
@@ -70,13 +70,13 @@ public final class bblp implements bbks {
         btec btec2 = btec.f148490c;
         ((btec) bxvd2.f164949b).f148492a = null;
         bxvd bxvd3 = (bxvd) bler.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bler);
+        bxvd3.mo73625a((GeneratedMessageLite) bler);
         bleq bleq = (bleq) bxvd3;
         if (bleq.f164950c) {
             bleq.mo74035c();
             bleq.f164950c = false;
         }
-        ((bler) bleq.f164949b).f126255e = bxvk.m124030de();
+        ((bler) bleq.f164949b).f126255e = GeneratedMessageLite.m124030de();
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;

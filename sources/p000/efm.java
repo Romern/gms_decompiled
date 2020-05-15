@@ -23,7 +23,7 @@ public final class efm extends dwu implements dqm {
             return dps.f13792a;
         }
         try {
-            bxqs bxqs = (bxqs) bxvk.m124016a(bxqs.f164423c, a.mo26593c(), bxus.m123744c());
+            bxqs bxqs = (bxqs) GeneratedMessageLite.m124016a(bxqs.f164423c, a.mo26593c(), bxus.m123744c());
             new Object[1][0] = bxqs;
             dwq.m9681y();
             doh b = dof.m8924b(bxqs.f164426b);

@@ -42,7 +42,7 @@ public final class bbhz extends cazu {
         Pair pair = (Pair) bbho.f102661a.f102663b.mo6606a();
         byfq byfq = (byfq) ((byfq) ((byfq) ciih.m150373a(new byfp(), (chqp) list.get(0))).mo86138a((chqm) list.get(1))).mo86137a(((Long) pair.first).longValue(), (TimeUnit) pair.second);
         bxvd da = byft.f166062d.mo74144da();
-        for (bxtx bxtx : (Iterable) list.get(2)) {
+        for (ByteString bxtx : (Iterable) list.get(2)) {
             bxvd da2 = byfs.f166058c.mo74144da();
             if (da2.f164950c) {
                 da2.mo74035c();
@@ -60,7 +60,7 @@ public final class bbhz extends cazu {
             byfs byfs2 = (byfs) da2.mo74062i();
             byfs2.getClass();
             if (!byft.f166065b.mo73666a()) {
-                byft.f166065b = bxvk.m124021a(byft.f166065b);
+                byft.f166065b = GeneratedMessageLite.m124021a(byft.f166065b);
             }
             byft.f166065b.add(byfs2);
         }

@@ -19,7 +19,7 @@ public final class bbin {
 
     /* renamed from: a */
     public final void mo56151a(int i, bbic bbic) {
-        qwo a = this.f102746a.mo24335a(bbic.mo73642k());
+        qwo a = this.f102746a.mo24335a(bbic.serializeToBytes());
         a.mo24328b(i - 1);
         a.mo24327b();
         if (this.f102747b.mo34094a()) {

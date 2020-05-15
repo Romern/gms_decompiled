@@ -69,7 +69,7 @@ public final class avay extends avau {
                             da.mo74035c();
                             da.f164950c = false;
                         }
-                        ((bxrt) da.f164949b).f164608h = bxvk.m124030de();
+                        ((bxrt) da.f164949b).f164608h = GeneratedMessageLite.m124030de();
                         List list = a5.f92943b;
                         if (da.f164950c) {
                             da.mo74035c();
@@ -77,7 +77,7 @@ public final class avay extends avau {
                         }
                         bxrt bxrt3 = (bxrt) da.f164949b;
                         if (!bxrt3.f164608h.mo73666a()) {
-                            bxrt3.f164608h = bxvk.m124021a(bxrt3.f164608h);
+                            bxrt3.f164608h = GeneratedMessageLite.m124021a(bxrt3.f164608h);
                         }
                         bxsy.m123078a(list, bxrt3.f164608h);
                     }
@@ -123,7 +123,7 @@ public final class avay extends avau {
             sb2.append(a6);
             sb2.append("/consentConfig?alt=proto");
             sb.append(sb2.toString());
-            bxru bxru = (bxru) sgv.mo25513a(clientContext, 1, sb.toString(), bxrt5.mo73642k(), bxru.f164610n);
+            bxru bxru = (bxru) sgv.mo25513a(clientContext, 1, sb.toString(), bxrt5.serializeToBytes(), bxru.f164610n);
             avap.mo51120a("FetchConsentConfig", (String) null);
             bxrf bxrf = bxru.f164613b;
             if (bxrf == null) {
@@ -131,7 +131,7 @@ public final class avay extends avau {
             }
             aviz.m78599a(bxrf, this.f92882c, c);
             mo51131a(0);
-            this.f92883d.mo51163c(Status.f30107a, bxru.mo73642k());
+            this.f92883d.mo51163c(Status.f30107a, bxru.serializeToBytes());
         } catch (gid e) {
             avap.mo51120a("FetchConsentConfig", "AUTH");
             throw e;

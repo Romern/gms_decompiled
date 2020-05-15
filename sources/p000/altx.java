@@ -88,6 +88,6 @@ final class altx implements alua {
             i3++;
         }
         amoi.mo41223a(this.f74275b.subList(0, i3));
-        return ((amoj) amoi.mo74062i()).mo73642k();
+        return ((amoj) amoi.mo74062i()).serializeToBytes();
     }
 }

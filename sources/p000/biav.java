@@ -56,10 +56,10 @@ public final class biav implements Callable {
             bvml bvml3 = (bvml) da.f164949b;
             bvmo.getClass();
             if (!bvml3.f156757e.mo73666a()) {
-                bvml3.f156757e = bxvk.m124021a(bvml3.f156757e);
+                bvml3.f156757e = GeneratedMessageLite.m124021a(bvml3.f156757e);
             }
             bvml3.f156757e.add(bvmo);
         }
-        return (bvmm) sgv.mo25517a("getPlaceInferenceModelWeights", ((bvml) da.mo74062i()).mo73642k(), bvmm.f156758d, biam.f120055c, biam.f120056d, cggs.m145360c(), 10269);
+        return (bvmm) sgv.mo25517a("getPlaceInferenceModelWeights", ((bvml) da.mo74062i()).serializeToBytes(), bvmm.f156758d, biam.f120055c, biam.f120056d, cggs.m145360c(), 10269);
     }
 }

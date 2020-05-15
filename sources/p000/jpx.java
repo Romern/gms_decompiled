@@ -17,7 +17,7 @@ import java.util.concurrent.TimeoutException;
 public final class jpx extends aaab {
 
     /* renamed from: a */
-    private static final sek f23016a = jsy.m17256a("GetSyncedDevices");
+    private static final Logger f23016a = jsy.m17256a("GetSyncedDevices");
 
     /* renamed from: b */
     private static final long f23017b = TimeUnit.SECONDS.toMillis(5);

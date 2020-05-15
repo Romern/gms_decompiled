@@ -17,7 +17,7 @@ public final class bssg extends bxvd implements bxxd {
         bssh bssh2 = bssh.f146859b;
         btuh.getClass();
         if (!bssh.f146861a.mo73666a()) {
-            bssh.f146861a = bxvk.m124019a(bssh.f146861a);
+            bssh.f146861a = GeneratedMessageLite.m124019a(bssh.f146861a);
         }
         bssh.f146861a.mo74153d(btuh.f150490y);
     }

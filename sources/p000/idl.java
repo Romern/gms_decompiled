@@ -7,7 +7,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 class idl extends aaab {
 
     /* renamed from: a */
-    protected static final sek f20761a = new sek("Auth.Api.SignIn", "BaseGoogleSignInOperation");
+    protected static final Logger f20761a = new Logger("Auth.Api.SignIn", "BaseGoogleSignInOperation");
 
     /* renamed from: b */
     protected final String f20762b;

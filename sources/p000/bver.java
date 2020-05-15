@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bver */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bver extends bxvk implements bxxd {
+public final class bver extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bver f155782d;
@@ -22,7 +22,7 @@ public final class bver extends bxvk implements bxxd {
     static {
         bver bver = new bver();
         f155782d = bver;
-        bxvk.m124024a(bver.class, bver);
+        GeneratedMessageLite.m124024a(bver.class, bver);
     }
 
     private bver() {
@@ -39,7 +39,7 @@ public final class bver extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155782d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", bvid.f156128a, "c"});
+            return GeneratedMessageLite.m124022a(f155782d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", bvid.f156128a, "c"});
         } else if (i2 == 3) {
             return new bver();
         } else {

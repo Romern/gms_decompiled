@@ -13,6 +13,6 @@ public final class awfi implements qwq {
 
     /* renamed from: a */
     public final byte[] mo14930a() {
-        return this.f94269a.mo73642k();
+        return this.f94269a.serializeToBytes();
     }
 }

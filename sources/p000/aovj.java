@@ -61,7 +61,7 @@ public final class aovj extends aovg {
         }
         blrj a3 = aoww.m69746a(this.f83680i);
         bxvd bxvd = (bxvd) a3.mo74142c(5);
-        bxvd.mo73625a((bxvk) a3);
+        bxvd.mo73625a((GeneratedMessageLite) a3);
         blov blov = ((blrj) bxvd.f164949b).f127476s;
         if (blov == null) {
             blov = blov.f127149f;

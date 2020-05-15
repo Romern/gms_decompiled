@@ -47,7 +47,7 @@ public class aaxl extends aarw {
     public final Response parseNetworkResponse(NetworkResponse networkResponse) {
         if (networkResponse.statusCode == 200) {
             try {
-                return Response.success((bzqe) bxvk.m124016a(bzqe.f170976d, networkResponse.data, bxus.m123744c()), null);
+                return Response.success((bzqe) GeneratedMessageLite.m124016a(bzqe.f170976d, networkResponse.data, bxus.m123744c()), null);
             } catch (bxwf e) {
                 Log.e("gH_ChatSupportRequest", "Parsing ChatRequestStatus failed!", e);
             }

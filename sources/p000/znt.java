@@ -141,7 +141,7 @@ public final class znt implements zns {
             bpgs bpgs2 = bpgs.f137551i;
             bpgt.getClass();
             if (!bpgs.f137554b.mo73666a()) {
-                bpgs.f137554b = bxvk.m124021a(bpgs.f137554b);
+                bpgs.f137554b = GeneratedMessageLite.m124021a(bpgs.f137554b);
             }
             bpgs.f137554b.add(bpgt);
         }

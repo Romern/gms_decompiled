@@ -77,7 +77,7 @@ public final class ahcx implements bvat {
                 if (buzq2 == null) {
                     buzq2 = buzq.f155418c;
                 }
-                byte[] k = buzq2.f155421b.mo73780k();
+                byte[] k = buzq2.f155421b.getKey();
                 ahcy ahcy3 = this.f67019a;
                 try {
                     SystemClock.elapsedRealtime();

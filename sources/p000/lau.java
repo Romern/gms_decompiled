@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lau */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lau extends bxvk implements bxxd {
+public final class lau extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final lau f25613i;
@@ -37,7 +37,7 @@ public final class lau extends bxvk implements bxxd {
     static {
         lau lau = new lau();
         f25613i = lau;
-        bxvk.m124024a(lau.class, lau);
+        GeneratedMessageLite.m124024a(lau.class, lau);
     }
 
     private lau() {
@@ -55,7 +55,7 @@ public final class lau extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25613i, "\u0000\b\u0000\u0000\u0003\n\b\u0000\u0000\u0000\u0003\u0002\u0004\u0007\u0005\u0007\u0006\t\u0007\t\b\f\t\f\n\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f25613i, "\u0000\b\u0000\u0000\u0003\n\b\u0000\u0000\u0000\u0003\u0002\u0004\u0007\u0005\u0007\u0006\t\u0007\t\b\f\t\f\n\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new lau();
         } else {

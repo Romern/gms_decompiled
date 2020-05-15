@@ -88,7 +88,7 @@ final class bhyh implements bhyu {
                 }
                 bvll bvll2 = (bvll) da.f164949b;
                 if (!bvll2.f156562b.mo73666a()) {
-                    bvll2.f156562b = bxvk.m124020a(bvll2.f156562b);
+                    bvll2.f156562b = GeneratedMessageLite.m124020a(bvll2.f156562b);
                 }
                 bxsy.m123078a(iterable, bvll2.f156562b);
                 arrayList.add((bvll) da.mo74062i());

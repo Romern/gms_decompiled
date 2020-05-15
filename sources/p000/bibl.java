@@ -18,7 +18,7 @@ public final class bibl extends bibc {
         bvlh bvlh = (bvlh) obj;
         bonq a = super.mo64506a(i, j, placesParams, bvlh);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bxvd da = bpro.f138878d.mo74144da();
         int i3 = this.f120134b;
         if (da.f164950c) {
@@ -46,13 +46,13 @@ public final class bibl extends bibc {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         if (bxvd3.f164950c) {
             bxvd3.mo74035c();
             bxvd3.f164950c = false;
@@ -85,7 +85,7 @@ public final class bibl extends bibc {
 
     /* JADX WARNING: Illegal instructions before constructor call */
     public bibl(sgv sgv, Context context, String str, String str2, LatLngBounds latLngBounds, int i, String str3, PlacesParams placesParams) {
-        super(sgv, str, str2, str3, ((bvlg) r1.mo74062i()).mo73642k(), bvlh.f156535c, 11, 10275);
+        super(sgv, str, str2, str3, ((bvlg) r1.mo74062i()).serializeToBytes(), bvlh.f156535c, 11, 10275);
         int i2 = i;
         bxvd da = bvlg.f156529e.mo74144da();
         bvov a = bian.m101870a(context, placesParams);

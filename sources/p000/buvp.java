@@ -25,7 +25,7 @@ public final class buvp extends bvbj {
         if (buzu == null) {
             buzu = buzu.f155430c;
         }
-        String a = bvau.m120845a(buzu.f155433b.mo73780k());
+        String a = bvau.m120845a(buzu.f155433b.getKey());
         srn srn = bvcm.f155598a;
         return new buvo(this.f155071a, true, a);
     }
@@ -42,7 +42,7 @@ public final class buvp extends bvbj {
             if (buzu2 == null) {
                 buzu2 = buzu.f155430c;
             }
-            String a = bvau.m120845a(buzu2.f155433b.mo73780k());
+            String a = bvau.m120845a(buzu2.f155433b.getKey());
             Iterator it = set.iterator();
             while (it.hasNext()) {
                 buvo buvo = (buvo) it.next();

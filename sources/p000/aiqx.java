@@ -83,7 +83,7 @@ final class aiqx implements bluw {
     /* renamed from: b */
     public final void mo37869b(byte[] bArr) {
         try {
-            bvgi bvgi = (bvgi) bxvk.m124014a(bvgi.f156000e, bArr);
+            bvgi bvgi = (bvgi) GeneratedMessageLite.m124014a(bvgi.f156000e, bArr);
             int a = bvgh.m121088a(bvgi.f156003b);
             int i = 1;
             if (a == 0) {
@@ -102,7 +102,7 @@ final class aiqx implements bluw {
                 if (bvge == null) {
                     bvge = bvge.f155990c;
                 }
-                byte[] k = bvge.f155993b.mo73780k();
+                byte[] k = bvge.f155993b.getKey();
                 byte[] bArr3 = aiqy.f69521a;
                 aiqy2.mo37874a(k);
             } else {
@@ -119,7 +119,7 @@ final class aiqx implements bluw {
                 if (bvgf2 == null) {
                     bvgf2 = bvgf.f155994d;
                 }
-                byte[] k2 = bvgf2.f155997b.mo73780k();
+                byte[] k2 = bvgf2.f155997b.getKey();
                 aiqy aiqy3 = this.f69520a;
                 byte[] bArr4 = aiqy.f69521a;
                 if (aiqy3.f69526f == null) {

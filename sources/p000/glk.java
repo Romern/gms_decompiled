@@ -11,7 +11,7 @@ import java.lang.ref.WeakReference;
 public final class glk implements glj {
 
     /* renamed from: a */
-    private static final sek f18470a = ght.m13171a("DataBlockManagerHelper");
+    private static final Logger f18470a = ght.m13171a("DataBlockManagerHelper");
 
     /* renamed from: b */
     private static WeakReference f18471b = new WeakReference(null);
@@ -58,7 +58,7 @@ public final class glk implements glj {
             synchronized (this.f18473d) {
                 byte[] read = this.f18472c.read();
                 if (read != null && read.length != 0) {
-                    imc imc = (imc) bxvk.m124016a(imc.f21341d, read, bxus.m123744c());
+                    imc imc = (imc) GeneratedMessageLite.m124016a(imc.f21341d, read, bxus.m123744c());
                     return imc;
                 }
             }
@@ -76,7 +76,7 @@ public final class glk implements glj {
                 f18470a.mo25416d("Supplied DataBlockContainer is null. Proceeding to erase stored data.", new Object[0]);
                 bArr = new byte[0];
             } else {
-                bArr = imc.mo73642k();
+                bArr = imc.serializeToBytes();
             }
             synchronized (this.f18473d) {
                 try {

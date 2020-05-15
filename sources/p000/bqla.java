@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqla */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqla extends bxvk implements bxxd {
+public final class bqla extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bqla f141070a;
@@ -13,7 +13,7 @@ public final class bqla extends bxvk implements bxxd {
     static {
         bqla bqla = new bqla();
         f141070a = bqla;
-        bxvk.m124024a(bqla.class, bqla);
+        GeneratedMessageLite.m124024a(bqla.class, bqla);
     }
 
     private bqla() {
@@ -30,7 +30,7 @@ public final class bqla extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f141070a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f141070a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bqla();

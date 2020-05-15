@@ -68,7 +68,7 @@ public class ActivityTransitionRequest extends AbstractSafeParcelable {
 
     public ActivityTransitionRequest(List list, String str, List list2) {
         boolean z;
-        sdo.m34966a(list, "transitions can't be null");
+        sdo.checkIfNull(list, "transitions can't be null");
         if (list.size() > 0) {
             z = true;
         } else {

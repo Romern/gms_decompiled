@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvrj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvrj extends bxvk implements bxxd {
+public final class bvrj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvrj f157440a;
@@ -13,7 +13,7 @@ public final class bvrj extends bxvk implements bxxd {
     static {
         bvrj bvrj = new bvrj();
         f157440a = bvrj;
-        bxvk.m124024a(bvrj.class, bvrj);
+        GeneratedMessageLite.m124024a(bvrj.class, bvrj);
     }
 
     private bvrj() {
@@ -30,7 +30,7 @@ public final class bvrj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157440a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f157440a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvrj();

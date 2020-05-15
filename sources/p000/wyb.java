@@ -315,7 +315,7 @@ public final class wyb extends Thread {
                 }
                 byma byma5 = (byma) da5.f164949b;
                 if (!byma5.f166982e.mo73666a()) {
-                    byma5.f166982e = bxvk.m124021a(byma5.f166982e);
+                    byma5.f166982e = GeneratedMessageLite.m124021a(byma5.f166982e);
                 }
                 bxsy.m123078a(asList, byma5.f166982e);
             }
@@ -695,7 +695,7 @@ public final class wyb extends Thread {
                             bylo bylo5 = (bylo) da14.mo74062i();
                             bylo5.getClass();
                             if (!bymc2.f167002d.mo73666a()) {
-                                bymc2.f167002d = bxvk.m124021a(bymc2.f167002d);
+                                bymc2.f167002d = GeneratedMessageLite.m124021a(bymc2.f167002d);
                             }
                             bymc2.f167002d.add(bylo5);
                         }
@@ -778,7 +778,7 @@ public final class wyb extends Thread {
                     bylr bylr11 = (bylr) da2.f164949b;
                     bylz3.getClass();
                     if (!bylr11.f166932n.mo73666a()) {
-                        bylr11.f166932n = bxvk.m124021a(bylr11.f166932n);
+                        bylr11.f166932n = GeneratedMessageLite.m124021a(bylr11.f166932n);
                     }
                     bylr11.f166932n.add(bylz3);
                 }
@@ -810,7 +810,7 @@ public final class wyb extends Thread {
                     }
                     bylv bylv2 = (bylv) da16.f164949b;
                     if (!bylv2.f166950b.mo73666a()) {
-                        bylv2.f166950b = bxvk.m124021a(bylv2.f166950b);
+                        bylv2.f166950b = GeneratedMessageLite.m124021a(bylv2.f166950b);
                     }
                     bxsy.m123078a(list2, bylv2.f166950b);
                 }
@@ -927,7 +927,7 @@ public final class wyb extends Thread {
                 byll byll5 = (byll) da.f164949b;
                 bylx3.getClass();
                 if (!byll5.f166876f.mo73666a()) {
-                    byll5.f166876f = bxvk.m124021a(byll5.f166876f);
+                    byll5.f166876f = GeneratedMessageLite.m124021a(byll5.f166876f);
                 }
                 byll5.f166876f.add(bylx3);
             }
@@ -959,7 +959,7 @@ public final class wyb extends Thread {
                     "application/gzip".getClass();
                     bylw.f166954a = i | 2;
                     bylw.f166956c = "application/gzip";
-                    bxtx a2 = bxtx.m123261a(byteArray);
+                    ByteString a2 = ByteString.m123261a(byteArray);
                     if (da3.f164950c) {
                         da3.mo74035c();
                         da3.f164950c = false;
@@ -976,7 +976,7 @@ public final class wyb extends Thread {
                     byll byll6 = (byll) da.f164949b;
                     bylw3.getClass();
                     if (!byll6.f166875e.mo73666a()) {
-                        byll6.f166875e = bxvk.m124021a(byll6.f166875e);
+                        byll6.f166875e = GeneratedMessageLite.m124021a(byll6.f166875e);
                     }
                     byll6.f166875e.add(bylw3);
                 } catch (Exception e) {

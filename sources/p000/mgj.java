@@ -109,7 +109,7 @@ public final class mgj implements mhv {
     private final void m25055h() {
         this.f33634l = false;
         if (this.f33632j != 1) {
-            f33623a.mo25409a("Starting the protocol.", new Object[0]);
+            f33623a.logVerbose("Starting the protocol.", new Object[0]);
             this.f33631i.f33745d.mo20105e();
         } else {
             this.f33631i.mo20044c();
@@ -127,7 +127,7 @@ public final class mgj implements mhv {
             f33623a.mo25416d("Protocol already initialized for WiFi D2D.", new Object[0]);
             return;
         }
-        f33623a.mo25409a("Creating protocol for WiFi D2D.", new Object[0]);
+        f33623a.logVerbose("Creating protocol for WiFi D2D.", new Object[0]);
         this.f33635m = true;
         if (ccop.m131033c()) {
             this.f33630h.f33542k = 7;
@@ -139,7 +139,7 @@ public final class mgj implements mhv {
 
     /* renamed from: b */
     public final void mo19985b() {
-        f33623a.mo25409a("Report state to UI requested: %s", Integer.valueOf(this.f33632j));
+        f33623a.logVerbose("Report state to UI requested: %s", Integer.valueOf(this.f33632j));
         if (this.f33633k != null) {
             mo19986c();
         }
@@ -209,7 +209,7 @@ public final class mgj implements mhv {
             mow mow2 = (mow) da.mo74062i();
             mpm b = mhu.m25130b(mpl.AUTHORIZATION_GRANTED);
             bxvd bxvd = (bxvd) b.mo74142c(5);
-            bxvd.mo73625a((bxvk) b);
+            bxvd.mo73625a((GeneratedMessageLite) b);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -263,7 +263,7 @@ public final class mgj implements mhv {
         } else if (i == 7) {
             i2 = 61;
         } else if (i != 8) {
-            f33623a.mo25409a("Did not find a log state for %d", Integer.valueOf(i));
+            f33623a.logVerbose("Did not find a log state for %d", Integer.valueOf(i));
             i2 = 1;
         } else {
             i2 = 91;
@@ -367,7 +367,7 @@ public final class mgj implements mhv {
                 return;
             }
         }
-        f33623a.mo25409a("Creating protocol for USB D2D.", new Object[0]);
+        f33623a.logVerbose("Creating protocol for USB D2D.", new Object[0]);
         try {
             mkn a = mkl.mo19869a();
             this.f33635m = false;

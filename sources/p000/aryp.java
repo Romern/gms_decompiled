@@ -21,7 +21,7 @@ import java.util.Map;
 public final class aryp extends Fragment implements bizt {
 
     /* renamed from: a */
-    public static final sek f88459a = ascp.m73787a("Setup", "UI", "RecyclerLayoutDiscoveryFragment");
+    public static final Logger f88459a = ascp.m73787a("Setup", "UI", "RecyclerLayoutDiscoveryFragment");
 
     /* renamed from: b */
     public aryn f88460b;

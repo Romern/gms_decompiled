@@ -76,7 +76,7 @@ public final class yyl {
         for (int i = 0; i < size; i++) {
             cadn cadn = (cadn) bxwc.get(i);
             bxvd bxvd = (bxvd) cadn.mo74142c(5);
-            bxvd.mo73625a((bxvk) cadn);
+            bxvd.mo73625a((GeneratedMessageLite) cadn);
             cadm cadm = (cadm) bxvd;
             if (cadm.f164950c) {
                 cadm.mo74035c();

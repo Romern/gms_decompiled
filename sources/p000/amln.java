@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amln */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amln extends bxvk implements bxxd {
+public final class amln extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final amln f75192d;
@@ -22,7 +22,7 @@ public final class amln extends bxvk implements bxxd {
     static {
         amln amln = new amln();
         f75192d = amln;
-        bxvk.m124024a(amln.class, amln);
+        GeneratedMessageLite.m124024a(amln.class, amln);
     }
 
     private amln() {
@@ -39,7 +39,7 @@ public final class amln extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75192d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", amll.f75191a, "c"});
+            return GeneratedMessageLite.m124022a(f75192d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", amll.f75191a, "c"});
         } else if (i2 == 3) {
             return new amln();
         } else {

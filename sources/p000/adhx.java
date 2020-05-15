@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adhx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adhx extends bxvk implements bxxd {
+public final class adhx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final adhx f61745d;
@@ -22,7 +22,7 @@ public final class adhx extends bxvk implements bxxd {
     static {
         adhx adhx = new adhx();
         f61745d = adhx;
-        bxvk.m124024a(adhx.class, adhx);
+        GeneratedMessageLite.m124024a(adhx.class, adhx);
     }
 
     private adhx() {
@@ -39,7 +39,7 @@ public final class adhx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61745d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\t\u0002\t\u0003\u0007", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f61745d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\t\u0002\t\u0003\u0007", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new adhx();
         } else {

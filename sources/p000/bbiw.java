@@ -126,7 +126,7 @@ public final class bbiw {
                     bbig bbig3 = (bbig) da2.mo74062i();
                     bbig3.getClass();
                     if (!bbih5.f102725i.mo73666a()) {
-                        bbih5.f102725i = bxvk.m124021a(bbih5.f102725i);
+                        bbih5.f102725i = GeneratedMessageLite.m124021a(bbih5.f102725i);
                     }
                     bbih5.f102725i.add(bbig3);
                 }

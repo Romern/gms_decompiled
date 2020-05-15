@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bylz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bylz extends bxvk implements bxxd {
+public final class bylz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bylz f166971d;
@@ -22,7 +22,7 @@ public final class bylz extends bxvk implements bxxd {
     static {
         bylz bylz = new bylz();
         f166971d = bylz;
-        bxvk.m124024a(bylz.class, bylz);
+        GeneratedMessageLite.m124024a(bylz.class, bylz);
     }
 
     private bylz() {
@@ -39,7 +39,7 @@ public final class bylz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166971d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဂ\u0002", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f166971d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဂ\u0002", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bylz();
         } else {

@@ -82,7 +82,7 @@ final /* synthetic */ class yru implements Callable {
         if (cabq == null) {
             cabq = cabq.f172465b;
         }
-        cacr cacr = (cacr) sgv.mo25513a(clientContext, 1, sb5, cabq.mo73642k(), cacr.f172605f);
+        cacr cacr = (cacr) sgv.mo25513a(clientContext, 1, sb5, cabq.serializeToBytes(), cacr.f172605f);
         if (cacr.f172610d.size() <= 0) {
             return yrf.m44653a(cacr);
         }

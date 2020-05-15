@@ -14,7 +14,7 @@ import java.util.Random;
 public final class qvi {
 
     /* renamed from: a */
-    public static final sek f42228a = qqu.m32671b("AffiliationManager");
+    public static final Logger f42228a = qqu.m32671b("AffiliationManager");
 
     /* renamed from: b */
     public static final imo f42229b = new qvh();
@@ -111,9 +111,9 @@ public final class qvi {
                         if (!cdda.m132670b() || "com.android.vending".equals(this.f42236i.getInstallerPackageName(packageInfo.packageName))) {
                             bmxv a5 = qqt.m32666a(this.f42234g, packageInfo.packageName);
                             if (!a5.mo66813a()) {
-                                sek sek = f42228a;
+                                Logger Logger = f42228a;
                                 String valueOf = String.valueOf(packageInfo.packageName);
-                                sek.mo25414c(valueOf.length() == 0 ? new String("Failed to get password domain for package: ") : "Failed to get password domain for package: ".concat(valueOf), new Object[0]);
+                                Logger.mo25414c(valueOf.length() == 0 ? new String("Failed to get password domain for package: ") : "Failed to get password domain for package: ".concat(valueOf), new Object[0]);
                             } else {
                                 j3.mo67668c((String) a5.mo66814b());
                             }

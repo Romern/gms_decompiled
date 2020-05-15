@@ -69,7 +69,7 @@ public final class azho {
         bxvd da = cbgt.f177082e.mo74144da();
         cbmo a = azfn.m85575a(bArr);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         String str3 = "FB";
         if (!aznz.mo55108f()) {
             if (!TextUtils.equals(aznz.f99775b, "BMMerchant")) {

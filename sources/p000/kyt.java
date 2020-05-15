@@ -23,7 +23,7 @@ public final class kyt extends wvd {
         int size = a.size();
         for (int i = 0; i < size; i++) {
             kwh kwh = (kwh) a.get(i);
-            byte[] k = kwh.mo73642k();
+            byte[] k = kwh.serializeToBytes();
             long j = kwh.f25264b;
             StringBuilder sb = new StringBuilder(39);
             sb.append(j);

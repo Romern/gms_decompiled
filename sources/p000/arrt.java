@@ -15,11 +15,11 @@ public final class arrt extends AdvertiseCallback {
     }
 
     public final void onStartFailure(int i) {
-        sek sek = arrv.f88192j;
+        Logger Logger = arrv.f88192j;
         StringBuilder sb = new StringBuilder(37);
         sb.append("Start advertising failed: ");
         sb.append(i);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         this.f88186a.f88197i = null;
     }
 

@@ -20,7 +20,7 @@ final /* synthetic */ class hlq implements bmzi {
     public final Object mo6606a() {
         qqa qqa = this.f19990b;
         Bundle bundle = this.f19989a;
-        sek sek = hmc.f20015a;
+        Logger Logger = hmc.f20015a;
         return adbb.m50100a(qqa.mo24200a(bundle));
     }
 }

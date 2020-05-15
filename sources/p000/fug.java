@@ -187,7 +187,7 @@ public final class fug extends AsyncTask {
                 instance.initVerify(KeyFactory.getInstance("EC").generatePublic(new X509EncodedKeySpec(sqd.m35966a(cbvz.f178436a.mo6606a().mo75535r()))));
                 instance.update(a);
                 if (instance.verify(sqd.m35966a(stringExtra))) {
-                    bzet = (bzet) bxvk.m124016a(bzet.f169719f, a, bxus.m123744c());
+                    bzet = (bzet) GeneratedMessageLite.m124016a(bzet.f169719f, a, bxus.m123744c());
                 }
             } catch (Exception e) {
             }

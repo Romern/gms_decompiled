@@ -10,7 +10,7 @@ import com.android.volley.toolbox.StringRequest;
 public final class aqjd {
 
     /* renamed from: a */
-    public static final sek f86192a = new sek("SetupServices", "UpdateableStringHelper");
+    public static final Logger f86192a = new Logger("SetupServices", "UpdateableStringHelper");
 
     /* renamed from: a */
     public static aucb m71716a(String str) {

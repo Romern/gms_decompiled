@@ -41,7 +41,7 @@ public abstract class ahgx extends ahgw {
     /* renamed from: a */
     public final byte[] mo36467c(bxxc bxxc) {
         try {
-            return bxxc.mo73642k();
+            return bxxc.serializeToBytes();
         } catch (OutOfMemoryError e) {
             bnsl bnsl = (bnsl) ahfp.f67119a.mo68387b();
             bnsl.mo68437a(e);

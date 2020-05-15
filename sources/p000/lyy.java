@@ -936,7 +936,7 @@ final /* synthetic */ class lyy implements Callable {
         if (r8.f146972b.mo73666a() != false) goto L_0x08fa;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:508:0x08f2, code lost:
-        r8.f146972b = p000.bxvk.m124021a(r8.f146972b);
+        r8.f146972b = p000.GeneratedMessageLite.m124021a(r8.f146972b);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:509:0x08fa, code lost:
         p000.bxsy.m123078a(r5, r8.f146972b);
@@ -961,7 +961,7 @@ final /* synthetic */ class lyy implements Callable {
         if (r8.f146973c.mo73666a() != false) goto L_0x092d;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:519:0x0925, code lost:
-        r8.f146973c = p000.bxvk.m124021a(r8.f146973c);
+        r8.f146973c = p000.GeneratedMessageLite.m124021a(r8.f146973c);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:520:0x092d, code lost:
         p000.bxsy.m123078a(r5, r8.f146973c);
@@ -986,7 +986,7 @@ final /* synthetic */ class lyy implements Callable {
         if (r8.f146986p.mo73666a() != false) goto L_0x0960;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:530:0x0958, code lost:
-        r8.f146986p = p000.bxvk.m124021a(r8.f146986p);
+        r8.f146986p = p000.GeneratedMessageLite.m124021a(r8.f146986p);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:531:0x0960, code lost:
         p000.bxsy.m123078a(r5, r8.f146986p);
@@ -1011,7 +1011,7 @@ final /* synthetic */ class lyy implements Callable {
         if (r8.f146988r.mo73666a() != false) goto L_0x0993;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:541:0x098b, code lost:
-        r8.f146988r = p000.bxvk.m124021a(r8.f146988r);
+        r8.f146988r = p000.GeneratedMessageLite.m124021a(r8.f146988r);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:542:0x0993, code lost:
         p000.bxsy.m123078a(r5, r8.f146988r);
@@ -1037,7 +1037,7 @@ final /* synthetic */ class lyy implements Callable {
         if (r14.f146989s.mo73666a() != false) goto L_0x09c8;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:552:0x09c0, code lost:
-        r14.f146989s = p000.bxvk.m124021a(r14.f146989s);
+        r14.f146989s = p000.GeneratedMessageLite.m124021a(r14.f146989s);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:553:0x09c8, code lost:
         p000.bxsy.m123078a(r5, r14.f146989s);
@@ -1064,7 +1064,7 @@ final /* synthetic */ class lyy implements Callable {
         if (r15.f146974d.mo73666a() != false) goto L_0x09fe;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:562:0x09f6, code lost:
-        r15.f146974d = p000.bxvk.m124021a(r15.f146974d);
+        r15.f146974d = p000.GeneratedMessageLite.m124021a(r15.f146974d);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:563:0x09fe, code lost:
         p000.bxsy.m123078a(r5, r15.f146974d);
@@ -1261,7 +1261,7 @@ final /* synthetic */ class lyy implements Callable {
         ? r21;
         boolean z3;
         lyz lyz = this.f33230a;
-        lyz.f33231a.mo25409a("Starting contact backup async", new Object[0]);
+        lyz.f33231a.logVerbose("Starting contact backup async", new Object[0]);
         bste bste = bste.f146996b;
         try {
             lzg lzg = new lzg(lyz.f33232b);
@@ -1710,7 +1710,7 @@ final /* synthetic */ class lyy implements Callable {
             }
             bste bste2 = (bste) da2.f164949b;
             if (!bste2.f146998a.mo73666a()) {
-                bste2.f146998a = bxvk.m124021a(bste2.f146998a);
+                bste2.f146998a = GeneratedMessageLite.m124021a(bste2.f146998a);
             }
             bxsy.m123078a(iterable, bste2.f146998a);
             bste bste3 = (bste) da2.mo74062i();

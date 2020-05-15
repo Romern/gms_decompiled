@@ -172,7 +172,7 @@ public final class dfy extends dez {
                     return dky2;
                 }
                 try {
-                    dky a = dky.m8762a((Iterable) ((boju) bxvk.m124013a(boju.f133349e, __vector_as_bytebuffer, bxus.m123743b())).f133352b, dhz.f13197a);
+                    dky a = dky.m8762a((Iterable) ((boju) GeneratedMessageLite.m124013a(boju.f133349e, __vector_as_bytebuffer, bxus.m123743b())).f133352b, dhz.f13197a);
                     this.f13039l = a;
                     return a;
                 } catch (bxwf e) {
@@ -278,9 +278,9 @@ public final class dfy extends dez {
             if (a == null) {
                 bxvd = m8335o();
             } else {
-                dip dip = (dip) bxvk.m124016a(dip.f13254e, a, bxus.m123743b());
+                dip dip = (dip) GeneratedMessageLite.m124016a(dip.f13254e, a, bxus.m123743b());
                 bxvd bxvd2 = (bxvd) dip.mo74142c(5);
-                bxvd2.mo73625a((bxvk) dip);
+                bxvd2.mo73625a((GeneratedMessageLite) dip);
                 bxvd = ((dip) bxvd2.f164949b).f13257b != 15 ? m8335o() : bxvd2;
             }
         } catch (bxwf e) {
@@ -1057,7 +1057,7 @@ public final class dfy extends dez {
 
     /* renamed from: a */
     public final boolean mo8892a(bxvd bxvd) {
-        byte[] k = ((dip) bxvd.mo74062i()).mo73642k();
+        byte[] k = ((dip) bxvd.mo74062i()).serializeToBytes();
         File file = new File(this.f12991b, "pending_modules_init.pb");
         File h = mo8900h();
         if (dft.m8316a(k, file, h, false) != 0) {
@@ -1661,7 +1661,7 @@ public final class dfy extends dez {
                                 dht = (dht) list.get(i3);
                                 din f = dht.mo8914f();
                                 bxvd bxvd = (bxvd) f.mo74142c(i2);
-                                bxvd.mo73625a((bxvk) f);
+                                bxvd.mo73625a((GeneratedMessageLite) f);
                                 if (bxvd.f164950c) {
                                     bxvd.mo74035c();
                                     bxvd.f164950c = false;

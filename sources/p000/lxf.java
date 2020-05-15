@@ -86,7 +86,7 @@ public final class lxf {
                         String str5 = (String) a4.next();
                         byte[] bArr = ((lwz) b2.get(str5)).f33134c;
                         bxus b3 = bxus.m123743b();
-                        h2.mo67695b(str5, lwu.m24577a(a2.f33129a.f33124b, (mde) bxvk.m124016a(mde.f33472f, bArr, b3)));
+                        h2.mo67695b(str5, lwu.m24577a(a2.f33129a.f33124b, (mde) GeneratedMessageLite.m124016a(mde.f33472f, bArr, b3)));
                     }
                     bnhe b4 = h2.mo67618b();
                     if (!b4.isEmpty()) {
@@ -101,7 +101,7 @@ public final class lxf {
                         lxa a7 = a6.f33130b.mo19714a();
                         try {
                             for (String str7 : bnhe.keySet()) {
-                                if (a7.mo19719a(new lwz(a6.f33129a.f33123a, str7, ((mde) bnhe.get(str7)).mo73642k())) == -1) {
+                                if (a7.mo19719a(new lwz(a6.f33129a.f33123a, str7, ((mde) bnhe.get(str7)).serializeToBytes())) == -1) {
                                     throw new IOException("Failed to commit to db");
                                 }
                             }

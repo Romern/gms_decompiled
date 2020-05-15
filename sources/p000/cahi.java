@@ -16,7 +16,7 @@ public final class cahi extends bxvd implements bxxd {
         cahj cahj = (cahj) this.f164949b;
         cahj cahj2 = cahj.f174548b;
         if (!cahj.f174550a.mo73666a()) {
-            cahj.f174550a = bxvk.m124019a(cahj.f174550a);
+            cahj.f174550a = GeneratedMessageLite.m124019a(cahj.f174550a);
         }
         bxsy.m123078a(iterable, cahj.f174550a);
     }

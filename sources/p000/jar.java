@@ -22,7 +22,7 @@ public final class jar {
     static final String[] f22030a = {"com.google.android.gms.auth.folsom.service.FolsomPublicKeyUpdateService", "com.google.android.gms.auth.folsom.service.GcmReceiverService"};
 
     /* renamed from: b */
-    private static final sek f22031b = jdh.m16547a("RecoverableKeyStoreGmsInitOperation");
+    private static final Logger f22031b = jdh.m16547a("RecoverableKeyStoreGmsInitOperation");
 
     /* renamed from: a */
     public static void m16427a(Context context) {
@@ -70,21 +70,21 @@ public final class jar {
                     if (!m16430a(context, str)) {
                         f22031b.mo25412b(String.valueOf(str).concat(" is already disabled. Ignore."), new Object[0]);
                     } else {
-                        sek sek = f22031b;
+                        Logger Logger = f22031b;
                         StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 11);
                         sb.append("Disabling ");
                         sb.append(str);
                         sb.append(".");
-                        sek.mo25412b(sb.toString(), new Object[0]);
+                        Logger.mo25412b(sb.toString(), new Object[0]);
                         spn.m35856a(context, str, false);
                     }
                 } catch (IllegalArgumentException e) {
-                    sek sek2 = f22031b;
+                    Logger logger2 = f22031b;
                     StringBuilder sb2 = new StringBuilder(String.valueOf(str).length() + 43);
                     sb2.append("Component ");
                     sb2.append(str);
                     sb2.append(" is not included in the container");
-                    sek2.mo25412b(sb2.toString(), new Object[0]);
+                    logger2.mo25412b(sb2.toString(), new Object[0]);
                 }
             } else {
                 f22031b.mo25414c(String.valueOf(str).concat(" is not supported. Ignore."), new Object[0]);
@@ -94,7 +94,7 @@ public final class jar {
 
     /* renamed from: b */
     private static void m16432b(Context context, int i) {
-        f22031b.mo25409a("Initializing RecoveryController", new Object[0]);
+        f22031b.logVerbose("Initializing RecoveryController", new Object[0]);
         RecoveryController instance = RecoveryController.getInstance(context);
         try {
             instance.setRecoverySecretTypes(new int[]{100});
@@ -148,21 +148,21 @@ public final class jar {
                         if (m16430a(context, str)) {
                             f22031b.mo25414c(String.valueOf(str).concat(" is already enabled. Ignore."), new Object[0]);
                         } else {
-                            sek sek = f22031b;
+                            Logger Logger = f22031b;
                             StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 10);
                             sb.append("Enabling ");
                             sb.append(str);
                             sb.append(".");
-                            sek.mo25414c(sb.toString(), new Object[0]);
+                            Logger.mo25414c(sb.toString(), new Object[0]);
                             spn.m35856a(context, str, true);
                         }
                     } catch (IllegalArgumentException e) {
-                        sek sek2 = f22031b;
+                        Logger logger2 = f22031b;
                         StringBuilder sb2 = new StringBuilder(String.valueOf(str).length() + 43);
                         sb2.append("Component ");
                         sb2.append(str);
                         sb2.append(" is not included in the container");
-                        sek2.mo25412b(sb2.toString(), new Object[0]);
+                        logger2.mo25412b(sb2.toString(), new Object[0]);
                     }
                 } else {
                     f22031b.mo25414c(String.valueOf(str).concat(" is not supported. Ignore."), new Object[0]);
@@ -199,7 +199,7 @@ public final class jar {
     /* renamed from: a */
     public static void m16429a(Context context, RecoveryController recoveryController) {
         try {
-            byte[] k = jaz.m16446a(context).mo73780k();
+            byte[] k = jaz.m16446a(context).getKey();
             f22031b.mo25414c("Setting vault handle", new Object[0]);
             recoveryController.setServerParams(k);
         } catch (InternalRecoveryServiceException e) {

@@ -36,7 +36,7 @@ final class gbn extends tdl {
     /* renamed from: a */
     public final void mo11625a(boolean z, Map map) {
         gbq gbq = this.f17845a;
-        sek sek = gbq.f17854a;
+        Logger Logger = gbq.f17854a;
         gbq.f17859f.mo26402a(gbq.f17860g, 56, 6);
         try {
             this.f17845a.f17855b.mo11611a(Status.f30107a, new SetAsterismConsentResponse(this.f17845a.f17858e));

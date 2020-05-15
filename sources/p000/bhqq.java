@@ -48,7 +48,7 @@ public final class bhqq {
     public static bonq m101345a(int i, int i2, int i3, PlacesParams placesParams, int i4) {
         bpqk c = m101365c(16, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bxvd da = bppp.f138633q.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -91,7 +91,7 @@ public final class bhqq {
     public static bpqk m101363b(int i, PlacesParams placesParams) {
         bpqk c = m101365c(14, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bxvd da = bppy.f138674c.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -177,10 +177,10 @@ public final class bhqq {
     public static bpqk m101349a(int i, int i2, PlacesParams placesParams) {
         bpqk c = m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = m101359a(5, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bxvd da = bpqo.f138768d.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -219,10 +219,10 @@ public final class bhqq {
     public static bpqk m101350a(int i, PlacesParams placesParams) {
         bpqk c = m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = m101359a(13, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bxvd da = bpqz.f138811c.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -311,7 +311,7 @@ public final class bhqq {
         bpph bpph;
         bpqk c = m101365c(7, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bxvd da = bpqy.f138801i.mo74144da();
         int i = 2;
         if (nearbyAlertRequest != null) {
@@ -358,7 +358,7 @@ public final class bhqq {
                     }
                     bpph bpph5 = (bpph) da2.f164949b;
                     if (!bpph5.f138623b.mo73666a()) {
-                        bpph5.f138623b = bxvk.m124019a(bpph5.f138623b);
+                        bpph5.f138623b = GeneratedMessageLite.m124019a(bpph5.f138623b);
                     }
                     bxsy.m123078a(set, bpph5.f138623b);
                 }
@@ -437,10 +437,10 @@ public final class bhqq {
     public static bpqk m101353a(PlaceFilter placeFilter, PlacesParams placesParams) {
         bpqk c = m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = m101359a(3, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bppt a2 = m101348a(placeFilter.f79477e, placeFilter.f79474b);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
@@ -468,7 +468,7 @@ public final class bhqq {
     public static bpqk m101354a(PlacesParams placesParams, int i) {
         bpqk c = m101365c(17, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bxvd da = bprw.f138909d.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -494,10 +494,10 @@ public final class bhqq {
     public static bpqk m101355a(PlacesParams placesParams, List list) {
         bpqk c = m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = m101359a(7, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bpqm bpqm = (bpqm) bpqn.f138765b.mo74144da();
         Iterator it = list.iterator();
         while (it.hasNext()) {
@@ -543,7 +543,7 @@ public final class bhqq {
         bpqk c = m101365c(9, placesParams);
         int i = 5;
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bxvd da = bprd.f138822e.mo74144da();
         int i2 = 3;
         if (num != null) {
@@ -602,10 +602,10 @@ public final class bhqq {
     public static bpqk m101358a(List list, PlacesParams placesParams) {
         bpqk c = m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = m101359a(12, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bxvd da = bpri.f138855b.mo74144da();
         Iterator it = list.iterator();
         while (it.hasNext()) {
@@ -618,7 +618,7 @@ public final class bhqq {
                 bpri bpri = (bpri) da.f164949b;
                 str.getClass();
                 if (!bpri.f138857a.mo73666a()) {
-                    bpri.f138857a = bxvk.m124021a(bpri.f138857a);
+                    bpri.f138857a = GeneratedMessageLite.m124021a(bpri.f138857a);
                 }
                 bpri.f138857a.add(str);
             }
@@ -764,7 +764,7 @@ public final class bhqq {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((bpqk) bxvd.f164949b).f138741h = bxvk.m124030de();
+            ((bpqk) bxvd.f164949b).f138741h = GeneratedMessageLite.m124030de();
             List asList = Arrays.asList(bprzArr);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -772,7 +772,7 @@ public final class bhqq {
             }
             bpqk bpqk5 = (bpqk) bxvd.f164949b;
             if (!bpqk5.f138741h.mo73666a()) {
-                bpqk5.f138741h = bxvk.m124021a(bpqk5.f138741h);
+                bpqk5.f138741h = GeneratedMessageLite.m124021a(bpqk5.f138741h);
             }
             bxsy.m123078a(asList, bpqk5.f138741h);
         }

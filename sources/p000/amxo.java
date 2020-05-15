@@ -31,7 +31,7 @@ final class amxo extends amxj {
         }
         btcc btcc = (btcc) da.f164949b;
         if (!btcc.f148252a.mo73666a()) {
-            btcc.f148252a = bxvk.m124021a(btcc.f148252a);
+            btcc.f148252a = GeneratedMessageLite.m124021a(btcc.f148252a);
         }
         bxsy.m123078a(asList, btcc.f148252a);
         btdi a2 = amwr.m63562a();

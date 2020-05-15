@@ -32,9 +32,9 @@ public final class acxv {
     /* renamed from: a */
     public static void m49971a(Context context, Intent intent, AccountData accountData) {
         String str;
-        sdo.m34966a(context, "Context must not be null.");
-        sdo.m34966a(intent, "Intent must not be null.");
-        sdo.m34966a(accountData, "Account data must not be null.");
+        sdo.checkIfNull(context, "Context must not be null.");
+        sdo.checkIfNull(intent, "Intent must not be null.");
+        sdo.checkIfNull(accountData, "Account data must not be null.");
         ComponentName component = intent.getComponent();
         if (component != null) {
             str = component.getPackageName();
@@ -42,7 +42,7 @@ public final class acxv {
             str = intent.getPackage();
         }
         if (str != null) {
-            sdo.m34966a(context, "Context must not be null.");
+            sdo.checkIfNull(context, "Context must not be null.");
             sdo.m34969a(str, (Object) "Package name must not be empty.");
             if (rfz.m33557a(context).mo24610b(str)) {
                 sef.m35071a(accountData, intent, "com.google.android.gms.accounts.ACCOUNT_DATA");

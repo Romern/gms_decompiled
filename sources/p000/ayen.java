@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayen */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayen extends bxvk implements bxxd {
+public final class ayen extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final ayen f97331g;
@@ -31,7 +31,7 @@ public final class ayen extends bxvk implements bxxd {
     static {
         ayen ayen = new ayen();
         f97331g = ayen;
-        bxvk.m124024a(ayen.class, ayen);
+        GeneratedMessageLite.m124024a(ayen.class, ayen);
     }
 
     private ayen() {
@@ -48,7 +48,7 @@ public final class ayen extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f97331g, "\u0001\u0005\u0000\u0001\u0002\u0007\u0005\u0000\u0000\u0000\u0002ဉ\u0002\u0003ဉ\u0003\u0004ဉ\u0004\u0006င\u0000\u0007င\u0001", new Object[]{"a", "d", "e", "f", "b", "c"});
+            return GeneratedMessageLite.m124022a(f97331g, "\u0001\u0005\u0000\u0001\u0002\u0007\u0005\u0000\u0000\u0000\u0002ဉ\u0002\u0003ဉ\u0003\u0004ဉ\u0004\u0006င\u0000\u0007င\u0001", new Object[]{"a", "d", "e", "f", "b", "c"});
         } else if (i2 == 3) {
             return new ayen();
         } else {

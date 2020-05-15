@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: diq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class diq extends bxvk implements bxxd {
+public final class diq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final diq f13260d;
@@ -22,7 +22,7 @@ public final class diq extends bxvk implements bxxd {
     static {
         diq diq = new diq();
         f13260d = diq;
-        bxvk.m124024a(diq.class, diq);
+        GeneratedMessageLite.m124024a(diq.class, diq);
     }
 
     private diq() {
@@ -39,7 +39,7 @@ public final class diq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f13260d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001င\u0000\u0002\u0016", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f13260d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001င\u0000\u0002\u0016", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new diq();
         } else {

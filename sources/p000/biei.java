@@ -47,10 +47,10 @@ public final class biei extends bien {
         PlacesParams placesParams = this.f120388a;
         bpqk c = bhqq.m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = bhqq.m101359a(9, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bpqq bpqq = bpqq.f138778a;
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();

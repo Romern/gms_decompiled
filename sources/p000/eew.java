@@ -522,7 +522,7 @@ public final class eew extends dwm {
         }
         eee.m10221a(contentValues, tjq.mo26592b());
         eee.m10220a(contentValues, tjq.mo26594d());
-        contentValues.put("proto_blob", tjq.f46204a.mo73642k());
+        contentValues.put("proto_blob", tjq.f46204a.serializeToBytes());
         try {
             j = this.f14805d.mo10032a().insertOrThrow("feature", null, contentValues);
         } catch (SQLException e) {

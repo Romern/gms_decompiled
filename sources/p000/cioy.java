@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cioy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cioy extends bxvk implements bxxd {
+public final class cioy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cioy f191163c;
@@ -19,7 +19,7 @@ public final class cioy extends bxvk implements bxxd {
     static {
         cioy cioy = new cioy();
         f191163c = cioy;
-        bxvk.m124024a(cioy.class, cioy);
+        GeneratedMessageLite.m124024a(cioy.class, cioy);
     }
 
     private cioy() {
@@ -36,7 +36,7 @@ public final class cioy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191163c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002Ȉ", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f191163c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002Ȉ", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cioy();
         } else {

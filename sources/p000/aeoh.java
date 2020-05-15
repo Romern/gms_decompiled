@@ -72,7 +72,7 @@ public final class aeoh implements aelt {
     public final rke mo34310a(rkb rkb, int i, int i2) {
         boolean z;
         rjo rjo = aema.f63501a;
-        sdo.m34966a(this, "photo == null");
+        sdo.checkIfNull(this, "photo == null");
         boolean z2 = true;
         if (i > 0) {
             z = true;
@@ -86,7 +86,7 @@ public final class aeoh implements aelt {
         sdo.m34975b(z2, "height <= 0");
         String str = this.f63564a;
         int i3 = this.f63568e;
-        sdo.m34966a((Object) str, (Object) "fifeUrl == null");
+        sdo.checkIfNull((Object) str, (Object) "fifeUrl == null");
         return rkb.mo24787a((rle) new aelf(aema.f63501a, rkb, str, i, i2, i3));
     }
 }

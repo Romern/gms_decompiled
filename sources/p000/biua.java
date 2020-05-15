@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biua */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biua extends bxvk implements bxxd {
+public final class biua extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final biua f121757e;
@@ -31,7 +31,7 @@ public final class biua extends bxvk implements bxxd {
     static {
         biua biua = new biua();
         f121757e = biua;
-        bxvk.m124024a(biua.class, biua);
+        GeneratedMessageLite.m124024a(biua.class, biua);
     }
 
     private biua() {
@@ -52,7 +52,7 @@ public final class biua extends bxvk implements bxxd {
             this.f121764g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121757e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0001\u0001င\u0000\u0002င\u0001\u0003ဉ\u0002\u0004ᐉ\u0003", new Object[]{"a", "b", "c", "d", "f"});
+            return GeneratedMessageLite.m124022a(f121757e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0001\u0001င\u0000\u0002င\u0001\u0003ဉ\u0002\u0004ᐉ\u0003", new Object[]{"a", "b", "c", "d", "f"});
         } else if (i2 == 3) {
             return new biua();
         } else {

@@ -16,7 +16,7 @@ public final class caba extends bxvd implements bxxd {
         cabb cabb = (cabb) this.f164949b;
         cabb cabb2 = cabb.f172405e;
         if (!cabb.f172409c.mo73666a()) {
-            cabb.f172409c = bxvk.m124020a(cabb.f172409c);
+            cabb.f172409c = GeneratedMessageLite.m124020a(cabb.f172409c);
         }
         bxsy.m123078a(iterable, cabb.f172409c);
     }
@@ -30,7 +30,7 @@ public final class caba extends bxvd implements bxxd {
         cabb cabb = (cabb) this.f164949b;
         cabb cabb2 = cabb.f172405e;
         if (!cabb.f172408b.mo73666a()) {
-            cabb.f172408b = bxvk.m124020a(cabb.f172408b);
+            cabb.f172408b = GeneratedMessageLite.m124020a(cabb.f172408b);
         }
         bxsy.m123078a(iterable, cabb.f172408b);
     }

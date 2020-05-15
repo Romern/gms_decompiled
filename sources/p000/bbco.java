@@ -53,7 +53,7 @@ final /* synthetic */ class bbco implements bqeh {
         List list = this.f102347h;
         bavg bavg = (bavg) obj;
         bxvd bxvd = (bxvd) bavu.mo74142c(5);
-        bxvd.mo73625a((bxvk) bavu);
+        bxvd.mo73625a((GeneratedMessageLite) bavu);
         String str2 = bavu.f101938b;
         if (bavg != null) {
             str = bbeg.m87878a(str2, bavg.f101889d);

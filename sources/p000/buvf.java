@@ -54,7 +54,7 @@ final class buvf implements bvbr {
                         buzt2.f155427c = g;
                         buzt2.f155425a |= 2;
                         bxvd da3 = buzu.f155430c.mo74144da();
-                        bxtx a = bxtx.m123261a(bvau.m120846a(buvo.f155059a));
+                        ByteString a = ByteString.m123261a(bvau.m120846a(buvo.f155059a));
                         if (da3.f164950c) {
                             da3.mo74035c();
                             da3.f164950c = false;

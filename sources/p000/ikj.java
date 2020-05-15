@@ -20,7 +20,7 @@ public final class ikj {
     public static ikh f21204a = ikh.m15586a(rpr.m34216b());
 
     /* renamed from: d */
-    public static final sek f21205d = new sek("TransactionManager");
+    public static final Logger f21205d = new Logger("TransactionManager");
 
     /* renamed from: b */
     public final ikl f21206b = ikl.m15607a(rpr.m34216b());
@@ -201,9 +201,9 @@ public final class ikj {
                             bypb13 = bypb.f167289p;
                         }
                         if ((bypb13.f167291a & 1024) == 0) {
-                            sek sek = ijt.f21129r;
+                            Logger Logger = ijt.f21129r;
                             String valueOf = String.valueOf(bypc.toString());
-                            sek.mo25418e(valueOf.length() == 0 ? new String("Malformed request: ") : "Malformed request: ".concat(valueOf), new Object[0]);
+                            Logger.mo25418e(valueOf.length() == 0 ? new String("Malformed request: ") : "Malformed request: ".concat(valueOf), new Object[0]);
                         } else {
                             try {
                                 ilf.m15648a(bypc).mo13116a();
@@ -220,12 +220,12 @@ public final class ikj {
                                     if (byor.f167239d.size() == 3) {
                                         return PinConfirmationChimeraWorkflow.m6542b(bypc, str, bArr);
                                     }
-                                    sek sek2 = ijt.f21129r;
+                                    Logger logger2 = ijt.f21129r;
                                     int size = byor.f167239d.size();
                                     StringBuilder sb = new StringBuilder(51);
                                     sb.append("Unexpected number of pin options found: ");
                                     sb.append(size);
-                                    sek2.mo25418e(sb.toString(), new Object[0]);
+                                    logger2.mo25418e(sb.toString(), new Object[0]);
                                 } else {
                                     ijt.f21129r.mo25418e("Request has 0 SelectorDescriptors", new Object[0]);
                                 }
@@ -285,7 +285,7 @@ public final class ikj {
         bypd2.getClass();
         byoz.f167287c = bypd2;
         byoz.f167285a = i | 2;
-        context.startService(TransactionReplyIntentOperation.m6530a(str, bArr, bypc, new byrz(bysa.TX_REPLY, ((byoz) da2.mo74062i()).mo73642k())));
+        context.startService(TransactionReplyIntentOperation.m6530a(str, bArr, bypc, new byrz(bysa.TX_REPLY, ((byoz) da2.mo74062i()).serializeToBytes())));
     }
 
     /* renamed from: a */
@@ -375,7 +375,7 @@ public final class ikj {
             long currentTimeMillis = System.currentTimeMillis();
             int i4 = a - 1;
             if (i4 == 1) {
-                ikg a2 = mo13090a(bypc4.f167308b.mo73780k());
+                ikg a2 = mo13090a(bypc4.f167308b.getKey());
                 if (a2 != null) {
                     if (!z) {
                         bypc3 = bypc4;
@@ -397,7 +397,7 @@ public final class ikj {
                                     a3 = byod.START_ACTIVITY;
                                 }
                                 if (a3.equals(byod.AUTO) || a3.equals(byod.START_ACTIVITY)) {
-                                    TransactionReplyIntentOperation.m6533b(a2.f21184a.f167308b.mo73780k());
+                                    TransactionReplyIntentOperation.m6533b(a2.f21184a.f167308b.getKey());
                                     return;
                                 } else {
                                     this.f21206b.mo13097a(a2.f21184a, m15594a(context2, a2.f21184a, a2.f21185b, a2.f21186c), a2.f21188e, a2.f21189f, true);
@@ -415,13 +415,13 @@ public final class ikj {
                         bypc3 = bypc4;
                         c = 0;
                     }
-                    sek sek = f21205d;
+                    Logger Logger = f21205d;
                     Object[] objArr = new Object[1];
-                    objArr[c] = m15598b(bypc3.f167308b.mo73780k());
-                    sek.mo25412b("Prompt for TxRequest (txId=%s) already shown, stopping...", objArr);
+                    objArr[c] = m15598b(bypc3.f167308b.getKey());
+                    Logger.mo25412b("Prompt for TxRequest (txId=%s) already shown, stopping...", objArr);
                     return;
                 } else if (z) {
-                    f21205d.mo25412b("Can't trigger TxRequest (txId=%s) - not found in the cache", m15598b(bypc4.f167308b.mo73780k()));
+                    f21205d.mo25412b("Can't trigger TxRequest (txId=%s) - not found in the cache", m15598b(bypc4.f167308b.getKey()));
                     return;
                 } else {
                     ikh ikh = f21204a;
@@ -467,9 +467,9 @@ public final class ikj {
                                 i2 = 0;
                             } else if (bArr3.length != 0) {
                                 String a4 = ikh.m15587a(bypc);
-                                sek sek2 = ikh.f21195d;
+                                Logger logger2 = ikh.f21195d;
                                 String valueOf = String.valueOf(a4);
-                                sek2.mo25414c(valueOf.length() == 0 ? new String("adding transaction to cache: ") : "adding transaction to cache: ".concat(valueOf), new Object[0]);
+                                logger2.mo25414c(valueOf.length() == 0 ? new String("adding transaction to cache: ") : "adding transaction to cache: ".concat(valueOf), new Object[0]);
                                 if (a4 == null) {
                                     ikh.f21195d.mo25418e("Cache was asked to add an entry with a null key", new Object[0]);
                                     reentrantLock3 = ikh.f21193b;
@@ -498,7 +498,7 @@ public final class ikj {
                                                 e = e4;
                                             }
                                             if (ikg != null) {
-                                                TransactionReplyIntentOperation.m6533b(ikg.f21184a.f167308b.mo73780k());
+                                                TransactionReplyIntentOperation.m6533b(ikg.f21184a.f167308b.getKey());
                                             }
                                             bypb = bypc4.f167310d;
                                             if (bypb == null) {
@@ -524,11 +524,11 @@ public final class ikj {
                                                         new bxvv(bypb5.f167300j, bypb.f167288k);
                                                         return;
                                                     }
-                                                    m15597a(bypc4.f167308b.mo73780k(), 2, context2);
+                                                    m15597a(bypc4.f167308b.getKey(), 2, context2);
                                                     this.f21206b.mo13097a(bypc, a6, elapsedRealtime2, currentTimeMillis, false);
                                                     return;
                                                 } else if (i5 != 100) {
-                                                    sek sek3 = f21205d;
+                                                    Logger logger3 = f21205d;
                                                     int a9 = byoj.m125028a(bypb5.f167293c);
                                                     if (a9 == 0) {
                                                         a9 = 1;
@@ -537,7 +537,7 @@ public final class ikj {
                                                     StringBuilder sb = new StringBuilder(String.valueOf(valueOf2).length() + 28);
                                                     sb.append("Unexpected tx request type: ");
                                                     sb.append(valueOf2);
-                                                    sek3.mo25418e(sb.toString(), new Object[i2]);
+                                                    logger3.mo25418e(sb.toString(), new Object[i2]);
                                                     return;
                                                 } else {
                                                     return;
@@ -692,23 +692,23 @@ public final class ikj {
                     } else {
                         ikg a3 = ikg.m15585a(a2);
                         if (a3 == null) {
-                            sek sek = ikh.f21195d;
+                            Logger Logger = ikh.f21195d;
                             String valueOf = String.valueOf(a);
-                            sek.mo25418e(valueOf.length() == 0 ? new String("Transaction entry was found to be corrupted during cache.updateTransactionState : ") : "Transaction entry was found to be corrupted during cache.updateTransactionState : ".concat(valueOf), new Object[0]);
+                            Logger.mo25418e(valueOf.length() == 0 ? new String("Transaction entry was found to be corrupted during cache.updateTransactionState : ") : "Transaction entry was found to be corrupted during cache.updateTransactionState : ".concat(valueOf), new Object[0]);
                             ikh.f21194c.mo13140a();
                             reentrantLock2 = ikh.f21193b;
                         } else if (ikm.m15619a(a3.f21191h, i)) {
                             ikh = ikh2;
                             try {
                                 if (ikh.f21194c.mo13141a(a, new ikg(a3.f21184a, a3.f21185b, a3.f21186c, a3.f21187d, a3.f21188e, a3.f21189f, i, a3.f21190g).toString(), a2)) {
-                                    sek sek2 = ikh.f21195d;
+                                    Logger logger2 = ikh.f21195d;
                                     String a4 = ikm.m15618a(i);
                                     StringBuilder sb = new StringBuilder(String.valueOf(a).length() + 39 + a4.length());
                                     sb.append("Transaction entry ");
                                     sb.append(a);
                                     sb.append(" state is updated to ");
                                     sb.append(a4);
-                                    sek2.mo25414c(sb.toString(), new Object[0]);
+                                    logger2.mo25414c(sb.toString(), new Object[0]);
                                     ikh.f21194c.mo13140a();
                                     ikh.f21193b.unlock();
                                     return true;
@@ -727,7 +727,7 @@ public final class ikj {
                             }
                         } else {
                             ikh = ikh2;
-                            sek sek3 = ikh.f21195d;
+                            Logger logger3 = ikh.f21195d;
                             String a5 = ikm.m15618a(a3.f21191h);
                             String a6 = ikm.m15618a(i);
                             StringBuilder sb2 = new StringBuilder(a5.length() + 83 + a6.length() + String.valueOf(a).length());
@@ -737,7 +737,7 @@ public final class ikj {
                             sb2.append(a6);
                             sb2.append(" for transaction");
                             sb2.append(a);
-                            sek3.mo25416d(sb2.toString(), new Object[0]);
+                            logger3.mo25416d(sb2.toString(), new Object[0]);
                             ikh.f21194c.mo13140a();
                             reentrantLock = ikh.f21193b;
                             reentrantLock.unlock();

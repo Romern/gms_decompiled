@@ -11,7 +11,7 @@ final /* synthetic */ class arpn implements aubt {
 
     /* renamed from: a */
     public final void mo10476a(Exception exc) {
-        sek sek = arps.f88090a;
+        Logger Logger = arps.f88090a;
         if (exc instanceof rjp) {
             arps.f88090a.mo25417e("Failed to retrieve advertising info.", exc, new Object[0]);
         }

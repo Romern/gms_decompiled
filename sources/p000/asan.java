@@ -29,7 +29,7 @@ public final class asan extends Fragment {
     public static final /* synthetic */ int f88604a = 0;
 
     /* renamed from: b */
-    private static final sek f88605b = ascp.m73787a("Setup", "UI", "SetupPinVerificationFragment");
+    private static final Logger f88605b = ascp.m73787a("Setup", "UI", "SetupPinVerificationFragment");
 
     /* renamed from: c */
     private aqzm f88606c;
@@ -143,11 +143,11 @@ public final class asan extends Fragment {
         } else {
             int i3 = this.f88611h;
             if (i3 != 0) {
-                sek sek = f88605b;
+                Logger Logger = f88605b;
                 StringBuilder sb = new StringBuilder(101);
                 sb.append("Auto does not have copy for verification styles other than PIN right now. Received style: ");
                 sb.append(i3);
-                sek.mo25416d(sb.toString(), new Object[0]);
+                Logger.mo25416d(sb.toString(), new Object[0]);
             }
             this.f88607d.mo71365c(C0126R.string.smartdevice_setup_title_auto_confirm_code);
             ((TextView) this.f88607d.findViewById(C0126R.C0129id.description)).setText((int) C0126R.string.smartdevice_setup_auto_confirm_code_subhead);

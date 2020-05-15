@@ -16,7 +16,7 @@ public final class byjv extends bxvd implements bxxd {
         byjy byjy = (byjy) this.f164949b;
         byjy byjy2 = byjy.f166710h;
         if (!byjy.f166714c.mo73666a()) {
-            byjy.f166714c = bxvk.m124021a(byjy.f166714c);
+            byjy.f166714c = GeneratedMessageLite.m124021a(byjy.f166714c);
         }
         bxsy.m123078a(iterable, byjy.f166714c);
     }
@@ -30,7 +30,7 @@ public final class byjv extends bxvd implements bxxd {
         byjy byjy = (byjy) this.f164949b;
         byjy byjy2 = byjy.f166710h;
         if (!byjy.f166716e.mo73666a()) {
-            byjy.f166716e = bxvk.m124021a(byjy.f166716e);
+            byjy.f166716e = GeneratedMessageLite.m124021a(byjy.f166716e);
         }
         bxsy.m123078a(iterable, byjy.f166716e);
     }

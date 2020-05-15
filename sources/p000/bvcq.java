@@ -17,7 +17,7 @@ final class bvcq implements bvat {
     public final /* bridge */ /* synthetic */ void mo36284a(bxxc bxxc) {
         buyr buyr = (buyr) bxxc;
         bxvd bxvd = (bxvd) buyr.mo74142c(5);
-        bxvd.mo73625a((bxvk) buyr);
+        bxvd.mo73625a((GeneratedMessageLite) buyr);
         bvaa d = this.f155602a.mo73288d();
         if (bxvd.f164950c) {
             bxvd.mo74035c();

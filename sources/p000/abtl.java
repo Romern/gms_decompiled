@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abtl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abtl extends bxvk implements bxxd {
+public final class abtl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final abtl f58251g;
@@ -31,7 +31,7 @@ public final class abtl extends bxvk implements bxxd {
     static {
         abtl abtl = new abtl();
         f58251g = abtl;
-        bxvk.m124024a(abtl.class, abtl);
+        GeneratedMessageLite.m124024a(abtl.class, abtl);
     }
 
     private abtl() {
@@ -48,7 +48,7 @@ public final class abtl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58251g, "\u0001\u0005\u0000\u0001\n\u0014\u0005\u0000\u0000\u0000\nဇ\u0000\fဇ\u0001\u0011ဇ\u0003\u0013ဇ\u0004\u0014ဇ\u0005", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f58251g, "\u0001\u0005\u0000\u0001\n\u0014\u0005\u0000\u0000\u0000\nဇ\u0000\fဇ\u0001\u0011ဇ\u0003\u0013ဇ\u0004\u0014ဇ\u0005", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new abtl();
         } else {

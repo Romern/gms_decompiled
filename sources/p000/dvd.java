@@ -533,19 +533,19 @@ public final class dvd extends duq {
         }
         bxec bxec = (bxec) this.f14076c;
         bxvd bxvd = (bxvd) bxec.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxec);
+        bxvd.mo73625a((GeneratedMessageLite) bxec);
         bxdz bxdz = (bxdz) bxvd;
         if (bxdz.f164950c) {
             bxdz.mo74035c();
             bxdz.f164950c = false;
         }
         bxec bxec2 = bxec.f163078i;
-        ((bxec) bxdz.f164949b).f163086g = bxvk.m124030de();
+        ((bxec) bxdz.f164949b).f163086g = GeneratedMessageLite.m124030de();
         if (bxdz.f164950c) {
             bxdz.mo74035c();
             bxdz.f164950c = false;
         }
-        ((bxec) bxdz.f164949b).f163084e = bxvk.m124030de();
+        ((bxec) bxdz.f164949b).f163084e = GeneratedMessageLite.m124030de();
         if (!hashSet.isEmpty()) {
             bxdz.mo73567a(hashSet);
         }

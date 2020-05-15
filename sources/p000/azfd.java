@@ -104,7 +104,7 @@ public final class azfd implements azgw {
             if (azbm.m85205a(this.f99216a).f98909d.f98917b.get() == null) {
                 azbm.m85205a(this.f99216a).f98909d.mo54575a(this.f99218c.f99193i);
             }
-            boolean booleanValue = ((Boolean) azbj.m85193a(this.f99216a).mo54564d().mo56320a(this.f99219d, Base64.encode(this.f99217b.mo73642k(), 8)).get()).booleanValue();
+            boolean booleanValue = ((Boolean) azbj.m85193a(this.f99216a).mo54564d().mo56320a(this.f99219d, Base64.encode(this.f99217b.serializeToBytes(), 8)).get()).booleanValue();
             if (booleanValue) {
                 this.f99218c.mo54843a(Collections.singletonList(this.f99217b.f177409c));
                 azph.m85998a(this.f99216a).mo55125a(1721);

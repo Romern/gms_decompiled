@@ -47,7 +47,7 @@ public class RejectSaveOperation extends IntentOperation implements bqfp {
         try {
             byte[] byteArrayExtra = intent.getByteArrayExtra("save_ui_action_event_extra");
             if (byteArrayExtra != null && byteArrayExtra.length != 0) {
-                a.mo14863a().mo14903d(new kyx((lau) bxvk.m124014a(lau.f25613i, byteArrayExtra)));
+                a.mo14863a().mo14903d(new kyx((lau) GeneratedMessageLite.m124014a(lau.f25613i, byteArrayExtra)));
             }
         } catch (bxwf e2) {
         }

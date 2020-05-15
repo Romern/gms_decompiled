@@ -27,7 +27,7 @@ final class jgz extends PackageInstaller.SessionCallback {
 
     public final void onProgressChanged(int i, float f) {
         jhb jhb = this.f22459a;
-        sek sek = jhb.f22465a;
+        Logger Logger = jhb.f22465a;
         PackageInstaller.SessionInfo sessionInfo = jhb.f22471f.getSessionInfo(i);
         if (sessionInfo != null && this.f22459a.f22470e.equals(sessionInfo.getAppPackageName())) {
             this.f22459a.mo13730a(Integer.valueOf((int) (f * 100.0f)));

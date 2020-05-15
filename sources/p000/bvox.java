@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvox */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvox extends bxvk implements bxxd {
+public final class bvox extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bvox f157234d;
@@ -22,7 +22,7 @@ public final class bvox extends bxvk implements bxxd {
     static {
         bvox bvox = new bvox();
         f157234d = bvox;
-        bxvk.m124024a(bvox.class, bvox);
+        GeneratedMessageLite.m124024a(bvox.class, bvox);
     }
 
     private bvox() {
@@ -39,7 +39,7 @@ public final class bvox extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157234d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0017\u0002ဉ\u0000", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f157234d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0017\u0002ဉ\u0000", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bvox();
         } else {

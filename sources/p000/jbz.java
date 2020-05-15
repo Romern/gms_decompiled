@@ -28,15 +28,15 @@ public final /* synthetic */ class jbz implements bmxj {
             jbd = (jbd) bxww.get(str);
         }
         bxvd bxvd = (bxvd) jbd.mo74142c(5);
-        bxvd.mo73625a((bxvk) jbd);
+        bxvd.mo73625a((GeneratedMessageLite) jbd);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
         }
-        ((jbd) bxvd.f164949b).f22081b = bxvk.m124030de();
+        ((jbd) bxvd.f164949b).f22081b = GeneratedMessageLite.m124030de();
         bxvd.mo74119x(list);
         bxvd bxvd2 = (bxvd) jbb.mo74142c(5);
-        bxvd2.mo73625a((bxvk) jbb);
+        bxvd2.mo73625a((GeneratedMessageLite) jbb);
         bxvd2.mo74003a(str, (jbd) bxvd.mo74062i());
         return (jbb) bxvd2.mo74062i();
     }

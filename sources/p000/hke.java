@@ -12,7 +12,7 @@ final /* synthetic */ class hke implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = hkh.f19936a;
+        Logger Logger = hkh.f19936a;
         return ((InternalSignInCredentialWrapper) obj).f10233g.f10248a;
     }
 }

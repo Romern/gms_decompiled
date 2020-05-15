@@ -14,6 +14,6 @@ final /* synthetic */ class ldk implements qwq {
     public final byte[] mo14930a() {
         bmzi bmzi = this.f25839a;
         int i = ldl.f25840a;
-        return ((kzw) bmzi.mo6606a()).mo73642k();
+        return ((kzw) bmzi.mo6606a()).serializeToBytes();
     }
 }

@@ -9,7 +9,7 @@ import java.net.URISyntaxException;
 public final class arpw {
 
     /* renamed from: b */
-    private static final sek f88107b = ascp.m73787a("CookieReader");
+    private static final Logger f88107b = ascp.m73787a("CookieReader");
 
     /* renamed from: a */
     public final CookieManager f88108a = CookieManager.getInstance();

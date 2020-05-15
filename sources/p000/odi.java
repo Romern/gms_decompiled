@@ -334,7 +334,7 @@ public abstract class odi extends odg {
             bped bped19 = (bped) da3.f164949b;
             flattenToString2.getClass();
             if (!bped19.f137261w.mo73666a()) {
-                bped19.f137261w = bxvk.m124021a(bped19.f137261w);
+                bped19.f137261w = GeneratedMessageLite.m124021a(bped19.f137261w);
             }
             bped19.f137261w.add(flattenToString2);
         }
@@ -366,7 +366,7 @@ public abstract class odi extends odg {
             }
             bped bped22 = (bped) da3.f164949b;
             if (!bped22.f137257s.mo73666a()) {
-                bped22.f137257s = bxvk.m124021a(bped22.f137257s);
+                bped22.f137257s = GeneratedMessageLite.m124021a(bped22.f137257s);
             }
             bxsy.m123078a(A, bped22.f137257s);
             if (da.f164950c) {

@@ -15,7 +15,7 @@ import java.util.concurrent.TimeoutException;
 public final class ifs extends ift {
 
     /* renamed from: c */
-    private static final sek f20879c = new sek("ChangeEasyUnlockStateOperation");
+    private static final Logger f20879c = new Logger("ChangeEasyUnlockStateOperation");
 
     /* renamed from: a */
     private final boolean f20880a;

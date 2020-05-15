@@ -16,7 +16,7 @@ public final class cblc extends bxvd implements bxxd {
         cbld cbld = (cbld) this.f164949b;
         cbld cbld2 = cbld.f177471h;
         if (!cbld.f177478f.mo73666a()) {
-            cbld.f177478f = bxvk.m124019a(cbld.f177478f);
+            cbld.f177478f = GeneratedMessageLite.m124019a(cbld.f177478f);
         }
         bxsy.m123078a(iterable, cbld.f177478f);
     }

@@ -5,7 +5,7 @@ package p000;
 public final class gkt {
 
     /* renamed from: a */
-    public static final sek f18433a = ght.m13171a("Snapshotter", "AccountStateSnapshotter");
+    public static final Logger f18433a = ght.m13171a("Snapshotter", "AccountStateSnapshotter");
 
     /* renamed from: b */
     public final adyd f18434b;

@@ -104,7 +104,7 @@ final /* synthetic */ class rsn implements Runnable {
                                 bpwl bpwl2 = (bpwl) a4.mo74062i();
                                 bpwl2.getClass();
                                 if (!bpwm2.f139531c.mo73666a()) {
-                                    bpwm2.f139531c = bxvk.m124021a(bpwm2.f139531c);
+                                    bpwm2.f139531c = GeneratedMessageLite.m124021a(bpwm2.f139531c);
                                 }
                                 bpwm2.f139531c.add(bpwl2);
                                 th = th.getCause();
@@ -139,7 +139,7 @@ final /* synthetic */ class rsn implements Runnable {
                         d.getClass();
                         brzg.f143733a |= 1;
                         brzg.f143734b = d;
-                        bxtx aL = ((brzg) da3.mo74062i()).mo73639aL();
+                        ByteString aL = ((brzg) da3.mo74062i()).mo73639aL();
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;
@@ -157,7 +157,7 @@ final /* synthetic */ class rsn implements Runnable {
                         rsp.f43598a.put(a5, qws2);
                         qws = qws2;
                     }
-                    qwo a6 = qws.mo24335a(((brzd) bxvd.mo74062i()).mo73642k());
+                    qwo a6 = qws.mo24335a(((brzd) bxvd.mo74062i()).serializeToBytes());
                     a6.mo24328b(bryy.m114910b(bnsw));
                     a6.mo24327b();
                 }

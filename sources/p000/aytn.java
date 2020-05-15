@@ -80,10 +80,10 @@ public final class aytn implements ciwl, ciwn, ciwr, ciwt {
         ciwv.f191619b = cixb;
         ciwv.f191618a |= 1;
         if (!ciwv.f191620c.mo73666a()) {
-            ciwv.f191620c = bxvk.m124021a(ciwv.f191620c);
+            ciwv.f191620c = GeneratedMessageLite.m124021a(ciwv.f191620c);
         }
         bxsy.m123078a(linkedList, ciwv.f191620c);
-        contentValues.put("session_record", ((ciwv) da.mo74062i()).mo73642k());
+        contentValues.put("session_record", ((ciwv) da.mo74062i()).serializeToBytes());
         ayti.f98447a.insertWithOnConflict("crypto_sessions", null, contentValues, 5);
     }
 

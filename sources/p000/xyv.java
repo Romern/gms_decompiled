@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
 final class xyv implements Runnable {
 
     /* renamed from: k */
-    private static final sek f53401k = new sek(new String[]{"BleRequestOperation"}, (short[]) null);
+    private static final Logger f53401k = new Logger(new String[]{"BleRequestOperation"}, (short[]) null);
 
     /* renamed from: a */
     public final xyw f53402a;

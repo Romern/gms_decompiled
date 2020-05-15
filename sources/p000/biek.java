@@ -47,10 +47,10 @@ public final class biek extends bien {
         List<Integer> asList = Arrays.asList(1, 2);
         bpqk c = bhqq.m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = bhqq.m101359a(14, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bpqt bpqt = (bpqt) bpqu.f138787b.mo74144da();
         for (Integer num : asList) {
             int intValue = num.intValue();

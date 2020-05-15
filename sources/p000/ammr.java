@@ -17,7 +17,7 @@ public final class ammr extends bxvd implements bxxd {
         amnu amnu2 = amnu.f75540w;
         amno.getClass();
         if (!amnu.f75562u.mo73666a()) {
-            amnu.f75562u = bxvk.m124021a(amnu.f75562u);
+            amnu.f75562u = GeneratedMessageLite.m124021a(amnu.f75562u);
         }
         amnu.f75562u.add(amno);
     }
@@ -32,7 +32,7 @@ public final class ammr extends bxvd implements bxxd {
         amnu amnu2 = amnu.f75540w;
         amnr.getClass();
         if (!amnu.f75561t.mo73666a()) {
-            amnu.f75561t = bxvk.m124021a(amnu.f75561t);
+            amnu.f75561t = GeneratedMessageLite.m124021a(amnu.f75561t);
         }
         amnu.f75561t.add(amnr);
     }

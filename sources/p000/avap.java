@@ -46,7 +46,7 @@ public final class avap {
             sb2.append(a);
             sb2.append("/overviewConfig?alt=proto");
             sb.append(sb2.toString());
-            bxrx bxrx = (bxrx) sgv.mo25513a(clientContext, 1, sb.toString(), bxrw.mo73642k(), bxrx.f164633e);
+            bxrx bxrx = (bxrx) sgv.mo25513a(clientContext, 1, sb.toString(), bxrw.serializeToBytes(), bxrx.f164633e);
             mo51120a("FetchOverviewConfig", (String) null);
             return bxrx;
         } catch (gid e) {
@@ -70,7 +70,7 @@ public final class avap {
             sb2.append(a);
             sb2.append("/settings?alt=proto");
             sb.append(sb2.toString());
-            bxsb bxsb = (bxsb) sgv.mo25513a(clientContext, 1, sb.toString(), bxrz.mo73642k(), bxsb.f164652f);
+            bxsb bxsb = (bxsb) sgv.mo25513a(clientContext, 1, sb.toString(), bxrz.serializeToBytes(), bxsb.f164652f);
             mo51120a("FetchSettings", (String) null);
             return bxsb;
         } catch (gid e) {

@@ -240,7 +240,7 @@ public class WearProxyChimeraActivity extends atex implements axou, asin {
                         ((bnsl) f108972b.mo68387b()).mo68420a("Volley request: method %s unimplemented", string5);
                         return;
                     }
-                    atff.m75765a(askf, string5, (btjf) bxvk.m124016a(btjf.f149105c, byteArray, bxus.m123744c()), btjg.f149109e, new atyx(this, i3, string6), this);
+                    atff.m75765a(askf, string5, (btjf) GeneratedMessageLite.m124016a(btjf.f149105c, byteArray, bxus.m123744c()), btjg.f149109e, new atyx(this, i3, string6), this);
                 } catch (bxwf e2) {
                     bnsl bnsl2 = (bnsl) f108972b.mo68387b();
                     bnsl2.mo68437a(e2);

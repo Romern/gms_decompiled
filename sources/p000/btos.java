@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btos */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btos extends bxvk implements bxxd {
+public final class btos extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btos f149797a;
@@ -13,7 +13,7 @@ public final class btos extends bxvk implements bxxd {
     static {
         btos btos = new btos();
         f149797a = btos;
-        bxvk.m124024a(btos.class, btos);
+        GeneratedMessageLite.m124024a(btos.class, btos);
     }
 
     private btos() {
@@ -30,7 +30,7 @@ public final class btos extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149797a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f149797a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btos();

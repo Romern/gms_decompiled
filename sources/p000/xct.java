@@ -12,7 +12,7 @@ import java.util.Arrays;
 public final class xct extends aaab {
 
     /* renamed from: d */
-    public static final sek f51961d = new sek(new String[]{"GetKeyOperation"}, (short[]) null);
+    public static final Logger f51961d = new Logger(new String[]{"GetKeyOperation"}, (short[]) null);
 
     /* renamed from: a */
     public final xde f51962a = new xde(rpr.m34216b());
@@ -74,9 +74,9 @@ public final class xct extends aaab {
             }
             return bmvz.f131120a;
         } catch (adbe e) {
-            sek sek = f51961d;
+            Logger Logger = f51961d;
             String valueOf = String.valueOf(e.getMessage());
-            sek.mo25414c(valueOf.length() == 0 ? new String("Failed to get key from CredentialStore: ") : "Failed to get key from CredentialStore: ".concat(valueOf), new Object[0]);
+            Logger.mo25414c(valueOf.length() == 0 ? new String("Failed to get key from CredentialStore: ") : "Failed to get key from CredentialStore: ".concat(valueOf), new Object[0]);
             return bmvz.f131120a;
         }
     }
@@ -87,14 +87,14 @@ public final class xct extends aaab {
         bqgg bqgg;
         String str = this.f51967g;
         byte[] bArr = this.f51964c;
-        sek sek = f51961d;
+        Logger Logger = f51961d;
         String arrays = Arrays.toString(bArr);
         StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 33 + String.valueOf(arrays).length());
         sb.append("getKey with rpId ");
         sb.append(str);
         sb.append(" with keyHandle ");
         sb.append(arrays);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         if (!str.equals("google.com")) {
             try {
                 bqgg = bqga.m112775a(mo29644a(str, bArr));

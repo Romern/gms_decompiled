@@ -13,7 +13,7 @@ public final class afcr {
     /* renamed from: a */
     public static synchronized void m52860a(Context context) {
         synchronized (afcr.class) {
-            sdo.m34966a(context, "Context is null");
+            sdo.checkIfNull(context, "Context is null");
             if (!f64186a) {
                 try {
                     afef a = afgu.m53063a(context);

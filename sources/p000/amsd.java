@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amsd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amsd extends bxvk implements bxxd {
+public final class amsd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final amsd f75840f;
@@ -28,7 +28,7 @@ public final class amsd extends bxvk implements bxxd {
     static {
         amsd amsd = new amsd();
         f75840f = amsd;
-        bxvk.m124024a(amsd.class, amsd);
+        GeneratedMessageLite.m124024a(amsd.class, amsd);
     }
 
     private amsd() {
@@ -45,7 +45,7 @@ public final class amsd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75840f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001ဈ\u0001\u0002\u0016\u0003ဇ\u0000\u0004ဉ\u0002", new Object[]{"a", "c", "d", "b", "e"});
+            return GeneratedMessageLite.m124022a(f75840f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001ဈ\u0001\u0002\u0016\u0003ဇ\u0000\u0004ဉ\u0002", new Object[]{"a", "c", "d", "b", "e"});
         } else if (i2 == 3) {
             return new amsd();
         } else {
@@ -72,7 +72,7 @@ public final class amsd extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo41297a() {
         if (!this.f75845d.mo73666a()) {
-            this.f75845d = bxvk.m124019a(this.f75845d);
+            this.f75845d = GeneratedMessageLite.m124019a(this.f75845d);
         }
     }
 }

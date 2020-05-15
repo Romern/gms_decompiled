@@ -29,7 +29,7 @@ public abstract class agpu {
             return null;
         }
         try {
-            return (bxzx) bxvk.m124016a(bxzx.f165197j, asByteArray, bxus.m123744c());
+            return (bxzx) GeneratedMessageLite.m124016a(bxzx.f165197j, asByteArray, bxus.m123744c());
         } catch (bxwf e) {
             bnsl a = f66255a.mo26019b(agyt.m55307c());
             a.mo68437a(e);
@@ -45,7 +45,7 @@ public abstract class agpu {
             return null;
         }
         try {
-            return (bxzy) bxvk.m124016a(bxzy.f165208b, asByteArray, bxus.m123744c());
+            return (bxzy) GeneratedMessageLite.m124016a(bxzy.f165208b, asByteArray, bxus.m123744c());
         } catch (bxwf e) {
             bnsl a = f66255a.mo26019b(agyt.m55307c());
             a.mo68437a(e);

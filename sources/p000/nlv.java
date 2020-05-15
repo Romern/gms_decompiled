@@ -565,7 +565,7 @@ public final class nlv implements oif, ojn, ofr {
             }
         } else {
             bxvd bxvd = (bxvd) biro.mo74142c(5);
-            bxvd.mo73625a((bxvk) biro);
+            bxvd.mo73625a((GeneratedMessageLite) biro);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -611,7 +611,7 @@ public final class nlv implements oif, ojn, ofr {
         }
         birm birm = (birm) da.f164949b;
         if (!birm.f121427a.mo73666a()) {
-            birm.f121427a = bxvk.m124019a(birm.f121427a);
+            birm.f121427a = GeneratedMessageLite.m124019a(birm.f121427a);
         }
         bxsy.m123078a(b, birm.f121427a);
         oig.mo22206a(32770, (birm) da.mo74062i());

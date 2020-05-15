@@ -35,9 +35,9 @@ final class bdjp {
             cimn2 = cimn.f190753d;
         }
         bxvd bxvd = (bxvd) cimn2.mo74142c(5);
-        bxvd.mo73625a((bxvk) cimn2);
+        bxvd.mo73625a((GeneratedMessageLite) cimn2);
         bxvd bxvd2 = (bxvd) cimt.mo74142c(5);
-        bxvd2.mo73625a((bxvk) cimt);
+        bxvd2.mo73625a((GeneratedMessageLite) cimt);
         String str = ((cimn) bxvd.f164949b).f190757c;
         Long a = bdfm.m90702a(str);
         bmxy.m108581a(a);
@@ -104,11 +104,11 @@ final class bdjp {
             cimn2 = cimn.f190753d;
         }
         bxvd bxvd = (bxvd) cimn2.mo74142c(5);
-        bxvd.mo73625a((bxvk) cimn2);
+        bxvd.mo73625a((GeneratedMessageLite) cimn2);
         Long l = (Long) this.f105761a.get(Long.valueOf(((cimn) bxvd.f164949b).f190756b));
         bmxy.m108581a(l);
         bxvd bxvd2 = (bxvd) cimt.mo74142c(5);
-        bxvd2.mo73625a((bxvk) cimt);
+        bxvd2.mo73625a((GeneratedMessageLite) cimt);
         long longValue = l.longValue();
         if (bxvd.f164950c) {
             bxvd.mo74035c();

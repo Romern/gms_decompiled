@@ -64,7 +64,7 @@ public final class qsl extends qsi {
                             if (!list.isEmpty()) {
                                 qqz a2 = qqz.m32681a(((SharedKey) bnjd.m109595d(list)).f10906b);
                                 qqy b3 = qvn.mo24289b(acyr);
-                                sdo.m34966a(a2, "cryptographerKey cannot be null");
+                                sdo.checkIfNull(a2, "cryptographerKey cannot be null");
                                 ArrayList arrayList = new ArrayList(b3.f41983a.size());
                                 arrayList.addAll(b3.f41983a.values());
                                 arrayList.add(a2);
@@ -80,11 +80,11 @@ public final class qsl extends qsi {
                                     qul qul = (qul) da.f164949b;
                                     a4.getClass();
                                     if (!qul.f42161a.mo73666a()) {
-                                        qul.f42161a = bxvk.m124021a(qul.f42161a);
+                                        qul.f42161a = GeneratedMessageLite.m124021a(qul.f42161a);
                                     }
                                     qul.f42161a.add(a4);
                                 }
-                                qui a5 = qqy.mo24212a(((qul) da.mo74062i()).mo73642k());
+                                qui a5 = qqy.mo24212a(((qul) da.mo74062i()).serializeToBytes());
                                 qvt qvt = qvn.f42245b;
                                 String str = ((bstx) b2.mo66814b()).f147074a;
                                 bstz bstz2 = ((bstx) b2.mo66814b()).f147076c;

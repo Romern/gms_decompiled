@@ -30,7 +30,7 @@ public final class bleq extends bxvd implements bxxd {
         bler bler = (bler) this.f164949b;
         bler bler2 = bler.f126245D;
         if (!bler.f126249C.mo73666a()) {
-            bler.f126249C = bxvk.m124021a(bler.f126249C);
+            bler.f126249C = GeneratedMessageLite.m124021a(bler.f126249C);
         }
         bxsy.m123078a(iterable, bler.f126249C);
     }

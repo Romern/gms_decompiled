@@ -30,7 +30,7 @@ final class arjn extends adzt {
                     arar arar = this.f87797a.f87782a;
                     ((arla) arar).f87838b.mo48364n("source-bootstrap-api");
                     arar arar2 = ((arla) arar).f87837a;
-                    arxy.f88430a.mo25409a("Target disconnected", new Object[0]);
+                    arxy.f88430a.logVerbose("Target disconnected", new Object[0]);
                     ((arxk) arar2).f88410a.f88431b.mo48909d();
                 } else if (i == 2) {
                     ((arxk) ((arla) this.f87797a.f87782a).f87837a).f88410a.f88431b.mo48905a((String) message.obj);
@@ -39,9 +39,9 @@ final class arjn extends adzt {
                     int intValue = ((Integer) message.obj).intValue();
                     ((arla) arar3).f87838b.mo48364n("source-bootstrap-api");
                     arar arar4 = ((arla) arar3).f87837a;
-                    sek sek = arxy.f88430a;
+                    Logger Logger = arxy.f88430a;
                     String valueOf = String.valueOf(araj.m72321a(intValue));
-                    sek.mo25418e(valueOf.length() == 0 ? new String("Bootstrap error: ") : "Bootstrap error: ".concat(valueOf), new Object[0]);
+                    Logger.mo25418e(valueOf.length() == 0 ? new String("Bootstrap error: ") : "Bootstrap error: ".concat(valueOf), new Object[0]);
                     if (intValue == 10557 || intValue == 10584) {
                         i2 = 3;
                     } else if (intValue == 10595) {

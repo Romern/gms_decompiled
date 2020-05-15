@@ -54,7 +54,7 @@ final class bdkn implements Runnable {
             Intent registerReceiver = bdkp2.f105827c.registerReceiver(null, bdkp2.f105834j);
             cimx cimx = this.f105819c;
             bxvd bxvd = (bxvd) cimx.mo74142c(5);
-            bxvd.mo73625a((bxvk) cimx);
+            bxvd.mo73625a((GeneratedMessageLite) cimx);
             cimy a = this.f105817a.mo58123a(registerReceiver);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -94,7 +94,7 @@ final class bdkn implements Runnable {
                     try {
                         FileInputStream fileInputStream = new FileInputStream(this.f105818b);
                         try {
-                            bxtv d = bxtx.m123268d((int) length);
+                            bxtv d = ByteString.m123268d((int) length);
                             try {
                                 byte[] bArr = new byte[1024];
                                 deflaterInputStream = new DeflaterInputStream(fileInputStream, new Deflater(9));
@@ -106,7 +106,7 @@ final class bdkn implements Runnable {
                                     d.write(bArr, 0, read);
                                 }
                                 deflaterInputStream.close();
-                                bxtx a2 = d.mo73765a();
+                                ByteString a2 = d.mo73765a();
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;

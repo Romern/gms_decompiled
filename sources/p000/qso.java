@@ -13,7 +13,7 @@ import java.util.List;
 public final class qso extends qsi {
 
     /* renamed from: b */
-    private static final sek f42045b = qqu.m32670a("ListAffiliationsOperation");
+    private static final Logger f42045b = qqu.m32670a("ListAffiliationsOperation");
 
     /* renamed from: c */
     private final qrx f42046c;

@@ -71,7 +71,7 @@ public final class ehe {
     private final bnic f14943q;
 
     /* renamed from: r */
-    private final sek f14944r;
+    private final Logger f14944r;
 
     /* renamed from: s */
     private final ipn f14945s;
@@ -79,7 +79,7 @@ public final class ehe {
     /* renamed from: t */
     private final itc f14946t;
 
-    public ehe(String str, bqlq bqlq, List list, String str2, boolean z, byte[] bArr, byte[] bArr2, byte[] bArr3, byte[] bArr4, List list2, eib eib, itc itc, egz egz, egy egy, Boolean bool, ipn ipn, sek sek) {
+    public ehe(String str, bqlq bqlq, List list, String str2, boolean z, byte[] bArr, byte[] bArr2, byte[] bArr3, byte[] bArr4, List list2, eib eib, itc itc, egz egz, egy egy, Boolean bool, ipn ipn, Logger Logger) {
         List list3 = list2;
         bnia j = bnic.m109500j();
         boolean z2 = false;
@@ -103,7 +103,7 @@ public final class ehe {
         this.f14941o = egy;
         this.f14942p = bool;
         this.f14945s = ipn;
-        this.f14944r = sek;
+        this.f14944r = Logger;
     }
 
     /* JADX WARNING: Removed duplicated region for block: B:26:0x0097  */
@@ -118,7 +118,7 @@ public final class ehe {
         ((bqme) bqmd.f164949b).f141198a = str;
         int size = list.size();
         for (int i = 0; i < size; i++) {
-            bqmd.mo69278a(bxtx.m123261a(((ehl) list.get(i)).f14976a));
+            bqmd.mo69278a(ByteString.m123261a(((ehl) list.get(i)).f14976a));
         }
         eib eib = this.f14939m;
         String str2 = this.f14931e;
@@ -141,7 +141,7 @@ public final class ehe {
                             ipr.mo13230b(a2);
                             a.close();
                             if (bArr != null) {
-                                bxtx a3 = bxtx.m123261a(bArr);
+                                ByteString a3 = ByteString.m123261a(bArr);
                                 if (bqmd.f164950c) {
                                     bqmd.mo74035c();
                                     bqmd.f164950c = false;
@@ -174,9 +174,9 @@ public final class ehe {
     }
 
     /* renamed from: a */
-    private static final void m10421a(ehg ehg, String str, bxtx bxtx) {
+    private static final void m10421a(ehg ehg, String str, ByteString bxtx) {
         if (!bxtx.mo73779j()) {
-            ehg.mo10146a(str).f14984d = bxtx.mo73780k();
+            ehg.mo10146a(str).f14984d = bxtx.getKey();
         }
     }
 
@@ -288,7 +288,7 @@ public final class ehe {
                 List list2 = this.f14937k;
                 int size3 = list2.size();
                 for (int i8 = 0; i8 < size3; i8++) {
-                    bqmd.mo69278a(bxtx.m123261a((byte[]) list2.get(i8)));
+                    bqmd.mo69278a(ByteString.m123261a((byte[]) list2.get(i8)));
                 }
                 bqmc.mo69277a((bqme) bqmd.mo74062i());
             } else if (this.f14932f) {
@@ -320,7 +320,7 @@ public final class ehe {
         ((bqmf) bqmc.f164949b).f141206d = bqlr;
         byte[] bArr3 = this.f14933g;
         if (bArr3 != null) {
-            bxtx a3 = bxtx.m123261a(bArr3);
+            ByteString a3 = ByteString.m123261a(bArr3);
             if (bqmc.f164950c) {
                 bqmc.mo74035c();
                 bqmc.f164950c = false;
@@ -355,7 +355,7 @@ public final class ehe {
                         chtv3 = chtv2;
                     }
                     bqml bqml = (bqml) ciiq.m150394a(chqp, chtv3, d.f190403b, bqmf2);
-                    itc.f21656a.f21624a = new BigInteger(bqml.f141228a.mo73780k()).longValue();
+                    itc.f21656a.f21624a = new BigInteger(bqml.f141228a.getKey()).longValue();
                     this.f14944r.mo25414c("SyncKeysRequest successfully completed", new Object[0]);
                     int i9 = bqml.f141232e;
                     if (i9 != 0) {
@@ -377,12 +377,12 @@ public final class ehe {
                         throw new ehf("Mismatch between expected SyncSingleKeyResponsesCount and actual SyncSingleKeyResponsesCount.", ehh.ILLEGAL_SERVER_STATE);
                     } else if (bqml != null) {
                         ehj ehj = new ehj();
-                        ehj.f14970a = bqml.f141228a.mo73780k();
+                        ehj.f14970a = bqml.f141228a.getKey();
                         bqlp bqlp2 = bqml.f141231d;
                         if (bqlp2 == null || bqlp2.f141131a == 0) {
                             throw new ehf("No clientDirective in response.", ehh.ILLEGAL_SERVER_STATE);
                         }
-                        ehj.f14972c = bqml.f141229b.mo73780k();
+                        ehj.f14972c = bqml.f141229b.getKey();
                         ehj.f14971b = ehv.m10461a();
                         ehk a5 = ehj.mo10149a();
                         bqlp bqlp3 = bqml.f141231d;
@@ -496,7 +496,7 @@ public final class ehe {
                         if (!this.f14940n.f14894b.isEmpty()) {
                             ehk a14 = ehj2.mo10149a();
                             bxvd da2 = bqlu.f141170d.mo74144da();
-                            bxtx a15 = bxtx.m123261a(a14.f14973a);
+                            ByteString a15 = ByteString.m123261a(a14.f14973a);
                             if (da2.f164950c) {
                                 da2.mo74035c();
                                 z = false;
@@ -525,7 +525,7 @@ public final class ehe {
                                 }
                                 a16.getClass();
                                 ((bqlt) da3.f164949b).f141165a = a16;
-                                bxtx a17 = bxtx.m123261a(ehb.mo10126b());
+                                ByteString a17 = ByteString.m123261a(ehb.mo10126b());
                                 if (da3.f164950c) {
                                     da3.mo74035c();
                                     da3.f164950c = z;
@@ -536,7 +536,7 @@ public final class ehe {
                                     list = list3;
                                     i = 1;
                                     if (ehb.mo10127c() != null) {
-                                        bxtx a18 = bxtx.m123261a(ehb.mo10127c());
+                                        ByteString a18 = ByteString.m123261a(ehb.mo10127c());
                                         if (da3.f164950c) {
                                             da3.mo74035c();
                                             da3.f164950c = false;
@@ -552,10 +552,10 @@ public final class ehe {
                                     sdo.m34959a(bArr4);
                                     sdo.m34959a(bArr5);
                                     try {
-                                        xwu xwu = (xwu) bxvk.m124014a(xwu.f53308e, bArr4);
+                                        xwu xwu = (xwu) GeneratedMessageLite.m124014a(xwu.f53308e, bArr4);
                                         xlw xlw = new xlw(xlv.WEBAUTHN_CREATE, boan.f132471e.mo68783a().mo68794a(bArr5), xwu.f53312c, ipn.f21516d.getPackageName(), null);
                                         list = list3;
-                                        xlq xlq = new xlq(xwu.f53310a.mo73780k(), (byte) 64, xwu.f53311b, new xln(new byte[16], ipn.f21513a, ipn.f21514b));
+                                        xlq xlq = new xlq(xwu.f53310a.getKey(), (byte) 64, xwu.f53311b, new xln(new byte[16], ipn.f21513a, ipn.f21514b));
                                         try {
                                             ipn.f21515c.mo29681a(xlq.mo29917a(), xlw.mo29927c());
                                             xlo = new xlo(xlq.mo29917a(), "android-safetynet", ipn.f21515c.mo29680a().mo29915a().mo74444c());
@@ -565,7 +565,7 @@ public final class ehe {
                                         }
                                         if (xlo != null) {
                                             bxvd da4 = bsnr.f146322d.mo74144da();
-                                            bxtx a19 = bxtx.m123261a(xlw.mo29926b());
+                                            ByteString a19 = ByteString.m123261a(xlw.mo29926b());
                                             if (da4.f164950c) {
                                                 da4.mo74035c();
                                                 da4.f164950c = false;
@@ -573,7 +573,7 @@ public final class ehe {
                                             a19.getClass();
                                             ((bsnr) da4.f164949b).f146324a = a19;
                                             try {
-                                                bxtx a20 = bxtx.m123261a(xlo.mo29912a());
+                                                ByteString a20 = ByteString.m123261a(xlo.mo29912a());
                                                 if (da4.f164950c) {
                                                     da4.mo74035c();
                                                     da4.f164950c = false;
@@ -581,7 +581,7 @@ public final class ehe {
                                                 a20.getClass();
                                                 ((bsnr) da4.f164949b).f146325b = a20;
                                                 if (!xwu.f53313d.mo73779j()) {
-                                                    bxtx bxtx = xwu.f53313d;
+                                                    ByteString bxtx = xwu.f53313d;
                                                     if (da4.f164950c) {
                                                         da4.mo74035c();
                                                         da4.f164950c = false;
@@ -589,7 +589,7 @@ public final class ehe {
                                                     bxtx.getClass();
                                                     ((bsnr) da4.f164949b).f146326c = bxtx;
                                                 }
-                                                bArr2 = ((bsnr) da4.mo74062i()).mo73642k();
+                                                bArr2 = ((bsnr) da4.mo74062i()).serializeToBytes();
                                                 i = 1;
                                             } catch (bypm | bypq | bypr e2) {
                                                 i = 1;
@@ -647,7 +647,7 @@ public final class ehe {
                                         z = false;
                                     }
                                     if (bArr2 != null) {
-                                        bxtx a21 = bxtx.m123261a(bArr2);
+                                        ByteString a21 = ByteString.m123261a(bArr2);
                                         if (da3.f164950c) {
                                             da3.mo74035c();
                                             da3.f164950c = false;
@@ -662,7 +662,7 @@ public final class ehe {
                                     bArr = null;
                                 }
                                 if (bArr != null) {
-                                    bxtx a22 = bxtx.m123261a(bArr);
+                                    ByteString a22 = ByteString.m123261a(bArr);
                                     if (da3.f164950c) {
                                         da3.mo74035c();
                                         da3.f164950c = false;
@@ -677,7 +677,7 @@ public final class ehe {
                                         da5.f164950c = false;
                                     }
                                     ((bqls) da5.f164949b).f141161a = i;
-                                    bxtx a23 = bxtx.m123261a(egx.m10388c(ehb.mo10126b()));
+                                    ByteString a23 = ByteString.m123261a(egx.m10388c(ehb.mo10126b()));
                                     if (da5.f164950c) {
                                         da5.mo74035c();
                                         da5.f164950c = false;
@@ -700,7 +700,7 @@ public final class ehe {
                                 bqlt bqlt22 = (bqlt) da3.mo74062i();
                                 bqlt22.getClass();
                                 if (!bqlu.f141174c.mo73666a()) {
-                                    bqlu.f141174c = bxvk.m124021a(bqlu.f141174c);
+                                    bqlu.f141174c = GeneratedMessageLite.m124021a(bqlu.f141174c);
                                 }
                                 bqlu.f141174c.add(bqlt22);
                                 i11++;
@@ -709,7 +709,7 @@ public final class ehe {
                                 z = false;
                             }
                             if (z4) {
-                                bxtx a24 = bxtx.m123261a(ehv.m10466a(a14.f14974b.getPublic()));
+                                ByteString a24 = ByteString.m123261a(ehv.m10466a(a14.f14974b.getPublic()));
                                 if (da2.f164950c) {
                                     da2.mo74035c();
                                     da2.f164950c = false;
@@ -759,7 +759,7 @@ public final class ehe {
                                                             for (int i13 = 0; i13 < size6; i13++) {
                                                                 bqln bqln = (bqln) bxwc.get(i13);
                                                                 String a26 = ehb2.mo10125a();
-                                                                eha eha = new eha(bqln.f141123a, bqln.f141124b, bqln.f141125c.mo73780k());
+                                                                eha eha = new eha(bqln.f141123a, bqln.f141124b, bqln.f141125c.getKey());
                                                                 ehn a27 = ehg.mo10146a(a26);
                                                                 bmxy.m108581a(eha);
                                                                 a27.f14981a.add(eha);
@@ -988,11 +988,11 @@ public final class ehe {
                 c = 0;
             }
             if (obj == null) {
-                sek sek = egz.f14895c;
+                Logger Logger = egz.f14895c;
                 Object[] objArr = new Object[2];
                 objArr[c] = bqmb.toString();
                 objArr[1] = str2;
-                sek.mo25416d("Invalid keyType=%s for keyName=%s.", objArr);
+                Logger.mo25416d("Invalid keyType=%s for keyName=%s.", objArr);
                 return;
             }
             egz.f14894b.add(obj);

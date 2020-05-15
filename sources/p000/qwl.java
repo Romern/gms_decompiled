@@ -14,6 +14,6 @@ final /* synthetic */ class qwl implements qwq {
     public final byte[] mo14930a() {
         bxxc bxxc = this.f42316a;
         rjo rjo = qws.f42331a;
-        return bxxc.mo73642k();
+        return bxxc.serializeToBytes();
     }
 }

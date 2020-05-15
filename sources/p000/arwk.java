@@ -17,7 +17,7 @@ import java.util.Map;
 public final class arwk {
 
     /* renamed from: a */
-    private static final sek f88360a = ascp.m73787a("Setup", "Accounts", "Utils", "DeviceRiskSignalsUtils");
+    private static final Logger f88360a = ascp.m73787a("Setup", "Accounts", "Utils", "DeviceRiskSignalsUtils");
 
     /* renamed from: b */
     private final Context f88361b;
@@ -47,7 +47,7 @@ public final class arwk {
         long j2;
         iyv iyv;
         long j3;
-        long a = spn.m35843a(this.f88361b);
+        long a = spn.getAndroidId(this.f88361b);
         String str = Build.MODEL;
         String str2 = Build.MANUFACTURER;
         int i = Build.VERSION.SDK_INT;
@@ -92,16 +92,16 @@ public final class arwk {
             j2 = -1;
             j = -1;
         }
-        sek sek = f88360a;
+        Logger Logger = f88360a;
         StringBuilder sb = new StringBuilder(50);
         sb.append("elapsedTimeSinceUnlockMillis: ");
         sb.append(j);
-        sek.mo25412b(sb.toString(), new Object[0]);
-        sek sek2 = f88360a;
+        Logger.mo25412b(sb.toString(), new Object[0]);
+        Logger logger2 = f88360a;
         StringBuilder sb2 = new StringBuilder(49);
         sb2.append("screenlockSettingsAgeMillis: ");
         sb2.append(j2);
-        sek2.mo25412b(sb2.toString(), new Object[0]);
+        logger2.mo25412b(sb2.toString(), new Object[0]);
         return new DeviceRiskSignals(a, str, str2, (long) i, new ScreenlockState(a2, i2, j2, j, z), new StarguardData(this.f88362c.mo28905a(this.f88363d)));
     }
 }

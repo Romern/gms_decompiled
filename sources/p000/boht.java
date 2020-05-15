@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boht */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boht extends bxvk implements bxxd {
+public final class boht extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final boht f133150d;
@@ -22,7 +22,7 @@ public final class boht extends bxvk implements bxxd {
     static {
         boht boht = new boht();
         f133150d = boht;
-        bxvk.m124024a(boht.class, boht);
+        GeneratedMessageLite.m124024a(boht.class, boht);
     }
 
     private boht() {
@@ -39,7 +39,7 @@ public final class boht extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133150d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f133150d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new boht();
         } else {

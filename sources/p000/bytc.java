@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bytc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bytc extends bxvk implements bxxd {
+public final class bytc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final bytc f167647i;
@@ -20,16 +20,16 @@ public final class bytc extends bxvk implements bxxd {
     public int f167651c = 1;
 
     /* renamed from: d */
-    public bxtx f167652d = bxtx.f164797b;
+    public ByteString f167652d = ByteString.f164797b;
 
     /* renamed from: e */
-    public bxtx f167653e = bxtx.f164797b;
+    public ByteString f167653e = ByteString.f164797b;
 
     /* renamed from: f */
-    public bxtx f167654f = bxtx.f164797b;
+    public ByteString f167654f = ByteString.f164797b;
 
     /* renamed from: g */
-    public bxtx f167655g = bxtx.f164797b;
+    public ByteString f167655g = ByteString.f164797b;
 
     /* renamed from: h */
     public int f167656h;
@@ -40,7 +40,7 @@ public final class bytc extends bxvk implements bxxd {
     static {
         bytc bytc = new bytc();
         f167647i = bytc;
-        bxvk.m124024a(bytc.class, bytc);
+        GeneratedMessageLite.m124024a(bytc.class, bytc);
     }
 
     private bytc() {
@@ -61,7 +61,7 @@ public final class bytc extends bxvk implements bxxd {
             this.f167657j = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f167647i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔌ\u0001\u0003ည\u0002\u0004ည\u0003\u0005ည\u0004\u0006ည\u0005\u0007ဋ\u0006", new Object[]{"a", "b", bytj.f167677a, "c", bysz.f167638a, "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f167647i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔌ\u0001\u0003ည\u0002\u0004ည\u0003\u0005ည\u0004\u0006ည\u0005\u0007ဋ\u0006", new Object[]{"a", "b", bytj.f167677a, "c", bysz.f167638a, "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new bytc();
         } else {

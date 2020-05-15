@@ -8,9 +8,9 @@ import java.util.Arrays;
 public final class bypp extends bypx {
 
     /* renamed from: a */
-    public final bxtx f167357a;
+    public final ByteString f167357a;
 
-    public bypp(bxtx bxtx) {
+    public bypp(ByteString bxtx) {
         bmxy.m108581a(bxtx);
         this.f167357a = bxtx;
     }
@@ -19,7 +19,7 @@ public final class bypp extends bypx {
     /* renamed from: a */
     public final void mo74417a(byqc byqc) {
         try {
-            byte[] k = this.f167357a.mo73780k();
+            byte[] k = this.f167357a.getKey();
             if (k != null) {
                 byqc.f167375a.mo74458a(-1);
                 byqc.mo74466a((byte) 64, k);
@@ -46,7 +46,7 @@ public final class bypp extends bypx {
         if (this.f167357a.mo73744a() != bypp.f167357a.mo73744a()) {
             return this.f167357a.mo73744a() - bypp.f167357a.mo73744a();
         }
-        return bqcv.f140491b.compare(this.f167357a.mo73780k(), bypp.f167357a.mo73780k());
+        return bqcv.f140491b.compare(this.f167357a.getKey(), bypp.f167357a.getKey());
     }
 
     public final boolean equals(Object obj) {
@@ -64,7 +64,7 @@ public final class bypp extends bypx {
     }
 
     public final String toString() {
-        String a = boan.f132472f.mo68787b().mo68794a(this.f167357a.mo73780k());
+        String a = boan.f132472f.mo68787b().mo68794a(this.f167357a.getKey());
         StringBuilder sb = new StringBuilder(String.valueOf(a).length() + 3);
         sb.append("h'");
         sb.append(a);

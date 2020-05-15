@@ -43,7 +43,7 @@ public final class xjt {
     private static final byte[] f52467i = "FIDO caBLE v1 sessionKey".getBytes(StandardCharsets.UTF_8);
 
     /* renamed from: j */
-    private static final sek f52468j = new sek(new String[]{"CableCryptoOps"}, (short[]) null);
+    private static final Logger f52468j = new Logger(new String[]{"CableCryptoOps"}, (short[]) null);
 
     /* renamed from: a */
     public static bqgg m43057a(Context context, byte[] bArr, Account account, xka xka, String str) {
@@ -61,11 +61,11 @@ public final class xjt {
             }
             return bqdx.m112673a(a3, new xjs(copyOf, atomicReference, atomicReference2, account), bqfb.INSTANCE);
         }
-        sek sek = f52468j;
+        Logger Logger = f52468j;
         StringBuilder sb = new StringBuilder(41);
         sb.append("Unexpected client EID length: ");
         sb.append(length);
-        sek.mo25416d(sb.toString(), new Object[0]);
+        Logger.mo25416d(sb.toString(), new Object[0]);
         return null;
     }
 
@@ -96,11 +96,11 @@ public final class xjt {
     public static xjm m43060a(byte[] bArr, xjn xjn) {
         int length = bArr.length;
         if (length != 16) {
-            sek sek = f52468j;
+            Logger Logger = f52468j;
             StringBuilder sb = new StringBuilder(41);
             sb.append("Unexpected client EID length: ");
             sb.append(length);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
             return null;
         }
         xjm a = m43059a(xjn, Arrays.copyOf(bArr, 8));

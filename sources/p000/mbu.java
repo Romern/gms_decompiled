@@ -9,7 +9,7 @@ import java.util.Locale;
 public final class mbu {
 
     /* renamed from: a */
-    public static final sek f33376a = new lvn("BackupLogDumper");
+    public static final Logger f33376a = new lvn("BackupLogDumper");
 
     /* renamed from: b */
     public final File f33377b;

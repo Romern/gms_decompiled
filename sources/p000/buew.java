@@ -16,7 +16,7 @@ public final class buew extends bxvd implements bxxd {
         buey buey = (buey) this.f164949b;
         buey buey2 = buey.f153665e;
         if (!buey.f153670d.mo73666a()) {
-            buey.f153670d = bxvk.m124019a(buey.f153670d);
+            buey.f153670d = GeneratedMessageLite.m124019a(buey.f153670d);
         }
         buey.f153670d.mo74153d(i);
     }

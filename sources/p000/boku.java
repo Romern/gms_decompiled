@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boku */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boku extends bxvk implements bxxd {
+public final class boku extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final boku f133456a;
@@ -13,7 +13,7 @@ public final class boku extends bxvk implements bxxd {
     static {
         boku boku = new boku();
         f133456a = boku;
-        bxvk.m124024a(boku.class, boku);
+        GeneratedMessageLite.m124024a(boku.class, boku);
     }
 
     private boku() {
@@ -30,7 +30,7 @@ public final class boku extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133456a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f133456a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new boku();

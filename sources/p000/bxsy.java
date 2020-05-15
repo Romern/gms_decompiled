@@ -27,8 +27,8 @@ public abstract class bxsy implements bxxb {
                         bxwm.remove(size3);
                     }
                     throw new NullPointerException(sb2);
-                } else if (obj instanceof bxtx) {
-                    bxwm.mo74189a((bxtx) obj);
+                } else if (obj instanceof ByteString) {
+                    bxwm.mo74189a((ByteString) obj);
                 } else {
                     bxwm.add((String) obj);
                 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: alkr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class alkr extends bxvk implements bxxd {
+public final class alkr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final alkr f73594c;
@@ -19,7 +19,7 @@ public final class alkr extends bxvk implements bxxd {
     static {
         alkr alkr = new alkr();
         f73594c = alkr;
-        bxvk.m124024a(alkr.class, alkr);
+        GeneratedMessageLite.m124024a(alkr.class, alkr);
     }
 
     private alkr() {
@@ -36,7 +36,7 @@ public final class alkr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f73594c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f73594c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new alkr();
         } else {

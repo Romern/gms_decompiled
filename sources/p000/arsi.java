@@ -24,7 +24,7 @@ public final class arsi {
     static final byte[] f88226a = "smartdevice.postsetup.key".getBytes(Charset.forName("UTF-8"));
 
     /* renamed from: c */
-    private static final sek f88227c = ascp.m73787a("PostSetup", "PostSetupManager");
+    private static final Logger f88227c = ascp.m73787a("PostSetup", "PostSetupManager");
 
     /* renamed from: b */
     byse f88228b;

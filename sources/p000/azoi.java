@@ -416,11 +416,11 @@ public final class azoi {
                 cbit cbit3 = (cbit) da2.mo74062i();
                 cbit3.getClass();
                 if (!cbiu.f177302b.mo73666a()) {
-                    cbiu.f177302b = bxvk.m124021a(cbiu.f177302b);
+                    cbiu.f177302b = GeneratedMessageLite.m124021a(cbiu.f177302b);
                 }
                 cbiu.f177302b.add(cbit3);
             }
-            intent2.putExtra("message_activity_conv_starters", ((cbiu) da.mo74062i()).mo73642k());
+            intent2.putExtra("message_activity_conv_starters", ((cbiu) da.mo74062i()).serializeToBytes());
         }
         if (bxte2 != null) {
             bxvd da4 = cbim.f177266c.mo74144da();
@@ -430,7 +430,7 @@ public final class azoi {
             }
             bxte.getClass();
             ((cbim) da4.f164949b).f177268a = bxte2;
-            intent2.putExtra("message_properties", ((cbim) da4.mo74062i()).mo73642k());
+            intent2.putExtra("message_properties", ((cbim) da4.mo74062i()).serializeToBytes());
         }
         intent2.putExtra("show_log_consent", z2);
         if (z2) {

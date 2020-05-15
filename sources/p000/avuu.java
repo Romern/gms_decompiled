@@ -250,9 +250,9 @@ public final class avuu extends dck implements avuv {
         }
         avvl avvl = new avvl(avvn.m79436a());
         Context context = this.f93944c;
-        sdo.m34966a((Object) str, (Object) "Log source cannot be null");
+        sdo.checkIfNull((Object) str, (Object) "Log source cannot be null");
         try {
-            bymi bymi = (bymi) bxvk.m124014a(bymi.f167024b, Base64.decode(chdn.f188491a.mo6606a().mo85142a(), 0));
+            bymi bymi = (bymi) GeneratedMessageLite.m124014a(bymi.f167024b, Base64.decode(chdn.f188491a.mo6606a().mo85142a(), 0));
             str.getClass();
             if (bymi.f167026a.containsKey(str)) {
                 str.getClass();

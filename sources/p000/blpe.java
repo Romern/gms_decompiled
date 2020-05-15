@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blpe */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blpe extends bxvk implements bxxd {
+public final class blpe extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final blpe f127206c;
@@ -22,7 +22,7 @@ public final class blpe extends bxvk implements bxxd {
     static {
         blpe blpe = new blpe();
         f127206c = blpe;
-        bxvk.m124024a(blpe.class, blpe);
+        GeneratedMessageLite.m124024a(blpe.class, blpe);
     }
 
     private blpe() {
@@ -43,7 +43,7 @@ public final class blpe extends bxvk implements bxxd {
             this.f127210d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127206c, "\u0001\u0002\u0000\u0000\u0003\u0005\u0002\u0000\u0002\u0001\u0003Л\u0005\u001b", new Object[]{"a", blrj.class, "b", blox.class});
+            return GeneratedMessageLite.m124022a(f127206c, "\u0001\u0002\u0000\u0000\u0003\u0005\u0002\u0000\u0002\u0001\u0003Л\u0005\u001b", new Object[]{"a", blrj.class, "b", blox.class});
         } else if (i2 == 3) {
             return new blpe();
         } else {

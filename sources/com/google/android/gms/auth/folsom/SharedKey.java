@@ -16,7 +16,7 @@ public class SharedKey extends AbstractSafeParcelable {
     public final byte[] f10906b;
 
     public SharedKey(int i, byte[] bArr) {
-        sdo.m34966a(bArr, "keyMaterial cannot be null");
+        sdo.checkIfNull(bArr, "keyMaterial cannot be null");
         this.f10905a = i;
         this.f10906b = bArr;
     }

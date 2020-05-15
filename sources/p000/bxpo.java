@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxpo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxpo extends bxvk implements bxxd {
+public final class bxpo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bxpo f164291c;
@@ -25,7 +25,7 @@ public final class bxpo extends bxvk implements bxxd {
     static {
         bxpo bxpo = new bxpo();
         f164291c = bxpo;
-        bxvk.m124024a(bxpo.class, bxpo);
+        GeneratedMessageLite.m124024a(bxpo.class, bxpo);
     }
 
     private bxpo() {
@@ -46,7 +46,7 @@ public final class bxpo extends bxvk implements bxxd {
             this.f164296e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f164291c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᐉ\u0000\u0002ဈ\u0001", new Object[]{"a", "d", "b"});
+            return GeneratedMessageLite.m124022a(f164291c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᐉ\u0000\u0002ဈ\u0001", new Object[]{"a", "d", "b"});
         } else if (i2 == 3) {
             return new bxpo();
         } else {

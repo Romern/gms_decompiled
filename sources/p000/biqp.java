@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biqp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biqp extends bxvk implements bxxd {
+public final class biqp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final biqp f121312c;
@@ -22,7 +22,7 @@ public final class biqp extends bxvk implements bxxd {
     static {
         biqp biqp = new biqp();
         f121312c = biqp;
-        bxvk.m124024a(biqp.class, biqp);
+        GeneratedMessageLite.m124024a(biqp.class, biqp);
     }
 
     private biqp() {
@@ -43,7 +43,7 @@ public final class biqp extends bxvk implements bxxd {
             this.f121316d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121312c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔄ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f121312c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔄ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new biqp();
         } else {

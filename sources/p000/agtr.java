@@ -37,7 +37,7 @@ public final class agtr extends Fragment {
     public final View onCreateView(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
         if (this.f66512a == null) {
             try {
-                this.f66512a = (bszh) bxvk.m124016a(bszh.f147822d, bundle.getByteArray("support_info_obj"), bxus.m123744c());
+                this.f66512a = (bszh) GeneratedMessageLite.m124016a(bszh.f147822d, bundle.getByteArray("support_info_obj"), bxus.m123744c());
             } catch (bxwf e) {
                 this.f66512a = MobileDataPlanSettingsChimeraActivity.m67304a(getActivity());
             }
@@ -59,7 +59,7 @@ public final class agtr extends Fragment {
 
     public final void onSaveInstanceState(Bundle bundle) {
         super.onSaveInstanceState(bundle);
-        bundle.putByteArray("support_info_obj", this.f66512a.mo73642k());
+        bundle.putByteArray("support_info_obj", this.f66512a.serializeToBytes());
     }
 
     public final void onStart() {

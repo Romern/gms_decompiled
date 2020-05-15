@@ -193,7 +193,7 @@ public final class rai {
                         ByteBuffer allocate = ByteBuffer.allocate(16);
                         allocate.putLong(0, qxy.mo24401c(12));
                         allocate.putLong(8, qxy.mo24401c(20));
-                        bxtx a = bxtx.m123261a(allocate.array());
+                        ByteString a = ByteString.m123261a(allocate.array());
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -280,7 +280,7 @@ public final class rai {
                             cafq cafq7 = (cafq) da.f164949b;
                             cafr3.getClass();
                             if (!cafq7.f172952i.mo73666a()) {
-                                cafq7.f172952i = bxvk.m124021a(cafq7.f172952i);
+                                cafq7.f172952i = GeneratedMessageLite.m124021a(cafq7.f172952i);
                             }
                             cafq7.f172952i.add(cafr3);
                             int i3 = ram.f42560a + 1;

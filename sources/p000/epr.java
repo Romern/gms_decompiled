@@ -58,7 +58,7 @@ public final class epr {
             return null;
         }
         try {
-            return (bswk) bxvk.m124016a(bswk.f147445c, bArr, bxus.m123744c());
+            return (bswk) GeneratedMessageLite.m124016a(bswk.f147445c, bArr, bxus.m123744c());
         } catch (bxwf e) {
             throw new IllegalStateException(e);
         }
@@ -580,7 +580,7 @@ public final class epr {
     /* renamed from: c */
     public static byte[] m10930c(bsxn bsxn) {
         if (bsxn != null) {
-            return bsxn.mo73642k();
+            return bsxn.serializeToBytes();
         }
         return null;
     }
@@ -605,7 +605,7 @@ public final class epr {
     /* renamed from: a */
     public static bsxn m10921a(byte[] bArr) {
         try {
-            return (bsxn) bxvk.m124016a(bsxn.f147586d, bArr, bxus.m123744c());
+            return (bsxn) GeneratedMessageLite.m124016a(bsxn.f147586d, bArr, bxus.m123744c());
         } catch (bxwf e) {
             throw new IllegalStateException(e);
         }
@@ -702,13 +702,13 @@ public final class epr {
     /* renamed from: a */
     public static byte[] m10923a(bswk bswk) {
         if (bswk != null) {
-            return bswk.mo73642k();
+            return bswk.serializeToBytes();
         }
         return null;
     }
 
     /* renamed from: b */
     public static byte[] m10927b(bsxn bsxn) {
-        return bsxn.mo73642k();
+        return bsxn.serializeToBytes();
     }
 }

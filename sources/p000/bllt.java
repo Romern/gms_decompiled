@@ -110,7 +110,7 @@ public final class bllt {
                 inflater.inflate(bArr2);
                 inflater.end();
                 try {
-                    bxwc bxwc = ((bllz) bxvk.m124014a(bllz.f126829b, bArr2)).f126831a;
+                    bxwc bxwc = ((bllz) GeneratedMessageLite.m124014a(bllz.f126829b, bArr2)).f126831a;
                     Stream map = bxwc.stream().map(bllk.f126796a);
                     bllx bllx = bllx.UNKNOWN;
                     bllx.getClass();

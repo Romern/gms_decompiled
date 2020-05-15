@@ -16,7 +16,7 @@ public final class avpk extends UpdateEngineCallback {
     public static final /* synthetic */ int f93699e = 0;
 
     /* renamed from: f */
-    private static final sek f93700f = avpq.m79018e("SynchronizedUpdateEngine");
+    private static final Logger f93700f = avpq.m79018e("SynchronizedUpdateEngine");
 
     /* renamed from: g */
     private static final long f93701g = TimeUnit.SECONDS.toMillis(10);
@@ -266,7 +266,7 @@ public final class avpk extends UpdateEngineCallback {
     /* renamed from: a */
     public final int mo51464a(avsp avsp, List list) {
         sdo.m34975b(this.f93706h.get(), "start() called before binding to UpdateEngine.");
-        sek sek = f93700f;
+        Logger Logger = f93700f;
         Object[] objArr = new Object[2];
         bmxt a = bmxu.m108563a(avsp);
         a.mo66885a("url", avsp.f93845a);
@@ -283,7 +283,7 @@ public final class avpk extends UpdateEngineCallback {
         a.mo66885a("properties", avsp.f93846b);
         objArr[0] = a.toString();
         objArr[1] = Integer.valueOf(list.size());
-        sek.mo25414c("start(%s, additionalProperties.size=%d)", objArr);
+        Logger.mo25414c("start(%s, additionalProperties.size=%d)", objArr);
         if (this.f93703b.get()) {
             return this.f93702a.get();
         }

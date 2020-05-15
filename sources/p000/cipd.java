@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cipd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cipd extends bxvk implements bxxd {
+public final class cipd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cipd f191186c;
@@ -19,7 +19,7 @@ public final class cipd extends bxvk implements bxxd {
     static {
         cipd cipd = new cipd();
         f191186c = cipd;
-        bxvk.m124024a(cipd.class, cipd);
+        GeneratedMessageLite.m124024a(cipd.class, cipd);
     }
 
     private cipd() {
@@ -36,7 +36,7 @@ public final class cipd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191186c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\u0002\u0002\t", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f191186c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\u0002\u0002\t", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cipd();
         } else {

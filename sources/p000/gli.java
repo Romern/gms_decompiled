@@ -8,7 +8,7 @@ import android.provider.Settings;
 public final class gli {
 
     /* renamed from: a */
-    private static final sek f18469a = new sek("FRP", "FrpUtil");
+    private static final Logger f18469a = new Logger("FRP", "FrpUtil");
 
     /* renamed from: a */
     public static boolean m13382a(Context context) {

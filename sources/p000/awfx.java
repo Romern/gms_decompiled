@@ -142,7 +142,7 @@ public final class awfx {
     public static bmaj m79878a(byte[] bArr) {
         bxvd da = bmaj.f128452m.mo74144da();
         if (bArr != null && bArr.length > 0) {
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -280,7 +280,7 @@ public final class awfx {
         }
         bwhf bwhf = (bwhf) da.f164949b;
         if (!bwhf.f159504c.mo73666a()) {
-            bwhf.f159504c = bxvk.m124019a(bwhf.f159504c);
+            bwhf.f159504c = GeneratedMessageLite.m124019a(bwhf.f159504c);
         }
         int size = arrayList.size();
         for (int i2 = 0; i2 < size; i2++) {

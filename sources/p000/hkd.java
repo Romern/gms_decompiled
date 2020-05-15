@@ -13,7 +13,7 @@ final /* synthetic */ class hkd implements bmxz {
 
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
-        sek sek = hkh.f19936a;
+        Logger Logger = hkh.f19936a;
         return ((InternalSignInCredentialWrapper) obj).mo7477a();
     }
 }

@@ -33,7 +33,7 @@ public final class xks extends xkh {
     private static final bnic f52589k = bnic.m109493a(f52583a, f52584b, f52585c, f52586d, f52587e);
 
     /* renamed from: m */
-    private static final sek f52590m = new sek(new String[]{"AuthenticatorAssertionResponseData"}, (short[]) null);
+    private static final Logger f52590m = new Logger(new String[]{"AuthenticatorAssertionResponseData"}, (short[]) null);
 
     /* renamed from: f */
     public final PublicKeyCredentialDescriptor f52591f;

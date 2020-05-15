@@ -377,7 +377,7 @@ public final class gnj {
                                 bsoa5.f146353a |= 64;
                                 bsoa = (bsoa) bxvd.mo74062i();
                                 if (bsoa != null) {
-                                    gmk2.mo12053a("token_request_options", sqd.m35970c(bsoa.mo73642k()));
+                                    gmk2.mo12053a("token_request_options", sqd.m35970c(bsoa.serializeToBytes()));
                                 } else {
                                     gmk2.mo12059d("token_request_options");
                                 }
@@ -478,9 +478,9 @@ public final class gnj {
                                                 try {
                                                     gnh.f18684e.mo12095b(a9, gqd.f18819m, Long.valueOf(System.currentTimeMillis() + Long.parseLong((String) gmu.mo12063a(gmu.f18636g))));
                                                 } catch (NumberFormatException e2) {
-                                                    sek sek = gnh.f18680a;
+                                                    Logger Logger = gnh.f18680a;
                                                     String valueOf = String.valueOf((String) gmu.mo12063a(gmu.f18636g));
-                                                    sek.mo25414c(valueOf.length() == 0 ? new String("Invalid Rdg param ") : "Invalid Rdg param ".concat(valueOf), new Object[0]);
+                                                    Logger.mo25414c(valueOf.length() == 0 ? new String("Invalid Rdg param ") : "Invalid Rdg param ".concat(valueOf), new Object[0]);
                                                 }
                                             }
                                         }
@@ -674,9 +674,9 @@ public final class gnj {
                     }
                     glq glq = gng4.f18679f;
                     String str25 = a3.name;
-                    sdo.m34966a((Object) "getToken", (Object) "flowName cannot be null!");
-                    if (gnv.m13504N()) {
-                        glq.f18566a.mo25409a("DroidGuard is turned off", new Object[0]);
+                    sdo.checkIfNull((Object) "getToken", (Object) "flowName cannot be null!");
+                    if (gnv.isDroidGuardEnabled()) {
+                        glq.f18566a.logVerbose("DroidGuard is turned off", new Object[0]);
                         z6 = z;
                         gng2 = gng4;
                         str = str11;
@@ -861,8 +861,8 @@ public final class gnj {
                 }
                 glq glq2 = gng4.f18679f;
                 String str252 = a3.name;
-                sdo.m34966a((Object) "getToken", (Object) "flowName cannot be null!");
-                if (gnv.m13504N()) {
+                sdo.checkIfNull((Object) "getToken", (Object) "flowName cannot be null!");
+                if (gnv.isDroidGuardEnabled()) {
                 }
                 if (str9 == null) {
                 }

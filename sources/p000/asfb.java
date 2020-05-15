@@ -341,7 +341,7 @@ public final class asfb {
         this.f88810d = true;
         this.f88827w = new HashMap();
         this.f88828x = new AtomicInteger(0);
-        sdo.m34966a(context, "WakeLock: context must not be null");
+        sdo.checkIfNull(context, "WakeLock: context must not be null");
         sdo.m34969a(str, (Object) "WakeLock: wakeLockName must not be empty");
         this.f88815i = i;
         this.f88817k = str2;

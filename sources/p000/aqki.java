@@ -20,9 +20,9 @@ public final /* synthetic */ class aqki implements aubg {
         sdo.m34959a(rkj);
         if (((avuw) rkj.f43190a).f93946b.f109539b) {
             if (aqkk.f86279a.mo19637a(3)) {
-                aqkk.f86279a.mo25412b("Sending Clearcut event:\n%s", new String(((boct) aqkk.f86285g.mo74062i()).mo73642k()));
+                aqkk.f86279a.mo25412b("Sending Clearcut event:\n%s", new String(((boct) aqkk.f86285g.mo74062i()).serializeToBytes()));
             }
-            aqkk.f86283e.f86287a.mo24335a(((boct) aqkk.f86285g.mo74062i()).mo73642k()).mo24327b();
+            aqkk.f86283e.f86287a.mo24335a(((boct) aqkk.f86285g.mo74062i()).serializeToBytes()).mo24327b();
             return null;
         }
         aqkk.f86279a.mo25412b("Opted out of usage reporting: %s", rkj);

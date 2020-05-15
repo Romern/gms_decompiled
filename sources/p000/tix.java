@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: tix */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class tix extends bxvk implements bxxd {
+public final class tix extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final tix f46160d;
@@ -22,7 +22,7 @@ public final class tix extends bxvk implements bxxd {
     static {
         tix tix = new tix();
         f46160d = tix;
-        bxvk.m124024a(tix.class, tix);
+        GeneratedMessageLite.m124024a(tix.class, tix);
     }
 
     private tix() {
@@ -39,7 +39,7 @@ public final class tix extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f46160d, "\u0001\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0003\u0000\u0001\u001a\u0002\u001a\u0003\u001a", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f46160d, "\u0001\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0003\u0000\u0001\u001a\u0002\u001a\u0003\u001a", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new tix();
         } else {

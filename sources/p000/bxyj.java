@@ -4,7 +4,7 @@ package p000;
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
 final class bxyj {
     /* renamed from: a */
-    static String m124411a(bxtx bxtx) {
+    static String m124411a(ByteString bxtx) {
         bxyi bxyi = new bxyi(bxtx);
         StringBuilder sb = new StringBuilder(bxyi.mo74280a());
         for (int i = 0; i < bxyi.mo74280a(); i++) {

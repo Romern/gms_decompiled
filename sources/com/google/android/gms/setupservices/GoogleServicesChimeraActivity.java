@@ -115,7 +115,7 @@ public class GoogleServicesChimeraActivity extends aqgz implements bjbh, bizz {
                 }
                 bofc bofc = (bofc) bofd.f132882a.get(a);
                 bxvd bxvd = (bxvd) bofc.mo74142c(5);
-                bxvd.mo73625a((bxvk) bofc);
+                bxvd.mo73625a((GeneratedMessageLite) bofc);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -129,7 +129,7 @@ public class GoogleServicesChimeraActivity extends aqgz implements bjbh, bizz {
                     bofd2 = bofd.f132880b;
                 }
                 bxvd bxvd2 = (bxvd) bofd2.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bofd2);
+                bxvd2.mo73625a((GeneratedMessageLite) bofd2);
                 boez boez = (boez) bxvd2;
                 boez.mo68904a(a, (bofc) bxvd.mo74062i());
                 bofd bofd3 = (bofd) boez.mo74062i();

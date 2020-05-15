@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btrc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btrc extends bxvk implements bxxd {
+public final class btrc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btrc f150068a;
@@ -13,7 +13,7 @@ public final class btrc extends bxvk implements bxxd {
     static {
         btrc btrc = new btrc();
         f150068a = btrc;
-        bxvk.m124024a(btrc.class, btrc);
+        GeneratedMessageLite.m124024a(btrc.class, btrc);
     }
 
     private btrc() {
@@ -30,7 +30,7 @@ public final class btrc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150068a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f150068a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btrc();

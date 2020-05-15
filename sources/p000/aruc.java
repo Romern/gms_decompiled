@@ -48,7 +48,7 @@ import org.json.JSONStringer;
 public final class aruc extends arwf {
 
     /* renamed from: a */
-    public static final sek f88303a = ascp.m73787a("Setup", "Accounts", "AccountsServiceImpl");
+    public static final Logger f88303a = ascp.m73787a("Setup", "Accounts", "AccountsServiceImpl");
 
     /* renamed from: f */
     private static final long f88304f = TimeUnit.MINUTES.toMillis(5);
@@ -248,9 +248,9 @@ public final class aruc extends arwf {
             String str2 = challenge2.f108122c;
             try {
                 byte[] bArr2 = challenge2.f108124e;
-                String hexString = Long.toHexString(spn.m35843a(this.f88306b));
+                String hexString = Long.toHexString(spn.getAndroidId(this.f88306b));
                 if (cgqi.f187508a.mo6606a().mo84279c()) {
-                    bArr = m73502a(new arwk(this.f88306b, mo48835b(), m73505a(hexString, bArr2), z3).mo48875a()).mo73642k();
+                    bArr = m73502a(new arwk(this.f88306b, mo48835b(), m73505a(hexString, bArr2), z3).mo48875a()).serializeToBytes();
                     str = "source_device_signals_v2";
                 } else {
                     boolean a = ascb.m73766a(this.f88306b);
@@ -332,18 +332,18 @@ public final class aruc extends arwf {
                         bsaj.f143854a = i7 | 16;
                         bsaj.f143859f = -1;
                     }
-                    sek sek = f88303a;
+                    Logger Logger = f88303a;
                     long j3 = ((bsaj) da.f164949b).f143858e;
                     StringBuilder sb = new StringBuilder(43);
                     sb.append("lastUnlockDurationInS: ");
                     sb.append(j3);
-                    sek.mo25412b(sb.toString(), new Object[0]);
-                    sek sek2 = f88303a;
+                    Logger.mo25412b(sb.toString(), new Object[0]);
+                    Logger logger2 = f88303a;
                     long j4 = ((bsaj) da.f164949b).f143859f;
                     StringBuilder sb2 = new StringBuilder(48);
                     sb2.append("lockScreenSetupDurationInS: ");
                     sb2.append(j4);
-                    sek2.mo25412b(sb2.toString(), new Object[0]);
+                    logger2.mo25412b(sb2.toString(), new Object[0]);
                     bxvd da2 = brzw.f143793i.mo74144da();
                     if (da2.f164950c) {
                         da2.mo74035c();
@@ -399,7 +399,7 @@ public final class aruc extends arwf {
                         brzw5.f143795a |= 32;
                         brzw5.f143801g = a4;
                     }
-                    bArr = ((brzw) da2.mo74062i()).mo73642k();
+                    bArr = ((brzw) da2.mo74062i()).serializeToBytes();
                     str = "source_device_signals";
                 }
                 byte[] bytes = new JSONStringer().object().key("typ").value("navigator.id.getAssertion").key("challenge").value(sqd.m35972d(bArr2)).key(str).value(sqd.m35972d(bArr)).key("account_identifier").value(str2).endObject().toString().getBytes(bmwy.f131158c);
@@ -410,7 +410,7 @@ public final class aruc extends arwf {
                     return null;
                 }
                 bxvd da3 = byrs.f167510d.mo74144da();
-                bxtx a5 = bxtx.m123261a(digest);
+                ByteString a5 = ByteString.m123261a(digest);
                 if (da3.f164950c) {
                     da3.mo74035c();
                     da3.f164950c = false;
@@ -438,12 +438,12 @@ public final class aruc extends arwf {
                 throw th;
             }
         } else {
-            sek sek3 = f88303a;
+            Logger logger3 = f88303a;
             int i9 = challenge2.f108121b;
             StringBuilder sb3 = new StringBuilder(47);
             sb3.append("challenge status was not STATUS_OK: ");
             sb3.append(i9);
-            sek3.mo25418e(sb3.toString(), new Object[0]);
+            logger3.mo25418e(sb3.toString(), new Object[0]);
             this.f88309e.mo48203a(10658);
             return null;
         }
@@ -497,7 +497,7 @@ public final class aruc extends arwf {
             byrv.f167520b = i2;
             byrv.f167519a |= 1;
             byrv.m125232a(byrv);
-            return ((byrv) da.mo74062i()).mo73642k();
+            return ((byrv) da.mo74062i()).serializeToBytes();
         }
         throw null;
     }
@@ -505,7 +505,7 @@ public final class aruc extends arwf {
     /* renamed from: a */
     public final brzo mo48822a(Assertion assertion) {
         bxvd da = brzo.f143767h.mo74144da();
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -531,7 +531,7 @@ public final class aruc extends arwf {
         brzo brzo2 = (brzo) da.f164949b;
         brzo2.f143775g = i2 - 1;
         brzo2.f143769a |= 32;
-        bxtx a2 = bxtx.m123261a(assertion.f108117f);
+        ByteString a2 = bxtx.m123261a(assertion.f108117f);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -540,7 +540,7 @@ public final class aruc extends arwf {
         a2.getClass();
         brzo3.f143769a |= 16;
         brzo3.f143774f = a2;
-        bxtx a3 = bxtx.m123261a(assertion.f108116e);
+        ByteString a3 = bxtx.m123261a(assertion.f108116e);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -549,7 +549,7 @@ public final class aruc extends arwf {
         a3.getClass();
         brzo4.f143769a |= 8;
         brzo4.f143773e = a3;
-        bxtx a4 = bxtx.m123261a(assertion.f108114c);
+        ByteString a4 = bxtx.m123261a(assertion.f108114c);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -558,7 +558,7 @@ public final class aruc extends arwf {
         a4.getClass();
         brzo5.f143769a |= 2;
         brzo5.f143771c = a4;
-        bxtx a5 = bxtx.m123261a(assertion.f108115d);
+        ByteString a5 = bxtx.m123261a(assertion.f108115d);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -583,7 +583,7 @@ public final class aruc extends arwf {
             if (!(bArr == null || byrs == null)) {
                 Account account = new Account(challenge.f108122c, "com.google");
                 try {
-                    return new Assertion(challenge.f108122c, bArr, ((SignCryptedBlob) m73504a(this.f88312j.mo13184a("PublicKey", "authzen", account, new Payload(null, m73506a(bysa.GCMV1_IDENTITY_ASSERTION), byrs.mo73642k())))).f10555c, challenge.f108125f, challenge.f108124e);
+                    return new Assertion(challenge.f108122c, bArr, ((SignCryptedBlob) m73504a(this.f88312j.mo13184a("PublicKey", "authzen", account, new Payload(null, m73506a(bysa.GCMV1_IDENTITY_ASSERTION), byrs.serializeToBytes())))).f10555c, challenge.f108125f, challenge.f108124e);
                 } catch (InterruptedException | ExecutionException | TimeoutException e) {
                     f88303a.mo25410a(e);
                     this.f88309e.mo48203a(10660);
@@ -622,7 +622,7 @@ public final class aruc extends arwf {
                     throw th;
                 }
             } else {
-                String hexString = Long.toHexString(spn.m35843a(this.f88306b));
+                String hexString = Long.toHexString(spn.getAndroidId(this.f88306b));
                 String str2 = Build.DEVICE;
                 String str3 = Build.MODEL;
                 String valueOf = String.valueOf(Build.VERSION.SDK_INT);
@@ -698,7 +698,7 @@ public final class aruc extends arwf {
             } else {
                 f88303a.mo25414c("Backup account not found.", new Object[0]);
             }
-            String hexString = Long.toHexString(spn.m35843a(this.f88306b));
+            String hexString = Long.toHexString(spn.getAndroidId(this.f88306b));
             if (TextUtils.isEmpty(hexString)) {
                 f88303a.mo25414c("Android ID is null or empty.", new Object[0]);
             }
@@ -763,16 +763,16 @@ public final class aruc extends arwf {
                         userBootstrapInfoArr[i] = new UserBootstrapInfo(str, byrr.m125226a(byrr.m125227b(((CryptauthPublicKey) m73504a(this.f88312j.mo13188d("PublicKey", account))).f10517b)));
                         i++;
                     } catch (InvalidKeySpecException e) {
-                        sek sek = f88303a;
-                        String valueOf = String.valueOf(sek.m35081a(str));
-                        sek.mo25417e(valueOf.length() == 0 ? new String("Could not get public key of user: ") : "Could not get public key of user: ".concat(valueOf), e, new Object[0]);
+                        Logger Logger = f88303a;
+                        String valueOf = String.valueOf(Logger.m35081a(str));
+                        Logger.mo25417e(valueOf.length() == 0 ? new String("Could not get public key of user: ") : "Could not get public key of user: ".concat(valueOf), e, new Object[0]);
                         status = new Status(10657);
                         this.f88309e.mo48203a(status.f30115i);
                     } catch (InterruptedException e2) {
                         e = e2;
-                        sek sek2 = f88303a;
-                        String valueOf2 = String.valueOf(sek.m35081a(str));
-                        sek2.mo25417e(valueOf2.length() == 0 ? new String("Failed retrieve PublicKey for account: ") : "Failed retrieve PublicKey for account: ".concat(valueOf2), e, new Object[0]);
+                        Logger logger2 = f88303a;
+                        String valueOf2 = String.valueOf(Logger.m35081a(str));
+                        logger2.mo25417e(valueOf2.length() == 0 ? new String("Failed retrieve PublicKey for account: ") : "Failed retrieve PublicKey for account: ".concat(valueOf2), e, new Object[0]);
                         status = new Status(10656);
                         try {
                             this.f88309e.mo48203a(status.f30115i);
@@ -782,16 +782,16 @@ public final class aruc extends arwf {
                         }
                     } catch (ExecutionException e3) {
                         e = e3;
-                        sek sek22 = f88303a;
-                        String valueOf22 = String.valueOf(sek.m35081a(str));
-                        sek22.mo25417e(valueOf22.length() == 0 ? new String("Failed retrieve PublicKey for account: ") : "Failed retrieve PublicKey for account: ".concat(valueOf22), e, new Object[0]);
+                        Logger logger22 = f88303a;
+                        String valueOf22 = String.valueOf(Logger.m35081a(str));
+                        logger22.mo25417e(valueOf22.length() == 0 ? new String("Failed retrieve PublicKey for account: ") : "Failed retrieve PublicKey for account: ".concat(valueOf22), e, new Object[0]);
                         status = new Status(10656);
                         this.f88309e.mo48203a(status.f30115i);
                     } catch (TimeoutException e4) {
                         e = e4;
-                        sek sek222 = f88303a;
-                        String valueOf222 = String.valueOf(sek.m35081a(str));
-                        sek222.mo25417e(valueOf222.length() == 0 ? new String("Failed retrieve PublicKey for account: ") : "Failed retrieve PublicKey for account: ".concat(valueOf222), e, new Object[0]);
+                        Logger logger222 = f88303a;
+                        String valueOf222 = String.valueOf(Logger.m35081a(str));
+                        logger222.mo25417e(valueOf222.length() == 0 ? new String("Failed retrieve PublicKey for account: ") : "Failed retrieve PublicKey for account: ".concat(valueOf222), e, new Object[0]);
                         status = new Status(10656);
                         this.f88309e.mo48203a(status.f30115i);
                     } catch (Throwable th2) {
@@ -856,9 +856,9 @@ public final class aruc extends arwf {
                 for (int i = 0; i < challengeArr.length; i++) {
                     Assertion a = mo48823a(challengeArr[i], z, z2);
                     if (a == null) {
-                        sek sek = f88303a;
+                        Logger Logger = f88303a;
                         String valueOf = String.valueOf(challengeArr[i].f108122c);
-                        sek.mo25418e(valueOf.length() == 0 ? new String("Could not create assertion for account: ") : "Could not create assertion for account: ".concat(valueOf), new Object[0]);
+                        Logger.mo25418e(valueOf.length() == 0 ? new String("Could not create assertion for account: ") : "Could not create assertion for account: ".concat(valueOf), new Object[0]);
                     } else {
                         arrayList.add(a);
                     }
@@ -900,7 +900,7 @@ public final class aruc extends arwf {
                         if (bArr == null || byrs == null) {
                             aucb = aucu.m76777a((Exception) new rjp(Status.f30109c));
                         } else {
-                            aucb = this.f88312j.mo13184a("PublicKey", "authzen", new Account(challenge.f108122c, "com.google"), new Payload(null, m73506a(bysa.GCMV1_IDENTITY_ASSERTION), byrs.mo73642k())).mo50363a(new artv(challenge, bArr));
+                            aucb = this.f88312j.mo13184a("PublicKey", "authzen", new Account(challenge.f108122c, "com.google"), new Payload(null, m73506a(bysa.GCMV1_IDENTITY_ASSERTION), byrs.serializeToBytes())).mo50363a(new artv(challenge, bArr));
                         }
                     }
                 }
@@ -934,7 +934,7 @@ public final class aruc extends arwf {
             str.getClass();
             bsai.f143849a |= 1;
             bsai.f143850b = str;
-            bxtx a = bxtx.m123261a(userBootstrapInfo.f108176c);
+            ByteString a = ByteString.m123261a(userBootstrapInfo.f108176c);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

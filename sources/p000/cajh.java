@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cajh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cajh extends bxvk implements bxxd {
+public final class cajh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final cajh f174820f;
@@ -28,7 +28,7 @@ public final class cajh extends bxvk implements bxxd {
     static {
         cajh cajh = new cajh();
         f174820f = cajh;
-        bxvk.m124024a(cajh.class, cajh);
+        GeneratedMessageLite.m124024a(cajh.class, cajh);
     }
 
     private cajh() {
@@ -45,7 +45,7 @@ public final class cajh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174820f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဈ\u0002\u0004င\u0003", new Object[]{"a", "b", cajg.f174819a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f174820f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဈ\u0002\u0004င\u0003", new Object[]{"a", "b", cajg.f174819a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new cajh();
         } else {

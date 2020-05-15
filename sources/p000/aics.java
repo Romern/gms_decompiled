@@ -106,7 +106,7 @@ public final class aics {
     static aiaa m56976a(ahsu ahsu) {
         aiaa aiaa = ahsu.f67969b;
         bxvd bxvd = (bxvd) aiaa.mo74142c(5);
-        bxvd.mo73625a((bxvk) aiaa);
+        bxvd.mo73625a((GeneratedMessageLite) aiaa);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -255,8 +255,8 @@ public final class aics {
                                             ahyz = null;
                                             break;
                                         }
-                                        bxtx bxtx = (bxtx) it.next();
-                                        if (buqd2.mo72979a(bqce.m112562a(bxtx.mo73780k(), bArr5))) {
+                                        ByteString bxtx = (ByteString) it.next();
+                                        if (buqd2.mo72979a(bqce.m112562a(bxtx.getKey(), bArr5))) {
                                             ahyz = (ahyz) b.get(bxtx);
                                             break;
                                         }
@@ -302,7 +302,7 @@ public final class aics {
                                             Context context3 = context;
                                             ahvf ahvf = (ahvf) ahgz.m55754a(context3, ahvf.class);
                                             if (cfoj.f184966a.mo6606a().mo82136bG()) {
-                                                bxtx bxtx2 = ahyz2.f68429c;
+                                                ByteString bxtx2 = ahyz2.f68429c;
                                                 if (!ahvf.f68157b.containsKey(bxtx2) || SystemClock.elapsedRealtime() > ((Long) ahvf.f68157b.get(bxtx2)).longValue()) {
                                                     ahvf.mo37202b("android.bluetooth.device.action.FOUND", ahyz2);
                                                 }

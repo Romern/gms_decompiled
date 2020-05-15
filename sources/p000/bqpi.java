@@ -22,7 +22,7 @@ public final class bqpi implements bqng {
 
     /* renamed from: a */
     public final byte[] mo69281a(byte[] bArr, byte[] bArr2) {
-        byte[] k = bqok.m113116b(this.f141347b).mo73642k();
+        byte[] k = bqok.m113116b(this.f141347b).serializeToBytes();
         byte[] a = this.f141348c.mo69281a(k, f141346a);
         byte[] a2 = ((bqng) bqok.m113107a(this.f141347b.f141516a, k, bqng.class)).mo69281a(bArr, bArr2);
         int length = a.length;

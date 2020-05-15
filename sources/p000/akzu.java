@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public final class akzu extends bebz {
 
     /* renamed from: a */
-    private static final sek f73189a = akzt.m60725a("UrlChecker");
+    private static final Logger f73189a = akzt.m60725a("UrlChecker");
 
     /* renamed from: b */
     private final Pattern f73190b;
@@ -23,7 +23,7 @@ public final class akzu extends bebz {
         if (!this.f73190b.matcher(str).matches()) {
             return true;
         }
-        f73189a.mo25409a("Blacklist violation. URL %s does match blacklist pattern %s", str, this.f73190b);
+        f73189a.logVerbose("Blacklist violation. URL %s does match blacklist pattern %s", str, this.f73190b);
         return false;
     }
 }

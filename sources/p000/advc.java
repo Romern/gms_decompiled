@@ -96,7 +96,7 @@ public final class advc {
             bsji bsji = (bsji) da.mo74062i();
             bsji.getClass();
             if (!bsjj2.f144803c.mo73666a()) {
-                bsjj2.f144803c = bxvk.m124021a(bsjj2.f144803c);
+                bsjj2.f144803c = GeneratedMessageLite.m124021a(bsjj2.f144803c);
             }
             bsjj2.f144803c.add(bsji);
         }

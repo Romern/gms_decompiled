@@ -161,7 +161,7 @@ public final class abxv extends abxm {
                         caef = null;
                     } else {
                         try {
-                            caef = (caef) bxvk.m124012a(caef.f172809f, byteBuffer);
+                            caef = (caef) GeneratedMessageLite.m124012a(caef.f172809f, byteBuffer);
                         } catch (bxwf e) {
                             if (briy.m114098a(6)) {
                                 Log.e("FirebaseAppIndex", "Invalid thing_proto section", e);

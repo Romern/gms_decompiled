@@ -32,7 +32,7 @@ public final class adfg {
         sdo.m34959a(adff.f61547a);
         new Object[1][0] = adff.f61547a;
         SharedPreferences sharedPreferences = context.getSharedPreferences("instantApps.ClientCookie", 0);
-        String encodeToString = Base64.encodeToString(adff.f61547a.mo73642k(), 0);
+        String encodeToString = Base64.encodeToString(adff.f61547a.serializeToBytes(), 0);
         SharedPreferences.Editor edit = sharedPreferences.edit();
         edit.putString("client_cookie", encodeToString);
         Integer num = adff.f61549c;
@@ -117,7 +117,7 @@ public final class adfg {
         String string = sharedPreferences.getString("client_cookie", null);
         if (string != null) {
             try {
-                adff.f61547a = (camf) bxvk.m124014a(camf.f175264b, Base64.decode(string, 0));
+                adff.f61547a = (camf) GeneratedMessageLite.m124014a(camf.f175264b, Base64.decode(string, 0));
             } catch (bxwf e2) {
                 sharedPreferences.edit().clear().apply();
                 adfs adfs = f61551b;

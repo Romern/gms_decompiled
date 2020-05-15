@@ -89,7 +89,7 @@ public final class ffv {
             bspd bspd2 = (bspd) da2.mo74062i();
             bspd2.getClass();
             if (!bsoh.f146381b.mo73666a()) {
-                bsoh.f146381b = bxvk.m124021a(bsoh.f146381b);
+                bsoh.f146381b = GeneratedMessageLite.m124021a(bsoh.f146381b);
             }
             bsoh.f146381b.add(bspd2);
         }
@@ -113,7 +113,7 @@ public final class ffv {
             bspe bspe2 = (bspe) da3.mo74062i();
             bspe2.getClass();
             if (!bsoh2.f146380a.mo73666a()) {
-                bsoh2.f146380a = bxvk.m124021a(bsoh2.f146380a);
+                bsoh2.f146380a = GeneratedMessageLite.m124021a(bsoh2.f146380a);
             }
             bsoh2.f146380a.add(bspe2);
         }
@@ -251,7 +251,7 @@ public final class ffv {
         }
         bspl bspl2 = (bspl) da4.f164949b;
         if (!bspl2.f146523d.mo73666a()) {
-            bspl2.f146523d = bxvk.m124019a(bspl2.f146523d);
+            bspl2.f146523d = GeneratedMessageLite.m124019a(bspl2.f146523d);
         }
         bxsy.m123078a(bngx, bspl2.f146523d);
         bspl bspl3 = (bspl) da4.mo74062i();
@@ -334,6 +334,6 @@ public final class ffv {
 
     /* renamed from: a */
     public final void mo10788a(bspq bspq) {
-        this.f16481d.mo24335a(bspq.mo73642k()).mo24327b();
+        this.f16481d.mo24335a(bspq.serializeToBytes()).mo24327b();
     }
 }

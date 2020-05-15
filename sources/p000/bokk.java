@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bokk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bokk extends bxvk implements bxxd {
+public final class bokk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bokk f133422d;
@@ -22,7 +22,7 @@ public final class bokk extends bxvk implements bxxd {
     static {
         bokk bokk = new bokk();
         f133422d = bokk;
-        bxvk.m124024a(bokk.class, bokk);
+        GeneratedMessageLite.m124024a(bokk.class, bokk);
     }
 
     private bokk() {
@@ -39,7 +39,7 @@ public final class bokk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133422d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", bokj.f133421a, "c"});
+            return GeneratedMessageLite.m124022a(f133422d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", bokj.f133421a, "c"});
         } else if (i2 == 3) {
             return new bokk();
         } else {

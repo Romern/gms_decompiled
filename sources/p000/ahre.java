@@ -24,7 +24,7 @@ final class ahre implements ahon {
 
     /* renamed from: a */
     public final void mo36908a(aivw aivw, byte[] bArr) {
-        if (!Arrays.equals(this.f67861a.f154872c.mo73780k(), bArr)) {
+        if (!Arrays.equals(this.f67861a.f154872c.getKey(), bArr)) {
             srn srn = ahkm.f67363a;
             ahkm.m55981a(bArr);
             return;

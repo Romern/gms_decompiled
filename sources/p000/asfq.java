@@ -46,7 +46,7 @@ public final class asfq {
 
     /* renamed from: a */
     public static long m73985a(Context context) {
-        return spn.m35843a(context) % TimeUnit.DAYS.toMillis(1);
+        return spn.getAndroidId(context) % TimeUnit.DAYS.toMillis(1);
     }
 
     /* renamed from: a */
@@ -80,7 +80,7 @@ public final class asfq {
                     bqye.m113761a(th, th2);
                 }
             }
-            cala = (cala) bxvk.m124014a(cala.f175092h, Base64.decode(str, 0));
+            cala = (cala) GeneratedMessageLite.m124014a(cala.f175092h, Base64.decode(str, 0));
         } catch (bxwf e2) {
             qxq.mo24383c("EastworldStatsParseFailure").mo24359a();
             qxq.mo24388e();
@@ -89,7 +89,7 @@ public final class asfq {
         int i3 = cala.f175095b;
         int i4 = cala.f175096c;
         bxvd bxvd = (bxvd) cala.mo74142c(5);
-        bxvd.mo73625a((bxvk) cala);
+        bxvd.mo73625a((GeneratedMessageLite) cala);
         if (z) {
             int i5 = i3 + 1;
             if (bxvd.f164950c) {
@@ -124,7 +124,7 @@ public final class asfq {
             if (a.f175111i == i) {
                 int i7 = cakw.f175076c;
                 bxvd bxvd2 = (bxvd) cakw.mo74142c(5);
-                bxvd2.mo73625a((bxvk) cakw);
+                bxvd2.mo73625a((GeneratedMessageLite) cakw);
                 int i8 = i7 + 1;
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
@@ -211,7 +211,7 @@ public final class asfq {
                 bxvd.f164950c = false;
             }
             cala cala = cala.f175092h;
-            ((cala) bxvd.f164949b).f175099f = bxvk.m124030de();
+            ((cala) bxvd.f164949b).f175099f = GeneratedMessageLite.m124030de();
             Iterator it = arrayDeque.iterator();
             int i4 = 0;
             while (it.hasNext()) {
@@ -224,7 +224,7 @@ public final class asfq {
                     cala cala2 = (cala) bxvd.f164949b;
                     cakx4.getClass();
                     if (!cala2.f175099f.mo73666a()) {
-                        cala2.f175099f = bxvk.m124021a(cala2.f175099f);
+                        cala2.f175099f = GeneratedMessageLite.m124021a(cala2.f175099f);
                     }
                     cala2.f175099f.add(cakx4);
                     i4++;
@@ -242,7 +242,7 @@ public final class asfq {
             bxvd da = caky.f175084f.mo74144da();
             if (caky != null) {
                 da = (bxvd) caky.mo74142c(5);
-                da.mo73625a((bxvk) caky);
+                da.mo73625a((GeneratedMessageLite) caky);
             }
             if (da.f164950c) {
                 da.mo74035c();
@@ -283,7 +283,7 @@ public final class asfq {
         }
         if (cguw.m147106b()) {
             asfo a = asfo.m73974a(rpr.m34216b());
-            String encodeToString = Base64.encodeToString(cala.mo73642k(), 0);
+            String encodeToString = Base64.encodeToString(cala.serializeToBytes(), 0);
             try {
                 ContentValues contentValues = new ContentValues();
                 contentValues.put("stats_proto", encodeToString);
@@ -292,7 +292,7 @@ public final class asfq {
             }
         } else {
             SharedPreferences.Editor edit = f88850a.edit();
-            edit.putString(":eastworldStats", Base64.encodeToString(cala.mo73642k(), 0));
+            edit.putString(":eastworldStats", Base64.encodeToString(cala.serializeToBytes(), 0));
             edit.apply();
         }
     }
@@ -354,7 +354,7 @@ public final class asfq {
                 cald3.getClass();
                 calg.f175122c = cald3;
                 calg.f175120a |= 2;
-                qwo a = qws2.mo24335a(((calg) bxvd.mo74062i()).mo73642k());
+                qwo a = qws2.mo24335a(((calg) bxvd.mo74062i()).serializeToBytes());
                 a.f42322f = cagz.m126622a(i);
                 a.f42320d = str3;
                 a.mo24327b();
@@ -425,7 +425,7 @@ public final class asfq {
                 cald5.getClass();
                 calg4.f175122c = cald5;
                 calg4.f175120a |= 2;
-                qwo a3 = qws2.mo24335a(((calg) bxvd.mo74062i()).mo73642k());
+                qwo a3 = qws2.mo24335a(((calg) bxvd.mo74062i()).serializeToBytes());
                 a3.mo24330c(aeyi.mo34650b());
                 a3.f42322f = cagz.m126622a(i);
                 a3.f42320d = str3;
@@ -451,7 +451,7 @@ public final class asfq {
     private static void m73991a(rjx rjx, qxq qxq, bxvd bxvd, String str, int i, bxvd bxvd2) {
         calg calg = (calg) bxvd.mo74062i();
         try {
-            byte[] k = calg.mo73642k();
+            byte[] k = calg.serializeToBytes();
             if (f88852c == null) {
                 f88852c = new asfp();
             }

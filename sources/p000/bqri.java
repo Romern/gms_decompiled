@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqri */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqri extends bxvk implements bxxd {
+public final class bqri extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bqri f141435b;
@@ -16,7 +16,7 @@ public final class bqri extends bxvk implements bxxd {
     static {
         bqri bqri = new bqri();
         f141435b = bqri;
-        bxvk.m124024a(bqri.class, bqri);
+        GeneratedMessageLite.m124024a(bqri.class, bqri);
     }
 
     private bqri() {
@@ -33,7 +33,7 @@ public final class bqri extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f141435b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002\t", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f141435b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002\t", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bqri();
         } else {

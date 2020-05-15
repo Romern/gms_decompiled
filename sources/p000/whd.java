@@ -12,7 +12,7 @@ public final class whd extends shl {
     public whd(Context context, String str, int i) {
         super(context, str, i, -1, 6656);
         String str2;
-        mo25556a("X-Device-ID", Long.toHexString(spn.m35843a(context)));
+        mo25556a("X-Device-ID", Long.toHexString(spn.getAndroidId(context)));
         mo25556a("User-Agent", sic.m35342a(context, "Family/1.0"));
         Configuration configuration = context.getResources().getConfiguration();
         int i2 = Build.VERSION.SDK_INT;

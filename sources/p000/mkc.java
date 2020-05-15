@@ -42,7 +42,7 @@ public final class mkc extends soa {
                     } else {
                         ByteBuffer a = mkb.f33868c.mo20131a(i);
                         if (a.position() == 0 && a.limit() == a.capacity()) {
-                            mps mps = (mps) bxvk.m124016a(mps.f34215e, a.array(), bxus.m123744c());
+                            mps mps = (mps) GeneratedMessageLite.m124016a(mps.f34215e, a.array(), bxus.m123744c());
                             mkb.f33866a.mo25412b("Received: %d bytes.", Integer.valueOf(mps.f34219c));
                             int i2 = mps.f34219c;
                             if (i2 < 0 || i2 > 10485760) {

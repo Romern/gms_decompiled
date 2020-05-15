@@ -52,7 +52,7 @@ public final class gmu extends gmg {
     public static final gmt f18644o = new gmq();
 
     /* renamed from: s */
-    private static final sek f18645s = ght.m13171a("GetToken", "GetTokenResponse");
+    private static final Logger f18645s = ght.m13171a("GetToken", "GetTokenResponse");
 
     /* renamed from: p */
     public final TokenData f18646p;

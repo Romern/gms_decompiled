@@ -635,10 +635,10 @@ public final class aozc {
                                         }
                                         if (d && this.f83927f) {
                                             if (!btfi4.f148674q.mo73779j()) {
-                                                bArr = btfi4.f148674q.mo73780k();
+                                                bArr = btfi4.f148674q.getKey();
                                                 i21222++;
                                             } else {
-                                                bArr = !btfi4.f148673p.mo73779j() ? btfi4.f148673p.mo73780k() : null;
+                                                bArr = !btfi4.f148673p.mo73779j() ? btfi4.f148673p.getKey() : null;
                                             }
                                             if (bArr != null) {
                                                 arrayList222.add(ContentProviderOperation.newInsert(ContactsContract.Data.CONTENT_URI).withValueBackReference("raw_contact_id", size3).withValue("mimetype", "vnd.android.cursor.item/photo").withValue("data15", bArr).build());

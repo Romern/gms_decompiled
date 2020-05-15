@@ -41,7 +41,7 @@ public final class ikv extends ikz implements View.OnClickListener {
     public static final String f21256g = String.valueOf(f21250a).concat("_no_button_color");
 
     /* renamed from: i */
-    public static final sek f21257i = new sek("RecoveryVerificationFragment");
+    public static final Logger f21257i = new Logger("RecoveryVerificationFragment");
 
     /* renamed from: h */
     protected ijt f21258h;

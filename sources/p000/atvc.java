@@ -240,7 +240,7 @@ public final class atvc extends atvb {
                 message = Message.obtain((Handler) null, this.f90988g);
                 btnf btnf = this.f90987f;
                 if (btnf != null) {
-                    bArr = btnf.mo73642k();
+                    bArr = btnf.serializeToBytes();
                 }
                 bundle = new Bundle();
                 bundle.putByteArray("tap_and_pay_api_error", bArr);

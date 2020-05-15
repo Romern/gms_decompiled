@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lak */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lak extends bxvk implements bxxd {
+public final class lak extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final lak f25559f;
@@ -28,7 +28,7 @@ public final class lak extends bxvk implements bxxd {
     static {
         lak lak = new lak();
         f25559f = lak;
-        bxvk.m124024a(lak.class, lak);
+        GeneratedMessageLite.m124024a(lak.class, lak);
     }
 
     private lak() {
@@ -45,7 +45,7 @@ public final class lak extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25559f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0004\u0000\u0001\t\u0002\u001b\u0003\u001b\u0004'\u0005\u001b", new Object[]{"a", "b", lbd.class, "c", lbd.class, "d", "e", lbd.class});
+            return GeneratedMessageLite.m124022a(f25559f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0004\u0000\u0001\t\u0002\u001b\u0003\u001b\u0004'\u0005\u001b", new Object[]{"a", "b", lbd.class, "c", lbd.class, "d", "e", lbd.class});
         } else if (i2 == 3) {
             return new lak();
         } else {

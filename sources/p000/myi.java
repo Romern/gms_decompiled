@@ -42,7 +42,7 @@ public final class myi implements lvs {
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 26);
         sb.append("currentDestinationString: ");
         sb.append(valueOf);
-        lvn.mo25409a(sb.toString(), new Object[0]);
+        lvn.logVerbose(sb.toString(), new Object[0]);
         if (a == null) {
             return this.f34932a.getResources().getString(C0126R.string.notification_content_text_set_backup_account);
         }

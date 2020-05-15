@@ -14,15 +14,15 @@ final class arej implements arel {
     private final DisplayText f87513b;
 
     public arej(aqxy aqxy, DisplayText displayText) {
-        sdo.m34966a(aqxy, "callbacks cannot be null.");
+        sdo.checkIfNull(aqxy, "callbacks cannot be null.");
         this.f87512a = aqxy;
-        sdo.m34966a(displayText, "displayText cannot be null.");
+        sdo.checkIfNull(displayText, "displayText cannot be null.");
         this.f87513b = displayText;
     }
 
     /* renamed from: a */
     public final void mo48472a() {
-        arem.f87517d.mo25409a("Processing DisplayText", new Object[0]);
+        arem.f87517d.logVerbose("Processing DisplayText", new Object[0]);
         String str = this.f87513b.f107972b;
         if (!TextUtils.isEmpty(str)) {
             this.f87512a.mo48225a(str);

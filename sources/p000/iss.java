@@ -105,7 +105,7 @@ public final class iss {
             bodt bodt4 = (bodt) da.f164949b;
             body3.getClass();
             if (!bodt4.f132735c.mo73666a()) {
-                bodt4.f132735c = bxvk.m124021a(bodt4.f132735c);
+                bodt4.f132735c = GeneratedMessageLite.m124021a(bodt4.f132735c);
             }
             bodt4.f132735c.add(body3);
             bxvd da3 = boct.f132600I.mo74144da();

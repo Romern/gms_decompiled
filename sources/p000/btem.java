@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btem */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btem extends bxvk implements bxxd {
+public final class btem extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btem f148532c;
@@ -19,7 +19,7 @@ public final class btem extends bxvk implements bxxd {
     static {
         btem btem = new btem();
         f148532c = btem;
-        bxvk.m124024a(btem.class, btem);
+        GeneratedMessageLite.m124024a(btem.class, btem);
     }
 
     private btem() {
@@ -36,7 +36,7 @@ public final class btem extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148532c, "\u0000\u0002\u0000\u0000\u0001\u0003\u0002\u0000\u0001\u0000\u0001\u001b\u0003\t", new Object[]{"a", btfi.class, "b"});
+            return GeneratedMessageLite.m124022a(f148532c, "\u0000\u0002\u0000\u0000\u0001\u0003\u0002\u0000\u0001\u0000\u0001\u001b\u0003\t", new Object[]{"a", btfi.class, "b"});
         } else if (i2 == 3) {
             return new btem();
         } else {

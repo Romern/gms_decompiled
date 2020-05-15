@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpas */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpas extends bxvk implements bxxd {
+public final class bpas extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpas f135532c;
@@ -19,7 +19,7 @@ public final class bpas extends bxvk implements bxxd {
     static {
         bpas bpas = new bpas();
         f135532c = bpas;
-        bxvk.m124024a(bpas.class, bpas);
+        GeneratedMessageLite.m124024a(bpas.class, bpas);
     }
 
     private bpas() {
@@ -36,7 +36,7 @@ public final class bpas extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135532c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bpar.f135531a});
+            return GeneratedMessageLite.m124022a(f135532c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bpar.f135531a});
         } else if (i2 == 3) {
             return new bpas();
         } else {

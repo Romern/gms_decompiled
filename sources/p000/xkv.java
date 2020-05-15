@@ -20,7 +20,7 @@ public final class xkv extends xkh {
     private static final bniq f52631d;
 
     /* renamed from: h */
-    private static final sek f52632h = new sek(new String[]{"AuthenticatorMakeCredentialResponseData"}, (short[]) null);
+    private static final Logger f52632h = new Logger(new String[]{"AuthenticatorMakeCredentialResponseData"}, (short[]) null);
 
     /* renamed from: e */
     private final byte[] f52633e;

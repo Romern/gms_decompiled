@@ -40,7 +40,7 @@ final /* synthetic */ class aahi implements bmxj {
         }
         bxvd da = vvt.f50051p.mo74144da();
         if (!TextUtils.isEmpty(str3)) {
-            da.mo74037c(bxtx.m123261a(spn.m35861a(str3)));
+            da.mo74037c(ByteString.m123261a(spn.m35861a(str3)));
         }
         if (!(dcg == dcg.UNSUPPORTED || (a = vvs.m41469a(dcg.f12804f)) == 0)) {
             if (da.f164950c) {
@@ -88,7 +88,7 @@ final /* synthetic */ class aahi implements bmxj {
         str.getClass();
         vvt3.f50053a |= 2;
         vvt3.f50056d = str;
-        bxtx a2 = bxtx.m123261a(decode);
+        ByteString a2 = ByteString.m123261a(decode);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -136,6 +136,6 @@ final /* synthetic */ class aahi implements bmxj {
         vvt5.getClass();
         vwb.f50112b = vvt5;
         vwb.f50111a |= 1;
-        return ((vwb) da3.mo74062i()).mo73642k();
+        return ((vwb) da3.mo74062i()).serializeToBytes();
     }
 }

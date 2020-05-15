@@ -9,7 +9,7 @@ import java.util.concurrent.ExecutorService;
 public final class jle extends jmh {
 
     /* renamed from: a */
-    public static final sek f22738a = jsy.m17256a("ExecutorLocalDeviceDataFetcher");
+    public static final Logger f22738a = jsy.m17256a("ExecutorLocalDeviceDataFetcher");
 
     /* renamed from: b */
     public final List f22739b;

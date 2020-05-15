@@ -16,7 +16,7 @@ import java.util.List;
 public final class xiz {
 
     /* renamed from: d */
-    private static final sek f52393d = new sek(new String[]{"ScannedBleDevices"}, (short[]) null);
+    private static final Logger f52393d = new Logger(new String[]{"ScannedBleDevices"}, (short[]) null);
 
     /* renamed from: a */
     private final List f52394a = Collections.synchronizedList(bnkn.m109661a());

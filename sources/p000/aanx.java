@@ -11,7 +11,7 @@ final /* synthetic */ class aanx implements sdp {
 
     /* renamed from: a */
     public final boolean mo17022a(Object obj) {
-        bxvk bxvk = (bxvk) obj;
+        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) obj;
         return true;
     }
 }

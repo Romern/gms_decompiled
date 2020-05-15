@@ -31,7 +31,7 @@ public final class aufu {
         int i = 1;
         if ((auff2.f91648a & 128) != 0) {
             bxvd bxvd = (bxvd) auff2.mo74142c(5);
-            bxvd.mo73625a((bxvk) auff2);
+            bxvd.mo73625a((GeneratedMessageLite) auff2);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -43,7 +43,7 @@ public final class aufu {
             auff3.f91648a = i2;
             auff3.f91667t = null;
             auff3.f91648a = i2 & -257;
-            byte[] k = ((auff) bxvd.mo74062i()).mo73642k();
+            byte[] k = ((auff) bxvd.mo74062i()).serializeToBytes();
             aufe aufe = auff2.f91666s;
             if (aufe == null) {
                 aufe = aufe.f91636c;
@@ -135,7 +135,7 @@ public final class aufu {
                         }
                         bnwr = new bnwr(arrayList);
                     } else {
-                        bnwr = bnwr.m110676a(new ByteArrayInputStream(bsam.f143876c.mo73780k()));
+                        bnwr = bnwr.m110676a(new ByteArrayInputStream(bsam.f143876c.getKey()));
                     }
                     aufr aufr = new aufr(bnwr);
                     bmxy.m108581a(aufr);

@@ -42,7 +42,7 @@ public final class assm {
             if (byde == null) {
                 byde = byde.f165759i;
             }
-            BigInteger bigInteger = new BigInteger(1, byde.f165762b.mo73780k());
+            BigInteger bigInteger = new BigInteger(1, byde.f165762b.getKey());
             bmts bmts = bydf.f165772b;
             if (bmts == null) {
                 bmts = bmts.f130908c;
@@ -60,33 +60,33 @@ public final class assm {
             if (byde2 == null) {
                 byde2 = byde.f165759i;
             }
-            BigInteger bigInteger3 = new BigInteger(1, byde2.f165763c.mo73780k());
+            BigInteger bigInteger3 = new BigInteger(1, byde2.f165763c.getKey());
             byde byde3 = bydf.f165779i;
             if (byde3 == null) {
                 byde3 = byde.f165759i;
             }
-            BigInteger bigInteger4 = new BigInteger(1, byde3.f165764d.mo73780k());
+            BigInteger bigInteger4 = new BigInteger(1, byde3.f165764d.getKey());
             byde byde4 = bydf.f165779i;
             if (byde4 == null) {
                 byde4 = byde.f165759i;
             }
-            BigInteger bigInteger5 = new BigInteger(1, byde4.f165765e.mo73780k());
+            BigInteger bigInteger5 = new BigInteger(1, byde4.f165765e.getKey());
             byde byde5 = bydf.f165779i;
             if (byde5 == null) {
                 byde5 = byde.f165759i;
             }
-            BigInteger bigInteger6 = new BigInteger(1, byde5.f165766f.mo73780k());
+            BigInteger bigInteger6 = new BigInteger(1, byde5.f165766f.getKey());
             byde byde6 = bydf.f165779i;
             if (byde6 == null) {
                 byde6 = byde.f165759i;
             }
-            BigInteger bigInteger7 = new BigInteger(1, byde6.f165767g.mo73780k());
+            BigInteger bigInteger7 = new BigInteger(1, byde6.f165767g.getKey());
             byde byde7 = bydf.f165779i;
             if (byde7 == null) {
                 byde7 = byde.f165759i;
             }
             Cipher instance2 = Cipher.getInstance("RSA/ECB/NOPADDING");
-            instance2.init(1, (RSAPrivateCrtKey) instance.generatePrivate(new RSAPrivateCrtKeySpec(bigInteger, bigInteger2, bigInteger3, bigInteger4, bigInteger5, bigInteger6, bigInteger7, new BigInteger(1, byde7.f165768h.mo73780k()))));
+            instance2.init(1, (RSAPrivateCrtKey) instance.generatePrivate(new RSAPrivateCrtKeySpec(bigInteger, bigInteger2, bigInteger3, bigInteger4, bigInteger5, bigInteger6, bigInteger7, new BigInteger(1, byde7.f165768h.getKey()))));
             return instance2.doFinal(bArr);
         } catch (InvalidKeyException | NoSuchAlgorithmException | InvalidKeySpecException | BadPaddingException | IllegalBlockSizeException | NoSuchPaddingException e) {
             throw new RuntimeException(e);

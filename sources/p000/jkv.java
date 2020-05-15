@@ -11,7 +11,7 @@ import java.util.List;
 public final class jkv {
 
     /* renamed from: a */
-    private static final sek f22721a = jsy.m17256a("DeviceSyncV2DeviceBackfiller");
+    private static final Logger f22721a = jsy.m17256a("DeviceSyncV2DeviceBackfiller");
 
     /* renamed from: a */
     public static List m16857a(List list, List list2) {
@@ -20,7 +20,7 @@ public final class jkv {
         for (int i = 0; i < size; i++) {
             DeviceMetadata deviceMetadata = (DeviceMetadata) list.get(i);
             try {
-                hashMap.put(sqd.m35972d(((jtp) bxvk.m124014a(jtp.f23191d, deviceMetadata.f10526c)).f23193a.mo73780k()), jkq.m16849a(deviceMetadata));
+                hashMap.put(sqd.m35972d(((jtp) GeneratedMessageLite.m124014a(jtp.f23191d, deviceMetadata.f10526c)).f23193a.getKey()), jkq.m16849a(deviceMetadata));
             } catch (bxwf e) {
                 f22721a.mo25418e("Couldn't decode BetterTogetherDeviceMetadata in device metadata", new Object[0]);
             }

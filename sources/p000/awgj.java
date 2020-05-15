@@ -127,7 +127,7 @@ public final class awgj {
                                 JSONObject jSONObject = new JSONObject(new String(networkResponse.data, parseCharset));
                                 bxvd da = bmqv.f130437d.mo74144da();
                                 if (jSONObject.optString("status").equals("SUCCESS")) {
-                                    bxtx a = bxtx.m123261a(Base64.decode(jSONObject.optString("document_token"), 0));
+                                    ByteString a = ByteString.m123261a(Base64.decode(jSONObject.optString("document_token"), 0));
                                     if (da.f164950c) {
                                         da.mo74035c();
                                         da.f164950c = false;
@@ -200,7 +200,7 @@ public final class awgj {
                                         bmqv3.f130439a |= 1;
                                     }
                                     if (bmqv == null) {
-                                        serverResponse = new ServerResponse(i3, bmqv.mo73642k());
+                                        serverResponse = new ServerResponse(i3, bmqv.serializeToBytes());
                                     } else {
                                         serverResponse = ServerResponse.f110426d;
                                     }

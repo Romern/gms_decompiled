@@ -13,6 +13,6 @@ final class ieg implements ieh {
 
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo12950a(iel iel) {
-        return iel.mo12953a(this.f20794a);
+        return iel.getSpatulaHeader(this.f20794a);
     }
 }

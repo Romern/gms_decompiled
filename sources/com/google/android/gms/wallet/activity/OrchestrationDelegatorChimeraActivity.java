@@ -54,7 +54,7 @@ public class OrchestrationDelegatorChimeraActivity extends awce {
         char c;
         awcd awcd;
         String action = getIntent().getAction();
-        sdo.m34966a((Object) action, (Object) "Intent action must not be null");
+        sdo.checkIfNull((Object) action, (Object) "Intent action must not be null");
         Locale locale = Locale.US;
         new Object[1][0] = action;
         int hashCode = action.hashCode();

@@ -11,7 +11,7 @@ import java.util.List;
 public final class avqi {
 
     /* renamed from: a */
-    public static final sek f93783a = avpq.m79022i("DelayedBatchMessageQueue");
+    public static final Logger f93783a = avpq.m79022i("DelayedBatchMessageQueue");
 
     /* renamed from: b */
     public final List f93784b = new ArrayList();

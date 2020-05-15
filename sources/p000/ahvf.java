@@ -89,7 +89,7 @@ public final class ahvf {
                 } else {
                     i = 4;
                 }
-                bxtx bxtx = ahyz.f68429c;
+                ByteString bxtx = ahyz.f68429c;
                 String str2 = ahyz.f68428b;
                 ClientContext clientContext = new ClientContext();
                 clientContext.f30212b = Process.myUid();
@@ -104,7 +104,7 @@ public final class ahvf {
                 cakp = (cakp) da.f164949b;
                 bxtx.getClass();
                 if (!cakp.f175030a.mo73666a()) {
-                    cakp.f175030a = bxvk.m124021a(cakp.f175030a);
+                    cakp.f175030a = GeneratedMessageLite.m124021a(cakp.f175030a);
                 }
                 cakp.f175030a.add(bxtx);
                 long b = ryv.m34682b(ahve.f68152a, "android_id");
@@ -187,7 +187,7 @@ public final class ahvf {
             c = 0;
             if (c == 0) {
             }
-            bxtx bxtx2 = ahyz.f68429c;
+            ByteString bxtx2 = ahyz.f68429c;
             String str22 = ahyz.f68428b;
             ClientContext clientContext2 = new ClientContext();
             clientContext2.f30212b = Process.myUid();
@@ -234,7 +234,7 @@ public final class ahvf {
         c = 65535;
         if (c == 0) {
         }
-        bxtx bxtx22 = ahyz.f68429c;
+        ByteString bxtx22 = ahyz.f68429c;
         String str222 = ahyz.f68428b;
         ClientContext clientContext22 = new ClientContext();
         clientContext22.f30212b = Process.myUid();

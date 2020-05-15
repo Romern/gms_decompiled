@@ -329,7 +329,7 @@ public abstract class BaseApplicationContext extends ContextWrapper {
                 try {
                     for (ModuleManager.ModuleInfo moduleInfo : ModuleManager.get(this).getAllModulesWithMetadata("com.google.android.gmscore.cronet.config.proto")) {
                         try {
-                            for (aylq aylq : ((aylr) bxvk.m124014a(aylr.f97922b, moduleInfo.getMetadata(this).getByteArray("com.google.android.gmscore.cronet.config.proto"))).f97924a) {
+                            for (aylq aylq : ((aylr) GeneratedMessageLite.m124014a(aylr.f97922b, moduleInfo.getMetadata(this).getByteArray("com.google.android.gmscore.cronet.config.proto"))).f97924a) {
                                 builder.addQuicHint(aylq.f97918a, aylq.f97919b, aylq.f97920c);
                             }
                         } catch (InvalidConfigException e) {

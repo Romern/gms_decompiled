@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btkf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btkf extends bxvk implements bxxd {
+public final class btkf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btkf f149247b;
@@ -16,7 +16,7 @@ public final class btkf extends bxvk implements bxxd {
     static {
         btkf btkf = new btkf();
         f149247b = btkf;
-        bxvk.m124024a(btkf.class, btkf);
+        GeneratedMessageLite.m124024a(btkf.class, btkf);
     }
 
     private btkf() {
@@ -33,7 +33,7 @@ public final class btkf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149247b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001Ȉ", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f149247b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001Ȉ", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btkf();
         } else {

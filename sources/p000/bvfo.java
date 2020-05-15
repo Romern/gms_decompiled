@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvfo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvfo extends bxvk implements bxxd {
+public final class bvfo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvfo f155896a;
@@ -13,7 +13,7 @@ public final class bvfo extends bxvk implements bxxd {
     static {
         bvfo bvfo = new bvfo();
         f155896a = bvfo;
-        bxvk.m124024a(bvfo.class, bvfo);
+        GeneratedMessageLite.m124024a(bvfo.class, bvfo);
     }
 
     private bvfo() {
@@ -30,7 +30,7 @@ public final class bvfo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155896a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f155896a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvfo();

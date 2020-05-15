@@ -101,7 +101,7 @@ public final class awra {
                             btrn btrn2 = (btrn) da.f164949b;
                             a.getClass();
                             if (!btrn2.f150122c.mo73666a()) {
-                                btrn2.f150122c = bxvk.m124021a(btrn2.f150122c);
+                                btrn2.f150122c = GeneratedMessageLite.m124021a(btrn2.f150122c);
                             }
                             btrn2.f150122c.add(a);
                         }
@@ -154,7 +154,7 @@ public final class awra {
                                 btrm btrm = (btrm) da2.mo74062i();
                                 btrm.getClass();
                                 if (!btrn3.f150125f.mo73666a()) {
-                                    btrn3.f150125f = bxvk.m124021a(btrn3.f150125f);
+                                    btrn3.f150125f = GeneratedMessageLite.m124021a(btrn3.f150125f);
                                 }
                                 btrn3.f150125f.add(btrm);
                             }

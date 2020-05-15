@@ -9,8 +9,8 @@ import java.util.LinkedHashSet;
 public final class sfi {
     /* renamed from: a */
     public static Audience m35163a(Audience audience, AudienceMember audienceMember) {
-        sdo.m34966a(audience, "Audience must not be null.");
-        sdo.m34966a(audienceMember, "Audience member must not be null.");
+        sdo.checkIfNull(audience, "Audience must not be null.");
+        sdo.checkIfNull(audienceMember, "Audience member must not be null.");
         LinkedHashSet linkedHashSet = new LinkedHashSet(audience.f30287b);
         linkedHashSet.add(audienceMember);
         sfd sfd = new sfd(audience);
@@ -20,8 +20,8 @@ public final class sfi {
 
     /* renamed from: b */
     public static Audience m35165b(Audience audience, AudienceMember audienceMember) {
-        sdo.m34966a(audience, "Audience must not be null.");
-        sdo.m34966a(audienceMember, "Audience member must not be null.");
+        sdo.checkIfNull(audience, "Audience must not be null.");
+        sdo.checkIfNull(audienceMember, "Audience member must not be null.");
         LinkedHashSet linkedHashSet = new LinkedHashSet(audience.f30287b);
         linkedHashSet.remove(audienceMember);
         sfd sfd = new sfd(audience);
@@ -31,7 +31,7 @@ public final class sfi {
 
     /* renamed from: a */
     public static boolean m35164a(Audience audience) {
-        sdo.m34966a(audience, "Audience must not be null.");
+        sdo.checkIfNull(audience, "Audience must not be null.");
         return !audience.f30290e && audience.f30287b.isEmpty();
     }
 }

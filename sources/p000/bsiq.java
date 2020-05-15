@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsiq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsiq extends bxvk implements bxxd {
+public final class bsiq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bsiq f144744a;
@@ -19,7 +19,7 @@ public final class bsiq extends bxvk implements bxxd {
     static {
         bsiq bsiq = new bsiq();
         f144744a = bsiq;
-        bxvk.m124024a(bsiq.class, bsiq);
+        GeneratedMessageLite.m124024a(bsiq.class, bsiq);
     }
 
     private bsiq() {
@@ -40,7 +40,7 @@ public final class bsiq extends bxvk implements bxxd {
             this.f144747c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f144744a, "\u0000\u0001\u0000\u0000\u0003\u0003\u0001\u0001\u0000\u0000\u00032", new Object[]{"b", bsip.f144743a});
+            return GeneratedMessageLite.m124022a(f144744a, "\u0000\u0001\u0000\u0000\u0003\u0003\u0001\u0001\u0000\u0000\u00032", new Object[]{"b", bsip.f144743a});
         } else if (i2 == 3) {
             return new bsiq();
         } else {

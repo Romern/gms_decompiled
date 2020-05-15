@@ -20,7 +20,7 @@ public final class szo extends srp implements Closeable {
     private static int f45518c = 0;
 
     /* renamed from: d */
-    private static final sek f45519d = tea.m36798a("database_helper");
+    private static final Logger f45519d = tea.m36798a("database_helper");
 
     /* renamed from: f */
     private static final String[] f45520f = {"CREATE TABLE sim_verifications(_id INTEGER PRIMARY KEY AUTOINCREMENT, phone_number TEXT, verification_time INTEGER, imsi TEXT UNIQUE NOT NULL, sim_readable_number TEXT, state INTEGER, verification_method TEXT DEFAULT '' );", "CREATE TABLE gaia_verifications(_id INTEGER PRIMARY KEY AUTOINCREMENT, phone_number TEXT, verification_time INTEGER, gaia_id TEXT NOT NULL,  UNIQUE ( phone_number, gaia_id) ON CONFLICT REPLACE);", "CREATE TABLE signals_events(_id INTEGER PRIMARY KEY AUTOINCREMENT, subscription_id INTEGER, event_time INTEGER, event_type INTEGER, successful INTEGER, event_proto BLOB);"};

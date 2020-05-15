@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbjs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbjs extends bxvk implements bxxd {
+public final class cbjs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbjs f177362b;
@@ -16,7 +16,7 @@ public final class cbjs extends bxvk implements bxxd {
     static {
         cbjs cbjs = new cbjs();
         f177362b = cbjs;
-        bxvk.m124024a(cbjs.class, cbjs);
+        GeneratedMessageLite.m124024a(cbjs.class, cbjs);
     }
 
     private cbjs() {
@@ -33,7 +33,7 @@ public final class cbjs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177362b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f177362b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cbjs();
         } else {

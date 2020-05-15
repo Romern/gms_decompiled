@@ -15,7 +15,7 @@ import com.google.android.chimera.DialogFragment;
 public final class jtd extends DialogFragment {
 
     /* renamed from: a */
-    public static final sek f23169a = jsy.m17256a("DisableBetterTogether");
+    public static final Logger f23169a = jsy.m17256a("DisableBetterTogether");
 
     /* renamed from: b */
     public String f23170b;

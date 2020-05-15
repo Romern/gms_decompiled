@@ -47,7 +47,7 @@ final class acyd {
 
     /* renamed from: a */
     public final byte[] mo33237a(SecretKey secretKey) {
-        sdo.m34966a(secretKey, "Secret key must not be null.");
+        sdo.checkIfNull(secretKey, "Secret key must not be null.");
         try {
             this.f61074a.init(3, this.f61075b.getPublic());
             try {

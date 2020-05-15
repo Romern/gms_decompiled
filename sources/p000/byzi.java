@@ -29,7 +29,7 @@ public final class byzi extends bxvg implements bxvh {
     public String f169090f = "";
 
     /* renamed from: g */
-    public bxtx f169091g = bxtx.f164797b;
+    public ByteString f169091g = ByteString.f164797b;
 
     /* renamed from: h */
     public String f169092h = "";
@@ -71,7 +71,7 @@ public final class byzi extends bxvg implements bxvh {
     public String f169104u = "";
 
     /* renamed from: v */
-    public bxtx f169105v = bxtx.f164797b;
+    public ByteString f169105v = ByteString.f164797b;
 
     /* renamed from: w */
     public byzb f169106w;
@@ -82,7 +82,7 @@ public final class byzi extends bxvg implements bxvh {
     static {
         byzi byzi = new byzi();
         f169083x = byzi;
-        bxvk.m124024a(byzi.class, byzi);
+        GeneratedMessageLite.m124024a(byzi.class, byzi);
     }
 
     private byzi() {
@@ -103,7 +103,7 @@ public final class byzi extends bxvg implements bxvh {
             this.f169107y = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f169083x, "\u0001\u0015\u0000\u0001\u0001\u001c\u0015\u0000\u0001\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ည\u0005\u0007ဈ\u0006\tဈ\u0007\u000bဌ\t\u000fဈ\n\u0010ဈ\u000b\u0011ဉ\f\u0012ဂ\r\u0013ဌ\u000e\u0014ခ\u000f\u0015ဈ\u0010\u0017ဈ\u0012\u0018\u001b\u001aဈ\u0014\u001bည\u0015\u001cဉ\u0016", new Object[]{"a", "b", bzbk.m125616b(), "c", "d", "e", "f", "g", "h", "i", "j", bzbn.f169260a, "l", "n", "o", "p", "q", bzar.m125590b(), "r", "s", "t", "k", byzm.class, "u", "v", "w"});
+            return GeneratedMessageLite.m124022a(f169083x, "\u0001\u0015\u0000\u0001\u0001\u001c\u0015\u0000\u0001\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ည\u0005\u0007ဈ\u0006\tဈ\u0007\u000bဌ\t\u000fဈ\n\u0010ဈ\u000b\u0011ဉ\f\u0012ဂ\r\u0013ဌ\u000e\u0014ခ\u000f\u0015ဈ\u0010\u0017ဈ\u0012\u0018\u001b\u001aဈ\u0014\u001bည\u0015\u001cဉ\u0016", new Object[]{"a", "b", bzbk.m125616b(), "c", "d", "e", "f", "g", "h", "i", "j", bzbn.f169260a, "l", "n", "o", "p", "q", bzar.m125590b(), "r", "s", "t", "k", byzm.class, "u", "v", "w"});
         } else if (i2 == 3) {
             return new byzi();
         } else {

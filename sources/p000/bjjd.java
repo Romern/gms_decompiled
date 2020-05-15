@@ -56,7 +56,7 @@ public final class bjjd extends Request {
         builder.appendQueryParameter("os_type", "android");
         bwqe bwqe2 = this.f122815h;
         if ((bwqe2.f160651a & 1) != 0) {
-            builder.appendQueryParameter("upload_token", Base64.encodeToString(bwqe2.f160652b.mo73780k(), 2));
+            builder.appendQueryParameter("upload_token", Base64.encodeToString(bwqe2.f160652b.getKey(), 2));
         }
         String encodedQuery = builder.build().getEncodedQuery();
         return encodedQuery != null ? encodedQuery.getBytes() : new byte[0];

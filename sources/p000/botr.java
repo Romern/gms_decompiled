@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: botr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class botr extends bxvk implements bxxd {
+public final class botr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final botr f134863f;
@@ -28,7 +28,7 @@ public final class botr extends bxvk implements bxxd {
     static {
         botr botr = new botr();
         f134863f = botr;
-        bxvk.m124024a(botr.class, botr);
+        GeneratedMessageLite.m124024a(botr.class, botr);
     }
 
     private botr() {
@@ -45,7 +45,7 @@ public final class botr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134863f, "\u0001\u0004\u0000\u0001\u0002\u0005\u0004\u0000\u0000\u0000\u0002ဂ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဂ\u0004", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f134863f, "\u0001\u0004\u0000\u0001\u0002\u0005\u0004\u0000\u0000\u0000\u0002ဂ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဂ\u0004", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new botr();
         } else {

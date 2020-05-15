@@ -7,7 +7,7 @@ import android.content.Context;
 public final class avnd {
 
     /* renamed from: a */
-    public static final sek f93492a = avpq.m79019f("NotificationActionControl");
+    public static final Logger f93492a = avpq.m79019f("NotificationActionControl");
 
     /* renamed from: b */
     public static final avsz f93493b = new avnc();

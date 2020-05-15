@@ -695,7 +695,7 @@ public final class amea {
                 }
                 amnu amnu = (amnu) ammr.f164949b;
                 if (!amnu.f75563v.mo73666a()) {
-                    amnu.f75563v = bxvk.m124021a(amnu.f75563v);
+                    amnu.f75563v = GeneratedMessageLite.m124021a(amnu.f75563v);
                 }
                 bxsy.m123078a(arrayList, amnu.f75563v);
             }

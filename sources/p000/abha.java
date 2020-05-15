@@ -53,7 +53,7 @@ public final class abha extends aaru {
         aavc.postAtTime(aavc.f56640d, uptimeMillis);
         if (bzra != null) {
             bxvd bxvd = (bxvd) bzra.mo74142c(5);
-            bxvd.mo73625a((bxvk) bzra);
+            bxvd.mo73625a((GeneratedMessageLite) bzra);
             aarp aarp = helpChimeraActivity.f78967n;
             if (aarp.mo31699a("should_contact_card_show_chat_available", false)) {
                 int a = bzrc.m126061a(((bzra) bxvd.f164949b).f171100b);

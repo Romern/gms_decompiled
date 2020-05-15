@@ -1077,7 +1077,7 @@ public final class bkaf extends bkdy implements View.OnFocusChangeListener, View
                 String c = bjtl.m104579c(jSONObject, str2);
                 if (!TextUtils.isEmpty(c)) {
                     bxvd bxvd = (bxvd) btwp.mo74142c(5);
-                    bxvd.mo73625a((bxvk) btwp);
+                    bxvd.mo73625a((GeneratedMessageLite) btwp);
                     btwo btwo = (btwo) bxvd;
                     if (btwo.f164950c) {
                         btwo.mo74035c();
@@ -1141,7 +1141,7 @@ public final class bkaf extends bkdy implements View.OnFocusChangeListener, View
         mo65718l();
         bkab bkab = new bkab(this);
         if (this.f123751O.f128583K.mo73744a() > 0) {
-            bjtq bjtq = new bjtq(this.f124073X, this.f123756T, this.f123755S, mo65713f(), i, this.f123751O.f128583K.mo73780k(), str, bkab, this.f123764ag);
+            bjtq bjtq = new bjtq(this.f124073X, this.f123756T, this.f123755S, mo65713f(), i, this.f123751O.f128583K.getKey(), str, bkab, this.f123764ag);
             mo65708b(true);
             this.f123772i.mo71812b();
             Activity activity = bjtq.f123299a;
@@ -1165,7 +1165,7 @@ public final class bkaf extends bkdy implements View.OnFocusChangeListener, View
             a3.getClass();
             bwgf2.f159189a |= 2;
             bwgf2.f159191c = a3;
-            bxtx a4 = bxtx.m123261a(bjtq.f123304f);
+            ByteString a4 = ByteString.m123261a(bjtq.f123304f);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

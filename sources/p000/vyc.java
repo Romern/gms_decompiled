@@ -73,7 +73,7 @@ public final class vyc {
                 vvz = vvz.f50100d;
             }
             bxvd bxvd = (bxvd) vvz.mo74142c(5);
-            bxvd.mo73625a((bxvk) vvz);
+            bxvd.mo73625a((GeneratedMessageLite) vvz);
             if (str != null) {
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();

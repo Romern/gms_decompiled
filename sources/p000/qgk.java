@@ -320,14 +320,14 @@ public final class qgk {
             bxvd.f164950c = false;
         }
         qgj qgj = qgj.f41167k;
-        ((qgj) bxvd.f164949b).f41176h = bxvk.m124030de();
+        ((qgj) bxvd.f164949b).f41176h = GeneratedMessageLite.m124030de();
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
         }
         qgj qgj2 = (qgj) bxvd.f164949b;
         if (!qgj2.f41176h.mo73666a()) {
-            qgj2.f41176h = bxvk.m124021a(qgj2.f41176h);
+            qgj2.f41176h = GeneratedMessageLite.m124021a(qgj2.f41176h);
         }
         bxsy.m123078a(list, qgj2.f41176h);
     }

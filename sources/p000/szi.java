@@ -31,7 +31,7 @@ final /* synthetic */ class szi implements Runnable {
         int i = this.f45499c;
         SignalStrength signalStrength = this.f45500d;
         szm szm = szj.f45504d;
-        sek sek = szm.f45509a;
+        Logger Logger = szm.f45509a;
         szm.mo26275a(serviceState, i, signalStrength);
     }
 }

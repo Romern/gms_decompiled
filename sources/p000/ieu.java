@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ieu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ieu extends bxvk implements bxxd {
+public final class ieu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final ieu f20822g;
@@ -31,7 +31,7 @@ public final class ieu extends bxvk implements bxxd {
     static {
         ieu ieu = new ieu();
         f20822g = ieu;
-        bxvk.m124024a(ieu.class, ieu);
+        GeneratedMessageLite.m124024a(ieu.class, ieu);
     }
 
     private ieu() {
@@ -48,7 +48,7 @@ public final class ieu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f20822g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001\t\u0002\t\u0003\u0002\u0004\u0002\u0005\u0004\u0006\u0002", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f20822g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001\t\u0002\t\u0003\u0002\u0004\u0002\u0005\u0004\u0006\u0002", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new ieu();
         } else {

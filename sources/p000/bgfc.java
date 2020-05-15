@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bgfc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bgfc extends bxvk implements bxxd {
+public final class bgfc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bgfc f116334f;
@@ -31,7 +31,7 @@ public final class bgfc extends bxvk implements bxxd {
     static {
         bgfc bgfc = new bgfc();
         f116334f = bgfc;
-        bxvk.m124024a(bgfc.class, bgfc);
+        GeneratedMessageLite.m124024a(bgfc.class, bgfc);
     }
 
     private bgfc() {
@@ -52,7 +52,7 @@ public final class bgfc extends bxvk implements bxxd {
             this.f116341g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f116334f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0002\u0001ဂ\u0000\u0002Л\u0003ᐉ\u0001\u0004ဇ\u0002", new Object[]{"a", "b", "c", byzr.class, "d", "e"});
+            return GeneratedMessageLite.m124022a(f116334f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0002\u0001ဂ\u0000\u0002Л\u0003ᐉ\u0001\u0004ဇ\u0002", new Object[]{"a", "b", "c", byzr.class, "d", "e"});
         } else if (i2 == 3) {
             return new bgfc();
         } else {

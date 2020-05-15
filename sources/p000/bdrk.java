@@ -25,7 +25,7 @@ public final class bdrk {
 
     /* renamed from: a */
     public final void mo58311a(int i, bxpw bxpw) {
-        qwo a = this.f106300a.mo24335a(bxpw.mo73642k());
+        qwo a = this.f106300a.mo24335a(bxpw.serializeToBytes());
         a.mo24328b(i - 1);
         a.mo24327b();
     }

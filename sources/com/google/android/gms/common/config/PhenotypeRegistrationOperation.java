@@ -54,7 +54,7 @@ public class PhenotypeRegistrationOperation extends IntentOperation {
                         String valueOf = String.valueOf(moduleInfo.moduleId);
                         Log.e("PhenotypeRegOp", valueOf.length() == 0 ? new String("Failed to read metadata for ") : "Failed to read metadata for ".concat(valueOf));
                     } else {
-                        for (RegistrationInfo registrationInfo : rtf.m34393a(this, (zzv) bxvk.m124014a(zzv.f56346b, byteArray), moduleInfo.moduleVersion)) {
+                        for (RegistrationInfo registrationInfo : rtf.m34393a(this, (zzv) GeneratedMessageLite.m124014a(zzv.f56346b, byteArray), moduleInfo.moduleVersion)) {
                             if (okVar.containsKey(registrationInfo.f82115a)) {
                                 "com.google.android.gms".equals(registrationInfo.f82115a);
                                 String valueOf2 = String.valueOf(registrationInfo.f82115a);

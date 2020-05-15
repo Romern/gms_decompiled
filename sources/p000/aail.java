@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aail */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aail extends bxvk implements bxxd {
+public final class aail extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final aail f28193f;
@@ -23,12 +23,12 @@ public final class aail extends bxvk implements bxxd {
     public String f28198d = "";
 
     /* renamed from: e */
-    public bxtx f28199e = bxtx.f164797b;
+    public ByteString f28199e = ByteString.f164797b;
 
     static {
         aail aail = new aail();
         f28193f = aail;
-        bxvk.m124024a(aail.class, aail);
+        GeneratedMessageLite.m124024a(aail.class, aail);
     }
 
     private aail() {
@@ -45,7 +45,7 @@ public final class aail extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28193f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဌ\u0001\u0003ဈ\u0002\u0004ည\u0003", new Object[]{"a", "b", "c", aair.f28218a, "d", "e"});
+            return GeneratedMessageLite.m124022a(f28193f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဌ\u0001\u0003ဈ\u0002\u0004ည\u0003", new Object[]{"a", "b", "c", aair.f28218a, "d", "e"});
         } else if (i2 == 3) {
             return new aail();
         } else {

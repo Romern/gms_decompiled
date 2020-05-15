@@ -15,7 +15,7 @@ public final class avoh extends avnj implements avpj {
     public static final avto f93595e = new avto("file_path", "");
 
     /* renamed from: g */
-    private static final sek f93596g = avpq.m79018e("NonStreamingAbApplyAction");
+    private static final Logger f93596g = avpq.m79018e("NonStreamingAbApplyAction");
 
     /* renamed from: h */
     private static final avta f93597h = new avta("post_installation", false);

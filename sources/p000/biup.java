@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biup */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biup extends bxvk implements bxxd {
+public final class biup extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: w */
     public static final biup f121833w;
@@ -82,7 +82,7 @@ public final class biup extends bxvk implements bxxd {
     static {
         biup biup = new biup();
         f121833w = biup;
-        bxvk.m124024a(biup.class, biup);
+        GeneratedMessageLite.m124024a(biup.class, biup);
     }
 
     private biup() {
@@ -103,7 +103,7 @@ public final class biup extends bxvk implements bxxd {
             this.f121857x = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121833w, "\u0001\u0016\u0000\u0000\u0001\u0016\u0016\u0000\u0016\n\u0001Л\u0002Л\u0003Л\u0004Л\u0005Л\u0006\u001b\u0007Л\bЛ\t\u001b\n\u001b\u000b\u001b\f\u001b\rЛ\u000e\u001b\u000f\u001b\u0010\u001b\u0011\u001b\u0012\u001b\u0013\u001b\u0014\u001b\u0015Л\u0016Л", new Object[]{"a", birs.class, "b", bipr.class, "c", bivg.class, "d", biuj.class, "e", bitg.class, "f", biqi.class, "g", bith.class, "h", biqn.class, "i", bipy.class, "j", bitf.class, "k", biqd.class, "l", bira.class, "m", biqc.class, "n", bipx.class, "o", biti.class, "p", bipz.class, "q", birq.class, "r", bivo.class, "s", biol.class, "t", biqv.class, "u", biqu.class, "v", bivp.class});
+            return GeneratedMessageLite.m124022a(f121833w, "\u0001\u0016\u0000\u0000\u0001\u0016\u0016\u0000\u0016\n\u0001Л\u0002Л\u0003Л\u0004Л\u0005Л\u0006\u001b\u0007Л\bЛ\t\u001b\n\u001b\u000b\u001b\f\u001b\rЛ\u000e\u001b\u000f\u001b\u0010\u001b\u0011\u001b\u0012\u001b\u0013\u001b\u0014\u001b\u0015Л\u0016Л", new Object[]{"a", birs.class, "b", bipr.class, "c", bivg.class, "d", biuj.class, "e", bitg.class, "f", biqi.class, "g", bith.class, "h", biqn.class, "i", bipy.class, "j", bitf.class, "k", biqd.class, "l", bira.class, "m", biqc.class, "n", bipx.class, "o", biti.class, "p", bipz.class, "q", birq.class, "r", bivo.class, "s", biol.class, "t", biqv.class, "u", biqu.class, "v", bivp.class});
         } else if (i2 == 3) {
             return new biup();
         } else {

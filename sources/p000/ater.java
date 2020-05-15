@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ater */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ater extends bxvk implements bxxd {
+public final class ater extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final ater f90191d;
@@ -22,7 +22,7 @@ public final class ater extends bxvk implements bxxd {
     static {
         ater ater = new ater();
         f90191d = ater;
-        bxvk.m124024a(ater.class, ater);
+        GeneratedMessageLite.m124024a(ater.class, ater);
     }
 
     private ater() {
@@ -39,7 +39,7 @@ public final class ater extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f90191d, "\u0000\u0006\u0001\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001Ȉ\u0002Ȼ\u0000\u0003=\u0000\u0004:\u0000\u00057\u0000\u00065\u0000", new Object[]{"b", "a", "c"});
+            return GeneratedMessageLite.m124022a(f90191d, "\u0000\u0006\u0001\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001Ȉ\u0002Ȼ\u0000\u0003=\u0000\u0004:\u0000\u00057\u0000\u00065\u0000", new Object[]{"b", "a", "c"});
         } else if (i2 == 3) {
             return new ater();
         } else {

@@ -18,7 +18,7 @@ public final class bsyn extends bxvd implements bxxd {
         bsyo bsyo2 = bsyo.f147690b;
         bsyp.getClass();
         if (!bsyo.f147692a.mo73666a()) {
-            bsyo.f147692a = bxvk.m124021a(bsyo.f147692a);
+            bsyo.f147692a = GeneratedMessageLite.m124021a(bsyo.f147692a);
         }
         bsyo.f147692a.add(bsyp);
     }

@@ -15,7 +15,7 @@ public class fkn {
     public fkn(Context context) {
         sdo.m34959a(context);
         Context applicationContext = context.getApplicationContext();
-        sdo.m34966a(applicationContext, "Application context can't be null");
+        sdo.checkIfNull(applicationContext, "Application context can't be null");
         this.f16800a = applicationContext;
         this.f16801b = applicationContext;
     }

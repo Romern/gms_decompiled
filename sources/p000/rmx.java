@@ -539,7 +539,7 @@ public final class rmx extends rkb implements rnu {
             z = false;
         }
         sdo.m34971a(z, (Object) "blockingConnect must not be called on the UI thread");
-        sdo.m34966a(timeUnit, "TimeUnit must not be null");
+        sdo.checkIfNull(timeUnit, "TimeUnit must not be null");
         this.f43322b.lock();
         try {
             Integer num = this.f43343x;
@@ -607,7 +607,7 @@ public final class rmx extends rkb implements rnu {
     /* renamed from: a */
     public final rjm mo24786a(rje rje) {
         rjm rjm = (rjm) this.f43327g.get(rje);
-        sdo.m34966a(rjm, "Appropriate Api was not requested.");
+        sdo.checkIfNull(rjm, "Appropriate Api was not requested.");
         return rjm;
     }
 

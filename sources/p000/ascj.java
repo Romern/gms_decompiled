@@ -20,7 +20,7 @@ final class ascj implements Callable {
     }
 
     public final /* bridge */ /* synthetic */ Object call() {
-        sek sek = asck.f88701a;
+        Logger Logger = asck.f88701a;
         byte[] bArr = this.f88700b;
         int length = bArr.length;
         int hashCode = Arrays.hashCode(bArr);
@@ -29,7 +29,7 @@ final class ascj implements Callable {
         sb.append(length);
         sb.append(" bytes with hash ");
         sb.append(hashCode);
-        sek.mo25409a(sb.toString(), new Object[0]);
+        Logger.logVerbose(sb.toString(), new Object[0]);
         this.f88699a.writeInt(this.f88700b.length);
         this.f88699a.write(this.f88700b);
         return null;

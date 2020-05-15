@@ -213,9 +213,9 @@ final class rde implements rdp {
     }
 
     /* renamed from: e */
-    private static bxtx m33371e(File file) {
+    private static ByteString m33371e(File file) {
         InputStream d;
-        bxtx bxtx;
+        ByteString bxtx;
         InputStream d2 = m33370d(file);
         try {
             ArrayList arrayList = new ArrayList();
@@ -261,7 +261,7 @@ final class rde implements rdp {
                 }
                 break;
             }
-            bxtx a = bxtx.m123257a(arrayList);
+            ByteString a = bxtx.m123257a(arrayList);
             d2.close();
             return a;
         } catch (Throwable th3) {
@@ -1086,7 +1086,7 @@ final class rde implements rdp {
                         }
                         i5++;
                     } while (i5 < cafw2.f173025a.size());
-                    bxtv m = bxtx.m123270m();
+                    bxtv m = ByteString.m123270m();
                     bxuk a = bxuk.m123634a(m);
                     InputStream d2 = m33370d(file);
                     try {
@@ -1186,7 +1186,7 @@ final class rde implements rdp {
             InputStream d3 = m33370d(file);
             if (d) {
                 try {
-                    bxtx a3 = bxtx.m123256a(d3);
+                    ByteString a3 = ByteString.m123256a(d3);
                     rdf rdf = new rdf(file2, a3, m33356a(a3.mo73764h()));
                     d3.close();
                     return rdf;
@@ -1194,14 +1194,14 @@ final class rde implements rdp {
                     bqye.m113761a(th, th4);
                 }
             } else {
-                rdf rdf2 = new rdf(file2, bxtx.m123256a(d3), 1);
+                rdf rdf2 = new rdf(file2, ByteString.m123256a(d3), 1);
                 d3.close();
                 return rdf2;
             }
         } else if (!d) {
             return new rdf(file2, m33371e(file), 1);
         } else {
-            bxtx e4 = m33371e(file);
+            ByteString e4 = m33371e(file);
             return new rdf(file2, e4, m33356a(e4.mo73764h()));
         }
         throw th2;
@@ -1393,7 +1393,7 @@ final class rde implements rdp {
                 cafv.f173020c = elapsedRealtime;
                 cafv.f173018a = i5 | 4;
                 cafv.f173021d = currentTimeMillis;
-                bxtx aL = cagi3.mo73639aL();
+                ByteString aL = cagi3.mo73639aL();
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -1556,7 +1556,7 @@ final class rde implements rdp {
     /* JADX WARNING: Removed duplicated region for block: B:132:0x0285 A[Catch:{ all -> 0x00cb, all -> 0x03ce }] */
     /* JADX WARNING: Removed duplicated region for block: B:133:0x0292 A[Catch:{ all -> 0x00cb, all -> 0x03ce }] */
     /* renamed from: a */
-    public final boolean mo24488a(caik caik, bxtx bxtx) {
+    public final boolean mo24488a(caik caik, ByteString bxtx) {
         int i;
         Object obj;
         boolean z;
@@ -1584,7 +1584,7 @@ final class rde implements rdp {
         }
         int i4 = Build.VERSION.SDK_INT;
         Trace.beginSection("Clearcut flat file serialize PLC proto");
-        byte[] k = caik.mo73642k();
+        byte[] k = caik.serializeToBytes();
         if (k == null) {
             mo24484a(a, rcv.PLC_TO_BYTES_FAIL, 1);
             return false;

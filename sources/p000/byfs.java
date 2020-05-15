@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byfs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byfs extends bxvk implements bxxd {
+public final class byfs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byfs f166058c;
@@ -14,12 +14,12 @@ public final class byfs extends bxvk implements bxxd {
     public int f166060a;
 
     /* renamed from: b */
-    public bxtx f166061b = bxtx.f164797b;
+    public ByteString f166061b = ByteString.f164797b;
 
     static {
         byfs byfs = new byfs();
         f166058c = byfs;
-        bxvk.m124024a(byfs.class, byfs);
+        GeneratedMessageLite.m124024a(byfs.class, byfs);
     }
 
     private byfs() {
@@ -36,7 +36,7 @@ public final class byfs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166058c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f166058c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new byfs();
         } else {

@@ -17,7 +17,7 @@ public final class qro {
         byte[] bArr;
         try {
             MessageDigest instance = MessageDigest.getInstance("SHA-1");
-            instance.update(bxxc.mo73642k());
+            instance.update(bxxc.serializeToBytes());
             for (int i = 0; i < strArr.length; i++) {
                 if (i > 0) {
                     instance.update(f42001a);

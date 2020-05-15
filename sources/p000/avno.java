@@ -21,7 +21,7 @@ public final /* synthetic */ class avno implements bmxj {
      */
     public final Object apply(Object obj) {
         Integer num = (Integer) obj;
-        sek sek = InstallationEventIntentOperation.f109495a;
+        Logger Logger = InstallationEventIntentOperation.f109495a;
         if (!avmt.f93427a.contains(Integer.valueOf(num.intValue()))) {
             InstallationEventIntentOperation.f109495a.mo25414c("Handling event of type %d.", num);
             avnm avnm = (avnm) avnm.f93517b.mo51589b();

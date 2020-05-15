@@ -570,7 +570,7 @@ public final class dwq extends dwm {
                     tjq a2 = m9673q().mo10053a(doh, 14);
                     if (a2 != null) {
                         try {
-                            tnn tnn = (tnn) bxvk.m124014a(tnn.f46304b, a2.mo26593c());
+                            tnn tnn = (tnn) GeneratedMessageLite.m124014a(tnn.f46304b, a2.mo26593c());
                             if (tnn != null && !sqw.m36041a((Collection) tnn.f46306a)) {
                                 bxwc bxwc = tnn.f46306a;
                                 int size = bxwc.size();

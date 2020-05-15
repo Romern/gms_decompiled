@@ -122,8 +122,8 @@ public class CollectionChimeraService extends Service implements auji {
         }
         bzzx bzzx = (bzzx) this.f109100l.remove(0);
         bxvd bxvd = (bxvd) bzzx.mo74142c(5);
-        bxvd.mo73625a((bxvk) bzzx);
-        bxvd.f164949b = (bxvk) bxvd.f164949b.mo74142c(4);
+        bxvd.mo73625a((GeneratedMessageLite) bzzx);
+        bxvd.f164949b = (GeneratedMessageLite) bxvd.f164949b.mo74142c(4);
         return bxvd;
     }
 
@@ -254,7 +254,7 @@ public class CollectionChimeraService extends Service implements auji {
         }
         if (bArr != null) {
             try {
-                this.f109106r = (cixq) bxvk.m124016a(cixq.f191707b, bArr, bxus.m123744c());
+                this.f109106r = (cixq) GeneratedMessageLite.m124016a(cixq.f191707b, bArr, bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("CollectionChimeraSvc", "failed to decode rate configuration", e);
             }
@@ -515,7 +515,7 @@ public class CollectionChimeraService extends Service implements auji {
                                 bosx2 = bosx.f134741g;
                             }
                             bxvd bxvd3 = (bxvd) bosx2.mo74142c(5);
-                            bxvd3.mo73625a((bxvk) bosx2);
+                            bxvd3.mo73625a((GeneratedMessageLite) bosx2);
                             if (bxvd3.f164950c) {
                                 bxvd3.mo74035c();
                                 bxvd3.f164950c = false;
@@ -538,7 +538,7 @@ public class CollectionChimeraService extends Service implements auji {
                                     bosx5 = bosx.f134741g;
                                 }
                                 bxvd bxvd4 = (bxvd) bosx5.mo74142c(5);
-                                bxvd4.mo73625a((bxvk) bosx5);
+                                bxvd4.mo73625a((GeneratedMessageLite) bosx5);
                                 if (bxvd4.f164950c) {
                                     bxvd4.mo74035c();
                                     bxvd4.f164950c = false;
@@ -564,7 +564,7 @@ public class CollectionChimeraService extends Service implements auji {
                                 bosx8 = bosx.f134741g;
                             }
                             bxvd bxvd5 = (bxvd) bosx8.mo74142c(5);
-                            bxvd5.mo73625a((bxvk) bosx8);
+                            bxvd5.mo73625a((GeneratedMessageLite) bosx8);
                             if (bxvd5.f164950c) {
                                 bxvd5.mo74035c();
                                 bxvd5.f164950c = false;

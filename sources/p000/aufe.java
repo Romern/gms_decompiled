@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aufe */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aufe extends bxvk implements bxxd {
+public final class aufe extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final aufe f91636c;
@@ -19,7 +19,7 @@ public final class aufe extends bxvk implements bxxd {
     static {
         aufe aufe = new aufe();
         f91636c = aufe;
-        bxvk.m124024a(aufe.class, aufe);
+        GeneratedMessageLite.m124024a(aufe.class, aufe);
     }
 
     private aufe() {
@@ -36,7 +36,7 @@ public final class aufe extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f91636c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဆ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f91636c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဆ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new aufe();
         } else {

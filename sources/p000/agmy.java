@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: agmy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class agmy extends bxvk implements bxxd {
+public final class agmy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final agmy f66006g;
@@ -31,7 +31,7 @@ public final class agmy extends bxvk implements bxxd {
     static {
         agmy agmy = new agmy();
         f66006g = agmy;
-        bxvk.m124024a(agmy.class, agmy);
+        GeneratedMessageLite.m124024a(agmy.class, agmy);
     }
 
     private agmy() {
@@ -48,7 +48,7 @@ public final class agmy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f66006g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဇ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004", new Object[]{"a", "b", agmw.f66005a, "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f66006g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဇ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004", new Object[]{"a", "b", agmw.f66005a, "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new agmy();
         } else {

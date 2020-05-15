@@ -71,7 +71,7 @@ public final class bqbp {
                 bpwk bpwk5 = (bpwk) da2.mo74062i();
                 bpwk5.getClass();
                 if (!bpwl2.f139525c.mo73666a()) {
-                    bpwl2.f139525c = bxvk.m124021a(bpwl2.f139525c);
+                    bpwl2.f139525c = GeneratedMessageLite.m124021a(bpwl2.f139525c);
                 }
                 bpwl2.f139525c.add(bpwk5);
             }

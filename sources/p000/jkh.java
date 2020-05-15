@@ -10,7 +10,7 @@ import java.util.concurrent.Executor;
 public final class jkh extends jns {
 
     /* renamed from: a */
-    private static final sek f22702a = jsy.m17256a("ConnectionEventRouter");
+    private static final Logger f22702a = jsy.m17256a("ConnectionEventRouter");
 
     /* renamed from: b */
     private static jkh f22703b;

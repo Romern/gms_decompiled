@@ -118,13 +118,13 @@ public final class amvj {
                     treeSet.removeAll(arrayList);
                 }
                 bxvd bxvd = (bxvd) a.mo74142c(5);
-                bxvd.mo73625a((bxvk) a);
+                bxvd.mo73625a((GeneratedMessageLite) a);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
                 }
                 amsd amsd = amsd.f75840f;
-                ((amsd) bxvd.f164949b).f75845d = bxvk.m124028dc();
+                ((amsd) bxvd.f164949b).f75845d = GeneratedMessageLite.m124028dc();
                 for (Integer num : treeSet) {
                     int intValue = num.intValue();
                     if (bxvd.f164950c) {
@@ -202,7 +202,7 @@ public final class amvj {
                         amsd3.f75842a |= 4;
                     } else {
                         bxvd = (bxvd) a.mo74142c(5);
-                        bxvd.mo73625a((bxvk) a);
+                        bxvd.mo73625a((GeneratedMessageLite) a);
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;

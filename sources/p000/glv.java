@@ -78,7 +78,7 @@ public final class glv {
         bmxy.m108581a(reauthSettingsRequest);
         Account account = reauthSettingsRequest2.f10699d;
         bmxy.m108581a(account);
-        String str2 = this.f18594a.f21309d;
+        String str2 = this.f18594a.packageName;
         String str3 = reauthSettingsRequest2.f10700e;
         if (str3 != null) {
             str2 = str3;
@@ -134,6 +134,6 @@ public final class glv {
         for (Map.Entry entry : map.entrySet()) {
             linkedList.add(new BasicNameValuePair((String) entry.getKey(), (String) entry.getValue()));
         }
-        return gmv.m13467b(gmv.m13464a(str, str2, new UrlEncodedFormEntity(linkedList), this.f18594a.f21306a));
+        return gmv.m13467b(gmv.m13464a(str, str2, new UrlEncodedFormEntity(linkedList), this.f18594a.context));
     }
 }

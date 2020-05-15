@@ -16,7 +16,7 @@ public final class bsol extends bxvd implements bxxd {
         bsom bsom = (bsom) this.f164949b;
         bsom bsom2 = bsom.f146398f;
         if (!bsom.f146401b.mo73666a()) {
-            bsom.f146401b = bxvk.m124019a(bsom.f146401b);
+            bsom.f146401b = GeneratedMessageLite.m124019a(bsom.f146401b);
         }
         bxsy.m123078a(iterable, bsom.f146401b);
     }

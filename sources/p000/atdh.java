@@ -19,11 +19,11 @@ public final class atdh implements atcv {
         if (asqs instanceof asqx) {
             asqx asqx = (asqx) asqs;
             if (asqs.mo49390e() != 12 || z) {
-                if (cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.mo73780k()).f12022a != 0) {
-                    ctq b = cth.m7547b(((bycz) this.f90118a.f164949b).f165747b.mo73780k());
+                if (cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.getKey()).f12022a != 0) {
+                    ctq b = cth.m7547b(((bycz) this.f90118a.f164949b).f165747b.getKey());
                     if (asqx.f89464a.mo8282c().equals(b.f12035a.mo8282c())) {
                         bxvd bxvd = this.f90118a;
-                        bxtx a = bxtx.m123261a(b.mo8292a());
+                        ByteString a = ByteString.m123261a(b.mo8292a());
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;
@@ -45,7 +45,7 @@ public final class atdh implements atcv {
                     return;
                 }
             }
-            asqs.mo49387b().f89415k = cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.mo73780k()).f12022a;
+            asqs.mo49387b().f89415k = cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.getKey()).f12022a;
         }
     }
 
@@ -56,7 +56,7 @@ public final class atdh implements atcv {
 
     /* renamed from: d */
     public final atcs mo49802d() {
-        ctl a = cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.mo73780k());
+        ctl a = cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.getKey());
         long j = a.f12024c;
         long j2 = ((bycz) this.f90118a.f164949b).f165748c;
         return new atcs(j + j2, a.f12025d + j2);
@@ -64,7 +64,7 @@ public final class atdh implements atcv {
 
     /* renamed from: e */
     public final boolean mo49803e() {
-        ctl a = cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.mo73780k());
+        ctl a = cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.getKey());
         return a.f12022a <= a.f12023b;
     }
 
@@ -80,23 +80,23 @@ public final class atdh implements atcv {
 
     /* renamed from: h */
     public final byte[] mo49806h() {
-        return ((bycz) this.f90118a.mo74062i()).mo73642k();
+        return ((bycz) this.f90118a.mo74062i()).serializeToBytes();
     }
 
     public atdh(bycz bycz) {
         bxvd bxvd = (bxvd) bycz.mo74142c(5);
-        bxvd.mo73625a((bxvk) bycz);
+        bxvd.mo73625a((GeneratedMessageLite) bycz);
         this.f90118a = bxvd;
     }
 
     /* renamed from: a */
     public final asqs mo49793a(askf askf, asqq asqq, String str) {
-        if (cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.mo73780k()).f12022a == 0) {
+        if (cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.getKey()).f12022a == 0) {
             return null;
         }
-        ctq b = cth.m7547b(((bycz) this.f90118a.f164949b).f165747b.mo73780k());
+        ctq b = cth.m7547b(((bycz) this.f90118a.f164949b).f165747b.getKey());
         bxvd bxvd = this.f90118a;
-        bxtx a = bxtx.m123261a(b.mo8292a());
+        ByteString a = ByteString.m123261a(b.mo8292a());
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -111,11 +111,11 @@ public final class atdh implements atcv {
 
     /* renamed from: a */
     public final atcq mo49795a(atcp atcp, askf askf, btiy btiy) {
-        if (cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.mo73780k()).f12022a != 0) {
-            ctq b = cth.m7547b(((bycz) this.f90118a.f164949b).f165747b.mo73780k());
+        if (cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.getKey()).f12022a != 0) {
+            ctq b = cth.m7547b(((bycz) this.f90118a.f164949b).f165747b.getKey());
             ctr a = cth.m7546a(b.f12035a, (int) (Math.abs(atcp.f90083a) % 100000000));
             bxvd bxvd = this.f90118a;
-            bxtx a2 = bxtx.m123261a(b.mo8292a());
+            ByteString a2 = ByteString.m123261a(b.mo8292a());
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -132,7 +132,7 @@ public final class atdh implements atcv {
 
     /* renamed from: a */
     public final btmd mo49796a() {
-        ctl a = cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.mo73780k());
+        ctl a = cth.m7545a(((bycz) this.f90118a.f164949b).f165747b.getKey());
         bxvd da = btmd.f149473c.mo74144da();
         bxvd da2 = btly.f149454b.mo74144da();
         String str = a.f12026e;

@@ -52,9 +52,9 @@ public final class axcq implements ImageLoader.ImageListener, Runnable {
         awkv awkv = new awkv(context);
         int i2 = bwiv.f159695a;
         if ((i2 & 2) != 0) {
-            awkv.mo52222b(bwiv.f159697c.mo73780k());
+            awkv.mo52222b(bwiv.f159697c.getKey());
         } else if ((i2 & 4) != 0) {
-            awkv.mo52221a(bwiv.f159698d.mo73780k());
+            awkv.mo52221a(bwiv.f159698d.getKey());
         }
         int a = bwix.m122006a(bwiv.f159696b);
         int i3 = 1;
@@ -107,7 +107,7 @@ public final class axcq implements ImageLoader.ImageListener, Runnable {
     public static Intent m82331a(Context context, Account account, int i, bwiv bwiv, BuyFlowConfig buyFlowConfig) {
         awlc awlc = new awlc(context);
         if ((bwiv.f159695a & 4) != 0) {
-            awlc.mo52233a(bwiv.f159698d.mo73780k());
+            awlc.mo52233a(bwiv.f159698d.getKey());
         }
         m82332a(awlc, account, i);
         Intent a = awlc.mo52186a();

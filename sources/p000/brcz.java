@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brcz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brcz extends bxvk implements bxxd {
+public final class brcz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final brcz f142453c;
@@ -22,7 +22,7 @@ public final class brcz extends bxvk implements bxxd {
     static {
         brcz brcz = new brcz();
         f142453c = brcz;
-        bxvk.m124024a(brcz.class, brcz);
+        GeneratedMessageLite.m124024a(brcz.class, brcz);
     }
 
     private brcz() {
@@ -39,7 +39,7 @@ public final class brcz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142453c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001", new Object[]{"d", "a", "b", brcj.f142386a});
+            return GeneratedMessageLite.m124022a(f142453c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001", new Object[]{"d", "a", "b", brcj.f142386a});
         } else if (i2 == 3) {
             return new brcz();
         } else {

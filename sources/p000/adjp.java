@@ -38,10 +38,10 @@ public final class adjp {
         String str7;
         int i3;
         int b;
-        bxtx bxtx;
-        bxtx bxtx2;
-        bxtx bxtx3;
-        bxtx bxtx4;
+        ByteString bxtx;
+        ByteString bxtx2;
+        ByteString bxtx3;
+        ByteString bxtx4;
         String str8 = str;
         adip adip3 = adip;
         if (adip3 == null || adip3.f61828a.size() == 0 || adip3.f61829b.size() == 0) {
@@ -60,7 +60,7 @@ public final class adjp {
             List list2 = (List) arrayList3.get(adis.f61840c);
             if (adir.m50551a(adis.f61838a) == 3) {
                 if (adis.f61838a == 2) {
-                    bxtx4 = (bxtx) adis.f61839b;
+                    bxtx4 = (ByteString) adis.f61839b;
                 } else {
                     bxtx4 = bxtx.f164797b;
                 }
@@ -70,7 +70,7 @@ public final class adjp {
             }
             if (adir.m50551a(adis.f61838a) == 4) {
                 if (adis.f61838a == 3) {
-                    bxtx3 = (bxtx) adis.f61839b;
+                    bxtx3 = (ByteString) adis.f61839b;
                 } else {
                     bxtx3 = bxtx.f164797b;
                 }
@@ -80,7 +80,7 @@ public final class adjp {
             }
             if (adir.m50551a(adis.f61838a) == 5) {
                 if (adis.f61838a == 4) {
-                    bxtx2 = (bxtx) adis.f61839b;
+                    bxtx2 = (ByteString) adis.f61839b;
                 } else {
                     bxtx2 = bxtx.f164797b;
                 }
@@ -90,7 +90,7 @@ public final class adjp {
             }
             if (adir.m50551a(adis.f61838a) == 6) {
                 if (adis.f61838a == 5) {
-                    bxtx = (bxtx) adis.f61839b;
+                    bxtx = (ByteString) adis.f61839b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
@@ -241,14 +241,14 @@ public final class adjp {
                         str12.getClass();
                         caei.f172827a = str12;
                         caei.f172828b = adiy.f61859d;
-                        bxtx a = bArr != null ? bxtx.m123261a(bArr) : bxtx.f164797b;
+                        ByteString a = bArr != null ? bxtx.m123261a(bArr) : bxtx.f164797b;
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
                         }
                         a.getClass();
                         ((caei) da.f164949b).f172829c = a;
-                        String valueOf = String.valueOf(Base64.encodeToString(((caei) da.mo74062i()).mo73642k(), 2));
+                        String valueOf = String.valueOf(Base64.encodeToString(((caei) da.mo74062i()).serializeToBytes(), 2));
                         str2 = valueOf.length() == 0 ? new String("packageMetadata:") : "packageMetadata:".concat(valueOf);
                     } else {
                         str2 = !adiy.f61857b.isEmpty() ? adiy.f61857b : null;

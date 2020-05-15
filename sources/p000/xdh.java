@@ -5,7 +5,7 @@ package p000;
 public final class xdh extends xec {
 
     /* renamed from: a */
-    public static final sek f51995a = new sek(new String[]{"AuthenticationRequestHandler"}, (short[]) null);
+    public static final Logger f51995a = new Logger(new String[]{"AuthenticationRequestHandler"}, (short[]) null);
 
     public xdh(xwj xwj, xeh xeh, xdx xdx) {
         super(xwj, xeh, xdx);

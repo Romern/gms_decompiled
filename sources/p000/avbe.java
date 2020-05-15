@@ -41,7 +41,7 @@ public final class avbe extends avas {
         d.mo68420a("Forwarding operation '%s' to internal FACS API...", this.f27820m);
         try {
             bxus b = bxus.m123743b();
-            return (bxpe) bxvk.m124016a(bxpe.f164247d, (byte[]) m78148a(this.f92870i.mo29076a(new FacsInternalSyncCallOptions(false))), b);
+            return (bxpe) GeneratedMessageLite.m124016a(bxpe.f164247d, (byte[]) m78148a(this.f92870i.mo29076a(new FacsInternalSyncCallOptions(false))), b);
         } catch (bxwf e) {
             throw new aaaj(35002, "Failure parsing the bytes returned by the internal sync API call.", null, e);
         }
@@ -78,7 +78,7 @@ public final class avbe extends avas {
                 d2.mo68432a(str, "d", 160, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                 d2.mo68420a("Forwarding operation '%s' to internal FACS API...", this.f27820m);
                 try {
-                    bxpe3 = (bxpe) bxvk.m124016a(bxpe.f164247d, (byte[]) m78148a(this.f92870i.mo29076a(new FacsInternalSyncCallOptions(false))), bxus.m123743b());
+                    bxpe3 = (bxpe) GeneratedMessageLite.m124016a(bxpe.f164247d, (byte[]) m78148a(this.f92870i.mo29076a(new FacsInternalSyncCallOptions(false))), bxus.m123743b());
                 } catch (bxwf e) {
                     throw new aaaj(35002, "Failure parsing the bytes returned by the internal sync API call.", null, e);
                 }
@@ -87,7 +87,7 @@ public final class avbe extends avas {
         }
         if (this.f92899o.mo51192a()) {
             bxvd bxvd = (bxvd) bxpe.mo74142c(5);
-            bxvd.mo73625a((bxvk) bxpe);
+            bxvd.mo73625a((GeneratedMessageLite) bxpe);
             bxok b = this.f92899o.mo51193b();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -195,7 +195,7 @@ public final class avbe extends avas {
             }
             bxoq bxoq3 = (bxoq) da2.f164949b;
             if (!bxoq3.f164200f.mo73666a()) {
-                bxoq3.f164200f = bxvk.m124021a(bxoq3.f164200f);
+                bxoq3.f164200f = GeneratedMessageLite.m124021a(bxoq3.f164200f);
             }
             bxsy.m123078a(a, bxoq3.f164200f);
             if (da2.f164950c) {
@@ -259,7 +259,7 @@ public final class avbe extends avas {
         bnsi d3 = f92897k.mo68390d();
         d3.mo68432a(str3, "a", 131, str2);
         d3.mo68420a("Operation '%s' successful!", this.f27820m);
-        this.f92862a.mo29069a(Status.f30107a, new GetActivityControlsSettingsResult(bxpe8.mo73642k()));
+        this.f92862a.mo29069a(Status.f30107a, new GetActivityControlsSettingsResult(bxpe8.serializeToBytes()));
     }
 
     /* renamed from: a */

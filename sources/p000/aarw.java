@@ -26,7 +26,7 @@ public abstract class aarw extends aary {
             a.f56436a = this.f56407e;
             a.f56437b = this.f56408f;
             mo31678a(a);
-            byte[] k = a.mo31708b().mo73642k();
+            byte[] k = a.mo31708b().serializeToBytes();
             this.f56403j = k;
             try {
                 this.f56403j = aatb.m46964a(k);

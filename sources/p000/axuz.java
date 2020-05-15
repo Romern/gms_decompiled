@@ -112,7 +112,7 @@ public final class axuz extends axvn {
                         }
                         ayen i9 = a2.mo53652i();
                         bxvd bxvd = (bxvd) i9.mo74142c(5);
-                        bxvd.mo73625a((bxvk) i9);
+                        bxvd.mo73625a((GeneratedMessageLite) i9);
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;

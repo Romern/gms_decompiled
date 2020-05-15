@@ -169,7 +169,7 @@ public final class nme extends nsb implements ojb, ojn {
                     }
                     byte[] bArr = carCall.f29362f;
                     if (bArr != null) {
-                        bxtx a2 = bxtx.m123261a(bArr);
+                        ByteString a2 = ByteString.m123261a(bArr);
                         if (da2.f164950c) {
                             da2.mo74035c();
                             da2.f164950c = false;
@@ -187,7 +187,7 @@ public final class nme extends nsb implements ojb, ojn {
                     bitj bitj3 = (bitj) da2.mo74062i();
                     bitj3.getClass();
                     if (!bitm.f121677b.mo73666a()) {
-                        bitm.f121677b = bxvk.m124021a(bitm.f121677b);
+                        bitm.f121677b = GeneratedMessageLite.m124021a(bitm.f121677b);
                     }
                     bitm.f121677b.add(bitj3);
                 }

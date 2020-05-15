@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bswr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bswr extends bxvk implements bxxd {
+public final class bswr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bswr f147479e;
@@ -25,7 +25,7 @@ public final class bswr extends bxvk implements bxxd {
     static {
         bswr bswr = new bswr();
         f147479e = bswr;
-        bxvk.m124024a(bswr.class, bswr);
+        GeneratedMessageLite.m124024a(bswr.class, bswr);
     }
 
     private bswr() {
@@ -42,7 +42,7 @@ public final class bswr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147479e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001င\u0000\u0002ဉ\u0001\u0004ဉ\u0003", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f147479e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001င\u0000\u0002ဉ\u0001\u0004ဉ\u0003", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bswr();
         } else {

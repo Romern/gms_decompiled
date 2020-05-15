@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutionException;
 public final class xdx {
 
     /* renamed from: d */
-    public static final sek f52034d = new sek(new String[]{"LegacyCredentialStore"}, (short[]) null);
+    public static final Logger f52034d = new Logger(new String[]{"LegacyCredentialStore"}, (short[]) null);
 
     /* renamed from: a */
     public final xdl f52035a = ((xdl) xdl.f51999a.mo33309a());
@@ -69,12 +69,12 @@ public final class xdx {
         } else {
             xjx = xjz.m43074a(str, xkb);
         }
-        sek sek = f52034d;
+        Logger Logger = f52034d;
         String valueOf = String.valueOf(xjx);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 41);
         sb.append("Increment and get counter for credential ");
         sb.append(valueOf);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         bmxy.m108582a(xjx, "identifier cannot be null");
         try {
             if (xjx.getClass() != xjy.class) {
@@ -84,12 +84,12 @@ public final class xdx {
             }
             return ((Long) adbb.m50100a(inl.m15759a(rpr.m34216b()).mo13185a(xkb.mo29855a())).get()).longValue();
         } catch (InterruptedException | ExecutionException | xdk e) {
-            sek sek2 = f52034d;
+            Logger logger2 = f52034d;
             String valueOf2 = String.valueOf(xjx);
             StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf2).length() + 42);
             sb2.append("Error incrementing counter for credential ");
             sb2.append(valueOf2);
-            sek2.mo25418e(sb2.toString(), new Object[0]);
+            logger2.mo25418e(sb2.toString(), new Object[0]);
             String valueOf3 = String.valueOf(xjx);
             StringBuilder sb3 = new StringBuilder(String.valueOf(valueOf3).length() + 42);
             sb3.append("Error incrementing counter for credential ");
@@ -100,10 +100,10 @@ public final class xdx {
 
     /* renamed from: a */
     public final xdw mo29671a(String str, xka xka, boolean z) {
-        sek sek = f52034d;
+        Logger Logger = f52034d;
         String valueOf = String.valueOf(str);
         boolean z2 = false;
-        sek.mo25412b(valueOf.length() == 0 ? new String("createCredential with appId ") : "createCredential with appId ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("createCredential with appId ") : "createCredential with appId ".concat(valueOf), new Object[0]);
         bmxy.m108582a(str, "appId cannot be null");
         bmxy.m108589a(!str.trim().isEmpty(), "appId cannot be empty");
         bmxy.m108589a(this.f52037c.containsKey(xka), "Credential type is not supported");
@@ -147,12 +147,12 @@ public final class xdx {
     /* renamed from: b */
     public final boolean mo29676b(xjx xjx) {
         if (!this.f52037c.containsKey(xjx.mo29847a())) {
-            sek sek = f52034d;
+            Logger Logger = f52034d;
             byte b = xjx.mo29847a().f52489d;
             StringBuilder sb = new StringBuilder(26);
             sb.append("Unsupported key type: ");
             sb.append((int) b);
-            sek.mo25418e(sb.toString(), new Object[0]);
+            Logger.mo25418e(sb.toString(), new Object[0]);
             return false;
         }
         try {
@@ -171,23 +171,23 @@ public final class xdx {
     /* renamed from: a */
     public final void mo29672a(xjx xjx) {
         bmxy.m108581a(xjx);
-        sek sek = f52034d;
+        Logger Logger = f52034d;
         String valueOf = String.valueOf(xjx);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 18);
         sb.append("Delete credential ");
         sb.append(valueOf);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         if (this.f52037c.containsKey(xjx.mo29847a())) {
             try {
                 ((xdm) this.f52037c.get(xjx.mo29847a())).mo29649a(xjx);
                 this.f52035a.mo29659d(xjx);
             } catch (xdk e) {
-                sek sek2 = f52034d;
+                Logger logger2 = f52034d;
                 String valueOf2 = String.valueOf(xjx);
                 StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf2).length() + 26);
                 sb2.append("Error deleting credential ");
                 sb2.append(valueOf2);
-                sek2.mo25418e(sb2.toString(), new Object[0]);
+                logger2.mo25418e(sb2.toString(), new Object[0]);
                 String valueOf3 = String.valueOf(xjx);
                 StringBuilder sb3 = new StringBuilder(String.valueOf(valueOf3).length() + 42);
                 sb3.append("Error deleting credential with identifier ");

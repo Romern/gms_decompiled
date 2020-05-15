@@ -268,7 +268,7 @@ final /* synthetic */ class ahlz implements Runnable {
                                     buuc.f154924a |= 8;
                                     buuc.f154928e = nextInt;
                                     if (bArr != null) {
-                                        bxtx a2 = bxtx.m123261a(bArr);
+                                        ByteString a2 = ByteString.m123261a(bArr);
                                         if (da.f164950c) {
                                             da.mo74035c();
                                             da.f164950c = false;
@@ -294,7 +294,7 @@ final /* synthetic */ class ahlz implements Runnable {
                                         buuc4.f154925b = c3;
                                     }
                                     if (r11 != 0) {
-                                        bxtx a3 = bxtx.m123261a((byte[]) r11);
+                                        ByteString a3 = ByteString.m123261a((byte[]) r11);
                                         if (da.f164950c) {
                                             da.mo74035c();
                                             da.f164950c = false;
@@ -365,13 +365,13 @@ final /* synthetic */ class ahlz implements Runnable {
                                     }
                                     buuc buuc7 = (buuc) da.f164949b;
                                     if (!buuc7.f154929f.mo73666a()) {
-                                        buuc7.f154929f = bxvk.m124019a(buuc7.f154929f);
+                                        buuc7.f154929f = GeneratedMessageLite.m124019a(buuc7.f154929f);
                                     }
                                     int size = arrayList5.size();
                                     for (int i7 = 0; i7 < size; i7++) {
                                         buuc7.f154929f.mo74153d(((buub) arrayList5.get(i7)).f154920k);
                                     }
-                                    a.mo36799a(ahoy.m56304a(buuw.CONNECTION_REQUEST, da.mo74062i()).mo73642k());
+                                    a.mo36799a(ahoy.m56304a(buuw.CONNECTION_REQUEST, da.mo74062i()).serializeToBytes());
                                     ((bnsl) ahkm.f67363a.mo68390d()).mo68420a("In requestConnection(), wrote ConnectionRequestFrame to endpoint %s", str2);
                                     Map map = ahmn.f67551h;
                                     ahmh ahmh3 = (ahmh) ahmn.f67550g.get(ahkv2);

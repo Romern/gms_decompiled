@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aylv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aylv extends bxvk implements bxxd {
+public final class aylv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final aylv f97937c;
@@ -19,7 +19,7 @@ public final class aylv extends bxvk implements bxxd {
     static {
         aylv aylv = new aylv();
         f97937c = aylv;
-        bxvk.m124024a(aylv.class, aylv);
+        GeneratedMessageLite.m124024a(aylv.class, aylv);
     }
 
     private aylv() {
@@ -36,7 +36,7 @@ public final class aylv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f97937c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", aylw.f97941a});
+            return GeneratedMessageLite.m124022a(f97937c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", aylw.f97941a});
         } else if (i2 == 3) {
             return new aylv();
         } else {

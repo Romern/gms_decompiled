@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzjp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzjp extends bxvk implements bxxd {
+public final class bzjp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bzjp f170324a;
@@ -13,7 +13,7 @@ public final class bzjp extends bxvk implements bxxd {
     static {
         bzjp bzjp = new bzjp();
         f170324a = bzjp;
-        bxvk.m124024a(bzjp.class, bzjp);
+        GeneratedMessageLite.m124024a(bzjp.class, bzjp);
     }
 
     private bzjp() {
@@ -30,7 +30,7 @@ public final class bzjp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f170324a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f170324a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bzjp();

@@ -173,7 +173,7 @@ public final class mmc implements mmh {
     public final InputStream mo20162a(mph mph) {
         f33990a.mo25412b("Backup data requested for: %s", mph.f34146d);
         if ("restore_token_file".equals(mph.f34146d)) {
-            return new ByteArrayInputStream(String.valueOf(spn.m35843a(this.f33998i)).getBytes(StandardCharsets.UTF_8));
+            return new ByteArrayInputStream(String.valueOf(spn.getAndroidId(this.f33998i)).getBytes(StandardCharsets.UTF_8));
         }
         return new mmt(new mmb(this, mph));
     }

@@ -14,7 +14,7 @@ public final class AppMetadata extends AbstractSafeParcelable {
     public final List f80456a;
 
     public AppMetadata(List list) {
-        sdo.m34966a(list, "Must specify application identifiers");
+        sdo.checkIfNull(list, "Must specify application identifiers");
         this.f80456a = list;
         sdo.m34962a(list.size(), "Application identifiers cannot be empty");
     }

@@ -114,7 +114,7 @@ public final class lui extends dck implements luj {
                             lth.f32929n = ltc2;
                             lth.f32916a |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_CAP_SENTENCES;
                             if (cckq.m130234b()) {
-                                long a2 = spn.m35843a(backupStatsChimeraService2);
+                                long a2 = spn.getAndroidId(backupStatsChimeraService2);
                                 if (da2.f164950c) {
                                     da2.mo74035c();
                                     da2.f164950c = false;
@@ -263,7 +263,7 @@ public final class lui extends dck implements luj {
         int i = Build.VERSION.SDK_INT;
         if (!ndq.m25983b(this.f32998a)) {
             BackupStatsChimeraService backupStatsChimeraService2 = this.f32998a;
-            ApplicationBackupStats[] a = backupStatsChimeraService2.mo17289a(spn.m35843a(backupStatsChimeraService2), new BackupStatsRequestConfig(true, true));
+            ApplicationBackupStats[] a = backupStatsChimeraService2.mo17289a(spn.getAndroidId(backupStatsChimeraService2), new BackupStatsRequestConfig(true, true));
             if (a == null) {
                 return null;
             }

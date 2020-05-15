@@ -34,7 +34,7 @@ import java.util.List;
 public final class xxg extends xxj {
 
     /* renamed from: e */
-    private static final sek f53327e = new sek(new String[]{"RegisterRequestDataTracker"}, (short[]) null);
+    private static final Logger f53327e = new Logger(new String[]{"RegisterRequestDataTracker"}, (short[]) null);
 
     /* renamed from: d */
     private byte[] f53328d;
@@ -142,7 +142,7 @@ public final class xxg extends xxj {
         RegisterRequestParams registerRequestParams;
         Long l;
         byte[] bArr;
-        bxtx bxtx;
+        ByteString bxtx;
         bmxv bmxv;
         String str3;
         MessageDigest messageDigest2 = messageDigest;

@@ -19,7 +19,7 @@ final /* synthetic */ class bcxt implements bmxj {
         }
         a.getClass();
         ((cbga) da.f164949b).f177006c = a;
-        bxtx a2 = bxtx.m123261a(bczc.mo57703a());
+        ByteString a2 = ByteString.m123261a(bczc.mo57703a());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

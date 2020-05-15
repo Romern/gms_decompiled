@@ -17,7 +17,7 @@ public final class auzz {
 
     /* renamed from: a */
     public static rjx m78131a(Context context, auzy auzy) {
-        sdo.m34966a(auzy, "Must provide non-null UDC options!");
+        sdo.checkIfNull(auzy, "Must provide non-null UDC options!");
         return new rjx(context, auzy);
     }
 }

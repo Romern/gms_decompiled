@@ -2,16 +2,13 @@ package p000;
 
 import android.content.Context;
 import android.os.Build;
-import java.io.File;
-import java.util.Iterator;
-import java.util.Map;
 
 /* renamed from: avol */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
 public final class avol extends avnn {
 
     /* renamed from: e */
-    private static final sek f93629e = avpq.m79018e("PreDownloadValidateAction");
+    private static final Logger f93629e = avpq.m79018e("PreDownloadValidateAction");
 
     /* renamed from: f */
     private static final avtg f93630f = new avtg("network_error_attempts", 0);
@@ -151,7 +148,7 @@ public final class avol extends avnn {
         return r0;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:81:?, code lost:
-        r0 = (p000.avst) p000.bxvk.m124014a(p000.avst.f93854b, p000.sqd.m35966a((java.lang.String) r0.mo66814b()));
+        r0 = (p000.avst) p000.GeneratedMessageLite.m124014a(p000.avst.f93854b, p000.sqd.m35966a((java.lang.String) r0.mo66814b()));
         r2 = p000.avol.f93629e;
         r3 = new java.lang.Object[1];
         r4 = p000.avss.m79283a(r0.f93856a);
@@ -347,13 +344,13 @@ public final class avol extends avnn {
             r14.mo74035c()     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
             r14.f164950c = r6     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
         L_0x0128:
-            bxvk r15 = r14.f164949b     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
+            GeneratedMessageLite r15 = r14.f164949b     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
             avsx r15 = (p000.avsx) r15     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
             int r4 = r15.f93874a     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
             r4 = r4 | r9
             r15.f93874a = r4     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
             r15.f93875b = r0     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
-            bxvk r0 = r14.mo74062i()     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
+            GeneratedMessageLite r0 = r14.mo74062i()     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
             avsx r0 = (p000.avsx) r0     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
             byte[] r0 = r0.mo73642k()     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
             java.lang.String r0 = p000.sqd.m35968b(r0)     // Catch:{ avpt -> 0x01a1, avpu -> 0x019f, avps -> 0x019d }
@@ -528,7 +525,7 @@ public final class avol extends avnn {
             java.lang.String r0 = (java.lang.String) r0     // Catch:{ all -> 0x0354 }
             byte[] r0 = p000.sqd.m35966a(r0)     // Catch:{ bxwf -> 0x032c }
             avst r2 = p000.avst.f93854b     // Catch:{ bxwf -> 0x032c }
-            bxvk r0 = p000.bxvk.m124014a(r2, r0)     // Catch:{ bxwf -> 0x032c }
+            GeneratedMessageLite r0 = p000.GeneratedMessageLite.m124014a(r2, r0)     // Catch:{ bxwf -> 0x032c }
             avst r0 = (p000.avst) r0     // Catch:{ bxwf -> 0x032c }
             sek r2 = p000.avol.f93629e     // Catch:{ bxwf -> 0x032c }
             java.lang.Object[] r3 = new java.lang.Object[r9]     // Catch:{ bxwf -> 0x032c }

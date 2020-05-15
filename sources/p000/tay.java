@@ -26,7 +26,7 @@ public final class tay extends tdl {
     /* renamed from: a */
     public final void mo26315a(String str, ArrayList arrayList) {
         ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45590b;
-        sek sek = ConstellationSettingsChimeraActivity.f30536b;
+        Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
         constellationSettingsChimeraActivity.f30556p = arrayList;
         constellationSettingsChimeraActivity.f30555o = str;
         tdx tdx = constellationSettingsChimeraActivity.f30537A;
@@ -60,7 +60,7 @@ public final class tay extends tdl {
     /* renamed from: a */
     public final void mo11624a(tdw tdw) {
         ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45590b;
-        sek sek = ConstellationSettingsChimeraActivity.f30536b;
+        Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
         constellationSettingsChimeraActivity.f30566z.mo26404a(constellationSettingsChimeraActivity.f30562v, 10, tdw);
         ConstellationSettingsChimeraActivity.f30536b.mo25417e("Sync failed", tdw, new Object[0]);
         synchronized (this.f45590b.f30539C) {
@@ -81,7 +81,7 @@ public final class tay extends tdl {
     /* renamed from: a */
     public final void mo11625a(boolean z, Map map) {
         ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45590b;
-        sek sek = ConstellationSettingsChimeraActivity.f30536b;
+        Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
         synchronized (constellationSettingsChimeraActivity.f30539C) {
             ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity2 = this.f45590b;
             constellationSettingsChimeraActivity2.f30566z.mo26405a(constellationSettingsChimeraActivity2.f30562v, 10, z);

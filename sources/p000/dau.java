@@ -90,18 +90,18 @@ final class dau implements Runnable {
         byte[] bArr = programResponse.f32766b;
         if (bArr != null) {
             if (bArr.length != 0) {
-                bxtx a = bxtx.m123261a(bArr);
+                ByteString a = ByteString.m123261a(bArr);
                 bxus c = bxus.m123744c();
                 dch dch = dch.f12805e;
                 try {
                     bxuc h = a.mo73764h();
-                    bxvk bxvk = (bxvk) dch.mo74142c(4);
-                    bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                    a2.mo74220a(bxvk, bxud.m123454a(h), c);
-                    a2.mo74225d(bxvk);
+                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) dch.mo74142c(4);
+                    bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                    a2.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                    a2.mo74225d(GeneratedMessageLite);
                     h.mo73787a(0);
-                    bxvk.m124027b(bxvk);
-                    dch dch2 = (dch) bxvk;
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                    dch dch2 = (dch) GeneratedMessageLite;
                     dci dci = dch2.f12808b;
                     if (dci == null) {
                         dci = dci.f12811g;
@@ -111,7 +111,7 @@ final class dau implements Runnable {
                         if (dci2 == null) {
                             dci2 = dci.f12811g;
                         }
-                        if (!dci2.f12815c.isEmpty() && dch2.f12810d.mo73780k().length != 0) {
+                        if (!dci2.f12815c.isEmpty() && dch2.f12810d.getKey().length != 0) {
                             aaia a3 = dav.f12705b.mo16890a();
                             if (a3 != null) {
                                 dci dci3 = a3.f28157a;

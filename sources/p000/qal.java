@@ -104,7 +104,7 @@ public abstract class qal extends soa {
             return;
         }
         abop abop = new abop(this.f40802k, qay.f40845a, false);
-        ByteArrayEntity byteArrayEntity = new ByteArrayEntity(a.mo73642k());
+        ByteArrayEntity byteArrayEntity = new ByteArrayEntity(a.serializeToBytes());
         int i2 = this.f40796b;
         long j = this.f40799h;
         while (true) {

@@ -16,7 +16,7 @@ import java.util.concurrent.TimeoutException;
 public final class aezt {
 
     /* renamed from: a */
-    private static final sek f64054a = new sek(new String[]{"MagicTetherInitializer"}, (int[]) null);
+    private static final Logger f64054a = new Logger(new String[]{"MagicTetherInitializer"}, (int[]) null);
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
      method: jpc.a(bsni, boolean, android.accounts.Account):aucb

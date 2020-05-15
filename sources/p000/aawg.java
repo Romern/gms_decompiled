@@ -417,7 +417,7 @@ public final class aawg {
                 return;
             }
             bxvd bxvd = (bxvd) i.mo74142c(5);
-            bxvd.mo73625a((bxvk) i);
+            bxvd.mo73625a((GeneratedMessageLite) i);
             bxvd.mo73946I(arrayList);
             m47100a((abdd) bxvd.mo74062i(), aarp);
         }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buna */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buna extends bxvk implements bxxd {
+public final class buna extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final buna f154289i;
@@ -40,7 +40,7 @@ public final class buna extends bxvk implements bxxd {
     static {
         buna buna = new buna();
         f154289i = buna;
-        bxvk.m124024a(buna.class, buna);
+        GeneratedMessageLite.m124024a(buna.class, buna);
     }
 
     private buna() {
@@ -62,7 +62,7 @@ public final class buna extends bxvk implements bxxd {
             this.f154299j = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f154289i, "\u0001\u0007\u0000\u0001\u0002\u000f\u0007\u0000\u0000\u0001\u0002ᔄ\u0000\u0003ဉ\u0001\u000bဉ\b\fဉ\t\rဉ\n\u000eင\u000b\u000fင\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f154289i, "\u0001\u0007\u0000\u0001\u0002\u000f\u0007\u0000\u0000\u0001\u0002ᔄ\u0000\u0003ဉ\u0001\u000bဉ\b\fဉ\t\rဉ\n\u000eင\u000b\u000fင\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new buna();
         } else {

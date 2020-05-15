@@ -3,7 +3,7 @@ package p000;
 @Deprecated
 /* renamed from: bleg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bleg extends bxvk implements bxxd {
+public final class bleg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bleg f126193e;
@@ -26,7 +26,7 @@ public final class bleg extends bxvk implements bxxd {
     static {
         bleg bleg = new bleg();
         f126193e = bleg;
-        bxvk.m124024a(bleg.class, bleg);
+        GeneratedMessageLite.m124024a(bleg.class, bleg);
     }
 
     private bleg() {
@@ -43,7 +43,7 @@ public final class bleg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f126193e, "\u0001\u0003\u0001\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ျ\u0000\u0003ျ\u0000", new Object[]{"c", "b", "a", "d"});
+            return GeneratedMessageLite.m124022a(f126193e, "\u0001\u0003\u0001\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ျ\u0000\u0003ျ\u0000", new Object[]{"c", "b", "a", "d"});
         } else if (i2 == 3) {
             return new bleg();
         } else {

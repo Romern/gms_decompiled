@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byto */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byto extends bxvk implements bxxd {
+public final class byto extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final byto f167695b;
@@ -19,7 +19,7 @@ public final class byto extends bxvk implements bxxd {
     static {
         byto byto = new byto();
         f167695b = byto;
-        bxvk.m124024a(byto.class, byto);
+        GeneratedMessageLite.m124024a(byto.class, byto);
     }
 
     private byto() {
@@ -36,7 +36,7 @@ public final class byto extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167695b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f167695b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new byto();
         } else {

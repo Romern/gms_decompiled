@@ -15,17 +15,17 @@ final /* synthetic */ class xys implements xjf {
     /* renamed from: a */
     public final void mo29720a() {
         xyw xyw = this.f53398a;
-        sek sek = xyx.f53412d;
+        Logger Logger = xyx.f53412d;
         xyr xyr = (xyr) xyw;
         xyr.f53380e.mo30186a(xyr.f53376a, xag.TYPE_BLUETOOTH_TUP_NEEDED);
         if (xyr.f53386k != 4) {
-            sek sek2 = xyr.f53375l;
+            Logger logger2 = xyr.f53375l;
             Object[] objArr = new Object[1];
             int i = xyr.f53386k;
             String a = xyq.m43651a(i);
             if (i != 0) {
                 objArr[0] = a;
-                sek2.mo25414c(String.format("onTupNeeded: mCurrentState: %s is not PROCESSING_REQUEST", objArr), new Object[0]);
+                logger2.mo25414c(String.format("onTupNeeded: mCurrentState: %s is not PROCESSING_REQUEST", objArr), new Object[0]);
                 return;
             }
             throw null;

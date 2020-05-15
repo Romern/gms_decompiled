@@ -9,7 +9,7 @@ import com.google.android.gms.common.api.Status;
 public final class iug extends aaab {
 
     /* renamed from: e */
-    private static final sek f21784e = new sek(new String[]{"SignForKeyHandleOperation"}, (byte[]) null);
+    private static final Logger f21784e = new Logger(new String[]{"SignForKeyHandleOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final isi f21785a;

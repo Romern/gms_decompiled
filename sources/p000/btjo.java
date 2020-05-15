@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btjo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btjo extends bxvk implements bxxd {
+public final class btjo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btjo f149153b;
@@ -16,7 +16,7 @@ public final class btjo extends bxvk implements bxxd {
     static {
         btjo btjo = new btjo();
         f149153b = btjo;
-        bxvk.m124024a(btjo.class, btjo);
+        GeneratedMessageLite.m124024a(btjo.class, btjo);
     }
 
     private btjo() {
@@ -33,7 +33,7 @@ public final class btjo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149153b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\f", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f149153b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\f", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btjo();
         } else {

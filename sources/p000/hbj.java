@@ -122,7 +122,7 @@ public final class hbj implements hep {
         bomr2.f133702a |= 8;
         bomr2.f133707f = z4;
         if (!bomr2.f133703b.mo73666a()) {
-            bomr2.f133703b = bxvk.m124021a(bomr2.f133703b);
+            bomr2.f133703b = GeneratedMessageLite.m124021a(bomr2.f133703b);
         }
         bxsy.m123078a(a, bomr2.f133703b);
         String str = this.f19412b;

@@ -37,7 +37,7 @@ public final class atsh extends C0034at {
     }
 
     /* renamed from: a */
-    public final void mo50151a(bxtx bxtx) {
+    public final void mo50151a(ByteString bxtx) {
         askf askf = new askf(this.f90765g, askc.m74272b(), this.f90766h);
         bxvd da = bzty.f171383c.mo74144da();
         if (da.f164950c) {

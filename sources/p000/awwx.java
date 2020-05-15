@@ -60,7 +60,7 @@ public final class awwx extends sji {
         long elapsedRealtime = SystemClock.elapsedRealtime();
         bwhf a = awfx.m79880a(this.f95215h, C0126R.style.Theme_Wallet_Dark);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (this.f95212e.f110162b) {
             bwhe bwhe = bwhe.f159496c;
             if (bxvd.f164950c) {
@@ -105,13 +105,13 @@ public final class awwx extends sji {
                         asmi c = this.f95211d.mo65549c(b, account, null);
                         if (c.mo7183bo().mo17710c()) {
                             bxvd bxvd2 = (bxvd) bmks2.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) bmks2);
+                            bxvd2.mo73625a((GeneratedMessageLite) bmks2);
                             bmkn bmkn2 = (bmkn) bxvd2;
                             if (bmkn2.f164950c) {
                                 bmkn2.mo74035c();
                                 bmkn2.f164950c = false;
                             }
-                            ((bmks) bmkn2.f164949b).f129882c = bxvk.m124030de();
+                            ((bmks) bmkn2.f164949b).f129882c = GeneratedMessageLite.m124030de();
                             bmkn2.mo66799a(awrt.m80838a(c.mo49240b().f108367a));
                             bmks2 = (bmks) bmkn2.mo74062i();
                         } else {
@@ -171,7 +171,7 @@ public final class awwx extends sji {
         bwhf4.getClass();
         bwhg.f159510c = bwhf4;
         bwhg.f159508a |= 2;
-        byte[] k = ((bwhg) da3.mo74062i()).mo73642k();
+        byte[] k = ((bwhg) da3.mo74062i()).serializeToBytes();
         awxj.m81402a(this.f95215h, b, da, 2, elapsedRealtime);
         Locale locale = Locale.US;
         Object[] objArr = {Long.valueOf(elapsedRealtime), Long.valueOf(SystemClock.elapsedRealtime())};

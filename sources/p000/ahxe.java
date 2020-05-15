@@ -30,7 +30,7 @@ public final class ahxe implements ahxh {
      */
     /* JADX WARNING: Code restructure failed: missing block: B:19:?, code lost:
         r8 = r8.mo73764h();
-        r2 = (p000.bxvk) r2.mo74142c(4);
+        r2 = (p000.GeneratedMessageLite) r2.mo74142c(4);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:21:?, code lost:
         r3 = p000.bxxm.f165037a.mo74228a(r2);
@@ -41,7 +41,7 @@ public final class ahxe implements ahxh {
         r8.mo73787a(0);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:26:?, code lost:
-        p000.bxvk.m124027b(r2);
+        p000.GeneratedMessageLite.m124027b(r2);
         r8 = p000.ahvd.m56709a((p000.aiaa) r2);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:29:0x00a0, code lost:

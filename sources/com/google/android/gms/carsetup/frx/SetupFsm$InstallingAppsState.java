@@ -110,7 +110,7 @@ public class SetupFsm$InstallingAppsState extends oxv {
                 allocate.order(ByteOrder.BIG_ENDIAN);
                 byte[] bArr = new byte[allocate.getInt()];
                 m22213a(inputStream2, bArr);
-                for (dmn dmn : ((dmj) bxvk.m124014a(dmj.f13537b, bArr)).f13539a) {
+                for (dmn dmn : ((dmj) GeneratedMessageLite.m124014a(dmj.f13537b, bArr)).f13539a) {
                     if ("com.google.android.gms.car".equals(dmn.f13552b)) {
                         int i = dmn.f13554d;
                         m22212a(open);
@@ -340,7 +340,7 @@ public class SetupFsm$InstallingAppsState extends oxv {
                                     allocate.order(ByteOrder.BIG_ENDIAN);
                                     byte[] bArr = new byte[allocate.getInt()];
                                     m22213a(inputStream2, bArr);
-                                    Iterator it = ((dmj) bxvk.m124014a(dmj.f13537b, bArr)).f13539a.iterator();
+                                    Iterator it = ((dmj) GeneratedMessageLite.m124014a(dmj.f13537b, bArr)).f13539a.iterator();
                                     while (true) {
                                         if (it.hasNext()) {
                                             dmn dmn = (dmn) it.next();

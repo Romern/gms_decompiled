@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzna */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzna extends bxvk implements bxxd {
+public final class bzna extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bzna f170689b;
@@ -19,7 +19,7 @@ public final class bzna extends bxvk implements bxxd {
     static {
         bzna bzna = new bzna();
         f170689b = bzna;
-        bxvk.m124024a(bzna.class, bzna);
+        GeneratedMessageLite.m124024a(bzna.class, bzna);
     }
 
     private bzna() {
@@ -37,7 +37,7 @@ public final class bzna extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f170689b, "\u0001\u0001\u0000\u0001\u0004\u0004\u0001\u0000\u0000\u0000\u0004ဉ\u0001", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f170689b, "\u0001\u0001\u0000\u0001\u0004\u0004\u0001\u0000\u0000\u0000\u0004ဉ\u0001", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new bzna();
         } else {

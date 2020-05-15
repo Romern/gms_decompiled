@@ -29,7 +29,7 @@ public final class bqqa {
             da2.f164950c = false;
         }
         ((bqrs) da2.f164949b).f141479b = bqry.m113303a(5);
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -74,7 +74,7 @@ public final class bqqa {
         "type.googleapis.com/google.crypto.tink.EciesAeadHkdfPrivateKey".getClass();
         bqsf2.f141516a = "type.googleapis.com/google.crypto.tink.EciesAeadHkdfPrivateKey";
         bqsf2.f141518c = bqsq.m113325a(i2);
-        bxtx aL = bqro.mo73639aL();
+        ByteString aL = bqro.mo73639aL();
         if (da5.f164950c) {
             da5.mo74035c();
             da5.f164950c = false;

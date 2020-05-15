@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boes */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boes extends bxvk implements bxxd {
+public final class boes extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final boes f132830d;
@@ -25,7 +25,7 @@ public final class boes extends bxvk implements bxxd {
     static {
         boes boes = new boes();
         f132830d = boes;
-        bxvk.m124024a(boes.class, boes);
+        GeneratedMessageLite.m124024a(boes.class, boes);
     }
 
     private boes() {
@@ -48,7 +48,7 @@ public final class boes extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132830d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ခ\u0000\u0002ခ\u0001\u0003ဇ\u0002", new Object[]{"a", "e", "b", "c"});
+            return GeneratedMessageLite.m124022a(f132830d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ခ\u0000\u0002ခ\u0001\u0003ဇ\u0002", new Object[]{"a", "e", "b", "c"});
         } else if (i2 == 3) {
             return new boes();
         } else {

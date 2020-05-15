@@ -12,7 +12,7 @@ public final class aemv extends aeme {
     public final /* bridge */ /* synthetic */ void mo11186a(rjd rjd) {
         aene aene = (aene) rjd;
         aemf aemf = new aemf((aeme) this);
-        sdo.m34966a(aemf, "callback == null");
+        sdo.checkIfNull(aemf, "callback == null");
         ((aenl) aene.mo25289B()).mo34362a(aene.f63536a, aemf);
     }
 }

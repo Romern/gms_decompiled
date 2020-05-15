@@ -46,7 +46,7 @@ public final class avbs extends avat {
         d2.mo68432a("avbs", "a", 83, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
         d2.mo68424a("Operation '%s' performing sync (type: '%s')...", this.f27820m, avgl);
         try {
-            this.f92872a.mo29075a(Status.f30107a, new SyncActivityControlsSettingsInternalResult(((bxpe) m78156a(this.f92875d.mo34085d(aval.SYNC_ID_CUSTOM_CACHE, this.f92874c.f30213c).mo34066a(new avbr(this, avgl), 1, this.f92876e))).mo73642k()));
+            this.f92872a.mo29075a(Status.f30107a, new SyncActivityControlsSettingsInternalResult(((bxpe) m78156a(this.f92875d.mo34085d(aval.SYNC_ID_CUSTOM_CACHE, this.f92874c.f30213c).mo34066a(new avbr(this, avgl), 1, this.f92876e))).serializeToBytes()));
             bnsi d3 = f92922g.mo68390d();
             d3.mo68432a("avbs", "a", 70, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             d3.mo68420a("Operation '%s' successful!", this.f27820m);

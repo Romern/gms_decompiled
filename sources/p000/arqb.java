@@ -12,7 +12,7 @@ import java.util.Random;
 public final class arqb {
 
     /* renamed from: a */
-    private static final sek f88110a = ascp.m73787a("Utils", "NotificationUtils");
+    private static final Logger f88110a = ascp.m73787a("Utils", "NotificationUtils");
 
     /* renamed from: a */
     public static void m73289a(Context context, int i, String str) {
@@ -28,8 +28,8 @@ public final class arqb {
         boolean r = cgqs.f187523a.mo6606a().mo84332r();
         long j = !r ? 1800000 : 0;
         long n = cgqs.f187523a.mo6606a().mo84328n();
-        f88110a.mo25409a("Showing notification with duration %d", Long.valueOf(j));
-        f88110a.mo25409a("Delaying notification by %d", Long.valueOf(n));
+        f88110a.logVerbose("Showing notification with duration %d", Long.valueOf(j));
+        f88110a.logVerbose("Delaying notification by %d", Long.valueOf(n));
         SerializableNotification serializableNotification = new SerializableNotification();
         serializableNotification.f108085b = j;
         serializableNotification.f108086c = n;

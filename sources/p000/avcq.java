@@ -94,7 +94,7 @@ public final /* synthetic */ class avcq implements Runnable {
         long b = gcmChimeraBroadcastReceiver.f109367g.mo54418b();
         if (chbh.m148019q()) {
             try {
-                bxoc = (bxoc) bxvk.m124014a(bxoc.f164133b, Base64.decode(intent.getStringExtra("fsc_v1"), 0));
+                bxoc = (bxoc) GeneratedMessageLite.m124014a(bxoc.f164133b, Base64.decode(intent.getStringExtra("fsc_v1"), 0));
             } catch (bxwf e) {
                 aveu aveu2 = (aveu) gcmChimeraBroadcastReceiver.f109365e.apply(applicationContext);
                 bxvd da3 = bxpr.f164303d.mo74144da();

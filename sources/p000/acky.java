@@ -199,7 +199,7 @@ public final class acky {
             }
         }
         try {
-            return (bxxc) bxxk.mo73653a(bxtx.f164797b);
+            return (bxxc) bxxk.mo73653a(ByteString.f164797b);
         } catch (bxwf e2) {
             throw new AssertionError();
         }
@@ -274,7 +274,7 @@ public final class acky {
 
     /* renamed from: a */
     public static String m49362a(bxxc bxxc) {
-        return Base64.encodeToString(bxxc.mo73642k(), 0);
+        return Base64.encodeToString(bxxc.serializeToBytes(), 0);
     }
 
     /* renamed from: a */

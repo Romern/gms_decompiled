@@ -16,7 +16,7 @@ public final class btel extends bxvd implements bxxd {
         btem btem = (btem) this.f164949b;
         btem btem2 = btem.f148532c;
         if (!btem.f148534a.mo73666a()) {
-            btem.f148534a = bxvk.m124021a(btem.f148534a);
+            btem.f148534a = GeneratedMessageLite.m124021a(btem.f148534a);
         }
         bxsy.m123078a(iterable, btem.f148534a);
     }

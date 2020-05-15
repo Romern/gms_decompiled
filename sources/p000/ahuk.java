@@ -53,17 +53,17 @@ public final /* synthetic */ class ahuk implements Runnable {
                 try {
                     ahza a = ahur.m56666a((List) buru.mo73055a(account).get(), ((ahst) ahgz.m55754a(context, ahst.class)).mo37033a(bluetoothDevice.getAddress()));
                     if (a != null) {
-                        bxtx bxtx = a.f68445c;
+                        ByteString bxtx = a.f68445c;
                         bxus c = bxus.m123744c();
                         aiaa aiaa = aiaa.f68501K;
                         bxuc h = bxtx.mo73764h();
-                        bxvk bxvk = (bxvk) aiaa.mo74142c(4);
-                        bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                        a2.mo74220a(bxvk, bxud.m123454a(h), c);
-                        a2.mo74225d(bxvk);
+                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) aiaa.mo74142c(4);
+                        bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                        a2.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                        a2.mo74225d(GeneratedMessageLite);
                         h.mo73787a(0);
-                        bxvk.m124027b(bxvk);
-                        aiaa aiaa2 = (aiaa) bxvk;
+                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                        aiaa aiaa2 = (aiaa) GeneratedMessageLite;
                         ((bnsl) ahsd.f67925a.mo68390d()).mo68420a("FastPair: found device with bonded device public address, item title = %s", aiaa2.f68520h);
                         String c2 = buqx.m120262c(bluetoothDevice.getAddress());
                         ((bnsl) ahsd.f67925a.mo68390d()).mo68420a("FastPair: found device with bonded device public address, alias = %s", c2);

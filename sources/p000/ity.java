@@ -14,7 +14,7 @@ import java.util.List;
 public final class ity extends aaab {
 
     /* renamed from: h */
-    private static final sek f21744h = new sek(new String[]{"RegisterForKeyPairOperation"}, (byte[]) null);
+    private static final Logger f21744h = new Logger(new String[]{"RegisterForKeyPairOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final irw f21745a;
@@ -110,7 +110,7 @@ public final class ity extends aaab {
                     bArr = itd.f21663f;
                     if (bArr != null) {
                         try {
-                            bsnm a2 = bsnm.m116012a(((bsnn) bxvk.m124014a(bsnn.f146304c, bArr)).f146306a);
+                            bsnm a2 = bsnm.m116012a(((bsnn) GeneratedMessageLite.m124014a(bsnn.f146304c, bArr)).f146306a);
                             if (a2 == null) {
                                 a2 = bsnm.UNRECOGNIZED;
                             }
@@ -134,14 +134,14 @@ public final class ity extends aaab {
                                 da2.f164950c = false;
                             }
                             ((bsns) da2.f164949b).f146329a = 0;
-                            bxtx aL = ((bsns) da2.mo74062i()).mo73639aL();
+                            ByteString aL = ((bsns) da2.mo74062i()).mo73639aL();
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
                             }
                             aL.getClass();
                             ((bsnn) da.f164949b).f146307b = aL;
-                            itd.f21664g.mo13228a(itd.f21661d.name, bsnm.FIDO, ((bsnn) da.mo74062i()).mo73642k());
+                            itd.f21664g.mo13228a(itd.f21661d.name, bsnm.FIDO, ((bsnn) da.mo74062i()).serializeToBytes());
                         }
                     }
                     if (itd.f21658a.mo66917a().mo66925c((CharSequence) ipl.f21498h.mo58455c()).contains(itd.f21660c)) {
@@ -173,9 +173,9 @@ public final class ity extends aaab {
             }
             this.f21745a.mo13305a(new KeyRegistrationResult(ito.m16125a(ehi.f14968a), null, null));
         } catch (ehf e4) {
-            sek sek = f21744h;
+            Logger Logger = f21744h;
             String valueOf2 = String.valueOf(e4.f14947a.toString());
-            sek.mo25415d(valueOf2.length() == 0 ? new String("Failed to perform enrollment. StatusCode=") : "Failed to perform enrollment. StatusCode=".concat(valueOf2), e4, new Object[0]);
+            Logger.mo25415d(valueOf2.length() == 0 ? new String("Failed to perform enrollment. StatusCode=") : "Failed to perform enrollment. StatusCode=".concat(valueOf2), e4, new Object[0]);
             this.f21745a.mo13306a(ito.m16125a(e4.f14947a));
         }
     }

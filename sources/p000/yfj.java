@@ -16,7 +16,7 @@ public final class yfj extends yfe {
         yfi yfi = (yfi) yhg;
         cadj a = super.mo30404a(yfi, cadl);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         cadi cadi = (cadi) bxvd;
         cadz cadz = yfi.f53724a;
         if (cadi.f164950c) {

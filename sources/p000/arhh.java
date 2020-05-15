@@ -64,7 +64,7 @@ public final class arhh {
             aroj aroj = (aroj) da.f164949b;
             aroj.f88004a |= 4;
             aroj.f88007d = length3;
-            bxtx a = bxtx.m123261a(bArr3);
+            ByteString a = ByteString.m123261a(bArr3);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -79,7 +79,7 @@ public final class arhh {
             aroj2.f88006c = i5;
             aroj2.f88004a = i7 | 1;
             aroj2.f88005b = i4;
-            linkedList.add(((aroj) da.mo74062i()).mo73642k());
+            linkedList.add(((aroj) da.mo74062i()).serializeToBytes());
         }
         return linkedList;
     }
@@ -91,7 +91,7 @@ public final class arhh {
     public final synchronized void mo48539b(byte[] bArr) {
         if (bArr.length != 0) {
             try {
-                aroj aroj = (aroj) bxvk.m124016a(aroj.f88002f, bArr, bxus.m123744c());
+                aroj aroj = (aroj) GeneratedMessageLite.m124016a(aroj.f88002f, bArr, bxus.m123744c());
                 arhg arhg = (arhg) this.f87727a.get(aroj.f88005b);
                 if (arhg == null) {
                     arhg = new arhg();

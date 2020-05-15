@@ -25,7 +25,7 @@ final class akli extends ConnectivityManager.NetworkCallback {
     public final void onLost(Network network) {
         aklk aklk = this.f72196a;
         int i = aklk.f72200k;
-        sdo.m34966a(aklk.f72202d, "WfaNetworkStatusClient can not be null in network lost callback.");
+        sdo.checkIfNull(aklk.f72202d, "WfaNetworkStatusClient can not be null in network lost callback.");
         synchronized (aklk.f72204f) {
             if (network.equals(aklk.f72205g)) {
                 boolean z = true;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bynb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bynb extends bxvk implements bxxd {
+public final class bynb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bynb f167101a;
@@ -13,7 +13,7 @@ public final class bynb extends bxvk implements bxxd {
     static {
         bynb bynb = new bynb();
         f167101a = bynb;
-        bxvk.m124024a(bynb.class, bynb);
+        GeneratedMessageLite.m124024a(bynb.class, bynb);
     }
 
     private bynb() {
@@ -30,7 +30,7 @@ public final class bynb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167101a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f167101a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bynb();

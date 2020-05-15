@@ -18,7 +18,7 @@ public final class kww implements Parcelable.Creator {
         boolean z = true;
         if (parcel.readInt() == 1) {
             try {
-                lbf = (lbf) bxvk.m124014a(lbf.f25715f, (byte[]) bmxy.m108581a(parcel.createByteArray()));
+                lbf = (lbf) GeneratedMessageLite.m124014a(lbf.f25715f, (byte[]) bmxy.m108581a(parcel.createByteArray()));
             } catch (bxwf | NullPointerException e) {
                 throw new BadParcelableException(e);
             }
@@ -30,7 +30,7 @@ public final class kww implements Parcelable.Creator {
         int i = 0;
         while (i < readInt) {
             try {
-                j.mo67668c((lba) bxvk.m124014a(lba.f25675f, (byte[]) bmxy.m108581a(parcel.createByteArray())));
+                j.mo67668c((lba) GeneratedMessageLite.m124014a(lba.f25675f, (byte[]) bmxy.m108581a(parcel.createByteArray())));
                 i++;
             } catch (bxwf | NullPointerException e2) {
                 throw new BadParcelableException(e2);

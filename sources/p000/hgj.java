@@ -16,7 +16,7 @@ import com.google.android.gms.common.api.Status;
 public final class hgj extends adcf {
 
     /* renamed from: a */
-    public static final sek f19703a = ght.m13172b("SaveAccountLinkingTokenControllerFragment");
+    public static final Logger f19703a = ght.m13172b("SaveAccountLinkingTokenControllerFragment");
 
     /* renamed from: b */
     public hgl f19704b;

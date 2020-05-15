@@ -31,7 +31,7 @@ public final class cago extends bxvg implements bxvh {
     static {
         cago cago = new cago();
         f174485f = cago;
-        bxvk.m124024a(cago.class, cago);
+        GeneratedMessageLite.m124024a(cago.class, cago);
     }
 
     private cago() {
@@ -52,7 +52,7 @@ public final class cago extends bxvg implements bxvh {
             this.f174492g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f174485f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0001\u0000\u0001ဂ\u0000\u0003ဉ\u0002\u0004ဉ\u0003\u0005\u001b", new Object[]{"a", "b", "c", "d", "e", cagr.class});
+            return GeneratedMessageLite.m124022a(f174485f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0001\u0000\u0001ဂ\u0000\u0003ဉ\u0002\u0004ဉ\u0003\u0005\u001b", new Object[]{"a", "b", "c", "d", "e", cagr.class});
         } else if (i2 == 3) {
             return new cago();
         } else {

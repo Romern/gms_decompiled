@@ -34,7 +34,7 @@ public final class cfui implements cfug {
         f185727a = bdyx.m91609a(a, "Loader__allowed_request_pay_module_callers", "com.google.android.apps.nbu.paisa.user");
         f185728b = bdyx.m91610a(a, "Loader__loader_cache_invalidation", true);
         try {
-            f185729c = bdyx.m91608a(a, "Loader__loader_condition_package_names", (bydj) bxvk.m124014a(bydj.f165795b, new byte[0]), cfuh.f185726a);
+            f185729c = bdyx.m91608a(a, "Loader__loader_condition_package_names", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[0]), cfuh.f185726a);
             f185730d = bdyx.m91610a(a, "Loader__loader_package_changes", true);
             f185731e = bdyx.m91610a(a, "Loader__use_has_tokens_condition", false);
         } catch (bxwf e) {

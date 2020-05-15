@@ -21,7 +21,7 @@ public final /* synthetic */ class arxz implements Runnable {
     public final void run() {
         SourceLogManager sourceLogManager = this.f88440a;
         long j = this.f88441b;
-        sek sek = D2DSetupChimeraActivity.f108197b;
+        Logger Logger = D2DSetupChimeraActivity.f108197b;
         qws qws = sourceLogManager.f108007e;
         if (qws != null) {
             qws.mo24336a(j, TimeUnit.MILLISECONDS);

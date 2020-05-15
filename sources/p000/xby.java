@@ -16,7 +16,7 @@ import java.util.concurrent.TimeoutException;
 public final class xby {
 
     /* renamed from: e */
-    private static final sek f51902e = new sek(new String[]{"FidoV2EnrollmentController"}, (short[]) null);
+    private static final Logger f51902e = new Logger(new String[]{"FidoV2EnrollmentController"}, (short[]) null);
 
     /* renamed from: a */
     private final xwj f51903a = xwj.m43507a(xwi.FIDO_AUTOENROLLMENT_V2);
@@ -40,9 +40,9 @@ public final class xby {
     private final void m42632a(String str, List list, wzu wzu) {
         try {
             int i = ((KeyRegistrationResult) aucu.m76783a(this.f51906d.mo13178a(1, list, "fido", new Account(str, "com.google"), null), 10000, TimeUnit.MILLISECONDS)).f10542b.f30115i;
-            sek sek = f51902e;
+            Logger Logger = f51902e;
             String valueOf = String.valueOf(iov.m15809b(i));
-            sek.mo25412b(valueOf.length() == 0 ? new String("Result status code of key registration is ") : "Result status code of key registration is ".concat(valueOf), new Object[0]);
+            Logger.mo25412b(valueOf.length() == 0 ? new String("Result status code of key registration is ") : "Result status code of key registration is ".concat(valueOf), new Object[0]);
             if (i != -25501) {
                 if (i != -25503) {
                     String valueOf2 = String.valueOf(iov.m15809b(i));

@@ -78,8 +78,8 @@ final class zxk implements Runnable {
             byte[] a = boav.m111020a(this.f56117e.open(this.f56115c));
             zxv zxv = this.f56116d;
             String str = this.f56115c;
-            sdo.m34966a((Object) str, (Object) "fileName");
-            sdo.m34966a(a, "content");
+            sdo.checkIfNull((Object) str, (Object) "fileName");
+            sdo.checkIfNull(a, "content");
             File file = new File(zxv.f56133a, str);
             synchronized (zxv.f56135c) {
                 File file2 = new File(zxv.f56133a, String.valueOf(str).concat(".tmp"));

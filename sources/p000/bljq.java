@@ -67,9 +67,9 @@ final class bljq implements bljn {
         long b = this.f126689b.mo54418b() - blkk.f126739c;
         bljz bljz = blkk.f126740d;
         bxvd bxvd = (bxvd) bljz.mo74142c(5);
-        bxvd.mo73625a((bxvk) bljz);
+        bxvd.mo73625a((GeneratedMessageLite) bljz);
         bxvd bxvd2 = (bxvd) blim.mo74142c(5);
-        bxvd2.mo73625a((bxvk) blim);
+        bxvd2.mo73625a((GeneratedMessageLite) blim);
         bxvd da = blik.f126620d.mo74144da();
         int i = blkk.f126742f;
         if (da.f164950c) {
@@ -277,9 +277,9 @@ final class bljq implements bljn {
             long b = this.f126689b.mo54418b() - blkk2.f126739c;
             bljz bljz = blkk2.f126740d;
             bxvd bxvd = (bxvd) bljz.mo74142c(5);
-            bxvd.mo73625a((bxvk) bljz);
+            bxvd.mo73625a((GeneratedMessageLite) bljz);
             bxvd bxvd2 = (bxvd) blim.mo74142c(5);
-            bxvd2.mo73625a((bxvk) blim);
+            bxvd2.mo73625a((GeneratedMessageLite) blim);
             bxvd da = blik.f126620d.mo74144da();
             int i = blkk2.f126742f;
             if (da.f164950c) {

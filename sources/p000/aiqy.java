@@ -96,7 +96,7 @@ public final class aiqy implements aiqp {
         bvgi.f156003b = 2;
         bvgi.f156002a |= 1;
         bxvd da2 = bvge.f155990c.mo74144da();
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -114,7 +114,7 @@ public final class aiqy implements aiqp {
         bvge2.getClass();
         bvgi2.f156005d = bvge2;
         bvgi2.f156002a |= 4;
-        byte[] a2 = aips.m57683a(bArr2, ((bvgi) da.mo74062i()).mo73642k());
+        byte[] a2 = aips.m57683a(bArr2, ((bvgi) da.mo74062i()).serializeToBytes());
         if (a2 != null) {
             this.f69525e.mo66704b(a2).mo66727a(new aiqr(this, bArr));
             return;
@@ -153,7 +153,7 @@ public final class aiqy implements aiqp {
         bvgi.f156003b = 1;
         bvgi.f156002a |= 1;
         bxvd da2 = bvgf.f155994d.mo74144da();
-        bxtx a = bxtx.m123261a(m57752b(str));
+        ByteString a = ByteString.m123261a(m57752b(str));
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -174,7 +174,7 @@ public final class aiqy implements aiqp {
         bvgf2.getClass();
         bvgi2.f156004c = bvgf2;
         bvgi2.f156002a |= 2;
-        byte[] a2 = aips.m57683a(bArr, ((bvgi) da.mo74062i()).mo73642k());
+        byte[] a2 = aips.m57683a(bArr, ((bvgi) da.mo74062i()).serializeToBytes());
         if (a2 != null) {
             try {
                 this.f69525e.mo66704b(a2).get(cfnv.m140787k(), TimeUnit.MILLISECONDS);

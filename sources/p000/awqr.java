@@ -27,7 +27,7 @@ public final class awqr extends awqu {
             ApplicationParameters applicationParameters = owInitializedEvent.f109985c.f110418b;
             bpjk bpjk = this.f94871a;
             bxvd bxvd = (bxvd) bpjk.mo74142c(5);
-            bxvd.mo73625a((bxvk) bpjk);
+            bxvd.mo73625a((GeneratedMessageLite) bpjk);
             if (!(applicationParameters == null || (bundle = applicationParameters.f110408c) == null)) {
                 int a = bpkb.m112002a(bundle.getInt("com.google.android.gms.wallet.fragment.WALLET_FRAGMENT_MODE"));
                 if (bxvd.f164950c) {

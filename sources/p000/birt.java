@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: birt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class birt extends bxvk implements bxxd {
+public final class birt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final birt f121467a;
@@ -13,7 +13,7 @@ public final class birt extends bxvk implements bxxd {
     static {
         birt birt = new birt();
         f121467a = birt;
-        bxvk.m124024a(birt.class, birt);
+        GeneratedMessageLite.m124024a(birt.class, birt);
     }
 
     private birt() {
@@ -30,7 +30,7 @@ public final class birt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f121467a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f121467a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new birt();

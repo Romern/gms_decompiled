@@ -21,7 +21,7 @@ public final class ipp extends srp {
     private static int f21524d = 0;
 
     /* renamed from: e */
-    private static final sek f21525e = new sek(new String[]{"DatabaseHelper"}, (byte[]) null);
+    private static final Logger f21525e = new Logger(new String[]{"DatabaseHelper"}, (byte[]) null);
 
     /* renamed from: a */
     public static ipp m15839a(Context context) {
@@ -76,13 +76,13 @@ public final class ipp extends srp {
     }
 
     public final void onUpgrade(SQLiteDatabase sQLiteDatabase, int i, int i2) {
-        sek sek = f21525e;
+        Logger Logger = f21525e;
         StringBuilder sb = new StringBuilder(69);
         sb.append("Updating database version from ");
         sb.append(i);
         sb.append(" to new version ");
         sb.append(i2);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         while (true) {
             i++;
             if (i > i2) {
@@ -111,9 +111,9 @@ public final class ipp extends srp {
         f21525e.mo25412b("Creating Cryptauth database with version : 5", new Object[0]);
         String[] strArr = f21521a;
         for (String str : strArr) {
-            sek sek = f21525e;
+            Logger Logger = f21525e;
             String valueOf = String.valueOf(str);
-            sek.mo25412b(valueOf.length() == 0 ? new String("Executing: ") : "Executing: ".concat(valueOf), new Object[0]);
+            Logger.mo25412b(valueOf.length() == 0 ? new String("Executing: ") : "Executing: ".concat(valueOf), new Object[0]);
             sQLiteDatabase.execSQL(str);
         }
     }

@@ -182,7 +182,7 @@ public class TokenRequest extends AbstractSafeParcelable implements ReflectedPar
 
     /* renamed from: a */
     public final void mo7639a(iyb iyb) {
-        sdo.m34966a(iyb, " Consent cannot be null");
+        sdo.checkIfNull(iyb, " Consent cannot be null");
         this.f10713i = iyb.toString();
     }
 

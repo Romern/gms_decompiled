@@ -38,7 +38,7 @@ public final class xkn extends xkf {
     private static final bnic f52568l = bnic.m109494a(f52560a, f52561b, f52562c, f52563d, f52564e, f52565f, f52566g);
 
     /* renamed from: r */
-    private static final sek f52569r = new sek(new String[]{"AuthenticatorGetAssertionCommand"}, (short[]) null);
+    private static final Logger f52569r = new Logger(new String[]{"AuthenticatorGetAssertionCommand"}, (short[]) null);
 
     /* renamed from: h */
     public final String f52570h;

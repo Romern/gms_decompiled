@@ -414,7 +414,7 @@ public final class bicz implements bhqx, bigv {
             bpnk bpnk2 = (bpnk) da.mo74062i();
             bpoh a = bicx.mo64530a();
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -638,7 +638,7 @@ public final class bicz implements bhqx, bigv {
             bpnb bpnb2 = (bpnb) da.mo74062i();
             bpoh a = bicx.mo64530a();
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;

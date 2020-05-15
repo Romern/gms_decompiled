@@ -25,7 +25,7 @@ final class qdp extends ConnectivityManager.NetworkCallback {
     public final void onAvailable(Network network) {
         synchronized (this.f40998c) {
             qdq qdq = this.f40997b;
-            sek sek = qdq.f40999a;
+            Logger Logger = qdq.f40999a;
             synchronized (qdq.f41001c) {
                 if (!qdq.f41002d.mo66813a()) {
                     qdq.f40999a.mo25414c("Network acquired.", new Object[0]);

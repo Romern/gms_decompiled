@@ -41,7 +41,7 @@ public class BuyFlowInitializationIntentOperation extends IntentOperation {
         int intExtra;
         BuyFlowConfig buyFlowConfig2 = buyFlowConfig;
         InitializeBuyFlowRequest initializeBuyFlowRequest2 = initializeBuyFlowRequest;
-        sdo.m34966a(initializeBuyFlowRequest2.f110165b, "PurchaseContext bytes cannot be null");
+        sdo.checkIfNull(initializeBuyFlowRequest2.f110165b, "PurchaseContext bytes cannot be null");
         ArrayList a = bjvn.m104714a(getApplicationContext());
         long j = this.f110277c;
         if ((j == -1 || j + ((Long) awih.f94440a.mo58455c()).longValue() <= System.currentTimeMillis()) && !new ActivityManager.MemoryInfo().lowMemory) {
@@ -89,7 +89,7 @@ public class BuyFlowInitializationIntentOperation extends IntentOperation {
                                     String str = applicationParameters.f110407b.name;
                                     int i2 = applicationParameters.f110406a;
                                     String str2 = buyFlowConfig2.f110419c;
-                                    sdo.m34966a(blxz, "Cannot cache null response");
+                                    sdo.checkIfNull(blxz, "Cannot cache null response");
                                     if (blxz.f128181d.size() <= 0) {
                                         z = false;
                                     }
@@ -118,19 +118,19 @@ public class BuyFlowInitializationIntentOperation extends IntentOperation {
                                         String str3 = (String) entry.getKey();
                                         ArrayList arrayList3 = (ArrayList) entry.getValue();
                                         bxvd bxvd = (bxvd) blxz.mo74142c(5);
-                                        bxvd.mo73625a((bxvk) blxz);
+                                        bxvd.mo73625a((GeneratedMessageLite) blxz);
                                         int size = arrayList3.size();
                                         if (bxvd.f164950c) {
                                             bxvd.mo74035c();
                                             bxvd.f164950c = false;
                                         }
                                         blxz blxz2 = blxz.f128176e;
-                                        ((blxz) bxvd.f164949b).f128181d = bxvk.m124030de();
+                                        ((blxz) bxvd.f164949b).f128181d = GeneratedMessageLite.m124030de();
                                         long currentTimeMillis = System.currentTimeMillis() + ((blxs) arrayList3.get(0)).f128138g;
                                         for (int i3 = 0; i3 < size; i3++) {
                                             blxs blxs3 = (blxs) arrayList3.get(i3);
                                             bxvd bxvd2 = (bxvd) blxs3.mo74142c(5);
-                                            bxvd2.mo73625a((bxvk) blxs3);
+                                            bxvd2.mo73625a((GeneratedMessageLite) blxs3);
                                             if (bxvd2.f164950c) {
                                                 bxvd2.mo74035c();
                                                 bxvd2.f164950c = false;
@@ -147,7 +147,7 @@ public class BuyFlowInitializationIntentOperation extends IntentOperation {
                                             blxz blxz3 = (blxz) bxvd.f164949b;
                                             blxs6.getClass();
                                             if (!blxz3.f128181d.mo73666a()) {
-                                                blxz3.f128181d = bxvk.m124021a(blxz3.f128181d);
+                                                blxz3.f128181d = GeneratedMessageLite.m124021a(blxz3.f128181d);
                                             }
                                             blxz3.f128181d.add(blxs6);
                                         }

@@ -60,7 +60,7 @@ public final class dxf extends dxd {
             return (bxiu) da.mo74062i();
         }
         for (ContextData contextData : contextDataArr) {
-            bxtx aL = contextData.mo18013c().mo73639aL();
+            ByteString aL = contextData.mo18013c().mo73639aL();
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -68,7 +68,7 @@ public final class dxf extends dxd {
             bxiu bxiu2 = (bxiu) da.f164949b;
             aL.getClass();
             if (!bxiu2.f163572d.mo73666a()) {
-                bxiu2.f163572d = bxvk.m124021a(bxiu2.f163572d);
+                bxiu2.f163572d = GeneratedMessageLite.m124021a(bxiu2.f163572d);
             }
             bxiu2.f163572d.add(aL);
         }

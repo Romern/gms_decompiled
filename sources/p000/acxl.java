@@ -412,7 +412,7 @@ public final class acxl {
             bpxd bpxd2 = bpxd.f139655C;
             bpxd.f139659a |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_IME_MULTI_LINE;
             bpxd.f139677s = i;
-            bundle.putByteArray("IcingQueryStatsLog", ((bpxd) this.f61036p.mo74062i()).mo73642k());
+            bundle.putByteArray("IcingQueryStatsLog", ((bpxd) this.f61036p.mo74062i()).serializeToBytes());
             bundle.putBoolean("should_log_stats", true);
             bundle.putLong("query_task_done_timestamp_ms", System.currentTimeMillis());
         }
@@ -445,7 +445,7 @@ public final class acxl {
             bpxd bpxd = (bpxd) bxvd.f164949b;
             bpxd bpxd2 = bpxd.f139655C;
             if (!bpxd.f139670l.mo73666a()) {
-                bpxd.f139670l = bxvk.m124019a(bpxd.f139670l);
+                bpxd.f139670l = GeneratedMessageLite.m124019a(bpxd.f139670l);
             }
             for (bpzf bpzf : hashSet) {
                 bpxd.f139670l.mo74153d(bpzf.mo3214a());

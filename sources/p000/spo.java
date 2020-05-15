@@ -45,14 +45,14 @@ public final class spo {
     }
 
     /* renamed from: a */
-    public static byte[] m35904a(Context context, String str, String str2) {
-        return m35905a(svr.m36484b(context).mo26176b(str, 64), str2);
+    public static byte[] getPackageCertificateHash(Context context, String str, String algo) {
+        return getPackageCertificateHash(svr.m36484b(context).mo26176b(str, 64), algo);
     }
 
     /* renamed from: a */
-    static byte[] m35905a(PackageInfo packageInfo, String str) {
+    static byte[] getPackageCertificateHash(PackageInfo packageInfo, String algo) {
         MessageDigest a;
-        if (packageInfo.signatures == null || packageInfo.signatures.length != 1 || (a = m35903a(str)) == null) {
+        if (packageInfo.signatures == null || packageInfo.signatures.length != 1 || (a = m35903a(algo)) == null) {
             return null;
         }
         return a.digest(packageInfo.signatures[0].toByteArray());

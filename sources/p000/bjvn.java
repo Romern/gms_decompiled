@@ -306,7 +306,7 @@ public final class bjvn {
                 if (list5 != null) {
                     blxa blxa9 = (blxa) blwr.f164949b;
                     if (!blxa9.f128032z.mo73666a()) {
-                        blxa9.f128032z = bxvk.m124021a(blxa9.f128032z);
+                        blxa9.f128032z = GeneratedMessageLite.m124021a(blxa9.f128032z);
                     }
                     bxsy.m123078a(list5, blxa9.f128032z);
                 }
@@ -1003,7 +1003,7 @@ public final class bjvn {
                         }
                         blwm blwm3 = (blwm) da5.f164949b;
                         if (!blwm3.f127961d.mo73666a()) {
-                            blwm3.f127961d = bxvk.m124021a(blwm3.f127961d);
+                            blwm3.f127961d = GeneratedMessageLite.m124021a(blwm3.f127961d);
                         }
                         bxsy.m123078a(list7, blwm3.f127961d);
                         bjvu.f123424s.add((blwm) da5.mo74062i());
@@ -1017,7 +1017,7 @@ public final class bjvn {
                     }
                     blxa blxa33 = (blxa) blwr.f164949b;
                     if (!blxa33.f128002M.mo73666a()) {
-                        blxa33.f128002M = bxvk.m124021a(blxa33.f128002M);
+                        blxa33.f128002M = GeneratedMessageLite.m124021a(blxa33.f128002M);
                     }
                     bxsy.m123078a(list8, blxa33.f128002M);
                     if (bjvu.f123423r == null) {
@@ -1144,7 +1144,7 @@ public final class bjvn {
                         bArr2 = bjvu.f123431b;
                         if (bArr2 != null) {
                             if (bArr2.length > 0) {
-                                bxtx a7 = bxtx.m123261a(bArr2);
+                                ByteString a7 = ByteString.m123261a(bArr2);
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;
@@ -1204,7 +1204,7 @@ public final class bjvn {
                                         bmaj bmaj10 = (bmaj) da.f164949b;
                                         str15.getClass();
                                         if (!bmaj10.f128464k.mo73666a()) {
-                                            bmaj10.f128464k = bxvk.m124021a(bmaj10.f128464k);
+                                            bmaj10.f128464k = GeneratedMessageLite.m124021a(bmaj10.f128464k);
                                         }
                                         bmaj10.f128464k.add(str15);
                                     }
@@ -1269,7 +1269,7 @@ public final class bjvn {
                                     }
                                     bwdj = (bwdj) da3.f164949b;
                                     if (bwdj.f158902a.mo73666a()) {
-                                        bwdj.f158902a = bxvk.m124019a(bwdj.f158902a);
+                                        bwdj.f158902a = GeneratedMessageLite.m124019a(bwdj.f158902a);
                                     }
                                     bxsy.m123078a(arrayList, bwdj.f158902a);
                                     if (!da.f164950c) {
@@ -1304,7 +1304,7 @@ public final class bjvn {
                                 }
                                 blxa = (blxa) blwr.f164949b;
                                 if (!blxa.f128001K.mo73666a()) {
-                                    blxa.f128001K = bxvk.m124019a(blxa.f128001K);
+                                    blxa.f128001K = GeneratedMessageLite.m124019a(blxa.f128001K);
                                 }
                                 size = a6222.size();
                                 for (i5 = 0; i5 < size; i5++) {
@@ -1331,7 +1331,7 @@ public final class bjvn {
                                     }
                                     bmah bmah3 = (bmah) da2.f164949b;
                                     if (!bmah3.f128449b.mo73666a()) {
-                                        bmah3.f128449b = bxvk.m124021a(bmah3.f128449b);
+                                        bmah3.f128449b = GeneratedMessageLite.m124021a(bmah3.f128449b);
                                     }
                                     bxsy.m123078a(list3, bmah3.f128449b);
                                 }

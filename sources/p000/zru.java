@@ -5,7 +5,7 @@ package p000;
 final class zru implements zrv {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo31415a(byte[] bArr, long j, boolean z, int i, long j2) {
-        caae caae = (caae) bxvk.m124016a(caae.f172323i, bArr, bxus.m123744c());
+        caae caae = (caae) GeneratedMessageLite.m124016a(caae.f172323i, bArr, bxus.m123744c());
         bxvd da = cabo.f172459e.mo74144da();
         if (z) {
             String str = caae.f172326b;

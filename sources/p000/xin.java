@@ -11,7 +11,7 @@ import com.google.android.gms.fido.communication.ble.BlePairer$1;
 public final class xin {
 
     /* renamed from: c */
-    public static final sek f52362c = new sek(new String[]{"BlePairer"}, (short[]) null);
+    public static final Logger f52362c = new Logger(new String[]{"BlePairer"}, (short[]) null);
 
     /* renamed from: a */
     public final xil f52363a = new xil();

@@ -14,7 +14,7 @@ import com.felicanetworks.sdu.ErrorInfo;
 public final class qvu extends smx {
 
     /* renamed from: a */
-    private static final sek f42271a = qqu.m32672c("SyncAdapter");
+    private static final Logger f42271a = qqu.m32672c("SyncAdapter");
 
     /* renamed from: b */
     private static final bnhe f42272b;
@@ -79,7 +79,7 @@ public final class qvu extends smx {
                 String string2 = bundle.getString("hint");
                 if (string2 != null) {
                     try {
-                        byud = (byud) bxvk.m124014a(byud.f167762b, sqd.m35971c(string2));
+                        byud = (byud) GeneratedMessageLite.m124014a(byud.f167762b, sqd.m35971c(string2));
                     } catch (bxwf e) {
                         f42271a.mo25417e("Unable to parse sync hint.", e, new Object[0]);
                         byud = null;

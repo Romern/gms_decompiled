@@ -76,10 +76,10 @@ final class znc implements Runnable {
                         }
                         caea caea2 = (caea) da.f164949b;
                         if (!caea2.f172790e.mo73666a()) {
-                            caea2.f172790e = bxvk.m124021a(caea2.f172790e);
+                            caea2.f172790e = GeneratedMessageLite.m124021a(caea2.f172790e);
                         }
                         bxsy.m123078a(subList, caea2.f172790e);
-                        byte[] k = ((caea) da.mo74062i()).mo73642k();
+                        byte[] k = ((caea) da.mo74062i()).serializeToBytes();
                         if (!yvw.m44923a((CursorWindow) bnjd.m109595d(arrayList), i, k)) {
                             if (!yvw.m44923a(yvw.m44922a(arrayList, i), i, k)) {
                                 for (CursorWindow cursorWindow : arrayList) {

@@ -72,7 +72,7 @@ final class beos implements qwq {
                     }
                     brzn brzn3 = (brzn) da2.f164949b;
                     if (!brzn3.f143765c.mo73666a()) {
-                        brzn3.f143765c = bxvk.m124020a(brzn3.f143765c);
+                        brzn3.f143765c = GeneratedMessageLite.m124020a(brzn3.f143765c);
                     }
                     brzn3.f143765c.mo74161a(b2);
                 }
@@ -141,7 +141,7 @@ final class beos implements qwq {
                         }
                         brzm brzm = (brzm) da3.f164949b;
                         if (!brzm.f143759b.mo73666a()) {
-                            brzm.f143759b = bxvk.m124021a(brzm.f143759b);
+                            brzm.f143759b = GeneratedMessageLite.m124021a(brzm.f143759b);
                         }
                         bxsy.m123078a(arrayList5, brzm.f143759b);
                     } else {
@@ -164,7 +164,7 @@ final class beos implements qwq {
                     brzm brzm3 = (brzm) da3.mo74062i();
                     brzm3.getClass();
                     if (!brzn4.f143766d.mo73666a()) {
-                        brzn4.f143766d = bxvk.m124021a(brzn4.f143766d);
+                        brzn4.f143766d = GeneratedMessageLite.m124021a(brzn4.f143766d);
                     }
                     brzn4.f143766d.add(brzm3);
                     arrayList4 = arrayList2;
@@ -183,7 +183,7 @@ final class beos implements qwq {
                 blui blui = (blui) da.f164949b;
                 brzn.getClass();
                 if (!blui.f127812a.mo73666a()) {
-                    blui.f127812a = bxvk.m124021a(blui.f127812a);
+                    blui.f127812a = GeneratedMessageLite.m124021a(blui.f127812a);
                 }
                 blui.f127812a.add(brzn);
             }
@@ -199,6 +199,6 @@ final class beos implements qwq {
 
     /* renamed from: a */
     public final byte[] mo14930a() {
-        return this.f111955a.mo73642k();
+        return this.f111955a.serializeToBytes();
     }
 }

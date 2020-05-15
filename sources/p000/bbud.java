@@ -32,7 +32,7 @@ final /* synthetic */ class bbud implements Runnable {
             while (i.hasNext()) {
                 bctr bctr2 = (bctr) i.next();
                 if (bctr2.mo57370j() != -1 && arrayList.contains(Integer.valueOf(bctr2.mo57370j())) && bctr2.mo57365f().mo57180a() == 1) {
-                    bmxv a = bbue.f103411b.mo56501a(bcoh, bctr2.mo57365f().mo57196e().mo73780k());
+                    bmxv a = bbue.f103411b.mo56501a(bcoh, bctr2.mo57365f().mo57196e().getKey());
                     if (!a.mo66813a() || ((bcia) a.mo66814b()).mo56912e().mo57371k().mo57200a() == bctq.f104882c) {
                         bcte n = bctr2.mo57374n();
                         n.mo57503a(-1);

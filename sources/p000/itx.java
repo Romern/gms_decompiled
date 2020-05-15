@@ -14,7 +14,7 @@ import java.util.List;
 public final class itx extends aaab {
 
     /* renamed from: i */
-    private static final sek f21735i = new sek(new String[]{"RegisterForCustomKeyOperation"}, (byte[]) null);
+    private static final Logger f21735i = new Logger(new String[]{"RegisterForCustomKeyOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final irw f21736a;
@@ -78,9 +78,9 @@ public final class itx extends aaab {
             }
             this.f21736a.mo13305a(new KeyRegistrationResult(a3, bArr, arrayList2));
         } catch (ehf e) {
-            sek sek = f21735i;
+            Logger Logger = f21735i;
             String valueOf = String.valueOf(e.f14947a.toString());
-            sek.mo25415d(valueOf.length() == 0 ? new String("Failed to perform enrollment. StatusCode=") : "Failed to perform enrollment. StatusCode=".concat(valueOf), e, new Object[0]);
+            Logger.mo25415d(valueOf.length() == 0 ? new String("Failed to perform enrollment. StatusCode=") : "Failed to perform enrollment. StatusCode=".concat(valueOf), e, new Object[0]);
             this.f21736a.mo13306a(ito.m16125a(e.f14947a));
         }
     }

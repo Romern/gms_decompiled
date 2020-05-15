@@ -79,7 +79,7 @@ public final class ahym extends ahyn {
         ImageView imageView = (ImageView) this.f68358e.findViewById(C0126R.C0129id.pairing_pic);
         if (byteArray != null) {
             try {
-                this.f68357d = (ahyw) bxvk.m124016a(ahyw.f68389A, byteArray, bxus.m123744c());
+                this.f68357d = (ahyw) GeneratedMessageLite.m124016a(ahyw.f68389A, byteArray, bxus.m123744c());
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) ahsd.f67925a.mo68388c();
                 bnsl.mo68437a(e);

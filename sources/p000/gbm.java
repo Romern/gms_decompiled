@@ -14,7 +14,7 @@ import java.util.UUID;
 public final class gbm extends aaab {
 
     /* renamed from: a */
-    public static final sek f17836a = tea.m36798a("api_get_asterism_consent");
+    public static final Logger f17836a = tea.m36798a("api_get_asterism_consent");
 
     /* renamed from: b */
     public final gbx f17837b;

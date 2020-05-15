@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public abstract class ffm extends deu implements fhj {
 
     /* renamed from: h */
-    private static final sek f16464h = ffw.m11631a("BaseEntryPointChimeraActivity");
+    private static final Logger f16464h = ffw.m11631a("BaseEntryPointChimeraActivity");
 
     /* renamed from: b */
     public ffv f16465b;
@@ -262,7 +262,7 @@ public abstract class ffm extends deu implements fhj {
                     bsxn j = mo6348j();
                     if ((j.f147588a & 1) == 0) {
                         bxvd bxvd = (bxvd) j.mo74142c(5);
-                        bxvd.mo73625a((bxvk) j);
+                        bxvd.mo73625a((GeneratedMessageLite) j);
                         bsxl bsxl = (bsxl) bxvd;
                         if (bsxl.f164950c) {
                             bsxl.mo74035c();
@@ -368,7 +368,7 @@ public abstract class ffm extends deu implements fhj {
             buttonConfig = fhk.m11700a(fhk.getArguments(), "negativeBtn");
         }
         if (buttonConfig == null) {
-            f16464h.mo25409a("Can't handle the click, no button config", new Object[0]);
+            f16464h.logVerbose("Can't handle the click, no button config", new Object[0]);
             return;
         }
         int i2 = buttonConfig.f7811b;

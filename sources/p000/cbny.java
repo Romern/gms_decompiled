@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbny */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbny extends bxvk implements bxxd {
+public final class cbny extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbny f177777c;
@@ -19,7 +19,7 @@ public final class cbny extends bxvk implements bxxd {
     static {
         cbny cbny = new cbny();
         f177777c = cbny;
-        bxvk.m124024a(cbny.class, cbny);
+        GeneratedMessageLite.m124024a(cbny.class, cbny);
     }
 
     private cbny() {
@@ -36,7 +36,7 @@ public final class cbny extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177777c, "\u0000\u0002\u0000\u0000\u0003\u0004\u0002\u0000\u0000\u0000\u0003Ȉ\u0004\f", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f177777c, "\u0000\u0002\u0000\u0000\u0003\u0004\u0002\u0000\u0000\u0000\u0003Ȉ\u0004\f", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cbny();
         } else {

@@ -38,7 +38,7 @@ public final class biau implements Callable {
         }
         bvox bvox = (bvox) da.f164949b;
         if (!bvox.f157237b.mo73666a()) {
-            bvox.f157237b = bxvk.m124020a(bvox.f157237b);
+            bvox.f157237b = GeneratedMessageLite.m124020a(bvox.f157237b);
         }
         bxsy.m123078a(arrayList, bvox.f157237b);
         bxvd da2 = bvny.f156984c.mo74144da();
@@ -74,7 +74,7 @@ public final class biau implements Callable {
         bvox3.getClass();
         bvna.f156840c = bvox3;
         bvna.f156838a = i | 32;
-        bvnb bvnb = (bvnb) sgv.mo25517a("getPlaceInferenceModels", ((bvna) da3.mo74062i()).mo73642k(), bvnb.f156841d, biam.f120055c, biam.f120056d, cggs.m145360c(), 10248);
+        bvnb bvnb = (bvnb) sgv.mo25517a("getPlaceInferenceModels", ((bvna) da3.mo74062i()).serializeToBytes(), bvnb.f156841d, biam.f120055c, biam.f120056d, cggs.m145360c(), 10248);
         Context context2 = biam.f120053a;
         bvoy bvoy = null;
         if (!(bvnb == null || (bvnb.f156843a & 32) == 0)) {

@@ -79,12 +79,12 @@ final /* synthetic */ class esk implements Callable {
                     bswb.f147372b = bsxk2;
                     bswb.f147371a |= 1;
                     bswb bswb2 = (bswb) da2.mo74062i();
-                    eqx2.f15540a.mo25409a("requestResource(%s): serving early from DB", Integer.valueOf(bsxn.f147589b));
+                    eqx2.f15540a.logVerbose("requestResource(%s): serving early from DB", Integer.valueOf(bsxn.f147589b));
                     return bswb2;
                 }
-                eqx2.f15540a.mo25409a("requestResource(%s): serving early from DB is in DB but stale", Integer.valueOf(bsxn.f147589b));
+                eqx2.f15540a.logVerbose("requestResource(%s): serving early from DB is in DB but stale", Integer.valueOf(bsxn.f147589b));
             }
-            eqx2.f15540a.mo25409a("requestResource(%s): requesting via gRPC", Integer.valueOf(bsxn.f147589b));
+            eqx2.f15540a.logVerbose("requestResource(%s): requesting via gRPC", Integer.valueOf(bsxn.f147589b));
             bxvd da3 = bswa.f147363e.mo74144da();
             if (da3.f164950c) {
                 da3.mo74035c();
@@ -185,7 +185,7 @@ final /* synthetic */ class esk implements Callable {
             bswa2.f147366b = bsxj10;
             bswa2.f147365a |= 1;
             if (!bswa2.f147368d.mo73666a()) {
-                bswa2.f147368d = bxvk.m124021a(bswa2.f147368d);
+                bswa2.f147368d = GeneratedMessageLite.m124021a(bswa2.f147368d);
             }
             bxsy.m123078a(set, bswa2.f147368d);
             bswa bswa3 = (bswa) da3.mo74062i();
@@ -256,7 +256,7 @@ final /* synthetic */ class esk implements Callable {
                     bspq.f146570b = bspp4;
                     bspq.f146569a |= 1;
                     ffv.mo10788a((bspq) da5.mo74062i());
-                    eqx2.f15540a.mo25409a("GetResource(%s) RPC succeeded", Integer.valueOf(bsxn.f147589b));
+                    eqx2.f15540a.logVerbose("GetResource(%s) RPC succeeded", Integer.valueOf(bsxn.f147589b));
                     bsxk bsxk3 = bswb3.f147372b;
                     if (bsxk3 == null) {
                         bsxk3 = bsxk.f147578f;

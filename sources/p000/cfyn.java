@@ -183,7 +183,7 @@ public final class cfyn implements cfyl {
     static {
         bdyw bdyw = new bdyw(bdyj.m91581a("com.google.android.gms.people"));
         try {
-            f186130a = bdyx.m91608a(bdyw, "FsaSyncProgressNotificationFeature__attempt_list_to_show_failure_for_first_full_syncs", (bydh) bxvk.m124014a(bydh.f165789b, new byte[]{10, 3, 3, 10, 13}), cfym.f186103a);
+            f186130a = bdyx.m91608a(bdyw, "FsaSyncProgressNotificationFeature__attempt_list_to_show_failure_for_first_full_syncs", (bydh) GeneratedMessageLite.m124014a(bydh.f165789b, new byte[]{10, 3, 3, 10, 13}), cfym.f186103a);
             f186131b = bdyx.m91610a(bdyw, "FsaSyncProgressNotificationFeature__check_first_full_syncs_enabled", false);
             f186132c = bdyx.m91610a(bdyw, "FsaSyncProgressNotificationFeature__clear_notification_on_account_removal_enabled", true);
             f186133d = bdyx.m91610a(bdyw, "FsaSyncProgressNotificationFeature__delay_notifications_showing_until_there_is_progress", false);

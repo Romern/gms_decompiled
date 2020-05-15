@@ -399,7 +399,7 @@ public final class auey {
             }
             bqhz bqhz2 = (bqhz) da.f164949b;
             if (!bqhz2.f140758f.mo73666a()) {
-                bqhz2.f140758f = bxvk.m124021a(bqhz2.f140758f);
+                bqhz2.f140758f = GeneratedMessageLite.m124021a(bqhz2.f140758f);
             }
             bxsy.m123078a(set, bqhz2.f140758f);
         }

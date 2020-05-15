@@ -20,7 +20,7 @@ public final class gcs extends rjx {
     /* renamed from: a */
     public final aucb mo11650a(ger ger) {
         rob rob = mo24714a(ger, ger.class.getName()).f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         return mo24698a(rob);
     }
 

@@ -45,7 +45,7 @@ public final class atzr extends atfg implements atze {
         int i = this.f91292f;
         this.f91292f = i + 1;
         this.f91290d.put(Integer.valueOf(i), atzq);
-        this.f91293g.mo24694a(this.f91288b, "/tapandpay/proxy", auai.m76649a(auaa.m76626a(i, this.f91289c, str, bxxc.mo73642k()), this.f91291e));
+        this.f91293g.mo24694a(this.f91288b, "/tapandpay/proxy", auai.m76649a(auaa.m76626a(i, this.f91289c, str, bxxc.serializeToBytes()), this.f91291e));
     }
 
     /* renamed from: a */
@@ -59,7 +59,7 @@ public final class atzr extends atfg implements atze {
                 if (bundle.containsKey("message")) {
                     byte[] byteArray = bundle.getByteArray("message");
                     try {
-                        atzq.f91285a.onResponse((bxxc) ((bxxk) ((bxvk) atzq.f91286b).mo74142c(7)).mo73657a(byteArray));
+                        atzq.f91285a.onResponse((bxxc) ((bxxk) ((GeneratedMessageLite) atzq.f91286b).mo74142c(7)).mo73657a(byteArray));
                     } catch (bxwf e) {
                         ((bnsl) f91287a.mo68387b()).mo68405a("Error parsing response");
                     }

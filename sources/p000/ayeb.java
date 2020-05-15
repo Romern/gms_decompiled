@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayeb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayeb extends bxvk implements bxxd {
+public final class ayeb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final ayeb f97275b;
@@ -19,7 +19,7 @@ public final class ayeb extends bxvk implements bxxd {
     static {
         ayeb ayeb = new ayeb();
         f97275b = ayeb;
-        bxvk.m124024a(ayeb.class, ayeb);
+        GeneratedMessageLite.m124024a(ayeb.class, ayeb);
     }
 
     private ayeb() {
@@ -40,7 +40,7 @@ public final class ayeb extends bxvk implements bxxd {
             this.f97278c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f97275b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", ayec.class});
+            return GeneratedMessageLite.m124022a(f97275b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", ayec.class});
         } else if (i2 == 3) {
             return new ayeb();
         } else {

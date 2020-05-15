@@ -68,8 +68,8 @@ public final class bafq implements bafl {
 
     /* renamed from: a */
     private final badk m86768a(byte[] bArr, byte[] bArr2) {
-        byht byht = (byht) bxvk.m124014a(byht.f166507d, bArr2);
-        byte[] k = byht.f166511c.mo73780k();
+        byht byht = (byht) GeneratedMessageLite.m124014a(byht.f166507d, bArr2);
+        byte[] k = byht.f166511c.getKey();
         if (bArr.length == 0 && !this.f100731i.f166504a) {
             bArr = null;
         }
@@ -77,7 +77,7 @@ public final class bafq implements bafl {
     }
 
     /* renamed from: b */
-    private final byhr m86769b(bany bany, bxtx bxtx, bxtx bxtx2, long j) {
+    private final byhr m86769b(bany bany, ByteString bxtx, ByteString bxtx2, long j) {
         bxvd da = byhr.f166494g.mo74144da();
         byhq byhq = byhq.UPDATE;
         if (da.f164950c) {
@@ -186,7 +186,7 @@ public final class bafq implements bafl {
     }
 
     /* renamed from: a */
-    public final bxtx mo55665a(bxtx bxtx) {
+    public final ByteString mo55665a(ByteString bxtx) {
         if (!bxtx.mo73779j() || this.f100731i.f166504a) {
             return bxtx;
         }
@@ -262,7 +262,7 @@ public final class bafq implements bafl {
         byhr.f166497b = byhq.f166493d;
         byhr.f166496a |= 1;
         this.f100725c.mo55762a(bany, (byhr) da.mo74062i());
-        this.f100724b.mo55776b(bany, bxtx.f164797b, (bxtx) null);
+        this.f100724b.mo55776b(bany, ByteString.f164797b, (ByteString) null);
     }
 
     /* renamed from: a */
@@ -288,7 +288,7 @@ public final class bafq implements bafl {
 
     /* renamed from: b */
     public final void mo55675b(bany bany) {
-        this.f100724b.mo55776b(bany, bxtx.f164797b, (bxtx) null);
+        this.f100724b.mo55776b(bany, ByteString.f164797b, (ByteString) null);
         this.f100727e.mo55742a(bany);
         this.f100726d.mo55764b(bany).mo55760a(bany);
         this.f100725c.mo55764b(bany).mo55760a(bany);
@@ -306,7 +306,7 @@ public final class bafq implements bafl {
     }
 
     /* renamed from: a */
-    public final void mo55670a(bany bany, bxtx bxtx, bxtx bxtx2, long j) {
+    public final void mo55670a(bany bany, ByteString bxtx, ByteString bxtx2, long j) {
         m86769b(bany, bxtx, bxtx2, j);
     }
 
@@ -328,12 +328,12 @@ public final class bafq implements bafl {
             sb.append(a2);
             throw new IllegalArgumentException(sb.toString());
         } else {
-            ((achw) this.f100730h.mo16713a()).mo25409a("Sync token is not set and will be initialized", new Object[0]);
+            ((achw) this.f100730h.mo16713a()).logVerbose("Sync token is not set and will be initialized", new Object[0]);
         }
     }
 
     /* renamed from: a */
-    public final void mo55672a(bany bany, String str, bxtx bxtx, bxtx bxtx2) {
+    public final void mo55672a(bany bany, String str, ByteString bxtx, ByteString bxtx2) {
         boolean z;
         boolean z2 = this.f100731i.f166504a;
         if (bxtx != null) {
@@ -345,7 +345,7 @@ public final class bafq implements bafl {
             byhr b = m86769b(bany, bxtx, bxtx2, -1);
             banf banf = this.f100726d;
             bxvd bxvd = (bxvd) b.mo74142c(5);
-            bxvd.mo73625a((bxvk) b);
+            bxvd.mo73625a((GeneratedMessageLite) b);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;

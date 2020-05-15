@@ -11,7 +11,7 @@ import com.google.android.chimera.FragmentManager;
 public final class aroo extends arop {
 
     /* renamed from: b */
-    private static final sek f88016b = ascp.m73787a("Setup", "UI", "GoogleSettingsInstructionFlow");
+    private static final Logger f88016b = ascp.m73787a("Setup", "UI", "GoogleSettingsInstructionFlow");
 
     /* renamed from: c */
     private final arok f88017c;

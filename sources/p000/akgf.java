@@ -145,7 +145,7 @@ final class akgf extends akgx {
                     byte[] bArr2 = a3.f67253c;
                     if (!akid.m59787a(bArr2)) {
                         try {
-                            ajnx ajnx = (ajnx) bxvk.m124016a(ajnx.f71031d, bArr2, bxus.m123744c());
+                            ajnx ajnx = (ajnx) GeneratedMessageLite.m124016a(ajnx.f71031d, bArr2, bxus.m123744c());
                             akgk akgk3 = (akgk) akgy3.f71935b.get(wifiCredentialsAttachment);
                             if (akgk3 == null) {
                                 akgk3 = new akgk();

@@ -12,7 +12,7 @@ import com.google.android.gms.smartdevice.d2d.D2DDevice;
 public final class arbj implements arbb {
 
     /* renamed from: a */
-    public static final sek f87275a = ascp.m73787a("D2D", "SourceDeviceConnectorNearbyBootstrap");
+    public static final Logger f87275a = ascp.m73787a("D2D", "SourceDeviceConnectorNearbyBootstrap");
 
     /* renamed from: b */
     public final ahco f87276b;
@@ -53,7 +53,7 @@ public final class arbj implements arbb {
     public final aucb mo48353a() {
         Device device;
         if (this.f87279e == null || (device = this.f87280f) == null) {
-            sek sek = f87275a;
+            Logger Logger = f87275a;
             String valueOf = String.valueOf(this.f87279e);
             String valueOf2 = String.valueOf(this.f87280f);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 54 + String.valueOf(valueOf2).length());
@@ -61,7 +61,7 @@ public final class arbj implements arbb {
             sb.append(valueOf);
             sb.append(", NearbyDevice: ");
             sb.append(valueOf2);
-            sek.mo25412b(sb.toString(), new Object[0]);
+            Logger.mo25412b(sb.toString(), new Object[0]);
             return aucu.m76777a((Exception) new rjp(new Status(10567)));
         }
         aucb a = this.f87276b.mo36302a(device);

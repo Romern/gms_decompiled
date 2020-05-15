@@ -64,7 +64,7 @@ public final class grl implements Runnable {
                 httpEntity = a.getEntity();
                 if (httpEntity != null) {
                     try {
-                        bzzc bzzc = (bzzc) bxvk.m124016a(bzzc.f171952c, gmv.m13466a(a), bxus.m123744c());
+                        bzzc bzzc = (bzzc) GeneratedMessageLite.m124016a(bzzc.f171952c, gmv.m13466a(a), bxus.m123744c());
                         httpEntity.consumeContent();
                         int a2 = bzzb.m126341a(bzzc.f171954a);
                         if (a2 != 0 && a2 == 2) {
@@ -141,7 +141,7 @@ public final class grl implements Runnable {
                                 bzzd3.getClass();
                                 bzyz.f171950d = bzzd3;
                                 bzyz.f171947a = i3 | 4;
-                                gmv.m13465a(gnv.m13525aG(), new ByteArrayEntity(((bzyz) da4.mo74062i()).mo73642k()), GcmReceiverChimeraService.m6303a(this.f18887b));
+                                gmv.m13465a(gnv.m13525aG(), new ByteArrayEntity(((bzyz) da4.mo74062i()).serializeToBytes()), GcmReceiverChimeraService.m6303a(this.f18887b));
                             }
                         }
                     } catch (RuntimeException e) {

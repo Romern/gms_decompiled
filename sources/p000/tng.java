@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: tng */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class tng extends bxvk implements bxxd {
+public final class tng extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final tng f46282b;
@@ -16,7 +16,7 @@ public final class tng extends bxvk implements bxxd {
     static {
         tng tng = new tng();
         f46282b = tng;
-        bxvk.m124024a(tng.class, tng);
+        GeneratedMessageLite.m124024a(tng.class, tng);
     }
 
     private tng() {
@@ -33,7 +33,7 @@ public final class tng extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f46282b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", tnf.class});
+            return GeneratedMessageLite.m124022a(f46282b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", tnf.class});
         } else if (i2 == 3) {
             return new tng();
         } else {

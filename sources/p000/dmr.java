@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: dmr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class dmr extends bxvk implements bxxd {
+public final class dmr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final dmr f13592e;
@@ -25,7 +25,7 @@ public final class dmr extends bxvk implements bxxd {
     static {
         dmr dmr = new dmr();
         f13592e = dmr;
-        bxvk.m124024a(dmr.class, dmr);
+        GeneratedMessageLite.m124024a(dmr.class, dmr);
     }
 
     private dmr() {
@@ -42,7 +42,7 @@ public final class dmr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f13592e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002င\u0001\u0003င\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f13592e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002င\u0001\u0003င\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new dmr();
         } else {

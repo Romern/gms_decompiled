@@ -13,7 +13,7 @@ public class ParcelableBrokerResponse implements Parcelable {
     public ParcelableBrokerResponse(Parcel parcel) {
         mpy mpy;
         try {
-            mpy = (mpy) bxvk.m124016a(mpy.f34225c, parcel.createByteArray(), bxus.m123744c());
+            mpy = (mpy) GeneratedMessageLite.m124016a(mpy.f34225c, parcel.createByteArray(), bxus.m123744c());
         } catch (bxwf e) {
             mpy = null;
         }

@@ -17,7 +17,7 @@ public final class igg {
     public static final ikh f20915a = ikh.m15586a(rpr.m34216b());
 
     /* renamed from: e */
-    public static final sek f20916e = new sek("DroidGuardHelper");
+    public static final Logger f20916e = new Logger("DroidGuardHelper");
 
     /* renamed from: f */
     private static igg f20917f;
@@ -72,9 +72,9 @@ public final class igg {
                         } else {
                             ikg a5 = ikg.m15585a(a4);
                             if (a5 == null) {
-                                sek sek = ikh.f21195d;
+                                Logger Logger = ikh.f21195d;
                                 String valueOf = String.valueOf(a3);
-                                sek.mo25418e(valueOf.length() == 0 ? new String("Transaction entry was found to be corrupted during cache.updateTransactionState : ") : "Transaction entry was found to be corrupted during cache.updateTransactionState : ".concat(valueOf), new Object[0]);
+                                Logger.mo25418e(valueOf.length() == 0 ? new String("Transaction entry was found to be corrupted during cache.updateTransactionState : ") : "Transaction entry was found to be corrupted during cache.updateTransactionState : ".concat(valueOf), new Object[0]);
                                 ikh.f21194c.mo13140a();
                                 reentrantLock2 = ikh.f21193b;
                             } else {

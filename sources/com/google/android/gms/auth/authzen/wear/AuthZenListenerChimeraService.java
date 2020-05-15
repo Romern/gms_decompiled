@@ -19,8 +19,8 @@ public class AuthZenListenerChimeraService extends axpp {
         if ("/send-tx-response".equals(str)) {
             axos a = axos.m82822a(messageEventParcelable.f110948c);
             try {
-                bypc bypc = (bypc) bxvk.m124014a(bypc.f167305k, a.mo53343f("tx_request"));
-                bypd bypd = (bypd) bxvk.m124014a(bypd.f167317i, a.mo53343f("tx_response"));
+                bypc bypc = (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, a.mo53343f("tx_request"));
+                bypd bypd = (bypd) GeneratedMessageLite.m124014a(bypd.f167317i, a.mo53343f("tx_response"));
                 ikl.m15607a(this).mo13098a(ikl.m15608a(bypc));
                 String c = a.mo53337c("email");
                 byte[] f = a.mo53343f("key_handle");

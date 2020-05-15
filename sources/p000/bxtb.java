@@ -64,7 +64,7 @@ public abstract class bxtb implements bxxk {
     }
 
     /* renamed from: a */
-    public final bxxc mo73661b(bxtx bxtx, bxus bxus) {
+    public final bxxc mo73661b(ByteString bxtx, bxus bxus) {
         try {
             bxuc h = bxtx.mo73764h();
             bxxc bxxc = (bxxc) mo74124b(h, bxus);
@@ -96,7 +96,7 @@ public abstract class bxtb implements bxxk {
     }
 
     /* renamed from: a */
-    public final /* bridge */ /* synthetic */ Object mo73653a(bxtx bxtx) {
+    public final /* bridge */ /* synthetic */ Object mo73653a(ByteString bxtx) {
         return mo73661b(bxtx, f164759a);
     }
 

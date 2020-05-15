@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 public final class qeq {
 
     /* renamed from: a */
-    public static final sek f41085a = qgn.m32143a("EventLogAggregator");
+    public static final Logger f41085a = qgn.m32143a("EventLogAggregator");
 
     /* renamed from: b */
     private static final Pattern f41086b = Pattern.compile(",?([a-z_]+)(?:\\(([0-9]+)\\))?");
@@ -143,9 +143,9 @@ public final class qeq {
                 int tagCode = EventLog.getTagCode(substring);
                 if (tagCode < 0) {
                     if (!"checkin_event_log_entries".equals(substring)) {
-                        sek sek = f41085a;
+                        Logger Logger = f41085a;
                         String valueOf = String.valueOf(substring);
-                        sek.mo25416d(valueOf.length() == 0 ? new String("Unknown tag: ") : "Unknown tag: ".concat(valueOf), new Object[0]);
+                        Logger.mo25416d(valueOf.length() == 0 ? new String("Unknown tag: ") : "Unknown tag: ".concat(valueOf), new Object[0]);
                     } else {
                         tagCode = 70220;
                     }
@@ -191,13 +191,13 @@ public final class qeq {
                         qep.f41080a = substring;
                         this.f41091g.put(Integer.valueOf(tagCode), qep);
                     } catch (IllegalArgumentException e) {
-                        sek sek2 = f41085a;
+                        Logger logger2 = f41085a;
                         StringBuilder sb = new StringBuilder(String.valueOf(substring).length() + 13 + String.valueOf(str).length());
                         sb.append("Bad spec: ");
                         sb.append(substring);
                         sb.append(" = ");
                         sb.append(str);
-                        sek2.mo25415d(sb.toString(), e, new Object[0]);
+                        logger2.mo25415d(sb.toString(), e, new Object[0]);
                     }
                 } else {
                     continue;
@@ -245,7 +245,7 @@ public final class qeq {
             int size = arrayList3.size();
             int size2 = arrayList3.size();
             int size3 = arrayList3.size();
-            sek sek = f41085a;
+            Logger Logger = f41085a;
             String a2 = m32022a(j);
             String a3 = m32022a(j2);
             String a4 = m32022a(currentTimeMillis);
@@ -258,7 +258,7 @@ public final class qeq {
             sb.append(a3);
             sb.append("\nNew  : ");
             sb.append(a4);
-            sek.mo25409a(sb.toString(), new Object[0]);
+            Logger.logVerbose(sb.toString(), new Object[0]);
             long j8 = currentTimeMillis;
             int i4 = size;
             int i5 = size2;
@@ -277,7 +277,7 @@ public final class qeq {
                 EventLog.Event event = (EventLog.Event) arrayList3.get(i6);
                 int tag = event.getTag();
                 long a5 = m32019a(event);
-                sek sek2 = f41085a;
+                Logger logger2 = f41085a;
                 String a6 = m32022a(a5);
                 i = a;
                 String valueOf = String.valueOf(event.getData());
@@ -291,7 +291,7 @@ public final class qeq {
                 sb2.append(a6);
                 sb2.append(" Data: ");
                 sb2.append(valueOf);
-                sek2.mo25409a(sb2.toString(), new Object[0]);
+                logger2.logVerbose(sb2.toString(), new Object[0]);
                 if (i4 == size3) {
                     if (a5 >= j) {
                         if (a5 < j9) {
@@ -404,9 +404,9 @@ public final class qeq {
                                     ((qeo) it2.next()).mo23984a(data2);
                                 }
                             } catch (IllegalArgumentException e2) {
-                                sek sek3 = f41085a;
+                                Logger logger3 = f41085a;
                                 String valueOf2 = String.valueOf(qep.f41080a);
-                                sek3.mo25417e(valueOf2.length() == 0 ? new String("Can't accumulate event: ") : "Can't accumulate event: ".concat(valueOf2), e2, new Object[0]);
+                                logger3.mo25417e(valueOf2.length() == 0 ? new String("Can't accumulate event: ") : "Can't accumulate event: ".concat(valueOf2), e2, new Object[0]);
                                 this.f41091g.remove(Integer.valueOf(tag2));
                             }
                         }
@@ -426,13 +426,13 @@ public final class qeq {
                                     e = e3;
                                     f41085a.mo25419f("IOException writing StringBuilder", e, new Object[0]);
                                     dropBoxManager2.addText("event_data", sb3.toString());
-                                    sek sek4 = f41085a;
+                                    Logger logger4 = f41085a;
                                     long c = cdbz.m132513c();
                                     StringBuilder sb4 = new StringBuilder(79);
                                     sb4.append("Upload log to clearcut scheduled to run in: ");
                                     sb4.append(c);
                                     sb4.append(" millisecond(s)");
-                                    sek4.mo25412b(sb4.toString(), new Object[0]);
+                                    logger4.mo25412b(sb4.toString(), new Object[0]);
                                     snf.mo25814a(new qdw(context2, dropBoxManager2, qws, z), cdbz.m132513c(), TimeUnit.MILLISECONDS).mo741a(qdx.f41063a, snf);
                                     return j6;
                                 }
@@ -445,13 +445,13 @@ public final class qeq {
                         context2 = context;
                         f41085a.mo25419f("IOException writing StringBuilder", e, new Object[0]);
                         dropBoxManager2.addText("event_data", sb3.toString());
-                        sek sek42 = f41085a;
+                        Logger logger42 = f41085a;
                         long c2 = cdbz.m132513c();
                         StringBuilder sb42 = new StringBuilder(79);
                         sb42.append("Upload log to clearcut scheduled to run in: ");
                         sb42.append(c2);
                         sb42.append(" millisecond(s)");
-                        sek42.mo25412b(sb42.toString(), new Object[0]);
+                        logger42.mo25412b(sb42.toString(), new Object[0]);
                         snf.mo25814a(new qdw(context2, dropBoxManager2, qws, z), cdbz.m132513c(), TimeUnit.MILLISECONDS).mo741a(qdx.f41063a, snf);
                         return j6;
                     }
@@ -464,13 +464,13 @@ public final class qeq {
                 dropBoxManager2 = dropBoxManager;
             }
             if (dropBoxManager2 != null && cdbz.f180442a.mo6606a().mo77215b()) {
-                sek sek422 = f41085a;
+                Logger logger422 = f41085a;
                 long c22 = cdbz.m132513c();
                 StringBuilder sb422 = new StringBuilder(79);
                 sb422.append("Upload log to clearcut scheduled to run in: ");
                 sb422.append(c22);
                 sb422.append(" millisecond(s)");
-                sek422.mo25412b(sb422.toString(), new Object[0]);
+                logger422.mo25412b(sb422.toString(), new Object[0]);
                 snf.mo25814a(new qdw(context2, dropBoxManager2, qws, z), cdbz.m132513c(), TimeUnit.MILLISECONDS).mo741a(qdx.f41063a, snf);
             }
         }

@@ -128,7 +128,7 @@ final class bifh implements aubg {
                             bvor6.f157208h = i;
                         }
                         if (bArr2 != null) {
-                            bxtx a3 = bxtx.m123261a(bArr2);
+                            ByteString a3 = ByteString.m123261a(bArr2);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
@@ -140,7 +140,7 @@ final class bifh implements aubg {
                         }
                         if (bArr3 != null) {
                             for (byte[] bArr4 : bArr3) {
-                                bxtx a4 = bxtx.m123261a(bArr4);
+                                ByteString a4 = ByteString.m123261a(bArr4);
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;
@@ -148,12 +148,12 @@ final class bifh implements aubg {
                                 bvor bvor8 = (bvor) da.f164949b;
                                 a4.getClass();
                                 if (!bvor8.f157211k.mo73666a()) {
-                                    bvor8.f157211k = bxvk.m124021a(bvor8.f157211k);
+                                    bvor8.f157211k = GeneratedMessageLite.m124021a(bvor8.f157211k);
                                 }
                                 bvor8.f157211k.add(a4);
                             }
                         }
-                        bvos bvos = (bvos) sgv.mo25515a(clientContext, 1, "reportCheckIn", ((bvor) da.mo74062i()).mo73642k(), bvos.f157212c, cggs.m145360c(), 10269);
+                        bvos bvos = (bvos) sgv.mo25515a(clientContext, 1, "reportCheckIn", ((bvor) da.mo74062i()).serializeToBytes(), bvos.f157212c, cggs.m145360c(), 10269);
                         Context context3 = a.f120053a;
                         if (bvos != null) {
                             bvow bvow = bvos.f157214a;
@@ -164,7 +164,7 @@ final class bifh implements aubg {
                             int size = bvos.f157215b.size();
                             bArr = new byte[size][];
                             for (int i4 = 0; i4 < size; i4++) {
-                                bArr[i4] = ((bxtx) bvos.f157215b.get(i4)).mo73780k();
+                                bArr[i4] = ((ByteString) bvos.f157215b.get(i4)).getKey();
                             }
                         } else {
                             bArr = null;

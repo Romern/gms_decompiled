@@ -90,7 +90,7 @@ public final class pxf extends aaab {
                         blse = null;
                     } else {
                         try {
-                            pwn.f40492h = (blse) bxvk.m124016a(blse.f127570b, Base64.decode(string, 0), bxus.m123744c());
+                            pwn.f40492h = (blse) GeneratedMessageLite.m124016a(blse.f127570b, Base64.decode(string, 0), bxus.m123744c());
                             blse = pwn.f40492h;
                         } catch (bxwf e2) {
                             pwn.f40485a.mo23677d("Failed to decode WrappedSenderKey.", new Object[0]);

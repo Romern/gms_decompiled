@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxod */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxod extends bxvk implements bxxd {
+public final class bxod extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bxod f164136a;
@@ -13,7 +13,7 @@ public final class bxod extends bxvk implements bxxd {
     static {
         bxod bxod = new bxod();
         f164136a = bxod;
-        bxvk.m124024a(bxod.class, bxod);
+        GeneratedMessageLite.m124024a(bxod.class, bxod);
     }
 
     private bxod() {
@@ -30,7 +30,7 @@ public final class bxod extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f164136a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f164136a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bxod();

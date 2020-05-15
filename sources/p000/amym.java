@@ -35,7 +35,7 @@ public final class amym {
     /* renamed from: a */
     private final Map m63727a(Uri uri, long j, Set set) {
         String str;
-        HashMap a = bnmt.m109794a();
+        HashMap a = bnmt.getNewHashMap();
         if (set != null) {
             String join = TextUtils.join(",", set);
             StringBuilder sb = new StringBuilder(String.valueOf(join).length() + 88);

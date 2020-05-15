@@ -143,7 +143,7 @@ final /* synthetic */ class kxy implements bqeh {
                 lap lap2 = (lap) da.f164949b;
                 lao.getClass();
                 if (!lap2.f25595f.mo73666a()) {
-                    lap2.f25595f = bxvk.m124021a(lap2.f25595f);
+                    lap2.f25595f = GeneratedMessageLite.m124021a(lap2.f25595f);
                 }
                 lap2.f25595f.add(lao);
             }
@@ -158,7 +158,7 @@ final /* synthetic */ class kxy implements bqeh {
             lap lap3 = (lap) da.f164949b;
             a10.getClass();
             if (!lap3.f25591b.mo73666a()) {
-                lap3.f25591b = bxvk.m124021a(lap3.f25591b);
+                lap3.f25591b = GeneratedMessageLite.m124021a(lap3.f25591b);
             }
             lap3.f25591b.add(a10);
         }

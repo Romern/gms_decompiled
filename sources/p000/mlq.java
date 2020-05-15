@@ -83,7 +83,7 @@ public final class mlq {
         if (i != 3) {
             long j = payloadTransferUpdate.f80476a;
             if (i == 1) {
-                f33956a.mo25409a("Successfully send payload (id=%d).", Long.valueOf(j));
+                f33956a.logVerbose("Successfully send payload (id=%d).", Long.valueOf(j));
                 mjm mjm = (mjm) this.f33959d.get(j);
                 if (mjm != null) {
                     mjm.mo20024a(1);
@@ -122,7 +122,7 @@ public final class mlq {
                         long j2 = payloadTransferUpdate2.f80479d - mlg.f33939c;
                         lvn lvn = f33956a;
                         Long valueOf = Long.valueOf(j2);
-                        lvn.mo25409a("Received %d bytes from stream payload (id=%d)", valueOf, Long.valueOf(j));
+                        lvn.logVerbose("Received %d bytes from stream payload (id=%d)", valueOf, Long.valueOf(j));
                         byte[] bArr = new byte[((int) j2)];
                         int read = mlg.f33937a.read(bArr);
                         if (((long) read) != j2) {
@@ -175,7 +175,7 @@ public final class mlq {
         bqgy c = bqgy.m112818c();
         try {
             mle mle = this.f33962g;
-            mle.f33932a.mo25409a("getConnectionHint", new Object[0]);
+            mle.f33932a.logVerbose("getConnectionHint", new Object[0]);
             arsy arsy = mle.f33933b;
             arsy.getClass();
             String str = ((ConnectionHint) mle.mo20138a(new mkx(arsy))).f108098b;
@@ -238,7 +238,7 @@ public final class mlq {
                 byte[] bArr = ahiq.f67253c;
                 mlx.f33978d.mo25414c("onBytesReceived", new Object[0]);
                 try {
-                    mpm mpm = (mpm) bxvk.m124014a(mpm.f34178i, bArr);
+                    mpm mpm = (mpm) GeneratedMessageLite.m124014a(mpm.f34178i, bArr);
                     if ((mpm.f34180a & 1) != 0) {
                         mpl a = mpl.m25483a(mpm.f34181b);
                         if (a == null) {

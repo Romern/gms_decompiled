@@ -31,7 +31,7 @@ final class mhy extends mit {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ bxxc mo20039a(byte[] bArr) {
-        return (mpa) bxvk.m124016a(mpa.f34096b, bArr, bxus.m123744c());
+        return (mpa) GeneratedMessageLite.m124016a(mpa.f34096b, bArr, bxus.m123744c());
     }
 
     /* access modifiers changed from: protected */
@@ -40,7 +40,7 @@ final class mhy extends mit {
         mpa mpa = (mpa) bxxc;
         mib mib = this.f33752a;
         bxvd da = mpc.f34104e.mo74144da();
-        long a = spn.m35843a(mib.f33743b);
+        long a = spn.getAndroidId(mib.f33743b);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -72,7 +72,7 @@ final class mhy extends mit {
             }
             mpb mpb2 = (mpb) da2.f164949b;
             if (!mpb2.f34103c.mo73666a()) {
-                mpb2.f34103c = bxvk.m124021a(mpb2.f34103c);
+                mpb2.f34103c = GeneratedMessageLite.m124021a(mpb2.f34103c);
             }
             bxsy.m123078a(a3, mpb2.f34103c);
             if (da.f164950c) {
@@ -83,12 +83,12 @@ final class mhy extends mit {
             mpb mpb3 = (mpb) da2.mo74062i();
             mpb3.getClass();
             if (!mpc2.f34107b.mo73666a()) {
-                mpc2.f34107b = bxvk.m124021a(mpc2.f34107b);
+                mpc2.f34107b = GeneratedMessageLite.m124021a(mpc2.f34107b);
             }
             mpc2.f34107b.add(mpb3);
-            mib.f33754e.mo25409a("Adding flavor summary %s with %d items", moz.f34095b, Integer.valueOf(((mpb) da2.f164949b).f34103c.size()));
+            mib.f33754e.logVerbose("Adding flavor summary %s with %d items", moz.f34095b, Integer.valueOf(((mpb) da2.f164949b).f34103c.size()));
         }
-        mib.f33754e.mo25409a("Sending flavor summary list", new Object[0]);
+        mib.f33754e.logVerbose("Sending flavor summary list", new Object[0]);
         mib.mo20032a(da.mo74062i());
     }
 }

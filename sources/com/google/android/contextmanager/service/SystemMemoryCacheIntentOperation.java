@@ -68,7 +68,7 @@ public final class SystemMemoryCacheIntentOperation extends IntentOperation {
                                 dwq.m9667k().mo9433a(dtx.f14020g);
                             }
                         } else {
-                            tno tno = (tno) bxvk.m124016a(tno.f46307c, a.mo26593c(), bxus.m123744c());
+                            tno tno = (tno) GeneratedMessageLite.m124016a(tno.f46307c, a.mo26593c(), bxus.m123744c());
                             if (tno == null) {
                                 c = dtx.mo9602c();
                                 boolean B2 = cdgp.m133192B();

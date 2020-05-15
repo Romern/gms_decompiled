@@ -39,7 +39,7 @@ final class axzw implements axzu {
         this.f96870g = ByteBuffer.allocate(i2 - 73);
         if (this.f96866c != null) {
             bxvd bxvd = (bxvd) ayev.mo74142c(5);
-            bxvd.mo73625a((bxvk) ayev);
+            bxvd.mo73625a((GeneratedMessageLite) ayev);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -102,7 +102,7 @@ final class axzw implements axzu {
                 z = true;
             }
             this.f96869f.update(this.f96870g.array(), 0, this.f96870g.position());
-            bxtx a = bxtx.m123262a(this.f96870g.array(), 0, this.f96870g.position());
+            ByteString a = ByteString.m123262a(this.f96870g.array(), 0, this.f96870g.position());
             String str = this.f96867d;
             MessageDigest messageDigest = this.f96869f;
             bxvd da = ayev.f97376n.mo74144da();

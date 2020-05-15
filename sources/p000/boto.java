@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boto */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boto extends bxvk implements bxxd {
+public final class boto extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final boto f134851a;
@@ -13,7 +13,7 @@ public final class boto extends bxvk implements bxxd {
     static {
         boto boto = new boto();
         f134851a = boto;
-        bxvk.m124024a(boto.class, boto);
+        GeneratedMessageLite.m124024a(boto.class, boto);
     }
 
     private boto() {
@@ -30,7 +30,7 @@ public final class boto extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134851a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f134851a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new boto();

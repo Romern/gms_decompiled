@@ -55,7 +55,7 @@ public final class avbb extends avau {
                             bxry.mo74035c();
                             bxry.f164950c = false;
                         }
-                        ((bxrz) bxry.f164949b).f164647g = bxvk.m124030de();
+                        ((bxrz) bxry.f164949b).f164647g = GeneratedMessageLite.m124030de();
                         bxry.mo73616a(a5.f92943b);
                     }
                 }
@@ -95,7 +95,7 @@ public final class avbb extends avau {
             }
             aviz.m78599a(bxrf, this.f92882c, c);
             mo51131a(0);
-            this.f92883d.mo51161a(Status.f30107a, a6.mo73642k());
+            this.f92883d.mo51161a(Status.f30107a, a6.serializeToBytes());
         } catch (gid e) {
             throw new aaaj(4504, null);
         } catch (VolleyError e2) {

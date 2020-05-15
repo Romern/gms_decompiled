@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btqy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btqy extends bxvk implements bxxd {
+public final class btqy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btqy f150053b;
@@ -16,7 +16,7 @@ public final class btqy extends bxvk implements bxxd {
     static {
         btqy btqy = new btqy();
         f150053b = btqy;
-        bxvk.m124024a(btqy.class, btqy);
+        GeneratedMessageLite.m124024a(btqy.class, btqy);
     }
 
     private btqy() {
@@ -33,7 +33,7 @@ public final class btqy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150053b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", btqx.class});
+            return GeneratedMessageLite.m124022a(f150053b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", btqx.class});
         } else if (i2 == 3) {
             return new btqy();
         } else {

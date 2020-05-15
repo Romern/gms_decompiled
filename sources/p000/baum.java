@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: baum */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class baum extends bxvk implements bxxd {
+public final class baum extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final baum f101784b;
@@ -19,7 +19,7 @@ public final class baum extends bxvk implements bxxd {
     static {
         baum baum = new baum();
         f101784b = baum;
-        bxvk.m124024a(baum.class, baum);
+        GeneratedMessageLite.m124024a(baum.class, baum);
     }
 
     private baum() {
@@ -36,7 +36,7 @@ public final class baum extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f101784b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f101784b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new baum();
         } else {

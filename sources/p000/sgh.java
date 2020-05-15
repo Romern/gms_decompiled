@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: sgh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class sgh extends bxvk implements bxxd {
+public final class sgh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final sgh f44177b;
@@ -16,7 +16,7 @@ public final class sgh extends bxvk implements bxxd {
     static {
         sgh sgh = new sgh();
         f44177b = sgh;
-        bxvk.m124024a(sgh.class, sgh);
+        GeneratedMessageLite.m124024a(sgh.class, sgh);
     }
 
     private sgh() {
@@ -33,7 +33,7 @@ public final class sgh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f44177b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", sgl.class});
+            return GeneratedMessageLite.m124022a(f44177b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", sgl.class});
         } else if (i2 == 3) {
             return new sgh();
         } else {

@@ -53,7 +53,7 @@ public final class oki extends ojh {
     /* renamed from: a */
     public final void mo22085a(int i, ByteBuffer byteBuffer) {
         if (i == 32770) {
-            biwt biwt = (biwt) bxvk.m124013a(biwt.f122122e, byteBuffer, bxus.m123744c());
+            biwt biwt = (biwt) GeneratedMessageLite.m124013a(biwt.f122122e, byteBuffer, bxus.m123744c());
             if (biwt != null) {
                 String a = okb.m28991a(biwt.f122126c);
                 String a2 = okb.m28991a(biwt.f122124a);

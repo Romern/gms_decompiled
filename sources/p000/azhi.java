@@ -291,7 +291,7 @@ public final class azhi extends azhc {
         if (cbgn == null) {
             Object[] objArr = {this.f99371c, this.f99373e};
         } else {
-            contentValues.put("data", cbgn.mo73642k());
+            contentValues.put("data", cbgn.serializeToBytes());
             cbgn cbgn2 = cbgr.f177078a;
             if (cbgn2 == null) {
                 cbgn2 = cbgn.f177050e;

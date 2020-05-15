@@ -43,7 +43,7 @@ final class aqbf extends aqas {
         if (bArr != null) {
             byte[] bArr2 = this.f85547d.get(bArr);
             if (bArr2 != null) {
-                aqbd aqbd = (aqbd) bxvk.m124014a(aqbd.f85537e, bArr2);
+                aqbd aqbd = (aqbd) GeneratedMessageLite.m124014a(aqbd.f85537e, bArr2);
                 aqbe aqbe = new aqbe();
                 aqbe.f85543a = aqbd.f85540b;
                 aqbe.f85544b = aqbd.f85541c;
@@ -81,7 +81,7 @@ final class aqbf extends aqas {
             str3.getClass();
             aqbd.f85539a = i2 | 4;
             aqbd.f85542d = str3;
-            byte[] k = ((aqbd) da.mo74062i()).mo73642k();
+            byte[] k = ((aqbd) da.mo74062i()).serializeToBytes();
             writeBatch = WriteBatch.create();
             try {
                 writeBatch.put(bArr, k);

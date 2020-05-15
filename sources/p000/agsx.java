@@ -83,7 +83,7 @@ final class agsx implements Callable {
                 String str = "GTAF_Server";
                 boot a3 = a2.mo35978a(17, str, "MDP_BgTask");
                 bxvd bxvd = (bxvd) a3.mo74142c(5);
-                bxvd.mo73625a((bxvk) a3);
+                bxvd.mo73625a((GeneratedMessageLite) a3);
                 bxvd da = bopk.f134134f.mo74144da();
                 String b = agzc.mo36194b();
                 if (da.f164950c) {
@@ -193,7 +193,7 @@ final class agsx implements Callable {
                 }
                 boot a9 = a8.mo35978a(17, str, "MDP_BgTask");
                 bxvd bxvd2 = (bxvd) a9.mo74142c(5);
-                bxvd2.mo73625a((bxvk) a9);
+                bxvd2.mo73625a((GeneratedMessageLite) a9);
                 bxvd da3 = bopk.f134134f.mo74144da();
                 String b3 = agzc.mo36194b();
                 if (da3.f164950c) {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsak */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsak extends bxvk implements bxxd {
+public final class bsak extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bsak f143860d;
@@ -25,7 +25,7 @@ public final class bsak extends bxvk implements bxxd {
     static {
         bsak bsak = new bsak();
         f143860d = bsak;
-        bxvk.m124024a(bsak.class, bsak);
+        GeneratedMessageLite.m124024a(bsak.class, bsak);
     }
 
     private bsak() {
@@ -46,7 +46,7 @@ public final class bsak extends bxvk implements bxxd {
             this.f143865e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f143860d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔅ\u0000\u0002ᔅ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f143860d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔅ\u0000\u0002ᔅ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bsak();
         } else {

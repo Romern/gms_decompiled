@@ -230,7 +230,7 @@ public final class dyu extends dyg {
         bxkk.mo73583a(Arrays.asList(bxkjArr));
         bxkl bxkl = (bxkl) bxkk.mo74062i();
         bxvd bxvd = (bxvd) bxkl.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxkl);
+        bxvd.mo73625a((GeneratedMessageLite) bxkl);
         bxkk bxkk2 = (bxkk) bxvd;
         bxki a5 = bxki.m122801a(((bxkj) ((bxkl) bxkk2.mo74062i()).f163762a.get(0)).f163757b);
         if (a5 == null) {
@@ -266,7 +266,7 @@ public final class dyu extends dyg {
                             bxkk2.mo74035c();
                             bxkk2.f164950c = false;
                         }
-                        ((bxkl) bxkk2.f164949b).f163762a = bxvk.m124030de();
+                        ((bxkl) bxkk2.f164949b).f163762a = GeneratedMessageLite.m124030de();
                         for (int i13 = 0; i13 < this.f14443m.size(); i13++) {
                             bxvd da3 = bxkj.f163754d.mo74144da();
                             bxki a8 = bxki.m122801a(this.f14443m.keyAt(i13));
@@ -301,7 +301,7 @@ public final class dyu extends dyg {
                             bxkk2.mo74035c();
                             bxkk2.f164950c = false;
                         }
-                        ((bxkl) bxkk2.f164949b).f163762a = bxvk.m124030de();
+                        ((bxkl) bxkk2.f164949b).f163762a = GeneratedMessageLite.m124030de();
                         bxkk2.mo73583a(arrayList2);
                         if (dss.m9250a(2)) {
                             for (bxkj bxkj12 : Collections.unmodifiableList(((bxkl) bxkk2.f164949b).f163762a)) {

@@ -16,7 +16,7 @@ public final class bsac extends bxvd implements bxxd {
         bsad bsad = (bsad) this.f164949b;
         bsad bsad2 = bsad.f143828d;
         if (!bsad.f143831b.mo73666a()) {
-            bsad.f143831b = bxvk.m124021a(bsad.f143831b);
+            bsad.f143831b = GeneratedMessageLite.m124021a(bsad.f143831b);
         }
         bxsy.m123078a(iterable, bsad.f143831b);
     }

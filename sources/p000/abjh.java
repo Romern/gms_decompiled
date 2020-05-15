@@ -12,7 +12,7 @@ public final /* synthetic */ class abjh implements bmxj {
     public final Object apply(Object obj) {
         bsmi bsmi = (bsmi) obj;
         bxvd bxvd = (bxvd) bsmi.mo74142c(5);
-        bxvd.mo73625a((bxvk) bsmi);
+        bxvd.mo73625a((GeneratedMessageLite) bsmi);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

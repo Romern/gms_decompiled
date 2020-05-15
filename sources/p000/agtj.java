@@ -164,7 +164,7 @@ public final class agtj extends aaab {
             if (mdpDataPlanStatusRequest4 != null) {
                 boot a3 = a2.mo35978a(4, "GTAF_Server", str3);
                 bxvd bxvd = (bxvd) a3.mo74142c(5);
-                bxvd.mo73625a((bxvk) a3);
+                bxvd.mo73625a((GeneratedMessageLite) a3);
                 if (cfmq.m140238i()) {
                     agrl.m54945a(bxvd, mdpDataPlanStatusRequest4.f80183b);
                 }
@@ -347,7 +347,7 @@ public final class agtj extends aaab {
                             }
                             ((btaf) da.f164949b).f147957d = z3;
                         }
-                        String encodeToString = Base64.encodeToString(((bszw) bszu.mo74062i()).mo73642k(), 10);
+                        String encodeToString = Base64.encodeToString(((bszw) bszu.mo74062i()).serializeToBytes(), 10);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;

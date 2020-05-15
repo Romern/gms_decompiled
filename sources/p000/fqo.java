@@ -26,7 +26,7 @@ final class fqo extends acpn {
             synchronized (acrl.f60625g) {
                 abul d = acrl.mo33026d(str2);
                 bxvd bxvd = (bxvd) d.mo74142c(5);
-                bxvd.mo73625a((bxvk) d);
+                bxvd.mo73625a((GeneratedMessageLite) d);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

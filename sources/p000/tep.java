@@ -13,7 +13,7 @@ import java.util.List;
 public final class tep implements tes {
 
     /* renamed from: a */
-    public static final sek f45783a = tea.m36798a("noisy_sms_receiver");
+    public static final Logger f45783a = tea.m36798a("noisy_sms_receiver");
 
     /* renamed from: b */
     public final List f45784b = new ArrayList();
@@ -35,7 +35,7 @@ public final class tep implements tes {
         this.f45785c = -1;
         this.f45787e = context;
         this.f45788f = new NoisySmsReceiver$NoisyBroadcastReceiver(this);
-        f45783a.mo25409a("start", new Object[0]);
+        f45783a.logVerbose("start", new Object[0]);
         this.f45787e.registerReceiver(this.f45788f, new IntentFilter("android.provider.Telephony.SMS_RECEIVED"));
     }
 
@@ -46,7 +46,7 @@ public final class tep implements tes {
 
     /* renamed from: b */
     public final void mo26448b() {
-        f45783a.mo25409a("stop", new Object[0]);
+        f45783a.logVerbose("stop", new Object[0]);
         NoisySmsReceiver$NoisyBroadcastReceiver noisySmsReceiver$NoisyBroadcastReceiver = this.f45788f;
         if (noisySmsReceiver$NoisyBroadcastReceiver != null) {
             this.f45787e.unregisterReceiver(noisySmsReceiver$NoisyBroadcastReceiver);
@@ -79,7 +79,7 @@ public final class tep implements tes {
         this.f45785c = i;
         this.f45787e = context;
         this.f45788f = new NoisySmsReceiver$NoisyBroadcastReceiver(this);
-        f45783a.mo25409a("start", new Object[0]);
+        f45783a.logVerbose("start", new Object[0]);
         this.f45787e.registerReceiver(this.f45788f, new IntentFilter("android.provider.Telephony.SMS_RECEIVED"));
     }
 

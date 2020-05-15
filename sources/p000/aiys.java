@@ -55,10 +55,10 @@ final /* synthetic */ class aiys implements Runnable {
                     byun byun2 = (byun) da2.mo74062i();
                     byun2.getClass();
                     if (!byuo.f168320a.mo73666a()) {
-                        byuo.f168320a = bxvk.m124021a(byuo.f168320a);
+                        byuo.f168320a = GeneratedMessageLite.m124021a(byuo.f168320a);
                     }
                     byuo.f168320a.add(byun2);
-                    byte[] k = ((byuo) da.mo74062i()).mo73642k();
+                    byte[] k = ((byuo) da.mo74062i()).serializeToBytes();
                     Parcel bj = bvhf.mo8529bj();
                     bj.writeByteArray(k);
                     bvhf.mo8530c(3, bj);

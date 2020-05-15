@@ -286,7 +286,7 @@ public class GrowthNotificationsIntentOperation extends IntentOperation {
                     }
                     bspy bspy2 = (bspy) da.f164949b;
                     if (!bspy2.f146607e.mo73666a()) {
-                        bspy2.f146607e = bxvk.m124021a(bspy2.f146607e);
+                        bspy2.f146607e = GeneratedMessageLite.m124021a(bspy2.f146607e);
                     }
                     bxsy.m123078a(b, bspy2.f146607e);
                     bsqe bsqe = bsmg.f145019b;

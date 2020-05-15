@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public abstract class aqxz {
 
     /* renamed from: a */
-    public final sek f87060a;
+    public final Logger f87060a;
 
     /* renamed from: b */
     public final Handler f87061b;
@@ -30,8 +30,8 @@ public abstract class aqxz {
     /* renamed from: f */
     private arhh f87065f;
 
-    public aqxz(sek sek, Handler handler, aqxy aqxy) {
-        this.f87060a = sek;
+    public aqxz(Logger Logger, Handler handler, aqxy aqxy) {
+        this.f87060a = Logger;
         this.f87061b = handler;
         this.f87062c = aqxy;
     }
@@ -43,7 +43,7 @@ public abstract class aqxz {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final void mo48228a(int i) {
-        this.f87060a.mo25409a("Packet mode enabled", new Object[0]);
+        this.f87060a.logVerbose("Packet mode enabled", new Object[0]);
         this.f87064e = true;
         if (this.f87065f == null) {
             this.f87065f = new arhh(new aqxx(this), i);
@@ -74,7 +74,7 @@ public abstract class aqxz {
     public void mo48237d() {
         aqzo a = mo48227a();
         if (a != null) {
-            this.f87060a.mo25409a("Disconnecting DeviceMessageSender.", new Object[0]);
+            this.f87060a.logVerbose("Disconnecting DeviceMessageSender.", new Object[0]);
             a.mo48304a();
             return;
         }
@@ -107,7 +107,7 @@ public abstract class aqxz {
                 return;
             }
             List<byte[]> a2 = arhh.mo48538a(g);
-            this.f87060a.mo25409a("Encoded message of %d bytes", Integer.valueOf(g.length));
+            this.f87060a.logVerbose("Encoded message of %d bytes", Integer.valueOf(g.length));
             for (byte[] bArr : a2) {
                 a.mo48305a(bArr);
             }
@@ -129,19 +129,19 @@ public abstract class aqxz {
     /* renamed from: a */
     public final void mo48230a(byte[] bArr) {
         arhh arhh;
-        sek sek = this.f87060a;
+        Logger Logger = this.f87060a;
         int length = bArr.length;
         StringBuilder sb = new StringBuilder(35);
         sb.append("Received ");
         sb.append(length);
         sb.append(" bytes of data.");
-        sek.mo25409a(sb.toString(), new Object[0]);
+        Logger.logVerbose(sb.toString(), new Object[0]);
         if (!this.f87064e || (arhh = this.f87065f) == null) {
             mo48234b(bArr);
             return;
         }
         arhh.mo48539b(bArr);
-        this.f87060a.mo25409a("processed data as a packet", new Object[0]);
+        this.f87060a.logVerbose("processed data as a packet", new Object[0]);
     }
 
     /* access modifiers changed from: protected */

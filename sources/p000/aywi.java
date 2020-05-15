@@ -33,7 +33,7 @@ final /* synthetic */ class aywi implements bqeh {
         if (a == null) {
             return bqga.m112775a((Object) null);
         }
-        qwo a2 = a.mo24335a(bxxc.mo73642k());
+        qwo a2 = a.mo24335a(bxxc.serializeToBytes());
         bmxj.apply(a2);
         a2.f42320d = str;
         int i = ayvk.f98565b - 1;

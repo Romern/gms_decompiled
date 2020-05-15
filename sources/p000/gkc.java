@@ -29,7 +29,7 @@ final class gkc extends adzt {
             } else {
                 exchangeAssertionsForUserCredentialsRequest = null;
             }
-            sek sek = gkd.f18373a;
+            Logger Logger = gkd.f18373a;
             gkd.f18375b = exchangeAssertionsForUserCredentialsRequest;
         } else if (i == 1001 && (string = message.getData().getString("errorMsg")) != null) {
             gkd.f18373a.mo25418e("Error fetching assertion: %s", string);

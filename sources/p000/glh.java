@@ -27,7 +27,7 @@ import java.util.Random;
 public final class glh {
 
     /* renamed from: a */
-    public static final sek f18461a = ght.m13171a("FactoryResetProtectionManager");
+    public static final Logger f18461a = ght.m13171a("FactoryResetProtectionManager");
 
     /* renamed from: e */
     private static WeakReference f18462e = new WeakReference(null);
@@ -81,9 +81,9 @@ public final class glh {
         if (str.matches("[0-9]+")) {
             return true;
         }
-        sek sek = f18461a;
+        Logger Logger = f18461a;
         String valueOf = String.valueOf(str);
-        sek.mo25416d(valueOf.length() == 0 ? new String("factoryResetProtectionAdmin app restriction contains unsupported value: ") : "factoryResetProtectionAdmin app restriction contains unsupported value: ".concat(valueOf), new Object[0]);
+        Logger.mo25416d(valueOf.length() == 0 ? new String("factoryResetProtectionAdmin app restriction contains unsupported value: ") : "factoryResetProtectionAdmin app restriction contains unsupported value: ".concat(valueOf), new Object[0]);
         return false;
     }
 
@@ -253,11 +253,11 @@ public final class glh {
                 int size = ime.f21357e.size();
                 for (int i = 0; i < size; i++) {
                     instance.reset();
-                    byte[] k = ime.f21356d.mo73780k();
+                    byte[] k = ime.f21356d.getKey();
                     int i2 = ime.f21355c;
                     instance.update(k, i * i2, i2);
                     instance.update(a);
-                    if (Arrays.equals(((bxtx) ime.f21357e.get(i)).mo73780k(), instance.digest())) {
+                    if (Arrays.equals(((ByteString) ime.f21357e.get(i)).getKey(), instance.digest())) {
                         f18461a.mo25414c(String.format("Check successful for account: %s!", str), new Object[0]);
                         return true;
                     }
@@ -294,12 +294,12 @@ public final class glh {
     public final void mo12007a(imd imd) {
         imc imc;
         sdo.m34975b(imd == null || !TextUtils.isEmpty(imd.f21349b), "device owner's component name cannot be empty");
-        sek sek = f18461a;
+        Logger Logger = f18461a;
         String valueOf = String.valueOf(imd);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 55);
         sb.append("Updating data block with persistent device owner state ");
         sb.append(valueOf);
-        sek.mo25414c(sb.toString(), new Object[0]);
+        Logger.mo25414c(sb.toString(), new Object[0]);
         if (!mo12012c()) {
             f18461a.mo25414c("Update failed! Persistent device owner state not enabled.", new Object[0]);
             return;
@@ -318,7 +318,7 @@ public final class glh {
                 }
                 if (imd != null) {
                     bxvd bxvd = (bxvd) b.mo74142c(5);
-                    bxvd.mo73625a((bxvk) b);
+                    bxvd.mo73625a((GeneratedMessageLite) b);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -357,7 +357,7 @@ public final class glh {
         int i;
         boolean z2;
         boolean z3 = !gnv.m13508R() ? false : z;
-        sek sek = f18461a;
+        Logger Logger = f18461a;
         if (list != null) {
             i = list.size();
         } else {
@@ -368,7 +368,7 @@ public final class glh {
         sb.append(i);
         sb.append(" account ids. Lockscreen supported? ");
         sb.append(z3);
-        sek.mo25414c(sb.toString(), new Object[0]);
+        Logger.mo25414c(sb.toString(), new Object[0]);
         if (!mo12009a()) {
             f18461a.mo25414c("Update failed! FactoryResetProtection is unsupported.", new Object[0]);
             return;
@@ -398,7 +398,7 @@ public final class glh {
                     ime.f21354b = i2;
                     ime.f21353a = i3 | 2;
                     ime.f21355c = 32;
-                    bxtx a = bxtx.m123261a(bArr);
+                    ByteString a = ByteString.m123261a(bArr);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -409,9 +409,9 @@ public final class glh {
                     ime2.f21356d = a;
                     for (int i4 = 0; i4 < size; i4++) {
                         instance.reset();
-                        instance.update(((C1082ime) da.f164949b).f21356d.mo73780k(), i4 * 32, 32);
+                        instance.update(((C1082ime) da.f164949b).f21356d.getKey(), i4 * 32, 32);
                         instance.update(m13371a((String) arrayList.get(i4)));
-                        bxtx a2 = bxtx.m123261a(instance.digest());
+                        ByteString a2 = ByteString.m123261a(instance.digest());
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -419,13 +419,13 @@ public final class glh {
                         C1082ime ime3 = (C1082ime) da.f164949b;
                         a2.getClass();
                         if (!ime3.f21357e.mo73666a()) {
-                            ime3.f21357e = bxvk.m124021a(ime3.f21357e);
+                            ime3.f21357e = GeneratedMessageLite.m124021a(ime3.f21357e);
                         }
                         ime3.f21357e.add(a2);
                     }
                     C1082ime ime4 = (C1082ime) da.mo74062i();
                     bxvd bxvd = (bxvd) ime4.mo74142c(5);
-                    bxvd.mo73625a((bxvk) ime4);
+                    bxvd.mo73625a((GeneratedMessageLite) ime4);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -436,7 +436,7 @@ public final class glh {
                     C1082ime ime6 = (C1082ime) bxvd.mo74062i();
                     if (b.f21344b.size() == 0) {
                         bxvd bxvd2 = (bxvd) b.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) b);
+                        bxvd2.mo73625a((GeneratedMessageLite) b);
                         bxvd2.mo74002a(ime6);
                         imc = (imc) bxvd2.mo74062i();
                     } else {
@@ -448,7 +448,7 @@ public final class glh {
                                 break;
                             } else if (((C1082ime) b.f21344b.get(i5)).f21354b == this.f18466f) {
                                 bxvd bxvd3 = (bxvd) b.mo74142c(5);
-                                bxvd3.mo73625a((bxvk) b);
+                                bxvd3.mo73625a((GeneratedMessageLite) b);
                                 if (bxvd3.f164950c) {
                                     bxvd3.mo74035c();
                                     bxvd3.f164950c = false;
@@ -465,19 +465,19 @@ public final class glh {
                         }
                         if (!z2) {
                             bxvd bxvd4 = (bxvd) imc.mo74142c(5);
-                            bxvd4.mo73625a((bxvk) imc);
+                            bxvd4.mo73625a((GeneratedMessageLite) imc);
                             bxvd4.mo74002a(ime6);
                             imc = (imc) bxvd4.mo74062i();
                         }
                     }
                 } else if (!(b == null || (b.f21343a & 1) == 0)) {
                     bxvd bxvd5 = (bxvd) b.mo74142c(5);
-                    bxvd5.mo73625a((bxvk) b);
+                    bxvd5.mo73625a((GeneratedMessageLite) b);
                     if (bxvd5.f164950c) {
                         bxvd5.mo74035c();
                         bxvd5.f164950c = false;
                     }
-                    ((imc) bxvd5.f164949b).f21344b = bxvk.m124030de();
+                    ((imc) bxvd5.f164949b).f21344b = GeneratedMessageLite.m124030de();
                     imc = (imc) bxvd5.mo74062i();
                 }
                 f18461a.mo25414c(String.format("Write complete, result: %d.", Long.valueOf(this.f18464c.mo12016a(imc))), new Object[0]);

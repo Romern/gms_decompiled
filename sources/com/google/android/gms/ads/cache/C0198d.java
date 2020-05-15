@@ -62,7 +62,7 @@ public final class C0198d {
             bxvd.f164950c = false;
         }
         C0215n nVar = C0215n.f7897h;
-        ((C0215n) bxvd.f164949b).f7900b = bxvk.m124030de();
+        ((C0215n) bxvd.f164949b).f7900b = GeneratedMessageLite.m124030de();
         for (String str : cacheOffering.f8086f.keySet()) {
             String string = cacheOffering.f8086f.getString(str);
             if (!TextUtils.isEmpty(string)) {
@@ -127,7 +127,7 @@ public final class C0198d {
         try {
             byte[] bArr2 = this.f7849d.get(bArr);
             if (bArr2 != null) {
-                return (C0217p) bxvk.m124014a(C0217p.f7911g, bArr2);
+                return (C0217p) GeneratedMessageLite.m124014a(C0217p.f7911g, bArr2);
             }
             return null;
         } catch (bxwf | LevelDbException e) {
@@ -145,7 +145,7 @@ public final class C0198d {
             try {
                 it.seekToFirst();
                 while (it.isValid()) {
-                    C0217p pVar = (C0217p) bxvk.m124014a(C0217p.f7911g, it.value());
+                    C0217p pVar = (C0217p) GeneratedMessageLite.m124014a(C0217p.f7911g, it.value());
                     C0208e c = mo6391c(pVar);
                     bxvd a = C0217p.f7911g.mo74141a(pVar);
                     C0215n nVar = pVar.f7917e;

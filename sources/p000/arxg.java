@@ -19,7 +19,7 @@ final /* synthetic */ class arxg implements Runnable {
     public final void run() {
         arxy arxy = this.f88405a;
         ConnectionRequest connectionRequest = this.f88406b;
-        arxy.f88430a.mo25409a("Finished waiting, connecting", new Object[0]);
+        arxy.f88430a.logVerbose("Finished waiting, connecting", new Object[0]);
         arxy.f88432c.mo48360a(connectionRequest, arxy.f88437h).mo50372a(new arxj(arxy));
     }
 }

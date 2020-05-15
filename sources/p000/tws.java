@@ -50,7 +50,7 @@ public final class tws {
         tws tws;
         synchronized (tws.class) {
             tws = f46768f;
-            sdo.m34966a(tws, "Must call init(Context) before calling get() for the first time");
+            sdo.checkIfNull(tws, "Must call init(Context) before calling get() for the first time");
         }
         return tws;
     }

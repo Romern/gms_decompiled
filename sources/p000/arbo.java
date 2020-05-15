@@ -29,24 +29,24 @@ final class arbo extends ahin {
         arnt a = arns.m73193a(ahij.f67242b);
         arnq b = a.mo48699b();
         byte[] c = b.mo48694c();
-        arbr.f87299b.mo25409a("Device name: %s", a.mo48698a());
+        arbr.f87299b.logVerbose("Device name: %s", a.mo48698a());
         if (!Arrays.equals(this.f87292b, c)) {
             arbr.f87299b.mo25412b("Ignoring device with fast pair code %s.", Arrays.toString(c));
             return;
         }
         this.f87291a.mo48373b();
-        arbr.f87299b.mo25409a("Requesting connection to device: %s (%s)", ahij.f67242b, str);
+        arbr.f87299b.logVerbose("Requesting connection to device: %s (%s)", ahij.f67242b, str);
         arbr arbr = this.f87291a;
         arbr.f87304g = str;
         arbr.f87306i = b.mo48692a();
         Status a2 = ascs.m73792a(this.f87291a.mo48370a(str, cgql.m146578c(), this.f87291a.f87310m));
         if (!a2.equals(Status.f30107a)) {
-            sek sek = arbr.f87299b;
+            Logger Logger = arbr.f87299b;
             String valueOf = String.valueOf(a2);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 27);
             sb.append("Request Connection failed: ");
             sb.append(valueOf);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
             arbr arbr2 = this.f87291a;
             arbr2.f87304g = null;
             armu armu = arbr2.f87302e;

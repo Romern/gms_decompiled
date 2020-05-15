@@ -10,6 +10,6 @@ final /* synthetic */ class auag implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        return bxtx.m123261a((byte[]) obj);
+        return ByteString.m123261a((byte[]) obj);
     }
 }

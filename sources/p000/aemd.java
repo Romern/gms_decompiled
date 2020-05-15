@@ -23,7 +23,7 @@ public final class aemd extends aemc {
         aeoa aeoa = (aeoa) rjd;
         aemf aemf = new aemf(this);
         PlaceFilter placeFilter = this.f63509a;
-        sdo.m34966a(aemf, "callback == null");
+        sdo.checkIfNull(aemf, "callback == null");
         ((aeni) aeoa.mo25289B()).mo34350a(placeFilter, aeoa.f63545a, aemf);
     }
 

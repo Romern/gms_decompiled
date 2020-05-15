@@ -46,7 +46,7 @@ public final class bpby extends bxvg implements bxvh {
     static {
         bpby bpby = new bpby();
         f135681j = bpby;
-        bxvk.m124024a(bpby.class, bpby);
+        GeneratedMessageLite.m124024a(bpby.class, bpby);
     }
 
     private bpby() {
@@ -67,7 +67,7 @@ public final class bpby extends bxvg implements bxvh {
             this.f135693l = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f135681j, "\u0001\t\u0000\u0001\u0001\u0010\t\u0000\u0001\u0003\u0001င\u0002\u0002င\u0003\u0003င\u0004\u0004င\u0005\u0005င\u0006\u0006င\u0007\u000eЛ\u000fᐉ\u000e\u0010ᐉ\u0000", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", bpcb.class, "i", "k"});
+            return GeneratedMessageLite.m124022a(f135681j, "\u0001\t\u0000\u0001\u0001\u0010\t\u0000\u0001\u0003\u0001င\u0002\u0002င\u0003\u0003င\u0004\u0004င\u0005\u0005င\u0006\u0006င\u0007\u000eЛ\u000fᐉ\u000e\u0010ᐉ\u0000", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", bpcb.class, "i", "k"});
         } else if (i2 == 3) {
             return new bpby();
         } else {

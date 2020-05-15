@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: eno */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class eno extends bxvk implements bxxd {
+public final class eno extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final eno f15330e;
@@ -28,7 +28,7 @@ public final class eno extends bxvk implements bxxd {
     static {
         eno eno = new eno();
         f15330e = eno;
-        bxvk.m124024a(eno.class, eno);
+        GeneratedMessageLite.m124024a(eno.class, eno);
     }
 
     private eno() {
@@ -45,7 +45,7 @@ public final class eno extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f15330e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0000\u0001\u001b\u0002ဂ\u0000\u0003\u001b\u0004ဈ\u0001", new Object[]{"f", "a", cadp.class, "b", "c", cadz.class, "d"});
+            return GeneratedMessageLite.m124022a(f15330e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0000\u0001\u001b\u0002ဂ\u0000\u0003\u001b\u0004ဈ\u0001", new Object[]{"f", "a", cadp.class, "b", "c", cadz.class, "d"});
         } else if (i2 == 3) {
             return new eno();
         } else {

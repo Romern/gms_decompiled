@@ -15,7 +15,7 @@ public final class tvs extends tvw {
     }
 
     public tvs(rlf rlf) {
-        sdo.m34966a(rlf, "Holder must not be null");
+        sdo.checkIfNull(rlf, "Holder must not be null");
         this.f46743a = rlf;
     }
 }

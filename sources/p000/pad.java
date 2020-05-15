@@ -205,7 +205,7 @@ final class pad extends aeaa {
                 while (it.hasNext()) {
                     List list2 = this.f38698f;
                     bxus c = bxus.m123744c();
-                    list2.add((bivb) bxvk.m124016a(bivb.f121921l, (byte[]) it.next(), c));
+                    list2.add((bivb) GeneratedMessageLite.m124016a(bivb.f121921l, (byte[]) it.next(), c));
                 }
                 if (this.f38699g != null) {
                     try {

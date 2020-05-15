@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bomt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bomt extends bxvk implements bxxd {
+public final class bomt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bomt f133714c;
@@ -19,7 +19,7 @@ public final class bomt extends bxvk implements bxxd {
     static {
         bomt bomt = new bomt();
         f133714c = bomt;
-        bxvk.m124024a(bomt.class, bomt);
+        GeneratedMessageLite.m124024a(bomt.class, bomt);
     }
 
     private bomt() {
@@ -36,7 +36,7 @@ public final class bomt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133714c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f133714c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bomt();
         } else {

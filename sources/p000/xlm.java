@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public final class xlm implements xjb {
 
     /* renamed from: d */
-    public static final sek f52666d = new sek(new String[]{"UsbChannel"}, (short[]) null);
+    public static final Logger f52666d = new Logger(new String[]{"UsbChannel"}, (short[]) null);
 
     /* renamed from: a */
     public final xmh f52667a;

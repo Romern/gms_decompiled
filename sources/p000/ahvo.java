@@ -58,9 +58,9 @@ public abstract class ahvo {
                         break;
                     }
                     ahza ahza = (ahza) it.next();
-                    if ((ahza.f68443a & 1) != 0 && Arrays.equals(ahza.f68444b.mo73780k(), b)) {
+                    if ((ahza.f68443a & 1) != 0 && Arrays.equals(ahza.f68444b.getKey(), b)) {
                         try {
-                            str2 = ((aiaa) bxvk.m124016a(aiaa.f68501K, ahza.f68445c.mo73780k(), bxus.m123744c())).f68520h;
+                            str2 = ((aiaa) GeneratedMessageLite.m124016a(aiaa.f68501K, ahza.f68445c.getKey(), bxus.m123744c())).f68520h;
                             break;
                         } catch (bxwf e) {
                             bnsl bnsl = (bnsl) ahsd.f67925a.mo68388c();

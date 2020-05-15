@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsuf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsuf extends bxvk implements bxxd {
+public final class bsuf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bsuf f147117c;
@@ -19,7 +19,7 @@ public final class bsuf extends bxvk implements bxxd {
     static {
         bsuf bsuf = new bsuf();
         f147117c = bsuf;
-        bxvk.m124024a(bsuf.class, bsuf);
+        GeneratedMessageLite.m124024a(bsuf.class, bsuf);
     }
 
     private bsuf() {
@@ -36,7 +36,7 @@ public final class bsuf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147117c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȉ\u0002\t", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f147117c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȉ\u0002\t", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bsuf();
         } else {

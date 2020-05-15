@@ -145,7 +145,7 @@ public final class bhuz implements bhve {
                                     if (bvnf3 == null) {
                                         bvnf3 = bvnf.f156854d;
                                     }
-                                    if (Arrays.equals(bvnf3.f156858c.mo73780k(), bArr)) {
+                                    if (Arrays.equals(bvnf3.f156858c.getKey(), bArr)) {
                                         if ((bvnc.f156849a & 2) != 0) {
                                             double intValue = (double) (bhtv3.f119575b.intValue() - bvnc.f156851c);
                                             double d3 = f119676a;

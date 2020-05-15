@@ -102,7 +102,7 @@ public final class yrf implements yri {
         cacr.f172607a |= 1;
         cacr.f172611e = str2;
         if (!cacr.f172609c.mo73666a()) {
-            cacr.f172609c = bxvk.m124021a(cacr.f172609c);
+            cacr.f172609c = GeneratedMessageLite.m124021a(cacr.f172609c);
         }
         bxsy.m123078a(arrayList, cacr.f172609c);
         if (da4.f164950c) {
@@ -111,7 +111,7 @@ public final class yrf implements yri {
         }
         cacr cacr2 = (cacr) da4.f164949b;
         if (!cacr2.f172608b.mo73666a()) {
-            cacr2.f172608b = bxvk.m124021a(cacr2.f172608b);
+            cacr2.f172608b = GeneratedMessageLite.m124021a(cacr2.f172608b);
         }
         bxsy.m123078a(arrayList2, cacr2.f172608b);
         return (cacr) da4.mo74062i();
@@ -119,6 +119,6 @@ public final class yrf implements yri {
 
     /* renamed from: a */
     public final yre mo30688a(byte[] bArr, zrd zrd) {
-        return m44653a((cacr) bxvk.m124016a(cacr.f172605f, bArr, bxus.m123744c()));
+        return m44653a((cacr) GeneratedMessageLite.m124016a(cacr.f172605f, bArr, bxus.m123744c()));
     }
 }

@@ -27,6 +27,6 @@ public final class atyx implements atfd {
     }
 
     public final /* bridge */ /* synthetic */ void onResponse(Object obj) {
-        this.f91185c.mo59503a(auaa.m76628a(this.f91183a, ((bxxc) obj).mo73642k()), this.f91184b);
+        this.f91185c.mo59503a(auaa.m76628a(this.f91183a, ((bxxc) obj).serializeToBytes()), this.f91184b);
     }
 }

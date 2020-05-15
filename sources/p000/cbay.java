@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbay */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbay extends bxvk implements bxxd {
+public final class cbay extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbay f176515b;
@@ -16,7 +16,7 @@ public final class cbay extends bxvk implements bxxd {
     static {
         cbay cbay = new cbay();
         f176515b = cbay;
-        bxvk.m124024a(cbay.class, cbay);
+        GeneratedMessageLite.m124024a(cbay.class, cbay);
     }
 
     private cbay() {
@@ -33,7 +33,7 @@ public final class cbay extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176515b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0004", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f176515b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0004", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cbay();
         } else {

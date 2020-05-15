@@ -49,7 +49,7 @@ public class OperationStatus extends AbstractSafeParcelable {
     public OperationStatus(byte[] bArr) {
         this.f191775a = bArr;
         try {
-            this.f191776b = (bvbc) bxvk.m124014a(bvbc.f155522h, bArr);
+            this.f191776b = (bvbc) GeneratedMessageLite.m124014a(bvbc.f155522h, bArr);
         } catch (bxwf e) {
             throw new IllegalArgumentException("Invalid proto bytes", e);
         }

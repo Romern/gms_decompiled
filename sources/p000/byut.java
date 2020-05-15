@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byut */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byut extends bxvk implements bxxd {
+public final class byut extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final byut f168368b;
@@ -19,7 +19,7 @@ public final class byut extends bxvk implements bxxd {
     static {
         byut byut = new byut();
         f168368b = byut;
-        bxvk.m124024a(byut.class, byut);
+        GeneratedMessageLite.m124024a(byut.class, byut);
     }
 
     private byut() {
@@ -40,7 +40,7 @@ public final class byut extends bxvk implements bxxd {
             this.f168371c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f168368b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", byur.class});
+            return GeneratedMessageLite.m124022a(f168368b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", byur.class});
         } else if (i2 == 3) {
             return new byut();
         } else {

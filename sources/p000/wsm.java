@@ -19,18 +19,18 @@ public final class wsm {
     /* renamed from: a */
     private final aiaa m42215a(ahza ahza) {
         try {
-            bxtx bxtx = ahza.f68445c;
+            ByteString bxtx = ahza.f68445c;
             bxus c = bxus.m123744c();
             aiaa aiaa = aiaa.f68501K;
             try {
                 bxuc h = bxtx.mo73764h();
-                bxvk bxvk = (bxvk) aiaa.mo74142c(4);
-                bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                a.mo74220a(bxvk, bxud.m123454a(h), c);
-                a.mo74225d(bxvk);
+                GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) aiaa.mo74142c(4);
+                bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                a.mo74225d(GeneratedMessageLite);
                 h.mo73787a(0);
-                bxvk.m124027b(bxvk);
-                return (aiaa) bxvk;
+                GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                return (aiaa) GeneratedMessageLite;
             } catch (IOException e) {
                 if (!(e.getCause() instanceof bxwf)) {
                     throw new bxwf(e.getMessage());
@@ -60,7 +60,7 @@ public final class wsm {
         if ((aiaa.f68513a & 8388608) == 0) {
             return null;
         }
-        Bitmap decodeByteArray = BitmapFactory.decodeByteArray(aiaa.f68538z.mo73780k(), 0, aiaa.f68538z.mo73744a());
+        Bitmap decodeByteArray = BitmapFactory.decodeByteArray(aiaa.f68538z.getKey(), 0, aiaa.f68538z.mo73744a());
         if (!bush.m120379a(decodeByteArray)) {
             return null;
         }

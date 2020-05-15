@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public final class xsz {
 
     /* renamed from: k */
-    public static final sek f53015k = new sek(new String[]{"CableAuthenticatorScan"}, (short[]) null);
+    public static final Logger f53015k = new Logger(new String[]{"CableAuthenticatorScan"}, (short[]) null);
 
     /* renamed from: a */
     public final xwj f53016a;

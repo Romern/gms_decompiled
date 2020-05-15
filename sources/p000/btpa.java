@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btpa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btpa extends bxvk implements bxxd {
+public final class btpa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btpa f149822b;
@@ -11,12 +11,12 @@ public final class btpa extends bxvk implements bxxd {
     private static volatile bxxk f149823c;
 
     /* renamed from: a */
-    public bxtx f149824a = bxtx.f164797b;
+    public ByteString f149824a = ByteString.f164797b;
 
     static {
         btpa btpa = new btpa();
         f149822b = btpa;
-        bxvk.m124024a(btpa.class, btpa);
+        GeneratedMessageLite.m124024a(btpa.class, btpa);
     }
 
     private btpa() {
@@ -33,7 +33,7 @@ public final class btpa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149822b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\n", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f149822b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\n", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btpa();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lte */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lte extends bxvk implements bxxd {
+public final class lte extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final lte f32897d;
@@ -25,7 +25,7 @@ public final class lte extends bxvk implements bxxd {
     static {
         lte lte = new lte();
         f32897d = lte;
-        bxvk.m124024a(lte.class, lte);
+        GeneratedMessageLite.m124024a(lte.class, lte);
     }
 
     private lte() {
@@ -48,7 +48,7 @@ public final class lte extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f32897d, "\u0001\u0003\u0000\u0001\u0018.\u0003\u0000\u0000\u0000\u0018င\u0000\"ဇ\u0002.ဇ\u0005", new Object[]{"a", "b", "e", "c"});
+            return GeneratedMessageLite.m124022a(f32897d, "\u0001\u0003\u0000\u0001\u0018.\u0003\u0000\u0000\u0000\u0018င\u0000\"ဇ\u0002.ဇ\u0005", new Object[]{"a", "b", "e", "c"});
         } else if (i2 == 3) {
             return new lte();
         } else {

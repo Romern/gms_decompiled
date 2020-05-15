@@ -19,7 +19,7 @@ public final class gcg {
 
     /* renamed from: a */
     public static final gcs m12928a(Context context) {
-        sdo.m34966a(context, "Context must not be null");
+        sdo.checkIfNull(context, "Context must not be null");
         return new gcs(context);
     }
 }

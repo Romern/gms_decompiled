@@ -11,6 +11,6 @@ final /* synthetic */ class afro implements afsa {
 
     /* renamed from: a */
     public final bxxc mo35008a(byte[] bArr) {
-        return (btet) bxvk.m124014a(btet.f148559h, bArr);
+        return (btet) GeneratedMessageLite.m124014a(btet.f148559h, bArr);
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biuk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biuk extends bxvk implements bxxd {
+public final class biuk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final biuk f121800f;
@@ -31,7 +31,7 @@ public final class biuk extends bxvk implements bxxd {
     static {
         biuk biuk = new biuk();
         f121800f = biuk;
-        bxvk.m124024a(biuk.class, biuk);
+        GeneratedMessageLite.m124024a(biuk.class, biuk);
     }
 
     private biuk() {
@@ -52,7 +52,7 @@ public final class biuk extends bxvk implements bxxd {
             this.f121807g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121800f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0004\u0001ᔄ\u0000\u0002ᔇ\u0001\u0003ᔇ\u0002\u0004ᔇ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f121800f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0004\u0001ᔄ\u0000\u0002ᔇ\u0001\u0003ᔇ\u0002\u0004ᔇ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new biuk();
         } else {

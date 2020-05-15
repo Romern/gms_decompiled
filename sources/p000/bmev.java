@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmev */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmev extends bxvk implements bxxd {
+public final class bmev extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bmev f129037e;
@@ -28,7 +28,7 @@ public final class bmev extends bxvk implements bxxd {
     static {
         bmev bmev = new bmev();
         f129037e = bmev;
-        bxvk.m124024a(bmev.class, bmev);
+        GeneratedMessageLite.m124024a(bmev.class, bmev);
     }
 
     private bmev() {
@@ -45,7 +45,7 @@ public final class bmev extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f129037e, "\u0001\u0004\u0000\u0001\u0003\b\u0004\u0000\u0000\u0000\u0003ဈ\u0001\u0004ဈ\u0003\u0005ဂ\u0000\bဈ\u0004", new Object[]{"f", "b", "c", "a", "d"});
+            return GeneratedMessageLite.m124022a(f129037e, "\u0001\u0004\u0000\u0001\u0003\b\u0004\u0000\u0000\u0000\u0003ဈ\u0001\u0004ဈ\u0003\u0005ဂ\u0000\bဈ\u0004", new Object[]{"f", "b", "c", "a", "d"});
         } else if (i2 == 3) {
             return new bmev();
         } else {

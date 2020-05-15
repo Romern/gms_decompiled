@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abpy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abpy extends bxvk implements bxxd {
+public final class abpy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final abpy f57922f;
@@ -28,7 +28,7 @@ public final class abpy extends bxvk implements bxxd {
     static {
         abpy abpy = new abpy();
         f57922f = abpy;
-        bxvk.m124024a(abpy.class, abpy);
+        GeneratedMessageLite.m124024a(abpy.class, abpy);
     }
 
     private abpy() {
@@ -45,7 +45,7 @@ public final class abpy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57922f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0003\u0000\u0001\u001a\u0002\u001a\u0003\u001a\u0004ဌ\u0000", new Object[]{"a", "b", "c", "d", "e", abpz.f57929a});
+            return GeneratedMessageLite.m124022a(f57922f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0003\u0000\u0001\u001a\u0002\u001a\u0003\u001a\u0004ဌ\u0000", new Object[]{"a", "b", "c", "d", "e", abpz.f57929a});
         } else if (i2 == 3) {
             return new abpy();
         } else {
@@ -72,7 +72,7 @@ public final class abpy extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo32282a() {
         if (!this.f57925b.mo73666a()) {
-            this.f57925b = bxvk.m124021a(this.f57925b);
+            this.f57925b = GeneratedMessageLite.m124021a(this.f57925b);
         }
     }
 }

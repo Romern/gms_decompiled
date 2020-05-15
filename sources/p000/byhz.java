@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byhz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byhz extends bxvk implements bxxd {
+public final class byhz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byhz f166535c;
@@ -19,7 +19,7 @@ public final class byhz extends bxvk implements bxxd {
     static {
         byhz byhz = new byhz();
         f166535c = byhz;
-        bxvk.m124024a(byhz.class, byhz);
+        GeneratedMessageLite.m124024a(byhz.class, byhz);
     }
 
     private byhz() {
@@ -36,7 +36,7 @@ public final class byhz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166535c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f166535c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new byhz();
         } else {

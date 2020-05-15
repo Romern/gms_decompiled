@@ -19,7 +19,7 @@ public final class ocy {
 
     /* renamed from: a */
     public final void mo21983a(int i, bpcl bpcl, List list) {
-        qwo a = this.f37208a.mo24335a(bpcl.mo73642k());
+        qwo a = this.f37208a.mo24335a(bpcl.serializeToBytes());
         int i2 = i - 1;
         if (i != 0) {
             a.mo24328b(i2);

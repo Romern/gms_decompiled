@@ -131,7 +131,7 @@ public class GcmChimeraBroadcastReceiver extends BroadcastReceiver {
     /* renamed from: c */
     private final bxoc m93654c(Context context, Intent intent) {
         try {
-            return (bxoc) bxvk.m124014a(bxoc.f164133b, Base64.decode(intent.getStringExtra("fsc_v1"), 0));
+            return (bxoc) GeneratedMessageLite.m124014a(bxoc.f164133b, Base64.decode(intent.getStringExtra("fsc_v1"), 0));
         } catch (bxwf e) {
             aveu aveu = (aveu) this.f109365e.apply(context);
             bxvd da = bxpr.f164303d.mo74144da();

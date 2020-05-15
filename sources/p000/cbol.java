@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbol */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbol extends bxvk implements bxxd {
+public final class cbol extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbol f177831d;
@@ -22,7 +22,7 @@ public final class cbol extends bxvk implements bxxd {
     static {
         cbol cbol = new cbol();
         f177831d = cbol;
-        bxvk.m124024a(cbol.class, cbol);
+        GeneratedMessageLite.m124024a(cbol.class, cbol);
     }
 
     private cbol() {
@@ -39,7 +39,7 @@ public final class cbol extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177831d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\f\u0002\u0002\u0003\u0002", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f177831d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\f\u0002\u0002\u0003\u0002", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cbol();
         } else {

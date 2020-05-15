@@ -8,7 +8,7 @@ import java.util.concurrent.Future;
 public final class xyx {
 
     /* renamed from: d */
-    public static final sek f53412d = new sek(new String[]{"BleRequestProcessor"}, (short[]) null);
+    public static final Logger f53412d = new Logger(new String[]{"BleRequestProcessor"}, (short[]) null);
 
     /* renamed from: a */
     public Future f53413a;

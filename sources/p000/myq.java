@@ -63,7 +63,7 @@ public final class myq implements bzrx {
 
     /* renamed from: a */
     public final int mo20316a(byte[] bArr, int i, int i2) {
-        f34950a.mo25409a("[READ]", new Object[0]);
+        f34950a.logVerbose("[READ]", new Object[0]);
         if (bArr.length - i < i2) {
             throw new IOException("Buffer length must be greater than desired number of bytes.");
         } else if (i2 == 0) {
@@ -72,7 +72,7 @@ public final class myq implements bzrx {
             this.f34957g.lock();
             while (this.f34954d == this.f34953c && this.f34955e.get() && !this.f34960k.get()) {
                 try {
-                    f34950a.mo25409a("[READ] wait for available data.", new Object[0]);
+                    f34950a.logVerbose("[READ] wait for available data.", new Object[0]);
                     this.f34958h.await();
                 } catch (InterruptedException e) {
                     f34950a.mo25418e("InterruptedException when waiting for available data in read method.", new Object[0]);
@@ -90,12 +90,12 @@ public final class myq implements bzrx {
                     sb.append("[READ] Read ");
                     sb.append(read);
                     sb.append(" bytes data.");
-                    lvn.mo25409a(sb.toString(), new Object[0]);
+                    lvn.logVerbose(sb.toString(), new Object[0]);
                     if (read != -1) {
                         long j = this.f34954d + ((long) read);
                         this.f34954d = j;
                         if (this.f34953c == j) {
-                            f34950a.mo25409a("[READ] signal data processed.", new Object[0]);
+                            f34950a.logVerbose("[READ] signal data processed.", new Object[0]);
                             this.f34959i.signalAll();
                         }
                         this.f34957g.unlock();
@@ -174,7 +174,7 @@ public final class myq implements bzrx {
         StringBuilder sb = new StringBuilder(21);
         sb.append("[HAS MORE DATA] ");
         sb.append(z);
-        lvn.mo25409a(sb.toString(), new Object[0]);
+        lvn.logVerbose(sb.toString(), new Object[0]);
         this.f34957g.lock();
         try {
             return this.f34955e.get();
@@ -185,7 +185,7 @@ public final class myq implements bzrx {
 
     /* renamed from: a */
     public final long mo20317a(long j) {
-        f34950a.mo25409a("[SKIP]", new Object[0]);
+        f34950a.logVerbose("[SKIP]", new Object[0]);
         if (j < 0) {
             throw new IOException("Can't skip negative bytes.");
         } else if (j == 0) {
@@ -200,7 +200,7 @@ public final class myq implements bzrx {
                         break;
                     } else {
                         if (ccnu.m130914b()) {
-                            f34950a.mo25409a("[SKIP] Wait for data to become available.", new Object[0]);
+                            f34950a.logVerbose("[SKIP] Wait for data to become available.", new Object[0]);
                         }
                         this.f34958h.await();
                     }

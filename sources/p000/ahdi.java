@@ -60,7 +60,7 @@ public final class ahdi extends dck implements ahdj {
             ahej ahej = aheg.f67074a;
             rod a = ahej.f67076a.mo37440a(ahej, device, "connection");
             rob rob = a.f43429b;
-            sdo.m34966a(rob, "Key must not be null");
+            sdo.checkIfNull(rob, "Key must not be null");
             ahej.f67076a.mo37437a(ahej, new aheh(a), new ahei(rob));
         }
     }

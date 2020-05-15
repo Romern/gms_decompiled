@@ -34,7 +34,7 @@ final class ahun extends buqn {
         aiaa aiaa = this.f68103b.f67969b;
         if (!TextUtils.isEmpty(c)) {
             bxvd bxvd = (bxvd) aiaa.mo74142c(5);
-            bxvd.mo73625a((bxvk) aiaa);
+            bxvd.mo73625a((GeneratedMessageLite) aiaa);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -57,7 +57,7 @@ final class ahun extends buqn {
             str.getClass();
             ahyz2.f68427a |= 1;
             ahyz2.f68428b = str;
-            bxtx a = bxtx.m123261a(this.f68104c);
+            ByteString a = ByteString.m123261a(this.f68104c);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -99,7 +99,7 @@ final class ahun extends buqn {
             str2.getClass();
             ahyz6.f68427a = 1 | ahyz6.f68427a;
             ahyz6.f68428b = str2;
-            bxtx a2 = bxtx.m123261a(this.f68104c);
+            ByteString a2 = ByteString.m123261a(this.f68104c);
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;

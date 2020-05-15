@@ -16,7 +16,7 @@ import org.json.JSONObject;
 public abstract class xxj {
 
     /* renamed from: h */
-    private static final sek f53333h = new sek(new String[]{"RequestDataTracker"}, (short[]) null);
+    private static final Logger f53333h = new Logger(new String[]{"RequestDataTracker"}, (short[]) null);
 
     /* renamed from: a */
     public xxi f53334a;

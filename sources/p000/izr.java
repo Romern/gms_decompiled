@@ -18,22 +18,22 @@ public final class izr {
     public static final izr f22008a = new izr();
 
     /* renamed from: b */
-    private static final sek f22009b = jdh.m16547a("EnrollmentManager");
+    private static final Logger f22009b = jdh.m16547a("EnrollmentManager");
 
     /* renamed from: a */
-    static final int m16378a(Context context, bxtx bxtx, bxtx bxtx2, int i) {
+    static final int m16378a(Context context, ByteString bxtx, ByteString bxtx2, int i) {
         try {
-            RecoveryController.getInstance(context).initRecoveryService(ccfy.m129505q(), bxtx.mo73780k(), bxtx2.mo73780k());
+            RecoveryController.getInstance(context).initRecoveryService(ccfy.m129505q(), bxtx.getKey(), bxtx2.getKey());
             f22009b.mo25414c("Recovery service is initialized.", new Object[0]);
             jdg.m16546c(context, 6, i);
             return 4;
         } catch (InternalRecoveryServiceException | CertificateException e) {
-            sek sek = f22009b;
+            Logger Logger = f22009b;
             String valueOf = String.valueOf(e);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 39);
             sb.append("Failed to initialize Recovery service. ");
             sb.append(valueOf);
-            sek.mo25414c(sb.toString(), new Object[0]);
+            Logger.mo25414c(sb.toString(), new Object[0]);
             jdg.m16546c(context, 5, i);
             return 3;
         }
@@ -43,7 +43,7 @@ public final class izr {
     }
 
     /* renamed from: a */
-    static final bxtx m16379a(String str) {
+    static final ByteString m16379a(String str) {
         HttpURLConnection httpURLConnection;
         Throwable th;
         InputStream inputStream;
@@ -53,18 +53,18 @@ public final class izr {
                 int responseCode = httpURLConnection.getResponseCode();
                 if (responseCode == 200) {
                     inputStream = httpURLConnection.getInputStream();
-                    bxtx a = bxtx.m123256a(inputStream);
+                    ByteString a = ByteString.m123256a(inputStream);
                     if (inputStream != null) {
                         inputStream.close();
                     }
                     stp.m36307a(httpURLConnection);
                     return a;
                 }
-                sek sek = f22009b;
+                Logger Logger = f22009b;
                 StringBuilder sb = new StringBuilder(29);
                 sb.append("Bad response code ");
                 sb.append(responseCode);
-                sek.mo25412b(sb.toString(), new Object[0]);
+                Logger.mo25412b(sb.toString(), new Object[0]);
                 throw new IOException("Server returns bad data.");
             } catch (Throwable th2) {
                 th = th2;
@@ -90,7 +90,7 @@ public final class izr {
                 jib = (jib) a.mo66814b();
             } else {
                 bxvd da = jib.f22535e.mo74144da();
-                bxtx a2 = m16379a(ccfy.f178890a.mo6606a().mo75891f());
+                ByteString a2 = m16379a(ccfy.f178890a.mo6606a().mo75891f());
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -99,7 +99,7 @@ public final class izr {
                 a2.getClass();
                 jib2.f22537a |= 2;
                 jib2.f22538b = a2;
-                bxtx a3 = m16379a(ccfy.f178890a.mo6606a().mo75890e());
+                ByteString a3 = m16379a(ccfy.f178890a.mo6606a().mo75890e());
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

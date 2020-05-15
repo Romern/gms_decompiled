@@ -20,7 +20,7 @@ import java.util.List;
 public final class ycs extends yct {
 
     /* renamed from: c */
-    public static final sek f53612c = new sek(new String[]{"BleSelectDeviceFragment"}, (short[]) null);
+    public static final Logger f53612c = new Logger(new String[]{"BleSelectDeviceFragment"}, (short[]) null);
 
     /* renamed from: a */
     public AlertDialog f53613a;

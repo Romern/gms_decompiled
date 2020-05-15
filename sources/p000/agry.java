@@ -266,7 +266,7 @@ public final class agry {
                         btbh btbh = (btbh) da2.mo74062i();
                         btbh.getClass();
                         if (!bszn.f147868h.mo73666a()) {
-                            bszn.f147868h = bxvk.m124021a(bszn.f147868h);
+                            bszn.f147868h = GeneratedMessageLite.m124021a(bszn.f147868h);
                         }
                         bszn.f147868h.add(btbh);
                     }
@@ -710,7 +710,7 @@ public final class agry {
             btao btao = (btao) da.mo74062i();
             boot a2 = a.mo35978a(26, "GTAF_Server", str);
             bxvd bxvd = (bxvd) a2.mo74142c(5);
-            bxvd.mo73625a((bxvk) a2);
+            bxvd.mo73625a((GeneratedMessageLite) a2);
             bxvd da2 = boph.f134120d.mo74144da();
             bxvd da3 = bope.f134108e.mo74144da();
             String str2 = btao.f148019a;

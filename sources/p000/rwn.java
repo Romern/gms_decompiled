@@ -46,7 +46,7 @@ public final class rwn extends rvd {
         try {
             bngs j = bngx.m109377j();
             for (ModuleManager.ModuleInfo moduleInfo : ModuleManager.get(context).getAllModulesWithMetadata("com.google.android.gms.phenotype.registration.proto")) {
-                for (zzu zzu : ((zzv) bxvk.m124014a(zzv.f56346b, moduleInfo.getMetadata(context).getByteArray("com.google.android.gms.phenotype.registration.proto"))).f56348a) {
+                for (zzu zzu : ((zzv) GeneratedMessageLite.m124014a(zzv.f56346b, moduleInfo.getMetadata(context).getByteArray("com.google.android.gms.phenotype.registration.proto"))).f56348a) {
                     if (!zzu.f56343g) {
                         j.mo67668c(zzu.f56338b);
                     } else {
@@ -107,7 +107,7 @@ public final class rwn extends rvd {
         }
         bpuo bpuo = (bpuo) da2.f164949b;
         if (!bpuo.f139271a.mo73666a()) {
-            bpuo.f139271a = bxvk.m124021a(bpuo.f139271a);
+            bpuo.f139271a = GeneratedMessageLite.m124021a(bpuo.f139271a);
         }
         bxsy.m123078a(hashSet2, bpuo.f139271a);
         if (da2.f164950c) {
@@ -116,7 +116,7 @@ public final class rwn extends rvd {
         }
         bpuo bpuo2 = (bpuo) da2.f164949b;
         if (!bpuo2.f139272b.mo73666a()) {
-            bpuo2.f139272b = bxvk.m124021a(bpuo2.f139272b);
+            bpuo2.f139272b = GeneratedMessageLite.m124021a(bpuo2.f139272b);
         }
         bxsy.m123078a(hashSet, bpuo2.f139272b);
         bpuo bpuo3 = (bpuo) da2.mo74062i();

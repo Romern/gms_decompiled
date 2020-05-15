@@ -72,7 +72,7 @@ final class aslj implements C1504y {
             bpay bpay3 = (bpay) da.f164949b;
             a.getClass();
             if (!bpay3.f135572f.mo73666a()) {
-                bpay3.f135572f = bxvk.m124019a(bpay3.f135572f);
+                bpay3.f135572f = GeneratedMessageLite.m124019a(bpay3.f135572f);
             }
             bpay3.f135572f.mo74153d(a.f135564h);
         }
@@ -96,7 +96,7 @@ final class aslj implements C1504y {
             }
             bpay bpay5 = (bpay) da.f164949b;
             if (!bpay5.f135571e.mo73666a()) {
-                bpay5.f135571e = bxvk.m124019a(bpay5.f135571e);
+                bpay5.f135571e = GeneratedMessageLite.m124019a(bpay5.f135571e);
             }
             int size2 = a2.size();
             for (int i2 = 0; i2 < size2; i2++) {
@@ -109,7 +109,7 @@ final class aslj implements C1504y {
             }
             bpay bpay6 = (bpay) da.f164949b;
             if (!bpay6.f135570d.mo73666a()) {
-                bpay6.f135570d = bxvk.m124019a(bpay6.f135570d);
+                bpay6.f135570d = GeneratedMessageLite.m124019a(bpay6.f135570d);
             }
             int size3 = a3.size();
             for (int i3 = 0; i3 < size3; i3++) {
@@ -125,7 +125,7 @@ final class aslj implements C1504y {
             }
             bpay bpay7 = (bpay) da.f164949b;
             if (!bpay7.f135574h.mo73666a()) {
-                bpay7.f135574h = bxvk.m124019a(bpay7.f135574h);
+                bpay7.f135574h = GeneratedMessageLite.m124019a(bpay7.f135574h);
             }
             int size4 = a4.size();
             for (int i4 = 0; i4 < size4; i4++) {
@@ -138,7 +138,7 @@ final class aslj implements C1504y {
             }
             bpay bpay8 = (bpay) da.f164949b;
             if (!bpay8.f135573g.mo73666a()) {
-                bpay8.f135573g = bxvk.m124019a(bpay8.f135573g);
+                bpay8.f135573g = GeneratedMessageLite.m124019a(bpay8.f135573g);
             }
             int size5 = a5.size();
             for (int i5 = 0; i5 < size5; i5++) {

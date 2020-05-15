@@ -120,7 +120,7 @@ public final class geu extends buqb {
         byvn byvn5 = (byvn) da.mo74062i();
         byvm a3 = buqb.m120220a(str, (String) null, 8);
         bxvd bxvd = (bxvd) a3.mo74142c(5);
-        bxvd.mo73625a((bxvk) a3);
+        bxvd.mo73625a((GeneratedMessageLite) a3);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

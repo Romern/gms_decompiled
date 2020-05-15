@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: din */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class din extends bxvk implements bxxd {
+public final class din extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: r */
     public static final din f13229r;
@@ -64,7 +64,7 @@ public final class din extends bxvk implements bxxd {
     static {
         din din = new din();
         f13229r = din;
-        bxvk.m124024a(din.class, din);
+        GeneratedMessageLite.m124024a(din.class, din);
     }
 
     private din() {
@@ -81,7 +81,7 @@ public final class din extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f13229r, "\u0001\u0010\u0000\u0001\u0001\u0010\u0010\u0000\u0001\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဈ\u0005\u0007င\u0006\bဌ\u0007\t\u001b\nဌ\b\u000bင\t\fင\n\rဈ\u000b\u000eဈ\f\u000fဈ\r\u0010ဈ\u000e", new Object[]{"a", "b", dij.f13227a, "c", "d", "e", "f", "g", "h", "i", dkb.f13378a, "j", diq.class, "k", dil.f13228a, "l", "m", "n", "o", "p", "q"});
+            return GeneratedMessageLite.m124022a(f13229r, "\u0001\u0010\u0000\u0001\u0001\u0010\u0010\u0000\u0001\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဈ\u0005\u0007င\u0006\bဌ\u0007\t\u001b\nဌ\b\u000bင\t\fင\n\rဈ\u000b\u000eဈ\f\u000fဈ\r\u0010ဈ\u000e", new Object[]{"a", "b", dij.f13227a, "c", "d", "e", "f", "g", "h", "i", dkb.f13378a, "j", diq.class, "k", dil.f13228a, "l", "m", "n", "o", "p", "q"});
         } else if (i2 == 3) {
             return new din();
         } else {

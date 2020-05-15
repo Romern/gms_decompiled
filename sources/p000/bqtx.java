@@ -37,18 +37,18 @@ final class bqtx extends bqoc {
     }
 
     /* renamed from: a */
-    public final /* bridge */ /* synthetic */ bxxc mo69297a(bxtx bxtx) {
+    public final /* bridge */ /* synthetic */ bxxc mo69297a(ByteString bxtx) {
         bxus b = bxus.m123743b();
         bqsy bqsy = bqsy.f141597i;
         try {
             bxuc h = bxtx.mo73764h();
-            bxvk bxvk = (bxvk) bqsy.mo74142c(4);
-            bxxv a = bxxm.f165037a.mo74228a(bxvk);
-            a.mo74220a(bxvk, bxud.m123454a(h), b);
-            a.mo74225d(bxvk);
+            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bqsy.mo74142c(4);
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+            a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), b);
+            a.mo74225d(GeneratedMessageLite);
             h.mo73787a(0);
-            bxvk.m124027b(bxvk);
-            return (bqsy) bxvk;
+            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+            return (bqsy) GeneratedMessageLite;
         } catch (IOException e) {
             if (!(e.getCause() instanceof bxwf)) {
                 throw new bxwf(e.getMessage());
@@ -74,7 +74,7 @@ final class bqtx extends bqoc {
         if (bqsz == null) {
             bqsz = bqsz.f141607e;
         }
-        bqwl.m113527b(new BigInteger(1, bqsz.f141611c.mo73780k()).bitLength());
+        bqwl.m113527b(new BigInteger(1, bqsz.f141611c.getKey()).bitLength());
         bqsz bqsz2 = bqsy.f141600b;
         if (bqsz2 == null) {
             bqsz2 = bqsz.f141607e;

@@ -701,20 +701,20 @@ final class bxua extends bxuc {
     }
 
     /* renamed from: l */
-    public final bxtx mo73803l() {
+    public final ByteString mo73803l() {
         int t = mo73811t();
         int i = this.f164811g;
         int i2 = this.f164813i;
         if (t <= i - i2 && t > 0) {
-            bxtx a = bxtx.m123262a(this.f164810f, i2, t);
+            ByteString a = ByteString.m123262a(this.f164810f, i2, t);
             this.f164813i += t;
             return a;
         } else if (t == 0) {
-            return bxtx.f164797b;
+            return ByteString.f164797b;
         } else {
             byte[] j = m123338j(t);
             if (j != null) {
-                return bxtx.m123261a(j);
+                return ByteString.m123261a(j);
             }
             int i3 = this.f164813i;
             int i4 = this.f164811g;
@@ -732,7 +732,7 @@ final class bxua extends bxuc {
                 System.arraycopy(bArr2, 0, bArr, i5, length);
                 i5 += length;
             }
-            return bxtx.m123264b(bArr);
+            return ByteString.m123264b(bArr);
         }
     }
 

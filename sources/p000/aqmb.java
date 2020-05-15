@@ -13,7 +13,7 @@ public final /* synthetic */ class aqmb implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = SignInChimeraActivity.f107676b;
+        Logger Logger = SignInChimeraActivity.f107676b;
         if (!((Status) obj).mo17710c()) {
             SignInChimeraActivity.f107676b.mo25416d("Failed to record the consent.", new Object[0]);
         }

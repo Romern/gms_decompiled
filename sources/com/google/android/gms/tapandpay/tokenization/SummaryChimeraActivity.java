@@ -202,7 +202,7 @@ public class SummaryChimeraActivity extends atex {
         byte[] byteArrayExtra = getIntent().getByteArrayExtra("api_error");
         if (byteArrayExtra != null) {
             try {
-                this.f108903q = (btnf) bxvk.m124016a(btnf.f149600f, byteArrayExtra, bxus.m123744c());
+                this.f108903q = (btnf) GeneratedMessageLite.m124016a(btnf.f149600f, byteArrayExtra, bxus.m123744c());
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) f108888i.mo68388c();
                 bnsl.mo68437a(e);

@@ -18,7 +18,7 @@ public final class bxyr extends AbstractList implements RandomAccess, bxwm {
     }
 
     /* renamed from: a */
-    public final void mo74189a(bxtx bxtx) {
+    public final void mo74189a(ByteString bxtx) {
         throw new UnsupportedOperationException();
     }
 

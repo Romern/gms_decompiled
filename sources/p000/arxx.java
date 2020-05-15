@@ -19,7 +19,7 @@ public final class arxx implements arxn {
     public final void mo48921a(arxn arxn) {
         this.f88429b = arxn;
         while (!this.f88428a.isEmpty() && arxn != null) {
-            arxy.f88430a.mo25409a("Consuming %d queued actions", Integer.valueOf(this.f88428a.size()));
+            arxy.f88430a.logVerbose("Consuming %d queued actions", Integer.valueOf(this.f88428a.size()));
             Runnable runnable = (Runnable) this.f88428a.poll();
             if (runnable != null) {
                 runnable.run();

@@ -11,6 +11,6 @@ final /* synthetic */ class celp implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (abvh) bxvk.m124014a(abvh.f58535c, bArr);
+        return (abvh) GeneratedMessageLite.m124014a(abvh.f58535c, bArr);
     }
 }

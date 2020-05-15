@@ -69,6 +69,6 @@ public final class qom {
 
     /* renamed from: a */
     public final boolean mo24172a(qok qok) {
-        return dft.m8316a(qok.mo73642k(), new File(this.f41877d, "pending_next_container.pb"), new File(this.f41877d, "next_container.pb"), false) > 0;
+        return dft.m8316a(qok.serializeToBytes(), new File(this.f41877d, "pending_next_container.pb"), new File(this.f41877d, "next_container.pb"), false) > 0;
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blny */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blny extends bxvk implements bxxd {
+public final class blny extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final blny f127043k;
@@ -46,7 +46,7 @@ public final class blny extends bxvk implements bxxd {
     static {
         blny blny = new blny();
         f127043k = blny;
-        bxvk.m124024a(blny.class, blny);
+        GeneratedMessageLite.m124024a(blny.class, blny);
     }
 
     private blny() {
@@ -67,7 +67,7 @@ public final class blny extends bxvk implements bxxd {
             this.f127055l = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127043k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0000\u0001\u0001က\u0000\u0002က\u0001\u0003ဈ\u0002\u0004င\u0003\u0005ဌ\u0004\u0006ᐉ\u0005\u0007ဈ\u0006\bဉ\b\tဉ\u0007", new Object[]{"a", "b", "c", "d", "e", "f", blnw.f127042a, "g", "h", "j", "i"});
+            return GeneratedMessageLite.m124022a(f127043k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0000\u0001\u0001က\u0000\u0002က\u0001\u0003ဈ\u0002\u0004င\u0003\u0005ဌ\u0004\u0006ᐉ\u0005\u0007ဈ\u0006\bဉ\b\tဉ\u0007", new Object[]{"a", "b", "c", "d", "e", "f", blnw.f127042a, "g", "h", "j", "i"});
         } else if (i2 == 3) {
             return new blny();
         } else {

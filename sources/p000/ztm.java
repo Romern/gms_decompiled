@@ -12,7 +12,7 @@ final /* synthetic */ class ztm implements bmxj {
     public final Object apply(Object obj) {
         cadn cadn = (cadn) obj;
         bxvd bxvd = (bxvd) cadn.mo74142c(5);
-        bxvd.mo73625a((bxvk) cadn);
+        bxvd.mo73625a((GeneratedMessageLite) cadn);
         return bxvd;
     }
 }

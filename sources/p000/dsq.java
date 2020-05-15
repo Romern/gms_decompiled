@@ -86,7 +86,7 @@ public final class dsq extends drx {
                 bxha bxha = (bxha) da.f164949b;
                 bxgz.getClass();
                 if (!bxha.f163333a.mo73666a()) {
-                    bxha.f163333a = bxvk.m124021a(bxha.f163333a);
+                    bxha.f163333a = GeneratedMessageLite.m124021a(bxha.f163333a);
                 }
                 bxha.f163333a.add(bxgz);
             }

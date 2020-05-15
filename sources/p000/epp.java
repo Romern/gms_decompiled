@@ -7,7 +7,7 @@ import java.util.Collections;
 public final class epp {
 
     /* renamed from: a */
-    private static final sek f15490a = ffw.m11631a("RepositoryConverters");
+    private static final Logger f15490a = ffw.m11631a("RepositoryConverters");
 
     /* renamed from: a */
     public static bsxn m10912a(byte[] bArr) {
@@ -15,7 +15,7 @@ public final class epp {
             return null;
         }
         try {
-            return (bsxn) bxvk.m124016a(bsxn.f147586d, bArr, bxus.m123744c());
+            return (bsxn) GeneratedMessageLite.m124016a(bsxn.f147586d, bArr, bxus.m123744c());
         } catch (bxwf e) {
             f15490a.mo25417e("Failed to convert ByteArray to ResourceKey.", e, new Object[0]);
             return null;
@@ -28,7 +28,7 @@ public final class epp {
             return null;
         }
         try {
-            return (bsxk) bxvk.m124016a(bsxk.f147578f, bArr, bxus.m123744c());
+            return (bsxk) GeneratedMessageLite.m124016a(bsxk.f147578f, bArr, bxus.m123744c());
         } catch (bxwf e) {
             f15490a.mo25417e("Failed to convert ByteArray to Resource.", e, new Object[0]);
             return null;
@@ -38,7 +38,7 @@ public final class epp {
     /* renamed from: a */
     public static byte[] m10913a(bsxk bsxk) {
         if (bsxk != null) {
-            return bsxk.mo73642k();
+            return bsxk.serializeToBytes();
         }
         return null;
     }
@@ -58,6 +58,6 @@ public final class epp {
         bsxn2.f147588a |= 1;
         bsxn2.f147589b = i;
         bsxl.mo70720a(bnim.m109536b(Collections.unmodifiableMap(bsxn.f147590c)));
-        return ((bsxn) bsxl.mo74062i()).mo73642k();
+        return ((bsxn) bsxl.mo74062i()).serializeToBytes();
     }
 }

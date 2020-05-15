@@ -77,8 +77,8 @@ public final class azcj {
         LocalEntityId localEntityId;
         cbgn cbgn;
         cbhy cbhy;
-        bxtx bxtx;
-        bxtx bxtx2;
+        ByteString bxtx;
+        ByteString bxtx2;
         Bitmap bitmap2 = null;
         if (aznz.mo55105c()) {
             localEntityId = (LocalEntityId) list.get(0);
@@ -94,21 +94,21 @@ public final class azcj {
         azdi b2 = azdj.m85399a(this.f98977b).mo54722b(localEntityId);
         if (!(b2 == null || (cbgn = b2.f99083i) == null || (cbhy = cbgn.f177055d) == null)) {
             if (cbhy.f177216a == 1) {
-                bxtx = (bxtx) cbhy.f177217b;
+                bxtx = (ByteString) cbhy.f177217b;
             } else {
                 bxtx = bxtx.f164797b;
             }
-            if (!azpi.m86080b(bxtx.mo73780k())) {
+            if (!azpi.m86080b(bxtx.getKey())) {
                 cbhy cbhy2 = b2.f99083i.f177055d;
                 if (cbhy2 == null) {
                     cbhy2 = cbhy.f177214d;
                 }
                 if (cbhy2.f177216a == 1) {
-                    bxtx2 = (bxtx) cbhy2.f177217b;
+                    bxtx2 = (ByteString) cbhy2.f177217b;
                 } else {
                     bxtx2 = bxtx.f164797b;
                 }
-                byte[] k = bxtx2.mo73780k();
+                byte[] k = bxtx2.getKey();
                 bitmap2 = azal.m85136a(this.f98977b, BitmapFactory.decodeByteArray(k, 0, k.length));
             }
         }

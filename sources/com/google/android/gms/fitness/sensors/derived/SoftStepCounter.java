@@ -174,7 +174,7 @@ public final class SoftStepCounter extends aacn implements zgf {
         if (j >= j4) {
             cadn a = yyk.m45011a(this.f32378i, j4, j, TimeUnit.NANOSECONDS, yyp.m45047a(this.f32374c.get()));
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             cadm cadm = (cadm) bxvd;
             if (cadm.f164950c) {
                 cadm.mo74035c();

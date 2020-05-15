@@ -209,7 +209,7 @@ public final class dzv extends dyg {
                 bxmm bxmm11 = (bxmm) bxml.f164949b;
                 a2.getClass();
                 if (!bxmm11.f163961n.mo73666a()) {
-                    bxmm11.f163961n = bxvk.m124019a(bxmm11.f163961n);
+                    bxmm11.f163961n = GeneratedMessageLite.m124019a(bxmm11.f163961n);
                 }
                 bxmm11.f163961n.mo74153d(a2.f157198bx);
             }
@@ -383,7 +383,7 @@ public final class dzv extends dyg {
         aelr aelr;
         ArrayList b;
         Intent intent2 = intent;
-        sdo.m34966a(this.f14388d, "context must not be null");
+        sdo.checkIfNull(this.f14388d, "context must not be null");
         if (intent2 == null || !intent2.hasExtra("com.google.android.gms.location.places.PlaceLikelihoodBuffer.PLACE_LIST_EXTRA_KEY") || !intent2.hasExtra("com.google.android.gms.location.places.PlaceLikelihoodBuffer.STATUS_EXTRA_KEY") || !intent2.hasExtra("com.google.android.gms.location.places.PlaceLikelihoodBuffer.SOURCE_EXTRA_KEY") || (b = sef.m35076b(intent2, "com.google.android.gms.location.places.PlaceLikelihoodBuffer.PLACE_LIST_EXTRA_KEY", HierarchicalPlaceLikelihoodEntity.CREATOR)) == null) {
             aela = null;
         } else {
@@ -449,7 +449,7 @@ public final class dzv extends dyg {
                                     if (bxmm != null) {
                                         String a4 = bB2.mo8007a();
                                         bxvd bxvd = (bxvd) bxmm.mo74142c(5);
-                                        bxvd.mo73625a((bxvk) bxmm);
+                                        bxvd.mo73625a((GeneratedMessageLite) bxmm);
                                         bxml bxml = (bxml) bxvd;
                                         LinkedHashMap linkedHashMap2 = linkedHashMap;
                                         double bA = (double) aelp.mo8028bA();
@@ -538,7 +538,7 @@ public final class dzv extends dyg {
         ArrayList b;
         Intent intent2 = intent;
         if (intent.getAction().equals("android.gms.contextmanager.PLACE_UPDATES")) {
-            sdo.m34966a(this.f14388d, "context must not be null");
+            sdo.checkIfNull(this.f14388d, "context must not be null");
             if (intent2 == null || !intent2.hasExtra("com.google.android.gms.location.places.PlaceLikelihoodBuffer.PLACE_LIST_EXTRA_KEY") || !intent2.hasExtra("com.google.android.gms.location.places.PlaceLikelihoodBuffer.STATUS_EXTRA_KEY") || !intent2.hasExtra("com.google.android.gms.location.places.PlaceLikelihoodBuffer.SOURCE_EXTRA_KEY") || (b = sef.m35076b(intent2, "com.google.android.gms.location.places.PlaceLikelihoodBuffer.PLACE_LIST_EXTRA_KEY", HierarchicalPlaceLikelihoodEntity.CREATOR)) == null) {
                 aela = null;
             } else {
@@ -606,7 +606,7 @@ public final class dzv extends dyg {
                                         if (bxmm != null) {
                                             String a4 = bB2.mo8007a();
                                             bxvd bxvd = (bxvd) bxmm.mo74142c(5);
-                                            bxvd.mo73625a((bxvk) bxmm);
+                                            bxvd.mo73625a((GeneratedMessageLite) bxmm);
                                             bxml bxml = (bxml) bxvd;
                                             String str3 = str2;
                                             double bA = (double) aelp.mo8028bA();

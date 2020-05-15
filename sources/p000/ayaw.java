@@ -353,7 +353,7 @@ public final class ayaw implements ayjm {
                                         if (ayer == null) {
                                             ayer = ayer.f97351f;
                                         }
-                                        bArr = ayer.f97355c.mo73780k();
+                                        bArr = ayer.f97355c.getKey();
                                     } else {
                                         bArr = null;
                                     }
@@ -376,7 +376,7 @@ public final class ayaw implements ayjm {
                                         axtz axtz = axua2.f96359e;
                                         bxvd da = ayev.f97376n.mo74144da();
                                         bxvd da2 = ayer.f97351f.mo74144da();
-                                        bxtx a3 = bxtx.m123261a(a2);
+                                        ByteString a3 = ByteString.m123261a(a2);
                                         if (da2.f164950c) {
                                             da2.mo74035c();
                                             da2.f164950c = false;

@@ -36,9 +36,9 @@ public final class bamf implements banj {
         synchronized (this.f101252a) {
             if (this.f101254c == null) {
                 try {
-                    bxtx a = ((bamo) this.f101253b).f101286g.mo55767a(banx, bamo.f101280a);
+                    ByteString a = ((bamo) this.f101253b).f101286g.mo55767a(banx, bamo.f101280a);
                     if (a != null) {
-                        byjj2 = (byjj) bxvk.m124007a(byjj.f166658c, a);
+                        byjj2 = (byjj) GeneratedMessageLite.m124007a(byjj.f166658c, a);
                     } else {
                         byjj2 = byjj.f166658c;
                     }
@@ -68,9 +68,9 @@ public final class bamf implements banj {
         synchronized (this.f101252a) {
             if (this.f101255d == null) {
                 try {
-                    bxtx a = ((bamo) this.f101253b).f101286g.mo55767a(banx, bamo.f101281b);
+                    ByteString a = ((bamo) this.f101253b).f101286g.mo55767a(banx, bamo.f101281b);
                     if (a != null) {
-                        byjn2 = (byjn) bxvk.m124007a(byjn.f166675c, a);
+                        byjn2 = (byjn) GeneratedMessageLite.m124007a(byjn.f166675c, a);
                     } else {
                         byjn2 = byjn.f166675c;
                     }
@@ -147,7 +147,7 @@ public final class bamf implements banj {
     /* renamed from: a */
     public final void mo55742a(bany bany) {
         synchronized (this.f101252a) {
-            ((bamo) this.f101253b).f101286g.mo55776b(bany, bxtx.f164797b, (bxtx) null);
+            ((bamo) this.f101253b).f101286g.mo55776b(bany, ByteString.f164797b, (ByteString) null);
             mo55741a();
         }
     }

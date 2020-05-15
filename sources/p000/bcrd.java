@@ -11,12 +11,12 @@ final class bcrd extends bcoh {
     private final bcol f104685b;
 
     /* renamed from: c */
-    private final bxtx f104686c;
+    private final ByteString f104686c;
 
     /* renamed from: d */
     private final bcog f104687d;
 
-    public bcrd(long j, bcol bcol, bxtx bxtx, bcog bcog) {
+    public bcrd(long j, bcol bcol, ByteString bxtx, bcog bcog) {
         this.f104684a = j;
         this.f104685b = bcol;
         this.f104686c = bxtx;
@@ -34,7 +34,7 @@ final class bcrd extends bcoh {
     }
 
     /* renamed from: c */
-    public final bxtx mo57059c() {
+    public final ByteString mo57059c() {
         return this.f104686c;
     }
 

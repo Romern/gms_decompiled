@@ -172,12 +172,12 @@ public final class mfp extends BackupTransport {
 
     public final RestoreSet[] getAvailableRestoreSets() {
         f33586a.mo25416d("List of available restore sets requested. Unsupported operation.", new Object[0]);
-        return new RestoreSet[]{new RestoreSet("D2D Restore Set", "D2dTransport", spn.m35843a(this.f33587b))};
+        return new RestoreSet[]{new RestoreSet("D2D Restore Set", "D2dTransport", spn.getAndroidId(this.f33587b))};
     }
 
     public final long getCurrentRestoreSet() {
         f33586a.mo25416d("Current restore set requested.", new Object[0]);
-        return spn.m35843a(this.f33587b);
+        return spn.getAndroidId(this.f33587b);
     }
 
     public final int getNextFullRestoreDataChunk(ParcelFileDescriptor parcelFileDescriptor) {
@@ -229,7 +229,7 @@ public final class mfp extends BackupTransport {
                     String key = backupDataInput.getKey();
                     int dataSize = backupDataInput.getDataSize();
                     if (dataSize < 0) {
-                        f33586a.mo25409a("Skipping negative data size key: %s", key);
+                        f33586a.logVerbose("Skipping negative data size key: %s", key);
                         backupDataInput.skipEntityData();
                     } else if (!packageInfo.packageName.equals("com.android.providers.settings") || !"network_policies".equals(key) || cckw.f179263a.mo6606a().mo76260y()) {
                         backupDataOutput.writeEntityHeader(key, dataSize);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bptl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bptl extends bxvk implements bxxd {
+public final class bptl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bptl f139138d;
@@ -22,7 +22,7 @@ public final class bptl extends bxvk implements bxxd {
     static {
         bptl bptl = new bptl();
         f139138d = bptl;
-        bxvk.m124024a(bptl.class, bptl);
+        GeneratedMessageLite.m124024a(bptl.class, bptl);
     }
 
     private bptl() {
@@ -39,7 +39,7 @@ public final class bptl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139138d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", bpfc.f137374a});
+            return GeneratedMessageLite.m124022a(f139138d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", bpfc.f137374a});
         } else if (i2 == 3) {
             return new bptl();
         } else {

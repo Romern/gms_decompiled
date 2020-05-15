@@ -236,7 +236,7 @@ public final class gej implements gcd {
                     hashSet.add(gcw.f17981e);
                     ArrayList arrayList = new ArrayList();
                     for (int i3 = 0; i3 < bxwc.size(); i3++) {
-                        arrayList.add(new DecodedToken(((bzwo) bxwc.get(i3)).f171661b.mo73780k(), i3));
+                        arrayList.add(new DecodedToken(((bzwo) bxwc.get(i3)).f171661b.getKey(), i3));
                     }
                     try {
                         ((gfm) gcw.f17980d).mo11767a(arrayList);
@@ -252,7 +252,7 @@ public final class gej implements gcd {
                         if (!it.hasNext()) {
                             break;
                         }
-                        this.f18044o.mo11751a((String) it.next(), 7, this.f18039j, bzwo.f171661b.mo73780k());
+                        this.f18044o.mo11751a((String) it.next(), 7, this.f18039j, bzwo.f171661b.getKey());
                     }
                     i2 = i;
                 }

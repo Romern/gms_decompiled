@@ -8,7 +8,7 @@ import android.bluetooth.le.BluetoothLeAdvertiser;
 public final class xtm {
 
     /* renamed from: g */
-    public static final sek f53067g = new sek(new String[]{"CableBleAdvertiser"}, (short[]) null);
+    public static final Logger f53067g = new Logger(new String[]{"CableBleAdvertiser"}, (short[]) null);
 
     /* renamed from: a */
     public final xwj f53068a;

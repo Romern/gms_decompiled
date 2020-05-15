@@ -63,7 +63,7 @@ final class reg implements rec {
             rea.mo24539a(SystemClock.elapsedRealtime(), System.currentTimeMillis());
             ConditionVariable conditionVariable = new ConditionVariable();
             AtomicReference atomicReference = new AtomicReference();
-            bxtv m = bxtx.m123270m();
+            bxtv m = ByteString.m123270m();
             Object obj = new Object();
             UrlRequest.Builder newUrlRequestBuilder = this.f42800d.newUrlRequestBuilder(this.f42799c, new red(m, atomicReference, conditionVariable), bqfb.INSTANCE);
             ((ExperimentalUrlRequest.Builder) newUrlRequestBuilder).addRequestAnnotation(obj);
@@ -95,11 +95,11 @@ final class reg implements rec {
                 String valueOf = String.valueOf(str4);
                 newUrlRequestBuilder.addHeader("Cookie", valueOf.length() != 0 ? new String("NID=") : "NID=".concat(valueOf));
                 newUrlRequestBuilder.allowDirectExecutor();
-                bxtv m2 = bxtx.m123270m();
+                bxtv m2 = ByteString.m123270m();
                 gZIPOutputStream = new GZIPOutputStream(m2);
                 gZIPOutputStream.write(rea.mo24544e());
                 gZIPOutputStream.close();
-                bxtx a = m2.mo73765a();
+                ByteString a = m2.mo73765a();
                 this.f42797a.mo24445a(caik, (long) a.mo73744a());
                 newUrlRequestBuilder.setUploadDataProvider(new ree(a), bqfb.INSTANCE);
                 UrlRequest build = newUrlRequestBuilder.build();
@@ -135,7 +135,7 @@ final class reg implements rec {
                                 }
                             }
                         }
-                        return new reb(m.mo73765a().mo73780k(), urlResponseInfo.getHttpStatusCode(), urlResponseInfo.getHttpStatusText());
+                        return new reb(m.mo73765a().getKey(), urlResponseInfo.getHttpStatusCode(), urlResponseInfo.getHttpStatusText());
                     }
                     throw new IOException((CronetException) obj2);
                 }
@@ -147,12 +147,12 @@ final class reg implements rec {
             String valueOf2 = String.valueOf(str4);
             newUrlRequestBuilder.addHeader("Cookie", valueOf2.length() != 0 ? new String("NID=") : "NID=".concat(valueOf2));
             newUrlRequestBuilder.allowDirectExecutor();
-            bxtv m22 = bxtx.m123270m();
+            bxtv m22 = ByteString.m123270m();
             gZIPOutputStream = new GZIPOutputStream(m22);
             try {
                 gZIPOutputStream.write(rea.mo24544e());
                 gZIPOutputStream.close();
-                bxtx a2 = m22.mo73765a();
+                ByteString a2 = m22.mo73765a();
                 this.f42797a.mo24445a(caik, (long) a2.mo73744a());
                 newUrlRequestBuilder.setUploadDataProvider(new ree(a2), bqfb.INSTANCE);
                 UrlRequest build2 = newUrlRequestBuilder.build();

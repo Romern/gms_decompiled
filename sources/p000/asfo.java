@@ -234,7 +234,7 @@ public final class asfo extends srp {
                     cakv cakv2 = cakv.f175064g;
                     caku6.getClass();
                     if (!cakv.f175067b.mo73666a()) {
-                        cakv.f175067b = bxvk.m124021a(cakv.f175067b);
+                        cakv.f175067b = GeneratedMessageLite.m124021a(cakv.f175067b);
                     }
                     cakv.f175067b.add(caku6);
                 } while (rawQuery.moveToNext());
@@ -288,7 +288,7 @@ public final class asfo extends srp {
                             cakv cakv4 = cakv.f175064g;
                             caku10.getClass();
                             if (!cakv3.f175068c.mo73666a()) {
-                                cakv3.f175068c = bxvk.m124021a(cakv3.f175068c);
+                                cakv3.f175068c = GeneratedMessageLite.m124021a(cakv3.f175068c);
                             }
                             cakv3.f175068c.add(caku10);
                             if (!rawQuery2.moveToNext()) {
@@ -321,7 +321,7 @@ public final class asfo extends srp {
                         cakv cakv5 = (cakv) bxvd2.f164949b;
                         caku13.getClass();
                         if (!cakv5.f175069d.mo73666a()) {
-                            cakv5.f175069d = bxvk.m124021a(cakv5.f175069d);
+                            cakv5.f175069d = GeneratedMessageLite.m124021a(cakv5.f175069d);
                         }
                         cakv5.f175069d.add(caku13);
                     }

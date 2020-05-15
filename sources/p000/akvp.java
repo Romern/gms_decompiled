@@ -17,7 +17,7 @@ final /* synthetic */ class akvp implements bmzi {
     /* renamed from: a */
     public final Object mo6606a() {
         Context context = this.f72967a;
-        sek sek = akvq.f72968a;
+        Logger Logger = akvq.f72968a;
         try {
             return C0272d.m5150a(context);
         } catch (IOException | rfv | rfw e) {

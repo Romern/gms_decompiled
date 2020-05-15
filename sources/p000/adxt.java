@@ -75,12 +75,12 @@ public final class adxt {
         String string = m51345f().getString(str, null);
         if (string != null) {
             try {
-                bsix = (bsix) bxvk.m124014a(bsix.f144763e, Base64.decode(string, 0));
+                bsix = (bsix) GeneratedMessageLite.m124014a(bsix.f144763e, Base64.decode(string, 0));
             } catch (bxwf e) {
                 bsix = bsix.f144763e;
             }
             bxvd bxvd = (bxvd) bsix.mo74142c(5);
-            bxvd.mo73625a((bxvk) bsix);
+            bxvd.mo73625a((GeneratedMessageLite) bsix);
             bsjk bsjk = ((bsix) bxvd.f164949b).f144765a;
             if (bsjk != null) {
                 long j = bsjk.f144809c;
@@ -96,7 +96,7 @@ public final class adxt {
         }
         bsix bsix2 = bsix.f144763e;
         bxvd bxvd2 = (bxvd) bsix2.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bsix2);
+        bxvd2.mo73625a((GeneratedMessageLite) bsix2);
         return bxvd2;
     }
 
@@ -184,7 +184,7 @@ public final class adxt {
 
     /* renamed from: a */
     private static final void m51336a(String str, bsix bsix) {
-        String encodeToString = Base64.encodeToString(bsix.mo73642k(), 0);
+        String encodeToString = Base64.encodeToString(bsix.serializeToBytes(), 0);
         SharedPreferences.Editor edit = m51345f().edit();
         edit.putString(str, encodeToString);
         edit.apply();

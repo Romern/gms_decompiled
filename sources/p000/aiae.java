@@ -43,8 +43,8 @@ public final class aiae {
         String str = ahyw.f68399h;
         String str2 = ahyw.f68400i;
         Integer valueOf = Integer.valueOf(ahyw.f68394c);
-        if (!ahyw.f68413w.equals(bxtx.f164797b)) {
-            bArr = ahyw.f68413w.mo73780k();
+        if (!ahyw.f68413w.equals(ByteString.f164797b)) {
+            bArr = ahyw.f68413w.getKey();
         } else {
             bArr = null;
         }

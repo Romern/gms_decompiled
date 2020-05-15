@@ -136,7 +136,7 @@ public final class lbu implements lch {
             lau lau = (lau) da.f164949b;
             lau.f25617c = false;
             lau.f25621g = lat.m18861a(4);
-            bArr = ((lau) da.mo74062i()).mo73642k();
+            bArr = ((lau) da.mo74062i()).serializeToBytes();
         } else {
             bArr = new byte[0];
         }

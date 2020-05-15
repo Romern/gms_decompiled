@@ -13,7 +13,7 @@ import com.google.android.gms.fido.u2f.api.view.ViewOptions;
 public final class ycw extends yct implements View.OnClickListener {
 
     /* renamed from: a */
-    private static final sek f53636a = new sek(new String[]{"NfcEnableFragment"}, (short[]) null);
+    private static final Logger f53636a = new Logger(new String[]{"NfcEnableFragment"}, (short[]) null);
 
     /* renamed from: a */
     public static ycw m43821a(ViewOptions viewOptions) {

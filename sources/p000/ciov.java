@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ciov */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ciov extends bxvk implements bxxd {
+public final class ciov extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final ciov f191144i;
@@ -37,7 +37,7 @@ public final class ciov extends bxvk implements bxxd {
     static {
         ciov ciov = new ciov();
         f191144i = ciov;
-        bxvk.m124024a(ciov.class, ciov);
+        GeneratedMessageLite.m124024a(ciov.class, ciov);
     }
 
     private ciov() {
@@ -54,7 +54,7 @@ public final class ciov extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191144i, "\u0000\b\u0000\u0000\u0001\b\b\u0000\u0003\u0000\u0001\u001b\u0002\u0007\u0003Ț\u0004'\u0005\u0007\u0006Ȉ\u0007\u0007\b\u0004", new Object[]{"a", cipb.class, "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f191144i, "\u0000\b\u0000\u0000\u0001\b\b\u0000\u0003\u0000\u0001\u001b\u0002\u0007\u0003Ț\u0004'\u0005\u0007\u0006Ȉ\u0007\u0007\b\u0004", new Object[]{"a", cipb.class, "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new ciov();
         } else {

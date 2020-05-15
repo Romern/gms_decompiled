@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ltf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ltf extends bxvk implements bxxd {
+public final class ltf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final ltf f32903d;
@@ -22,7 +22,7 @@ public final class ltf extends bxvk implements bxxd {
     static {
         ltf ltf = new ltf();
         f32903d = ltf;
-        bxvk.m124024a(ltf.class, ltf);
+        GeneratedMessageLite.m124024a(ltf.class, ltf);
     }
 
     private ltf() {
@@ -39,7 +39,7 @@ public final class ltf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f32903d, "\u0001\u0002\u0000\u0001&'\u0002\u0000\u0000\u0000&ဈ\u0000'ဉ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f32903d, "\u0001\u0002\u0000\u0001&'\u0002\u0000\u0000\u0000&ဈ\u0000'ဉ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new ltf();
         } else {

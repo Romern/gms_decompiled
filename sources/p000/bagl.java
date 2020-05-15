@@ -67,7 +67,7 @@ public final class bagl extends cazu {
             bagc.m86831a(b, bygz, byid, bafl, l, l2, num, (bara) list.get(7));
             return bqga.m112775a((Object) null);
         } catch (baow e) {
-            ((achw) b.mo16713a()).mo25409a("Delta exception thrown when delta wasn't requested!", new Object[0]);
+            ((achw) b.mo16713a()).logVerbose("Delta exception thrown when delta wasn't requested!", new Object[0]);
             throw new AssertionError(e);
         }
     }

@@ -60,7 +60,7 @@ public final class bglr extends bgls implements bugl, bugo {
             buig.f153937b = j;
             buig.f153936a = i | 2;
             buig.f153938c = j2;
-            byte[] k = ((buig) da.mo74062i()).mo73642k();
+            byte[] k = ((buig) da.mo74062i()).serializeToBytes();
             int length = k.length;
             StringBuilder sb = new StringBuilder(48);
             sb.append("sending client-request msg of length ");

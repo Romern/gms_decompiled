@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cafu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cafu extends bxvk implements bxxd {
+public final class cafu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: X */
     public static final cafu f172965X;
@@ -160,7 +160,7 @@ public final class cafu extends bxvk implements bxxd {
     static {
         cafu cafu = new cafu();
         f172965X = cafu;
-        bxvk.m124024a(cafu.class, cafu);
+        GeneratedMessageLite.m124024a(cafu.class, cafu);
     }
 
     private cafu() {
@@ -177,7 +177,7 @@ public final class cafu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172965X, "\u0001/\u0000\u0002\u00011/\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0006\bင\u0007\tင\b\nင\t\u000bင\n\fင\u000b\rင\r\u000eင\u000e\u000fင\u000f\u0010င\u0010\u0011င\u0011\u0012င\u0012\u0014င\u0014\u0015င\u0015\u0016င\u0016\u0017င\u0017\u0018င\u0018\u0019င\u0019\u001aင\u001a\u001bင\u001b\u001cင\u001d\u001dင\u001e\u001eင\u001f\u001fင  င!!င\"\"င##င$$င%%င&&င''င((င))င**င+,င\u001c-င\f.င,/င-0င/1င.", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "D", "o", "T", "U", "W", "V"});
+            return GeneratedMessageLite.m124022a(f172965X, "\u0001/\u0000\u0002\u00011/\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0006\bင\u0007\tင\b\nင\t\u000bင\n\fင\u000b\rင\r\u000eင\u000e\u000fင\u000f\u0010င\u0010\u0011င\u0011\u0012င\u0012\u0014င\u0014\u0015င\u0015\u0016င\u0016\u0017င\u0017\u0018င\u0018\u0019င\u0019\u001aင\u001a\u001bင\u001b\u001cင\u001d\u001dင\u001e\u001eင\u001f\u001fင  င!!င\"\"င##င$$င%%င&&င''င((င))င**င+,င\u001c-င\f.င,/င-0င/1င.", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "D", "o", "T", "U", "W", "V"});
         } else if (i2 == 3) {
             return new cafu();
         } else {

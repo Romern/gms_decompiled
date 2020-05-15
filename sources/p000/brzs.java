@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brzs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brzs extends bxvk implements bxxd {
+public final class brzs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final brzs f143779f;
@@ -20,10 +20,10 @@ public final class brzs extends bxvk implements bxxd {
     public String f143783c = "";
 
     /* renamed from: d */
-    public bxtx f143784d = bxtx.f164797b;
+    public ByteString f143784d = ByteString.f164797b;
 
     /* renamed from: e */
-    public bxtx f143785e = bxtx.f164797b;
+    public ByteString f143785e = ByteString.f164797b;
 
     /* renamed from: g */
     private int f143786g;
@@ -31,7 +31,7 @@ public final class brzs extends bxvk implements bxxd {
     static {
         brzs brzs = new brzs();
         f143779f = brzs;
-        bxvk.m124024a(brzs.class, brzs);
+        GeneratedMessageLite.m124024a(brzs.class, brzs);
     }
 
     private brzs() {
@@ -48,7 +48,7 @@ public final class brzs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f143779f, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001င\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ည\u0003\u0005ည\u0004", new Object[]{"g", "a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f143779f, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001င\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ည\u0003\u0005ည\u0004", new Object[]{"g", "a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new brzs();
         } else {

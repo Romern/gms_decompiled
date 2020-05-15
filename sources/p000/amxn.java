@@ -299,7 +299,7 @@ public final class amxn extends amxs {
             r9.mo74035c()     // Catch:{ all -> 0x019f }
             r9.f164950c = r3     // Catch:{ all -> 0x019f }
         L_0x013b:
-            bxvk r8 = r9.f164949b     // Catch:{ all -> 0x019f }
+            GeneratedMessageLite r8 = r9.f164949b     // Catch:{ all -> 0x019f }
             amvh r8 = (p000.amvh) r8     // Catch:{ all -> 0x019f }
             amvh r10 = p000.amvh.f76004g     // Catch:{ all -> 0x019f }
             r7.getClass()     // Catch:{ all -> 0x019f }
@@ -307,7 +307,7 @@ public final class amxn extends amxs {
             r10 = r10 | 8
             r8.f76006a = r10     // Catch:{ all -> 0x019f }
             r8.f76010e = r7     // Catch:{ all -> 0x019f }
-            bxvk r7 = r9.mo74062i()     // Catch:{ all -> 0x019f }
+            GeneratedMessageLite r7 = r9.mo74062i()     // Catch:{ all -> 0x019f }
             amvh r7 = (p000.amvh) r7     // Catch:{ all -> 0x019f }
             r5.mo41488a(r7)     // Catch:{ all -> 0x019f }
             goto L_0x005d

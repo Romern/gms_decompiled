@@ -38,7 +38,7 @@ import org.json.JSONObject;
 public final class xrf extends xhp implements xom, xny, xzq {
 
     /* renamed from: q */
-    public static final sek f52973q = new sek(new String[]{"Fido2RequestController"}, (short[]) null);
+    public static final Logger f52973q = new Logger(new String[]{"Fido2RequestController"}, (short[]) null);
 
     /* renamed from: r */
     private static final long f52974r = TimeUnit.SECONDS.toMillis(300);
@@ -326,12 +326,12 @@ public final class xrf extends xhp implements xom, xny, xzq {
     /* renamed from: a */
     public final void mo30060a(bmxv bmxv, Uri uri) {
         if (!bmxv.mo66813a()) {
-            sek sek = f52973q;
+            Logger Logger = f52973q;
             String valueOf = String.valueOf(this.f52976n);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 69);
             sb.append("AppId specified by AuthenticationExtension is not allowed for caller ");
             sb.append(valueOf);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
             this.f52985y = null;
         } else {
             this.f52985y = uri;

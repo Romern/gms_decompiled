@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: borm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class borm extends bxvk implements bxxd {
+public final class borm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: t */
     public static final borm f134436t;
@@ -70,7 +70,7 @@ public final class borm extends bxvk implements bxxd {
     static {
         borm borm = new borm();
         f134436t = borm;
-        bxvk.m124024a(borm.class, borm);
+        GeneratedMessageLite.m124024a(borm.class, borm);
     }
 
     private borm() {
@@ -88,7 +88,7 @@ public final class borm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134436t, "\u0001\u0012\u0000\u0001\u0001\u0017\u0012\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005င\u0005\u0006ဇ\u0007\u0007ဇ\b\bဉ\t\tဇ\u000b\nင\f\u000bဉ\n\fဉ\r\rဈ\u000e\u000eဈ\u000f\u0014ဇ\u0011\u0015င\u0012\u0016ဉ\u0004\u0017င\u0010", new Object[]{"a", "b", "c", "d", "e", "g", "h", "i", "j", "l", "m", "k", "n", "o", "p", "r", "s", "f", "q"});
+            return GeneratedMessageLite.m124022a(f134436t, "\u0001\u0012\u0000\u0001\u0001\u0017\u0012\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005င\u0005\u0006ဇ\u0007\u0007ဇ\b\bဉ\t\tဇ\u000b\nင\f\u000bဉ\n\fဉ\r\rဈ\u000e\u000eဈ\u000f\u0014ဇ\u0011\u0015င\u0012\u0016ဉ\u0004\u0017င\u0010", new Object[]{"a", "b", "c", "d", "e", "g", "h", "i", "j", "l", "m", "k", "n", "o", "p", "r", "s", "f", "q"});
         } else if (i2 == 3) {
             return new borm();
         } else {

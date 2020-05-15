@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abuf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abuf extends bxvk implements bxxd {
+public final class abuf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final abuf f58379b;
@@ -11,7 +11,7 @@ public final class abuf extends bxvk implements bxxd {
     private static volatile bxxk f58380d;
 
     /* renamed from: a */
-    public bxtx f58381a = bxtx.f164797b;
+    public ByteString f58381a = ByteString.f164797b;
 
     /* renamed from: c */
     private int f58382c;
@@ -19,7 +19,7 @@ public final class abuf extends bxvk implements bxxd {
     static {
         abuf abuf = new abuf();
         f58379b = abuf;
-        bxvk.m124024a(abuf.class, abuf);
+        GeneratedMessageLite.m124024a(abuf.class, abuf);
     }
 
     private abuf() {
@@ -36,7 +36,7 @@ public final class abuf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58379b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f58379b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new abuf();
         } else {

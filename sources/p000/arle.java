@@ -24,7 +24,7 @@ final class arle implements Callable {
         areb areb = this.f87842b.f87787a;
         BootstrapProgressResult bootstrapProgressResult = this.f87841a;
         areb areb2 = ((arey) areb).f87552a;
-        arps.f88090a.mo25409a("TargetBootstrapListener.onProgress()", new Object[0]);
+        arps.f88090a.logVerbose("TargetBootstrapListener.onProgress()", new Object[0]);
         arpp arpp = (arpp) areb2;
         arps arps = arpp.f88084a;
         arps.f88094e = bootstrapProgressResult.f107855b;
@@ -43,7 +43,7 @@ final class arle implements Callable {
                 }
             }
         } else if (i == 2) {
-            arps.f88090a.mo25409a("Wifi setup", new Object[0]);
+            arps.f88090a.logVerbose("Wifi setup", new Object[0]);
         } else if (i == 3) {
             arpp.f88084a.f88099j = true;
         } else if (i == 4) {
@@ -57,7 +57,7 @@ final class arle implements Callable {
         } else if (i == 5) {
             arpp.f88084a.f88098i.mo48630a(7);
         } else if (i != 7) {
-            arps.f88090a.mo25409a("Unknown progress event", new Object[0]);
+            arps.f88090a.logVerbose("Unknown progress event", new Object[0]);
         } else {
             arpp.f88084a.f88098i.mo48630a(12);
         }

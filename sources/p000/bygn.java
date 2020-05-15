@@ -16,7 +16,7 @@ public final class bygn extends bxvg implements bxvh {
     static {
         bygn bygn = new bygn();
         f166357a = bygn;
-        bxvk.m124024a(bygn.class, bygn);
+        GeneratedMessageLite.m124024a(bygn.class, bygn);
     }
 
     private bygn() {
@@ -37,7 +37,7 @@ public final class bygn extends bxvg implements bxvh {
             this.f166359b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f166357a, "\u0003\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f166357a, "\u0003\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new bygn();

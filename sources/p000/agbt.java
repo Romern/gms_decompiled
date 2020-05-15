@@ -142,7 +142,7 @@ public final class agbt {
                     bnsl bnsl = (bnsl) f65168a.f65218b.mo68387b();
                     bnsl.mo68432a("agbt", "a", 466, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                     bnsl.mo68405a("Recovered from the state where the phone can't receive any multicast response");
-                    qwo a2 = this.f65176f.mo24335a(mo35207c().mo73642k());
+                    qwo a2 = this.f65176f.mo24335a(mo35207c().serializeToBytes());
                     a2.mo24328b((int) BaseMfiEventCallback.TYPE_OPSRV_ACCOUNT_ERROR);
                     a2.mo24327b();
                 }
@@ -357,14 +357,14 @@ public final class agbt {
     public final void mo35206b(int i) {
         bpsz c = mo35207c();
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bpsy bpsy = (bpsy) bxvd;
         if (bpsy.f164950c) {
             bpsy.mo74035c();
             bpsy.f164950c = false;
         }
         bpsz bpsz = bpsz.f139036I;
-        ((bpsz) bpsy.f164949b).f139058l = bxvk.m124030de();
+        ((bpsz) bpsy.f164949b).f139058l = GeneratedMessageLite.m124030de();
         bxvd da = bptg.f139107c.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -374,7 +374,7 @@ public final class agbt {
         bptg.f139109a |= 1;
         bptg.f139110b = i;
         bpsy.mo68981a((bptg) da.mo74062i());
-        qwo a = this.f65176f.mo24335a(((bpsz) bpsy.mo74062i()).mo73642k());
+        qwo a = this.f65176f.mo24335a(((bpsz) bpsy.mo74062i()).serializeToBytes());
         a.mo24328b((int) BaseMfiEventCallback.TYPE_ISSUE_LIMIT_EXCEEDED);
         a.mo24327b();
     }
@@ -401,14 +401,14 @@ public final class agbt {
                 int size = this.f65193w.size();
                 bpsz c = mo35207c();
                 bxvd bxvd = (bxvd) c.mo74142c(5);
-                bxvd.mo73625a((bxvk) c);
+                bxvd.mo73625a((GeneratedMessageLite) c);
                 bpsy bpsy = (bpsy) bxvd;
                 if (bpsy.f164950c) {
                     bpsy.mo74035c();
                     bpsy.f164950c = false;
                 }
                 bpsz bpsz = bpsz.f139036I;
-                ((bpsz) bpsy.f164949b).f139058l = bxvk.m124030de();
+                ((bpsz) bpsy.f164949b).f139058l = GeneratedMessageLite.m124030de();
                 bxvd da = bptg.f139107c.mo74144da();
                 if (da.f164950c) {
                     da.mo74035c();
@@ -418,7 +418,7 @@ public final class agbt {
                 bptg.f139109a |= 1;
                 bptg.f139110b = size;
                 bpsy.mo68981a((bptg) da.mo74062i());
-                qwo a = this.f65176f.mo24335a(((bpsz) bpsy.mo74062i()).mo73642k());
+                qwo a = this.f65176f.mo24335a(((bpsz) bpsy.mo74062i()).serializeToBytes());
                 a.mo24328b((int) BaseMfiEventCallback.TYPE_EXIST_UNKNOWN_CARD);
                 a.mo24327b();
             }
@@ -621,7 +621,7 @@ public final class agbt {
                                 bnsl bnsl = (bnsl) f65168a.f65218b.mo68387b();
                                 bnsl.mo68432a("agbt", "a", 466, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                                 bnsl.mo68405a("Recovered from the state where the phone can't receive any multicast response");
-                                qwo a2 = this.f65176f.mo24335a(mo35207c().mo73642k());
+                                qwo a2 = this.f65176f.mo24335a(mo35207c().serializeToBytes());
                                 a2.mo24328b((int) BaseMfiEventCallback.TYPE_OPSRV_ACCOUNT_ERROR);
                                 a2.mo24327b();
                             }

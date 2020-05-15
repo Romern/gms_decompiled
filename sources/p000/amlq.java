@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amlq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amlq extends bxvk implements bxxd {
+public final class amlq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final amlq f75203f;
@@ -28,7 +28,7 @@ public final class amlq extends bxvk implements bxxd {
     static {
         amlq amlq = new amlq();
         f75203f = amlq;
-        bxvk.m124024a(amlq.class, amlq);
+        GeneratedMessageLite.m124024a(amlq.class, amlq);
     }
 
     private amlq() {
@@ -45,7 +45,7 @@ public final class amlq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75203f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001င\u0000\u0002ဌ\u0001\u0003\u001b\u0004ဉ\u0002", new Object[]{"a", "b", "c", amlp.f75202a, "d", amln.class, "e"});
+            return GeneratedMessageLite.m124022a(f75203f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001င\u0000\u0002ဌ\u0001\u0003\u001b\u0004ဉ\u0002", new Object[]{"a", "b", "c", amlp.f75202a, "d", amln.class, "e"});
         } else if (i2 == 3) {
             return new amlq();
         } else {

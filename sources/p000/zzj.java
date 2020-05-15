@@ -57,13 +57,13 @@ public final class zzj {
     private final zyv f56300n;
 
     public zzj(zxv zxv, zxw zxw, zxf zxf, zyv zyv, Context context) {
-        sdo.m34966a(zxv, "disk");
+        sdo.checkIfNull(zxv, "disk");
         this.f56291e = zxv;
-        sdo.m34966a(zxw, "downloader");
+        sdo.checkIfNull(zxw, "downloader");
         this.f56292f = zxw;
-        sdo.m34966a(zxf, "directorySpec");
+        sdo.checkIfNull(zxf, "directorySpec");
         this.f56293g = zxf;
-        sdo.m34966a(zyv, "fontDirectory");
+        sdo.checkIfNull(zyv, "fontDirectory");
         this.f56300n = zyv;
         this.f56298l = context;
     }
@@ -247,7 +247,7 @@ public final class zzj {
                                         if (zxf3 == null) {
                                             zxf3 = zxf.f56084e;
                                         }
-                                        set.add(C1240of.m19758a(a3, String.valueOf(zxp.m46640a(zxf3.f56089d.mo73780k())).concat(".ttf")));
+                                        set.add(C1240of.m19758a(a3, String.valueOf(zxp.m46640a(zxf3.f56089d.getKey())).concat(".ttf")));
                                         i9++;
                                     }
                                     if (this.f56299m != 1) {
@@ -279,7 +279,7 @@ public final class zzj {
                                     if (zxf4 == null) {
                                         zxf4 = zxf.f56084e;
                                     }
-                                    this.f56291e.mo31568a(zxw.mo31577a(String.valueOf(zxp.m46640a(zxf4.f56089d.mo73780k())).concat(".ttf")), zxi4, zxh3);
+                                    this.f56291e.mo31568a(zxw.mo31577a(String.valueOf(zxp.m46640a(zxf4.f56089d.getKey())).concat(".ttf")), zxi4, zxh3);
                                     zyh.m46683c("FontsUpdateRunner", "Successfully moved %s to disk for directory v %d", zxi4.f56105b, Integer.valueOf(this.f56294h.f56082b));
                                 }
                             }

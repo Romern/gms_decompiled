@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btoq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btoq extends bxvk implements bxxd {
+public final class btoq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final btoq f149787g;
@@ -31,7 +31,7 @@ public final class btoq extends bxvk implements bxxd {
     static {
         btoq btoq = new btoq();
         f149787g = btoq;
-        bxvk.m124024a(btoq.class, btoq);
+        GeneratedMessageLite.m124024a(btoq.class, btoq);
     }
 
     private btoq() {
@@ -48,7 +48,7 @@ public final class btoq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149787g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0001\u0000\u0001Ȉ\u0002\t\u0003\u0002\u0004\t\u0005\t\u0006\u001c", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f149787g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0001\u0000\u0001Ȉ\u0002\t\u0003\u0002\u0004\t\u0005\t\u0006\u001c", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new btoq();
         } else {

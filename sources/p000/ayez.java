@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayez */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayez extends bxvk implements bxxd {
+public final class ayez extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final ayez f97415i;
@@ -20,7 +20,7 @@ public final class ayez extends bxvk implements bxxd {
     public String f97419c = "";
 
     /* renamed from: d */
-    public bxtx f97420d = bxtx.f164797b;
+    public ByteString f97420d = ByteString.f164797b;
 
     /* renamed from: e */
     public long f97421e;
@@ -43,7 +43,7 @@ public final class ayez extends bxvk implements bxxd {
     static {
         ayez ayez = new ayez();
         f97415i = ayez;
-        bxvk.m124024a(ayez.class, ayez);
+        GeneratedMessageLite.m124024a(ayez.class, ayez);
     }
 
     private ayez() {
@@ -64,7 +64,7 @@ public final class ayez extends bxvk implements bxxd {
             this.f97426k = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f97415i, "\u0001\b\u0000\u0001\u0001\t\b\u0000\u0001\u0004\u0001ᔈ\u0000\u0002ᔈ\u0002\u0004ည\u0003\u0005ဂ\u0004\u0006ဇ\u0005\u0007ဈ\u0006\bЛ\tᔈ\u0001", new Object[]{"j", "a", "c", "d", "e", "f", "g", "h", ayef.class, "b"});
+            return GeneratedMessageLite.m124022a(f97415i, "\u0001\b\u0000\u0001\u0001\t\b\u0000\u0001\u0004\u0001ᔈ\u0000\u0002ᔈ\u0002\u0004ည\u0003\u0005ဂ\u0004\u0006ဇ\u0005\u0007ဈ\u0006\bЛ\tᔈ\u0001", new Object[]{"j", "a", "c", "d", "e", "f", "g", "h", ayef.class, "b"});
         } else if (i2 == 3) {
             return new ayez();
         } else {

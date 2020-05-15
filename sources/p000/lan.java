@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lan */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lan extends bxvk implements bxxd {
+public final class lan extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final lan f25571j;
@@ -40,7 +40,7 @@ public final class lan extends bxvk implements bxxd {
     static {
         lan lan = new lan();
         f25571j = lan;
-        bxvk.m124024a(lan.class, lan);
+        GeneratedMessageLite.m124024a(lan.class, lan);
     }
 
     private lan() {
@@ -57,7 +57,7 @@ public final class lan extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25571j, "\u0000\t\u0000\u0000\u0001\t\t\u0000\u0000\u0000\u0001\t\u0002\u0004\u0003\u0002\u0004\u0007\u0005\u0007\u0006\f\u0007\u0007\b\u0007\t\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f25571j, "\u0000\t\u0000\u0000\u0001\t\t\u0000\u0000\u0000\u0001\t\u0002\u0004\u0003\u0002\u0004\u0007\u0005\u0007\u0006\f\u0007\u0007\b\u0007\t\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new lan();
         } else {

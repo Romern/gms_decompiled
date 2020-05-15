@@ -97,7 +97,7 @@ public final class gie extends gik {
         if (cbyz.m128936b() && gik.m13210a(context)) {
             goh a = goi.m13611a(context);
             GetAccountsRequest getAccountsRequest = new GetAccountsRequest(str, strArr);
-            sdo.m34966a(getAccountsRequest, "request cannot be null.");
+            sdo.checkIfNull(getAccountsRequest, "request cannot be null.");
             roz b = rpa.m34196b();
             b.f43473b = new Feature[]{ghy.f18279e};
             b.f43472a = new gps(getAccountsRequest);

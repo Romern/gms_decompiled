@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abup */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abup extends bxvk implements bxxd {
+public final class abup extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final abup f58444f;
@@ -28,7 +28,7 @@ public final class abup extends bxvk implements bxxd {
     static {
         abup abup = new abup();
         f58444f = abup;
-        bxvk.m124024a(abup.class, abup);
+        GeneratedMessageLite.m124024a(abup.class, abup);
     }
 
     private abup() {
@@ -45,7 +45,7 @@ public final class abup extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58444f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဋ\u0000\u0002ဋ\u0001\u0003ဇ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f58444f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဋ\u0000\u0002ဋ\u0001\u0003ဇ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new abup();
         } else {

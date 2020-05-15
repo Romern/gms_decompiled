@@ -28,7 +28,7 @@ public final class jcm {
     public static final imn f22159a = new jcl();
 
     /* renamed from: b */
-    public static final sek f22160b = jdh.m16547a("FolsomSyncManager");
+    public static final Logger f22160b = jdh.m16547a("FolsomSyncManager");
 
     /* renamed from: c */
     public final jcf f22161c = ((jcf) jcf.f22150a.mo13145b());
@@ -40,7 +40,7 @@ public final class jcm {
     private final Object f22163e;
 
     public jcm() {
-        sek sek = jcs.f22185a;
+        Logger Logger = jcs.f22185a;
         this.f22163e = new Object();
     }
 
@@ -91,8 +91,8 @@ public final class jcm {
     private final bqmr m16499a(Account account, String str, jbg jbg) {
         try {
             sdo.m34959a((Object) str);
-            bxtx bxtx = m16508b(account).f22086a;
-            byte[] a = m16506a(m16507b(bxtx.mo73780k()), jbg.f22093b.mo73780k());
+            ByteString bxtx = m16508b(account).f22086a;
+            byte[] a = m16506a(m16507b(bxtx.getKey()), jbg.f22093b.getKey());
             bxvd da = bqmw.f141272c.mo74144da();
             if (da.f164950c) {
                 da.mo74035c();
@@ -107,7 +107,7 @@ public final class jcm {
                 da2.f164950c = false;
             }
             ((bqmy) da2.f164949b).f141282a = i;
-            bxtx a2 = bxtx.m123261a(a);
+            ByteString a2 = bxtx.m123261a(a);
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -122,7 +122,7 @@ public final class jcm {
             bqmy bqmy = (bqmy) da2.mo74062i();
             bqmy.getClass();
             if (!bqmw.f141275b.mo73666a()) {
-                bqmw.f141275b = bxvk.m124021a(bqmw.f141275b);
+                bqmw.f141275b = GeneratedMessageLite.m124021a(bqmw.f141275b);
             }
             bqmw.f141275b.add(bqmy);
             bqmw bqmw2 = (bqmw) da.mo74062i();
@@ -136,7 +136,7 @@ public final class jcm {
             bqmx.f141278a = str;
             bqmw2.getClass();
             if (!bqmx.f141279b.mo73666a()) {
-                bqmx.f141279b = bxvk.m124021a(bqmx.f141279b);
+                bqmx.f141279b = GeneratedMessageLite.m124021a(bqmx.f141279b);
             }
             bqmx.f141279b.add(bqmw2);
             bqmx bqmx2 = (bqmx) da3.mo74062i();
@@ -148,7 +148,7 @@ public final class jcm {
             bqmp bqmp = (bqmp) da4.f164949b;
             bqmx2.getClass();
             if (!bqmp.f141248a.mo73666a()) {
-                bqmp.f141248a = bxvk.m124021a(bqmp.f141248a);
+                bqmp.f141248a = GeneratedMessageLite.m124021a(bqmp.f141248a);
             }
             bqmp.f141248a.add(bqmx2);
             return (bqmr) jbu.m16476a(rpr.m34216b(), account).mo13566a(new jbr((bqmp) da4.mo74062i()));
@@ -212,7 +212,7 @@ public final class jcm {
                 da.f164950c = false;
             }
             ((jbg) da.f164949b).f22092a = 0;
-            bxtx a = bxtx.m123261a(encoded);
+            ByteString a = ByteString.m123261a(encoded);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -236,14 +236,14 @@ public final class jcm {
                         byte[] a2 = bslu.m115954a(a.getPublic());
                         byte[] b = bslu.m115958b(a.getPrivate(), a.getPublic());
                         bxvd da = jbf.f22084e.mo74144da();
-                        bxtx a3 = bxtx.m123261a(a2);
+                        ByteString a3 = ByteString.m123261a(a2);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
                         }
                         a3.getClass();
                         ((jbf) da.f164949b).f22086a = a3;
-                        bxtx a4 = bxtx.m123261a(b);
+                        ByteString a4 = ByteString.m123261a(b);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -448,7 +448,7 @@ public final class jcm {
         bmxv bmxv;
         Iterator it;
         Iterator it2;
-        bxtx bxtx;
+        ByteString bxtx;
         PrivateKey privateKey;
         jcp jcp2 = jcp;
         synchronized (this.f22163e) {
@@ -517,8 +517,8 @@ public final class jcm {
                                     ((bqms) da.f164949b).f141258a = 1;
                                     bxwc bxwc2 = ((bqmt) jbu.m16476a(rpr.m34216b(), account2).mo13566a(new jbs((bqms) da.mo74062i()))).f141261a;
                                     jbf b = m16508b(account2);
-                                    bxtx bxtx2 = b.f22086a;
-                                    PrivateKey a = m16500a(b.f22087b.mo73780k());
+                                    ByteString bxtx2 = b.f22086a;
+                                    PrivateKey a = m16500a(b.f22087b.getKey());
                                     Iterator it3 = bxwc2.iterator();
                                     while (it.hasNext()) {
                                         bqmx bqmx = (bqmx) it.next();
@@ -568,7 +568,7 @@ public final class jcm {
                                         String str3 = bqmq.f141251a;
                                         int i4 = bqmq.f141252b;
                                         bxvd bxvd = (bxvd) a2.mo74142c(5);
-                                        bxvd.mo73625a((bxvk) a2);
+                                        bxvd.mo73625a((GeneratedMessageLite) a2);
                                         if (bxvd.f164950c) {
                                             bxvd.mo74035c();
                                             bxvd.f164950c = false;

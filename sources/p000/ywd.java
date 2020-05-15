@@ -267,7 +267,7 @@ public final class ywd {
                         default:
                             j = j3;
                             if (!((caaw.f172381a & 8) == 0 || caaw.f172388h.mo73744a() == 0)) {
-                                byte[] k = caaw.f172388h.mo73780k();
+                                byte[] k = caaw.f172388h.getKey();
                                 sdo.m34971a(value.f32181a == 7, (Object) "Attempting to set an blob value to a field that is not in BLOB format. Please check the data type definition and use the right format.");
                                 value.f32182b = true;
                                 value.f32188h = k;

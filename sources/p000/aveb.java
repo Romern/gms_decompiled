@@ -21,7 +21,7 @@ public final class aveb extends avdz {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final void mo51177a(avdo avdo) {
-        avdo.mo51174d(this.f93006a, this.f93007b.mo73642k());
+        avdo.mo51174d(this.f93006a, this.f93007b.serializeToBytes());
     }
 
     /* access modifiers changed from: protected */

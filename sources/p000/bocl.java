@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bocl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bocl extends bxvk implements bxxd {
+public final class bocl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bocl f132567d;
@@ -22,7 +22,7 @@ public final class bocl extends bxvk implements bxxd {
     static {
         bocl bocl = new bocl();
         f132567d = bocl;
-        bxvk.m124024a(bocl.class, bocl);
+        GeneratedMessageLite.m124024a(bocl.class, bocl);
     }
 
     private bocl() {
@@ -39,7 +39,7 @@ public final class bocl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132567d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", bock.f132566a});
+            return GeneratedMessageLite.m124022a(f132567d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", bock.f132566a});
         } else if (i2 == 3) {
             return new bocl();
         } else {

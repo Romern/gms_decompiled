@@ -10,7 +10,7 @@ import java.util.List;
 public final class avlz {
 
     /* renamed from: a */
-    private static final sek f93353a = avpq.m79016c("PackagePropertyFiles");
+    private static final Logger f93353a = avpq.m79016c("PackagePropertyFiles");
 
     /* renamed from: b */
     private static final bnic f93354b = bnic.m109491a("metadata", "payload.bin", "payload_properties.txt");
@@ -35,7 +35,7 @@ public final class avlz {
                         throw new IOException(String.format("Invalid tokens: [%s].", str2));
                     }
                     linkedHashMap.put(str3, new avly(str3, parseLong, parseLong2));
-                    f93353a.mo25409a("Found tokens: filename=%s, offset=%d, size=%d.", str3, Long.valueOf(parseLong), Long.valueOf(parseLong2));
+                    f93353a.logVerbose("Found tokens: filename=%s, offset=%d, size=%d.", str3, Long.valueOf(parseLong), Long.valueOf(parseLong2));
                 } catch (NumberFormatException e) {
                     throw new IOException(String.format("Invalid tokens: [%s].", str2), e);
                 }

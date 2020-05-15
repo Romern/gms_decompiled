@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: quk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class quk extends bxvk implements bxxd {
+public final class quk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final quk f42153e;
@@ -17,19 +17,19 @@ public final class quk extends bxvk implements bxxd {
     public String f42156b = "";
 
     /* renamed from: c */
-    public bxtx f42157c;
+    public ByteString f42157c;
 
     /* renamed from: d */
-    public bxtx f42158d;
+    public ByteString f42158d;
 
     static {
         quk quk = new quk();
         f42153e = quk;
-        bxvk.m124024a(quk.class, quk);
+        GeneratedMessageLite.m124024a(quk.class, quk);
     }
 
     private quk() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
         this.f42157c = bxtx.f164797b;
         this.f42158d = bxtx.f164797b;
     }
@@ -45,7 +45,7 @@ public final class quk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f42153e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0003ည\u0002\u0004ည\u0003", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f42153e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0003ည\u0002\u0004ည\u0003", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new quk();
         } else {

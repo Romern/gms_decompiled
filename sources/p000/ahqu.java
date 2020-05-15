@@ -108,7 +108,7 @@ public final class ahqu implements Callable {
                 buuq.f154974a |= 2;
                 buuq.f154976c = j2;
                 if (a5 != null) {
-                    bxtx a6 = bxtx.m123261a(a5);
+                    ByteString a6 = ByteString.m123261a(a5);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -146,7 +146,7 @@ public final class ahqu implements Callable {
                 buuq4.getClass();
                 buuu.f154990d = buuq4;
                 buuu.f154987a = i5 | 4;
-                List a7 = ahnp.mo36891a(list, ahoy.m56304a(buuw.PAYLOAD_TRANSFER, da2.mo74062i()).mo73642k(), buut2.f154982b, buuq4.f154976c, "DATA");
+                List a7 = ahnp.mo36891a(list, ahoy.m56304a(buuw.PAYLOAD_TRANSFER, da2.mo74062i()).serializeToBytes(), buut2.f154982b, buuq4.f154976c, "DATA");
                 if (!a7.isEmpty()) {
                     ahqv ahqv3 = this.f67834d;
                     ahqv3.f67838d.mo36992a(ahqv3.f67837c, a7, this.f67833c, this.f67831a, bvih.ENDPOINT_IO_ERROR);

@@ -16,7 +16,7 @@ public final class byae extends bxvd implements bxxd {
         byah byah = (byah) this.f164949b;
         byah byah2 = byah.f165256g;
         if (!byah.f165263f.mo73666a()) {
-            byah.f165263f = bxvk.m124021a(byah.f165263f);
+            byah.f165263f = GeneratedMessageLite.m124021a(byah.f165263f);
         }
         bxsy.m123078a(iterable, byah.f165263f);
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxcm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxcm extends bxvk implements bxxd {
+public final class bxcm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: A */
     private static volatile bxxk f162811A;
@@ -88,7 +88,7 @@ public final class bxcm extends bxvk implements bxxd {
     static {
         bxcm bxcm = new bxcm();
         f162813z = bxcm;
-        bxvk.m124024a(bxcm.class, bxcm);
+        GeneratedMessageLite.m124024a(bxcm.class, bxcm);
     }
 
     private bxcm() {
@@ -105,7 +105,7 @@ public final class bxcm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f162813z, "\u0001\u0017\u0000\u0001\u0001\u0019\u0017\u0000\u0002\u0000\u0001ဌ\u0000\u0002\u001b\u0003ဉ\u0001\u0004ဉ\u0002\u0005ဉ\u0003\u0006ဉ\u0004\u0007ဉ\u0005\bဉ\u0006\tဉ\u0007\nဉ\b\u000bဉ\t\fဉ\n\u000fဉ\r\u0010ဉ\u000e\u0011ဉ\u000f\u0012ဉ\u0010\u0013ဉ\u0011\u0014ဉ\u0012\u0015ဉ\u0013\u0016\u001e\u0017ဉ\u0014\u0018ဉ\u0015\u0019ဉ\u0016", new Object[]{"a", "b", bxcl.m122572b(), "c", bxcm.class, "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", bxco.m122578b(), "w", "x", "y"});
+            return GeneratedMessageLite.m124022a(f162813z, "\u0001\u0017\u0000\u0001\u0001\u0019\u0017\u0000\u0002\u0000\u0001ဌ\u0000\u0002\u001b\u0003ဉ\u0001\u0004ဉ\u0002\u0005ဉ\u0003\u0006ဉ\u0004\u0007ဉ\u0005\bဉ\u0006\tဉ\u0007\nဉ\b\u000bဉ\t\fဉ\n\u000fဉ\r\u0010ဉ\u000e\u0011ဉ\u000f\u0012ဉ\u0010\u0013ဉ\u0011\u0014ဉ\u0012\u0015ဉ\u0013\u0016\u001e\u0017ဉ\u0014\u0018ဉ\u0015\u0019ဉ\u0016", new Object[]{"a", "b", bxcl.m122572b(), "c", bxcm.class, "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", bxco.m122578b(), "w", "x", "y"});
         } else if (i2 == 3) {
             return new bxcm();
         } else {
@@ -132,7 +132,7 @@ public final class bxcm extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo73565a() {
         if (!this.f162816c.mo73666a()) {
-            this.f162816c = bxvk.m124021a(this.f162816c);
+            this.f162816c = GeneratedMessageLite.m124021a(this.f162816c);
         }
     }
 }

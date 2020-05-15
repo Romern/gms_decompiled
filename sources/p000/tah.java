@@ -34,11 +34,11 @@ final class tah extends tdl {
     public final void mo11624a(tdw tdw) {
         if (!TextUtils.isEmpty(this.f45551c)) {
             tam tam = this.f45552d;
-            sek sek = tam.f45571a;
+            Logger Logger = tam.f45571a;
             tam.f45572b.mo17983b(this.f45551c);
         }
         tam tam2 = this.f45552d;
-        sek sek2 = tam.f45571a;
+        Logger logger2 = tam.f45571a;
         tam2.f45573c.mo26404a(this.f45550b, 10, tdw);
         tam.f45571a.mo25417e("Couldn't sync with the server due to ", tdw, new Object[0]);
     }
@@ -47,11 +47,11 @@ final class tah extends tdl {
     public final void mo11625a(boolean z, Map map) {
         if (!TextUtils.isEmpty(this.f45549a)) {
             tam tam = this.f45552d;
-            sek sek = tam.f45571a;
+            Logger Logger = tam.f45571a;
             tam.f45572b.mo17983b(this.f45549a);
         }
         tam tam2 = this.f45552d;
-        sek sek2 = tam.f45571a;
+        Logger logger2 = tam.f45571a;
         tam2.f45573c.mo26405a(this.f45550b, 10, z);
         tam.f45571a.mo25414c("Successfully completed sync", new Object[0]);
     }

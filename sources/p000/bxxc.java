@@ -12,7 +12,7 @@ public interface bxxc extends bxxd {
     void mo73638a(OutputStream outputStream);
 
     /* renamed from: aL */
-    bxtx mo73639aL();
+    ByteString mo73639aL();
 
     /* renamed from: aM */
     bxxb mo73645aM();
@@ -30,5 +30,5 @@ public interface bxxc extends bxxd {
     int mo74145db();
 
     /* renamed from: k */
-    byte[] mo73642k();
+    byte[] serializeToBytes();
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bkzo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bkzo extends bxvk implements bxxd {
+public final class bkzo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: K */
     public static final bkzo f125631K;
@@ -121,7 +121,7 @@ public final class bkzo extends bxvk implements bxxd {
     static {
         bkzo bkzo = new bkzo();
         f125631K = bkzo;
-        bxvk.m124024a(bkzo.class, bkzo);
+        GeneratedMessageLite.m124024a(bkzo.class, bkzo);
     }
 
     private bkzo() {
@@ -138,7 +138,7 @@ public final class bkzo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f125631K, "\u0001\"\u0000\u0002\u0001\"\"\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဌ\u0003\u0005ဉ\u0004\u0006ဌ\u0005\u0007ဌ\u0006\bဇ\u0007\tဉ\b\nဌ\t\u000bဉ\n\fဉ\u000b\rဉ\f\u000eဌ\r\u000fဉ\u000e\u0010ဉ\u000f\u0011ဌ\u0010\u0012ဇ\u0011\u0013ဉ\u0012\u0014ဌ\u0013\u0015ဉ\u0014\u0016ဉ\u0015\u0017ဉ\u0016\u0018ဉ\u0017\u0019ဉ\u0018\u001aဋ\u0019\u001bဉ\u001a\u001cဉ\u001b\u001dဉ\u001c\u001eဉ\u001d\u001fဉ\u001e ဉ\u001f!ဉ \"ဉ!", new Object[]{"a", "b", "c", "d", "e", "f", bkyo.f125470a, "g", "h", bkyp.f125471a, "i", bkzp.f125669a, "j", "k", "l", blah.f125769a, "m", "n", "o", "p", blaw.f125800a, "q", "r", "s", bkyd.f125456a, "t", "u", "v", bkyc.m106888b(), "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"});
+            return GeneratedMessageLite.m124022a(f125631K, "\u0001\"\u0000\u0002\u0001\"\"\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဌ\u0003\u0005ဉ\u0004\u0006ဌ\u0005\u0007ဌ\u0006\bဇ\u0007\tဉ\b\nဌ\t\u000bဉ\n\fဉ\u000b\rဉ\f\u000eဌ\r\u000fဉ\u000e\u0010ဉ\u000f\u0011ဌ\u0010\u0012ဇ\u0011\u0013ဉ\u0012\u0014ဌ\u0013\u0015ဉ\u0014\u0016ဉ\u0015\u0017ဉ\u0016\u0018ဉ\u0017\u0019ဉ\u0018\u001aဋ\u0019\u001bဉ\u001a\u001cဉ\u001b\u001dဉ\u001c\u001eဉ\u001d\u001fဉ\u001e ဉ\u001f!ဉ \"ဉ!", new Object[]{"a", "b", "c", "d", "e", "f", bkyo.f125470a, "g", "h", bkyp.f125471a, "i", bkzp.f125669a, "j", "k", "l", blah.f125769a, "m", "n", "o", "p", blaw.f125800a, "q", "r", "s", bkyd.f125456a, "t", "u", "v", bkyc.m106888b(), "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"});
         } else if (i2 == 3) {
             return new bkzo();
         } else {

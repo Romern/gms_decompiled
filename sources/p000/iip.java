@@ -23,7 +23,7 @@ public final class iip extends aaab {
     private static final byte[] f21058c = {84, 72, 79, 84, 80};
 
     /* renamed from: d */
-    private static final sek f21059d = new sek("AuthZenSecretProviderOperation");
+    private static final Logger f21059d = new Logger("AuthZenSecretProviderOperation");
 
     /* renamed from: a */
     private final String f21060a;
@@ -63,7 +63,7 @@ public final class iip extends aaab {
             long j = exportedSymmetricKey.f10532c;
             SecretKeySpec a2 = m15486a(a);
             if (a2 == null) {
-                f21059d.mo25418e("Failed to derive secret for %s.", sek.m35081a(this.f21060a));
+                f21059d.mo25418e("Failed to derive secret for %s.", Logger.m35081a(this.f21060a));
                 this.f21061e.mo13043a(Status.f30109c, (OtpSecret) null);
                 return;
             }

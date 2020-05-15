@@ -52,7 +52,7 @@ public final class arry implements Callable {
         arsb arsb = this.f88210d;
         brzo a2 = arsb.f88216e.mo48822a(a);
         Account account = this.f88208b;
-        String uri = new Uri.Builder().scheme("https").encodedAuthority(cgqi.f187508a.mo6606a().mo84278b()).appendPath("v1").appendPath("challenges").appendPath(Base64.encodeToString(a2.f143774f.mo73780k(), 11)).appendEncodedPath("assertion:record").build().toString();
+        String uri = new Uri.Builder().scheme("https").encodedAuthority(cgqi.f187508a.mo6606a().mo84278b()).appendPath("v1").appendPath("challenges").appendPath(Base64.encodeToString(a2.f143774f.getKey(), 11)).appendEncodedPath("assertion:record").build().toString();
         arsb.f88212a.mo25412b(uri.toString(), new Object[0]);
         bxvd da = byql.f167388c.mo74144da();
         if (da.f164950c) {
@@ -65,7 +65,7 @@ public final class arry implements Callable {
         byql.f167390a |= 2;
         String a3 = gie.m13187a(arsb.f88218g, account, "oauth2:https://www.googleapis.com/auth/cryptauth");
         RequestFuture newFuture = RequestFuture.newFuture();
-        arsb.f88214c.add(new sia(1, uri, ((byql) da.mo74062i()).mo73642k(), byql.f167388c, newFuture, newFuture, a3, null, false, new HashMap(), 21249, -1));
+        arsb.f88214c.add(new sia(1, uri, ((byql) da.mo74062i()).serializeToBytes(), byql.f167388c, newFuture, newFuture, a3, null, false, new HashMap(), 21249, -1));
         newFuture.get();
         return a;
     }

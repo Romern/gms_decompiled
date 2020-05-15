@@ -57,25 +57,25 @@ public final class aane {
     /* renamed from: a */
     public static bxxc m21625a(byte b, byte[] bArr) {
         if (b == 0) {
-            return (blmw) bxvk.m124014a(blmw.f126907e, bArr);
+            return (blmw) GeneratedMessageLite.m124014a(blmw.f126907e, bArr);
         }
         if (b == 1) {
-            return (blmt) bxvk.m124014a(blmt.f126897e, bArr);
+            return (blmt) GeneratedMessageLite.m124014a(blmt.f126897e, bArr);
         }
         if (b == 2) {
-            return (blnf) bxvk.m124014a(blnf.f126936z, bArr);
+            return (blnf) GeneratedMessageLite.m124014a(blnf.f126936z, bArr);
         }
         if (b == 3) {
-            return (blng) bxvk.m124014a(blng.f126963e, bArr);
+            return (blng) GeneratedMessageLite.m124014a(blng.f126963e, bArr);
         }
         if (b == 4) {
-            return (blmn) bxvk.m124014a(blmn.f126862a, bArr);
+            return (blmn) GeneratedMessageLite.m124014a(blmn.f126862a, bArr);
         }
         if (b == 7) {
-            return (blna) bxvk.m124014a(blna.f126922g, bArr);
+            return (blna) GeneratedMessageLite.m124014a(blna.f126922g, bArr);
         }
         if (b == 8) {
-            return (blmp) bxvk.m124014a(blmp.f126864r, bArr);
+            return (blmp) GeneratedMessageLite.m124014a(blmp.f126864r, bArr);
         }
         throw new IOException("Unknown tag");
     }

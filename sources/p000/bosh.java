@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bosh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bosh extends bxvk implements bxxd {
+public final class bosh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bosh f134587e;
@@ -25,7 +25,7 @@ public final class bosh extends bxvk implements bxxd {
     static {
         bosh bosh = new bosh();
         f134587e = bosh;
-        bxvk.m124024a(bosh.class, bosh);
+        GeneratedMessageLite.m124024a(bosh.class, bosh);
     }
 
     private bosh() {
@@ -42,7 +42,7 @@ public final class bosh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134587e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", bosf.f134580a});
+            return GeneratedMessageLite.m124022a(f134587e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", bosf.f134580a});
         } else if (i2 == 3) {
             return new bosh();
         } else {

@@ -20,7 +20,7 @@ public final class afyu {
     public static void m53685a(String str, Response.Listener listener, Response.ErrorListener errorListener) {
         RequestQueue a = m53684a();
         bxvd da = cakh.f174981e.mo74144da();
-        long a2 = spn.m35843a(rpr.m34216b());
+        long a2 = spn.getAndroidId(rpr.m34216b());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -67,7 +67,7 @@ public final class afyu {
         }
         cakf cakf2 = (cakf) da.f164949b;
         if (!cakf2.f174973d.mo73666a()) {
-            cakf2.f174973d = bxvk.m124019a(cakf2.f174973d);
+            cakf2.f174973d = GeneratedMessageLite.m124019a(cakf2.f174973d);
         }
         for (cake cake : asList) {
             cakf2.f174973d.mo74153d(cake.f174967z);

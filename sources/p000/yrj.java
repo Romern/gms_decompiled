@@ -13,7 +13,7 @@ public final class yrj {
         }
         caaa caaa = (caaa) da.f164949b;
         if (!caaa.f172312f.mo73666a()) {
-            caaa.f172312f = bxvk.m124021a(caaa.f172312f);
+            caaa.f172312f = GeneratedMessageLite.m124021a(caaa.f172312f);
         }
         bxsy.m123078a(bxwc, caaa.f172312f);
         long j = cadn.f172703c;
@@ -60,7 +60,7 @@ public final class yrj {
             caaa5.f172314h = j4;
         }
         if ((cadn.f172701a & 64) != 0) {
-            bxtx bxtx = cadn.f172709i;
+            ByteString bxtx = cadn.f172709i;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

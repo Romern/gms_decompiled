@@ -117,7 +117,7 @@ public final class voz {
 
     /* renamed from: a */
     public static uog m40969a(Set set) {
-        sdo.m34966a(set, "Spaces must not be null");
+        sdo.checkIfNull(set, "Spaces must not be null");
         sdo.m34975b(!set.isEmpty(), "Set of spaces must be non-empty");
         ArrayList arrayList = new ArrayList();
         Iterator it = set.iterator();

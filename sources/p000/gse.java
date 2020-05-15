@@ -17,7 +17,7 @@ import java.util.concurrent.Executors;
 public final class gse extends gjb implements aaai {
 
     /* renamed from: a */
-    private static final sek f18937a = ght.m13171a("WorkAccountServiceImpl");
+    private static final Logger f18937a = ght.m13171a("WorkAccountServiceImpl");
 
     /* renamed from: b */
     private final aaag f18938b;
@@ -95,11 +95,11 @@ public final class gse extends gjb implements aaai {
             }
             componentName = new ComponentName("com.google.android.gms", "com.google.android.gms.auth.account.authenticator.WorkAccountAuthenticatorService");
             if (this.f18939c.getPackageManager().getComponentEnabledSetting(componentName) == i) {
-                sek sek = f18937a;
+                Logger Logger = f18937a;
                 StringBuilder sb = new StringBuilder(46);
                 sb.append("updating authenticator enabled state to: ");
                 sb.append(z);
-                sek.mo25414c(sb.toString(), new Object[0]);
+                Logger.mo25414c(sb.toString(), new Object[0]);
                 this.f18939c.getPackageManager().setComponentEnabledSetting(componentName, i, 1);
                 return;
             }

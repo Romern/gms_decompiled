@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cimr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cimr extends bxvk implements bxxd {
+public final class cimr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final cimr f190766i;
@@ -37,7 +37,7 @@ public final class cimr extends bxvk implements bxxd {
     static {
         cimr cimr = new cimr();
         f190766i = cimr;
-        bxvk.m124024a(cimr.class, cimr);
+        GeneratedMessageLite.m124024a(cimr.class, cimr);
     }
 
     private cimr() {
@@ -54,7 +54,7 @@ public final class cimr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f190766i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0003ဂ\u0002\u0004ဂ\u0003\u0005ဂ\u0004\u0006ဂ\u0005\u0007ဉ\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f190766i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0003ဂ\u0002\u0004ဂ\u0003\u0005ဂ\u0004\u0006ဂ\u0005\u0007ဉ\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new cimr();
         } else {

@@ -16,7 +16,7 @@ public final class brzx extends bxvd implements bxxd {
         brzy brzy = (brzy) this.f164949b;
         brzy brzy2 = brzy.f143803j;
         if (!brzy.f143806b.mo73666a()) {
-            brzy.f143806b = bxvk.m124021a(brzy.f143806b);
+            brzy.f143806b = GeneratedMessageLite.m124021a(brzy.f143806b);
         }
         bxsy.m123078a(iterable, brzy.f143806b);
     }

@@ -52,7 +52,7 @@ public class SharedModuleProvider extends ContentProvider {
                 byte[] byteArray = bundle.getByteArray("UpdateRequest");
                 if (byteArray != null) {
                     try {
-                        qnx a = qnv.m32530a(this.f29983b).mo24141a((qnx) bxvk.m124016a(qnx.f41814d, byteArray, bxus.m123743b()), serialNumberForUser);
+                        qnx a = qnv.m32530a(this.f29983b).mo24141a((qnx) GeneratedMessageLite.m124016a(qnx.f41814d, byteArray, bxus.m123743b()), serialNumberForUser);
                         if (a == null) {
                             return null;
                         }

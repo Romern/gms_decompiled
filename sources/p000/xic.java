@@ -20,7 +20,7 @@ import org.json.JSONObject;
 public abstract class xic extends FragmentActivity {
 
     /* renamed from: c */
-    public static final sek f52325c = new sek(new String[]{"AuthenticateBaseChimeraActivity"}, (short[]) null);
+    public static final Logger f52325c = new Logger(new String[]{"AuthenticateBaseChimeraActivity"}, (short[]) null);
 
     /* renamed from: a */
     protected FragmentManager f52326a;

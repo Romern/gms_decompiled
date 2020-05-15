@@ -49,10 +49,10 @@ public final class qtv {
         contentValues.put("account", acyr.f61090d);
         contentValues.put("type", Integer.valueOf(qtq.f42113b));
         contentValues.put("id", qtq.f42114c);
-        contentValues.put("value", qtq.f42115d.mo73780k());
+        contentValues.put("value", qtq.f42115d.getKey());
         contentValues.put("is_dirty", Boolean.valueOf(qtq.f42117f));
         if (!qtq.f42116e.mo73779j()) {
-            bArr = qtq.f42116e.mo73780k();
+            bArr = qtq.f42116e.getKey();
         } else {
             bArr = null;
         }
@@ -68,7 +68,7 @@ public final class qtv {
 
     /* renamed from: a */
     public static qtq m32886a(Cursor cursor) {
-        bxtx bxtx;
+        ByteString bxtx;
         byte[] a = qto.m32873a(cursor, "version");
         qtp qtp = new qtp();
         qtp.mo24268a(qto.m32875c(cursor, "type"));

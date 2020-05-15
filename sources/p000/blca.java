@@ -22,7 +22,7 @@ public final class blca extends bxvg implements bxvh {
     static {
         blca blca = new blca();
         f125893b = blca;
-        bxvk.m124024a(blca.class, blca);
+        GeneratedMessageLite.m124024a(blca.class, blca);
     }
 
     private blca() {
@@ -43,7 +43,7 @@ public final class blca extends bxvg implements bxvh {
             this.f125897d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f125893b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f125893b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new blca();
         } else {

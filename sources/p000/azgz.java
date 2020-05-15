@@ -59,7 +59,7 @@ public final class azgz extends azgx {
                 cbhw3 = cbhw.f177204e;
             }
             bxvd bxvd = (bxvd) cbhw3.mo74142c(5);
-            bxvd.mo73625a((bxvk) cbhw3);
+            bxvd.mo73625a((GeneratedMessageLite) cbhw3);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -90,7 +90,7 @@ public final class azgz extends azgx {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ bxxc mo54916a(cbkj cbkj) {
-        return (cbij) azol.m85935a((bxxk) cbij.f177251e.mo74142c(7), cbkj.f177411e.mo73780k());
+        return (cbij) azol.m85935a((bxxk) cbij.f177251e.mo74142c(7), cbkj.f177411e.getKey());
     }
 
     /* access modifiers changed from: protected */

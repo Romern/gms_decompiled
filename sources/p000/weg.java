@@ -7,7 +7,7 @@ import android.app.admin.DevicePolicyManager;
 public final class weg {
 
     /* renamed from: a */
-    public static final sek f50583a = weh.m41831a("ConditionsChecker");
+    public static final Logger f50583a = weh.m41831a("ConditionsChecker");
 
     /* renamed from: b */
     public final svq f50584b;

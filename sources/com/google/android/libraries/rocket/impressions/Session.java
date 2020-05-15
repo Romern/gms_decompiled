@@ -44,11 +44,11 @@ public final class Session implements Parcelable {
     public Session(Parcel parcel) {
         this.f111418b = new ArrayList();
         try {
-            this.f111420d = (bkxy) bxvk.m124016a(bkxy.f125432a, parcel.createByteArray(), bxus.m123744c());
+            this.f111420d = (bkxy) GeneratedMessageLite.m124016a(bkxy.f125432a, parcel.createByteArray(), bxus.m123744c());
             bxvd da = bkxw.f125425e.mo74144da();
             da.mo73635b(parcel.createByteArray(), bxus.m123744c());
             this.f111426j = da;
-            this.f111421e = (bkxu) bxvk.m124016a(bkxu.f125420c, parcel.createByteArray(), bxus.m123744c());
+            this.f111421e = (bkxu) GeneratedMessageLite.m124016a(bkxu.f125420c, parcel.createByteArray(), bxus.m123744c());
             this.f111422f = parcel.readLong();
             this.f111423g = parcel.readLong();
             this.f111424h = parcel.readLong();

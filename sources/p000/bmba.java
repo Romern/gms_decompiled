@@ -17,7 +17,7 @@ public final class bmba extends bxvd implements bxxd {
         bxvu bxvu = bmbd.f128524i;
         bmaw.getClass();
         if (!bmbd.f128531e.mo73666a()) {
-            bmbd.f128531e = bxvk.m124021a(bmbd.f128531e);
+            bmbd.f128531e = GeneratedMessageLite.m124021a(bmbd.f128531e);
         }
         bmbd.f128531e.add(bmaw);
     }

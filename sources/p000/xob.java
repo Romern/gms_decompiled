@@ -29,7 +29,7 @@ import java.util.UUID;
 public final class xob extends xhl implements xre {
 
     /* renamed from: d */
-    public static final sek f52828d = new sek(new String[]{"Fido2ApiImpl"}, (short[]) null);
+    public static final Logger f52828d = new Logger(new String[]{"Fido2ApiImpl"}, (short[]) null);
 
     /* renamed from: e */
     private static final HashMap f52829e = new HashMap();
@@ -182,9 +182,9 @@ public final class xob extends xhl implements xre {
                     mo29963a(this.f52838l, a);
                 }
             } catch (URISyntaxException e) {
-                sek sek = f52828d;
+                Logger Logger = f52828d;
                 String valueOf = String.valueOf(uri);
-                sek.mo25418e(valueOf.length() == 0 ? new String("Bad url ") : "Bad url ".concat(valueOf), new Object[0]);
+                Logger.mo25418e(valueOf.length() == 0 ? new String("Bad url ") : "Bad url ".concat(valueOf), new Object[0]);
                 this.f52833g.mo30184a(this.f52838l, e);
                 mo29962a(ErrorCode.NOT_ALLOWED_ERR);
             }

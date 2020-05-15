@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbpt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbpt extends bxvk implements bxxd {
+public final class cbpt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbpt f177955c;
@@ -19,7 +19,7 @@ public final class cbpt extends bxvk implements bxxd {
     static {
         cbpt cbpt = new cbpt();
         f177955c = cbpt;
-        bxvk.m124024a(cbpt.class, cbpt);
+        GeneratedMessageLite.m124024a(cbpt.class, cbpt);
     }
 
     private cbpt() {
@@ -36,7 +36,7 @@ public final class cbpt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177955c, "\u0000\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001<\u0000", new Object[]{"b", "a", cbpd.class});
+            return GeneratedMessageLite.m124022a(f177955c, "\u0000\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001<\u0000", new Object[]{"b", "a", cbpd.class});
         } else if (i2 == 3) {
             return new cbpt();
         } else {

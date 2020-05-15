@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bowx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bowx extends bxvk implements bxxd {
+public final class bowx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bowx f135200f;
@@ -28,7 +28,7 @@ public final class bowx extends bxvk implements bxxd {
     static {
         bowx bowx = new bowx();
         f135200f = bowx;
-        bxvk.m124024a(bowx.class, bowx);
+        GeneratedMessageLite.m124024a(bowx.class, bowx);
     }
 
     private bowx() {
@@ -45,7 +45,7 @@ public final class bowx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135200f, "\u0001\u0004\u0000\u0001\u0001\u0006\u0004\u0000\u0000\u0000\u0001ဂ\u0002\u0003ဌ\u0005\u0005ဉ\u0000\u0006ဌ\u0006", new Object[]{"a", "c", "d", boww.f135199a, "b", "e", bowv.f135198a});
+            return GeneratedMessageLite.m124022a(f135200f, "\u0001\u0004\u0000\u0001\u0001\u0006\u0004\u0000\u0000\u0000\u0001ဂ\u0002\u0003ဌ\u0005\u0005ဉ\u0000\u0006ဌ\u0006", new Object[]{"a", "c", "d", boww.f135199a, "b", "e", bowv.f135198a});
         } else if (i2 == 3) {
             return new bowx();
         } else {

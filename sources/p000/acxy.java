@@ -35,9 +35,9 @@ final class acxy {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.String, java.lang.Object):void */
     public acxy(SharedPreferences sharedPreferences, acyd acyd, String str) {
-        sdo.m34966a(sharedPreferences, "Preferences must not be null.");
+        sdo.checkIfNull(sharedPreferences, "Preferences must not be null.");
         this.f61067c = sharedPreferences;
-        sdo.m34966a(acyd, "Secret key wrapper must not be null.");
+        sdo.checkIfNull(acyd, "Secret key wrapper must not be null.");
         this.f61069e = acyd;
         sdo.m34969a(str, (Object) "Secret key wrapper must not be null.");
         this.f61068d = str;

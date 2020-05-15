@@ -17,7 +17,7 @@ public final class zyb {
       sdo.a(boolean, java.lang.Object):void */
     /* renamed from: a */
     public static String m46670a(zxf zxf) {
-        sdo.m34966a(zxf, "spec");
+        sdo.checkIfNull(zxf, "spec");
         sdo.m34971a(!zxf.f56087b.isEmpty(), (Object) "spec.filename");
         Locale locale = Locale.ENGLISH;
         String valueOf = String.valueOf(zxf.f56087b);
@@ -26,24 +26,24 @@ public final class zyb {
 
     /* renamed from: a */
     public static String m46671a(zxh zxh) {
-        sdo.m34966a(zxh, "font");
+        sdo.checkIfNull(zxh, "font");
         zxf zxf = zxh.f56097a;
         if (zxf == null) {
             zxf = zxf.f56084e;
         }
-        sdo.m34966a(zxf, "font.file");
+        sdo.checkIfNull(zxf, "font.file");
         zxf zxf2 = zxh.f56097a;
         if (zxf2 == null) {
             zxf2 = zxf.f56084e;
         }
-        sdo.m34966a(zxf2.f56089d, "font.file.hash");
+        sdo.checkIfNull(zxf2.f56089d, "font.file.hash");
         Locale locale = Locale.ENGLISH;
         Object[] objArr = new Object[1];
         zxf zxf3 = zxh.f56097a;
         if (zxf3 == null) {
             zxf3 = zxf.f56084e;
         }
-        objArr[0] = zxp.m46640a(zxf3.f56089d.mo73780k());
+        objArr[0] = zxp.m46640a(zxf3.f56089d.getKey());
         return String.format(locale, "https://fonts.gstatic.com/s/a/%s.ttf", objArr);
     }
 }

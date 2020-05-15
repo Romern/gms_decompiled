@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvyk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvyk extends bxvk implements bxxd {
+public final class bvyk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bvyk f158178g;
@@ -31,7 +31,7 @@ public final class bvyk extends bxvk implements bxxd {
     static {
         bvyk bvyk = new bvyk();
         f158178g = bvyk;
-        bxvk.m124024a(bvyk.class, bvyk);
+        GeneratedMessageLite.m124024a(bvyk.class, bvyk);
     }
 
     private bvyk() {
@@ -48,7 +48,7 @@ public final class bvyk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f158178g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003ဉ\u0002\u0004ဇ\u0003\u0005ဉ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f158178g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003ဉ\u0002\u0004ဇ\u0003\u0005ဉ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new bvyk();
         } else {

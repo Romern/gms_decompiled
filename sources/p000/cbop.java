@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbop */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbop extends bxvk implements bxxd {
+public final class cbop extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbop f177846b;
@@ -11,12 +11,12 @@ public final class cbop extends bxvk implements bxxd {
     private static volatile bxxk f177847c;
 
     /* renamed from: a */
-    public bxtx f177848a = bxtx.f164797b;
+    public ByteString f177848a = ByteString.f164797b;
 
     static {
         cbop cbop = new cbop();
         f177846b = cbop;
-        bxvk.m124024a(cbop.class, cbop);
+        GeneratedMessageLite.m124024a(cbop.class, cbop);
     }
 
     private cbop() {
@@ -33,7 +33,7 @@ public final class cbop extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177846b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\n", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f177846b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\n", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cbop();
         } else {

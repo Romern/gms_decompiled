@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mqw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mqw extends bxvk implements bxxd {
+public final class mqw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final mqw f34359f;
@@ -28,7 +28,7 @@ public final class mqw extends bxvk implements bxxd {
     static {
         mqw mqw = new mqw();
         f34359f = mqw;
-        bxvk.m124024a(mqw.class, mqw);
+        GeneratedMessageLite.m124024a(mqw.class, mqw);
     }
 
     private mqw() {
@@ -45,7 +45,7 @@ public final class mqw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34359f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဇ\u0002\u0004ဇ\u0003", new Object[]{"a", "b", mqv.f34358a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f34359f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဇ\u0002\u0004ဇ\u0003", new Object[]{"a", "b", mqv.f34358a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new mqw();
         } else {

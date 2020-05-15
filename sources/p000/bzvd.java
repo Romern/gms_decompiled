@@ -3,7 +3,7 @@ package p000;
 @Deprecated
 /* renamed from: bzvd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzvd extends bxvk implements bxxd {
+public final class bzvd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bzvd f171511a;
@@ -14,7 +14,7 @@ public final class bzvd extends bxvk implements bxxd {
     static {
         bzvd bzvd = new bzvd();
         f171511a = bzvd;
-        bxvk.m124024a(bzvd.class, bzvd);
+        GeneratedMessageLite.m124024a(bzvd.class, bzvd);
     }
 
     private bzvd() {
@@ -32,7 +32,7 @@ public final class bzvd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f171511a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f171511a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bzvd();

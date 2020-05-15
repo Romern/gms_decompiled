@@ -43,7 +43,7 @@ public final /* synthetic */ class bcjv implements Callable {
         cbma cbma = this.f104357e;
         bqgg bqgg = this.f104358f;
         String uuid = bcla.m89213a(cbmo.f177657b).toString();
-        bxtx a = bbqc.m88385a(String.format(Locale.US, "%s:%d", uuid.toLowerCase(Locale.US), Long.valueOf(j)), keyPair);
+        ByteString a = bbqc.m88385a(String.format(Locale.US, "%s:%d", uuid.toLowerCase(Locale.US), Long.valueOf(j)), keyPair);
         bxvd da = cblf.f177482m.mo74144da();
         if (da.f164950c) {
             da.mo74035c();

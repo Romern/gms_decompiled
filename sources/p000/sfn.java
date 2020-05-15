@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: sfn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class sfn extends bxvk implements bxxd {
+public final class sfn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final sfn f44130e;
@@ -25,7 +25,7 @@ public final class sfn extends bxvk implements bxxd {
     static {
         sfn sfn = new sfn();
         f44130e = sfn;
-        bxvk.m124024a(sfn.class, sfn);
+        GeneratedMessageLite.m124024a(sfn.class, sfn);
     }
 
     private sfn() {
@@ -42,7 +42,7 @@ public final class sfn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f44130e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", sfp.f44141a});
+            return GeneratedMessageLite.m124022a(f44130e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", sfp.f44141a});
         } else if (i2 == 3) {
             return new sfn();
         } else {

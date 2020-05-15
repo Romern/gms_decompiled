@@ -32,7 +32,7 @@ public final class agpr {
         byte[] bArr;
         ContentValues contentValues = this.f66252a;
         if (btap != null) {
-            bArr = btap.mo73642k();
+            bArr = btap.serializeToBytes();
         } else {
             bArr = null;
         }
@@ -41,7 +41,7 @@ public final class agpr {
 
     /* renamed from: a */
     public final void mo35886a(bxzw bxzw) {
-        this.f66252a.put("carrier_extra", bxzw.mo73642k());
+        this.f66252a.put("carrier_extra", bxzw.serializeToBytes());
     }
 
     /* renamed from: a */

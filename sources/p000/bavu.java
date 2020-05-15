@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bavu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bavu extends bxvk implements bxxd {
+public final class bavu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bavu f101935d;
@@ -22,7 +22,7 @@ public final class bavu extends bxvk implements bxxd {
     static {
         bavu bavu = new bavu();
         f101935d = bavu;
-        bxvk.m124024a(bavu.class, bavu);
+        GeneratedMessageLite.m124024a(bavu.class, bavu);
     }
 
     private bavu() {
@@ -39,7 +39,7 @@ public final class bavu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f101935d, "\u0001\u0002\u0000\u0001\u0004\u0005\u0002\u0000\u0000\u0000\u0004ဈ\u0000\u0005ဌ\u0001", new Object[]{"a", "b", "c", bavq.m87610b()});
+            return GeneratedMessageLite.m124022a(f101935d, "\u0001\u0002\u0000\u0001\u0004\u0005\u0002\u0000\u0000\u0000\u0004ဈ\u0000\u0005ဌ\u0001", new Object[]{"a", "b", "c", bavq.m87610b()});
         } else if (i2 == 3) {
             return new bavu();
         } else {

@@ -155,14 +155,14 @@ public final class azcl extends srp {
         }
         "type.googleapis.com/google.internal.communications.instantmessaging.v1.FireballMessage".getClass();
         ((bxte) da.f164949b).f164765a = "type.googleapis.com/google.internal.communications.instantmessaging.v1.FireballMessage";
-        bxtx aL = cbbn.mo73639aL();
+        ByteString aL = cbbn.mo73639aL();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
         }
         aL.getClass();
         ((bxte) da.f164949b).f164766b = aL;
-        contentValues.put("exported_data", ((bxte) da.mo74062i()).mo73642k());
+        contentValues.put("exported_data", ((bxte) da.mo74062i()).serializeToBytes());
         cbbt cbbt = (cbbt) cbbn.f176596a.get(0);
         int i2 = cbbt.f176617c;
         if (i2 != 0) {
@@ -274,7 +274,7 @@ public final class azcl extends srp {
                             } else {
                                 cbmf = cbmf.f177611d;
                             }
-                            bxtx aL2 = cbmf.mo73639aL();
+                            ByteString aL2 = cbmf.mo73639aL();
                             if (da3.f164950c) {
                                 da3.mo74035c();
                                 da3.f164950c = false;
@@ -301,7 +301,7 @@ public final class azcl extends srp {
                             } else {
                                 cbbq7 = (cbbq) cbbt.f176616b;
                             }
-                            bxtx bxtx = cbbq7.f176608e;
+                            ByteString bxtx = cbbq7.f176608e;
                             if (da5.f164950c) {
                                 da5.mo74035c();
                                 da5.f164950c = false;
@@ -352,7 +352,7 @@ public final class azcl extends srp {
                             }
                             contentValues.put("message_type", cbbq9.f176606c);
                             contentValues.put("content_type", "proto/MatchstickMessageContent");
-                            contentValues.put("content", ((cbil) da2.mo74062i()).mo73642k());
+                            contentValues.put("content", ((cbil) da2.mo74062i()).serializeToBytes());
                             return contentValues;
                         }
                     }
@@ -442,7 +442,7 @@ public final class azcl extends srp {
                         long j = query.getLong(0);
                         cbkj cbkj = (cbkj) azol.m85935a((bxxk) cbkj.f177405k.mo74142c(7), query.getBlob(1));
                         bxvd bxvd = (bxvd) cbkj.mo74142c(5);
-                        bxvd.mo73625a((bxvk) cbkj);
+                        bxvd.mo73625a((GeneratedMessageLite) cbkj);
                         if (bxvd != null) {
                             cbkj cbkj2 = (cbkj) bxvd.f164949b;
                             if (cbkj2.f177407a != 101) {
@@ -455,7 +455,7 @@ public final class azcl extends srp {
                             if (((cbkj) bxvd.f164949b).f177411e.mo73779j()) {
                                 cbkj cbkj3 = (cbkj) bxvd.f164949b;
                                 if (cbkj3.f177407a == 101) {
-                                    bxtx aL = ((cbbn) cbkj3.f177408b).mo73639aL();
+                                    ByteString aL = ((cbbn) cbkj3.f177408b).mo73639aL();
                                     if (bxvd.f164950c) {
                                         bxvd.mo74035c();
                                         bxvd.f164950c = false;
@@ -478,7 +478,7 @@ public final class azcl extends srp {
                                     } else if (!z) {
                                     }
                                     ContentValues contentValues = new ContentValues();
-                                    contentValues.put("content", ((cbkj) bxvd.mo74062i()).mo73642k());
+                                    contentValues.put("content", ((cbkj) bxvd.mo74062i()).serializeToBytes());
                                     sQLiteDatabase.update("messages", contentValues, "_id = ?", new String[]{Long.toString(j)});
                                 }
                             }
@@ -486,7 +486,7 @@ public final class azcl extends srp {
                             if (((cbkj) bxvd.f164949b).f177407a != 101) {
                             }
                             ContentValues contentValues2 = new ContentValues();
-                            contentValues2.put("content", ((cbkj) bxvd.mo74062i()).mo73642k());
+                            contentValues2.put("content", ((cbkj) bxvd.mo74062i()).serializeToBytes());
                             sQLiteDatabase.update("messages", contentValues2, "_id = ?", new String[]{Long.toString(j)});
                         }
                     } catch (Throwable th) {
@@ -581,7 +581,7 @@ public final class azcl extends srp {
                                     cbho cbho = (cbho) cbhp.f177158b.mo74144da();
                                     cbho.mo75233a(Arrays.asList(cbhnArr));
                                     ContentValues contentValues = new ContentValues();
-                                    contentValues.put("app_string_tag_mapping", ((cbhp) cbho.mo74062i()).mo73642k());
+                                    contentValues.put("app_string_tag_mapping", ((cbhp) cbho.mo74062i()).serializeToBytes());
                                     sQLiteDatabase2.update("appData", contentValues, "_id = ?", new String[]{Long.toString((long) i3)});
                                     i = 2;
                                     r10 = 0;
@@ -615,7 +615,7 @@ public final class azcl extends srp {
                                     cbho cbho2 = (cbho) cbhp.f177158b.mo74144da();
                                     cbho2.mo75233a(Arrays.asList(cbhnArr2));
                                     ContentValues contentValues2 = new ContentValues();
-                                    contentValues2.put("app_string_tag_mapping", ((cbhp) cbho2.mo74062i()).mo73642k());
+                                    contentValues2.put("app_string_tag_mapping", ((cbhp) cbho2.mo74062i()).serializeToBytes());
                                     String[] strArr = new String[1];
                                     strArr[r10] = Long.toString((long) i3);
                                     sQLiteDatabase2.update("appData", contentValues2, "_id = ?", strArr);
@@ -1128,7 +1128,7 @@ public final class azcl extends srp {
                                         string2.getClass();
                                         cbmf.f177613a = string2;
                                         cbmf.f177614b = cipi.m150693a(3);
-                                        byte[] k = ((cbmf) da.mo74062i()).mo73642k();
+                                        byte[] k = ((cbmf) da.mo74062i()).serializeToBytes();
                                         ContentValues contentValues4 = new ContentValues();
                                         contentValues4.put("media_id", k);
                                         contentValues4.put("download_manager_id", Integer.valueOf(cursor3.getInt(1)));
@@ -1344,7 +1344,7 @@ public final class azcl extends srp {
                                                     if (b == 0) {
                                                         cbbn = null;
                                                     } else if (b == 4 && !cbkj.f177411e.mo73779j()) {
-                                                        cbbn = (cbbn) azol.m85935a((bxxk) cbbn.f176594c.mo74142c(7), cbkj.f177411e.mo73780k());
+                                                        cbbn = (cbbn) azol.m85935a((bxxk) cbbn.f176594c.mo74142c(7), cbkj.f177411e.getKey());
                                                     }
                                                 }
                                                 cbbn = null;
@@ -1467,7 +1467,7 @@ public final class azcl extends srp {
                                     i5 = 1;
                                 } else {
                                     bxvd da4 = cbhy.f177214d.mo74144da();
-                                    bxtx a7 = bxtx.m123261a(blob);
+                                    ByteString a7 = ByteString.m123261a(blob);
                                     if (da4.f164950c) {
                                         da4.mo74035c();
                                         da4.f164950c = r10;
@@ -1506,7 +1506,7 @@ public final class azcl extends srp {
                                 cbgn.f177053b = cbgm;
                                 cbgn.f177052a = 5;
                                 ContentValues contentValues8 = new ContentValues();
-                                contentValues8.put("data", ((cbgn) da2.mo74062i()).mo73642k());
+                                contentValues8.put("data", ((cbgn) da2.mo74062i()).serializeToBytes());
                                 String[] strArr5 = new String[i5];
                                 strArr5[r10] = Long.toString(cursor5.getLong(r10));
                                 sQLiteDatabase2.update(str29, contentValues8, "_id = ? ", strArr5);
@@ -1607,7 +1607,7 @@ public final class azcl extends srp {
                                         if (azol.m85935a((bxxk) cbhr.f177167i.mo74142c(i14), cursor6.getBlob(i14)) != null) {
                                             cbhr cbhr = (cbhr) azol.m85935a((bxxk) cbhr.f177167i.mo74142c(i14), cursor6.getBlob(i14));
                                             bxvd bxvd = (bxvd) cbhr.mo74142c(5);
-                                            bxvd.mo73625a((bxvk) cbhr);
+                                            bxvd.mo73625a((GeneratedMessageLite) cbhr);
                                             da5 = bxvd;
                                         }
                                         if (cursor6.getString(1) != null) {
@@ -1670,7 +1670,7 @@ public final class azcl extends srp {
                                             ((cbhr) da5.f164949b).f177175g = string11;
                                         }
                                         ContentValues contentValues10 = new ContentValues();
-                                        contentValues10.put("app_theme", ((cbhr) da5.mo74062i()).mo73642k());
+                                        contentValues10.put("app_theme", ((cbhr) da5.mo74062i()).serializeToBytes());
                                         String[] strArr7 = new String[1];
                                         strArr7[r10] = Long.toString(j2);
                                         sQLiteDatabase2.update(str31, contentValues10, "_id = ?", strArr7);

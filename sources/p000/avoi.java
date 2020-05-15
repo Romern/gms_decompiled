@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public final class avoi extends avnj implements avpw {
 
     /* renamed from: e */
-    private static final sek f93610e = avpq.m79018e("NonStreamingDownloadAction");
+    private static final Logger f93610e = avpq.m79018e("NonStreamingDownloadAction");
 
     /* renamed from: f */
     private static final avto f93611f = new avto("file_path", "");

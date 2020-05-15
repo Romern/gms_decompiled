@@ -187,7 +187,7 @@ public class BluetoothTrustletChimeraService extends auou implements ausw, autc,
             bogj.f164950c = false;
         }
         bohi bohi = bohi.f133070z;
-        ((bohi) bogj.f164949b).f133086p = bxvk.m124030de();
+        ((bohi) bogj.f164949b).f133086p = GeneratedMessageLite.m124030de();
         if (bogj.f164950c) {
             bogj.mo74035c();
             bogj.f164950c = false;
@@ -199,14 +199,14 @@ public class BluetoothTrustletChimeraService extends auou implements ausw, autc,
             bogj.mo74035c();
             bogj.f164950c = false;
         }
-        ((bohi) bogj.f164949b).f133083m = bxvk.m124030de();
+        ((bohi) bogj.f164949b).f133083m = GeneratedMessageLite.m124030de();
         if (bogj.f164950c) {
             bogj.mo74035c();
             bogj.f164950c = false;
         }
         bohi bohi3 = (bohi) bogj.f164949b;
         if (!bohi3.f133083m.mo73666a()) {
-            bohi3.f133083m = bxvk.m124021a(bohi3.f133083m);
+            bohi3.f133083m = GeneratedMessageLite.m124021a(bohi3.f133083m);
         }
         bxsy.m123078a(arrayList, bohi3.f133083m);
     }
@@ -830,7 +830,7 @@ public class BluetoothTrustletChimeraService extends auou implements ausw, autc,
             bohf = bohf.f133058h;
         }
         bxvd bxvd = (bxvd) bohf.mo74142c(5);
-        bxvd.mo73625a((bxvk) bohf);
+        bxvd.mo73625a((GeneratedMessageLite) bohf);
         boolean k = mo50766k();
         if (bxvd.f164950c) {
             bxvd.mo74035c();
@@ -878,7 +878,7 @@ public class BluetoothTrustletChimeraService extends auou implements ausw, autc,
                     }
                     bogr bogr2 = (bogr) da.f164949b;
                     if (!bogr2.f133024c.mo73666a()) {
-                        bogr2.f133024c = bxvk.m124020a(bogr2.f133024c);
+                        bogr2.f133024c = GeneratedMessageLite.m124020a(bogr2.f133024c);
                     }
                     bogr2.f133024c.mo74161a(deviceClass);
                 }

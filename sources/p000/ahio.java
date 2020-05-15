@@ -24,7 +24,7 @@ public final class ahio {
 
     /* renamed from: a */
     public static ahio m55834a(ParcelFileDescriptor parcelFileDescriptor) {
-        sdo.m34966a(parcelFileDescriptor, "Cannot create Payload.File from null ParcelFileDescriptor.");
+        sdo.checkIfNull(parcelFileDescriptor, "Cannot create Payload.File from null ParcelFileDescriptor.");
         return new ahio(null, parcelFileDescriptor, parcelFileDescriptor.getStatSize());
     }
 }

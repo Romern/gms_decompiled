@@ -9,7 +9,7 @@ import java.io.IOException;
 public final class jxl extends jxi {
 
     /* renamed from: a */
-    private static final sek f23452a = ght.m13171a("WebLoginCookieLoader");
+    private static final Logger f23452a = ght.m13171a("WebLoginCookieLoader");
 
     /* renamed from: b */
     private final Account f23453b;
@@ -36,9 +36,9 @@ public final class jxl extends jxi {
             this.f23455d.mo11918a(this.f23453b, this.f23454c);
             return true;
         } catch (git e) {
-            sek sek = f23452a;
+            Logger Logger = f23452a;
             String valueOf = String.valueOf(e.f18313a);
-            sek.mo25414c(valueOf.length() == 0 ? new String("Found recovery URL: ") : "Found recovery URL: ".concat(valueOf), new Object[0]);
+            Logger.mo25414c(valueOf.length() == 0 ? new String("Found recovery URL: ") : "Found recovery URL: ".concat(valueOf), new Object[0]);
             return false;
         } catch (gid | IOException e2) {
             f23452a.mo25410a(e2);

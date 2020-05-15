@@ -94,7 +94,7 @@ public abstract class asem {
             return null;
         }
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         calu calu = (calu) bxvd;
         int i2 = Build.VERSION.SDK_INT;
         UserManager userManager = (UserManager) context.getSystemService("user");
@@ -114,7 +114,7 @@ public abstract class asem {
         boolean z2 = this.f88782d;
         calx.f175203a = i3 | 2097152;
         calx.f175218p = z2;
-        calx.f175219q = bxvk.m124028dc();
+        calx.f175219q = GeneratedMessageLite.m124028dc();
         ArrayList arrayList = new ArrayList();
         int i4 = Build.VERSION.SDK_INT;
         UserManager userManager2 = (UserManager) context.getSystemService("user");
@@ -133,7 +133,7 @@ public abstract class asem {
         }
         calx calx2 = (calx) calu.f164949b;
         if (!calx2.f175219q.mo73666a()) {
-            calx2.f175219q = bxvk.m124019a(calx2.f175219q);
+            calx2.f175219q = GeneratedMessageLite.m124019a(calx2.f175219q);
         }
         bxsy.m123078a(b2, calx2.f175219q);
         String str = this.f88779a;
@@ -272,14 +272,14 @@ public abstract class asem {
                 calu.mo74035c();
                 calu.f164950c = false;
             }
-            ((calx) calu.f164949b).f175210h = bxvk.m124030de();
+            ((calx) calu.f164949b).f175210h = GeneratedMessageLite.m124030de();
             if (calu.f164950c) {
                 calu.mo74035c();
                 calu.f164950c = false;
             }
             calx calx5 = (calx) calu.f164949b;
             if (!calx5.f175210h.mo73666a()) {
-                calx5.f175210h = bxvk.m124021a(calx5.f175210h);
+                calx5.f175210h = GeneratedMessageLite.m124021a(calx5.f175210h);
             }
             bxsy.m123078a(arrayList2, calx5.f175210h);
         }

@@ -25,7 +25,7 @@ public final class yym {
     /* renamed from: a */
     public static cadz m45034a(cadz cadz, bzzz bzzz) {
         bxvd bxvd = (bxvd) cadz.mo74142c(5);
-        bxvd.mo73625a((bxvk) cadz);
+        bxvd.mo73625a((GeneratedMessageLite) cadz);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -89,8 +89,8 @@ public final class yym {
             return cadz2;
         }
         bxvd bxvd = (bxvd) cadz.mo74142c(5);
-        bxvd.mo73625a((bxvk) cadz);
-        bxvd.mo73625a((bxvk) cadz2);
+        bxvd.mo73625a((GeneratedMessageLite) cadz);
+        bxvd.mo73625a((GeneratedMessageLite) cadz2);
         return (cadz) bxvd.mo74062i();
     }
 

@@ -17,7 +17,7 @@ public final class btvk {
         if (num.intValue() >= f152618a.length || num.intValue() < 0) {
             num = 0;
         }
-        return (btvy) bxvk.m124014a(btvy.f152660f, srz.m36178b(context.getAssets().open(f152618a[num.intValue()])));
+        return (btvy) GeneratedMessageLite.m124014a(btvy.f152660f, srz.m36178b(context.getAssets().open(f152618a[num.intValue()])));
     }
 
     /* renamed from: b */
@@ -25,6 +25,6 @@ public final class btvk {
         if (num.intValue() >= f152619b.length || num.intValue() < 0) {
             num = 0;
         }
-        return (btvw) bxvk.m124014a(btvw.f152646a, srz.m36178b(context.getAssets().open(f152619b[num.intValue()])));
+        return (btvw) GeneratedMessageLite.m124014a(btvw.f152646a, srz.m36178b(context.getAssets().open(f152619b[num.intValue()])));
     }
 }

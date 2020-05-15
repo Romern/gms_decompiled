@@ -42,14 +42,14 @@ public final class attw extends atue {
                         da.mo73635b(byteArrayExtra, bxus.m123744c());
                         byte[] bArr2 = (byte[]) atsy.f90818J.get(((btjq) da.f164949b).f149164a);
                         if (bArr2 != null) {
-                            bxtx a = bxtx.m123261a(bArr2);
+                            ByteString a = ByteString.m123261a(bArr2);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
                             }
                             a.getClass();
                             ((btjq) da.f164949b).f149166c = a;
-                            byteArrayExtra = ((btjq) da.mo74062i()).mo73642k();
+                            byteArrayExtra = ((btjq) da.mo74062i()).serializeToBytes();
                         }
                     }
                     atsy.f90812D = byteArrayExtra;
@@ -97,7 +97,7 @@ public final class attw extends atue {
             } else if (atsy.f90811C == null && atsy.f90812D == null) {
                 askf askf = new askf(atsy.f90857t, askc.m74272b(), this.f90898f);
                 bxvd da = btjf.f149105c.mo74144da();
-                bxtx a = bxtx.m123261a(bArr);
+                ByteString a = ByteString.m123261a(bArr);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

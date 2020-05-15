@@ -165,7 +165,7 @@ public final class akoc {
     /* renamed from: a */
     public static String m60118a(bxxc bxxc) {
         if (bxxc != null) {
-            return Base64.encodeToString(bxxc.mo73642k(), 9);
+            return Base64.encodeToString(bxxc.serializeToBytes(), 9);
         }
         return null;
     }

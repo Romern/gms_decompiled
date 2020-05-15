@@ -425,7 +425,7 @@ public final class aowf extends smx {
                                             }
                                             blpa blpa = (blpa) da.f164949b;
                                             if (!blpa.f127188c.mo73666a()) {
-                                                blpa.f127188c = bxvk.m124021a(blpa.f127188c);
+                                                blpa.f127188c = GeneratedMessageLite.m124021a(blpa.f127188c);
                                             }
                                             bxsy.m123078a(arrayList3, blpa.f127188c);
                                             if (contentResolver2 == null) {
@@ -850,7 +850,7 @@ public final class aowf extends smx {
                                                                                 blou blou2 = (blou) da4.mo74062i();
                                                                                 blou2.getClass();
                                                                                 if (!blqj3.f127349c.mo73666a()) {
-                                                                                    blqj3.f127349c = bxvk.m124021a(blqj3.f127349c);
+                                                                                    blqj3.f127349c = GeneratedMessageLite.m124021a(blqj3.f127349c);
                                                                                 }
                                                                                 blqj3.f127349c.add(blou2);
                                                                                 if (blpl != null) {
@@ -1279,7 +1279,7 @@ public final class aowf extends smx {
         byte[] bArr2 = aowb.f83719d.f83510d;
         if (bArr2 != null) {
             try {
-                blqw = (blqw) bxvk.m124016a(blqw.f127418a, bArr2, bxus.m123744c());
+                blqw = (blqw) GeneratedMessageLite.m124016a(blqw.f127418a, bArr2, bxus.m123744c());
             } catch (bxwf e) {
                 aowu.m69733a("RemindersSync", "Error parsing OneSyncStatus", new Object[0]);
                 blqw = null;
@@ -1353,7 +1353,7 @@ public final class aowf extends smx {
             }
             ContentProviderOperation.Builder newUpdate = ContentProviderOperation.newUpdate(ContentUris.withAppendedId(aosy.f83568a, aowb.f83719d.f83507a));
             if (blqw2 != null) {
-                bArr = blqw2.mo73642k();
+                bArr = blqw2.serializeToBytes();
             } else {
                 bArr = null;
             }

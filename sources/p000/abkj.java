@@ -314,7 +314,7 @@ public final class abkj {
                 Intent a = abkw.m47829a(cejn);
                 if (str != null) {
                     try {
-                        abkw.m47830a(a, (cejm) bxvk.m124014a(cejm.f182788b, Base64.decode(str, 0)));
+                        abkw.m47830a(a, (cejm) GeneratedMessageLite.m124014a(cejm.f182788b, Base64.decode(str, 0)));
                     } catch (bxwf e) {
                         bnsl bnsl = (bnsl) f57613a.mo68387b();
                         bnsl.mo68432a("abkj", "invokeIntent", 403, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");

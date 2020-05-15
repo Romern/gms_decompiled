@@ -214,7 +214,7 @@ public class AdsSettingsChimeraActivity extends qkh implements DialogInterface.O
         Dialog a = rfx.m33532a(rfw.f42890a, getContainerActivity(), 1, null);
         a.setCanceledOnTouchOutside(false);
         rey rey = new rey();
-        sdo.m34966a(a, "Cannot display null dialog");
+        sdo.checkIfNull(a, "Cannot display null dialog");
         a.setOnCancelListener(null);
         a.setOnDismissListener(null);
         rey.f42851a = a;

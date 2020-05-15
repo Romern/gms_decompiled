@@ -19,7 +19,7 @@ import java.util.concurrent.ExecutionException;
 final class area {
 
     /* renamed from: a */
-    private static final sek f87493a = ascp.m73787a("D2D", "TargetAccountTransferController");
+    private static final Logger f87493a = ascp.m73787a("D2D", "TargetAccountTransferController");
 
     /* renamed from: b */
     private final Context f87494b;
@@ -65,7 +65,7 @@ final class area {
         ArrayList arrayList = accountBootstrapPayload2.f107957b;
         boolean z = false;
         if (arrayList != null) {
-            f87493a.mo25409a("Processing UserBootstrapInfos", new Object[0]);
+            f87493a.logVerbose("Processing UserBootstrapInfos", new Object[0]);
             sdo.m34959a(arrayList);
             if (arrayList.size() > 0) {
                 try {
@@ -89,7 +89,7 @@ final class area {
         }
         ExchangeAssertionsForUserCredentialsRequest exchangeAssertionsForUserCredentialsRequest = accountBootstrapPayload2.f107959d;
         if (exchangeAssertionsForUserCredentialsRequest != null) {
-            f87493a.mo25409a("Processing ExchangeAssertionsForUserCredentialsRequest", new Object[0]);
+            f87493a.logVerbose("Processing ExchangeAssertionsForUserCredentialsRequest", new Object[0]);
             try {
                 ExchangeAssertionsForUserCredentialsRequest exchangeAssertionsForUserCredentialsRequest2 = (ExchangeAssertionsForUserCredentialsRequest) aucu.m76782a(this.f87497e.mo24730b(exchangeAssertionsForUserCredentialsRequest));
                 exchangeAssertionsForUserCredentialsRequest2.mo59156a(this.f87498f);
@@ -102,7 +102,7 @@ final class area {
                         bxvd.f164950c = false;
                     }
                     bowe bowe = bowe.f135103h;
-                    ((bowe) bxvd.f164949b).f135110f = bxvk.m124030de();
+                    ((bowe) bxvd.f164949b).f135110f = GeneratedMessageLite.m124030de();
                     int length2 = userCredentialArr.length;
                     ArrayList arrayList2 = new ArrayList(length2);
                     ArrayList arrayList3 = new ArrayList();
@@ -137,10 +137,10 @@ final class area {
                             bowc bowc2 = (bowc) da.mo74062i();
                             bowc2.getClass();
                             if (!bowe2.f135110f.mo73666a()) {
-                                bowe2.f135110f = bxvk.m124021a(bowe2.f135110f);
+                                bowe2.f135110f = GeneratedMessageLite.m124021a(bowe2.f135110f);
                             }
                             bowe2.f135110f.add(bowc2);
-                            sek sek = f87493a;
+                            Logger Logger = f87493a;
                             String str = userCredential.f108179b;
                             int i4 = userCredential.f108180c;
                             StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 39);
@@ -149,7 +149,7 @@ final class area {
                             sb.append(") not OK (Status: ");
                             sb.append(i4);
                             sb.append(")");
-                            sek.mo25412b(sb.toString(), new Object[0]);
+                            Logger.mo25412b(sb.toString(), new Object[0]);
                             i2++;
                             this.f87496d.mo48456a(new BootstrapAccount(userCredential.f108179b, "com.google"));
                         }
@@ -157,11 +157,11 @@ final class area {
                         z = false;
                     }
                     if (i2 > 0) {
-                        sek sek2 = f87493a;
+                        Logger logger2 = f87493a;
                         StringBuilder sb2 = new StringBuilder(38);
                         sb2.append(i2);
                         sb2.append(" account(s) were not added.");
-                        sek2.mo25414c(sb2.toString(), new Object[0]);
+                        logger2.mo25414c(sb2.toString(), new Object[0]);
                     }
                     armn armn = this.f87495c;
                     int length3 = userCredentialArr.length;
@@ -197,12 +197,12 @@ final class area {
                         String str2 = arui.f88317b;
                         String str3 = arui.f88318c;
                         this.f87496d.mo48458a(str2, str3);
-                        sek sek3 = f87493a;
+                        Logger logger3 = f87493a;
                         String valueOf = String.valueOf(str2);
-                        sek3.mo25409a(valueOf.length() == 0 ? new String("restoreAccountId: ") : "restoreAccountId: ".concat(valueOf), new Object[0]);
-                        sek sek4 = f87493a;
+                        logger3.logVerbose(valueOf.length() == 0 ? new String("restoreAccountId: ") : "restoreAccountId: ".concat(valueOf), new Object[0]);
+                        Logger logger4 = f87493a;
                         String valueOf2 = String.valueOf(str3);
-                        sek4.mo25409a(valueOf2.length() == 0 ? new String("restoreToken: ") : "restoreToken: ".concat(valueOf2), new Object[0]);
+                        logger4.logVerbose(valueOf2.length() == 0 ? new String("restoreToken: ") : "restoreToken: ".concat(valueOf2), new Object[0]);
                         if (arrayList4.isEmpty()) {
                             arpt.m73277a(this.f87494b, arrayList3);
                             this.f87496d.mo48459a(arqi.m73308a(userCredentialArr));
@@ -239,7 +239,7 @@ final class area {
         }
         ExchangeSessionCheckpointsForUserCredentialsRequest exchangeSessionCheckpointsForUserCredentialsRequest = accountBootstrapPayload2.f107961f;
         if (exchangeSessionCheckpointsForUserCredentialsRequest != null) {
-            f87493a.mo25409a("Processing ExchangeSessionCheckpointsForUserCredentialsRequest", new Object[0]);
+            f87493a.logVerbose("Processing ExchangeSessionCheckpointsForUserCredentialsRequest", new Object[0]);
             if (exchangeSessionCheckpointsForUserCredentialsRequest.f108157b.size() > 0) {
                 try {
                     artq artq = this.f87497e;

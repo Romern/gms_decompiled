@@ -47,7 +47,7 @@ public final class zsr {
             bxvd.f164950c = false;
         }
         bpgw bpgw = bpgw.f137569C;
-        ((bpgw) bxvd.f164949b).f137581i = bxvk.m124030de();
+        ((bpgw) bxvd.f164949b).f137581i = GeneratedMessageLite.m124030de();
         bxvd bxvd2 = this.f55829a;
         bnic a = bnic.m109488a(bnjd.m109575a((Iterable) this.f55830b.values(), zsq.f55828a));
         if (bxvd2.f164950c) {
@@ -56,7 +56,7 @@ public final class zsr {
         }
         bpgw bpgw2 = (bpgw) bxvd2.f164949b;
         if (!bpgw2.f137581i.mo73666a()) {
-            bpgw2.f137581i = bxvk.m124021a(bpgw2.f137581i);
+            bpgw2.f137581i = GeneratedMessageLite.m124021a(bpgw2.f137581i);
         }
         bxsy.m123078a(a, bpgw2.f137581i);
         return (bpgw) this.f55829a.mo74062i();

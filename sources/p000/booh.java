@@ -17,7 +17,7 @@ public final class booh extends bxvd implements bxxd {
         booj booj2 = booj.f133916p;
         boow.getClass();
         if (!booj.f133927j.mo73666a()) {
-            booj.f133927j = bxvk.m124021a(booj.f133927j);
+            booj.f133927j = GeneratedMessageLite.m124021a(booj.f133927j);
         }
         booj.f133927j.add(boow);
     }

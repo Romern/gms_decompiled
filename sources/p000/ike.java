@@ -13,7 +13,7 @@ import com.google.android.gms.auth.authzen.transaction.ScreenLocker$1;
 public final class ike {
 
     /* renamed from: f */
-    public static final sek f21167f = new sek("ScreenLocker");
+    public static final Logger f21167f = new Logger("ScreenLocker");
 
     /* renamed from: a */
     public final Activity f21168a;

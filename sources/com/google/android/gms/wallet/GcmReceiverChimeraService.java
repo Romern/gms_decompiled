@@ -25,7 +25,7 @@ public class GcmReceiverChimeraService extends TracingIntentService {
                 if (intent != null) {
                     if (intent.hasExtra("serverPushMessageBase64")) {
                         try {
-                            bmqt bmqt = (bmqt) bxvk.m124016a(bmqt.f130424e, Base64.decode(intent.getStringExtra("serverPushMessageBase64"), 2), bxus.m123744c());
+                            bmqt bmqt = (bmqt) GeneratedMessageLite.m124016a(bmqt.f130424e, Base64.decode(intent.getStringExtra("serverPushMessageBase64"), 2), bxus.m123744c());
                             if ((bmqt.f130426a & 1) != 0) {
                                 long a = (long) awft.m79871a(this);
                                 bmqs bmqs = bmqt.f130429d;

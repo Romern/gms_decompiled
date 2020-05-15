@@ -21,7 +21,7 @@ public abstract class oij extends ojh {
     public final void mo22085a(int i, ByteBuffer byteBuffer) {
         int b = birw.m102772b(i);
         if (b == 32775) {
-            bish bish = (bish) bxvk.m124013a(bish.f121557d, byteBuffer, bxus.m123744c());
+            bish bish = (bish) GeneratedMessageLite.m124013a(bish.f121557d, byteBuffer, bxus.m123744c());
             if (bish != null) {
                 mo22180a(bish);
             }

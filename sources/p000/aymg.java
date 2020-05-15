@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aymg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aymg extends bxvk implements bxxd {
+public final class aymg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final aymg f97968e;
@@ -25,7 +25,7 @@ public final class aymg extends bxvk implements bxxd {
     static {
         aymg aymg = new aymg();
         f97968e = aymg;
-        bxvk.m124024a(aymg.class, aymg);
+        GeneratedMessageLite.m124024a(aymg.class, aymg);
     }
 
     private aymg() {
@@ -42,7 +42,7 @@ public final class aymg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f97968e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", aymd.m84247b(), "c", ayma.f97948a, "d", ayme.f97967a});
+            return GeneratedMessageLite.m124022a(f97968e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", aymd.m84247b(), "c", ayma.f97948a, "d", ayme.f97967a});
         } else if (i2 == 3) {
             return new aymg();
         } else {

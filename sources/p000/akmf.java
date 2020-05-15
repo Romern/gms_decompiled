@@ -142,7 +142,7 @@ public final class akmf {
                 cafb cafb2 = (cafb) da2.f164949b;
                 a2.getClass();
                 if (!cafb2.f172884e.mo73666a()) {
-                    cafb2.f172884e = bxvk.m124021a(cafb2.f172884e);
+                    cafb2.f172884e = GeneratedMessageLite.m124021a(cafb2.f172884e);
                 }
                 cafb2.f172884e.add(a2);
             }
@@ -153,7 +153,7 @@ public final class akmf {
             }
             cafb cafb3 = (cafb) da2.f164949b;
             if (!cafb3.f172883d.mo73666a()) {
-                cafb3.f172883d = bxvk.m124019a(cafb3.f172883d);
+                cafb3.f172883d = GeneratedMessageLite.m124019a(cafb3.f172883d);
             }
             int size = bngx.size();
             for (int i4 = 0; i4 < size; i4++) {
@@ -193,7 +193,7 @@ public final class akmf {
             }
             cafb cafb4 = (cafb) da2.f164949b;
             if (!cafb4.f172881b.mo73666a()) {
-                cafb4.f172881b = bxvk.m124021a(cafb4.f172881b);
+                cafb4.f172881b = GeneratedMessageLite.m124021a(cafb4.f172881b);
             }
             bxsy.m123078a(arrayList2, cafb4.f172881b);
             if (cfpp.f185406a.mo6606a().mo82478a()) {

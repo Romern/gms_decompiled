@@ -20,7 +20,7 @@ public final class agse {
             agrl a = agrl.m54942a();
             boot a2 = a.mo35978a(20, "GTAF_Server", "MDP_PeriodicService");
             bxvd bxvd = (bxvd) a2.mo74142c(5);
-            bxvd.mo73625a((bxvk) a2);
+            bxvd.mo73625a((GeneratedMessageLite) a2);
             bxvd da = bonz.f133873h.mo74144da();
             bxzu bxzu = bxzu.EVENT_MODULE_INITIALIZED;
             if (da.f164950c) {

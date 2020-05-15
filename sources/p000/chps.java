@@ -27,7 +27,7 @@ public final class chps implements chpq {
         bdyw a = new bdyw("com.google.android.westworld").mo58445a("gms:westworld:");
         f188952a = bdyx.m91609a(a, "default_pull_packages", "");
         try {
-            f188953b = bdyx.m91608a(a, "pull_atom_packages_list", (bku) bxvk.m124014a(bku.f5035b, new byte[0]), chpr.f188951a);
+            f188953b = bdyx.m91608a(a, "pull_atom_packages_list", (bku) GeneratedMessageLite.m124014a(bku.f5035b, new byte[0]), chpr.f188951a);
             f188954c = bdyx.m91610a(a, "is_phenotype_flags", false);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"pull_atom_packages_list\"");

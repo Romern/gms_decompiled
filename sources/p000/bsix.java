@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsix */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsix extends bxvk implements bsiy {
+public final class bsix extends GeneratedMessageLite implements bsiy {
 
     /* renamed from: e */
     public static final bsix f144763e;
@@ -25,7 +25,7 @@ public final class bsix extends bxvk implements bsiy {
     static {
         bsix bsix = new bsix();
         f144763e = bsix;
-        bxvk.m124024a(bsix.class, bsix);
+        GeneratedMessageLite.m124024a(bsix.class, bsix);
     }
 
     private bsix() {
@@ -42,7 +42,7 @@ public final class bsix extends bxvk implements bsiy {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f144763e, "\u0000\u0004\u0000\u0000\u0001\u0005\u0004\u0000\u0000\u0000\u0001\t\u0003\u0002\u0004\u0004\u0005\u0007", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f144763e, "\u0000\u0004\u0000\u0000\u0001\u0005\u0004\u0000\u0000\u0000\u0001\t\u0003\u0002\u0004\u0004\u0005\u0007", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bsix();
         } else {

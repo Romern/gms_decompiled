@@ -33,10 +33,10 @@ final class ajax implements ajgp {
                     }
                     byva byva = (byva) da.f164949b;
                     if (!byva.f168409a.mo73666a()) {
-                        byva.f168409a = bxvk.m124021a(byva.f168409a);
+                        byva.f168409a = GeneratedMessageLite.m124021a(byva.f168409a);
                     }
                     bxsy.m123078a(singletonList, byva.f168409a);
-                    byte[] k = ((byva) da.mo74062i()).mo73642k();
+                    byte[] k = ((byva) da.mo74062i()).serializeToBytes();
                     Parcel bj = bvhf.mo8529bj();
                     bj.writeByteArray(k);
                     bvhf.mo8530c(2, bj);

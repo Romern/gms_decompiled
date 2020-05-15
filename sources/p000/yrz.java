@@ -232,7 +232,7 @@ public final class yrz implements zuu {
             sb2.append(a);
             sb2.append("/deleteHistory?alt=proto");
             sb.append(sb2.toString());
-            bxuo bxuo = (bxuo) sgv.mo25513a(clientContext, 1, sb.toString(), cabx2.mo73642k(), bxuo.f164865a);
+            bxuo bxuo = (bxuo) sgv.mo25513a(clientContext, 1, sb.toString(), cabx2.serializeToBytes(), bxuo.f164865a);
         } catch (VolleyError | gid e) {
             throw new yqh(e);
         }
@@ -250,7 +250,7 @@ public final class yrz implements zuu {
         cacj.f172561a |= 1;
         cacj.f172562b = "me";
         if (!cacj.f172563c.mo73666a()) {
-            cacj.f172563c = bxvk.m124021a(cacj.f172563c);
+            cacj.f172563c = GeneratedMessageLite.m124021a(cacj.f172563c);
         }
         bxsy.m123078a(collection, cacj.f172563c);
         cacj cacj2 = (cacj) da.mo74062i();
@@ -265,7 +265,7 @@ public final class yrz implements zuu {
             sb2.append(a);
             sb2.append("/purgeDataSources?alt=proto");
             sb.append(sb2.toString());
-            bxuo bxuo = (bxuo) sgv.mo25513a(clientContext, 1, sb.toString(), cacj2.mo73642k(), bxuo.f164865a);
+            bxuo bxuo = (bxuo) sgv.mo25513a(clientContext, 1, sb.toString(), cacj2.serializeToBytes(), bxuo.f164865a);
         } catch (VolleyError | gid e) {
             throw new yqh(e);
         }

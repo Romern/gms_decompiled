@@ -76,7 +76,7 @@ public final class aiyw implements ajgp {
                     byte[] bArr2 = new byte[i];
                     System.arraycopy(bArr, 1, bArr2, 0, i);
                     bxvd da = byze.f169064e.mo74144da();
-                    bxtx a2 = bxtx.m123261a(bArr2);
+                    ByteString a2 = ByteString.m123261a(bArr2);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -120,7 +120,7 @@ public final class aiyw implements ajgp {
                     byzr.f169152a |= 1;
                     byzr byzr2 = (byzr) bxvf.mo74062i();
                     bxvd bxvd = (bxvd) byzr2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) byzr2);
+                    bxvd.mo73625a((GeneratedMessageLite) byzr2);
                     ((ajbn) ahgz.m55754a(this.f70112e, ajbn.class)).mo38449a((bxvf) bxvd);
                     return;
                 }
@@ -214,7 +214,7 @@ public final class aiyw implements ajgp {
                                 byte[] bArr2 = new byte[i4];
                                 System.arraycopy(bArr, 1, bArr2, 0, i4);
                                 bxvd da = byze.f169064e.mo74144da();
-                                bxtx a5 = bxtx.m123261a(bArr2);
+                                ByteString a5 = ByteString.m123261a(bArr2);
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;
@@ -258,7 +258,7 @@ public final class aiyw implements ajgp {
                                 byzr.f169152a |= 1;
                                 byzr byzr2 = (byzr) bxvf.mo74062i();
                                 bxvd bxvd = (bxvd) byzr2.mo74142c(5);
-                                bxvd.mo73625a((bxvk) byzr2);
+                                bxvd.mo73625a((GeneratedMessageLite) byzr2);
                                 ((ajbn) ahgz.m55754a(this.f70112e, ajbn.class)).mo38449a((bxvf) bxvd);
                                 return;
                             }

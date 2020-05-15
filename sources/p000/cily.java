@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cily */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cily extends bxvk implements bxxd {
+public final class cily extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final cily f190683f;
@@ -28,7 +28,7 @@ public final class cily extends bxvk implements bxxd {
     static {
         cily cily = new cily();
         f190683f = cily;
-        bxvk.m124024a(cily.class, cily);
+        GeneratedMessageLite.m124024a(cily.class, cily);
     }
 
     private cily() {
@@ -45,7 +45,7 @@ public final class cily extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f190683f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003ဂ\u0002\u0004ဌ\u0003", new Object[]{"a", "b", "c", cilv.f190677a, "d", "e", cilt.f190675a});
+            return GeneratedMessageLite.m124022a(f190683f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003ဂ\u0002\u0004ဌ\u0003", new Object[]{"a", "b", "c", cilv.f190677a, "d", "e", cilt.f190675a});
         } else if (i2 == 3) {
             return new cily();
         } else {

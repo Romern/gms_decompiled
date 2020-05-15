@@ -40,7 +40,7 @@ public final class qoh {
         File a2 = m32560a(file);
         if (a2.exists() && (a = dft.m8323a(a2)) != null) {
             try {
-                qoj = (qoj) bxvk.m124016a(qoj.f41860d, a, bxus.m123743b());
+                qoj = (qoj) GeneratedMessageLite.m124016a(qoj.f41860d, a, bxus.m123743b());
             } catch (bxwf e) {
                 String valueOf = String.valueOf(e.getMessage());
                 Log.e("downloadstore", valueOf.length() == 0 ? new String("Failed to parse download store state: ") : "Failed to parse download store state: ".concat(valueOf));
@@ -50,7 +50,7 @@ public final class qoh {
                 int i = qoj.f41863b;
                 if (i == 1) {
                     bxvd = (bxvd) qoj.mo74142c(5);
-                    bxvd.mo73625a((bxvk) qoj);
+                    bxvd.mo73625a((GeneratedMessageLite) qoj);
                     this.f41843a = bxvd;
                     size = ((qoj) bxvd.f164949b).f41864c.size();
                     if (size <= 0) {
@@ -143,7 +143,7 @@ public final class qoh {
     /* renamed from: a */
     private final boolean m32561a(bxvd bxvd) {
         boolean z = false;
-        if (dft.m8316a(((qoj) bxvd.mo74062i()).mo73642k(), new File(this.f41844b, "pending_download_store.pb"), m32560a(this.f41844b), false) > 0) {
+        if (dft.m8316a(((qoj) bxvd.mo74062i()).serializeToBytes(), new File(this.f41844b, "pending_download_store.pb"), m32560a(this.f41844b), false) > 0) {
             z = true;
         }
         if (!z) {
@@ -161,7 +161,7 @@ public final class qoh {
         qoi v = this.f41843a.mo74114v(e);
         bxvd bxvd = this.f41843a;
         bxvd bxvd2 = (bxvd) v.mo74142c(5);
-        bxvd2.mo73625a((bxvk) v);
+        bxvd2.mo73625a((GeneratedMessageLite) v);
         int i = v.f41854g + 1;
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
@@ -307,7 +307,7 @@ public final class qoh {
             qoi v = this.f41843a.mo74114v(e);
             bxvd bxvd = this.f41843a;
             bxvd bxvd2 = (bxvd) v.mo74142c(5);
-            bxvd2.mo73625a((bxvk) v);
+            bxvd2.mo73625a((GeneratedMessageLite) v);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bohr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bohr extends bxvk implements bxxd {
+public final class bohr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bohr f133141c;
@@ -19,7 +19,7 @@ public final class bohr extends bxvk implements bxxd {
     static {
         bohr bohr = new bohr();
         f133141c = bohr;
-        bxvk.m124024a(bohr.class, bohr);
+        GeneratedMessageLite.m124024a(bohr.class, bohr);
     }
 
     private bohr() {
@@ -36,7 +36,7 @@ public final class bohr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133141c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f133141c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bohr();
         } else {

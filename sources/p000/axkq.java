@@ -27,7 +27,7 @@ public final class axkq extends axeq {
     /* renamed from: b */
     public final void mo53072b(Context context) {
         bxvd da = btsx.f150300c.mo74144da();
-        bxtx a = bxtx.m123261a(this.f96083e.f110801a);
+        ByteString a = ByteString.m123261a(this.f96083e.f110801a);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

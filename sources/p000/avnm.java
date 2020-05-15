@@ -9,7 +9,7 @@ import java.io.IOException;
 public final class avnm {
 
     /* renamed from: a */
-    public static final sek f93516a = avpq.m79018e("ExecutionManager");
+    public static final Logger f93516a = avpq.m79018e("ExecutionManager");
 
     /* renamed from: b */
     public static final avsz f93517b = new avnl();

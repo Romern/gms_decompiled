@@ -55,7 +55,7 @@ public final class qnv extends dez {
         }
         try {
             fileInputStream = new FileInputStream(a);
-            qnz qnz = (qnz) bxvk.m124011a(qnz.f41820b, fileInputStream, bxus.m123743b());
+            qnz qnz = (qnz) GeneratedMessageLite.m124011a(qnz.f41820b, fileInputStream, bxus.m123743b());
             fileInputStream.close();
             return qnz;
         } catch (IOException e) {
@@ -90,10 +90,10 @@ public final class qnv extends dez {
                 d = (qnz) da.mo74062i();
             }
             bxvd bxvd = (bxvd) d.mo74142c(5);
-            bxvd.mo73625a((bxvk) d);
+            bxvd.mo73625a((GeneratedMessageLite) d);
             bxvd.mo73970a(j, qnx);
             qnz = (qnz) bxvd.mo74062i();
-            dft.m8316a(qnz.mo73642k(), dez.m8264a(this.f12991b, "shared_module_provider.pb.tmp"), dez.m8264a(this.f12991b, "shared_module_provider.pb"), false);
+            dft.m8316a(qnz.serializeToBytes(), dez.m8264a(this.f12991b, "shared_module_provider.pb.tmp"), dez.m8264a(this.f12991b, "shared_module_provider.pb"), false);
         }
         C1225nr nrVar = new C1225nr();
         C1225nr nrVar2 = new C1225nr();

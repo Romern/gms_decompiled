@@ -38,7 +38,7 @@ final class awms implements Runnable {
         a.getClass();
         bmru.f130584b = a;
         bmru.f130583a |= 1;
-        bxtx a2 = bxtx.m123261a(awmv.f94647k);
+        ByteString a2 = ByteString.m123261a(awmv.f94647k);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

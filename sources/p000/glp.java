@@ -13,7 +13,7 @@ import org.json.JSONObject;
 public final class glp {
 
     /* renamed from: a */
-    public static final sek f18562a = new sek("Auth", "BackendStub");
+    public static final Logger f18562a = new Logger("Auth", "BackendStub");
 
     /* renamed from: b */
     public final Context f18563b;

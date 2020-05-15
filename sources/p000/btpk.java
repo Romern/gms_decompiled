@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btpk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btpk extends bxvk implements bxxd {
+public final class btpk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btpk f149854c;
@@ -19,7 +19,7 @@ public final class btpk extends bxvk implements bxxd {
     static {
         btpk btpk = new btpk();
         f149854c = btpk;
-        bxvk.m124024a(btpk.class, btpk);
+        GeneratedMessageLite.m124024a(btpk.class, btpk);
     }
 
     private btpk() {
@@ -36,7 +36,7 @@ public final class btpk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149854c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002\t", new Object[]{"a", btpj.class, "b"});
+            return GeneratedMessageLite.m124022a(f149854c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002\t", new Object[]{"a", btpj.class, "b"});
         } else if (i2 == 3) {
             return new btpk();
         } else {

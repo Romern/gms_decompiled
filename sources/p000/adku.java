@@ -113,9 +113,9 @@ public final class adku {
             arrayList = emptyList;
         }
         if (packageInfo == null) {
-            return new AppInfo(adkw.f62088a, str, arrayList, m50769a(adhv2.f61731b), m50770b(adhv2.f61732c), adhv2.f61733d, adhv2.f61734e.mo73780k(), null, adhv2.f61737h.mo73780k());
+            return new AppInfo(adkw.f62088a, str, arrayList, m50769a(adhv2.f61731b), m50770b(adhv2.f61732c), adhv2.f61733d, adhv2.f61734e.getKey(), null, adhv2.f61737h.getKey());
         }
-        return new AppInfo(adkw.f62088a, str, arrayList, m50769a(adhv2.f61731b), m50770b(adhv2.f61732c), adhv2.f61733d, null, packageInfo, adhv2.f61737h.mo73780k());
+        return new AppInfo(adkw.f62088a, str, arrayList, m50769a(adhv2.f61731b), m50770b(adhv2.f61732c), adhv2.f61733d, null, packageInfo, adhv2.f61737h.getKey());
     }
 
     /* renamed from: b */
@@ -127,7 +127,7 @@ public final class adku {
         int size = list.size();
         for (int i = 0; i < size; i++) {
             adih adih = (adih) list.get(i);
-            arrayList.add(new SharedLibInfo(adih.f61795a, adih.f61796b, adih.f61797c, adih.f61798d, adih.f61799e, adih.f61800f.mo73780k()));
+            arrayList.add(new SharedLibInfo(adih.f61795a, adih.f61796b, adih.f61797c, adih.f61798d, adih.f61799e, adih.f61800f.getKey()));
         }
         return arrayList;
     }
@@ -146,7 +146,7 @@ public final class adku {
             String[] strArr = (String[]) adib.f61766c.toArray(new String[0]);
             int[] a = bqcn.m112584a(adib.f61767d);
             int i2 = adib.f61768e;
-            byte[] k = adib.f61769f.mo73780k();
+            byte[] k = adib.f61769f.getKey();
             if (k.length == 0) {
                 k = null;
             }

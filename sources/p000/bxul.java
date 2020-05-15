@@ -99,14 +99,14 @@ final class bxul {
     }
 
     /* renamed from: a */
-    public final void mo73878a(int i, bxtx bxtx) {
+    public final void mo73878a(int i, ByteString bxtx) {
         this.f164857a.mo73832a(i, bxtx);
     }
 
     /* renamed from: a */
     public final void mo73879a(int i, Object obj) {
-        if (obj instanceof bxtx) {
-            this.f164857a.mo73847b(i, (bxtx) obj);
+        if (obj instanceof ByteString) {
+            this.f164857a.mo73847b(i, (ByteString) obj);
         } else {
             this.f164857a.mo73833a(i, (bxxc) obj);
         }

@@ -20,7 +20,7 @@ public enum bxwg {
         Class cls3 = Float.TYPE;
         Class cls4 = Double.TYPE;
         Class cls5 = Boolean.TYPE;
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
         Class cls6 = Integer.TYPE;
     }
 }

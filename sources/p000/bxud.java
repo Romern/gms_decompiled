@@ -154,7 +154,7 @@ public final class bxud implements bxxp {
     }
 
     /* renamed from: n */
-    public final bxtx mo73716n() {
+    public final ByteString mo73716n() {
         m123456a(2);
         return this.f164829a.mo73803l();
     }

@@ -52,7 +52,7 @@ public final /* synthetic */ class bcwf implements bmxj {
                         throw bcwg.m90141a(str, valueOf2.length() == 0 ? new String("Media upload failed: scottyStatus=") : "Media upload failed: scottyStatus=".concat(valueOf2), chuv.f189229p);
                     }
                     try {
-                        cbnc cbnc = (cbnc) bxvk.m124014a(cbnc.f177716b, boav.m111020a(inputStream));
+                        cbnc cbnc = (cbnc) GeneratedMessageLite.m124014a(cbnc.f177716b, boav.m111020a(inputStream));
                         if (cbnc != null && (cbmf = cbnc.f177718a) != null && !cbmf.f177613a.isEmpty()) {
                             return cbnc;
                         }

@@ -49,7 +49,7 @@ public final class aqyp {
 
     /* renamed from: a */
     public final void mo48279a(Account[] accountArr) {
-        sdo.m34966a(accountArr, "accounts cannot be null.");
+        sdo.checkIfNull(accountArr, "accounts cannot be null.");
         for (Account account : accountArr) {
             this.f87108e.add(new BootstrapAccount(account.name, account.type));
         }

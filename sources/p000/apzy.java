@@ -18,7 +18,7 @@ public final class apzy extends bxvd implements bxxd {
         apzz apzz2 = apzz.f85340c;
         aqaf.getClass();
         if (!apzz.f85342a.mo73666a()) {
-            apzz.f85342a = bxvk.m124021a(apzz.f85342a);
+            apzz.f85342a = GeneratedMessageLite.m124021a(apzz.f85342a);
         }
         apzz.f85342a.add(aqaf);
     }

@@ -17,7 +17,7 @@ import java.util.concurrent.TimeoutException;
 public final class jpv extends aaab {
 
     /* renamed from: a */
-    private static final sek f23008a = jsy.m17256a("GetMySyncedMetadata");
+    private static final Logger f23008a = jsy.m17256a("GetMySyncedMetadata");
 
     /* renamed from: b */
     private static final long f23009b = TimeUnit.SECONDS.toMillis(5);

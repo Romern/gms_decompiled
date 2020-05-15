@@ -11,7 +11,7 @@ import java.util.List;
 public final class ardp {
 
     /* renamed from: a */
-    public static final sek f87465a = ascp.m73787a("D2D", "SourceDirectTransferServiceController");
+    public static final Logger f87465a = ascp.m73787a("D2D", "SourceDirectTransferServiceController");
 
     /* renamed from: b */
     public ardn f87466b;
@@ -25,7 +25,7 @@ public final class ardp {
 
     /* renamed from: a */
     public final void mo48443a() {
-        f87465a.mo25409a("cleanup()", new Object[0]);
+        f87465a.logVerbose("cleanup()", new Object[0]);
         ardn ardn = this.f87466b;
         if (ardn != null) {
             ardn.mo48242a();
@@ -65,13 +65,13 @@ public final class ardp {
     /* renamed from: a */
     public final synchronized void mo48446a(arit arit) {
         List a = ardn.m72536a(this.f87467c.f87197a);
-        sek sek = f87465a;
+        Logger Logger = f87465a;
         int size = a.size();
         StringBuilder sb = new StringBuilder(59);
         sb.append("getBootstrappableAccounts returning ");
         sb.append(size);
         sb.append(" account(s).");
-        sek.mo25409a(sb.toString(), new Object[0]);
+        Logger.logVerbose(sb.toString(), new Object[0]);
         try {
             arit.mo48575a(new Status(0), a);
         } catch (RemoteException e) {

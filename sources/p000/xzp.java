@@ -26,7 +26,7 @@ import org.json.JSONObject;
 public final class xzp extends xhp implements xzq {
 
     /* renamed from: o */
-    public static final sek f53470o = new sek(new String[]{"U2fRequestController"}, (short[]) null);
+    public static final Logger f53470o = new Logger(new String[]{"U2fRequestController"}, (short[]) null);
 
     /* renamed from: m */
     public final Context f53471m;
@@ -139,7 +139,7 @@ public final class xzp extends xhp implements xzq {
                     mo29762f();
                 }
             } else if (this.f52306d.mo30224d().f52132d == 2) {
-                byte[] k = this.f52306d.mo30224d().mo29694a().mo73780k();
+                byte[] k = this.f52306d.mo30224d().mo29694a().getKey();
                 byte[] bArr = ((SignResponseData) responseData).f31945a;
                 xzb xzb = this.f52308f;
                 bmxy.m108581a(transport);
@@ -249,12 +249,12 @@ public final class xzp extends xhp implements xzq {
     public final void mo30288a(String str) {
         f53470o.mo25412b("onSecurityKeySignRequestAppIdsValidated", new Object[0]);
         if (str == null) {
-            sek sek = f53470o;
+            Logger Logger = f53470o;
             String valueOf = String.valueOf(this.f53472n);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 30);
             sb.append("App ID not allowed for caller ");
             sb.append(valueOf);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
             mo30061a((Transport) null, new ErrorResponseData(ErrorCode.BAD_REQUEST));
             return;
         }

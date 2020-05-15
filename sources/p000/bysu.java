@@ -65,7 +65,7 @@ public final class bysu {
             bytb.f167641a |= 1;
             ECPublicKey eCPublicKey = (ECPublicKey) publicKey;
             bxvd da2 = bysy.f167632d.mo74144da();
-            bxtx a = bxtx.m123261a(eCPublicKey.getW().getAffineX().toByteArray());
+            ByteString a = ByteString.m123261a(eCPublicKey.getW().getAffineX().toByteArray());
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -74,7 +74,7 @@ public final class bysu {
             a.getClass();
             bysy.f167634a = 1 | bysy.f167634a;
             bysy.f167635b = a;
-            bxtx a2 = bxtx.m123261a(eCPublicKey.getW().getAffineY().toByteArray());
+            ByteString a2 = ByteString.m123261a(eCPublicKey.getW().getAffineY().toByteArray());
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -104,7 +104,7 @@ public final class bysu {
             bytb3.f167641a |= 1;
             RSAPublicKey rSAPublicKey = (RSAPublicKey) publicKey;
             bxvd da4 = bytl.f167678d.mo74144da();
-            bxtx a3 = bxtx.m123261a(rSAPublicKey.getModulus().toByteArray());
+            ByteString a3 = ByteString.m123261a(rSAPublicKey.getModulus().toByteArray());
             if (da4.f164950c) {
                 da4.mo74035c();
                 da4.f164950c = false;
@@ -141,7 +141,7 @@ public final class bysu {
             bytb5.f167642b = 3;
             bytb5.f167641a |= 1;
             bxvd da6 = bysx.f167627c.mo74144da();
-            bxtx a4 = bxtx.m123261a(((DHPublicKey) publicKey).getY().toByteArray());
+            ByteString a4 = ByteString.m123261a(((DHPublicKey) publicKey).getY().toByteArray());
             if (da6.f164950c) {
                 da6.mo74035c();
                 da6.f164950c = false;
@@ -287,8 +287,8 @@ public final class bysu {
         if ((i & 1) == 0 || (i & 2) == 0) {
             throw new InvalidKeySpecException("Key is missing a required coordinate");
         } else if (!m125298b()) {
-            byte[] k = bysy.f167635b.mo73780k();
-            byte[] k2 = bysy.f167636c.mo73780k();
+            byte[] k = bysy.f167635b.getKey();
+            byte[] k2 = bysy.f167636c.getKey();
             try {
                 m125297a(k);
                 m125297a(k2);
@@ -316,7 +316,7 @@ public final class bysu {
     /* renamed from: a */
     public static RSAPublicKey m125295a(bytl bytl) {
         if ((bytl.f167680a & 1) != 0) {
-            byte[] k = bytl.f167681b.mo73780k();
+            byte[] k = bytl.f167681b.getKey();
             int length = k.length;
             if (length == 0 || length > 257) {
                 throw new InvalidKeySpecException();
@@ -339,7 +339,7 @@ public final class bysu {
     /* renamed from: a */
     public static DHPublicKey m125296a(bysx bysx) {
         if ((bysx.f167629a & 1) != 0) {
-            byte[] k = bysx.f167630b.mo73780k();
+            byte[] k = bysx.f167630b.getKey();
             int length = k.length;
             if (length == 0 || length > 257) {
                 throw new InvalidKeySpecException();

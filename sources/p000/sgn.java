@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: sgn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class sgn extends bxvk implements bxxd {
+public final class sgn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final sgn f44426b;
@@ -16,7 +16,7 @@ public final class sgn extends bxvk implements bxxd {
     static {
         sgn sgn = new sgn();
         f44426b = sgn;
-        bxvk.m124024a(sgn.class, sgn);
+        GeneratedMessageLite.m124024a(sgn.class, sgn);
     }
 
     private sgn() {
@@ -33,7 +33,7 @@ public final class sgn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f44426b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", sgm.class});
+            return GeneratedMessageLite.m124022a(f44426b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", sgm.class});
         } else if (i2 == 3) {
             return new sgn();
         } else {

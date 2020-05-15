@@ -60,7 +60,7 @@ final class abrj extends acpn {
                 absg.m48196c("Failed to rebuild index.");
             }
             try {
-                bpxm = (bpxm) bxvk.m124014a(bpxm.f139734c, NativeIndex.nativeRestoreIndex(nativeIndex.f79071b, abzu.m48730a().mo73642k()));
+                bpxm = (bpxm) GeneratedMessageLite.m124014a(bpxm.f139734c, NativeIndex.nativeRestoreIndex(nativeIndex.f79071b, abzu.m48730a().serializeToBytes()));
             } catch (bxwf e) {
                 absg.m48189a(e, "Failed parsing index restoration stats response");
                 bxvd da = bpxm.f139734c.mo74144da();

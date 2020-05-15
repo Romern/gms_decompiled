@@ -8,7 +8,7 @@ import android.os.Handler;
 public final class icv {
 
     /* renamed from: a */
-    public static final sek f20750a = new sek("GoogleSignInCommon", new String[0]);
+    public static final Logger f20750a = new Logger("GoogleSignInCommon", new String[0]);
 
     /* renamed from: a */
     public static void m15248a(Context context) {

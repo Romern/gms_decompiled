@@ -9,7 +9,7 @@ public final class cbyt implements cbyr {
 
     static {
         try {
-            f178567a = bdyx.m91608a(new bdyw(bdyj.m91581a("com.google.android.gms.auth_account")).mo58443a(), "FormFactorSpecific__pre_add_account_activity_should_send_sync_broadcast", (bqzq) bxvk.m124014a(bqzq.f142077c, new byte[]{10, 2, 8, 0, 18, 2, 8, 1}), cbys.f178566a);
+            f178567a = bdyx.m91608a(new bdyw(bdyj.m91581a("com.google.android.gms.auth_account")).mo58443a(), "FormFactorSpecific__pre_add_account_activity_should_send_sync_broadcast", (bqzq) GeneratedMessageLite.m124014a(bqzq.f142077c, new byte[]{10, 2, 8, 0, 18, 2, 8, 1}), cbys.f178566a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"FormFactorSpecific__pre_add_account_activity_should_send_sync_broadcast\"");
         }

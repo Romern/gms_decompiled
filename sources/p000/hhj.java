@@ -21,7 +21,7 @@ import com.google.android.gms.common.api.Status;
 public final class hhj extends adcf {
 
     /* renamed from: a */
-    public static final sek f19771a = ght.m13172b("SaveAccountLinkingTokenAccountChooserFragment");
+    public static final Logger f19771a = ght.m13172b("SaveAccountLinkingTokenAccountChooserFragment");
 
     /* renamed from: e */
     private static final int f19772e = C0126R.style.CredentialsDialogTheme;

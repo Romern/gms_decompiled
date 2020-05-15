@@ -33,7 +33,7 @@ public final class bvbu {
                     byte[] decode = Base64.decode(string, 11);
                     byyg a = buqf.m120232a();
                     bxvd bxvd = (bxvd) a.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a);
+                    bxvd.mo73625a((GeneratedMessageLite) a);
                     bxvf bxvf = (bxvf) bxvd;
                     bxvf.mo73635b(decode, bxus.m123744c());
                     byyg = (byyg) bxvf.mo74062i();
@@ -67,7 +67,7 @@ public final class bvbu {
             byte[] decode = Base64.decode(string, 11);
             byyg a = buqf.m120232a();
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             bxvf bxvf = (bxvf) bxvd;
             bxvf.mo73635b(decode, bxus.m123744c());
             return (byyg) bxvf.mo74062i();
@@ -85,15 +85,15 @@ public final class bvbu {
     public final void mo73291b(byyg byyg) {
         byyg byyg2 = this.f155567b;
         bxvd bxvd = (bxvd) byyg2.mo74142c(5);
-        bxvd.mo73625a((bxvk) byyg2);
+        bxvd.mo73625a((GeneratedMessageLite) byyg2);
         bxvf bxvf = (bxvf) bxvd;
-        bxvf.mo73625a((bxvk) byyg);
+        bxvf.mo73625a((GeneratedMessageLite) byyg);
         this.f155567b = (byyg) bxvf.mo74062i();
     }
 
     /* renamed from: a */
     public final void mo73290a(byyg byyg) {
-        this.f155569d.edit().putString("persistent", Base64.encodeToString(byyg.mo73642k(), 11)).commit();
+        this.f155569d.edit().putString("persistent", Base64.encodeToString(byyg.serializeToBytes(), 11)).commit();
         this.f155566a = byyg;
     }
 }

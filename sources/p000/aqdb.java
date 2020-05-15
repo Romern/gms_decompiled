@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqdb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqdb extends bxvk implements bxxd {
+public final class aqdb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final aqdb f85741e;
@@ -25,7 +25,7 @@ public final class aqdb extends bxvk implements bxxd {
     static {
         aqdb aqdb = new aqdb();
         f85741e = aqdb;
-        bxvk.m124024a(aqdb.class, aqdb);
+        GeneratedMessageLite.m124024a(aqdb.class, aqdb);
     }
 
     private aqdb() {
@@ -42,7 +42,7 @@ public final class aqdb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85741e, "\u0001\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0004\u0000\u0001\u0016\u0002\u0016\u0003\u001b\u0004\u001e", new Object[]{"a", "b", "d", aqcv.class, "c", aqda.m71370b()});
+            return GeneratedMessageLite.m124022a(f85741e, "\u0001\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0004\u0000\u0001\u0016\u0002\u0016\u0003\u001b\u0004\u001e", new Object[]{"a", "b", "d", aqcv.class, "c", aqda.m71370b()});
         } else if (i2 == 3) {
             return new aqdb();
         } else {

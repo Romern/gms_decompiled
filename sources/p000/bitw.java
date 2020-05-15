@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bitw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bitw extends bxvk implements bxxd {
+public final class bitw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bitw f121727d;
@@ -25,7 +25,7 @@ public final class bitw extends bxvk implements bxxd {
     static {
         bitw bitw = new bitw();
         f121727d = bitw;
-        bxvk.m124024a(bitw.class, bitw);
+        GeneratedMessageLite.m124024a(bitw.class, bitw);
     }
 
     private bitw() {
@@ -46,7 +46,7 @@ public final class bitw extends bxvk implements bxxd {
             this.f121732e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121727d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ဌ\u0000\u0002ᔇ\u0001", new Object[]{"a", "b", bisf.m102782b(), "c"});
+            return GeneratedMessageLite.m124022a(f121727d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ဌ\u0000\u0002ᔇ\u0001", new Object[]{"a", "b", bisf.m102782b(), "c"});
         } else if (i2 == 3) {
             return new bitw();
         } else {

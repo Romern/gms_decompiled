@@ -35,13 +35,13 @@ public final class adkz {
         bkjv bkjv2 = bkjv.f124474b;
         bkjw3.getClass();
         if (!bkjv.f124476a.mo73666a()) {
-            bkjv.f124476a = bxvk.m124021a(bkjv.f124476a);
+            bkjv.f124476a = GeneratedMessageLite.m124021a(bkjv.f124476a);
         }
         bkjv.f124476a.add(bkjw3);
     }
 
     /* renamed from: a */
     public final byte[] mo33628a() {
-        return ((bkjv) this.f62097a.mo74062i()).mo73642k();
+        return ((bkjv) this.f62097a.mo74062i()).serializeToBytes();
     }
 }

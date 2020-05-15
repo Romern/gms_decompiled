@@ -259,7 +259,7 @@ final class aizf {
     public final void mo38325a(geh geh) {
         gcs gcs = this.f70131a;
         rob rob = gcs.mo24714a(geh, geh.class.getName()).f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         gcs.mo24698a(rob).mo50371a(new aize());
     }
 

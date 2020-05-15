@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mpg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mpg extends bxvk implements bxxd {
+public final class mpg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final mpg f34125o;
@@ -41,7 +41,7 @@ public final class mpg extends bxvk implements bxxd {
     public int f34136j;
 
     /* renamed from: k */
-    public bxtx f34137k = bxtx.f164797b;
+    public ByteString f34137k = ByteString.f164797b;
 
     /* renamed from: l */
     public boolean f34138l;
@@ -50,12 +50,12 @@ public final class mpg extends bxvk implements bxxd {
     public int f34139m;
 
     /* renamed from: n */
-    public bxtx f34140n = bxtx.f164797b;
+    public ByteString f34140n = ByteString.f164797b;
 
     static {
         mpg mpg = new mpg();
         f34125o = mpg;
-        bxvk.m124024a(mpg.class, mpg);
+        GeneratedMessageLite.m124024a(mpg.class, mpg);
     }
 
     private mpg() {
@@ -72,7 +72,7 @@ public final class mpg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34125o, "\u0001\r\u0000\u0001\u0001\r\r\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006င\u0005\u0007ဈ\u0006\bင\u0007\tင\b\nည\t\u000bဇ\n\fင\u000b\rည\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"});
+            return GeneratedMessageLite.m124022a(f34125o, "\u0001\r\u0000\u0001\u0001\r\r\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006င\u0005\u0007ဈ\u0006\bင\u0007\tင\b\nည\t\u000bဇ\n\fင\u000b\rည\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"});
         } else if (i2 == 3) {
             return new mpg();
         } else {

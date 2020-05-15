@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutionException;
 public final class juq extends jum {
 
     /* renamed from: b */
-    private static final sek f23244b = new sek("D2D", "BluetoothConnectionCreationTask");
+    private static final Logger f23244b = new Logger("D2D", "BluetoothConnectionCreationTask");
 
     /* renamed from: a */
     final /* synthetic */ SourceChimeraActivity f23245a;

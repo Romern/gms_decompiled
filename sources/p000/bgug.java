@@ -73,7 +73,7 @@ public final class bgug implements Closeable {
             return null;
         }
         try {
-            return (bgvm) bxvk.m124016a(bgvm.f117686g, bArr, bxus.m123744c());
+            return (bgvm) GeneratedMessageLite.m124016a(bgvm.f117686g, bArr, bxus.m123744c());
         } catch (bxwf e) {
             bgur.m100009a("GCoreUlr", 41, "Error deserializing datastore entry, item will be skipped", e);
             return null;
@@ -325,7 +325,7 @@ public final class bgug implements Closeable {
     /* renamed from: a */
     public final byte[] mo63197a(bgvm bgvm, String str) {
         try {
-            return this.f117557a.mo63204a(bgvm.mo73642k());
+            return this.f117557a.mo63204a(bgvm.serializeToBytes());
         } catch (GeneralSecurityException e) {
             int a = m99965a(str);
             String valueOf = String.valueOf(str);

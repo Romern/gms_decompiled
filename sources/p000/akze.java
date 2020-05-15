@@ -23,7 +23,7 @@ public final class akze extends bece {
     private final boolean m60702a(String str, int i) {
         if (i != 3) {
             OctarineWebviewChimeraActivity octarineWebviewChimeraActivity = this.f73154a;
-            sek sek = OctarineWebviewChimeraActivity.f81375e;
+            Logger Logger = OctarineWebviewChimeraActivity.f81375e;
             octarineWebviewChimeraActivity.mo44762a(str, i);
             if (i == 1) {
                 OctarineWebviewChimeraActivity octarineWebviewChimeraActivity2 = this.f73154a;

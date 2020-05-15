@@ -11,7 +11,7 @@ public final class bcoe {
     private bcol f104611b;
 
     /* renamed from: c */
-    private bxtx f104612c;
+    private ByteString f104612c;
 
     /* renamed from: d */
     private bcog f104613d;
@@ -64,7 +64,7 @@ public final class bcoe {
     }
 
     /* renamed from: a */
-    public final void mo57056a(bxtx bxtx) {
+    public final void mo57056a(ByteString bxtx) {
         if (bxtx != null) {
             this.f104612c = bxtx;
             return;

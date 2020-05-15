@@ -10,7 +10,7 @@ final /* synthetic */ class xgr implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = xgv.f52227e;
+        Logger Logger = xgv.f52227e;
         for (bmxv bmxv : (Iterable) obj) {
             if (bmxv.mo66813a()) {
                 return bmxv;

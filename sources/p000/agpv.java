@@ -34,7 +34,7 @@ public final class agpv {
 
     /* renamed from: a */
     public final void mo35901a(bxzx bxzx) {
-        mo35906a(bxzx != null ? bxzx.mo73642k() : null);
+        mo35906a(bxzx != null ? bxzx.serializeToBytes() : null);
     }
 
     /* renamed from: b */
@@ -44,7 +44,7 @@ public final class agpv {
 
     /* renamed from: a */
     public final void mo35902a(bxzz bxzz) {
-        mo35910c(bxzz != null ? bxzz.mo73642k() : null);
+        mo35910c(bxzz != null ? bxzz.serializeToBytes() : null);
     }
 
     /* renamed from: b */

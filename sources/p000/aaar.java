@@ -59,7 +59,7 @@ final class aaar {
             bpub.f139229b = j;
             List list = this.f27853f;
             if (!bpub.f139230c.mo73666a()) {
-                bpub.f139230c = bxvk.m124021a(bpub.f139230c);
+                bpub.f139230c = GeneratedMessageLite.m124021a(bpub.f139230c);
             }
             bxsy.m123078a(list, bpub.f139230c);
             bpub bpub2 = (bpub) da2.mo74062i();

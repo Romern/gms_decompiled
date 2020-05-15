@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byif */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byif extends bxvk implements bxxd {
+public final class byif extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final byif f166558b;
@@ -16,7 +16,7 @@ public final class byif extends bxvk implements bxxd {
     static {
         byif byif = new byif();
         f166558b = byif;
-        bxvk.m124024a(byif.class, byif);
+        GeneratedMessageLite.m124024a(byif.class, byif);
     }
 
     private byif() {
@@ -33,7 +33,7 @@ public final class byif extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166558b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", byja.class});
+            return GeneratedMessageLite.m124022a(f166558b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", byja.class});
         } else if (i2 == 3) {
             return new byif();
         } else {

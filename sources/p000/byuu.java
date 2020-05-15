@@ -19,7 +19,7 @@ public final class byuu extends bxvg implements bxvh {
     static {
         byuu byuu = new byuu();
         f168372b = byuu;
-        bxvk.m124024a(byuu.class, byuu);
+        GeneratedMessageLite.m124024a(byuu.class, byuu);
     }
 
     private byuu() {
@@ -40,7 +40,7 @@ public final class byuu extends bxvg implements bxvh {
             this.f168375c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f168372b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0001\u0002Л", new Object[]{"a", byus.class});
+            return GeneratedMessageLite.m124022a(f168372b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0001\u0002Л", new Object[]{"a", byus.class});
         } else if (i2 == 3) {
             return new byuu();
         } else {

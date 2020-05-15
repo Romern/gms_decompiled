@@ -94,7 +94,7 @@ final class bewz implements Runnable {
                 bxpy bxpy2 = (bxpy) da3.f164949b;
                 bxpx3.getClass();
                 if (!bxpy2.f164343c.mo73666a()) {
-                    bxpy2.f164343c = bxvk.m124021a(bxpy2.f164343c);
+                    bxpy2.f164343c = GeneratedMessageLite.m124021a(bxpy2.f164343c);
                 }
                 bxpy2.f164343c.add(bxpx3);
                 bxpy bxpy3 = (bxpy) da3.mo74062i();
@@ -118,7 +118,7 @@ final class bewz implements Runnable {
                                 if (bygn == null) {
                                     bygn = bygn.f166357a;
                                 }
-                                bygn bygn2 = (bygn) bxvk.m124016a(bygn.f166357a, bygn.mo73642k(), a3);
+                                bygn bygn2 = (bygn) GeneratedMessageLite.m124016a(bygn.f166357a, bygn.serializeToBytes(), a3);
                                 bxvj bxvj = btuv.f150639f;
                                 bygn2.mo74135a(bxvj);
                                 Object b = bygn2.f164952m.mo73913b(bxvj.f164958d);

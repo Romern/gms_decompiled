@@ -61,7 +61,7 @@ public final class bfto implements bfrx {
     /* renamed from: b */
     public final void mo62258b(bucw bucw) {
         bxbi bxbi = new bxbi("com.google.android.gms");
-        byte[] k = bucw.mo73642k();
+        byte[] k = bucw.serializeToBytes();
         PendingIntent a = bfsa.m97673a(this.f115249h, "com.google.android.location.internal.action.ACTION_FLP_COMPUTE_WIFI_LOCATIONS_RESULT");
         bxbi.f161815a.putExtra("com.google.android.location.internal.EXTRA_COMPUTE_WIFI_LOCATIONS_REQUEST", k);
         bxbi.f161815a.putExtra("com.google.android.location.internal.EXTRA_COMPUTE_WIFI_LOCATIONS_RESPONSE", a);

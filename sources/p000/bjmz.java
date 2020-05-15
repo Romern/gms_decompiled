@@ -5,7 +5,7 @@ package p000;
 public final class bjmz extends bjhs {
 
     /* renamed from: d */
-    bxtx f122993d = null;
+    ByteString f122993d = null;
 
     public bjmz() {
         super(bwqx.f160733d);
@@ -22,7 +22,7 @@ public final class bjmz extends bjhs {
     /* renamed from: b */
     public final /* bridge */ /* synthetic */ bxxc mo65248b() {
         bxvd da = bwqx.f160732c.mo74144da();
-        bxtx bxtx = this.f122993d;
+        ByteString bxtx = this.f122993d;
         if (bxtx != null) {
             if (da.f164950c) {
                 da.mo74035c();

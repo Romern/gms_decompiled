@@ -5,22 +5,22 @@ package p000;
 public final class bamo implements banj {
 
     /* renamed from: a */
-    public static final bxtx f101280a = bxtx.m123259a("syncToken", bmwy.f131158c);
+    public static final ByteString f101280a = ByteString.m123259a("syncToken", bmwy.f131158c);
 
     /* renamed from: b */
-    public static final bxtx f101281b = bxtx.m123259a("channelFilter", bmwy.f131158c);
+    public static final ByteString f101281b = ByteString.m123259a("channelFilter", bmwy.f131158c);
 
     /* renamed from: c */
-    public static final bxtx f101282c = bxtx.m123259a("syncTimestamp", bmwy.f131158c);
+    public static final ByteString f101282c = ByteString.m123259a("syncTimestamp", bmwy.f131158c);
 
     /* renamed from: d */
-    public static final bxtx f101283d = bxtx.m123259a("syncElapsedRealTimestamp", bmwy.f131158c);
+    public static final ByteString f101283d = ByteString.m123259a("syncElapsedRealTimestamp", bmwy.f131158c);
 
     /* renamed from: e */
-    public static final bxtx f101284e = bxtx.m123259a("syncBootCount", bmwy.f131158c);
+    public static final ByteString f101284e = ByteString.m123259a("syncBootCount", bmwy.f131158c);
 
     /* renamed from: f */
-    public static final bxtx f101285f = bxtx.m123259a("syncServerTimestamp", bmwy.f131158c);
+    public static final ByteString f101285f = ByteString.m123259a("syncServerTimestamp", bmwy.f131158c);
 
     /* renamed from: g */
     public final bamq f101286g;

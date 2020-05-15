@@ -55,7 +55,7 @@ final /* synthetic */ class rit implements Runnable {
         byte[] bArr2 = riu.f43095d;
         if (bArr2 == null) {
             try {
-                bArr = spo.m35904a(context, riu.f43093b, "SHA-256");
+                bArr = spo.getPackageCertificateHash(context, riu.f43093b, "SHA-256");
             } catch (PackageManager.NameNotFoundException e) {
                 bArr = null;
             }
@@ -65,7 +65,7 @@ final /* synthetic */ class rit implements Runnable {
             riu.f43095d = bArr;
             bArr2 = riu.f43095d;
         }
-        bxtx a = bxtx.m123261a(bArr2);
+        ByteString a = ByteString.m123261a(bArr2);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -83,7 +83,7 @@ final /* synthetic */ class rit implements Runnable {
         bpvf bpvf = (bpvf) da2.f164949b;
         bpvn4.getClass();
         if (!bpvf.f139326d.mo73666a()) {
-            bpvf.f139326d = bxvk.m124021a(bpvf.f139326d);
+            bpvf.f139326d = GeneratedMessageLite.m124021a(bpvf.f139326d);
         }
         bpvf.f139326d.add(bpvn4);
         qwo a2 = sfa.m35133a().mo25463b(context).mo24333a((bpvf) da2.mo74062i());

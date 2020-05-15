@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byxo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byxo extends bxvk implements bxxd {
+public final class byxo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final byxo f168769e;
@@ -25,7 +25,7 @@ public final class byxo extends bxvk implements bxxd {
     static {
         byxo byxo = new byxo();
         f168769e = byxo;
-        bxvk.m124024a(byxo.class, byxo);
+        GeneratedMessageLite.m124024a(byxo.class, byxo);
     }
 
     private byxo() {
@@ -42,7 +42,7 @@ public final class byxo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168769e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", bzae.f169214a, "c", bzam.f169218a, "d", bzbx.f169277a});
+            return GeneratedMessageLite.m124022a(f168769e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", bzae.f169214a, "c", bzam.f169218a, "d", bzbx.f169277a});
         } else if (i2 == 3) {
             return new byxo();
         } else {

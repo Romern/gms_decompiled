@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brae */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brae extends bxvk implements bxxd {
+public final class brae extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final brae f142131e;
@@ -25,7 +25,7 @@ public final class brae extends bxvk implements bxxd {
     static {
         brae brae = new brae();
         f142131e = brae;
-        bxvk.m124024a(brae.class, brae);
+        GeneratedMessageLite.m124024a(brae.class, brae);
     }
 
     private brae() {
@@ -42,7 +42,7 @@ public final class brae extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142131e, "\u0001\u0006\u0001\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဵ\u0000\u0003ဳ\u0000\u0004်\u0000\u0005ျ\u0000\u0006ွ\u0000", new Object[]{"c", "b", "a", "d"});
+            return GeneratedMessageLite.m124022a(f142131e, "\u0001\u0006\u0001\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဵ\u0000\u0003ဳ\u0000\u0004်\u0000\u0005ျ\u0000\u0006ွ\u0000", new Object[]{"c", "b", "a", "d"});
         } else if (i2 == 3) {
             return new brae();
         } else {

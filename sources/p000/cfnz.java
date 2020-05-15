@@ -563,9 +563,9 @@ public final class cfnz implements cfnw {
         f184689ah = bdyx.m91607a(a, "connection_max_frame_length", 1048576L);
         bdyx.m91610a(a, "mediums_avoid_reflection_on_system_apis", true);
         try {
-            f184690ai = bdyx.m91608a(a, "connections_mediums_by_max_throughput", (bydh) bxvk.m124014a(bydh.f165789b, new byte[]{10, 8, 8, 6, 5, 9, 3, 2, 4, 7}), cfnx.f184627a);
+            f184690ai = bdyx.m91608a(a, "connections_mediums_by_max_throughput", (bydh) GeneratedMessageLite.m124014a(bydh.f165789b, new byte[]{10, 8, 8, 6, 5, 9, 3, 2, 4, 7}), cfnx.f184627a);
             try {
-                f184691aj = bdyx.m91608a(a, "connections_mediums_by_min_connection_latency", (bydh) bxvk.m124014a(bydh.f165789b, new byte[]{10, 8, 5, 9, 8, 2, 6, 3, 4, 7}), cfny.f184628a);
+                f184691aj = bdyx.m91608a(a, "connections_mediums_by_min_connection_latency", (bydh) GeneratedMessageLite.m124014a(bydh.f165789b, new byte[]{10, 8, 5, 9, 8, 2, 6, 3, 4, 7}), cfny.f184628a);
                 bdyx.m91610a(a, "mediums_enable_fast_advertisements", false);
                 bdyx.m91610a(a, "mediums_fix_soft_ap_on_p", true);
                 bdyx.m91610a(a, "mediums_fix_soft_ap_pre_n", true);

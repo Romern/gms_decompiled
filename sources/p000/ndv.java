@@ -99,7 +99,7 @@ public final class ndv extends ndr {
             mra = mra.f34378e;
         }
         bxvd bxvd2 = (bxvd) mra.mo74142c(5);
-        bxvd2.mo73625a((bxvk) mra);
+        bxvd2.mo73625a((GeneratedMessageLite) mra);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;
@@ -107,7 +107,7 @@ public final class ndv extends ndr {
         mra mra2 = (mra) bxvd2.f164949b;
         mqz2.getClass();
         if (!mra2.f34383d.mo73666a()) {
-            mra2.f34383d = bxvk.m124021a(mra2.f34383d);
+            mra2.f34383d = GeneratedMessageLite.m124021a(mra2.f34383d);
         }
         mra2.f34383d.add(mqz2);
         if (bxvd.f164950c) {

@@ -37,7 +37,7 @@ import java.util.concurrent.TimeUnit;
 public final class nab extends BackupTransport {
 
     /* renamed from: a */
-    public static final sek f35075a = new lvn("GmsBackupTransport");
+    public static final Logger f35075a = new lvn("GmsBackupTransport");
 
     /* renamed from: A */
     public final bjq f35076A;
@@ -377,7 +377,7 @@ public final class nab extends BackupTransport {
                             ltr.f32984a |= 1;
                             ltr.f32985b = str3;
                             if (entry2.getValue() != null) {
-                                bxtx a = bxtx.m123261a((byte[]) entry2.getValue());
+                                ByteString a = ByteString.m123261a((byte[]) entry2.getValue());
                                 if (da4.f164950c) {
                                     da4.mo74035c();
                                     da4.f164950c = false;
@@ -435,7 +435,7 @@ public final class nab extends BackupTransport {
                             lsz lsz2 = (lsz) da3.f164949b;
                             lsy2.getClass();
                             if (!lsz2.f32876e.mo73666a()) {
-                                lsz2.f32876e = bxvk.m124021a(lsz2.f32876e);
+                                lsz2.f32876e = GeneratedMessageLite.m124021a(lsz2.f32876e);
                             }
                             lsz2.f32876e.add(lsy2);
                             z = false;
@@ -449,9 +449,9 @@ public final class nab extends BackupTransport {
                 lvu.mo17279a(msk, da, this.f35116w, true);
             }
         } catch (mbm e) {
-            sek sek = f35075a;
+            Logger Logger = f35075a;
             String valueOf3 = String.valueOf(this.f35097d);
-            sek.mo25416d(valueOf3.length() == 0 ? new String("Size quota exceeded for package: ") : "Size quota exceeded for package: ".concat(valueOf3), new Object[0]);
+            Logger.mo25416d(valueOf3.length() == 0 ? new String("Size quota exceeded for package: ") : "Size quota exceeded for package: ".concat(valueOf3), new Object[0]);
             if (ccno.m130867b()) {
                 mo20373c();
             }
@@ -609,17 +609,17 @@ public final class nab extends BackupTransport {
                             try {
                                 packageInfo = this.f35110q.getPackageManager().getPackageInfo(this.f35100g.f35344d, 0);
                             } catch (PackageManager.NameNotFoundException e2) {
-                                sek sek = f35075a;
+                                Logger Logger = f35075a;
                                 String valueOf = String.valueOf(this.f35100g.f35344d);
-                                sek.mo25418e(valueOf.length() == 0 ? new String("Package not found-") : "Package not found-".concat(valueOf), new Object[0]);
+                                Logger.mo25418e(valueOf.length() == 0 ? new String("Package not found-") : "Package not found-".concat(valueOf), new Object[0]);
                                 this.f35117x.mo19824a(8, 2, this.f35100g.f35344d);
                                 this.f35085J = false;
                             }
                         }
                         if (this.f35100g.mo20491a() == 2) {
-                            sek sek2 = f35075a;
+                            Logger logger2 = f35075a;
                             String valueOf2 = String.valueOf(this.f35100g.f35344d);
-                            sek2.mo25414c(valueOf2.length() == 0 ? new String("Got full restore package: ") : "Got full restore package: ".concat(valueOf2), new Object[0]);
+                            logger2.mo25414c(valueOf2.length() == 0 ? new String("Got full restore package: ") : "Got full restore package: ".concat(valueOf2), new Object[0]);
                             mcf c = mcg.m24870c(this.f35110q, packageInfo);
                             if (!ccmk.f179455a.mo6606a().mo76384e() || c != mcf.ELIGIBLE) {
                                 f35075a.mo25414c("Not performing full restore for %s, package is not eligible.", packageInfo.packageName);
@@ -631,9 +631,9 @@ public final class nab extends BackupTransport {
                                 return new RestoreDescription(this.f35100g.f35344d, 2);
                             }
                         } else if (this.f35100g.mo20491a() == 1) {
-                            sek sek3 = f35075a;
+                            Logger logger3 = f35075a;
                             String valueOf3 = String.valueOf(this.f35100g.f35344d);
-                            sek3.mo25414c(valueOf3.length() == 0 ? new String("Got kv restore package: ") : "Got kv restore package: ".concat(valueOf3), new Object[0]);
+                            logger3.mo25414c(valueOf3.length() == 0 ? new String("Got kv restore package: ") : "Got kv restore package: ".concat(valueOf3), new Object[0]);
                             mcf a = mcg.m24865a(this.f35110q, packageInfo);
                             if (a != mcf.ELIGIBLE) {
                                 f35075a.mo25414c("Not performing k/v restore for %s, package is not eligible.", packageInfo.packageName);
@@ -645,9 +645,9 @@ public final class nab extends BackupTransport {
                                 return new RestoreDescription(this.f35100g.f35344d, 1);
                             }
                         }
-                        sek sek4 = f35075a;
+                        Logger logger4 = f35075a;
                         ndn ndn5 = this.f35100g;
-                        sek4.mo25414c("Package %s was ineligible or had unknown type %d", ndn5.f35344d, Integer.valueOf(ndn5.mo20491a()));
+                        logger4.mo25414c("Package %s was ineligible or had unknown type %d", ndn5.f35344d, Integer.valueOf(ndn5.mo20491a()));
                         this.f35117x.mo19839b(4, this.f35100g.f35344d);
                     } else {
                         this.f35117x.mo19839b(5, (String) null);
@@ -713,7 +713,7 @@ public final class nab extends BackupTransport {
                                 ltd = ltd.f32894b;
                             }
                             bxvd2 = (bxvd) ltd.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) ltd);
+                            bxvd2.mo73625a((GeneratedMessageLite) ltd);
                         } else {
                             bxvd2 = ltd.f32894b.mo74144da();
                         }
@@ -815,9 +815,9 @@ public final class nab extends BackupTransport {
                     ndn a4 = this.f35098e.mo20493a();
                     this.f35100g = a4;
                     if (a4 != null) {
-                        f35075a.mo25409a("Received package %s, type=%d", a4.f35344d, Integer.valueOf(a4.mo20491a()));
+                        f35075a.logVerbose("Received package %s, type=%d", a4.f35344d, Integer.valueOf(a4.mo20491a()));
                     } else {
-                        f35075a.mo25409a("There was no next restore package.", new Object[0]);
+                        f35075a.logVerbose("There was no next restore package.", new Object[0]);
                     }
                 } catch (mbf e) {
                     i = e.f33375a;
@@ -916,7 +916,7 @@ public final class nab extends BackupTransport {
     }
 
     public final synchronized long getCurrentRestoreSet() {
-        return spn.m35843a(this.f35110q);
+        return spn.getAndroidId(this.f35110q);
     }
 
     public final synchronized int getNextFullRestoreDataChunk(ParcelFileDescriptor parcelFileDescriptor) {
@@ -1382,7 +1382,7 @@ public final class nab extends BackupTransport {
                 bxvd a4 = ncl.f35276b.mo17278a(ncl.f35284j, ncl.f35277c);
                 lsz k = a4.mo74073k();
                 bxvd bxvd = (bxvd) k.mo74142c(5);
-                bxvd.mo73625a((bxvk) k);
+                bxvd.mo73625a((GeneratedMessageLite) k);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -1406,19 +1406,19 @@ public final class nab extends BackupTransport {
                     a4.f164950c = false;
                 }
                 lth lth = lth.f32914q;
-                ((lth) a4.f164949b).f32926k = bxvk.m124030de();
+                ((lth) a4.f164949b).f32926k = GeneratedMessageLite.m124030de();
                 a4.mo74059h(bxvd);
                 if (bmxv.mo66813a()) {
                     ncl.f35282h.f35294a = (mcx) ((Pair) bmxv.mo66814b()).first;
                 }
                 if (bmxv.mo66813a()) {
-                    ncl.f35275a.mo25409a("Old listings existed, performing incremental backup", new Object[0]);
+                    ncl.f35275a.logVerbose("Old listings existed, performing incremental backup", new Object[0]);
                     mcp = ncl.f35283i.mo20451a(a4, ncl.f35278d.mo20436a(), ncl.f35278d.mo20437b(), (mcp) ((Pair) bmxv.mo66814b()).second);
                 } else {
-                    ncl.f35275a.mo25409a("Old listings did not exist, performing non-incremental backup", new Object[0]);
+                    ncl.f35275a.logVerbose("Old listings did not exist, performing non-incremental backup", new Object[0]);
                     mcp = ncl.f35283i.mo20452a(a4, ncl.f35278d.mo20436a(), ncl.f35278d.mo20437b(), (byte[]) null);
                 }
-                ncl.f35275a.mo25409a("Backup and upload succeeded, saving new listings", new Object[0]);
+                ncl.f35275a.logVerbose("Backup and upload succeeded, saving new listings", new Object[0]);
                 str3 = ncl.f35284j;
                 ncq ncq2 = ncl.f35282h;
                 if (ncq2.f35295b == null) {
@@ -1434,7 +1434,7 @@ public final class nab extends BackupTransport {
                 }
                 mcx mcx = (mcx) da.f164949b;
                 if (!mcx.f33460a.mo73666a()) {
-                    mcx.f33460a = bxvk.m124021a(mcx.f33460a);
+                    mcx.f33460a = GeneratedMessageLite.m124021a(mcx.f33460a);
                 }
                 bxsy.m123078a(a5, mcx.f33460a);
                 ncl.f35280f.mo20433a(str3, (mcx) da.mo74062i());

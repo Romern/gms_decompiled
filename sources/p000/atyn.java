@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: atyn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class atyn extends bxvk implements bxxd {
+public final class atyn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final atyn f91131g;
@@ -14,7 +14,7 @@ public final class atyn extends bxvk implements bxxd {
     public String f91133a = "";
 
     /* renamed from: b */
-    public bxtx f91134b = bxtx.f164797b;
+    public ByteString f91134b = ByteString.f164797b;
 
     /* renamed from: c */
     public int f91135c;
@@ -31,7 +31,7 @@ public final class atyn extends bxvk implements bxxd {
     static {
         atyn atyn = new atyn();
         f91131g = atyn;
-        bxvk.m124024a(atyn.class, atyn);
+        GeneratedMessageLite.m124024a(atyn.class, atyn);
     }
 
     private atyn() {
@@ -48,7 +48,7 @@ public final class atyn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f91131g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001Ȉ\u0002\n\u0003\u0004\u0004\t\u0005Ȉ\u0006\t", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f91131g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001Ȉ\u0002\n\u0003\u0004\u0004\t\u0005Ȉ\u0006\t", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new atyn();
         } else {

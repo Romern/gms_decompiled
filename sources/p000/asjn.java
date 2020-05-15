@@ -20,7 +20,7 @@ public final class asjn {
     /* renamed from: a */
     public final byte[] mo49198a(String str, String str2, bsrf bsrf, bssm bssm) {
         bxvd da = bsqx.f146703c.mo74144da();
-        bxtx a = bxtx.m123261a(ggj.m13107a());
+        ByteString a = ByteString.m123261a(ggj.m13107a());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -29,7 +29,7 @@ public final class asjn {
         a.getClass();
         bsqx.f146705a |= 1;
         bsqx.f146706b = a;
-        byte[] k = ((bsqx) da.mo74062i()).mo73642k();
+        byte[] k = ((bsqx) da.mo74062i()).serializeToBytes();
         bsqv bsqv = (bsqv) bsqw.f146695g.mo74144da();
         if (bsqv.f164950c) {
             bsqv.mo74035c();
@@ -43,7 +43,7 @@ public final class asjn {
         bsrf.getClass();
         bsqw.f146701e = bsrf;
         bsqw.f146697a = i | 4;
-        String hexString = Long.toHexString(spn.m35843a(this.f89076b));
+        String hexString = Long.toHexString(spn.getAndroidId(this.f89076b));
         bxvd da2 = bsra.f146725c.mo74144da();
         if (da2.f164950c) {
             da2.mo74035c();
@@ -113,7 +113,7 @@ public final class asjn {
         ggp.f18144c = str2;
         ggp.f18145d = k;
         ggp.f18143b = 17;
-        ggp.mo11800a(((bsqw) bsqv.mo74062i()).mo73642k());
+        ggp.mo11800a(((bsqw) bsqv.mo74062i()).serializeToBytes());
         ggp.f18142a = 2;
         this.f89075a.mo11796a(ggp.mo11799a());
         return k;

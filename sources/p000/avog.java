@@ -29,7 +29,7 @@ public final class avog extends avnn {
     public static final avta f93584h = new avta("reboot_prepared", false);
 
     /* renamed from: j */
-    private static final sek f93585j = avpq.m79018e("NonAbRebootAction");
+    private static final Logger f93585j = avpq.m79018e("NonAbRebootAction");
 
     /* renamed from: k */
     private static final bnic f93586k = bnic.m109490a((Object) 20, (Object) 23);

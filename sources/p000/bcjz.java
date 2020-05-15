@@ -111,7 +111,7 @@ public final class bcjz {
         cblz2.getClass();
         ((cbld) cblc.f164949b).f177473a = cblz2;
         bxvd da2 = cbml.f177642c.mo74144da();
-        bxtx a = bxtx.m123261a(publicKey.getEncoded());
+        ByteString a = ByteString.m123261a(publicKey.getEncoded());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;

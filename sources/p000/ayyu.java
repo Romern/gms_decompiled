@@ -111,7 +111,7 @@ public final class ayyu implements ayvv {
                         bpcb bpcb3 = (bpcb) bxvf3.f164949b;
                         bpcb bpcb4 = bpcb.f135695g;
                         if (!bpcb3.f135700d.mo73666a()) {
-                            bpcb3.f135700d = bxvk.m124019a(bpcb3.f135700d);
+                            bpcb3.f135700d = GeneratedMessageLite.m124019a(bpcb3.f135700d);
                         }
                         bpcb3.f135700d.mo74153d(i3);
                     }

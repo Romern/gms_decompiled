@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biok */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biok extends bxvk implements bxxd {
+public final class biok extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final biok f121053b;
@@ -19,7 +19,7 @@ public final class biok extends bxvk implements bxxd {
     static {
         biok biok = new biok();
         f121053b = biok;
-        bxvk.m124024a(biok.class, biok);
+        GeneratedMessageLite.m124024a(biok.class, biok);
     }
 
     private biok() {
@@ -40,7 +40,7 @@ public final class biok extends bxvk implements bxxd {
             this.f121056c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121053b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", bioj.class});
+            return GeneratedMessageLite.m124022a(f121053b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", bioj.class});
         } else if (i2 == 3) {
             return new biok();
         } else {

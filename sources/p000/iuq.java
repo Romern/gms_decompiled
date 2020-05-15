@@ -17,7 +17,7 @@ import javax.crypto.SecretKey;
 public final class iuq {
 
     /* renamed from: a */
-    public static final sek f21814a = new sek(new String[]{"ChallengeDecryptor"}, (char[]) null);
+    public static final Logger f21814a = new Logger(new String[]{"ChallengeDecryptor"}, (char[]) null);
 
     /* renamed from: b */
     private final ios f21815b;
@@ -33,17 +33,17 @@ public final class iuq {
     }
 
     /* renamed from: a */
-    private static final PublicKey m16175a(bxtx bxtx) {
-        return bysu.m125293a((bytb) bxvk.m124007a(bytb.f167639f, bxtx));
+    private static final PublicKey m16175a(ByteString bxtx) {
+        return bysu.m125293a((bytb) GeneratedMessageLite.m124007a(bytb.f167639f, bxtx));
     }
 
     /* renamed from: a */
     public static final byte[] m16176a(byti byti, SecretKey secretKey, byte[] bArr) {
         try {
-            byte[] k = byti.f167675c.mo73780k();
-            bytd a = bysw.m125311a((byti) bxvk.m124007a(byti.f167671d, byti.f167674b), secretKey, byss.HMAC_SHA256, secretKey, bysr.AES_256_CBC);
+            byte[] k = byti.f167675c.getKey();
+            bytd a = bysw.m125311a((byti) GeneratedMessageLite.m124007a(byti.f167671d, byti.f167674b), secretKey, byss.HMAC_SHA256, secretKey, bysr.AES_256_CBC);
             if ((a.f167660a & 2) != 0) {
-                bytd bytd = (bytd) bxvk.m124007a(bytd.f167658d, a.f167662c);
+                bytd bytd = (bytd) GeneratedMessageLite.m124007a(bytd.f167658d, a.f167662c);
                 int i = bytd.f167660a;
                 if ((i & 1) == 0 || (i & 2) == 0) {
                     throw new iuk("Missing header or body in decrypted message");
@@ -53,8 +53,8 @@ public final class iuq {
                     bytc = bytc.f167647i;
                 }
                 if ((bytc.f167649a & 4) != 0) {
-                    bysw.m125313a((byti) bxvk.m124014a(byti.f167671d, k), m16175a(bytc.f167652d), byss.RSA2048_SHA256, bArr);
-                    return bytd.f167662c.mo73780k();
+                    bysw.m125313a((byti) GeneratedMessageLite.m124014a(byti.f167671d, k), m16175a(bytc.f167652d), byss.RSA2048_SHA256, bArr);
+                    return bytd.f167662c.getKey();
                 }
                 throw new iuk("Missing verification key in decrypted message");
             }
@@ -67,12 +67,12 @@ public final class iuq {
     /* renamed from: a */
     public final bqgg mo13342a(byte[] bArr, byte[] bArr2) {
         try {
-            byti byti = (byti) bxvk.m124014a(byti.f167671d, bArr);
+            byti byti = (byti) GeneratedMessageLite.m124014a(byti.f167671d, bArr);
             int i = byti.f167673a;
             if ((i & 1) == 0) {
                 throw new iuk("Missing header and body in encrypted message wrapper");
             } else if ((i & 2) != 0) {
-                bytc a = bysw.m125309a((byti) bxvk.m124007a(byti.f167671d, byti.f167674b));
+                bytc a = bysw.m125309a((byti) GeneratedMessageLite.m124007a(byti.f167671d, byti.f167674b));
                 if ((a.f167649a & 8) != 0) {
                     PublicKey a2 = m16175a(a.f167653e);
                     bqgy c = bqgy.m112818c();

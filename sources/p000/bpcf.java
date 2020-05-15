@@ -16,7 +16,7 @@ public final class bpcf extends bxvd implements bxxd {
         bpcg bpcg = (bpcg) this.f164949b;
         bpcg bpcg2 = bpcg.f135720d;
         if (!bpcg.f135724c.mo73666a()) {
-            bpcg.f135724c = bxvk.m124019a(bpcg.f135724c);
+            bpcg.f135724c = GeneratedMessageLite.m124019a(bpcg.f135724c);
         }
         bxsy.m123078a(iterable, bpcg.f135724c);
     }

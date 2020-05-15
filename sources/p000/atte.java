@@ -47,7 +47,7 @@ public final class atte extends atue {
             }
             "type.googleapis.com/google.internal.tapandpay.v1.AttestationErrorDetails".getClass();
             ((bxte) da3.f164949b).f164765a = "type.googleapis.com/google.internal.tapandpay.v1.AttestationErrorDetails";
-            bxtx aL = ((btmz) da2.mo74062i()).mo73639aL();
+            ByteString aL = ((btmz) da2.mo74062i()).mo73639aL();
             if (da3.f164950c) {
                 da3.mo74035c();
                 da3.f164950c = false;
@@ -62,7 +62,7 @@ public final class atte extends atue {
             btnf btnf = (btnf) da.f164949b;
             bxte.getClass();
             if (!btnf.f149605d.mo73666a()) {
-                btnf.f149605d = bxvk.m124021a(btnf.f149605d);
+                btnf.f149605d = GeneratedMessageLite.m124021a(btnf.f149605d);
             }
             btnf.f149605d.add(bxte);
             this.f90898f.mo59482b((btnf) da.mo74062i());
@@ -120,7 +120,7 @@ public final class atte extends atue {
                 a4 = btoa.UNRECOGNIZED;
             }
             atsy.f90858u = atcw.m75565a(a4);
-            atsy.f90844g = btkd.f149237c.mo73780k();
+            atsy.f90844g = btkd.f149237c.getKey();
             atsy.f90845h = btkd.f149240f;
             int i2 = btkd.f149235a;
             if (i2 == 3) {
@@ -136,7 +136,7 @@ public final class atte extends atue {
             atsy.f90847j = str2;
             btiy btiy = btkd.f149241g;
             if (btiy != null) {
-                atsy.f90841d = btiy.mo73642k();
+                atsy.f90841d = btiy.serializeToBytes();
             }
             m76299b(atsy);
         } catch (bxwf e) {

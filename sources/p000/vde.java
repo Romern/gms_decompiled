@@ -19,7 +19,7 @@ final class vde implements vcr {
 
     /* renamed from: b */
     private final void m40092b() {
-        sdo.m34966a(this.f49063c, "Builder can only be used once.");
+        sdo.checkIfNull(this.f49063c, "Builder can only be used once.");
     }
 
     /* renamed from: a */

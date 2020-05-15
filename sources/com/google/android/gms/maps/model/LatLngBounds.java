@@ -17,8 +17,8 @@ public final class LatLngBounds extends AbstractSafeParcelable implements Reflec
     public final LatLng f79897b;
 
     public LatLngBounds(LatLng latLng, LatLng latLng2) {
-        sdo.m34966a(latLng, "null southwest");
-        sdo.m34966a(latLng2, "null northeast");
+        sdo.checkIfNull(latLng, "null southwest");
+        sdo.checkIfNull(latLng2, "null northeast");
         double d = latLng2.f79894a;
         double d2 = latLng.f79894a;
         sdo.m34976b(d >= d2, "southern latitude exceeds northern latitude (%s > %s)", Double.valueOf(d2), Double.valueOf(latLng2.f79894a));

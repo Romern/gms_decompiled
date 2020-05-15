@@ -97,7 +97,7 @@ public final class kwe {
         bmxv bmxv;
         kwf kwf = this.f25248a;
         try {
-            bmxv = bmxv.m108566b((kwi) bxvk.m124014a(kwi.f25265b, (byte[]) kwf.f25255b.mo60643a(kwf.f25256c, behp.m95056a(), new beer[0])));
+            bmxv = bmxv.m108566b((kwi) GeneratedMessageLite.m124014a(kwi.f25265b, (byte[]) kwf.f25255b.mo60643a(kwf.f25256c, behp.m95056a(), new beer[0])));
         } catch (IOException e) {
             bnsl bnsl = (bnsl) kwf.f25254a.mo68387b();
             bnsl.mo68437a(e);
@@ -226,7 +226,7 @@ public final class kwe {
                     da2.f164950c = false;
                 }
                 ((kwn) da2.f164949b).f25294c = c;
-                bxtx aL = ((kwn) da2.mo74062i()).mo73639aL();
+                ByteString aL = ((kwn) da2.mo74062i()).mo73639aL();
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -268,7 +268,7 @@ public final class kwe {
                 }
                 kwo kwo = (kwo) da4.f164949b;
                 if (!kwo.f25300c.mo73666a()) {
-                    kwo.f25300c = bxvk.m124019a(kwo.f25300c);
+                    kwo.f25300c = GeneratedMessageLite.m124019a(kwo.f25300c);
                 }
                 bxsy.m123078a(arrayList, kwo.f25300c);
                 int intValue = ((Integer) this.f25249b.getOrDefault(klv.mo14622b().f24609h, -1)).intValue();
@@ -277,7 +277,7 @@ public final class kwe {
                     da4.f164950c = false;
                 }
                 ((kwo) da4.f164949b).f25299b = intValue;
-                bxtx aL2 = ((kwo) da4.mo74062i()).mo73639aL();
+                ByteString aL2 = ((kwo) da4.mo74062i()).mo73639aL();
                 if (da3.f164950c) {
                     da3.mo74035c();
                     da3.f164950c = false;
@@ -310,7 +310,7 @@ public final class kwe {
                     da6.f164950c = false;
                 }
                 ((kwl) da6.f164949b).f25283b = intValue2;
-                bxtx aL3 = ((kwl) da6.mo74062i()).mo73639aL();
+                ByteString aL3 = ((kwl) da6.mo74062i()).mo73639aL();
                 if (da5.f164950c) {
                     da5.mo74035c();
                     da5.f164950c = false;
@@ -347,7 +347,7 @@ public final class kwe {
                 kwm kwm = (kwm) da8.f164949b;
                 kwm.f25287b = intValue3;
                 if (!kwm.f25288c.mo73666a()) {
-                    kwm.f25288c = bxvk.m124019a(kwm.f25288c);
+                    kwm.f25288c = GeneratedMessageLite.m124019a(kwm.f25288c);
                 }
                 bxsy.m123078a(list2, kwm.f25288c);
                 if (da8.f164950c) {
@@ -356,10 +356,10 @@ public final class kwe {
                 }
                 kwm kwm2 = (kwm) da8.f164949b;
                 if (!kwm2.f25289d.mo73666a()) {
-                    kwm2.f25289d = bxvk.m124019a(kwm2.f25289d);
+                    kwm2.f25289d = GeneratedMessageLite.m124019a(kwm2.f25289d);
                 }
                 bxsy.m123078a(list3, kwm2.f25289d);
-                bxtx aL4 = ((kwm) da8.mo74062i()).mo73639aL();
+                ByteString aL4 = ((kwm) da8.mo74062i()).mo73639aL();
                 if (da7.f164950c) {
                     da7.mo74035c();
                     da7.f164950c = false;

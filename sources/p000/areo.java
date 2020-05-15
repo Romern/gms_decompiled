@@ -27,8 +27,8 @@ public final /* synthetic */ class areo implements roo {
         areb areb = this.f87541c;
         arln arln = new arln((aucf) obj2);
         arjb arjb = new arjb(new arey(arez, areb));
-        sdo.m34966a(bootstrapOptions, "bootstrapOptions cannot be null.");
-        sdo.m34966a(arjb, "bootstrapListener cannot be null.");
+        sdo.checkIfNull(bootstrapOptions, "bootstrapOptions cannot be null.");
+        sdo.checkIfNull(arjb, "bootstrapListener cannot be null.");
         ((arji) ((arll) obj).mo25289B()).mo48495a(new arli(arln), bootstrapOptions, arjb);
     }
 }

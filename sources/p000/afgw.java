@@ -23,7 +23,7 @@ public final class afgw {
     /* renamed from: b */
     private static afhu m53068b() {
         afhu afhu = f64238a;
-        sdo.m34966a(afhu, "IBitmapDescriptorFactory is not initialized");
+        sdo.checkIfNull(afhu, "IBitmapDescriptorFactory is not initialized");
         return afhu;
     }
 

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpuj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpuj extends bxvk implements bxxd {
+public final class bpuj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final bpuj f139241k;
@@ -43,7 +43,7 @@ public final class bpuj extends bxvk implements bxxd {
     static {
         bpuj bpuj = new bpuj();
         f139241k = bpuj;
-        bxvk.m124024a(bpuj.class, bpuj);
+        GeneratedMessageLite.m124024a(bpuj.class, bpuj);
     }
 
     private bpuj() {
@@ -60,7 +60,7 @@ public final class bpuj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139241k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0004ဌ\u0003\u0005ဂ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\bင\u0007\tဌ\b", new Object[]{"a", "b", "c", "d", "e", bpui.f139240a, "f", "g", "h", "i", "j", bpug.f139239a});
+            return GeneratedMessageLite.m124022a(f139241k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0004ဌ\u0003\u0005ဂ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\bင\u0007\tဌ\b", new Object[]{"a", "b", "c", "d", "e", bpui.f139240a, "f", "g", "h", "i", "j", bpug.f139239a});
         } else if (i2 == 3) {
             return new bpuj();
         } else {

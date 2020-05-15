@@ -28,8 +28,8 @@ public final class rui extends sbi {
 
     public rui(Context context, sba sba, rvq rvq) {
         super(context);
-        sdo.m34966a(sba, "exceptionHandlerUtils cannot be null");
-        sdo.m34966a(rvq, "fixerFramework can not be null");
+        sdo.checkIfNull(sba, "exceptionHandlerUtils cannot be null");
+        sdo.checkIfNull(rvq, "fixerFramework can not be null");
         this.f43700c = rvq;
     }
 
@@ -114,7 +114,7 @@ public final class rui extends sbi {
             try {
                 ruf ruf2 = new ruf();
                 try {
-                    sdo.m34966a(th5, "The throwable cannot be null.");
+                    sdo.checkIfNull(th5, "The throwable cannot be null.");
                     Log.i("DeviceDrDatabaseHelper", "Cleaning stale data from database!");
                     List e = ruf.m34471e();
                     int i3 = 0;
@@ -420,7 +420,7 @@ public final class rui extends sbi {
                                     }
                                     if ((i & JGCastService.FLAG_PRIVATE_DISPLAY) == 0) {
                                         String str31 = rud2.f43688a;
-                                        sdo.m34966a((Object) str31, (Object) "crashHash cannot be null");
+                                        sdo.checkIfNull((Object) str31, (Object) "crashHash cannot be null");
                                         ruf.m34470d();
                                         writableDatabase2 = ruf2.getWritableDatabase();
                                         long seconds2 = TimeUnit.MILLISECONDS.toSeconds(System.currentTimeMillis());

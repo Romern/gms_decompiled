@@ -18,7 +18,7 @@ public final class aqap extends bxvd implements bxxd {
         aqaq aqaq2 = aqaq.f85424P;
         aqae.getClass();
         if (!aqaq.f85461u.mo73666a()) {
-            aqaq.f85461u = bxvk.m124021a(aqaq.f85461u);
+            aqaq.f85461u = GeneratedMessageLite.m124021a(aqaq.f85461u);
         }
         aqaq.f85461u.add(aqae);
     }
@@ -32,7 +32,7 @@ public final class aqap extends bxvd implements bxxd {
         aqaq aqaq = (aqaq) this.f164949b;
         aqaq aqaq2 = aqaq.f85424P;
         if (!aqaq.f85438M.mo73666a()) {
-            aqaq.f85438M = bxvk.m124021a(aqaq.f85438M);
+            aqaq.f85438M = GeneratedMessageLite.m124021a(aqaq.f85438M);
         }
         bxsy.m123078a(iterable, aqaq.f85438M);
     }

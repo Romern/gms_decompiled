@@ -33,7 +33,7 @@ public final class basd {
         if (bxvj.class.isAssignableFrom(bxuq.getClass())) {
             a.mo73904a((bxvj) bxuq);
         }
-        bygn bygn = (bygn) bxvk.m124016a(bygn.f166357a, this.f101653a, a);
+        bygn bygn = (bygn) GeneratedMessageLite.m124016a(bygn.f166357a, this.f101653a, a);
         bxvj bxvj = (bxvj) this.f101656d;
         bygn.mo74135a(bxvj);
         if (bygn.f164952m.mo73911a(bxvj.f164958d)) {

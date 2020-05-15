@@ -181,7 +181,7 @@ public final class bahj extends cazu {
                 } else {
                     byhn = byhn.f166478e;
                 }
-                ((achw) b.mo16713a()).mo25409a("Downloaded %d changes to the local %s/%s InternalFootprintsTimeSeriesSyncVariant.", Integer.valueOf(bxwc4.size()), Integer.valueOf(byhn.f166481b), Integer.valueOf(byhn.f166482c));
+                ((achw) b.mo16713a()).logVerbose("Downloaded %d changes to the local %s/%s InternalFootprintsTimeSeriesSyncVariant.", Integer.valueOf(bxwc4.size()), Integer.valueOf(byhn.f166481b), Integer.valueOf(byhn.f166482c));
                 bara.mo55899b((long) byid.f166549a.size());
                 int i6 = byid.f164961ai;
                 if (i6 == -1) {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqck */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqck extends bxvk implements bxxd {
+public final class aqck extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final aqck f85667d;
@@ -22,7 +22,7 @@ public final class aqck extends bxvk implements bxxd {
     static {
         aqck aqck = new aqck();
         f85667d = aqck;
-        bxvk.m124024a(aqck.class, aqck);
+        GeneratedMessageLite.m124024a(aqck.class, aqck);
     }
 
     private aqck() {
@@ -39,7 +39,7 @@ public final class aqck extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85667d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0001\u0000\u0001ဉ\u0000\u0003\u001b", new Object[]{"a", "b", "c", aqcj.class});
+            return GeneratedMessageLite.m124022a(f85667d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0001\u0000\u0001ဉ\u0000\u0003\u001b", new Object[]{"a", "b", "c", aqcj.class});
         } else if (i2 == 3) {
             return new aqck();
         } else {

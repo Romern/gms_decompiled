@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boxg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boxg extends bxvk implements bxxd {
+public final class boxg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final boxg f135244e;
@@ -25,7 +25,7 @@ public final class boxg extends bxvk implements bxxd {
     static {
         boxg boxg = new boxg();
         f135244e = boxg;
-        bxvk.m124024a(boxg.class, boxg);
+        GeneratedMessageLite.m124024a(boxg.class, boxg);
     }
 
     private boxg() {
@@ -42,7 +42,7 @@ public final class boxg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135244e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", boxf.f135243a});
+            return GeneratedMessageLite.m124022a(f135244e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", boxf.f135243a});
         } else if (i2 == 3) {
             return new boxg();
         } else {

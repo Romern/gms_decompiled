@@ -11,7 +11,7 @@ import android.graphics.drawable.Drawable;
 public final class aczr {
 
     /* renamed from: a */
-    private static final sek f61172a = ght.m13172b("PackageUtils");
+    private static final Logger f61172a = ght.m13172b("PackageUtils");
 
     /* renamed from: a */
     public static bmxv m50057a(Context context, String str) {

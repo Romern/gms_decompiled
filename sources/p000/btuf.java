@@ -25,7 +25,7 @@ public final class btuf extends bxvg implements bxvh {
     static {
         btuf btuf = new btuf();
         f150458a = btuf;
-        bxvk.m124024a(btuf.class, btuf);
+        GeneratedMessageLite.m124024a(btuf.class, btuf);
     }
 
     private btuf() {
@@ -46,7 +46,7 @@ public final class btuf extends bxvg implements bxvh {
             this.f150463e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f150458a, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔈ\u0000\u0002ᔈ\u0001", new Object[]{"b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f150458a, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔈ\u0000\u0002ᔈ\u0001", new Object[]{"b", "c", "d"});
         } else if (i2 == 3) {
             return new btuf();
         } else {

@@ -124,7 +124,7 @@ public final class mze implements mzc {
                 if (this.f35031n == null) {
                     lvn lvn = f35018a;
                     String valueOf = String.valueOf(this.f35023f);
-                    lvn.mo25409a(valueOf.length() == 0 ? new String("Create http connection for ") : "Create http connection for ".concat(valueOf), new Object[0]);
+                    lvn.logVerbose(valueOf.length() == 0 ? new String("Create http connection for ") : "Create http connection for ".concat(valueOf), new Object[0]);
                     if (this.f35024g == null) {
                         String valueOf2 = String.valueOf(this.f35023f);
                         throw new IOException(valueOf2.length() == 0 ? new String("No doc id found for package : ") : "No doc id found for package : ".concat(valueOf2));
@@ -159,7 +159,7 @@ public final class mze implements mzc {
                                 a2.setRequestProperty("Range", sb2);
                                 lvn lvn2 = f35018a;
                                 String valueOf4 = String.valueOf(sb2);
-                                lvn2.mo25409a(valueOf4.length() == 0 ? new String("Sending range request: ") : "Sending range request: ".concat(valueOf4), new Object[0]);
+                                lvn2.logVerbose(valueOf4.length() == 0 ? new String("Sending range request: ") : "Sending range request: ".concat(valueOf4), new Object[0]);
                             } catch (Throwable th3) {
                                 th = th3;
                                 this.f35030m.mo20500a(System.currentTimeMillis() - currentTimeMillis);
@@ -168,7 +168,7 @@ public final class mze implements mzc {
                         } else {
                             try {
                                 a2.setRequestProperty("Accept-Encoding", "gzip");
-                                f35018a.mo25409a("Sending accept gzip request", new Object[0]);
+                                f35018a.logVerbose("Sending accept gzip request", new Object[0]);
                             } catch (Throwable th4) {
                                 th = th4;
                                 th = th;
@@ -183,7 +183,7 @@ public final class mze implements mzc {
                         if (equals) {
                             try {
                                 this.f35028k = -1;
-                                f35018a.mo25409a("Received gzipped response", new Object[0]);
+                                f35018a.logVerbose("Received gzipped response", new Object[0]);
                             } catch (Throwable th5) {
                                 th = th5;
                                 th = th;
@@ -203,7 +203,7 @@ public final class mze implements mzc {
                             mrn = mrn.f34444k;
                         }
                         bxvd bxvd2 = (bxvd) mrn.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) mrn);
+                        bxvd2.mo73625a((GeneratedMessageLite) mrn);
                         if (bxvd2.f164950c) {
                             bxvd2.mo74035c();
                             bxvd2.f164950c = false;
@@ -227,7 +227,7 @@ public final class mze implements mzc {
                             StringBuilder sb4 = new StringBuilder(37);
                             sb4.append("ContentLength is ");
                             sb4.append(contentLength);
-                            lvn4.mo25409a(sb4.toString(), new Object[0]);
+                            lvn4.logVerbose(sb4.toString(), new Object[0]);
                             this.f35028k = contentLength;
                         }
                         if (responseCode == 200 || responseCode == 206) {
@@ -290,7 +290,7 @@ public final class mze implements mzc {
                                 mrn6 = mrn.f34444k;
                             }
                             bxvd bxvd4 = (bxvd) mrn6.mo74142c(5);
-                            bxvd4.mo73625a((bxvk) mrn6);
+                            bxvd4.mo73625a((GeneratedMessageLite) mrn6);
                             if (bxvd4.f164950c) {
                                 bxvd4.mo74035c();
                                 bxvd4.f164950c = false;
@@ -318,7 +318,7 @@ public final class mze implements mzc {
                             sb5.append(" / ");
                             sb5.append(j7);
                             sb5.append(" bytes");
-                            lvn5.mo25409a(sb5.toString(), new Object[0]);
+                            lvn5.logVerbose(sb5.toString(), new Object[0]);
                         }
                         return read;
                     } catch (SocketTimeoutException e) {
@@ -410,7 +410,7 @@ public final class mze implements mzc {
             mrn = mrn.f34444k;
         }
         bxvd bxvd2 = (bxvd) mrn.mo74142c(5);
-        bxvd2.mo73625a((bxvk) mrn);
+        bxvd2.mo73625a((GeneratedMessageLite) mrn);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;

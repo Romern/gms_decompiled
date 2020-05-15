@@ -9,7 +9,7 @@ import com.google.android.gms.magictether.host.ConnectTetheringResponder$Tetheri
 public final class afaa {
 
     /* renamed from: f */
-    public static final sek f64073f = new sek(new String[]{"ConnectTetherResponder"}, (int[]) null);
+    public static final Logger f64073f = new Logger(new String[]{"ConnectTetherResponder"}, (int[]) null);
 
     /* renamed from: a */
     public final Context f64074a;

@@ -75,7 +75,7 @@ public final class aetl extends aesx {
         byte[] bArr2 = new byte[0];
         if (cfaz.f183554a.mo6606a().mo80788k()) {
             bxvd da = bsqx.f146703c.mo74144da();
-            bxtx a2 = bxtx.m123261a(ggj.m13107a());
+            ByteString a2 = ByteString.m123261a(ggj.m13107a());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -85,7 +85,7 @@ public final class aetl extends aesx {
             bsqx.f146705a |= 1;
             bsqx.f146706b = a2;
             bsqx bsqx2 = (bsqx) da.mo74062i();
-            bArr = bsqx2.mo73642k();
+            bArr = bsqx2.serializeToBytes();
             Context context = getContext();
             String str = ((aesx) this).f63753a;
             byte[] bArr3 = this.f63783f;
@@ -120,7 +120,7 @@ public final class aetl extends aesx {
             bxvd da4 = bsrg.f146749m.mo74144da();
             bxvd da5 = bssf.f146855c.mo74144da();
             if (bArr3.length > 0) {
-                bxtx a3 = bxtx.m123261a(bArr3);
+                ByteString a3 = ByteString.m123261a(bArr3);
                 if (da5.f164950c) {
                     da5.mo74035c();
                     da5.f164950c = false;
@@ -159,7 +159,7 @@ public final class aetl extends aesx {
             bsqw2.f146697a |= 4;
             bsqw bsqw3 = (bsqw) bsqv.mo74062i();
             bxvd bxvd = (bxvd) bsqw3.mo74142c(5);
-            bxvd.mo73625a((bxvk) bsqw3);
+            bxvd.mo73625a((GeneratedMessageLite) bsqw3);
             bsqv bsqv2 = (bsqv) bxvd;
             if (str == null) {
                 bznm = null;
@@ -200,7 +200,7 @@ public final class aetl extends aesx {
                 bzlm.f170548b = a4;
             }
             if (bArr4.length > 0) {
-                bxtx a5 = bxtx.m123261a(bArr4);
+                ByteString a5 = ByteString.m123261a(bArr4);
                 if (da8.f164950c) {
                     da8.mo74035c();
                     da8.f164950c = false;

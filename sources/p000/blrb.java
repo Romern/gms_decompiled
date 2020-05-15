@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blrb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blrb extends bxvk implements bxxd {
+public final class blrb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final blrb f127426e;
@@ -25,7 +25,7 @@ public final class blrb extends bxvk implements bxxd {
     static {
         blrb blrb = new blrb();
         f127426e = blrb;
-        bxvk.m124024a(blrb.class, blrb);
+        GeneratedMessageLite.m124024a(blrb.class, blrb);
     }
 
     private blrb() {
@@ -42,7 +42,7 @@ public final class blrb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127426e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဇ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", blqz.f127425a, "c", "d"});
+            return GeneratedMessageLite.m124022a(f127426e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဇ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", blqz.f127425a, "c", "d"});
         } else if (i2 == 3) {
             return new blrb();
         } else {

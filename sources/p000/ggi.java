@@ -110,7 +110,7 @@ public final class ggi {
             }
             ghe ghe = (ghe) da2.f164949b;
             if (!ghe.f18231a.mo73666a()) {
-                ghe.f18231a = bxvk.m124021a(ghe.f18231a);
+                ghe.f18231a = GeneratedMessageLite.m124021a(ghe.f18231a);
             }
             bxsy.m123078a(asList, ghe.f18231a);
             if (da.f164950c) {

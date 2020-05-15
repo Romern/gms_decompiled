@@ -20,7 +20,7 @@ public final class btkb extends bxvd implements bxxd {
         btkc btkc = (btkc) this.f164949b;
         btkc btkc2 = btkc.f149218n;
         if (!btkc.f149231l.mo73666a()) {
-            btkc.f149231l = bxvk.m124019a(btkc.f149231l);
+            btkc.f149231l = GeneratedMessageLite.m124019a(btkc.f149231l);
         }
         int size = r6.size();
         for (int i = 0; i < size; i++) {
@@ -37,7 +37,7 @@ public final class btkb extends bxvd implements bxxd {
         btkc btkc = (btkc) this.f164949b;
         btkc btkc2 = btkc.f149218n;
         if (!btkc.f149226g.mo73666a()) {
-            btkc.f149226g = bxvk.m124019a(btkc.f149226g);
+            btkc.f149226g = GeneratedMessageLite.m124019a(btkc.f149226g);
         }
         Iterator it = iterable.iterator();
         while (it.hasNext()) {
@@ -56,7 +56,7 @@ public final class btkb extends bxvd implements bxxd {
         btkc btkc = (btkc) this.f164949b;
         btkc btkc2 = btkc.f149218n;
         if (!btkc.f149225f.mo73666a()) {
-            btkc.f149225f = bxvk.m124019a(btkc.f149225f);
+            btkc.f149225f = GeneratedMessageLite.m124019a(btkc.f149225f);
         }
         int size = r6.size();
         for (int i = 0; i < size; i++) {

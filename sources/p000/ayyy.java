@@ -230,7 +230,7 @@ final /* synthetic */ class ayyy implements bqeg {
                 bpcb bpcb = (bpcb) bxvf3.mo74062i();
                 bpcb.getClass();
                 if (!bpby8.f135690h.mo73666a()) {
-                    bpby8.f135690h = bxvk.m124021a(bpby8.f135690h);
+                    bpby8.f135690h = GeneratedMessageLite.m124021a(bpby8.f135690h);
                 }
                 bpby8.f135690h.add(bpcb);
             }

@@ -223,7 +223,7 @@ public final class auwc {
         bohi bohi = (bohi) bogj.f164949b;
         bohi bohi2 = bohi.f133070z;
         if (!bohi.f133084n.mo73666a()) {
-            bohi.f133084n = bxvk.m124021a(bohi.f133084n);
+            bohi.f133084n = GeneratedMessageLite.m124021a(bohi.f133084n);
         }
         bxsy.m123078a(arrayDeque, bohi.f133084n);
         aunx aunx = f92631a;

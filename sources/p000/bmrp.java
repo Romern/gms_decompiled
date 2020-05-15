@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmrp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmrp extends bxvk implements bxxd {
+public final class bmrp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bmrp f130557a;
@@ -16,7 +16,7 @@ public final class bmrp extends bxvk implements bxxd {
     static {
         bmrp bmrp = new bmrp();
         f130557a = bmrp;
-        bxvk.m124024a(bmrp.class, bmrp);
+        GeneratedMessageLite.m124024a(bmrp.class, bmrp);
     }
 
     private bmrp() {
@@ -37,7 +37,7 @@ public final class bmrp extends bxvk implements bxxd {
             this.f130559b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f130557a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f130557a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new bmrp();

@@ -23,7 +23,7 @@ public final /* synthetic */ class btvo implements aubw {
         bplj bplj = this.f152628b;
         if (((rkj) obj).mo24824r()) {
             bxvd da = bplj.f138100c.mo74144da();
-            da.mo73625a((bxvk) bplj);
+            da.mo73625a((GeneratedMessageLite) bplj);
             bpll bpll = btvp.f152630b;
             if (da.f164950c) {
                 da.mo74035c();

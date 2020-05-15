@@ -16,7 +16,7 @@ public final class cbpx extends bxvd implements bxxd {
         cbpy cbpy = (cbpy) this.f164949b;
         cbpy cbpy2 = cbpy.f177968h;
         if (!cbpy.f177973d.mo73666a()) {
-            cbpy.f177973d = bxvk.m124021a(cbpy.f177973d);
+            cbpy.f177973d = GeneratedMessageLite.m124021a(cbpy.f177973d);
         }
         bxsy.m123078a(iterable, cbpy.f177973d);
     }

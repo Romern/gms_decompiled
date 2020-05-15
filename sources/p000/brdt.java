@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brdt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brdt extends bxvk implements bxxd {
+public final class brdt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bxvu f142555c = new brdq();
@@ -25,7 +25,7 @@ public final class brdt extends bxvk implements bxxd {
     static {
         brdt brdt = new brdt();
         f142556d = brdt;
-        bxvk.m124024a(brdt.class, brdt);
+        GeneratedMessageLite.m124024a(brdt.class, brdt);
     }
 
     private brdt() {
@@ -42,7 +42,7 @@ public final class brdt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142556d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဈ\u0000\u0002\u001e", new Object[]{"e", "a", "b", brds.m113912b()});
+            return GeneratedMessageLite.m124022a(f142556d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဈ\u0000\u0002\u001e", new Object[]{"e", "a", "b", brds.m113912b()});
         } else if (i2 == 3) {
             return new brdt();
         } else {

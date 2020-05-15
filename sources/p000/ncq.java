@@ -55,7 +55,7 @@ public final class ncq implements nca {
             str.getClass();
             mcy.f33463a |= 1;
             mcy.f33464b = str;
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -64,7 +64,7 @@ public final class ncq implements nca {
             a.getClass();
             mcy2.f33463a |= 2;
             mcy2.f33465c = a;
-            byte[] k = ((mcy) da.mo74062i()).mo73642k();
+            byte[] k = ((mcy) da.mo74062i()).serializeToBytes();
             nbc a2 = nay.mo20424a(naz.mo20425a(k), k);
             nav nav = (nav) a2;
             bngs.mo67668c(nav.f35150a);
@@ -95,7 +95,7 @@ public final class ncq implements nca {
         int size = bxwc.size();
         for (int i = 0; i < size; i++) {
             mcw mcw = (mcw) bxwc.get(i);
-            hashMap.put(mcw.f33456b, new nbw(mcw.f33457c.mo73780k()));
+            hashMap.put(mcw.f33456b, new nbw(mcw.f33457c.getKey()));
         }
         if (!cclp.f179364a.mo6606a().mo76302e()) {
             while (this.f35296c.readNextHeader()) {

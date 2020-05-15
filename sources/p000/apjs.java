@@ -17,7 +17,7 @@ public final class apjs implements apib {
     private final apjz f84560b;
 
     public apjs(adzi adzi, apjz apjz) {
-        sdo.m34966a(adzi, "no JobScheduler provided");
+        sdo.checkIfNull(adzi, "no JobScheduler provided");
         this.f84559a = adzi;
         this.f84560b = apjz;
     }

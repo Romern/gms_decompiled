@@ -17,7 +17,7 @@ public final class bucv extends bxvd implements bxxd {
         bucw bucw2 = bucw.f153415b;
         bucu.getClass();
         if (!bucw.f153417a.mo73666a()) {
-            bucw.f153417a = bxvk.m124021a(bucw.f153417a);
+            bucw.f153417a = GeneratedMessageLite.m124021a(bucw.f153417a);
         }
         bucw.f153417a.add(bucu);
     }

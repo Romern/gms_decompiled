@@ -79,7 +79,7 @@ public final class yyc {
 
     public yyc(caae caae) {
         bxvd bxvd = (bxvd) caae.mo74142c(5);
-        bxvd.mo73625a((bxvk) caae);
+        bxvd.mo73625a((GeneratedMessageLite) caae);
         this.f54810a = (caab) bxvd;
     }
 

@@ -2042,7 +2042,7 @@ final class bgxv implements Runnable {
                                                                 bvva bvva2 = (bvva) da.f164949b;
                                                                 bvva2.f157775a |= 1;
                                                                 bvva2.f157776b = i17;
-                                                                bxtx a9 = bxtx.m123261a(b9.f117512d);
+                                                                ByteString a9 = ByteString.m123261a(b9.f117512d);
                                                                 if (da.f164950c) {
                                                                     da.mo74035c();
                                                                     da.f164950c = false;

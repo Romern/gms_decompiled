@@ -14,8 +14,8 @@ public final /* synthetic */ class abjf implements bmxj {
         byte[] bArr = this.f57573a;
         bsmi bsmi = (bsmi) obj;
         bxvd bxvd = (bxvd) bsmi.mo74142c(5);
-        bxvd.mo73625a((bxvk) bsmi);
-        bxtx a = bxtx.m123261a(bArr);
+        bxvd.mo73625a((GeneratedMessageLite) bsmi);
+        ByteString a = ByteString.m123261a(bArr);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

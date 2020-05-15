@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutorService;
 public final class esp {
 
     /* renamed from: a */
-    public static final sek f15622a = ffw.m11631a("ScreenGraphFetcher");
+    public static final Logger f15622a = ffw.m11631a("ScreenGraphFetcher");
 
     /* renamed from: b */
     public final ffk f15623b;
@@ -77,7 +77,7 @@ public final class esp {
     /* renamed from: a */
     private final void m11091a(bsxk bsxk) {
         for (bsxn bsxn : epr.m10922a(bsxk)) {
-            sek sek = f15622a;
+            Logger Logger = f15622a;
             Object[] objArr = new Object[2];
             bsxn bsxn2 = bsxk.f147583d;
             if (bsxn2 == null) {
@@ -85,7 +85,7 @@ public final class esp {
             }
             objArr[0] = Integer.valueOf(bsxn2.f147589b);
             objArr[1] = Integer.valueOf(bsxn.f147589b);
-            sek.mo25409a("loadRemoteDescendants(%s) -> %s", objArr);
+            Logger.logVerbose("loadRemoteDescendants(%s) -> %s", objArr);
             mo10481a(bsxn);
         }
     }
@@ -182,11 +182,11 @@ public final class esp {
     /* renamed from: a */
     public final void mo10481a(bsxn bsxn) {
         Set<bsxn> set;
-        f15622a.mo25409a("loadRemoteResourceAndDescendants(%s)", Integer.valueOf(bsxn.f147589b));
+        f15622a.logVerbose("loadRemoteResourceAndDescendants(%s)", Integer.valueOf(bsxn.f147589b));
         epq epq = (epq) this.f15634m.mo10433b(mo10488d(bsxn)).mo2448b();
         boolean z = !((Boolean) this.f15634m.mo10427a().mo2448b()).booleanValue();
         if (!epq.mo10396c()) {
-            f15622a.mo25409a("loadRemoteResourceAndDescendants(%s): no refresh needed for this resource", Integer.valueOf(bsxn.f147589b));
+            f15622a.logVerbose("loadRemoteResourceAndDescendants(%s): no refresh needed for this resource", Integer.valueOf(bsxn.f147589b));
             m11091a(epq.f15491a);
             return;
         }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpge */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpge extends bxvk implements bxxd {
+public final class bpge extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bpge f137478d;
@@ -22,7 +22,7 @@ public final class bpge extends bxvk implements bxxd {
     static {
         bpge bpge = new bpge();
         f137478d = bpge;
-        bxvk.m124024a(bpge.class, bpge);
+        GeneratedMessageLite.m124024a(bpge.class, bpge);
     }
 
     private bpge() {
@@ -39,7 +39,7 @@ public final class bpge extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f137478d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဇ\u0001", new Object[]{"a", "b", bzzv.m126374b(), "c"});
+            return GeneratedMessageLite.m124022a(f137478d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဇ\u0001", new Object[]{"a", "b", bzzv.m126374b(), "c"});
         } else if (i2 == 3) {
             return new bpge();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byyy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byyy extends bxvk implements bxxd {
+public final class byyy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byyy f169040c;
@@ -19,7 +19,7 @@ public final class byyy extends bxvk implements bxxd {
     static {
         byyy byyy = new byyy();
         f169040c = byyy;
-        bxvk.m124024a(byyy.class, byyy);
+        GeneratedMessageLite.m124024a(byyy.class, byyy);
     }
 
     private byyy() {
@@ -36,7 +36,7 @@ public final class byyy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f169040c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bzas.f169226a});
+            return GeneratedMessageLite.m124022a(f169040c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bzas.f169226a});
         } else if (i2 == 3) {
             return new byyy();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: atyq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class atyq extends bxvk implements bxxd {
+public final class atyq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final atyq f91143f;
@@ -28,7 +28,7 @@ public final class atyq extends bxvk implements bxxd {
     static {
         atyq atyq = new atyq();
         f91143f = atyq;
-        bxvk.m124024a(atyq.class, atyq);
+        GeneratedMessageLite.m124024a(atyq.class, atyq);
     }
 
     private atyq() {
@@ -45,7 +45,7 @@ public final class atyq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f91143f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001Ȉ\u0002\t\u0003Ȉ\u0004Ȉ\u0005Ȉ", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f91143f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001Ȉ\u0002\t\u0003Ȉ\u0004Ȉ\u0005Ȉ", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new atyq();
         } else {

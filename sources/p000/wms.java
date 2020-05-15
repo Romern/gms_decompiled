@@ -59,7 +59,7 @@ final class wms implements LoaderManager.LoaderCallbacks {
             awlh.mo52187a(cdsw.m134870c() ^ true ? 1 : 0);
             awlh.mo52190a(this.f50916a.f50919c);
             awlh.mo52188a(new Account(this.f50916a.getArguments().getString("accountName"), "com.google"));
-            awlh.mo52235a(new SecurePaymentsPayload(brat.f142186d.mo73780k(), new SecurePaymentsData[0]));
+            awlh.mo52235a(new SecurePaymentsPayload(brat.f142186d.getKey(), new SecurePaymentsData[0]));
             Intent a = awlh.mo52186a();
             this.f50916a.f50918b.setVisibility(8);
             this.f50916a.startActivityForResult(a, 1);

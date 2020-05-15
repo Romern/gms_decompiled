@@ -88,7 +88,7 @@ public final class ahwm {
     }
 
     /* renamed from: a */
-    public final synchronized void mo37240a(TrueWirelessHeadset trueWirelessHeadset, String str, bxtx bxtx) {
+    public final synchronized void mo37240a(TrueWirelessHeadset trueWirelessHeadset, String str, ByteString bxtx) {
         int i;
         long j;
         long j2;
@@ -130,7 +130,7 @@ public final class ahwm {
                 Bundle bundle = new Bundle();
                 bundle.putString("android.substName", this.f68238b.getResources().getString(C0126R.string.common_devices));
                 ahwt.mo13623a(bundle);
-                ahwt.f22254f = m56796a(DiscoveryChimeraService.m67336a(((aicw) ahgz.m55754a(this.f68238b, aicw.class)).f68735a).setAction("com.google.android.gms.nearby.discovery.ACTION_FAST_PAIR_BATTERY_NOTIFICATION_CLICK").putExtra("com.google.android.gms.nearby.discovery.EXTRA_MAC_ADDRESS", this.f68242f).putExtra("com.google.android.gms.nearby.discovery.EXTRA_ACCOUNT_KEY", bxtx.mo73780k()).putExtra("com.google.android.gms.nearby.discovery.fastpair.MODEL_ID", trueWirelessHeadset.mo60351f()));
+                ahwt.f22254f = m56796a(DiscoveryChimeraService.m67336a(((aicw) ahgz.m55754a(this.f68238b, aicw.class)).f68735a).setAction("com.google.android.gms.nearby.discovery.ACTION_FAST_PAIR_BATTERY_NOTIFICATION_CLICK").putExtra("com.google.android.gms.nearby.discovery.EXTRA_MAC_ADDRESS", this.f68242f).putExtra("com.google.android.gms.nearby.discovery.EXTRA_ACCOUNT_KEY", bxtx.getKey()).putExtra("com.google.android.gms.nearby.discovery.fastpair.MODEL_ID", trueWirelessHeadset.mo60351f()));
                 if (cfoj.f184966a.mo6606a().mo82118ap()) {
                     TimeUnit timeUnit = TimeUnit.MILLISECONDS;
                     String str3 = this.f68242f;

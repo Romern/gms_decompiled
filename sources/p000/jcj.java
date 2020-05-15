@@ -16,7 +16,7 @@ public final class jcj {
     public static final imn f22155a = new jci();
 
     /* renamed from: c */
-    private static final sek f22156c = jdh.m16547a("WrappingKeyManager");
+    private static final Logger f22156c = jdh.m16547a("WrappingKeyManager");
 
     /* renamed from: b */
     public final RecoveryController f22157b;

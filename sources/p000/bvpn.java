@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvpn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvpn extends bxvk implements bxxd {
+public final class bvpn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvpn f157318a;
@@ -13,7 +13,7 @@ public final class bvpn extends bxvk implements bxxd {
     static {
         bvpn bvpn = new bvpn();
         f157318a = bvpn;
-        bxvk.m124024a(bvpn.class, bvpn);
+        GeneratedMessageLite.m124024a(bvpn.class, bvpn);
     }
 
     private bvpn() {
@@ -30,7 +30,7 @@ public final class bvpn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157318a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f157318a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvpn();

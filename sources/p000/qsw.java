@@ -31,7 +31,7 @@ public final class qsw extends qsi {
     public final void mo24251b(Context context) {
         boolean a;
         try {
-            quk quk = (quk) bxvk.m124016a(quk.f42153e, this.f42073c, bxus.m123744c());
+            quk quk = (quk) GeneratedMessageLite.m124016a(quk.f42153e, this.f42073c, bxus.m123744c());
             try {
                 qvn qvn = (qvn) qvn.f42243a.mo13145b();
                 acyr acyr = this.f42031a;

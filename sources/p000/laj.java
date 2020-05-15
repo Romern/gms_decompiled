@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: laj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class laj extends bxvk implements bxxd {
+public final class laj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final laj f25551g;
@@ -31,7 +31,7 @@ public final class laj extends bxvk implements bxxd {
     static {
         laj laj = new laj();
         f25551g = laj;
-        bxvk.m124024a(laj.class, laj);
+        GeneratedMessageLite.m124024a(laj.class, laj);
     }
 
     private laj() {
@@ -48,7 +48,7 @@ public final class laj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25551g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0001\u0000\u0001\t\u0002\t\u0003\u001b\u0004\t\u0005\u0004\u0006\u0004", new Object[]{"a", "b", "c", lba.class, "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f25551g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0001\u0000\u0001\t\u0002\t\u0003\u001b\u0004\t\u0005\u0004\u0006\u0004", new Object[]{"a", "b", "c", lba.class, "d", "e", "f"});
         } else if (i2 == 3) {
             return new laj();
         } else {

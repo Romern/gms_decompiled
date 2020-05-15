@@ -114,7 +114,7 @@ public final class lyu {
                 str.getClass();
                 msz8.f34608a |= 128;
                 msz8.f34616i = str;
-                f33219a.mo25409a("BackupManagerMonitor.EXTRA_LOG_EXCEPTION_FULL_BACKUP: %s", string2);
+                f33219a.logVerbose("BackupManagerMonitor.EXTRA_LOG_EXCEPTION_FULL_BACKUP: %s", string2);
             }
             return (msz) da.mo74062i();
         }

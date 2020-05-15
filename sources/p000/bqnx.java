@@ -10,7 +10,7 @@ public final class bqnx {
     /* renamed from: a */
     public static final bqns m113072a(byte[] bArr) {
         try {
-            bqsj bqsj = (bqsj) bxvk.m124016a(bqsj.f141531c, bArr, bxus.m123743b());
+            bqsj bqsj = (bqsj) GeneratedMessageLite.m124016a(bqsj.f141531c, bArr, bxus.m123743b());
             m113073a(bqsj);
             return bqns.m113055a(bqsj);
         } catch (bxwf e) {

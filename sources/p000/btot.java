@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btot */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btot extends bxvk implements bxxd {
+public final class btot extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final btot f149799d;
@@ -22,7 +22,7 @@ public final class btot extends bxvk implements bxxd {
     static {
         btot btot = new btot();
         f149799d = btot;
-        bxvk.m124024a(btot.class, btot);
+        GeneratedMessageLite.m124024a(btot.class, btot);
     }
 
     private btot() {
@@ -39,7 +39,7 @@ public final class btot extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149799d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\t\u0003\t", new Object[]{"a", "c", "b"});
+            return GeneratedMessageLite.m124022a(f149799d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\t\u0003\t", new Object[]{"a", "c", "b"});
         } else if (i2 == 3) {
             return new btot();
         } else {

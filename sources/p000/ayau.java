@@ -161,7 +161,7 @@ final class ayau implements Runnable {
                 } else {
                     ayaw.m83718a("only one message piece");
                     ayev = aybb.m83727a((ayew) bxvd.mo74062i());
-                    bxvd.f164949b = (bxvk) bxvd.f164949b.mo74142c(4);
+                    bxvd.f164949b = (GeneratedMessageLite) bxvd.f164949b.mo74142c(4);
                 }
                 if (ayev != null) {
                     axzx a2 = this.f96983f.mo53767a(ayev);

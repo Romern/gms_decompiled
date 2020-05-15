@@ -18,7 +18,7 @@ import java.util.Set;
 public final class yci extends yct implements View.OnClickListener {
 
     /* renamed from: g */
-    private static final sek f53598g = new sek(new String[]{"BleInstructionsFragment"}, (short[]) null);
+    private static final Logger f53598g = new Logger(new String[]{"BleInstructionsFragment"}, (short[]) null);
 
     /* renamed from: a */
     private Boolean f53599a;
@@ -121,7 +121,7 @@ public final class yci extends yct implements View.OnClickListener {
         bundle.putBoolean("FINGERPRINT_ALLOWED", z3);
         bundle.putBoolean("WELCOME_SCREEN", z2);
         if (z2) {
-            sdo.m34966a((Object) str, (Object) "App name or authority in request params cannot be null for welcome screen");
+            sdo.checkIfNull((Object) str, (Object) "App name or authority in request params cannot be null for welcome screen");
             sdo.m34971a(!str.trim().isEmpty(), (Object) "App name or authority from request params cannot be empty after trimming.");
             bundle.putCharSequence("APP_NAME", str);
         }

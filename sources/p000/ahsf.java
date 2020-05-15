@@ -61,7 +61,7 @@ public final class ahsf {
             if (hashMap.get(byzm2) == null) {
                 aiab aiab3 = (aiab) arrayList.get(i);
                 bxvd bxvd = (bxvd) aiab3.mo74142c(5);
-                bxvd.mo73625a((bxvk) aiab3);
+                bxvd.mo73625a((GeneratedMessageLite) aiab3);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -73,7 +73,7 @@ public final class ahsf {
             } else {
                 aiab aiab5 = (aiab) arrayList.get(i);
                 bxvd bxvd2 = (bxvd) aiab5.mo74142c(5);
-                bxvd2.mo73625a((bxvk) aiab5);
+                bxvd2.mo73625a((GeneratedMessageLite) aiab5);
                 long longValue = ((Long) hashMap.get(byzm2)).longValue();
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();

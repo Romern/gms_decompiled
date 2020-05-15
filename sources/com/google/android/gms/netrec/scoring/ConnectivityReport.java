@@ -22,7 +22,7 @@ public class ConnectivityReport extends AbstractSafeParcelable {
     public final int f81184d;
 
     public ConnectivityReport(WifiNetworkKey wifiNetworkKey, boolean z, int i, int i2) {
-        sdo.m34966a(wifiNetworkKey, "A non-null WifiNetworkKey must be provided.");
+        sdo.checkIfNull(wifiNetworkKey, "A non-null WifiNetworkKey must be provided.");
         this.f81181a = wifiNetworkKey;
         this.f81182b = z;
         this.f81183c = i;

@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public final class jdi {
 
     /* renamed from: a */
-    public static final sek f22220a = jdh.m16547a("VaultServiceGrpcClient");
+    public static final Logger f22220a = jdh.m16547a("VaultServiceGrpcClient");
 
     /* renamed from: b */
     public final chsz f22221b = m16548b();

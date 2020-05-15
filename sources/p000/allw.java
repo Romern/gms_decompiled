@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: allw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class allw extends bxvk implements bxxd {
+public final class allw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final allw f73637h;
@@ -37,7 +37,7 @@ public final class allw extends bxvk implements bxxd {
     static {
         allw allw = new allw();
         f73637h = allw;
-        bxvk.m124024a(allw.class, allw);
+        GeneratedMessageLite.m124024a(allw.class, allw);
     }
 
     private allw() {
@@ -54,7 +54,7 @@ public final class allw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f73637h, "\u0001\u0007\u0000\u0001\u0001\t\u0007\u0000\u0004\u0000\u0001ဌ\u0000\u0004\u001a\u0005\u001a\u0006\u001a\u0007ဇ\u0001\b\u001a\tဌ\u0002", new Object[]{"i", "a", allz.m61246b(), "b", "c", "d", "e", "f", "g", almb.m61250b()});
+            return GeneratedMessageLite.m124022a(f73637h, "\u0001\u0007\u0000\u0001\u0001\t\u0007\u0000\u0004\u0000\u0001ဌ\u0000\u0004\u001a\u0005\u001a\u0006\u001a\u0007ဇ\u0001\b\u001a\tဌ\u0002", new Object[]{"i", "a", allz.m61246b(), "b", "c", "d", "e", "f", "g", almb.m61250b()});
         } else if (i2 == 3) {
             return new allw();
         } else {

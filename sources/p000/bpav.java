@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpav */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpav extends bxvk implements bxxd {
+public final class bpav extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bpav f135548f;
@@ -28,7 +28,7 @@ public final class bpav extends bxvk implements bxxd {
     static {
         bpav bpav = new bpav();
         f135548f = bpav;
-        bxvk.m124024a(bpav.class, bpav);
+        GeneratedMessageLite.m124024a(bpav.class, bpav);
     }
 
     private bpav() {
@@ -45,7 +45,7 @@ public final class bpav extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135548f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001\u0003ဇ\u0002\u0004ဇ\u0003", new Object[]{"a", "b", "c", bpap.f135524a, "d", "e"});
+            return GeneratedMessageLite.m124022a(f135548f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001\u0003ဇ\u0002\u0004ဇ\u0003", new Object[]{"a", "b", "c", bpap.f135524a, "d", "e"});
         } else if (i2 == 3) {
             return new bpav();
         } else {

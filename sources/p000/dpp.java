@@ -101,7 +101,7 @@ public final class dpp {
                 bxhj bxhj3 = (bxhj) da.f164949b;
                 bxhc3.getClass();
                 if (!bxhj3.f163408b.mo73666a()) {
-                    bxhj3.f163408b = bxvk.m124021a(bxhj3.f163408b);
+                    bxhj3.f163408b = GeneratedMessageLite.m124021a(bxhj3.f163408b);
                 }
                 bxhj3.f163408b.add(bxhc3);
             }

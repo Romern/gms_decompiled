@@ -304,10 +304,10 @@ public final class ajaz implements aiwq {
         byuu byuu = (byuu) bxvf.f164949b;
         byus2.getClass();
         if (!byuu.f168374a.mo73666a()) {
-            byuu.f168374a = bxvk.m124021a(byuu.f168374a);
+            byuu.f168374a = GeneratedMessageLite.m124021a(byuu.f168374a);
         }
         byuu.f168374a.add(byus2);
-        return new DebugPokeResponse(1, 0, ((byuu) bxvf.mo74062i()).mo73642k());
+        return new DebugPokeResponse(1, 0, ((byuu) bxvf.mo74062i()).serializeToBytes());
     }
 
     /* renamed from: a */
@@ -438,7 +438,7 @@ public final class ajaz implements aiwq {
         if (remoteCallbackList != null) {
             int beginBroadcast = remoteCallbackList.beginBroadcast();
             if (beginBroadcast > 0) {
-                bArr = bxxc.mo73642k();
+                bArr = bxxc.serializeToBytes();
             } else {
                 bArr = null;
             }
@@ -466,14 +466,14 @@ public final class ajaz implements aiwq {
     private final void m58411a(byuz byuz) {
         byyg b = buqf.m120233b();
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         bxvf bxvf = (bxvf) bxvd;
         byyl byyl = ((byyg) bxvf.f164949b).f168921d;
         if (byyl == null) {
             byyl = byyl.f168949v;
         }
         bxvd bxvd2 = (bxvd) byyl.mo74142c(5);
-        bxvd2.mo73625a((bxvk) byyl);
+        bxvd2.mo73625a((GeneratedMessageLite) byyl);
         bxvf bxvf2 = (bxvf) bxvd2;
         byuq byuq = byuq.COMMAND_UNKNOWN;
         bzbu bzbu = bzbu.TOKEN_MEDIUM_UNKNOWN;
@@ -590,7 +590,7 @@ public final class ajaz implements aiwq {
         if (debugPokeRequest2.f191783b != null) {
             byut byut = byut.f168368b;
             try {
-                byut = (byut) bxvk.m124016a(byut.f168368b, debugPokeRequest2.f191783b, bxus.m123744c());
+                byut = (byut) GeneratedMessageLite.m124016a(byut.f168368b, debugPokeRequest2.f191783b, bxus.m123744c());
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) ahfq.f67120a.mo68387b();
                 bnsl.mo68437a(e);
@@ -659,9 +659,9 @@ public final class ajaz implements aiwq {
                     if (a3 == byuq.SAVE_CLIENT_OVERRIDES) {
                         byyg b = buqf.m120233b();
                         bxvd bxvd = (bxvd) b.mo74142c(5);
-                        bxvd.mo73625a((bxvk) b);
+                        bxvd.mo73625a((GeneratedMessageLite) b);
                         bxvf bxvf = (bxvf) bxvd;
-                        bxvf.mo73625a((bxvk) this.f70294f.f70276d);
+                        bxvf.mo73625a((GeneratedMessageLite) this.f70294f.f70276d);
                         this.f70297i = (byyg) bxvf.mo74062i();
                         bxwc = bxwc3;
                         debugPokeResponse = debugPokeResponse4;
@@ -707,14 +707,14 @@ public final class ajaz implements aiwq {
                                         byuz byuz = (byuz) bxwc4.get(i4);
                                         byyg b2 = buqf.m120233b();
                                         bxvd bxvd2 = (bxvd) b2.mo74142c(i3);
-                                        bxvd2.mo73625a((bxvk) b2);
+                                        bxvd2.mo73625a((GeneratedMessageLite) b2);
                                         bxvf bxvf2 = (bxvf) bxvd2;
                                         byyl byyl = ((byyg) bxvf2.f164949b).f168921d;
                                         if (byyl == null) {
                                             byyl = byyl.f168949v;
                                         }
                                         bxvd bxvd3 = (bxvd) byyl.mo74142c(i3);
-                                        bxvd3.mo73625a((bxvk) byyl);
+                                        bxvd3.mo73625a((GeneratedMessageLite) byyl);
                                         bxvf bxvf3 = (bxvf) bxvd3;
                                         bzbu a6 = bzbu.m125627a(byuz.f168403a);
                                         if (a6 == null) {

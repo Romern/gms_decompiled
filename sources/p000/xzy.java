@@ -8,7 +8,7 @@ import java.util.concurrent.Future;
 public final class xzy {
 
     /* renamed from: d */
-    public static final sek f53502d = new sek(new String[]{"UsbRequestProcessor"}, (short[]) null);
+    public static final Logger f53502d = new Logger(new String[]{"UsbRequestProcessor"}, (short[]) null);
 
     /* renamed from: a */
     public Future f53503a;

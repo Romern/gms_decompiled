@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbid */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbid extends bxvk implements bxxd {
+public final class cbid extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbid f177228c;
@@ -19,7 +19,7 @@ public final class cbid extends bxvk implements bxxd {
     static {
         cbid cbid = new cbid();
         f177228c = cbid;
-        bxvk.m124024a(cbid.class, cbid);
+        GeneratedMessageLite.m124024a(cbid.class, cbid);
     }
 
     private cbid() {
@@ -36,7 +36,7 @@ public final class cbid extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177228c, "\u0000\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȼ\u0000\u0002Ȼ\u0000", new Object[]{"b", "a"});
+            return GeneratedMessageLite.m124022a(f177228c, "\u0000\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȼ\u0000\u0002Ȼ\u0000", new Object[]{"b", "a"});
         } else if (i2 == 3) {
             return new cbid();
         } else {

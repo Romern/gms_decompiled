@@ -66,7 +66,7 @@ public final class bgys {
 
     public bgys(bgyr bgyr) {
         Account account = bgyr.f118093a;
-        sdo.m34966a(account, "account");
+        sdo.checkIfNull(account, "account");
         this.f118111a = account;
         this.f118112b = bgyr.f118094b;
         this.f118113c = bgyr.f118095c;

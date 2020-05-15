@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: avsv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class avsv extends bxvk implements bxxd {
+public final class avsv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final avsv f93858g;
@@ -31,7 +31,7 @@ public final class avsv extends bxvk implements bxxd {
     static {
         avsv avsv = new avsv();
         f93858g = avsv;
-        bxvk.m124024a(avsv.class, avsv);
+        GeneratedMessageLite.m124024a(avsv.class, avsv);
     }
 
     private avsv() {
@@ -48,7 +48,7 @@ public final class avsv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f93858g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0005\u0000\u0001Ț\u0002Ț\u0003Ț\u0004Ț\u0005%\u0006Ȉ", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f93858g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0005\u0000\u0001Ț\u0002Ț\u0003Ț\u0004Ț\u0005%\u0006Ȉ", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new avsv();
         } else {
@@ -75,7 +75,7 @@ public final class avsv extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo51587a() {
         if (!this.f93861b.mo73666a()) {
-            this.f93861b = bxvk.m124021a(this.f93861b);
+            this.f93861b = GeneratedMessageLite.m124021a(this.f93861b);
         }
     }
 }

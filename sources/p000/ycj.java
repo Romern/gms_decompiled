@@ -14,7 +14,7 @@ import com.google.android.gms.fido.u2f.api.view.ViewOptions;
 public final class ycj extends yct implements View.OnClickListener {
 
     /* renamed from: a */
-    private static final sek f53602a = new sek(new String[]{"BleLocatePinFragment"}, (short[]) null);
+    private static final Logger f53602a = new Logger(new String[]{"BleLocatePinFragment"}, (short[]) null);
 
     /* access modifiers changed from: protected */
     /* renamed from: a */

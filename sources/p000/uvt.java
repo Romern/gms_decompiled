@@ -35,7 +35,7 @@ public abstract class uvt implements uvy {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.Object, java.lang.Object):void */
     protected uvt(String str, int i) {
-        sdo.m34966a((Object) str, (Object) "fieldName");
+        sdo.checkIfNull((Object) str, (Object) "fieldName");
         this.f48653a = str;
         this.f48654b = Collections.singleton(str);
         this.f48655c = Collections.emptySet();
@@ -44,7 +44,7 @@ public abstract class uvt implements uvy {
 
     /* renamed from: a */
     public final Object mo28081a(Bundle bundle) {
-        sdo.m34966a(bundle, "bundle");
+        sdo.checkIfNull(bundle, "bundle");
         if (bundle.get(this.f48653a) != null) {
             return mo28089b(bundle);
         }
@@ -104,7 +104,7 @@ public abstract class uvt implements uvy {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.Object, java.lang.Object):void */
     protected uvt(String str, Collection collection, Collection collection2, int i) {
-        sdo.m34966a((Object) str, (Object) "fieldName");
+        sdo.checkIfNull((Object) str, (Object) "fieldName");
         this.f48653a = str;
         this.f48654b = Collections.unmodifiableSet(new HashSet(collection));
         this.f48655c = Collections.unmodifiableSet(new HashSet(collection2));
@@ -135,8 +135,8 @@ public abstract class uvt implements uvy {
 
     /* renamed from: a */
     public final void mo28086a(DataHolder dataHolder, MetadataBundle metadataBundle, int i, int i2) {
-        sdo.m34966a(dataHolder, "dataHolder");
-        sdo.m34966a(metadataBundle, "bundle");
+        sdo.checkIfNull(dataHolder, "dataHolder");
+        sdo.checkIfNull(metadataBundle, "bundle");
         if (mo28091b(dataHolder, i, i2)) {
             metadataBundle.mo18273b(this, mo28092c(dataHolder, i, i2));
         }
@@ -144,8 +144,8 @@ public abstract class uvt implements uvy {
 
     /* renamed from: a */
     public final void mo28087a(MetadataBundle metadataBundle, MetadataBundle metadataBundle2) {
-        sdo.m34966a(metadataBundle, "bottom");
-        sdo.m34966a(metadataBundle2, "top");
+        sdo.checkIfNull(metadataBundle, "bottom");
+        sdo.checkIfNull(metadataBundle2, "top");
         if (metadataBundle2.mo18275c(this)) {
             Object a = metadataBundle2.mo18269a(this);
             Object a2 = metadataBundle.mo18269a(this);
@@ -159,7 +159,7 @@ public abstract class uvt implements uvy {
 
     /* renamed from: a */
     public final void mo28088a(Object obj, Bundle bundle) {
-        sdo.m34966a(bundle, "bundle");
+        sdo.checkIfNull(bundle, "bundle");
         if (obj == null) {
             bundle.putString(this.f48653a, null);
         } else {

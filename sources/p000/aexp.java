@@ -36,7 +36,7 @@ public final class aexp {
         bzmf bzmf = (bzmf) da.f164949b;
         bzmq2.getClass();
         if (!bzmf.f170611a.mo73666a()) {
-            bzmf.f170611a = bxvk.m124021a(bzmf.f170611a);
+            bzmf.f170611a = GeneratedMessageLite.m124021a(bzmf.f170611a);
         }
         bzmf.f170611a.add(bzmq2);
         return (bzmf) da.mo74062i();

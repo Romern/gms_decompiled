@@ -31,7 +31,7 @@ final class arjm extends adzt {
                 if (!cgpm.m146473c()) {
                     if (cgqy.m146727b()) {
                         arxy arxy = ((arxl) arao2).f88411a;
-                        arxy.f88430a.mo25409a("Delay disconnect for %d milliseconds", 100L);
+                        arxy.f88430a.logVerbose("Delay disconnect for %d milliseconds", 100L);
                         sns sns = new sns("delayDisconnect", 10);
                         sns.start();
                         new snr(sns).postDelayed(new arxf(arxy), 100);

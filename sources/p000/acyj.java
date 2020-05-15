@@ -27,7 +27,7 @@ public final class acyj extends aaab {
         acxx a = acye.m49986a(context);
         acyk acyk = this.f61081b;
         AccountData accountData = this.f61080a;
-        sdo.m34966a(accountData, "Account data must not be null.");
+        sdo.checkIfNull(accountData, "Account data must not be null.");
         byte[] bArr2 = new byte[16];
         a.f61060a.nextBytes(bArr2);
         byte[] a2 = a.mo33224a(accountData, bArr2);

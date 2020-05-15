@@ -45,7 +45,7 @@ public class OperationResponse extends AbstractSafeParcelable {
     public OperationResponse(byte[] bArr) {
         this.f191773a = bArr;
         try {
-            this.f191774b = (bvaa) bxvk.m124016a(bvaa.f155448d, bArr, bxus.m123744c());
+            this.f191774b = (bvaa) GeneratedMessageLite.m124016a(bvaa.f155448d, bArr, bxus.m123744c());
         } catch (bxwf e) {
             throw new IllegalArgumentException("Invalid proto bytes", e);
         }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brzj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brzj extends bxvk implements bxxd {
+public final class brzj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final brzj f143745b;
@@ -16,7 +16,7 @@ public final class brzj extends bxvk implements bxxd {
     static {
         brzj brzj = new brzj();
         f143745b = brzj;
-        bxvk.m124024a(brzj.class, brzj);
+        GeneratedMessageLite.m124024a(brzj.class, brzj);
     }
 
     private brzj() {
@@ -33,7 +33,7 @@ public final class brzj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f143745b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", brzi.class});
+            return GeneratedMessageLite.m124022a(f143745b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", brzi.class});
         } else if (i2 == 3) {
             return new brzj();
         } else {

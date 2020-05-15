@@ -7,9 +7,9 @@ final /* synthetic */ class aitd implements Runnable {
     private final aitg f69679a;
 
     /* renamed from: b */
-    private final bxtx f69680b;
+    private final ByteString f69680b;
 
-    public aitd(aitg aitg, bxtx bxtx) {
+    public aitd(aitg aitg, ByteString bxtx) {
         this.f69679a = aitg;
         this.f69680b = bxtx;
     }

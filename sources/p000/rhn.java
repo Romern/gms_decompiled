@@ -13,6 +13,6 @@ final /* synthetic */ class rhn implements DialogInterface.OnClickListener {
     }
 
     public final void onClick(DialogInterface dialogInterface, int i) {
-        sek sek = SimpleDialogAccountPickerChimeraActivity.f30097b;
+        Logger Logger = SimpleDialogAccountPickerChimeraActivity.f30097b;
     }
 }

@@ -11,6 +11,6 @@ final /* synthetic */ class ccbx implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (kav) bxvk.m124014a(kav.f23663b, bArr);
+        return (kav) GeneratedMessageLite.m124014a(kav.f23663b, bArr);
     }
 }

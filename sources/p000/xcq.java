@@ -18,7 +18,7 @@ import java.util.Date;
 public final class xcq extends aaab {
 
     /* renamed from: f */
-    private static final sek f51951f = new sek(new String[]{"GenerateKeyOperation"}, (short[]) null);
+    private static final Logger f51951f = new Logger(new String[]{"GenerateKeyOperation"}, (short[]) null);
 
     /* renamed from: a */
     private final xcm f51952a = ((xcm) xcm.f51937d.mo33309a());
@@ -67,14 +67,14 @@ public final class xcq extends aaab {
             xmq xmq = this.f51956e;
             bmxy.m108582a(str, "rpId cannot be null");
             bmxy.m108589a(!str.trim().isEmpty(), "rpId cannot be empty");
-            sek sek = f51951f;
+            Logger Logger = f51951f;
             int i = xmq.f52779d;
             StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 47);
             sb.append("generateKey with rpId ");
             sb.append(str);
             sb.append(" with keyType ");
             sb.append(i);
-            sek.mo25412b(sb.toString(), new Object[0]);
+            Logger.mo25412b(sb.toString(), new Object[0]);
             byte[] bArr = new byte[32];
             new SecureRandom().nextBytes(bArr);
             bmxy.m108582a(xmq, "keyStorageType cannot be null");

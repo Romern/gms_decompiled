@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btng */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btng extends bxvk implements bxxd {
+public final class btng extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final btng f149607j;
@@ -40,7 +40,7 @@ public final class btng extends bxvk implements bxxd {
     static {
         btng btng = new btng();
         f149607j = btng;
-        bxvk.m124024a(btng.class, btng);
+        GeneratedMessageLite.m124024a(btng.class, btng);
     }
 
     private btng() {
@@ -57,7 +57,7 @@ public final class btng extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149607j, "\u0000\t\u0000\u0000\u0001\t\t\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005Ȉ\u0006Ȉ\u0007Ȉ\b\f\t\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f149607j, "\u0000\t\u0000\u0000\u0001\t\t\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005Ȉ\u0006Ȉ\u0007Ȉ\b\f\t\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new btng();
         } else {

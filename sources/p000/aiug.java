@@ -48,12 +48,12 @@ final class aiug {
     private final bvgz m57961a(InputStream inputStream, int i, boolean z) {
         Short sh = null;
         while (true) {
-            bvgz bvgz = (bvgz) bxvk.m124026b(bvgz.f156059f, inputStream);
+            bvgz bvgz = (bvgz) GeneratedMessageLite.m124026b(bvgz.f156059f, inputStream);
             int i2 = 1;
             if (bvgz != null) {
                 int i3 = bvgz.f156061a;
                 if (!((i3 & 32) == 0 || (i3 & 64) == 0 || bvgz.f156065e.mo73744a() != 2)) {
-                    sh = Short.valueOf(bqct.m112601a(bvgz.f156065e.mo73780k()));
+                    sh = Short.valueOf(bqct.m112601a(bvgz.f156065e.getKey()));
                     int i4 = bvgz.f156064d;
                     if (i4 <= this.f69783f.mo38039a(sh.shortValue())) {
                         srn srn = ailf.f69111a;
@@ -122,7 +122,7 @@ final class aiug {
     public static void m57962a(aivg aivg, bvgz bvgz) {
         srn srn = ailf.f69111a;
         int i = bvgz.f156062b;
-        byte[] k = bvgz.mo73642k();
+        byte[] k = bvgz.serializeToBytes();
         int length = k.length;
         aive aive = aivg.f69869e;
         byte[] bArr = new byte[(length + 1)];
@@ -186,7 +186,7 @@ final class aiug {
     /* renamed from: a */
     public final bvgz mo38049a(byte[] bArr) {
         bxvd da = bvgz.f156059f.mo74144da();
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -221,7 +221,7 @@ final class aiug {
         }
         try {
             bxvd da = bvgz.f156059f.mo74144da();
-            bxtx a = bxtx.m123261a(this.f69778a.mo38105d());
+            ByteString a = ByteString.m123261a(this.f69778a.mo38105d());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -289,7 +289,7 @@ final class aiug {
     public final void mo38051a(aivg aivg, String str, int i, ahfi ahfi) {
         try {
             bxvd da = bvgz.f156059f.mo74144da();
-            bxtx a = bxtx.m123261a(this.f69778a.mo38105d());
+            ByteString a = ByteString.m123261a(this.f69778a.mo38105d());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -354,7 +354,7 @@ final class aiug {
         try {
             bvgz a = mo38048a(aivg.f69867c, 2);
             if ((a.f156061a & 64) != 0) {
-                byte[] k = a.f156065e.mo73780k();
+                byte[] k = a.f156065e.getKey();
                 aivg.f69865a.f69912d = k;
                 Arrays.toString(k);
             }
@@ -384,7 +384,7 @@ final class aiug {
             new soa(9, new aitz(this, aivg, b, a3)).start();
             try {
                 bxvd da = bvgz.f156059f.mo74144da();
-                bxtx a4 = bxtx.m123261a(this.f69778a.mo38105d());
+                ByteString a4 = ByteString.m123261a(this.f69778a.mo38105d());
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

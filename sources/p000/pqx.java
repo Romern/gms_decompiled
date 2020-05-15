@@ -35,7 +35,7 @@ public final class pqx {
         bxwc bxwc = blss.f127625d;
         int size = bxwc.size();
         for (int i = 0; i < size; i++) {
-            this.f40083c.add(m31040a((bxtx) bxwc.get(i)));
+            this.f40083c.add(m31040a((ByteString) bxwc.get(i)));
         }
         bxwc bxwc2 = blss.f127626e;
         int size2 = bxwc2.size();
@@ -50,7 +50,7 @@ public final class pqx {
     }
 
     /* renamed from: a */
-    private static final ByteBuffer m31040a(bxtx bxtx) {
+    private static final ByteBuffer m31040a(ByteString bxtx) {
         boolean z = true;
         pra.m31051a(!bxtx.mo73779j(), "Missing SPKI hash.");
         if (bxtx.mo73744a() != 32) {

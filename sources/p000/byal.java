@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byal */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byal extends bxvk implements bxxd {
+public final class byal extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final byal f165279g;
@@ -20,7 +20,7 @@ public final class byal extends bxvk implements bxxd {
     public String f165283c = "";
 
     /* renamed from: d */
-    public bxtx f165284d = bxtx.f164797b;
+    public ByteString f165284d = ByteString.f164797b;
 
     /* renamed from: e */
     public boolean f165285e;
@@ -31,7 +31,7 @@ public final class byal extends bxvk implements bxxd {
     static {
         byal byal = new byal();
         f165279g = byal;
-        bxvk.m124024a(byal.class, byal);
+        GeneratedMessageLite.m124024a(byal.class, byal);
     }
 
     private byal() {
@@ -48,7 +48,7 @@ public final class byal extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165279g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဈ\u0001\u0003ည\u0002\u0004ဇ\u0003\u0005ဇ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f165279g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဈ\u0001\u0003ည\u0002\u0004ဇ\u0003\u0005ဇ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new byal();
         } else {

@@ -16,7 +16,7 @@ public final class qtk {
     public static final imo f42100a = new qtj();
 
     /* renamed from: c */
-    private static final sek f42101c = qqu.m32671b("FacetGroupStore");
+    private static final Logger f42101c = qqu.m32671b("FacetGroupStore");
 
     /* renamed from: b */
     public final qth f42102b;
@@ -39,7 +39,7 @@ public final class qtk {
                     String str = ((bytw) byty.f167734b.get(0)).f167728b;
                     ContentValues contentValues = new ContentValues();
                     contentValues.put("id", str);
-                    contentValues.put("value", byty.mo73642k());
+                    contentValues.put("value", byty.serializeToBytes());
                     qto.m32871a(a, "facet_group_data", contentValues);
                     bngs j = bngx.m109377j();
                     for (bytw bytw : byty.f167734b) {
@@ -75,7 +75,7 @@ public final class qtk {
             bnia j = bnic.m109500j();
             rawQuery.moveToFirst();
             while (!rawQuery.isAfterLast()) {
-                j.mo67629b((byty) bxvk.m124014a(byty.f167731d, qto.m32873a(rawQuery, "value")));
+                j.mo67629b((byty) GeneratedMessageLite.m124014a(byty.f167731d, qto.m32873a(rawQuery, "value")));
                 rawQuery.moveToNext();
             }
             a = j.mo67751a();

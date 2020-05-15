@@ -49,7 +49,7 @@ final /* synthetic */ class belo implements Runnable {
         bpyp.f139908a |= 1;
         bpyp.f139909b = i;
         if (!bpyp.f139910c.mo73666a()) {
-            bpyp.f139910c = bxvk.m124021a(bpyp.f139910c);
+            bpyp.f139910c = GeneratedMessageLite.m124021a(bpyp.f139910c);
         }
         bxsy.m123078a(set, bpyp.f139910c);
         int convert = (int) TimeUnit.MILLISECONDS.convert(j, timeUnit);

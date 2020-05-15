@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ciwd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ciwd extends bxvk implements bxxd {
+public final class ciwd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final ciwd f191560h;
@@ -23,18 +23,18 @@ public final class ciwd extends bxvk implements bxxd {
     public int f191565d;
 
     /* renamed from: e */
-    public bxtx f191566e = bxtx.f164797b;
+    public ByteString f191566e = ByteString.f164797b;
 
     /* renamed from: f */
-    public bxtx f191567f = bxtx.f164797b;
+    public ByteString f191567f = ByteString.f164797b;
 
     /* renamed from: g */
-    public bxtx f191568g = bxtx.f164797b;
+    public ByteString f191568g = ByteString.f164797b;
 
     static {
         ciwd ciwd = new ciwd();
         f191560h = ciwd;
-        bxvk.m124024a(ciwd.class, ciwd);
+        GeneratedMessageLite.m124024a(ciwd.class, ciwd);
     }
 
     private ciwd() {
@@ -51,7 +51,7 @@ public final class ciwd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191560h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဋ\u0001\u0002ည\u0003\u0003ည\u0004\u0004ည\u0005\u0005ဋ\u0000\u0006ဋ\u0002", new Object[]{"a", "c", "e", "f", "g", "b", "d"});
+            return GeneratedMessageLite.m124022a(f191560h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဋ\u0001\u0002ည\u0003\u0003ည\u0004\u0004ည\u0005\u0005ဋ\u0000\u0006ဋ\u0002", new Object[]{"a", "c", "e", "f", "g", "b", "d"});
         } else if (i2 == 3) {
             return new ciwd();
         } else {

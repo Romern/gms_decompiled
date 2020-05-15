@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abdi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abdi extends bxvk implements bxxd {
+public final class abdi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final abdi f57089d;
@@ -25,7 +25,7 @@ public final class abdi extends bxvk implements bxxd {
     static {
         abdi abdi = new abdi();
         f57089d = abdi;
-        bxvk.m124024a(abdi.class, abdi);
+        GeneratedMessageLite.m124024a(abdi.class, abdi);
     }
 
     private abdi() {
@@ -42,7 +42,7 @@ public final class abdi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57089d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001b\u0003ဈ\u0001", new Object[]{"e", "a", "b", abdf.class, "c"});
+            return GeneratedMessageLite.m124022a(f57089d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001b\u0003ဈ\u0001", new Object[]{"e", "a", "b", abdf.class, "c"});
         } else if (i2 == 3) {
             return new abdi();
         } else {

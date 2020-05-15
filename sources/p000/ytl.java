@@ -33,7 +33,7 @@ public enum ytl {
 
     /* renamed from: a */
     public static String m44780a(ytr ytr) {
-        return Base64.encodeToString(ytr.mo73642k(), 0);
+        return Base64.encodeToString(ytr.serializeToBytes(), 0);
     }
 
     /* renamed from: a */

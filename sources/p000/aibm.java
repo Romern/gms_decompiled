@@ -327,7 +327,7 @@ public final class aibm {
                     Integer num = (Integer) ahyh.f68345b.get(a2);
                     if (!ahyh.f68344a.mo37287a(((Integer) ahyh.f68345b.get(a2)).intValue())) {
                         Intent className = new Intent().setClassName(ahyh.f68346c, "com.google.android.gms.nearby.discovery.fastpair.HalfSheetActivity");
-                        className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET", ahvd.m56714b(ahsu5.f67969b).mo73642k());
+                        className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET", ahvd.m56714b(ahsu5.f67969b).serializeToBytes());
                         className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET_TYPE", "DEVICE_PAIRING");
                         className.setFlags(268435456);
                         ahyh.f68344a.mo37288a(num.intValue(), 2);
@@ -742,7 +742,7 @@ public final class aibm {
         byzi byzi = null;
         if (c == 0) {
             try {
-                byzi byzi2 = (byzi) bxvk.m124016a(byzi.f169083x, message.f80676b, bxus.m123744c());
+                byzi byzi2 = (byzi) GeneratedMessageLite.m124016a(byzi.f169083x, message.f80676b, bxus.m123744c());
                 bzbk a = bzbk.m125615a(byzi2.f169086b);
                 if (a == null) {
                     a = bzbk.NEARBY_TYPE_UNKNOWN;
@@ -800,7 +800,7 @@ public final class aibm {
                         byzi = null;
                     } else {
                         try {
-                            byzi byzi2 = (byzi) bxvk.m124016a(byzi.f169083x, message2.f80676b, bxus.m123744c());
+                            byzi byzi2 = (byzi) GeneratedMessageLite.m124016a(byzi.f169083x, message2.f80676b, bxus.m123744c());
                             byzj byzj = byzi2.f169098o;
                             if (byzj == null) {
                                 byzj = byzj.f169108b;
@@ -828,7 +828,7 @@ public final class aibm {
                                     if (aiaa == null) {
                                         aiaa a3 = ahsu.m56514a();
                                         bxvd bxvd = (bxvd) a3.mo74142c(5);
-                                        bxvd.mo73625a((bxvk) a3);
+                                        bxvd.mo73625a((GeneratedMessageLite) a3);
                                         String str6 = byzi2.f169087c;
                                         if (bxvd.f164950c) {
                                             bxvd.mo74035c();
@@ -861,7 +861,7 @@ public final class aibm {
                                         aiaa = (aiaa) bxvd.mo74062i();
                                     }
                                     bxvd bxvd2 = (bxvd) aiaa.mo74142c(5);
-                                    bxvd2.mo73625a((bxvk) aiaa);
+                                    bxvd2.mo73625a((GeneratedMessageLite) aiaa);
                                     bzbk a5 = bzbk.m125615a(byzi2.f169086b);
                                     if (a5 == null) {
                                         a5 = bzbk.NEARBY_TYPE_UNKNOWN;
@@ -886,7 +886,7 @@ public final class aibm {
                                             bxvd2.mo74035c();
                                             bxvd2.f164950c = false;
                                         }
-                                        ((aiaa) bxvd2.f164949b).f68505C = bxvk.m124030de();
+                                        ((aiaa) bxvd2.f164949b).f68505C = GeneratedMessageLite.m124030de();
                                     }
                                     bxvd2.mo74023ac(list);
                                     String str7 = byzi2.f169096l;
@@ -1015,7 +1015,7 @@ public final class aibm {
                                         aiaa13.f68533u = a7.f169225d;
                                         aiaa13.f68513a |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_IME_MULTI_LINE;
                                     }
-                                    bxtx bxtx = byzi2.f169091g;
+                                    ByteString bxtx = byzi2.f169091g;
                                     aiaa aiaa14 = (aiaa) bxvd2.f164949b;
                                     bxtx.getClass();
                                     int i11 = aiaa14.f68513a | 8388608;
@@ -1027,7 +1027,7 @@ public final class aibm {
                                     aiaa14.f68513a = i12;
                                     aiaa14.f68509G = str16;
                                     if ((byzi2.f169085a & 2097152) != 0) {
-                                        bxtx bxtx2 = byzi2.f169105v;
+                                        ByteString bxtx2 = byzi2.f169105v;
                                         bxtx2.getClass();
                                         aiaa14.f68513a = i12 | JGCastService.FLAG_PRIVATE_DISPLAY;
                                         aiaa14.f68510H = bxtx2;
@@ -1088,7 +1088,7 @@ public final class aibm {
                                         aiaa19.f68517e = str3;
                                     }
                                     if (bArr != null) {
-                                        bxtx a8 = bxtx.m123261a(bArr);
+                                        ByteString a8 = bxtx.m123261a(bArr);
                                         if (bxvd2.f164950c) {
                                             bxvd2.mo74035c();
                                             bxvd2.f164950c = false;
@@ -1261,7 +1261,7 @@ public final class aibm {
                         }
                         aiac aiac10 = (aiac) da.mo74062i();
                         bxvd bxvd3 = (bxvd) aiac10.mo74142c(5);
-                        bxvd3.mo73625a((bxvk) aiac10);
+                        bxvd3.mo73625a((GeneratedMessageLite) aiac10);
                         ahst.mo37039a(bxvd3);
                         byzi = null;
                     } catch (Exception e2) {

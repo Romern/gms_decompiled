@@ -23,35 +23,35 @@ public final class vyi {
 
     public vyi(vyn vyn, vvu vvu) {
         byte[] bArr;
-        bxtx bxtx = vvu.f50071a;
-        bxtx bxtx2 = vvu.f50072b;
+        ByteString bxtx = vvu.f50071a;
+        ByteString bxtx2 = vvu.f50072b;
         try {
             bxus b = bxus.m123743b();
             vvw vvw = vvw.f50079j;
             try {
                 bxuc h = bxtx.mo73764h();
-                bxvk bxvk = (bxvk) vvw.mo74142c(4);
-                bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                a.mo74220a(bxvk, bxud.m123454a(h), b);
-                a.mo74225d(bxvk);
+                GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) vvw.mo74142c(4);
+                bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), b);
+                a.mo74225d(GeneratedMessageLite);
                 h.mo73787a(0);
-                bxvk.m124027b(bxvk);
-                vvw vvw2 = (vvw) bxvk;
-                if (vyn.mo28964a(bxtx.mo73780k(), bxtx2.mo73780k())) {
+                GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                vvw vvw2 = (vvw) GeneratedMessageLite;
+                if (vyn.mo28964a(bxtx.getKey(), bxtx2.getKey())) {
                     int i = vvw2.f50081a;
                     if ((i & 1) == 0) {
-                        throw new vyt("byteCode", vvw2.f50089i.mo73780k());
+                        throw new vyt("byteCode", vvw2.f50089i.getKey());
                     } else if ((i & 2) == 0) {
-                        throw new vyt("vmUrl", vvw2.f50089i.mo73780k());
+                        throw new vyt("vmUrl", vvw2.f50089i.getKey());
                     } else if ((i & 4) == 0) {
-                        throw new vyt("vmChecksum", vvw2.f50089i.mo73780k());
+                        throw new vyt("vmChecksum", vvw2.f50089i.getKey());
                     } else if ((i & 16) != 0) {
-                        vyy vyy = new vyy(srv.m36164d(vvw2.f50083c.mo73780k()));
+                        vyy vyy = new vyy(srv.m36164d(vvw2.f50083c.getKey()));
                         this.f50230a = vyy;
-                        this.f50231b = new vyj(vvw2.f50082b.mo73780k(), vyy, (long) vvw2.f50085e, vvw2.f50089i.mo73780k());
+                        this.f50231b = new vyj(vvw2.f50082b.getKey(), vyy, (long) vvw2.f50085e, vvw2.f50089i.getKey());
                         vzc vzc = null;
                         if ((vvw2.f50081a & 8) != 0) {
-                            bArr = vvw2.f50084d.mo73780k();
+                            bArr = vvw2.f50084d.getKey();
                         } else {
                             bArr = null;
                         }
@@ -64,10 +64,10 @@ public final class vyi {
                         this.f50234e = vzc;
                         this.f50233d = vvw2.f50086f;
                     } else {
-                        throw new vyt("expiryTimeSecs", vvw2.f50089i.mo73780k());
+                        throw new vyt("expiryTimeSecs", vvw2.f50089i.getKey());
                     }
                 } else {
-                    throw new vyt("Creation response signature verification failed.", vvw2.f50089i.mo73780k());
+                    throw new vyt("Creation response signature verification failed.", vvw2.f50089i.getKey());
                 }
             } catch (IOException e) {
                 if (!(e.getCause() instanceof bxwf)) {

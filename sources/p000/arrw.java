@@ -9,7 +9,7 @@ import java.util.Map;
 public final class arrw {
 
     /* renamed from: b */
-    public static final sek f88199b = ascp.m73787a("FastPair", "FastPairNotificationController");
+    public static final Logger f88199b = ascp.m73787a("FastPair", "FastPairNotificationController");
 
     /* renamed from: c */
     public static final Map f88200c;

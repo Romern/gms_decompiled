@@ -80,7 +80,7 @@ public class DeviceStateSnapshotIntentOperation extends lvz {
                 }
                 mrh mrh2 = (mrh) da.f164949b;
                 if (!mrh2.f34410i.mo73666a()) {
-                    mrh2.f34410i = bxvk.m124019a(mrh2.f34410i);
+                    mrh2.f34410i = GeneratedMessageLite.m124019a(mrh2.f34410i);
                 }
                 for (mrf mrf : asList) {
                     mrh2.f34410i.mo74153d(mrf.f34398g);

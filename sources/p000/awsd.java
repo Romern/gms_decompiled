@@ -266,7 +266,7 @@ public final class awsd {
                         awrq.f94929a = a.f165278h;
                         awrq.f94930b = this.f95008i.f110346b.f109796b;
                         IbMerchantParameters a5 = awrq.mo52513a();
-                        BuyFlowIntegratorDataResponse buyFlowIntegratorDataResponse = (BuyFlowIntegratorDataResponse) this.f95001b.mo52501a(new awrz(this.f95009j, this.f95002c, a2, a5, a.f165275e.mo73780k()));
+                        BuyFlowIntegratorDataResponse buyFlowIntegratorDataResponse = (BuyFlowIntegratorDataResponse) this.f95001b.mo52501a(new awrz(this.f95009j, this.f95002c, a2, a5, a.f165275e.getKey()));
                         int i3 = buyFlowIntegratorDataResponse.f110379e;
                         if (i3 == 6) {
                             loadFullWalletServiceResponse = m80898a(7, 1);

@@ -22,7 +22,7 @@ public final class joq {
     public static final /* synthetic */ int f22943a = 0;
 
     /* renamed from: b */
-    private static final sek f22944b = jsy.m17256a("CryptauthPostSyncProcessor");
+    private static final Logger f22944b = jsy.m17256a("CryptauthPostSyncProcessor");
 
     /* renamed from: a */
     public static final void m17033a(Context context, Account account) {

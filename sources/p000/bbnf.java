@@ -15,13 +15,13 @@ final /* synthetic */ class bbnf implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        bxvk bxvk;
+        GeneratedMessageLite GeneratedMessageLite;
         bbnm bbnm = this.f102945a;
         long j = this.f102946b;
         bbnu bbnu = (bbnu) obj;
         bxwc bxwc = bbnm.f102954b.f102984b;
         bxvd bxvd = (bxvd) bbnu.mo74142c(5);
-        bxvd.mo73625a((bxvk) bbnu);
+        bxvd.mo73625a((GeneratedMessageLite) bbnu);
         bbnr bbnr = (bbnr) bxvd;
         int i = 0;
         while (true) {
@@ -35,7 +35,7 @@ final /* synthetic */ class bbnf implements bmxj {
                 j2 = ((bbns) bxwc.get(a2)).f102972c;
             }
             bxvd bxvd2 = (bxvd) a.mo74142c(5);
-            bxvd2.mo73625a((bxvk) a);
+            bxvd2.mo73625a((GeneratedMessageLite) a);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
@@ -66,13 +66,13 @@ final /* synthetic */ class bbnf implements bmxj {
         bbnu4.f102985c = j;
         bbnu bbnu6 = (bbnu) bbnr.mo74062i();
         bxvd bxvd3 = (bxvd) bbnu6.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bbnu6);
+        bxvd3.mo73625a((GeneratedMessageLite) bbnu6);
         bbnr bbnr2 = (bbnr) bxvd3;
         for (int i2 = 0; i2 < ((bbnu) bbnr2.f164949b).f102987e.size(); i2++) {
             bbnt b = bbnr2.mo56248b(i2);
             if ((b.f102977a & 4) != 0) {
                 bxvd bxvd4 = (bxvd) b.mo74142c(5);
-                bxvd4.mo73625a((bxvk) b);
+                bxvd4.mo73625a((GeneratedMessageLite) b);
                 long j3 = b.f102980d;
                 if (bxvd4.f164950c) {
                     bxvd4.mo74035c();
@@ -82,10 +82,10 @@ final /* synthetic */ class bbnf implements bmxj {
                 bbnt bbnt2 = bbnt.f102975e;
                 bbnt.f102977a |= 2;
                 bbnt.f102979c = j3;
-                bxvk = bxvd4.mo74062i();
+                GeneratedMessageLite = bxvd4.mo74062i();
             } else {
                 bxvd bxvd5 = (bxvd) b.mo74142c(5);
-                bxvd5.mo73625a((bxvk) b);
+                bxvd5.mo73625a((GeneratedMessageLite) b);
                 if (bxvd5.f164950c) {
                     bxvd5.mo74035c();
                     bxvd5.f164950c = false;
@@ -94,9 +94,9 @@ final /* synthetic */ class bbnf implements bmxj {
                 bbnt bbnt4 = bbnt.f102975e;
                 bbnt3.f102977a &= -3;
                 bbnt3.f102979c = 0;
-                bxvk = bxvd5.mo74062i();
+                GeneratedMessageLite = bxvd5.mo74062i();
             }
-            bbnr2.mo56245a(i2, (bbnt) bxvk);
+            bbnr2.mo56245a(i2, (bbnt) GeneratedMessageLite);
         }
         return (bbnu) bbnr2.mo74062i();
     }

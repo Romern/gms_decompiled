@@ -96,11 +96,11 @@ final /* synthetic */ class mzv implements Callable {
                 } catch (mbf e2) {
                     e = e2;
                     int i6 = e.f33375a;
-                    sek sek = nab.f35075a;
+                    Logger Logger = nab.f35075a;
                     StringBuilder sb = new StringBuilder(51);
                     sb.append("Get error http response on getDevices : ");
                     sb.append(i6);
-                    sek.mo25418e(sb.toString(), new Object[0]);
+                    Logger.mo25418e(sb.toString(), new Object[0]);
                     ndt = new ndt(i6, 0, i2);
                     ndt.mo20499a(nab.f35110q);
                     return null;
@@ -131,22 +131,22 @@ final /* synthetic */ class mzv implements Callable {
                     throw th;
                 }
             }
-            sek sek2 = nab.f35075a;
+            Logger logger2 = nab.f35075a;
             StringBuilder sb2 = new StringBuilder(35);
             sb2.append("got ");
             sb2.append(size);
             sb2.append(" devices from server");
-            sek2.mo25409a(sb2.toString(), new Object[0]);
+            logger2.logVerbose(sb2.toString(), new Object[0]);
             new ndt(BaseMfiEventCallback.TYPE_UNKNOWN_ERROR, size, i2).mo20499a(nab.f35110q);
             return restoreSetArr;
         } catch (mbf e4) {
             e = e4;
             int i62 = e.f33375a;
-            sek sek3 = nab.f35075a;
+            Logger logger3 = nab.f35075a;
             StringBuilder sb3 = new StringBuilder(51);
             sb3.append("Get error http response on getDevices : ");
             sb3.append(i62);
-            sek3.mo25418e(sb3.toString(), new Object[0]);
+            logger3.mo25418e(sb3.toString(), new Object[0]);
             ndt = new ndt(i62, 0, i2);
             ndt.mo20499a(nab.f35110q);
             return null;

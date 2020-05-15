@@ -19,6 +19,6 @@ public final class bhxh {
 
     /* renamed from: a */
     public static String m101703a(bvnx bvnx) {
-        return boan.f132471e.mo68783a().mo68794a(bvnx.mo73642k());
+        return boan.f132471e.mo68783a().mo68794a(bvnx.serializeToBytes());
     }
 }

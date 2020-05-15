@@ -28,14 +28,14 @@ public final class agba extends rjx {
     public final aucb mo35178a(agbb agbb, MdnsSearchOptions mdnsSearchOptions) {
         rod a = mo24714a(agbb, f65110a);
         rob rob = a.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         return mo24699a(new agay(a, a, mdnsSearchOptions), new agaz(rob, a));
     }
 
     /* renamed from: a */
     public final void mo35179a(agbb agbb) {
         rob rob = mo24714a(agbb, f65110a).f43429b;
-        sdo.m34966a(rob, "key must not be null");
+        sdo.checkIfNull(rob, "key must not be null");
         mo24698a(rob);
     }
 }

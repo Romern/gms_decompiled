@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsaf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsaf extends bxvk implements bxxd {
+public final class bsaf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bsaf f143836a;
@@ -13,7 +13,7 @@ public final class bsaf extends bxvk implements bxxd {
     static {
         bsaf bsaf = new bsaf();
         f143836a = bsaf;
-        bxvk.m124024a(bsaf.class, bsaf);
+        GeneratedMessageLite.m124024a(bsaf.class, bsaf);
     }
 
     private bsaf() {
@@ -31,7 +31,7 @@ public final class bsaf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f143836a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f143836a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bsaf();

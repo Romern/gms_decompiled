@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmte */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmte extends bxvk implements bxxd {
+public final class bmte extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bmte f130822a;
@@ -13,11 +13,11 @@ public final class bmte extends bxvk implements bxxd {
     static {
         bmte bmte = new bmte();
         f130822a = bmte;
-        bxvk.m124024a(bmte.class, bmte);
+        GeneratedMessageLite.m124024a(bmte.class, bmte);
     }
 
     private bmte() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -31,7 +31,7 @@ public final class bmte extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130822a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f130822a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bmte();

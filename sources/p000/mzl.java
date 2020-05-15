@@ -47,9 +47,9 @@ final /* synthetic */ class mzl implements Callable {
         String str = packageInfo.packageName;
         int i4 = i3 & 1;
         boolean a = nab.mo20369a();
-        sek sek = nab.f35075a;
+        Logger Logger = nab.f35075a;
         String valueOf = String.valueOf(str);
-        sek.mo25414c(valueOf.length() == 0 ? new String("Attempt to do full backup on ") : "Attempt to do full backup on ".concat(valueOf), new Object[0]);
+        Logger.mo25414c(valueOf.length() == 0 ? new String("Attempt to do full backup on ") : "Attempt to do full backup on ".concat(valueOf), new Object[0]);
         nab.f35117x.mo19828a(5, str, i4 != 0, a);
         nab.f35110q.sendBroadcast(new Intent("com.google.android.gms.backup.ACTION_TRANSPORT_FULL_BACKUP").setPackage("com.google.android.gms"));
         int i5 = -1002;
@@ -70,7 +70,7 @@ final /* synthetic */ class mzl implements Callable {
             } else if (a && nab.mo20386g()) {
                 nab.f35075a.mo25416d("Not performing full backup - Encryption key has not synced", new Object[0]);
             } else {
-                nab.f35075a.mo25409a("Rescheduling gms backup task", new Object[0]);
+                nab.f35075a.logVerbose("Rescheduling gms backup task", new Object[0]);
                 GmsBackupSchedulerChimeraService.m22012a(nab.f35110q);
                 nds nds = new nds(nab.f35110q, packageInfo.packageName, nab.f35117x.f33381a);
                 try {

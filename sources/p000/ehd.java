@@ -32,7 +32,7 @@ public final class ehd {
     public eib f14917h;
 
     /* renamed from: i */
-    public sek f14918i;
+    public Logger f14918i;
 
     /* renamed from: j */
     public ipn f14919j;

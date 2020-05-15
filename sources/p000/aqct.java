@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqct */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqct extends bxvk implements bxxd {
+public final class aqct extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final aqct f85704b;
@@ -16,7 +16,7 @@ public final class aqct extends bxvk implements bxxd {
     static {
         aqct aqct = new aqct();
         f85704b = aqct;
-        bxvk.m124024a(aqct.class, aqct);
+        GeneratedMessageLite.m124024a(aqct.class, aqct);
     }
 
     private aqct() {
@@ -33,7 +33,7 @@ public final class aqct extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85704b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u0016", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f85704b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u0016", new Object[]{"a"});
         } else if (i2 == 3) {
             return new aqct();
         } else {

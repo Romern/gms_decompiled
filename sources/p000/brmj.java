@@ -18,14 +18,14 @@ public abstract class brmj extends sji {
     protected final brps f142969e;
 
     /* renamed from: f */
-    protected final sek f142970f;
+    protected final Logger f142970f;
 
     /* renamed from: g */
     private final String f142971g;
 
     public brmj(String str, String str2, brps brps, brpp brpp, String str3) {
         super(AndroidInputTypeSignal.TYPE_TEXT_VARIATION_POSTAL_ADDRESS, str3);
-        this.f142970f = new sek("FirebaseAuth", str3);
+        this.f142970f = new Logger("FirebaseAuth", str3);
         sdo.m34977c(str);
         this.f142968d = str;
         sdo.m34959a(brps);

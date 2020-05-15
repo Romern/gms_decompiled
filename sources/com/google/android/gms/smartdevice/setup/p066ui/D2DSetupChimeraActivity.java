@@ -631,7 +631,7 @@ public class D2DSetupChimeraActivity extends deu implements asas, arok, arww, ar
             this.f108206i = aqzm.m72294a(intent.getStringExtra("device_type"));
         } else {
             D2DDevice d2DDevice = (D2DDevice) sef.m35068a(intent.getStringExtra("smartdevice.d2dDevice"), D2DDevice.CREATOR);
-            sdo.m34966a(d2DDevice, "D2D device cannot be null");
+            sdo.checkIfNull(d2DDevice, "D2D device cannot be null");
             this.f108205h = d2DDevice;
             byte b = d2DDevice.f107876e;
             aqzm[] values = aqzm.values();
@@ -1200,7 +1200,7 @@ public class D2DSetupChimeraActivity extends deu implements asas, arok, arww, ar
 
     /* renamed from: a */
     private final void m92905a(BootstrapOptions bootstrapOptions, boolean z) {
-        sdo.m34966a(bootstrapOptions, "bootstrapOptions cannot be null.");
+        sdo.checkIfNull(bootstrapOptions, "bootstrapOptions cannot be null.");
         if (!bootstrapOptions.mo59056c() && m92898E() == 0) {
             f108197b.mo25412b("No accounts required and no accounts on device.", new Object[0]);
             m92914x();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: xab */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class xab extends bxvk implements bxxd {
+public final class xab extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: u */
     public static final xab f51677u;
@@ -20,7 +20,7 @@ public final class xab extends bxvk implements bxxd {
     public int f51681c;
 
     /* renamed from: d */
-    public bxtx f51682d = bxtx.f164797b;
+    public ByteString f51682d = ByteString.f164797b;
 
     /* renamed from: e */
     public xap f51683e;
@@ -73,7 +73,7 @@ public final class xab extends bxvk implements bxxd {
     static {
         xab xab = new xab();
         f51677u = xab;
-        bxvk.m124024a(xab.class, xab);
+        GeneratedMessageLite.m124024a(xab.class, xab);
     }
 
     private xab() {
@@ -90,7 +90,7 @@ public final class xab extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f51677u, "\u0001\u0013\u0000\u0001\u0001Ɛ\u0013\u0000\u0000\u0000\u0001င\u0000\u0002ဌ\u0001\u0003ဉ\u0003\u0004ဉ\u0004\u0005ဉ\u0005\u0006ဉ\u0006\u0007ဉ\u0007\bဉ\b\tဉ\t\nဉ\n\u000bည\u0002dဉ\u000beဉ\ffဉ\rgဉ\u000eÈဉ\u000fÉဉ\u0010Ĭဉ\u0011Ɛဉ\u0012", new Object[]{"a", "b", "c", xaa.f51676a, "e", "f", "g", "h", "i", "j", "k", "l", "d", "m", "n", "o", "p", "q", "r", "s", "t"});
+            return GeneratedMessageLite.m124022a(f51677u, "\u0001\u0013\u0000\u0001\u0001Ɛ\u0013\u0000\u0000\u0000\u0001င\u0000\u0002ဌ\u0001\u0003ဉ\u0003\u0004ဉ\u0004\u0005ဉ\u0005\u0006ဉ\u0006\u0007ဉ\u0007\bဉ\b\tဉ\t\nဉ\n\u000bည\u0002dဉ\u000beဉ\ffဉ\rgဉ\u000eÈဉ\u000fÉဉ\u0010Ĭဉ\u0011Ɛဉ\u0012", new Object[]{"a", "b", "c", xaa.f51676a, "e", "f", "g", "h", "i", "j", "k", "l", "d", "m", "n", "o", "p", "q", "r", "s", "t"});
         } else if (i2 == 3) {
             return new xab();
         } else {

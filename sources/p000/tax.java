@@ -15,7 +15,7 @@ final class tax implements Runnable {
 
     public final void run() {
         ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45588a.f45590b;
-        sek sek = ConstellationSettingsChimeraActivity.f30536b;
+        Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
         synchronized (constellationSettingsChimeraActivity.f30539C) {
             ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity2 = this.f45588a.f45590b;
             constellationSettingsChimeraActivity2.f30566z.mo26406a(constellationSettingsChimeraActivity2.f30537A, 30);

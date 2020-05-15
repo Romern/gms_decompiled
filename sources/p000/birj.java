@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: birj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class birj extends bxvk implements bxxd {
+public final class birj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final birj f121419c;
@@ -22,7 +22,7 @@ public final class birj extends bxvk implements bxxd {
     static {
         birj birj = new birj();
         f121419c = birj;
-        bxvk.m124024a(birj.class, birj);
+        GeneratedMessageLite.m124024a(birj.class, birj);
     }
 
     private birj() {
@@ -43,7 +43,7 @@ public final class birj extends bxvk implements bxxd {
             this.f121423d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121419c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"a", "b", birh.f121418a});
+            return GeneratedMessageLite.m124022a(f121419c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"a", "b", birh.f121418a});
         } else if (i2 == 3) {
             return new birj();
         } else {

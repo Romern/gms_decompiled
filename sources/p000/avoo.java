@@ -20,7 +20,7 @@ public final class avoo extends avnj implements avqc, avpj {
     public static final avto f93634e = new avto("dir_path", "");
 
     /* renamed from: g */
-    private static final sek f93635g = avpq.m79018e("StreamingApplyAction");
+    private static final Logger f93635g = avpq.m79018e("StreamingApplyAction");
 
     /* renamed from: h */
     private static final avtg f93636h = new avtg("network_error_attempts", 0);

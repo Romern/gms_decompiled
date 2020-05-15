@@ -315,7 +315,7 @@ public final class anbh implements anaz {
             if (this.f76542b.containsKey(anbd)) {
                 amnc amnc = (amnc) this.f76542b.get(anbd);
                 bxvd = (bxvd) amnc.mo74142c(5);
-                bxvd.mo73625a((bxvk) amnc);
+                bxvd.mo73625a((GeneratedMessageLite) amnc);
             } else {
                 bxvd da = amnc.f75422l.mo74144da();
                 if (da.f164950c) {

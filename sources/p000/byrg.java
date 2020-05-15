@@ -94,7 +94,7 @@ public final class byrg implements byre {
         byrj byrj = (byrj) da2.f164949b;
         byrj.f167482b = 1;
         byrj.f167481a |= 1;
-        bxtx a2 = bxtx.m123261a(this.f167471k[0].toByteArray());
+        ByteString a2 = ByteString.m123261a(this.f167471k[0].toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -104,7 +104,7 @@ public final class byrg implements byre {
         int i = 2;
         byrj2.f167481a |= 2;
         byrj2.f167483c = a2;
-        bxtx a3 = bxtx.m123261a(this.f167471k[1].toByteArray());
+        ByteString a3 = ByteString.m123261a(this.f167471k[1].toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -128,7 +128,7 @@ public final class byrg implements byre {
         }
         byrm.f167500a = i2 | 1;
         byrm.f167501b = i;
-        return ((byrm) da.mo74062i()).mo73642k();
+        return ((byrm) da.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: b */
@@ -224,7 +224,7 @@ public final class byrg implements byre {
     /* renamed from: b */
     private final void m125201b(byte[] bArr, boolean z) {
         try {
-            byrm byrm = (byrm) bxvk.m124014a(byrm.f167498f, bArr);
+            byrm byrm = (byrm) GeneratedMessageLite.m124014a(byrm.f167498f, bArr);
             int i = byrm.f167500a;
             if ((i & 1) != 0) {
                 if (byrm.f167501b != (!z ? 1 : 2)) {
@@ -240,7 +240,7 @@ public final class byrg implements byre {
                         if ((i2 & 2) == 0) {
                             throw new byrq("Commitment point missing x coordinate");
                         } else if ((i2 & 4) != 0) {
-                            BigInteger[] bigIntegerArr = {new BigInteger(byrj.f167483c.mo73780k()), new BigInteger(byrj.f167484d.mo73780k())};
+                            BigInteger[] bigIntegerArr = {new BigInteger(byrj.f167483c.getKey()), new BigInteger(byrj.f167484d.getKey())};
                             this.f167469i = bigIntegerArr;
                             try {
                                 byro.m125220c(bigIntegerArr);
@@ -290,7 +290,7 @@ public final class byrg implements byre {
     /* renamed from: a */
     private final byte[] m125197a(byte[] bArr, boolean z) {
         try {
-            byrm byrm = (byrm) bxvk.m124014a(byrm.f167498f, bArr);
+            byrm byrm = (byrm) GeneratedMessageLite.m124014a(byrm.f167498f, bArr);
             int i = byrm.f167500a;
             if ((i & 1) != 0) {
                 int i2 = !z ? 3 : 4;
@@ -303,7 +303,7 @@ public final class byrg implements byre {
                     sb.append(i2);
                     throw new byrq(sb.toString());
                 } else if ((i & 4) != 0) {
-                    byte[] k = byrm.f167503d.mo73780k();
+                    byte[] k = byrm.f167503d.getKey();
                     byte[] c = m125202c(m125199a(new byte[]{z ? (byte) 1 : 0}, m125198a(this.f167471k), m125198a(this.f167469i), this.f167464d));
                     if (c != null && k != null) {
                         if (c.length == k.length) {
@@ -318,9 +318,9 @@ public final class byrg implements byre {
                         return new byte[0];
                     }
                     try {
-                        byri a = byrb.m125173a(new SecretKeySpec(this.f167464d, "AES"), byrm.f167504e.mo73780k());
+                        byri a = byrb.m125173a(new SecretKeySpec(this.f167464d, "AES"), byrm.f167504e.getKey());
                         if (a.f167478c == 1) {
-                            return a.f167477b.mo73780k();
+                            return a.f167477b.getKey();
                         }
                         throw new byrq("Incorrect sequence number in responder hello");
                     } catch (SignatureException e) {
@@ -405,7 +405,7 @@ public final class byrg implements byre {
     public final byte[] mo74490a(boolean z, byte[] bArr) {
         bxvd da = byrm.f167498f.mo74144da();
         int i = 4;
-        bxtx a = bxtx.m123261a(m125202c(m125199a(new byte[]{!z}, m125198a(this.f167469i), m125198a(this.f167471k), this.f167464d)));
+        ByteString a = ByteString.m123261a(m125202c(m125199a(new byte[]{!z}, m125198a(this.f167469i), m125198a(this.f167471k), this.f167464d)));
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -422,7 +422,7 @@ public final class byrg implements byre {
         byrm.f167501b = i;
         if (this.f167465e == 8 && bArr != null) {
             try {
-                bxtx a2 = bxtx.m123261a(byrb.m125177a(new byrz(bysa.DEVICE_TO_DEVICE_RESPONDER_HELLO_PAYLOAD, byqy.m125143a(bArr, 1).mo73642k()), new SecretKeySpec(this.f167464d, "AES")));
+                ByteString a2 = ByteString.m123261a(byrb.m125177a(new byrz(bysa.DEVICE_TO_DEVICE_RESPONDER_HELLO_PAYLOAD, byqy.m125143a(bArr, 1).serializeToBytes()), new SecretKeySpec(this.f167464d, "AES")));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -435,6 +435,6 @@ public final class byrg implements byre {
                 throw new byrq("Cannot set payload", e);
             }
         }
-        return ((byrm) da.mo74062i()).mo73642k();
+        return ((byrm) da.mo74062i()).serializeToBytes();
     }
 }

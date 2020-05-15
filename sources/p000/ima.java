@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ima */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ima extends bxvk implements bxxd {
+public final class ima extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final ima f21332e;
@@ -25,7 +25,7 @@ public final class ima extends bxvk implements bxxd {
     static {
         ima ima = new ima();
         f21332e = ima;
-        bxvk.m124024a(ima.class, ima);
+        GeneratedMessageLite.m124024a(ima.class, ima);
     }
 
     private ima() {
@@ -42,7 +42,7 @@ public final class ima extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f21332e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဈ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f21332e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဈ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new ima();
         } else {

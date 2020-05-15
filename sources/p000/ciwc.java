@@ -28,7 +28,7 @@ public final class ciwc implements ciwa {
     public ciwc(int i, SecretKeySpec secretKeySpec, civs civs, int i2, int i3, byte[] bArr, cive cive, cive cive2) {
         byte[] bArr2 = {cixd.m151106a(i)};
         bxvd da = ciwe.f191569f.mo74144da();
-        bxtx a = bxtx.m123261a(civs.mo86595a());
+        ByteString a = ByteString.m123261a(civs.mo86595a());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -43,7 +43,7 @@ public final class ciwc implements ciwa {
         ciwe.f191573c = i2;
         ciwe.f191571a = i5 | 4;
         ciwe.f191574d = i3;
-        bxtx a2 = bxtx.m123261a(bArr);
+        ByteString a2 = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -52,7 +52,7 @@ public final class ciwc implements ciwa {
         a2.getClass();
         ciwe2.f191571a |= 8;
         ciwe2.f191575e = a2;
-        byte[] k = ((ciwe) da.mo74062i()).mo73642k();
+        byte[] k = ((ciwe) da.mo74062i()).serializeToBytes();
         this.f191558d = cixd.m151108a(bArr2, k, m151069a(i, cive, cive2, secretKeySpec, cixd.m151108a(bArr2, k)));
         this.f191559e = civs;
         this.f191556b = i2;
@@ -99,16 +99,16 @@ public final class ciwc implements ciwa {
                 sb.append(cixd.m151107a(b));
                 throw new civk(sb.toString());
             } else if (cixd.m151107a(b) <= 3) {
-                ciwe ciwe = (ciwe) bxvk.m124014a(ciwe.f191569f, bArr2);
+                ciwe ciwe = (ciwe) GeneratedMessageLite.m124014a(ciwe.f191569f, bArr2);
                 int i = ciwe.f191571a;
                 if ((i & 8) == 0 || (i & 2) == 0 || (1 & i) == 0) {
                     throw new civi("Incomplete message.");
                 }
                 this.f191558d = bArr;
-                this.f191559e = civq.m151054b(ciwe.f191572b.mo73780k());
+                this.f191559e = civq.m151054b(ciwe.f191572b.getKey());
                 this.f191555a = cixd.m151107a(b);
                 this.f191556b = ciwe.f191573c;
-                this.f191557c = ciwe.f191575e.mo73780k();
+                this.f191557c = ciwe.f191575e.getKey();
             } else {
                 StringBuilder sb2 = new StringBuilder(28);
                 sb2.append("Unknown version: ");

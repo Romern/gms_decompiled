@@ -22,7 +22,7 @@ import org.json.JSONObject;
 public final class hnw {
 
     /* renamed from: a */
-    private static final sek f20093a = ght.m13172b("CredentialsApiHelper");
+    private static final Logger f20093a = ght.m13172b("CredentialsApiHelper");
 
     /* renamed from: b */
     private final Context f20094b;

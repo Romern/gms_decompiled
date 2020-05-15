@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayfe */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayfe extends bxvk implements bxxd {
+public final class ayfe extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final ayfe f97466e;
@@ -25,7 +25,7 @@ public final class ayfe extends bxvk implements bxxd {
     static {
         ayfe ayfe = new ayfe();
         f97466e = ayfe;
-        bxvk.m124024a(ayfe.class, ayfe);
+        GeneratedMessageLite.m124024a(ayfe.class, ayfe);
     }
 
     private ayfe() {
@@ -42,7 +42,7 @@ public final class ayfe extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f97466e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဂ\u0000\u0002\u001b\u0003င\u0001", new Object[]{"a", "b", "c", ayfd.class, "d"});
+            return GeneratedMessageLite.m124022a(f97466e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဂ\u0000\u0002\u001b\u0003င\u0001", new Object[]{"a", "b", "c", ayfd.class, "d"});
         } else if (i2 == 3) {
             return new ayfe();
         } else {

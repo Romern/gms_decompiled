@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caaz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caaz extends bxvk implements bxxd {
+public final class caaz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final caaz f172401b;
@@ -19,7 +19,7 @@ public final class caaz extends bxvk implements bxxd {
     static {
         caaz caaz = new caaz();
         f172401b = caaz;
-        bxvk.m124024a(caaz.class, caaz);
+        GeneratedMessageLite.m124024a(caaz.class, caaz);
     }
 
     private caaz() {
@@ -40,7 +40,7 @@ public final class caaz extends bxvk implements bxxd {
             this.f172404c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f172401b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", cabc.class});
+            return GeneratedMessageLite.m124022a(f172401b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", cabc.class});
         } else if (i2 == 3) {
             return new caaz();
         } else {

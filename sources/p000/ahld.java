@@ -135,7 +135,7 @@ final /* synthetic */ class ahld implements Runnable {
                     butn2.getClass();
                     buty2.f154907d = butn2;
                     buty2.f154904a = i4 | 4;
-                    ahna.mo36799a(ahoy.m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da2.mo74062i()).mo73642k());
+                    ahna.mo36799a(ahoy.m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da2.mo74062i()).serializeToBytes());
                     srn srn = ahkm.f67363a;
                     ahna.mo36800b();
                     ahna.mo36797a(ahkv.f67390f, str2);

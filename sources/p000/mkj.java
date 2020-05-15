@@ -246,11 +246,11 @@ final class mkj {
             return;
         }
         if (!(inputStream instanceof ByteArrayInputStream) || ((ByteArrayInputStream) inputStream).available() >= 1048576 || this.f33896h.size() >= 5) {
-            f33889a.mo25409a("Scheduling asynchronous reading of stream", new Object[0]);
+            f33889a.logVerbose("Scheduling asynchronous reading of stream", new Object[0]);
             this.f33893e.execute(new mkd(this, mkh));
             return;
         }
-        f33889a.mo25409a("Reading stream synchronously", new Object[0]);
+        f33889a.logVerbose("Reading stream synchronously", new Object[0]);
         try {
             mo20127b(mkh);
         } catch (InterruptedException e) {

@@ -25,7 +25,7 @@ public final class itw extends aaab {
     private final ClientPublicKey f21733d;
 
     /* renamed from: e */
-    private final sek f21734e = new sek(new String[]{"PerformProximityKeyAgreementOperation"}, (byte[]) null);
+    private final Logger f21734e = new Logger(new String[]{"PerformProximityKeyAgreementOperation"}, (byte[]) null);
 
     public itw(irb irb, String str, Account account, ClientPublicKey clientPublicKey) {
         super(129, "PerformProximityKeyAgreementOperation");

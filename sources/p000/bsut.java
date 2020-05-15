@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsut */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsut extends bxvk implements bxxd {
+public final class bsut extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bsut f147187e;
@@ -25,7 +25,7 @@ public final class bsut extends bxvk implements bxxd {
     static {
         bsut bsut = new bsut();
         f147187e = bsut;
-        bxvk.m124024a(bsut.class, bsut);
+        GeneratedMessageLite.m124024a(bsut.class, bsut);
     }
 
     private bsut() {
@@ -42,7 +42,7 @@ public final class bsut extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147187e, "\u0001\u0012\u0001\u0001\u0001\u0013\u0012\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000\u0005ြ\u0000\u0006ြ\u0000\u0007ြ\u0000\bြ\u0000\tြ\u0000\nြ\u0000\u000bဉ\u0011\fြ\u0000\rြ\u0000\u000eြ\u0000\u000fြ\u0000\u0010ြ\u0000\u0011ြ\u0000\u0013ြ\u0000", new Object[]{"c", "b", "a", bsvu.class, bswi.class, bsvv.class, bsya.class, bswo.class, bsvi.class, bsym.class, bsuk.class, bsuj.class, bsxb.class, "d", bsxd.class, bsxy.class, bsvt.class, bsvp.class, bswm.class, bsvs.class, bsvr.class});
+            return GeneratedMessageLite.m124022a(f147187e, "\u0001\u0012\u0001\u0001\u0001\u0013\u0012\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000\u0005ြ\u0000\u0006ြ\u0000\u0007ြ\u0000\bြ\u0000\tြ\u0000\nြ\u0000\u000bဉ\u0011\fြ\u0000\rြ\u0000\u000eြ\u0000\u000fြ\u0000\u0010ြ\u0000\u0011ြ\u0000\u0013ြ\u0000", new Object[]{"c", "b", "a", bsvu.class, bswi.class, bsvv.class, bsya.class, bswo.class, bsvi.class, bsym.class, bsuk.class, bsuj.class, bsxb.class, "d", bsxd.class, bsxy.class, bsvt.class, bsvp.class, bswm.class, bsvs.class, bsvr.class});
         } else if (i2 == 3) {
             return new bsut();
         } else {

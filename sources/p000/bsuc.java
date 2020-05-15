@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsuc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsuc extends bxvk implements bxxd {
+public final class bsuc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bsuc f147104a;
@@ -13,7 +13,7 @@ public final class bsuc extends bxvk implements bxxd {
     static {
         bsuc bsuc = new bsuc();
         f147104a = bsuc;
-        bxvk.m124024a(bsuc.class, bsuc);
+        GeneratedMessageLite.m124024a(bsuc.class, bsuc);
     }
 
     private bsuc() {
@@ -30,7 +30,7 @@ public final class bsuc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147104a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f147104a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bsuc();

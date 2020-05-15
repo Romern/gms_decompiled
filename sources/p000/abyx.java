@@ -139,12 +139,12 @@ public final class abyx {
                                 absr3 = absr.f58134s;
                             }
                             bxvd bxvd = (bxvd) absr3.mo74142c(5);
-                            bxvd.mo73625a((bxvk) absr3);
+                            bxvd.mo73625a((GeneratedMessageLite) absr3);
                             if (bxvd.f164950c) {
                                 bxvd.mo74035c();
                                 bxvd.f164950c = false;
                             }
-                            ((absr) bxvd.f164949b).f58146k = bxvk.m124030de();
+                            ((absr) bxvd.f164949b).f58146k = GeneratedMessageLite.m124030de();
                             try {
                                 b.mo32529a(acak, c.mo32554a((absr) bxvd.mo74062i()));
                             } catch (acaq e2) {
@@ -373,7 +373,7 @@ public final class abyx {
     public final abyy mo32499a(String str) {
         int callingUid = Binder.getCallingUid();
         Context context = this.f58772a.f58768b;
-        sdo.m34966a((Object) str, (Object) "Package name");
+        sdo.checkIfNull((Object) str, (Object) "Package name");
         spn.m35872c(context, str);
         return mo32496a(callingUid, str, -1);
     }

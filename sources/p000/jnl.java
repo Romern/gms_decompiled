@@ -13,7 +13,7 @@ import java.util.List;
 public final class jnl implements jih {
 
     /* renamed from: d */
-    private static final sek f22883d = jsy.m17256a("ResponderAuthenticator");
+    private static final Logger f22883d = jsy.m17256a("ResponderAuthenticator");
 
     /* renamed from: a */
     public final byqx f22884a;

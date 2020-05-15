@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brat */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brat extends bxvk implements bxxd {
+public final class brat extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bxvu f142181c = new bras();
@@ -20,7 +20,7 @@ public final class brat extends bxvk implements bxxd {
     public bxvt f142185b = bxvm.f164965b;
 
     /* renamed from: d */
-    public bxtx f142186d = bxtx.f164797b;
+    public ByteString f142186d = ByteString.f164797b;
 
     /* renamed from: f */
     private int f142187f;
@@ -28,7 +28,7 @@ public final class brat extends bxvk implements bxxd {
     static {
         brat brat = new brat();
         f142182e = brat;
-        bxvk.m124024a(brat.class, brat);
+        GeneratedMessageLite.m124024a(brat.class, brat);
     }
 
     private brat() {
@@ -45,7 +45,7 @@ public final class brat extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142182e, "\u0001\u0003\u0000\u0001\u0002\u0004\u0003\u0000\u0001\u0000\u0002ဇ\u0001\u0003\u001e\u0004ည\u0002", new Object[]{"f", "a", "b", brej.m113931b(), "d"});
+            return GeneratedMessageLite.m124022a(f142182e, "\u0001\u0003\u0000\u0001\u0002\u0004\u0003\u0000\u0001\u0000\u0002ဇ\u0001\u0003\u001e\u0004ည\u0002", new Object[]{"f", "a", "b", brej.m113931b(), "d"});
         } else if (i2 == 3) {
             return new brat();
         } else {

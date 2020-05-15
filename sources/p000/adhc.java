@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adhc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adhc extends bxvk implements bxxd {
+public final class adhc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final adhc f61655h;
@@ -34,7 +34,7 @@ public final class adhc extends bxvk implements bxxd {
     static {
         adhc adhc = new adhc();
         f61655h = adhc;
-        bxvk.m124024a(adhc.class, adhc);
+        GeneratedMessageLite.m124024a(adhc.class, adhc);
     }
 
     private adhc() {
@@ -51,7 +51,7 @@ public final class adhc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61655h, "\u0000\u0007\u0000\u0000\u0001\u0007\u0007\u0000\u0001\u0000\u0001\u0004\u0002\u0004\u0003Ȉ\u0004\u0004\u0005\u0004\u0006\u001b\u0007Ȉ", new Object[]{"a", "b", "c", "d", "e", "f", adhf.class, "g"});
+            return GeneratedMessageLite.m124022a(f61655h, "\u0000\u0007\u0000\u0000\u0001\u0007\u0007\u0000\u0001\u0000\u0001\u0004\u0002\u0004\u0003Ȉ\u0004\u0004\u0005\u0004\u0006\u001b\u0007Ȉ", new Object[]{"a", "b", "c", "d", "e", "f", adhf.class, "g"});
         } else if (i2 == 3) {
             return new adhc();
         } else {

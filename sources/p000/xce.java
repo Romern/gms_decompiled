@@ -14,7 +14,7 @@ public final class xce {
     public static final adcb f51913a = adca.m50151b(xcd.f51912a);
 
     /* renamed from: b */
-    private static final sek f51914b = new sek("CredentialStore", new String[0]);
+    private static final Logger f51914b = new Logger("CredentialStore", new String[0]);
 
     /* renamed from: c */
     private final Context f51915c;
@@ -82,14 +82,14 @@ public final class xce {
     /* renamed from: a */
     public final bqgg mo29628a(String str, xmq xmq) {
         sdo.m34969a(str, (Object) "rpId cannot be empty");
-        sek sek = f51914b;
+        Logger Logger = f51914b;
         int i = xmq.f52779d;
         StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 47);
         sb.append("generateKey with rpId ");
         sb.append(str);
         sb.append(" with keyType ");
         sb.append(i);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         xmo xmo = this.f51916d;
         int i2 = xmq.f52779d;
         roz b = rpa.m34196b();
@@ -111,21 +111,21 @@ public final class xce {
     public final bqgg mo29629a(String str, byte[] bArr) {
         boolean z;
         sdo.m34969a(str, (Object) "rpId cannot be empty");
-        sdo.m34966a(bArr, "keyHandle cannot be null");
+        sdo.checkIfNull(bArr, "keyHandle cannot be null");
         if (bArr.length > 0) {
             z = true;
         } else {
             z = false;
         }
         sdo.m34975b(z, "keyHandle cannot be empty");
-        sek sek = f51914b;
+        Logger Logger = f51914b;
         String arrays = Arrays.toString(bArr);
         StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 33 + String.valueOf(arrays).length());
         sb.append("getKey with rpId ");
         sb.append(str);
         sb.append(" with keyHandle ");
         sb.append(arrays);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         xmo xmo = this.f51916d;
         roz b = rpa.m34196b();
         b.f43472a = new xne(str, bArr);

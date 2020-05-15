@@ -18,7 +18,7 @@ public final class byza extends bxvd implements bxxd {
         byzb byzb = (byzb) this.f164949b;
         bxvu bxvu = byzb.f169044g;
         if (!byzb.f169052f.mo73666a()) {
-            byzb.f169052f = bxvk.m124019a(byzb.f169052f);
+            byzb.f169052f = GeneratedMessageLite.m124019a(byzb.f169052f);
         }
         int size = r6.size();
         for (int i = 0; i < size; i++) {

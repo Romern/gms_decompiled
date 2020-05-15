@@ -11,7 +11,7 @@ import java.net.URL;
 public interface brpo {
 
     /* renamed from: a */
-    public static final sek f143138a = new sek("FirebaseAuth", "GetAuthDomainTaskResponseHandler");
+    public static final Logger f143138a = new Logger("FirebaseAuth", "GetAuthDomainTaskResponseHandler");
 
     /* renamed from: a */
     Uri.Builder mo69768a(Intent intent, String str, String str2);

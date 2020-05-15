@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bopa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bopa extends bxvk implements bxxd {
+public final class bopa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bopa f134085e;
@@ -25,7 +25,7 @@ public final class bopa extends bxvk implements bxxd {
     static {
         bopa bopa = new bopa();
         f134085e = bopa;
-        bxvk.m124024a(bopa.class, bopa);
+        GeneratedMessageLite.m124024a(bopa.class, bopa);
     }
 
     private bopa() {
@@ -42,7 +42,7 @@ public final class bopa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134085e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004\f", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f134085e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004\f", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bopa();
         } else {

@@ -24,19 +24,19 @@ public final class avdy extends avdz {
         avdx avdx = this.f93003a;
         bxrt bxrt = this.f93004b;
         bxvd bxvd = (bxvd) bxrt.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxrt);
+        bxvd.mo73625a((GeneratedMessageLite) bxrt);
         bxss bxss = this.f93004b.f164607g;
         if (bxss == null) {
             bxss = bxss.f164728i;
         }
         bxvd bxvd2 = (bxvd) bxss.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bxss);
+        bxvd2.mo73625a((GeneratedMessageLite) bxss);
         bxsp bxsp = bxss.f164736g;
         if (bxsp == null) {
             bxsp = bxsp.f164717c;
         }
         bxvd bxvd3 = (bxvd) bxsp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bxsp);
+        bxvd3.mo73625a((GeneratedMessageLite) bxsp);
         if (bxvd3.f164950c) {
             bxvd3.mo74035c();
             bxvd3.f164950c = false;
@@ -64,7 +64,7 @@ public final class avdy extends avdz {
         bxss3.getClass();
         bxrt2.f164607g = bxss3;
         bxrt2.f164601a |= 16;
-        avdo.mo51173c(avdx, ((bxrt) bxvd.mo74062i()).mo73642k());
+        avdo.mo51173c(avdx, ((bxrt) bxvd.mo74062i()).serializeToBytes());
     }
 
     /* access modifiers changed from: protected */

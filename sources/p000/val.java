@@ -64,7 +64,7 @@ public final class val {
         Date date;
         Date date2;
         Set a = query.mo18285a();
-        sdo.m34966a(a, "Query can't have null spaces (have you validated them?)");
+        sdo.checkIfNull(a, "Query can't have null spaces (have you validated them?)");
         boolean z = true;
         sdo.m34975b(!a.isEmpty(), "Query can't have empty spaces (have you validated them?)");
         boolean contains = a.contains(DriveSpace.f30734a);
@@ -131,7 +131,7 @@ public final class val {
 
     /* renamed from: a */
     public final uzt mo28168a(Query query, Date date) {
-        sdo.m34966a(query.mo18285a(), "Query can't have null spaces (have you validated them?)");
+        sdo.checkIfNull(query.mo18285a(), "Query can't have null spaces (have you validated them?)");
         sdo.m34975b(!query.mo18285a().isEmpty(), "Query can't have empty spaces (have you validated them?)");
         uzs a = new vfr(this.f48852e.f47395b).mo28403a(query);
         String str = null;

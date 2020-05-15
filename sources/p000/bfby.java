@@ -48,9 +48,9 @@ public final class bfby implements bfbu {
 
     /* renamed from: b */
     public final byte[] mo61372b(byte[] bArr) {
-        bfbr bfbr = (bfbr) bxvk.m124016a(bfbr.f113335d, bArr, bxus.m123743b());
+        bfbr bfbr = (bfbr) GeneratedMessageLite.m124016a(bfbr.f113335d, bArr, bxus.m123743b());
         if (!cesw.f183411a.mo6606a().blueskyTileCacheFixB149114011() || (!bfbr.f113337a.mo73779j() && !bfbr.f113338b.mo73779j() && !bfbr.f113339c.mo73779j())) {
-            return m96324a(2, bfbr.f113337a.mo73780k(), this.f113356a, bfbr.f113339c.mo73780k(), bfbr.f113338b.mo73780k());
+            return m96324a(2, bfbr.f113337a.getKey(), this.f113356a, bfbr.f113339c.getKey(), bfbr.f113338b.getKey());
         }
         throw new IOException("Invalid cached tile");
     }
@@ -62,27 +62,27 @@ public final class bfby implements bfbu {
         new SecureRandom().nextBytes(bArr3);
         new SecureRandom().nextBytes(bArr2);
         bxvd da = bfbr.f113335d.mo74144da();
-        bxtx a = bxtx.m123261a(m96324a(1, bArr, this.f113356a, bArr2, bArr3));
+        ByteString a = ByteString.m123261a(m96324a(1, bArr, this.f113356a, bArr2, bArr3));
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
         }
         a.getClass();
         ((bfbr) da.f164949b).f113337a = a;
-        bxtx a2 = bxtx.m123261a(bArr3);
+        ByteString a2 = ByteString.m123261a(bArr3);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
         }
         a2.getClass();
         ((bfbr) da.f164949b).f113338b = a2;
-        bxtx a3 = bxtx.m123261a(bArr2);
+        ByteString a3 = ByteString.m123261a(bArr2);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
         }
         a3.getClass();
         ((bfbr) da.f164949b).f113339c = a3;
-        return ((bfbr) da.mo74062i()).mo73642k();
+        return ((bfbr) da.mo74062i()).serializeToBytes();
     }
 }

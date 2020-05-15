@@ -8,7 +8,7 @@ import java.nio.ByteBuffer;
 public final class xbd {
 
     /* renamed from: b */
-    private static final sek f51859b = new sek(new String[]{"FacetIdCalculator"}, (short[]) null);
+    private static final Logger f51859b = new Logger(new String[]{"FacetIdCalculator"}, (short[]) null);
 
     /* renamed from: a */
     private final Context f51860a;

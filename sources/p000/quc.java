@@ -16,7 +16,7 @@ public final class quc extends qty {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ bmxv mo24278a(Object obj) {
         bmxv bmxv = (bmxv) obj;
-        return bmxv.mo66813a() ? bmxv.m108566b(((bxxc) bmxv.mo66814b()).mo73642k()) : bmvz.f131120a;
+        return bmxv.mo66813a() ? bmxv.m108566b(((bxxc) bmxv.mo66814b()).serializeToBytes()) : bmvz.f131120a;
     }
 
     /* renamed from: a */

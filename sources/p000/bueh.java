@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bueh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bueh extends bxvk implements bxxd {
+public final class bueh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bueh f153584c;
@@ -14,12 +14,12 @@ public final class bueh extends bxvk implements bxxd {
     public int f153586a;
 
     /* renamed from: b */
-    public bxtx f153587b = bxtx.f164797b;
+    public ByteString f153587b = ByteString.f164797b;
 
     static {
         bueh bueh = new bueh();
         f153584c = bueh;
-        bxvk.m124024a(bueh.class, bueh);
+        GeneratedMessageLite.m124024a(bueh.class, bueh);
     }
 
     private bueh() {
@@ -36,7 +36,7 @@ public final class bueh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153584c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f153584c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bueh();
         } else {

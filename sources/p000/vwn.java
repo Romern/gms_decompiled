@@ -494,7 +494,7 @@ public final class vwn {
             }
             str3 = vwt.m41502a(arrayList3);
             try {
-                str6 = String.valueOf(spn.m35843a(new vwk(this.f50145b).f50136a));
+                str6 = String.valueOf(spn.getAndroidId(new vwk(this.f50145b).f50136a));
             } catch (Exception e9) {
                 str6 = "-";
             }

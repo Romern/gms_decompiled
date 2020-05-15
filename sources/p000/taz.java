@@ -20,13 +20,13 @@ public final class taz extends tdq {
     public taz(ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity) {
         super(constellationSettingsChimeraActivity.f30547d);
         this.f45592b = constellationSettingsChimeraActivity;
-        sek sek = ConstellationSettingsChimeraActivity.f30536b;
+        Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
     }
 
     /* renamed from: a */
     public final void mo26345a() {
         ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45592b;
-        sek sek = ConstellationSettingsChimeraActivity.f30536b;
+        Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
         constellationSettingsChimeraActivity.f30549f = constellationSettingsChimeraActivity.f30559s.mo26292c();
         ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity2 = this.f45592b;
         constellationSettingsChimeraActivity2.f30550j = constellationSettingsChimeraActivity2.f30559s.mo26300k();
@@ -59,7 +59,7 @@ public final class taz extends tdq {
         int i;
         if (this.f45591a.booleanValue()) {
             ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45592b;
-            sek sek = ConstellationSettingsChimeraActivity.f30536b;
+            Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
             ProgressDialog progressDialog = constellationSettingsChimeraActivity.f30546c;
             if (progressDialog != null && progressDialog.isShowing()) {
                 constellationSettingsChimeraActivity.f30546c.dismiss();
@@ -181,7 +181,7 @@ public final class taz extends tdq {
             return;
         }
         ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity2 = this.f45592b;
-        sek sek2 = ConstellationSettingsChimeraActivity.f30536b;
+        Logger logger2 = ConstellationSettingsChimeraActivity.f30536b;
         constellationSettingsChimeraActivity2.mo17979e();
     }
 }

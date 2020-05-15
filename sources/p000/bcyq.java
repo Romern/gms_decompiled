@@ -13,7 +13,7 @@ final class bcyq extends bczh {
     private final String f105136b;
 
     /* renamed from: c */
-    private final bxtx f105137c;
+    private final ByteString f105137c;
 
     /* renamed from: d */
     private final int f105138d;
@@ -24,7 +24,7 @@ final class bcyq extends bczh {
     /* renamed from: f */
     private final String f105140f;
 
-    public bcyq(bcwp bcwp, String str, bxtx bxtx, int i, int i2, String str2) {
+    public bcyq(bcwp bcwp, String str, ByteString bxtx, int i, int i2, String str2) {
         this.f105135a = bcwp;
         this.f105136b = str;
         this.f105137c = bxtx;
@@ -44,7 +44,7 @@ final class bcyq extends bczh {
     }
 
     /* renamed from: c */
-    public final bxtx mo57717c() {
+    public final ByteString mo57717c() {
         return this.f105137c;
     }
 

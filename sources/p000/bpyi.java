@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpyi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpyi extends bxvk implements bxxd {
+public final class bpyi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final bpyi f139852o;
@@ -55,7 +55,7 @@ public final class bpyi extends bxvk implements bxxd {
     static {
         bpyi bpyi = new bpyi();
         f139852o = bpyi;
-        bxvk.m124024a(bpyi.class, bpyi);
+        GeneratedMessageLite.m124024a(bpyi.class, bpyi);
     }
 
     private bpyi() {
@@ -72,7 +72,7 @@ public final class bpyi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139852o, "\u0001\r\u0000\u0001\u0001\r\r\u0000\u0001\u0000\u0001ဈ\u000e\u0002ဌ\u0001\u0003ဈ\u0002\u0004င\u0003\u0005ဇ\u0004\u0006ဇ\u0005\u0007ဉ\u0000\bဉ\u0006\tဉ\u0007\nဂ\b\u000b\u001e\fဇ\f\rဇ\r", new Object[]{"a", "n", "c", bqaq.m112481b(), "d", "e", "f", "g", "b", "h", "i", "j", "k", bqao.m112477b(), "l", "m"});
+            return GeneratedMessageLite.m124022a(f139852o, "\u0001\r\u0000\u0001\u0001\r\r\u0000\u0001\u0000\u0001ဈ\u000e\u0002ဌ\u0001\u0003ဈ\u0002\u0004င\u0003\u0005ဇ\u0004\u0006ဇ\u0005\u0007ဉ\u0000\bဉ\u0006\tဉ\u0007\nဂ\b\u000b\u001e\fဇ\f\rဇ\r", new Object[]{"a", "n", "c", bqaq.m112481b(), "d", "e", "f", "g", "b", "h", "i", "j", "k", bqao.m112477b(), "l", "m"});
         } else if (i2 == 3) {
             return new bpyi();
         } else {

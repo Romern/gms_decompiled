@@ -16,7 +16,7 @@ import com.google.android.chimera.Activity;
 public final class hbz extends adcf implements hca {
 
     /* renamed from: a */
-    public static final sek f19451a = ght.m13172b("AuthorizationConsentFragment");
+    public static final Logger f19451a = ght.m13172b("AuthorizationConsentFragment");
 
     /* renamed from: f */
     private static final int f19452f = C0126R.style.CredentialsDialogTheme;

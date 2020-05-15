@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsis */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsis extends bxvk implements bxxd {
+public final class bsis extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bsis f144750b;
@@ -16,7 +16,7 @@ public final class bsis extends bxvk implements bxxd {
     static {
         bsis bsis = new bsis();
         f144750b = bsis;
-        bxvk.m124024a(bsis.class, bsis);
+        GeneratedMessageLite.m124024a(bsis.class, bsis);
     }
 
     private bsis() {
@@ -33,7 +33,7 @@ public final class bsis extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f144750b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f144750b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bsis();
         } else {

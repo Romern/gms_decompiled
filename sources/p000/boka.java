@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boka */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boka extends bxvk implements bxxd {
+public final class boka extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final boka f133379e;
@@ -25,7 +25,7 @@ public final class boka extends bxvk implements bxxd {
     static {
         boka boka = new boka();
         f133379e = boka;
-        bxvk.m124024a(boka.class, boka);
+        GeneratedMessageLite.m124024a(boka.class, boka);
     }
 
     private boka() {
@@ -42,7 +42,7 @@ public final class boka extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133379e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002င\u0001\u0003ဉ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f133379e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002င\u0001\u0003ဉ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new boka();
         } else {

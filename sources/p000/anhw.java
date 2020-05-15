@@ -52,7 +52,7 @@ public final class anhw {
             braf.mo69472a(Arrays.asList(strArr));
         }
         if (bArr != null && bArr.length > 0) {
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (braf.f164950c) {
                 braf.mo74035c();
                 braf.f164950c = false;

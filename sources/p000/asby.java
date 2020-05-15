@@ -8,7 +8,7 @@ import java.lang.Thread;
 public final class asby implements Thread.UncaughtExceptionHandler {
 
     /* renamed from: c */
-    private static final sek f88683c = ascp.m73787a("Utils", "CascadingUncaughtExceptionHandler");
+    private static final Logger f88683c = ascp.m73787a("Utils", "CascadingUncaughtExceptionHandler");
 
     /* renamed from: a */
     public final Thread.UncaughtExceptionHandler f88684a;
@@ -22,12 +22,12 @@ public final class asby implements Thread.UncaughtExceptionHandler {
     }
 
     public final void uncaughtException(Thread thread, Throwable th) {
-        sek sek = f88683c;
+        Logger Logger = f88683c;
         String valueOf = String.valueOf(th);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 20);
         sb.append("Uncaught exception: ");
         sb.append(valueOf);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         try {
             Looper mainLooper = Looper.getMainLooper();
             if (mainLooper.getThread() != thread) {

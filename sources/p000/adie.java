@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adie */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adie extends bxvk implements bxxd {
+public final class adie extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final adie f61780d;
@@ -22,7 +22,7 @@ public final class adie extends bxvk implements bxxd {
     static {
         adie adie = new adie();
         f61780d = adie;
-        bxvk.m124024a(adie.class, adie);
+        GeneratedMessageLite.m124024a(adie.class, adie);
     }
 
     private adie() {
@@ -39,7 +39,7 @@ public final class adie extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61780d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0003\u0000\u0001Ț\u0002Ț\u0003Ț", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f61780d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0003\u0000\u0001Ț\u0002Ț\u0003Ț", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new adie();
         } else {
@@ -66,21 +66,21 @@ public final class adie extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo33524b() {
         if (!this.f61783b.mo73666a()) {
-            this.f61783b = bxvk.m124021a(this.f61783b);
+            this.f61783b = GeneratedMessageLite.m124021a(this.f61783b);
         }
     }
 
     /* renamed from: c */
     public final void mo33525c() {
         if (!this.f61784c.mo73666a()) {
-            this.f61784c = bxvk.m124021a(this.f61784c);
+            this.f61784c = GeneratedMessageLite.m124021a(this.f61784c);
         }
     }
 
     /* renamed from: a */
     public final void mo33523a() {
         if (!this.f61782a.mo73666a()) {
-            this.f61782a = bxvk.m124021a(this.f61782a);
+            this.f61782a = GeneratedMessageLite.m124021a(this.f61782a);
         }
     }
 }

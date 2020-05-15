@@ -13,7 +13,7 @@ final /* synthetic */ class aywg implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        bxtx aL;
+        ByteString aL;
         qwo qwo = (qwo) obj;
         aywb aywb = (aywb) this.f98618a;
         boki boki = aywb.f98598c;

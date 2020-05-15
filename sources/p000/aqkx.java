@@ -22,7 +22,7 @@ final class aqkx extends WebViewClient {
     public final void onPageFinished(WebView webView, String str) {
         if (!((Boolean) aqnw.f86406g.mo58455c()).booleanValue()) {
             aqky aqky = this.f86317a;
-            sek sek = aqky.f86318a;
+            Logger Logger = aqky.f86318a;
             aqky.mo47956a();
         }
     }

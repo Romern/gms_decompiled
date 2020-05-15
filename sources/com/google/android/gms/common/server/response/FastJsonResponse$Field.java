@@ -232,7 +232,7 @@ public class FastJsonResponse$Field extends AbstractSafeParcelable {
         if (cls != SafeParcelResponse.class) {
             return (sio) cls.newInstance();
         }
-        sdo.m34966a(this.f30322j, "The field mapping dictionary must be set if the concrete type is a SafeParcelResponse object.");
+        sdo.checkIfNull(this.f30322j, "The field mapping dictionary must be set if the concrete type is a SafeParcelResponse object.");
         return new SafeParcelResponse(this.f30322j, this.f30321i);
     }
 

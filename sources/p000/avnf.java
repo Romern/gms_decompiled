@@ -9,7 +9,7 @@ import com.google.android.gms.update.SystemUpdateStatus;
 public abstract class avnf {
 
     /* renamed from: b */
-    public static final sek f93496b = avpq.m79017d("NotificationControl");
+    public static final Logger f93496b = avpq.m79017d("NotificationControl");
 
     /* renamed from: c */
     public static final avtl f93497c = new avtl("control.notification.notified_at");

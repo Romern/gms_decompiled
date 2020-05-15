@@ -45,7 +45,7 @@ final class adep implements adex {
         }
         a2.getClass();
         ((btic) da.f164949b).f148953b = a2;
-        bxtx a3 = bxtx.m123261a(this.f61503a);
+        ByteString a3 = ByteString.m123261a(this.f61503a);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -83,7 +83,7 @@ final class adep implements adex {
         }
         btic btic4 = (btic) da.f164949b;
         if (!btic4.f148960i.mo73666a()) {
-            btic4.f148960i = bxvk.m124019a(btic4.f148960i);
+            btic4.f148960i = GeneratedMessageLite.m124019a(btic4.f148960i);
         }
         bxsy.m123078a(collection, btic4.f148960i);
         btic btic5 = (btic) da.mo74062i();

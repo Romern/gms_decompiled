@@ -29,7 +29,7 @@ final class syl extends tdl {
     /* renamed from: a */
     public final void mo11624a(tdw tdw) {
         sym sym = this.f45438a;
-        sek sek = sym.f45439a;
+        Logger Logger = sym.f45439a;
         sym.f45443e.mo26404a(sym.f45444f, 17, tdw);
         Status status = Status.f30109c;
         if (tdw instanceof tdt) {
@@ -63,7 +63,7 @@ final class syl extends tdl {
         boolean z2 = z;
         Map map2 = map;
         sym sym = this.f45438a;
-        sek sek = sym.f45439a;
+        Logger Logger = sym.f45439a;
         int i3 = 0;
         if (sym.f45442d == 1) {
             sym.f45443e.mo26405a(sym.f45444f, 17, z2);
@@ -108,10 +108,10 @@ final class syl extends tdl {
                         try {
                             cbob = cbob.m128037a(bundle.getString("verification_method"));
                         } catch (IllegalArgumentException e3) {
-                            sek sek2 = sym.f45439a;
+                            Logger logger2 = sym.f45439a;
                             Object[] objArr = new Object[1];
                             objArr[i3] = bundle.getString("verification_method", "null");
-                            sek2.mo25416d("Invalid verification method: ", objArr);
+                            logger2.mo25416d("Invalid verification method: ", objArr);
                         } catch (NullPointerException e4) {
                             sym.f45439a.mo25416d("Verification method missing", new Object[i3]);
                         }

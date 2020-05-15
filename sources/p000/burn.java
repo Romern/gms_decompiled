@@ -29,7 +29,7 @@ public final /* synthetic */ class burn implements bmxj {
                             } else {
                                 ahza = ahza.f68441e;
                             }
-                            byte[] k = ahza.f68446d.mo73780k();
+                            byte[] k = ahza.f68446d.getKey();
                             if (k.length >= 4) {
                                 int i = 0;
                                 while (true) {

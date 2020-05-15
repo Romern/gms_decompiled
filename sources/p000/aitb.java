@@ -275,7 +275,7 @@ public final class aitb implements aith {
             uuid.getClass();
             cbkj.f177409c = uuid;
             cbkj.f177410d = cbki.m127937a(6);
-            bxtx a2 = bxtx.m123261a(bArr);
+            ByteString a2 = ByteString.m123261a(bArr);
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;

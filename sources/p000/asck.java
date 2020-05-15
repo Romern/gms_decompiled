@@ -9,7 +9,7 @@ import java.io.DataOutputStream;
 public final class asck {
 
     /* renamed from: a */
-    public static final sek f88701a = ascp.m73787a("D2D", "PipeWriteManager");
+    public static final Logger f88701a = ascp.m73787a("D2D", "PipeWriteManager");
 
     /* renamed from: b */
     private final DataOutput f88702b;

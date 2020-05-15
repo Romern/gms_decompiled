@@ -254,7 +254,7 @@ public final class ModelConfig {
         }
         bllz bllz = (bllz) da.f164949b;
         if (!bllz.f126831a.mo73666a()) {
-            bllz.f126831a = bxvk.m124021a(bllz.f126831a);
+            bllz.f126831a = GeneratedMessageLite.m124021a(bllz.f126831a);
         }
         bxsy.m123078a(arrayDeque, bllz.f126831a);
         byte[] k = ((bllz) da.mo74062i()).mo73642k();

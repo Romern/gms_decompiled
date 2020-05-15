@@ -594,7 +594,7 @@ public class TransactionReplyIntentOperation extends IntentOperation {
                     bArr4 = byteArrayExtra2;
                 } else {
                     try {
-                        bxvd a9 = byoz.f167283d.mo74141a((byoz) bxvk.m124014a(byoz.f167283d, byteArrayExtra2));
+                        bxvd a9 = byoz.f167283d.mo74141a((byoz) GeneratedMessageLite.m124014a(byoz.f167283d, byteArrayExtra2));
                         bypd bypd = ((byoz) a9.f164949b).f167287c;
                         if (bypd == null) {
                             bypd = bypd.f167317i;

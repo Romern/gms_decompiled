@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: breg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class breg extends bxvk implements bxxd {
+public final class breg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final breg f142604g;
@@ -31,7 +31,7 @@ public final class breg extends bxvk implements bxxd {
     static {
         breg breg = new breg();
         f142604g = breg;
-        bxvk.m124024a(breg.class, breg);
+        GeneratedMessageLite.m124024a(breg.class, breg);
     }
 
     private breg() {
@@ -48,7 +48,7 @@ public final class breg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142604g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004ဈ\u0003\u0005ဉ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f142604g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004ဈ\u0003\u0005ဉ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new breg();
         } else {

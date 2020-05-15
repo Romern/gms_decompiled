@@ -223,7 +223,7 @@ public final class ztu implements zre {
             b.mo31497a();
             a = b.mo31491a("DataPointSyncStateTable", new String[]{"content"});
             if (a.mo31474b()) {
-                ydh = (ydh) bxvk.m124016a(ydh.f53653d, a.mo31482g("content"), bxus.m123744c());
+                ydh = (ydh) GeneratedMessageLite.m124016a(ydh.f53653d, a.mo31482g("content"), bxus.m123744c());
             } else {
                 ydh = ydh.f53653d;
             }
@@ -467,7 +467,7 @@ public final class ztu implements zre {
             }
             ContentValues contentValues = new ContentValues();
             contentValues.put("name", caah.f172336b);
-            contentValues.put("proto", caah.mo73642k());
+            contentValues.put("proto", caah.serializeToBytes());
             return ztk.mo31490a("DataTypes", contentValues);
         } catch (Throwable th) {
             bqye.m113761a(th, th);
@@ -882,7 +882,7 @@ public final class ztu implements zre {
                 contentValues.put("source_table", str);
                 contentValues.put("timestamp", Long.valueOf(b));
                 contentValues.put("is_delete", Boolean.valueOf(z));
-                contentValues.put("content", ((bxxc) it.next()).mo73642k());
+                contentValues.put("content", ((bxxc) it.next()).serializeToBytes());
                 ztk.mo31490a("ChangeLog", contentValues);
                 b = Math.max(b + 1, this.f55906h.mo20505a());
             }
@@ -1005,7 +1005,7 @@ public final class ztu implements zre {
             if (zsu.mo31474b()) {
                 cadm cadm = (cadm) cadn.f172699j.mo74144da();
                 while (!zsu.f55836a.isAfterLast()) {
-                    cadm.f164949b = (bxvk) cadm.f164949b.mo74142c(4);
+                    cadm.f164949b = (GeneratedMessageLite) cadm.f164949b.mo74142c(4);
                     cadm.mo73635b(zsu.mo31482g("data_point"), bxus.m123744c());
                     caae a = m46325a(zsu.mo31479d("data_source_id"), nwVar);
                     if (a != null) {
@@ -1435,7 +1435,7 @@ public final class ztu implements zre {
             } else {
                 a2.f55907a.bindNull(4);
             }
-            a2.mo31512a(cadn8.mo73642k());
+            a2.mo31512a(cadn8.serializeToBytes());
             try {
                 a2.f55907a.executeInsert();
                 b.mo67668c(cadn5);
@@ -1490,9 +1490,9 @@ public final class ztu implements zre {
     }
 
     /* renamed from: a */
-    public static bxtx m46324a(cadn cadn) {
+    public static ByteString m46324a(cadn cadn) {
         bxvd bxvd = (bxvd) cadn.mo74142c(5);
-        bxvd.mo73625a((bxvk) cadn);
+        bxvd.mo73625a((GeneratedMessageLite) cadn);
         cadm cadm = (cadm) bxvd;
         if (cadm.f164950c) {
             cadm.mo74035c();
@@ -1544,7 +1544,7 @@ public final class ztu implements zre {
     /* renamed from: a */
     static caae m46326a(ztk ztk, zsu zsu, String str, String str2, String str3) {
         try {
-            return (caae) bxvk.m124016a(caae.f172323i, zsu.mo31482g(str3), bxus.m123744c());
+            return (caae) GeneratedMessageLite.m124016a(caae.f172323i, zsu.mo31482g(str3), bxus.m123744c());
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) f55901e.mo68387b();
             bnsl.mo68437a(e);
@@ -1552,7 +1552,7 @@ public final class ztu implements zre {
             bnsl.mo68405a("Invalid DataSource proto.");
             caae a = yyd.m44984a(zsu.mo31481f(str2));
             ContentValues contentValues = new ContentValues();
-            contentValues.put("proto", a.mo73642k());
+            contentValues.put("proto", a.serializeToBytes());
             ztk.mo31488a("DataSources", contentValues, "_id = ?", new String[]{zsu.mo31481f(str)});
             return a;
         }
@@ -1565,7 +1565,7 @@ public final class ztu implements zre {
             return bzzn.m126359a(f);
         }
         try {
-            return (caah) bxvk.m124016a(caah.f172333d, zsu.mo31482g(str2), bxus.m123744c());
+            return (caah) GeneratedMessageLite.m124016a(caah.f172333d, zsu.mo31482g(str2), bxus.m123744c());
         } catch (bxwf e) {
             throw new IllegalStateException(String.format("Couldn't read data type with name %s", f), e);
         }
@@ -1649,7 +1649,7 @@ public final class ztu implements zre {
                         caah = caah.f172333d;
                     }
                     contentValues.put("data_type_id", Long.valueOf(m46315a(ztk, caah)));
-                    contentValues.put("proto", caae.mo73642k());
+                    contentValues.put("proto", caae.serializeToBytes());
                     try {
                         long a = ztk.mo31490a("DataSources", contentValues);
                         b.put(caae, Long.valueOf(a));
@@ -1841,7 +1841,7 @@ public final class ztu implements zre {
                 a2.getClass();
                 cabc2.f172417e = a2;
                 cabc2.f172413a |= 8;
-                byte[] k = ((cabc) da.mo74062i()).mo73642k();
+                byte[] k = ((cabc) da.mo74062i()).serializeToBytes();
                 a.f55907a.clearBindings();
                 a.f55907a.bindString(1, str2);
                 long j = 1;
@@ -1925,7 +1925,7 @@ public final class ztu implements zre {
             try {
                 long d = a.mo31479d("_id");
                 try {
-                    cadn cadn3 = (cadn) bxvk.m124016a(cadn.f172699j, a.mo31482g("data_point"), bxus.m123744c());
+                    cadn cadn3 = (cadn) GeneratedMessageLite.m124016a(cadn.f172699j, a.mo31482g("data_point"), bxus.m123744c());
                     zsu2 = a;
                     if (cadn3.f172702b != cadn2.f172702b || cadn3.f172703c != cadn2.f172703c) {
                         a = zsu2;
@@ -2650,14 +2650,14 @@ public final class ztu implements zre {
             m46342a(b, z, (Collection) a, false);
             b.mo31498b();
             bxvd bxvd = (bxvd) cadp.mo74142c(5);
-            bxvd.mo73625a((bxvk) cadp);
+            bxvd.mo73625a((GeneratedMessageLite) cadp);
             cado cado = (cado) bxvd;
             if (cado.f164950c) {
                 cado.mo74035c();
                 cado.f164950c = false;
             }
             cadp cadp2 = cadp.f172710f;
-            ((cadp) cado.f164949b).f172714c = bxvk.m124030de();
+            ((cadp) cado.f164949b).f172714c = GeneratedMessageLite.m124030de();
             cado.mo74617a(a);
             cadp cadp3 = (cadp) cado.mo74062i();
             b.close();
@@ -2903,7 +2903,7 @@ public final class ztu implements zre {
                 cabc.f172413a = i2 | 4;
                 cabc.f172416d = "";
                 if (!cabc.f172422j.mo73666a()) {
-                    cabc.f172422j = bxvk.m124021a(cabc.f172422j);
+                    cabc.f172422j = GeneratedMessageLite.m124021a(cabc.f172422j);
                 }
                 bxsy.m123078a(set, cabc.f172422j);
                 bxvd da2 = caby.f172491d.mo74144da();
@@ -2944,7 +2944,7 @@ public final class ztu implements zre {
             b.mo31497a();
             b.mo31489a("DataPointSyncStateTable", "", null);
             ContentValues contentValues = new ContentValues();
-            contentValues.put("content", ydh.mo73642k());
+            contentValues.put("content", ydh.serializeToBytes());
             b.mo31490a("DataPointSyncStateTable", contentValues);
             b.mo31498b();
             b.close();

@@ -96,7 +96,7 @@ public final class aaxt extends aayk {
                 return null;
             }
             try {
-                return (abdv) bxvk.m124016a(abdv.f57143c, k.f56844c, bxus.m123744c());
+                return (abdv) GeneratedMessageLite.m124016a(abdv.f57143c, k.f56844c, bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("gH_UpdateChatConvoCReq", "Parsing MobileUpdateConversationResponse failed!", e);
                 return null;

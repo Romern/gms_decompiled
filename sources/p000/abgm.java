@@ -31,7 +31,7 @@ public final class abgm extends abgl {
             this.f57414e.mo32009g();
             i = 22;
         } else {
-            this.f57414e.mo32003b(a.mo73642k());
+            this.f57414e.mo32003b(a.serializeToBytes());
             i = 21;
         }
         MetricsIntentOperation.m66597a(context, this.f57415f.f78830e, this.f57413d, 126, i, false);

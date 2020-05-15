@@ -31,7 +31,7 @@ final /* synthetic */ class bdwz implements bqeh {
         for (bdxk bdxk : list) {
             if (bdxk.mo58405b() + bdxi.f106583g.f106589e >= currentTimeMillis) {
                 try {
-                    arrayDeque.add(Pair.create(bdxk, (bxbp) bxvk.m124007a(bxbp.f162718e, bdxk.mo58404a())));
+                    arrayDeque.add(Pair.create(bdxk, (bxbp) GeneratedMessageLite.m124007a(bxbp.f162718e, bdxk.mo58404a())));
                     if (arrayDeque.size() > bdxi.f106583g.f106590f) {
                         bdxi.f106582f++;
                         arrayList.add((bdxk) ((Pair) arrayDeque.removeFirst()).first);
@@ -56,7 +56,7 @@ final /* synthetic */ class bdwz implements bqeh {
             bxqh bxqh = (bxqh) da.f164949b;
             bxbp.getClass();
             if (!bxqh.f164386a.mo73666a()) {
-                bxqh.f164386a = bxvk.m124021a(bxqh.f164386a);
+                bxqh.f164386a = GeneratedMessageLite.m124021a(bxqh.f164386a);
             }
             bxqh.f164386a.add(bxbp);
             if (bdxi.f106584h.mo35048a(abry.m48160a())) {

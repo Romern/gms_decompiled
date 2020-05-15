@@ -37,7 +37,7 @@ public final class aava extends aarw {
     /* access modifiers changed from: protected */
     public final Response parseNetworkResponse(NetworkResponse networkResponse) {
         try {
-            return Response.success((bzra) bxvk.m124016a(bzra.f171097c, networkResponse.data, bxus.m123744c()), null);
+            return Response.success((bzra) GeneratedMessageLite.m124016a(bzra.f171097c, networkResponse.data, bxus.m123744c()), null);
         } catch (bxwf e) {
             Log.e("gH_RealtimeSuprtStatRq", "Parsing RealtimeSupportStatus failed!", e);
             return Response.error(new VolleyError(networkResponse));

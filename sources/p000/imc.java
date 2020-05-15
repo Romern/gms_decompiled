@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: imc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class imc extends bxvk implements bxxd {
+public final class imc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final imc f21341d;
@@ -22,7 +22,7 @@ public final class imc extends bxvk implements bxxd {
     static {
         imc imc = new imc();
         f21341d = imc;
-        bxvk.m124024a(imc.class, imc);
+        GeneratedMessageLite.m124024a(imc.class, imc);
     }
 
     private imc() {
@@ -39,7 +39,7 @@ public final class imc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f21341d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002ဉ\u0000", new Object[]{"a", "b", C1082ime.class, "c"});
+            return GeneratedMessageLite.m124022a(f21341d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002ဉ\u0000", new Object[]{"a", "b", C1082ime.class, "c"});
         } else if (i2 == 3) {
             return new imc();
         } else {
@@ -66,7 +66,7 @@ public final class imc extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo13136a() {
         if (!this.f21344b.mo73666a()) {
-            this.f21344b = bxvk.m124021a(this.f21344b);
+            this.f21344b = GeneratedMessageLite.m124021a(this.f21344b);
         }
     }
 }

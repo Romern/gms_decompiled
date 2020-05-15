@@ -102,7 +102,7 @@ public final class iwb implements ivy {
                 cimh2.getClass();
                 cimg2.f190714e = cimh2;
                 cimg2.f190710a |= 16;
-                this.f21902b.mo24335a(((cimg) da.mo74062i()).mo73642k()).mo24327b();
+                this.f21902b.mo24335a(((cimg) da.mo74062i()).serializeToBytes()).mo24327b();
             }
             iwc iwc = new iwc(this.f21901a, ivx, this.f21906f, this.f21902b);
             this.f21903c = iwc;

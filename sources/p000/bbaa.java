@@ -30,7 +30,7 @@ final /* synthetic */ class bbaa implements bqeh {
             bavs = bavs.f101923c;
         }
         bxvd bxvd = (bxvd) bavs.mo74142c(5);
-        bxvd.mo73625a((bxvk) bavs);
+        bxvd.mo73625a((GeneratedMessageLite) bavs);
         ArrayList arrayList = new ArrayList();
         if (!z) {
             if (bxvd.f164950c) {
@@ -41,7 +41,7 @@ final /* synthetic */ class bbaa implements bqeh {
             bavs2.f101925a |= 1;
             bavs2.f101926b = false;
             bxvd bxvd2 = (bxvd) bavr.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bavr);
+            bxvd2.mo73625a((GeneratedMessageLite) bavr);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
@@ -52,7 +52,7 @@ final /* synthetic */ class bbaa implements bqeh {
             bavr2.f101922e = false;
             arrayList.add(bbav.mo56044a((bavr) bxvd2.mo74062i()));
             bxvd bxvd3 = (bxvd) bavr.mo74142c(5);
-            bxvd3.mo73625a((bxvk) bavr);
+            bxvd3.mo73625a((GeneratedMessageLite) bavr);
             if (bxvd3.f164950c) {
                 bxvd3.mo74035c();
                 bxvd3.f164950c = false;

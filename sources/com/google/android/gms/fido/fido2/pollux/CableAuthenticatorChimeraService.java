@@ -195,8 +195,8 @@ public class CableAuthenticatorChimeraService extends Service {
             char c = intExtra != 0 ? intExtra != 1 ? (char) 0 : 3 : 2;
             if (!(c == 0 || c == 2)) {
                 byte[] byteArrayExtra = intent2.getByteArrayExtra("cable_session_data");
-                String str = ((bsno) bxvk.m124014a(bsno.f146308c, intent2.getByteArrayExtra("cable_client_info"))).f146311b;
-                bsnq bsnq = ((bsnp) bxvk.m124014a(bsnp.f146312b, byteArrayExtra)).f146314a;
+                String str = ((bsno) GeneratedMessageLite.m124014a(bsno.f146308c, intent2.getByteArrayExtra("cable_client_info"))).f146311b;
+                bsnq bsnq = ((bsnp) GeneratedMessageLite.m124014a(bsnp.f146312b, byteArrayExtra)).f146314a;
                 if (bsnq == null) {
                     bsnq = bsnq.f146315f;
                 }

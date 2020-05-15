@@ -61,7 +61,7 @@ final class artz implements Runnable {
                         Challenge[] challengeArr2 = new Challenge[bsae2.f143835a.size()];
                         for (int i2 = 0; i2 < bsae2.f143835a.size(); i2++) {
                             brzs brzs = (brzs) bsae2.f143835a.get(i2);
-                            challengeArr2[i2] = new Challenge(brzs.f143781a, brzs.f143782b, brzs.f143783c, brzs.f143784d.mo73780k(), brzs.f143785e.mo73780k());
+                            challengeArr2[i2] = new Challenge(brzs.f143781a, brzs.f143782b, brzs.f143783c, brzs.f143784d.getKey(), brzs.f143785e.getKey());
                         }
                         challengeArr = challengeArr2;
                         this.f88295b.mo48867a(status, challengeArr);

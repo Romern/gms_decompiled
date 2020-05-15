@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bowt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bowt extends bxvk implements bxxd {
+public final class bowt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: t */
     public static final bowt f135173t;
@@ -70,7 +70,7 @@ public final class bowt extends bxvk implements bxxd {
     static {
         bowt bowt = new bowt();
         f135173t = bowt;
-        bxvk.m124024a(bowt.class, bowt);
+        GeneratedMessageLite.m124024a(bowt.class, bowt);
     }
 
     private bowt() {
@@ -87,7 +87,7 @@ public final class bowt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135173t, "\u0001\u0012\u0000\u0001\u0001\u0017\u0012\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဌ\u0002\u0004ဈ\u0003\u0005ဉ\u0004\u0006ဌ\u0005\u0007ဈ\u0007\bဈ\b\tဈ\t\nဈ\n\u000bဇ\u000b\rဇ\r\u0010ဇ\u0010\u0011ဇ\u0011\u0013ဌ\u0013\u0015ဈ\u0015\u0016ဌ\u0006\u0017ဉ\u0016", new Object[]{"a", "b", "c", "d", bowp.f135158a, "e", "f", "g", bows.m111620b(), "i", "j", "k", "l", "m", "n", "o", "p", "q", bowl.f135156a, "r", "h", bown.f135157a, "s"});
+            return GeneratedMessageLite.m124022a(f135173t, "\u0001\u0012\u0000\u0001\u0001\u0017\u0012\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဌ\u0002\u0004ဈ\u0003\u0005ဉ\u0004\u0006ဌ\u0005\u0007ဈ\u0007\bဈ\b\tဈ\t\nဈ\n\u000bဇ\u000b\rဇ\r\u0010ဇ\u0010\u0011ဇ\u0011\u0013ဌ\u0013\u0015ဈ\u0015\u0016ဌ\u0006\u0017ဉ\u0016", new Object[]{"a", "b", "c", "d", bowp.f135158a, "e", "f", "g", bows.m111620b(), "i", "j", "k", "l", "m", "n", "o", "p", "q", bowl.f135156a, "r", "h", bown.f135157a, "s"});
         } else if (i2 == 3) {
             return new bowt();
         } else {

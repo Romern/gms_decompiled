@@ -21,11 +21,11 @@ final /* synthetic */ class ajbf implements ajbm {
         }
         int i = a - 1;
         if (i == 1) {
-            return new Message(new aiwx(byys.f169006c.mo73780k()).f69964a.f70352a, "__reserved_namespace", "__i_beacon_id", nearbyDevice);
+            return new Message(new aiwx(byys.f169006c.getKey()).f69964a.f70352a, "__reserved_namespace", "__i_beacon_id", nearbyDevice);
         }
         if (i != 2) {
             return null;
         }
-        return new Message(new aiwv(byys.f169006c.mo73780k()).f69962a.f70352a, "__reserved_namespace", "__eddystone_uid", nearbyDevice);
+        return new Message(new aiwv(byys.f169006c.getKey()).f69962a.f70352a, "__reserved_namespace", "__eddystone_uid", nearbyDevice);
     }
 }

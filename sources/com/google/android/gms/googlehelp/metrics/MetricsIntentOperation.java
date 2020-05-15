@@ -25,7 +25,7 @@ public class MetricsIntentOperation extends IntentOperation {
         }
         googleHelp.f78762e = abeh.f57209d;
         bxvd bxvd = (bxvd) abeh.mo74142c(5);
-        bxvd.mo73625a((bxvk) abeh);
+        bxvd.mo73625a((GeneratedMessageLite) abeh);
         if (((abeh) bxvd.f164949b).f57225t <= 0) {
             long currentTimeMillis = System.currentTimeMillis();
             if (bxvd.f164950c) {

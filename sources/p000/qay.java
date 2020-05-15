@@ -122,7 +122,7 @@ public final class qay {
                     bltw bltw = (bltw) da.f164949b;
                     blub4.getClass();
                     if (!bltw.f127755a.mo73666a()) {
-                        bltw.f127755a = bxvk.m124021a(bltw.f127755a);
+                        bltw.f127755a = GeneratedMessageLite.m124021a(bltw.f127755a);
                     }
                     bltw.f127755a.add(blub4);
                 }
@@ -157,7 +157,7 @@ public final class qay {
                     }
                 }
                 bArr = null;
-                bxtx a = bxtx.m123261a(bArr);
+                ByteString a = ByteString.m123261a(bArr);
                 if (da3.f164950c) {
                     da3.mo74035c();
                     da3.f164950c = false;
@@ -174,7 +174,7 @@ public final class qay {
                 bltw bltw2 = (bltw) da.f164949b;
                 blua2.getClass();
                 if (!bltw2.f127756b.mo73666a()) {
-                    bltw2.f127756b = bxvk.m124021a(bltw2.f127756b);
+                    bltw2.f127756b = GeneratedMessageLite.m124021a(bltw2.f127756b);
                 }
                 bltw2.f127756b.add(blua2);
             }

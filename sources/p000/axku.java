@@ -120,7 +120,7 @@ public final class axku extends axlx {
             btsz.f150310a |= 1;
             if (this.f96110r != null) {
                 btrs btrs = (btrs) btrt.f150144e.mo74144da();
-                bxtx a = bxtx.m123261a(this.f96110r);
+                ByteString a = ByteString.m123261a(this.f96110r);
                 if (btrs.f164950c) {
                     btrs.mo74035c();
                     btrs.f164950c = false;
@@ -257,7 +257,7 @@ public final class axku extends axlx {
             btua.f150427b = sb2;
             if (this.f96110r != null) {
                 btrs btrs2 = (btrs) btrt.f150144e.mo74144da();
-                bxtx a2 = bxtx.m123261a(this.f96110r);
+                ByteString a2 = ByteString.m123261a(this.f96110r);
                 if (btrs2.f164950c) {
                     btrs2.mo74035c();
                     btrs2.f164950c = false;
@@ -396,7 +396,7 @@ public final class axku extends axlx {
             }
             btua btua8 = (btua) da6.f164949b;
             if (!btua8.f150434i.mo73666a()) {
-                btua8.f150434i = bxvk.m124019a(btua8.f150434i);
+                btua8.f150434i = GeneratedMessageLite.m124019a(btua8.f150434i);
             }
             int size = a5.size();
             for (int i7 = 0; i7 < size; i7++) {
@@ -426,7 +426,7 @@ public final class axku extends axlx {
                 }
                 byte[] bArr = this.f96111s;
                 if (bArr != null) {
-                    bxtx a6 = bxtx.m123261a(bArr);
+                    ByteString a6 = ByteString.m123261a(bArr);
                     if (da11.f164950c) {
                         da11.mo74035c();
                         da11.f164950c = false;
@@ -488,7 +488,7 @@ public final class axku extends axlx {
             btsv.f150284b = sb4;
             if (this.f96110r != null) {
                 btrs btrs3 = (btrs) btrt.f150144e.mo74144da();
-                bxtx a7 = bxtx.m123261a(this.f96110r);
+                ByteString a7 = ByteString.m123261a(this.f96110r);
                 if (btrs3.f164950c) {
                     btrs3.mo74035c();
                     btrs3.f164950c = false;
@@ -625,7 +625,7 @@ public final class axku extends axlx {
             }
             btsv btsv9 = (btsv) da12.f164949b;
             if (!btsv9.f150290h.mo73666a()) {
-                btsv9.f150290h = bxvk.m124019a(btsv9.f150290h);
+                btsv9.f150290h = GeneratedMessageLite.m124019a(btsv9.f150290h);
             }
             int size2 = a10.size();
             for (int i10 = 0; i10 < size2; i10++) {
@@ -655,7 +655,7 @@ public final class axku extends axlx {
                 }
                 byte[] bArr2 = this.f96111s;
                 if (bArr2 != null) {
-                    bxtx a11 = bxtx.m123261a(bArr2);
+                    ByteString a11 = ByteString.m123261a(bArr2);
                     if (da17.f164950c) {
                         da17.mo74035c();
                         da17.f164950c = false;

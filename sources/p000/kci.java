@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: kci */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class kci extends bxvk implements bxxd {
+public final class kci extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: X */
     public static final kci f23757X;
@@ -160,7 +160,7 @@ public final class kci extends bxvk implements bxxd {
     static {
         kci kci = new kci();
         f23757X = kci;
-        bxvk.m124024a(kci.class, kci);
+        GeneratedMessageLite.m124024a(kci.class, kci);
     }
 
     private kci() {
@@ -177,7 +177,7 @@ public final class kci extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f23757X, "\u00001\u0000\u0000\u000121\u0000\u0006\u0000\u0001\u0001\u0002Ț\u0003\u0004\u0004Ț\u0005\u0004\u0006\t\u0007\u001b\bȈ\t\u0001\n\u0004\u000bȈ\f\t\r\u0004\u000eȈ\u000fȈ\u0010Ȉ\u0011\u0004\u0012\u0004\u0013\u001b\u0014\u0004\u0015\u0004\u0016Ȉ\u0017\u0004\u0018\u0004\u0019'\u001a'\u001b\u0004\u001c\u0004\u001d\u0001\u001e\u0004\u001f\u0004 \u0004!Ȉ\"\u0004#\u0007%\u0007&\u0007'\u0007(\u0007)\u0007*\u0007+\u0007,\u0007-\u0007.\u0007/\u00070\t1\u00042Ȉ", new Object[]{"a", "b", "c", "d", "e", "f", "g", kci.class, "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", kch.class, "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W"});
+            return GeneratedMessageLite.m124022a(f23757X, "\u00001\u0000\u0000\u000121\u0000\u0006\u0000\u0001\u0001\u0002Ț\u0003\u0004\u0004Ț\u0005\u0004\u0006\t\u0007\u001b\bȈ\t\u0001\n\u0004\u000bȈ\f\t\r\u0004\u000eȈ\u000fȈ\u0010Ȉ\u0011\u0004\u0012\u0004\u0013\u001b\u0014\u0004\u0015\u0004\u0016Ȉ\u0017\u0004\u0018\u0004\u0019'\u001a'\u001b\u0004\u001c\u0004\u001d\u0001\u001e\u0004\u001f\u0004 \u0004!Ȉ\"\u0004#\u0007%\u0007&\u0007'\u0007(\u0007)\u0007*\u0007+\u0007,\u0007-\u0007.\u0007/\u00070\t1\u00042Ȉ", new Object[]{"a", "b", "c", "d", "e", "f", "g", kci.class, "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", kch.class, "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W"});
         } else if (i2 == 3) {
             return new kci();
         } else {

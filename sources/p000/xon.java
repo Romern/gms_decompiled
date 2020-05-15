@@ -101,18 +101,18 @@ public final class xon implements Runnable {
         String str4 = this.f52845e;
         String str5 = this.f52846f;
         xwn xwn = this.f52844d;
-        sdo.m34966a(a2, "Challenge parameter cannot be null");
-        sdo.m34966a((Object) str3, (Object) "Relying party identifier cannot be null");
-        sdo.m34966a(a, "The list of registered key handles cannot be null");
-        sdo.m34966a((Object) str4, (Object) "Origin cannot be null");
-        sek sek = xea.f52044b;
+        sdo.checkIfNull(a2, "Challenge parameter cannot be null");
+        sdo.checkIfNull((Object) str3, (Object) "Relying party identifier cannot be null");
+        sdo.checkIfNull(a, "The list of registered key handles cannot be null");
+        sdo.checkIfNull((Object) str4, (Object) "Origin cannot be null");
+        Logger Logger = xea.f52044b;
         String a3 = boan.f132471e.mo68783a().mo68794a(a2);
         StringBuilder sb = new StringBuilder(String.valueOf(a3).length() + 44 + String.valueOf(str3).length());
         sb.append("Received request = challengeParameter:");
         sb.append(a3);
         sb.append(" rpId:");
         sb.append(str3);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         int i2 = 1;
         boolean z = attestationConveyancePreference == null || AttestationConveyancePreference.NONE.equals(attestationConveyancePreference);
         int size2 = a.size();
@@ -132,7 +132,7 @@ public final class xon implements Runnable {
                         xpj xpj = (xpj) xea.mo29679a(str3, xkb, bArr, xwn).second;
                         xdx xdx = xea.f52055d;
                         xjz a7 = xjz.m43074a(str3, xkb);
-                        sek sek2 = xdx.f52034d;
+                        Logger logger2 = xdx.f52034d;
                         xpj xpj2 = xpj;
                         String valueOf = String.valueOf(a7);
                         str = str3;
@@ -140,7 +140,7 @@ public final class xon implements Runnable {
                             StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf).length() + 28);
                             sb2.append("Clear usages for credential ");
                             sb2.append(valueOf);
-                            sek2.mo25412b(sb2.toString(), new Object[0]);
+                            logger2.mo25412b(sb2.toString(), new Object[0]);
                             bmxy.m108582a(a7, "identifier cannot be null");
                             bmxy.m108589a(!a7.mo29848b().trim().isEmpty(), "identifier cannot be empty");
                         } catch (InterruptedException | xma e) {
@@ -178,9 +178,9 @@ public final class xon implements Runnable {
                                         xea.f52045a.mo29681a(xlq.mo29917a(), xlw.mo29927c());
                                         xlp = xea.f52045a.mo29680a();
                                     } catch (xma e3) {
-                                        sek sek3 = xea.f52044b;
+                                        Logger logger3 = xea.f52044b;
                                         String valueOf2 = String.valueOf(e3.getMessage());
-                                        sek3.mo25417e(valueOf2.length() == 0 ? new String("Error during registration: ") : "Error during registration: ".concat(valueOf2), e3, new Object[0]);
+                                        logger3.mo25417e(valueOf2.length() == 0 ? new String("Error during registration: ") : "Error during registration: ".concat(valueOf2), e3, new Object[0]);
                                         xwn.mo30184a(xea.f52054c, e3);
                                         xpf xpf2 = new xpf();
                                         xpf2.mo30001a(ErrorCode.UNKNOWN_ERR);
@@ -204,9 +204,9 @@ public final class xon implements Runnable {
                                     pair = new Pair(xpf3.mo30000a(), null);
                                 }
                             } catch (IOException e5) {
-                                sek sek4 = xea.f52044b;
+                                Logger logger4 = xea.f52044b;
                                 String valueOf3 = String.valueOf(e5.getMessage());
-                                sek4.mo25417e(valueOf3.length() == 0 ? new String("Error during registration: ") : "Error during registration: ".concat(valueOf3), e5, new Object[0]);
+                                logger4.mo25417e(valueOf3.length() == 0 ? new String("Error during registration: ") : "Error during registration: ".concat(valueOf3), e5, new Object[0]);
                                 xwn.mo30184a(xea.f52054c, e5);
                                 xpf xpf4 = new xpf();
                                 xpf4.mo30001a(ErrorCode.ENCODING_ERR);
@@ -215,12 +215,12 @@ public final class xon implements Runnable {
                             }
                         } catch (xdk e6) {
                             obj = null;
-                            sek sek5 = xdx.f52034d;
+                            Logger logger5 = xdx.f52034d;
                             String valueOf4 = String.valueOf(a7);
                             StringBuilder sb3 = new StringBuilder(String.valueOf(valueOf4).length() + 37);
                             sb3.append("Error clearing usages for credential ");
                             sb3.append(valueOf4);
-                            sek5.mo25418e(sb3.toString(), new Object[0]);
+                            logger5.mo25418e(sb3.toString(), new Object[0]);
                             String valueOf5 = String.valueOf(a7);
                             StringBuilder sb4 = new StringBuilder(String.valueOf(valueOf5).length() + 37);
                             sb4.append("Error clearing usages for credential ");

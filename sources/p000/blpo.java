@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blpo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blpo extends bxvk implements bxxd {
+public final class blpo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final blpo f127258h;
@@ -37,7 +37,7 @@ public final class blpo extends bxvk implements bxxd {
     static {
         blpo blpo = new blpo();
         f127258h = blpo;
-        bxvk.m124024a(blpo.class, blpo);
+        GeneratedMessageLite.m124024a(blpo.class, blpo);
     }
 
     private blpo() {
@@ -58,7 +58,7 @@ public final class blpo extends bxvk implements bxxd {
             this.f127267i = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127258h, "\u0001\u0006\u0000\u0001\u0001\t\u0006\u0000\u0000\u0001\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ᐉ\u0003\u0007ဇ\u0004\tဉ\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f127258h, "\u0001\u0006\u0000\u0001\u0001\t\u0006\u0000\u0000\u0001\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ᐉ\u0003\u0007ဇ\u0004\tဉ\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
         } else if (i2 == 3) {
             return new blpo();
         } else {

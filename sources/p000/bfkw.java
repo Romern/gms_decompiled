@@ -89,7 +89,7 @@ public final class bfkw {
                 if (this.f114323c != null) {
                     DataOutputStream dataOutputStream = new DataOutputStream(fileOutputStream);
                     dataOutputStream.writeShort(this.f114322b);
-                    this.f114323c.mo61918a(dataOutputStream, bxxc.mo73642k());
+                    this.f114323c.mo61918a(dataOutputStream, bxxc.serializeToBytes());
                     C1226ns nsVar2 = this.f114321a;
                     C1226ns.m19707a(fileOutputStream);
                     try {

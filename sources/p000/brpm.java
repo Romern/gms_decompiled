@@ -16,7 +16,7 @@ import java.net.URL;
 public final class brpm extends AsyncTask {
 
     /* renamed from: a */
-    private static final sek f143132a = new sek("FirebaseAuth", "GetAuthDomainTask");
+    private static final Logger f143132a = new Logger("FirebaseAuth", "GetAuthDomainTask");
 
     /* renamed from: b */
     private final String f143133b;
@@ -143,7 +143,7 @@ public final class brpm extends AsyncTask {
                 brpl.f143131b = str;
                 return brpl;
             }
-            for (String str2 : ((bkkn) bxvk.m124011a(bkkn.f124589b, a.getInputStream(), bxus.m123744c())).f124591a) {
+            for (String str2 : ((bkkn) GeneratedMessageLite.m124011a(bkkn.f124589b, a.getInputStream(), bxus.m123744c())).f124591a) {
                 if (str2.endsWith("firebaseapp.com") || str2.endsWith("web.app")) {
                     return brpl.m114368a(str2);
                 }
@@ -152,12 +152,12 @@ public final class brpm extends AsyncTask {
             }
             return null;
         } catch (IOException e) {
-            sek sek = f143132a;
+            Logger Logger = f143132a;
             String valueOf = String.valueOf(e);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 75);
             sb.append("Error parsing error message from response body in getErrorMessageFromBody. ");
             sb.append(valueOf);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
             str = null;
         } catch (NullPointerException e2) {
         } catch (Throwable th) {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmva */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmva extends bxvk implements bxxd {
+public final class bmva extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmva f131007c;
@@ -19,7 +19,7 @@ public final class bmva extends bxvk implements bxxd {
     static {
         bmva bmva = new bmva();
         f131007c = bmva;
-        bxvk.m124024a(bmva.class, bmva);
+        GeneratedMessageLite.m124024a(bmva.class, bmva);
     }
 
     private bmva() {
@@ -36,7 +36,7 @@ public final class bmva extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f131007c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဂ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f131007c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဂ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bmva();
         } else {

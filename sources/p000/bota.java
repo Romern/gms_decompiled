@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bota */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bota extends bxvk implements bxxd {
+public final class bota extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bota f134761a;
@@ -13,7 +13,7 @@ public final class bota extends bxvk implements bxxd {
     static {
         bota bota = new bota();
         f134761a = bota;
-        bxvk.m124024a(bota.class, bota);
+        GeneratedMessageLite.m124024a(bota.class, bota);
     }
 
     private bota() {
@@ -30,7 +30,7 @@ public final class bota extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134761a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f134761a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bota();

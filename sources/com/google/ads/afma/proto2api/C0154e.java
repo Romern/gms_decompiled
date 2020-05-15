@@ -2,7 +2,7 @@ package com.google.ads.afma.proto2api;
 
 /* renamed from: com.google.ads.afma.proto2api.e */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class C0154e extends bxvk implements bxxd {
+public final class C0154e extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final C0154e f7549f;
@@ -28,7 +28,7 @@ public final class C0154e extends bxvk implements bxxd {
     static {
         C0154e eVar = new C0154e();
         f7549f = eVar;
-        bxvk.m124024a(C0154e.class, eVar);
+        GeneratedMessageLite.m124024a(C0154e.class, eVar);
     }
 
     private C0154e() {
@@ -45,7 +45,7 @@ public final class C0154e extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f7549f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ည\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f7549f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ည\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new C0154e();
         } else {

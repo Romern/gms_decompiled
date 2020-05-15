@@ -308,7 +308,7 @@ public final class ojq implements ogr {
                                 if (i2 < ojpArr2.length) {
                                     ojp ojp = ojpArr2[i2];
                                     if (ojp.f37787b != null) {
-                                        arrayList.add(new Pair(Integer.valueOf(ojp.f37786a), this.f37797g[i2].f37787b.mo73642k()));
+                                        arrayList.add(new Pair(Integer.valueOf(ojp.f37786a), this.f37797g[i2].f37787b.serializeToBytes()));
                                     } else if (ojp.f37788c != null) {
                                         Bundle bundle2 = new Bundle();
                                         bundle2.putInt("end_point_service_id", this.f37797g[i2].f37786a);

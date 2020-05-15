@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbmz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbmz extends bxvk implements bxxd {
+public final class cbmz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbmz f177701d;
@@ -22,7 +22,7 @@ public final class cbmz extends bxvk implements bxxd {
     static {
         cbmz cbmz = new cbmz();
         f177701d = cbmz;
-        bxvk.m124024a(cbmz.class, cbmz);
+        GeneratedMessageLite.m124024a(cbmz.class, cbmz);
     }
 
     private cbmz() {
@@ -39,7 +39,7 @@ public final class cbmz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177701d, "\u0000\u0003\u0000\u0000\u0001\u0004\u0003\u0000\u0001\u0000\u0001\t\u0003\t\u0004\u001b", new Object[]{"a", "b", "c", cbma.class});
+            return GeneratedMessageLite.m124022a(f177701d, "\u0000\u0003\u0000\u0000\u0001\u0004\u0003\u0000\u0001\u0000\u0001\t\u0003\t\u0004\u001b", new Object[]{"a", "b", "c", cbma.class});
         } else if (i2 == 3) {
             return new cbmz();
         } else {

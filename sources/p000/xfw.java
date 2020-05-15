@@ -15,7 +15,7 @@ public final class xfw extends xft {
     private static final byte[] f52150b = {65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65};
 
     /* renamed from: c */
-    private static final sek f52151c = new sek(new String[]{"UsbSecurityKey"}, (short[]) null);
+    private static final Logger f52151c = new Logger(new String[]{"UsbSecurityKey"}, (short[]) null);
 
     /* renamed from: a */
     public boolean f52152a = false;
@@ -34,7 +34,7 @@ public final class xfw extends xft {
     /* renamed from: b */
     public final RegisterResponseData mo29709b() {
         xlg xlg = new xlg(2);
-        mo29705a(xlg, xlg.mo29904a(f52150b, f52145e.mo73780k(), false), ProtocolVersion.V2, bmxv.m108566b(""));
+        mo29705a(xlg, xlg.mo29904a(f52150b, f52145e.getKey(), false), ProtocolVersion.V2, bmxv.m108566b(""));
         f52151c.mo25414c("Security key already registered", new Object[0]);
         this.f52147g.mo30184a(this.f52148h, new Exception("Security key already registered"));
         throw xfv.m42834a(27264);
@@ -42,7 +42,7 @@ public final class xfw extends xft {
 
     /* access modifiers changed from: protected */
     /* renamed from: a */
-    public final ProtocolVersion mo29693a(bxtx bxtx) {
+    public final ProtocolVersion mo29693a(ByteString bxtx) {
         try {
             xlf xlf = (xlf) this.f52146f.mo29827a(new xlg(2).mo29903a()).get();
             byte[] a = xlf.mo29900a();
@@ -114,7 +114,7 @@ public final class xfw extends xft {
             throw xfv.m42834a(27013);
         }
         xlg xlg = new xlg(2);
-        mo29705a(xlg, xlg.mo29904a(f52150b, f52145e.mo73780k(), false), protocolVersion, bmxv.m108566b(""));
+        mo29705a(xlg, xlg.mo29904a(f52150b, f52145e.getKey(), false), protocolVersion, bmxv.m108566b(""));
         throw xfv.m42834a(27264);
     }
 }

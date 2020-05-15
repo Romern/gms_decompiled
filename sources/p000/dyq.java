@@ -21,7 +21,7 @@ public final class dyq extends eal {
             return null;
         }
         try {
-            return (bxne) bxvk.m124016a(bxne.f164022b, a, bxus.m123744c());
+            return (bxne) GeneratedMessageLite.m124016a(bxne.f164022b, a, bxus.m123744c());
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) dss.f13961a.mo68387b();
             bnsl.mo68437a(e);

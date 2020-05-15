@@ -8,7 +8,7 @@ import com.google.android.gms.common.internal.ClientContext;
 public final class avlp {
 
     /* renamed from: a */
-    public static final sek f93322a = new sek("SystemUpdate", "Backend", "ConfigDeliveryServiceGrpcWrapper");
+    public static final Logger f93322a = new Logger("SystemUpdate", "Backend", "ConfigDeliveryServiceGrpcWrapper");
 
     /* renamed from: b */
     public final avlo f93323b;

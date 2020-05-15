@@ -11,7 +11,7 @@ import com.google.android.chimera.FragmentManager;
 public final class arou extends arop {
 
     /* renamed from: b */
-    public static final sek f88030b = ascp.m73787a("D2D", "UI", "QRCodeInstructionFlow");
+    public static final Logger f88030b = ascp.m73787a("D2D", "UI", "QRCodeInstructionFlow");
 
     /* renamed from: c */
     public final arok f88031c;

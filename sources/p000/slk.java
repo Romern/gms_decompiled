@@ -227,7 +227,7 @@ final class slk implements srl {
                     }
                     bpvt bpvt5 = (bpvt) da.f164949b;
                     if (!bpvt5.f139429j.mo73666a()) {
-                        bpvt5.f139429j = bxvk.m124021a(bpvt5.f139429j);
+                        bpvt5.f139429j = GeneratedMessageLite.m124021a(bpvt5.f139429j);
                     }
                     bxsy.m123078a(arrayList3, bpvt5.f139429j);
                 }
@@ -238,7 +238,7 @@ final class slk implements srl {
                 }
                 bpvt bpvt6 = (bpvt) da.f164949b;
                 if (!bpvt6.f139428i.mo73666a()) {
-                    bpvt6.f139428i = bxvk.m124021a(bpvt6.f139428i);
+                    bpvt6.f139428i = GeneratedMessageLite.m124021a(bpvt6.f139428i);
                 }
                 bxsy.m123078a(asList, bpvt6.f139428i);
             }

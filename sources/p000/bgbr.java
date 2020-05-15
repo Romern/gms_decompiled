@@ -105,7 +105,7 @@ public final class bgbr implements bgmi {
                 bpkx2.getClass();
                 bonq.f133838d = bpkx2;
                 bonq.f133835a |= 4;
-                this.f116007b.mo24335a(((bonq) da3.mo74062i()).mo73642k()).mo24327b();
+                this.f116007b.mo24335a(((bonq) da3.mo74062i()).serializeToBytes()).mo24327b();
             }
         }
     }
@@ -136,7 +136,7 @@ public final class bgbr implements bgmi {
         bpkx2.getClass();
         bonq.f133838d = bpkx2;
         bonq.f133835a |= 4;
-        this.f116007b.mo24335a(((bonq) da2.mo74062i()).mo73642k()).mo24327b();
+        this.f116007b.mo24335a(((bonq) da2.mo74062i()).serializeToBytes()).mo24327b();
     }
 
     /* renamed from: a */
@@ -206,7 +206,7 @@ public final class bgbr implements bgmi {
         bpsc7.getClass();
         bonq.f133839e = bpsc7;
         bonq.f133835a |= 8;
-        this.f116007b.mo24335a(((bonq) da2.mo74062i()).mo73642k()).mo24327b();
+        this.f116007b.mo24335a(((bonq) da2.mo74062i()).serializeToBytes()).mo24327b();
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
@@ -266,7 +266,7 @@ public final class bgbr implements bgmi {
             bpkx2.getClass();
             bonq.f133838d = bpkx2;
             bonq.f133835a |= 4;
-            this.f116007b.mo24335a(((bonq) da4.mo74062i()).mo73642k()).mo24327b();
+            this.f116007b.mo24335a(((bonq) da4.mo74062i()).serializeToBytes()).mo24327b();
         }
     }
 }

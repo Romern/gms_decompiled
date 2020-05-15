@@ -96,7 +96,7 @@ public final class ajem extends ajfd {
     public final /* bridge */ /* synthetic */ bxxc mo38551a() {
         bzch a = m58604a(this.f70436a);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bxvf bxvf = (bxvf) bxvd;
         bzcl b = mo38567b((String) null);
         if (bxvf.f164950c) {

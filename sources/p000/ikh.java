@@ -22,7 +22,7 @@ public final class ikh {
     public static iml f21194c;
 
     /* renamed from: d */
-    public static final sek f21195d = new sek("TransactionCache");
+    public static final Logger f21195d = new Logger("TransactionCache");
 
     /* renamed from: e */
     private static final ikh f21196e = new ikh();
@@ -45,13 +45,13 @@ public final class ikh {
                     File file = new File(context.getFilesDir(), str);
                     if (file.isFile()) {
                         if (file.delete()) {
-                            sek sek = f21195d;
+                            Logger Logger = f21195d;
                             String valueOf = String.valueOf(str);
-                            sek.mo25414c(valueOf.length() == 0 ? new String("Clearing deprecated transaction cache: ") : "Clearing deprecated transaction cache: ".concat(valueOf), new Object[0]);
+                            Logger.mo25414c(valueOf.length() == 0 ? new String("Clearing deprecated transaction cache: ") : "Clearing deprecated transaction cache: ".concat(valueOf), new Object[0]);
                         } else {
-                            sek sek2 = f21195d;
+                            Logger logger2 = f21195d;
                             String valueOf2 = String.valueOf(str);
-                            sek2.mo25416d(valueOf2.length() == 0 ? new String("Failed to clear deprecated transaction cache: ") : "Failed to clear deprecated transaction cache: ".concat(valueOf2), new Object[0]);
+                            logger2.mo25416d(valueOf2.length() == 0 ? new String("Failed to clear deprecated transaction cache: ") : "Failed to clear deprecated transaction cache: ".concat(valueOf2), new Object[0]);
                         }
                     }
                 }
@@ -61,12 +61,12 @@ public final class ikh {
             f21194c = null;
             throw e;
         } catch (IOException e2) {
-            sek sek3 = f21195d;
+            Logger logger3 = f21195d;
             String valueOf3 = String.valueOf(e2);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf3).length() + 38);
             sb.append("Could not initialize TransacitonCache ");
             sb.append(valueOf3);
-            sek3.mo25418e(sb.toString(), new Object[0]);
+            logger3.mo25418e(sb.toString(), new Object[0]);
         } catch (Throwable th) {
             f21193b.unlock();
             throw th;
@@ -82,20 +82,20 @@ public final class ikh {
             if (a != null) {
                 ikg a2 = ikg.m15585a(a);
                 if (a2 == null) {
-                    sek sek = f21195d;
+                    Logger Logger = f21195d;
                     String valueOf = String.valueOf(str);
-                    sek.mo25418e(valueOf.length() == 0 ? new String("Transaction entry was found to be corrupted during groom read: ") : "Transaction entry was found to be corrupted during groom read: ".concat(valueOf), new Object[0]);
+                    Logger.mo25418e(valueOf.length() == 0 ? new String("Transaction entry was found to be corrupted during groom read: ") : "Transaction entry was found to be corrupted during groom read: ".concat(valueOf), new Object[0]);
                     f21194c.mo13141a(str, null, a);
                 } else if (a2.f21187d <= elapsedRealtime) {
                     f21194c.mo13141a(str, null, a);
-                    sek sek2 = f21195d;
+                    Logger logger2 = f21195d;
                     String valueOf2 = String.valueOf(str);
-                    sek2.mo25414c(valueOf2.length() == 0 ? new String("  Removed an entry during groom: ") : "  Removed an entry during groom: ".concat(valueOf2), new Object[0]);
+                    logger2.mo25414c(valueOf2.length() == 0 ? new String("  Removed an entry during groom: ") : "  Removed an entry during groom: ".concat(valueOf2), new Object[0]);
                 }
             } else {
-                sek sek3 = f21195d;
+                Logger logger3 = f21195d;
                 String valueOf3 = String.valueOf(str);
-                sek3.mo25418e(valueOf3.length() == 0 ? new String("Database had null entry for transaction: ") : "Database had null entry for transaction: ".concat(valueOf3), new Object[0]);
+                logger3.mo25418e(valueOf3.length() == 0 ? new String("Database had null entry for transaction: ") : "Database had null entry for transaction: ".concat(valueOf3), new Object[0]);
                 f21194c.mo13141a(str, null, null);
             }
         }
@@ -147,19 +147,19 @@ public final class ikh {
             for (String str : f21194c.mo13142b()) {
                 String a = f21194c.mo13139a(str);
                 if (a == null) {
-                    sek sek = f21195d;
+                    Logger Logger = f21195d;
                     String valueOf = String.valueOf(str);
-                    sek.mo25418e(valueOf.length() == 0 ? new String("Found transaction set to null in cache.getByTxId: ") : "Found transaction set to null in cache.getByTxId: ".concat(valueOf), new Object[0]);
+                    Logger.mo25418e(valueOf.length() == 0 ? new String("Found transaction set to null in cache.getByTxId: ") : "Found transaction set to null in cache.getByTxId: ".concat(valueOf), new Object[0]);
                 } else {
                     ikg a2 = ikg.m15585a(a);
                     if (a2 == null) {
-                        sek sek2 = f21195d;
+                        Logger logger2 = f21195d;
                         String valueOf2 = String.valueOf(str);
-                        sek2.mo25418e(valueOf2.length() == 0 ? new String("Found corrupted transaction in cache.getByTxId: ") : "Found corrupted transaction in cache.getByTxId: ".concat(valueOf2), new Object[0]);
-                    } else if (Arrays.equals(bArr, a2.f21184a.f167308b.mo73780k())) {
-                        sek sek3 = f21195d;
+                        logger2.mo25418e(valueOf2.length() == 0 ? new String("Found corrupted transaction in cache.getByTxId: ") : "Found corrupted transaction in cache.getByTxId: ".concat(valueOf2), new Object[0]);
+                    } else if (Arrays.equals(bArr, a2.f21184a.f167308b.getKey())) {
+                        Logger logger3 = f21195d;
                         String valueOf3 = String.valueOf(str);
-                        sek3.mo25414c(valueOf3.length() == 0 ? new String("Found transaction in cache: ") : "Found transaction in cache: ".concat(valueOf3), new Object[0]);
+                        logger3.mo25414c(valueOf3.length() == 0 ? new String("Found transaction in cache: ") : "Found transaction in cache: ".concat(valueOf3), new Object[0]);
                         f21193b.unlock();
                         return a2;
                     }

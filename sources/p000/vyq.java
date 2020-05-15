@@ -161,6 +161,6 @@ public final class vyq {
         b.getClass();
         vwc.f50120f = b;
         vwc.f50115a |= 16;
-        this.f50245a.mo28979a(((vwc) this.f50246b.mo74062i()).mo73642k());
+        this.f50245a.mo28979a(((vwc) this.f50246b.mo74062i()).serializeToBytes());
     }
 }

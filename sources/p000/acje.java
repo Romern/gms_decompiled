@@ -124,7 +124,7 @@ public final class acje implements bamc {
                     objArr[r4] = this.f59976d;
                     objArr[1] = Boolean.valueOf((boolean) r4);
                     objArr[2] = Boolean.valueOf(this.f59980h);
-                    achw.mo25409a("%s schedule skipped: updateCurrent=%b, hasScheduledPeriodic=%b", objArr);
+                    achw.logVerbose("%s schedule skipped: updateCurrent=%b, hasScheduledPeriodic=%b", objArr);
                     return;
                 }
                 if (z4) {
@@ -165,7 +165,7 @@ public final class acje implements bamc {
                         putBoolean.commit();
                     }
                 }
-                achs.f59875e.mo25409a("%s periodic scheduled, period=%d, flex=%d, update=%b", this.f59976d, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z4));
+                achs.f59875e.logVerbose("%s periodic scheduled, period=%d, flex=%d, update=%b", this.f59976d, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z4));
             }
         } else {
             str = "periodic_scheduled";
@@ -181,7 +181,7 @@ public final class acje implements bamc {
         this.f59980h = true;
         if (z4) {
         }
-        achs.f59875e.mo25409a("%s periodic scheduled, period=%d, flex=%d, update=%b", this.f59976d, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z4));
+        achs.f59875e.logVerbose("%s periodic scheduled, period=%d, flex=%d, update=%b", this.f59976d, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z4));
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead

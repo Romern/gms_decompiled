@@ -18,7 +18,7 @@ public final class blmo extends bxvd implements bxxd {
         blmp blmp2 = blmp.f126864r;
         blmi.getClass();
         if (!blmp.f126872g.mo73666a()) {
-            blmp.f126872g = bxvk.m124021a(blmp.f126872g);
+            blmp.f126872g = GeneratedMessageLite.m124021a(blmp.f126872g);
         }
         blmp.f126872g.add(blmi);
     }

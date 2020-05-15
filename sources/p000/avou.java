@@ -15,7 +15,7 @@ import java.util.zip.ZipInputStream;
 public final class avou {
 
     /* renamed from: a */
-    private static final sek f93679a = avpq.m79018e("InstallationUtil");
+    private static final Logger f93679a = avpq.m79018e("InstallationUtil");
 
     /* renamed from: a */
     public static avsw m78959a() {

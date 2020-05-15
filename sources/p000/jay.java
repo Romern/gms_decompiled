@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public final class jay extends aaab {
 
     /* renamed from: a */
-    private static final sek f22057a = jdh.m16547a("SetKeyMaterialOperation");
+    private static final Logger f22057a = jdh.m16547a("SetKeyMaterialOperation");
 
     /* renamed from: b */
     private final izw f22058b;
@@ -67,7 +67,7 @@ public final class jay extends aaab {
                         da.f164950c = false;
                     }
                     ((jbg) da.f164949b).f22092a = i;
-                    bxtx a = bxtx.m123261a(sharedKey.f10906b);
+                    ByteString a = ByteString.m123261a(sharedKey.f10906b);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;

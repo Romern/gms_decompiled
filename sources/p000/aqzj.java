@@ -71,12 +71,12 @@ abstract class aqzj {
                 aqzk.f87154b.mo25417e("Network error calling exchange_session_checkpoints", e, new Object[0]);
                 return mo48296a(3);
             } catch (InterruptedException e3) {
-                sek sek = aqzk.f87154b;
+                Logger Logger = aqzk.f87154b;
                 String valueOf = String.valueOf(e3);
                 StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 23);
                 sb.append("Operation interrupted: ");
                 sb.append(valueOf);
-                sek.mo25415d(sb.toString(), e3, new Object[0]);
+                Logger.mo25415d(sb.toString(), e3, new Object[0]);
             }
         }
         return mo48296a(1);

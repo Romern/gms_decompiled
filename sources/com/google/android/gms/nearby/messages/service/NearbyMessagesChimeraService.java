@@ -213,7 +213,7 @@ public class NearbyMessagesChimeraService extends Service implements ahha {
             befa befa = new befa(Collections.singletonList((behy) this.f80809h.mo36473a(behy.class)));
             Uri parse = Uri.parse(((MddFile) fileGroupResponse.f79963c.get(0)).f79970b);
             try {
-                bzco bzco = (bzco) bxvk.m124016a(bzco.f169385f, (byte[]) befa.mo60643a(parse, behp.m95056a(), new beer[0]), bxus.m123744c());
+                bzco bzco = (bzco) GeneratedMessageLite.m124016a(bzco.f169385f, (byte[]) befa.mo60643a(parse, behp.m95056a(), new beer[0]), bxus.m123744c());
                 ((ajeq) this.f80809h.mo36473a(ajeq.class)).mo38556a(ClientAppIdentifier.m67376a("com.google.android.gms", new ClientAppContext(getPackageName(), "0p:discoverer"))).mo38362a((byzr[]) bzco.f169389c.toArray(new byzr[0]), true);
                 ((ajai) this.f80809h.mo36473a(ajai.class)).mo38390a((byyr[]) bzco.f169391e.toArray(new byyr[0]));
             } catch (IOException e) {

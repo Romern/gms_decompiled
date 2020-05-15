@@ -16,7 +16,7 @@ public final class brqc implements brpy {
     private final String f143154c;
 
     static {
-        new sek("EmailLinkSignInRequest", new String[0]);
+        new Logger("EmailLinkSignInRequest", new String[0]);
     }
 
     public brqc(EmailAuthCredential emailAuthCredential, String str) {

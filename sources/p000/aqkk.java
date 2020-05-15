@@ -9,7 +9,7 @@ import com.google.autofill.detection.p098ml.AndroidInputTypeSignal;
 public final class aqkk {
 
     /* renamed from: a */
-    public static final sek f86279a = new sek("SetupServices", "MetricsHelper");
+    public static final Logger f86279a = new Logger("SetupServices", "MetricsHelper");
 
     /* renamed from: b */
     public final Context f86280b;
@@ -48,7 +48,7 @@ public final class aqkk {
         }
         bxvd bxvd = this.f86286h;
         boco boco = ((boct) this.f86285g.f164949b).f132623n;
-        bxvd.mo73625a((bxvk) (boco == null ? boco.f132581g : boco));
+        bxvd.mo73625a((GeneratedMessageLite) (boco == null ? boco.f132581g : boco));
     }
 
     /* renamed from: a */
@@ -79,6 +79,6 @@ public final class aqkk {
         boco3.getClass();
         boct.f132623n = boco3;
         boct.f132610a |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_CAP_SENTENCES;
-        this.f86281c.mo47933f().putByteArray("MetricsHelper.event", ((boct) this.f86285g.mo74062i()).mo73642k());
+        this.f86281c.mo47933f().putByteArray("MetricsHelper.event", ((boct) this.f86285g.mo74062i()).serializeToBytes());
     }
 }

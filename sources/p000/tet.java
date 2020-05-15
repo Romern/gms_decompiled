@@ -7,7 +7,7 @@ import android.content.Context;
 public final class tet {
 
     /* renamed from: a */
-    public static final sek f45800a = tea.m36798a("sms_sender");
+    public static final Logger f45800a = tea.m36798a("sms_sender");
 
     /* renamed from: b */
     public final Context f45801b = rpr.m34216b();

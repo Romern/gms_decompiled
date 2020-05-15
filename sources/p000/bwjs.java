@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwjs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwjs extends bxvk implements bxxd {
+public final class bwjs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bwjs f159864a;
@@ -13,7 +13,7 @@ public final class bwjs extends bxvk implements bxxd {
     static {
         bwjs bwjs = new bwjs();
         f159864a = bwjs;
-        bxvk.m124024a(bwjs.class, bwjs);
+        GeneratedMessageLite.m124024a(bwjs.class, bwjs);
     }
 
     private bwjs() {
@@ -30,7 +30,7 @@ public final class bwjs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f159864a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f159864a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bwjs();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxbb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxbb extends bxvk implements bxxd {
+public final class bxbb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bxvu f161771c = new bxba();
@@ -25,7 +25,7 @@ public final class bxbb extends bxvk implements bxxd {
     static {
         bxbb bxbb = new bxbb();
         f161772d = bxbb;
-        bxvk.m124024a(bxbb.class, bxbb);
+        GeneratedMessageLite.m124024a(bxbb.class, bxbb);
     }
 
     private bxbb() {
@@ -42,7 +42,7 @@ public final class bxbb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f161772d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001င\u0000\u0002\u001e", new Object[]{"e", "a", "b", bqbo.m112518b()});
+            return GeneratedMessageLite.m124022a(f161772d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001င\u0000\u0002\u001e", new Object[]{"e", "a", "b", bqbo.m112518b()});
         } else if (i2 == 3) {
             return new bxbb();
         } else {

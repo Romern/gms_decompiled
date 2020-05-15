@@ -24,7 +24,7 @@ public final class CameraPosition extends AbstractSafeParcelable implements Refl
 
     public CameraPosition(LatLng latLng, float f, float f2, float f3) {
         boolean z;
-        sdo.m34966a(latLng, "null camera target");
+        sdo.checkIfNull(latLng, "null camera target");
         if (f2 < 0.0f || f2 > 90.0f) {
             z = false;
         } else {

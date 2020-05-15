@@ -26,7 +26,7 @@ public final class arrv {
     public static final Charset f88191d = Charset.forName("UTF-8");
 
     /* renamed from: j */
-    public static final sek f88192j = ascp.m73787a("FastPair", "BleAdvertiser");
+    public static final Logger f88192j = ascp.m73787a("FastPair", "BleAdvertiser");
 
     /* renamed from: e */
     public BluetoothLeAdvertiser f88193e;

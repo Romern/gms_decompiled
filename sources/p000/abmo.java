@@ -188,7 +188,7 @@ public final class abmo extends aaab {
                             bosu a10 = abnt.m47963a(context2, this.f57701b, i, c2);
                             if (a10 != null) {
                                 bxvd = (bxvd) a10.mo74142c(5);
-                                bxvd.mo73625a((bxvk) a10);
+                                bxvd.mo73625a((GeneratedMessageLite) a10);
                             } else {
                                 bxvd = null;
                             }
@@ -220,7 +220,7 @@ public final class abmo extends aaab {
                                             bort2 = bort.f134503m;
                                         }
                                         bxvd bxvd2 = (bxvd) bort2.mo74142c(5);
-                                        bxvd2.mo73625a((bxvk) bort2);
+                                        bxvd2.mo73625a((GeneratedMessageLite) bort2);
                                         boolean z4 = networkQualityReport3.f79057i;
                                         if (bxvd2.f164950c) {
                                             bxvd2.mo74035c();
@@ -367,7 +367,7 @@ public final class abmo extends aaab {
                                         bxvd.mo74035c();
                                         bxvd.f164950c = false;
                                     }
-                                    ((bosu) bxvd.f164949b).f134690U = bxvk.m124030de();
+                                    ((bosu) bxvd.f164949b).f134690U = GeneratedMessageLite.m124030de();
                                     List asList = Arrays.asList(borzArr);
                                     if (bxvd.f164950c) {
                                         bxvd.mo74035c();
@@ -375,7 +375,7 @@ public final class abmo extends aaab {
                                     }
                                     bosu bosu20 = (bosu) bxvd.f164949b;
                                     if (!bosu20.f134690U.mo73666a()) {
-                                        bosu20.f134690U = bxvk.m124021a(bosu20.f134690U);
+                                        bosu20.f134690U = GeneratedMessageLite.m124021a(bosu20.f134690U);
                                     }
                                     bxsy.m123078a(asList, bosu20.f134690U);
                                 } else {
@@ -383,7 +383,7 @@ public final class abmo extends aaab {
                                         bxvd.mo74035c();
                                         bxvd.f164950c = false;
                                     }
-                                    ((bosu) bxvd.f164949b).f134690U = bxvk.m124030de();
+                                    ((bosu) bxvd.f164949b).f134690U = GeneratedMessageLite.m124030de();
                                 }
                                 if (bxvd.f164950c) {
                                     bxvd.mo74035c();

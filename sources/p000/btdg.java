@@ -17,7 +17,7 @@ public final class btdg extends bxvd implements bxxd {
         btdi btdi2 = btdi.f148400b;
         btdh.getClass();
         if (!btdi.f148402a.mo73666a()) {
-            btdi.f148402a = bxvk.m124019a(btdi.f148402a);
+            btdi.f148402a = GeneratedMessageLite.m124019a(btdi.f148402a);
         }
         btdi.f148402a.mo74153d(btdh.mo3214a());
     }

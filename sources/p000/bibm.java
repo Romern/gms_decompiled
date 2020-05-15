@@ -57,7 +57,7 @@ public final class bibm extends bibp {
         bvlk bvlk = (bvlk) obj;
         bonq a = bibp.m101914a(12, i, j, this.f120142i);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bprp bprp = (bprp) bprq.f138883e.mo74144da();
         int i2 = this.f120139f;
         if (bprp.f164950c) {
@@ -119,13 +119,13 @@ public final class bibm extends bibp {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         if (bxvd3.f164950c) {
             bxvd3.mo74035c();
             bxvd3.f164950c = false;
@@ -160,12 +160,12 @@ public final class bibm extends bibp {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo64507a() {
         if (TextUtils.isEmpty(this.f120142i.f79574d)) {
-            return (bvlk) this.f120143j.mo25517a(this.f120153a, bian.m101866a(this.f120135b, this.f120141h, this.f120139f, this.f120140g, this.f120142i).mo73642k(), bvlk.f156552f, this.f120137d, this.f120138e, cggs.m145360c(), 10274);
+            return (bvlk) this.f120143j.mo25517a(this.f120153a, bian.m101866a(this.f120135b, this.f120141h, this.f120139f, this.f120140g, this.f120142i).serializeToBytes(), bvlk.f156552f, this.f120137d, this.f120138e, cggs.m145360c(), 10274);
         }
         Account account = new Account(this.f120142i.f79574d, "com.google");
         ClientContext clientContext = new ClientContext(this.f120136c);
         clientContext.f30214d = account;
         clientContext.f30213c = account;
-        return (bvlk) this.f120143j.mo25515a(clientContext, 1, this.f120153a, bian.m101866a(this.f120135b, this.f120141h, this.f120139f, this.f120140g, this.f120142i).mo73642k(), bvlk.f156552f, cggs.m145360c(), 10274);
+        return (bvlk) this.f120143j.mo25515a(clientContext, 1, this.f120153a, bian.m101866a(this.f120135b, this.f120141h, this.f120139f, this.f120140g, this.f120142i).serializeToBytes(), bvlk.f156552f, cggs.m145360c(), 10274);
     }
 }

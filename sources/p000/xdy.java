@@ -5,5 +5,5 @@ package p000;
 public final class xdy {
 
     /* renamed from: a */
-    public static final sek f52039a = new sek(new String[]{"PolluxAuthenticationRequestHandler"}, (short[]) null);
+    public static final Logger f52039a = new Logger(new String[]{"PolluxAuthenticationRequestHandler"}, (short[]) null);
 }

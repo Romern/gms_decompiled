@@ -23,17 +23,17 @@ final class ewi extends evn {
     private final Fragment f15925e;
 
     /* renamed from: f */
-    private final sek f15926f;
+    private final Logger f15926f;
 
     /* renamed from: g */
     private final esr f15927g;
 
-    public ewi(bsyq bsyq, ffk ffk, Fragment fragment, sek sek, esr esr, ewh ewh, ewg ewg) {
+    public ewi(bsyq bsyq, ffk ffk, Fragment fragment, Logger Logger, esr esr, ewh ewh, ewg ewg) {
         super(ewh, ewg);
         this.f15923c = bsyq;
         this.f15924d = ffk;
         this.f15925e = fragment;
-        this.f15926f = sek;
+        this.f15926f = Logger;
         this.f15927g = esr;
     }
 

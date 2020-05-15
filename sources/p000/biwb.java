@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biwb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biwb extends bxvk implements bxxd {
+public final class biwb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final biwb f122066a;
@@ -13,7 +13,7 @@ public final class biwb extends bxvk implements bxxd {
     static {
         biwb biwb = new biwb();
         f122066a = biwb;
-        bxvk.m124024a(biwb.class, biwb);
+        GeneratedMessageLite.m124024a(biwb.class, biwb);
     }
 
     private biwb() {
@@ -30,7 +30,7 @@ public final class biwb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f122066a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f122066a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new biwb();

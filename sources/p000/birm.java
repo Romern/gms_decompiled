@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: birm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class birm extends bxvk implements bxxd {
+public final class birm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final birm f121425b;
@@ -16,7 +16,7 @@ public final class birm extends bxvk implements bxxd {
     static {
         birm birm = new birm();
         f121425b = birm;
-        bxvk.m124024a(birm.class, birm);
+        GeneratedMessageLite.m124024a(birm.class, birm);
     }
 
     private birm() {
@@ -33,7 +33,7 @@ public final class birm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f121425b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001'", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f121425b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001'", new Object[]{"a"});
         } else if (i2 == 3) {
             return new birm();
         } else {

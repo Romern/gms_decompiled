@@ -31,7 +31,7 @@ final class arld extends adzt {
                 areb areb = this.f87840a.f87787a;
                 TargetConnectionArgs targetConnectionArgs = (TargetConnectionArgs) message.obj;
                 areb areb2 = ((arey) areb).f87552a;
-                arps.f88090a.mo25409a("Device connected", new Object[0]);
+                arps.f88090a.logVerbose("Device connected", new Object[0]);
                 armc armc = ((arpp) areb2).f88084a.f88098i;
                 bxvd bxvd = armc.f87880c;
                 long currentTimeMillis = System.currentTimeMillis() - armc.f87878a;
@@ -48,7 +48,7 @@ final class arld extends adzt {
                 areb areb3 = this.f87840a.f87787a;
                 ((arey) areb3).f87553b.mo48476a("target_nearby_api");
                 areb areb4 = ((arey) areb3).f87552a;
-                arps.f88090a.mo25409a("TargetBootstrapListener.onDisconnected()", new Object[0]);
+                arps.f88090a.logVerbose("TargetBootstrapListener.onDisconnected()", new Object[0]);
                 arps arps = ((arpp) areb4).f88084a;
                 if (arps.f88092c && arps.f88095f != 2) {
                     arps.mo48738a();
@@ -59,7 +59,7 @@ final class arld extends adzt {
                 ((arey) areb5).f87553b.mo48476a("target_nearby_api");
                 areb areb6 = ((arey) areb5).f87552a;
                 ((arpp) areb6).f88084a.f88095f = 2;
-                arps.f88090a.mo25409a("TargetBootstrapListener.onCompleted()", new Object[0]);
+                arps.f88090a.logVerbose("TargetBootstrapListener.onCompleted()", new Object[0]);
                 arps arps2 = ((arpp) areb6).f88084a;
                 if (arps2.f88099j) {
                     if (arps2.f88094e == null) {
@@ -72,12 +72,12 @@ final class arld extends adzt {
                     bundle = new Bundle();
                     String string = bundle2.getString("restoreAccount");
                     String string2 = bundle2.getString("restoreToken");
-                    sek sek = arps.f88090a;
+                    Logger Logger = arps.f88090a;
                     String valueOf = String.valueOf(string);
-                    sek.mo25409a(valueOf.length() == 0 ? new String("restoreAccountId: ") : "restoreAccountId: ".concat(valueOf), new Object[0]);
-                    sek sek2 = arps.f88090a;
+                    Logger.logVerbose(valueOf.length() == 0 ? new String("restoreAccountId: ") : "restoreAccountId: ".concat(valueOf), new Object[0]);
+                    Logger logger2 = arps.f88090a;
                     String valueOf2 = String.valueOf(string2);
-                    sek2.mo25409a(valueOf2.length() == 0 ? new String("restoreToken: ") : "restoreToken: ".concat(valueOf2), new Object[0]);
+                    logger2.logVerbose(valueOf2.length() == 0 ? new String("restoreToken: ") : "restoreToken: ".concat(valueOf2), new Object[0]);
                     if (TextUtils.isEmpty(string)) {
                         arps.f88090a.mo25412b("Restore account is null or empty.", new Object[0]);
                     }
@@ -88,7 +88,7 @@ final class arld extends adzt {
                     bundle = Bundle.EMPTY;
                 }
                 boolean z = ((arpp) areb6).f88084a.f88097h;
-                arps.f88090a.mo25409a("handleResults()", new Object[0]);
+                arps.f88090a.logVerbose("handleResults()", new Object[0]);
                 TargetChimeraActivity targetChimeraActivity = (TargetChimeraActivity) arps2.getActivity();
                 if (targetChimeraActivity == null) {
                     arps2.f88101l = new arpq(bundle, z, bootstrapCompletionResult);
@@ -98,19 +98,19 @@ final class arld extends adzt {
                 targetChimeraActivity.mo59128a(bundle, z, bootstrapCompletionResult);
             } else if (i == 3) {
                 areb areb7 = this.f87840a.f87787a;
-                arps.f88090a.mo25409a((String) message.obj, new Object[0]);
+                arps.f88090a.logVerbose((String) message.obj, new Object[0]);
             } else if (i == 4) {
                 areb areb8 = this.f87840a.f87787a;
                 String str = (String) message.obj;
                 areb areb9 = ((arey) areb8).f87552a;
-                sek sek3 = arps.f88090a;
+                Logger logger3 = arps.f88090a;
                 StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 39);
                 sb.append("TargetBootstrapListener.onPinProvided(");
                 sb.append(str);
                 sb.append(")");
-                sek3.mo25409a(sb.toString(), new Object[0]);
+                logger3.logVerbose(sb.toString(), new Object[0]);
                 arps arps3 = ((arpp) areb9).f88084a;
-                arps.f88090a.mo25409a("startPinCode()", new Object[0]);
+                arps.f88090a.logVerbose("startPinCode()", new Object[0]);
                 Bundle bundle3 = new Bundle();
                 bundle3.putString("pin.code", str);
                 arps3.f88096g.mo48707b(113, bundle3);
@@ -122,9 +122,9 @@ final class arld extends adzt {
                 }
                 areb areb11 = ((arey) areb10).f87552a;
                 if (intValue != 8004) {
-                    sek sek4 = arps.f88090a;
+                    Logger logger4 = arps.f88090a;
                     String valueOf3 = String.valueOf(araj.m72321a(intValue));
-                    sek4.mo25418e(valueOf3.length() == 0 ? new String("Something went wrong: ") : "Something went wrong: ".concat(valueOf3), new Object[0]);
+                    logger4.mo25418e(valueOf3.length() == 0 ? new String("Something went wrong: ") : "Something went wrong: ".concat(valueOf3), new Object[0]);
                     ((arpp) areb11).f88084a.mo48738a();
                     return;
                 }

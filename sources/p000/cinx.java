@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cinx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cinx extends bxvk implements bxxd {
+public final class cinx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final cinx f190993m;
@@ -52,7 +52,7 @@ public final class cinx extends bxvk implements bxxd {
     static {
         cinx cinx = new cinx();
         f190993m = cinx;
-        bxvk.m124024a(cinx.class, cinx);
+        GeneratedMessageLite.m124024a(cinx.class, cinx);
     }
 
     private cinx() {
@@ -73,7 +73,7 @@ public final class cinx extends bxvk implements bxxd {
             this.f191007n = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f190993m, "\u0001\u000b\u0000\u0001\u0001\u000b\u000b\u0000\u0000\u0001\u0001ဈ\u0000\u0002စ\u0003\u0003စ\u0004\u0004ဂ\u0005\u0005ဂ\u0006\u0006ဂ\b\u0007ဌ\t\bစ\u0001\tဈ\u0002\nင\u0007\u000bᐉ\n", new Object[]{"a", "b", "e", "f", "g", "h", "j", "k", cinv.f190992a, "c", "d", "i", "l"});
+            return GeneratedMessageLite.m124022a(f190993m, "\u0001\u000b\u0000\u0001\u0001\u000b\u000b\u0000\u0000\u0001\u0001ဈ\u0000\u0002စ\u0003\u0003စ\u0004\u0004ဂ\u0005\u0005ဂ\u0006\u0006ဂ\b\u0007ဌ\t\bစ\u0001\tဈ\u0002\nင\u0007\u000bᐉ\n", new Object[]{"a", "b", "e", "f", "g", "h", "j", "k", cinv.f190992a, "c", "d", "i", "l"});
         } else if (i2 == 3) {
             return new cinx();
         } else {

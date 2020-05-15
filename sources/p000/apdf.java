@@ -55,7 +55,7 @@ class apdf extends acm implements View.OnClickListener {
                     apdh.f84163a.mo58845a(apdh.f84164d, apej);
                     return;
                 }
-                this.f84161u.f84163a.f107295g = apej.f84240l.mo73642k();
+                this.f84161u.f84163a.f107295g = apej.f84240l.serializeToBytes();
                 apdh apdh2 = this.f84161u;
                 if (apdh2.f84164d.equals(apdh2.f84165e)) {
                     apdh apdh3 = this.f84161u;
@@ -63,7 +63,7 @@ class apdf extends acm implements View.OnClickListener {
                     String str = apdh3.f84164d;
                     if (apej.m70093a(apej.f84240l)) {
                         Account account = new Account(str, "com.google");
-                        byte[] k = apej.f84240l.mo73642k();
+                        byte[] k = apej.f84240l.serializeToBytes();
                         if (k != null) {
                             contactsRestoreSettingsChimeraActivity.startActivityForResult(new Intent().setClassName(mpv.m25497a(contactsRestoreSettingsChimeraActivity), "com.google.android.apps.pixelmigrate.cloudrestore.component.KeyRecoveryLockScreenEntryActivity").putExtra("KeyRecoveryLockScreenEntryActivity.account", account).putExtra("KeyRecoveryLockScreenEntryActivity.device", k), 4);
                             return;

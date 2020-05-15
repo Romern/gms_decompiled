@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buee */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buee extends bxvk implements bxxd {
+public final class buee extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buee f153568d;
@@ -25,7 +25,7 @@ public final class buee extends bxvk implements bxxd {
     static {
         buee buee = new buee();
         f153568d = buee;
-        bxvk.m124024a(buee.class, buee);
+        GeneratedMessageLite.m124024a(buee.class, buee);
     }
 
     private buee() {
@@ -42,7 +42,7 @@ public final class buee extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153568d, "\u0001\u0004\u0001\u0001\u0002\u0005\u0004\u0000\u0000\u0000\u0002ဌ\u0001\u0003ြ\u0000\u0004ြ\u0000\u0005ြ\u0000", new Object[]{"b", "a", "e", "c", buec.f153567a, buel.class, buel.class, buel.class});
+            return GeneratedMessageLite.m124022a(f153568d, "\u0001\u0004\u0001\u0001\u0002\u0005\u0004\u0000\u0000\u0000\u0002ဌ\u0001\u0003ြ\u0000\u0004ြ\u0000\u0005ြ\u0000", new Object[]{"b", "a", "e", "c", buec.f153567a, buel.class, buel.class, buel.class});
         } else if (i2 == 3) {
             return new buee();
         } else {

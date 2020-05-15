@@ -161,7 +161,7 @@ public final class avey extends wfu implements aaai {
         d.mo68432a("avey", "a", 316, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
         d.mo68420a("Received 'writeDeviceLevelSettings' request from package '%s'...", this.f93049d.f30215e);
         try {
-            this.f93048c.mo16658a(new avby((bxok) bxvk.m124016a(bxok.f164161d, bArr, bxus.m123744c()), wfs, this.f93052g));
+            this.f93048c.mo16658a(new avby((bxok) GeneratedMessageLite.m124016a(bxok.f164161d, bArr, bxus.m123744c()), wfs, this.f93052g));
             bnsi d2 = FacsCacheApiChimeraService.f109379a.mo68390d();
             d2.mo68432a("avey", "a", 327, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             d2.mo68405a("Operation 'writeDeviceLevelSettings' dispatched!");
@@ -186,7 +186,7 @@ public final class avey extends wfu implements aaai {
         d.mo68425a("Received 'updateActivityControlsSettings' request from package '%s', instance id '%s', version '%d'...", this.f93049d.f30215e, facsCacheCallOptions2.f31268a, Long.valueOf(facsCacheCallOptions2.f31269b));
         if (chbh.m148007e()) {
             try {
-                bxqf bxqf = (bxqf) bxvk.m124014a(bxqf.f164373f, bArr);
+                bxqf bxqf = (bxqf) GeneratedMessageLite.m124014a(bxqf.f164373f, bArr);
                 aaag aaag = this.f93047b;
                 ClientContext clientContext = this.f93049d;
                 avgm avgm = this.f93050e;

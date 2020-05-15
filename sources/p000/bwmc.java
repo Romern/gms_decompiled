@@ -22,7 +22,7 @@ public final class bwmc extends bxvg implements bxvh {
     static {
         bwmc bwmc = new bwmc();
         f160239c = bwmc;
-        bxvk.m124024a(bwmc.class, bwmc);
+        GeneratedMessageLite.m124024a(bwmc.class, bwmc);
     }
 
     private bwmc() {
@@ -43,7 +43,7 @@ public final class bwmc extends bxvg implements bxvh {
             this.f160243d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f160239c, "\u0001\u0002\u0001\u0000\u0001\u0003\u0002\u0000\u0000\u0000\u0001ွ\u0000\u0003ျ\u0000", new Object[]{"b", "a"});
+            return GeneratedMessageLite.m124022a(f160239c, "\u0001\u0002\u0001\u0000\u0001\u0003\u0002\u0000\u0000\u0000\u0001ွ\u0000\u0003ျ\u0000", new Object[]{"b", "a"});
         } else if (i2 == 3) {
             return new bwmc();
         } else {

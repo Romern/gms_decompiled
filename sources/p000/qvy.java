@@ -8,7 +8,7 @@ import java.util.List;
 final class qvy {
 
     /* renamed from: a */
-    public static final sek f42276a = qqu.m32672c("SyncHelper");
+    public static final Logger f42276a = qqu.m32672c("SyncHelper");
 
     /* renamed from: b */
     public final qvk f42277b = ((qvk) qvk.f42238a.mo13145b());

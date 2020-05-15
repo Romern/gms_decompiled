@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbey */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbey extends bxvk implements bxxd {
+public final class cbey extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final cbey f176867f;
@@ -17,7 +17,7 @@ public final class cbey extends bxvk implements bxxd {
     public String f176870b = "";
 
     /* renamed from: c */
-    public bxtx f176871c = bxtx.f164797b;
+    public ByteString f176871c = ByteString.f164797b;
 
     /* renamed from: d */
     public String f176872d = "";
@@ -28,7 +28,7 @@ public final class cbey extends bxvk implements bxxd {
     static {
         cbey cbey = new cbey();
         f176867f = cbey;
-        bxvk.m124024a(cbey.class, cbey);
+        GeneratedMessageLite.m124024a(cbey.class, cbey);
     }
 
     private cbey() {
@@ -45,7 +45,7 @@ public final class cbey extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176867f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\t\u0002Ȉ\u0003\n\u0004Ȉ\u0005\u0004", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f176867f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\t\u0002Ȉ\u0003\n\u0004Ȉ\u0005\u0004", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new cbey();
         } else {

@@ -80,8 +80,8 @@ public final class almf extends aaab {
                     almc almc = this.f73680d;
                     allx b = cfum.m143091b();
                     bxvd bxvd = (bxvd) b.mo74142c(5);
-                    bxvd.mo73625a((bxvk) b);
-                    bxvd.mo73625a((bxvk) almc.mo40497a());
+                    bxvd.mo73625a((GeneratedMessageLite) b);
+                    bxvd.mo73625a((GeneratedMessageLite) almc.mo40497a());
                     almg almg = new almg((allx) bxvd.mo74062i());
                     ArrayList arrayList = new ArrayList(this.f73678b.size());
                     for (ClassifyAccountTypeRequest classifyAccountTypeRequest : this.f73678b) {

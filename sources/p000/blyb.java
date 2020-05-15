@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blyb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blyb extends bxvk implements bxxd {
+public final class blyb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final blyb f128189c;
@@ -19,7 +19,7 @@ public final class blyb extends bxvk implements bxxd {
     static {
         blyb blyb = new blyb();
         f128189c = blyb;
-        bxvk.m124024a(blyb.class, blyb);
+        GeneratedMessageLite.m124024a(blyb.class, blyb);
     }
 
     private blyb() {
@@ -36,7 +36,7 @@ public final class blyb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128189c, "\u0001\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001ျ\u0000\u0002ြ\u0000", new Object[]{"b", "a", blya.class});
+            return GeneratedMessageLite.m124022a(f128189c, "\u0001\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001ျ\u0000\u0002ြ\u0000", new Object[]{"b", "a", blya.class});
         } else if (i2 == 3) {
             return new blyb();
         } else {

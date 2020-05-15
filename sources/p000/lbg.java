@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lbg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lbg extends bxvk implements bxxd {
+public final class lbg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final lbg f25722a;
@@ -17,7 +17,7 @@ public final class lbg extends bxvk implements bxxd {
     static {
         lbg lbg = new lbg();
         f25722a = lbg;
-        bxvk.m124024a(lbg.class, lbg);
+        GeneratedMessageLite.m124024a(lbg.class, lbg);
     }
 
     private lbg() {
@@ -34,7 +34,7 @@ public final class lbg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25722a, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0007", new Object[]{"b"});
+            return GeneratedMessageLite.m124022a(f25722a, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0007", new Object[]{"b"});
         } else if (i2 == 3) {
             return new lbg();
         } else {

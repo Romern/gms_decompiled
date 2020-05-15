@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmgl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmgl extends bxvk implements bxxd {
+public final class bmgl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bmgl f129265g;
@@ -17,7 +17,7 @@ public final class bmgl extends bxvk implements bxxd {
     public String f129268b = "";
 
     /* renamed from: c */
-    public bxtx f129269c = bxtx.f164797b;
+    public ByteString f129269c = ByteString.f164797b;
 
     /* renamed from: d */
     public bmgf f129270d;
@@ -31,7 +31,7 @@ public final class bmgl extends bxvk implements bxxd {
     static {
         bmgl bmgl = new bmgl();
         f129265g = bmgl;
-        bxvk.m124024a(bmgl.class, bmgl);
+        GeneratedMessageLite.m124024a(bmgl.class, bmgl);
     }
 
     private bmgl() {
@@ -48,7 +48,7 @@ public final class bmgl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f129265g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0002\u0003ည\u0001\u0005ဉ\u0003\u0006ဉ\u0004", new Object[]{"a", "b", "d", "c", "e", "f"});
+            return GeneratedMessageLite.m124022a(f129265g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0002\u0003ည\u0001\u0005ဉ\u0003\u0006ဉ\u0004", new Object[]{"a", "b", "d", "c", "e", "f"});
         } else if (i2 == 3) {
             return new bmgl();
         } else {

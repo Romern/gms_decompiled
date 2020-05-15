@@ -10,7 +10,7 @@ public interface bafl extends Closeable {
     banf mo55664a();
 
     /* renamed from: a */
-    bxtx mo55665a(bxtx bxtx);
+    ByteString mo55665a(ByteString bxtx);
 
     /* renamed from: a */
     byjj mo55666a(banx banx);
@@ -25,13 +25,13 @@ public interface bafl extends Closeable {
     void mo55669a(bany bany, badj badj, long j, int i, long j2, long j3);
 
     /* renamed from: a */
-    void mo55670a(bany bany, bxtx bxtx, bxtx bxtx2, long j);
+    void mo55670a(bany bany, ByteString bxtx, ByteString bxtx2, long j);
 
     /* renamed from: a */
     void mo55671a(bany bany, byjj byjj);
 
     /* renamed from: a */
-    void mo55672a(bany bany, String str, bxtx bxtx, bxtx bxtx2);
+    void mo55672a(bany bany, String str, ByteString bxtx, ByteString bxtx2);
 
     /* renamed from: b */
     badj mo55673b(banx banx);

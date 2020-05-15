@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public final class xjg implements xjb {
 
     /* renamed from: i */
-    private static final sek f52402i = new sek(new String[]{"BleChannel"}, (short[]) null);
+    private static final Logger f52402i = new Logger(new String[]{"BleChannel"}, (short[]) null);
 
     /* renamed from: a */
     private final Context f52403a;

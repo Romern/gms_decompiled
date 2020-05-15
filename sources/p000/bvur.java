@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvur */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvur extends bxvk implements bxxd {
+public final class bvur extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bvur f157730d;
@@ -22,7 +22,7 @@ public final class bvur extends bxvk implements bxxd {
     static {
         bvur bvur = new bvur();
         f157730d = bvur;
-        bxvk.m124024a(bvur.class, bvur);
+        GeneratedMessageLite.m124024a(bvur.class, bvur);
     }
 
     private bvur() {
@@ -39,7 +39,7 @@ public final class bvur extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157730d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001b", new Object[]{"a", "b", "c", bvus.class});
+            return GeneratedMessageLite.m124022a(f157730d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001b", new Object[]{"a", "b", "c", bvus.class});
         } else if (i2 == 3) {
             return new bvur();
         } else {

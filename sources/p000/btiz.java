@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btiz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btiz extends bxvk implements bxxd {
+public final class btiz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btiz f149058c;
@@ -19,7 +19,7 @@ public final class btiz extends bxvk implements bxxd {
     static {
         btiz btiz = new btiz();
         f149058c = btiz;
-        bxvk.m124024a(btiz.class, btiz);
+        GeneratedMessageLite.m124024a(btiz.class, btiz);
     }
 
     private btiz() {
@@ -36,7 +36,7 @@ public final class btiz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149058c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\u0004\u0002\u0004", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f149058c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\u0004\u0002\u0004", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new btiz();
         } else {

@@ -51,7 +51,7 @@ public class wud extends ContentProvider {
         blt2.f5121d = 3;
         blt2.f5118a = i4 | 4;
         da.mo73995a((blt) da3.mo74062i());
-        bundle2.putByteArray("cardList", ((blu) da.mo74062i()).mo73642k());
+        bundle2.putByteArray("cardList", ((blu) da.mo74062i()).serializeToBytes());
         return bundle2;
     }
 

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: camk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class camk extends bxvk implements bxxd {
+public final class camk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final camk f175296d;
@@ -22,7 +22,7 @@ public final class camk extends bxvk implements bxxd {
     static {
         camk camk = new camk();
         f175296d = camk;
-        bxvk.m124024a(camk.class, camk);
+        GeneratedMessageLite.m124024a(camk.class, camk);
     }
 
     private camk() {
@@ -39,7 +39,7 @@ public final class camk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175296d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\u0004\u0003Ȉ", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f175296d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\u0004\u0003Ȉ", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new camk();
         } else {

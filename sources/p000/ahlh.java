@@ -94,7 +94,7 @@ final class ahlh implements ahnm, ahlk {
             buty buty = (buty) da.f164949b;
             buty.f154905b = 3;
             buty.f154904a |= 1;
-            ahna.mo36799a(ahoy.m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da.mo74062i()).mo73642k());
+            ahna.mo36799a(ahoy.m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da.mo74062i()).serializeToBytes());
         } catch (IOException e) {
             ahna.mo36796a(4);
             this.f67440f.remove(str);
@@ -165,7 +165,7 @@ final class ahlh implements ahnm, ahlk {
             buty buty = (buty) da.f164949b;
             buty.f154905b = 2;
             buty.f154904a |= 1;
-            b.mo36799a(ahoy.m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da.mo74062i()).mo73642k());
+            b.mo36799a(ahoy.m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da.mo74062i()).serializeToBytes());
             this.f67440f.put(str, b);
             if (this.f67442h.remove(str)) {
                 mo36789b(ahkv, str);
@@ -229,7 +229,7 @@ final class ahlh implements ahnm, ahlk {
                 butx.getClass();
                 buty.f154906c = butx;
                 buty.f154904a = i | 2;
-                a.mo36799a(ahoy.m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da.mo74062i()).mo73642k());
+                a.mo36799a(ahoy.m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da.mo74062i()).serializeToBytes());
                 if (this.f67443i != bvif.UNKNOWN_MEDIUM) {
                     ((ahll) this.f67439e.get(this.f67443i)).mo36793a();
                     this.f67443i = bvif.UNKNOWN_MEDIUM;

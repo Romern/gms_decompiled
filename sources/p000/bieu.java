@@ -76,7 +76,7 @@ public final class bieu implements bieq {
         String str2 = placesClientIdentifier.f79497b;
         bpqk c = bhqq.m101365c(15, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bxvd da = bppg.f138615d.mo74144da();
         if (str != null) {
             if (da.f164950c) {

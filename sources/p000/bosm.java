@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bosm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bosm extends bxvk implements bxxd {
+public final class bosm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bosm f134615e;
@@ -25,7 +25,7 @@ public final class bosm extends bxvk implements bxxd {
     static {
         bosm bosm = new bosm();
         f134615e = bosm;
-        bxvk.m124024a(bosm.class, bosm);
+        GeneratedMessageLite.m124024a(bosm.class, bosm);
     }
 
     private bosm() {
@@ -42,7 +42,7 @@ public final class bosm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134615e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဇ\u0000\u0002ဉ\u0001\u0003\u001b", new Object[]{"a", "b", "c", "d", bosl.class});
+            return GeneratedMessageLite.m124022a(f134615e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဇ\u0000\u0002ဉ\u0001\u0003\u001b", new Object[]{"a", "b", "c", "d", bosl.class});
         } else if (i2 == 3) {
             return new bosm();
         } else {

@@ -11,6 +11,6 @@ final /* synthetic */ class cfhi implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (btcz) bxvk.m124014a(btcz.f148362g, bArr);
+        return (btcz) GeneratedMessageLite.m124014a(btcz.f148362g, bArr);
     }
 }

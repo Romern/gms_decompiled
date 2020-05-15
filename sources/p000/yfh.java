@@ -38,7 +38,7 @@ public final class yfh extends yfe {
       bngx.a(java.util.Comparator, java.lang.Iterable):bngx */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ List mo30405a(long j, long j2, long j3, List list, ygc ygc, ydw ydw) {
-        bxvk bxvk;
+        GeneratedMessageLite GeneratedMessageLite;
         List<cadj> a = this.f53723b.mo30405a(j, j2, j3, list, ygc, ydw);
         if (a.isEmpty()) {
             return bngx.m109376e();
@@ -72,7 +72,7 @@ public final class yfh extends yfe {
             cadj a4 = yyj.m45004a(cadj2.f172683b, ((cadj) bnjd.m109595d(list2)).f172684c, cadj2.f172686e, cadl.ACTIVITY_TYPE_BUCKET);
             if ((cadj2.f172682a & 64) != 0) {
                 bxvd bxvd = (bxvd) a4.mo74142c(5);
-                bxvd.mo73625a((bxvk) a4);
+                bxvd.mo73625a((GeneratedMessageLite) a4);
                 cadi cadi = (cadi) bxvd;
                 boolean z3 = cadj2.f172689h;
                 if (cadi.f164950c) {
@@ -111,7 +111,7 @@ public final class yfh extends yfe {
                         bmxy.m108596a(z2, "Unmatched data type: %s", yyl.m45026a((cadq) cadp2).f172336b);
                         bmzs.m108696a(cadp3);
                         bxvd bxvd2 = (bxvd) cadp3.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) cadp3);
+                        bxvd2.mo73625a((GeneratedMessageLite) cadp3);
                         cado cado = (cado) bxvd2;
                         cado.mo74617a(cadp2.f172714c);
                         hashMap.put(yyl.m45026a((cadq) cadp2).f172336b, (cadp) cado.mo74062i());
@@ -147,14 +147,14 @@ public final class yfh extends yfe {
                         }
                         a7.mo74617a(b);
                     }
-                    bxvk = a7.mo74062i();
+                    GeneratedMessageLite = a7.mo74062i();
                 } else {
-                    bxvk = yyl.m45027a(cadp4, caae).mo74062i();
+                    GeneratedMessageLite = yyl.m45027a(cadp4, caae).mo74062i();
                 }
-                arrayList3.add((cadp) bxvk);
+                arrayList3.add((cadp) GeneratedMessageLite);
             }
             bxvd bxvd3 = (bxvd) a4.mo74142c(5);
-            bxvd3.mo73625a((bxvk) a4);
+            bxvd3.mo73625a((GeneratedMessageLite) a4);
             cadi cadi2 = (cadi) bxvd3;
             if (cadi2.f164950c) {
                 cadi2.mo74035c();

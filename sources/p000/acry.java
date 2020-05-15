@@ -91,7 +91,7 @@ public final class acry {
     public final void mo33050a(byte[] bArr) {
         if (bArr != null && bArr.length > 0) {
             try {
-                this.f60652a.mo74396a(this.f60653b, (bott) bxvk.m124014a(bott.f134871d, bArr));
+                this.f60652a.mo74396a(this.f60653b, (bott) GeneratedMessageLite.m124014a(bott.f134871d, bArr));
             } catch (bxwf e) {
             }
         }

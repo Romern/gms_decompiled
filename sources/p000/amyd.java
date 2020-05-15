@@ -48,7 +48,7 @@ public abstract class amyd {
         aluw aluw;
         this.f76370d = i;
         try {
-            aluw = (aluw) bxvk.m124014a(aluw.f74347c, mo41557a());
+            aluw = (aluw) GeneratedMessageLite.m124014a(aluw.f74347c, mo41557a());
         } catch (bxwf e) {
             aluw = aluw.f74347c;
         }

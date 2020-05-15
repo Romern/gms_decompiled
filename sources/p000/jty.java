@@ -31,7 +31,7 @@ public final class jty {
         Account a;
         try {
             try {
-                jus jus = (jus) bxvk.m124016a(jus.f23257h, this.f23210b.mo74478b(bArr), bxus.m123744c());
+                jus jus = (jus) GeneratedMessageLite.m124016a(jus.f23257h, this.f23210b.mo74478b(bArr), bxus.m123744c());
                 jul jul = this.f23209a;
                 if ((jus.f23259a & 8) != 0) {
                     SourceChimeraActivity sourceChimeraActivity = jul.f23233b;
@@ -49,9 +49,9 @@ public final class jty {
                     for (int i = 0; i < bsae.f143835a.size(); i++) {
                         brzo a2 = sourceChimeraActivity.mo7851a((brzs) bsae.f143835a.get(i), grm, grx);
                         if (a2 == null) {
-                            sek sek = SourceChimeraActivity.f11265a;
+                            Logger Logger = SourceChimeraActivity.f11265a;
                             String valueOf = String.valueOf(((brzs) bsae.f143835a.get(i)).f143782b);
-                            sek.mo25418e(valueOf.length() == 0 ? new String("Could not create assertion for account: ") : "Could not create assertion for account: ".concat(valueOf), new Object[0]);
+                            Logger.mo25418e(valueOf.length() == 0 ? new String("Could not create assertion for account: ") : "Could not create assertion for account: ".concat(valueOf), new Object[0]);
                         } else {
                             arrayList.add(a2);
                         }
@@ -113,7 +113,7 @@ public final class jty {
                     } else {
                         SourceChimeraActivity.f11265a.mo25414c("Backup account not found.", new Object[0]);
                     }
-                    String hexString = Long.toHexString(spn.m35843a((Context) sourceChimeraActivity));
+                    String hexString = Long.toHexString(spn.getAndroidId((Context) sourceChimeraActivity));
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -146,7 +146,7 @@ public final class jty {
                     SourceChimeraActivity sourceChimeraActivity2 = jul.f23233b;
                     bxwc bxwc = jus.f23265g;
                     String str2 = jul.f23232a;
-                    sek sek2 = SourceChimeraActivity.f11265a;
+                    Logger logger2 = SourceChimeraActivity.f11265a;
                     sourceChimeraActivity2.runOnUiThread(new jub(sourceChimeraActivity2, bxwc, str2));
                     try {
                         sourceChimeraActivity2.f11284s.mo14096a();

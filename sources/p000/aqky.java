@@ -19,7 +19,7 @@ import com.google.android.gms.signin.activity.BrowserConsentFragment$HiddenApiAc
 public final class aqky extends Fragment implements aqkz {
 
     /* renamed from: a */
-    public static final sek f86318a = aqom.m71874a("BrowserConsentFragment");
+    public static final Logger f86318a = aqom.m71874a("BrowserConsentFragment");
 
     /* renamed from: b */
     public final bqgy f86319b = bqgy.m112818c();

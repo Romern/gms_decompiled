@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aapk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aapk extends bxvk implements bxxd {
+public final class aapk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final aapk f28782g;
@@ -31,7 +31,7 @@ public final class aapk extends bxvk implements bxxd {
     static {
         aapk aapk = new aapk();
         f28782g = aapk;
-        bxvk.m124024a(aapk.class, aapk);
+        GeneratedMessageLite.m124024a(aapk.class, aapk);
     }
 
     private aapk() {
@@ -48,7 +48,7 @@ public final class aapk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28782g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0002ဂ\u0001\u0003ဉ\u0002\u0004\u001b\u0005ဉ\u0003", new Object[]{"a", "b", "c", "d", "e", aapv.class, "f"});
+            return GeneratedMessageLite.m124022a(f28782g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0002ဂ\u0001\u0003ဉ\u0002\u0004\u001b\u0005ဉ\u0003", new Object[]{"a", "b", "c", "d", "e", aapv.class, "f"});
         } else if (i2 == 3) {
             return new aapk();
         } else {

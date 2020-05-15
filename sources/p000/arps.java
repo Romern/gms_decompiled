@@ -15,7 +15,7 @@ import com.google.autofill.detection.p098ml.AndroidInputTypeSignal;
 public final class arps extends Fragment {
 
     /* renamed from: a */
-    public static final sek f88090a = ascp.m73787a("D2D", "UI", "TargetResourcesFragment");
+    public static final Logger f88090a = ascp.m73787a("D2D", "UI", "TargetResourcesFragment");
 
     /* renamed from: b */
     public arez f88091b = null;
@@ -71,7 +71,7 @@ public final class arps extends Fragment {
     public final void mo48740b() {
         if (this.f88091b != null) {
             this.f88092c = false;
-            f88090a.mo25409a("Disabling target mode.", new Object[0]);
+            f88090a.logVerbose("Disabling target mode.", new Object[0]);
             arez arez = this.f88091b;
             arez.mo48476a("target_nearby_api");
             roz b = rpa.m34196b();

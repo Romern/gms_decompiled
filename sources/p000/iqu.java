@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public final class iqu {
 
     /* renamed from: e */
-    private static final sek f21586e = new sek(new String[]{"CryptauthGrpcClient"}, (byte[]) null);
+    private static final Logger f21586e = new Logger(new String[]{"CryptauthGrpcClient"}, (byte[]) null);
 
     /* renamed from: a */
     public final chsz f21587a;

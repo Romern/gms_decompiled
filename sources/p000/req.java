@@ -37,7 +37,7 @@ public final class req {
                     bqyl.mo69466a(i2);
                 }
             }
-            bxtx aL = ((bqym) bqyl.mo74062i()).mo73639aL();
+            ByteString aL = ((bqym) bqyl.mo74062i()).mo73639aL();
             if (bqyp.f164950c) {
                 bqyp.mo74035c();
                 bqyp.f164950c = false;
@@ -50,13 +50,13 @@ public final class req {
         if (experimentTokens != null) {
             byte[] bArr2 = experimentTokens.f82089c;
             if (!(bArr2 == null || bArr2.length == 0)) {
-                bqyp.mo69467a(bxtx.m123261a(bArr2));
+                bqyp.mo69467a(ByteString.m123261a(bArr2));
             }
             byte[][] bArr3 = experimentTokens.f82095i;
             if (bArr3 != null) {
                 for (byte[] bArr4 : bArr3) {
                     if (!(bArr4 == null || bArr4.length == 0)) {
-                        bqyp.mo69467a(bxtx.m123261a(bArr4));
+                        bqyp.mo69467a(ByteString.m123261a(bArr4));
                     }
                 }
             }

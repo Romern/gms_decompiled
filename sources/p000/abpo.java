@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abpo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abpo extends bxvk implements bxxd {
+public final class abpo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final abpo f57877b;
@@ -16,7 +16,7 @@ public final class abpo extends bxvk implements bxxd {
     static {
         abpo abpo = new abpo();
         f57877b = abpo;
-        bxvk.m124024a(abpo.class, abpo);
+        GeneratedMessageLite.m124024a(abpo.class, abpo);
     }
 
     private abpo() {
@@ -33,7 +33,7 @@ public final class abpo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57877b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001a", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f57877b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001a", new Object[]{"a"});
         } else if (i2 == 3) {
             return new abpo();
         } else {

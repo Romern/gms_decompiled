@@ -49,7 +49,7 @@ public class ijm extends ijt {
         sdo.m34977c(str);
         Intent intent = new Intent();
         intent.putExtra("account", str);
-        intent.putExtra("tx_request", bypc.mo73642k());
+        intent.putExtra("tx_request", bypc.serializeToBytes());
         intent.putExtra("encryption_key_handle", bArr);
         intent.addFlags(268435456).addFlags(134217728).addFlags(2097152).addFlags(8388608).addFlags(4).addFlags(AndroidInputTypeSignal.TYPE_TEXT_FLAG_AUTO_COMPLETE).addFlags(AndroidInputTypeSignal.TYPE_TEXT_FLAG_IME_MULTI_LINE);
         return intent;

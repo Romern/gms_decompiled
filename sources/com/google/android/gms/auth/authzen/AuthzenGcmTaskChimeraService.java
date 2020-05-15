@@ -64,7 +64,7 @@ public class AuthzenGcmTaskChimeraService extends aeah {
             bypc bypc = null;
             if (decode2 != null) {
                 try {
-                    bypc = (bypc) bxvk.m124014a(bypc.f167305k, decode2);
+                    bypc = (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, decode2);
                 } catch (bxwf e) {
                     sek sek3 = f10373a;
                     String valueOf3 = String.valueOf(e);

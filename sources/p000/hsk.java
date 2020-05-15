@@ -12,7 +12,7 @@ import java.util.Iterator;
 public final class hsk implements hep {
 
     /* renamed from: a */
-    protected static final sek f20355a = ght.m13172b("SaveOperation");
+    protected static final Logger f20355a = ght.m13172b("SaveOperation");
 
     /* renamed from: h */
     public static final /* synthetic */ int f20356h = 0;

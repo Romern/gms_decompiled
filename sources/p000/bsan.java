@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsan */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsan extends bxvk implements bxxd {
+public final class bsan extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bsan f143878b;
@@ -19,7 +19,7 @@ public final class bsan extends bxvk implements bxxd {
     static {
         bsan bsan = new bsan();
         f143878b = bsan;
-        bxvk.m124024a(bsan.class, bsan);
+        GeneratedMessageLite.m124024a(bsan.class, bsan);
     }
 
     private bsan() {
@@ -40,7 +40,7 @@ public final class bsan extends bxvk implements bxxd {
             this.f143881c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f143878b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", bsal.class});
+            return GeneratedMessageLite.m124022a(f143878b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", bsal.class});
         } else if (i2 == 3) {
             return new bsan();
         } else {

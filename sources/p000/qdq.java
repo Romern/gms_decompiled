@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public final class qdq {
 
     /* renamed from: a */
-    public static final sek f40999a = new sek("NetworkRequester", new String[0]);
+    public static final Logger f40999a = new Logger("NetworkRequester", new String[0]);
 
     /* renamed from: b */
     protected final Context f41000b;

@@ -11,7 +11,7 @@ final /* synthetic */ class hlt implements bmxj {
 
     public final Object apply(Object obj) {
         bnhe bnhe = (bnhe) obj;
-        sek sek = hmc.f20015a;
+        Logger Logger = hmc.f20015a;
         if (bnhe.containsKey("credentials_enable_sync") && !((Boolean) bnhe.get("credentials_enable_sync")).booleanValue()) {
             return false;
         }

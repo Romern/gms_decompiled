@@ -134,7 +134,7 @@ public final class hum extends aaab {
     private final void m14884a(hua hua, int i, int i2, long j, Context context, int i3, hul hul, int i4) {
         boei a = m14881a(i, i2, j, hul, i4);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -145,7 +145,7 @@ public final class hum extends aaab {
         boei.f132797a |= PSKKeyManager.MAX_KEY_LENGTH_BYTES;
         boei boei3 = (boei) bxvd.mo74062i();
         bxvd bxvd2 = (bxvd) boei3.mo74142c(5);
-        bxvd2.mo73625a((bxvk) boei3);
+        bxvd2.mo73625a((GeneratedMessageLite) boei3);
         m14885a(hua, bxvd2, context);
     }
 
@@ -217,7 +217,7 @@ public final class hum extends aaab {
                 boei3.f132797a = i8 | 64;
                 boei boei4 = (boei) da.mo74062i();
                 bxvd bxvd = (bxvd) boei4.mo74142c(5);
-                bxvd.mo73625a((bxvk) boei4);
+                bxvd.mo73625a((GeneratedMessageLite) boei4);
                 m14885a(hua, bxvd, context2);
                 m14883a(Status.f30107a, true);
                 return;
@@ -353,7 +353,7 @@ public final class hum extends aaab {
             }
             boei a5 = m14881a(2, elapsedRealtime222, currentTimeMillis, hul, i);
             bxvd bxvd2 = (bxvd) a5.mo74142c(5);
-            bxvd2.mo73625a((bxvk) a5);
+            bxvd2.mo73625a((GeneratedMessageLite) a5);
             m14885a(hua, bxvd2, context);
             f20450a.mo25371b("Sidecar were successfully updated after requestFeatures() call!");
             m14883a(Status.f30107a, true);

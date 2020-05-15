@@ -36,7 +36,7 @@ public final class afay implements Runnable {
         afaz.m52798a();
         afba.m52799e(0);
         if (!afak.m52783a()) {
-            sek sek = TetherListenerChimeraService.f79824e;
+            Logger Logger = TetherListenerChimeraService.f79824e;
             this.f64111a.stopSelf();
             afba.m52799e(1);
             return;

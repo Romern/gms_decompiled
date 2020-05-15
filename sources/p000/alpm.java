@@ -1387,10 +1387,10 @@ public final class alpm extends alna {
                                                                 obj6 = r22;
                                                             } else if (alpn.f74032d) {
                                                                 if (!btfi3.f148674q.mo73779j()) {
-                                                                    bArr = btfi3.f148674q.mo73780k();
+                                                                    bArr = btfi3.f148674q.getKey();
                                                                     i13++;
                                                                 } else {
-                                                                    bArr = !btfi3.f148673p.mo73779j() ? btfi3.f148673p.mo73780k() : null;
+                                                                    bArr = !btfi3.f148673p.mo73779j() ? btfi3.f148673p.getKey() : null;
                                                                 }
                                                                 if (bArr != null) {
                                                                     obj6 = r22;

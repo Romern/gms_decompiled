@@ -16,7 +16,7 @@ public final class bvju extends bxvd implements bxxd {
         bvjv bvjv = (bvjv) this.f164949b;
         bvjv bvjv2 = bvjv.f156354d;
         if (!bvjv.f156358c.mo73666a()) {
-            bvjv.f156358c = bxvk.m124021a(bvjv.f156358c);
+            bvjv.f156358c = GeneratedMessageLite.m124021a(bvjv.f156358c);
         }
         bxsy.m123078a(iterable, bvjv.f156358c);
     }
@@ -30,7 +30,7 @@ public final class bvju extends bxvd implements bxxd {
         bvjv bvjv = (bvjv) this.f164949b;
         bvjv bvjv2 = bvjv.f156354d;
         if (!bvjv.f156357b.mo73666a()) {
-            bvjv.f156357b = bxvk.m124021a(bvjv.f156357b);
+            bvjv.f156357b = GeneratedMessageLite.m124021a(bvjv.f156357b);
         }
         bxsy.m123078a(iterable, bvjv.f156357b);
     }

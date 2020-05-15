@@ -48,6 +48,6 @@ public final class axep {
             str5 = null;
             uri = null;
         }
-        return new ErrorDetails(str3, str4, str5, uri, bzvu.f171558e.mo73780k(), bzvu.f171559f.mo73780k(), bzvu.f171556c == 7);
+        return new ErrorDetails(str3, str4, str5, uri, bzvu.f171558e.getKey(), bzvu.f171559f.getKey(), bzvu.f171556c == 7);
     }
 }

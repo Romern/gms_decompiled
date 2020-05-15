@@ -46,7 +46,7 @@ public final class bdrs implements bdry {
     }
 
     /* renamed from: a */
-    public final bqgg mo58337a(bxtx bxtx) {
+    public final bqgg mo58337a(ByteString bxtx) {
         return m91353a(this.f106327a.mo58337a(bxtx));
     }
 }

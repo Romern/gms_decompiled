@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bybr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bybr extends bxvk implements bxxd {
+public final class bybr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bybr f165586a;
@@ -13,7 +13,7 @@ public final class bybr extends bxvk implements bxxd {
     static {
         bybr bybr = new bybr();
         f165586a = bybr;
-        bxvk.m124024a(bybr.class, bybr);
+        GeneratedMessageLite.m124024a(bybr.class, bybr);
     }
 
     private bybr() {
@@ -31,7 +31,7 @@ public final class bybr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165586a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f165586a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bybr();

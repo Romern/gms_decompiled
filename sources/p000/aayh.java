@@ -279,7 +279,7 @@ public final class aayh {
         abeh.f57206a = i3;
         abeh.f57216k = i2 - 1;
         abeh.f57206a = i3 | 1024;
-        abcm.m47448a(context, ((abeh) da.mo74062i()).mo73642k(), googleHelp);
+        abcm.m47448a(context, ((abeh) da.mo74062i()).serializeToBytes(), googleHelp);
     }
 
     /* renamed from: a */
@@ -298,7 +298,7 @@ public final class aayh {
         abeh.f57206a = i3;
         abeh.f57206a = i3 | AndroidInputTypeSignal.TYPE_TEXT_FLAG_IME_MULTI_LINE;
         abeh.f57222q = j;
-        abcm.m47448a(context, ((abeh) da.mo74062i()).mo73642k(), googleHelp);
+        abcm.m47448a(context, ((abeh) da.mo74062i()).serializeToBytes(), googleHelp);
     }
 
     /* renamed from: a */

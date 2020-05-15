@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mru */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mru extends bxvk implements bxxd {
+public final class mru extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final mru f34488c;
@@ -19,7 +19,7 @@ public final class mru extends bxvk implements bxxd {
     static {
         mru mru = new mru();
         f34488c = mru;
-        bxvk.m124024a(mru.class, mru);
+        GeneratedMessageLite.m124024a(mru.class, mru);
     }
 
     private mru() {
@@ -36,7 +36,7 @@ public final class mru extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34488c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mrt.f34487a});
+            return GeneratedMessageLite.m124022a(f34488c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mrt.f34487a});
         } else if (i2 == 3) {
             return new mru();
         } else {

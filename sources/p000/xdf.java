@@ -21,7 +21,7 @@ public final class xdf {
     public static final /* synthetic */ int f51991a = 0;
 
     /* renamed from: b */
-    private static final sek f51992b = new sek(new String[]{"KeyStoreCryptoHelper"}, (short[]) null);
+    private static final Logger f51992b = new Logger(new String[]{"KeyStoreCryptoHelper"}, (short[]) null);
 
     /* renamed from: a */
     private static aczq m42701a() {

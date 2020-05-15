@@ -14,7 +14,7 @@ import com.google.android.gms.common.api.Status;
 public final class gsa extends aaab {
 
     /* renamed from: a */
-    private static final sek f18923a = ght.m13171a("AddWorkAccountAsyncOp");
+    private static final Logger f18923a = ght.m13171a("AddWorkAccountAsyncOp");
 
     /* renamed from: b */
     private final String f18924b;
@@ -57,12 +57,12 @@ public final class gsa extends aaab {
         if (a == null) {
             f18923a.mo25418e("Failed to add work account, response is null", new Object[0]);
         } else if (!izj.SUCCESS.equals(a.mo7647b())) {
-            sek sek = f18923a;
+            Logger Logger = f18923a;
             String valueOf = String.valueOf(a.mo7647b());
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 36);
             sb.append("Failed to add work account, status: ");
             sb.append(valueOf);
-            sek.mo25418e(sb.toString(), new Object[0]);
+            Logger.mo25418e(sb.toString(), new Object[0]);
         } else {
             account = a.f10744u;
             gpy gpy = this.f18927e;

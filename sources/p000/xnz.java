@@ -20,7 +20,7 @@ import java.util.concurrent.CountDownLatch;
 public final class xnz implements Runnable {
 
     /* renamed from: c */
-    public static final sek f52817c = new sek(new String[]{"AuthenticationOperation"}, (short[]) null);
+    public static final Logger f52817c = new Logger(new String[]{"AuthenticationOperation"}, (short[]) null);
 
     /* renamed from: a */
     public final xwn f52818a;
@@ -158,12 +158,12 @@ public final class xnz implements Runnable {
             String str2 = this.f52824h;
             String str3 = this.f52825i;
             xwn xwn2 = this.f52818a;
-            sdo.m34966a(bArr2, "Challenge parameter cannot be null");
-            sdo.m34966a((Object) str, (Object) "Relying party identifier cannot be null");
-            sdo.m34966a(xkb2, "Key handle cannot be null");
-            sdo.m34966a((Object) str2, (Object) "Origin cannot be null");
-            sdo.m34966a(xwn2, "Event logger cannot be null");
-            sek sek = xdh.f51995a;
+            sdo.checkIfNull(bArr2, "Challenge parameter cannot be null");
+            sdo.checkIfNull((Object) str, (Object) "Relying party identifier cannot be null");
+            sdo.checkIfNull(xkb2, "Key handle cannot be null");
+            sdo.checkIfNull((Object) str2, (Object) "Origin cannot be null");
+            sdo.checkIfNull(xwn2, "Event logger cannot be null");
+            Logger Logger = xdh.f51995a;
             String a2 = boan.f132471e.mo68783a().mo68794a(bArr2);
             String a3 = boan.f132472f.mo68794a(xkb2.mo29857c());
             int length = String.valueOf(a2).length();
@@ -175,7 +175,7 @@ public final class xnz implements Runnable {
             sb.append(str);
             sb.append(" keyHandle:");
             sb.append(a3);
-            sek.mo25412b(sb.toString(), new Object[0]);
+            Logger.mo25412b(sb.toString(), new Object[0]);
             try {
                 long b = xdh.f52055d.mo29675b(str, xkb2);
                 xwn = xwn2;

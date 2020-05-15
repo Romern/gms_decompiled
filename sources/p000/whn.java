@@ -75,7 +75,7 @@ public final class whn extends whz {
                 brbw brbw2 = (brbw) da2.mo74062i();
                 brbw2.getClass();
                 if (!brbx.f142334c.mo73666a()) {
-                    brbx.f142334c = bxvk.m124021a(brbx.f142334c);
+                    brbx.f142334c = GeneratedMessageLite.m124021a(brbx.f142334c);
                 }
                 brbx.f142334c.add(brbw2);
                 hashMap.put(((brbu) da3.f164949b).f142321b, contact);

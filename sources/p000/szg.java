@@ -9,7 +9,7 @@ import java.lang.ref.WeakReference;
 public final class szg {
 
     /* renamed from: a */
-    public static final sek f45485a = tea.m36798a("cellular_networks_listener");
+    public static final Logger f45485a = tea.m36798a("cellular_networks_listener");
 
     /* renamed from: f */
     private static WeakReference f45486f = new WeakReference(null);
@@ -52,7 +52,7 @@ public final class szg {
     public static boolean m36645d() {
         if (cdfn.m132939b()) {
             szr.m36692a();
-            szr.f45526a.mo25409a("Getting count of successful CellularNetworkEvents for subscriptionId %d", -1);
+            szr.f45526a.logVerbose("Getting count of successful CellularNetworkEvents for subscriptionId %d", -1);
             if (szr.m36688a(-1, 1) < cdfn.f180658a.mo6606a().mo77407i()) {
                 return true;
             }
@@ -77,7 +77,7 @@ public final class szg {
         if (m36645d()) {
             mo26266a(cdfn.f180658a.mo6606a().mo77406h(), (int) cdfn.f180658a.mo6606a().mo77405g());
         } else {
-            f45485a.mo25409a("Cellular network signals disabled.", new Object[0]);
+            f45485a.logVerbose("Cellular network signals disabled.", new Object[0]);
         }
     }
 

@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public final class jup {
 
     /* renamed from: a */
-    public static final sek f23237a = new sek("D2D", "BluetoothConnection");
+    public static final Logger f23237a = new Logger("D2D", "BluetoothConnection");
 
     /* renamed from: b */
     public final DataInputStream f23238b = new DataInputStream(this.f23242f.getInputStream());

@@ -10,7 +10,7 @@ import android.provider.Settings;
 public final class qfp {
 
     /* renamed from: a */
-    public static final sek f41122a = qgn.m32143a("ParamsBuilder");
+    public static final Logger f41122a = qgn.m32143a("ParamsBuilder");
 
     /* renamed from: b */
     public static final String f41123b = String.format("https://%s/checkin", SystemProperties.get("gms.checkin.sw_domain", "android.clients.google.com"));

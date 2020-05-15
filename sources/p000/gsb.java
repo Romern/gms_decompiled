@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public final class gsb extends aaab {
 
     /* renamed from: a */
-    private static final sek f18930a = ght.m13171a("RemoveWorkAccountAsyncOp");
+    private static final Logger f18930a = ght.m13171a("RemoveWorkAccountAsyncOp");
 
     /* renamed from: b */
     private final adyd f18931b;

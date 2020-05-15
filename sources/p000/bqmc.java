@@ -17,7 +17,7 @@ public final class bqmc extends bxvd implements bxxd {
         bqmf bqmf2 = bqmf.f141201f;
         bqme.getClass();
         if (!bqmf.f141205c.mo73666a()) {
-            bqmf.f141205c = bxvk.m124021a(bqmf.f141205c);
+            bqmf.f141205c = GeneratedMessageLite.m124021a(bqmf.f141205c);
         }
         bqmf.f141205c.add(bqme);
     }

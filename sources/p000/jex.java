@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: jex */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class jex extends bxvk implements bxxd {
+public final class jex extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final jex f22316d;
@@ -31,7 +31,7 @@ public final class jex extends bxvk implements bxxd {
     static {
         jex jex = new jex();
         f22316d = jex;
-        bxvk.m124024a(jex.class, jex);
+        GeneratedMessageLite.m124024a(jex.class, jex);
     }
 
     private jex() {
@@ -52,7 +52,7 @@ public final class jex extends bxvk implements bxxd {
             this.f22323g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f22316d, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0002\u0001ᔉ\u0000\u0002Л\u0003ဌ\u0001\u0004ဈ\u0002", new Object[]{"e", "f", "a", jfd.class, "b", jev.f22315a, "c"});
+            return GeneratedMessageLite.m124022a(f22316d, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0002\u0001ᔉ\u0000\u0002Л\u0003ဌ\u0001\u0004ဈ\u0002", new Object[]{"e", "f", "a", jfd.class, "b", jev.f22315a, "c"});
         } else if (i2 == 3) {
             return new jex();
         } else {

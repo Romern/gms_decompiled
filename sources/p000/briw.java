@@ -325,7 +325,7 @@ public final class briw extends dck implements brix {
                     try {
                         if (query.moveToFirst()) {
                             if ("add".equals(query.getString(0))) {
-                                hashMap.put(abww2, abyd.m48527a((caef) bxvk.m124012a(caef.f172809f, ByteBuffer.wrap(query.getBlob(1)))));
+                                hashMap.put(abww2, abyd.m48527a((caef) GeneratedMessageLite.m124012a(caef.f172809f, ByteBuffer.wrap(query.getBlob(1)))));
                             } else if ("del".equals(query.getString(0))) {
                                 hashMap.put(abww2, null);
                             }

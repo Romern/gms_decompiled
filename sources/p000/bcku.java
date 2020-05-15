@@ -41,7 +41,7 @@ public final class bcku implements bbxw {
     /* renamed from: a */
     private static bmxv m89203a(byte[] bArr) {
         try {
-            return bmxv.m108566b((cbkj) bxvk.m124014a(cbkj.f177405k, bArr));
+            return bmxv.m108566b((cbkj) GeneratedMessageLite.m124014a(cbkj.f177405k, bArr));
         } catch (bxwf e) {
             return bmvz.f131120a;
         }
@@ -77,7 +77,7 @@ public final class bcku implements bbxw {
 
     /* renamed from: a */
     public static cbex m89205a(String str) {
-        return (cbex) bxvk.m124014a(cbex.f176860f, Base64.decode(str, 8));
+        return (cbex) GeneratedMessageLite.m124014a(cbex.f176860f, Base64.decode(str, 8));
     }
 
     /* renamed from: a */

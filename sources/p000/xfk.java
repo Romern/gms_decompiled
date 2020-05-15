@@ -18,7 +18,7 @@ public final class xfk extends xft {
 
     /* access modifiers changed from: protected */
     /* renamed from: a */
-    public final ProtocolVersion mo29693a(bxtx bxtx) {
+    public final ProtocolVersion mo29693a(ByteString bxtx) {
         try {
             xlf xlf = (xlf) this.f52146f.mo29827a(new xlg(2).mo29903a()).get();
             byte[] a = xlf.mo29900a();

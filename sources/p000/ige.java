@@ -9,7 +9,7 @@ import java.io.IOException;
 public final class ige {
 
     /* renamed from: b */
-    private static final sek f20912b = new sek("AuthTokenProvider");
+    private static final Logger f20912b = new Logger("AuthTokenProvider");
 
     /* renamed from: a */
     private final Context f20913a;
@@ -35,12 +35,12 @@ public final class ige {
                 i3++;
             }
         }
-        sek sek = f20912b;
+        Logger Logger = f20912b;
         StringBuilder sb = new StringBuilder(59);
         sb.append("Failed to retrieve an auth token after ");
         sb.append(i);
         sb.append(" attempts");
-        sek.mo25416d(sb.toString(), new Object[0]);
+        Logger.mo25416d(sb.toString(), new Object[0]);
         return null;
     }
 }

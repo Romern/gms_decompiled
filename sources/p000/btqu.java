@@ -17,7 +17,7 @@ public final class btqu extends bxvd implements bxxd {
         btqw btqw2 = btqw.f150046c;
         btrh.getClass();
         if (!btqw.f150049b.mo73666a()) {
-            btqw.f150049b = bxvk.m124019a(btqw.f150049b);
+            btqw.f150049b = GeneratedMessageLite.m124019a(btqw.f150049b);
         }
         btqw.f150049b.mo74153d(btrh.mo3214a());
     }
@@ -33,7 +33,7 @@ public final class btqu extends bxvd implements bxxd {
         btqw btqw2 = btqw.f150046c;
         btqv.getClass();
         if (!btqw.f150048a.mo73666a()) {
-            btqw.f150048a = bxvk.m124021a(btqw.f150048a);
+            btqw.f150048a = GeneratedMessageLite.m124021a(btqw.f150048a);
         }
         btqw.f150048a.add(btqv);
     }

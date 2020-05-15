@@ -114,7 +114,7 @@ public abstract class ahzt {
     public abstract String mo37321c();
 
     /* renamed from: d */
-    public abstract bxtx mo37322d();
+    public abstract ByteString mo37322d();
 
     /* renamed from: a */
     private static Uri m56925a(Context context, File file) {
@@ -256,7 +256,7 @@ public abstract class ahzt {
             if (!file.exists()) {
                 boolean z = false;
                 if (mo37322d() != null) {
-                    bitmap = BitmapFactory.decodeByteArray(mo37322d().mo73780k(), 0, mo37322d().mo73744a());
+                    bitmap = BitmapFactory.decodeByteArray(mo37322d().getKey(), 0, mo37322d().mo73744a());
                     srn srn = ahsd.f67925a;
                 } else if (mo37321c() != null) {
                     String c2 = mo37321c();

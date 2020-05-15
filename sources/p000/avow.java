@@ -14,7 +14,7 @@ import java.util.Locale;
 public final class avow {
 
     /* renamed from: a */
-    private static final sek f93682a = avpq.m79018e("PayloadMetadataDownloadUtil");
+    private static final Logger f93682a = avpq.m79018e("PayloadMetadataDownloadUtil");
 
     /* renamed from: a */
     public static boolean m78971a(Context context, String str) {

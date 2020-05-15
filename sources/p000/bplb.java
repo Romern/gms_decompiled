@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bplb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bplb extends bxvk implements bxxd {
+public final class bplb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final bplb f138053h;
@@ -34,7 +34,7 @@ public final class bplb extends bxvk implements bxxd {
     static {
         bplb bplb = new bplb();
         f138053h = bplb;
-        bxvk.m124024a(bplb.class, bplb);
+        GeneratedMessageLite.m124024a(bplb.class, bplb);
     }
 
     private bplb() {
@@ -51,7 +51,7 @@ public final class bplb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138053h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0002\u0000\u0001\u0016\u0002\u0016\u0003င\u0000\u0004င\u0001\u0005ဂ\u0002\u0006င\u0003", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f138053h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0002\u0000\u0001\u0016\u0002\u0016\u0003င\u0000\u0004င\u0001\u0005ဂ\u0002\u0006င\u0003", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
         } else if (i2 == 3) {
             return new bplb();
         } else {
@@ -78,14 +78,14 @@ public final class bplb extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo68964b() {
         if (!this.f138057c.mo73666a()) {
-            this.f138057c = bxvk.m124019a(this.f138057c);
+            this.f138057c = GeneratedMessageLite.m124019a(this.f138057c);
         }
     }
 
     /* renamed from: a */
     public final void mo68963a() {
         if (!this.f138056b.mo73666a()) {
-            this.f138056b = bxvk.m124019a(this.f138056b);
+            this.f138056b = GeneratedMessageLite.m124019a(this.f138056b);
         }
     }
 }

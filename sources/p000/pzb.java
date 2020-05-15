@@ -149,7 +149,7 @@ public final class pzb extends qal {
                 }
                 a = pij.m30443a(this.f40704a.f40724i).mo23174a();
                 if (a != null) {
-                    bxtx a2 = bxtx.m123261a(a);
+                    ByteString a2 = ByteString.m123261a(a);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -200,14 +200,14 @@ public final class pzb extends qal {
     public final void mo23075a(byte[] bArr) {
         try {
             this.f40798d.mo23861b("onSuccessResponse");
-            blud blud = (blud) bxvk.m124016a(blud.f127787c, bArr, bxus.m123744c());
+            blud blud = (blud) GeneratedMessageLite.m124016a(blud.f127787c, bArr, bxus.m123744c());
             if ((blud.f127789a & 1) != 0) {
                 bltz bltz = blud.f127790b;
                 if (bltz == null) {
                     bltz = bltz.f127762e;
                 }
                 this.f40798d.mo23673b("response.Session server=%s,port=%d,token=%s", bltz.f127765b, Integer.valueOf(bltz.f127766c), bltz.f127764a);
-                this.f40706h.mo23304a(bltz.f127764a, bltz.f127767d.mo73780k());
+                this.f40706h.mo23304a(bltz.f127764a, bltz.f127767d.getKey());
                 InetAddress byName = InetAddress.getByName(bltz.f127765b);
                 if (byName == null) {
                     this.f40798d.mo23677d("Unable to get the address for %s", bltz.f127765b);

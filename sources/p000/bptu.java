@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bptu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bptu extends bxvk implements bxxd {
+public final class bptu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bptu f139179e;
@@ -28,7 +28,7 @@ public final class bptu extends bxvk implements bxxd {
     static {
         bptu bptu = new bptu();
         f139179e = bptu;
-        bxvk.m124024a(bptu.class, bptu);
+        GeneratedMessageLite.m124024a(bptu.class, bptu);
     }
 
     private bptu() {
@@ -49,7 +49,7 @@ public final class bptu extends bxvk implements bxxd {
             this.f139185f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f139179e, "\u0001\u0003\u0000\u0001\u0001\r\u0003\u0000\u0000\u0001\u0001င\u0000\u0002င\u0003\rᐉ\u000b", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f139179e, "\u0001\u0003\u0000\u0001\u0001\r\u0003\u0000\u0000\u0001\u0001င\u0000\u0002င\u0003\rᐉ\u000b", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bptu();
         } else {

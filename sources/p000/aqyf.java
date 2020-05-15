@@ -71,7 +71,7 @@ public abstract class aqyf implements ascg, arhs {
             return e.mo49042a(bArr);
         }
         List<byte[]> a = arhh.mo48538a(bArr);
-        f87072a.mo25409a("Split message of %d bytes into %d packets", Integer.valueOf(bArr.length), Integer.valueOf(a.size()));
+        f87072a.logVerbose("Split message of %d bytes into %d packets", Integer.valueOf(bArr.length), Integer.valueOf(a.size()));
         ArrayList arrayList = new ArrayList();
         for (byte[] bArr2 : a) {
             arrayList.add(e.mo49042a(bArr2));
@@ -220,10 +220,10 @@ public abstract class aqyf implements ascg, arhs {
                         }
                         int i = arhr.f87745e;
                         if (i == 1) {
-                            arhr.f87741a.mo25409a("Negotiated no encryption", new Object[0]);
+                            arhr.f87741a.logVerbose("Negotiated no encryption", new Object[0]);
                             arhp = arhp.f87735a;
                         } else if (i == 8) {
-                            arhr.f87741a.mo25409a("Negotiated and starting Ukey2 encryption", new Object[0]);
+                            arhr.f87741a.logVerbose("Negotiated and starting Ukey2 encryption", new Object[0]);
                             arhr.f87746f = new arhu(arhr.f87742b, arhr.f87743c);
                             arhu arhu2 = arhr.f87746f;
                             if (arhu2.f87751d == 11) {
@@ -269,14 +269,14 @@ public abstract class aqyf implements ascg, arhs {
                     return;
                 }
                 if (cgqf.m146561b()) {
-                    f87072a.mo25409a("Received %s", a.mo59103c());
+                    f87072a.logVerbose("Received %s", a.mo59103c());
                 } else {
                     asco asco = f87072a;
                     String valueOf = String.valueOf(a);
                     StringBuilder sb4 = new StringBuilder(String.valueOf(valueOf).length() + 15);
                     sb4.append("Received data! ");
                     sb4.append(valueOf);
-                    asco.mo25409a(sb4.toString(), new Object[0]);
+                    asco.logVerbose(sb4.toString(), new Object[0]);
                 }
                 if (arhe.m72761a(a.f107976c)) {
                     int i2 = a.f107976c;
@@ -369,7 +369,7 @@ public abstract class aqyf implements ascg, arhs {
 
     /* renamed from: a */
     public final void mo48248a(String str) {
-        f87072a.mo25409a("pipe read error %s", str);
+        f87072a.logVerbose("pipe read error %s", str);
         String valueOf = String.valueOf(str);
         mo48244a(10576, valueOf.length() == 0 ? new String("Error thrown in the reading pipe: ") : "Error thrown in the reading pipe: ".concat(valueOf));
     }

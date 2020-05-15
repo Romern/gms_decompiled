@@ -203,15 +203,15 @@ public final class ailq {
                     if (!((ailp) this.f69143d.get(str)).f69139a.contains(airw)) {
                         bvgm bvgm = (bvgm) this.f69145f.get(str);
                         if (bvgm != null) {
-                            airu a = airw.mo37927a(new airt(Byte.MIN_VALUE, (byte) 1, (byte) 0, (byte) 0, bvgm.mo73642k(), 255));
+                            airu a = airw.mo37927a(new airt(Byte.MIN_VALUE, (byte) 1, (byte) 0, (byte) 0, bvgm.serializeToBytes(), 255));
                             if (!a.mo37911c()) {
-                                bvgl bvgl = (bvgl) bxvk.m124016a(bvgl.f156007d, a.f69600a, bxus.m123744c());
+                                bvgl bvgl = (bvgl) GeneratedMessageLite.m124016a(bvgl.f156007d, a.f69600a, bxus.m123744c());
                                 srn srn = ailf.f69111a;
                                 ((ailp) this.f69143d.get(str)).f69139a.add(airw);
                                 ahom ahom = (ahom) this.f69144e.get(str);
-                                byte[] k = bvgl.f156010b.mo73780k();
+                                byte[] k = bvgl.f156010b.getKey();
                                 if ((bvgl.f156009a & 2) != 0) {
-                                    bArr = bvgl.f156011c.mo73780k();
+                                    bArr = bvgl.f156011c.getKey();
                                 } else {
                                     bArr = null;
                                 }
@@ -335,7 +335,7 @@ public final class ailq {
             bvgm.f156016c = str2;
             if (bArr != null) {
                 if (bArr.length > 0) {
-                    bxtx a = bxtx.m123261a(bArr);
+                    ByteString a = ByteString.m123261a(bArr);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -375,7 +375,7 @@ public final class ailq {
             return false;
         } else {
             bxvd da = bvgl.f156007d.mo74144da();
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -386,7 +386,7 @@ public final class ailq {
             bvgl.f156010b = a;
             if (bArr2 != null) {
                 if (bArr2.length > 0) {
-                    bxtx a2 = bxtx.m123261a(bArr2);
+                    ByteString a2 = ByteString.m123261a(bArr2);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;

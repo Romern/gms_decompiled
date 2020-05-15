@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public final class gnh {
 
     /* renamed from: a */
-    public static final sek f18680a = ght.m13171a("GetTokenResponseHandler");
+    public static final Logger f18680a = ght.m13171a("GetTokenResponseHandler");
 
     /* renamed from: b */
     public static final bnic f18681b = bnic.m109494a("ac2dm", "android", "androidconsole", "androidsecure", "gaia", "mobilesync", "^^_account_id_^^", "oauth2:https://www.googleapis.com/auth/android_checkin", "oauth2:https://www.googleapis.com/auth/cryptauth", "oauth2:https://www.googleapis.com/auth/ender", "oauth2:https://www.googleapis.com/auth/experimentsandconfigs", "oauth2:https://www.googleapis.com/auth/glass.hangouts", "oauth2:https://www.googleapis.com/auth/androiddevicemanagementregistration", "oauth2:https://www.googleapis.com/auth/kid.management.bootstrap", "androidmarket");

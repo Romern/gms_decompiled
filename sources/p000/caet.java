@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caet */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caet extends bxvk implements bxxd {
+public final class caet extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final caet f172852g;
@@ -31,7 +31,7 @@ public final class caet extends bxvk implements bxxd {
     static {
         caet caet = new caet();
         f172852g = caet;
-        bxvk.m124024a(caet.class, caet);
+        GeneratedMessageLite.m124024a(caet.class, caet);
     }
 
     private caet() {
@@ -48,7 +48,7 @@ public final class caet extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172852g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဌ\u0003\u0005ဌ\u0004", new Object[]{"a", "b", "c", "d", "e", cafd.f172888a, "f", caez.f172877a});
+            return GeneratedMessageLite.m124022a(f172852g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဌ\u0003\u0005ဌ\u0004", new Object[]{"a", "b", "c", "d", "e", cafd.f172888a, "f", caez.f172877a});
         } else if (i2 == 3) {
             return new caet();
         } else {

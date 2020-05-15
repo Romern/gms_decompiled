@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbea */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbea extends bxvk implements bxxd {
+public final class cbea extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbea f176814b;
@@ -16,7 +16,7 @@ public final class cbea extends bxvk implements bxxd {
     static {
         cbea cbea = new cbea();
         f176814b = cbea;
-        bxvk.m124024a(cbea.class, cbea);
+        GeneratedMessageLite.m124024a(cbea.class, cbea);
     }
 
     private cbea() {
@@ -33,7 +33,7 @@ public final class cbea extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176814b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cbds.class});
+            return GeneratedMessageLite.m124022a(f176814b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cbds.class});
         } else if (i2 == 3) {
             return new cbea();
         } else {

@@ -17,7 +17,7 @@ import org.apache.http.message.BasicNameValuePair;
 public final class gns {
 
     /* renamed from: a */
-    public static final sek f18715a = ght.m13171a("TokenCache");
+    public static final Logger f18715a = ght.m13171a("TokenCache");
 
     /* renamed from: b */
     public static final imo f18716b = new gnr();

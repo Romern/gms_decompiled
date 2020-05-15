@@ -139,7 +139,7 @@ public class bkjm extends bkdx implements bjwp {
             byte[] byteArray = bundle.getByteArray("networkToken");
             if (byteArray != null && byteArray.length != 0) {
                 try {
-                    this.f124429g = (bwey) bxvk.m124016a(bwey.f159035i, byteArray, bxus.m123744c());
+                    this.f124429g = (bwey) GeneratedMessageLite.m124016a(bwey.f159035i, byteArray, bxus.m123744c());
                 } catch (bxwf e) {
                     Log.w("TPConsumerVerifFrag", "Invalid Network Token parse from saved instance!");
                 }
@@ -166,7 +166,7 @@ public class bkjm extends bkdx implements bjwp {
         bundle.putBoolean("hasPerformedAuthentication", this.f124430h);
         bwey bwey = this.f124429g;
         if (bwey != null) {
-            bundle.putByteArray("networkToken", bwey.mo73642k());
+            bundle.putByteArray("networkToken", bwey.serializeToBytes());
         }
     }
 
@@ -234,7 +234,7 @@ public class bkjm extends bkdx implements bjwp {
         if (bmdn2 == null) {
             bmdn2 = bmdn.f128831k;
         }
-        bxtx bxtx = bmdn2.f128836d;
+        ByteString bxtx = bmdn2.f128836d;
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

@@ -27,7 +27,7 @@ public final class atdg {
     /* renamed from: a */
     public static bydc m75597a(byte[] bArr) {
         try {
-            return (bydc) bxvk.m124016a(bydc.f165756b, bArr, bxus.m123744c());
+            return (bydc) GeneratedMessageLite.m124016a(bydc.f165756b, bArr, bxus.m123744c());
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) f90116a.mo68387b();
             bnsl.mo68437a(e);
@@ -56,7 +56,7 @@ public final class atdg {
                     bydb.mo74346a(str2);
                 }
                 ContentValues contentValues = new ContentValues();
-                contentValues.put("supported_aids", ((bydc) bydb.mo74062i()).mo73642k());
+                contentValues.put("supported_aids", ((bydc) bydb.mo74062i()).serializeToBytes());
                 a.update("PaymentBundles", contentValues, "bundle_id = ? AND account_id = ? AND environment = ?", m75598a(str, askf));
                 a.setTransactionSuccessful();
                 a.endTransaction();

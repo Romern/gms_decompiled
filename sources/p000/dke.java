@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: dke */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class dke extends bxvk implements bxxd {
+public final class dke extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final dke f13390f;
@@ -28,7 +28,7 @@ public final class dke extends bxvk implements bxxd {
     static {
         dke dke = new dke();
         f13390f = dke;
-        bxvk.m124024a(dke.class, dke);
+        GeneratedMessageLite.m124024a(dke.class, dke);
     }
 
     private dke() {
@@ -45,7 +45,7 @@ public final class dke extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f13390f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0000\u0001င\u0000\u0002\u001b\u0003\u001b\u0004င\u0001", new Object[]{"a", "b", "c", dkd.class, "d", dkf.class, "e"});
+            return GeneratedMessageLite.m124022a(f13390f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0000\u0001င\u0000\u0002\u001b\u0003\u001b\u0004င\u0001", new Object[]{"a", "b", "c", dkd.class, "d", dkf.class, "e"});
         } else if (i2 == 3) {
             return new dke();
         } else {
@@ -72,14 +72,14 @@ public final class dke extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo9190b() {
         if (!this.f13395d.mo73666a()) {
-            this.f13395d = bxvk.m124021a(this.f13395d);
+            this.f13395d = GeneratedMessageLite.m124021a(this.f13395d);
         }
     }
 
     /* renamed from: a */
     public final void mo9189a() {
         if (!this.f13394c.mo73666a()) {
-            this.f13394c = bxvk.m124021a(this.f13394c);
+            this.f13394c = GeneratedMessageLite.m124021a(this.f13394c);
         }
     }
 }

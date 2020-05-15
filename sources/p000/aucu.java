@@ -89,8 +89,8 @@ public final class aucu {
 
     /* renamed from: a */
     public static aucb m76780a(Executor executor, Callable callable) {
-        sdo.m34966a(executor, "Executor must not be null");
-        sdo.m34966a(callable, "Callback must not be null");
+        sdo.checkIfNull(executor, "Executor must not be null");
+        sdo.checkIfNull(callable, "Callback must not be null");
         auck auck = new auck();
         executor.execute(new auco(auck, callable));
         return auck;
@@ -104,7 +104,7 @@ public final class aucu {
     /* renamed from: a */
     public static Object m76782a(aucb aucb) {
         sdo.m34960a();
-        sdo.m34966a(aucb, "Task must not be null");
+        sdo.checkIfNull(aucb, "Task must not be null");
         if (aucb.mo50381a()) {
             return m76787b(aucb);
         }
@@ -117,8 +117,8 @@ public final class aucu {
     /* renamed from: a */
     public static Object m76783a(aucb aucb, long j, TimeUnit timeUnit) {
         sdo.m34960a();
-        sdo.m34966a(aucb, "Task must not be null");
-        sdo.m34966a(timeUnit, "TimeUnit must not be null");
+        sdo.checkIfNull(aucb, "Task must not be null");
+        sdo.checkIfNull(timeUnit, "TimeUnit must not be null");
         if (aucb.mo50381a()) {
             return m76787b(aucb);
         }

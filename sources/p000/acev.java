@@ -15,7 +15,6 @@ import com.google.android.gms.appdatasearch.SearchResults;
 import com.google.android.gms.appdatasearch.Section;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -251,7 +250,7 @@ public final class acev implements bamd {
                 byte[] byteArray = signature.toByteArray();
                 MessageDigest instance = MessageDigest.getInstance("SHA-256");
                 instance.update(byteArray);
-                bxtx a = bxtx.m123261a(instance.digest());
+                ByteString a = ByteString.m123261a(instance.digest());
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

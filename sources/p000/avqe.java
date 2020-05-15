@@ -8,7 +8,7 @@ import java.io.IOException;
 public final class avqe extends avqd {
 
     /* renamed from: f */
-    public static final sek f93772f = avpq.m79020g("NormalNetworkRequester");
+    public static final Logger f93772f = avpq.m79020g("NormalNetworkRequester");
 
     /* renamed from: g */
     private final long f93773g;

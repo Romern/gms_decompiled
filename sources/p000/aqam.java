@@ -18,7 +18,7 @@ public final class aqam extends bxvd implements bxxd {
         aqao aqao2 = aqao.f85418e;
         aqan.getClass();
         if (!aqao.f85423d.mo73666a()) {
-            aqao.f85423d = bxvk.m124021a(aqao.f85423d);
+            aqao.f85423d = GeneratedMessageLite.m124021a(aqao.f85423d);
         }
         aqao.f85423d.add(aqan);
     }

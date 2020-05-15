@@ -10,7 +10,7 @@ import java.util.List;
 public final class ivr {
 
     /* renamed from: f */
-    public static final sek f21878f = new sek(new String[]{"TrustStateTracker"}, (char[]) null);
+    public static final Logger f21878f = new Logger(new String[]{"TrustStateTracker"}, (char[]) null);
 
     /* renamed from: g */
     private static ivr f21879g;

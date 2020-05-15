@@ -8,10 +8,10 @@ public final class burs {
     private aiaa f154786a;
 
     /* renamed from: b */
-    private bxtx f154787b;
+    private ByteString f154787b;
 
     /* renamed from: c */
-    private bxtx f154788c;
+    private ByteString f154788c;
 
     /* renamed from: d */
     private String f154789d;
@@ -36,7 +36,7 @@ public final class burs {
     }
 
     /* renamed from: b */
-    public final void mo73051b(bxtx bxtx) {
+    public final void mo73051b(ByteString bxtx) {
         if (bxtx != null) {
             this.f154788c = bxtx;
             return;
@@ -54,7 +54,7 @@ public final class burs {
     }
 
     /* renamed from: a */
-    public final void mo73049a(bxtx bxtx) {
+    public final void mo73049a(ByteString bxtx) {
         if (bxtx != null) {
             this.f154787b = bxtx;
             return;

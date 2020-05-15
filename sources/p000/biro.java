@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biro */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biro extends bxvk implements bxxd {
+public final class biro extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final biro f121433f;
@@ -31,7 +31,7 @@ public final class biro extends bxvk implements bxxd {
     static {
         biro biro = new biro();
         f121433f = biro;
-        bxvk.m124024a(biro.class, biro);
+        GeneratedMessageLite.m124024a(biro.class, biro);
     }
 
     private biro() {
@@ -52,7 +52,7 @@ public final class biro extends bxvk implements bxxd {
             this.f121440g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121433f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0003\u0001ᔋ\u0000\u0002ᔇ\u0001\u0003ᔋ\u0002\u0004ဇ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f121433f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0003\u0001ᔋ\u0000\u0002ᔇ\u0001\u0003ᔋ\u0002\u0004ဇ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new biro();
         } else {

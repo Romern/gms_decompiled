@@ -42,9 +42,9 @@ public final class lwu {
             if (a3 != 0 && a3 == 2) {
                 Cipher a4 = m24576a();
                 try {
-                    a4.init(4, secretKey, new GCMParameterSpec(128, mde.f33476c.mo73780k()));
+                    a4.init(4, secretKey, new GCMParameterSpec(128, mde.f33476c.getKey()));
                     try {
-                        return (SecretKey) a4.unwrap(mde.f33477d.mo73780k(), "AES", 3);
+                        return (SecretKey) a4.unwrap(mde.f33477d.getKey(), "AES", 3);
                     } catch (NoSuchAlgorithmException e) {
                         throw new lwh("Unable to unwrap tertiary key", e);
                     }
@@ -75,7 +75,7 @@ public final class lwu {
         Cipher a = m24576a();
         a.init(3, secretKey);
         bxvd da = mde.f33472f.mo74144da();
-        bxtx a2 = bxtx.m123261a(a.wrap(secretKey2));
+        ByteString a2 = ByteString.m123261a(a.wrap(secretKey2));
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -84,7 +84,7 @@ public final class lwu {
         a2.getClass();
         mde.f33474a |= 4;
         mde.f33477d = a2;
-        bxtx a3 = bxtx.m123261a(a.getIV());
+        ByteString a3 = ByteString.m123261a(a.getIV());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

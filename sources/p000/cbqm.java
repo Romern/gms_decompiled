@@ -16,7 +16,7 @@ public final class cbqm extends bxvd implements bxxd {
         cbqn cbqn = (cbqn) this.f164949b;
         cbqn cbqn2 = cbqn.f178043d;
         if (!cbqn.f178047c.mo73666a()) {
-            cbqn.f178047c = bxvk.m124021a(cbqn.f178047c);
+            cbqn.f178047c = GeneratedMessageLite.m124021a(cbqn.f178047c);
         }
         bxsy.m123078a(iterable, cbqn.f178047c);
     }

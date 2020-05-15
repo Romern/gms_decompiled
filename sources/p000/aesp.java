@@ -77,7 +77,7 @@ public final class aesp extends aesx {
                     bzlx bzlx = (bzlx) bxwc.get(i2);
                     Context context = aeuc.f63812c;
                     bxvd bxvd = (bxvd) bzlx.mo74142c(i3);
-                    bxvd.mo73625a((bxvk) bzlx);
+                    bxvd.mo73625a((GeneratedMessageLite) bzlx);
                     LocationShare a3 = aexx.m52668a(context, bxvd, bzln);
                     if (a3 != null) {
                         arrayList.add(a3);

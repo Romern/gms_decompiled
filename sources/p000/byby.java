@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byby */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byby extends bxvk implements bxxd {
+public final class byby extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byby f165608c;
@@ -19,7 +19,7 @@ public final class byby extends bxvk implements bxxd {
     static {
         byby byby = new byby();
         f165608c = byby;
-        bxvk.m124024a(byby.class, byby);
+        GeneratedMessageLite.m124024a(byby.class, byby);
     }
 
     private byby() {
@@ -36,7 +36,7 @@ public final class byby extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165608c, "\u0001\u0003\u0001\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000\u0003ြ\u0000", new Object[]{"b", "a", bybz.class, bycc.class, bycb.class});
+            return GeneratedMessageLite.m124022a(f165608c, "\u0001\u0003\u0001\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000\u0003ြ\u0000", new Object[]{"b", "a", bybz.class, bycc.class, bycb.class});
         } else if (i2 == 3) {
             return new byby();
         } else {

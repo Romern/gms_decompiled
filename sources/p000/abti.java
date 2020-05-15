@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abti */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abti extends bxvk implements bxxd {
+public final class abti extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final abti f58235e;
@@ -25,7 +25,7 @@ public final class abti extends bxvk implements bxxd {
     static {
         abti abti = new abti();
         f58235e = abti;
-        bxvk.m124024a(abti.class, abti);
+        GeneratedMessageLite.m124024a(abti.class, abti);
     }
 
     private abti() {
@@ -42,7 +42,7 @@ public final class abti extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58235e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဋ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f58235e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဋ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new abti();
         } else {

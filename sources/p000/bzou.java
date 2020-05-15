@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzou */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzou extends bxvk implements bxxd {
+public final class bzou extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bzou f170868f;
@@ -31,7 +31,7 @@ public final class bzou extends bxvk implements bxxd {
     static {
         bzou bzou = new bzou();
         f170868f = bzou;
-        bxvk.m124024a(bzou.class, bzou);
+        GeneratedMessageLite.m124024a(bzou.class, bzou);
     }
 
     private bzou() {
@@ -52,7 +52,7 @@ public final class bzou extends bxvk implements bxxd {
             this.f170875g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f170868f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0001\u0001\t\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005Љ", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f170868f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0001\u0001\t\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005Љ", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bzou();
         } else {

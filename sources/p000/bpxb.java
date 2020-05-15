@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpxb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpxb extends bxvk implements bxxd {
+public final class bpxb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: R */
     public static final bpxb f139606R;
@@ -142,7 +142,7 @@ public final class bpxb extends bxvk implements bxxd {
     static {
         bpxb bpxb = new bpxb();
         f139606R = bpxb;
-        bxvk.m124024a(bpxb.class, bpxb);
+        GeneratedMessageLite.m124024a(bpxb.class, bpxb);
     }
 
     private bpxb() {
@@ -160,7 +160,7 @@ public final class bpxb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139606R, "\u0001)\u0000\u0002\u0001@)\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0006ဉ\u0004\u0007ဉ\u0005\bဉ\u0006\nဉ\b\u000bဉ\t\fဉ\n\u000eဉ\f\u000fဉ\r\u0010ဉ\u000e\u0012ဉ\u0010\u0013ဉ\u0011\u0014ဉ\u0012\u0015ဂ\u0013\u0016ဉ\u0014\u0017ဉ\u0015\u001aဉ\u0018\u001bဉ\u0019\u001cဉ\u001a\u001dဉ\u001b\u001eဉ\u001c\u001fဉ\u001d ဉ\u001e!ဉ\u001f#ဉ!(ဉ&*ဉ(+ဉ)-ဉ+.ဉ,0ဉ.1ဉ/3ဉ14ဉ25ဉ36ဉ4?ဉ=@ဉ>", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q"});
+            return GeneratedMessageLite.m124022a(f139606R, "\u0001)\u0000\u0002\u0001@)\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0006ဉ\u0004\u0007ဉ\u0005\bဉ\u0006\nဉ\b\u000bဉ\t\fဉ\n\u000eဉ\f\u000fဉ\r\u0010ဉ\u000e\u0012ဉ\u0010\u0013ဉ\u0011\u0014ဉ\u0012\u0015ဂ\u0013\u0016ဉ\u0014\u0017ဉ\u0015\u001aဉ\u0018\u001bဉ\u0019\u001cဉ\u001a\u001dဉ\u001b\u001eဉ\u001c\u001fဉ\u001d ဉ\u001e!ဉ\u001f#ဉ!(ဉ&*ဉ(+ဉ)-ဉ+.ဉ,0ဉ.1ဉ/3ဉ14ဉ25ဉ36ဉ4?ဉ=@ဉ>", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q"});
         } else if (i2 == 3) {
             return new bpxb();
         } else {

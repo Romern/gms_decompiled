@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbos */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbos extends bxvk implements bxxd {
+public final class cbos extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final cbos f177855e;
@@ -25,7 +25,7 @@ public final class cbos extends bxvk implements bxxd {
     static {
         cbos cbos = new cbos();
         f177855e = cbos;
-        bxvk.m124024a(cbos.class, cbos);
+        GeneratedMessageLite.m124024a(cbos.class, cbos);
     }
 
     private cbos() {
@@ -42,7 +42,7 @@ public final class cbos extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177855e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f177855e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new cbos();
         } else {

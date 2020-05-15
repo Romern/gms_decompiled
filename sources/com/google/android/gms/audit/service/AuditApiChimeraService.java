@@ -116,7 +116,7 @@ public class AuditApiChimeraService extends zzx {
             bssp bssp9 = (bssp) da.f164949b;
             languageTag.getClass();
             if (!bssp9.f146904j.mo73666a()) {
-                bssp9.f146904j = bxvk.m124021a(bssp9.f146904j);
+                bssp9.f146904j = GeneratedMessageLite.m124021a(bssp9.f146904j);
             }
             bssp9.f146904j.add(languageTag);
         }

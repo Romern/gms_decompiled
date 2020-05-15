@@ -36,7 +36,7 @@ public final class avma {
     public static final avlv f93363i = f93366l.mo51363a("streaming_property_files", "", cfsi.f185596Y);
 
     /* renamed from: j */
-    private static final sek f93364j = avpq.m79016c("SystemUpdate");
+    private static final Logger f93364j = avpq.m79016c("SystemUpdate");
 
     /* renamed from: k */
     private static int f93365k = -1;

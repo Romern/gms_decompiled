@@ -10,7 +10,7 @@ public final class xwj {
     private static final Random f53293c = bmyk.f131201a;
 
     /* renamed from: d */
-    private static final sek f53294d = new sek(new String[]{"SessionContext"}, (short[]) null);
+    private static final Logger f53294d = new Logger(new String[]{"SessionContext"}, (short[]) null);
 
     /* renamed from: a */
     public final int f53295a;

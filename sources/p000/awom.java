@@ -344,7 +344,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
         bwiu bwiu;
         bmar bmar;
         String str;
-        bxtx bxtx;
+        ByteString bxtx;
         bmkw bmkw;
         Bundle bundle2 = bundle;
         super.onCreate(bundle);
@@ -492,11 +492,11 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
                     bmag = bmag.f128442c;
                 }
                 if (bmag.f128444a == 2) {
-                    bxtx = (bxtx) bmag.f128445b;
+                    bxtx = (ByteString) bmag.f128445b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
-                a2.mo52370a(bxtx.mo73780k());
+                a2.mo52370a(bxtx.getKey());
             }
             pmRootFragment$PurchaseManagerPageDetails.f110466o = a2.f94723a;
             bwjx bwjx13 = bwkc.f159951c;
@@ -539,13 +539,13 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
             }
             if (!(bwjy == null || (bwjy.f159902a & 512) == 0)) {
                 bxvd bxvd = (bxvd) bwjy.mo74142c(5);
-                bxvd.mo73625a((bxvk) bwjy);
+                bxvd.mo73625a((GeneratedMessageLite) bwjy);
                 bmfu bmfu = bwjy.f159911j;
                 if (bmfu == null) {
                     bmfu = bmfu.f129167j;
                 }
                 bxvd bxvd2 = (bxvd) bmfu.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bmfu);
+                bxvd2.mo73625a((GeneratedMessageLite) bmfu);
                 SecurePaymentsData[] securePaymentsDataArr = securePaymentsPayload.f110177b;
                 bxwc bxwc = bwkc.f159952d;
                 int length = securePaymentsDataArr.length;
@@ -596,7 +596,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
                                             bmki2 = bmki.f129802w;
                                         }
                                         bxvd bxvd3 = (bxvd) bmki2.mo74142c(5);
-                                        bxvd3.mo73625a((bxvk) bmki2);
+                                        bxvd3.mo73625a((GeneratedMessageLite) bmki2);
                                         String str3 = awhy.f94378b;
                                         if (bxvd3.f164950c) {
                                             bxvd3.mo74035c();
@@ -621,7 +621,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
                                             bmki5 = bmki.f129802w;
                                         }
                                         bxvd bxvd4 = (bxvd) bmki5.mo74142c(5);
-                                        bxvd4.mo73625a((bxvk) bmki5);
+                                        bxvd4.mo73625a((GeneratedMessageLite) bmki5);
                                         String str4 = awhy.f94378b;
                                         if (bxvd4.f164950c) {
                                             bxvd4.mo74035c();
@@ -1088,14 +1088,14 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
                     bwjz bwjz4 = (bwjz) da.f164949b;
                     c.getClass();
                     if (!bwjz4.f159927e.mo73666a()) {
-                        bwjz4.f159927e = bxvk.m124021a(bwjz4.f159927e);
+                        bwjz4.f159927e = GeneratedMessageLite.m124021a(bwjz4.f159927e);
                     }
                     bwjz4.f159927e.add(c);
                 }
             }
         }
         if (bArr != null) {
-            bxtx a2 = bxtx.m123261a(bArr);
+            ByteString a2 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -1141,17 +1141,17 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
     /* renamed from: a */
     public final void mo52377a(bmaq bmaq, bwgz bwgz, bmar bmar, String str, String str2, bwjy bwjy, bmav bmav, bmag bmag, boolean z, String str3, bwiu bwiu) {
         bmkw bmkw;
-        bxtx bxtx;
+        ByteString bxtx;
         mo52853a(bmav, bmaq);
         awoi a = PmResult.m94081a();
         a.mo52369a(str);
         if (bmag != null) {
             if (bmag.f128444a == 2) {
-                bxtx = (bxtx) bmag.f128445b;
+                bxtx = (ByteString) bmag.f128445b;
             } else {
                 bxtx = bxtx.f164797b;
             }
-            a.mo52370a(bxtx.mo73780k());
+            a.mo52370a(bxtx.getKey());
         }
         if (str2 != null) {
             a.f94723a.f110311d = str2;
@@ -1206,7 +1206,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
         } else {
             bmmp = bmmp.f130032e;
         }
-        byte[] k = bmmp.f130037d.mo73780k();
+        byte[] k = bmmp.f130037d.getKey();
         Bundle bundle = new Bundle();
         bjvp.m104737a(bundle, "EventListener.EXTRA_TRIGGER_VALUE_REFERENCES", list);
         if (bmmv.f130056b == 4) {
@@ -1324,7 +1324,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
                         bwek bwek3 = (bwek) da3.mo74062i();
                         bwek3.getClass();
                         if (!bwel.f159002a.mo73666a()) {
-                            bwel.f159002a = bxvk.m124021a(bwel.f159002a);
+                            bwel.f159002a = GeneratedMessageLite.m124021a(bwel.f159002a);
                         }
                         bwel.f159002a.add(bwek3);
                     }
@@ -1347,7 +1347,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
         }
         int i7 = 5;
         bxvd bxvd = (bxvd) bmfv.mo74142c(5);
-        bxvd.mo73625a((bxvk) bmfv);
+        bxvd.mo73625a((GeneratedMessageLite) bmfv);
         List list = this.f94738k;
         if (list != null) {
             int size3 = list.size();
@@ -1395,7 +1395,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
                                 bmqk = bmqk.f130403g;
                             }
                             bxvd bxvd2 = (bxvd) bmqk.mo74142c(i7);
-                            bxvd2.mo73625a((bxvk) bmqk);
+                            bxvd2.mo73625a((GeneratedMessageLite) bmqk);
                             bmqk bmqk2 = (bmqk) bxvd2.f164949b;
                             if (bmqk2.f130406b == 8) {
                                 str = (String) bmqk2.f130407c;
@@ -1443,7 +1443,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
                                 bmed3 = (bmed) bmfv4.f129182b;
                             }
                             bxvd bxvd3 = (bxvd) bmed3.mo74142c(5);
-                            bxvd3.mo73625a((bxvk) bmed3);
+                            bxvd3.mo73625a((GeneratedMessageLite) bmed3);
                             bmaf bmaf5 = bwhd.f159494b;
                             if (bmaf5 == null) {
                                 bmaf5 = bmaf.f128436d;
@@ -1461,7 +1461,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
                             }
                             bmec bmec2 = (bmec) bmed4.f128920d.get(bmaf6.f128440c);
                             bxvd bxvd4 = (bxvd) bmec2.mo74142c(5);
-                            bxvd4.mo73625a((bxvk) bmec2);
+                            bxvd4.mo73625a((GeneratedMessageLite) bmec2);
                             bmfv bmfv6 = (bmfv) bxvd.f164949b;
                             if (bmfv6.f129181a != 11) {
                                 bmed5 = bmed.f128915f;
@@ -1479,7 +1479,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
                                 bmdy2 = (bmdy) bmec3.f128914b;
                             }
                             bxvd bxvd5 = (bxvd) bmdy2.mo74142c(5);
-                            bxvd5.mo73625a((bxvk) bmdy2);
+                            bxvd5.mo73625a((GeneratedMessageLite) bmdy2);
                             if (bxvd5.f164950c) {
                                 bxvd5.mo74035c();
                                 bxvd5.f164950c = false;
@@ -1554,7 +1554,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
             bwjz4 = bwjz.f159921g;
         }
         bxvd bxvd6 = (bxvd) bwjz4.mo74142c(5);
-        bxvd6.mo73625a((bxvk) bwjz4);
+        bxvd6.mo73625a((GeneratedMessageLite) bwjz4);
         if (bxvd6.f164950c) {
             bxvd6.mo74035c();
             bxvd6.f164950c = false;
@@ -1573,7 +1573,7 @@ public final class awom extends awzg implements View.OnClickListener, bkio, bkjl
         bwjz6.getClass();
         bwka3.f159933c = bwjz6;
         bwka3.f159931a |= 2;
-        SecurePaymentsPayload securePaymentsPayload = new SecurePaymentsPayload(((bwka) da.mo74062i()).mo73642k(), securePaymentsDataArr);
+        SecurePaymentsPayload securePaymentsPayload = new SecurePaymentsPayload(((bwka) da.mo74062i()).serializeToBytes(), securePaymentsDataArr);
         PageDetails pageDetails = this.f95398ak;
         PmResult pmResult = PmResult.m94081a().f94723a;
         pmResult.f110308a = securePaymentsPayload;

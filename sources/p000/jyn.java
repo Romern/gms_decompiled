@@ -31,7 +31,7 @@ final class jyn extends AsyncTask {
         Void[] voidArr = (Void[]) objArr;
         long currentThreadTimeMillis = SystemClock.currentThreadTimeMillis();
         jyp jyp = this.f23534a;
-        sek sek = jyp.f23538a;
+        Logger Logger = jyp.f23538a;
         this.f23535b = vvp.m41462a(jyp.f23540c, jyp.f23539b);
         jyp.f23538a.mo25412b("init: %sms", Long.valueOf(SystemClock.currentThreadTimeMillis() - currentThreadTimeMillis));
         return this.f23535b;

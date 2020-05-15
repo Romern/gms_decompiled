@@ -97,7 +97,7 @@ public final class ashp extends smx {
             Context context2 = getContext();
             String a = aaks.m21407a(context2);
             if (!TextUtils.isEmpty(a)) {
-                long a2 = spn.m35843a(context2);
+                long a2 = spn.getAndroidId(context2);
                 if (a2 != 0) {
                     String hexString = Long.toHexString(a2);
                     StringBuilder sb = new StringBuilder(String.valueOf(a).length() + 24 + String.valueOf(hexString).length());

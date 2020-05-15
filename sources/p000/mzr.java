@@ -28,7 +28,7 @@ final /* synthetic */ class mzr implements Callable {
         File[] listFiles;
         nab nab = this.f35057a;
         int i = 0;
-        nab.f35075a.mo25409a("*** initializing device ***", new Object[0]);
+        nab.f35075a.logVerbose("*** initializing device ***", new Object[0]);
         luj luj = null;
         nab.f35117x.mo19826a(2, (String) null);
         nab.f35110q.sendBroadcast(new Intent("com.google.android.gms.backup.ACTION_TRANSPORT_INITIALIZE_DEVICE").setPackage("com.google.android.gms"));
@@ -41,7 +41,7 @@ final /* synthetic */ class mzr implements Callable {
             context.startService(intent);
         }
         if (nab.f35115v.mo19624a() == null) {
-            nab.f35075a.mo25409a("No backup account for initializeDevice, returning OK", new Object[0]);
+            nab.f35075a.logVerbose("No backup account for initializeDevice, returning OK", new Object[0]);
             nab.f35117x.mo19822a(4, 4);
         } else if (!nab.mo20370a(false)) {
             nab.f35117x.mo19823a(9, 4, nab.f35116w.f34946d);

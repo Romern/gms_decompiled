@@ -63,8 +63,8 @@ public final class azhh extends azhc {
       ClspMth{android.content.ContentValues.put(java.lang.String, java.lang.Integer):void} */
     /* renamed from: a */
     public static void m85697a(MessagingService messagingService, String str, cbhw cbhw, Context context, LocalEntityId localEntityId, String str2, String str3, String str4) {
-        bxtx bxtx;
-        bxtx bxtx2;
+        ByteString bxtx;
+        ByteString bxtx2;
         String str5 = str;
         cbhw cbhw2 = cbhw;
         LocalEntityId localEntityId2 = localEntityId;
@@ -103,7 +103,7 @@ public final class azhh extends azhc {
                     if (cbhp == null) {
                         cbhp = cbhp.f177158b;
                     }
-                    contentValues.put("app_string_tag_mapping", cbhp.mo73642k());
+                    contentValues.put("app_string_tag_mapping", cbhp.serializeToBytes());
                     azcd.m85252a(context).mo54603a(str6, cbhq.f177163a);
                 }
             }
@@ -160,7 +160,7 @@ public final class azhh extends azhc {
                     cbhy3 = cbhy.f177214d;
                 }
                 if (cbhy3.f177216a == 1) {
-                    bxtx = (bxtx) cbhy3.f177217b;
+                    bxtx = (ByteString) cbhy3.f177217b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
@@ -170,20 +170,20 @@ public final class azhh extends azhc {
                         cbhy4 = cbhy.f177214d;
                     }
                     if (cbhy4.f177216a == 1) {
-                        bxtx2 = (bxtx) cbhy4.f177217b;
+                        bxtx2 = (ByteString) cbhy4.f177217b;
                     } else {
                         bxtx2 = bxtx.f164797b;
                     }
-                    contentValues.put("background_image", bxtx2.mo73780k());
+                    contentValues.put("background_image", bxtx2.getKey());
                 }
             }
             cbhr cbhr = cbhl.f177147c;
             if (cbhr != null) {
-                contentValues.put("app_theme", cbhr.mo73642k());
+                contentValues.put("app_theme", cbhr.serializeToBytes());
             }
             cbht cbht = cbhl.f177146b;
             if (cbht != null) {
-                contentValues.put("app_ui_config", cbht.mo73642k());
+                contentValues.put("app_ui_config", cbht.serializeToBytes());
             }
         } else {
             String valueOf3 = String.valueOf(str2);

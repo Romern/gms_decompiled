@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blue */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blue extends bxvk implements bxxd {
+public final class blue extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final blue f127791c;
@@ -19,7 +19,7 @@ public final class blue extends bxvk implements bxxd {
     static {
         blue blue = new blue();
         f127791c = blue;
-        bxvk.m124024a(blue.class, blue);
+        GeneratedMessageLite.m124024a(blue.class, blue);
     }
 
     private blue() {
@@ -36,7 +36,7 @@ public final class blue extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127791c, "\u0001\u0001\u0000\u0001\u0003\u0003\u0001\u0000\u0000\u0000\u0003ဈ\u0001", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f127791c, "\u0001\u0001\u0000\u0001\u0003\u0003\u0001\u0000\u0000\u0000\u0003ဈ\u0001", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new blue();
         } else {

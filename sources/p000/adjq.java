@@ -86,7 +86,7 @@ final class adjq implements Runnable {
                                         if (query.getColumnCount() != i3) {
                                             ((adjd) adjn2).f61870a.mo33423a("Skipping bad column.", new Object[i2]);
                                         } else {
-                                            btiq btiq = (btiq) bxvk.m124016a(btiq.f149014e, query.getBlob(i2), bxus.m123743b());
+                                            btiq btiq = (btiq) GeneratedMessageLite.m124016a(btiq.f149014e, query.getBlob(i2), bxus.m123743b());
                                             String string = query.getString(i4);
                                             byte[] blob = query.getBlob(i5);
                                             camg camg = camg.f175267d;
@@ -162,7 +162,7 @@ final class adjq implements Runnable {
                                                                         if (camm.f175303a == 3) {
                                                                             str3 = (String) camm.f175304b;
                                                                         }
-                                                                        bxtx a4 = bxtx.m123258a(str3);
+                                                                        ByteString a4 = ByteString.m123258a(str3);
                                                                         if (da3.f164950c) {
                                                                             da3.mo74035c();
                                                                             da3.f164950c = false;
@@ -175,7 +175,7 @@ final class adjq implements Runnable {
                                                                         if (camm.f175303a == 4) {
                                                                             str3 = (String) camm.f175304b;
                                                                         }
-                                                                        bxtx a5 = bxtx.m123258a(str3);
+                                                                        ByteString a5 = ByteString.m123258a(str3);
                                                                         if (da3.f164950c) {
                                                                             da3.mo74035c();
                                                                             da3.f164950c = false;
@@ -188,7 +188,7 @@ final class adjq implements Runnable {
                                                                         if (camm.f175303a == 5) {
                                                                             str3 = (String) camm.f175304b;
                                                                         }
-                                                                        bxtx a6 = bxtx.m123258a(str3);
+                                                                        ByteString a6 = ByteString.m123258a(str3);
                                                                         if (da3.f164950c) {
                                                                             da3.mo74035c();
                                                                             da3.f164950c = false;
@@ -201,7 +201,7 @@ final class adjq implements Runnable {
                                                                         if (camm.f175303a == 7) {
                                                                             str3 = (String) camm.f175304b;
                                                                         }
-                                                                        bxtx a7 = bxtx.m123258a(str3);
+                                                                        ByteString a7 = ByteString.m123258a(str3);
                                                                         if (da3.f164950c) {
                                                                             da3.mo74035c();
                                                                             da3.f164950c = false;

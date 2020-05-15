@@ -34,7 +34,7 @@ final class argj implements ardz {
 
     /* renamed from: a */
     public final void mo48453a() {
-        argm.f87667h.mo25409a("onCompleted called.", new Object[0]);
+        argm.f87667h.logVerbose("onCompleted called.", new Object[0]);
         argm argm = this.f87660a;
         if (argm.f87687r) {
             argm.f87688s = ((sny) argm.f87685p).schedule(new argh(this), cgps.m146494f(), TimeUnit.MILLISECONDS);
@@ -55,7 +55,7 @@ final class argj implements ardz {
         intent.putExtra("resultReceiver", proxyResultReceiver);
         intent.putExtra("extraAccountChallengeData", new ArrayList(list));
         PendingIntent activity = PendingIntent.getActivity(applicationContext, 8, intent, 134217728);
-        argm.f87667h.mo25409a("Sending pending intent to listener", new Object[0]);
+        argm.f87667h.logVerbose("Sending pending intent to listener", new Object[0]);
         argm.f87680k.mo48307a(activity);
     }
 
@@ -67,7 +67,7 @@ final class argj implements ardz {
     /* renamed from: a */
     public final void mo48455a(PendingIntent pendingIntent) {
         argm argm = this.f87660a;
-        argm.f87667h.mo25409a("Sending pending intent (3pmfm) to listener", new Object[0]);
+        argm.f87667h.logVerbose("Sending pending intent (3pmfm) to listener", new Object[0]);
         argm.f87680k.mo48307a(pendingIntent);
     }
 
@@ -83,7 +83,7 @@ final class argj implements ardz {
 
     /* renamed from: a */
     public final void mo48458a(String str, String str2) {
-        argm.f87667h.mo25409a("onRestoreAccountInformationAvailable.", new Object[0]);
+        argm.f87667h.logVerbose("onRestoreAccountInformationAvailable.", new Object[0]);
         if (this.f87660a.mo48520g()) {
             this.f87661b = str;
             this.f87660a.f87686q.f87100b = str2;

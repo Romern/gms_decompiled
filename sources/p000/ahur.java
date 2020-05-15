@@ -98,7 +98,7 @@ public final class ahur {
         string.getClass();
         aiaa8.f68513a |= 64;
         aiaa8.f68521i = string;
-        aiaa8.f68505C = bxvk.m124030de();
+        aiaa8.f68505C = GeneratedMessageLite.m124030de();
         bxvd.mo74023ac(ahsf.m56460a(601));
         Intent putExtra = DiscoveryChimeraService.m67336a(context).setPackage(context.getPackageName()).setAction("com.google.android.gms.nearby.discovery:ACTION_MAGIC_PAIR").putExtra("com.google.android.gms.nearby.discovery.EXTRA_ITEM_ID", ((aiaa) bxvd.f164949b).f68515c).putExtra("com.google.android.gms.nearby.discovery.EXTRA_FAST_PAIR_SECRET", boan.f132472f.mo68794a(bArr));
         aiaa aiaa9 = (aiaa) bxvd.f164949b;
@@ -150,7 +150,7 @@ public final class ahur {
             Iterator it = list.iterator();
             while (it.hasNext()) {
                 ahza ahza = (ahza) it.next();
-                if (Arrays.equals(ahyz.f68429c.mo73780k(), ahza.f68444b.mo73780k())) {
+                if (Arrays.equals(ahyz.f68429c.getKey(), ahza.f68444b.getKey())) {
                     return ahza;
                 }
             }
@@ -212,17 +212,17 @@ public final class ahur {
                 try {
                     ahza a = m56666a((List) buru.mo73055a(account).get(), ahyz);
                     if (a != null) {
-                        bxtx bxtx = a.f68445c;
+                        ByteString bxtx = a.f68445c;
                         bxus c = bxus.m123744c();
                         aiaa aiaa2 = aiaa.f68501K;
                         bxuc h = bxtx.mo73764h();
-                        bxvk bxvk = (bxvk) aiaa2.mo74142c(4);
-                        bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                        a2.mo74220a(bxvk, bxud.m123454a(h), c);
-                        a2.mo74225d(bxvk);
+                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) aiaa2.mo74142c(4);
+                        bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                        a2.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                        a2.mo74225d(GeneratedMessageLite);
                         h.mo73787a(0);
-                        bxvk.m124027b(bxvk);
-                        return (aiaa) bxvk;
+                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                        return (aiaa) GeneratedMessageLite;
                     }
                     continue;
                 } catch (InterruptedException | ExecutionException e) {

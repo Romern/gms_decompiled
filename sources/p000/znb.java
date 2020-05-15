@@ -454,7 +454,7 @@ final class znb implements Runnable {
                 bpgf bpgf = (bpgf) bxvd2.f164949b;
                 bpgf bpgf2 = bpgf.f137483c;
                 if (!bpgf.f137486b.mo73666a()) {
-                    bpgf.f137486b = bxvk.m124019a(bpgf.f137486b);
+                    bpgf.f137486b = GeneratedMessageLite.m124019a(bpgf.f137486b);
                 }
                 for (bzzv bzzv : hashSet) {
                     bpgf.f137486b.mo74153d(bzzv.f172235aH);

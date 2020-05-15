@@ -31,7 +31,7 @@ public final class atdf implements atcy {
                 asjq = (asjq) asjr.f89088b;
             }
             bxvd bxvd2 = (bxvd) asjq.mo74142c(5);
-            bxvd2.mo73625a((bxvk) asjq);
+            bxvd2.mo73625a((GeneratedMessageLite) asjq);
             asjp = (asjp) bxvd2;
         } else {
             bxvd = asjr.f89085h.mo74144da();
@@ -53,7 +53,7 @@ public final class atdf implements atcy {
                 asjp.f164950c = false;
             }
             asjq asjq2 = asjq.f89078f;
-            ((asjq) asjp.f164949b).f89081b = bxvk.m124030de();
+            ((asjq) asjp.f164949b).f89081b = GeneratedMessageLite.m124030de();
             bxwc bxwc = bmtb.f130811b;
             if (asjp.f164950c) {
                 asjp.mo74035c();
@@ -61,7 +61,7 @@ public final class atdf implements atcy {
             }
             asjq asjq3 = (asjq) asjp.f164949b;
             if (!asjq3.f89081b.mo73666a()) {
-                asjq3.f89081b = bxvk.m124021a(asjq3.f89081b);
+                asjq3.f89081b = GeneratedMessageLite.m124021a(asjq3.f89081b);
             }
             bxsy.m123078a(bxwc, asjq3.f89081b);
             if (asjp.f164950c) {

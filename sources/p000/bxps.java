@@ -18,7 +18,7 @@ public final class bxps extends bxvd implements bxxd {
         bxpv bxpv2 = bxpv.f164314i;
         bxpu.getClass();
         if (!bxpv.f164318c.mo73666a()) {
-            bxpv.f164318c = bxvk.m124021a(bxpv.f164318c);
+            bxpv.f164318c = GeneratedMessageLite.m124021a(bxpv.f164318c);
         }
         bxpv.f164318c.add(bxpu);
     }

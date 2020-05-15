@@ -39,7 +39,7 @@ final class buvt extends buqn {
         if (this.f155080e.f155087f != null) {
             String address = this.f155076a.getAddress();
             bxvd da = buzq.f155418c.mo74144da();
-            bxtx a = bxtx.m123261a(this.f155077b);
+            ByteString a = ByteString.m123261a(this.f155077b);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -51,7 +51,7 @@ final class buvt extends buqn {
             buzq buzq2 = (buzq) da.mo74062i();
             buyv buyv = this.f155078c;
             bxvd da2 = buzu.f155430c.mo74144da();
-            bxtx a2 = bxtx.m123261a(bvau.m120846a(address));
+            ByteString a2 = ByteString.m123261a(bvau.m120846a(address));
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;

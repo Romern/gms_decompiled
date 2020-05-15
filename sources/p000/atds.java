@@ -76,7 +76,7 @@ public final class atds {
         byte[] b = atxr.m76518b(sQLiteDatabase, "SELECT proto FROM ActivationMethodLimits WHERE billing_id=? AND account_id=? AND environment=? AND activation_method_handle=?", new String[]{str, m75671g(), m75672h(), Base64.encodeToString(bArr, 0)});
         if (b != null) {
             try {
-                return (asil) bxvk.m124016a(asil.f89046d, b, bxus.m123744c());
+                return (asil) GeneratedMessageLite.m124016a(asil.f89046d, b, bxus.m123744c());
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) f90149d.mo68388c();
                 bnsl.mo68437a(e);
@@ -146,7 +146,7 @@ public final class atds {
     /* renamed from: a */
     public static byte[] m75668a(atds atds, String str) {
         bxvd da = btjf.f149105c.mo74144da();
-        bxtx a = bxtx.m123261a(atea.m75731a(atds.f90154f));
+        ByteString a = ByteString.m123261a(atea.m75731a(atds.f90154f));
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -156,7 +156,7 @@ public final class atds {
         btjq[] btjqArr = (btjq[]) ((btjg) atff.m75759a(atds.f90154f, "t/untokenizedcards/list", (btjf) da.mo74062i(), btjg.f149109e)).f149111a.toArray(new btjq[0]);
         for (btjq btjq : btjqArr) {
             if (str.equals(btjq.f149164a)) {
-                return btjq.mo73642k();
+                return btjq.serializeToBytes();
             }
         }
         return null;
@@ -345,7 +345,7 @@ public final class atds {
                                                 if (atgu2 != null) {
                                                     if (btjk5.f149147y.isEmpty()) {
                                                         bxvd bxvd = (bxvd) btjk5.mo74142c(5);
-                                                        bxvd.mo73625a((bxvk) btjk5);
+                                                        bxvd.mo73625a((GeneratedMessageLite) btjk5);
                                                         String str6 = atgu2.f90324a.f149147y;
                                                         it = it2;
                                                         if (bxvd.f164950c) {
@@ -550,7 +550,7 @@ public final class atds {
                         List list = a3;
                         contentValues.put("account_id", atdz.mo49890f());
                         contentValues.put("environment", atdz.mo49891g());
-                        contentValues.put("card", btjk7.mo73642k());
+                        contentValues.put("card", btjk7.serializeToBytes());
                         btiy btiy5 = btjk7.f149123a;
                         if (btiy5 == null) {
                             btiy5 = btiy.f149054c;
@@ -800,7 +800,7 @@ public final class atds {
         contentValues.put("environment", m75672h());
         contentValues.put("billing_id", str);
         contentValues.put("activation_method_handle", encodeToString);
-        contentValues.put("proto", asil.mo73642k());
+        contentValues.put("proto", asil.serializeToBytes());
         if (sQLiteDatabase.update("ActivationMethodLimits", contentValues, "billing_id=? AND account_id=? AND environment=? AND activation_method_handle=?", new String[]{str, m75671g(), m75672h(), encodeToString}) == 0) {
             sQLiteDatabase.insert("ActivationMethodLimits", null, contentValues);
         }

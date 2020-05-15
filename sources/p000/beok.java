@@ -36,7 +36,7 @@ final class beok implements beod {
             brzi brzi2 = (brzi) da2.mo74062i();
             brzi2.getClass();
             if (!brzj.f143747a.mo73666a()) {
-                brzj.f143747a = bxvk.m124021a(brzj.f143747a);
+                brzj.f143747a = GeneratedMessageLite.m124021a(brzj.f143747a);
             }
             brzj.f143747a.add(brzi2);
         }

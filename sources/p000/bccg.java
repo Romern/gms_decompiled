@@ -29,7 +29,7 @@ public final class bccg {
     public static ContentValues m88798a(bcoh bcoh, bcoz bcoz) {
         ContentValues contentValues = new ContentValues();
         contentValues.put("tachyon_app_name", bcoh.mo57061e());
-        contentValues.put("server_registration_id", bcoh.mo57059c().mo73780k());
+        contentValues.put("server_registration_id", bcoh.mo57059c().getKey());
         contentValues.put("server_registration_status", Integer.valueOf(bcoh.mo57060d().f104618c));
         contentValues.put("tachyon_auth_token", bqce.m112561a(bcoz.mo57131a()));
         contentValues.put("auth_token_expire_at_timestamp_ms", bcoz.mo57132b());

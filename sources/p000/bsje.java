@@ -16,7 +16,7 @@ public final class bsje extends bxvd implements bxxd {
         bsjf bsjf = (bsjf) this.f164949b;
         bsjf bsjf2 = bsjf.f144784c;
         if (!bsjf.f144786a.mo73666a()) {
-            bsjf.f144786a = bxvk.m124021a(bsjf.f144786a);
+            bsjf.f144786a = GeneratedMessageLite.m124021a(bsjf.f144786a);
         }
         bxsy.m123078a(iterable, bsjf.f144786a);
     }

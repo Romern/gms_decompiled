@@ -94,7 +94,7 @@ public final class agto extends aaab {
                 Long l = setConsentStatusRequest.f80289g;
                 boot a2 = a.mo35978a(16, "Local_Cache", str);
                 bxvd bxvd = (bxvd) a2.mo74142c(5);
-                bxvd.mo73625a((bxvk) a2);
+                bxvd.mo73625a((GeneratedMessageLite) a2);
                 bxvd da = bopj.f134131b.mo74144da();
                 if (da.f164950c) {
                     da.mo74035c();
@@ -168,7 +168,7 @@ public final class agto extends aaab {
             SetConsentStatusRequest setConsentStatusRequest = this.f66496a;
             boot a3 = a2.mo35978a(15, "GTAF_Server", this.f66498c.f66263c);
             bxvd bxvd = (bxvd) a3.mo74142c(5);
-            bxvd.mo73625a((bxvk) a3);
+            bxvd.mo73625a((GeneratedMessageLite) a3);
             if (cfmq.m140238i()) {
                 agrl.m54945a(bxvd, setConsentStatusRequest.f80290h);
             }
@@ -370,7 +370,7 @@ public final class agto extends aaab {
                 }
                 bxzx c = a12.mo35843c();
                 bxvd bxvd2 = (bxvd) c.mo74142c(5);
-                bxvd2.mo73625a((bxvk) c);
+                bxvd2.mo73625a((GeneratedMessageLite) c);
                 bygb a14 = bygb.m124774a(((bxzx) bxvd2.f164949b).f165204f);
                 if (a14 == null) {
                     a14 = bygb.UNRECOGNIZED;
@@ -444,7 +444,7 @@ public final class agto extends aaab {
         Long l = setConsentStatusRequest.f80289g;
         boot a2 = a.mo35978a(16, "GTAF_Server", str2);
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         String a3 = stm.m36299a(str);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
@@ -524,7 +524,7 @@ public final class agto extends aaab {
             }
             boot a2 = a.mo35978a(16, "Error", str3);
             bxvd bxvd = (bxvd) a2.mo74142c(5);
-            bxvd.mo73625a((bxvk) a2);
+            bxvd.mo73625a((GeneratedMessageLite) a2);
             if (cfmq.m140240k() && bygb != null) {
                 bxvd da = bopj.f134131b.mo74144da();
                 if (da.f164950c) {

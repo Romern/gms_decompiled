@@ -67,7 +67,7 @@ public final class baar implements cayy {
                                             ByteBuffer slice = wrap.slice();
                                             slice.limit(i);
                                             wrap.position(i2 + 8);
-                                            bygw = (bygw) ((bxxc) ((bxxk) ((bxvk) baqt.f101567a).mo74142c(7)).mo73654a(bxuc.m123418a(slice)));
+                                            bygw = (bygw) ((bxxc) ((bxxk) ((GeneratedMessageLite) baqt.f101567a).mo74142c(7)).mo73654a(bxuc.m123418a(slice)));
                                         } else {
                                             Log.e("ChecksumStorageUtils", String.format("Corrupt data, expected CRC: %d computed CRC: %d", Long.valueOf(j), Long.valueOf(value)));
                                             throw new IOException("Bad CRC (see logs).");

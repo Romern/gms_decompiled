@@ -17,7 +17,7 @@ public final class bxgd extends bxvd implements bxxd {
         bxge bxge2 = bxge.f163238b;
         bxco.getClass();
         if (!bxge.f163240a.mo73666a()) {
-            bxge.f163240a = bxvk.m124019a(bxge.f163240a);
+            bxge.f163240a = GeneratedMessageLite.m124019a(bxge.f163240a);
         }
         bxge.f163240a.mo74153d(bxco.f162973bD);
     }

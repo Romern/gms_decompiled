@@ -34,7 +34,7 @@ final class bdzo {
         boolean z;
         double d;
         String str;
-        bxtx bxtx;
+        ByteString bxtx;
         HashMap a = bnmt.m109795a(beaf.f106731f.size() + 3);
         bxwc bxwc = beaf.f106731f;
         int size = bxwc.size();
@@ -74,11 +74,11 @@ final class bdzo {
                 } else if (i4 == 4) {
                     String str5 = beag.f106737d;
                     if (i2 == 6) {
-                        bxtx = (bxtx) beag.f106736c;
+                        bxtx = (ByteString) beag.f106736c;
                     } else {
                         bxtx = bxtx.f164797b;
                     }
-                    a.put(str5, bxtx.mo73780k());
+                    a.put(str5, bxtx.getKey());
                 }
                 i++;
             } else {

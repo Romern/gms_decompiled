@@ -40,7 +40,7 @@ public final class avih {
 
     /* renamed from: a */
     public static TextView m78568a(View view, int i) {
-        sdo.m34966a(view, "Root view must not be null");
+        sdo.checkIfNull(view, "Root view must not be null");
         try {
             TextView textView = (TextView) view.findViewById(i);
             if (textView == null) {
@@ -67,7 +67,7 @@ public final class avih {
     public final void mo51267b(bxsk bxsk) {
         ArrayList arrayList = this.f93228a;
         if (arrayList != null && bxsk != null && (bxsk.f164697a & 1) != 0) {
-            arrayList.add(bxsk.f164698b.mo73780k());
+            arrayList.add(bxsk.f164698b.getKey());
         }
     }
 
@@ -113,12 +113,12 @@ public final class avih {
 
     /* renamed from: a */
     public static void m78573a(Intent intent, String str, bxxc bxxc) {
-        intent.putExtra(str, bxxc != null ? bxxc.mo73642k() : null);
+        intent.putExtra(str, bxxc != null ? bxxc.serializeToBytes() : null);
     }
 
     /* renamed from: a */
     public static void m78574a(Bundle bundle, String str, bxxc bxxc) {
-        bundle.putByteArray(str, bxxc != null ? bxxc.mo73642k() : null);
+        bundle.putByteArray(str, bxxc != null ? bxxc.serializeToBytes() : null);
     }
 
     /* renamed from: a */
@@ -150,8 +150,8 @@ public final class avih {
     /* renamed from: a */
     public final NetworkImageView mo51263a(View view, int i, bxsc bxsc, ImageLoader imageLoader) {
         NetworkImageView networkImageView;
-        sdo.m34966a(view, "Root view must not be null");
-        sdo.m34966a(bxsc, "Image resource must not be null");
+        sdo.checkIfNull(view, "Root view must not be null");
+        sdo.checkIfNull(bxsc, "Image resource must not be null");
         try {
             networkImageView = (NetworkImageView) view.findViewById(i);
         } catch (ClassCastException e) {
@@ -166,7 +166,7 @@ public final class avih {
             networkImageView.setVisibility(0);
             ArrayList arrayList = this.f93228a;
             if (!(arrayList == null || bxsc == null || (bxsc.f164661a & 1) == 0)) {
-                arrayList.add(bxsc.f164662b.mo73780k());
+                arrayList.add(bxsc.f164662b.getKey());
             }
             return networkImageView;
         }

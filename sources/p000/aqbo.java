@@ -389,7 +389,7 @@ final class aqbo {
                         }
                         aqdb aqdb = (aqdb) da3.f164949b;
                         if (!aqdb.f85743a.mo73666a()) {
-                            aqdb.f85743a = bxvk.m124019a(aqdb.f85743a);
+                            aqdb.f85743a = GeneratedMessageLite.m124019a(aqdb.f85743a);
                         }
                         aqdb.f85743a.mo74153d(intValue2);
                     }
@@ -399,12 +399,12 @@ final class aqbo {
                     }
                     aqdb aqdb2 = (aqdb) da3.f164949b;
                     if (!aqdb2.f85744b.mo73666a()) {
-                        aqdb2.f85744b = bxvk.m124019a(aqdb2.f85744b);
+                        aqdb2.f85744b = GeneratedMessageLite.m124019a(aqdb2.f85744b);
                     }
                     aqdb2.f85744b.mo74153d(3);
                     for (apgr apgr6 : keySet) {
                         bxvd da4 = aqcv.f85714c.mo74144da();
-                        bxtx a7 = bxtx.m123261a(apgr6.f84346a);
+                        ByteString a7 = ByteString.m123261a(apgr6.f84346a);
                         if (da4.f164950c) {
                             da4.mo74035c();
                             da4.f164950c = false;
@@ -421,7 +421,7 @@ final class aqbo {
                         aqdb aqdb3 = (aqdb) da3.f164949b;
                         aqcv2.getClass();
                         if (!aqdb3.f85746d.mo73666a()) {
-                            aqdb3.f85746d = bxvk.m124021a(aqdb3.f85746d);
+                            aqdb3.f85746d = GeneratedMessageLite.m124021a(aqdb3.f85746d);
                         }
                         aqdb3.f85746d.add(aqcv2);
                     }
@@ -433,7 +433,7 @@ final class aqbo {
                     aqdb aqdb4 = (aqdb) da3.f164949b;
                     aqda.getClass();
                     if (!aqdb4.f85745c.mo73666a()) {
-                        aqdb4.f85745c = bxvk.m124019a(aqdb4.f85745c);
+                        aqdb4.f85745c = GeneratedMessageLite.m124019a(aqdb4.f85745c);
                     }
                     aqdb4.f85745c.mo74153d(aqda.f85740e);
                     if (da.f164950c) {
@@ -445,12 +445,12 @@ final class aqbo {
                     aqdb5.getClass();
                     aqcp3.f85691c = aqdb5;
                     aqcp3.f85689a |= 2;
-                    byte[] a8 = aqbz.mo47752a(2, ((aqcp) da.mo74062i()).mo73642k(), str);
+                    byte[] a8 = aqbz.mo47752a(2, ((aqcp) da.mo74062i()).serializeToBytes(), str);
                     if (a8 == null || a8.length == 0) {
                         aqcr = null;
                     } else {
                         try {
-                            aqcr = (aqcr) bxvk.m124016a(aqcr.f85693e, a8, bxus.m123744c());
+                            aqcr = (aqcr) GeneratedMessageLite.m124016a(aqcr.f85693e, a8, bxus.m123744c());
                         } catch (bxwf e) {
                             aqcr = null;
                         }
@@ -565,7 +565,7 @@ final class aqbo {
                             byte[] bArr = (byte[]) sparseArray.valueAt(i2);
                             if (bArr != null) {
                                 if (bArr.length > 0) {
-                                    bxtx a3 = bxtx.m123261a(bArr);
+                                    ByteString a3 = ByteString.m123261a(bArr);
                                     if (da2.f164950c) {
                                         da2.mo74035c();
                                         da2.f164950c = false;
@@ -612,15 +612,15 @@ final class aqbo {
                             aqcj aqcj5 = (aqcj) da2.mo74062i();
                             aqcj5.getClass();
                             if (!aqck2.f85671c.mo73666a()) {
-                                aqck2.f85671c = bxvk.m124021a(aqck2.f85671c);
+                                aqck2.f85671c = GeneratedMessageLite.m124021a(aqck2.f85671c);
                             }
                             aqck2.f85671c.add(aqcj5);
                             i2++;
                             i = 1;
                         }
-                        byte[] a6 = aqbz.mo47752a(i, ((aqck) da.mo74062i()).mo73642k(), "AIzaSyBOOWlOhte3AhpCUZaoGoHa1yjYRI1dIww");
+                        byte[] a6 = aqbz.mo47752a(i, ((aqck) da.mo74062i()).serializeToBytes(), "AIzaSyBOOWlOhte3AhpCUZaoGoHa1yjYRI1dIww");
                         if (a6 != null) {
-                            aqco aqco = (aqco) bxvk.m124016a(aqco.f85682d, a6, bxus.m123744c());
+                            aqco aqco = (aqco) GeneratedMessageLite.m124016a(aqco.f85682d, a6, bxus.m123744c());
                             apyk.mo47701a("snet_safe_browsing_last_update_time_ms", currentTimeMillis);
                             apyk.mo47706c(0);
                             if ((aqco.f85684a & i) != 0) {

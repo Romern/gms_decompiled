@@ -405,7 +405,7 @@ public final class lcx extends AutofillService {
                             kbu kbu = (kbu) da3.f164949b;
                             kcj.getClass();
                             if (!kbu.f23723d.mo73666a()) {
-                                kbu.f23723d = bxvk.m124021a(kbu.f23723d);
+                                kbu.f23723d = GeneratedMessageLite.m124021a(kbu.f23723d);
                             }
                             kbu.f23723d.add(kcj);
                         }
@@ -492,7 +492,7 @@ public final class lcx extends AutofillService {
     /* renamed from: a */
     public static void m18936a(lan lan, bmxv bmxv, kwu kwu) {
         bxvd bxvd = (bxvd) lan.mo74142c(5);
-        bxvd.mo73625a((bxvk) lan);
+        bxvd.mo73625a((GeneratedMessageLite) lan);
         if (bmxv.mo66813a()) {
             MetricsContext metricsContext = (MetricsContext) bmxv.mo66814b();
             bxvd da = kzz.f25505d.mo74144da();
@@ -586,7 +586,7 @@ public final class lcx extends AutofillService {
         }
         kwf kwf = a.f25248a;
         try {
-            kwf.f25255b.mo60643a(kwf.f25256c, behv.m95070a(((kwi) a.f25251d.mo74062i()).mo73642k()), new beer[0]);
+            kwf.f25255b.mo60643a(kwf.f25256c, behv.m95070a(((kwi) a.f25251d.mo74062i()).serializeToBytes()), new beer[0]);
         } catch (IOException e) {
             bnsl bnsl = (bnsl) kwf.f25254a.mo68387b();
             bnsl.mo68437a(e);
@@ -595,11 +595,11 @@ public final class lcx extends AutofillService {
         }
         kwe a2 = kwe.m18646a(getApplicationContext());
         bxvd bxvd5 = a2.f25250c;
-        bxvd5.f164949b = (bxvk) bxvd5.f164949b.mo74142c(4);
+        bxvd5.f164949b = (GeneratedMessageLite) bxvd5.f164949b.mo74142c(4);
         bxvd bxvd6 = a2.f25253f;
-        bxvd6.f164949b = (bxvk) bxvd6.f164949b.mo74142c(4);
+        bxvd6.f164949b = (GeneratedMessageLite) bxvd6.f164949b.mo74142c(4);
         bxvd bxvd7 = a2.f25252e;
-        bxvd7.f164949b = (bxvk) bxvd7.f164949b.mo74142c(4);
+        bxvd7.f164949b = (GeneratedMessageLite) bxvd7.f164949b.mo74142c(4);
         a2.f25249b.clear();
     }
 

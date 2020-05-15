@@ -21,22 +21,22 @@ public final class jdb extends WebViewClient {
     }
 
     public final void onReceivedError(WebView webView, int i, String str, String str2) {
-        sek sek = jdc.f22209a;
+        Logger Logger = jdc.f22209a;
         StringBuilder sb = new StringBuilder(52);
         sb.append("WebViewClient.onReceivedError: errorCode:");
         sb.append(i);
-        sek.mo25416d(sb.toString(), new Object[0]);
+        Logger.mo25416d(sb.toString(), new Object[0]);
         jdg.m16541a(4);
         this.f22208a.f22210b.f22200a.mo2450b((Object) 0);
     }
 
     public final void onReceivedSslError(WebView webView, SslErrorHandler sslErrorHandler, SslError sslError) {
-        sek sek = jdc.f22209a;
+        Logger Logger = jdc.f22209a;
         String valueOf = String.valueOf(sslError);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 30);
         sb.append("onReceivedSslError: sslError: ");
         sb.append(valueOf);
-        sek.mo25416d(sb.toString(), new Object[0]);
+        Logger.mo25416d(sb.toString(), new Object[0]);
         super.onReceivedSslError(webView, sslErrorHandler, sslError);
     }
 }

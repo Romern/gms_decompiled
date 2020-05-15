@@ -25,7 +25,7 @@ public final class aecr implements bmxj {
         synchronized (this) {
             if (!this.f63172a.equals(L)) {
                 try {
-                    this.f63173b = Collections.unmodifiableMap(((byke) bxvk.m124016a(byke.f166739b, Base64.decode(L, 0), bxus.m123744c())).f166741a);
+                    this.f63173b = Collections.unmodifiableMap(((byke) GeneratedMessageLite.m124016a(byke.f166739b, Base64.decode(L, 0), bxus.m123744c())).f166741a);
                     this.f63172a = L;
                 } catch (bxwf | IllegalArgumentException e) {
                     Log.e("CachingPoliciesDecoder", "Could not decode sync policies", e);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buux */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buux extends bxvk implements bxxd {
+public final class buux extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final buux f155003j;
@@ -40,7 +40,7 @@ public final class buux extends bxvk implements bxxd {
     static {
         buux buux = new buux();
         f155003j = buux;
-        bxvk.m124024a(buux.class, buux);
+        GeneratedMessageLite.m124024a(buux.class, buux);
     }
 
     private buux() {
@@ -57,7 +57,7 @@ public final class buux extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155003j, "\u0001\b\u0000\u0001\u0001\b\b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007", new Object[]{"a", "b", buuw.m120479b(), "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f155003j, "\u0001\b\u0000\u0001\u0001\b\b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007", new Object[]{"a", "b", buuw.m120479b(), "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new buux();
         } else {

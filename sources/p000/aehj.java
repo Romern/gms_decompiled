@@ -25,7 +25,7 @@ public final /* synthetic */ class aehj implements roo {
             z = true;
         }
         sdo.m34975b(z, "geofenceRequestIds can't be null nor empty.");
-        sdo.m34966a(aehk, "ResultHolder not provided.");
+        sdo.checkIfNull(aehk, "ResultHolder not provided.");
         aekk aekk = new aekk(aehk);
         ((aekb) aekl.mo25289B()).mo34233a((String[]) list.toArray(new String[0]), aekk, aekl.f43948r.getPackageName());
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btmu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btmu extends bxvk implements bxxd {
+public final class btmu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final btmu f149546d;
@@ -14,7 +14,7 @@ public final class btmu extends bxvk implements bxxd {
     public int f149548a;
 
     /* renamed from: b */
-    public bxtx f149549b = bxtx.f164797b;
+    public ByteString f149549b = ByteString.f164797b;
 
     /* renamed from: c */
     public btms f149550c;
@@ -22,7 +22,7 @@ public final class btmu extends bxvk implements bxxd {
     static {
         btmu btmu = new btmu();
         f149546d = btmu;
-        bxvk.m124024a(btmu.class, btmu);
+        GeneratedMessageLite.m124024a(btmu.class, btmu);
     }
 
     private btmu() {
@@ -39,7 +39,7 @@ public final class btmu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149546d, "\u0000\u0003\u0000\u0000\u0001\u0004\u0003\u0000\u0000\u0000\u0001\f\u0003\n\u0004\t", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f149546d, "\u0000\u0003\u0000\u0000\u0001\u0004\u0003\u0000\u0000\u0000\u0001\f\u0003\n\u0004\t", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new btmu();
         } else {

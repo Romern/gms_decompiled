@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btvw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btvw extends bxvk implements bxxd {
+public final class btvw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btvw f152646a;
@@ -13,7 +13,7 @@ public final class btvw extends bxvk implements bxxd {
     static {
         btvw btvw = new btvw();
         f152646a = btvw;
-        bxvk.m124024a(btvw.class, btvw);
+        GeneratedMessageLite.m124024a(btvw.class, btvw);
     }
 
     private btvw() {
@@ -30,7 +30,7 @@ public final class btvw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f152646a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f152646a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btvw();

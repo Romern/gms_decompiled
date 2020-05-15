@@ -455,7 +455,7 @@ public final class awxv extends awzg implements View.OnClickListener, bkio, bkfe
                 m81434a(bwiv);
                 return;
             }
-            mo52726a(mo51878cn(), this.f95257h.f159207c.mo73780k(), awxx.m81467a(this.f95264p));
+            mo52726a(mo51878cn(), this.f95257h.f159207c.getKey(), awxx.m81467a(this.f95264p));
         } else if (c == 7) {
             mo52886b(101, 5);
         } else {
@@ -681,7 +681,7 @@ public final class awxv extends awzg implements View.OnClickListener, bkio, bkfe
             objArr[0] = Integer.valueOf(i - 1);
             throw new IllegalArgumentException(String.format(locale, "SetupWizard doesn't support this widget type yet: %d", objArr));
         }
-        mo52726a(mo51878cn(), bwiv.f159698d.mo73780k(), awxx.m81467a(this.f95264p));
+        mo52726a(mo51878cn(), bwiv.f159698d.getKey(), awxx.m81467a(this.f95264p));
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
@@ -820,7 +820,7 @@ public final class awxv extends awzg implements View.OnClickListener, bkio, bkfe
         awzs awzs;
         bwgj bwgj;
         bmeb bmeb;
-        bxtx bxtx;
+        ByteString bxtx;
         if (z) {
             this.f95357A.setVisibility(4);
         }
@@ -855,18 +855,18 @@ public final class awxv extends awzg implements View.OnClickListener, bkio, bkfe
             this.f95250a.setVisibility(8);
         }
         bwgo bwgo2 = (bwgo) this.f95397aj;
-        if (bwgo2.f159231b == 11 && ((bxtx) bwgo2.f159232c).mo73744a() > 0) {
+        if (bwgo2.f159231b == 11 && ((ByteString) bwgo2.f159232c).mo73744a() > 0) {
             if (this.f95262m == null) {
                 this.f95262m = rjx.m33696b(getActivity().getApplicationContext());
             }
             rjx rjx = this.f95262m;
             bwgo bwgo3 = (bwgo) this.f95397aj;
             if (bwgo3.f159231b == 11) {
-                bxtx = (bxtx) bwgo3.f159232c;
+                bxtx = (ByteString) bwgo3.f159232c;
             } else {
                 bxtx = bxtx.f164797b;
             }
-            byte[] k = bxtx.mo73780k();
+            byte[] k = bxtx.getKey();
             roz b = rpa.m34196b();
             b.f43472a = new asmu(k);
             rjx.mo24732b(b.mo24977a());
@@ -906,7 +906,7 @@ public final class awxv extends awzg implements View.OnClickListener, bkio, bkfe
             this.f95253d = null;
         }
         bwgo bwgo5 = (bwgo) this.f95397aj;
-        if (bwgo5.f159231b != 11 || ((bxtx) bwgo5.f159232c).mo73744a() <= 0) {
+        if (bwgo5.f159231b != 11 || ((ByteString) bwgo5.f159232c).mo73744a() <= 0) {
             z2 = false;
         }
         this.f95265q = z2;
@@ -1048,7 +1048,7 @@ public final class awxv extends awzg implements View.OnClickListener, bkio, bkfe
             this.f95257h = bwgi;
             if (m81431F()) {
                 mo52808n(false);
-                mo52726a(mo51878cn(), this.f95257h.f159207c.mo73780k(), awxx.m81467a(this.f95264p));
+                mo52726a(mo51878cn(), this.f95257h.f159207c.getKey(), awxx.m81467a(this.f95264p));
             }
         }
     }

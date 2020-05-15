@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mtu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mtu extends bxvk implements bxxd {
+public final class mtu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final mtu f34712f;
@@ -28,7 +28,7 @@ public final class mtu extends bxvk implements bxxd {
     static {
         mtu mtu = new mtu();
         f34712f = mtu;
-        bxvk.m124024a(mtu.class, mtu);
+        GeneratedMessageLite.m124024a(mtu.class, mtu);
     }
 
     private mtu() {
@@ -45,7 +45,7 @@ public final class mtu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34712f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003ဌ\u0002\u0004ဌ\u0003", new Object[]{"a", "b", mts.f34710a, "c", "d", mtt.f34711a, "e", mtt.f34711a});
+            return GeneratedMessageLite.m124022a(f34712f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003ဌ\u0002\u0004ဌ\u0003", new Object[]{"a", "b", mts.f34710a, "c", "d", mtt.f34711a, "e", mtt.f34711a});
         } else if (i2 == 3) {
             return new mtu();
         } else {

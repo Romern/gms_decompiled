@@ -13,7 +13,7 @@ final /* synthetic */ class hqf implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = hql.f20228a;
+        Logger Logger = hql.f20228a;
         return Integer.valueOf(((Collection) ((Map.Entry) obj).getValue()).size());
     }
 }

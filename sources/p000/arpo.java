@@ -12,6 +12,6 @@ final /* synthetic */ class arpo implements aubw {
     /* renamed from: a */
     public final void mo10462a(Object obj) {
         Void voidR = (Void) obj;
-        arps.f88090a.mo25409a("Disabled target mode.", new Object[0]);
+        arps.f88090a.logVerbose("Disabled target mode.", new Object[0]);
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btki */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btki extends bxvk implements bxxd {
+public final class btki extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btki f149257c;
@@ -19,7 +19,7 @@ public final class btki extends bxvk implements bxxd {
     static {
         btki btki = new btki();
         f149257c = btki;
-        bxvk.m124024a(btki.class, btki);
+        GeneratedMessageLite.m124024a(btki.class, btki);
     }
 
     private btki() {
@@ -36,7 +36,7 @@ public final class btki extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149257c, "\u0000\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001<\u0000", new Object[]{"b", "a", btkh.class});
+            return GeneratedMessageLite.m124022a(f149257c, "\u0000\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001<\u0000", new Object[]{"b", "a", btkh.class});
         } else if (i2 == 3) {
             return new btki();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwho */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwho extends bxvk implements bxxd {
+public final class bwho extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bwho f159539d;
@@ -17,12 +17,12 @@ public final class bwho extends bxvk implements bxxd {
     public long f159542b;
 
     /* renamed from: c */
-    public bxtx f159543c = bxtx.f164797b;
+    public ByteString f159543c = ByteString.f164797b;
 
     static {
         bwho bwho = new bwho();
         f159539d = bwho;
-        bxvk.m124024a(bwho.class, bwho);
+        GeneratedMessageLite.m124024a(bwho.class, bwho);
     }
 
     private bwho() {
@@ -39,7 +39,7 @@ public final class bwho extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f159539d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဂ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f159539d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဂ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bwho();
         } else {

@@ -19,7 +19,7 @@ import com.google.android.material.chip.Chip;
 public final class xvy extends Fragment implements View.OnClickListener {
 
     /* renamed from: d */
-    private static final sek f53257d = new sek(new String[]{"PolluxApprovalPromptFragment"}, (short[]) null);
+    private static final Logger f53257d = new Logger(new String[]{"PolluxApprovalPromptFragment"}, (short[]) null);
 
     /* renamed from: a */
     private PolluxChimeraActivity f53258a;

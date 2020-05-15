@@ -85,9 +85,9 @@ public final class awtl extends awtz {
     /* renamed from: a */
     public final BuyFlowIntegratorDataResponse mo52569a(BuyFlowConfig buyFlowConfig, BuyFlowIntegratorDataRequest buyFlowIntegratorDataRequest) {
         byte[] bArr;
-        bxtx bxtx;
+        ByteString bxtx;
         Account account = buyFlowConfig.f110418b.f110407b;
-        sdo.m34966a(account, "buyFlowConfig must must have buyer account set");
+        sdo.checkIfNull(account, "buyFlowConfig must must have buyer account set");
         byte[] bArr2 = buyFlowIntegratorDataRequest.f110372c;
         if (bArr2 == null) {
             bArr2 = new byte[0];
@@ -95,7 +95,7 @@ public final class awtl extends awtz {
         byaa byaa = (byaa) bjvp.m104733a(bArr2, (bxxk) byaa.f165217d.mo74142c(7));
         blzf a = awvz.m81268a(buyFlowIntegratorDataRequest.f110371b);
         bxvd da = blxw.f128152f.mo74144da();
-        bmaj a2 = awfx.m79877a(this.f95082b, byaa.f165220b.mo73780k(), buyFlowConfig, buyFlowConfig.f110419c, false, false);
+        bmaj a2 = awfx.m79877a(this.f95082b, byaa.f165220b.getKey(), buyFlowConfig, buyFlowConfig.f110419c, false, false);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -104,7 +104,7 @@ public final class awtl extends awtz {
         a2.getClass();
         blxw.f128155b = a2;
         blxw.f128154a |= 1;
-        bxtx a3 = bxtx.m123261a(buyFlowIntegratorDataRequest.f110370a);
+        ByteString a3 = bxtx.m123261a(buyFlowIntegratorDataRequest.f110370a);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -131,11 +131,11 @@ public final class awtl extends awtz {
                     bmag = bmag.f128442c;
                 }
                 if (bmag.f128444a == 2) {
-                    bxtx = (bxtx) bmag.f128445b;
+                    bxtx = (ByteString) bmag.f128445b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
-                bArr = bxtx.mo73780k();
+                bArr = bxtx.getKey();
             }
             byte[] k = a4.f110381b.mo73642k();
             awtf a5 = BuyFlowIntegratorDataResponse.m94147a();
@@ -233,7 +233,7 @@ public final class awtl extends awtz {
         BuyflowInitializeRequest buyflowInitializeRequest2 = buyflowInitializeRequest;
         blxw blxw = (blxw) buyflowInitializeRequest.mo59970a();
         bxvd bxvd2 = (bxvd) blxw.mo74142c(5);
-        bxvd2.mo73625a((bxvk) blxw);
+        bxvd2.mo73625a((GeneratedMessageLite) blxw);
         bmaj bmaj = ((blxw) buyflowInitializeRequest.mo59970a()).f128155b;
         if (bmaj == null) {
             bmaj = bmaj.f128452m;
@@ -264,7 +264,7 @@ public final class awtl extends awtz {
             if (blzf2 == null) {
                 blzf2 = blzf.f128337k;
             }
-            byte[] k = blzf2.f128341c.mo73780k();
+            byte[] k = blzf2.f128341c.getKey();
             bmaj bmaj2 = blxw4.f128155b;
             if (bmaj2 == null) {
                 bmaj2 = bmaj.f128452m;
@@ -564,7 +564,7 @@ public final class awtl extends awtz {
                     }
                     if (blym3 != null) {
                         bxvd bxvd3 = (bxvd) blym3.mo74142c(5);
-                        bxvd3.mo73625a((bxvk) blym3);
+                        bxvd3.mo73625a((GeneratedMessageLite) blym3);
                         blyj blyj = (blyj) bxvd3;
                         if (blyj.f164950c) {
                             blyj.mo74035c();
@@ -573,7 +573,7 @@ public final class awtl extends awtz {
                         blym blym4 = (blym) blyj.f164949b;
                         blym4.f128252r = null;
                         blym4.f128235a &= -16385;
-                        blym4.f128220D = bxvk.m124030de();
+                        blym4.f128220D = GeneratedMessageLite.m124030de();
                         if ((blym3.f128235a & AndroidInputTypeSignal.TYPE_TEXT_FLAG_CAP_SENTENCES) == 0) {
                             blxz3 = blxz;
                             blxs2 = blxs;
@@ -590,7 +590,7 @@ public final class awtl extends awtz {
                                 blym2 = blym3;
                             } else if (!aweu.m79812a(blzf4)) {
                                 bxvd bxvd4 = (bxvd) bmgn.mo74142c(5);
-                                bxvd4.mo73625a((bxvk) bmgn);
+                                bxvd4.mo73625a((GeneratedMessageLite) bmgn);
                                 bmgm bmgm = (bmgm) bxvd4;
                                 int size2 = bmgn.f129278d.size();
                                 bmfk[] bmfkArr = (bmfk[]) new bxvv(blzf4.f128345g, blzf.f128336h).toArray(new bmfk[0]);
@@ -655,7 +655,7 @@ public final class awtl extends awtz {
                                         bmgk a10 = bmgm.mo66788a(i12);
                                         int i15 = size2;
                                         bxvd bxvd5 = (bxvd) a10.mo74142c(5);
-                                        bxvd5.mo73625a((bxvk) a10);
+                                        bxvd5.mo73625a((GeneratedMessageLite) a10);
                                         if (c) {
                                             bmgk bmgk2 = (bmgk) bxvd5.f164949b;
                                             boolean z5 = c;
@@ -781,13 +781,13 @@ public final class awtl extends awtz {
                             if (i18 < size5) {
                                 bmjv bmjv2 = (bmjv) blym2.f128220D.get(i18);
                                 bxvd bxvd6 = (bxvd) bmjv2.mo74142c(5);
-                                bxvd6.mo73625a((bxvk) bmjv2);
+                                bxvd6.mo73625a((GeneratedMessageLite) bmjv2);
                                 if (((bmjv) bxvd6.f164949b).f129755b.size() != 0) {
                                     int size6 = ((bmjv) bxvd6.f164949b).f129755b.size();
                                     for (int i19 = 0; i19 < size6; i19++) {
                                         bmju bmju = (bmju) ((bmjv) bxvd6.f164949b).f129755b.get(i19);
                                         bxvd bxvd7 = (bxvd) bmju.mo74142c(5);
-                                        bxvd7.mo73625a((bxvk) bmju);
+                                        bxvd7.mo73625a((GeneratedMessageLite) bmju);
                                         if ((bmju.f129745a & 2) != 0) {
                                             bmjy bmjy = bmju.f129747c;
                                             if (bmjy == null) {
@@ -816,7 +816,7 @@ public final class awtl extends awtz {
                                                 bmju bmju5 = bmju.f129743h;
                                                 a12.getClass();
                                                 if (!bmju4.f129748d.mo73666a()) {
-                                                    bmju4.f129748d = bxvk.m124021a(bmju4.f129748d);
+                                                    bmju4.f129748d = GeneratedMessageLite.m124021a(bmju4.f129748d);
                                                 }
                                                 bmju4.f129748d.set(i20, a12);
                                             }
@@ -833,7 +833,7 @@ public final class awtl extends awtz {
                                                 bmju bmju7 = bmju.f129743h;
                                                 a13.getClass();
                                                 if (!bmju6.f129749e.mo73666a()) {
-                                                    bmju6.f129749e = bxvk.m124021a(bmju6.f129749e);
+                                                    bmju6.f129749e = GeneratedMessageLite.m124021a(bmju6.f129749e);
                                                 }
                                                 bmju6.f129749e.set(i21, a13);
                                             }
@@ -847,7 +847,7 @@ public final class awtl extends awtz {
                                         bmjv bmjv4 = bmjv.f129752c;
                                         bmju8.getClass();
                                         if (!bmjv3.f129755b.mo73666a()) {
-                                            bmjv3.f129755b = bxvk.m124021a(bmjv3.f129755b);
+                                            bmjv3.f129755b = GeneratedMessageLite.m124021a(bmjv3.f129755b);
                                         }
                                         bmjv3.f129755b.set(i19, bmju8);
                                     }
@@ -866,7 +866,7 @@ public final class awtl extends awtz {
                                 blym blym6 = (blym) blyj.f164949b;
                                 bmjv.getClass();
                                 if (!blym6.f128220D.mo73666a()) {
-                                    blym6.f128220D = bxvk.m124021a(blym6.f128220D);
+                                    blym6.f128220D = GeneratedMessageLite.m124021a(blym6.f128220D);
                                 }
                                 blym6.f128220D.add(bmjv);
                                 i18++;
@@ -953,17 +953,17 @@ public final class awtl extends awtz {
                                                 if (bmbr3.f128587d == bmbr2.f128587d) {
                                                     bmeb a15 = blyj.mo66769a(i24);
                                                     bxvd bxvd8 = (bxvd) a15.mo74142c(5);
-                                                    bxvd8.mo73625a((bxvk) a15);
+                                                    bxvd8.mo73625a((GeneratedMessageLite) a15);
                                                     bmdz bmdz = (bmdz) bxvd8;
                                                     bxvd bxvd9 = (bxvd) bmea2.mo74142c(5);
-                                                    bxvd9.mo73625a((bxvk) bmea2);
+                                                    bxvd9.mo73625a((GeneratedMessageLite) bmea2);
                                                     if (bmea2.f128899a != 2) {
                                                         bmdx3 = bmdx.f128886d;
                                                     } else {
                                                         bmdx3 = (bmdx) bmea2.f128900b;
                                                     }
                                                     bxvd bxvd10 = (bxvd) bmdx3.mo74142c(5);
-                                                    bxvd10.mo73625a((bxvk) bmdx3);
+                                                    bxvd10.mo73625a((GeneratedMessageLite) bmdx3);
                                                     if (bxvd10.f164950c) {
                                                         bxvd10.mo74035c();
                                                         bxvd10.f164950c = false;
@@ -1071,11 +1071,11 @@ public final class awtl extends awtz {
                             bmaq2 = bmaq.f128479l;
                         }
                         bxvd = (bxvd) bmaq2.mo74142c(5);
-                        bxvd.mo73625a((bxvk) bmaq2);
+                        bxvd.mo73625a((GeneratedMessageLite) bmaq2);
                     } else {
                         bxvd = bmaq.f128479l.mo74144da();
                     }
-                    bxtx bxtx = blxs3.f128140i;
+                    ByteString bxtx = blxs3.f128140i;
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -1118,7 +1118,7 @@ public final class awtl extends awtz {
                 if (bmaq5 == null) {
                     bmaq5 = bmaq.f128479l;
                 }
-                bxtx bxtx2 = bmaq5.f128483c;
+                ByteString bxtx2 = bmaq5.f128483c;
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;

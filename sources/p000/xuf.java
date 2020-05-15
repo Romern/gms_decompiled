@@ -7,7 +7,7 @@ import java.util.Arrays;
 public final class xuf implements xto {
 
     /* renamed from: b */
-    private static final sek f53147b = new sek(new String[]{"KnownDataCableEidResolver"}, (short[]) null);
+    private static final Logger f53147b = new Logger(new String[]{"KnownDataCableEidResolver"}, (short[]) null);
 
     /* renamed from: a */
     private final xjm f53148a;

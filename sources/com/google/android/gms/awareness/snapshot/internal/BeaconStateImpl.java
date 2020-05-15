@@ -223,7 +223,7 @@ public final class BeaconStateImpl extends AbstractSafeParcelable {
         public TypeFilterImpl(byte[] bArr) {
             bxby bxby;
             try {
-                bxby = (bxby) bxvk.m124016a(bxby.f162752e, bArr, bxus.m123744c());
+                bxby = (bxby) GeneratedMessageLite.m124016a(bxby.f162752e, bArr, bxus.m123744c());
             } catch (bxwf e) {
                 dst.m9253a("BeaconStateImpl", "Could not deserialize BeaconFence.BeaconTypeFilter");
                 bxby = null;

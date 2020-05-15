@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: moy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class moy extends bxvk implements bxxd {
+public final class moy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final moy f34089b;
@@ -16,7 +16,7 @@ public final class moy extends bxvk implements bxxd {
     static {
         moy moy = new moy();
         f34089b = moy;
-        bxvk.m124024a(moy.class, moy);
+        GeneratedMessageLite.m124024a(moy.class, moy);
     }
 
     private moy() {
@@ -33,7 +33,7 @@ public final class moy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34089b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", mox.class});
+            return GeneratedMessageLite.m124022a(f34089b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", mox.class});
         } else if (i2 == 3) {
             return new moy();
         } else {

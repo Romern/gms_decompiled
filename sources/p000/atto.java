@@ -33,32 +33,32 @@ final class atto implements atfd {
     }
 
     public final /* bridge */ /* synthetic */ void onResponse(Object obj) {
-        bxtx bxtx;
-        bxtx bxtx2;
-        bxtx bxtx3;
+        ByteString bxtx;
+        ByteString bxtx2;
+        ByteString bxtx3;
         btlu btlu = (btlu) obj;
         if (btlu.f149433a == 2) {
-            bxtx = (bxtx) btlu.f149434b;
+            bxtx = (ByteString) btlu.f149434b;
         } else {
             bxtx = bxtx.f164797b;
         }
         if (bxtx.mo73744a() > 0) {
             atsy atsy = this.f90880a;
             if (btlu.f149433a == 2) {
-                bxtx3 = (bxtx) btlu.f149434b;
+                bxtx3 = (ByteString) btlu.f149434b;
             } else {
                 bxtx3 = bxtx.f164797b;
             }
-            atsy.f90816H = bxtx3.mo73780k();
+            atsy.f90816H = bxtx3.getKey();
             this.f90881b.mo50180a(10, this.f90880a);
             return;
         }
         if (btlu.f149433a == 1) {
-            bxtx2 = (bxtx) btlu.f149434b;
+            bxtx2 = (ByteString) btlu.f149434b;
         } else {
             bxtx2 = bxtx.f164797b;
         }
-        byte[] k = bxtx2.mo73780k();
+        byte[] k = bxtx2.getKey();
         if (k == null || k.length == 0) {
             srn srn = attp.f90882a;
             attp attp = this.f90881b;

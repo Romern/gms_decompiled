@@ -5,7 +5,7 @@ import java.util.Locale;
 
 /* renamed from: sek */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public class sek {
+public class Logger {
 
     /* renamed from: a */
     public final String f44092a;
@@ -16,7 +16,7 @@ public class sek {
     /* renamed from: c */
     private final int f44094c;
 
-    public sek(String str) {
+    public Logger(String str) {
         this("SmsRetriever", str);
     }
 
@@ -73,7 +73,7 @@ public class sek {
         return this.f44093b.concat(str);
     }
 
-    public sek(String str, String... strArr) {
+    public Logger(String str, String... strArr) {
         String str2;
         int length = strArr.length;
         if (length != 0) {
@@ -135,7 +135,7 @@ public class sek {
     }
 
     /* renamed from: a */
-    public void mo25409a(String str, Object... objArr) {
+    public void logVerbose(String str, Object... objArr) {
         if (mo19637a(2)) {
             Log.v(this.f44092a, mo25421g(str, objArr));
         }
@@ -146,23 +146,23 @@ public class sek {
         Log.w(this.f44092a, th);
     }
 
-    public sek(String... strArr) {
+    public Logger(String... strArr) {
         this("Authzen", strArr);
     }
 
-    public sek(String[] strArr, byte... bArr) {
+    public Logger(String[] strArr, byte... bArr) {
         this("CryptauthV2", strArr);
     }
 
-    public sek(String[] strArr, char... cArr) {
+    public Logger(String[] strArr, char... cArr) {
         this("EasyUnlock", strArr);
     }
 
-    public sek(String[] strArr, int... iArr) {
+    public Logger(String[] strArr, int... iArr) {
         this("MagicTether", strArr);
     }
 
-    public sek(String[] strArr, short... sArr) {
+    public Logger(String[] strArr, short... sArr) {
         this("Fido", strArr);
     }
 }

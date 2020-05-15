@@ -9,6 +9,6 @@ final class bqth extends bqnq {
 
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo69296a(Object obj) {
-        return new bqvk(((bqru) obj).f141486b.mo73780k());
+        return new bqvk(((bqru) obj).f141486b.getKey());
     }
 }

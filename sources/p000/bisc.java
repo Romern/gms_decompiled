@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bisc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bisc extends bxvk implements bxxd {
+public final class bisc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bisc f121501f;
@@ -31,7 +31,7 @@ public final class bisc extends bxvk implements bxxd {
     static {
         bisc bisc = new bisc();
         f121501f = bisc;
-        bxvk.m124024a(bisc.class, bisc);
+        GeneratedMessageLite.m124024a(bisc.class, bisc);
     }
 
     private bisc() {
@@ -52,7 +52,7 @@ public final class bisc extends bxvk implements bxxd {
             this.f121508g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121501f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0001\u0001ဌ\u0000\u0002ဌ\u0001\u0003Л\u0004\u001b", new Object[]{"a", "b", birv.m102769b(), "c", biov.f121112a, "d", bioo.class, "e", biwg.class});
+            return GeneratedMessageLite.m124022a(f121501f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0002\u0001\u0001ဌ\u0000\u0002ဌ\u0001\u0003Л\u0004\u001b", new Object[]{"a", "b", birv.m102769b(), "c", biov.f121112a, "d", bioo.class, "e", biwg.class});
         } else if (i2 == 3) {
             return new bisc();
         } else {

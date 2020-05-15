@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btcz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btcz extends bxvk implements bxxd {
+public final class btcz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final btcz f148362g;
@@ -31,7 +31,7 @@ public final class btcz extends bxvk implements bxxd {
     static {
         btcz btcz = new btcz();
         f148362g = btcz;
-        bxvk.m124024a(btcz.class, btcz);
+        GeneratedMessageLite.m124024a(btcz.class, btcz);
     }
 
     private btcz() {
@@ -49,7 +49,7 @@ public final class btcz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148362g, "\u0000\u0006\u0000\u0000\u0001\b\u0006\u0000\u0001\u0000\u0001Ț\u0002\t\u0003\t\u0004\t\u0006\f\b\t", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f148362g, "\u0000\u0006\u0000\u0000\u0001\b\u0006\u0000\u0001\u0000\u0001Ț\u0002\t\u0003\t\u0004\t\u0006\f\b\t", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new btcz();
         } else {
@@ -76,7 +76,7 @@ public final class btcz extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo70741a() {
         if (!this.f148364a.mo73666a()) {
-            this.f148364a = bxvk.m124021a(this.f148364a);
+            this.f148364a = GeneratedMessageLite.m124021a(this.f148364a);
         }
     }
 }

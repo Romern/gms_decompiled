@@ -93,7 +93,7 @@ final class awmo extends awpc {
                     i2 = 1;
                 }
             }
-            byte[] k = bmqv.f130441c.mo73780k();
+            byte[] k = bmqv.f130441c.getKey();
             File cacheDir = axaj.getActivity().getCacheDir();
             String str = File.separator;
             String str2 = axaj.f95518b;

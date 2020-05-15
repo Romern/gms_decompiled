@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: laq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class laq extends bxvk implements bxxd {
+public final class laq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final laq f25596d;
@@ -22,7 +22,7 @@ public final class laq extends bxvk implements bxxd {
     static {
         laq laq = new laq();
         f25596d = laq;
-        bxvk.m124024a(laq.class, laq);
+        GeneratedMessageLite.m124024a(laq.class, laq);
     }
 
     private laq() {
@@ -39,7 +39,7 @@ public final class laq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25596d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0001\u0000\u0001\t\u0002\t\u0003\u001b", new Object[]{"a", "b", "c", lal.class});
+            return GeneratedMessageLite.m124022a(f25596d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0001\u0000\u0001\t\u0002\t\u0003\u001b", new Object[]{"a", "b", "c", lal.class});
         } else if (i2 == 3) {
             return new laq();
         } else {

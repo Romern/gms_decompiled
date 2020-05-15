@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cane */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cane extends bxvk implements bxxd {
+public final class cane extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: q */
     public static final cane f175337q;
@@ -61,7 +61,7 @@ public final class cane extends bxvk implements bxxd {
     static {
         cane cane = new cane();
         f175337q = cane;
-        bxvk.m124024a(cane.class, cane);
+        GeneratedMessageLite.m124024a(cane.class, cane);
     }
 
     private cane() {
@@ -83,7 +83,7 @@ public final class cane extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175337q, "\u0001\u000e\u0000\u0002\u0001-\u000e\u0000\u0000\u0000\u0001ဈ\u0000\u0004ဇ\u0006\u0005ဈ\b\u0006ဈ\u0001\tဈ\u0003\u0012ဈ\r\u0013ဈ\u000e\u0016ဌ\u0012\u001bဈ\u0016\u001dဇ\u0018'ဈ\"(ဈ#*ဇ*-ဇ-", new Object[]{"a", "b", "c", "f", "g", "d", "e", "h", "i", "j", cand.f175336a, "k", "l", "m", "n", "o", "p"});
+            return GeneratedMessageLite.m124022a(f175337q, "\u0001\u000e\u0000\u0002\u0001-\u000e\u0000\u0000\u0000\u0001ဈ\u0000\u0004ဇ\u0006\u0005ဈ\b\u0006ဈ\u0001\tဈ\u0003\u0012ဈ\r\u0013ဈ\u000e\u0016ဌ\u0012\u001bဈ\u0016\u001dဇ\u0018'ဈ\"(ဈ#*ဇ*-ဇ-", new Object[]{"a", "b", "c", "f", "g", "d", "e", "h", "i", "j", cand.f175336a, "k", "l", "m", "n", "o", "p"});
         } else if (i2 == 3) {
             return new cane();
         } else {

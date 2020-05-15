@@ -59,7 +59,7 @@ public final class rtf {
             } else {
                 strArr = f43648a;
             }
-            RegistrationInfo registrationInfo = new RegistrationInfo(str, i, strArr, zzu.f56341e.mo73780k(), zzu.f56342f, bqcn.m112584a(zzu.f56340d), "com.google.android.gms");
+            RegistrationInfo registrationInfo = new RegistrationInfo(str, i, strArr, zzu.f56341e.getKey(), zzu.f56342f, bqcn.m112584a(zzu.f56340d), "com.google.android.gms");
             if ("com.google.android.gms".equals(zzu.f56338b)) {
                 bxvd da = bqzu.f142084g.mo74144da();
                 String i4 = stu.m36323i();
@@ -105,17 +105,17 @@ public final class rtf {
                     da2.mo74035c();
                     da2.f164950c = false;
                 }
-                ((qhd) da2.f164949b).f41299m = bxvk.m124030de();
+                ((qhd) da2.f164949b).f41299m = GeneratedMessageLite.m124030de();
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
                 }
-                ((qhd) da2.f164949b).f41301o = bxvk.m124030de();
+                ((qhd) da2.f164949b).f41301o = GeneratedMessageLite.m124030de();
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
                 }
-                ((qhd) da2.f164949b).f41304r = bxvk.m124030de();
+                ((qhd) da2.f164949b).f41304r = GeneratedMessageLite.m124030de();
                 qhd qhd2 = (qhd) da2.mo74062i();
                 if (da.f164950c) {
                     da.mo74035c();
@@ -167,7 +167,7 @@ public final class rtf {
                     bqzu5.f142091f = i14 - 1;
                     bqzu5.f142086a |= 8;
                 }
-                a.add(new RegistrationInfo(registrationInfo.f82115a, registrationInfo.f82116b, registrationInfo.f82117c, ((bqzu) da.mo74062i()).mo73642k(), registrationInfo.f82119e, registrationInfo.f82120f, registrationInfo.f82121g));
+                a.add(new RegistrationInfo(registrationInfo.f82115a, registrationInfo.f82116b, registrationInfo.f82117c, ((bqzu) da.mo74062i()).serializeToBytes(), registrationInfo.f82119e, registrationInfo.f82120f, registrationInfo.f82121g));
             } else if (!zzu.f56343g) {
                 a.add(registrationInfo);
             }

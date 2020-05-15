@@ -22,9 +22,9 @@ final class argy implements aubq {
     /* renamed from: a */
     public final void mo6378a(aucb aucb) {
         if (aucb.mo50384b()) {
-            argz.f87712b.mo25409a("Registration for %s complete %s", this.f87709a, ((KeyRegistrationResult) aucb.mo50386d()).f10542b);
+            argz.f87712b.logVerbose("Registration for %s complete %s", this.f87709a, ((KeyRegistrationResult) aucb.mo50386d()).f10542b);
         } else {
-            argz.f87712b.mo25409a("Registration for %s failed %s", this.f87709a, aucb.mo50387e());
+            argz.f87712b.logVerbose("Registration for %s failed %s", this.f87709a, aucb.mo50387e());
         }
         this.f87710b.countDown();
     }

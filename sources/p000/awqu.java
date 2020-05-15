@@ -73,7 +73,7 @@ public abstract class awqu {
     public final void mo52467a(BuyFlowConfig buyFlowConfig, Context context) {
         bpje bpje = this.f94876k;
         bxvd bxvd = (bxvd) bpje.mo74142c(5);
-        bxvd.mo73625a((bxvk) bpje);
+        bxvd.mo73625a((GeneratedMessageLite) bpje);
         String str = buyFlowConfig.f110419c;
         if (buyFlowConfig.mo60046b() != null) {
             String b = buyFlowConfig.mo60046b();

@@ -8,7 +8,7 @@ final class baml implements bamp {
     final bngs f101265a = bngx.m109377j();
 
     /* renamed from: b */
-    bxtx f101266b = null;
+    ByteString f101266b = null;
 
     /* renamed from: c */
     long f101267c = this.f101268d;
@@ -27,10 +27,10 @@ final class baml implements bamp {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ boolean mo55759a(Object obj, Object obj2) {
         try {
-            bxxc bxxc = (bxxc) this.f101269e.f101276c.mo73653a((bxtx) obj2);
+            bxxc bxxc = (bxxc) this.f101269e.f101276c.mo73653a((ByteString) obj2);
             if (this.f101267c >= ((long) bxxc.mo74145db())) {
                 this.f101267c -= (long) bxxc.mo74145db();
-                this.f101266b = (bxtx) obj;
+                this.f101266b = (ByteString) obj;
                 this.f101265a.mo67668c(bxxc);
                 return true;
             }
@@ -38,7 +38,7 @@ final class baml implements bamp {
             return false;
         } catch (bxwf e) {
             ((achw) this.f101269e.f101275b.mo16713a()).mo25418e("Skipping unparsable Change proto:", new Object[0]);
-            this.f101266b = (bxtx) obj;
+            this.f101266b = (ByteString) obj;
             return true;
         }
     }

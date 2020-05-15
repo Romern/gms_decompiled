@@ -44,7 +44,7 @@ public final /* synthetic */ class ahuv implements Runnable {
                 ahza a2 = ahur.m56666a((List) buru.mo73055a(account).get(), a);
                 if (a2 != null) {
                     da = aiaa.f68501K.mo74144da();
-                    bxtx bxtx = a2.f68445c;
+                    ByteString bxtx = a2.f68445c;
                     bxus c = bxus.m123744c();
                     bxuc h = bxtx.mo73764h();
                     da.mo73627a(h, c);

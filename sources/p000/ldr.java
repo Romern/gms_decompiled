@@ -72,7 +72,7 @@ final /* synthetic */ class ldr implements bmzi {
         laj.f25554b = lbf;
         bngx bngx = fillContext.f11648b;
         if (!laj.f25555c.mo73666a()) {
-            laj.f25555c = bxvk.m124021a(laj.f25555c);
+            laj.f25555c = GeneratedMessageLite.m124021a(laj.f25555c);
         }
         bxsy.m123078a(bngx, laj.f25555c);
         if (da.f164950c) {

@@ -10,7 +10,7 @@ import java.util.Arrays;
 public final class xcp extends aaab {
 
     /* renamed from: e */
-    private static final sek f51946e = new sek(new String[]{"DeleteKeyOperation"}, (short[]) null);
+    private static final Logger f51946e = new Logger(new String[]{"DeleteKeyOperation"}, (short[]) null);
 
     /* renamed from: a */
     private final xcm f51947a = ((xcm) xcm.f51937d.mo33309a());
@@ -49,15 +49,15 @@ public final class xcp extends aaab {
             String str = this.f51949c;
             byte[] bArr = this.f51950d;
             sdo.m34969a(str, (Object) "rpId cannot be empty");
-            sdo.m34966a(bArr, "keyHandle cannot be null");
-            sek sek = f51946e;
+            sdo.checkIfNull(bArr, "keyHandle cannot be null");
+            Logger Logger = f51946e;
             String arrays = Arrays.toString(this.f51950d);
             StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 36 + String.valueOf(arrays).length());
             sb.append("deleteKey with rpId ");
             sb.append(str);
             sb.append(" with keyHandle ");
             sb.append(arrays);
-            sek.mo25412b(sb.toString(), new Object[0]);
+            Logger.mo25412b(sb.toString(), new Object[0]);
             xcv xcv = new xcv(str, bArr);
             xmq xmq = xcv.f51972a;
             String a = xcv.mo29645a();

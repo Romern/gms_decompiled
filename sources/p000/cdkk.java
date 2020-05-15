@@ -11,6 +11,6 @@ final /* synthetic */ class cdkk implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (asif) bxvk.m124014a(asif.f89005g, bArr);
+        return (asif) GeneratedMessageLite.m124014a(asif.f89005g, bArr);
     }
 }

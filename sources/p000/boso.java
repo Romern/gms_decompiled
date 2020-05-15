@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boso */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boso extends bxvk implements bxxd {
+public final class boso extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final boso f134628g;
@@ -31,7 +31,7 @@ public final class boso extends bxvk implements bxxd {
     static {
         boso boso = new boso();
         f134628g = boso;
-        bxvk.m124024a(boso.class, boso);
+        GeneratedMessageLite.m124024a(boso.class, boso);
     }
 
     private boso() {
@@ -48,7 +48,7 @@ public final class boso extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134628g, "\u0001\u0005\u0000\u0001\u0002\u0006\u0005\u0000\u0000\u0000\u0002ဉ\u0000\u0003ဉ\u0001\u0004ဉ\u0002\u0005ဉ\u0003\u0006ဉ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f134628g, "\u0001\u0005\u0000\u0001\u0002\u0006\u0005\u0000\u0000\u0000\u0002ဉ\u0000\u0003ဉ\u0001\u0004ဉ\u0002\u0005ဉ\u0003\u0006ဉ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new boso();
         } else {

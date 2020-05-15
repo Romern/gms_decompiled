@@ -82,8 +82,8 @@ public final /* synthetic */ class aexl implements aubg {
         ggp.f18144c = str;
         ggp.f18143b = 30;
         ggp.f18142a = 2;
-        ggp.mo11800a(((bsqw) bsqv.mo74062i()).mo73642k());
-        ggp.f18145d = bsqx.mo73642k();
+        ggp.mo11800a(((bsqw) bsqv.mo74062i()).serializeToBytes());
+        ggp.f18145d = bsqx.serializeToBytes();
         return ggh.m13102a(context).mo11796a(ggp.mo11799a());
     }
 }

@@ -888,7 +888,7 @@ public final class bgdo extends adzt implements bgjn, ssn, spr {
                                     btxt btxt2 = (btxt) da.f164949b;
                                     a2.getClass();
                                     if (!btxt2.f152855a.mo73666a()) {
-                                        btxt2.f152855a = bxvk.m124021a(btxt2.f152855a);
+                                        btxt2.f152855a = GeneratedMessageLite.m124021a(btxt2.f152855a);
                                     }
                                     btxt2.f152855a.add(a2);
                                     i6++;
@@ -927,7 +927,7 @@ public final class bgdo extends adzt implements bgjn, ssn, spr {
                                             btye btye2 = (btye) da2.f164949b;
                                             btyd2.getClass();
                                             if (!btye2.f152892b.mo73666a()) {
-                                                btye2.f152892b = bxvk.m124021a(btye2.f152892b);
+                                                btye2.f152892b = GeneratedMessageLite.m124021a(btye2.f152892b);
                                             }
                                             btye2.f152892b.add(btyd2);
                                             i8++;
@@ -960,7 +960,7 @@ public final class bgdo extends adzt implements bgjn, ssn, spr {
                                         btxt btxt3 = (btxt) da.f164949b;
                                         btye.getClass();
                                         if (!btxt3.f152856b.mo73666a()) {
-                                            btxt3.f152856b = bxvk.m124021a(btxt3.f152856b);
+                                            btxt3.f152856b = GeneratedMessageLite.m124021a(btxt3.f152856b);
                                         }
                                         btxt3.f152856b.add(btye);
                                     }

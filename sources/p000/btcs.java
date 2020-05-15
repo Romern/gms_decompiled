@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btcs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btcs extends bxvk implements bxxd {
+public final class btcs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btcs f148310b;
@@ -16,7 +16,7 @@ public final class btcs extends bxvk implements bxxd {
     static {
         btcs btcs = new btcs();
         f148310b = btcs;
-        bxvk.m124024a(btcs.class, btcs);
+        GeneratedMessageLite.m124024a(btcs.class, btcs);
     }
 
     private btcs() {
@@ -33,7 +33,7 @@ public final class btcs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148310b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001Ȉ", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f148310b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001Ȉ", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btcs();
         } else {

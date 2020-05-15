@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpwl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpwl extends bxvk implements bxxd {
+public final class bpwl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bpwl f139521d;
@@ -25,7 +25,7 @@ public final class bpwl extends bxvk implements bxxd {
     static {
         bpwl bpwl = new bpwl();
         f139521d = bpwl;
-        bxvk.m124024a(bpwl.class, bpwl);
+        GeneratedMessageLite.m124024a(bpwl.class, bpwl);
     }
 
     private bpwl() {
@@ -46,7 +46,7 @@ public final class bpwl extends bxvk implements bxxd {
             this.f139526e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f139521d, "\u0001\u0002\u0000\u0001\u0001\u0004\u0002\u0000\u0001\u0002\u0001ᔈ\u0000\u0004б", new Object[]{"a", "b", "c", bpwk.class});
+            return GeneratedMessageLite.m124022a(f139521d, "\u0001\u0002\u0000\u0001\u0001\u0004\u0002\u0000\u0001\u0002\u0001ᔈ\u0000\u0004б", new Object[]{"a", "b", "c", bpwk.class});
         } else if (i2 == 3) {
             return new bpwl();
         } else {

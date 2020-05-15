@@ -135,7 +135,7 @@ public final class beyw extends aeks implements aerd {
                         if (beyv.f113050m != null) {
                             beyv.mo61263b();
                             for (Pair pair : beyv.f113050m) {
-                                arrayList.add(boan.f132470d.mo68794a(((bezb) pair.second).mo73642k()));
+                                arrayList.add(boan.f132470d.mo68794a(((bezb) pair.second).serializeToBytes()));
                             }
                         }
                     }

@@ -60,7 +60,7 @@ public final /* synthetic */ class agqy implements Runnable {
         }
         try {
             try {
-                bwbv bwbv = (bwbv) bxvk.m124014a(bwbv.f158777g, Base64.decode(stringExtra, 0));
+                bwbv bwbv = (bwbv) GeneratedMessageLite.m124014a(bwbv.f158777g, Base64.decode(stringExtra, 0));
                 if (a.f66305a == null) {
                     a.f66305a = new agrq();
                 }

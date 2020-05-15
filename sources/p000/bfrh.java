@@ -297,7 +297,7 @@ final class bfrh {
             }
             bplp bplp = (bplp) da2.f164949b;
             if (!bplp.f138121b.mo73666a()) {
-                bplp.f138121b = bxvk.m124020a(bplp.f138121b);
+                bplp.f138121b = GeneratedMessageLite.m124020a(bplp.f138121b);
             }
             bxsy.m123078a(b, bplp.f138121b);
             List b2 = bqcr.m112598b(bfpa.f114747b.mo62075a());
@@ -307,7 +307,7 @@ final class bfrh {
             }
             bplp bplp2 = (bplp) da2.f164949b;
             if (!bplp2.f138122c.mo73666a()) {
-                bplp2.f138122c = bxvk.m124020a(bplp2.f138122c);
+                bplp2.f138122c = GeneratedMessageLite.m124020a(bplp2.f138122c);
             }
             bxsy.m123078a(b2, bplp2.f138122c);
             List b3 = bqcr.m112598b(bfpa.f114748c.mo62075a());
@@ -317,7 +317,7 @@ final class bfrh {
             }
             bplp bplp3 = (bplp) da2.f164949b;
             if (!bplp3.f138123d.mo73666a()) {
-                bplp3.f138123d = bxvk.m124020a(bplp3.f138123d);
+                bplp3.f138123d = GeneratedMessageLite.m124020a(bplp3.f138123d);
             }
             bxsy.m123078a(b3, bplp3.f138123d);
             List b4 = bqcr.m112598b(bfpa.f114749d.mo62075a());
@@ -327,7 +327,7 @@ final class bfrh {
             }
             bplp bplp4 = (bplp) da2.f164949b;
             if (!bplp4.f138124e.mo73666a()) {
-                bplp4.f138124e = bxvk.m124020a(bplp4.f138124e);
+                bplp4.f138124e = GeneratedMessageLite.m124020a(bplp4.f138124e);
             }
             bxsy.m123078a(b4, bplp4.f138124e);
             int i3 = bfpa.f114750e;
@@ -443,7 +443,7 @@ final class bfrh {
                             bpma bpma10 = (bpma) da.f164949b;
                             bpme2.getClass();
                             if (!bpma10.f138197c.mo73666a()) {
-                                bpma10.f138197c = bxvk.m124021a(bpma10.f138197c);
+                                bpma10.f138197c = GeneratedMessageLite.m124021a(bpma10.f138197c);
                             }
                             bpma10.f138197c.add(bpme2);
                         }
@@ -483,7 +483,7 @@ final class bfrh {
                             bpma bpma11 = (bpma) da.f164949b;
                             bpmf2.getClass();
                             if (!bpma11.f138198d.mo73666a()) {
-                                bpma11.f138198d = bxvk.m124021a(bpma11.f138198d);
+                                bpma11.f138198d = GeneratedMessageLite.m124021a(bpma11.f138198d);
                             }
                             bpma11.f138198d.add(bpmf2);
                         }
@@ -520,7 +520,7 @@ final class bfrh {
                             }
                             bpmc bpmc2 = (bpmc) da5.f164949b;
                             if (!bpmc2.f138215c.mo73666a()) {
-                                bpmc2.f138215c = bxvk.m124021a(bpmc2.f138215c);
+                                bpmc2.f138215c = GeneratedMessageLite.m124021a(bpmc2.f138215c);
                             }
                             bxsy.m123078a(arrayList, bpmc2.f138215c);
                         }
@@ -819,7 +819,7 @@ final class bfrh {
                     }
                     if (arrayList3 != null) {
                         if (!bpls4.f138147g.mo73666a()) {
-                            bpls4.f138147g = bxvk.m124019a(bpls4.f138147g);
+                            bpls4.f138147g = GeneratedMessageLite.m124019a(bpls4.f138147g);
                         }
                         bxsy.m123078a(arrayList3, bpls4.f138147g);
                     }
@@ -830,7 +830,7 @@ final class bfrh {
                         }
                         bpls bpls5 = (bpls) da.f164949b;
                         if (!bpls5.f138148h.mo73666a()) {
-                            bpls5.f138148h = bxvk.m124019a(bpls5.f138148h);
+                            bpls5.f138148h = GeneratedMessageLite.m124019a(bpls5.f138148h);
                         }
                         bxsy.m123078a(arrayList4, bpls5.f138148h);
                     }

@@ -22,7 +22,7 @@ final class pbk extends omn {
         d.mo68432a("pbk", "a", 677, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
         d.mo68409a("Handoff service discovery complete %d", list.size());
         try {
-            bivd bivd = (bivd) bxvk.m124014a(bivd.f121947o, bArr);
+            bivd bivd = (bivd) GeneratedMessageLite.m124014a(bivd.f121947o, bArr);
             if (this.f38767a.f38784j.mo22878d()) {
                 bmxy.m108581a(carInfoInternal);
                 carInfoInternal.f29552n = this.f38767a.f38782h;

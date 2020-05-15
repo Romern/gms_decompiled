@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
 final class xzx implements Runnable {
 
     /* renamed from: i */
-    private static final sek f53493i = new sek(new String[]{"UsbRequestOperation"}, (short[]) null);
+    private static final Logger f53493i = new Logger(new String[]{"UsbRequestOperation"}, (short[]) null);
 
     /* renamed from: a */
     public final xzu f53494a;

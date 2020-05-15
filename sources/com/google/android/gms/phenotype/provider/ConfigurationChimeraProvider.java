@@ -145,7 +145,7 @@ public class ConfigurationChimeraProvider extends ContentProvider {
                     brad brad3 = brad.f142126d;
                     brae7.getClass();
                     if (!brad2.f142130c.mo73666a()) {
-                        brad2.f142130c = bxvk.m124021a(brad2.f142130c);
+                        brad2.f142130c = GeneratedMessageLite.m124021a(brad2.f142130c);
                     }
                     brad2.f142130c.add(brae7);
                 }

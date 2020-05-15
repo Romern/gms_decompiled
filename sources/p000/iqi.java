@@ -12,7 +12,7 @@ import java.util.Map;
 public final class iqi {
 
     /* renamed from: a */
-    private static final sek f21562a = new sek(new String[]{"DeviceSyncUpdater"}, (byte[]) null);
+    private static final Logger f21562a = new Logger(new String[]{"DeviceSyncUpdater"}, (byte[]) null);
 
     /* renamed from: b */
     private final Context f21563b;

@@ -19,7 +19,7 @@ final /* synthetic */ class bejo implements bqeh {
         }
         long nextLong = belw.f111805a.nextLong();
         bxvd bxvd = (bxvd) byeh.mo74142c(5);
-        bxvd.mo73625a((bxvk) byeh);
+        bxvd.mo73625a((GeneratedMessageLite) byeh);
         String l = Long.toString(nextLong);
         if (bxvd.f164950c) {
             bxvd.mo74035c();

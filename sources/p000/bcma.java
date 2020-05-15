@@ -39,7 +39,7 @@ public final class bcma implements bcnl {
         }
         cbjk cbjk = (cbjk) da.f164949b;
         if (!cbjk.f177340b.mo73666a()) {
-            cbjk.f177340b = bxvk.m124021a(cbjk.f177340b);
+            cbjk.f177340b = GeneratedMessageLite.m124021a(cbjk.f177340b);
         }
         bxsy.m123078a(a, cbjk.f177340b);
         return bqga.m112775a((cbjk) da.mo74062i());

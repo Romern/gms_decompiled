@@ -47,7 +47,7 @@ public final class aabb {
         }
         if (zzp != null) {
             bxvd = (bxvd) zzp.mo74142c(5);
-            bxvd.mo73625a((bxvk) zzp);
+            bxvd.mo73625a((GeneratedMessageLite) zzp);
         } else {
             bxvd = zzp.f56314g.mo74144da();
         }

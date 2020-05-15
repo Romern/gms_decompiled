@@ -16,7 +16,7 @@ import java.security.spec.X509EncodedKeySpec;
 final class wcq {
 
     /* renamed from: a */
-    private static final sek f50500a = new sek("EasySignIn", "InputsParser");
+    private static final Logger f50500a = new Logger("EasySignIn", "InputsParser");
 
     /* renamed from: b */
     private static final byte[] f50501b = Base64.decode("MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsD/ced85z69jJOBsEsK5Ac12Uz2sTFPFfCVMKUH9YuRuE2p/JEyOm+/7f02oQVq2DoZJYeNyNtJrtoP46uuoxw==", 2);
@@ -74,8 +74,8 @@ final class wcq {
 
     /* renamed from: a */
     private static boolean m41766a(byte[] bArr, byte[] bArr2, byct byct) {
-        byte[] k = byct.f165703a.mo73780k();
-        return m41767a(k, byct.f165704b.mo73780k(), f50501b) && m41767a(bArr, bArr2, k);
+        byte[] k = byct.f165703a.getKey();
+        return m41767a(k, byct.f165704b.getKey(), f50501b) && m41767a(bArr, bArr2, k);
     }
 
     /* renamed from: a */

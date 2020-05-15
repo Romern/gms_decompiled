@@ -11,6 +11,6 @@ final /* synthetic */ class cfuo implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (allx) bxvk.m124014a(allx.f73647d, bArr);
+        return (allx) GeneratedMessageLite.m124014a(allx.f73647d, bArr);
     }
 }

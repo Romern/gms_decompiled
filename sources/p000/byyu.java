@@ -31,7 +31,7 @@ public final class byyu extends bxvg implements bxvh {
     static {
         byyu byyu = new byyu();
         f169014f = byyu;
-        bxvk.m124024a(byyu.class, byyu);
+        GeneratedMessageLite.m124024a(byyu.class, byyu);
     }
 
     private byyu() {
@@ -52,7 +52,7 @@ public final class byyu extends bxvg implements bxvh {
             this.f169021g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f169014f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f169014f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new byyu();
         } else {

@@ -8,7 +8,7 @@ import java.util.ListIterator;
 public final class hzg {
 
     /* renamed from: a */
-    public final sek f20584a = new sek("LegacyRequestHandler");
+    public final Logger f20584a = new Logger("LegacyRequestHandler");
 
     /* renamed from: b */
     public final ArrayList f20585b = new ArrayList();

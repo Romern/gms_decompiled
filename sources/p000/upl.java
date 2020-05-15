@@ -130,7 +130,7 @@ public final class upl implements uoz {
     public final void mo27812a(ChangeEvent changeEvent, ujx ujx) {
         DriveId driveId = changeEvent.f30770a;
         sdo.m34959a(driveId);
-        sdo.m34966a(ujx, "Entry can't be null for change events");
+        sdo.checkIfNull(ujx, "Entry can't be null for change events");
         sdo.m34975b(driveId.equals(ujx.mo27610g()), "Event and entry mismatch");
         this.f48483d.mo27798a(ujx.mo27610g(), new upj(this, changeEvent, ujx));
         this.f48482c.mo27804a(new upk(this, ujx));

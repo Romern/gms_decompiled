@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btio */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btio extends bxvk implements bxxd {
+public final class btio extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final btio f148996k;
@@ -43,7 +43,7 @@ public final class btio extends bxvk implements bxxd {
     static {
         btio btio = new btio();
         f148996k = btio;
-        bxvk.m124024a(btio.class, btio);
+        GeneratedMessageLite.m124024a(btio.class, btio);
     }
 
     private btio() {
@@ -60,7 +60,7 @@ public final class btio extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148996k, "\u0000\n\u0000\u0000\u0001\f\n\u0000\u0002\u0000\u0001\u0004\u0003\u0004\u0004\u0004\u0006\u0007\u0007Ț\b\u0002\t\u0007\nȚ\u000bȈ\fȈ", new Object[]{"a", "b", "c", "d", "e", "g", "f", "i", "h", "j"});
+            return GeneratedMessageLite.m124022a(f148996k, "\u0000\n\u0000\u0000\u0001\f\n\u0000\u0002\u0000\u0001\u0004\u0003\u0004\u0004\u0004\u0006\u0007\u0007Ț\b\u0002\t\u0007\nȚ\u000bȈ\fȈ", new Object[]{"a", "b", "c", "d", "e", "g", "f", "i", "h", "j"});
         } else if (i2 == 3) {
             return new btio();
         } else {

@@ -29,7 +29,7 @@ public final class uvw {
 
     /* renamed from: a */
     public static void m39524a(uhn uhn, uih uih, DriveId driveId, MetadataBundle metadataBundle, String str) {
-        sdo.m34966a(driveId, "Parent Drive ID cannot be null.");
+        sdo.checkIfNull(driveId, "Parent Drive ID cannot be null.");
         uey a = uey.m38255a(uih);
         try {
             if (!uhn.mo27402a(a, ukk.m38862a(driveId.f30729b)).mo27573ai()) {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cagb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cagb extends bxvk implements bxxd {
+public final class cagb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final cagb f173068e;
@@ -28,7 +28,7 @@ public final class cagb extends bxvk implements bxxd {
     static {
         cagb cagb = new cagb();
         f173068e = cagb;
-        bxvk.m124024a(cagb.class, cagb);
+        GeneratedMessageLite.m124024a(cagb.class, cagb);
     }
 
     private cagb() {
@@ -49,7 +49,7 @@ public final class cagb extends bxvk implements bxxd {
             this.f173074f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f173068e, "\u0001\u0003\u0000\u0001\u0001\f\u0003\u0000\u0000\u0001\u0001ဌ\u0000\u0002ᐉ\u0003\fဂ\u0011", new Object[]{"a", "b", caga.f173067a, "c", "d"});
+            return GeneratedMessageLite.m124022a(f173068e, "\u0001\u0003\u0000\u0001\u0001\f\u0003\u0000\u0000\u0001\u0001ဌ\u0000\u0002ᐉ\u0003\fဂ\u0011", new Object[]{"a", "b", caga.f173067a, "c", "d"});
         } else if (i2 == 3) {
             return new cagb();
         } else {

@@ -30,7 +30,7 @@ public final class stz implements ThreadFactory {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.Object, java.lang.Object):void */
     public stz(String str) {
-        sdo.m34966a((Object) str, (Object) "Name must not be null");
+        sdo.checkIfNull((Object) str, (Object) "Name must not be null");
         this.f45157a = str;
     }
 }

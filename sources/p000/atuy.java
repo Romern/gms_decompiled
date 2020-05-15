@@ -77,13 +77,13 @@ public final class atuy extends atvb {
         int i;
         Void[] voidArr = (Void[]) objArr;
         try {
-            btjx btjx2 = (btjx) bxvk.m124016a(btjx.f149192h, this.f90967j, bxus.m123744c());
+            btjx btjx2 = (btjx) GeneratedMessageLite.m124016a(btjx.f149192h, this.f90967j, bxus.m123744c());
             btnv a = btnv.m116964a(btjx2.f149197d);
             if (a == null) {
                 a = btnv.UNRECOGNIZED;
             }
             this.f90970m = a;
-            if (!this.f90968k.mo49850a(this.f90963b, btjx2.f149196c.mo73780k())) {
+            if (!this.f90968k.mo49850a(this.f90963b, btjx2.f149196c.getKey())) {
                 bxvd da = btmh.f149485e.mo74144da();
                 btiy a2 = this.f90968k.mo49843a(this.f90963b);
                 if (da.f164950c) {
@@ -96,12 +96,12 @@ public final class atuy extends atvb {
                 String str = this.f90966i;
                 str.getClass();
                 btmh.f149489c = str;
-                bxtx bxtx = btjx2.f149196c;
+                ByteString bxtx = btjx2.f149196c;
                 bxtx.getClass();
                 btmh.f149488b = bxtx;
                 byte[] bArr = this.f90965h;
                 if (bArr != null) {
-                    bxtx a3 = bxtx.m123261a(bArr);
+                    ByteString a3 = bxtx.m123261a(bArr);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -114,8 +114,8 @@ public final class atuy extends atvb {
                 String str2 = this.f90963b;
                 e = atds.mo49861e();
                 e.beginTransaction();
-                atds.mo49846a(e, str2, btjx2.mo73642k());
-                asil b = atds.mo49851b(e, str2, btjx2.f149196c.mo73780k());
+                atds.mo49846a(e, str2, btjx2.serializeToBytes());
+                asil b = atds.mo49851b(e, str2, btjx2.f149196c.getKey());
                 bxvd da2 = asil.f89046d.mo74144da();
                 btmj btmj = btmk.f149501b;
                 if (btmj != null && btmj.f149497a > 0) {
@@ -199,7 +199,7 @@ public final class atuy extends atvb {
                 } else {
                     btjx = btjx2;
                 }
-                atds.mo49847a(e, str2, btjx.f149196c.mo73780k(), (asil) da2.mo74062i());
+                atds.mo49847a(e, str2, btjx.f149196c.getKey(), (asil) da2.mo74062i());
                 e.setTransactionSuccessful();
                 e.endTransaction();
                 return true;
@@ -242,7 +242,7 @@ public final class atuy extends atvb {
                             if (b3 != null) {
                                 atam atam = this.f90969l;
                                 String str3 = this.f90966i;
-                                btjx btjx3 = (btjx) bxvk.m124016a(btjx.f149192h, this.f90967j, bxus.m123744c());
+                                btjx btjx3 = (btjx) GeneratedMessageLite.m124016a(btjx.f149192h, this.f90967j, bxus.m123744c());
                                 bxvd b4 = atam.mo49753b(32, b3);
                                 bxvd da6 = bpaq.f135525e.mo74144da();
                                 int a5 = atam.m75293a(btjx3);
@@ -364,13 +364,13 @@ public final class atuy extends atvb {
         btjx btjx;
         int i;
         try {
-            btjx btjx2 = (btjx) bxvk.m124016a(btjx.f149192h, this.f90967j, bxus.m123744c());
+            btjx btjx2 = (btjx) GeneratedMessageLite.m124016a(btjx.f149192h, this.f90967j, bxus.m123744c());
             btnv a = btnv.m116964a(btjx2.f149197d);
             if (a == null) {
                 a = btnv.UNRECOGNIZED;
             }
             this.f90970m = a;
-            if (!this.f90968k.mo49850a(this.f90963b, btjx2.f149196c.mo73780k())) {
+            if (!this.f90968k.mo49850a(this.f90963b, btjx2.f149196c.getKey())) {
                 bxvd da = btmh.f149485e.mo74144da();
                 btiy a2 = this.f90968k.mo49843a(this.f90963b);
                 if (da.f164950c) {
@@ -383,12 +383,12 @@ public final class atuy extends atvb {
                 String str = this.f90966i;
                 str.getClass();
                 btmh.f149489c = str;
-                bxtx bxtx = btjx2.f149196c;
+                ByteString bxtx = btjx2.f149196c;
                 bxtx.getClass();
                 btmh.f149488b = bxtx;
                 byte[] bArr = this.f90965h;
                 if (bArr != null) {
-                    bxtx a3 = bxtx.m123261a(bArr);
+                    ByteString a3 = bxtx.m123261a(bArr);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -401,8 +401,8 @@ public final class atuy extends atvb {
                 String str2 = this.f90963b;
                 e = atds.mo49861e();
                 e.beginTransaction();
-                atds.mo49846a(e, str2, btjx2.mo73642k());
-                asil b = atds.mo49851b(e, str2, btjx2.f149196c.mo73780k());
+                atds.mo49846a(e, str2, btjx2.serializeToBytes());
+                asil b = atds.mo49851b(e, str2, btjx2.f149196c.getKey());
                 bxvd da2 = asil.f89046d.mo74144da();
                 btmj btmj = btmk.f149501b;
                 if (btmj != null && btmj.f149497a > 0) {
@@ -486,7 +486,7 @@ public final class atuy extends atvb {
                 } else {
                     btjx = btjx2;
                 }
-                atds.mo49847a(e, str2, btjx.f149196c.mo73780k(), (asil) da2.mo74062i());
+                atds.mo49847a(e, str2, btjx.f149196c.getKey(), (asil) da2.mo74062i());
                 e.setTransactionSuccessful();
                 e.endTransaction();
                 return true;
@@ -546,7 +546,7 @@ public final class atuy extends atvb {
                         if (b3 != null) {
                             atam atam = this.f90969l;
                             String str3 = this.f90966i;
-                            btjx btjx3 = (btjx) bxvk.m124016a(btjx.f149192h, this.f90967j, bxus.m123744c());
+                            btjx btjx3 = (btjx) GeneratedMessageLite.m124016a(btjx.f149192h, this.f90967j, bxus.m123744c());
                             bxvd b4 = atam.mo49753b(32, b3);
                             bxvd da6 = bpaq.f135525e.mo74144da();
                             int a5 = atam.m75293a(btjx3);
@@ -658,7 +658,7 @@ public final class atuy extends atvb {
                 message = Message.obtain((Handler) null, this.f90988g);
                 btnf btnf = this.f90987f;
                 if (btnf != null) {
-                    bArr = btnf.mo73642k();
+                    bArr = btnf.serializeToBytes();
                 }
                 bundle.putByteArray("tap_and_pay_api_error", bArr);
             } catch (RemoteException e) {
@@ -688,7 +688,7 @@ public final class atuy extends atvb {
                 message = Message.obtain((Handler) null, this.f90988g);
                 btnf btnf = this.f90987f;
                 if (btnf != null) {
-                    bArr = btnf.mo73642k();
+                    bArr = btnf.serializeToBytes();
                 }
                 bundle.putByteArray("tap_and_pay_api_error", bArr);
             } catch (RemoteException e) {

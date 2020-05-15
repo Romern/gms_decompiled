@@ -25,7 +25,7 @@ final class qpz extends rpa {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ void mo11798a(rjd rjd, aucf aucf) {
         Bundle bundle = new Bundle();
-        bundle.putByteArray("entity", this.f41936a.mo73642k());
+        bundle.putByteArray("entity", this.f41936a.serializeToBytes());
         qsa qsa = (qsa) ((qru) rjd).mo25289B();
         qsd qsd = new qsd(aucf);
         int i = this.f41938c.f41940b;

@@ -32,7 +32,7 @@ public final class akjj {
     public static void m59878a(Context context) {
         synchronized (f72089a) {
             if (!m59879a()) {
-                sdo.m34966a(context, "Context must not be null");
+                sdo.checkIfNull(context, "Context must not be null");
                 try {
                     akjj.class.getClassLoader().loadClass("org.chromium.net.CronetEngine");
                     rfy.m33555l(context);

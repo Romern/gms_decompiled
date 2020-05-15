@@ -19,7 +19,7 @@ public final class atmw {
         a.beginTransaction();
         try {
             ContentValues contentValues = new ContentValues();
-            contentValues.put("proto", bxxc.mo73642k());
+            contentValues.put("proto", bxxc.serializeToBytes());
             contentValues.put("account_name", str);
             contentValues.put("environment", str2);
             if (a.insert(str3, null, contentValues) != -1) {

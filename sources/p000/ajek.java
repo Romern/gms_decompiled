@@ -90,7 +90,7 @@ public final class ajek {
         a.getClass();
         byze.f169067b = a;
         byze.f169066a |= 1;
-        bxtx a2 = bxtx.m123261a(message.f80676b);
+        ByteString a2 = ByteString.m123261a(message.f80676b);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -202,7 +202,7 @@ public final class ajek {
     /* renamed from: a */
     public static Message m58602a(byze byze, NearbyDevice[] nearbyDeviceArr) {
         long j;
-        byte[] k = byze.f169068c.mo73780k();
+        byte[] k = byze.f169068c.getKey();
         byzh byzh = byze.f169067b;
         if (byzh == null) {
             byzh = byzh.f169078d;

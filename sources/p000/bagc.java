@@ -92,7 +92,7 @@ final class bagc {
                             byit3.f166601a |= 2;
                         }
                         if ((byja.f166626a & 1) != 0) {
-                            bxtx bxtx = byja.f166627b;
+                            ByteString bxtx = byja.f166627b;
                             byit byit4 = (byit) da5.f164949b;
                             bxtx.getClass();
                             byit4.f166601a |= 1;
@@ -118,7 +118,7 @@ final class bagc {
             }
             byig byig = (byig) da6.f164949b;
             if (!byig.f166563a.mo73666a()) {
-                byig.f166563a = bxvk.m124021a(byig.f166563a);
+                byig.f166563a = GeneratedMessageLite.m124021a(byig.f166563a);
             }
             bxsy.m123078a(arrayList, byig.f166563a);
             byig byig2 = (byig) da6.mo74062i();
@@ -260,16 +260,16 @@ final class bagc {
                             int i5 = bygu.f166385b;
                             if (i5 == 6) {
                                 byhj = (byhj) bygu.f166386c;
-                                bxtx bxtx = byhj.f166463d;
+                                ByteString bxtx = byhj.f166463d;
                                 badi b2 = badj.m86640b();
                                 it = it2;
-                                b2.mo55646a(bxtx.mo73780k(), 1);
+                                b2.mo55646a(bxtx.getKey(), 1);
                                 List a3 = bafl2.mo55667a(b, b2.mo55645a(), null);
                                 if (a3.size() == 1) {
                                     a = ((badk) a3.get(0)).mo55612a();
-                                    byte[] a4 = VcDiffEncoderDecoder.m66817a(a, byhj.f166464e.mo73780k());
+                                    byte[] a4 = VcDiffEncoderDecoder.m66817a(a, byhj.f166464e.getKey());
                                     bxvd da = byhi.f166451f.mo74144da();
-                                    bxtx bxtx2 = byhj.f166463d;
+                                    ByteString bxtx2 = byhj.f166463d;
                                     j = j2;
                                     if (da.f164950c) {
                                         da.mo74035c();
@@ -284,7 +284,7 @@ final class bagc {
                                     long j4 = byhj.f166462c;
                                     byhi3.f166453a = i6 | 1;
                                     byhi3.f166454b = j4;
-                                    bxtx a5 = bxtx.m123261a(a4);
+                                    ByteString a5 = bxtx.m123261a(a4);
                                     if (da.f164950c) {
                                         da.mo74035c();
                                         da.f164950c = false;
@@ -294,7 +294,7 @@ final class bagc {
                                     byhi4.f166453a |= 4;
                                     byhi4.f166456d = a5;
                                     byhi2 = (byhi) da.mo74062i();
-                                    bxtx a6 = bafi.m86739a(byhi2);
+                                    ByteString a6 = bafi.m86739a(byhi2);
                                     if (!byhj.f166465f.equals(a6)) {
                                         achw achw = (achw) cayo.mo16713a();
                                         Object[] objArr = {bafi.m86744a(byhi2.f166455c), bafi.m86744a(byhi2.f166456d), bafi.m86744a(bxtx.m123261a(a)), bafi.m86744a(a6), bafi.m86744a(byhj.f166465f)};
@@ -355,7 +355,7 @@ final class bagc {
                         throw new badv(e);
                     } catch (badv e2) {
                         achw achw3 = (achw) cayo.mo16713a();
-                        Object[] objArr2 = {bafi.m86744a(byhj.f166463d), bafi.m86744a(bxtx.m123261a(a)), bafi.m86744a(byhj.f166464e)};
+                        Object[] objArr2 = {bafi.m86744a(byhj.f166463d), bafi.m86744a(ByteString.m123261a(a)), bafi.m86744a(byhj.f166464e)};
                         throw new baow("Decoding failed when trying to apply delta on footprint!", e2);
                     } catch (Throwable th2) {
                         th = th2;

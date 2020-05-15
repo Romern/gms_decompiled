@@ -68,7 +68,7 @@ public final class adjb implements adje {
         btiq btiq = null;
         if (query != null && query.moveToFirst()) {
             try {
-                btiq = (btiq) bxvk.m124016a(btiq.f149014e, query.getBlob(0), bxus.m123743b());
+                btiq = (btiq) GeneratedMessageLite.m124016a(btiq.f149014e, query.getBlob(0), bxus.m123743b());
             } catch (bxwf e) {
                 throw new RuntimeException(e);
             }

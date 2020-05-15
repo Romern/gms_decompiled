@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbml */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbml extends bxvk implements bxxd {
+public final class cbml extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbml f177642c;
@@ -14,12 +14,12 @@ public final class cbml extends bxvk implements bxxd {
     public int f177644a;
 
     /* renamed from: b */
-    public bxtx f177645b = bxtx.f164797b;
+    public ByteString f177645b = ByteString.f164797b;
 
     static {
         cbml cbml = new cbml();
         f177642c = cbml;
-        bxvk.m124024a(cbml.class, cbml);
+        GeneratedMessageLite.m124024a(cbml.class, cbml);
     }
 
     private cbml() {
@@ -36,7 +36,7 @@ public final class cbml extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177642c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\f\u0002\n", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f177642c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\f\u0002\n", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cbml();
         } else {

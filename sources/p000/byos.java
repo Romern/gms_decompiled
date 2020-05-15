@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byos */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byos extends bxvk implements bxxd {
+public final class byos extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: A */
     private static volatile bxxk f167242A;
@@ -88,7 +88,7 @@ public final class byos extends bxvk implements bxxd {
     static {
         byos byos = new byos();
         f167243z = byos;
-        bxvk.m124024a(byos.class, byos);
+        GeneratedMessageLite.m124024a(byos.class, byos);
     }
 
     private byos() {
@@ -106,7 +106,7 @@ public final class byos extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167243z, "\u0001\u0018\u0000\u0001\u0001\u001e\u0018\u0000\u0000\u0000\u0001ဈ\u0000\u0004ဈ\u0001\u0005ဈ\u0002\u0006ဈ\u0003\u0007ဈ\u0004\bဈ\u0005\tဈ\u0006\nဈ\u0007\u000bဈ\b\fဈ\t\rဈ\n\u000eဈ\u000b\u000fဈ\f\u0011ဈ\u000e\u0012ဈ\u000f\u0013ဈ\u0010\u0014ဈ\u0011\u0015ဈ\u0012\u0016ဈ\u0013\u0017ဈ\u0014\u0018ဈ\u0015\u0019ဈ\u0016\u001aဈ\u0017\u001eဈ\u0018", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y"});
+            return GeneratedMessageLite.m124022a(f167243z, "\u0001\u0018\u0000\u0001\u0001\u001e\u0018\u0000\u0000\u0000\u0001ဈ\u0000\u0004ဈ\u0001\u0005ဈ\u0002\u0006ဈ\u0003\u0007ဈ\u0004\bဈ\u0005\tဈ\u0006\nဈ\u0007\u000bဈ\b\fဈ\t\rဈ\n\u000eဈ\u000b\u000fဈ\f\u0011ဈ\u000e\u0012ဈ\u000f\u0013ဈ\u0010\u0014ဈ\u0011\u0015ဈ\u0012\u0016ဈ\u0013\u0017ဈ\u0014\u0018ဈ\u0015\u0019ဈ\u0016\u001aဈ\u0017\u001eဈ\u0018", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y"});
         } else if (i2 == 3) {
             return new byos();
         } else {

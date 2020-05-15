@@ -42,7 +42,7 @@ public class UpdateGunsReadStateForNotificationIntentOperation extends asjx {
         askf askf = new askf(stringExtra2, stringExtra, askc.m74272b(), this);
         int a = blch.m107015a(intExtra);
         try {
-            new atav(askf, (blci) bxvk.m124016a(blci.f125923f, byteArrayExtra, bxus.m123744c()), a).mo49773a();
+            new atav(askf, (blci) GeneratedMessageLite.m124016a(blci.f125923f, byteArrayExtra, bxus.m123744c()), a).mo49773a();
         } catch (bxwf e) {
             bnsl bnsl5 = (bnsl) f108617a.mo68388c();
             bnsl5.mo68437a(e);

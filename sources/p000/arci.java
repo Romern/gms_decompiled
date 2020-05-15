@@ -50,15 +50,15 @@ final class arci implements Runnable {
                     if (str != null) {
                         sdo.m34969a(str, (Object) "pin cannot be empty.");
                         String lowerCase = str.toLowerCase();
-                        sek sek = arbj.f87275a;
+                        Logger Logger = arbj.f87275a;
                         String valueOf = String.valueOf(lowerCase);
-                        sek.mo25409a(valueOf.length() == 0 ? new String("Attempting connection with PIN ") : "Attempting connection with PIN ".concat(valueOf), new Object[0]);
+                        Logger.logVerbose(valueOf.length() == 0 ? new String("Attempting connection with PIN ") : "Attempting connection with PIN ".concat(valueOf), new Object[0]);
                         ahco ahco = ((arbj) arbb2).f87276b;
                         roz b = rpa.m34196b();
                         b.f43472a = new ahdx(lowerCase);
                         aucb = ((rjx) ahco).mo24732b(b.mo24977a());
                     } else {
-                        arbj.f87275a.mo25409a("Attempting connection without PIN. Will use Nearby#Bootstrap#confirm.", new Object[0]);
+                        arbj.f87275a.logVerbose("Attempting connection without PIN. Will use Nearby#Bootstrap#confirm.", new Object[0]);
                         ahco ahco2 = ((arbj) arbb2).f87276b;
                         roz b2 = rpa.m34196b();
                         b2.f43472a = ahdy.f67067a;
@@ -70,9 +70,9 @@ final class arci implements Runnable {
                     arbr arbr = ((aras) arbb).f87232b;
                     String str2 = arbr.f87304g;
                     if (str2 != null) {
-                        sek sek2 = arbr.f87299b;
+                        Logger logger2 = arbr.f87299b;
                         String valueOf2 = String.valueOf(arbr.f87304g);
-                        sek2.mo25409a(valueOf2.length() == 0 ? new String("Automatically accepting connection to device endpoint ") : "Automatically accepting connection to device endpoint ".concat(valueOf2), new Object[0]);
+                        logger2.logVerbose(valueOf2.length() == 0 ? new String("Automatically accepting connection to device endpoint ") : "Automatically accepting connection to device endpoint ".concat(valueOf2), new Object[0]);
                         aucb = arbr.f87300c.mo36521a(str2, new arnm(arbr.f87301d, arbr.f87311n));
                     } else {
                         arbr.f87299b.mo25418e("No device to accept connection to.", new Object[0]);

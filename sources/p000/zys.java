@@ -24,7 +24,7 @@ public abstract class zys extends qlg {
     public final zxq mo31606a() {
         zzi zzi = zzi.f56267a;
         Context applicationContext = getApplicationContext();
-        sdo.m34966a(applicationContext, "context");
+        sdo.checkIfNull(applicationContext, "context");
         return zzi.mo31625b(applicationContext);
     }
 

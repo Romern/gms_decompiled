@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cioc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cioc extends bxvk implements bxxd {
+public final class cioc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cioc f191040c;
@@ -19,7 +19,7 @@ public final class cioc extends bxvk implements bxxd {
     static {
         cioc cioc = new cioc();
         f191040c = cioc;
-        bxvk.m124024a(cioc.class, cioc);
+        GeneratedMessageLite.m124024a(cioc.class, cioc);
     }
 
     private cioc() {
@@ -36,7 +36,7 @@ public final class cioc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191040c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f191040c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cioc();
         } else {

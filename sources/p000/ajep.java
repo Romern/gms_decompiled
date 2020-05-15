@@ -20,7 +20,7 @@ final class ajep {
             String uuid = UUID.randomUUID().toString();
             ajep.f70458a.put(uuid, byzs.f169163b);
             bxvd bxvd = (bxvd) byzs.mo74142c(5);
-            bxvd.mo73625a((bxvk) byzs);
+            bxvd.mo73625a((GeneratedMessageLite) byzs);
             bxvf bxvf = (bxvf) bxvd;
             if (bxvf.f164950c) {
                 bxvf.mo74035c();
@@ -47,7 +47,7 @@ final class ajep {
                 if (str != null) {
                     int i2 = i + 1;
                     bxvd bxvd = (bxvd) byzs.mo74142c(5);
-                    bxvd.mo73625a((bxvk) byzs);
+                    bxvd.mo73625a((GeneratedMessageLite) byzs);
                     bxvf bxvf = (bxvf) bxvd;
                     if (bxvf.f164950c) {
                         bxvf.mo74035c();

@@ -105,7 +105,7 @@ public final class nbo {
                         String str2 = this.f35199f;
                         lwv.m24580a(str2);
                         try {
-                            long a = lwv.f33130b.mo19714a().mo19719a(new lwz(lwv.f33129a.f33123a, str2, lwu.m24578a(lwv.f33129a.f33124b, (SecretKey) ((bmyg) b).f131198a).mo73642k()));
+                            long a = lwv.f33130b.mo19714a().mo19719a(new lwz(lwv.f33129a.f33123a, str2, lwu.m24578a(lwv.f33129a.f33124b, (SecretKey) ((bmyg) b).f131198a).serializeToBytes()));
                             lwv.f33130b.mo19715b();
                             if (a != -1) {
                                 bmxv = b;
@@ -127,7 +127,7 @@ public final class nbo {
                     return;
                 }
             }
-            f35194a.mo25409a("Tertiary key rotation was not required", new Object[0]);
+            f35194a.logVerbose("Tertiary key rotation was not required", new Object[0]);
             lwv lwv2 = this.f35195b;
             String str4 = this.f35199f;
             lwv.m24580a(str4);
@@ -146,7 +146,7 @@ public final class nbo {
                 if (bmxv2.mo66813a()) {
                     byte[] bArr = ((lwz) bmxv2.mo66814b()).f33134c;
                     bxus b2 = bxus.m123743b();
-                    bmxv = bmxv.m108566b(lwu.m24577a(lwv2.f33129a.f33124b, (mde) bxvk.m124016a(mde.f33472f, bArr, b2)));
+                    bmxv = bmxv.m108566b(lwu.m24577a(lwv2.f33129a.f33124b, (mde) GeneratedMessageLite.m124016a(mde.f33472f, bArr, b2)));
                 } else {
                     bmxv = bmvz.f131120a;
                 }

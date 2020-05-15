@@ -25,7 +25,7 @@ public final class abzu {
         }
         abth abth2 = (abth) da2.f164949b;
         if (!abth2.f58228b.mo73666a()) {
-            abth2.f58228b = bxvk.m124021a(abth2.f58228b);
+            abth2.f58228b = GeneratedMessageLite.m124021a(abth2.f58228b);
         }
         bxsy.m123078a(asList, abth2.f58228b);
         boolean booleanValue = ((Boolean) abzt.f58954bp.mo58455c()).booleanValue();
@@ -84,7 +84,7 @@ public final class abzu {
         }
         abtj abtj2 = (abtj) da.f164949b;
         if (!abtj2.f58245c.mo73666a()) {
-            abtj2.f58245c = bxvk.m124021a(abtj2.f58245c);
+            abtj2.f58245c = GeneratedMessageLite.m124021a(abtj2.f58245c);
         }
         bxsy.m123078a(iterable, abtj2.f58245c);
         return (abtj) da.mo74062i();

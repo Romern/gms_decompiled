@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blpg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blpg extends bxvk implements bxxd {
+public final class blpg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final blpg f127216a;
@@ -16,7 +16,7 @@ public final class blpg extends bxvk implements bxxd {
     static {
         blpg blpg = new blpg();
         f127216a = blpg;
-        bxvk.m124024a(blpg.class, blpg);
+        GeneratedMessageLite.m124024a(blpg.class, blpg);
     }
 
     private blpg() {
@@ -37,7 +37,7 @@ public final class blpg extends bxvk implements bxxd {
             this.f127218b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127216a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f127216a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new blpg();

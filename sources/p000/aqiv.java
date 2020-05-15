@@ -101,7 +101,7 @@ public abstract class aqiv {
                     bofd2 = bofd.f132880b;
                 }
                 bxvd bxvd2 = (bxvd) bofd2.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bofd2);
+                bxvd2.mo73625a((GeneratedMessageLite) bofd2);
                 boez boez = (boez) bxvd2;
                 if (boez.f164950c) {
                     boez.mo74035c();

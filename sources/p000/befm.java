@@ -22,7 +22,7 @@ final /* synthetic */ class befm implements bmxj {
         AtomicInteger atomicInteger = this.f111508b;
         byeg byeg = (byeg) obj;
         bxvd bxvd = (bxvd) byeg.mo74142c(5);
-        bxvd.mo73625a((bxvk) byeg);
+        bxvd.mo73625a((GeneratedMessageLite) byeg);
         Integer a = befc.m94934a(byeg, account);
         if (a == null) {
             a = Integer.valueOf(byeg.f165902b);

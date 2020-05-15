@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mqk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mqk extends bxvk implements bxxd {
+public final class mqk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: G */
     public static final mqk f34276G;
@@ -109,7 +109,7 @@ public final class mqk extends bxvk implements bxxd {
     static {
         mqk mqk = new mqk();
         f34276G = mqk;
-        bxvk.m124024a(mqk.class, mqk);
+        GeneratedMessageLite.m124024a(mqk.class, mqk);
     }
 
     private mqk() {
@@ -126,7 +126,7 @@ public final class mqk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34276G, "\u0001\u001e\u0000\u0002\u0001*\u001e\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0002\u0003ဉ\u0003\u0004ဉ\u0004\u0005ဉ\u0005\u0006ဉ\u0006\u0007ဉ\u0007\bဉ\b\tဉ\t\nဉ\n\u000bဉ\u000b\fဉ\f\rဉ\r\u000eဉ\u000e\u000fဉ\u000f\u0010ဉ\u0010\u0011ဉ\u0011\u0012င\u0012\u001aဉ\u001a\u001dဉ\u001d\u001eဉ\u001e\u001fဉ\u001f ဉ $ဉ$%ဉ%&ဉ&'ဉ'(င\u0001)ဉ(*ဉ)", new Object[]{"a", "b", "c", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "d", "E", "F"});
+            return GeneratedMessageLite.m124022a(f34276G, "\u0001\u001e\u0000\u0002\u0001*\u001e\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0002\u0003ဉ\u0003\u0004ဉ\u0004\u0005ဉ\u0005\u0006ဉ\u0006\u0007ဉ\u0007\bဉ\b\tဉ\t\nဉ\n\u000bဉ\u000b\fဉ\f\rဉ\r\u000eဉ\u000e\u000fဉ\u000f\u0010ဉ\u0010\u0011ဉ\u0011\u0012င\u0012\u001aဉ\u001a\u001dဉ\u001d\u001eဉ\u001e\u001fဉ\u001f ဉ $ဉ$%ဉ%&ဉ&'ဉ'(င\u0001)ဉ(*ဉ)", new Object[]{"a", "b", "c", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "d", "E", "F"});
         } else if (i2 == 3) {
             return new mqk();
         } else {

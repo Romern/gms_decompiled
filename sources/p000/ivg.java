@@ -17,7 +17,7 @@ import java.util.concurrent.TimeoutException;
 public final class ivg {
 
     /* renamed from: a */
-    private static final sek f21865a = new sek(new String[]{"HostValidator"}, (char[]) null);
+    private static final Logger f21865a = new Logger(new String[]{"HostValidator"}, (char[]) null);
 
     /* JADX WARNING: Code restructure failed: missing block: B:8:0x0024, code lost:
         if (r5 != false) goto L_0x0026;

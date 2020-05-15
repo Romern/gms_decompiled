@@ -5,7 +5,7 @@ package p000;
 public final class jua {
 
     /* renamed from: a */
-    public static final sek f23219a = new sek("D2D", "BluetoothConnectionSecurer");
+    public static final Logger f23219a = new Logger("D2D", "BluetoothConnectionSecurer");
 
     /* renamed from: b */
     public static final jtx f23220b = jtx.f23208a;
@@ -14,7 +14,7 @@ public final class jua {
     public static jtz m17343a(jup jup, jul jul, byte[] bArr, jus jus) {
         byrd b = byrd.m125181b();
         b.mo74486b(bArr);
-        byte[] a = b.mo74485a(jus.mo73642k());
+        byte[] a = b.mo74485a(jus.serializeToBytes());
         byqy e = b.mo74489e();
         jup.f23241e = new jty(jul, e);
         jun jun = new jun(jup);

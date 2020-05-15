@@ -16,7 +16,7 @@ public final class ammx extends bxvd implements bxxd {
         amnk amnk = (amnk) this.f164949b;
         amnk amnk2 = amnk.f75488o;
         if (!amnk.f75491b.mo73666a()) {
-            amnk.f75491b = bxvk.m124021a(amnk.f75491b);
+            amnk.f75491b = GeneratedMessageLite.m124021a(amnk.f75491b);
         }
         bxsy.m123078a(iterable, amnk.f75491b);
     }

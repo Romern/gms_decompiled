@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: kbo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class kbo extends bxvk implements bxxd {
+public final class kbo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final kbo f23701d;
@@ -22,7 +22,7 @@ public final class kbo extends bxvk implements bxxd {
     static {
         kbo kbo = new kbo();
         f23701d = kbo;
-        bxvk.m124024a(kbo.class, kbo);
+        GeneratedMessageLite.m124024a(kbo.class, kbo);
     }
 
     private kbo() {
@@ -39,7 +39,7 @@ public final class kbo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f23701d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0001\u0000\u0001Ȉ\u0002\f\u0003Ț", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f23701d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0001\u0000\u0001Ȉ\u0002\f\u0003Ț", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new kbo();
         } else {
@@ -66,7 +66,7 @@ public final class kbo extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo14349a() {
         if (!this.f23705c.mo73666a()) {
-            this.f23705c = bxvk.m124021a(this.f23705c);
+            this.f23705c = GeneratedMessageLite.m124021a(this.f23705c);
         }
     }
 }

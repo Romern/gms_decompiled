@@ -8,7 +8,7 @@ import java.io.DataInputStream;
 public final class asci {
 
     /* renamed from: a */
-    public static final sek f88694a = ascp.m73787a("D2D", "PipeReadManager");
+    public static final Logger f88694a = ascp.m73787a("D2D", "PipeReadManager");
 
     /* renamed from: b */
     private final DataInputStream f88695b;
@@ -30,7 +30,7 @@ public final class asci {
     public final synchronized void mo49039a() {
         bqgg bqgg = this.f88697d;
         if (bqgg != null) {
-            f88694a.mo25409a("Shutting down reading thread", new Object[0]);
+            f88694a.logVerbose("Shutting down reading thread", new Object[0]);
             asch asch = this.f88698e;
             if (asch != null) {
                 asch.f88691a = true;

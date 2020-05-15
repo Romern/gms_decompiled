@@ -127,7 +127,7 @@ public final class bftm extends bftk {
 
     /* renamed from: b */
     private final void m97832b(budo budo) {
-        bugu a = this.f115227h.mo72641a(1, 0, budo.mo73642k());
+        bugu a = this.f115227h.mo72641a(1, 0, budo.serializeToBytes());
         if (a == null) {
             new Object[1][0] = m97829a(budo);
         } else {
@@ -767,7 +767,7 @@ public final class bftm extends bftk {
     /* renamed from: a */
     public final void mo62248a(budo budo, int i) {
         bxvd bxvd = (bxvd) budo.mo74142c(5);
-        bxvd.mo73625a((bxvk) budo);
+        bxvd.mo73625a((GeneratedMessageLite) budo);
         long elapsedRealtime = SystemClock.elapsedRealtime();
         if (bxvd.f164950c) {
             bxvd.mo74035c();
@@ -1029,7 +1029,7 @@ public final class bftm extends bftk {
                 }
                 if (cest.m138198d() && (bpki.f137971a & 16) == 0) {
                     bxvd bxvd = (bxvd) bpki.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bpki);
+                    bxvd.mo73625a((GeneratedMessageLite) bpki);
                     int c = this.f115227h.mo72647c();
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();

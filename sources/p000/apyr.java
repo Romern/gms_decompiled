@@ -21,7 +21,7 @@ public final /* synthetic */ class apyr implements Runnable {
         List list = this.f85178b;
         int size = list.size();
         for (int i = 0; i < size; i++) {
-            apys.f85180b.mo24335a(((aqdy) list.get(i)).mo73642k()).mo24327b();
+            apys.f85180b.mo24335a(((aqdy) list.get(i)).serializeToBytes()).mo24327b();
         }
     }
 }

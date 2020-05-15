@@ -728,7 +728,7 @@ public final class abnt {
                             da.mo74035c();
                             da.f164950c = false;
                         }
-                        ((bosu) da.f164949b).f134699ac = bxvk.m124030de();
+                        ((bosu) da.f164949b).f134699ac = GeneratedMessageLite.m124030de();
                         aboh aboh = new aboh(rpr.m34216b());
                         int i30 = Build.VERSION.SDK_INT;
                         SubscriptionManager subscriptionManager = (SubscriptionManager) aboh.f57788a.getSystemService("telephony_subscription_service");
@@ -893,7 +893,7 @@ public final class abnt {
                         }
                         bosu bosu22 = (bosu) da.f164949b;
                         if (!bosu22.f134699ac.mo73666a()) {
-                            bosu22.f134699ac = bxvk.m124021a(bosu22.f134699ac);
+                            bosu22.f134699ac = GeneratedMessageLite.m124021a(bosu22.f134699ac);
                         }
                         bxsy.m123078a(asList, bosu22.f134699ac);
                         a3 = abne.m47947a("GET_CONNECTIVITY_DATA");
@@ -974,10 +974,10 @@ public final class abnt {
         boolean z = true;
         bosu.f134703c |= 1;
         bosu.f134694Y = i6;
-        bosu.f134697aa = bxvk.m124030de();
+        bosu.f134697aa = GeneratedMessageLite.m124030de();
         borm borm = d.f57750a;
         bxvd bxvd2 = (bxvd) borm.mo74142c(5);
-        bxvd2.mo73625a((bxvk) borm);
+        bxvd2.mo73625a((GeneratedMessageLite) borm);
         int i7 = Build.VERSION.SDK_INT;
         if (Settings.Global.getInt(context.getContentResolver(), "mobile_data", 1) != 1) {
             z = false;
@@ -1008,7 +1008,7 @@ public final class abnt {
             }
             bosu bosu4 = (bosu) bxvd.f164949b;
             if (!bosu4.f134697aa.mo73666a()) {
-                bosu4.f134697aa = bxvk.m124021a(bosu4.f134697aa);
+                bosu4.f134697aa = GeneratedMessageLite.m124021a(bosu4.f134697aa);
             }
             bxsy.m123078a(asList, bosu4.f134697aa);
         }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btfi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btfi extends bxvk implements bxxd {
+public final class btfi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: E */
     public static final btfi f148652E;
@@ -68,10 +68,10 @@ public final class btfi extends bxvk implements bxxd {
     public String f148672o = "";
 
     /* renamed from: p */
-    public bxtx f148673p = bxtx.f164797b;
+    public ByteString f148673p = ByteString.f164797b;
 
     /* renamed from: q */
-    public bxtx f148674q = bxtx.f164797b;
+    public ByteString f148674q = ByteString.f164797b;
 
     /* renamed from: r */
     public btfk f148675r;
@@ -103,7 +103,7 @@ public final class btfi extends bxvk implements bxxd {
     static {
         btfi btfi = new btfi();
         f148652E = btfi;
-        bxvk.m124024a(btfi.class, btfi);
+        GeneratedMessageLite.m124024a(btfi.class, btfi);
     }
 
     private btfi() {
@@ -120,7 +120,7 @@ public final class btfi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148652E, "\u0000\u001e\u0000\u0000\u0001 \u001e\u0000\b\u0000\u0001Ȉ\u0003\u001b\u0004\u001b\u0005\u001b\u0006Ȉ\u0007\u0004\b\u0003\nȈ\u000bȈ\f\n\r\n\u000e\t\u000f\u0007\u0010\u001b\u0011\t\u0012\u001b\u0013\u001b\u0014\u0002\u0015Ȉ\u0016\u001b\u0017\u0002\u0018\t\u0019\u0007\u001a\u0007\u001b\u0004\u001c\u0003\u001dȈ\u001e%\u001fȈ \u0002", new Object[]{"a", "d", btfd.class, "e", btff.class, "f", btfg.class, "g", "h", "i", "l", "o", "p", "q", "r", "s", "t", btfp.class, "u", "v", btfj.class, "w", btfn.class, "m", "x", "y", btfm.class, "n", "c", "z", "A", "j", "k", "B", "C", "b", "D"});
+            return GeneratedMessageLite.m124022a(f148652E, "\u0000\u001e\u0000\u0000\u0001 \u001e\u0000\b\u0000\u0001Ȉ\u0003\u001b\u0004\u001b\u0005\u001b\u0006Ȉ\u0007\u0004\b\u0003\nȈ\u000bȈ\f\n\r\n\u000e\t\u000f\u0007\u0010\u001b\u0011\t\u0012\u001b\u0013\u001b\u0014\u0002\u0015Ȉ\u0016\u001b\u0017\u0002\u0018\t\u0019\u0007\u001a\u0007\u001b\u0004\u001c\u0003\u001dȈ\u001e%\u001fȈ \u0002", new Object[]{"a", "d", btfd.class, "e", btff.class, "f", btfg.class, "g", "h", "i", "l", "o", "p", "q", "r", "s", "t", btfp.class, "u", "v", btfj.class, "w", btfn.class, "m", "x", "y", btfm.class, "n", "c", "z", "A", "j", "k", "B", "C", "b", "D"});
         } else if (i2 == 3) {
             return new btfi();
         } else {

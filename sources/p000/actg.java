@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: actg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class actg extends bxvk implements bxxd {
+public final class actg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final actg f60738e;
@@ -25,7 +25,7 @@ public final class actg extends bxvk implements bxxd {
     static {
         actg actg = new actg();
         f60738e = actg;
-        bxvk.m124024a(actg.class, actg);
+        GeneratedMessageLite.m124024a(actg.class, actg);
     }
 
     private actg() {
@@ -43,7 +43,7 @@ public final class actg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f60738e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဂ\u0001\u0004ဉ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f60738e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဂ\u0001\u0004ဉ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new actg();
         } else {

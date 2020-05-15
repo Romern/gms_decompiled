@@ -49,7 +49,7 @@ public final class tyb extends txm {
         this.f46976i = metadataBundle;
         sdo.m34974b(!metadataBundle.mo18275c(uzm.f48737M));
         if (uaw.mo27025a()) {
-            sdo.m34966a((Object) str2, (Object) "baseContentHash cannot be null when conflict detection is required");
+            sdo.checkIfNull((Object) str2, (Object) "baseContentHash cannot be null when conflict detection is required");
         }
         this.f46975h = !uaw.f47072c ? null : str2;
     }

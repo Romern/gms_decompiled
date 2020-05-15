@@ -66,7 +66,7 @@ public final class ahiq {
 
     /* renamed from: a */
     public static ahiq m55840a(byte[] bArr) {
-        sdo.m34966a(bArr, "Cannot create a Payload from null bytes.");
+        sdo.checkIfNull(bArr, "Cannot create a Payload from null bytes.");
         return m55841a(bArr, m55836a());
     }
 

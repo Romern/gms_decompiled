@@ -23,7 +23,7 @@ public final class xyy {
     private final xhy f53419d;
 
     static {
-        new sek(new String[]{"EnabledTransportsProvider"}, (short[]) null);
+        new Logger(new String[]{"EnabledTransportsProvider"}, (short[]) null);
     }
 
     public xyy(BluetoothAdapter bluetoothAdapter, xhy xhy, boolean z, Set set) {

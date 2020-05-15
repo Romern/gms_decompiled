@@ -159,7 +159,7 @@ final class aano implements Runnable {
                                                 blmr = blmr.f126891d;
                                             }
                                             if (blmr.f126894b == 12) {
-                                                aanr.mo17143a(aans, ((blnh) bxvk.m124007a(blnh.f126972b, bxtx.m123258a(blmr.f126895c))).f126974a);
+                                                aanr.mo17143a(aans, ((blnh) GeneratedMessageLite.m124007a(blnh.f126972b, ByteString.m123258a(blmr.f126895c))).f126974a);
                                                 aamc aamc = aanr.f28623p;
                                                 aajt aajt = aanr.f28625r;
                                                 if (!aytw.m84813a(aamc.f28439b)) {

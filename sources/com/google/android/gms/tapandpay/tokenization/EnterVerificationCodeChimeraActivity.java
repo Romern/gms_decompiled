@@ -326,7 +326,7 @@ public class EnterVerificationCodeChimeraActivity extends atex implements asin, 
             this.f108806l = (CardInfo) getIntent().getParcelableExtra("card_info");
             this.f108807m = getIntent().getStringExtra("session_id");
             try {
-                btjx btjx = (btjx) bxvk.m124016a(btjx.f149192h, getIntent().getByteArrayExtra("activation_method"), bxus.m123744c());
+                btjx btjx = (btjx) GeneratedMessageLite.m124016a(btjx.f149192h, getIntent().getByteArrayExtra("activation_method"), bxus.m123744c());
                 this.f108808n = btjx;
                 btnv a3 = btnv.m116964a(btjx.f149197d);
                 if (a3 == null) {

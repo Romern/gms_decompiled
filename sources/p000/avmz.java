@@ -16,7 +16,7 @@ public final class avmz {
     public static final avsz f93475a = new avmy();
 
     /* renamed from: c */
-    private static final sek f93476c = avpq.m79017d("LogControl");
+    private static final Logger f93476c = avpq.m79017d("LogControl");
 
     /* renamed from: d */
     private static final avtg f93477d = new avtg("control.log.last_event_log_hash_code", 0);

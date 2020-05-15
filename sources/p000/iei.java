@@ -111,7 +111,7 @@ public final class iei {
     /* renamed from: a */
     public final String mo12952a(String str) {
         sdo.m34973b("Calling this from your main thread can crash your app");
-        sdo.m34966a((Object) str, (Object) "Package name cannot be null!");
+        sdo.checkIfNull((Object) str, (Object) "Package name cannot be null!");
         m15319a(this.f20795a);
         return (String) mo12951a(new ieg(str));
     }

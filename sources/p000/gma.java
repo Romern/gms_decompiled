@@ -181,7 +181,7 @@ public class gma {
     }
 
     /* renamed from: a */
-    public final void mo12055a(sek sek) {
+    public final void mo12055a(Logger Logger) {
         List a = mo12052a();
         ArrayList arrayList = new ArrayList();
         int size = a.size();
@@ -191,11 +191,11 @@ public class gma {
             if (f18618a.contains(name)) {
                 arrayList.add(new BasicNameValuePair(name, "(SECRET)"));
             } else if (f18619b.contains(name)) {
-                arrayList.add(new BasicNameValuePair(name, sek.m35081a(nameValuePair.getValue())));
+                arrayList.add(new BasicNameValuePair(name, Logger.m35081a(nameValuePair.getValue())));
             } else {
                 arrayList.add(nameValuePair);
             }
         }
-        sek.mo25409a(URLEncodedUtils.format(arrayList, bmwy.f131158c.name()), new Object[0]);
+        Logger.mo25409a(URLEncodedUtils.format(arrayList, bmwy.f131158c.name()), new Object[0]);
     }
 }

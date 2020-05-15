@@ -39,7 +39,7 @@ public final class bdxs implements bdxl {
             while (query.moveToNext()) {
                 bdxq bdxq = new bdxq();
                 bdxq.f106603c = Long.valueOf(query.getLong(0));
-                bxtx a = bxtx.m123261a(query.getBlob(1));
+                ByteString a = ByteString.m123261a(query.getBlob(1));
                 if (a != null) {
                     bdxq.f106601a = a;
                     bdxq.f106602b = Long.valueOf(query.getLong(2));
@@ -100,7 +100,7 @@ public final class bdxs implements bdxl {
             Iterator it = iterable.iterator();
             while (it.hasNext()) {
                 ContentValues contentValues = new ContentValues();
-                contentValues.put("data", ((bxtx) it.next()).mo73780k());
+                contentValues.put("data", ((ByteString) it.next()).getKey());
                 contentValues.put("timestamp", Long.valueOf(j));
                 if (this.f106604a.insertOrThrow("queue", null, contentValues) == -1) {
                     throw new bdrc("insertOrThrow returned -1");

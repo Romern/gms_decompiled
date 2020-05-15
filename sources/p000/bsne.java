@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsne */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsne extends bxvk implements bxxd {
+public final class bsne extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bsne f146234a;
@@ -13,11 +13,11 @@ public final class bsne extends bxvk implements bxxd {
     static {
         bsne bsne = new bsne();
         f146234a = bsne;
-        bxvk.m124024a(bsne.class, bsne);
+        GeneratedMessageLite.m124024a(bsne.class, bsne);
     }
 
     private bsne() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
         bxxn bxxn = bxxn.f165040b;
     }
 
@@ -32,7 +32,7 @@ public final class bsne extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f146234a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f146234a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bsne();

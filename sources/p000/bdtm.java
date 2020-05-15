@@ -37,7 +37,7 @@ final class bdtm {
             this.f106420c.f106424c.delete("continuation_token", null, null);
             if (bmxv.mo66813a()) {
                 ContentValues contentValues = new ContentValues(1);
-                contentValues.put("token", ((bxtx) bmxv.mo66814b()).mo73780k());
+                contentValues.put("token", ((ByteString) bmxv.mo66814b()).getKey());
                 this.f106420c.f106424c.insertOrThrow("continuation_token", null, contentValues);
             }
             this.f106420c.f106424c.setTransactionSuccessful();

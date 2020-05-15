@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: dcx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class dcx extends bxvk implements bxxd {
+public final class dcx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final dcx f12900d;
@@ -22,7 +22,7 @@ public final class dcx extends bxvk implements bxxd {
     static {
         dcx dcx = new dcx();
         f12900d = dcx;
-        bxvk.m124024a(dcx.class, dcx);
+        GeneratedMessageLite.m124024a(dcx.class, dcx);
     }
 
     private dcx() {
@@ -39,7 +39,7 @@ public final class dcx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f12900d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", dcz.f12906a, "c"});
+            return GeneratedMessageLite.m124022a(f12900d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", dcz.f12906a, "c"});
         } else if (i2 == 3) {
             return new dcx();
         } else {

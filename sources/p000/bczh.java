@@ -45,7 +45,7 @@ public abstract class bczh {
     public abstract String mo57716b();
 
     /* renamed from: c */
-    public abstract bxtx mo57717c();
+    public abstract ByteString mo57717c();
 
     /* renamed from: d */
     public abstract int mo57718d();
@@ -67,7 +67,7 @@ public abstract class bczh {
                     jSONObject.put("LOCAL_URI", mo57716b());
                 }
                 if (mo57717c().mo73744a() > 0) {
-                    jSONObject.put("THUMBNAIL", bbqu.m88426d(mo57717c().mo73780k()));
+                    jSONObject.put("THUMBNAIL", bbqu.m88426d(mo57717c().getKey()));
                 }
                 jSONObject.put("WIDTH", mo57718d());
                 jSONObject.put("HEIGHT", mo57719e());

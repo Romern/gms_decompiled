@@ -57,7 +57,7 @@ public final class dro extends dwm {
             Iterator it = a.iterator();
             while (it.hasNext()) {
                 try {
-                    egr.m10366a(printWriter2, (tnt) bxvk.m124016a(tnt.f46353g, ((tjq) it.next()).mo26593c(), bxus.m123744c()));
+                    egr.m10366a(printWriter2, (tnt) GeneratedMessageLite.m124016a(tnt.f46353g, ((tjq) it.next()).mo26593c(), bxus.m123744c()));
                 } catch (bxwf e) {
                     bxwf bxwf = e;
                     bnsl bnsl = (bnsl) dss.f13961a.mo68387b();

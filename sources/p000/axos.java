@@ -19,7 +19,7 @@ public final class axos {
     /* renamed from: a */
     public static axos m82822a(byte[] bArr) {
         try {
-            ayjj ayjj = new ayjj((ayjy) bxvk.m124016a(ayjy.f97807b, bArr, bxus.m123744c()), new ArrayList());
+            ayjj ayjj = new ayjj((ayjy) GeneratedMessageLite.m124016a(ayjy.f97807b, bArr, bxus.m123744c()), new ArrayList());
             axos axos = new axos();
             bxwc bxwc = ayjj.f97759a.f97809a;
             int size = bxwc.size();
@@ -298,6 +298,6 @@ public final class axos {
 
     /* renamed from: a */
     public final byte[] mo53333a() {
-        return ayjk.m84108a(this).f97759a.mo73642k();
+        return ayjk.m84108a(this).f97759a.serializeToBytes();
     }
 }

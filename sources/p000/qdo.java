@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qdo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qdo extends bxvk implements bxxd {
+public final class qdo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final qdo f40992c;
@@ -19,7 +19,7 @@ public final class qdo extends bxvk implements bxxd {
     static {
         qdo qdo = new qdo();
         f40992c = qdo;
-        bxvk.m124024a(qdo.class, qdo);
+        GeneratedMessageLite.m124024a(qdo.class, qdo);
     }
 
     private qdo() {
@@ -36,7 +36,7 @@ public final class qdo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f40992c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f40992c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new qdo();
         } else {

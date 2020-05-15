@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: apzj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class apzj extends bxvk implements bxxd {
+public final class apzj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final apzj f85255f;
@@ -28,7 +28,7 @@ public final class apzj extends bxvk implements bxxd {
     static {
         apzj apzj = new apzj();
         f85255f = apzj;
-        bxvk.m124024a(apzj.class, apzj);
+        GeneratedMessageLite.m124024a(apzj.class, apzj);
     }
 
     private apzj() {
@@ -45,7 +45,7 @@ public final class apzj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85255f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဌ\u0002\u0004\u001b", new Object[]{"a", "b", "c", "d", apzi.f85254a, "e", apzg.class});
+            return GeneratedMessageLite.m124022a(f85255f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဌ\u0002\u0004\u001b", new Object[]{"a", "b", "c", "d", apzi.f85254a, "e", apzg.class});
         } else if (i2 == 3) {
             return new apzj();
         } else {

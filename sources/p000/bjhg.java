@@ -82,7 +82,7 @@ public abstract class bjhg {
                 }
                 bjhg bjhg = (bjhg) olVar.mo15641c(i2);
                 bxuq bxuq = bjhg.f122723c;
-                Map map = bxvk.f164959aj;
+                Map map = GeneratedMessageLite.f164959aj;
                 bxvj bxvj = (bxvj) bxuq;
                 bwou.mo74135a(bxvj);
                 if (!bwou.f164952m.mo73911a(bxvj.f164958d)) {

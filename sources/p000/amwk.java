@@ -603,7 +603,7 @@ public enum amwk {
                                             amsb2.getClass();
                                             alvh.f74379b = amsb2;
                                             alvh.f74378a |= 1;
-                                            byte[] k = ((alvh) da6.mo74062i()).mo73642k();
+                                            byte[] k = ((alvh) da6.mo74062i()).serializeToBytes();
                                             if (cfxe.f185877a.mo6606a().mo82868J()) {
                                                 try {
                                                     if (cfxe.f185877a.mo6606a().mo82869K()) {

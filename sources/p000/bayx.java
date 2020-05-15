@@ -34,7 +34,7 @@ final /* synthetic */ class bayx implements bqeh {
             bauz2 = bauz.f101860g;
         }
         bxvd bxvd = (bxvd) bauz2.mo74142c(5);
-        bxvd.mo73625a((bxvk) bauz2);
+        bxvd.mo73625a((GeneratedMessageLite) bauz2);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -44,7 +44,7 @@ final /* synthetic */ class bayx implements bqeh {
         bauz3.f101864c = j;
         bauz bauz4 = (bauz) bxvd.mo74062i();
         bxvd bxvd2 = (bxvd) bavd.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bavd);
+        bxvd2.mo73625a((GeneratedMessageLite) bavd);
         bavc bavc = (bavc) bxvd2;
         if (bavc.f164950c) {
             bavc.mo74035c();

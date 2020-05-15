@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzop */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzop extends bxvk implements bxxd {
+public final class bzop extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bzop f170851e;
@@ -25,7 +25,7 @@ public final class bzop extends bxvk implements bxxd {
     static {
         bzop bzop = new bzop();
         f170851e = bzop;
-        bxvk.m124024a(bzop.class, bzop);
+        GeneratedMessageLite.m124024a(bzop.class, bzop);
     }
 
     private bzop() {
@@ -42,7 +42,7 @@ public final class bzop extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f170851e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\t\u0002Ȉ\u0003\t\u0004\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f170851e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\t\u0002Ȉ\u0003\t\u0004\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bzop();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: birn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class birn extends bxvk implements bxxd {
+public final class birn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final birn f121428b;
@@ -22,7 +22,7 @@ public final class birn extends bxvk implements bxxd {
     static {
         birn birn = new birn();
         f121428b = birn;
-        bxvk.m124024a(birn.class, birn);
+        GeneratedMessageLite.m124024a(birn.class, birn);
     }
 
     private birn() {
@@ -43,7 +43,7 @@ public final class birn extends bxvk implements bxxd {
             this.f121432d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121428b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔄ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f121428b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔄ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new birn();
         } else {

@@ -10,18 +10,18 @@ import android.os.Build;
 public final class asbw {
 
     /* renamed from: a */
-    private static final sek f88682a = ascp.m73787a("Utils", "BackupUtils");
+    private static final Logger f88682a = ascp.m73787a("Utils", "BackupUtils");
 
     /* renamed from: a */
     public static String m73763a(Context context) {
         Account account;
         int i = Build.VERSION.SDK_INT;
         boolean isBackupEnabled = new BackupManager(context).isBackupEnabled();
-        sek sek = f88682a;
+        Logger Logger = f88682a;
         StringBuilder sb = new StringBuilder(21);
         sb.append("Backup enabled: ");
         sb.append(isBackupEnabled);
-        sek.mo25414c(sb.toString(), new Object[0]);
+        Logger.mo25414c(sb.toString(), new Object[0]);
         if (isBackupEnabled) {
             account = new lsp(context).mo19591a();
         } else {

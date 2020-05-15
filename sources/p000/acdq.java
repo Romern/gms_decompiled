@@ -21,7 +21,7 @@ public final class acdq implements acjh {
     /* renamed from: a */
     public final void mo32708a() {
         try {
-            this.f59603b.mo34967a(Status.f30107a, ((bygw) this.f59602a.get()).mo73642k());
+            this.f59603b.mo34967a(Status.f30107a, ((bygw) this.f59602a.get()).serializeToBytes());
         } catch (InterruptedException e) {
             mo32709a(ackq.m49337a(getClass().getSimpleName(), 14, "Failed to get ChannelConfig"));
         } catch (ExecutionException e2) {

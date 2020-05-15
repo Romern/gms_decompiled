@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxek */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxek extends bxvk implements bxxd {
+public final class bxek extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bxek f163104b;
@@ -19,7 +19,7 @@ public final class bxek extends bxvk implements bxxd {
     static {
         bxek bxek = new bxek();
         f163104b = bxek;
-        bxvk.m124024a(bxek.class, bxek);
+        GeneratedMessageLite.m124024a(bxek.class, bxek);
     }
 
     private bxek() {
@@ -36,7 +36,7 @@ public final class bxek extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f163104b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"c", "a", bxei.f163103a});
+            return GeneratedMessageLite.m124022a(f163104b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"c", "a", bxei.f163103a});
         } else if (i2 == 3) {
             return new bxek();
         } else {

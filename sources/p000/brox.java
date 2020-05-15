@@ -22,7 +22,7 @@ public final class brox implements brpv {
         brqb brqb = new brqb(((GetTokenResponse) obj).f152527b);
         brpw brpw = this.f143106b.f143125b;
         brow brow = new brow(this, this);
-        brpw.m114444a(brpw.f143143c, brpw.f143141a, brpw.mo69776a(brpw.mo69777a(cdxz.m135248c(), "deleteAccount"), brqb.mo69786a().mo73642k(), (String) null), (bxxk) null).mo50382b(new brlw()).mo50371a(new brln(brow));
+        brpw.m114444a(brpw.f143143c, brpw.f143141a, brpw.mo69776a(brpw.mo69777a(cdxz.m135248c(), "deleteAccount"), brqb.mo69786a().serializeToBytes(), (String) null), (bxxk) null).mo50382b(new brlw()).mo50371a(new brln(brow));
     }
 
     /* renamed from: a */

@@ -129,7 +129,7 @@ public final class aicw extends butb {
             return this.f68737c.mo37033a(intent.getStringExtra("com.google.android.gms.nearby.discovery.EXTRA_MAC_ADDRESS"));
         }
         if (intent.getByteArrayExtra("com.google.android.gms.nearby.discovery.EXTRA_ACCOUNT_KEY") != null) {
-            return this.f68737c.mo37032a(bxtx.m123261a(intent.getByteArrayExtra("com.google.android.gms.nearby.discovery.EXTRA_ACCOUNT_KEY")));
+            return this.f68737c.mo37032a(ByteString.m123261a(intent.getByteArrayExtra("com.google.android.gms.nearby.discovery.EXTRA_ACCOUNT_KEY")));
         }
         return null;
     }

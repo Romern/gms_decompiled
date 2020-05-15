@@ -34,7 +34,7 @@ public final class azhm extends azhc {
             return (cipd) afix.f64262a.mo25553a(afix.f64261c, b, cipc, (long) afix.f64260b, TimeUnit.MILLISECONDS);
         }
         try {
-            cbia = (cbia) bxvk.m124014a(cbia.f177224a, cipc.mo73642k());
+            cbia = (cbia) GeneratedMessageLite.m124014a(cbia.f177224a, cipc.serializeToBytes());
         } catch (bxwf e) {
             bqye.m113758a(e);
             cbia = null;
@@ -49,7 +49,7 @@ public final class azhm extends azhc {
             return (cipd) cipd.f191186c.mo74144da().mo74057h();
         }
         try {
-            return (cipd) bxvk.m124014a(cipd.f191186c, cbib.mo73642k());
+            return (cipd) GeneratedMessageLite.m124014a(cipd.f191186c, cbib.serializeToBytes());
         } catch (bxwf e2) {
             bqye.m113758a(e2);
             return null;

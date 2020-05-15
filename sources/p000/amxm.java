@@ -34,7 +34,7 @@ final class amxm extends amxj {
                 btcg btcg = (btcg) da.f164949b;
                 j.getClass();
                 if (!btcg.f148268a.mo73666a()) {
-                    btcg.f148268a = bxvk.m124021a(btcg.f148268a);
+                    btcg.f148268a = GeneratedMessageLite.m124021a(btcg.f148268a);
                 }
                 btcg.f148268a.add(j);
             }

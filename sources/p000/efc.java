@@ -63,20 +63,20 @@ public final class efc {
         boolean z3 = false;
         int i2 = 0;
         while (it2.hasNext()) {
-            bxtx bxtx = (bxtx) it2.next();
+            ByteString bxtx = (ByteString) it2.next();
             try {
                 bxus c = bxus.m123744c();
                 bxce bxce2 = bxce.f162766k;
                 try {
                     bxuc h = bxtx.mo73764h();
-                    bxvk bxvk = (bxvk) bxce2.mo74142c(4);
+                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bxce2.mo74142c(4);
                     try {
-                        bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                        a.mo74220a(bxvk, bxud.m123454a(h), c);
-                        a.mo74225d(bxvk);
+                        bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                        a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                        a.mo74225d(GeneratedMessageLite);
                         h.mo73787a((int) r5);
-                        bxvk.m124027b(bxvk);
-                        bxce bxce3 = (bxce) bxvk;
+                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                        bxce bxce3 = (bxce) GeneratedMessageLite;
                         ContextData contextData = new ContextData(bxce3);
                         int m = contextData.mo18025m();
                         bxco h2 = contextData.mo18019h();
@@ -124,7 +124,7 @@ public final class efc {
                                         bxco = h2;
                                         contextData = null;
                                     } else {
-                                        byte[] k = bxkw.f163807c.mo73780k();
+                                        byte[] k = bxkw.f163807c.getKey();
                                         if (k == null) {
                                             it = it2;
                                             z = z3;
@@ -214,13 +214,13 @@ public final class efc {
                                                                             bxuc a11 = bxuc.m123419a(bArr);
                                                                             bxvd bxvd = tip.f46141a;
                                                                             bxus c2 = bxus.m123744c();
-                                                                            bxvk bxvk2 = (bxvk) bxcf.f162779a.mo74142c(4);
+                                                                            GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) bxcf.f162779a.mo74142c(4);
                                                                             try {
-                                                                                bxxv a12 = bxxm.f165037a.mo74228a(bxvk2);
-                                                                                a12.mo74220a(bxvk2, bxud.m123454a(a11), c2);
-                                                                                a12.mo74225d(bxvk2);
-                                                                                bxvk.m124027b(bxvk2);
-                                                                                bxcf bxcf3 = (bxcf) bxvk2;
+                                                                                bxxv a12 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+                                                                                a12.mo74220a(GeneratedMessageLite2, bxud.m123454a(a11), c2);
+                                                                                a12.mo74225d(GeneratedMessageLite2);
+                                                                                GeneratedMessageLite.m124027b(GeneratedMessageLite2);
+                                                                                bxcf bxcf3 = (bxcf) GeneratedMessageLite2;
                                                                                 if (bxvd.f164950c) {
                                                                                     bxvd.mo74035c();
                                                                                     bxvd.f164950c = false;
@@ -608,20 +608,20 @@ public final class efc {
             boolean z3 = false;
             int i4 = 0;
             while (it2.hasNext()) {
-                bxtx bxtx = (bxtx) it2.next();
+                ByteString bxtx = (ByteString) it2.next();
                 try {
                     bxus c = bxus.m123744c();
                     bxce bxce3 = bxce.f162766k;
                     try {
                         bxuc h = bxtx.mo73764h();
-                        bxvk bxvk = (bxvk) bxce3.mo74142c(4);
+                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bxce3.mo74142c(4);
                         try {
-                            bxxv a4 = bxxm.f165037a.mo74228a(bxvk);
-                            a4.mo74220a(bxvk, bxud.m123454a(h), c);
-                            a4.mo74225d(bxvk);
+                            bxxv a4 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                            a4.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                            a4.mo74225d(GeneratedMessageLite);
                             h.mo73787a(i3);
-                            bxvk.m124027b(bxvk);
-                            bxce bxce4 = (bxce) bxvk;
+                            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                            bxce bxce4 = (bxce) GeneratedMessageLite;
                             ContextData contextData = new ContextData(bxce4);
                             int m = contextData.mo18025m();
                             bxco h2 = contextData.mo18019h();
@@ -693,7 +693,7 @@ public final class efc {
                                                         i3 = 0;
                                                     }
                                                 } else {
-                                                    byte[] k = bxkw.f163807c.mo73780k();
+                                                    byte[] k = bxkw.f163807c.getKey();
                                                     if (k == null) {
                                                         z = z3;
                                                         i2 = i4;
@@ -795,13 +795,13 @@ public final class efc {
                                                                                         bxuc a14 = bxuc.m123419a(bArr);
                                                                                         bxvd bxvd = tip.f46141a;
                                                                                         bxus c2 = bxus.m123744c();
-                                                                                        bxvk bxvk2 = (bxvk) bxcf.f162779a.mo74142c(4);
+                                                                                        GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) bxcf.f162779a.mo74142c(4);
                                                                                         try {
-                                                                                            bxxv a15 = bxxm.f165037a.mo74228a(bxvk2);
-                                                                                            a15.mo74220a(bxvk2, bxud.m123454a(a14), c2);
-                                                                                            a15.mo74225d(bxvk2);
-                                                                                            bxvk.m124027b(bxvk2);
-                                                                                            bxcf bxcf3 = (bxcf) bxvk2;
+                                                                                            bxxv a15 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+                                                                                            a15.mo74220a(GeneratedMessageLite2, bxud.m123454a(a14), c2);
+                                                                                            a15.mo74225d(GeneratedMessageLite2);
+                                                                                            GeneratedMessageLite.m124027b(GeneratedMessageLite2);
+                                                                                            bxcf bxcf3 = (bxcf) GeneratedMessageLite2;
                                                                                             if (bxvd.f164950c) {
                                                                                                 bxvd.mo74035c();
                                                                                                 bxvd.f164950c = false;

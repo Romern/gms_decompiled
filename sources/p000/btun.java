@@ -3,7 +3,7 @@ package p000;
 @Deprecated
 /* renamed from: btun */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btun extends bxvk implements bxxd {
+public final class btun extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btun f150509a;
@@ -14,7 +14,7 @@ public final class btun extends bxvk implements bxxd {
     static {
         btun btun = new btun();
         f150509a = btun;
-        bxvk.m124024a(btun.class, btun);
+        GeneratedMessageLite.m124024a(btun.class, btun);
     }
 
     private btun() {
@@ -31,7 +31,7 @@ public final class btun extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150509a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f150509a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btun();

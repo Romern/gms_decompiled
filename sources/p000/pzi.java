@@ -37,7 +37,7 @@ public final class pzi {
         if (a != 0 && a == 2) {
             bltz bltz = bshw.f144638a;
             if (bltz != null) {
-                pky.mo23304a(bltz.f127764a, bltz.f127767d.mo73780k());
+                pky.mo23304a(bltz.f127764a, bltz.f127767d.getKey());
                 String str = bltz.f127765b;
                 if (!TextUtils.isEmpty(str)) {
                     try {

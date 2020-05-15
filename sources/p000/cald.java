@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cald */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cald extends bxvk implements bxxd {
+public final class cald extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cald f175112d;
@@ -22,7 +22,7 @@ public final class cald extends bxvk implements bxxd {
     static {
         cald cald = new cald();
         f175112d = cald;
-        bxvk.m124024a(cald.class, cald);
+        GeneratedMessageLite.m124024a(cald.class, cald);
     }
 
     private cald() {
@@ -39,7 +39,7 @@ public final class cald extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175112d, "\u0001\u0002\u0000\u0001\u0002\u0003\u0002\u0000\u0000\u0000\u0002ဉ\u0001\u0003ဇ\u0002", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f175112d, "\u0001\u0002\u0000\u0001\u0002\u0003\u0002\u0000\u0000\u0000\u0002ဉ\u0001\u0003ဇ\u0002", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cald();
         } else {

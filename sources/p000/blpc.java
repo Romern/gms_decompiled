@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blpc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blpc extends bxvk implements bxxd {
+public final class blpc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final blpc f127193e;
@@ -28,7 +28,7 @@ public final class blpc extends bxvk implements bxxd {
     static {
         blpc blpc = new blpc();
         f127193e = blpc;
-        bxvk.m124024a(blpc.class, blpc);
+        GeneratedMessageLite.m124024a(blpc.class, blpc);
     }
 
     private blpc() {
@@ -49,7 +49,7 @@ public final class blpc extends bxvk implements bxxd {
             this.f127199f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127193e, "\u0001\u0003\u0000\u0001\u0001\u0007\u0003\u0000\u0000\u0001\u0001ဉ\u0000\u0004ᐉ\u0002\u0007ဉ\u0001", new Object[]{"a", "b", "d", "c"});
+            return GeneratedMessageLite.m124022a(f127193e, "\u0001\u0003\u0000\u0001\u0001\u0007\u0003\u0000\u0000\u0001\u0001ဉ\u0000\u0004ᐉ\u0002\u0007ဉ\u0001", new Object[]{"a", "b", "d", "c"});
         } else if (i2 == 3) {
             return new blpc();
         } else {

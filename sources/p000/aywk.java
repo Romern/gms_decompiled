@@ -55,7 +55,7 @@ public abstract class aywk {
             aywu aywu = (aywu) bxvf.f164949b;
             aywu aywu2 = aywu.f98650f;
             if (!aywu.f98653b.mo73666a()) {
-                aywu.f98653b = bxvk.m124019a(aywu.f98653b);
+                aywu.f98653b = GeneratedMessageLite.m124019a(aywu.f98653b);
             }
             aywu.f98653b.mo74153d(a);
         }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qut */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qut extends bxvk implements bxxd {
+public final class qut extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final qut f42198h;
@@ -34,7 +34,7 @@ public final class qut extends bxvk implements bxxd {
     static {
         qut qut = new qut();
         f42198h = qut;
-        bxvk.m124024a(qut.class, qut);
+        GeneratedMessageLite.m124024a(qut.class, qut);
     }
 
     private qut() {
@@ -51,7 +51,7 @@ public final class qut extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f42198h, "\u0001\u0006\u0000\u0001\u0001\n\u0006\u0000\u0001\u0000\u0001ဈ\u0000\u0003\u001a\u0004ဈ\u0003\u0005ဈ\u0004\bဈ\u0007\nဈ\t", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f42198h, "\u0001\u0006\u0000\u0001\u0001\n\u0006\u0000\u0001\u0000\u0001ဈ\u0000\u0003\u001a\u0004ဈ\u0003\u0005ဈ\u0004\bဈ\u0007\nဈ\t", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
         } else if (i2 == 3) {
             return new qut();
         } else {

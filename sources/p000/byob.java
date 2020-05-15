@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byob */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byob extends bxvk implements bxxd {
+public final class byob extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final byob f167181f;
@@ -28,7 +28,7 @@ public final class byob extends bxvk implements bxxd {
     static {
         byob byob = new byob();
         f167181f = byob;
-        bxvk.m124024a(byob.class, byob);
+        GeneratedMessageLite.m124024a(byob.class, byob);
     }
 
     private byob() {
@@ -45,7 +45,7 @@ public final class byob extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167181f, "\u0001\u0004\u0000\u0001\u0001\u0007\u0004\u0000\u0001\u0000\u0001ဈ\u0000\u0002\u001b\u0003ဈ\u0001\u0007ဈ\u0003", new Object[]{"a", "b", "c", byos.class, "d", "e"});
+            return GeneratedMessageLite.m124022a(f167181f, "\u0001\u0004\u0000\u0001\u0001\u0007\u0004\u0000\u0001\u0000\u0001ဈ\u0000\u0002\u001b\u0003ဈ\u0001\u0007ဈ\u0003", new Object[]{"a", "b", "c", byos.class, "d", "e"});
         } else if (i2 == 3) {
             return new byob();
         } else {

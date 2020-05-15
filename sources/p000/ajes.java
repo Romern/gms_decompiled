@@ -107,7 +107,7 @@ public final class ajes extends ajfd {
                 }
                 bzcd bzcd = (bzcd) bxvf2.f164949b;
                 if (!bzcd.f169303a.mo73666a()) {
-                    bzcd.f169303a = bxvk.m124021a(bzcd.f169303a);
+                    bzcd.f169303a = GeneratedMessageLite.m124021a(bzcd.f169303a);
                 }
                 bxsy.m123078a(list5, bzcd.f169303a);
             }
@@ -119,7 +119,7 @@ public final class ajes extends ajfd {
                 }
                 bzcd bzcd2 = (bzcd) bxvf2.f164949b;
                 if (!bzcd2.f169304b.mo73666a()) {
-                    bzcd2.f169304b = bxvk.m124021a(bzcd2.f169304b);
+                    bzcd2.f169304b = GeneratedMessageLite.m124021a(bzcd2.f169304b);
                 }
                 bxsy.m123078a(list6, bzcd2.f169304b);
             }
@@ -153,7 +153,7 @@ public final class ajes extends ajfd {
                 }
                 bzcf bzcf2 = (bzcf) da.f164949b;
                 if (!bzcf2.f169315b.mo73666a()) {
-                    bzcf2.f169315b = bxvk.m124021a(bzcf2.f169315b);
+                    bzcf2.f169315b = GeneratedMessageLite.m124021a(bzcf2.f169315b);
                 }
                 bxsy.m123078a(list8, bzcf2.f169315b);
             }

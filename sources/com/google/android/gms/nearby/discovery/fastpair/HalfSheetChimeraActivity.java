@@ -74,7 +74,7 @@ public class HalfSheetChimeraActivity extends deu {
                 mo8628aW().mo15858c(false);
                 mo8628aW().mo15853b(false);
                 findViewById(C0126R.C0129id.background).setOnClickListener(new ahvh(this));
-                this.f80496b = (ahyw) bxvk.m124016a(ahyw.f68389A, byteArrayExtra, bxus.m123744c());
+                this.f80496b = (ahyw) GeneratedMessageLite.m124016a(ahyw.f68389A, byteArrayExtra, bxus.m123744c());
             }
             bundle2.putParcelable("com.google.android.gms.nearby.discovery.HALF_SHEET_CLOUD_SYNC_INTENT", intent2);
             bundle2.putString("com.google.android.gms.nearby.discovery.HALF_SHEET_ACCOUNT_NAME", stringExtra2);
@@ -93,7 +93,7 @@ public class HalfSheetChimeraActivity extends deu {
         mo8628aW().mo15853b(false);
         findViewById(C0126R.C0129id.background).setOnClickListener(new ahvh(this));
         try {
-            this.f80496b = (ahyw) bxvk.m124016a(ahyw.f68389A, byteArrayExtra, bxus.m123744c());
+            this.f80496b = (ahyw) GeneratedMessageLite.m124016a(ahyw.f68389A, byteArrayExtra, bxus.m123744c());
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) ahsd.f67925a.mo68388c();
             bnsl.mo68437a(e);

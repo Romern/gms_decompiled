@@ -16,7 +16,7 @@ public final class ascx {
     public static final /* synthetic */ int f88714b = 0;
 
     /* renamed from: c */
-    private static final sek f88715c = ascp.m73787a("Utils", "Bluetooth", "BluetoothController");
+    private static final Logger f88715c = ascp.m73787a("Utils", "Bluetooth", "BluetoothController");
 
     /* renamed from: a */
     public final ascv f88716a;
@@ -75,7 +75,7 @@ public final class ascx {
                 } catch (InterruptedException e) {
                     f88715c.mo25408a("Interrupted", e, new Object[0]);
                 }
-                f88715c.mo25409a("Bluetooth initialization took longer than %d seconds", 10);
+                f88715c.logVerbose("Bluetooth initialization took longer than %d seconds", 10);
                 m73806a(this.f88717d, bluetoothController$1);
                 return new Status(10550);
             }

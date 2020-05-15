@@ -65,7 +65,7 @@ public final class aiqj extends aiqc {
         bvgi.f156003b = 2;
         bvgi.f156002a |= 1;
         bxvd da2 = bvge.f155990c.mo74144da();
-        bxtx a = bxtx.m123261a(this.f69496c);
+        ByteString a = ByteString.m123261a(this.f69496c);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -83,7 +83,7 @@ public final class aiqj extends aiqc {
         bvge2.getClass();
         bvgi2.f156005d = bvge2;
         bvgi2.f156002a |= 4;
-        byte[] k = ((bvgi) da.mo74062i()).mo73642k();
+        byte[] k = ((bvgi) da.mo74062i()).serializeToBytes();
         try {
             bluv b = this.f69498e.mo37848b(k);
             if (b != null) {
@@ -128,7 +128,7 @@ public final class aiqj extends aiqc {
         bvgi.f156003b = 1;
         bvgi.f156002a |= 1;
         bxvd da2 = bvgf.f155994d.mo74144da();
-        bxtx a = bxtx.m123261a(this.f69496c);
+        ByteString a = ByteString.m123261a(this.f69496c);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -150,7 +150,7 @@ public final class aiqj extends aiqc {
         bvgi2.f156004c = bvgf2;
         bvgi2.f156002a |= 2;
         try {
-            this.f69498e.mo37847a(((bvgi) da.mo74062i()).mo73642k());
+            this.f69498e.mo37847a(((bvgi) da.mo74062i()).serializeToBytes());
             return true;
         } catch (IOException e) {
             bnsl bnsl = (bnsl) ailf.f69111a.mo68387b();
@@ -180,7 +180,7 @@ public final class aiqj extends aiqc {
         bvgi.f156003b = 2;
         bvgi.f156002a |= 1;
         bxvd da2 = bvge.f155990c.mo74144da();
-        bxtx a = bxtx.m123261a(this.f69496c);
+        ByteString a = ByteString.m123261a(this.f69496c);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -198,7 +198,7 @@ public final class aiqj extends aiqc {
         bvge2.getClass();
         bvgi2.f156005d = bvge2;
         bvgi2.f156002a |= 4;
-        byte[] k = ((bvgi) da.mo74062i()).mo73642k();
+        byte[] k = ((bvgi) da.mo74062i()).serializeToBytes();
         try {
             bluv b = this.f69498e.mo37848b(k);
             if (b != null) {

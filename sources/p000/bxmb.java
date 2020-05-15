@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxmb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxmb extends bxvk implements bxxd {
+public final class bxmb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bxmb f163919d;
@@ -25,10 +25,10 @@ public final class bxmb extends bxvk implements bxxd {
     static {
         bxmb bxmb = new bxmb();
         f163919d = bxmb;
-        bxvk.m124024a(bxmb.class, bxmb);
+        GeneratedMessageLite.m124024a(bxmb.class, bxmb);
         bxcf bxcf = bxcf.f162779a;
         bxmb bxmb2 = f163919d;
-        f163920e = bxvk.m124006a(bxcf, bxmb2, bxmb2, 95555291, bxzf.MESSAGE);
+        f163920e = GeneratedMessageLite.m124006a(bxcf, bxmb2, bxmb2, 95555291, bxzf.MESSAGE);
     }
 
     private bxmb() {
@@ -45,7 +45,7 @@ public final class bxmb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f163919d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bxly.m122853b(), "c", bxma.m122857b()});
+            return GeneratedMessageLite.m124022a(f163919d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bxly.m122853b(), "c", bxma.m122857b()});
         } else if (i2 == 3) {
             return new bxmb();
         } else {

@@ -10,7 +10,7 @@ import com.google.android.gms.auth.api.identity.GetSignInIntentRequest;
 public final class gwt extends hwr implements aaai {
 
     /* renamed from: a */
-    public static final sek f19132a = ght.m13172b("AssistedSignInServiceImpl");
+    public static final Logger f19132a = ght.m13172b("AssistedSignInServiceImpl");
 
     /* renamed from: b */
     private final Context f19133b;

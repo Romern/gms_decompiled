@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boix */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boix extends bxvk implements bxxd {
+public final class boix extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final boix f133240f;
@@ -28,7 +28,7 @@ public final class boix extends bxvk implements bxxd {
     static {
         boix boix = new boix();
         f133240f = boix;
-        bxvk.m124024a(boix.class, boix);
+        GeneratedMessageLite.m124024a(boix.class, boix);
     }
 
     private boix() {
@@ -45,7 +45,7 @@ public final class boix extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133240f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဋ\u0002\u0004ဇ\u0003", new Object[]{"a", "b", boiv.f133239a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f133240f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဋ\u0002\u0004ဇ\u0003", new Object[]{"a", "b", boiv.f133239a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new boix();
         } else {

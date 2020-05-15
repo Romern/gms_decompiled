@@ -14,7 +14,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public final class ien {
 
     /* renamed from: a */
-    public static final sek f20807a = new sek("GLSUser", "DeviceKeyStore");
+    public static final Logger f20807a = new Logger("GLSUser", "DeviceKeyStore");
 
     /* renamed from: e */
     private static WeakReference f20808e = new WeakReference(null);
@@ -47,7 +47,7 @@ public final class ien {
     }
 
     /* renamed from: a */
-    public final bzxb mo12957a() {
+    public final bzxb getDeviceKeyFromFile() {
         FileInputStream openFileInput;
         Lock readLock = this.f20809b.readLock();
         readLock.lock();
@@ -60,11 +60,11 @@ public final class ien {
                         if (this.f20811d == null) {
                             openFileInput = this.f20810c.openFileInput("device_key");
                             int size = (int) openFileInput.getChannel().size();
-                            sek sek = f20807a;
+                            Logger logger = f20807a;
                             StringBuilder sb = new StringBuilder(45);
                             sb.append("Retrieving device key, file size: ");
                             sb.append(size);
-                            sek.mo25409a(sb.toString(), new Object[0]);
+                            logger.logVerbose(sb.toString(), new Object[0]);
                             bxvd da = bzxb.f171716f.mo74144da();
                             da.mo73634b(openFileInput);
                             this.f20811d = (bzxb) da.mo74062i();
@@ -80,9 +80,9 @@ public final class ien {
                         throw th;
                     }
                 } catch (IOException e3) {
-                    sek sek2 = f20807a;
+                    Logger logger2 = f20807a;
                     String valueOf = String.valueOf(e3.getMessage());
-                    sek2.mo25416d(valueOf.length() == 0 ? new String("Cannot load key: ") : "Cannot load key: ".concat(valueOf), new Object[0]);
+                    logger2.mo25416d(valueOf.length() == 0 ? new String("Cannot load key: ") : "Cannot load key: ".concat(valueOf), new Object[0]);
                 }
             }
             Lock readLock2 = this.f20809b.readLock();

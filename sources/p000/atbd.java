@@ -33,7 +33,7 @@ public final class atbd {
         bzuc bzuc = (bzuc) da2.mo74062i();
         bzuc.getClass();
         if (!bzul.f171435a.mo73666a()) {
-            bzul.f171435a = bxvk.m124021a(bzul.f171435a);
+            bzul.f171435a = GeneratedMessageLite.m124021a(bzul.f171435a);
         }
         bzul.f171435a.add(bzuc);
         bxvd da3 = bzuf.f171414c.mo74144da();
@@ -119,7 +119,7 @@ public final class atbd {
                 bzug bzug = (bzug) da.f164949b;
                 bzup.getClass();
                 if (!bzug.f171420a.mo73666a()) {
-                    bzug.f171420a = bxvk.m124019a(bzug.f171420a);
+                    bzug.f171420a = GeneratedMessageLite.m124019a(bzug.f171420a);
                 }
                 bzug.f171420a.mo74153d(bzup.mo3214a());
                 bxvd da2 = bzuf.f171414c.mo74144da();

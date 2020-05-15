@@ -32,7 +32,7 @@ public final class tln extends drx {
             return null;
         }
         try {
-            bxqs bxqs = (bxqs) bxvk.m124016a(bxqs.f164423c, Base64.decode(stringExtra, 0), bxus.m123744c());
+            bxqs bxqs = (bxqs) GeneratedMessageLite.m124016a(bxqs.f164423c, Base64.decode(stringExtra, 0), bxus.m123744c());
             new Object[1][0] = bxqs;
             return bxqs;
         } catch (bxwf e) {
@@ -109,7 +109,7 @@ public final class tln extends drx {
                 bxqs = null;
             } else {
                 try {
-                    bxqs = (bxqs) bxvk.m124016a(bxqs.f164423c, Base64.decode(stringExtra2, 0), bxus.m123744c());
+                    bxqs = (bxqs) GeneratedMessageLite.m124016a(bxqs.f164423c, Base64.decode(stringExtra2, 0), bxus.m123744c());
                     new Object[1][0] = bxqs;
                 } catch (bxwf e) {
                     bnsl bnsl2 = (bnsl) dss.f13961a.mo68387b();

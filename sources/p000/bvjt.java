@@ -18,7 +18,7 @@ public final class bvjt extends bxvd implements bxxd {
         bvjw bvjw2 = bvjw.f156359b;
         bvjv.getClass();
         if (!bvjw.f156361a.mo73666a()) {
-            bvjw.f156361a = bxvk.m124021a(bvjw.f156361a);
+            bvjw.f156361a = GeneratedMessageLite.m124021a(bvjw.f156361a);
         }
         bvjw.f156361a.add(bvjv);
     }

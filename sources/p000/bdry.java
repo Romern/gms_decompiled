@@ -16,5 +16,5 @@ public interface bdry extends Closeable {
     bqgg mo58336a(bdrx bdrx, bdru bdru, Executor executor);
 
     /* renamed from: a */
-    bqgg mo58337a(bxtx bxtx);
+    bqgg mo58337a(ByteString bxtx);
 }

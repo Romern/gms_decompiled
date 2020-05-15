@@ -102,7 +102,7 @@ public class WalletTransactionDetailsChimeraActivity extends atex implements atv
             byte[] byteArrayExtra = atvu.f91026b.getIntent().getByteArrayExtra("transaction");
             if (byteArrayExtra != null) {
                 try {
-                    atvu.f91027c = new atvv((btrg) bxvk.m124016a(btrg.f150089i, byteArrayExtra, bxus.m123744c()));
+                    atvu.f91027c = new atvv((btrg) GeneratedMessageLite.m124016a(btrg.f150089i, byteArrayExtra, bxus.m123744c()));
                 } catch (bxwf e) {
                 }
             }
@@ -113,7 +113,7 @@ public class WalletTransactionDetailsChimeraActivity extends atex implements atv
             return;
         } else {
             try {
-                this.f108947k = new atwa((bzva) bxvk.m124016a(bzva.f171489j, intent.getByteArrayExtra("gpfe_transaction"), bxus.m123744c()));
+                this.f108947k = new atwa((bzva) GeneratedMessageLite.m124016a(bzva.f171489j, intent.getByteArrayExtra("gpfe_transaction"), bxus.m123744c()));
             } catch (bxwf e2) {
                 mo59494e();
                 return;
@@ -701,14 +701,14 @@ public class WalletTransactionDetailsChimeraActivity extends atex implements atv
             atff.m75765a(new askf(this.f108939c, this.f108940d, askc.m74272b(), this), "t/transaction/editgeomerchant", da.mo74062i(), btrk.f150112a, new atwl(), null);
             bzva bzva = this.f108947k.f91034a;
             bxvd bxvd = (bxvd) bzva.mo74142c(5);
-            bxvd.mo73625a((bxvk) bzva);
+            bxvd.mo73625a((GeneratedMessageLite) bzva);
             if (bzva.f171491a == 7) {
                 bzuu = (bzuu) bzva.f171492b;
             } else {
                 bzuu = bzuu.f171466d;
             }
             bxvd bxvd2 = (bxvd) bzuu.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bzuu);
+            bxvd2.mo73625a((GeneratedMessageLite) bzuu);
             if (bzva.f171491a == 7) {
                 bzuu2 = (bzuu) bzva.f171492b;
             } else {
@@ -719,7 +719,7 @@ public class WalletTransactionDetailsChimeraActivity extends atex implements atv
                 bzuv = bzuv.f171471h;
             }
             bxvd bxvd3 = (bxvd) bzuv.mo74142c(5);
-            bxvd3.mo73625a((bxvk) bzuv);
+            bxvd3.mo73625a((GeneratedMessageLite) bzuv);
             if (bxvd3.f164950c) {
                 bxvd3.mo74035c();
                 bxvd3.f164950c = false;

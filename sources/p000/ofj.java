@@ -59,7 +59,7 @@ public final class ofj extends ojh {
     public final void mo22085a(int i, ByteBuffer byteBuffer) {
         bioz bioz;
         if (i == 32770) {
-            bipe bipe = (bipe) bxvk.m124012a(bipe.f121149c, byteBuffer);
+            bipe bipe = (bipe) GeneratedMessageLite.m124012a(bipe.f121149c, byteBuffer);
             if (bipe == null) {
                 bnsi b = f37502a.mo68387b();
                 b.mo68432a("ofj", "a", 83, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -77,7 +77,7 @@ public final class ofj extends ojh {
             }
         } else if (i == 32771) {
             try {
-                bioz = (bioz) bxvk.m124012a(bioz.f121125c, byteBuffer);
+                bioz = (bioz) GeneratedMessageLite.m124012a(bioz.f121125c, byteBuffer);
             } catch (bxwf e) {
                 bnsi b2 = f37502a.mo68387b();
                 b2.mo68432a("ofj", "a", 90, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");

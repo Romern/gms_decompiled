@@ -24,7 +24,7 @@ final /* synthetic */ class bcwk implements bqeh {
         cbnb cbnb = this.f105063b;
         bcwg bcwg = (bcwg) obj;
         byte[] bArr = bcwl.f105064a;
-        String encodeToString = Base64.encodeToString(cbnb.mo73642k(), 2);
+        String encodeToString = Base64.encodeToString(cbnb.serializeToBytes(), 2);
         String str = (String) bcwg.f105052b.f103161c.mo58455c();
         bzsv a = bzsw.m126179a();
         a.f171297a = 5;

@@ -86,7 +86,7 @@ public final class bqnt {
     public static bqnt m113061a(bqns bqns) {
         bqsj bqsj = bqns.f141318a;
         bxvd bxvd = (bxvd) bqsj.mo74142c(5);
-        bxvd.mo73625a((bxvk) bqsj);
+        bxvd.mo73625a((GeneratedMessageLite) bqsj);
         return new bqnt((bqsh) bxvd);
     }
 

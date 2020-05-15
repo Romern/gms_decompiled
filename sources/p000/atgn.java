@@ -107,7 +107,7 @@ public final class atgn {
         atgt a = atgt.m75867a(cursor.getInt(cursor.getColumnIndex("network_id")));
         byte[] blob = cursor.getBlob(cursor.getColumnIndex("card"));
         try {
-            btjk btjk = (btjk) bxvk.m124016a(btjk.f149119C, blob, bxus.m123744c());
+            btjk btjk = (btjk) GeneratedMessageLite.m124016a(btjk.f149119C, blob, bxus.m123744c());
             int i = cursor.getInt(cursor.getColumnIndex("pending_state"));
             String string = cursor.getString(cursor.getColumnIndex("activation_method"));
             String string2 = cursor.getString(cursor.getColumnIndex("bundle_id"));
@@ -195,7 +195,7 @@ public final class atgn {
         contentValues.put("client_token_id", btiy.f149056a);
         contentValues.put("account_id", mo49961i());
         contentValues.put("environment", mo49962j());
-        contentValues.put("card", btjk.mo73642k());
+        contentValues.put("card", btjk.serializeToBytes());
         contentValues.put("last_modified_s", Long.valueOf(j));
         int a = btjl.m116841a(btjk.f149127e);
         if (a == 0) {
@@ -256,7 +256,7 @@ public final class atgn {
             if (atgu != null) {
                 btjk btjk = atgu.f90324a;
                 bxvd bxvd = (bxvd) btjk.mo74142c(5);
-                bxvd.mo73625a((bxvk) btjk);
+                bxvd.mo73625a((GeneratedMessageLite) btjk);
                 bxvd da = btpr.f149879b.mo74144da();
                 if (da.f164950c) {
                     da.mo74035c();

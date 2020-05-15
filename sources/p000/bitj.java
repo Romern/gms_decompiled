@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bitj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bitj extends bxvk implements bxxd {
+public final class bitj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final bitj f121654h;
@@ -29,7 +29,7 @@ public final class bitj extends bxvk implements bxxd {
     public String f121661f = "";
 
     /* renamed from: g */
-    public bxtx f121662g = bxtx.f164797b;
+    public ByteString f121662g = ByteString.f164797b;
 
     /* renamed from: i */
     private byte f121663i = 2;
@@ -37,7 +37,7 @@ public final class bitj extends bxvk implements bxxd {
     static {
         bitj bitj = new bitj();
         f121654h = bitj;
-        bxvk.m124024a(bitj.class, bitj);
+        GeneratedMessageLite.m124024a(bitj.class, bitj);
     }
 
     private bitj() {
@@ -58,7 +58,7 @@ public final class bitj extends bxvk implements bxxd {
             this.f121663i = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121654h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔋ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ည\u0005", new Object[]{"a", "b", bitl.m102819b(), "c", "d", "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f121654h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔋ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ည\u0005", new Object[]{"a", "b", bitl.m102819b(), "c", "d", "e", "f", "g"});
         } else if (i2 == 3) {
             return new bitj();
         } else {

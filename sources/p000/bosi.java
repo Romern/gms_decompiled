@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bosi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bosi extends bxvk implements bxxd {
+public final class bosi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bosi f134593c;
@@ -19,7 +19,7 @@ public final class bosi extends bxvk implements bxxd {
     static {
         bosi bosi = new bosi();
         f134593c = bosi;
-        bxvk.m124024a(bosi.class, bosi);
+        GeneratedMessageLite.m124024a(bosi.class, bosi);
     }
 
     private bosi() {
@@ -36,7 +36,7 @@ public final class bosi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134593c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u001b", new Object[]{"a", bosg.class, "b", bosh.class});
+            return GeneratedMessageLite.m124022a(f134593c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u001b", new Object[]{"a", bosg.class, "b", bosh.class});
         } else if (i2 == 3) {
             return new bosi();
         } else {

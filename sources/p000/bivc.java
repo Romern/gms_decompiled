@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bivc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bivc extends bxvk implements bxxd {
+public final class bivc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bivc f121939g;
@@ -14,13 +14,13 @@ public final class bivc extends bxvk implements bxxd {
     public int f121941a;
 
     /* renamed from: b */
-    public bxtx f121942b = bxtx.f164797b;
+    public ByteString f121942b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f121943c = bxtx.f164797b;
+    public ByteString f121943c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f121944d = bxtx.f164797b;
+    public ByteString f121944d = ByteString.f164797b;
 
     /* renamed from: e */
     public String f121945e = "";
@@ -31,7 +31,7 @@ public final class bivc extends bxvk implements bxxd {
     static {
         bivc bivc = new bivc();
         f121939g = bivc;
-        bxvk.m124024a(bivc.class, bivc);
+        GeneratedMessageLite.m124024a(bivc.class, bivc);
     }
 
     private bivc() {
@@ -48,7 +48,7 @@ public final class bivc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f121939g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ဈ\u0003\u0005ဈ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f121939g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ဈ\u0003\u0005ဈ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new bivc();
         } else {

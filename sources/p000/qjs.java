@@ -11,7 +11,7 @@ import java.util.HashMap;
 final class qjs {
 
     /* renamed from: a */
-    private static final sek f41505a = qgn.m32143a("DroidGuardResultModule");
+    private static final Logger f41505a = qgn.m32143a("DroidGuardResultModule");
 
     /* renamed from: a */
     static bmxv m32263a(Context context, bmxv bmxv, bmxv bmxv2, bmxv bmxv3, bmxv bmxv4, bnic bnic, vvp vvp, qdu qdu) {

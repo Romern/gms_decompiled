@@ -118,7 +118,7 @@ public final class vxz {
             bxvd.f164950c = false;
         }
         vvt vvt = vvt.f50051p;
-        ((vvt) bxvd.f164949b).f50061i = bxvk.m124030de();
+        ((vvt) bxvd.f164949b).f50061i = GeneratedMessageLite.m124030de();
         vyv vyv = vyz.f50264c;
         ArrayList arrayList = new ArrayList();
         String[] list = vyv.m41616b(vyv.f50255a).list();
@@ -130,7 +130,7 @@ public final class vxz {
         int size = arrayList.size();
         for (int i = 0; i < size; i++) {
             try {
-                this.f50215a.mo74037c(bxtx.m123261a(spn.m35861a(((vyy) arrayList.get(i)).f50261a)));
+                this.f50215a.mo74037c(ByteString.m123261a(spn.m35861a(((vyy) arrayList.get(i)).f50261a)));
             } catch (IllegalArgumentException e) {
             }
         }

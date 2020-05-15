@@ -80,7 +80,7 @@ public final class cdea implements cddy {
         f180559c = bdyx.m91610a(a, "ClearcutLogStore__enforce_log_cap_per_log_source", false);
         f180560d = bdyx.m91607a(a, "ClearcutLogStore__internal_event_age_cutoff_millis", 604800000L);
         try {
-            f180561e = bdyx.m91608a(a, "ClearcutLogStore__log_cap_policy", (cahl) bxvk.m124014a(cahl.f174556d, new byte[0]), cddz.f180556a);
+            f180561e = bdyx.m91608a(a, "ClearcutLogStore__log_cap_policy", (cahl) GeneratedMessageLite.m124014a(cahl.f174556d, new byte[0]), cddz.f180556a);
             f180562f = bdyx.m91610a(a, "ClearcutLogStore__log_file_age", false);
             f180563g = bdyx.m91607a(a, "log_file_age_cutoff_millis", 604800000L);
             f180564h = bdyx.m91607a(a, "ClearcutLogStore__max_entries_in_file_cache", 400L);

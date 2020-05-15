@@ -20,7 +20,7 @@ public final class ciwq {
         while (i < size) {
             ciwz ciwz = (ciwz) bxwc.get(i);
             try {
-                if (civq.m151054b(ciwz.f191636b.mo73780k()).equals(civs)) {
+                if (civq.m151054b(ciwz.f191636b.getKey()).equals(civs)) {
                     return new cixf(ciwz, Integer.valueOf(i2));
                 }
                 i2++;
@@ -46,7 +46,7 @@ public final class ciwq {
         try {
             cixb cixb = this.f191608a;
             if ((cixb.f191648a & 4) != 0) {
-                return new cive(cixb.f191651d.mo73780k());
+                return new cive(cixb.f191651d.getKey());
             }
             return null;
         } catch (civg e) {
@@ -58,7 +58,7 @@ public final class ciwq {
     /* renamed from: d */
     public final cive mo86615d() {
         try {
-            return new cive(this.f191608a.f191650c.mo73780k());
+            return new cive(this.f191608a.f191650c.getKey());
         } catch (civg e) {
             throw new AssertionError(e);
         }
@@ -74,7 +74,7 @@ public final class ciwq {
         if (ciwx == null) {
             ciwx = ciwx.f191621d;
         }
-        return new ciwh(civw.m151056a(mo86613b()), ciwx.f191625c.mo73780k(), ciwx.f191624b);
+        return new ciwh(civw.m151056a(mo86613b()), ciwx.f191625c.getKey(), ciwx.f191624b);
     }
 
     /* renamed from: f */
@@ -84,7 +84,7 @@ public final class ciwq {
             if (ciwz == null) {
                 ciwz = ciwz.f191633f;
             }
-            return civq.m151054b(ciwz.f191636b.mo73780k());
+            return civq.m151054b(ciwz.f191636b.getKey());
         } catch (civg e) {
             throw new AssertionError(e);
         }
@@ -93,7 +93,7 @@ public final class ciwq {
     public ciwq(ciwq ciwq) {
         cixb cixb = ciwq.f191608a;
         bxvd bxvd = (bxvd) cixb.mo74142c(5);
-        bxvd.mo73625a((bxvk) cixb);
+        bxvd.mo73625a((GeneratedMessageLite) cixb);
         this.f191608a = (cixb) ((ciww) bxvd).mo74062i();
     }
 
@@ -104,7 +104,7 @@ public final class ciwq {
     /* renamed from: a */
     public final void mo86610a(civt civt, ciwh ciwh) {
         bxvd da = ciwx.f191621d.mo74144da();
-        bxtx a = bxtx.m123261a(ciwh.f191590a);
+        ByteString a = ByteString.m123261a(ciwh.f191590a);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -119,7 +119,7 @@ public final class ciwq {
         ciwx.f191624b = i2;
         ciwx ciwx2 = (ciwx) da.mo74062i();
         bxvd da2 = ciwz.f191633f.mo74144da();
-        bxtx a2 = bxtx.m123261a(civt.f191540a.mo86595a());
+        ByteString a2 = ByteString.m123261a(civt.f191540a.mo86595a());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -128,7 +128,7 @@ public final class ciwq {
         a2.getClass();
         ciwz.f191635a |= 1;
         ciwz.f191636b = a2;
-        bxtx a3 = bxtx.m123261a(civt.f191541b.f191538a);
+        ByteString a3 = ByteString.m123261a(civt.f191541b.f191538a);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -144,7 +144,7 @@ public final class ciwq {
         ciwz ciwz3 = (ciwz) da2.mo74062i();
         cixb cixb = this.f191608a;
         bxvd bxvd = (bxvd) cixb.mo74142c(5);
-        bxvd.mo73625a((bxvk) cixb);
+        bxvd.mo73625a((GeneratedMessageLite) cixb);
         ciww ciww = (ciww) bxvd;
         if (ciww.f164950c) {
             ciww.mo74035c();
@@ -162,9 +162,9 @@ public final class ciwq {
     public final void mo86611a(ciwk ciwk) {
         cixb cixb = this.f191608a;
         bxvd bxvd = (bxvd) cixb.mo74142c(5);
-        bxvd.mo73625a((bxvk) cixb);
+        bxvd.mo73625a((GeneratedMessageLite) cixb);
         ciww ciww = (ciww) bxvd;
-        bxtx a = bxtx.m123261a(ciwk.f191599a);
+        ByteString a = ByteString.m123261a(ciwk.f191599a);
         if (ciww.f164950c) {
             ciww.mo74035c();
             ciww.f164950c = false;
@@ -179,6 +179,6 @@ public final class ciwq {
 
     /* renamed from: a */
     public final byte[] mo86612a() {
-        return this.f191608a.f191659l.mo73780k();
+        return this.f191608a.f191659l.getKey();
     }
 }

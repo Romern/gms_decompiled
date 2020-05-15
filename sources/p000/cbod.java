@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbod */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbod extends bxvk implements bxxd {
+public final class cbod extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbod f177801d;
@@ -22,7 +22,7 @@ public final class cbod extends bxvk implements bxxd {
     static {
         cbod cbod = new cbod();
         f177801d = cbod;
-        bxvk.m124024a(cbod.class, cbod);
+        GeneratedMessageLite.m124024a(cbod.class, cbod);
     }
 
     private cbod() {
@@ -39,7 +39,7 @@ public final class cbod extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177801d, "\u0000\u0003\u0000\u0000\u0001\b\u0003\u0000\u0001\u0000\u0001,\u0002\t\b\t", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f177801d, "\u0000\u0003\u0000\u0000\u0001\b\u0003\u0000\u0001\u0000\u0001,\u0002\t\b\t", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cbod();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btcv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btcv extends bxvk implements bxxd {
+public final class btcv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btcv f148356b;
@@ -16,7 +16,7 @@ public final class btcv extends bxvk implements bxxd {
     static {
         btcv btcv = new btcv();
         f148356b = btcv;
-        bxvk.m124024a(btcv.class, btcv);
+        GeneratedMessageLite.m124024a(btcv.class, btcv);
     }
 
     private btcv() {
@@ -33,7 +33,7 @@ public final class btcv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148356b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f148356b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btcv();
         } else {

@@ -35,7 +35,7 @@ public final class wcj implements cayy {
         }
         bydg bydg = (bydg) da.f164949b;
         if (!bydg.f165782a.mo73666a()) {
-            bydg.f165782a = bxvk.m124019a(bydg.f165782a);
+            bydg.f165782a = GeneratedMessageLite.m124019a(bydg.f165782a);
         }
         bxsy.m123078a(bxvt, bydg.f165782a);
         int i2 = bycs.f165694m;

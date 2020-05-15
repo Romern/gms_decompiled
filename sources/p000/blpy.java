@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blpy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blpy extends bxvk implements bxxd {
+public final class blpy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final blpy f127303d;
@@ -22,7 +22,7 @@ public final class blpy extends bxvk implements bxxd {
     static {
         blpy blpy = new blpy();
         f127303d = blpy;
-        bxvk.m124024a(blpy.class, blpy);
+        GeneratedMessageLite.m124024a(blpy.class, blpy);
     }
 
     private blpy() {
@@ -39,7 +39,7 @@ public final class blpy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127303d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", blpw.f127302a, "c"});
+            return GeneratedMessageLite.m124022a(f127303d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", blpw.f127302a, "c"});
         } else if (i2 == 3) {
             return new blpy();
         } else {

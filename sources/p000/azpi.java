@@ -412,10 +412,10 @@ public final class azpi {
 
     /* renamed from: a */
     public static byte[] m86072a(cbhy cbhy) {
-        bxtx bxtx;
-        bxtx bxtx2;
+        ByteString bxtx;
+        ByteString bxtx2;
         if (cbhy.f177216a == 1) {
-            bxtx = (bxtx) cbhy.f177217b;
+            bxtx = (ByteString) cbhy.f177217b;
         } else {
             bxtx = bxtx.f164797b;
         }
@@ -423,11 +423,11 @@ public final class azpi {
             return null;
         }
         if (cbhy.f177216a == 1) {
-            bxtx2 = (bxtx) cbhy.f177217b;
+            bxtx2 = (ByteString) cbhy.f177217b;
         } else {
             bxtx2 = bxtx.f164797b;
         }
-        return bxtx2.mo73780k();
+        return bxtx2.getKey();
     }
 
     /* renamed from: a */

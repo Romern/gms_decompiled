@@ -5,7 +5,7 @@ package p000;
 final class pjj {
 
     /* renamed from: a */
-    public final bxtx f39351a;
+    public final ByteString f39351a;
 
     /* renamed from: b */
     public final String f39352b;
@@ -22,7 +22,7 @@ final class pjj {
     /* renamed from: f */
     public final long f39356f;
 
-    public pjj(bxtx bxtx, boolean z, String str, boolean z2, long j) {
+    public pjj(ByteString bxtx, boolean z, String str, boolean z2, long j) {
         this.f39351a = bxtx;
         this.f39354d = z;
         this.f39352b = str;

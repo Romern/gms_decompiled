@@ -11,6 +11,6 @@ final /* synthetic */ class skk implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (sgn) bxvk.m124014a(sgn.f44426b, bArr);
+        return (sgn) GeneratedMessageLite.m124014a(sgn.f44426b, bArr);
     }
 }

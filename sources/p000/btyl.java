@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btyl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btyl extends bxvk implements bxxd {
+public final class btyl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final btyl f152937g;
@@ -31,7 +31,7 @@ public final class btyl extends bxvk implements bxxd {
     static {
         btyl btyl = new btyl();
         f152937g = btyl;
-        bxvk.m124024a(btyl.class, btyl);
+        GeneratedMessageLite.m124024a(btyl.class, btyl);
     }
 
     private btyl() {
@@ -48,7 +48,7 @@ public final class btyl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f152937g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဃ\u0001\u0003ဋ\u0002\u0004ဃ\u0003\u0005ဃ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f152937g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဃ\u0001\u0003ဋ\u0002\u0004ဃ\u0003\u0005ဃ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new btyl();
         } else {

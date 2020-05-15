@@ -124,7 +124,7 @@ final /* synthetic */ class baim implements bmxj {
             byhi.f166457e = byhh;
             byhi.f166453a |= 8;
             if (a.mo55650b() != null) {
-                bxtx a2 = bxtx.m123261a(a.mo55650b());
+                ByteString a2 = ByteString.m123261a(a.mo55650b());
                 if (da6.f164950c) {
                     da6.mo74035c();
                     da6.f164950c = false;
@@ -135,7 +135,7 @@ final /* synthetic */ class baim implements bmxj {
                 byhi2.f166455c = a2;
             }
             if (a.mo55649a() != null) {
-                bxtx a3 = bxtx.m123261a(a.mo55649a());
+                ByteString a3 = ByteString.m123261a(a.mo55649a());
                 if (da6.f164950c) {
                     da6.mo74035c();
                     da6.f164950c = false;

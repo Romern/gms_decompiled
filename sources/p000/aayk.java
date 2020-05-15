@@ -41,7 +41,7 @@ public abstract class aayk extends aayq {
     /* access modifiers changed from: protected */
     /* renamed from: d */
     public byte[] mo29522d() {
-        return mo31908j().mo73642k();
+        return mo31908j().serializeToBytes();
     }
 
     /* access modifiers changed from: protected */

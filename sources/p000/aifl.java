@@ -71,7 +71,7 @@ public final class aifl extends ahie {
     public final void mo37461o(String str) {
         rod a = this.f68876a.mo37441a((rjx) this, str, "connection");
         rob rob = a.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         this.f68876a.mo37437a(this, new aiew(a), new aiex(rob));
     }
 
@@ -95,7 +95,7 @@ public final class aifl extends ahie {
     public final aucb mo36520a(String str, ahin ahin, DiscoveryOptions discoveryOptions) {
         rod a = this.f68876a.mo37440a(this, ahin, "discovery");
         rob rob = a.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         aucb a2 = this.f68876a.mo37437a(this, new aifg(a, str, a, discoveryOptions), new aieu(rob));
         a2.mo50373a(new aieo());
         return a2;
@@ -125,7 +125,7 @@ public final class aifl extends ahie {
         rod a = mo24714a(new aifi(this, ahia), ahia.class.getName());
         rod a2 = this.f68876a.mo37440a(this, new Object(), "advertising");
         rob rob = a2.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         return this.f68876a.mo37437a(this, new aife(a2, str, str2, a, advertisingOptions), new aiff(rob));
     }
 

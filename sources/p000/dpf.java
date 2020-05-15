@@ -114,7 +114,7 @@ public final class dpf {
             bxgf bxgf = (bxgf) da.f164949b;
             a.getClass();
             if (!bxgf.f163243a.mo73666a()) {
-                bxgf.f163243a = bxvk.m124019a(bxgf.f163243a);
+                bxgf.f163243a = GeneratedMessageLite.m124019a(bxgf.f163243a);
             }
             bxgf.f163243a.mo74153d(a.f162810z);
         }
@@ -405,7 +405,7 @@ public final class dpf {
         int i2;
         if (tjk != null) {
             new Object[1][0] = tjk;
-            qwo a = this.f13736a.mo24335a(tjk.mo73642k());
+            qwo a = this.f13736a.mo24335a(tjk.serializeToBytes());
             if (!cdhu.f180921a.mo6606a().mo77626a()) {
                 i2 = i - 1;
             } else {

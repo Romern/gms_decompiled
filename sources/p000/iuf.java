@@ -11,7 +11,7 @@ import com.google.android.gms.common.api.Status;
 public final class iuf extends aaab {
 
     /* renamed from: f */
-    private static final sek f21778f = new sek(new String[]{"VerifyDecryptOperation"}, (byte[]) null);
+    private static final Logger f21778f = new Logger(new String[]{"VerifyDecryptOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final isf f21779a;

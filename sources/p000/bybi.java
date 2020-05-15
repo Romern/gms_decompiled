@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bybi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bybi extends bxvk implements bxxd {
+public final class bybi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bybi f165500b;
@@ -19,7 +19,7 @@ public final class bybi extends bxvk implements bxxd {
     static {
         bybi bybi = new bybi();
         f165500b = bybi;
-        bxvk.m124024a(bybi.class, bybi);
+        GeneratedMessageLite.m124024a(bybi.class, bybi);
     }
 
     private bybi() {
@@ -40,7 +40,7 @@ public final class bybi extends bxvk implements bxxd {
             this.f165503c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f165500b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", bybc.class});
+            return GeneratedMessageLite.m124022a(f165500b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", bybc.class});
         } else if (i2 == 3) {
             return new bybi();
         } else {
@@ -67,7 +67,7 @@ public final class bybi extends bxvk implements bxxd {
     /* renamed from: c */
     public final void mo74342c() {
         if (!this.f165502a.mo73666a()) {
-            this.f165502a = bxvk.m124021a(this.f165502a);
+            this.f165502a = GeneratedMessageLite.m124021a(this.f165502a);
         }
     }
 }

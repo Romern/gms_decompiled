@@ -38,6 +38,6 @@ public class zvl {
         String str2 = this.f56029b;
         String valueOf = String.valueOf(str);
         String valueOf2 = String.valueOf(this.f56028a);
-        return rjx.mo24694a(str2, valueOf2.length() == 0 ? new String(valueOf) : valueOf.concat(valueOf2), bxxc.mo73642k());
+        return rjx.mo24694a(str2, valueOf2.length() == 0 ? new String(valueOf) : valueOf.concat(valueOf2), bxxc.serializeToBytes());
     }
 }

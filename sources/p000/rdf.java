@@ -10,12 +10,12 @@ public final class rdf {
     public final File f42720a;
 
     /* renamed from: b */
-    public final bxtx f42721b;
+    public final ByteString f42721b;
 
     /* renamed from: c */
     public final int f42722c;
 
-    public rdf(File file, bxtx bxtx, int i) {
+    public rdf(File file, ByteString bxtx, int i) {
         this.f42720a = file;
         sdo.m34959a(bxtx);
         this.f42721b = bxtx;

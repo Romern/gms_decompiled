@@ -245,7 +245,7 @@ public final class acrl implements acro {
         synchronized (this.f60625g) {
             abul d = mo33026d(str);
             bxvd bxvd = (bxvd) d.mo74142c(5);
-            bxvd.mo73625a((bxvk) d);
+            bxvd.mo73625a((GeneratedMessageLite) d);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -387,7 +387,7 @@ public final class acrl implements acro {
                             if (str6 != null) {
                                 abul a = acrp.mo33046a(next2.getKey());
                                 bxvd bxvd = (bxvd) a.mo74142c(5);
-                                bxvd.mo73625a((bxvk) a);
+                                bxvd.mo73625a((GeneratedMessageLite) a);
                                 if (bxvd.f164950c) {
                                     bxvd.mo74035c();
                                     bxvd.f164950c = false;
@@ -404,7 +404,7 @@ public final class acrl implements acro {
                         for (String str7 : hashSet) {
                             abul a2 = acrp.mo33046a(str7);
                             bxvd bxvd2 = (bxvd) a2.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) a2);
+                            bxvd2.mo73625a((GeneratedMessageLite) a2);
                             if (bxvd2.f164950c) {
                                 bxvd2.mo74035c();
                                 bxvd2.f164950c = false;
@@ -417,7 +417,7 @@ public final class acrl implements acro {
                             GlobalSearchApplicationInfo globalSearchApplicationInfo2 = (GlobalSearchApplicationInfo) arrayList.get(i5);
                             abul a3 = acrp.mo33046a(globalSearchApplicationInfo2.f9562a);
                             bxvd bxvd3 = (bxvd) a3.mo74142c(5);
-                            bxvd3.mo73625a((bxvk) a3);
+                            bxvd3.mo73625a((GeneratedMessageLite) a3);
                             abtd a4 = acky.m49356a(globalSearchApplicationInfo2);
                             if (bxvd3.f164950c) {
                                 bxvd3.mo74035c();
@@ -433,7 +433,7 @@ public final class acrl implements acro {
                         for (Map.Entry entry : hashMap.entrySet()) {
                             abul a5 = acrp.mo33046a((String) entry.getKey());
                             bxvd bxvd4 = (bxvd) a5.mo74142c(5);
-                            bxvd4.mo73625a((bxvk) a5);
+                            bxvd4.mo73625a((GeneratedMessageLite) a5);
                             int intValue = ((Integer) entry.getValue()).intValue();
                             if (bxvd4.f164950c) {
                                 bxvd4.mo74035c();
@@ -448,7 +448,7 @@ public final class acrl implements acro {
                         for (Map.Entry entry2 : hashMap2.entrySet()) {
                             abul a6 = acrp.mo33046a((String) entry2.getKey());
                             bxvd bxvd5 = (bxvd) a6.mo74142c(5);
-                            bxvd5.mo73625a((bxvk) a6);
+                            bxvd5.mo73625a((GeneratedMessageLite) a6);
                             String str8 = (String) entry2.getValue();
                             if (bxvd5.f164950c) {
                                 bxvd5.mo74035c();
@@ -478,7 +478,7 @@ public final class acrl implements acro {
                         for (Map.Entry entry4 : hashMap3.entrySet()) {
                             abul abul9 = (abul) entry4.getValue();
                             bxvd bxvd6 = (bxvd) abul9.mo74142c(5);
-                            bxvd6.mo73625a((bxvk) abul9);
+                            bxvd6.mo73625a((GeneratedMessageLite) abul9);
                             if (bxvd6.f164950c) {
                                 bxvd6.mo74035c();
                                 bxvd6.f164950c = false;
@@ -495,7 +495,7 @@ public final class acrl implements acro {
                         for (Map.Entry entry5 : hashMap4.entrySet()) {
                             abul abul10 = (abul) entry5.getValue();
                             bxvd bxvd7 = (bxvd) abul10.mo74142c(5);
-                            bxvd7.mo73625a((bxvk) abul10);
+                            bxvd7.mo73625a((GeneratedMessageLite) abul10);
                             if (((abul) bxvd7.f164949b).f58421h == 0) {
                                 if (bxvd7.f164950c) {
                                     bxvd7.mo74035c();
@@ -515,7 +515,7 @@ public final class acrl implements acro {
                         for (Map.Entry entry6 : hashMap5.entrySet()) {
                             abul abul13 = (abul) entry6.getValue();
                             bxvd bxvd8 = (bxvd) abul13.mo74142c(5);
-                            bxvd8.mo73625a((bxvk) abul13);
+                            bxvd8.mo73625a((GeneratedMessageLite) abul13);
                             try {
                                 i = acrp.f60629a.getPackageManager().getPackageInfo((String) entry6.getKey(), 0).versionCode;
                             } catch (PackageManager.NameNotFoundException e2) {
@@ -538,7 +538,7 @@ public final class acrl implements acro {
                         for (Map.Entry entry7 : hashMap6.entrySet()) {
                             abul abul16 = (abul) entry7.getValue();
                             bxvd bxvd9 = (bxvd) abul16.mo74142c(5);
-                            bxvd9.mo73625a((bxvk) abul16);
+                            bxvd9.mo73625a((GeneratedMessageLite) abul16);
                             try {
                                 String e3 = spn.m35882e(acrp.f60629a, (String) entry7.getKey());
                                 if (e3 != null) {
@@ -730,7 +730,7 @@ public final class acrl implements acro {
         synchronized (this.f60625g) {
             abul d = mo33026d(str);
             bxvd bxvd = (bxvd) d.mo74142c(5);
-            bxvd.mo73625a((bxvk) d);
+            bxvd.mo73625a((GeneratedMessageLite) d);
             if (bxvd != null) {
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();

@@ -146,7 +146,7 @@ public class bjgd extends bjil implements bjgc, bjhb, bjfg {
             bwog = bwog.f160437f;
         }
         bxvd bxvd = (bxvd) bwog.mo74142c(5);
-        bxvd.mo73625a((bxvk) bwog);
+        bxvd.mo73625a((GeneratedMessageLite) bwog);
         bxvf bxvf = (bxvf) bxvd;
         bxvd o = mo65129o();
         if (bxvf.f164950c) {
@@ -623,7 +623,7 @@ public class bjgd extends bjil implements bjgc, bjhb, bjfg {
                     bwof = bwof.f160430f;
                 }
                 bxvd bxvd = (bxvd) bwof.mo74142c(5);
-                bxvd.mo73625a((bxvk) bwof);
+                bxvd.mo73625a((GeneratedMessageLite) bwof);
                 if (bwoo.f160471a != 2 || (i = bwoa.m122149a(((Integer) bwoo.f160472b).intValue())) == 0) {
                     i = 1;
                 }
@@ -642,7 +642,7 @@ public class bjgd extends bjil implements bjgc, bjhb, bjfg {
                         bwog2 = bwog.f160437f;
                     }
                     bxvd bxvd2 = (bxvd) bwog2.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) bwog2);
+                    bxvd2.mo73625a((GeneratedMessageLite) bwog2);
                     bxvf bxvf = (bxvf) bxvd2;
                     if (bxvf.f164950c) {
                         bxvf.mo74035c();
@@ -655,7 +655,7 @@ public class bjgd extends bjil implements bjgc, bjhb, bjfg {
                     bwog bwog4 = (bwog) bxvf.mo74062i();
                     bwny bwny = this.f122650l;
                     bxvd bxvd3 = (bxvd) bwny.mo74142c(5);
-                    bxvd3.mo73625a((bxvk) bwny);
+                    bxvd3.mo73625a((GeneratedMessageLite) bwny);
                     bxvf bxvf2 = (bxvf) bxvd3;
                     if (bxvf2.f164950c) {
                         bxvf2.mo74035c();

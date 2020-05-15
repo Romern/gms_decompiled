@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bosu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bosu extends bxvk implements bxxd {
+public final class bosu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: af */
     public static final bosu f134668af;
@@ -184,7 +184,7 @@ public final class bosu extends bxvk implements bxxd {
     static {
         bosu bosu = new bosu();
         f134668af = bosu;
-        bxvk.m124024a(bosu.class, bosu);
+        GeneratedMessageLite.m124024a(bosu.class, bosu);
     }
 
     private bosu() {
@@ -205,7 +205,7 @@ public final class bosu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134668af, "\u00016\u0000\u0003\u0001M6\u0000\u0003\u0000\u0001ဈ\u0000\u0002ဉ\u0005\u0003ဉ\u0006\u0004ဈ\u0002\u0005ဏ\b\u0006င\n\u0007င\u000b\bင\u001e\tဂ\u001f\nင\f\u000bင\r\rင#\u000eဈ\u000e\u000fင\u000f\u0010ဂ$\u0016ဂ*\u0017ဂ,\u0019င\u0010\u001aင\u0011\u001bင\u0012\u001dင/\u001eဂ0\u001fဌ2 ဇ3#ဇ4$ဇ5%ဇ6&င7'င\u0003(\u001b)ဌ8-င\u0007.င\u0004/စ!2ဉ=4ဇ\u00155ဇ\u00166ဇ\u00177ဇ\u00188ဇ\u00199ဇ\u001a:င?;င@<ဉ\u001d?ဉC@\u001bAဂ\u0014Bဇ\u001cCဉ\"FဉDGဉEKဉHL\u001bMင1", new Object[]{"a", "b", "c", "d", "h", "i", "e", "k", "l", "m", "D", "E", "n", "o", "H", "p", "q", "I", "J", "K", "r", "s", "t", "L", "M", "O", caej.f172830a, "P", "Q", "R", "S", "T", "f", "U", borz.class, "V", bosp.f134636a, "j", "g", "F", "W", "v", "w", "x", "y", "z", "A", "X", "Y", "C", "Z", "aa", borm.class, "u", "B", "G", "ab", "ad", "ae", "ac", bosr.class, "N"});
+            return GeneratedMessageLite.m124022a(f134668af, "\u00016\u0000\u0003\u0001M6\u0000\u0003\u0000\u0001ဈ\u0000\u0002ဉ\u0005\u0003ဉ\u0006\u0004ဈ\u0002\u0005ဏ\b\u0006င\n\u0007င\u000b\bင\u001e\tဂ\u001f\nင\f\u000bင\r\rင#\u000eဈ\u000e\u000fင\u000f\u0010ဂ$\u0016ဂ*\u0017ဂ,\u0019င\u0010\u001aင\u0011\u001bင\u0012\u001dင/\u001eဂ0\u001fဌ2 ဇ3#ဇ4$ဇ5%ဇ6&င7'င\u0003(\u001b)ဌ8-င\u0007.င\u0004/စ!2ဉ=4ဇ\u00155ဇ\u00166ဇ\u00177ဇ\u00188ဇ\u00199ဇ\u001a:င?;င@<ဉ\u001d?ဉC@\u001bAဂ\u0014Bဇ\u001cCဉ\"FဉDGဉEKဉHL\u001bMင1", new Object[]{"a", "b", "c", "d", "h", "i", "e", "k", "l", "m", "D", "E", "n", "o", "H", "p", "q", "I", "J", "K", "r", "s", "t", "L", "M", "O", caej.f172830a, "P", "Q", "R", "S", "T", "f", "U", borz.class, "V", bosp.f134636a, "j", "g", "F", "W", "v", "w", "x", "y", "z", "A", "X", "Y", "C", "Z", "aa", borm.class, "u", "B", "G", "ab", "ad", "ae", "ac", bosr.class, "N"});
         } else if (i2 == 3) {
             return new bosu();
         } else {

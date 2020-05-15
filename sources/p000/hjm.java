@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public final class hjm implements hep {
 
     /* renamed from: a */
-    private static final sek f19896a = ght.m13172b("CompleteSaveAccountLinkingTokenOperation");
+    private static final Logger f19896a = ght.m13172b("CompleteSaveAccountLinkingTokenOperation");
 
     /* renamed from: b */
     private static final bnhe f19897b;
@@ -64,7 +64,7 @@ public final class hjm implements hep {
     public final bqgg mo12291a(hez hez) {
         bsjn bsjn = (bsjn) f19897b.get(this.f19900e.f10240b);
         String valueOf = String.valueOf(this.f19900e.f10240b);
-        sdo.m34966a(bsjn, valueOf.length() == 0 ? new String("Invalid type for token: ") : "Invalid type for token: ".concat(valueOf));
+        sdo.checkIfNull(bsjn, valueOf.length() == 0 ? new String("Invalid type for token: ") : "Invalid type for token: ".concat(valueOf));
         try {
             String b = spn.m35867b(rpr.m34216b(), this.f19898c, "SHA1");
             if (b != null) {

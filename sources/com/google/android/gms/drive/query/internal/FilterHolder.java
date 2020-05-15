@@ -49,7 +49,7 @@ public class FilterHolder extends AbstractSafeParcelable implements ReflectedPar
         MatchAllFilter matchAllFilter;
         HasFilter hasFilter;
         FullTextSearchFilter fullTextSearchFilter;
-        sdo.m34966a(filter, "Null filter.");
+        sdo.checkIfNull(filter, "Null filter.");
         OwnedByMeFilter ownedByMeFilter = null;
         if (filter instanceof ComparisonFilter) {
             comparisonFilter = (ComparisonFilter) filter;

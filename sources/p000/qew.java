@@ -8,7 +8,7 @@ import com.google.android.gms.common.api.Status;
 public final class qew implements qeu {
 
     /* renamed from: a */
-    private static final sek f41097a = qgn.m32143a("CheckinApiCallback");
+    private static final Logger f41097a = qgn.m32143a("CheckinApiCallback");
 
     /* renamed from: b */
     private final rnt f41098b;

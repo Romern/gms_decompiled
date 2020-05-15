@@ -62,6 +62,6 @@ public final class akzs {
 
     /* renamed from: a */
     public final void mo40031a(bspq bspq) {
-        this.f73188b.mo24335a(bspq.mo73642k()).mo24327b();
+        this.f73188b.mo24335a(bspq.serializeToBytes()).mo24327b();
     }
 }

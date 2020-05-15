@@ -60,7 +60,7 @@ public final class axdk extends awzk {
             bwlj.f160139a = 1 | bwlj.f160139a;
             byte[] bArr = this.f95840d;
             if (bArr != null) {
-                bxtx a2 = bxtx.m123261a(bArr);
+                ByteString a2 = ByteString.m123261a(bArr);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

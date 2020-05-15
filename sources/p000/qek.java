@@ -24,7 +24,7 @@ final class qek implements qeo {
     public final void mo23984a(Object obj) {
         try {
             HashSet hashSet = this.f41076a;
-            sek sek = qeq.f41085a;
+            Logger Logger = qeq.f41085a;
             if (obj instanceof Number) {
                 hashSet.add(Integer.valueOf(((Number) obj).intValue()));
                 return;

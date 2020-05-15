@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bith */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bith extends bxvk implements bxxd {
+public final class bith extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bith f121645b;
@@ -22,7 +22,7 @@ public final class bith extends bxvk implements bxxd {
     static {
         bith bith = new bith();
         f121645b = bith;
-        bxvk.m124024a(bith.class, bith);
+        GeneratedMessageLite.m124024a(bith.class, bith);
     }
 
     private bith() {
@@ -43,7 +43,7 @@ public final class bith extends bxvk implements bxxd {
             this.f121649d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121645b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔇ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f121645b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔇ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new bith();
         } else {

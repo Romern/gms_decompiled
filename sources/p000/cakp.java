@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cakp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cakp extends bxvk implements bxxd {
+public final class cakp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final cakp f175028g;
@@ -31,7 +31,7 @@ public final class cakp extends bxvk implements bxxd {
     static {
         cakp cakp = new cakp();
         f175028g = cakp;
-        bxvk.m124024a(cakp.class, cakp);
+        GeneratedMessageLite.m124024a(cakp.class, cakp);
     }
 
     private cakp() {
@@ -48,7 +48,7 @@ public final class cakp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175028g, "\u0000\u0006\u0000\u0000\u0001\b\u0006\u0000\u0001\u0000\u0001\u001c\u0002\u0002\u0005\f\u0006\u0002\u0007\f\b\t", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f175028g, "\u0000\u0006\u0000\u0000\u0001\b\u0006\u0000\u0001\u0000\u0001\u001c\u0002\u0002\u0005\f\u0006\u0002\u0007\f\b\t", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new cakp();
         } else {

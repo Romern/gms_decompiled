@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: breh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class breh extends bxvk implements bxxd {
+public final class breh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final breh f142612b;
@@ -19,7 +19,7 @@ public final class breh extends bxvk implements bxxd {
     static {
         breh breh = new breh();
         f142612b = breh;
-        bxvk.m124024a(breh.class, breh);
+        GeneratedMessageLite.m124024a(breh.class, breh);
     }
 
     private breh() {
@@ -36,7 +36,7 @@ public final class breh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142612b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဂ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f142612b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဂ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new breh();
         } else {

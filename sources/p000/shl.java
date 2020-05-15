@@ -91,7 +91,7 @@ public class shl extends sgw {
         } else {
             map = new HashMap();
             for (String str : bundle.keySet()) {
-                map.put(str, bxtx.m123261a(bundle.getByteArray(str)));
+                map.put(str, ByteString.m123261a(bundle.getByteArray(str)));
             }
         }
         if (map.isEmpty()) {
@@ -102,7 +102,7 @@ public class shl extends sgw {
             chtr.mo85649a(this.f44481c);
         }
         for (Map.Entry entry : map.entrySet()) {
-            chtr.mo85648a(chtn.m149536a((String) entry.getKey(), chtr.f189133a), ((bxtx) entry.getValue()).mo73780k());
+            chtr.mo85648a(chtn.m149536a((String) entry.getKey(), chtr.f189133a), ((ByteString) entry.getValue()).getKey());
         }
         return chtr;
     }
@@ -286,7 +286,7 @@ public class shl extends sgw {
         long j2 = j;
         TimeUnit timeUnit2 = timeUnit;
         chtv a2 = mo25552a(chtv);
-        sdo.m34966a(this.f44480b, "grpc channel is null, cannot make grpc request");
+        sdo.checkIfNull(this.f44480b, "grpc channel is null, cannot make grpc request");
         try {
             String d = mo25529d(clientContext2);
             String c = mo25528c(clientContext2);
@@ -344,7 +344,7 @@ public class shl extends sgw {
     /* renamed from: a */
     public final Object mo25554a(chtv chtv, Object obj, long j, TimeUnit timeUnit) {
         chtv a = mo25552a(chtv);
-        sdo.m34966a(this.f44480b, "grpc channel is null, cannot make grpc request");
+        sdo.checkIfNull(this.f44480b, "grpc channel is null, cannot make grpc request");
         chqp a2 = shv.m35322a(this.f44453i, this.f44480b, null, null, this.f44481c, false);
         chuv chuv = chuv.f189215b;
         try {
@@ -370,7 +370,7 @@ public class shl extends sgw {
     public final void mo25555a(chtv chtv, ClientContext clientContext, Object obj, ciiv ciiv, long j, TimeUnit timeUnit) {
         chtv a = mo25552a(chtv);
         shk shk = new shk(this, ciiv, a);
-        sdo.m34966a(this.f44480b, "grpc channel is null, cannot make grpc request");
+        sdo.checkIfNull(this.f44480b, "grpc channel is null, cannot make grpc request");
         try {
             String d = mo25529d(clientContext);
             try {

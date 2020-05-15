@@ -35,7 +35,7 @@ public final class dwa implements sqt {
         this.f14242b = dvz;
         sdo.m34959a(bxcx);
         bxvd bxvd = (bxvd) bxcx.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxcx);
+        bxvd.mo73625a((GeneratedMessageLite) bxcx);
         bxvd da = bxcw.f162994e.mo74144da();
         String a = dvz.mo9738a();
         if (da.f164950c) {
@@ -249,7 +249,7 @@ public final class dwa implements sqt {
     public final void mo9745a(long j) {
         bxcx bxcx = this.f14241a;
         bxvd bxvd = (bxvd) bxcx.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxcx);
+        bxvd.mo73625a((GeneratedMessageLite) bxcx);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

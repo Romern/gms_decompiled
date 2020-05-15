@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmmi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmmi extends bxvk implements bxxd {
+public final class bmmi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bmmi f130016b;
@@ -11,7 +11,7 @@ public final class bmmi extends bxvk implements bxxd {
     private static volatile bxxk f130017d;
 
     /* renamed from: a */
-    public bxtx f130018a = bxtx.f164797b;
+    public ByteString f130018a = ByteString.f164797b;
 
     /* renamed from: c */
     private int f130019c;
@@ -19,7 +19,7 @@ public final class bmmi extends bxvk implements bxxd {
     static {
         bmmi bmmi = new bmmi();
         f130016b = bmmi;
-        bxvk.m124024a(bmmi.class, bmmi);
+        GeneratedMessageLite.m124024a(bmmi.class, bmmi);
     }
 
     private bmmi() {
@@ -36,7 +36,7 @@ public final class bmmi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130016b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f130016b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new bmmi();
         } else {

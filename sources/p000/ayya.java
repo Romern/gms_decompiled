@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayya */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayya extends bxvk implements bxxd {
+public final class ayya extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final ayya f98724b;
@@ -19,7 +19,7 @@ public final class ayya extends bxvk implements bxxd {
     static {
         ayya ayya = new ayya();
         f98724b = ayya;
-        bxvk.m124024a(ayya.class, ayya);
+        GeneratedMessageLite.m124024a(ayya.class, ayya);
     }
 
     private ayya() {
@@ -36,7 +36,7 @@ public final class ayya extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f98724b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"c", "a", bqbl.f140384a});
+            return GeneratedMessageLite.m124022a(f98724b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"c", "a", bqbl.f140384a});
         } else if (i2 == 3) {
             return new ayya();
         } else {

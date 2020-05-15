@@ -90,7 +90,7 @@ public final class ggr implements Closeable {
             it.seekToFirst();
             if (it.isValid()) {
                 do {
-                    ghk ghk = (ghk) bxvk.m124016a(ghk.f18253f, it.value(), bxus.m123744c());
+                    ghk ghk = (ghk) GeneratedMessageLite.m124016a(ghk.f18253f, it.value(), bxus.m123744c());
                     if (m13115b(ghk)) {
                         this.f18149c.delete(it.key());
                         it.next();
@@ -127,7 +127,7 @@ public final class ggr implements Closeable {
             it.seekToFirst();
             while (it.isValid()) {
                 try {
-                    ghk ghk = (ghk) bxvk.m124016a(ghk.f18253f, it.value(), bxus.m123744c());
+                    ghk ghk = (ghk) GeneratedMessageLite.m124016a(ghk.f18253f, it.value(), bxus.m123744c());
                     if (!m13115b(ghk)) {
                         bssn bssn = ghk.f18256b;
                         if (bssn == null) {
@@ -157,7 +157,7 @@ public final class ggr implements Closeable {
                         if (hashMap.containsKey(sb2)) {
                             ghd ghd = (ghd) hashMap.get(sb2);
                             bxvd = (bxvd) ghd.mo74142c(5);
-                            bxvd.mo73625a((bxvk) ghd);
+                            bxvd.mo73625a((GeneratedMessageLite) ghd);
                         } else {
                             bxvd da = ghd.f18222f.mo74144da();
                             if (da.f164950c) {
@@ -278,7 +278,7 @@ public final class ggr implements Closeable {
             if (this.f18149c.get(a) != null) {
                 j2++;
             } else {
-                this.f18149c.put(a, ghk3.mo73642k());
+                this.f18149c.put(a, ghk3.serializeToBytes());
                 return true;
             }
         }

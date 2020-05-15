@@ -40,7 +40,7 @@ public final class cdmq implements cdmo {
         bdyw a = new bdyw(bdyj.m91581a("com.google.android.gms")).mo58445a("gms:common:");
         f181244a = bdyx.m91607a(a, "Phenotype__checkin_interval_in_seconds", 86400L);
         try {
-            f181245b = bdyx.m91608a(a, "Phenotype__forced_global_broadcast_packages", (bydj) bxvk.m124014a(bydj.f165795b, new byte[]{10, 27, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 108, 111, 99, 97, 116, 105, 111, 110, 10, 26, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 46, 117, 108, 114, 10, 29, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 46, 112, 108, 97, 99, 101, 115}), cdmp.f181243a);
+            f181245b = bdyx.m91608a(a, "Phenotype__forced_global_broadcast_packages", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[]{10, 27, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 108, 111, 99, 97, 116, 105, 111, 110, 10, 26, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 46, 117, 108, 114, 10, 29, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 46, 112, 108, 97, 99, 101, 115}), cdmp.f181243a);
             f181246c = bdyx.m91610a(a, "Phenotype__include_device_provisioning_state_in_request", true);
             f181247d = bdyx.m91610a(a, "Phenotype__targeted_notifications_enabled", false);
         } catch (bxwf e) {

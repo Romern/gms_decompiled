@@ -50,7 +50,7 @@ public final class azhk extends azhc {
         this.f99386f = new azhj(this);
         cbkm cbkm = (cbkm) azol.m85935a((bxxk) cbkm.f177424b.mo74142c(7), this.f99384d);
         bxvd bxvd = (bxvd) cbkm.mo74142c(5);
-        bxvd.mo73625a((bxvk) cbkm);
+        bxvd.mo73625a((GeneratedMessageLite) cbkm);
         this.f99385e = azcv.m85357a(this.f99339a).mo54700c();
         bxvd a = azfn.m85571a(this.f99339a, this.f99385e);
         if (bxvd.f164950c) {
@@ -88,7 +88,7 @@ public final class azhk extends azhc {
         Intent intent = new Intent("com.google.android.apps.libraries.matchstick.action.return_look_up_registered");
         azhk azhk = azhj.f99381a;
         intent.setClassName(azhk.f99339a, azhk.f99382b);
-        intent.putExtra("look_up_registered_response", ((cbkn) obj2).mo73642k());
+        intent.putExtra("look_up_registered_response", ((cbkn) obj2).serializeToBytes());
         intent.putExtra("look_up_registered_request_id", azhj.f99381a.f99383c);
         azhj.f99381a.f99339a.startService(intent);
         azph.m85998a(this.f99339a).mo55141a(803, this.f99385e);

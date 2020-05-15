@@ -5,7 +5,7 @@ package p000;
 public final class avtg extends avti {
 
     /* renamed from: c */
-    private static final sek f93884c = avpq.m79021h("IntegerKey");
+    private static final Logger f93884c = avpq.m79021h("IntegerKey");
 
     public avtg(String str, Integer num) {
         super(str, num);

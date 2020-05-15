@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: agnh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class agnh extends bxvk implements bxxd {
+public final class agnh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final agnh f66059d;
@@ -22,7 +22,7 @@ public final class agnh extends bxvk implements bxxd {
     static {
         agnh agnh = new agnh();
         f66059d = agnh;
-        bxvk.m124024a(agnh.class, agnh);
+        GeneratedMessageLite.m124024a(agnh.class, agnh);
     }
 
     private agnh() {
@@ -39,7 +39,7 @@ public final class agnh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f66059d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ဂ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f66059d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ဂ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new agnh();
         } else {

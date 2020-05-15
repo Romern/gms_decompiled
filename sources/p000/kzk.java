@@ -12,6 +12,6 @@ final /* synthetic */ class kzk implements Function {
     }
 
     public final Object apply(Object obj) {
-        return bxtx.m123258a((String) obj);
+        return ByteString.m123258a((String) obj);
     }
 }

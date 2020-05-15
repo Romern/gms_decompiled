@@ -18,7 +18,7 @@ import org.json.JSONObject;
 public final class akyf implements akww {
 
     /* renamed from: d */
-    public static final sek f73106d = akzt.m60725a("OctarineUdcBridge");
+    public static final Logger f73106d = akzt.m60725a("OctarineUdcBridge");
 
     /* renamed from: g */
     private static final int[] f73107g = {9, 10};

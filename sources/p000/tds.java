@@ -303,7 +303,7 @@ public final class tds {
                             bqjh3.f140951c = a;
                             str2.getClass();
                             if (!bqjh3.f140953e.mo73666a()) {
-                                bqjh3.f140953e = bxvk.m124021a(bqjh3.f140953e);
+                                bqjh3.f140953e = GeneratedMessageLite.m124021a(bqjh3.f140953e);
                             }
                             bqjh3.f140953e.add(str2);
                         }
@@ -1146,7 +1146,7 @@ public final class tds {
     public final void mo26409a(tdx tdx, int i, bqje bqje) {
         String str = tdx.f45708a;
         bxvd bxvd = (bxvd) bqje.mo74142c(5);
-        bxvd.mo73625a((bxvk) bqje);
+        bxvd.mo73625a((GeneratedMessageLite) bqje);
         mo26400a(m36768a(str, i, (bqjd) bxvd));
     }
 
@@ -1196,7 +1196,7 @@ public final class tds {
     /* renamed from: a */
     public final void mo26413a(tdx tdx, Throwable th, bqje bqje, cbqy cbqy) {
         bxvd bxvd = (bxvd) bqje.mo74142c(5);
-        bxvd.mo73625a((bxvk) bqje);
+        bxvd.mo73625a((GeneratedMessageLite) bqje);
         bqjd bqjd = (bqjd) bxvd;
         if (cbqy != null) {
             if (bqjd.f164950c) {
@@ -1204,7 +1204,7 @@ public final class tds {
                 bqjd.f164950c = false;
             }
             bqje bqje2 = bqje.f140932h;
-            ((bqje) bqjd.f164949b).f140937d = bxvk.m124030de();
+            ((bqje) bqjd.f164949b).f140937d = GeneratedMessageLite.m124030de();
             bqjd.mo69271a(m36771a(cbqy));
         }
         mo26400a(m36769a(tdx.f45708a, 9, bqjd, m36772a(th)));

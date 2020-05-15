@@ -75,7 +75,7 @@ public final class bctm {
     }
 
     /* renamed from: a */
-    public final void mo57529a(bxtx bxtx) {
+    public final void mo57529a(ByteString bxtx) {
         this.f104873b = bmxv.m108566b(bxtx);
     }
 

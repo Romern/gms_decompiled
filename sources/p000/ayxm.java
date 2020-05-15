@@ -128,7 +128,7 @@ final /* synthetic */ class ayxm implements ayvt {
                                         }
                                         ArrayList arrayList2 = new ArrayList();
                                         bxvd bxvd = (bxvd) aywu3.mo74142c(5);
-                                        bxvd.mo73625a((bxvk) aywu3);
+                                        bxvd.mo73625a((GeneratedMessageLite) aywu3);
                                         bxvf bxvf2 = (bxvf) bxvd;
                                         if (bxvf2.f164950c) {
                                             bxvf2.mo74035c();

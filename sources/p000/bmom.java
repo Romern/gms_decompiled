@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmom */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmom extends bxvk implements bxxd {
+public final class bmom extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmom f130237c;
@@ -22,7 +22,7 @@ public final class bmom extends bxvk implements bxxd {
     static {
         bmom bmom = new bmom();
         f130237c = bmom;
-        bxvk.m124024a(bmom.class, bmom);
+        GeneratedMessageLite.m124024a(bmom.class, bmom);
     }
 
     private bmom() {
@@ -39,7 +39,7 @@ public final class bmom extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130237c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002င\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f130237c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002င\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new bmom();
         } else {

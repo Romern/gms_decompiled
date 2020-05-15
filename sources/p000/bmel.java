@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmel */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmel extends bxvk implements bxxd {
+public final class bmel extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bmel f128957f;
@@ -28,7 +28,7 @@ public final class bmel extends bxvk implements bxxd {
     static {
         bmel bmel = new bmel();
         f128957f = bmel;
-        bxvk.m124024a(bmel.class, bmel);
+        GeneratedMessageLite.m124024a(bmel.class, bmel);
     }
 
     private bmel() {
@@ -45,7 +45,7 @@ public final class bmel extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128957f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0001\u0000\u0001ဂ\u0000\u0002\u001b\u0003ဉ\u0001\u0005ဇ\u0002", new Object[]{"a", "b", "c", bmek.class, "d", "e"});
+            return GeneratedMessageLite.m124022a(f128957f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0001\u0000\u0001ဂ\u0000\u0002\u001b\u0003ဉ\u0001\u0005ဇ\u0002", new Object[]{"a", "b", "c", bmek.class, "d", "e"});
         } else if (i2 == 3) {
             return new bmel();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bybo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bybo extends bxvk implements bxxd {
+public final class bybo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: q */
     public static final bybo f165527q;
@@ -64,7 +64,7 @@ public final class bybo extends bxvk implements bxxd {
     static {
         bybo bybo = new bybo();
         f165527q = bybo;
-        bxvk.m124024a(bybo.class, bybo);
+        GeneratedMessageLite.m124024a(bybo.class, bybo);
     }
 
     private bybo() {
@@ -85,7 +85,7 @@ public final class bybo extends bxvk implements bxxd {
             this.f165545r = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f165527q, "\u0001\u000f\u0000\u0001\u0001\u000f\u000f\u0000\u0000\u0001\u0001ဂ\u0000\u0002ဉ\u0004\u0003ᐉ\u0005\u0004ဉ\u0006\u0005ဉ\u0007\u0006ဉ\b\u0007ဈ\u0001\bဈ\u0002\tဉ\t\nဉ\n\u000bဉ\u000b\fဉ\f\rဉ\r\u000eဉ\u000e\u000fဈ\u0003", new Object[]{"a", "b", "f", "g", "h", "i", "j", "c", "d", "k", "l", "m", "n", "o", "p", "e"});
+            return GeneratedMessageLite.m124022a(f165527q, "\u0001\u000f\u0000\u0001\u0001\u000f\u000f\u0000\u0000\u0001\u0001ဂ\u0000\u0002ဉ\u0004\u0003ᐉ\u0005\u0004ဉ\u0006\u0005ဉ\u0007\u0006ဉ\b\u0007ဈ\u0001\bဈ\u0002\tဉ\t\nဉ\n\u000bဉ\u000b\fဉ\f\rဉ\r\u000eဉ\u000e\u000fဈ\u0003", new Object[]{"a", "b", "f", "g", "h", "i", "j", "c", "d", "k", "l", "m", "n", "o", "p", "e"});
         } else if (i2 == 3) {
             return new bybo();
         } else {

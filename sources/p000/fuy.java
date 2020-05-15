@@ -71,7 +71,7 @@ public final class fuy {
         ClientContext clientContext = this.f17319b;
         blcf blcf = this.f17320c;
         String str = clientContext.f30216f;
-        this.f17321d = (blce) fux.f17317a.mo25516a(fux.m12444a(), blcf.mo73642k(), blce.f125910d, str, spn.m35895h(fux.f17317a.f44453i, str));
+        this.f17321d = (blce) fux.f17317a.mo25516a(fux.m12444a(), blcf.serializeToBytes(), blce.f125910d, str, spn.m35895h(fux.f17317a.f44453i, str));
     }
 
     /* renamed from: c */
@@ -109,6 +109,6 @@ public final class fuy {
     /* renamed from: a */
     public final void mo11377a() {
         fux fux = this.f17318a;
-        this.f17321d = (blce) fux.f17317a.mo25513a(this.f17319b, 1, fux.m12444a(), this.f17320c.mo73642k(), blce.f125910d);
+        this.f17321d = (blce) fux.f17317a.mo25513a(this.f17319b, 1, fux.m12444a(), this.f17320c.serializeToBytes(), blce.f125910d);
     }
 }

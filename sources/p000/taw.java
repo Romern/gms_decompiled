@@ -30,7 +30,7 @@ public final class taw extends tdq {
         try {
             sza j = this.f45587b.mo17982j();
             ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45587b;
-            sek sek = ConstellationSettingsChimeraActivity.f30536b;
+            Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
             tdx tdx = constellationSettingsChimeraActivity.f30537A;
             bxvd da = cbqa.f177983b.mo74144da();
             cbqj a = j.mo26251a(tdx, null, false, false, "getMessageOverrides");
@@ -89,7 +89,7 @@ public final class taw extends tdq {
     public final void mo26346b() {
         MenuItem findItem;
         ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45587b;
-        sek sek = ConstellationSettingsChimeraActivity.f30536b;
+        Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
         cbqb cbqb = constellationSettingsChimeraActivity.f30563w;
         if (!(cbqb == null || constellationSettingsChimeraActivity.f30564x == null)) {
             if (!cbqb.f178000m.isEmpty()) {

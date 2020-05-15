@@ -14,8 +14,8 @@ public final class rjo {
     private final rje f43151c;
 
     public rjo(String str, rjl rjl, rje rje) {
-        sdo.m34966a(rjl, "Cannot construct an Api with a null ClientBuilder");
-        sdo.m34966a(rje, "Cannot construct an Api with a null ClientKey");
+        sdo.checkIfNull(rjl, "Cannot construct an Api with a null ClientBuilder");
+        sdo.checkIfNull(rje, "Cannot construct an Api with a null ClientKey");
         this.f43149a = str;
         this.f43150b = rjl;
         this.f43151c = rje;

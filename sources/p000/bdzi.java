@@ -32,7 +32,7 @@ final /* synthetic */ class bdzi implements aubq {
         }
         Configurations configurations = (Configurations) aucb.mo50386d();
         if (configurations != null && (str = configurations.f82074a) != null && !str.isEmpty()) {
-            HashMap a = !configurations.f82079f ? bnmt.m109794a() : bnmt.m109803b(map);
+            HashMap a = !configurations.f82079f ? bnmt.getNewHashMap() : bnmt.m109803b(map);
             Configuration[] configurationArr = configurations.f82077d;
             for (Configuration configuration : configurationArr) {
                 Flag[] flagArr = configuration.f82071b;

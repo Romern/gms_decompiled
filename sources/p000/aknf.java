@@ -152,7 +152,7 @@ public final class aknf {
         }
         int i2 = eoa.f15378a;
         rpr b2 = rpr.m34216b();
-        b2.startService(IntentOperation.getStartIntent(b2, LogNetrecEventOperation.class, "com.google.android.gms.netrec.util.LOG_NETREC_EVENT").putExtra("netrecEvent", ((boqx) bxvd.mo74062i()).mo73642k()));
+        b2.startService(IntentOperation.getStartIntent(b2, LogNetrecEventOperation.class, "com.google.android.gms.netrec.util.LOG_NETREC_EVENT").putExtra("netrecEvent", ((boqx) bxvd.mo74062i()).serializeToBytes()));
     }
 
     /* renamed from: a */

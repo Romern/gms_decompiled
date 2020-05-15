@@ -196,7 +196,7 @@ final /* synthetic */ class azpa implements bmxj {
                                 }
                                 bmxv = bmxv2.mo66813a() ? bmxv.m108566b(bcqa.m89616a((bcth) bmxv2.mo66814b())) : bmvz.f131120a;
                             } else if (b != 3) {
-                                bmxv = bmxv.m108566b(bcqa.m89618a(bxtx.f164797b));
+                                bmxv = bmxv.m108566b(bcqa.m89618a(ByteString.f164797b));
                                 str = str3;
                             } else {
                                 bmxv = bmvz.f131120a;
@@ -246,7 +246,7 @@ final /* synthetic */ class azpa implements bmxj {
                             }
                             "type.googleapis.com/google.protobuf.StringValue".getClass();
                             ((bxte) da.f164949b).f164765a = "type.googleapis.com/google.protobuf.StringValue";
-                            bxtx aL = bxye.m124404a(jSONObject.getString(next)).mo73639aL();
+                            ByteString aL = bxye.m124404a(jSONObject.getString(next)).mo73639aL();
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;

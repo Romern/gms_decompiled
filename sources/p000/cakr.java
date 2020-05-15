@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cakr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cakr extends bxvk implements bxxd {
+public final class cakr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cakr f175042b;
@@ -16,7 +16,7 @@ public final class cakr extends bxvk implements bxxd {
     static {
         cakr cakr = new cakr();
         f175042b = cakr;
-        bxvk.m124024a(cakr.class, cakr);
+        GeneratedMessageLite.m124024a(cakr.class, cakr);
     }
 
     private cakr() {
@@ -33,7 +33,7 @@ public final class cakr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175042b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\f", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f175042b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\f", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cakr();
         } else {

@@ -32,7 +32,7 @@ public final class ayxk {
             if (aywp2 == null) {
                 if (!aywp.f98637b.mo54491a()) {
                     bxvj bxvj = azag.f98830a;
-                    Map map = bxvk.f164959aj;
+                    Map map = GeneratedMessageLite.f164959aj;
                     a.mo74135a(bxvj);
                 }
                 z2 = true;

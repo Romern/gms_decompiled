@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: baui */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class baui extends bxvk implements bxxd {
+public final class baui extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final baui f101771e;
@@ -25,7 +25,7 @@ public final class baui extends bxvk implements bxxd {
     static {
         baui baui = new baui();
         f101771e = baui;
-        bxvk.m124024a(baui.class, baui);
+        GeneratedMessageLite.m124024a(baui.class, baui);
     }
 
     private baui() {
@@ -42,7 +42,7 @@ public final class baui extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f101771e, "\u0001\u0003\u0000\u0001\u0001\u0006\u0003\u0000\u0001\u0000\u0001ဈ\u0000\u0002\u001b\u0006ဈ\u0001", new Object[]{"a", "b", "d", baug.class, "c"});
+            return GeneratedMessageLite.m124022a(f101771e, "\u0001\u0003\u0000\u0001\u0001\u0006\u0003\u0000\u0001\u0000\u0001ဈ\u0000\u0002\u001b\u0006ဈ\u0001", new Object[]{"a", "b", "d", baug.class, "c"});
         } else if (i2 == 3) {
             return new baui();
         } else {

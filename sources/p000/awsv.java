@@ -64,13 +64,13 @@ public final class awsv {
             bmks = bmks.f129878d;
         }
         bxvd bxvd5 = (bxvd) bmks.mo74142c(5);
-        bxvd5.mo73625a((bxvk) bmks);
+        bxvd5.mo73625a((GeneratedMessageLite) bmks);
         bmkn bmkn = (bmkn) bxvd5;
         if (bmkn.f164950c) {
             bmkn.mo74035c();
             bmkn.f164950c = false;
         }
-        ((bmks) bmkn.f164949b).f129882c = bxvk.m124030de();
+        ((bmks) bmkn.f164949b).f129882c = GeneratedMessageLite.m124030de();
         if (bxvd4.f164950c) {
             bxvd4.mo74035c();
             bxvd4.f164950c = false;

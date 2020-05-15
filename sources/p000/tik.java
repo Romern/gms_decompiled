@@ -95,7 +95,7 @@ public final class tik implements til {
             }
             bocj bocj3 = (bocj) da.f164949b;
             if (!bocj3.f132564d.mo73666a()) {
-                bocj3.f132564d = bxvk.m124019a(bocj3.f132564d);
+                bocj3.f132564d = GeneratedMessageLite.m124019a(bocj3.f132564d);
             }
             bxsy.m123078a(arrayList, bocj3.f132564d);
         }

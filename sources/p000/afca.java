@@ -14,7 +14,7 @@ public final class afca {
     public final aezv f64166b = new aezv("com.google.android.gms.magictether.client.CONFIG_HELPER_PREFERENCE_FILE", rpr.m34216b());
 
     static {
-        new sek(new String[]{"WifiApConfigHelper"}, (int[]) null);
+        new Logger(new String[]{"WifiApConfigHelper"}, (int[]) null);
     }
 
     public afca(afby afby) {

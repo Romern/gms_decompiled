@@ -108,7 +108,7 @@ public final class wae extends aaab {
                     String str5 = clientContext.f30215e;
                     bxvd da = bzes.f169712e.mo74144da();
                     try {
-                        byte[] f = spn.m35888f(vzy.f50307a, str5);
+                        byte[] f = spn.getSHA1OfPackage(vzy.f50307a, str5);
                         if (f != null) {
                             bxvd da2 = bzex.f169737g.mo74144da();
                             if (da2.f164950c) {
@@ -221,7 +221,7 @@ public final class wae extends aaab {
                             blcf blcf = vzx.f50305c;
                             String str6 = clientContext2.f30216f;
                             String h = spn.m35895h(vzw.f50302a.f44453i, str6);
-                            vzx.f50306d = (blce) vzw.f50302a.mo25516a("/mutateonekey?alt=proto", blcf.mo73642k(), blce.f125910d, str6, h);
+                            vzx.f50306d = (blce) vzw.f50302a.mo25516a("/mutateonekey?alt=proto", blcf.serializeToBytes(), blce.f125910d, str6, h);
                             bzet = (bzet) vzx.mo29001a(bzet.f169720g);
                             blce blce = vzx.f50306d;
                             if (!(blce == null || (blce.f125912a & 2) == 0)) {
@@ -591,7 +591,7 @@ public final class wae extends aaab {
                     boir.f133213a = i11 | 1;
                     boir.f133214b = str12;
                 }
-                qwo a7 = vzv2.f50301b.mo24335a(((boir) da9.mo74062i()).mo73642k());
+                qwo a7 = vzv2.f50301b.mo24335a(((boir) da9.mo74062i()).serializeToBytes());
                 a7.mo24328b(11);
                 a7.mo24327b();
             }

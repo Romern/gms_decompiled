@@ -13,7 +13,7 @@ import java.util.List;
 public final class ipr implements eib {
 
     /* renamed from: b */
-    public static final sek f21528b = new sek(new String[]{"ClientDataOperation"}, (byte[]) null);
+    public static final Logger f21528b = new Logger(new String[]{"ClientDataOperation"}, (byte[]) null);
 
     /* renamed from: a */
     public final Context f21529a;

@@ -105,7 +105,7 @@ public final class azhq extends azhc {
             if (!azoy.m85984a(a.f99052h) || !azoy.m85997m(a.f99051g)) {
                 cbii cbii = (cbii) cbij.f177251e.mo74144da();
                 try {
-                    cbil cbil = (cbil) bxvk.m124016a(cbil.f177257h, a.f99050f, bxus.m123744c());
+                    cbil cbil = (cbil) GeneratedMessageLite.m124016a(cbil.f177257h, a.f99050f, bxus.m123744c());
                     if (cbii.f164950c) {
                         cbii.mo74035c();
                         cbii.f164950c = false;
@@ -310,7 +310,7 @@ public final class azhq extends azhc {
                 }
             }
             bxvd bxvd = (bxvd) cbij.mo74142c(5);
-            bxvd.mo73625a((bxvk) cbij);
+            bxvd.mo73625a((GeneratedMessageLite) cbij);
             cbii cbii3 = (cbii) bxvd;
             azcm a5 = azcm.m85300a(this.f99339a);
             aznz aznz = this.f99405d;
@@ -388,7 +388,7 @@ public final class azhq extends azhc {
                                         cbij4 = cbij.f177251e;
                                     }
                                     bxvd bxvd2 = (bxvd) cbij4.mo74142c(5);
-                                    bxvd2.mo73625a((bxvk) cbij4);
+                                    bxvd2.mo73625a((GeneratedMessageLite) cbij4);
                                     cbii cbii4 = (cbii) bxvd2;
                                     if (cbii4.f164950c) {
                                         cbii4.mo74035c();

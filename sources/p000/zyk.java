@@ -64,20 +64,20 @@ public final class zyk {
         this.f56184b = new Object();
         this.f56188f = 0;
         this.f56189g = 0;
-        sdo.m34966a(zyn, "server");
+        sdo.checkIfNull(zyn, "server");
         this.f56190h = zyn;
-        sdo.m34966a(fontMatchSpec, "spec");
+        sdo.checkIfNull(fontMatchSpec, "spec");
         this.f56185c = fontMatchSpec;
-        sdo.m34966a(zyu, "resolvedFont");
+        sdo.checkIfNull(zyu, "resolvedFont");
         this.f56186d = zyu;
         zxf zxf = zyu.f56229c.f56097a;
         this.f56192j = zxp.m46641a(zxf == null ? zxf.f56084e : zxf);
-        sdo.m34966a((Object) str, (Object) "requestingPackage");
+        sdo.checkIfNull((Object) str, (Object) "requestingPackage");
         this.f56187e = str;
         this.f56191i = zyb.m46671a(zyu.f56229c);
         ArrayList arrayList = new ArrayList(1);
         this.f56193k = arrayList;
-        sdo.m34966a(bqgy, "pendingResult");
+        sdo.checkIfNull(bqgy, "pendingResult");
         arrayList.add(bqgy);
         this.f56194l = new Status(23509);
         this.f56195m = bmza.m108659b(bmvy.f131119a);
@@ -205,8 +205,8 @@ public final class zyk {
     public final Status mo31592a(zxv zxv, zxw zxw) {
         Status a;
         FontFetchResult fontFetchResult;
-        sdo.m34966a(zxv, "disk");
-        sdo.m34966a(zxw, "downloader");
+        sdo.checkIfNull(zxv, "disk");
+        sdo.checkIfNull(zxw, "downloader");
         synchronized (this.f56184b) {
             Status status = this.f56194l;
             if (status.f30115i != 23509) {
@@ -286,7 +286,7 @@ public final class zyk {
 
     /* renamed from: a */
     public final boolean mo31595a(bqgy bqgy) {
-        sdo.m34966a(bqgy, "pendingResult");
+        sdo.checkIfNull(bqgy, "pendingResult");
         synchronized (this.f56184b) {
             List list = this.f56193k;
             if (list == null) {

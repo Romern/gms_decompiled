@@ -73,7 +73,7 @@ final /* synthetic */ class acnh implements Runnable {
             long d = cema.m137237d();
             if (abym.mo32452a(d)) {
                 bxvd bxvd = (bxvd) bpwt6.mo74142c(5);
-                bxvd.mo73625a((bxvk) bpwt6);
+                bxvd.mo73625a((GeneratedMessageLite) bpwt6);
                 int a7 = abym.m48546a(bpwt6.f139571c);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();

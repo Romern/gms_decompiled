@@ -274,7 +274,7 @@ public class UdcConsentChimeraActivity extends FragmentActivity implements avhy,
             this.f109403b = intent.getStringExtra("UdcAccountName");
             bxrt bxrt = (bxrt) avih.m78570a(intent, "UdcConsentRequest", (bxxk) bxrt.f164599j.mo74142c(7));
             this.f109405d = bxrt;
-            sdo.m34966a(bxrt, "Intent is missing consent request");
+            sdo.checkIfNull(bxrt, "Intent is missing consent request");
             Intent intent2 = new Intent();
             this.f109407f = intent2;
             intent2.putExtra("UdcConsentResultIds", bqcn.m112584a(this.f109405d.f164604d));

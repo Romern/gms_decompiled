@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbez */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbez extends bxvk implements bxxd {
+public final class cbez extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbez f176874c;
@@ -19,7 +19,7 @@ public final class cbez extends bxvk implements bxxd {
     static {
         cbez cbez = new cbez();
         f176874c = cbez;
-        bxvk.m124024a(cbez.class, cbez);
+        GeneratedMessageLite.m124024a(cbez.class, cbez);
     }
 
     private cbez() {
@@ -36,7 +36,7 @@ public final class cbez extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176874c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f176874c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cbez();
         } else {

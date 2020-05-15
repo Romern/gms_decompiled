@@ -11,7 +11,7 @@ import java.io.IOException;
 public final class avpb {
 
     /* renamed from: a */
-    private static final sek f93689a = avpq.m79018e("RecoverySystemDelegate");
+    private static final Logger f93689a = avpq.m79018e("RecoverySystemDelegate");
 
     /* renamed from: a */
     public static void m78977a(Context context) {

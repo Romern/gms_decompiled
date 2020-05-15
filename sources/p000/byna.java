@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byna */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byna extends bxvk implements bxxd {
+public final class byna extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final byna f167099a;
@@ -13,7 +13,7 @@ public final class byna extends bxvk implements bxxd {
     static {
         byna byna = new byna();
         f167099a = byna;
-        bxvk.m124024a(byna.class, byna);
+        GeneratedMessageLite.m124024a(byna.class, byna);
     }
 
     private byna() {
@@ -30,7 +30,7 @@ public final class byna extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167099a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f167099a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new byna();

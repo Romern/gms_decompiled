@@ -75,7 +75,7 @@ public abstract class mjj implements aqzp {
 
     /* renamed from: a */
     public final void mo20093a(PendingIntent pendingIntent) {
-        f33830d.mo25409a("onShowUi", new Object[0]);
+        f33830d.logVerbose("onShowUi", new Object[0]);
         try {
             pendingIntent.send();
         } catch (PendingIntent.CanceledException e) {

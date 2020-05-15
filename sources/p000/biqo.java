@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biqo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biqo extends bxvk implements bxxd {
+public final class biqo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final biqo f121310a;
@@ -13,7 +13,7 @@ public final class biqo extends bxvk implements bxxd {
     static {
         biqo biqo = new biqo();
         f121310a = biqo;
-        bxvk.m124024a(biqo.class, biqo);
+        GeneratedMessageLite.m124024a(biqo.class, biqo);
     }
 
     private biqo() {
@@ -30,7 +30,7 @@ public final class biqo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f121310a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f121310a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new biqo();

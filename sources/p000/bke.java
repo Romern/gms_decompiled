@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bke */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bke extends bxvk implements bxxd {
+public final class bke extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bke f4954b;
@@ -16,7 +16,7 @@ public final class bke extends bxvk implements bxxd {
     static {
         bke bke = new bke();
         f4954b = bke;
-        bxvk.m124024a(bke.class, bke);
+        GeneratedMessageLite.m124024a(bke.class, bke);
     }
 
     private bke() {
@@ -33,7 +33,7 @@ public final class bke extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f4954b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u0014", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f4954b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u0014", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bke();
         } else {

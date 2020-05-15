@@ -196,7 +196,7 @@ public final class axty {
                 sb.append(valueOf);
                 Log.d("WearableLogger", sb.toString());
             }
-            this.f96352e.mo24335a(boks.mo73642k()).mo24327b();
+            this.f96352e.mo24335a(boks.serializeToBytes()).mo24327b();
         }
     }
 }

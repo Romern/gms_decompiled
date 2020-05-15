@@ -13,7 +13,7 @@ import com.google.android.gms.smartdevice.d2d.BootstrapOptions;
 public final class ardc {
 
     /* renamed from: a */
-    public static final sek f87412a = ascp.m73787a("D2D", "SourceDeviceServiceImpl");
+    public static final Logger f87412a = ascp.m73787a("D2D", "SourceDeviceServiceImpl");
 
     /* renamed from: b */
     public final armh f87413b;
@@ -42,7 +42,7 @@ public final class ardc {
     /* renamed from: a */
     public final void mo48423a() {
         sdo.m34964a(this.f87414c);
-        f87412a.mo25409a("Destroying source device API service.", new Object[0]);
+        f87412a.logVerbose("Destroying source device API service.", new Object[0]);
         this.f87415d.mo48382c();
         this.f87416e.mo48443a();
     }

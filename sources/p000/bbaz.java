@@ -42,7 +42,7 @@ public final class bbaz {
 
     /* renamed from: d */
     static String m87753d(bavr bavr) {
-        return Base64.encodeToString(bavr.mo73642k(), 3);
+        return Base64.encodeToString(bavr.serializeToBytes(), 3);
     }
 
     /* access modifiers changed from: package-private */
@@ -177,7 +177,7 @@ public final class bbaz {
             bauz = bauz.f101860g;
         }
         bxvd bxvd = (bxvd) bauz.mo74142c(5);
-        bxvd.mo73625a((bxvk) bauz);
+        bxvd.mo73625a((GeneratedMessageLite) bauz);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -187,7 +187,7 @@ public final class bbaz {
         bauz2.f101863b = a;
         bauz bauz3 = (bauz) bxvd.mo74062i();
         bxvd bxvd2 = (bxvd) bavd.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bavd);
+        bxvd2.mo73625a((GeneratedMessageLite) bavd);
         bavc bavc = (bavc) bxvd2;
         if (bavc.f164950c) {
             bavc.mo74035c();

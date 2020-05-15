@@ -20,7 +20,7 @@ public final class GcmReceiverChimeraService extends TracingIntentService {
                 bmxv bmxv = bmvz.f131120a;
                 if (stringExtra2 != null) {
                     try {
-                        bmxv = bmxv.m108567c((bsjk) bxvk.m124014a(bsjk.f144805d, Base64.decode(stringExtra2, 0)));
+                        bmxv = bmxv.m108567c((bsjk) GeneratedMessageLite.m124014a(bsjk.f144805d, Base64.decode(stringExtra2, 0)));
                     } catch (bxwf e) {
                     }
                 }

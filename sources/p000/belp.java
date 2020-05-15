@@ -48,7 +48,7 @@ final /* synthetic */ class belp implements Runnable {
         bpyn.f139896a |= 1;
         bpyn.f139897b = i;
         if (!bpyn.f139898c.mo73666a()) {
-            bpyn.f139898c = bxvk.m124021a(bpyn.f139898c);
+            bpyn.f139898c = GeneratedMessageLite.m124021a(bpyn.f139898c);
         }
         bxsy.m123078a(set, bpyn.f139898c);
         if (da.f164950c) {

@@ -104,7 +104,7 @@ public final class sil {
             return null;
         } else if (str.startsWith("application/x-protobuf")) {
             try {
-                bklt bklt = (bklt) bxvk.m124016a(bklt.f124847b, bArr, bxus.m123744c());
+                bklt bklt = (bklt) GeneratedMessageLite.m124016a(bklt.f124847b, bArr, bxus.m123744c());
                 bklu bklu = bklt.f124849a;
                 if (bklu == null) {
                     bklu = bklu.f124851b;

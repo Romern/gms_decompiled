@@ -256,7 +256,7 @@ public final /* synthetic */ class sky implements Runnable {
                                 bpvf bpvf = (bpvf) da2.f164949b;
                                 bpvm2.getClass();
                                 if (!bpvf.f139338p.mo73666a()) {
-                                    bpvf.f139338p = bxvk.m124021a(bpvf.f139338p);
+                                    bpvf.f139338p = GeneratedMessageLite.m124021a(bpvf.f139338p);
                                 }
                                 bpvf.f139338p.add(bpvm2);
                                 bpvf bpvf2 = (bpvf) da2.mo74062i();

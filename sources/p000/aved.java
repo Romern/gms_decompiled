@@ -44,6 +44,6 @@ public final class aved extends sbm {
 
     public aved(Context context, Looper looper, sat sat, rjz rjz, rka rka) {
         super(context, looper, 35, sat, rjz, rka);
-        sdo.m34966a(sat.f43963a, "Must pass an account via UdcOptions or call GoogleApiClient.Builder.setAccount()");
+        sdo.checkIfNull(sat.f43963a, "Must pass an account via UdcOptions or call GoogleApiClient.Builder.setAccount()");
     }
 }

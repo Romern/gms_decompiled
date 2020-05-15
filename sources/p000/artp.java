@@ -23,7 +23,7 @@ public final class artp extends rzt {
     public final void mo6393a(sbj sbj, GetServiceRequest getServiceRequest) {
         AccountsChimeraService accountsChimeraService = this.f88282a;
         try {
-            sek sek = AccountsChimeraService.f108108a;
+            Logger Logger = AccountsChimeraService.f108108a;
             if (accountsChimeraService.f108109b == null) {
                 accountsChimeraService.f108109b = new aruc(accountsChimeraService, accountsChimeraService.f108110c);
             }

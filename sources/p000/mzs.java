@@ -89,7 +89,7 @@ final /* synthetic */ class mzs implements Callable {
                         lwc lwc = nbm.f35189c;
                         bmxv b = lwc.f33100c.contains("secondaryKeyLastRotatedAt") ? bmxv.m108566b(Long.valueOf(lwc.f33100c.getLong("secondaryKeyLastRotatedAt", -1))) : bmvz.f131120a;
                         if (!b.mo66813a()) {
-                            nbm.f35187a.mo25409a("No previous rotation, scheduling from now.", new Object[0]);
+                            nbm.f35187a.logVerbose("No previous rotation, scheduling from now.", new Object[0]);
                             nbm.f35189c.mo19692a(System.currentTimeMillis());
                         } else {
                             long longValue = ((Long) b.mo66814b()).longValue();
@@ -110,7 +110,7 @@ final /* synthetic */ class mzs implements Callable {
                                 lvn lvn = nbm.f35187a;
                                 Object[] objArr = new Object[i3];
                                 objArr[0] = Long.valueOf(longValue);
-                                lvn.mo25409a("No rotation required, last %d.", objArr);
+                                lvn.logVerbose("No rotation required, last %d.", objArr);
                             }
                         }
                     }
@@ -155,9 +155,9 @@ final /* synthetic */ class mzs implements Callable {
                                 if ((applicationInfo.flags & 1) == 0) {
                                     if (str == null) {
                                     }
-                                    sek sek = nab.f35075a;
+                                    Logger Logger = nab.f35075a;
                                     String valueOf = String.valueOf(str3);
-                                    sek.mo25418e(valueOf.length() == 0 ? new String("IGNORING BACKUP DATA without API key: ") : "IGNORING BACKUP DATA without API key: ".concat(valueOf), new Object[0]);
+                                    Logger.mo25418e(valueOf.length() == 0 ? new String("IGNORING BACKUP DATA without API key: ") : "IGNORING BACKUP DATA without API key: ".concat(valueOf), new Object[0]);
                                     nab.f35117x.mo19822a(5, 4);
                                     i = 0;
                                 }
@@ -331,7 +331,7 @@ final /* synthetic */ class mzs implements Callable {
                                                         str6.getClass();
                                                         ltr.f32984a |= 1;
                                                         ltr.f32985b = str6;
-                                                        bxtx a3 = bxtx.m123261a((byte[]) entry4.getValue());
+                                                        ByteString a3 = ByteString.m123261a((byte[]) entry4.getValue());
                                                         if (da5.f164950c) {
                                                             da5.mo74035c();
                                                             da5.f164950c = false;
@@ -368,9 +368,9 @@ final /* synthetic */ class mzs implements Callable {
                                         nab.f35075a.mo25417e("Error reading from backup data fragmenter.", e4, new Object[0]);
                                         nab.f35117x.mo19822a(8, 4);
                                     } catch (mbm e5) {
-                                        sek sek2 = nab.f35075a;
+                                        Logger logger2 = nab.f35075a;
                                         String valueOf4 = String.valueOf(str3);
-                                        sek2.mo25418e(valueOf4.length() == 0 ? new String("Size quota exceeded for package: ") : "Size quota exceeded for package: ".concat(valueOf4), new Object[0]);
+                                        logger2.mo25418e(valueOf4.length() == 0 ? new String("Size quota exceeded for package: ") : "Size quota exceeded for package: ".concat(valueOf4), new Object[0]);
                                         if (ccno.m130867b()) {
                                             nab.mo20373c();
                                         }
@@ -392,9 +392,9 @@ final /* synthetic */ class mzs implements Callable {
                                         return Integer.valueOf(i);
                                     }
                                 }
-                                sek sek3 = nab.f35075a;
+                                Logger logger3 = nab.f35075a;
                                 String valueOf5 = String.valueOf(str3);
-                                sek3.mo25414c(valueOf5.length() == 0 ? new String("performBackup done for ") : "performBackup done for ".concat(valueOf5), new Object[0]);
+                                logger3.mo25414c(valueOf5.length() == 0 ? new String("performBackup done for ") : "performBackup done for ".concat(valueOf5), new Object[0]);
                                 TrafficStats.clearThreadStatsTag();
                                 TrafficStats.clearThreadStatsUid();
                                 i = 0;
@@ -429,10 +429,10 @@ final /* synthetic */ class mzs implements Callable {
                                 c = 0;
                             }
                         }
-                        sek sek4 = nab.f35075a;
+                        Logger logger4 = nab.f35075a;
                         Object[] objArr2 = new Object[i2];
                         objArr2[c] = str3;
-                        sek4.mo25414c("Performing encrypted kv backup: %s", objArr2);
+                        logger4.mo25414c("Performing encrypted kv backup: %s", objArr2);
                         i = nab.mo20367a(str3, str, parcelFileDescriptor, i4);
                     }
                 }

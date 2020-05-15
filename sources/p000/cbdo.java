@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbdo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbdo extends bxvk implements bxxd {
+public final class cbdo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbdo f176763b;
@@ -16,7 +16,7 @@ public final class cbdo extends bxvk implements bxxd {
     static {
         cbdo cbdo = new cbdo();
         f176763b = cbdo;
-        bxvk.m124024a(cbdo.class, cbdo);
+        GeneratedMessageLite.m124024a(cbdo.class, cbdo);
     }
 
     private cbdo() {
@@ -33,7 +33,7 @@ public final class cbdo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176763b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001%", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f176763b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001%", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cbdo();
         } else {

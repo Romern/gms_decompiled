@@ -246,7 +246,7 @@ public final class amwc extends amvx {
                                         a.getClass();
                                         btet.f148562b = a;
                                         btet.f148567g = btes.m116488a(bArr[0] == -119 ? 4 : 3);
-                                        bxtx a6 = bxtx.m123261a(bArr);
+                                        ByteString a6 = ByteString.m123261a(bArr);
                                         if (da.f164950c) {
                                             da.mo74035c();
                                             da.f164950c = false;
@@ -315,7 +315,7 @@ public final class amwc extends amvx {
                                     btcm btcm = (btcm) da2.f164949b;
                                     a.getClass();
                                     if (!btcm.f148289a.mo73666a()) {
-                                        btcm.f148289a = bxvk.m124021a(btcm.f148289a);
+                                        btcm.f148289a = GeneratedMessageLite.m124021a(btcm.f148289a);
                                     }
                                     btcm.f148289a.add(a);
                                     btea btea2 = amwr2.f76218f;

@@ -51,9 +51,9 @@ public final class glm implements Callable {
                     }
                     i = 1;
                 } else {
-                    sek sek = AuthCronChimeraService.f10007a;
+                    Logger Logger = AuthCronChimeraService.f10007a;
                     String valueOf = String.valueOf(account.name);
-                    sek.mo25412b(valueOf.length() == 0 ? new String(" Successfully performed schedueled work for ") : " Successfully performed schedueled work for ".concat(valueOf), new Object[0]);
+                    Logger.mo25412b(valueOf.length() == 0 ? new String(" Successfully performed schedueled work for ") : " Successfully performed schedueled work for ".concat(valueOf), new Object[0]);
                 }
                 i2++;
             }

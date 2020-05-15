@@ -47,18 +47,18 @@ final /* synthetic */ class wth implements Runnable {
         }
         if (ahza != null) {
             try {
-                bxtx bxtx = ahza.f68445c;
+                ByteString bxtx = ahza.f68445c;
                 bxus c = bxus.m123744c();
                 aiaa aiaa2 = aiaa.f68501K;
                 try {
                     bxuc h = bxtx.mo73764h();
-                    bxvk bxvk = (bxvk) aiaa2.mo74142c(4);
-                    bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                    a2.mo74220a(bxvk, bxud.m123454a(h), c);
-                    a2.mo74225d(bxvk);
+                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) aiaa2.mo74142c(4);
+                    bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                    a2.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                    a2.mo74225d(GeneratedMessageLite);
                     h.mo73787a(0);
-                    bxvk.m124027b(bxvk);
-                    aiaa = (aiaa) bxvk;
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                    aiaa = (aiaa) GeneratedMessageLite;
                 } catch (IOException e2) {
                     if (!(e2.getCause() instanceof bxwf)) {
                         throw new bxwf(e2.getMessage());

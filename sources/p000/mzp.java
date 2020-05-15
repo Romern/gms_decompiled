@@ -102,7 +102,7 @@ final /* synthetic */ class mzp implements Callable {
                 File b = myr.f34967f.mo19847b(str);
                 lvn lvn = myr.f34962a;
                 String valueOf = String.valueOf(str);
-                lvn.mo25409a(valueOf.length() == 0 ? new String("Starting d2d full restore of ") : "Starting d2d full restore of ".concat(valueOf), new Object[0]);
+                lvn.logVerbose(valueOf.length() == 0 ? new String("Starting d2d full restore of ") : "Starting d2d full restore of ".concat(valueOf), new Object[0]);
                 try {
                     myr.f34968g = new BufferedInputStream(new FileInputStream(b));
                 } catch (IOException e) {
@@ -120,7 +120,7 @@ final /* synthetic */ class mzp implements Callable {
                 i = -1;
                 if (read == -1) {
                     myr.mo20329b();
-                    myr.f34962a.mo25409a("Full d2d restore complete.", new Object[0]);
+                    myr.f34962a.logVerbose("Full d2d restore complete.", new Object[0]);
                     srz.m36171a((Closeable) null);
                 } else {
                     FileOutputStream fileOutputStream3 = new FileOutputStream(parcelFileDescriptor.getFileDescriptor());
@@ -132,7 +132,7 @@ final /* synthetic */ class mzp implements Callable {
                         sb.append("Restored ");
                         sb.append(read);
                         sb.append(" bytes.");
-                        lvn2.mo25409a(sb.toString(), new Object[0]);
+                        lvn2.logVerbose(sb.toString(), new Object[0]);
                         srz.m36171a(fileOutputStream3);
                         i = read;
                     } catch (IOException e2) {
@@ -202,33 +202,33 @@ final /* synthetic */ class mzp implements Callable {
                                 file.mkdirs();
                                 mze = new ncj(file, mze, new ncb(a2, mbx));
                                 nab.f35104k = mze;
-                                sek sek = nab.f35075a;
+                                Logger Logger = nab.f35075a;
                                 String valueOf2 = String.valueOf(nab.f35100g.f35344d);
-                                sek.mo25409a(valueOf2.length() != 0 ? new String("Read first chunk for ") : "Read first chunk for ".concat(valueOf2), new Object[0]);
+                                Logger.logVerbose(valueOf2.length() != 0 ? new String("Read first chunk for ") : "Read first chunk for ".concat(valueOf2), new Object[0]);
                             }
                         }
                         mzd.f35017a.mo25414c("Performing unencrypted restore for %s", ndk.f35344d);
                         nab.f35104k = mze;
-                        sek sek2 = nab.f35075a;
+                        Logger logger2 = nab.f35075a;
                         String valueOf22 = String.valueOf(nab.f35100g.f35344d);
-                        sek2.mo25409a(valueOf22.length() != 0 ? new String("Read first chunk for ") : "Read first chunk for ".concat(valueOf22), new Object[0]);
+                        logger2.logVerbose(valueOf22.length() != 0 ? new String("Read first chunk for ") : "Read first chunk for ".concat(valueOf22), new Object[0]);
                     } else {
-                        sek sek3 = nab.f35075a;
+                        Logger logger3 = nab.f35075a;
                         String valueOf3 = String.valueOf(nab.f35100g.f35344d);
-                        sek3.mo25409a(valueOf3.length() == 0 ? new String("Read next chunk for ") : "Read next chunk for ".concat(valueOf3), new Object[0]);
+                        logger3.logVerbose(valueOf3.length() == 0 ? new String("Read next chunk for ") : "Read next chunk for ".concat(valueOf3), new Object[0]);
                     }
                     byte[] bArr2 = new byte[AndroidInputTypeSignal.TYPE_TEXT_FLAG_AUTO_CORRECT];
                     int a3 = nab.f35104k.mo20345a(bArr2);
-                    sek sek4 = nab.f35075a;
+                    Logger logger4 = nab.f35075a;
                     StringBuilder sb2 = new StringBuilder(22);
                     sb2.append("Read ");
                     sb2.append(a3);
                     sb2.append(" Bytes");
-                    sek4.mo25409a(sb2.toString(), new Object[0]);
+                    logger4.logVerbose(sb2.toString(), new Object[0]);
                     if (a3 == -1) {
                         nab.f35089N = 2;
                         nab.mo20382e();
-                        nab.f35075a.mo25409a("Reach end of http content -- NO MORE DATA", new Object[0]);
+                        nab.f35075a.logVerbose("Reach end of http content -- NO MORE DATA", new Object[0]);
                         nab.f35106m.mo20504a(nab.f35100g.f35344d);
                         srz.m36170a(parcelFileDescriptor);
                         i = -1;

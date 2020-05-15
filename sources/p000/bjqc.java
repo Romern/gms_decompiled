@@ -38,7 +38,7 @@ public final class bjqc extends bjon {
     /* renamed from: a */
     public final void mo65100a(bwny bwny, bwny bwny2) {
         super.mo65100a(bwny, bwny2);
-        bxvj b = bxvk.m124025b(bwwc.f161212g);
+        bxvj b = GeneratedMessageLite.m124025b(bwwc.f161212g);
         bwny2.mo74135a(b);
         Object b2 = bwny2.f164952m.mo73913b(b.f164958d);
         if (b2 == null) {

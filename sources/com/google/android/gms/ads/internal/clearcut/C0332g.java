@@ -2,7 +2,7 @@ package com.google.android.gms.ads.internal.clearcut;
 
 /* renamed from: com.google.android.gms.ads.internal.clearcut.g */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class C0332g extends bxvk implements bxxd {
+public final class C0332g extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final C0332g f8102e;
@@ -25,7 +25,7 @@ public final class C0332g extends bxvk implements bxxd {
     static {
         C0332g gVar = new C0332g();
         f8102e = gVar;
-        bxvk.m124024a(C0332g.class, gVar);
+        GeneratedMessageLite.m124024a(C0332g.class, gVar);
     }
 
     private C0332g() {
@@ -42,7 +42,7 @@ public final class C0332g extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f8102e, "\u0001\u0003\u0000\u0001\n\u0014\u0003\u0000\u0001\u0000\nဈ\u0001\u000e\u0015\u0014ဉ\n", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f8102e, "\u0001\u0003\u0000\u0001\n\u0014\u0003\u0000\u0001\u0000\nဈ\u0001\u000e\u0015\u0014ဉ\n", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new C0332g();
         } else {

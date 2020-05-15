@@ -11,9 +11,9 @@ final /* synthetic */ class bgrd implements bgqj {
     }
 
     /* renamed from: a */
-    public final String mo63100a(String str, bxtx bxtx) {
+    public final String mo63100a(String str, ByteString bxtx) {
         bgri bgri = this.f117323a;
-        bnhe a = bnhe.m109408a(str, sqd.m35968b(bxtx.mo73780k()));
+        bnhe a = bnhe.m109408a(str, sqd.m35968b(bxtx.getKey()));
         if (bgri.f117329c == null) {
             bgri.f117329c = (vvq) bgri.f117327a.mo6606a();
             srn srn = bgrw.f117381a;

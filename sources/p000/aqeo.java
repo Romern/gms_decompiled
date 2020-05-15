@@ -76,7 +76,7 @@ final class aqeo extends aqas {
                 while (iterator.isValid()) {
                     byte[] value = iterator.value();
                     apyn apyn = apyn.f85156g;
-                    arrayList.add((apyn) bxvk.m124014a(apyn.f85156g, value));
+                    arrayList.add((apyn) GeneratedMessageLite.m124014a(apyn.f85156g, value));
                     iterator.next();
                 }
                 if (iterator != null) {
@@ -141,7 +141,7 @@ final class aqeo extends aqas {
                         Iterator it = list.iterator();
                         while (it.hasNext()) {
                             apyn apyn = (apyn) it.next();
-                            writeBatch.put(bqcr.m112599b(apyn.f85161d), apyn.mo73642k());
+                            writeBatch.put(bqcr.m112599b(apyn.f85161d), apyn.serializeToBytes());
                         }
                         this.f85891d.write(writeBatch);
                     } catch (Exception | OutOfMemoryError e) {

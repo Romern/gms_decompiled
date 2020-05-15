@@ -73,7 +73,7 @@ public final class unu {
             z = false;
         }
         sdo.m34971a(z, (Object) "defaultValue already set");
-        sdo.m34966a(obj, "null defaultValue");
+        sdo.checkIfNull(obj, "null defaultValue");
         int i = this.f48352i - 1;
         if (i == 0) {
             sdo.m34975b(obj instanceof Number, "defaultValue for an INTEGER field has to be of type Number");

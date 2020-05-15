@@ -33,7 +33,7 @@ public abstract class lyq {
                 httpURLConnection.setDoInput(true);
                 InputStream inputStream = httpURLConnection.getInputStream();
                 try {
-                    f33208a.mo25409a("HTTP GET response code: %d", Integer.valueOf(httpURLConnection.getResponseCode()));
+                    f33208a.logVerbose("HTTP GET response code: %d", Integer.valueOf(httpURLConnection.getResponseCode()));
                     if (httpURLConnection.getResponseCode() != 200) {
                         errorStream = httpURLConnection.getErrorStream();
                         String str3 = new String(boav.m111020a(errorStream), StandardCharsets.UTF_8);

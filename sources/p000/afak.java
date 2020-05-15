@@ -7,7 +7,7 @@ import android.bluetooth.BluetoothAdapter;
 public final class afak {
 
     /* renamed from: a */
-    private static final sek f64087a = new sek(new String[]{"HostValidator"}, (int[]) null);
+    private static final Logger f64087a = new Logger(new String[]{"HostValidator"}, (int[]) null);
 
     /* renamed from: a */
     public static boolean m52783a() {

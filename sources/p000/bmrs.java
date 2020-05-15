@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmrs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmrs extends bxvk implements bxxd {
+public final class bmrs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bmrs f130577a;
@@ -13,7 +13,7 @@ public final class bmrs extends bxvk implements bxxd {
     static {
         bmrs bmrs = new bmrs();
         f130577a = bmrs;
-        bxvk.m124024a(bmrs.class, bmrs);
+        GeneratedMessageLite.m124024a(bmrs.class, bmrs);
     }
 
     private bmrs() {
@@ -31,7 +31,7 @@ public final class bmrs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130577a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f130577a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bmrs();

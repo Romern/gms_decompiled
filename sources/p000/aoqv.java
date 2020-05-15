@@ -38,7 +38,7 @@ public final class aoqv extends aaab {
         a.addFlags(8388608);
         StringBuilder sb = new StringBuilder();
         aore.m66306a(sb, "k", this.f78711b);
-        aore.m66306a(sb, "di", String.valueOf(spn.m35843a(context)));
+        aore.m66306a(sb, "di", String.valueOf(spn.getAndroidId(context)));
         aore.m66306a(sb, "pk", this.f78712c);
         aore.m66306a(sb, "sv", String.valueOf(Build.VERSION.SDK_INT));
         aore.m66306a(sb, "gv", "20.15.15 (120300-{{cl}})");

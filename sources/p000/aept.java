@@ -17,7 +17,7 @@ public final class aept {
     public String f63615c;
 
     public aept(Account account) {
-        sdo.m34966a(account, "account");
+        sdo.checkIfNull(account, "account");
         this.f63613a = account;
     }
 

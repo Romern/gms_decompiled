@@ -87,7 +87,7 @@ public final class qlp implements dfo, emy {
         if (iterable != null) {
             bpuf bpuf3 = (bpuf) bpuc.f164949b;
             if (!bpuf3.f139237d.mo73666a()) {
-                bpuf3.f139237d = bxvk.m124021a(bpuf3.f139237d);
+                bpuf3.f139237d = GeneratedMessageLite.m124021a(bpuf3.f139237d);
             }
             bxsy.m123078a(iterable, bpuf3.f139237d);
         }
@@ -126,6 +126,6 @@ public final class qlp implements dfo, emy {
         bpuf5.getClass();
         bpvf.f139331i = bpuf5;
         bpvf.f139323a |= 16;
-        FileApkIntentOperation.m22393a(context, 20, ((bpvf) da.mo74062i()).mo73642k());
+        FileApkIntentOperation.m22393a(context, 20, ((bpvf) da.mo74062i()).serializeToBytes());
     }
 }

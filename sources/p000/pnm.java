@@ -58,7 +58,7 @@ public final class pnm {
     /* renamed from: a */
     public static long m30923a(bsib bsib) {
         try {
-            bxtx bxtx = bsib.f144657b;
+            ByteString bxtx = bsib.f144657b;
             if (bxtx.mo73779j()) {
                 return 0;
             }

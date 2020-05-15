@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbpo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbpo extends bxvk implements bxxd {
+public final class cbpo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbpo f177938c;
@@ -19,7 +19,7 @@ public final class cbpo extends bxvk implements bxxd {
     static {
         cbpo cbpo = new cbpo();
         f177938c = cbpo;
-        bxvk.m124024a(cbpo.class, cbpo);
+        GeneratedMessageLite.m124024a(cbpo.class, cbpo);
     }
 
     private cbpo() {
@@ -36,7 +36,7 @@ public final class cbpo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177938c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001Ț\u0002Ț", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f177938c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001Ț\u0002Ț", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cbpo();
         } else {

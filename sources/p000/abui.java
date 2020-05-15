@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abui */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abui extends bxvk implements bxxd {
+public final class abui extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final abui f58405a;
@@ -13,7 +13,7 @@ public final class abui extends bxvk implements bxxd {
     static {
         abui abui = new abui();
         f58405a = abui;
-        bxvk.m124024a(abui.class, abui);
+        GeneratedMessageLite.m124024a(abui.class, abui);
     }
 
     private abui() {
@@ -31,7 +31,7 @@ public final class abui extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58405a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f58405a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new abui();

@@ -31,7 +31,7 @@ public final class azae implements ayyi {
         ayyd ayyd = (ayyd) ayvw;
         aywu b = ayyd.mo54526b();
         bxvj bxvj = azag.f98830a;
-        Map map = bxvk.f164959aj;
+        Map map = GeneratedMessageLite.f164959aj;
         b.mo74135a(bxvj);
         if (!b.f164952m.mo73911a(bxvj.f164958d)) {
             return this.f98824b;

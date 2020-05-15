@@ -12,6 +12,6 @@ final /* synthetic */ class atsd implements aubw {
 
     /* renamed from: a */
     public final void mo10462a(Object obj) {
-        this.f90760a.mo50151a(bxtx.m123261a((byte[]) obj));
+        this.f90760a.mo50151a(ByteString.m123261a((byte[]) obj));
     }
 }

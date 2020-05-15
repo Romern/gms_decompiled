@@ -44,7 +44,7 @@ class uob {
         StringBuilder sb = new StringBuilder(34);
         sb.append("Not present in version ");
         sb.append(i);
-        sdo.m34966a(d, sb.toString());
+        sdo.checkIfNull(d, sb.toString());
         return d;
     }
 

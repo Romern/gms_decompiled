@@ -31,7 +31,7 @@ import java.util.concurrent.TimeoutException;
 public final class gjk {
 
     /* renamed from: a */
-    private static final sek f18343a = ght.m13171a("AccountTransfer", "AccountTransferImporter");
+    private static final Logger f18343a = ght.m13171a("AccountTransfer", "AccountTransferImporter");
 
     /* renamed from: b */
     private final Context f18344b;
@@ -215,7 +215,7 @@ public final class gjk {
             for (int i = 0; i < size; i++) {
                 UserBootstrapInfo userBootstrapInfo = (UserBootstrapInfo) list.get(i);
                 if (hashSet.contains(userBootstrapInfo.f108175b)) {
-                    f18343a.mo25409a("Account %s already on device, dropping from challenge request", sek.m35081a(userBootstrapInfo.f108175b));
+                    f18343a.logVerbose("Account %s already on device, dropping from challenge request", Logger.m35081a(userBootstrapInfo.f108175b));
                 } else {
                     arrayList.add(userBootstrapInfo);
                 }

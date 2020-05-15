@@ -33,7 +33,7 @@ public final class axvz {
             try {
                 byte[] a = sqd.m35966a(str.substring(4));
                 try {
-                    aydt aydt = (aydt) bxvk.m124016a(aydt.f97252g, a, bxus.m123744c());
+                    aydt aydt = (aydt) GeneratedMessageLite.m124016a(aydt.f97252g, a, bxus.m123744c());
                     int i = aydt.f97254a;
                     if ((i & 1) == 0) {
                         throw new axvy();
@@ -132,7 +132,7 @@ public final class axvz {
         boolean z = this.f96542d;
         aydt.f97254a = i4 | 16;
         aydt.f97259f = z;
-        String valueOf = String.valueOf(sqd.m35968b(((aydt) da.mo74062i()).mo73642k()));
+        String valueOf = String.valueOf(sqd.m35968b(((aydt) da.mo74062i()).serializeToBytes()));
         return valueOf.length() == 0 ? new String("chl-") : "chl-".concat(valueOf);
     }
 }

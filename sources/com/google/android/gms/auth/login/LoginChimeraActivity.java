@@ -536,7 +536,7 @@ public class LoginChimeraActivity extends jem {
     /* renamed from: a */
     public final void mo7739a(CaptchaSolution captchaSolution, ConsentResult consentResult, boolean z) {
         boolean z2;
-        sdo.m34966a(this.f11017a.mo13677b(), "Calling app cannot be null!");
+        sdo.checkIfNull(this.f11017a.mo13677b(), "Calling app cannot be null!");
         TokenRequest tokenRequest = new TokenRequest(this.f11017a.mo13680d(), this.f11017a.mo13681e(), this.f11017a.mo13682f());
         tokenRequest.f10709e = (FACLConfig) this.f11017a.f22302a.getParcelable("facl");
         tokenRequest.f10710f = this.f11017a.mo13683g();

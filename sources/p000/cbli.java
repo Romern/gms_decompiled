@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbli */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbli extends bxvk implements bxxd {
+public final class cbli extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbli f177508d;
@@ -17,12 +17,12 @@ public final class cbli extends bxvk implements bxxd {
     public cblx f177511b;
 
     /* renamed from: c */
-    public bxtx f177512c = bxtx.f164797b;
+    public ByteString f177512c = ByteString.f164797b;
 
     static {
         cbli cbli = new cbli();
         f177508d = cbli;
-        bxvk.m124024a(cbli.class, cbli);
+        GeneratedMessageLite.m124024a(cbli.class, cbli);
     }
 
     private cbli() {
@@ -39,7 +39,7 @@ public final class cbli extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177508d, "\u0000\u0003\u0000\u0000\u0002\r\u0003\u0000\u0000\u0000\u0002\u0007\u0005\t\r\n", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f177508d, "\u0000\u0003\u0000\u0000\u0002\r\u0003\u0000\u0000\u0000\u0002\u0007\u0005\t\r\n", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cbli();
         } else {

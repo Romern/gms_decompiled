@@ -5,11 +5,11 @@ package p000;
 public final class baqu {
     /* renamed from: a */
     public static int m87416a(Object obj) {
-        bxvk bxvk = (bxvk) obj;
-        int i = bxvk.f164961ai;
+        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) obj;
+        int i = GeneratedMessageLite.f164961ai;
         if (i == -1) {
             i = bxxm.f165037a.mo74228a(obj).mo74223b(obj);
-            bxvk.f164961ai = i;
+            GeneratedMessageLite.f164961ai = i;
         }
         return i + 12;
     }

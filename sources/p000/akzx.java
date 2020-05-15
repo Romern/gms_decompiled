@@ -12,7 +12,7 @@ import org.json.JSONObject;
 public final class akzx {
 
     /* renamed from: a */
-    private static final sek f73195a = akzt.m60725a("UserAgentHelper");
+    private static final Logger f73195a = akzt.m60725a("UserAgentHelper");
 
     /* renamed from: a */
     public static String m60730a(Context context, ModuleManager moduleManager) {

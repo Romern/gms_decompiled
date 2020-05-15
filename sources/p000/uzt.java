@@ -19,7 +19,7 @@ public final class uzt {
     public uzt(uzs uzs, Set set, String str) {
         sdo.m34959a(uzs);
         this.f48780a = uzs;
-        sdo.m34966a(set, "Query can't have null spaces (have you validated them?)");
+        sdo.checkIfNull(set, "Query can't have null spaces (have you validated them?)");
         this.f48781b = set;
         sdo.m34975b(!set.isEmpty(), "Query can't have empty spaces (have you validated them?)");
         this.f48782c = str;

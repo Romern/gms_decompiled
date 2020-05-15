@@ -11,7 +11,7 @@ import java.util.Set;
 public final class xbk {
 
     /* renamed from: c */
-    private static final sek f51875c = new sek(new String[]{"AccountEnrollStatusChecker"}, (short[]) null);
+    private static final Logger f51875c = new Logger(new String[]{"AccountEnrollStatusChecker"}, (short[]) null);
 
     /* renamed from: a */
     public final xbo f51876a = ((xbo) xbo.f51879a.mo33309a());

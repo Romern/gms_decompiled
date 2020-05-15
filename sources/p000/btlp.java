@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btlp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btlp extends bxvk implements bxxd {
+public final class btlp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final btlp f149399e;
@@ -17,7 +17,7 @@ public final class btlp extends bxvk implements bxxd {
     public String f149402b = "";
 
     /* renamed from: c */
-    public bxtx f149403c = bxtx.f164797b;
+    public ByteString f149403c = ByteString.f164797b;
 
     /* renamed from: d */
     public bxvt f149404d = bxvm.f164965b;
@@ -25,7 +25,7 @@ public final class btlp extends bxvk implements bxxd {
     static {
         btlp btlp = new btlp();
         f149399e = btlp;
-        bxvk.m124024a(btlp.class, btlp);
+        GeneratedMessageLite.m124024a(btlp.class, btlp);
     }
 
     private btlp() {
@@ -42,7 +42,7 @@ public final class btlp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149399e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0001\u0000\u0001\t\u0002Ȉ\u0003\n\u0004,", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f149399e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0001\u0000\u0001\t\u0002Ȉ\u0003\n\u0004,", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new btlp();
         } else {

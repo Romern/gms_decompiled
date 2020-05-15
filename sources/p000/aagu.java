@@ -27,7 +27,7 @@ public final class aagu {
             aaip.f28212b = i2;
             aaip.f28211a |= 1;
             if (bArr != null) {
-                bxtx a = bxtx.m123261a(bArr);
+                ByteString a = ByteString.m123261a(bArr);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -63,7 +63,7 @@ public final class aagu {
     public static void m21242a(Context context, aaip aaip) {
         Intent startIntent;
         if (context != null && aaip != null && (startIntent = IntentOperation.getStartIntent(context, "com.google.android.gms.gass.GassIntentOperation", "com.google.android.gms.gass.ACTION_EXECUTE_TASK")) != null) {
-            startIntent.putExtra("IntentParameter", aaip.mo73642k());
+            startIntent.putExtra("IntentParameter", aaip.serializeToBytes());
             context.startService(startIntent);
         }
     }

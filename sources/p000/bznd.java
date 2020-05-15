@@ -17,7 +17,7 @@ public final class bznd extends bxvd implements bxxd {
         bznf bznf2 = bznf.f170700h;
         bzll.getClass();
         if (!bznf.f170705d.mo73666a()) {
-            bznf.f170705d = bxvk.m124021a(bznf.f170705d);
+            bznf.f170705d = GeneratedMessageLite.m124021a(bznf.f170705d);
         }
         bznf.f170705d.add(bzll);
     }

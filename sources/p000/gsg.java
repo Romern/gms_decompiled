@@ -12,7 +12,7 @@ import java.util.Map;
 public final class gsg {
 
     /* renamed from: a */
-    public static final sek f18947a = ght.m13171a("AccountVisibility");
+    public static final Logger f18947a = ght.m13171a("AccountVisibility");
 
     /* renamed from: d */
     public static final imn f18948d = new gsf();
@@ -98,14 +98,14 @@ public final class gsg {
                         continue;
                     }
                 }
-                sek sek = f18947a;
+                Logger Logger = f18947a;
                 String valueOf = String.valueOf(key);
                 StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 23 + String.valueOf(valueOf).length());
                 sb.append("Setting visibility to ");
                 sb.append(str);
                 sb.append(" ");
                 sb.append(valueOf);
-                sek.mo25412b(sb.toString(), new Object[0]);
+                Logger.mo25412b(sb.toString(), new Object[0]);
                 if (!this.f18949b.mo33914a(key, str, 2)) {
                     return false;
                 }

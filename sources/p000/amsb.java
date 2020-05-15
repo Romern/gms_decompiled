@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amsb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amsb extends bxvk implements bxxd {
+public final class amsb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final amsb f75832c;
@@ -19,7 +19,7 @@ public final class amsb extends bxvk implements bxxd {
     static {
         amsb amsb = new amsb();
         f75832c = amsb;
-        bxvk.m124024a(amsb.class, amsb);
+        GeneratedMessageLite.m124024a(amsb.class, amsb);
     }
 
     private amsb() {
@@ -36,7 +36,7 @@ public final class amsb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75832c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", allz.m61246b()});
+            return GeneratedMessageLite.m124022a(f75832c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", allz.m61246b()});
         } else if (i2 == 3) {
             return new amsb();
         } else {

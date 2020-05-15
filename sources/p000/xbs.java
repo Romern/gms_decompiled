@@ -34,13 +34,13 @@ final class xbs implements aubw {
     public final /* bridge */ /* synthetic */ void mo10462a(Object obj) {
         KeyRegistrationResult keyRegistrationResult = (KeyRegistrationResult) obj;
         int i = ((KeyRegistrationResult) this.f51887a.mo50386d()).f10542b.f30115i;
-        sek sek = xbx.f51896c;
+        Logger Logger = xbx.f51896c;
         String valueOf = String.valueOf(iov.m15809b(i));
-        sek.mo25412b(valueOf.length() == 0 ? new String("Result status code of key registration is ") : "Result status code of key registration is ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("Result status code of key registration is ") : "Result status code of key registration is ".concat(valueOf), new Object[0]);
         if (i != -25501) {
-            sek sek2 = xbx.f51896c;
+            Logger logger2 = xbx.f51896c;
             String valueOf2 = String.valueOf(iov.m15809b(i));
-            sek2.mo25418e(valueOf2.length() == 0 ? new String("Result of key registration is not successful. Status code: ") : "Result of key registration is not successful. Status code: ".concat(valueOf2), new Object[0]);
+            logger2.mo25418e(valueOf2.length() == 0 ? new String("Result of key registration is not successful. Status code: ") : "Result of key registration is not successful. Status code: ".concat(valueOf2), new Object[0]);
             xbx xbx = this.f51891e;
             xbw xbw = this.f51890d;
             xjz xjz = this.f51889c.f52031b;

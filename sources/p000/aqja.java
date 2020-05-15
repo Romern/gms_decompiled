@@ -11,7 +11,7 @@ final /* synthetic */ class aqja implements aubg {
 
     /* renamed from: a */
     public final Object mo7031a(aucb aucb) {
-        sek sek = aqjd.f86192a;
+        Logger Logger = aqjd.f86192a;
         if (aucb.mo50387e() == null) {
             return (aqje) aucb.mo50386d();
         }

@@ -40,10 +40,10 @@ public class rtr implements aekz {
         }
         bglv bglv = (bglv) da.f164949b;
         if (!bglv.f116804b.mo73666a()) {
-            bglv.f116804b = bxvk.m124019a(bglv.f116804b);
+            bglv.f116804b = GeneratedMessageLite.m124019a(bglv.f116804b);
         }
         bxsy.m123078a(list, bglv.f116804b);
-        return ((bglv) da.mo74062i()).mo73642k();
+        return ((bglv) da.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: b */
@@ -53,7 +53,7 @@ public class rtr implements aekz {
         }
         bxvd da = bglv.f116801d.mo74144da();
         for (int i = 0; i < list.size(); i++) {
-            bxtx a = bxtx.m123261a(sef.m35074a((SafeParcelable) list.get(i)));
+            ByteString a = ByteString.m123261a(sef.m35074a((SafeParcelable) list.get(i)));
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -61,11 +61,11 @@ public class rtr implements aekz {
             bglv bglv = (bglv) da.f164949b;
             a.getClass();
             if (!bglv.f116805c.mo73666a()) {
-                bglv.f116805c = bxvk.m124021a(bglv.f116805c);
+                bglv.f116805c = GeneratedMessageLite.m124021a(bglv.f116805c);
             }
             bglv.f116805c.add(a);
         }
-        return ((bglv) da.mo74062i()).mo73642k();
+        return ((bglv) da.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: c */
@@ -80,10 +80,10 @@ public class rtr implements aekz {
         }
         bglv bglv = (bglv) da.f164949b;
         if (!bglv.f116803a.mo73666a()) {
-            bglv.f116803a = bxvk.m124021a(bglv.f116803a);
+            bglv.f116803a = GeneratedMessageLite.m124021a(bglv.f116803a);
         }
         bxsy.m123078a(list, bglv.f116803a);
-        return ((bglv) da.mo74062i()).mo73642k();
+        return ((bglv) da.mo74062i()).serializeToBytes();
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
@@ -215,7 +215,7 @@ public class rtr implements aekz {
             return list;
         }
         try {
-            bglv bglv = (bglv) bxvk.m124014a(bglv.f116801d, g);
+            bglv bglv = (bglv) GeneratedMessageLite.m124014a(bglv.f116801d, g);
             return bglv.f116803a.size() != 0 ? bglv.f116803a : list;
         } catch (bxwf e) {
             if (Log.isLoggable("SafeDataBufferRef", 6)) {
@@ -239,13 +239,13 @@ public class rtr implements aekz {
             return list;
         }
         try {
-            bglv bglv = (bglv) bxvk.m124014a(bglv.f116801d, g);
+            bglv bglv = (bglv) GeneratedMessageLite.m124014a(bglv.f116801d, g);
             if (bglv.f116805c.size() == 0) {
                 return list;
             }
             ArrayList arrayList = new ArrayList(bglv.f116805c.size());
-            for (bxtx bxtx : bglv.f116805c) {
-                arrayList.add(sef.m35069a(bxtx.mo73780k(), creator));
+            for (ByteString bxtx : bglv.f116805c) {
+                arrayList.add(sef.m35069a(bxtx.getKey(), creator));
             }
             return arrayList;
         } catch (bxwf e) {
@@ -264,7 +264,7 @@ public class rtr implements aekz {
             return list;
         }
         try {
-            bglv bglv = (bglv) bxvk.m124014a(bglv.f116801d, g);
+            bglv bglv = (bglv) GeneratedMessageLite.m124014a(bglv.f116801d, g);
             return bglv.f116804b.size() != 0 ? bglv.f116804b : list;
         } catch (bxwf e) {
             if (Log.isLoggable("SafeDataBufferRef", 6)) {

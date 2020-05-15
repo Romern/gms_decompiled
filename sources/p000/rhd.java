@@ -9,7 +9,7 @@ import com.google.android.chimera.Activity;
 public abstract class rhd extends adcc {
 
     /* renamed from: b */
-    private static final sek f42974b = new sek("CommonAccount", "DelegationActivity");
+    private static final Logger f42974b = new Logger("CommonAccount", "DelegationActivity");
 
     /* renamed from: c */
     private String f42975c;

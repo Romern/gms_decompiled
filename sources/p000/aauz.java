@@ -33,7 +33,7 @@ public final class aauz extends DialogFragment {
                     a3 = bzps.UNKNOWN_CONTACT_MODE;
                 }
                 bxvd bxvd = (bxvd) a2.mo74142c(5);
-                bxvd.mo73625a((bxvk) a2);
+                bxvd.mo73625a((GeneratedMessageLite) a2);
                 if (a2.f171029e || !helpConfig.mo43225b(a3)) {
                     z = true;
                 } else {

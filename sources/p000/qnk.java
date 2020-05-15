@@ -12,7 +12,7 @@ final /* synthetic */ class qnk implements bmxj {
     public final Object apply(Object obj) {
         djc djc = (djc) obj;
         bxvd bxvd = (bxvd) djc.mo74142c(5);
-        bxvd.mo73625a((bxvk) djc);
+        bxvd.mo73625a((GeneratedMessageLite) djc);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

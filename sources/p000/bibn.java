@@ -52,7 +52,7 @@ public final class bibn extends bibp {
         bvlp bvlp = (bvlp) obj;
         bonq a = bibp.m101914a(14, i, j, this.f120150h);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bxvd da = bprs.f138894c.mo74144da();
         if (bvlp != null) {
             int size = bvlp.f156583b.size();
@@ -89,7 +89,7 @@ public final class bibn extends bibp {
                 bprs bprs = (bprs) da.f164949b;
                 bprt3.getClass();
                 if (!bprs.f138896a.mo73666a()) {
-                    bprs.f138896a = bxvk.m124021a(bprs.f138896a);
+                    bprs.f138896a = GeneratedMessageLite.m124021a(bprs.f138896a);
                 }
                 bprs.f138896a.add(bprt3);
                 bpov a3 = bhqq.m101347a(bhqq.m101362b(str), str);
@@ -100,7 +100,7 @@ public final class bibn extends bibp {
                 bprs bprs2 = (bprs) da.f164949b;
                 a3.getClass();
                 if (!bprs2.f138897b.mo73666a()) {
-                    bprs2.f138897b = bxvk.m124021a(bprs2.f138897b);
+                    bprs2.f138897b = GeneratedMessageLite.m124021a(bprs2.f138897b);
                 }
                 bprs2.f138897b.add(a3);
             }
@@ -110,13 +110,13 @@ public final class bibn extends bibp {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         if (bxvd3.f164950c) {
             bxvd3.mo74035c();
             bxvd3.f164950c = false;
@@ -151,12 +151,12 @@ public final class bibn extends bibp {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo64507a() {
         if (TextUtils.isEmpty(this.f120150h.f79574d)) {
-            return (bvlp) this.f120151i.mo25517a(this.f120153a, bian.m101867a(this.f120144b, this.f120149g, this.f120148f, this.f120150h).mo73642k(), bvlp.f156580c, this.f120146d, this.f120147e, cggs.m145360c(), 10276);
+            return (bvlp) this.f120151i.mo25517a(this.f120153a, bian.m101867a(this.f120144b, this.f120149g, this.f120148f, this.f120150h).serializeToBytes(), bvlp.f156580c, this.f120146d, this.f120147e, cggs.m145360c(), 10276);
         }
         Account account = new Account(this.f120150h.f79574d, "com.google");
         ClientContext clientContext = new ClientContext(this.f120145c);
         clientContext.f30214d = account;
         clientContext.f30213c = account;
-        return (bvlp) this.f120151i.mo25515a(clientContext, 1, this.f120153a, bian.m101867a(this.f120144b, this.f120149g, this.f120148f, this.f120150h).mo73642k(), bvlp.f156580c, cggs.m145360c(), 10276);
+        return (bvlp) this.f120151i.mo25515a(clientContext, 1, this.f120153a, bian.m101867a(this.f120144b, this.f120149g, this.f120148f, this.f120150h).serializeToBytes(), bvlp.f156580c, cggs.m145360c(), 10276);
     }
 }

@@ -126,7 +126,7 @@ public final class fjk extends fkj {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final void mo10892a(String str, String str2) {
-        sdo.m34966a((Object) str, (Object) "Key should be non-null");
+        sdo.checkIfNull((Object) str, (Object) "Key should be non-null");
         if (!TextUtils.isEmpty(str)) {
             this.f16725e.put(str, str2);
         }

@@ -25,19 +25,19 @@ public final class bicf extends bick {
         bvua bvua = (bvua) obj;
         bonq a = bick.m101948a(7, bppo.m112155a(i), j, placesParams);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bpqk bpqk = ((bonq) bxvd.f164949b).f133837c;
         if (bpqk == null) {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         if (bxvd3.f164950c) {
             bxvd3.mo74035c();
             bxvd3.f164950c = false;
@@ -108,7 +108,7 @@ public final class bicf extends bick {
         }
         bvtz bvtz = (bvtz) da.f164949b;
         if (!bvtz.f157642a.mo73666a()) {
-            bvtz.f157642a = bxvk.m124021a(bvtz.f157642a);
+            bvtz.f157642a = GeneratedMessageLite.m124021a(bvtz.f157642a);
         }
         bxsy.m123078a(list, bvtz.f157642a);
         bvtz bvtz2 = (bvtz) da.mo74062i();

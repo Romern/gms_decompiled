@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqrd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqrd extends bxvk implements bxxd {
+public final class bqrd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bqrd f141422c;
@@ -14,12 +14,12 @@ public final class bqrd extends bxvk implements bxxd {
     public int f141424a;
 
     /* renamed from: b */
-    public bxtx f141425b = bxtx.f164797b;
+    public ByteString f141425b = ByteString.f164797b;
 
     static {
         bqrd bqrd = new bqrd();
         f141422c = bqrd;
-        bxvk.m124024a(bqrd.class, bqrd);
+        GeneratedMessageLite.m124024a(bqrd.class, bqrd);
     }
 
     private bqrd() {
@@ -36,7 +36,7 @@ public final class bqrd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f141422c, "\u0000\u0002\u0000\u0000\u0001\u0003\u0002\u0000\u0000\u0000\u0001\u000b\u0003\n", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f141422c, "\u0000\u0002\u0000\u0000\u0001\u0003\u0002\u0000\u0000\u0000\u0001\u000b\u0003\n", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bqrd();
         } else {

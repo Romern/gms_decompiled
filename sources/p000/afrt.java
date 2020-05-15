@@ -10,6 +10,6 @@ final /* synthetic */ class afrt implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        return ((btew) obj).mo73642k();
+        return ((btew) obj).serializeToBytes();
     }
 }

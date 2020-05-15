@@ -152,7 +152,7 @@ final /* synthetic */ class zjj implements Runnable {
                 }
                 ytp2.mo30770a(caah3, 1);
                 bxvd bxvd = (bxvd) cadn.mo74142c(5);
-                bxvd.mo73625a((bxvk) cadn);
+                bxvd.mo73625a((GeneratedMessageLite) cadn);
                 cadm cadm = (cadm) bxvd;
                 long j5 = sensorEvent.timestamp;
                 if (cadm.f164950c) {

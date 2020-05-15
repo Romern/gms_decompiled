@@ -25,13 +25,13 @@ public final class rjv {
 
     /* renamed from: a */
     public final void mo24667a(Looper looper) {
-        sdo.m34966a(looper, "Looper must not be null.");
+        sdo.checkIfNull(looper, "Looper must not be null.");
         this.f43158b = looper;
     }
 
     /* renamed from: a */
     public final void mo24668a(rot rot) {
-        sdo.m34966a(rot, "StatusExceptionMapper must not be null.");
+        sdo.checkIfNull(rot, "StatusExceptionMapper must not be null.");
         this.f43157a = rot;
     }
 }

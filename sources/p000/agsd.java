@@ -21,7 +21,7 @@ final class agsd extends ConnectivityManager.NetworkCallback {
         boot a2 = a.mo35978a(20, "GTAF_Server", "MDP_PeriodicService");
         int i = 5;
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         bxvd da = bonz.f133873h.mo74144da();
         bxzu bxzu = bxzu.EVENT_CELLULAR_NETWORK_AVAILABLE;
         if (da.f164950c) {
@@ -64,7 +64,7 @@ final class agsd extends ConnectivityManager.NetworkCallback {
         agrl a = agrl.m54942a();
         boot a2 = a.mo35978a(20, "GTAF_Server", "MDP_PeriodicService");
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         bxvd da = bonz.f133873h.mo74144da();
         bxvd da2 = bons.f133851b.mo74144da();
         if (da2.f164950c) {

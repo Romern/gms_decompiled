@@ -24,7 +24,7 @@ final class rsc {
         try {
             open = context.getAssets().open("Receivers.pb");
             HashMap hashMap = new HashMap();
-            for (sgl sgl : ((sgh) bxvk.m124010a(sgh.f44177b, open)).f44179a) {
+            for (sgl sgl : ((sgh) GeneratedMessageLite.m124010a(sgh.f44177b, open)).f44179a) {
                 for (sgk sgk : sgl.f44418c) {
                     rsa rsa = new rsa(sgk, sgl.f44419d);
                     rsb rsb = (rsb) hashMap.get(rsa);

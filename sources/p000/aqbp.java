@@ -67,7 +67,7 @@ final class aqbp {
                             byte[] blob2 = cursor.getBlob(cursor.getColumnIndexOrThrow("find_threat_matches_response_proto"));
                             long j = cursor.getLong(cursor.getColumnIndexOrThrow("time_cached_ms"));
                             aqbv aqbv = new aqbv();
-                            aqbv.f85614a = (aqcr) bxvk.m124016a(aqcr.f85693e, blob2, bxus.m123744c());
+                            aqbv.f85614a = (aqcr) GeneratedMessageLite.m124016a(aqcr.f85693e, blob2, bxus.m123744c());
                             aqbv.f85615b = j;
                             aqbw.mo47749a(aqbw.f85616a, new apgr(blob), aqbv);
                         } catch (bxwf | NullPointerException e) {
@@ -160,7 +160,7 @@ final class aqbp {
                             if (aqbv != null) {
                                 ContentValues contentValues = new ContentValues();
                                 contentValues.put("hash", ((apgr) entry4.getKey()).f84346a);
-                                contentValues.put("find_threat_matches_response_proto", aqbv.f85614a.mo73642k());
+                                contentValues.put("find_threat_matches_response_proto", aqbv.f85614a.serializeToBytes());
                                 contentValues.put("time_cached_ms", Long.valueOf(aqbv.f85615b));
                                 this.f85597c.replace("cache", null, contentValues);
                             }

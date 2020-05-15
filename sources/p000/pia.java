@@ -31,7 +31,7 @@ public final class pia {
     private boolean f39179h;
 
     public pia(phx phx, boolean z, Integer num) {
-        sdo.m34966a(phx, "The local network ID must be valid.");
+        sdo.checkIfNull(phx, "The local network ID must be valid.");
         this.f39174b = phx;
         this.f39178g = z;
         synchronized (pia.class) {

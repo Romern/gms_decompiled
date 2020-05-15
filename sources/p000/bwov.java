@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwov */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwov extends bxvk implements bxxd {
+public final class bwov extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bwov f160499a;
@@ -16,10 +16,10 @@ public final class bwov extends bxvk implements bxxd {
     static {
         bwov bwov = new bwov();
         f160499a = bwov;
-        bxvk.m124024a(bwov.class, bwov);
+        GeneratedMessageLite.m124024a(bwov.class, bwov);
         bwou bwou = bwou.f160492e;
         bwov bwov2 = f160499a;
-        f160500b = bxvk.m124006a(bwou, bwov2, bwov2, 231698332, bxzf.MESSAGE);
+        f160500b = GeneratedMessageLite.m124006a(bwou, bwov2, bwov2, 231698332, bxzf.MESSAGE);
     }
 
     private bwov() {
@@ -36,7 +36,7 @@ public final class bwov extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f160499a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f160499a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bwov();

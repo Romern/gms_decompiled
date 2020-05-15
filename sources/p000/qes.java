@@ -12,7 +12,7 @@ import java.util.Map;
 public final class qes {
 
     /* renamed from: a */
-    private static final sek f41092a = qgn.m32143a("ServiceDumpSys");
+    private static final Logger f41092a = qgn.m32143a("ServiceDumpSys");
 
     private qes() {
     }
@@ -38,12 +38,12 @@ public final class qes {
                 try {
                     FileOutputStream fileOutputStream2 = new FileOutputStream(file);
                     try {
-                        sek sek = f41092a;
+                        Logger Logger = f41092a;
                         StringBuilder sb = new StringBuilder(String.valueOf(substring).length() + 18);
                         sb.append("dumping service [");
                         sb.append(substring);
                         sb.append("]");
-                        sek.mo25414c(sb.toString(), new Object[0]);
+                        Logger.mo25414c(sb.toString(), new Object[0]);
                         if (!Debug.dumpService(substring, fileOutputStream2.getFD(), strArr)) {
                             try {
                                 fileOutputStream2.close();
@@ -60,21 +60,21 @@ public final class qes {
                                 dropBoxManager.addFile(str, file, 2);
                                 file.delete();
                             } catch (IOException e3) {
-                                sek sek2 = f41092a;
+                                Logger logger2 = f41092a;
                                 String valueOf = String.valueOf(file);
                                 StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf).length() + 24);
                                 sb2.append("Can't log service dump: ");
                                 sb2.append(valueOf);
-                                sek2.mo25417e(sb2.toString(), e3, new Object[0]);
+                                logger2.mo25417e(sb2.toString(), e3, new Object[0]);
                             }
                         }
                     } catch (IOException e4) {
                         e = e4;
                         fileOutputStream = fileOutputStream2;
                         try {
-                            sek sek3 = f41092a;
+                            Logger logger3 = f41092a;
                             String valueOf2 = String.valueOf(substring);
-                            sek3.mo25417e(valueOf2.length() != 0 ? new String("Can't dump service: ") : "Can't dump service: ".concat(valueOf2), e, new Object[0]);
+                            logger3.mo25417e(valueOf2.length() != 0 ? new String("Can't dump service: ") : "Can't dump service: ".concat(valueOf2), e, new Object[0]);
                             if (fileOutputStream == null) {
                             }
                         } catch (Throwable th) {
@@ -92,9 +92,9 @@ public final class qes {
                     }
                 } catch (IOException e5) {
                     e = e5;
-                    sek sek32 = f41092a;
+                    Logger logger32 = f41092a;
                     String valueOf22 = String.valueOf(substring);
-                    sek32.mo25417e(valueOf22.length() != 0 ? new String("Can't dump service: ") : "Can't dump service: ".concat(valueOf22), e, new Object[0]);
+                    logger32.mo25417e(valueOf22.length() != 0 ? new String("Can't dump service: ") : "Can't dump service: ".concat(valueOf22), e, new Object[0]);
                     if (fileOutputStream == null) {
                         try {
                             fileOutputStream.close();

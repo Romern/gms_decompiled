@@ -16,7 +16,7 @@ public final class bxrv extends bxvd implements bxxd {
         bxrw bxrw = (bxrw) this.f164949b;
         bxrw bxrw2 = bxrw.f164625g;
         if (!bxrw.f164632f.mo73666a()) {
-            bxrw.f164632f = bxvk.m124021a(bxrw.f164632f);
+            bxrw.f164632f = GeneratedMessageLite.m124021a(bxrw.f164632f);
         }
         bxsy.m123078a(iterable, bxrw.f164632f);
     }

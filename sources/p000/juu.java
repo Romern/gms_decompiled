@@ -10,7 +10,7 @@ import android.os.SystemClock;
 public final class juu {
 
     /* renamed from: c */
-    private static final sek f23269c = ght.m13171a("DeviceSignalsService", "LockScreenSignalsProvider");
+    private static final Logger f23269c = ght.m13171a("DeviceSignalsService", "LockScreenSignalsProvider");
 
     /* renamed from: d */
     private static juu f23270d;

@@ -10,7 +10,7 @@ public final class celq implements celo {
     static {
         bdyw bdyw = new bdyw(bdyj.m91581a("com.google.android.gms.icing"));
         try {
-            f182912a = bdyx.m91608a(bdyw, "type_configs_override", (abvh) bxvk.m124014a(abvh.f58535c, new byte[0]), celp.f182911a);
+            f182912a = bdyx.m91608a(bdyw, "type_configs_override", (abvh) GeneratedMessageLite.m124014a(abvh.f58535c, new byte[0]), celp.f182911a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"type_configs_override\"");
         }

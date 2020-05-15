@@ -103,8 +103,8 @@ public final class aywp {
             this.f98636a.mo54513b(this);
         }
         bxvf bxvf = this.f98639e;
-        bxvf.f164949b = (bxvk) bxvf.f164949b.mo74142c(4);
-        this.f98639e.mo73625a((bxvk) ((aywu) aywp.f98639e.mo74062i()));
+        bxvf.f164949b = (GeneratedMessageLite) bxvf.f164949b.mo74142c(4);
+        this.f98639e.mo73625a((GeneratedMessageLite) ((aywu) aywp.f98639e.mo74062i()));
         if (z3) {
             this.f98636a.mo54511a(this);
         }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adhv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adhv extends bxvk implements bxxd {
+public final class adhv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final adhv f61728m;
@@ -23,7 +23,7 @@ public final class adhv extends bxvk implements bxxd {
     public int f61733d;
 
     /* renamed from: e */
-    public bxtx f61734e = bxtx.f164797b;
+    public ByteString f61734e = ByteString.f164797b;
 
     /* renamed from: f */
     public String f61735f = "";
@@ -32,7 +32,7 @@ public final class adhv extends bxvk implements bxxd {
     public long f61736g;
 
     /* renamed from: h */
-    public bxtx f61737h = bxtx.f164797b;
+    public ByteString f61737h = ByteString.f164797b;
 
     /* renamed from: i */
     public int f61738i;
@@ -49,7 +49,7 @@ public final class adhv extends bxvk implements bxxd {
     static {
         adhv adhv = new adhv();
         f61728m = adhv;
-        bxvk.m124024a(adhv.class, adhv);
+        GeneratedMessageLite.m124024a(adhv.class, adhv);
     }
 
     private adhv() {
@@ -66,7 +66,7 @@ public final class adhv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61728m, "\u0000\f\u0000\u0000\u0001\r\f\u0000\u0004\u0000\u0001\u001b\u0002\u001b\u0003\u0004\u0004\n\u0005Ȉ\u0006\u0002\b\u001b\t\n\nȚ\u000b\u0004\f\u0004\r\u0004", new Object[]{"a", adig.class, "b", adib.class, "d", "e", "f", "g", "c", adih.class, "h", "k", "l", "i", "j"});
+            return GeneratedMessageLite.m124022a(f61728m, "\u0000\f\u0000\u0000\u0001\r\f\u0000\u0004\u0000\u0001\u001b\u0002\u001b\u0003\u0004\u0004\n\u0005Ȉ\u0006\u0002\b\u001b\t\n\nȚ\u000b\u0004\f\u0004\r\u0004", new Object[]{"a", adig.class, "b", adib.class, "d", "e", "f", "g", "c", adih.class, "h", "k", "l", "i", "j"});
         } else if (i2 == 3) {
             return new adhv();
         } else {

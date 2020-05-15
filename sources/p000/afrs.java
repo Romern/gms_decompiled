@@ -11,6 +11,6 @@ final /* synthetic */ class afrs implements afsa {
 
     /* renamed from: a */
     public final bxxc mo35008a(byte[] bArr) {
-        return (btev) bxvk.m124014a(btev.f148574h, bArr);
+        return (btev) GeneratedMessageLite.m124014a(btev.f148574h, bArr);
     }
 }

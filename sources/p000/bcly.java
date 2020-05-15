@@ -22,7 +22,7 @@ public final class bcly {
         }
         cbgf cbgf = (cbgf) da.f164949b;
         if (!cbgf.f177026a.mo73666a()) {
-            cbgf.f177026a = bxvk.m124021a(cbgf.f177026a);
+            cbgf.f177026a = GeneratedMessageLite.m124021a(cbgf.f177026a);
         }
         bxsy.m123078a(a, cbgf.f177026a);
         return (cbgf) da.mo74062i();

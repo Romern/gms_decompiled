@@ -357,7 +357,7 @@ public abstract class dxd extends drx implements Response.Listener, Response.Err
                     if (!this.f14341d.mo9338b()) {
                         dwr b = m9731b((String) null);
                         String str5 = this.f14345h;
-                        byte[] k = c.mo73642k();
+                        byte[] k = c.serializeToBytes();
                         bxxc bxxc = this.f14347j;
                         int i5 = this.f14346i;
                         String b2 = b.mo25527b(clientContext);
@@ -380,7 +380,7 @@ public abstract class dxd extends drx implements Response.Listener, Response.Err
                     } else {
                         str2 = "AIzaSyAP-gfH3qvi6vgHZbSYwQ_XHqV_mXHhzIk";
                     }
-                    m9731b(str2).mo25522a(clientContext, this.f14345h, c.mo73642k(), this.f14347j, this, this);
+                    m9731b(str2).mo25522a(clientContext, this.f14345h, c.serializeToBytes(), this.f14347j, this, this);
                     return;
                 }
                 long j2 = this.f14342e;

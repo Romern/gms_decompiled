@@ -8,7 +8,7 @@ import android.content.pm.PackageManager;
 public final class rib {
 
     /* renamed from: a */
-    private static final sek f43029a = new sek("CommonAccount", "PackageUtil");
+    private static final Logger f43029a = new Logger("CommonAccount", "PackageUtil");
 
     /* renamed from: a */
     public static bmxv m33626a(Application application, String str) {

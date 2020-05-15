@@ -13,9 +13,9 @@ public final /* synthetic */ class tbo implements View.OnClickListener {
     }
 
     public void onClick(View view) {
-        sek sek = ConstellationDebugChimeraActivity.f30575b;
+        Logger Logger = ConstellationDebugChimeraActivity.f30575b;
         szr.m36692a();
-        szr.f45526a.mo25409a("Delete all ServiceStateEvents", new Object[0]);
+        szr.f45526a.logVerbose("Delete all ServiceStateEvents", new Object[0]);
         szr.m36694a("event_type = ?", new String[]{"2"});
     }
 }

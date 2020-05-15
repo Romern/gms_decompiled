@@ -11,6 +11,6 @@ final /* synthetic */ class akud implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (bsaq) bxvk.m124014a(bsaq.f143891b, bArr);
+        return (bsaq) GeneratedMessageLite.m124014a(bsaq.f143891b, bArr);
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bydj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bydj extends bxvk implements bxxd {
+public final class bydj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bydj f165795b;
@@ -16,7 +16,7 @@ public final class bydj extends bxvk implements bxxd {
     static {
         bydj bydj = new bydj();
         f165795b = bydj;
-        bxvk.m124024a(bydj.class, bydj);
+        GeneratedMessageLite.m124024a(bydj.class, bydj);
     }
 
     private bydj() {
@@ -24,8 +24,8 @@ public final class bydj extends bxvk implements bxxd {
 
     /* renamed from: a */
     public static bydj m124680a(byte[] bArr) {
-        bxvk a = bxvk.m124015a(f165795b, bArr, 0, bArr.length, bxus.m123743b());
-        bxvk.m124027b(a);
+        GeneratedMessageLite a = GeneratedMessageLite.m124015a(f165795b, bArr, 0, bArr.length, bxus.m123743b());
+        GeneratedMessageLite.m124027b(a);
         return (bydj) a;
     }
 
@@ -40,7 +40,7 @@ public final class bydj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165795b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001a", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f165795b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001a", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bydj();
         } else {

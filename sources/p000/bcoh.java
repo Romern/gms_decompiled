@@ -44,7 +44,7 @@ public abstract class bcoh implements Serializable {
             }
             String string = jSONObject.getString("SERVER_REGISTRATION_ID");
             int i2 = Build.VERSION.SDK_INT;
-            f.mo57056a(bxtx.m123259a(string, StandardCharsets.UTF_8));
+            f.mo57056a(ByteString.m123259a(string, StandardCharsets.UTF_8));
             f.mo57053a(bcog.m89460a(jSONObject.getInt("SERVER_REGISTRATION_STATUS")));
             return bmxv.m108566b(f.mo57051a());
         } catch (JSONException e2) {
@@ -67,7 +67,7 @@ public abstract class bcoh implements Serializable {
     public abstract bcol mo57058b();
 
     /* renamed from: c */
-    public abstract bxtx mo57059c();
+    public abstract ByteString mo57059c();
 
     /* renamed from: d */
     public abstract bcog mo57060d();
@@ -114,7 +114,7 @@ public abstract class bcoh implements Serializable {
                 return bmvz.f131120a;
             }
             jSONObject.put("ACCOUNT_USERS", bmxv.mo66814b());
-            bxtx c = mo57059c();
+            ByteString c = mo57059c();
             int i = Build.VERSION.SDK_INT;
             jSONObject.put("SERVER_REGISTRATION_ID", c.mo73773b(StandardCharsets.UTF_8));
             jSONObject.put("SERVER_REGISTRATION_STATUS", mo57060d().f104618c);

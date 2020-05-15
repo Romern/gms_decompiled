@@ -40,7 +40,7 @@ public final class bccf {
                         int i = b - 1;
                         if (i == 0) {
                             byte[] bArr = (byte[]) hashMap.get("message_content");
-                            p.mo57505a(bcqa.m89618a(bArr == null ? bxtx.f164797b : bxtx.m123261a(bArr)));
+                            p.mo57505a(bcqa.m89618a(bArr == null ? ByteString.f164797b : ByteString.m123261a(bArr)));
                         } else if (i == 1) {
                             p.mo57517b(new String((byte[]) hashMap.get("message_content")));
                         } else if (i == 2) {
@@ -59,20 +59,20 @@ public final class bccf {
                             if (a.mo66813a()) {
                                 p.mo57508a((bcuo) a.mo66814b());
                             } else {
-                                p.mo57505a(bcqa.m89618a(bxtx.f164797b));
+                                p.mo57505a(bcqa.m89618a(ByteString.f164797b));
                             }
                         }
                     } else {
-                        p.mo57505a(bcqa.m89618a(bxtx.f164797b));
+                        p.mo57505a(bcqa.m89618a(ByteString.f164797b));
                     }
                 } else {
-                    p.mo57505a(bcqa.m89618a(bxtx.f164797b));
+                    p.mo57505a(bcqa.m89618a(ByteString.f164797b));
                 }
                 byte[] bArr2 = (byte[]) hashMap.get("metadata");
                 if (bArr2 != null) {
                     bnha bnha = new bnha();
                     for (Map.Entry entry : bbqu.m88425c(bArr2).entrySet()) {
-                        bnha.mo67695b((String) entry.getKey(), bxtx.m123261a((byte[]) entry.getValue()));
+                        bnha.mo67695b((String) entry.getKey(), ByteString.m123261a((byte[]) entry.getValue()));
                     }
                     p.mo57514a(bnha.mo67618b());
                 }
@@ -97,7 +97,7 @@ public final class bccf {
                     h.mo57532c(((Integer) b3.get("time_to_live_sec")).intValue());
                     h.mo57531b(((Integer) b3.get("OVERLAY_STYLE")).intValue());
                     if (b3.containsKey("display_icon")) {
-                        h.mo57529a(bxtx.m123261a((byte[]) b3.get("display_icon")));
+                        h.mo57529a(ByteString.m123261a((byte[]) b3.get("display_icon")));
                     }
                     if (b3.containsKey("display_text")) {
                         h.mo57530a((String) b3.get("display_text"));
@@ -172,7 +172,7 @@ public final class bccf {
             int i2 = a2 - 1;
             if (a2 != 0) {
                 if (i2 == 0) {
-                    hashMap.put("message_content", bctr.mo57365f().mo57196e().mo73780k());
+                    hashMap.put("message_content", bctr.mo57365f().mo57196e().getKey());
                 } else if (i2 == 1) {
                     hashMap.put("message_content", bbou.m88298a(bctr.mo57365f().mo57192d()));
                 } else if (i2 == 2) {
@@ -186,7 +186,7 @@ public final class bccf {
                     try {
                         HashMap hashMap2 = new HashMap();
                         for (Map.Entry entry : b.entrySet()) {
-                            hashMap2.put((String) entry.getKey(), ((bxtx) entry.getValue()).mo73780k());
+                            hashMap2.put((String) entry.getKey(), ((ByteString) entry.getValue()).getKey());
                         }
                         bArr = bbqu.m88422a((Serializable) hashMap2);
                     } catch (IOException e) {
@@ -213,7 +213,7 @@ public final class bccf {
                         hashMap3.put("dismiss_action", bcbk.m88754a((bcov) b2.mo57384a().mo66814b()));
                     }
                     if (b2.mo57385b().mo66813a()) {
-                        hashMap3.put("display_icon", ((bxtx) b2.mo57385b().mo66814b()).mo73780k());
+                        hashMap3.put("display_icon", ((ByteString) b2.mo57385b().mo66814b()).getKey());
                     }
                     if (b2.mo57387d().mo66813a()) {
                         hashMap3.put("display_text", b2.mo57387d().mo66814b());

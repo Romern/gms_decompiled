@@ -8,7 +8,7 @@ import android.provider.Settings;
 public final class xih {
 
     /* renamed from: b */
-    private static final sek f52347b = new sek(new String[]{"BleLocationServiceUtil"}, (short[]) null);
+    private static final Logger f52347b = new Logger(new String[]{"BleLocationServiceUtil"}, (short[]) null);
 
     /* renamed from: a */
     private final Context f52348a;
@@ -27,11 +27,11 @@ public final class xih {
             f52347b.mo25417e("Cannot query location service", e, new Object[0]);
             i = 0;
         }
-        sek sek = f52347b;
+        Logger Logger = f52347b;
         StringBuilder sb = new StringBuilder(28);
         sb.append("Location mode is ");
         sb.append(i);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         if (i != 0) {
             return true;
         }

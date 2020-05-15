@@ -58,7 +58,7 @@ public final class asfz {
         borg.f134409a |= 1;
         List list = this.f88886f;
         if (!borg.f134411c.mo73666a()) {
-            borg.f134411c = bxvk.m124021a(borg.f134411c);
+            borg.f134411c = GeneratedMessageLite.m124021a(borg.f134411c);
         }
         bxsy.m123078a(list, borg.f134411c);
         borg borg2 = (borg) da.mo74062i();

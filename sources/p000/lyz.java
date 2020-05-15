@@ -59,7 +59,7 @@ public final class lyz {
                 throw th;
             }
         } else {
-            f33231a.mo25409a("Contacts backup async already set up", new Object[0]);
+            f33231a.logVerbose("Contacts backup async already set up", new Object[0]);
         }
     }
 
@@ -73,7 +73,7 @@ public final class lyz {
     public final synchronized void mo19772c() {
         Future future = this.f33233c;
         if (future == null) {
-            f33231a.mo25409a("Contacts backup async not set up or already cancelled", new Object[0]);
+            f33231a.logVerbose("Contacts backup async not set up or already cancelled", new Object[0]);
             return;
         }
         future.cancel(true);

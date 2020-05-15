@@ -290,7 +290,7 @@ public final class djh {
         int i32;
         int i33;
         String str3;
-        bxtx bxtx;
+        ByteString bxtx;
         int i34;
         bxwc bxwc;
         int i35;
@@ -808,11 +808,11 @@ public final class djh {
                 }
                 int a23 = m8642a(brtj, str3);
                 if (dmm.f13544b == 7) {
-                    bxtx = (bxtx) dmm.f13545c;
+                    bxtx = (ByteString) dmm.f13545c;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
-                byte[] k = bxtx.mo73780k();
+                byte[] k = bxtx.getKey();
                 if (k == null || k.length == 0) {
                     i34 = 0;
                 } else {
@@ -991,7 +991,7 @@ public final class djh {
             boju boju = (boju) da.f164949b;
             boju.mo68913a();
             bxsy.m123078a(list3, boju.f133352b);
-            i29 = brtj.mo69864a(((boju) da.mo74062i()).mo73642k());
+            i29 = brtj.mo69864a(((boju) da.mo74062i()).serializeToBytes());
         } else {
             i29 = 0;
         }

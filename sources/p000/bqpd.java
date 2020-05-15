@@ -18,7 +18,7 @@ final class bqpd extends bqnp {
             da.f164950c = false;
         }
         ((bqrf) da.f164949b).f141431a = 0;
-        bxtx a = bxtx.m123261a(bqwf.m113516a(32));
+        ByteString a = ByteString.m123261a(bqwf.m113516a(32));
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -29,18 +29,18 @@ final class bqpd extends bqnp {
     }
 
     /* renamed from: a */
-    public final /* bridge */ /* synthetic */ bxxc mo69293a(bxtx bxtx) {
+    public final /* bridge */ /* synthetic */ bxxc mo69293a(ByteString bxtx) {
         bxus b = bxus.m123743b();
         bqrg bqrg = bqrg.f141433a;
         try {
             bxuc h = bxtx.mo73764h();
-            bxvk bxvk = (bxvk) bqrg.mo74142c(4);
-            bxxv a = bxxm.f165037a.mo74228a(bxvk);
-            a.mo74220a(bxvk, bxud.m123454a(h), b);
-            a.mo74225d(bxvk);
+            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bqrg.mo74142c(4);
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+            a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), b);
+            a.mo74225d(GeneratedMessageLite);
             h.mo73787a(0);
-            bxvk.m124027b(bxvk);
-            return (bqrg) bxvk;
+            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+            return (bqrg) GeneratedMessageLite;
         } catch (IOException e) {
             if (!(e.getCause() instanceof bxwf)) {
                 throw new bxwf(e.getMessage());

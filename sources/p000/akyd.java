@@ -27,7 +27,7 @@ final class akyd implements bqfp {
         bxok bxok = (bxok) obj;
         try {
             int[] iArr = this.f73100a;
-            sek sek = akyf.f73106d;
+            Logger Logger = akyf.f73106d;
             JSONArray jSONArray = new JSONArray();
             for (int i : iArr) {
                 if (i == 9) {

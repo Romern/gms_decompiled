@@ -194,7 +194,7 @@ public final class dca {
                         FileInputStream fileInputStream2 = new FileInputStream(file2);
                         try {
                             if (fileInputStream2.read(bArr) > 0) {
-                                C0154e eVar = (C0154e) bxvk.m124016a(C0154e.f7549f, bArr, bxus.m123744c());
+                                C0154e eVar = (C0154e) GeneratedMessageLite.m124016a(C0154e.f7549f, bArr, bxus.m123744c());
                                 if (!str.equals(new String(eVar.f7554d.mo73780k())) || !Arrays.equals(eVar.f7553c.mo73780k(), dae.m8082a(eVar.f7552b.mo73780k())) || !Arrays.equals(eVar.f7555e.mo73780k(), Build.VERSION.SDK.getBytes())) {
                                     m8133a(file2);
                                     try {
@@ -328,7 +328,7 @@ public final class dca {
                                 System.out.print("test");
                                 System.out.print("test");
                                 bxvd da = C0154e.f7549f.mo74144da();
-                                bxtx a = bxtx.m123261a(Build.VERSION.SDK.getBytes());
+                                ByteString a = ByteString.m123261a(Build.VERSION.SDK.getBytes());
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;
@@ -337,7 +337,7 @@ public final class dca {
                                 a.getClass();
                                 eVar.f7551a |= 8;
                                 eVar.f7555e = a;
-                                bxtx a2 = bxtx.m123261a(str.getBytes());
+                                ByteString a2 = ByteString.m123261a(str.getBytes());
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;
@@ -347,7 +347,7 @@ public final class dca {
                                 eVar2.f7551a |= 4;
                                 eVar2.f7554d = a2;
                                 byte[] bytes = dbh.m8116a(this.f12769e, bArr).getBytes();
-                                bxtx a3 = bxtx.m123261a(bytes);
+                                ByteString a3 = ByteString.m123261a(bytes);
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;
@@ -356,7 +356,7 @@ public final class dca {
                                 a3.getClass();
                                 eVar3.f7551a = 1 | eVar3.f7551a;
                                 eVar3.f7552b = a3;
-                                bxtx a4 = bxtx.m123261a(dae.m8082a(bytes));
+                                ByteString a4 = ByteString.m123261a(dae.m8082a(bytes));
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;

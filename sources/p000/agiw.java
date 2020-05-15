@@ -186,7 +186,7 @@ public final class agiw extends agmg implements agdh {
             for (int i = 0; i < ((agne) bxvd.f164949b).f66044e.size(); i++) {
                 agnd agnd = (agnd) ((agne) bxvd.f164949b).f66044e.get(i);
                 bxvd bxvd2 = (bxvd) agnd.mo74142c(5);
-                bxvd2.mo73625a((bxvk) agnd);
+                bxvd2.mo73625a((GeneratedMessageLite) agnd);
                 if (!TextUtils.isEmpty(((agnd) bxvd2.f164949b).f66034b)) {
                     String a = agjy.m54404a(((agnd) bxvd2.f164949b).f66034b);
                     if (!TextUtils.isEmpty(a)) {
@@ -208,7 +208,7 @@ public final class agiw extends agmg implements agdh {
                         agne agne2 = agne.f66038h;
                         agnd4.getClass();
                         if (!agne.f66044e.mo73666a()) {
-                            agne.f66044e = bxvk.m124021a(agne.f66044e);
+                            agne.f66044e = GeneratedMessageLite.m124021a(agne.f66044e);
                         }
                         agne.f66044e.set(i, agnd4);
                     }
@@ -283,7 +283,7 @@ public final class agiw extends agmg implements agdh {
                         if (bArr == null) {
                             agne a = m54328a(str, bArr);
                             bxvd bxvd = (bxvd) a.mo74142c(5);
-                            bxvd.mo73625a((bxvk) a);
+                            bxvd.mo73625a((GeneratedMessageLite) a);
                             m54330a(str, bxvd);
                             this.f65651d.put(str, m54329a((agne) bxvd.mo74062i()));
                             this.f65648a.put(str, (agne) bxvd.mo74062i());
@@ -558,7 +558,7 @@ public final class agiw extends agmg implements agdh {
         agne a = m54328a(str, bArr);
         int i = 5;
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         if (bxvd2 == null) {
             return false;
         }
@@ -573,7 +573,7 @@ public final class agiw extends agmg implements agdh {
         while (i2 < arrayList.size()) {
             agmt agmt = (agmt) arrayList.get(i2);
             bxvd bxvd3 = (bxvd) agmt.mo74142c(i);
-            bxvd3.mo73625a((bxvk) agmt);
+            bxvd3.mo73625a((GeneratedMessageLite) agmt);
             if (((agmt) bxvd3.f164949b).f65987d.size() == 0) {
                 str3 = str6;
                 bxvd = bxvd2;
@@ -582,7 +582,7 @@ public final class agiw extends agmg implements agdh {
                 while (i3 < ((agmt) bxvd3.f164949b).f65987d.size()) {
                     agmu agmu = (agmu) ((agmt) bxvd3.f164949b).f65987d.get(i3);
                     bxvd bxvd4 = (bxvd) agmu.mo74142c(i);
-                    bxvd4.mo73625a((bxvk) agmu);
+                    bxvd4.mo73625a((GeneratedMessageLite) agmu);
                     bxvd e = bxvd4.clone();
                     String a2 = agjy.m54404a(((agmu) bxvd4.f164949b).f65992c);
                     if (a2 != null) {
@@ -609,7 +609,7 @@ public final class agiw extends agmg implements agdh {
                         String a3 = agks.m54437a(agmv.f66004e, agjz.f65761a, agjz.f65762b);
                         if (a3 != null) {
                             bxvd bxvd7 = (bxvd) agmv.mo74142c(5);
-                            bxvd7.mo73625a((bxvk) agmv);
+                            bxvd7.mo73625a((GeneratedMessageLite) agmv);
                             if (bxvd7.f164950c) {
                                 bxvd7.mo74035c();
                                 bxvd7.f164950c = false;
@@ -628,7 +628,7 @@ public final class agiw extends agmg implements agdh {
                             agmu agmu5 = agmu.f65988i;
                             agmv4.getClass();
                             if (!agmu4.f65993d.mo73666a()) {
-                                agmu4.f65993d = bxvk.m124021a(agmu4.f65993d);
+                                agmu4.f65993d = GeneratedMessageLite.m124021a(agmu4.f65993d);
                             }
                             agmu4.f65993d.set(i4, agmv4);
                             z = true;
@@ -648,7 +648,7 @@ public final class agiw extends agmg implements agdh {
                         agmt agmt3 = agmt.f65982e;
                         agmu6.getClass();
                         if (!agmt2.f65987d.mo73666a()) {
-                            agmt2.f65987d = bxvk.m124021a(agmt2.f65987d);
+                            agmt2.f65987d = GeneratedMessageLite.m124021a(agmt2.f65987d);
                         }
                         agmt2.f65987d.set(i3, agmu6);
                         arrayList.set(i2, (agmt) bxvd3.mo74062i());
@@ -667,7 +667,7 @@ public final class agiw extends agmg implements agdh {
                     String a4 = agks.m54437a(agmz.f66018c, agka.f65765a, agka.f65766b);
                     if (a4 != null) {
                         bxvd bxvd9 = (bxvd) agmz.mo74142c(5);
-                        bxvd9.mo73625a((bxvk) agmz);
+                        bxvd9.mo73625a((GeneratedMessageLite) agmz);
                         if (bxvd9.f164950c) {
                             bxvd9.mo74035c();
                             bxvd9.f164950c = false;
@@ -686,7 +686,7 @@ public final class agiw extends agmg implements agdh {
                         agmt agmt5 = agmt.f65982e;
                         agmz4.getClass();
                         if (!agmt4.f65986c.mo73666a()) {
-                            agmt4.f65986c = bxvk.m124021a(agmt4.f65986c);
+                            agmt4.f65986c = GeneratedMessageLite.m124021a(agmt4.f65986c);
                         }
                         agmt4.f65986c.set(i5, agmz4);
                         arrayList.set(i2, (agmt) bxvd3.mo74062i());
@@ -796,8 +796,8 @@ public final class agiw extends agmg implements agdh {
                     bxvd13.f164950c = false;
                 }
                 agne agne = agne.f66038h;
-                ((agne) bxvd13.f164949b).f66045f = bxvk.m124030de();
-                bArr2 = ((agne) bxvd13.mo74062i()).mo73642k();
+                ((agne) bxvd13.f164949b).f66045f = GeneratedMessageLite.m124030de();
+                bArr2 = ((agne) bxvd13.mo74062i()).serializeToBytes();
             } catch (RuntimeException e6) {
                 mo35497E().f65567f.mo35437a("Unable to serialize reduced-size config. Storing full config instead. appId", agid.m54288a(str), e6);
                 bArr2 = bArr;

@@ -23,7 +23,7 @@ public final class aqzi extends aqzj {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo48296a(int i) {
-        sek sek = aqzk.f87154b;
+        Logger Logger = aqzk.f87154b;
         bxvd da = bzwz.f171704e.mo74144da();
         bxvd da2 = bzwv.f171681c.mo74144da();
         if (da2.f164950c) {
@@ -50,6 +50,6 @@ public final class aqzi extends aqzj {
     public final Future mo48297a() {
         RetryPolicy retryPolicy = this.f87150b.f87155c;
         rpr b = rpr.m34216b();
-        return new aroh(b, b.getRequestQueue(), retryPolicy).mo48705a("post", cbxv.f178529a.mo6606a().mo75590d(), this.f87149a.mo73642k(), bzwz.f171704e);
+        return new aroh(b, b.getRequestQueue(), retryPolicy).mo48705a("post", cbxv.f178529a.mo6606a().mo75590d(), this.f87149a.serializeToBytes(), bzwz.f171704e);
     }
 }

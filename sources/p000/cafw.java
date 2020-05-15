@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cafw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cafw extends bxvk implements bxxd {
+public final class cafw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cafw f173023b;
@@ -16,7 +16,7 @@ public final class cafw extends bxvk implements bxxd {
     static {
         cafw cafw = new cafw();
         f173023b = cafw;
-        bxvk.m124024a(cafw.class, cafw);
+        GeneratedMessageLite.m124024a(cafw.class, cafw);
     }
 
     private cafw() {
@@ -33,7 +33,7 @@ public final class cafw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f173023b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cafv.class});
+            return GeneratedMessageLite.m124022a(f173023b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cafv.class});
         } else if (i2 == 3) {
             return new cafw();
         } else {
@@ -60,7 +60,7 @@ public final class cafw extends bxvk implements bxxd {
     /* renamed from: c */
     public final void mo74639c() {
         if (!this.f173025a.mo73666a()) {
-            this.f173025a = bxvk.m124021a(this.f173025a);
+            this.f173025a = GeneratedMessageLite.m124021a(this.f173025a);
         }
     }
 }

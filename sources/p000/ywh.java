@@ -135,7 +135,7 @@ public final class ywh {
                                 z2 = false;
                             }
                             sdo.m34971a(z2, (Object) "Value is not in blob format");
-                            bxtx a4 = bxtx.m123261a(value.f32188h);
+                            ByteString a4 = ByteString.m123261a(value.f32188h);
                             if (caau.f164950c) {
                                 caau.mo74035c();
                                 caau.f164950c = false;

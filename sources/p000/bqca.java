@@ -23,7 +23,7 @@ public final class bqca {
     private static final bmwx f140452g = bmwx.m108504f(" \t\r\n");
 
     /* renamed from: h */
-    private static final Map f140453h = bnmt.m109794a();
+    private static final Map f140453h = bnmt.getNewHashMap();
 
     /* renamed from: m */
     private static final bmxq f140454m = bmxr.m108544a("; ").mo66879b("=");

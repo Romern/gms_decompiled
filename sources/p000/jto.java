@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: jto */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class jto extends bxvk implements bxxd {
+public final class jto extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final jto f23186d;
@@ -11,7 +11,7 @@ public final class jto extends bxvk implements bxxd {
     private static volatile bxxk f23187e;
 
     /* renamed from: a */
-    public bxtx f23188a = bxtx.f164797b;
+    public ByteString f23188a = ByteString.f164797b;
 
     /* renamed from: b */
     public long f23189b;
@@ -22,7 +22,7 @@ public final class jto extends bxvk implements bxxd {
     static {
         jto jto = new jto();
         f23186d = jto;
-        bxvk.m124024a(jto.class, jto);
+        GeneratedMessageLite.m124024a(jto.class, jto);
     }
 
     private jto() {
@@ -39,7 +39,7 @@ public final class jto extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f23186d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\n\u0002\u0002\u0003\u0002", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f23186d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\n\u0002\u0002\u0003\u0002", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new jto();
         } else {

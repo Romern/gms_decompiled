@@ -29,7 +29,7 @@ final /* synthetic */ class bfaa implements aubw {
             bvzr bvzr2 = bvzr.f158545E;
             bvzr.f158551a |= 1;
             bvzr.f158552b = i;
-            qws.mo24335a(((bvzr) bxvd.mo74062i()).mo73642k()).mo24327b();
+            qws.mo24335a(((bvzr) bxvd.mo74062i()).serializeToBytes()).mo24327b();
         }
     }
 }

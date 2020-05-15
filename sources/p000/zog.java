@@ -167,7 +167,7 @@ final class zog implements ytv {
                                 }
                                 caae a4 = zqx.mo30458a(caae, str7);
                                 bxvd bxvd = (bxvd) a3.mo74142c(5);
-                                bxvd.mo73625a((bxvk) a3);
+                                bxvd.mo73625a((GeneratedMessageLite) a3);
                                 if (bxvd.f164950c) {
                                     bxvd.mo74035c();
                                     bxvd.f164950c = false;

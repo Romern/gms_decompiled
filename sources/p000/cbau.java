@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbau */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbau extends bxvk implements bxxd {
+public final class cbau extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final cbau f176495f;
@@ -11,10 +11,10 @@ public final class cbau extends bxvk implements bxxd {
     private static volatile bxxk f176496g;
 
     /* renamed from: a */
-    public bxtx f176497a = bxtx.f164797b;
+    public ByteString f176497a = ByteString.f164797b;
 
     /* renamed from: b */
-    public bxtx f176498b = bxtx.f164797b;
+    public ByteString f176498b = ByteString.f164797b;
 
     /* renamed from: c */
     public String f176499c = "";
@@ -28,7 +28,7 @@ public final class cbau extends bxvk implements bxxd {
     static {
         cbau cbau = new cbau();
         f176495f = cbau;
-        bxvk.m124024a(cbau.class, cbau);
+        GeneratedMessageLite.m124024a(cbau.class, cbau);
     }
 
     private cbau() {
@@ -45,7 +45,7 @@ public final class cbau extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176495f, "\u0000\u0005\u0000\u0000\u0001\u0014\u0005\u0000\u0000\u0000\u0001\n\u0002Ȉ\u0003Ȉ\u0004\t\u0014\n", new Object[]{"a", "c", "d", "e", "b"});
+            return GeneratedMessageLite.m124022a(f176495f, "\u0000\u0005\u0000\u0000\u0001\u0014\u0005\u0000\u0000\u0000\u0001\n\u0002Ȉ\u0003Ȉ\u0004\t\u0014\n", new Object[]{"a", "c", "d", "e", "b"});
         } else if (i2 == 3) {
             return new cbau();
         } else {

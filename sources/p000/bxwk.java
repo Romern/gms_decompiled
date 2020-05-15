@@ -8,28 +8,28 @@ public class bxwk {
     protected volatile bxxc f164995a;
 
     /* renamed from: b */
-    public volatile bxtx f164996b;
+    public volatile ByteString f164996b;
 
     static {
         bxus.m123743b();
     }
 
     /* renamed from: a */
-    public final bxtx mo74186a() {
+    public final ByteString mo74186a() {
         if (this.f164996b != null) {
             return this.f164996b;
         }
         synchronized (this) {
             if (this.f164996b != null) {
-                bxtx bxtx = this.f164996b;
+                ByteString bxtx = this.f164996b;
                 return bxtx;
             }
             if (this.f164995a != null) {
                 this.f164996b = this.f164995a.mo73639aL();
             } else {
-                this.f164996b = bxtx.f164797b;
+                this.f164996b = ByteString.f164797b;
             }
-            bxtx bxtx2 = this.f164996b;
+            ByteString bxtx2 = this.f164996b;
             return bxtx2;
         }
     }
@@ -67,10 +67,10 @@ public class bxwk {
                 if (this.f164995a == null) {
                     try {
                         this.f164995a = bxxc;
-                        this.f164996b = bxtx.f164797b;
+                        this.f164996b = ByteString.f164797b;
                     } catch (bxwf e) {
                         this.f164995a = bxxc;
-                        this.f164996b = bxtx.f164797b;
+                        this.f164996b = ByteString.f164797b;
                     }
                 }
             }

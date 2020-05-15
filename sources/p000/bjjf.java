@@ -44,7 +44,7 @@ public final class bjjf implements bjew {
         a.putExtra("bodyBytes", bArr);
         a.putExtra("googleAccountStateSnapshot", googleAccountStateSnapshot);
         if (bwmj != null) {
-            a.putExtra("sessionData", bwmj.mo73642k());
+            a.putExtra("sessionData", bwmj.serializeToBytes());
         }
         bjhq.m103513b(a, "secureDataHeader", bwmi);
         a.putExtra("clientSessionId", j);
@@ -117,7 +117,7 @@ public final class bjjf implements bjew {
             if (intExtra == 0) {
                 bwzf bwzf = (bwzf) bjhq.m103512a(byteArrayExtra, (bxxk) bwzf.f161591f.mo74142c(7));
                 bxvd bxvd = (bxvd) bwzf.mo74142c(5);
-                bxvd.mo73625a((bxvk) bwzf);
+                bxvd.mo73625a((GeneratedMessageLite) bwzf);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -126,13 +126,13 @@ public final class bjjf implements bjew {
                 a4.getClass();
                 bwzf2.f161594b = a4;
                 bwzf2.f161593a |= 1;
-                bArr = ((bwzf) bxvd.mo74062i()).mo73642k();
+                bArr = ((bwzf) bxvd.mo74062i()).serializeToBytes();
             } else if (intExtra != 1) {
                 bArr = byteArrayExtra;
             } else {
                 bwzg bwzg = (bwzg) bjhq.m103512a(byteArrayExtra, (bxxk) bwzg.f161599e.mo74142c(7));
                 bxvd bxvd2 = (bxvd) bwzg.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bwzg);
+                bxvd2.mo73625a((GeneratedMessageLite) bwzg);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
@@ -141,7 +141,7 @@ public final class bjjf implements bjew {
                 a4.getClass();
                 bwzg2.f161602b = a4;
                 bwzg2.f161601a |= 1;
-                bArr = ((bwzg) bxvd2.mo74062i()).mo73642k();
+                bArr = ((bwzg) bxvd2.mo74062i()).serializeToBytes();
             }
             bxvd da = bpsi.f138959d.mo74144da();
             if (da.f164950c) {

@@ -24,10 +24,10 @@ public final class aykm {
     private final aykq f97856e = new aykq(this.f97852a);
 
     /* renamed from: a */
-    public final bxtx mo54055a() {
+    public final ByteString mo54055a() {
         this.f97852a.mo54059a();
         if (this.f97852a.f97857a == 0) {
-            return bxtx.f164797b;
+            return ByteString.f164797b;
         }
         int i = 0;
         while (true) {
@@ -43,20 +43,20 @@ public final class aykm {
                         sb.append(" is not a message type");
                         throw new aykl(sb.toString());
                     } else if (a.f97865b == 1) {
-                        this.f97853b.add((caeh) bxvk.m124014a(caeh.f172821b, this.f97852a.mo54060a(a.mo54063a(), a.f97868e)));
+                        this.f97853b.add((caeh) GeneratedMessageLite.m124014a(caeh.f172821b, this.f97852a.mo54060a(a.mo54063a(), a.f97868e)));
                     }
                 } else if (i == 0) {
                     byte[] b = this.f97856e.mo54068b();
                     if (b != null) {
                         this.f97855d++;
-                        return bxtx.m123261a(b);
+                        return ByteString.m123261a(b);
                     } else if (this.f97856e.mo54069c()) {
                         return mo54055a();
                     } else {
                         throw new aykl("Can't skip the next field");
                     }
                 } else if (i == this.f97856e.f97869a) {
-                    bxtx a2 = bxtx.m123261a(this.f97852a.mo54060a(0, i));
+                    ByteString a2 = ByteString.m123261a(this.f97852a.mo54060a(0, i));
                     this.f97856e.mo54070d();
                     this.f97855d++;
                     return a2;

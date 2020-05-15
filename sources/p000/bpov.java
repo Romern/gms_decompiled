@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpov */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpov extends bxvk implements bxxd {
+public final class bpov extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bpov f138576d;
@@ -22,7 +22,7 @@ public final class bpov extends bxvk implements bxxd {
     static {
         bpov bpov = new bpov();
         f138576d = bpov;
-        bxvk.m124024a(bpov.class, bpov);
+        GeneratedMessageLite.m124024a(bpov.class, bpov);
     }
 
     private bpov() {
@@ -39,7 +39,7 @@ public final class bpov extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138576d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", bpou.f138575a});
+            return GeneratedMessageLite.m124022a(f138576d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", bpou.f138575a});
         } else if (i2 == 3) {
             return new bpov();
         } else {

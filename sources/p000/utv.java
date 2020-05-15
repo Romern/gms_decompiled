@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: utv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class utv extends bxvk implements bxxd {
+public final class utv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final utv f48635f;
@@ -31,7 +31,7 @@ public final class utv extends bxvk implements bxxd {
     static {
         utv utv = new utv();
         f48635f = utv;
-        bxvk.m124024a(utv.class, utv);
+        GeneratedMessageLite.m124024a(utv.class, utv);
     }
 
     private utv() {
@@ -52,7 +52,7 @@ public final class utv extends bxvk implements bxxd {
             this.f48642g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f48635f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0004\u0001ᔄ\u0000\u0002ᔐ\u0001\u0003ᔐ\u0002\u0004ᔐ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f48635f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0004\u0001ᔄ\u0000\u0002ᔐ\u0001\u0003ᔐ\u0002\u0004ᔐ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new utv();
         } else {

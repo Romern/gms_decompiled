@@ -14,7 +14,7 @@ public final class asjo {
     /* renamed from: a */
     public static btpm m74244a(Context context, btpm btpm) {
         bxvd bxvd = (bxvd) btpm.mo74142c(5);
-        bxvd.mo73625a((bxvk) btpm);
+        bxvd.mo73625a((GeneratedMessageLite) btpm);
         String a = asmd.m74371a(m74246a(context, ((btpm) bxvd.f164949b).f149864c));
         if (a != null) {
             if (bxvd.f164950c) {

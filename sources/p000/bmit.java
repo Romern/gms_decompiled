@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmit */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmit extends bxvk implements bxxd {
+public final class bmit extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bmit f129635e;
@@ -25,7 +25,7 @@ public final class bmit extends bxvk implements bxxd {
     static {
         bmit bmit = new bmit();
         f129635e = bmit;
-        bxvk.m124024a(bmit.class, bmit);
+        GeneratedMessageLite.m124024a(bmit.class, bmit);
     }
 
     private bmit() {
@@ -42,7 +42,7 @@ public final class bmit extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f129635e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဈ\u0002\u0004င\u0001", new Object[]{"a", "b", "d", "c"});
+            return GeneratedMessageLite.m124022a(f129635e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဈ\u0002\u0004င\u0001", new Object[]{"a", "b", "d", "c"});
         } else if (i2 == 3) {
             return new bmit();
         } else {

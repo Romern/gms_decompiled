@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boiz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boiz extends bxvk implements bxxd {
+public final class boiz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final boiz f133248g;
@@ -31,7 +31,7 @@ public final class boiz extends bxvk implements bxxd {
     static {
         boiz boiz = new boiz();
         f133248g = boiz;
-        bxvk.m124024a(boiz.class, boiz);
+        GeneratedMessageLite.m124024a(boiz.class, boiz);
     }
 
     private boiz() {
@@ -48,7 +48,7 @@ public final class boiz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133248g, "\u0001\u0005\u0000\u0001\u0001\u0007\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဌ\u0002\u0005ဈ\u0004\u0007ဈ\u0006", new Object[]{"a", "b", "c", "d", boiy.f133247a, "e", "f"});
+            return GeneratedMessageLite.m124022a(f133248g, "\u0001\u0005\u0000\u0001\u0001\u0007\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဌ\u0002\u0005ဈ\u0004\u0007ဈ\u0006", new Object[]{"a", "b", "c", "d", boiy.f133247a, "e", "f"});
         } else if (i2 == 3) {
             return new boiz();
         } else {

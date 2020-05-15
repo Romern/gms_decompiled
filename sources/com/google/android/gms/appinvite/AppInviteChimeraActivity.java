@@ -1116,7 +1116,7 @@ public class AppInviteChimeraActivity extends deu implements TextWatcher, fwz, f
             }
             bojo bojo2 = (bojo) da.f164949b;
             if (!bojo2.f133315d.mo73666a()) {
-                bojo2.f133315d = bxvk.m124021a(bojo2.f133315d);
+                bojo2.f133315d = GeneratedMessageLite.m124021a(bojo2.f133315d);
             }
             bxsy.m123078a(arrayList, bojo2.f133315d);
         }

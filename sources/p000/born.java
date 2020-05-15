@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: born */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class born extends bxvk implements bxxd {
+public final class born extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final born f134457d;
@@ -22,7 +22,7 @@ public final class born extends bxvk implements bxxd {
     static {
         born born = new born();
         f134457d = born;
-        bxvk.m124024a(born.class, born);
+        GeneratedMessageLite.m124024a(born.class, born);
     }
 
     private born() {
@@ -39,7 +39,7 @@ public final class born extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134457d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f134457d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new born();
         } else {

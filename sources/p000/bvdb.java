@@ -89,10 +89,10 @@ public final class bvdb implements bvcw {
             synchronized (this.f155638j) {
                 bvbs bvbs = this.f155639k;
                 bxvd bxvd = (bxvd) bvbs.mo74142c(5);
-                bxvd.mo73625a((bxvk) bvbs);
-                bxvd.f164949b = (bxvk) bxvd.f164949b.mo74142c(4);
+                bxvd.mo73625a((GeneratedMessageLite) bvbs);
+                bxvd.f164949b = (GeneratedMessageLite) bxvd.f164949b.mo74142c(4);
                 this.f155639k = (bvbs) bxvd.mo74062i();
-                bvbs bvbs2 = (bvbs) bxvk.m124016a(bvbs.f155560d, bArr, bxus.m123744c());
+                bvbs bvbs2 = (bvbs) GeneratedMessageLite.m124016a(bvbs.f155560d, bArr, bxus.m123744c());
                 int i3 = bvbs2.f155563b;
                 if ((bvbs2.f155562a & 2) != 0) {
                     if (bvbs2.f155564c.mo73744a() > 51200) {
@@ -103,7 +103,7 @@ public final class bvdb implements bvcw {
                         throw new IOException(sb.toString());
                     }
                 }
-                k = bvbs2.f155564c.mo73780k();
+                k = bvbs2.f155564c.getKey();
             }
             return k;
         }
@@ -165,8 +165,8 @@ public final class bvdb implements bvcw {
                 synchronized (this.f155633e) {
                     bvbs bvbs = this.f155633e;
                     bxvd bxvd = (bxvd) bvbs.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bvbs);
-                    bxvd.f164949b = (bxvk) bxvd.f164949b.mo74142c(4);
+                    bxvd.mo73625a((GeneratedMessageLite) bvbs);
+                    bxvd.f164949b = (GeneratedMessageLite) bxvd.f164949b.mo74142c(4);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -175,7 +175,7 @@ public final class bvdb implements bvcw {
                     bvbs bvbs3 = bvbs.f155560d;
                     bvbs2.f155563b = 0;
                     bvbs2.f155562a |= 1;
-                    bxtx a = bxtx.m123261a(bArr);
+                    ByteString a = ByteString.m123261a(bArr);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -184,7 +184,7 @@ public final class bvdb implements bvcw {
                     a.getClass();
                     bvbs4.f155562a |= 2;
                     bvbs4.f155564c = a;
-                    k = ((bvbs) bxvd.mo74062i()).mo73642k();
+                    k = ((bvbs) bxvd.mo74062i()).serializeToBytes();
                 }
                 if (k != null) {
                     synchronized (this.f155632d) {

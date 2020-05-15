@@ -59,7 +59,7 @@ public final class aaan {
                             bpvf bpvf = (bpvf) da2.f164949b;
                             bptz3.getClass();
                             if (!bpvf.f139340r.mo73666a()) {
-                                bpvf.f139340r = bxvk.m124021a(bpvf.f139340r);
+                                bpvf.f139340r = GeneratedMessageLite.m124021a(bpvf.f139340r);
                             }
                             bpvf.f139340r.add(bptz3);
                             qwo a3 = ((qws) a.get(0)).mo24333a((bpvf) da2.mo74062i());

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsqo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsqo extends bxvk implements bxxd {
+public final class bsqo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bsqo f146669e;
@@ -25,7 +25,7 @@ public final class bsqo extends bxvk implements bxxd {
     static {
         bsqo bsqo = new bsqo();
         f146669e = bsqo;
-        bxvk.m124024a(bsqo.class, bsqo);
+        GeneratedMessageLite.m124024a(bsqo.class, bsqo);
     }
 
     private bsqo() {
@@ -42,7 +42,7 @@ public final class bsqo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f146669e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f146669e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bsqo();
         } else {

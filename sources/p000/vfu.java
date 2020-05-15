@@ -14,21 +14,21 @@ import java.util.Collections;
 public final class vfu {
     /* renamed from: a */
     public static Filter m40350a(Filter filter) {
-        sdo.m34966a(filter, "Filter may not be null");
+        sdo.checkIfNull(filter, "Filter may not be null");
         return new NotFilter(new FilterHolder(filter));
     }
 
     /* renamed from: a */
     public static Filter m40351a(uwa uwa, Object obj) {
-        sdo.m34966a(uwa, "Field may not be null.");
-        sdo.m34966a(obj, "Value may not be null.");
+        sdo.checkIfNull(uwa, "Field may not be null.");
+        sdo.checkIfNull(obj, "Value may not be null.");
         return new InFilter(MetadataBundle.m23057a(uwa, Collections.singleton(obj)));
     }
 
     /* renamed from: a */
     public static Filter m40352a(uwb uwb, Object obj) {
-        sdo.m34966a(uwb, "Field may not be null.");
-        sdo.m34966a(obj, "Value may not be null.");
+        sdo.checkIfNull(uwb, "Field may not be null.");
+        sdo.checkIfNull(obj, "Value may not be null.");
         return new ComparisonFilter(Operator.f31122a, MetadataBundle.m23057a(uwb, obj));
     }
 }

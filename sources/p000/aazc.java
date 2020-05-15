@@ -128,7 +128,7 @@ public final class aazc implements abew {
                 }
                 if (h.f78854c <= 3) {
                     bxvd bxvd = (bxvd) a2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a2);
+                    bxvd.mo73625a((GeneratedMessageLite) a2);
                     if (a2.f171029e || !h.f78857f.mo43225b(a3)) {
                         z = true;
                     } else {

@@ -165,27 +165,27 @@ public final class azpw {
         }
         if (bctr.mo57369i().containsKey("l_wlpp_notif")) {
             try {
-                bxtx bxtx = (bxtx) bctr.mo57369i().get("l_wlpp_notif");
+                ByteString bxtx = (ByteString) bctr.mo57369i().get("l_wlpp_notif");
                 bxus c = bxus.m123744c();
                 bxte bxte = bxte.f164763c;
                 bxuc h = bxtx.mo73764h();
-                bxvk bxvk = (bxvk) bxte.mo74142c(4);
-                bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                a.mo74220a(bxvk, bxud.m123454a(h), c);
-                a.mo74225d(bxvk);
+                GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bxte.mo74142c(4);
+                bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                a.mo74225d(GeneratedMessageLite);
                 h.mo73787a(0);
-                bxvk.m124027b(bxvk);
-                bxtx bxtx2 = ((bxte) bxvk).f164766b;
+                GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                ByteString bxtx2 = ((bxte) GeneratedMessageLite).f164766b;
                 bxus c2 = bxus.m123744c();
                 bxye bxye = bxye.f165087b;
                 bxuc h2 = bxtx2.mo73764h();
-                bxvk bxvk2 = (bxvk) bxye.mo74142c(4);
-                bxxv a2 = bxxm.f165037a.mo74228a(bxvk2);
-                a2.mo74220a(bxvk2, bxud.m123454a(h2), c2);
-                a2.mo74225d(bxvk2);
+                GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) bxye.mo74142c(4);
+                bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+                a2.mo74220a(GeneratedMessageLite2, bxud.m123454a(h2), c2);
+                a2.mo74225d(GeneratedMessageLite2);
                 h2.mo73787a(0);
-                bxvk.m124027b(bxvk2);
-                return ((bxye) bxvk2).f165089a;
+                GeneratedMessageLite.m124027b(GeneratedMessageLite2);
+                return ((bxye) GeneratedMessageLite2).f165089a;
             } catch (IOException e) {
                 if (!(e.getCause() instanceof bxwf)) {
                     throw new bxwf(e.getMessage());

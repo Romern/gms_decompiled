@@ -429,7 +429,7 @@ public final class atyj {
         if (btiy2 == null) {
             btiy2 = btiy.f149054c;
         }
-        asmg.f89224b = btiy2.f149057b.mo73780k();
+        asmg.f89224b = btiy2.f149057b.getKey();
         asmg.f89225c = btjk2.f149130h;
         asmg.f89226d = btjk2.f149129g;
         int a4 = btjl.m116841a(btjk2.f149127e);
@@ -473,7 +473,7 @@ public final class atyj {
                 i8 = 1;
             }
             asmg.f89238p = i8;
-            asmg.f89237o = btjk2.f149142t.mo73780k();
+            asmg.f89237o = btjk2.f149142t.getKey();
             int a6 = btog.m116982a(btjk2.f149145w);
             if (a6 != 0) {
                 i9 = a6;
@@ -551,9 +551,9 @@ public final class atyj {
     /* renamed from: a */
     public static boolean m76563a(btjk btjk, btjk btjk2) {
         bxvd bxvd = (bxvd) btjk.mo74142c(5);
-        bxvd.mo73625a((bxvk) btjk);
+        bxvd.mo73625a((GeneratedMessageLite) btjk);
         bxvd bxvd2 = (bxvd) btjk2.mo74142c(5);
-        bxvd2.mo73625a((bxvk) btjk2);
+        bxvd2.mo73625a((GeneratedMessageLite) btjk2);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

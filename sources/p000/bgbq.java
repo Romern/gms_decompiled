@@ -99,7 +99,7 @@ public final class bgbq {
         bpkl.getClass();
         bonq.f133844j = bpkl;
         bonq.f133835a |= PSKKeyManager.MAX_KEY_LENGTH_BYTES;
-        this.f116005a.mo24335a(((bonq) da.mo74062i()).mo73642k()).mo24327b();
+        this.f116005a.mo24335a(((bonq) da.mo74062i()).serializeToBytes()).mo24327b();
     }
 
     /* renamed from: a */

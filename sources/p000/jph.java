@@ -23,7 +23,7 @@ public final class jph extends jsl {
     public final void mo13884a(String str, int i, int i2, int i3) {
         if (i3 == 3) {
             FirstPartyDeviceRegistrationChimeraService firstPartyDeviceRegistrationChimeraService = this.f22970a;
-            sek sek = FirstPartyDeviceRegistrationChimeraService.f11168a;
+            Logger Logger = FirstPartyDeviceRegistrationChimeraService.f11168a;
             jpo jpo = firstPartyDeviceRegistrationChimeraService.f11169b;
             firstPartyDeviceRegistrationChimeraService.mo7800a(jpo.f22995f.mo25819b(new jpj(jpo, str, i, firstPartyDeviceRegistrationChimeraService)));
         }
@@ -32,7 +32,7 @@ public final class jph extends jsl {
             int i4 = 4;
             if (i3 == 0 && i2 == 4) {
                 FirstPartyDeviceRegistrationChimeraService firstPartyDeviceRegistrationChimeraService2 = this.f22970a;
-                sek sek2 = FirstPartyDeviceRegistrationChimeraService.f11168a;
+                Logger logger2 = FirstPartyDeviceRegistrationChimeraService.f11168a;
                 int intValue = firstPartyDeviceRegistrationChimeraService2.f11172e.containsKey(format) ? ((Integer) this.f22970a.f11172e.get(format)).intValue() + 1 : 1;
                 if (((long) intValue) == cchi.f178978a.mo6606a().mo75960j()) {
                     FirstPartyDeviceRegistrationChimeraService firstPartyDeviceRegistrationChimeraService3 = this.f22970a;
@@ -58,12 +58,12 @@ public final class jph extends jsl {
                 }
             } else if (!(i3 == 4 || i3 == 2)) {
                 FirstPartyDeviceRegistrationChimeraService firstPartyDeviceRegistrationChimeraService4 = this.f22970a;
-                sek sek3 = FirstPartyDeviceRegistrationChimeraService.f11168a;
+                Logger logger3 = FirstPartyDeviceRegistrationChimeraService.f11168a;
                 firstPartyDeviceRegistrationChimeraService4.f11172e.remove(format);
             }
         }
         FirstPartyDeviceRegistrationChimeraService firstPartyDeviceRegistrationChimeraService5 = this.f22970a;
-        sek sek4 = FirstPartyDeviceRegistrationChimeraService.f11168a;
+        Logger logger4 = FirstPartyDeviceRegistrationChimeraService.f11168a;
         synchronized (firstPartyDeviceRegistrationChimeraService5.f11170c) {
             for (jsm jsm : this.f22970a.f11171d.mo13937a(str, i)) {
                 try {
@@ -98,7 +98,7 @@ public final class jph extends jsl {
     public final void mo13885a(String str, String str2, byte[] bArr) {
         Role role = new Role(str2, 0);
         FirstPartyDeviceRegistrationChimeraService firstPartyDeviceRegistrationChimeraService = this.f22970a;
-        sek sek = FirstPartyDeviceRegistrationChimeraService.f11168a;
+        Logger Logger = FirstPartyDeviceRegistrationChimeraService.f11168a;
         synchronized (firstPartyDeviceRegistrationChimeraService.f11170c) {
             joh joh = this.f22970a.f11171d;
             String str3 = role.f11146b;

@@ -16,7 +16,7 @@ final /* synthetic */ class rhk implements bmxz {
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
         Account account = this.f42983a;
-        sek sek = SimpleDialogAccountPickerChimeraActivity.f30097b;
+        Logger Logger = SimpleDialogAccountPickerChimeraActivity.f30097b;
         return account.name.equals(((aczd) obj).f61129c);
     }
 }

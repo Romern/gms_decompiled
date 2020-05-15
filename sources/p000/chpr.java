@@ -11,6 +11,6 @@ final /* synthetic */ class chpr implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (bku) bxvk.m124014a(bku.f5035b, bArr);
+        return (bku) GeneratedMessageLite.m124014a(bku.f5035b, bArr);
     }
 }

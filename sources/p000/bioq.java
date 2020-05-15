@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bioq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bioq extends bxvk implements bxxd {
+public final class bioq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bioq f121089c;
@@ -22,7 +22,7 @@ public final class bioq extends bxvk implements bxxd {
     static {
         bioq bioq = new bioq();
         f121089c = bioq;
-        bxvk.m124024a(bioq.class, bioq);
+        GeneratedMessageLite.m124024a(bioq.class, bioq);
     }
 
     private bioq() {
@@ -43,7 +43,7 @@ public final class bioq extends bxvk implements bxxd {
             this.f121093d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121089c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"a", "b", bios.m102674b()});
+            return GeneratedMessageLite.m124022a(f121089c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"a", "b", bios.m102674b()});
         } else if (i2 == 3) {
             return new bioq();
         } else {

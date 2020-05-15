@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amoh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amoh extends bxvk implements bxxd {
+public final class amoh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: x */
     public static final amoh f75593x;
@@ -82,7 +82,7 @@ public final class amoh extends bxvk implements bxxd {
     static {
         amoh amoh = new amoh();
         f75593x = amoh;
-        bxvk.m124024a(amoh.class, amoh);
+        GeneratedMessageLite.m124024a(amoh.class, amoh);
     }
 
     private amoh() {
@@ -99,7 +99,7 @@ public final class amoh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75593x, "\u0001\u0016\u0000\u0001\u0001\"\u0016\u0000\u0002\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဇ\u0003\u0006ဌ\u0005\u0007ဉ\u0006\bဉ\u0007\tဉ\b\n\u001b\u000b\u001b\u0017ဉ\t\u0018ဉ\n\u0019ဉ\u000b\u001aဉ\f\u001bဉ\r\u001cဉ\u000e\u001dဉ\u0010\u001eဉ\u0011\u001fဉ\u0012 ဉ\u0013!ဉ\u0014\"ဉ\u000f", new Object[]{"a", "b", "c", "d", "e", "f", amnx.f75571a, "g", "h", "i", "j", amme.class, "k", amlb.class, "l", "m", "n", "o", "p", "q", "s", "t", "u", "v", "w", "r"});
+            return GeneratedMessageLite.m124022a(f75593x, "\u0001\u0016\u0000\u0001\u0001\"\u0016\u0000\u0002\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဇ\u0003\u0006ဌ\u0005\u0007ဉ\u0006\bဉ\u0007\tဉ\b\n\u001b\u000b\u001b\u0017ဉ\t\u0018ဉ\n\u0019ဉ\u000b\u001aဉ\f\u001bဉ\r\u001cဉ\u000e\u001dဉ\u0010\u001eဉ\u0011\u001fဉ\u0012 ဉ\u0013!ဉ\u0014\"ဉ\u000f", new Object[]{"a", "b", "c", "d", "e", "f", amnx.f75571a, "g", "h", "i", "j", amme.class, "k", amlb.class, "l", "m", "n", "o", "p", "q", "s", "t", "u", "v", "w", "r"});
         } else if (i2 == 3) {
             return new amoh();
         } else {

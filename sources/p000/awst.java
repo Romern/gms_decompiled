@@ -41,7 +41,7 @@ public final class awst implements Runnable {
                 byae = (byae) byah.f165256g.mo74144da();
             } else {
                 bxvd bxvd = (bxvd) a.mo74142c(5);
-                bxvd.mo73625a((bxvk) a);
+                bxvd.mo73625a((GeneratedMessageLite) a);
                 byae = (byae) bxvd;
             }
             byaf byaf = ((byah) byae.f164949b).f165262e;
@@ -49,7 +49,7 @@ public final class awst implements Runnable {
                 byaf = byaf.f165243d;
             }
             bxvd bxvd2 = (bxvd) byaf.mo74142c(5);
-            bxvd2.mo73625a((bxvk) byaf);
+            bxvd2.mo73625a((GeneratedMessageLite) byaf);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
@@ -64,7 +64,7 @@ public final class awst implements Runnable {
             } else {
                 bmqr = bmqr.f130414c;
             }
-            bxtx bxtx = bmqr.f130417b;
+            ByteString bxtx = bmqr.f130417b;
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;

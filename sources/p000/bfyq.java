@@ -370,7 +370,7 @@ public final class bfyq implements bugo, bugl, bugs {
             buey.f153668b = 1;
             buey.f153667a = 1 | buey.f153667a;
             if (!buey.f153669c.mo73666a()) {
-                buey.f153669c = bxvk.m124021a(buey.f153669c);
+                buey.f153669c = GeneratedMessageLite.m124021a(buey.f153669c);
             }
             bxsy.m123078a(arrayList, buey.f153669c);
             mo62427a((buey) buew.mo74062i(), bfyp);

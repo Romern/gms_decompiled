@@ -198,7 +198,7 @@ public final class agth extends aaab {
             }
             boot a3 = a2.mo35978a(2, "GTAF_Server", str);
             bxvd bxvd = (bxvd) a3.mo74142c(5);
-            bxvd.mo73625a((bxvk) a3);
+            bxvd.mo73625a((GeneratedMessageLite) a3);
             Long l = mdpCarrierPlanIdRequest2.f80150d;
             if (l != null) {
                 j = l.longValue();
@@ -561,7 +561,7 @@ public final class agth extends aaab {
                 } else {
                     bxzz h = a3.mo35917h();
                     bxvd = (bxvd) h.mo74142c(5);
-                    bxvd.mo73625a((bxvk) h);
+                    bxvd.mo73625a((GeneratedMessageLite) h);
                 }
                 agpv agpv = new agpv();
                 agpv.mo35904a(Long.valueOf(mdpCarrierPlanIdResponse2.f80155e));

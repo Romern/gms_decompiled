@@ -51,11 +51,11 @@ public final /* synthetic */ class ahuj implements Runnable {
                     break;
                 }
                 ahyz ahyz = (ahyz) it.next();
-                byte[] c = buru.m120323c(bnzi.m110902d().mo68722a(bqce.m112562a(ahyz.f68429c.mo73780k(), aynj.m84359a(ahyz.f68428b))).mo68740b());
+                byte[] c = buru.m120323c(bnzi.m110902d().mo68722a(bqce.m112562a(ahyz.f68429c.getKey(), aynj.m84359a(ahyz.f68428b))).mo68740b());
                 bnre i2 = a.listIterator();
                 while (true) {
                     if (i2.hasNext()) {
-                        if (Arrays.equals(((ahza) i2.next()).f68446d.mo73780k(), c)) {
+                        if (Arrays.equals(((ahza) i2.next()).f68446d.getKey(), c)) {
                             bngs2.mo67668c(ahyz);
                             break;
                         }
@@ -70,7 +70,7 @@ public final /* synthetic */ class ahuj implements Runnable {
             for (i = 0; i < size; i++) {
                 ahyz ahyz2 = (ahyz) a2.get(i);
                 ((bnsl) ahsd.f67925a.mo68390d()).mo68420a("FastPair: RemoveInvalidDevice: Remove device %s by cloud sync", ahyz2.f68428b);
-                context.startService(DiscoveryChimeraService.m67336a(context).setAction("com.google.android.gms.nearby.discovery:ACTION_FAST_PAIR_UNPAIR").putExtra("com.google.android.gms.nearby.discovery:EXTRA_PRIVATE_BLE_ADDRESS", ahyz2.f68428b).putExtra("com.google.android.gms.nearby.discovery.ACCOUNT_KEY", ahyz2.f68429c.mo73780k()));
+                context.startService(DiscoveryChimeraService.m67336a(context).setAction("com.google.android.gms.nearby.discovery:ACTION_FAST_PAIR_UNPAIR").putExtra("com.google.android.gms.nearby.discovery:EXTRA_PRIVATE_BLE_ADDRESS", ahyz2.f68428b).putExtra("com.google.android.gms.nearby.discovery.ACCOUNT_KEY", ahyz2.f68429c.getKey()));
             }
         }
     }

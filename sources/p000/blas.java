@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blas */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blas extends bxvk implements bxxd {
+public final class blas extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final blas f125788a;
@@ -22,7 +22,7 @@ public final class blas extends bxvk implements bxxd {
     static {
         blas blas = new blas();
         f125788a = blas;
-        bxvk.m124024a(blas.class, blas);
+        GeneratedMessageLite.m124024a(blas.class, blas);
     }
 
     private blas() {
@@ -44,7 +44,7 @@ public final class blas extends bxvk implements bxxd {
             this.f125792d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f125788a, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0001\u0002ᐉ\u0000", new Object[]{"b", "c"});
+            return GeneratedMessageLite.m124022a(f125788a, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0001\u0002ᐉ\u0000", new Object[]{"b", "c"});
         } else if (i2 == 3) {
             return new blas();
         } else {

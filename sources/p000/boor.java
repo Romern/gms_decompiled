@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boor */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boor extends bxvk implements bxxd {
+public final class boor extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final boor f133984e;
@@ -25,7 +25,7 @@ public final class boor extends bxvk implements bxxd {
     static {
         boor boor = new boor();
         f133984e = boor;
-        bxvk.m124024a(boor.class, boor);
+        GeneratedMessageLite.m124024a(boor.class, boor);
     }
 
     private boor() {
@@ -42,7 +42,7 @@ public final class boor extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133984e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002\u0002\u0003\u0002\u0004\u0004", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f133984e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002\u0002\u0003\u0002\u0004\u0004", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new boor();
         } else {

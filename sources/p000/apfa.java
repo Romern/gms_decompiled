@@ -25,7 +25,7 @@ public final class apfa {
             return bmvz.f131120a;
         }
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         btel btel = (btel) bxvd;
         ArrayList arrayList = new ArrayList();
         Iterator it = Collections.unmodifiableList(((btem) btel.f164949b).f148534a).iterator();
@@ -51,7 +51,7 @@ public final class apfa {
             btel.mo74035c();
             btel.f164950c = false;
         }
-        ((btem) btel.f164949b).f148534a = bxvk.m124030de();
+        ((btem) btel.f164949b).f148534a = GeneratedMessageLite.m124030de();
         btel.mo70754a(arrayList);
         return bmxv.m108566b((btem) btel.mo74062i());
     }

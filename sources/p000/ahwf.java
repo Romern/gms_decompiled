@@ -33,7 +33,7 @@ final class ahwf {
             bxwc bxwc = cakp.f175030a;
             int size = bxwc.size();
             for (int i2 = 0; i2 < size; i2++) {
-                ahyz a = this.f68219c.mo37032a((bxtx) bxwc.get(i2));
+                ahyz a = this.f68219c.mo37032a((ByteString) bxwc.get(i2));
                 if (a != null) {
                     this.f68220d.mo37017a(bvin.FIND_MY_ACCESSORY_UPLOADED, a.f68437k, bzau.ENTRY_POINT_UNKNOWN, i);
                 } else {

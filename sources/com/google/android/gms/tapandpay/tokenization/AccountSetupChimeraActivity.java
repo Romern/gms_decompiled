@@ -108,7 +108,7 @@ public class AccountSetupChimeraActivity extends atex implements auat {
         }
         btkt btkt2 = (btkt) da.f164949b;
         if (!btkt2.f149308f.mo73666a()) {
-            btkt2.f149308f = bxvk.m124019a(btkt2.f149308f);
+            btkt2.f149308f = GeneratedMessageLite.m124019a(btkt2.f149308f);
         }
         for (btml btml : asList) {
             btkt2.f149308f.mo74153d(btml.mo3214a());
@@ -288,7 +288,7 @@ public class AccountSetupChimeraActivity extends atex implements auat {
             byte[] byteArray = bundle.getByteArray("key_in_flight_request");
             if (byteArray != null) {
                 try {
-                    this.f108755g = (btkt) bxvk.m124016a(btkt.f149301l, byteArray, bxus.m123744c());
+                    this.f108755g = (btkt) GeneratedMessageLite.m124016a(btkt.f149301l, byteArray, bxus.m123744c());
                 } catch (bxwf e) {
                     bnsl bnsl = (bnsl) f108750b.mo68387b();
                     bnsl.mo68437a(e);

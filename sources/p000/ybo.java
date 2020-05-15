@@ -11,7 +11,7 @@ import java.util.HashSet;
 public final class ybo extends sji {
 
     /* renamed from: a */
-    public static final sek f53554a = new sek(new String[]{"Register0POperation"}, (short[]) null);
+    public static final Logger f53554a = new Logger(new String[]{"Register0POperation"}, (short[]) null);
 
     /* renamed from: d */
     public final xxc f53555d;

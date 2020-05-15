@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bium */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bium extends bxvk implements bxxd {
+public final class bium extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bium f121815e;
@@ -28,7 +28,7 @@ public final class bium extends bxvk implements bxxd {
     static {
         bium bium = new bium();
         f121815e = bium;
-        bxvk.m124024a(bium.class, bium);
+        GeneratedMessageLite.m124024a(bium.class, bium);
     }
 
     private bium() {
@@ -49,7 +49,7 @@ public final class bium extends bxvk implements bxxd {
             this.f121821f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121815e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0003\u0001ᔄ\u0000\u0002ᔇ\u0001\u0003ᔇ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f121815e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0003\u0001ᔄ\u0000\u0002ᔇ\u0001\u0003ᔇ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bium();
         } else {

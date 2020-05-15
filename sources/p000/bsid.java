@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsid */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsid extends bxvk implements bxxd {
+public final class bsid extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bsid f144664a;
@@ -13,7 +13,7 @@ public final class bsid extends bxvk implements bxxd {
     static {
         bsid bsid = new bsid();
         f144664a = bsid;
-        bxvk.m124024a(bsid.class, bsid);
+        GeneratedMessageLite.m124024a(bsid.class, bsid);
     }
 
     private bsid() {
@@ -30,7 +30,7 @@ public final class bsid extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f144664a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f144664a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bsid();

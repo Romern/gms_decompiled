@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: kzf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class kzf extends bxvk implements bxxd {
+public final class kzf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bxvu f25444c = new kze();
@@ -22,7 +22,7 @@ public final class kzf extends bxvk implements bxxd {
     static {
         kzf kzf = new kzf();
         f25445d = kzf;
-        bxvk.m124024a(kzf.class, kzf);
+        GeneratedMessageLite.m124024a(kzf.class, kzf);
     }
 
     private kzf() {
@@ -39,7 +39,7 @@ public final class kzf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25445d, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0006\u0002,", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f25445d, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0006\u0002,", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new kzf();
         } else {

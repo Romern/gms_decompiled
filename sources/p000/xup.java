@@ -8,7 +8,7 @@ import com.google.android.gms.common.api.Status;
 public final class xup extends aaab {
 
     /* renamed from: b */
-    public static final sek f53176b = new sek(new String[]{"IsUserVerifyingPlatformAuthenticatorAvailableForCredentialOperation"}, (short[]) null);
+    public static final Logger f53176b = new Logger(new String[]{"IsUserVerifyingPlatformAuthenticatorAvailableForCredentialOperation"}, (short[]) null);
 
     /* renamed from: a */
     public final xoh f53177a;

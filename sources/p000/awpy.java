@@ -49,7 +49,7 @@ public final class awpy extends AsyncTask {
         awqb awqb;
         int i;
         String str;
-        bxtx bxtx;
+        ByteString bxtx;
         try {
             adcy adcy = this.f94835c;
             awqa awqa = new awqa(adcy.f61426a, adcy.f61427b, adcy.f61428c);
@@ -114,7 +114,7 @@ public final class awpy extends AsyncTask {
                     bmqx bmqx2 = (bmqx) da3.f164949b;
                     str3.getClass();
                     if (!bmqx2.f130450b.mo73666a()) {
-                        bmqx2.f130450b = bxvk.m124021a(bmqx2.f130450b);
+                        bmqx2.f130450b = GeneratedMessageLite.m124021a(bmqx2.f130450b);
                     }
                     bmqx2.f130450b.add(str3);
                 }
@@ -129,7 +129,7 @@ public final class awpy extends AsyncTask {
                 bmra.f130456b = 5;
                 bmra.f130458d = 1;
                 bmra.f130455a |= 1;
-                bxtx aL = ((bmra) da2.mo74062i()).mo73639aL();
+                ByteString aL = ((bmra) da2.mo74062i()).mo73639aL();
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -150,11 +150,11 @@ public final class awpy extends AsyncTask {
                             }
                             if (bmbr.f128592i.size() > 0) {
                                 if (bmrb3.f130462b == 3) {
-                                    bxtx = (bxtx) bmrb3.f130463c;
+                                    bxtx = (ByteString) bmrb3.f130463c;
                                 } else {
                                     bxtx = bxtx.f164797b;
                                 }
-                                byte[] k = bxtx.mo73780k();
+                                byte[] k = bxtx.getKey();
                                 Intent intent = new Intent("com.google.android.gms.identity.REQUEST_USER_ADDRESS");
                                 intent.setClassName("com.google.android.gms", "com.google.android.gms.wallet.ow.ChooseAccountShimActivity");
                                 intent.putExtra("com.google.android.gms.identity.intents.EXTA_CONFIG", a4);

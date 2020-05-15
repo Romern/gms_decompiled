@@ -20,7 +20,7 @@ public final class awqi extends awqu {
         if (walletAnalyticsEvent instanceof awqh) {
             bpht bpht = this.f94851a;
             bxvd bxvd = (bxvd) bpht.mo74142c(5);
-            bxvd.mo73625a((bxvk) bpht);
+            bxvd.mo73625a((GeneratedMessageLite) bpht);
             ((awqh) walletAnalyticsEvent).mo52464a(context, this, bxvd);
             this.f94851a = (bpht) bxvd.mo74062i();
             return;

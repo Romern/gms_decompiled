@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blub */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blub extends bxvk implements bxxd {
+public final class blub extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final blub f127773e;
@@ -25,7 +25,7 @@ public final class blub extends bxvk implements bxxd {
     static {
         blub blub = new blub();
         f127773e = blub;
-        bxvk.m124024a(blub.class, blub);
+        GeneratedMessageLite.m124024a(blub.class, blub);
     }
 
     private blub() {
@@ -42,7 +42,7 @@ public final class blub extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127773e, "\u0001\u0003\u0000\u0001\u0002\u0004\u0003\u0000\u0000\u0000\u0002င\u0001\u0003ဈ\u0000\u0004င\u0002", new Object[]{"a", "c", "b", "d"});
+            return GeneratedMessageLite.m124022a(f127773e, "\u0001\u0003\u0000\u0001\u0002\u0004\u0003\u0000\u0000\u0000\u0002င\u0001\u0003ဈ\u0000\u0004င\u0002", new Object[]{"a", "c", "b", "d"});
         } else if (i2 == 3) {
             return new blub();
         } else {

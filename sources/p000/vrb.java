@@ -208,7 +208,7 @@ public final class vrb {
         sb.append(", event: ");
         sb.append(valueOf2);
         sb.toString();
-        qwo a = this.f49836g.mo24335a(bpcl.mo73642k());
+        qwo a = this.f49836g.mo24335a(bpcl.serializeToBytes());
         a.mo24325a("com.google.android.projection.gearhead");
         a.mo24328b(i - 1);
         a.mo24327b();
@@ -216,7 +216,7 @@ public final class vrb {
 
     /* renamed from: a */
     private final void m41096a(btxm btxm, int i) {
-        qwo a = this.f49836g.mo24335a(btxm.mo73642k());
+        qwo a = this.f49836g.mo24335a(btxm.serializeToBytes());
         a.mo24325a("com.google.android.gms.location");
         a.mo24328b(i - 1);
         a.mo24327b();

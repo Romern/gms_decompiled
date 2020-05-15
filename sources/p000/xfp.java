@@ -15,7 +15,7 @@ public final class xfp extends xfo {
     }
 
     /* renamed from: a */
-    public final bxtx mo29694a() {
+    public final ByteString mo29694a() {
         if (!this.f52133a.isEmpty()) {
             return ((xfr) this.f52133a.get(0)).f52139b;
         }

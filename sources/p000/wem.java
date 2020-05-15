@@ -7,7 +7,7 @@ import android.content.Context;
 public final class wem {
     /* renamed from: a */
     public static wez m41836a(Context context, wel wel) {
-        sdo.m34966a(wel, "Must provide non-null Facs Cache options!");
+        sdo.checkIfNull(wel, "Must provide non-null Facs Cache options!");
         return new wez(context, wel);
     }
 }

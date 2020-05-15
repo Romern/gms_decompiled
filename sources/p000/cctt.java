@@ -11,6 +11,6 @@ final /* synthetic */ class cctt implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (ccwz) bxvk.m124014a(ccwz.f180139b, bArr);
+        return (ccwz) GeneratedMessageLite.m124014a(ccwz.f180139b, bArr);
     }
 }

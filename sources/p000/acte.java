@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: acte */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class acte extends bxvk implements bxxd {
+public final class acte extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final acte f60730c;
@@ -14,12 +14,12 @@ public final class acte extends bxvk implements bxxd {
     public int f60732a;
 
     /* renamed from: b */
-    public bxtx f60733b = bxtx.f164797b;
+    public ByteString f60733b = ByteString.f164797b;
 
     static {
         acte acte = new acte();
         f60730c = acte;
-        bxvk.m124024a(acte.class, acte);
+        GeneratedMessageLite.m124024a(acte.class, acte);
     }
 
     private acte() {
@@ -36,7 +36,7 @@ public final class acte extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f60730c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f60730c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new acte();
         } else {

@@ -150,7 +150,7 @@ final class awmt extends awpc {
         bmar bmar;
         bmrx bmrx;
         bmav bmav;
-        bxtx bxtx;
+        ByteString bxtx;
         bwgz a = bwgz.m121952a(bmsc.f130655h);
         if (a == null) {
             a = bwgz.UNKNOWN_FLOW_INSTRUCTION;
@@ -167,11 +167,11 @@ final class awmt extends awpc {
                     bmag = bmag.f128442c;
                 }
                 if (bmag.f128444a == 2) {
-                    bxtx = (bxtx) bmag.f128445b;
+                    bxtx = (ByteString) bmag.f128445b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
-                bArr = bxtx.mo73780k();
+                bArr = bxtx.getKey();
             } else {
                 bArr = null;
             }

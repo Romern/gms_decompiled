@@ -36,8 +36,8 @@ public final class vnr {
     static {
         FieldOnlyFilter fieldOnlyFilter = new FieldOnlyFilter(vgc.f49226j);
         Filter[] filterArr = {vfu.m40350a(vfu.m40352a(vgc.f49218b, "application/vnd.google-apps.folder"))};
-        sdo.m34966a(fieldOnlyFilter, "Filter may not be null.");
-        sdo.m34966a(filterArr, "Additional filters may not be null.");
+        sdo.checkIfNull(fieldOnlyFilter, "Filter may not be null.");
+        sdo.checkIfNull(filterArr, "Additional filters may not be null.");
         f49590e = new ViewPathElement(C0126R.string.drive_view_recent, C0126R.C0127drawable.quantum_ic_schedule_grey600_24, new LogicalFilter(Operator.f31127f, fieldOnlyFilter, filterArr), voc.f49622c);
         ViewPathElement viewPathElement = new ViewPathElement(C0126R.string.drive_filestate_starred, C0126R.C0127drawable.quantum_ic_grade_grey600_24, vfu.m40352a(vgc.f49221e, (Object) true), voc.f49623d);
         f49588c = viewPathElement;

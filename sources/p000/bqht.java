@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqht */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqht extends bxvk implements bxxd {
+public final class bqht extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bqht f140719b;
@@ -16,7 +16,7 @@ public final class bqht extends bxvk implements bxxd {
     static {
         bqht bqht = new bqht();
         f140719b = bqht;
-        bxvk.m124024a(bqht.class, bqht);
+        GeneratedMessageLite.m124024a(bqht.class, bqht);
     }
 
     private bqht() {
@@ -33,7 +33,7 @@ public final class bqht extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f140719b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001%", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f140719b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001%", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bqht();
         } else {

@@ -18,7 +18,7 @@ public final class nvu {
         bpeb bpeb = bpeb.SETTINGS_AA_GOOGLE_SETTINGS;
         bpcl a = this.f36694a.mo22311a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bxvd da = bped.f137237x.mo74144da();
         int i = bpeb.f137221cE;
         if (da.f164950c) {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bppy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bppy extends bxvk implements bxxd {
+public final class bppy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bppy f138674c;
@@ -19,7 +19,7 @@ public final class bppy extends bxvk implements bxxd {
     static {
         bppy bppy = new bppy();
         f138674c = bppy;
-        bxvk.m124024a(bppy.class, bppy);
+        GeneratedMessageLite.m124024a(bppy.class, bppy);
     }
 
     private bppy() {
@@ -36,7 +36,7 @@ public final class bppy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138674c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bppx.f138673a});
+            return GeneratedMessageLite.m124022a(f138674c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bppx.f138673a});
         } else if (i2 == 3) {
             return new bppy();
         } else {

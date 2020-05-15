@@ -25,7 +25,7 @@ public final class bwoq extends bxvg implements bxvh {
     static {
         bwoq bwoq = new bwoq();
         f160480d = bwoq;
-        bxvk.m124024a(bwoq.class, bwoq);
+        GeneratedMessageLite.m124024a(bwoq.class, bwoq);
     }
 
     private bwoq() {
@@ -46,7 +46,7 @@ public final class bwoq extends bxvg implements bxvh {
             this.f160485e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f160480d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0014\u0002င\u0000", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f160480d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0014\u0002င\u0000", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bwoq();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bolv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bolv extends bxvk implements bxxd {
+public final class bolv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bolv f133591a;
@@ -13,7 +13,7 @@ public final class bolv extends bxvk implements bxxd {
     static {
         bolv bolv = new bolv();
         f133591a = bolv;
-        bxvk.m124024a(bolv.class, bolv);
+        GeneratedMessageLite.m124024a(bolv.class, bolv);
     }
 
     private bolv() {
@@ -30,7 +30,7 @@ public final class bolv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133591a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f133591a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bolv();

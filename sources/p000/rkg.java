@@ -7,7 +7,7 @@ import com.google.android.gms.common.api.Status;
 public final class rkg {
     /* renamed from: a */
     public static rke m33851a(Status status, rkb rkb) {
-        sdo.m34966a(status, "Result must not be null");
+        sdo.checkIfNull(status, "Result must not be null");
         rou rou = new rou(rkb);
         rou.mo17716a(status);
         return rou;

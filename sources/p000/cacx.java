@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cacx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cacx extends bxvk implements bxxd {
+public final class cacx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cacx f172639c;
@@ -19,7 +19,7 @@ public final class cacx extends bxvk implements bxxd {
     static {
         cacx cacx = new cacx();
         f172639c = cacx;
-        bxvk.m124024a(cacx.class, cacx);
+        GeneratedMessageLite.m124024a(cacx.class, cacx);
     }
 
     private cacx() {
@@ -36,7 +36,7 @@ public final class cacx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172639c, "\u0001\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001ြ\u0000", new Object[]{"b", "a", cacw.class});
+            return GeneratedMessageLite.m124022a(f172639c, "\u0001\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001ြ\u0000", new Object[]{"b", "a", cacw.class});
         } else if (i2 == 3) {
             return new cacx();
         } else {

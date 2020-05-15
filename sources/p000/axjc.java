@@ -43,7 +43,7 @@ public final /* synthetic */ class axjc implements axls {
             } else {
                 btsb btsb = transferMoneyChimeraActivity.f110725m.f110643b;
                 bxvd bxvd = (bxvd) btsb.mo74142c(5);
-                bxvd.mo73625a((bxvk) btsb);
+                bxvd.mo73625a((GeneratedMessageLite) btsb);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

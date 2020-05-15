@@ -32,7 +32,7 @@ public class PaymentDataRequestUpdate extends AbstractSafeParcelable {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public static PaymentDataRequestUpdate m93872a(String str) {
-        sdo.m34966a((Object) str, (Object) "JSON cannot be null!");
+        sdo.checkIfNull((Object) str, (Object) "JSON cannot be null!");
         return new PaymentDataRequestUpdate(str, null);
     }
 

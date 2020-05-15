@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biud */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biud extends bxvk implements bxxd {
+public final class biud extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final biud f121766c;
@@ -25,7 +25,7 @@ public final class biud extends bxvk implements bxxd {
     static {
         biud biud = new biud();
         f121766c = biud;
-        bxvk.m124024a(biud.class, biud);
+        GeneratedMessageLite.m124024a(biud.class, biud);
     }
 
     private biud() {
@@ -46,7 +46,7 @@ public final class biud extends bxvk implements bxxd {
             this.f121771e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121766c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔄ\u0000\u0002ᔄ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f121766c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔄ\u0000\u0002ᔄ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new biud();
         } else {

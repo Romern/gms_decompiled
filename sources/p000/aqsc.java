@@ -42,7 +42,7 @@ public final /* synthetic */ class aqsc implements View.OnClickListener {
         bzim bzim = (bzim) da2.f164949b;
         bzio.getClass();
         if (!bzim.f170211a.mo73666a()) {
-            bzim.f170211a = bxvk.m124021a(bzim.f170211a);
+            bzim.f170211a = GeneratedMessageLite.m124021a(bzim.f170211a);
         }
         bzim.f170211a.add(bzio);
         if (da.f164950c) {

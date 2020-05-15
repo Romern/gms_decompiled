@@ -25,8 +25,8 @@ public final class awlm {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final GetSaveInstrumentDetailsRequest mo52242a() {
-        sdo.m34966a((Object) this.f94596a.f110182a, (Object) "Merchant app package name is required");
-        sdo.m34966a(Long.valueOf(this.f94596a.f110183b), "Billing customer number is required");
+        sdo.checkIfNull((Object) this.f94596a.f110182a, (Object) "Merchant app package name is required");
+        sdo.checkIfNull(Long.valueOf(this.f94596a.f110183b), "Billing customer number is required");
         return this.f94596a;
     }
 

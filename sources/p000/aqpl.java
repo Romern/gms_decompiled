@@ -19,7 +19,7 @@ import com.google.android.gms.auth.firstparty.delegate.TokenWorkflowRequest;
 public final class aqpl {
 
     /* renamed from: a */
-    public static final sek f86506a = aqom.m71876c("TokenRequester");
+    public static final Logger f86506a = aqom.m71876c("TokenRequester");
 
     /* renamed from: c */
     private static final bngx f86507c = bngx.m109360a("authAccount", "booleanResult", "accountType", "authtoken", "retry");

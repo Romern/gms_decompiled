@@ -186,7 +186,7 @@ final /* synthetic */ class bbbg implements bqeh {
                             bpxt bpxt = (bpxt) da.f164949b;
                             bpxs2.getClass();
                             if (!bpxt.f139780b.mo73666a()) {
-                                bpxt.f139780b = bxvk.m124021a(bpxt.f139780b);
+                                bpxt.f139780b = GeneratedMessageLite.m124021a(bpxt.f139780b);
                             }
                             bpxt.f139780b.add(bpxs2);
                             j += j5;

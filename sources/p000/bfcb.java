@@ -120,7 +120,7 @@ public final class bfcb implements bfbx {
                 if (!((bfbv) bfaf).f113345d.contains(a)) {
                     bupy bupy = null;
                     if (((Integer) ((bfbv) bfaf).f113346e.get(a)) != null) {
-                        bupy = (bupy) bxvk.m124014a(bupy.f154690c, ((bfbv) bfaf).f113348g.mo61372b(Files.readAllBytes(((bfbv) bfaf).mo61375b(a, j))));
+                        bupy = (bupy) GeneratedMessageLite.m124014a(bupy.f154690c, ((bfbv) bfaf).f113348g.mo61372b(Files.readAllBytes(((bfbv) bfaf).mo61375b(a, j))));
                     }
                     if (bupy == null) {
                         arrayList.add(str);
@@ -183,7 +183,7 @@ public final class bfcb implements bfbx {
                     bupw bupw2 = (bupw) da2.mo74062i();
                     bupw2.getClass();
                     if (!bupp.f154666b.mo73666a()) {
-                        bupp.f154666b = bxvk.m124021a(bupp.f154666b);
+                        bupp.f154666b = GeneratedMessageLite.m124021a(bupp.f154666b);
                     }
                     bupp.f154666b.add(bupw2);
                 }
@@ -313,7 +313,7 @@ public final class bfcb implements bfbx {
                             }
                             strArr2[0] = bfbv.m96317a(j3, bupj2.f154646a, ((bfbv) bfaf).f113347f).toString();
                             Path path5 = Paths.get(path4, strArr2);
-                            Files.write(path5, ((bfbv) bfaf).f113348g.mo61371a(bupy3.mo73642k()), StandardOpenOption.CREATE_NEW);
+                            Files.write(path5, ((bfbv) bfaf).f113348g.mo61371a(bupy3.serializeToBytes()), StandardOpenOption.CREATE_NEW);
                             path5.toString();
                             ((bfbv) bfaf).f113346e.put(a4, Integer.valueOf((int) j));
                             bfah = bfah2;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvte */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvte extends bxvk implements bxxd {
+public final class bvte extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvte f157560a;
@@ -13,7 +13,7 @@ public final class bvte extends bxvk implements bxxd {
     static {
         bvte bvte = new bvte();
         f157560a = bvte;
-        bxvk.m124024a(bvte.class, bvte);
+        GeneratedMessageLite.m124024a(bvte.class, bvte);
     }
 
     private bvte() {
@@ -30,7 +30,7 @@ public final class bvte extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157560a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f157560a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvte();

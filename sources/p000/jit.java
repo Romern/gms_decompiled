@@ -24,13 +24,13 @@ public final class jit implements jir {
 
     /* renamed from: a */
     public final void mo13768a(String str) {
-        sek sek = jiu.f22568a;
+        Logger Logger = jiu.f22568a;
         Object[] objArr = new Object[1];
         if (str == null) {
             str = "null";
         }
         objArr[0] = str;
-        sek.mo25418e("Advertisement rotation failed: %s", objArr);
+        Logger.mo25418e("Advertisement rotation failed: %s", objArr);
         this.f22567b.f11093a.mo13772c();
         this.f22566a.mo49120c();
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvos */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvos extends bxvk implements bxxd {
+public final class bvos extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bvos f157212c;
@@ -22,7 +22,7 @@ public final class bvos extends bxvk implements bxxd {
     static {
         bvos bvos = new bvos();
         f157212c = bvos;
-        bxvk.m124024a(bvos.class, bvos);
+        GeneratedMessageLite.m124024a(bvos.class, bvos);
     }
 
     private bvos() {
@@ -39,7 +39,7 @@ public final class bvos extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157212c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001c", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f157212c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001c", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new bvos();
         } else {

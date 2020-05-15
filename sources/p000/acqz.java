@@ -38,7 +38,7 @@ public final class acqz extends acpn {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo11132a() {
         String action;
-        bxtx a;
+        ByteString a;
         byte[] a2;
         acqv acqv;
         long j;
@@ -173,7 +173,7 @@ public final class acqz extends acpn {
                                 int i3 = IndexWorkerChimeraService.f79087c;
                                 if (intent4.hasExtra("icing-gcm-msg-base64") && (a2 = GcmReceiverChimeraService.m66664a(intent4)) != null) {
                                     try {
-                                        acqv = (acqv) bxvk.m124016a(acqv.f60548d, a2, bxus.m123744c());
+                                        acqv = (acqv) GeneratedMessageLite.m124016a(acqv.f60548d, a2, bxus.m123744c());
                                     } catch (bxwf e) {
                                         absg.m48192b("Gcm message parse failed: %s", e.getMessage());
                                         acqv = null;
@@ -182,7 +182,7 @@ public final class acqz extends acpn {
                                         indexWorkerChimeraService4.mo43420a().mo32306a(acqv);
                                     }
                                 }
-                                if (intent4.hasExtra("icing-fpop-user-actions-base64") && (a = bxtx.m123261a(GcmReceiverChimeraService.m66665a(intent4, "icing-fpop-user-actions-base64"))) != null) {
+                                if (intent4.hasExtra("icing-fpop-user-actions-base64") && (a = ByteString.m123261a(GcmReceiverChimeraService.m66665a(intent4, "icing-fpop-user-actions-base64"))) != null) {
                                     abrv a8 = indexWorkerChimeraService4.mo43420a();
                                     if (a8.mo32320d()) {
                                         acpl.mo32995d(new acsp(a8.f58066b, a8.f58085u, a8, a8.f58078n, a8.mo32298a(), a8.mo32331n(), a8.f58083s, a, a8.f58087w));
@@ -194,7 +194,7 @@ public final class acqz extends acpn {
                                 byte[] a9 = GcmReceiverChimeraService.m66664a(this.f60568a);
                                 if (a9 != null) {
                                     try {
-                                        this.f60569b.mo43420a().mo32306a((acqv) bxvk.m124016a(acqv.f60548d, a9, bxus.m123744c()));
+                                        this.f60569b.mo43420a().mo32306a((acqv) GeneratedMessageLite.m124016a(acqv.f60548d, a9, bxus.m123744c()));
                                     } catch (bxwf e2) {
                                         absg.m48192b("Gcm message parse failed: %s", e2.getMessage());
                                     }

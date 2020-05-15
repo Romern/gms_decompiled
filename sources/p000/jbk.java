@@ -16,22 +16,22 @@ import java.security.cert.CertificateFactory;
 final class jbk {
 
     /* renamed from: i */
-    private static final sek f22107i = jdh.m16547a("RecoveryDataHolder");
+    private static final Logger f22107i = jdh.m16547a("RecoveryDataHolder");
 
     /* renamed from: a */
     public final Account f22108a;
 
     /* renamed from: b */
-    public final bxtx f22109b;
+    public final ByteString f22109b;
 
     /* renamed from: c */
-    public final bxtx f22110c;
+    public final ByteString f22110c;
 
     /* renamed from: d */
     public final CertPath f22111d;
 
     /* renamed from: e */
-    public final bxtx f22112e;
+    public final ByteString f22112e;
 
     /* renamed from: f */
     public final int f22113f;
@@ -40,9 +40,9 @@ final class jbk {
     public final long f22114g;
 
     /* renamed from: h */
-    public final bxtx f22115h;
+    public final ByteString f22115h;
 
-    private jbk(Account account, bxtx bxtx, bxtx bxtx2, CertPath certPath, bxtx bxtx3, long j, int i, bxtx bxtx4) {
+    private jbk(Account account, ByteString bxtx, ByteString bxtx2, CertPath certPath, ByteString bxtx3, long j, int i, ByteString bxtx4) {
         this.f22108a = account;
         this.f22109b = bxtx;
         this.f22110c = bxtx2;
@@ -54,10 +54,10 @@ final class jbk {
     }
 
     /* renamed from: a */
-    private static bxtx m16461a(Bundle bundle, String str) {
+    private static ByteString m16461a(Bundle bundle, String str) {
         byte[] byteArray = bundle.getByteArray(str);
         if (byteArray != null) {
-            return bxtx.m123261a(byteArray);
+            return ByteString.m123261a(byteArray);
         }
         throw new jbl(str.length() == 0 ? new String("Null ") : "Null ".concat(str), 14);
     }
@@ -80,17 +80,17 @@ final class jbk {
         Parcelable parcelable = bundle.getParcelable("com.google.android.gms.auth.folsom.EXTRA_ACCOUNT");
         if (parcelable != null) {
             Account account = (Account) ((Parcelable) Account.class.cast(parcelable));
-            bxtx a = m16461a(bundle, "com.google.android.gms.auth.folsom.EXTRA_LSKF_HASH");
-            bxtx a2 = m16461a(bundle, "com.google.android.gms.auth.folsom.EXTRA_CHALLENGE");
-            bxtx a3 = m16461a(bundle, "com.google.android.gms.auth.folsom.EXTRA_VAULT_HANDLE");
+            ByteString a = m16461a(bundle, "com.google.android.gms.auth.folsom.EXTRA_LSKF_HASH");
+            ByteString a2 = m16461a(bundle, "com.google.android.gms.auth.folsom.EXTRA_CHALLENGE");
+            ByteString a3 = m16461a(bundle, "com.google.android.gms.auth.folsom.EXTRA_VAULT_HANDLE");
             try {
                 CertPath b = m16463b(bundle);
                 if (b != null) {
                     f22107i.mo25412b("Received non-null CertPath for recovery.", new Object[0]);
-                    bxtx a4 = bxtx.m123261a(bslu.m115954a(((Certificate) b.getCertificates().get(0)).getPublicKey()));
-                    bxtx a5 = m16461a(bundle, "com.google.android.gms.auth.folsom.EXTRA_COUNTER_ID");
+                    ByteString a4 = ByteString.m123261a(bslu.m115954a(((Certificate) b.getCertificates().get(0)).getPublicKey()));
+                    ByteString a5 = m16461a(bundle, "com.google.android.gms.auth.folsom.EXTRA_COUNTER_ID");
                     if (a5.mo73744a() == 8) {
-                        long j = ByteBuffer.wrap(a5.mo73780k()).order(ByteOrder.LITTLE_ENDIAN).getLong();
+                        long j = ByteBuffer.wrap(a5.getKey()).order(ByteOrder.LITTLE_ENDIAN).getLong();
                         int i = bundle.getInt("com.google.android.gms.auth.folsom.EXTRA_MAX_ATTEMPTS");
                         return new jbk(account, a, a2, b, a4, j, i == 0 ? 10 : i, a3);
                     }

@@ -77,7 +77,7 @@ public final class akbu {
         }
         try {
             fileInputStream = new FileInputStream(a);
-            ajhg ajhg = (ajhg) bxvk.m124011a(ajhg.f70622e, fileInputStream, bxus.m123744c());
+            ajhg ajhg = (ajhg) GeneratedMessageLite.m124011a(ajhg.f70622e, fileInputStream, bxus.m123744c());
             fileInputStream.close();
             return ajhg;
         } catch (IOException e) {
@@ -210,7 +210,7 @@ public final class akbu {
             ajhg b2 = m59307b(b);
             if (!str.equals(b2.f70627d)) {
                 bxvd bxvd = (bxvd) b2.mo74142c(5);
-                bxvd.mo73625a((bxvk) b2);
+                bxvd.mo73625a((GeneratedMessageLite) b2);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -251,7 +251,7 @@ public final class akbu {
             ajhg b2 = m59307b(b);
             if (!str.equals(b2.f70626c)) {
                 bxvd bxvd = (bxvd) b2.mo74142c(5);
-                bxvd.mo73625a((bxvk) b2);
+                bxvd.mo73625a((GeneratedMessageLite) b2);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -293,7 +293,7 @@ public final class akbu {
                 }
                 if (!TextUtils.isEmpty(str2)) {
                     bxvd bxvd = (bxvd) b.mo74142c(5);
-                    bxvd.mo73625a((bxvk) b);
+                    bxvd.mo73625a((GeneratedMessageLite) b);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;

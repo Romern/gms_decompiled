@@ -23,9 +23,9 @@ public abstract class bxsz implements bxxc {
     }
 
     /* renamed from: aL */
-    public final bxtx mo73639aL() {
+    public final ByteString mo73639aL() {
         try {
-            bxts e = bxtx.m123269e(mo74145db());
+            bxts e = ByteString.m123269e(mo74145db());
             mo73644a(e.f164787a);
             return e.mo73749a();
         } catch (IOException e2) {
@@ -44,7 +44,7 @@ public abstract class bxsz implements bxxc {
     }
 
     /* renamed from: k */
-    public final byte[] mo73642k() {
+    public final byte[] serializeToBytes() {
         try {
             byte[] bArr = new byte[mo74145db()];
             bxuk a = bxuk.m123637a(bArr);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bteh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bteh extends bxvk implements bxxd {
+public final class bteh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bteh f148502d;
@@ -22,7 +22,7 @@ public final class bteh extends bxvk implements bxxd {
     static {
         bteh bteh = new bteh();
         f148502d = bteh;
-        bxvk.m124024a(bteh.class, bteh);
+        GeneratedMessageLite.m124024a(bteh.class, bteh);
     }
 
     private bteh() {
@@ -39,7 +39,7 @@ public final class bteh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148502d, "\u0000\u0003\u0000\u0000\u0001\u0007\u0003\u0000\u0001\u0000\u0001\t\u0003,\u0007\t", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f148502d, "\u0000\u0003\u0000\u0000\u0001\u0007\u0003\u0000\u0001\u0000\u0001\t\u0003,\u0007\t", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bteh();
         } else {

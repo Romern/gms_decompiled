@@ -19,7 +19,7 @@ final class vdi implements vcv {
 
     /* renamed from: c */
     private final void m40125c() {
-        sdo.m34966a(this.f49074c, "Builder can only be used once.");
+        sdo.checkIfNull(this.f49074c, "Builder can only be used once.");
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead

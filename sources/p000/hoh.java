@@ -10,7 +10,7 @@ import java.util.Set;
 public final class hoh implements hep {
 
     /* renamed from: a */
-    public static final sek f20114a = ght.m13171a("ListCredentialsOperation");
+    public static final Logger f20114a = ght.m13171a("ListCredentialsOperation");
 
     /* renamed from: b */
     public final hky f20115b;

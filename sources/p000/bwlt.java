@@ -17,7 +17,7 @@ public final class bwlt extends bxvd implements bxxd {
         bwma bwma2 = bwma.f160196M;
         bwlv.getClass();
         if (!bwma.f160208K.mo73666a()) {
-            bwma.f160208K = bxvk.m124019a(bwma.f160208K);
+            bwma.f160208K = GeneratedMessageLite.m124019a(bwma.f160208K);
         }
         bwma.f160208K.mo74153d(bwlv.f160183d);
     }
@@ -32,7 +32,7 @@ public final class bwlt extends bxvd implements bxxd {
         bwma bwma2 = bwma.f160196M;
         bwly.getClass();
         if (!bwma.f160233x.mo73666a()) {
-            bwma.f160233x = bxvk.m124019a(bwma.f160233x);
+            bwma.f160233x = GeneratedMessageLite.m124019a(bwma.f160233x);
         }
         bwma.f160233x.mo74153d(bwly.f160194h);
     }

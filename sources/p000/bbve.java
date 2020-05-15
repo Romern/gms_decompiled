@@ -60,7 +60,7 @@ final /* synthetic */ class bbve implements bdaq {
                             return;
                         }
                         bxvd bxvd = (bxvd) cbff.mo74142c(5);
-                        bxvd.mo73625a((bxvk) cbff);
+                        bxvd.mo73625a((GeneratedMessageLite) cbff);
                         cbdl a2 = bcli.m89240a((ConversationId) bmxv2.mo66814b());
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
@@ -77,7 +77,7 @@ final /* synthetic */ class bbve implements bdaq {
                         }
                         ((cbff) bxvd.f164949b).f176901h = micros;
                         bxvd da = cbkj.f177405k.mo74144da();
-                        bxtx aL = ((cbff) bxvd.mo74062i()).mo73639aL();
+                        ByteString aL = ((cbff) bxvd.mo74062i()).mo73639aL();
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;

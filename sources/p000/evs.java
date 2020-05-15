@@ -13,7 +13,7 @@ final class evs {
     public final ffk f15894b;
 
     /* renamed from: c */
-    public final sek f15895c;
+    public final Logger f15895c;
 
     /* renamed from: d */
     public final ewh f15896d;
@@ -24,10 +24,10 @@ final class evs {
     /* renamed from: f */
     public final esr f15898f;
 
-    public evs(Fragment fragment, ffk ffk, sek sek, esr esr, ewh ewh, ewg ewg) {
+    public evs(Fragment fragment, ffk ffk, Logger Logger, esr esr, ewh ewh, ewg ewg) {
         this.f15893a = fragment;
         this.f15894b = ffk;
-        this.f15895c = sek;
+        this.f15895c = Logger;
         this.f15898f = esr;
         this.f15896d = ewh;
         this.f15897e = ewg;

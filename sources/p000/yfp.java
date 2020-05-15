@@ -284,7 +284,7 @@ public final class yfp {
                     if ((caaw4.f172381a & 8) != 0) {
                         byte[] e = yfu.mo30438e();
                         caau caau2 = a.f53735a;
-                        bxtx a2 = bxtx.m123261a(e);
+                        ByteString a2 = ByteString.m123261a(e);
                         if (caau2.f164950c) {
                             caau2.mo74035c();
                             caau2.f164950c = false;

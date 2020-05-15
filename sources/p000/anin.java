@@ -82,7 +82,7 @@ public final class anin extends aniu {
         cahe.f174541c.add(cahd3);
         HeterodyneSyncTaskChimeraService heterodyneSyncTaskChimeraService = this.f76950a;
         srn srn = HeterodyneSyncTaskChimeraService.f82139a;
-        qwo a2 = heterodyneSyncTaskChimeraService.f82144e.mo24335a(((cahe) da.mo74062i()).mo73642k());
+        qwo a2 = heterodyneSyncTaskChimeraService.f82144e.mo24335a(((cahe) da.mo74062i()).serializeToBytes());
         a2.f42320d = "CLEARCUT_LOG_LOSS";
         a2.f42322f = cagz.DEFAULT;
         a2.mo24327b();
@@ -294,7 +294,7 @@ public final class anin extends aniu {
         cahp2.getClass();
         caig.f174685c = cahp2;
         caig.f174683a |= 2;
-        qwo a2 = this.f76950a.f82144e.mo24335a(((caig) a.mo74062i()).mo73642k());
+        qwo a2 = this.f76950a.f82144e.mo24335a(((caig) a.mo74062i()).serializeToBytes());
         a2.mo24328b(16);
         a2.mo24327b();
         anij.m64485e(this.f76950a.f82141b);

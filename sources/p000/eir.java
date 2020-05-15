@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: eir */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class eir extends bxvk implements bxxd {
+public final class eir extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final eir f15088c;
@@ -19,7 +19,7 @@ public final class eir extends bxvk implements bxxd {
     static {
         eir eir = new eir();
         f15088c = eir;
-        bxvk.m124024a(eir.class, eir);
+        GeneratedMessageLite.m124024a(eir.class, eir);
     }
 
     private eir() {
@@ -36,7 +36,7 @@ public final class eir extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f15088c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\f\u0002\f", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f15088c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\f\u0002\f", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new eir();
         } else {

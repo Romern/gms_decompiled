@@ -19,7 +19,7 @@ public abstract class rle extends BasePendingResult implements rlf {
     @Deprecated
     protected rle(rje rje, rkb rkb) {
         super(rkb);
-        sdo.m34966a(rkb, "GoogleApiClient must not be null");
+        sdo.checkIfNull(rkb, "GoogleApiClient must not be null");
         sdo.m34959a(rje);
         this.f43219d = rje;
         this.f43220e = null;
@@ -58,8 +58,8 @@ public abstract class rle extends BasePendingResult implements rlf {
     /* JADX INFO: super call moved to the top of the method (can break code semantics) */
     protected rle(rjo rjo, rkb rkb) {
         super(rkb);
-        sdo.m34966a(rkb, "GoogleApiClient must not be null");
-        sdo.m34966a(rjo, "Api must not be null");
+        sdo.checkIfNull(rkb, "GoogleApiClient must not be null");
+        sdo.checkIfNull(rjo, "Api must not be null");
         this.f43219d = rjo.mo24653a();
         this.f43220e = rjo;
     }

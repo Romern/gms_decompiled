@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpsz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpsz extends bxvk implements bxxd {
+public final class bpsz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: I */
     public static final bpsz f139036I;
@@ -118,7 +118,7 @@ public final class bpsz extends bxvk implements bxxd {
     static {
         bpsz bpsz = new bpsz();
         f139036I = bpsz;
-        bxvk.m124024a(bpsz.class, bpsz);
+        GeneratedMessageLite.m124024a(bpsz.class, bpsz);
     }
 
     private bpsz() {
@@ -145,7 +145,7 @@ public final class bpsz extends bxvk implements bxxd {
             this.f139046J = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f139036I, "\u0001 \u0000\u0002\u00023 \u0000\u0006\u0001\u0002ဂ\u0001\u0003ဌ\u0002\u0005ဉ\u0004\u0007ဉ\u0006\bဉ\u0007\tဈ\u000e\u0010ဉ\u000f\u0011ဈ\u0010\u0012\u0016\u0014\u001b\u0015\u001b\u0016\u001b\u0017ဌ\u0011\u0019\u001b\u001aဉ\u0016\u001bဌ\u0018\u001dင\u001a\u001eင\u001b\u001fဆ\u001c ဉ\u001d#ဌ\u0012$ဉ\u0013%ᐉ 'ဉ\"(\u001b)ဌ#-ဇ%.ဇ&/ဌ'1င\u00142ဉ)3ဉ*", new Object[]{"a", "b", "c", "d", bpfl.f137413a, "e", "f", "g", "h", "i", "j", "k", "l", bptg.class, "m", bpta.class, "n", bpto.class, "o", bpfi.m111868b(), "s", bptc.class, "t", "u", bpew.m111850b(), "v", "w", "x", "y", "p", bpfe.m111862b(), "q", "z", "A", "B", bpsw.class, "C", bpff.f137393a, "D", "E", "F", bpeu.f137355a, "r", "G", "H"});
+            return GeneratedMessageLite.m124022a(f139036I, "\u0001 \u0000\u0002\u00023 \u0000\u0006\u0001\u0002ဂ\u0001\u0003ဌ\u0002\u0005ဉ\u0004\u0007ဉ\u0006\bဉ\u0007\tဈ\u000e\u0010ဉ\u000f\u0011ဈ\u0010\u0012\u0016\u0014\u001b\u0015\u001b\u0016\u001b\u0017ဌ\u0011\u0019\u001b\u001aဉ\u0016\u001bဌ\u0018\u001dင\u001a\u001eင\u001b\u001fဆ\u001c ဉ\u001d#ဌ\u0012$ဉ\u0013%ᐉ 'ဉ\"(\u001b)ဌ#-ဇ%.ဇ&/ဌ'1င\u00142ဉ)3ဉ*", new Object[]{"a", "b", "c", "d", bpfl.f137413a, "e", "f", "g", "h", "i", "j", "k", "l", bptg.class, "m", bpta.class, "n", bpto.class, "o", bpfi.m111868b(), "s", bptc.class, "t", "u", bpew.m111850b(), "v", "w", "x", "y", "p", bpfe.m111862b(), "q", "z", "A", "B", bpsw.class, "C", bpff.f137393a, "D", "E", "F", bpeu.f137355a, "r", "G", "H"});
         } else if (i2 == 3) {
             return new bpsz();
         } else {
@@ -172,7 +172,7 @@ public final class bpsz extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo68983a() {
         if (!this.f139059m.mo73666a()) {
-            this.f139059m = bxvk.m124021a(this.f139059m);
+            this.f139059m = GeneratedMessageLite.m124021a(this.f139059m);
         }
     }
 }

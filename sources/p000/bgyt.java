@@ -22,7 +22,7 @@ public final class bgyt implements bgyu {
     public bgyt(long j, long j2, UploadRequest uploadRequest, String str) {
         this.f118130a = j;
         this.f118131b = j2;
-        sdo.m34966a(uploadRequest, "request");
+        sdo.checkIfNull(uploadRequest, "request");
         this.f118132c = uploadRequest;
         this.f118133d = str;
     }

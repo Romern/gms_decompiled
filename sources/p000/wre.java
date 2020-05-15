@@ -58,7 +58,7 @@ final class wre implements LoaderManager.LoaderCallbacks {
             awlh.mo52187a(cdsw.m134870c() ^ true ? 1 : 0);
             awlh.mo52190a(this.f51169a.f51174e);
             awlh.mo52188a(new Account(this.f51169a.f51170a, "com.google"));
-            awlh.mo52235a(new SecurePaymentsPayload(brbb.f142227f.mo73780k(), new SecurePaymentsData[0]));
+            awlh.mo52235a(new SecurePaymentsPayload(brbb.f142227f.getKey(), new SecurePaymentsData[0]));
             this.f51169a.startActivityForResult(awlh.mo52186a(), 1);
             this.f51169a.f51175f = true;
         } else if (!brbb.f142224b) {

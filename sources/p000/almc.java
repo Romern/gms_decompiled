@@ -60,7 +60,7 @@ public final class almc implements ComponentCallbacks2 {
         if (this.f73675a == null) {
             InputStream openRawResource = this.f73676c.getResources().openRawResource(C0126R.raw.third_party_account_categories);
             try {
-                allx allx = (allx) bxvk.m124011a(allx.f73647d, openRawResource, bxus.m123744c());
+                allx allx = (allx) GeneratedMessageLite.m124011a(allx.f73647d, openRawResource, bxus.m123744c());
                 if (openRawResource != null) {
                     openRawResource.close();
                 }
@@ -78,8 +78,8 @@ public final class almc implements ComponentCallbacks2 {
         try {
             allx b = cfum.m143091b();
             bxvd bxvd = (bxvd) b.mo74142c(5);
-            bxvd.mo73625a((bxvk) b);
-            bxvd.mo73625a((bxvk) mo40497a());
+            bxvd.mo73625a((GeneratedMessageLite) b);
+            bxvd.mo73625a((GeneratedMessageLite) mo40497a());
             bxvd a = allx.f73647d.mo74141a((allx) bxvd.mo74062i());
             for (int size = ((allx) a.f164949b).f73649a.size() - 1; size >= 0; size--) {
                 almb a2 = almb.m61249a(((allw) ((allx) a.f164949b).f73649a.get(size)).f73645g);
@@ -93,7 +93,7 @@ public final class almc implements ComponentCallbacks2 {
                     }
                     allx allx = (allx) a.f164949b;
                     if (!allx.f73649a.mo73666a()) {
-                        allx.f73649a = bxvk.m124021a(allx.f73649a);
+                        allx.f73649a = GeneratedMessageLite.m124021a(allx.f73649a);
                     }
                     allx.f73649a.remove(size);
                 }

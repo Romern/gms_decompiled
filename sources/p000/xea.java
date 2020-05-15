@@ -5,7 +5,7 @@ package p000;
 public final class xea extends xec {
 
     /* renamed from: b */
-    public static final sek f52044b = new sek(new String[]{"RegistrationRequestHandler"}, (short[]) null);
+    public static final Logger f52044b = new Logger(new String[]{"RegistrationRequestHandler"}, (short[]) null);
 
     /* renamed from: a */
     public final xed f52045a;

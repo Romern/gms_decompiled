@@ -50,7 +50,7 @@ public class FacsCacheApiChimeraService extends zzx {
                 aytg aytg = new aytg();
                 wek wek = new wek(account);
                 String str2 = "com.google.android.gms.udc.service.FacsCacheApiChimeraService";
-                sdo.m34966a(wek, "Must provide non-null options!");
+                sdo.checkIfNull(wek, "Must provide non-null options!");
                 avey avey = new avey(account, a, a2, clientContext, a3, a4, avfh, g, f, d2, avfk, aytg, new wfh(this, wek));
                 Binder.restoreCallingIdentity(clearCallingIdentity);
                 aaac2.mo16652a(avey);

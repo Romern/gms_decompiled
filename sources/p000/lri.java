@@ -36,7 +36,7 @@ public class lri implements rjh, rjj {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.Object, java.lang.Object):void */
     public lri(String str, int i, String str2, String str3, int i2, Account account) {
-        sdo.m34966a((Object) str, (Object) "moduleId must not be null");
+        sdo.checkIfNull((Object) str, (Object) "moduleId must not be null");
         this.f26634a = str;
         this.f26635b = i;
         this.f26636c = str2;

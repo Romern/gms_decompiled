@@ -61,7 +61,7 @@ public final class atui extends atue {
                 bpbx.f135663i = bpbw2;
                 bpbx.f135655a |= 64;
                 c.mo49742a((bpbx) b.mo74062i(), str);
-                atsy.f90817I = btmw.f149571e.mo73780k();
+                atsy.f90817I = btmw.f149571e.getKey();
                 int a2 = btnx.m116967a(btmw.f149567a);
                 if (a2 != 0) {
                     if (a2 == 2) {
@@ -91,7 +91,7 @@ public final class atui extends atue {
                     }
                     str.getClass();
                     ((btiy) da.f164949b).f149056a = str;
-                    atsy.f90841d = ((btiy) da.mo74062i()).mo73642k();
+                    atsy.f90841d = ((btiy) da.mo74062i()).serializeToBytes();
                 } else {
                     return;
                 }

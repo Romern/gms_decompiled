@@ -39,7 +39,7 @@ public class gik {
     public static final ComponentName f18298f = new ComponentName("com.google.android.gms", "com.google.android.gms.auth.GetToken");
 
     /* renamed from: g */
-    public static final sek f18299g = ght.m13171a("GoogleAuthUtil");
+    public static final Logger f18299g = ght.m13171a("GoogleAuthUtil");
 
     static {
         int i = Build.VERSION.SDK_INT;
@@ -56,12 +56,12 @@ public class gik {
         Intent intent = (Intent) bundle.getParcelable("userRecoveryIntent");
         izj c = izj.m16369c(string);
         if (izj.m16367a(c)) {
-            sek sek = f18299g;
+            Logger Logger = f18299g;
             String valueOf = String.valueOf(c);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 31);
             sb.append("isUserRecoverableError status: ");
             sb.append(valueOf);
-            sek.mo25416d("GoogleAuthUtil", sb.toString());
+            Logger.mo25416d("GoogleAuthUtil", sb.toString());
             throw new UserRecoverableAuthException(string, intent);
         } else if (izj.m16368b(c)) {
             throw new IOException(string);
@@ -107,7 +107,7 @@ public class gik {
         bdyx.m91614a(context);
         if (cbyz.m128937c() && m13210a(context)) {
             goh a = goi.m13611a(context);
-            sdo.m34966a(account, "Account name cannot be null!");
+            sdo.checkIfNull(account, "Account name cannot be null!");
             sdo.m34969a(str, (Object) "Scope cannot be null!");
             roz b = rpa.m34196b();
             b.f43473b = new Feature[]{ghy.f18278d};
@@ -231,7 +231,7 @@ public class gik {
         bdyx.m91614a(context);
         if (cbyz.m128936b() && m13210a(context)) {
             goh a = goi.m13611a(context);
-            sdo.m34966a(accountChangeEventsRequest, "request cannot be null.");
+            sdo.checkIfNull(accountChangeEventsRequest, "request cannot be null.");
             roz b = rpa.m34196b();
             b.f43473b = new Feature[]{ghy.f18279e};
             b.f43472a = new gpr(accountChangeEventsRequest);

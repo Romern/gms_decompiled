@@ -15,7 +15,7 @@ import java.util.List;
 public final class hea {
 
     /* renamed from: a */
-    private static final sek f19575a = ght.m13172b("GoogleSignInAccountCreator");
+    private static final Logger f19575a = ght.m13172b("GoogleSignInAccountCreator");
 
     /* renamed from: a */
     public static GoogleSignInAccount m14254a(Context context, String str, Account account, List list, String str2, String str3) {

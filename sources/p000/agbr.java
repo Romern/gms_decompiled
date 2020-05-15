@@ -26,7 +26,7 @@ final class agbr extends TimerTask {
                     bnsl.mo68415a("Haven't received multicast response in the last %d ms.", this.f65167a.f65178h);
                     this.f65167a.f65189s.set(true);
                     agbt agbt3 = this.f65167a;
-                    qwo a = agbt3.f65176f.mo24335a(agbt3.mo35207c().mo73642k());
+                    qwo a = agbt3.f65176f.mo24335a(agbt3.mo35207c().serializeToBytes());
                     a.mo24328b((int) BaseMfiEventCallback.TYPE_INTERRUPTED_ERROR);
                     a.mo24327b();
                 }

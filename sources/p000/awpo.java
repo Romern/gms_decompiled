@@ -39,7 +39,7 @@ final class awpo implements bjex {
             }
             countDownLatch.await();
             synchronized (awpn) {
-                sdo.m34966a(awpn.f94810c, "Disconnected while trying to return action service.");
+                sdo.checkIfNull(awpn.f94810c, "Disconnected while trying to return action service.");
                 bjfs = awpn.f94810c;
             }
             intent = bjfs.mo52452a(bjfc.f122612a);

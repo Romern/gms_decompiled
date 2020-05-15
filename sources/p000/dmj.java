@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: dmj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class dmj extends bxvk implements bxxd {
+public final class dmj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final dmj f13537b;
@@ -16,7 +16,7 @@ public final class dmj extends bxvk implements bxxd {
     static {
         dmj dmj = new dmj();
         f13537b = dmj;
-        bxvk.m124024a(dmj.class, dmj);
+        GeneratedMessageLite.m124024a(dmj.class, dmj);
     }
 
     private dmj() {
@@ -33,7 +33,7 @@ public final class dmj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f13537b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", dmn.class});
+            return GeneratedMessageLite.m124022a(f13537b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", dmn.class});
         } else if (i2 == 3) {
             return new dmj();
         } else {

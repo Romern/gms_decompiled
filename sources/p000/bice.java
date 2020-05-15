@@ -49,19 +49,19 @@ public final class bice extends bick {
         bvtt bvtt = (bvtt) obj;
         bonq a = bick.m101948a(4, bppo.m112155a(i), j, this.f120199g);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bpqk bpqk = ((bonq) bxvd.f164949b).f133837c;
         if (bpqk == null) {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         bxvd da = bpow.f138581c.mo74144da();
         if (bvtt != null) {
             i2 = bvtt.f157620a.size();

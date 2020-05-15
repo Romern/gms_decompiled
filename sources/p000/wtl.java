@@ -55,7 +55,7 @@ final /* synthetic */ class wtl implements DialogInterface.OnClickListener {
                         bnsl3.mo68432a("buru", "a", 339, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                         bnsl3.mo68405a("FastPair: fail to forget footprints because device has no sha256.");
                     } else {
-                        buru.mo73060a(account, bArr, a2.f68446d.mo73780k());
+                        buru.mo73060a(account, bArr, a2.f68446d.getKey());
                     }
                 } catch (InterruptedException | ExecutionException e2) {
                     bnsl bnsl4 = (bnsl) busr.f154819a.mo68388c();

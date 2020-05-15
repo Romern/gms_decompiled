@@ -364,7 +364,7 @@ final /* synthetic */ class ayyr implements Callable {
             bpcb bpcb = (bpcb) bxvf2.mo74062i();
             bpcb.getClass();
             if (!boki8.f133415c.mo73666a()) {
-                boki8.f133415c = bxvk.m124021a(boki8.f133415c);
+                boki8.f133415c = GeneratedMessageLite.m124021a(boki8.f133415c);
             }
             boki8.f133415c.add(bpcb);
         }

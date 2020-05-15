@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btsh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btsh extends bxvk implements bxxd {
+public final class btsh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final btsh f150206f;
@@ -31,7 +31,7 @@ public final class btsh extends bxvk implements bxxd {
     static {
         btsh btsh = new btsh();
         f150206f = btsh;
-        bxvk.m124024a(btsh.class, btsh);
+        GeneratedMessageLite.m124024a(btsh.class, btsh);
     }
 
     private btsh() {
@@ -52,7 +52,7 @@ public final class btsh extends bxvk implements bxxd {
             this.f150213g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f150206f, "\u0001\u0004\u0000\u0001\u0002\u0006\u0004\u0000\u0000\u0001\u0002ᐉ\u0001\u0003ဉ\u0002\u0005ဉ\u0004\u0006ဈ\u0005", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f150206f, "\u0001\u0004\u0000\u0001\u0002\u0006\u0004\u0000\u0000\u0001\u0002ᐉ\u0001\u0003ဉ\u0002\u0005ဉ\u0004\u0006ဈ\u0005", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new btsh();
         } else {

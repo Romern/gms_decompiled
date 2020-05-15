@@ -64,7 +64,7 @@ public final class atwb {
                 if (bzuq == null) {
                     bzuq = bzuq.f171454a;
                 }
-                algt.mo40310a(bzuq.mo73642k());
+                algt.mo40310a(bzuq.serializeToBytes());
                 return algt.f73511a;
             }
             bnsl bnsl = (bnsl) f91035a.mo68388c();
@@ -161,7 +161,7 @@ public final class atwb {
                             }
                             atbg.m75377c(a, context.getString(i, atvv.mo50252c(), str4));
                             a.f22266r = atbf.TRANSACTION_RECEIPTS.f89994e;
-                            a.mo13631b(PendingIntent.getService(context, String.valueOf(btrg.f150091a).concat("_dismissed").hashCode(), atbe.m75364a(askf2, blci.mo73642k(), 6, b), 134217728));
+                            a.mo13631b(PendingIntent.getService(context, String.valueOf(btrg.f150091a).concat("_dismissed").hashCode(), atbe.m75364a(askf2, blci.serializeToBytes(), 6, b), 134217728));
                             int i3 = !atvv.mo50255f() ? !atvv.mo50256g() ? C0126R.string.tp_transaction_notification_title_sensitive : C0126R.string.tp_transaction_decline_notification_ticker : C0126R.string.tp_transaction_refund_notification_title_sensitive;
                             C1102je a2 = atbg.m75368a(context, atbf.TRANSACTION_RECEIPTS);
                             a2.mo13640e(context.getString(i3));
@@ -231,7 +231,7 @@ public final class atwb {
                                             if (bzuq == null) {
                                                 bzuq = bzuq.f171454a;
                                             }
-                                            algt.mo40310a(bzuq.mo73642k());
+                                            algt.mo40310a(bzuq.serializeToBytes());
                                             transaction2 = algt.f73511a;
                                         } else {
                                             bnsl bnsl = (bnsl) f91035a.mo68388c();
@@ -251,7 +251,7 @@ public final class atwb {
                                         a.mo13627a(true);
                                         a.f22273y = jeVar.mo13629b();
                                         atbg.m75371a(context, Integer.toString(btrg.f150091a.hashCode()), a);
-                                        askf2.f89126d.startService(atbe.m75364a(askf2, blci.mo73642k(), 5, b));
+                                        askf2.f89126d.startService(atbe.m75364a(askf2, blci.serializeToBytes(), 5, b));
                                         return;
                                     } catch (IOException e2) {
                                         transaction2 = null;
@@ -261,7 +261,7 @@ public final class atwb {
                                         a.mo13627a(true);
                                         a.f22273y = jeVar.mo13629b();
                                         atbg.m75371a(context, Integer.toString(btrg.f150091a.hashCode()), a);
-                                        askf2.f89126d.startService(atbe.m75364a(askf2, blci.mo73642k(), 5, b));
+                                        askf2.f89126d.startService(atbe.m75364a(askf2, blci.serializeToBytes(), 5, b));
                                         return;
                                     }
                                     transaction = transaction2;
@@ -270,7 +270,7 @@ public final class atwb {
                                     a.mo13627a(true);
                                     a.f22273y = jeVar.mo13629b();
                                     atbg.m75371a(context, Integer.toString(btrg.f150091a.hashCode()), a);
-                                    askf2.f89126d.startService(atbe.m75364a(askf2, blci.mo73642k(), 5, b));
+                                    askf2.f89126d.startService(atbe.m75364a(askf2, blci.serializeToBytes(), 5, b));
                                     return;
                                 }
                             }
@@ -281,7 +281,7 @@ public final class atwb {
                             a.mo13627a(true);
                             a.f22273y = jeVar.mo13629b();
                             atbg.m75371a(context, Integer.toString(btrg.f150091a.hashCode()), a);
-                            askf2.f89126d.startService(atbe.m75364a(askf2, blci.mo73642k(), 5, b));
+                            askf2.f89126d.startService(atbe.m75364a(askf2, blci.serializeToBytes(), 5, b));
                             return;
                         }
                         bnsl bnsl3 = (bnsl) f91035a.mo68388c();

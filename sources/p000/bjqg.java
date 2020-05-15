@@ -33,7 +33,7 @@ public final class bjqg extends bjqb {
         bwwo.f161273b = str;
         List list = this.f123133e;
         if (!bwwo.f161274c.mo73666a()) {
-            bwwo.f161274c = bxvk.m124019a(bwwo.f161274c);
+            bwwo.f161274c = GeneratedMessageLite.m124019a(bwwo.f161274c);
         }
         bxsy.m123078a(list, bwwo.f161274c);
         return (bwwo) da.mo74062i();

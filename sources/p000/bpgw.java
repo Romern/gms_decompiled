@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpgw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpgw extends bxvk implements bxxd {
+public final class bpgw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: C */
     public static final bpgw f137569C;
@@ -97,7 +97,7 @@ public final class bpgw extends bxvk implements bxxd {
     static {
         bpgw bpgw = new bpgw();
         f137569C = bpgw;
-        bxvk.m124024a(bpgw.class, bpgw);
+        GeneratedMessageLite.m124024a(bpgw.class, bpgw);
     }
 
     private bpgw() {
@@ -114,7 +114,7 @@ public final class bpgw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f137569C, "\u0001\u001b\u0000\u0001\u0001\u001d\u001b\u0000\u0001\u0000\u0001ဂ\u0000\u0002င\u0001\u0003ဌ\u0002\u0004ဌ\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0006\bင\u0007\tင\b\nင\t\u000bင\n\rင\f\u000eင\r\u0010င\u000f\u0011င\u0010\u0012င\u0011\u0013င\u0012\u0014င\u0013\u0015င\u0014\u0016င\u0015\u0017ဌ\u0016\u0018\u001b\u0019ဇ\u0017\u001aင\u0018\u001bဌ\u0019\u001cင\u001a\u001dဌ\u001b", new Object[]{"a", "b", "c", "d", bpgy.m111918b(), "e", bpfu.f137444a, "f", "g", "h", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", bpha.f137616a, "i", bpft.class, "x", "y", "z", bpgu.f137567a, "A", "B", bpgv.f137568a});
+            return GeneratedMessageLite.m124022a(f137569C, "\u0001\u001b\u0000\u0001\u0001\u001d\u001b\u0000\u0001\u0000\u0001ဂ\u0000\u0002င\u0001\u0003ဌ\u0002\u0004ဌ\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0006\bင\u0007\tင\b\nင\t\u000bင\n\rင\f\u000eင\r\u0010င\u000f\u0011င\u0010\u0012င\u0011\u0013င\u0012\u0014င\u0013\u0015င\u0014\u0016င\u0015\u0017ဌ\u0016\u0018\u001b\u0019ဇ\u0017\u001aင\u0018\u001bဌ\u0019\u001cင\u001a\u001dဌ\u001b", new Object[]{"a", "b", "c", "d", bpgy.m111918b(), "e", bpfu.f137444a, "f", "g", "h", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", bpha.f137616a, "i", bpft.class, "x", "y", "z", bpgu.f137567a, "A", "B", bpgv.f137568a});
         } else if (i2 == 3) {
             return new bpgw();
         } else {

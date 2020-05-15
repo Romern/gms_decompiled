@@ -24,8 +24,8 @@ public final class aaoa extends aany {
 
     /* access modifiers changed from: protected */
     /* renamed from: c */
-    public final /* bridge */ /* synthetic */ bmxv mo17165c(bxvk bxvk) {
-        aajz aajz = (aajz) bxvk;
+    public final /* bridge */ /* synthetic */ bmxv mo17165c(GeneratedMessageLite GeneratedMessageLite) {
+        aajz aajz = (aajz) GeneratedMessageLite;
         if (aajz == null) {
             Log.w("GCM", "Provided QueuedMessage is null.");
         } else if ((aajz.f28332a & 2) == 0) {
@@ -50,7 +50,7 @@ public final class aaoa extends aany {
 
     /* access modifiers changed from: protected */
     /* renamed from: c */
-    public final /* bridge */ /* synthetic */ bxvk mo17166c(byte[] bArr) {
-        return (aajz) bxvk.m124014a(aajz.f28330e, bArr);
+    public final /* bridge */ /* synthetic */ GeneratedMessageLite mo17166c(byte[] bArr) {
+        return (aajz) GeneratedMessageLite.m124014a(aajz.f28330e, bArr);
     }
 }

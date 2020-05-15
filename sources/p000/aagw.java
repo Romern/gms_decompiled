@@ -28,7 +28,7 @@ public final class aagw extends aahl {
     /* renamed from: a */
     private final aaik m21244a(aaij aaij) {
         RequestFuture newFuture = RequestFuture.newFuture();
-        sia sia = new sia(1, ceax.f182191a.mo6606a().mo78709d(), aaij.mo73642k(), aaik.f28187d, newFuture, newFuture, null, null, false, new HashMap(), 12288, -1);
+        sia sia = new sia(1, ceax.f182191a.mo6606a().mo78709d(), aaij.serializeToBytes(), aaik.f28187d, newFuture, newFuture, null, null, false, new HashMap(), 12288, -1);
         if (this.f28099d == null) {
             this.f28099d = rpr.m34216b().getRequestQueue();
         }
@@ -56,7 +56,7 @@ public final class aagw extends aahl {
         Status status = Status.f30107a;
         bxvd da = aaij.f28182d.mo74144da();
         if ((aaip.f28211a & 2) != 0) {
-            bxtx bxtx = aaip.f28213c;
+            ByteString bxtx = aaip.f28213c;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -70,7 +70,7 @@ public final class aagw extends aahl {
         aaij aaij2 = (aaij) da.f164949b;
         aago aago = null;
         if ((aaij2.f28184a & 1) != 0) {
-            byte[] k = aaij2.f28185b.mo73780k();
+            byte[] k = aaij2.f28185b.getKey();
             MessageDigest b = spn.m35868b("SHA-256");
             if (b != null) {
                 String encodeToString = Base64.encodeToString(b.digest(k), 2);
@@ -118,7 +118,7 @@ public final class aagw extends aahl {
                         i++;
                     }
                     if (m21245a(aaik)) {
-                        bArr = aaik.f28191c.mo73780k();
+                        bArr = aaik.f28191c.getKey();
                         str = aaik.f28190b;
                     } else {
                         aagv.f28096c = f28098c;
@@ -149,7 +149,7 @@ public final class aagw extends aahl {
         aail.f28197c = 2;
         aail.f28195a = i2 | 2;
         if (!aagv.f28094a.equals(Status.f30107a)) {
-            bxtx a2 = bxtx.m123261a(new byte[]{122});
+            ByteString a2 = ByteString.m123261a(new byte[]{122});
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -166,7 +166,7 @@ public final class aagw extends aahl {
             aail aail3 = (aail) da2.f164949b;
             aail3.f28197c = 1;
             aail3.f28195a |= 2;
-            bxtx a3 = bxtx.m123261a(aagv.f28096c);
+            ByteString a3 = ByteString.m123261a(aagv.f28096c);
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;

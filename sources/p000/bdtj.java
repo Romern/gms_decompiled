@@ -9,7 +9,7 @@ public interface bdtj extends Closeable {
     bdtm mo58348a(boolean z);
 
     /* renamed from: a */
-    void mo58349a(bxtx bxtx);
+    void mo58349a(ByteString bxtx);
 
     void close();
 }

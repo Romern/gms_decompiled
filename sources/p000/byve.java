@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byve */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byve extends bxvk implements bxxd {
+public final class byve extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final byve f168420b;
@@ -19,7 +19,7 @@ public final class byve extends bxvk implements bxxd {
     static {
         byve byve = new byve();
         f168420b = byve;
-        bxvk.m124024a(byve.class, byve);
+        GeneratedMessageLite.m124024a(byve.class, byve);
     }
 
     private byve() {
@@ -40,7 +40,7 @@ public final class byve extends bxvk implements bxxd {
             this.f168423c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f168420b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", byvf.class});
+            return GeneratedMessageLite.m124022a(f168420b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", byvf.class});
         } else if (i2 == 3) {
             return new byve();
         } else {

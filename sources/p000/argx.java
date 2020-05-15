@@ -67,7 +67,7 @@ public final class argx {
                 } else {
                     arrayList.add(b);
                 }
-                f87707a.mo25409a("AccountTypes allowed to challenge %s", arrayList);
+                f87707a.logVerbose("AccountTypes allowed to challenge %s", arrayList);
             }
             if (!arrayList.isEmpty()) {
                 gts.f19002a.putStringArrayList("accountTypes", arrayList);

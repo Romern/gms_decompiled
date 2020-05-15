@@ -11,6 +11,6 @@ final /* synthetic */ class akuc implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (bsas) bxvk.m124014a(bsas.f143900b, bArr);
+        return (bsas) GeneratedMessageLite.m124014a(bsas.f143900b, bArr);
     }
 }

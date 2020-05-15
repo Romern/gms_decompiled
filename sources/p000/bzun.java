@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzun */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzun extends bxvk implements bxxd {
+public final class bzun extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bzun f171439c;
@@ -14,12 +14,12 @@ public final class bzun extends bxvk implements bxxd {
     public bzuk f171441a;
 
     /* renamed from: b */
-    public bxtx f171442b = bxtx.f164797b;
+    public ByteString f171442b = ByteString.f164797b;
 
     static {
         bzun bzun = new bzun();
         f171439c = bzun;
-        bxvk.m124024a(bzun.class, bzun);
+        GeneratedMessageLite.m124024a(bzun.class, bzun);
     }
 
     private bzun() {
@@ -36,7 +36,7 @@ public final class bzun extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f171439c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002\n", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f171439c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002\n", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bzun();
         } else {

@@ -714,14 +714,14 @@ public final class bkft {
                             i3 = 0;
                         } else if (bkfr.m105583a(activity, (TextView) formEditText2)) {
                             bxvd bxvd = (bxvd) bmqf2.mo74142c(5);
-                            bxvd.mo73625a((bxvk) bmqf2);
+                            bxvd.mo73625a((GeneratedMessageLite) bmqf2);
                             if (bmqf2.f130373b == 6) {
                                 bmqe3 = (bmqe) bmqf2.f130374c;
                             } else {
                                 bmqe3 = bmqe.f130351s;
                             }
                             bxvd bxvd2 = (bxvd) bmqe3.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) bmqe3);
+                            bxvd2.mo73625a((GeneratedMessageLite) bmqe3);
                             String m = formEditText.mo71937m();
                             if (bxvd2.f164950c) {
                                 bxvd2.mo74035c();
@@ -1064,7 +1064,7 @@ public final class bkft {
             bmqk.f130408d = str2;
         }
         if ((bmqf.f130372a & 512) != 0 && bmqf.f130385n.mo73744a() > 0) {
-            bxtx bxtx = bmqf.f130385n;
+            ByteString bxtx = bmqf.f130385n;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -1163,7 +1163,7 @@ public final class bkft {
                     }
                     bmqj bmqj2 = (bmqj) da3.f164949b;
                     if (!bmqj2.f130402a.mo73666a()) {
-                        bmqj2.f130402a = bxvk.m124021a(bmqj2.f130402a);
+                        bmqj2.f130402a = GeneratedMessageLite.m124021a(bmqj2.f130402a);
                     }
                     bxsy.m123078a(arrayList, bmqj2.f130402a);
                     bmqj = (bmqj) da3.mo74062i();
@@ -1235,7 +1235,7 @@ public final class bkft {
                     if (!InlineSelectView.m118617a(inlineSelectView2.f152108h)) {
                         int i4 = inlineSelectView2.f152105e;
                         if (i4 >= 0) {
-                            bArr = ((bmpk) inlineSelectView2.f152108h.f130317b.get(i4)).f130307h.mo73780k();
+                            bArr = ((bmpk) inlineSelectView2.f152108h.f130317b.get(i4)).f130307h.getKey();
                         }
                     } else {
                         throw new IllegalStateException("getValueDataToken for multi select is not supported.");
@@ -1248,7 +1248,7 @@ public final class bkft {
                     throw new IllegalArgumentException(sb.toString());
                 }
                 if (bArr.length > 0) {
-                    bxtx a3 = bxtx.m123261a(bArr);
+                    ByteString a3 = ByteString.m123261a(bArr);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;

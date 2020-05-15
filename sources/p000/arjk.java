@@ -51,7 +51,7 @@ public final class arjk {
         if (!this.f87794b.containsKey(str)) {
             rod = rjx.mo24714a(new Object(), str);
             rob rob = rod.f43429b;
-            sdo.m34966a(rob, "Key must not be null");
+            sdo.checkIfNull(rob, "Key must not be null");
             this.f87794b.put(str, rob);
         } else {
             rod = null;
@@ -68,7 +68,7 @@ public final class arjk {
     /* renamed from: a */
     public final synchronized void mo48608a(rjx rjx, roh roh, rpf rpf) {
         rob a = roh.mo24969a();
-        sdo.m34966a(a, "Key must not be null");
+        sdo.checkIfNull(a, "Key must not be null");
         this.f87795c.add(a);
         rjx.mo24699a(roh, rpf).mo50372a(new arjj(this, rjx, a));
     }

@@ -42,7 +42,7 @@ public class PlayServicesCronetProvider extends CronetProvider {
                 th = e;
             }
             if (th == null) {
-                sdo.m34966a(builder, "The value of the constructed builder should never be null");
+                sdo.checkIfNull(builder, "The value of the constructed builder should never be null");
                 return builder;
             }
             throw new RuntimeException("Unable to construct the implementation of the Cronet Engine Builder: org.chromium.net.impl.NativeCronetEngineBuilderImpl", th);

@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 public final class tdg {
 
     /* renamed from: a */
-    public static final sek f45688a = tea.m36798a("sms_reader");
+    public static final Logger f45688a = tea.m36798a("sms_reader");
 
     /* renamed from: b */
     private static final String[] f45689b = {"date", "address"};
@@ -42,8 +42,8 @@ public final class tdg {
     }
 
     /* renamed from: a */
-    public static bxtx m36747a(String str) {
-        return bxtx.m123261a((byte[]) bmxy.m108581a(bnzi.m110903e().mo68721a(str, StandardCharsets.UTF_8).mo68740b()));
+    public static ByteString m36747a(String str) {
+        return ByteString.m123261a((byte[]) bmxy.m108581a(bnzi.m110903e().mo68721a(str, StandardCharsets.UTF_8).mo68740b()));
     }
 
     /* renamed from: a */

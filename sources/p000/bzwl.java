@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzwl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzwl extends bxvk implements bxxd {
+public final class bzwl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bzwl f171643c;
@@ -22,7 +22,7 @@ public final class bzwl extends bxvk implements bxxd {
     static {
         bzwl bzwl = new bzwl();
         f171643c = bzwl;
-        bxvk.m124024a(bzwl.class, bzwl);
+        GeneratedMessageLite.m124024a(bzwl.class, bzwl);
     }
 
     private bzwl() {
@@ -40,7 +40,7 @@ public final class bzwl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f171643c, "\u0001\u0002\u0000\u0001\u0004\n\u0002\u0000\u0000\u0000\u0004ဇ\u0001\nဉ\u0002", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f171643c, "\u0001\u0002\u0000\u0001\u0004\n\u0002\u0000\u0000\u0000\u0004ဇ\u0001\nဉ\u0002", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new bzwl();
         } else {

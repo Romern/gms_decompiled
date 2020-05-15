@@ -16,7 +16,7 @@ public final class aqcq extends bxvd implements bxxd {
         aqcr aqcr = (aqcr) this.f164949b;
         aqcr aqcr2 = aqcr.f85693e;
         if (!aqcr.f85696b.mo73666a()) {
-            aqcr.f85696b = bxvk.m124021a(aqcr.f85696b);
+            aqcr.f85696b = GeneratedMessageLite.m124021a(aqcr.f85696b);
         }
         bxsy.m123078a(iterable, aqcr.f85696b);
     }

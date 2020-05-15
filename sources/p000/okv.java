@@ -94,7 +94,7 @@ final class okv {
                 byte b = duplicate.get() & 255;
                 ByteBuffer duplicate2 = this.f37871d.duplicate();
                 if (mo22263a(b, duplicate2) == b) {
-                    nqi nqi = (nqi) bxvk.m124012a(nqi.f36409i, duplicate2);
+                    nqi nqi = (nqi) GeneratedMessageLite.m124012a(nqi.f36409i, duplicate2);
                     if ((nqi.f36411a & 16) != 0) {
                         bmxy.m108588a(true);
                         okx okx = this.f37868a;

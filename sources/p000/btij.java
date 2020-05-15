@@ -5,5 +5,5 @@ package p000;
 final class btij {
 
     /* renamed from: a */
-    static final bxwv f148984a = bxwv.m124134a(bxzf.STRING, "", bxzf.BYTES, bxtx.f164797b);
+    static final bxwv f148984a = bxwv.m124134a(bxzf.STRING, "", bxzf.BYTES, ByteString.f164797b);
 }

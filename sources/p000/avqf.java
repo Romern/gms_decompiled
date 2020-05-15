@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public final class avqf extends avqd {
 
     /* renamed from: f */
-    public static final sek f93774f = avpq.m79020g("ZeroRatedNetworkRequester");
+    public static final Logger f93774f = avpq.m79020g("ZeroRatedNetworkRequester");
 
     /* renamed from: i */
     private static final bnhe f93775i;

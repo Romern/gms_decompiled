@@ -10,7 +10,7 @@ public final class auzy implements rjf {
     private final Account f92844a;
 
     public auzy(Account account) {
-        sdo.m34966a(account, "Must provide a valid account!");
+        sdo.checkIfNull(account, "Must provide a valid account!");
         this.f92844a = account;
     }
 

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvso */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvso extends bxvk implements bxxd {
+public final class bvso extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bvso f157508f;
@@ -28,7 +28,7 @@ public final class bvso extends bxvk implements bxxd {
     static {
         bvso bvso = new bvso();
         f157508f = bvso;
-        bxvk.m124024a(bvso.class, bvso);
+        GeneratedMessageLite.m124024a(bvso.class, bvso);
     }
 
     private bvso() {
@@ -45,7 +45,7 @@ public final class bvso extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157508f, "\u0001\u0003\u0001\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003ြ\u0000", new Object[]{"c", "b", "a", "d", bvzi.f158292a, "e", bvsn.class});
+            return GeneratedMessageLite.m124022a(f157508f, "\u0001\u0003\u0001\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003ြ\u0000", new Object[]{"c", "b", "a", "d", bvzi.f158292a, "e", bvsn.class});
         } else if (i2 == 3) {
             return new bvso();
         } else {

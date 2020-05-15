@@ -295,7 +295,7 @@ public final class akcv {
         long a2 = sqv2.mo20505a();
         int i4 = 5;
         bxvd bxvd = (bxvd) ajih2.mo74142c(5);
-        bxvd.mo73625a((bxvk) ajih2);
+        bxvd.mo73625a((GeneratedMessageLite) ajih2);
         ajig ajig2 = (ajig) bxvd;
         int i5 = 0;
         while (i5 < ((ajih) ajig2.f164949b).f70709a.size()) {
@@ -307,7 +307,7 @@ public final class akcv {
             bvjx bvjx2 = (bvjx) npVar.get(ajii2.f70714c);
             if (bvjx2 != null) {
                 bxvd bxvd2 = (bxvd) a3.mo74142c(i4);
-                bxvd2.mo73625a((bxvk) a3);
+                bxvd2.mo73625a((GeneratedMessageLite) a3);
                 ajie ajie = (ajie) bxvd2;
                 boolean z = bvjx2.f156365b;
                 if (ajie.f164950c) {

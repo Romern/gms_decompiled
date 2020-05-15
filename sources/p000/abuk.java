@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abuk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abuk extends bxvk implements bxxd {
+public final class abuk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bxvu f58407c = new abuj();
@@ -22,7 +22,7 @@ public final class abuk extends bxvk implements bxxd {
     static {
         abuk abuk = new abuk();
         f58408d = abuk;
-        bxvk.m124024a(abuk.class, abuk);
+        GeneratedMessageLite.m124024a(abuk.class, abuk);
     }
 
     private abuk() {
@@ -39,7 +39,7 @@ public final class abuk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58408d, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u001e", new Object[]{"a", abtd.class, "b", abtf.m48247b()});
+            return GeneratedMessageLite.m124022a(f58408d, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u001e", new Object[]{"a", abtd.class, "b", abtf.m48247b()});
         } else if (i2 == 3) {
             return new abuk();
         } else {
@@ -66,7 +66,7 @@ public final class abuk extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo32348a() {
         if (!this.f58411b.mo73666a()) {
-            this.f58411b = bxvk.m124019a(this.f58411b);
+            this.f58411b = GeneratedMessageLite.m124019a(this.f58411b);
         }
     }
 }

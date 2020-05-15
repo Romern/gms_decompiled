@@ -10,7 +10,7 @@ public final class khp implements kew {
     /* renamed from: a */
     public final bnic mo14435a(byte[] bArr) {
         try {
-            kdd kdd = (kdd) bxvk.m124014a(kdd.f23851d, bArr);
+            kdd kdd = (kdd) GeneratedMessageLite.m124014a(kdd.f23851d, bArr);
             bnia j = bnic.m109500j();
             bxwc bxwc = kdd.f23853a;
             int size = bxwc.size();
@@ -49,7 +49,7 @@ public final class khp implements kew {
                 kdd kdd = (kdd) da.f164949b;
                 kde.getClass();
                 if (!kdd.f23853a.mo73666a()) {
-                    kdd.f23853a = bxvk.m124021a(kdd.f23853a);
+                    kdd.f23853a = GeneratedMessageLite.m124021a(kdd.f23853a);
                 }
                 kdd.f23853a.add(kde);
             } else if (a2 instanceof kcy) {
@@ -61,7 +61,7 @@ public final class khp implements kew {
                 kdd kdd2 = (kdd) da.f164949b;
                 kcy.getClass();
                 if (!kdd2.f23854b.mo73666a()) {
-                    kdd2.f23854b = bxvk.m124021a(kdd2.f23854b);
+                    kdd2.f23854b = GeneratedMessageLite.m124021a(kdd2.f23854b);
                 }
                 kdd2.f23854b.add(kcy);
             } else if (a2 instanceof kdf) {
@@ -104,13 +104,13 @@ public final class khp implements kew {
                 kcq kcq2 = (kcq) da2.mo74062i();
                 kcq2.getClass();
                 if (!kdd3.f23855c.mo73666a()) {
-                    kdd3.f23855c = bxvk.m124021a(kdd3.f23855c);
+                    kdd3.f23855c = GeneratedMessageLite.m124021a(kdd3.f23855c);
                 }
                 kdd3.f23855c.add(kcq2);
             } else {
                 ((bnsl) f24164a.mo68388c()).mo68420a("Unknown type '%s' in person cached data.", a2.getClass());
             }
         }
-        return ((kdd) da.mo74062i()).mo73642k();
+        return ((kdd) da.mo74062i()).serializeToBytes();
     }
 }

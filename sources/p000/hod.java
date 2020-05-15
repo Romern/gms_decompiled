@@ -12,7 +12,7 @@ final /* synthetic */ class hod implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = hoh.f20114a;
+        Logger Logger = hoh.f20114a;
         return Integer.valueOf(((InternalCredentialWrapper) obj).f10139a.mo7403a());
     }
 }

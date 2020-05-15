@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: sxf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class sxf extends bxvk implements bxxd {
+public final class sxf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final sxf f45339o;
@@ -55,7 +55,7 @@ public final class sxf extends bxvk implements bxxd {
     static {
         sxf sxf = new sxf();
         f45339o = sxf;
-        bxvk.m124024a(sxf.class, sxf);
+        GeneratedMessageLite.m124024a(sxf.class, sxf);
     }
 
     private sxf() {
@@ -72,7 +72,7 @@ public final class sxf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f45339o, "\u0001\r\u0000\u0001\u0001\u000e\r\u0000\u0001\u0000\u0001စ\u0001\u0002\u001b\u0003ဈ\u0002\u0004စ\u0003\u0006င\u0004\u0007င\u0005\bင\u0006\tဈ\u0007\nဈ\b\u000bင\t\fင\n\rဈ\u000b\u000eဈ\f", new Object[]{"a", "b", "c", sxl.class, "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"});
+            return GeneratedMessageLite.m124022a(f45339o, "\u0001\r\u0000\u0001\u0001\u000e\r\u0000\u0001\u0000\u0001စ\u0001\u0002\u001b\u0003ဈ\u0002\u0004စ\u0003\u0006င\u0004\u0007င\u0005\bင\u0006\tဈ\u0007\nဈ\b\u000bင\t\fင\n\rဈ\u000b\u000eဈ\f", new Object[]{"a", "b", "c", sxl.class, "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"});
         } else if (i2 == 3) {
             return new sxf();
         } else {

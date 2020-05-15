@@ -772,7 +772,7 @@ public final class bwbe implements bwbf {
         if (str != null || str2 != null) {
             cane cane = this.f158711o;
             bxvd bxvd = (bxvd) cane.mo74142c(5);
-            bxvd.mo73625a((bxvk) cane);
+            bxvd.mo73625a((GeneratedMessageLite) cane);
             if (str != null) {
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
@@ -937,7 +937,7 @@ public final class bwbe implements bwbf {
         if (str != null || str2 != null) {
             cane cane = this.f158711o;
             bxvd bxvd = (bxvd) cane.mo74142c(5);
-            bxvd.mo73625a((bxvk) cane);
+            bxvd.mo73625a((GeneratedMessageLite) cane);
             if (str != null) {
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();

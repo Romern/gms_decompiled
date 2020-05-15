@@ -86,7 +86,7 @@ public final class akob {
 
     @JavascriptInterface
     public String getAndroidId() {
-        long a = spn.m35843a(this.f72335a);
+        long a = spn.getAndroidId(this.f72335a);
         if (a != 0) {
             return Long.toHexString(a);
         }

@@ -12,7 +12,7 @@ import java.util.concurrent.TimeoutException;
 public final class jdj extends rrj {
 
     /* renamed from: a */
-    private static final sek f22224a = ght.m13171a("Auth", "DpcInstallLaunchingIntentLoader");
+    private static final Logger f22224a = ght.m13171a("Auth", "DpcInstallLaunchingIntentLoader");
 
     /* renamed from: b */
     private final jfs f22225b;

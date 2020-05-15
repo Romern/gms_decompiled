@@ -60,7 +60,7 @@ public final class btvi {
                     btwj2 = btwj.f152707b;
                 }
                 bxvd bxvd2 = (bxvd) btwj2.mo74142c(5);
-                bxvd2.mo73625a((bxvk) btwj2);
+                bxvd2.mo73625a((GeneratedMessageLite) btwj2);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
@@ -69,7 +69,7 @@ public final class btvi {
                 btwd.getClass();
                 ((btwj) bxvd2.f164949b).f152709a = btwd;
                 bxvd bxvd3 = (bxvd) btvy2.mo74142c(5);
-                bxvd3.mo73625a((bxvk) btvy2);
+                bxvd3.mo73625a((GeneratedMessageLite) btvy2);
                 if (bxvd3.f164950c) {
                     bxvd3.mo74035c();
                     bxvd3.f164950c = false;
@@ -83,19 +83,19 @@ public final class btvi {
             btvw btvw = this.f152613f;
             if (btvw != null) {
                 bxvd bxvd4 = (bxvd) btvy3.mo74142c(5);
-                bxvd4.mo73625a((bxvk) btvy3);
+                bxvd4.mo73625a((GeneratedMessageLite) btvy3);
                 btwb btwb = ((btvy) bxvd4.f164949b).f152662a;
                 if (btwb == null) {
                     btwb = btwb.f152683c;
                 }
                 bxvd bxvd5 = (bxvd) btwb.mo74142c(5);
-                bxvd5.mo73625a((bxvk) btwb);
+                bxvd5.mo73625a((GeneratedMessageLite) btwb);
                 btwa btwa = ((btwb) bxvd5.f164949b).f152685a;
                 if (btwa == null) {
                     btwa = btwa.f152669m;
                 }
                 bxvd bxvd6 = (bxvd) btwa.mo74142c(5);
-                bxvd6.mo73625a((bxvk) btwa);
+                bxvd6.mo73625a((GeneratedMessageLite) btwa);
                 if (bxvd6.f164950c) {
                     bxvd6.mo74035c();
                     bxvd6.f164950c = false;
@@ -120,7 +120,7 @@ public final class btvi {
             }
             this.f152608a = btvy3;
             bxvd bxvd7 = (bxvd) btvy3.mo74142c(5);
-            bxvd7.mo73625a((bxvk) btvy3);
+            bxvd7.mo73625a((GeneratedMessageLite) btvy3);
             btvr btvr = btvy3.f152664c;
             if (btvr != null) {
                 if (bxvd7.f164950c) {
@@ -133,11 +133,11 @@ public final class btvi {
             btwb btwb3 = btvy3.f152662a;
             if (btwb3 != null) {
                 bxvd bxvd8 = (bxvd) btwb3.mo74142c(5);
-                bxvd8.mo73625a((bxvk) btwb3);
+                bxvd8.mo73625a((GeneratedMessageLite) btwb3);
                 btwa btwa3 = btwb3.f152685a;
                 if (btwa3 != null) {
                     bxvd bxvd9 = (bxvd) btwa3.mo74142c(5);
-                    bxvd9.mo73625a((bxvk) btwa3);
+                    bxvd9.mo73625a((GeneratedMessageLite) btwa3);
                     btwm btwm = btwa3.f152671a;
                     if (btwm != null) {
                         if (bxvd9.f164950c) {

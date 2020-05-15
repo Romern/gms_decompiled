@@ -43,7 +43,7 @@ public final class rom {
         }
         sdo.m34975b(z3, "Must set holder");
         rob rob = this.f43445c.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         return new ron(new rok(this, this.f43445c, this.f43446d), new rol(this, rob), this.f43447e);
     }
 }

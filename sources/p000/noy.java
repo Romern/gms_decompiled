@@ -200,11 +200,11 @@ public final class noy extends npz {
                 for (ojp ojp : ojq.f37797g) {
                     bivb bivb = ojp.f37787b;
                     if (bivb != null) {
-                        arrayList.add(bivb.mo73642k());
+                        arrayList.add(bivb.serializeToBytes());
                     }
                 }
                 for (byte[] bArr : arrayList) {
-                    bivb bivb2 = (bivb) bxvk.m124016a(bivb.f121921l, bArr, bxus.m123744c());
+                    bivb bivb2 = (bivb) GeneratedMessageLite.m124016a(bivb.f121921l, bArr, bxus.m123744c());
                     if ((bivb2.f121923a & 2048) != 0) {
                         bnsi d = f36261a.mo68390d();
                         d.mo68432a("noy", "a", 188, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");

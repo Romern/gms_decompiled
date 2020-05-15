@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqyt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqyt extends bxvk implements bxxd {
+public final class bqyt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final bqyt f141981i;
@@ -20,7 +20,7 @@ public final class bqyt extends bxvk implements bxxd {
     public bxwc f141985c = bxxn.f165040b;
 
     /* renamed from: d */
-    public bxtx f141986d = bxtx.f164797b;
+    public ByteString f141986d = ByteString.f164797b;
 
     /* renamed from: e */
     public String f141987e = "";
@@ -29,7 +29,7 @@ public final class bqyt extends bxvk implements bxxd {
     public bxwc f141988f;
 
     /* renamed from: g */
-    public bxtx f141989g;
+    public ByteString f141989g;
 
     /* renamed from: h */
     public bqyx f141990h;
@@ -37,13 +37,13 @@ public final class bqyt extends bxvk implements bxxd {
     static {
         bqyt bqyt = new bqyt();
         f141981i = bqyt;
-        bxvk.m124024a(bqyt.class, bqyt);
+        GeneratedMessageLite.m124024a(bqyt.class, bqyt);
     }
 
     private bqyt() {
         bxvm bxvm = bxvm.f164965b;
         this.f141988f = bxxn.f165040b;
-        this.f141989g = bxtx.f164797b;
+        this.f141989g = ByteString.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -57,7 +57,7 @@ public final class bqyt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f141981i, "\u0001\u0007\u0000\u0001\u0001\t\u0007\u0000\u0002\u0000\u0001ဉ\u0000\u0002\u001b\u0003ည\u0001\u0004ဈ\u0002\u0006\u001b\u0007ည\u0003\tဉ\u0004", new Object[]{"a", "b", "c", bqzl.class, "d", "e", "f", bqza.class, "g", "h"});
+            return GeneratedMessageLite.m124022a(f141981i, "\u0001\u0007\u0000\u0001\u0001\t\u0007\u0000\u0002\u0000\u0001ဉ\u0000\u0002\u001b\u0003ည\u0001\u0004ဈ\u0002\u0006\u001b\u0007ည\u0003\tဉ\u0004", new Object[]{"a", "b", "c", bqzl.class, "d", "e", "f", bqza.class, "g", "h"});
         } else if (i2 == 3) {
             return new bqyt();
         } else {

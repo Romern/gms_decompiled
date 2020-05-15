@@ -9,7 +9,7 @@ final class allm extends rjl {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ rjm mo11610a(Context context, Looper looper, sat sat, Object obj, rjz rjz, rka rka) {
         allq allq = (allq) obj;
-        sdo.m34966a(allq, "Must provide valid PeopleOptions!");
+        sdo.checkIfNull(allq, "Must provide valid PeopleOptions!");
         return new amaz(context, looper, rjz, rka, String.valueOf(allq.f73627a), sat);
     }
 }

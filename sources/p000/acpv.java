@@ -83,7 +83,7 @@ public final class acpv {
                 bpyy bpyy3 = (bpyy) da2.mo74062i();
                 bpyy3.getClass();
                 if (!bpza.f139974b.mo73666a()) {
-                    bpza.f139974b = bxvk.m124021a(bpza.f139974b);
+                    bpza.f139974b = GeneratedMessageLite.m124021a(bpza.f139974b);
                 }
                 bpza.f139974b.add(bpyy3);
             }
@@ -114,7 +114,7 @@ public final class acpv {
                 bpyx bpyx2 = (bpyx) da4.mo74062i();
                 bpyx2.getClass();
                 if (!bpza2.f139975c.mo73666a()) {
-                    bpza2.f139975c = bxvk.m124021a(bpza2.f139975c);
+                    bpza2.f139975c = GeneratedMessageLite.m124021a(bpza2.f139975c);
                 }
                 bpza2.f139975c.add(bpyx2);
             }
@@ -146,7 +146,7 @@ public final class acpv {
                 bpyw bpyw2 = (bpyw) da5.mo74062i();
                 bpyw2.getClass();
                 if (!bpza3.f139976d.mo73666a()) {
-                    bpza3.f139976d = bxvk.m124021a(bpza3.f139976d);
+                    bpza3.f139976d = GeneratedMessageLite.m124021a(bpza3.f139976d);
                 }
                 bpza3.f139976d.add(bpyw2);
             }

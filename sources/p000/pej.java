@@ -13,8 +13,8 @@ public final class pej {
     final pel f38965b;
 
     public pej(CastDevice castDevice, pel pel) {
-        sdo.m34966a(castDevice, "CastDevice parameter cannot be null");
-        sdo.m34966a(pel, "CastListener parameter cannot be null");
+        sdo.checkIfNull(castDevice, "CastDevice parameter cannot be null");
+        sdo.checkIfNull(pel, "CastListener parameter cannot be null");
         this.f38964a = castDevice;
         this.f38965b = pel;
     }

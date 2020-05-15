@@ -36,7 +36,7 @@ public final class ajfl extends buqn {
                     String string = extras.getString("PUSH_MESSAGE");
                     bzbz bzbz = null;
                     if (string != null) {
-                        bzbz = (bzbz) bxvk.m124014a(bzbz.f169283c, sqd.m35971c(string));
+                        bzbz = (bzbz) GeneratedMessageLite.m124014a(bzbz.f169283c, sqd.m35971c(string));
                     }
                     if (ajee.f70418b.mo38177c()) {
                         bxvd da = bvhi.f156070c.mo74144da();
@@ -67,7 +67,7 @@ public final class ajfl extends buqn {
                                     ajbn ajbn = ajee.f70417a;
                                     byzr byzr = (byzr) bzca.f169291b.get(i);
                                     bxvd bxvd = (bxvd) byzr.mo74142c(5);
-                                    bxvd.mo73625a((bxvk) byzr);
+                                    bxvd.mo73625a((GeneratedMessageLite) byzr);
                                     ajbn.mo38449a((bxvf) bxvd);
                                 }
                             }

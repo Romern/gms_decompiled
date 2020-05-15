@@ -60,7 +60,7 @@ final class aeto extends aeub {
         if (bznp == null) {
             bznp = bznp.f170737i;
         }
-        byte[] k = bzmu.f170661c.mo73780k();
+        byte[] k = bzmu.f170661c.getKey();
         ArrayList arrayList = new ArrayList(bznp.f170742d.size());
         bxwc bxwc = bznp.f170742d;
         int size = bxwc.size();

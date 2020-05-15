@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mtk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mtk extends bxvk implements bxxd {
+public final class mtk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final mtk f34674a;
@@ -13,7 +13,7 @@ public final class mtk extends bxvk implements bxxd {
     static {
         mtk mtk = new mtk();
         f34674a = mtk;
-        bxvk.m124024a(mtk.class, mtk);
+        GeneratedMessageLite.m124024a(mtk.class, mtk);
     }
 
     private mtk() {
@@ -31,7 +31,7 @@ public final class mtk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34674a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f34674a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new mtk();

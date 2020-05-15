@@ -36,7 +36,7 @@ public final class qwa {
     public static final bngj f42286c;
 
     /* renamed from: d */
-    private static final sek f42287d = qqu.m32672c("SyncManager");
+    private static final Logger f42287d = qqu.m32672c("SyncManager");
 
     /* renamed from: e */
     private final Context f42288e;
@@ -468,7 +468,7 @@ public final class qwa {
                 }
             }
             qwa.m32983a(r2.f42300a, "NIGORI");
-            f42287d.mo25409a("Pre-syncing metadata...", new Object[0]);
+            f42287d.logVerbose("Pre-syncing metadata...", new Object[0]);
             qwa.f42292i.mo24299b(r2.f42300a);
             if (da2.f164950c) {
                 da2.mo74035c();
@@ -627,14 +627,14 @@ public final class qwa {
                                                             str7.getClass();
                                                             str2 = str6;
                                                             if (!bstt.f147058c.mo73666a()) {
-                                                                bstt.f147058c = bxvk.m124021a(bstt.f147058c);
+                                                                bstt.f147058c = GeneratedMessageLite.m124021a(bstt.f147058c);
                                                             }
                                                             bstt.f147058c.add(str7);
                                                         } else {
                                                             str2 = str6;
                                                         }
                                                         if (bArr != null) {
-                                                            bxtx a4 = bxtx.m123261a(bArr);
+                                                            ByteString a4 = ByteString.m123261a(bArr);
                                                             if (da3.f164950c) {
                                                                 da3.mo74035c();
                                                                 da3.f164950c = false;
@@ -657,7 +657,7 @@ public final class qwa {
                                                         bstu bstu = (bstu) shl.mo25553a(r28, a3, bstt2, 10000, TimeUnit.MILLISECONDS);
                                                         Collections.addAll(arrayList, (bsua[]) bstu.f147061a.toArray(new bsua[0]));
                                                         if (!bstu.f147062b.mo73779j()) {
-                                                            bArr = bstu.f147062b.mo73780k();
+                                                            bArr = bstu.f147062b.getKey();
                                                             qrp4 = qrp3;
                                                             str6 = str2;
                                                             str7 = str3;
@@ -735,14 +735,14 @@ public final class qwa {
                                                         str9.getClass();
                                                         str = str8;
                                                         if (!bstv.f147067c.mo73666a()) {
-                                                            bstv.f147067c = bxvk.m124021a(bstv.f147067c);
+                                                            bstv.f147067c = GeneratedMessageLite.m124021a(bstv.f147067c);
                                                         }
                                                         bstv.f147067c.add(str9);
                                                     } else {
                                                         str = str8;
                                                     }
                                                     if (bArr2 != null) {
-                                                        bxtx a6 = bxtx.m123261a(bArr2);
+                                                        ByteString a6 = ByteString.m123261a(bArr2);
                                                         if (da4.f164950c) {
                                                             da4.mo74035c();
                                                             da4.f164950c = false;
@@ -764,7 +764,7 @@ public final class qwa {
                                                         bstw bstw = (bstw) shl2.mo25553a(r282, a5, bstv2, 10000, TimeUnit.MILLISECONDS);
                                                         arrayList2.addAll(bstw.f147070a);
                                                         if (!bstw.f147071b.mo73779j()) {
-                                                            bArr2 = bstw.f147071b.mo73780k();
+                                                            bArr2 = bstw.f147071b.getKey();
                                                             z2 = z3;
                                                             str8 = str;
                                                             qvd4 = qvd;
@@ -834,12 +834,12 @@ public final class qwa {
                                                         bsti bsti2 = (bsti) da5.f164949b;
                                                         str11.getClass();
                                                         if (!bsti2.f147017c.mo73666a()) {
-                                                            bsti2.f147017c = bxvk.m124021a(bsti2.f147017c);
+                                                            bsti2.f147017c = GeneratedMessageLite.m124021a(bsti2.f147017c);
                                                         }
                                                         bsti2.f147017c.add(str11);
                                                     }
                                                     if (bArr3 != null) {
-                                                        bxtx a8 = bxtx.m123261a(bArr3);
+                                                        ByteString a8 = ByteString.m123261a(bArr3);
                                                         if (da5.f164950c) {
                                                             da5.mo74035c();
                                                             da5.f164950c = false;
@@ -863,7 +863,7 @@ public final class qwa {
                                                     bstj bstj = (bstj) qrs.f42017a.mo25553a(qrs.f42016b, clientContext, bsti3, 10000, TimeUnit.MILLISECONDS);
                                                     Collections.addAll(arrayList3, (bsth[]) bstj.f147021a.toArray(new bsth[0]));
                                                     if (!bstj.f147022b.mo73779j()) {
-                                                        bArr3 = bstj.f147022b.mo73780k();
+                                                        bArr3 = bstj.f147022b.getKey();
                                                         str10 = str12;
                                                         qvf2 = qvf;
                                                         i9 = i;
@@ -885,7 +885,7 @@ public final class qwa {
                                             }
                                         }
                                     }
-                                    qvy.f42276a.mo25409a("Received %d entries of type %d.", Integer.valueOf(list.size()), Integer.valueOf(intValue));
+                                    qvy.f42276a.logVerbose("Received %d entries of type %d.", Integer.valueOf(list.size()), Integer.valueOf(intValue));
                                     qtv qtv = qvy2.f42281f;
                                     HashMap hashMap = new HashMap();
                                     for (qtq qtq : qtv.mo24272a(acyr4, intValue)) {
@@ -927,7 +927,7 @@ public final class qwa {
                                             } else {
                                                 qtp qtp2 = new qtp(qtq4);
                                                 qtp2.f42109d = true;
-                                                qtp2.f42108c = bxtx.f164797b;
+                                                qtp2.f42108c = ByteString.f164797b;
                                                 qto.m32871a(a10, "sync_entities", qtv.m32885a(acyr4, qtp2.mo24267a()));
                                             }
                                         }
@@ -952,25 +952,25 @@ public final class qwa {
                                         qtq qtq5 = (qtq) it2.next();
                                         if (intValue == 2) {
                                             try {
-                                                bxtx bxtx = qtq5.f42115d;
+                                                ByteString bxtx = qtq5.f42115d;
                                                 bxus c2 = bxus.m123744c();
                                                 it = it2;
                                                 try {
                                                     bsua bsua = bsua.f147094f;
                                                     try {
                                                         bxuc h = bxtx.mo73764h();
-                                                        bxvk bxvk = (bxvk) bsua.mo74142c(4);
+                                                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bsua.mo74142c(4);
                                                         try {
-                                                            bxxv a12 = bxxm.f165037a.mo74228a(bxvk);
+                                                            bxxv a12 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
                                                             bxvd12 = da2;
                                                             try {
-                                                                a12.mo74220a(bxvk, bxud.m123454a(h), c2);
-                                                                a12.mo74225d(bxvk);
+                                                                a12.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c2);
+                                                                a12.mo74225d(GeneratedMessageLite);
                                                                 try {
                                                                     h.mo73787a(0);
                                                                     try {
-                                                                        bxvk.m124027b(bxvk);
-                                                                        bsua bsua2 = (bsua) bxvk;
+                                                                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                                                                        bsua bsua2 = (bsua) GeneratedMessageLite;
                                                                         try {
                                                                             if (qtq5.f42116e.mo73779j()) {
                                                                                 qvd qvd5 = qvy2.f42282g;
@@ -1150,18 +1150,18 @@ public final class qwa {
                                             bxvd12 = da2;
                                             if (intValue == 1) {
                                                 try {
-                                                    bxtx bxtx2 = qtq5.f42115d;
+                                                    ByteString bxtx2 = qtq5.f42115d;
                                                     bxus c3 = bxus.m123744c();
                                                     bsud bsud = bsud.f147106f;
                                                     try {
                                                         bxuc h2 = bxtx2.mo73764h();
-                                                        bxvk bxvk2 = (bxvk) bsud.mo74142c(4);
-                                                        bxxv a16 = bxxm.f165037a.mo74228a(bxvk2);
-                                                        a16.mo74220a(bxvk2, bxud.m123454a(h2), c3);
-                                                        a16.mo74225d(bxvk2);
+                                                        GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) bsud.mo74142c(4);
+                                                        bxxv a16 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+                                                        a16.mo74220a(GeneratedMessageLite2, bxud.m123454a(h2), c3);
+                                                        a16.mo74225d(GeneratedMessageLite2);
                                                         h2.mo73787a(0);
-                                                        bxvk.m124027b(bxvk2);
-                                                        bsud bsud2 = (bsud) bxvk2;
+                                                        GeneratedMessageLite.m124027b(GeneratedMessageLite2);
+                                                        bsud bsud2 = (bsud) GeneratedMessageLite2;
                                                         if (qtq5.f42116e.mo73779j()) {
                                                             qvd qvd8 = qvy2.f42282g;
                                                             String str18 = c.f147074a;
@@ -1276,7 +1276,7 @@ public final class qwa {
                                                 bstk bstk = (bstk) da11.f164949b;
                                                 bsue4.getClass();
                                                 if (!bstk.f147025a.mo73666a()) {
-                                                    bstk.f147025a = bxvk.m124021a(bstk.f147025a);
+                                                    bstk.f147025a = GeneratedMessageLite.m124021a(bstk.f147025a);
                                                 }
                                                 bstk.f147025a.add(bsue4);
                                                 it3 = it4;
@@ -1355,7 +1355,7 @@ public final class qwa {
                             boke boke5 = (boke) da.mo74062i();
                             boke5.getClass();
                             if (!bokg.f133404c.mo73666a()) {
-                                bokg.f133404c = bxvk.m124021a(bokg.f133404c);
+                                bokg.f133404c = GeneratedMessageLite.m124021a(bokg.f133404c);
                             }
                             bokg.f133404c.add(boke5);
                             z2 = z3 | z4;

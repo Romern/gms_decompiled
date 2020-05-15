@@ -17,7 +17,7 @@ public final class bpqm extends bxvd implements bxxd {
         bpqn bpqn2 = bpqn.f138765b;
         bpot.getClass();
         if (!bpqn.f138767a.mo73666a()) {
-            bpqn.f138767a = bxvk.m124019a(bpqn.f138767a);
+            bpqn.f138767a = GeneratedMessageLite.m124019a(bpqn.f138767a);
         }
         bpqn.f138767a.mo74153d(bpot.f138574d);
     }

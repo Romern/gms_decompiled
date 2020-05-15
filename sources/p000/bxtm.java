@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
 final class bxtm extends bxtn {
 
     /* renamed from: a */
-    final /* synthetic */ bxtx f164782a;
+    final /* synthetic */ ByteString f164782a;
 
     /* renamed from: b */
     private int f164783b = 0;
@@ -15,7 +15,7 @@ final class bxtm extends bxtn {
     /* renamed from: c */
     private final int f164784c = this.f164782a.mo73744a();
 
-    public bxtm(bxtx bxtx) {
+    public bxtm(ByteString bxtx) {
         this.f164782a = bxtx;
     }
 

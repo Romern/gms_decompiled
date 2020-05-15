@@ -43,7 +43,7 @@ public final class bcwh implements bcle {
                 if (cbey2 == null) {
                     cbey2 = cbey.f176867f;
                 }
-                byte[] k = cbey2.f176871c.mo73780k();
+                byte[] k = cbey2.f176871c.getKey();
                 bcwq i = bcwr.m90183i();
                 i.mo57639a(k);
                 i.mo57638a(0);
@@ -112,13 +112,13 @@ public final class bcwh implements bcle {
                     return bcqa.m89616a(c2.mo57522a());
                 }
                 bbos.m88294d("PhotoMsgConverter", "Failed to serialize photo message");
-                return bcqa.m89618a(bxtx.f164797b);
+                return bcqa.m89618a(ByteString.f164797b);
             }
             bbos.m88294d("PhotoMsgConverter", "Attempted to convert non-jpeg Photo message");
-            return bcqa.m89618a(bxtx.f164797b);
+            return bcqa.m89618a(ByteString.f164797b);
         }
         bbos.m88294d("PhotoMsgConverter", "Attempted to convert non-photo LighterMessage");
-        return bcqa.m89618a(bxtx.f164797b);
+        return bcqa.m89618a(ByteString.f164797b);
     }
 
     /* renamed from: a */
@@ -279,7 +279,7 @@ public final class bcwh implements bcle {
         }
         "image/jpeg".getClass();
         ((cbey) da4.f164949b).f176870b = "image/jpeg";
-        bxtx a4 = bxtx.m123261a(bArr);
+        ByteString a4 = ByteString.m123261a(bArr);
         if (da4.f164950c) {
             da4.mo74035c();
             da4.f164950c = false;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lsz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lsz extends bxvk implements bxxd {
+public final class lsz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final lsz f32870k;
@@ -46,7 +46,7 @@ public final class lsz extends bxvk implements bxxd {
     static {
         lsz lsz = new lsz();
         f32870k = lsz;
-        bxvk.m124024a(lsz.class, lsz);
+        GeneratedMessageLite.m124024a(lsz.class, lsz);
     }
 
     private lsz() {
@@ -67,7 +67,7 @@ public final class lsz extends bxvk implements bxxd {
             this.f32882l = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f32870k, "\u0001\t\u0000\u0001\u0003#\t\u0000\u0003\u0003\u0003ᔈ\u0000\u0004ထ\u0002\u0006Л\u0007б\n1\u0014ဈ\u0001 ဉ\u0003!ဈ\u0004#ဌ\u0005", new Object[]{"a", "b", "d", "g", ltr.class, "e", lsy.class, "f", lsw.class, "c", "h", "i", "j", lsq.f32850a});
+            return GeneratedMessageLite.m124022a(f32870k, "\u0001\t\u0000\u0001\u0003#\t\u0000\u0003\u0003\u0003ᔈ\u0000\u0004ထ\u0002\u0006Л\u0007б\n1\u0014ဈ\u0001 ဉ\u0003!ဈ\u0004#ဌ\u0005", new Object[]{"a", "b", "d", "g", ltr.class, "e", lsy.class, "f", lsw.class, "c", "h", "i", "j", lsq.f32850a});
         } else if (i2 == 3) {
             return new lsz();
         } else {
@@ -94,7 +94,7 @@ public final class lsz extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo19596a() {
         if (!this.f32877f.mo73666a()) {
-            this.f32877f = bxvk.m124021a(this.f32877f);
+            this.f32877f = GeneratedMessageLite.m124021a(this.f32877f);
         }
     }
 }

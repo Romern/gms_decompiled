@@ -18,14 +18,14 @@ final class evp extends evn {
     private final Fragment f15888e;
 
     /* renamed from: f */
-    private final sek f15889f;
+    private final Logger f15889f;
 
-    public evp(bsvb bsvb, ffk ffk, Fragment fragment, sek sek, ewh ewh, ewg ewg) {
+    public evp(bsvb bsvb, ffk ffk, Fragment fragment, Logger Logger, ewh ewh, ewg ewg) {
         super(ewh, ewg);
         this.f15886c = bsvb;
         this.f15887d = ffk;
         this.f15888e = fragment;
-        this.f15889f = sek;
+        this.f15889f = Logger;
     }
 
     /* renamed from: a */

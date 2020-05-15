@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmar */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmar extends bxvk implements bxxd {
+public final class bmar extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmar f128490c;
@@ -19,7 +19,7 @@ public final class bmar extends bxvk implements bxxd {
     static {
         bmar bmar = new bmar();
         f128490c = bmar;
-        bxvk.m124024a(bmar.class, bmar);
+        GeneratedMessageLite.m124024a(bmar.class, bmar);
     }
 
     private bmar() {
@@ -36,7 +36,7 @@ public final class bmar extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128490c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001a\u0002\u001a", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f128490c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001a\u0002\u001a", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bmar();
         } else {

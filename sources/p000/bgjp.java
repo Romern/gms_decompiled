@@ -131,7 +131,7 @@ public final class bgjp implements bggn, bhco, bglx, bgmb, bgnf, berg, bgmx, bgn
         } else {
             this.f116639t = null;
         }
-        long a = spn.m35843a(context);
+        long a = spn.getAndroidId(context);
         File filesDir = context.getFilesDir();
         this.f116634o = new bgog(a, filesDir != null ? new File(filesDir, "nlp_ck") : file);
         this.f116624e = new bfct(this.f116626g, this);

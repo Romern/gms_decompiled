@@ -46,7 +46,7 @@ final /* synthetic */ class jca implements bmxj {
                 arrayList.add(jbf2);
             } else {
                 bxvd bxvd = (bxvd) jbf2.mo74142c(5);
-                bxvd.mo73625a((bxvk) jbf2);
+                bxvd.mo73625a((GeneratedMessageLite) jbf2);
                 str2.getClass();
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
@@ -69,15 +69,15 @@ final /* synthetic */ class jca implements bmxj {
             jbd2 = (jbd) bxww3.get(str);
         }
         bxvd bxvd2 = (bxvd) jbd2.mo74142c(5);
-        bxvd2.mo73625a((bxvk) jbd2);
+        bxvd2.mo73625a((GeneratedMessageLite) jbd2);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;
         }
-        ((jbd) bxvd2.f164949b).f22081b = bxvk.m124030de();
+        ((jbd) bxvd2.f164949b).f22081b = GeneratedMessageLite.m124030de();
         bxvd2.mo74119x(arrayList);
         bxvd bxvd3 = (bxvd) jbb.mo74142c(5);
-        bxvd3.mo73625a((bxvk) jbb);
+        bxvd3.mo73625a((GeneratedMessageLite) jbb);
         bxvd3.mo74003a(str, (jbd) bxvd2.mo74062i());
         return (jbb) bxvd3.mo74062i();
     }

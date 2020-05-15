@@ -67,21 +67,21 @@ public final class obf extends obe {
         printWriter2.print(":{");
         switch (c2) {
             case 32769:
-                birc birc = (birc) bxvk.m124013a(birc.f121379g, byteBuffer2, bxus.m123744c());
+                birc birc = (birc) GeneratedMessageLite.m124013a(birc.f121379g, byteBuffer2, bxus.m123744c());
                 if (birc != null) {
                     printWriter2.printf("%s", birc);
                     break;
                 }
                 break;
             case 32770:
-                birm birm = (birm) bxvk.m124013a(birm.f121425b, byteBuffer2, bxus.m123744c());
+                birm birm = (birm) GeneratedMessageLite.m124013a(birm.f121425b, byteBuffer2, bxus.m123744c());
                 if (birm != null) {
                     printWriter2.printf("%s", birm.f121427a);
                     break;
                 }
                 break;
             case 32771:
-                birn birn = (birn) bxvk.m124013a(birn.f121428b, byteBuffer2, bxus.m123744c());
+                birn birn = (birn) GeneratedMessageLite.m124013a(birn.f121428b, byteBuffer2, bxus.m123744c());
                 if (birn != null) {
                     printWriter2.printf("%d", Integer.valueOf(birn.f121430a));
                     break;
@@ -89,7 +89,7 @@ public final class obf extends obe {
                 break;
             default:
                 try {
-                    birb birb = (birb) bxvk.m124013a(birb.f121375c, byteBuffer2, bxus.m123744c());
+                    birb birb = (birb) GeneratedMessageLite.m124013a(birb.f121375c, byteBuffer2, bxus.m123744c());
                     if (birb != null) {
                         Object[] objArr = new Object[1];
                         biqh a = biqh.m102724a(birb.f121378b);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqal */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqal extends bxvk implements bxxd {
+public final class aqal extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final aqal f85408d;
@@ -22,7 +22,7 @@ public final class aqal extends bxvk implements bxxd {
     static {
         aqal aqal = new aqal();
         f85408d = aqal;
-        bxvk.m124024a(aqal.class, aqal);
+        GeneratedMessageLite.m124024a(aqal.class, aqal);
     }
 
     private aqal() {
@@ -39,7 +39,7 @@ public final class aqal extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85408d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f85408d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new aqal();
         } else {

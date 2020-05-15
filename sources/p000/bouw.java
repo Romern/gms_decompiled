@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bouw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bouw extends bxvk implements bxxd {
+public final class bouw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final bouw f134960h;
@@ -34,7 +34,7 @@ public final class bouw extends bxvk implements bxxd {
     static {
         bouw bouw = new bouw();
         f134960h = bouw;
-        bxvk.m124024a(bouw.class, bouw);
+        GeneratedMessageLite.m124024a(bouw.class, bouw);
     }
 
     private bouw() {
@@ -51,7 +51,7 @@ public final class bouw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134960h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0004ဌ\u0003\u0005ဌ\u0004\u0006ဌ\u0005", new Object[]{"a", "b", bour.f134955a, "c", bouq.f134954a, "d", bouu.f134958a, "e", bouv.f134959a, "f", bout.f134957a, "g", bous.f134956a});
+            return GeneratedMessageLite.m124022a(f134960h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0004ဌ\u0003\u0005ဌ\u0004\u0006ဌ\u0005", new Object[]{"a", "b", bour.f134955a, "c", bouq.f134954a, "d", bouu.f134958a, "e", bouv.f134959a, "f", bout.f134957a, "g", bous.f134956a});
         } else if (i2 == 3) {
             return new bouw();
         } else {

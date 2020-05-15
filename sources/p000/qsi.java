@@ -9,7 +9,7 @@ import android.os.SystemClock;
 abstract class qsi extends aaab {
 
     /* renamed from: b */
-    private static final sek f42030b = qqu.m32670a("ChromeSyncOperation");
+    private static final Logger f42030b = qqu.m32670a("ChromeSyncOperation");
 
     /* renamed from: a */
     protected acyr f42031a;

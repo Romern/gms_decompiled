@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: absr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class absr extends bxvk implements bxxd {
+public final class absr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: s */
     public static final absr f58134s;
@@ -67,7 +67,7 @@ public final class absr extends bxvk implements bxxd {
     static {
         absr absr = new absr();
         f58134s = absr;
-        bxvk.m124024a(absr.class, absr);
+        GeneratedMessageLite.m124024a(absr.class, absr);
     }
 
     private absr() {
@@ -84,7 +84,7 @@ public final class absr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58134s, "\u0001\u0011\u0000\u0001\u0001\u0015\u0011\u0000\u0002\u0000\u0001ဈ\u0001\u0002ဈ\u0003\u0004ဈ\u0004\u0006\u001b\u0007\u001b\bင\u0000\tဈ\u0002\nဇ\u0005\u000bဃ\u0006\fင\b\rဇ\t\u000eဂ\n\u000fဃ\u0007\u0010ဈ\u000b\u0011ဈ\f\u0013ဈ\r\u0015ဋ\u000e", new Object[]{"a", "c", "e", "f", "j", abqo.class, "k", abut.class, "b", "d", "g", "h", "l", "m", "n", "i", "o", "p", "q", "r"});
+            return GeneratedMessageLite.m124022a(f58134s, "\u0001\u0011\u0000\u0001\u0001\u0015\u0011\u0000\u0002\u0000\u0001ဈ\u0001\u0002ဈ\u0003\u0004ဈ\u0004\u0006\u001b\u0007\u001b\bင\u0000\tဈ\u0002\nဇ\u0005\u000bဃ\u0006\fင\b\rဇ\t\u000eဂ\n\u000fဃ\u0007\u0010ဈ\u000b\u0011ဈ\f\u0013ဈ\r\u0015ဋ\u000e", new Object[]{"a", "c", "e", "f", "j", abqo.class, "k", abut.class, "b", "d", "g", "h", "l", "m", "n", "i", "o", "p", "q", "r"});
         } else if (i2 == 3) {
             return new absr();
         } else {
@@ -111,14 +111,14 @@ public final class absr extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo32342b() {
         if (!this.f58146k.mo73666a()) {
-            this.f58146k = bxvk.m124021a(this.f58146k);
+            this.f58146k = GeneratedMessageLite.m124021a(this.f58146k);
         }
     }
 
     /* renamed from: a */
     public final void mo32341a() {
         if (!this.f58145j.mo73666a()) {
-            this.f58145j = bxvk.m124021a(this.f58145j);
+            this.f58145j = GeneratedMessageLite.m124021a(this.f58145j);
         }
     }
 }

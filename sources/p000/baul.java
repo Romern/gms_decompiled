@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: baul */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class baul extends bxvk implements bxxd {
+public final class baul extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final baul f101779d;
@@ -22,7 +22,7 @@ public final class baul extends bxvk implements bxxd {
     static {
         baul baul = new baul();
         f101779d = baul;
-        bxvk.m124024a(baul.class, baul);
+        GeneratedMessageLite.m124024a(baul.class, baul);
     }
 
     private baul() {
@@ -39,7 +39,7 @@ public final class baul extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f101779d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bauk.f101778a, "c", bauj.f101777a});
+            return GeneratedMessageLite.m124022a(f101779d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bauk.f101778a, "c", bauj.f101777a});
         } else if (i2 == 3) {
             return new baul();
         } else {

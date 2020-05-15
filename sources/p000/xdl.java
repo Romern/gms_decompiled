@@ -18,7 +18,7 @@ public final class xdl {
     public static final adcb f51999a = adca.m50151b(xdi.f51996a);
 
     /* renamed from: c */
-    private static final sek f52000c = new sek(new String[]{"CredentialMetadataStore"}, (short[]) null);
+    private static final Logger f52000c = new Logger(new String[]{"CredentialMetadataStore"}, (short[]) null);
 
     /* renamed from: b */
     private final xwt f52001b;
@@ -44,9 +44,9 @@ public final class xdl {
         try {
             SQLiteDatabase writableDatabase = this.f52001b.getWritableDatabase();
             String format = String.format("DELETE FROM %1$s WHERE %2$s = ? AND %3$s NOT IN (SELECT %3$s FROM %1$s WHERE %2$s = ? ORDER BY date(%3$s) DESC LIMIT %4$s)", "usages", "id", "usage_timestamp", 50);
-            sek sek = f52000c;
+            Logger Logger = f52000c;
             String valueOf = String.valueOf(format);
-            sek.mo25412b(valueOf.length() == 0 ? new String("Executing query ") : "Executing query ".concat(valueOf), new Object[0]);
+            Logger.mo25412b(valueOf.length() == 0 ? new String("Executing query ") : "Executing query ".concat(valueOf), new Object[0]);
             String b = xjx.mo29848b();
             writableDatabase.execSQL(format, new String[]{b, b});
         } catch (SQLiteCantOpenDatabaseException e) {

@@ -86,7 +86,7 @@ public final class alml {
         amoh amoh3 = (amoh) bxvd.mo74062i();
         long clearCallingIdentity = Binder.clearCallingIdentity();
         try {
-            byte[] k = amoh3.mo73642k();
+            byte[] k = amoh3.serializeToBytes();
             Base64.encodeToString(k, 2);
             new qws(rpr.m34216b(), "GMS_CORE_PEOPLE", str).mo24335a(k).mo24327b();
         } finally {

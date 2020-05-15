@@ -79,7 +79,7 @@ public final class awrs extends awrm {
 
     /* renamed from: a */
     public final void mo52514a(Bundle bundle) {
-        sdo.m34966a(bundle, "parameters is required");
+        sdo.checkIfNull(bundle, "parameters is required");
         String string = bundle.getString("androidPackageName");
         sdo.m34975b(!TextUtils.isEmpty(string), "packageName is required");
         spn.m35872c(this.f94932a, string);

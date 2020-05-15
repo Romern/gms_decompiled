@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boro */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boro extends bxvk implements bxxd {
+public final class boro extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final boro f134462h;
@@ -34,7 +34,7 @@ public final class boro extends bxvk implements bxxd {
     static {
         boro boro = new boro();
         f134462h = boro;
-        bxvk.m124024a(boro.class, boro);
+        GeneratedMessageLite.m124024a(boro.class, boro);
     }
 
     private boro() {
@@ -51,7 +51,7 @@ public final class boro extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134462h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003င\u0002\u0004င\u0003\u0005ဇ\u0005\u0006င\u0004", new Object[]{"a", "b", "c", "d", "e", "g", "f"});
+            return GeneratedMessageLite.m124022a(f134462h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003င\u0002\u0004င\u0003\u0005ဇ\u0005\u0006င\u0004", new Object[]{"a", "b", "c", "d", "e", "g", "f"});
         } else if (i2 == 3) {
             return new boro();
         } else {

@@ -17,7 +17,7 @@ public final class bvlz extends bxvd implements bxxd {
         bvma bvma2 = bvma.f156625d;
         bvkz.getClass();
         if (!bvma.f156629c.mo73666a()) {
-            bvma.f156629c = bxvk.m124019a(bvma.f156629c);
+            bvma.f156629c = GeneratedMessageLite.m124019a(bvma.f156629c);
         }
         bvma.f156629c.mo74153d(bvkz.f156498f);
     }

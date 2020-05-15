@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqci */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqci extends bxvk implements bxxd {
+public final class aqci extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final aqci f85653e;
@@ -25,7 +25,7 @@ public final class aqci extends bxvk implements bxxd {
     static {
         aqci aqci = new aqci();
         f85653e = aqci;
-        bxvk.m124024a(aqci.class, aqci);
+        GeneratedMessageLite.m124024a(aqci.class, aqci);
     }
 
     private aqci() {
@@ -42,7 +42,7 @@ public final class aqci extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85653e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001င\u0000\u0002င\u0001\u0004\u001e", new Object[]{"a", "b", "c", "d", aqcf.m71347b()});
+            return GeneratedMessageLite.m124022a(f85653e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001င\u0000\u0002င\u0001\u0004\u001e", new Object[]{"a", "b", "c", "d", aqcf.m71347b()});
         } else if (i2 == 3) {
             return new aqci();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buyx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buyx extends bxvk implements bxxd {
+public final class buyx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buyx f155353d;
@@ -22,7 +22,7 @@ public final class buyx extends bxvk implements bxxd {
     static {
         buyx buyx = new buyx();
         f155353d = buyx;
-        bxvk.m124024a(buyx.class, buyx);
+        GeneratedMessageLite.m124024a(buyx.class, buyx);
     }
 
     private buyx() {
@@ -39,7 +39,7 @@ public final class buyx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155353d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", buyv.m120789b()});
+            return GeneratedMessageLite.m124022a(f155353d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", buyv.m120789b()});
         } else if (i2 == 3) {
             return new buyx();
         } else {

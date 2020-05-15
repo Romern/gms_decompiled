@@ -681,7 +681,7 @@ public class DriveBackupSettingsFragment extends mvu implements aoa, mvw, myd {
             } else {
                 bsqi bsqi = this.f29159Y;
                 bxvd bxvd2 = (bxvd) bsqi.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bsqi);
+                bxvd2.mo73625a((GeneratedMessageLite) bsqi);
                 bxvd = bxvd2;
             }
             if (z) {

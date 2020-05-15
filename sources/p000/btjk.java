@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btjk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btjk extends bxvk implements bxxd {
+public final class btjk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: C */
     public static final btjk f149119C;
@@ -74,7 +74,7 @@ public final class btjk extends bxvk implements bxxd {
     public btjo f149141s;
 
     /* renamed from: t */
-    public bxtx f149142t = bxtx.f164797b;
+    public ByteString f149142t = ByteString.f164797b;
 
     /* renamed from: u */
     public btja f149143u;
@@ -97,7 +97,7 @@ public final class btjk extends bxvk implements bxxd {
     static {
         btjk btjk = new btjk();
         f149119C = btjk;
-        bxvk.m124024a(btjk.class, btjk);
+        GeneratedMessageLite.m124024a(btjk.class, btjk);
     }
 
     private btjk() {
@@ -114,7 +114,7 @@ public final class btjk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149119C, "\u0000\u001c\u0000\u0000\u0001%\u001c\u0000\u0001\u0000\u0001\t\u0002\f\u0003Ȉ\u0004Ȉ\u0007Ȉ\bȈ\t\u0004\n\u0004\u000b\t\r\f\u000e\t\u000fȈ\u0012\t\u0014Ȉ\u0015\t\u0016\n\u0019\t\u001a\t\u001b\f\u001cȈ\u001d\u001b\u001eȈ\u001f\u0007!\u0002\"\u0007#\u0007$\u0002%\t", new Object[]{"a", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "q", "r", "s", "t", "u", "v", "w", "p", "x", btjj.class, "y", "z", "c", "A", "B", "b", "d"});
+            return GeneratedMessageLite.m124022a(f149119C, "\u0000\u001c\u0000\u0000\u0001%\u001c\u0000\u0001\u0000\u0001\t\u0002\f\u0003Ȉ\u0004Ȉ\u0007Ȉ\bȈ\t\u0004\n\u0004\u000b\t\r\f\u000e\t\u000fȈ\u0012\t\u0014Ȉ\u0015\t\u0016\n\u0019\t\u001a\t\u001b\f\u001cȈ\u001d\u001b\u001eȈ\u001f\u0007!\u0002\"\u0007#\u0007$\u0002%\t", new Object[]{"a", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "q", "r", "s", "t", "u", "v", "w", "p", "x", btjj.class, "y", "z", "c", "A", "B", "b", "d"});
         } else if (i2 == 3) {
             return new btjk();
         } else {

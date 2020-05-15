@@ -22,7 +22,7 @@ public final class epv {
             return bsxk;
         }
         bxvd bxvd = (bxvd) bsxk.mo74142c(5);
-        bxvd.mo73625a((bxvk) bsxk);
+        bxvd.mo73625a((GeneratedMessageLite) bsxk);
         bsxk bsxk2 = (bsxk) bxvd.f164949b;
         if (bsxk2.f147581b != 3) {
             bsxr = bsxr.f147603b;
@@ -30,14 +30,14 @@ public final class epv {
             bsxr = (bsxr) bsxk2.f147582c;
         }
         bxvd bxvd2 = (bxvd) bsxr.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bsxr);
+        bxvd2.mo73625a((GeneratedMessageLite) bsxr);
         bsxq bsxq = (bsxq) bxvd2;
         if (bsxq.f164950c) {
             bsxq.mo74035c();
             bsxq.f164950c = false;
         }
         bsxr bsxr3 = bsxr.f147603b;
-        ((bsxr) bsxq.f164949b).f147605a = bxvk.m124030de();
+        ((bsxr) bsxq.f164949b).f147605a = GeneratedMessageLite.m124030de();
         bsxk bsxk3 = (bsxk) bxvd.f164949b;
         if (bsxk3.f147581b == 3) {
             bsxr2 = (bsxr) bsxk3.f147582c;

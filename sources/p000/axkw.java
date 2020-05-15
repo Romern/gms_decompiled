@@ -142,7 +142,7 @@ public final class axkw extends axeq {
                 if (btrt == null) {
                     btrt = btrt.f150144e;
                 }
-                bArr = btrt.f150147b.mo73780k();
+                bArr = btrt.f150147b.getKey();
             } else {
                 bArr = null;
             }

@@ -10,7 +10,7 @@ import java.util.Set;
 public final class ivb implements ivt, ivq {
 
     /* renamed from: h */
-    public static final sek f21845h = new sek(new String[]{"StatusUpdateTracker"}, (char[]) null);
+    public static final Logger f21845h = new Logger(new String[]{"StatusUpdateTracker"}, (char[]) null);
 
     /* renamed from: a */
     public final KeyguardManager f21846a;

@@ -91,7 +91,7 @@ public final class aevp extends aesx {
         bzly bzly3 = (bzly) da.mo74062i();
         bzly3.getClass();
         if (!bznf2.f170703b.mo73666a()) {
-            bznf2.f170703b = bxvk.m124021a(bznf2.f170703b);
+            bznf2.f170703b = GeneratedMessageLite.m124021a(bznf2.f170703b);
         }
         bznf2.f170703b.add(bzly3);
         bxvd da3 = bzme.f170605c.mo74144da();

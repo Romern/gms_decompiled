@@ -69,7 +69,7 @@ public final class rxa implements aniz {
                     gZIPInputStream = entity.getContent();
                 }
                 try {
-                    bqze bqze = (bqze) bxvk.m124016a(bqze.f142028f, boav.m111020a(gZIPInputStream), bxus.m123744c());
+                    bqze bqze = (bqze) GeneratedMessageLite.m124016a(bqze.f142028f, boav.m111020a(gZIPInputStream), bxus.m123744c());
                     if (gZIPInputStream != null) {
                         gZIPInputStream.close();
                     }

@@ -80,7 +80,7 @@ public final class aloj extends alne {
             da3.f164950c = false;
         }
         ((btet) da3.f164949b).f148567g = btes.m116488a(3);
-        bxtx a2 = a == null ? bxtx.f164797b : bxtx.m123261a(a);
+        ByteString a2 = a == null ? ByteString.f164797b : ByteString.m123261a(a);
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;
@@ -99,7 +99,7 @@ public final class aloj extends alne {
         bldz bldz = (bldz) da4.f164949b;
         bldy.getClass();
         if (!bldz.f126161a.mo73666a()) {
-            bldz.f126161a = bxvk.m124019a(bldz.f126161a);
+            bldz.f126161a = GeneratedMessageLite.m124019a(bldz.f126161a);
         }
         bldz.f126161a.mo74153d(bldy.f126158g);
         if (da3.f164950c) {

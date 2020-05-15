@@ -105,7 +105,7 @@ final class ubh implements ucb {
                         ubk ubk2 = udv.f47328c.f47237a;
                         Query query2 = udv.f47327b;
                         sdo.m34959a(query2);
-                        sdo.m34966a(query2.mo18285a(), "Query can't have null spaces (have you validated them?)");
+                        sdo.checkIfNull(query2.mo18285a(), "Query can't have null spaces (have you validated them?)");
                         boolean z2 = true;
                         sdo.m34975b(!query2.mo18285a().isEmpty(), "Query can't have empty spaces (have you validated them?)");
                         val val = ubk2.f47155p;

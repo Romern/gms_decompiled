@@ -11,7 +11,7 @@ public final class gnb extends gmg {
     public static final gna f18656b = new gmz();
 
     /* renamed from: d */
-    private static final sek f18657d = ght.m13171a("Account", "ValidateAccountResponse");
+    private static final Logger f18657d = ght.m13171a("Account", "ValidateAccountResponse");
 
     /* renamed from: c */
     public final izj f18658c;

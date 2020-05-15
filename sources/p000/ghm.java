@@ -147,7 +147,7 @@ public final class ghm extends aaab {
             bssu2.getClass();
             bssn3.f146888e = bssu2;
             bssn3.f146884a |= 16;
-            bxtx a = bxtx.m123261a(bArr3[i5]);
+            ByteString a = ByteString.m123261a(bArr3[i5]);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -158,7 +158,7 @@ public final class ghm extends aaab {
             bssn4.f146885b = a;
             byte[] bArr4 = logAuditRecordsRequest2.f9902e;
             if (bArr4 != null) {
-                bxtx a2 = bxtx.m123261a(bArr4);
+                ByteString a2 = ByteString.m123261a(bArr4);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -170,7 +170,7 @@ public final class ghm extends aaab {
             }
             byte[] bArr5 = logAuditRecordsRequest2.f9903f;
             if (bArr5 != null) {
-                bxtx a3 = bxtx.m123261a(bArr5);
+                ByteString a3 = ByteString.m123261a(bArr5);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -205,13 +205,13 @@ public final class ghm extends aaab {
             while (i8 < length2) {
                 bssn bssn7 = bssnArr[i8];
                 bxvd bxvd = (bxvd) bssn7.mo74142c(5);
-                bxvd.mo73625a((bxvk) bssn7);
+                bxvd.mo73625a((GeneratedMessageLite) bssn7);
                 bssu bssu3 = bssn7.f146888e;
                 if (bssu3 == null) {
                     bssu3 = bssu.f146916d;
                 }
                 bxvd bxvd2 = (bxvd) bssu3.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bssu3);
+                bxvd2.mo73625a((GeneratedMessageLite) bssu3);
                 long currentTimeMillis2 = System.currentTimeMillis();
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();

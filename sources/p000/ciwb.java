@@ -44,7 +44,7 @@ public final class ciwb implements ciwa {
         ciwd ciwd = (ciwd) da.f164949b;
         ciwd.f191562a |= 4;
         ciwd.f191565d = i3;
-        bxtx a = bxtx.m123261a(civs.mo86595a());
+        ByteString a = ByteString.m123261a(civs.mo86595a());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -53,7 +53,7 @@ public final class ciwb implements ciwa {
         a.getClass();
         ciwd2.f191562a |= 8;
         ciwd2.f191566e = a;
-        bxtx a2 = bxtx.m123261a(cive.mo86588a());
+        ByteString a2 = ByteString.m123261a(cive.mo86588a());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -62,7 +62,7 @@ public final class ciwb implements ciwa {
         a2.getClass();
         ciwd3.f191562a |= 16;
         ciwd3.f191567f = a2;
-        bxtx a3 = bxtx.m123261a(ciwc.f191558d);
+        ByteString a3 = ByteString.m123261a(ciwc.f191558d);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -84,7 +84,7 @@ public final class ciwb implements ciwa {
             ciwd5.f191562a |= 2;
             ciwd5.f191564c = intValue;
         }
-        this.f191554h = cixd.m151108a(new byte[]{cixd.m151106a(this.f191547a)}, ((ciwd) da.mo74062i()).mo73642k());
+        this.f191554h = cixd.m151108a(new byte[]{cixd.m151106a(this.f191547a)}, ((ciwd) da.mo74062i()).serializeToBytes());
     }
 
     /* renamed from: a */
@@ -109,7 +109,7 @@ public final class ciwb implements ciwa {
                 throw new civj(sb.toString());
             } else if (a >= 3) {
                 int i = -1;
-                ciwd ciwd = (ciwd) bxvk.m124007a(ciwd.f191560h, bxtx.m123262a(bArr, 1, bArr.length - 1));
+                ciwd ciwd = (ciwd) GeneratedMessageLite.m124007a(ciwd.f191560h, ByteString.m123262a(bArr, 1, bArr.length - 1));
                 int i2 = ciwd.f191562a;
                 if ((i2 & 4) == 0 || (i2 & 8) == 0 || (i2 & 16) == 0 || (i2 & 32) == 0) {
                     throw new civi("Incomplete message.");
@@ -123,9 +123,9 @@ public final class ciwb implements ciwa {
                 }
                 this.f191549c = cixh;
                 this.f191550d = (ciwd.f191562a & 4) != 0 ? ciwd.f191565d : i;
-                this.f191553g = civq.m151054b(ciwd.f191566e.mo73780k());
-                this.f191551e = new cive(civq.m151054b(ciwd.f191567f.mo73780k()));
-                this.f191552f = new ciwc(ciwd.f191568g.mo73780k());
+                this.f191553g = civq.m151054b(ciwd.f191566e.getKey());
+                this.f191551e = new cive(civq.m151054b(ciwd.f191567f.getKey()));
+                this.f191552f = new ciwc(ciwd.f191568g.getKey());
             } else {
                 StringBuilder sb2 = new StringBuilder(27);
                 sb2.append("Legacy version: ");

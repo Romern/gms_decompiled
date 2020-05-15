@@ -103,8 +103,8 @@ public final class bquz implements bqnk {
                 if (bArr3.length == bqqc.f141354b) {
                     if (bqqc.f141353a.equals(bqom.f141342b)) {
                         bxvd da = bqrd.f141422c.mo74144da();
-                        da.mo73625a((bxvk) bqqc.f141355c);
-                        bxtx a5 = bxtx.m123262a(bArr3, 0, bqqc.f141354b);
+                        da.mo73625a((GeneratedMessageLite) bqqc.f141355c);
+                        ByteString a5 = ByteString.m123262a(bArr3, 0, bqqc.f141354b);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -120,8 +120,8 @@ public final class bquz implements bqnk {
                         if (bqqx == null) {
                             bqqx = bqqx.f141398d;
                         }
-                        da2.mo73625a((bxvk) bqqx);
-                        bxtx a6 = bxtx.m123261a(copyOfRange);
+                        da2.mo73625a((GeneratedMessageLite) bqqx);
+                        ByteString a6 = ByteString.m123261a(copyOfRange);
                         if (da2.f164950c) {
                             da2.mo74035c();
                             da2.f164950c = false;
@@ -134,8 +134,8 @@ public final class bquz implements bqnk {
                         if (bqrz == null) {
                             bqrz = bqrz.f141496d;
                         }
-                        da3.mo73625a((bxvk) bqrz);
-                        bxtx a7 = bxtx.m123261a(copyOfRange2);
+                        da3.mo73625a((GeneratedMessageLite) bqrz);
+                        ByteString a7 = ByteString.m123261a(copyOfRange2);
                         if (da3.f164950c) {
                             da3.mo74035c();
                             da3.f164950c = false;

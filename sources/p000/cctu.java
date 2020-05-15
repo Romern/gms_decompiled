@@ -10,7 +10,7 @@ public final class cctu implements ccts {
     static {
         bdyw bdyw = new bdyw(bdyj.m91581a("com.google.android.gms.car"));
         try {
-            f179910a = bdyx.m91608a(bdyw, "GalProtocolConditionalRequirementsForMinimumAppVersionsFeature__conditionally_required_minimum_app_versions", (ccwz) bxvk.m124014a(ccwz.f180139b, new byte[0]), cctt.f179909a);
+            f179910a = bdyx.m91608a(bdyw, "GalProtocolConditionalRequirementsForMinimumAppVersionsFeature__conditionally_required_minimum_app_versions", (ccwz) GeneratedMessageLite.m124014a(ccwz.f180139b, new byte[0]), cctt.f179909a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"GalProtocolConditionalRequirementsForMinimumAppVersionsFeature__conditionally_required_minimum_app_versions\"");
         }

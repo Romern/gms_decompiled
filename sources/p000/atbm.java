@@ -41,7 +41,7 @@ public class atbm {
         contentValues.put("acknowledged_bundle", bArr);
         byda byda = atda.f90109j;
         if (byda != null) {
-            bArr2 = byda.mo73642k();
+            bArr2 = byda.serializeToBytes();
         }
         contentValues.put("bundle_info", bArr2);
         contentValues.put("new_bundle_type", atda.f90110k);
@@ -187,20 +187,20 @@ public class atbm {
                             switch (c) {
                                 case 0:
                                     if (cgwn.m147273w()) {
-                                        atde = new atby(context, (bycu) bxvk.m124016a(bycu.f165705k, a2, bxus.m123744c()));
+                                        atde = new atby(context, (bycu) GeneratedMessageLite.m124016a(bycu.f165705k, a2, bxus.m123744c()));
                                         break;
                                     } else {
-                                        atde = new atbv(context, (bycu) bxvk.m124016a(bycu.f165705k, a2, bxus.m123744c()));
+                                        atde = new atbv(context, (bycu) GeneratedMessageLite.m124016a(bycu.f165705k, a2, bxus.m123744c()));
                                         break;
                                     }
                                 case 1:
-                                    atde = new atdk((ataq) bxvk.m124016a(ataq.f89963f, a2, bxus.m123744c()));
+                                    atde = new atdk((ataq) GeneratedMessageLite.m124016a(ataq.f89963f, a2, bxus.m123744c()));
                                     break;
                                 case 2:
-                                    atde = new atdo((bydf) bxvk.m124016a(bydf.f165769j, a2, bxus.m123744c()), new atdm());
+                                    atde = new atdo((bydf) GeneratedMessageLite.m124016a(bydf.f165769j, a2, bxus.m123744c()), new atdm());
                                     break;
                                 case 3:
-                                    atde = new atdh((bycz) bxvk.m124016a(bycz.f165744e, a2, bxus.m123744c()));
+                                    atde = new atdh((bycz) GeneratedMessageLite.m124016a(bycz.f165744e, a2, bxus.m123744c()));
                                     break;
                                 case 4:
                                 case 5:
@@ -336,7 +336,7 @@ public class atbm {
                 }
                 byda byda3 = (byda) a2.mo74062i();
                 ContentValues contentValues = new ContentValues();
-                contentValues.put("bundle_info", byda3.mo73642k());
+                contentValues.put("bundle_info", byda3.serializeToBytes());
                 a.update("PaymentBundles", contentValues, "bundle_id = ? AND account_id = ? AND environment = ?", m75392a(str, askf));
                 a.setTransactionSuccessful();
                 a.endTransaction();

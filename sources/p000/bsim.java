@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsim */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsim extends bxvk implements bxxd {
+public final class bsim extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bsim f144733a;
@@ -13,7 +13,7 @@ public final class bsim extends bxvk implements bxxd {
     static {
         bsim bsim = new bsim();
         f144733a = bsim;
-        bxvk.m124024a(bsim.class, bsim);
+        GeneratedMessageLite.m124024a(bsim.class, bsim);
     }
 
     private bsim() {
@@ -30,7 +30,7 @@ public final class bsim extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f144733a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f144733a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bsim();

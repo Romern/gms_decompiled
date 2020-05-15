@@ -8,7 +8,7 @@ import java.io.File;
 public final class jyj {
 
     /* renamed from: a */
-    public static final sek f23524a = ght.m13171a("MetricsLogger");
+    public static final Logger f23524a = ght.m13171a("MetricsLogger");
 
     /* renamed from: b */
     public final jyh f23525b;
@@ -76,7 +76,7 @@ public final class jyj {
                     bjbu.mo64983b(sb.toString());
                 }
             }
-            bqga.m112781a(a3.mo64976a(boct.mo73642k()), new jyg(this), snp.m35704b(9));
+            bqga.m112781a(a3.mo64976a(boct.serializeToBytes()), new jyg(this), snp.m35704b(9));
             return;
         }
         sre.m36087g(this.f23527d);

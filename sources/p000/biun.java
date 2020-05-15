@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biun */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biun extends bxvk implements bxxd {
+public final class biun extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final biun f121822c;
@@ -25,7 +25,7 @@ public final class biun extends bxvk implements bxxd {
     static {
         biun biun = new biun();
         f121822c = biun;
-        bxvk.m124024a(biun.class, biun);
+        GeneratedMessageLite.m124024a(biun.class, biun);
     }
 
     private biun() {
@@ -46,7 +46,7 @@ public final class biun extends bxvk implements bxxd {
             this.f121827e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121822c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ဌ\u0000\u0002ᔄ\u0001", new Object[]{"d", "a", bisf.m102782b(), "b"});
+            return GeneratedMessageLite.m124022a(f121822c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ဌ\u0000\u0002ᔄ\u0001", new Object[]{"d", "a", bisf.m102782b(), "b"});
         } else if (i2 == 3) {
             return new biun();
         } else {

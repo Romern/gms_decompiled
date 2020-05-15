@@ -54,7 +54,7 @@ public final class ahch extends ahdb {
         if (buzu == null) {
             buzu = buzu.f155430c;
         }
-        return new Device(ahcj.m55464a(buzu.f155433b.mo73780k()), "", str, (byte) 0);
+        return new Device(ahcj.m55464a(buzu.f155433b.getKey()), "", str, (byte) 0);
     }
 
     /* access modifiers changed from: protected */
@@ -93,7 +93,7 @@ public final class ahch extends ahdb {
         buyq.f155326b = 3;
         buyq.f155325a |= 1;
         bxvd da = buzq.f155418c.mo74144da();
-        bxtx a2 = bxtx.m123261a(a);
+        ByteString a2 = ByteString.m123261a(a);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

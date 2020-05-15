@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbma */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbma extends bxvk implements bxxd {
+public final class cbma extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final cbma f177591f;
@@ -28,11 +28,11 @@ public final class cbma extends bxvk implements bxxd {
     static {
         cbma cbma = new cbma();
         f177591f = cbma;
-        bxvk.m124024a(cbma.class, cbma);
+        GeneratedMessageLite.m124024a(cbma.class, cbma);
     }
 
     private cbma() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -46,7 +46,7 @@ public final class cbma extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177591f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\f\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005\t", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f177591f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\f\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005\t", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new cbma();
         } else {

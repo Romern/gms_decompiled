@@ -41,7 +41,7 @@ public final class xfe extends xfd {
     /* renamed from: b */
     public final /* bridge */ /* synthetic */ Object mo12637b(Object obj) {
         byte[] bArr;
-        bxtx bxtx;
+        ByteString bxtx;
         bmxv bmxv;
         FidoAppIdExtension fidoAppIdExtension;
         PublicKeyCredentialRequestOptions publicKeyCredentialRequestOptions = (PublicKeyCredentialRequestOptions) obj;

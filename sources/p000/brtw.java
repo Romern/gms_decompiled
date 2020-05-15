@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brtw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brtw extends bxvk implements bxxd {
+public final class brtw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final brtw f143353g;
@@ -31,7 +31,7 @@ public final class brtw extends bxvk implements bxxd {
     static {
         brtw brtw = new brtw();
         f143353g = brtw;
-        bxvk.m124024a(brtw.class, brtw);
+        GeneratedMessageLite.m124024a(brtw.class, brtw);
     }
 
     private brtw() {
@@ -48,7 +48,7 @@ public final class brtw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f143353g, "\u0001\u0005\u0000\u0001\u0001\u0007\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ခ\u0001\u0003င\u0002\u0004ခ\u0003\u0007ဇ\u0006", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f143353g, "\u0001\u0005\u0000\u0001\u0001\u0007\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ခ\u0001\u0003င\u0002\u0004ခ\u0003\u0007ဇ\u0006", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new brtw();
         } else {

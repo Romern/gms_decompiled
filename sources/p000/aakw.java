@@ -171,7 +171,7 @@ public final class aakw {
             }
         }
         if (string == null) {
-            long a = spn.m35843a(this.f28390a);
+            long a = spn.getAndroidId(this.f28390a);
             this.f28391b = a != 0 ? String.valueOf(a) : null;
             try {
                 Context a2 = m21413a(this.f28390a, "com.google.android.gsf");

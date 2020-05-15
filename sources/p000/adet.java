@@ -82,7 +82,7 @@ public final class adet implements adeo {
                 bthw bthw = (bthw) da.f164949b;
                 a.getClass();
                 if (!bthw.f148916a.mo73666a()) {
-                    bthw.f148916a = bxvk.m124021a(bthw.f148916a);
+                    bthw.f148916a = GeneratedMessageLite.m124021a(bthw.f148916a);
                 }
                 bthw.f148916a.add(a);
             }
@@ -93,7 +93,7 @@ public final class adet implements adeo {
                 }
             }
             shl shl2 = this.f61528j;
-            byte[] k = ((bthw) da.mo74062i()).mo73642k();
+            byte[] k = ((bthw) da.mo74062i()).serializeToBytes();
             if (shl2.f44481c == null) {
                 synchronized (shl2) {
                     if (shl2.f44481c == null) {
@@ -158,7 +158,7 @@ public final class adet implements adeo {
         }
         btio btio = (btio) da.f164949b;
         if (!btio.f149002e.mo73666a()) {
-            btio.f149002e = bxvk.m124021a(btio.f149002e);
+            btio.f149002e = GeneratedMessageLite.m124021a(btio.f149002e);
         }
         bxsy.m123078a(list, btio.f149002e);
         if (da.f164950c) {
@@ -180,7 +180,7 @@ public final class adet implements adeo {
                     da.f164950c = false;
                 }
                 ((btio) da.f164949b).f148998a = 10000;
-                long a2 = spn.m35843a(this.f61520b);
+                long a2 = spn.getAndroidId(this.f61520b);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -195,7 +195,7 @@ public final class adet implements adeo {
                     }
                     btio btio2 = (btio) da.f164949b;
                     if (!btio2.f149006i.mo73666a()) {
-                        btio2.f149006i = bxvk.m124021a(btio2.f149006i);
+                        btio2.f149006i = GeneratedMessageLite.m124021a(btio2.f149006i);
                     }
                     bxsy.m123078a(asList, btio2.f149006i);
                 }
@@ -224,7 +224,7 @@ public final class adet implements adeo {
             da.f164950c = false;
         }
         ((btio) da.f164949b).f148998a = i2;
-        long a22 = spn.m35843a(this.f61520b);
+        long a22 = spn.getAndroidId(this.f61520b);
         if (da.f164950c) {
         }
         ((btio) da.f164949b).f149004g = a22;

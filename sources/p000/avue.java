@@ -19,7 +19,7 @@ public final /* synthetic */ class avue implements roo {
         rjx rjx = this.f93917b;
         String str = this.f93916a;
         avty avty = (avty) rjx.f43171z;
-        sdo.m34966a(avty, "canLog must be called by a client that has api options.");
+        sdo.checkIfNull(avty, "canLog must be called by a client that has api options.");
         ((avuv) ((avvi) obj).mo25289B()).mo51631a(str, new avuk(avty, (aucf) obj2));
     }
 }

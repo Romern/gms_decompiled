@@ -18,7 +18,7 @@ import org.json.JSONObject;
 public final class tam {
 
     /* renamed from: a */
-    public static final sek f45571a = tea.m36798a("jsbridge");
+    public static final Logger f45571a = tea.m36798a("jsbridge");
 
     /* renamed from: b */
     public final tbg f45572b;

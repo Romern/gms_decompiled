@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blol */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blol extends bxvk implements bxxd {
+public final class blol extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final blol f127107c;
@@ -22,7 +22,7 @@ public final class blol extends bxvk implements bxxd {
     static {
         blol blol = new blol();
         f127107c = blol;
-        bxvk.m124024a(blol.class, blol);
+        GeneratedMessageLite.m124024a(blol.class, blol);
     }
 
     private blol() {
@@ -43,7 +43,7 @@ public final class blol extends bxvk implements bxxd {
             this.f127111d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127107c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f127107c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new blol();
         } else {

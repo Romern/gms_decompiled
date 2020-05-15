@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byge */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byge extends bxvk implements bxxd {
+public final class byge extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byge f166289c;
@@ -19,7 +19,7 @@ public final class byge extends bxvk implements bxxd {
     static {
         byge byge = new byge();
         f166289c = byge;
-        bxvk.m124024a(byge.class, byge);
+        GeneratedMessageLite.m124024a(byge.class, byge);
     }
 
     private byge() {
@@ -36,7 +36,7 @@ public final class byge extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166289c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\u0003\u0002\u0003", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f166289c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\u0003\u0002\u0003", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new byge();
         } else {

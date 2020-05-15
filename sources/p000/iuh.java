@@ -11,7 +11,7 @@ import com.google.android.gms.common.api.Status;
 public final class iuh extends aaab {
 
     /* renamed from: e */
-    private static final sek f21789e = new sek(new String[]{"SignForOperation"}, (byte[]) null);
+    private static final Logger f21789e = new Logger(new String[]{"SignForOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final isi f21790a;

@@ -14,7 +14,7 @@ import com.google.android.chimera.Fragment;
 public class arze extends Fragment {
 
     /* renamed from: b */
-    private static final sek f88508b = ascp.m73787a("Setup", "UI", "LockScreenFragment");
+    private static final Logger f88508b = ascp.m73787a("Setup", "UI", "LockScreenFragment");
 
     /* renamed from: a */
     arzd f88509a;

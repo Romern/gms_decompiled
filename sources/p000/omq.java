@@ -178,7 +178,7 @@ public final class omq {
     /* renamed from: a */
     public final void mo22313a(bpcl bpcl, int i) {
         boolean z;
-        byte[] k = bpcl.mo73642k();
+        byte[] k = bpcl.serializeToBytes();
         int i2 = 0;
         if (this.f37949b != null) {
             z = true;

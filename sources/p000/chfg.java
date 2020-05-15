@@ -10,7 +10,7 @@ public final class chfg implements chfe {
     static {
         bdyw bdyw = new bdyw(bdyj.m91581a("com.google.android.gms.wallet"));
         try {
-            f188558a = bdyx.m91608a(bdyw, "Bender3Features__enabled_integrators_for_buy_flow_with_params", (bydj) bxvk.m124014a(bydj.f165795b, new byte[0]), chff.f188557a);
+            f188558a = bdyx.m91608a(bdyw, "Bender3Features__enabled_integrators_for_buy_flow_with_params", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[0]), chff.f188557a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"Bender3Features__enabled_integrators_for_buy_flow_with_params\"");
         }

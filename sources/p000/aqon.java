@@ -9,7 +9,7 @@ import java.util.Map;
 public final class aqon {
 
     /* renamed from: a */
-    public static final sek f86414a = aqom.m71875b("AccountSessionStore");
+    public static final Logger f86414a = aqom.m71875b("AccountSessionStore");
 
     /* renamed from: b */
     public static final aqon f86415b = new aqon();
@@ -22,7 +22,7 @@ public final class aqon {
 
     /* renamed from: a */
     public final void mo48019a(String str, int i) {
-        f86414a.mo25409a("clearAccount(package_name=%s, session_id=%d)", str, Integer.valueOf(i));
+        f86414a.logVerbose("clearAccount(package_name=%s, session_id=%d)", str, Integer.valueOf(i));
         this.f86416c.remove(str);
     }
 }

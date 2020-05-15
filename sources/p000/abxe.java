@@ -78,7 +78,7 @@ public final class abxe extends abxc {
     /* renamed from: a */
     public final void mo32405a(abrv abrv, abyy abyy, abvx abvx) {
         abxl.m48465a(abrv, "patch");
-        sdo.m34966a(this.f58671a, "execute called without validateInput");
+        sdo.checkIfNull(this.f58671a, "execute called without validateInput");
         for (Map.Entry entry : this.f58671a.entrySet()) {
             abww abww = (abww) entry.getKey();
             for (Thing thing : (List) entry.getValue()) {

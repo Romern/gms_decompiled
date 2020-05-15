@@ -110,7 +110,7 @@ public class SelectUntokenizedCardChimeraActivity extends atex {
                 Iterator it = ((ArrayList) serializableExtra).iterator();
                 while (it.hasNext()) {
                     bxus c = bxus.m123744c();
-                    arrayList.add((btjq) bxvk.m124016a(btjq.f149162e, (byte[]) it.next(), c));
+                    arrayList.add((btjq) GeneratedMessageLite.m124016a(btjq.f149162e, (byte[]) it.next(), c));
                 }
                 this.f108839h = arrayList;
             } catch (bxwf e) {
@@ -237,7 +237,7 @@ public class SelectUntokenizedCardChimeraActivity extends atex {
             byte[] byteArray = bundle.getByteArray("selected_card");
             if (byteArray != null) {
                 try {
-                    this.f108833b = (btjq) bxvk.m124016a(btjq.f149162e, byteArray, bxus.m123744c());
+                    this.f108833b = (btjq) GeneratedMessageLite.m124016a(btjq.f149162e, byteArray, bxus.m123744c());
                 } catch (bxwf e) {
                     bnsl bnsl = (bnsl) f108832p.mo68388c();
                     bnsl.mo68437a(e);
@@ -259,7 +259,7 @@ public class SelectUntokenizedCardChimeraActivity extends atex {
                 Iterator it = ((ArrayList) serializableExtra).iterator();
                 while (it.hasNext()) {
                     bxus c = bxus.m123744c();
-                    arrayList.add((btjq) bxvk.m124016a(btjq.f149162e, (byte[]) it.next(), c));
+                    arrayList.add((btjq) GeneratedMessageLite.m124016a(btjq.f149162e, (byte[]) it.next(), c));
                 }
                 this.f108839h = arrayList;
             } catch (bxwf e2) {

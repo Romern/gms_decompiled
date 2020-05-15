@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bopi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bopi extends bxvk implements bxxd {
+public final class bopi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bopi f134125e;
@@ -25,7 +25,7 @@ public final class bopi extends bxvk implements bxxd {
     static {
         bopi bopi = new bopi();
         f134125e = bopi;
-        bxvk.m124024a(bopi.class, bopi);
+        GeneratedMessageLite.m124024a(bopi.class, bopi);
     }
 
     private bopi() {
@@ -42,7 +42,7 @@ public final class bopi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134125e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\t\u0002\f\u0003\t\u0004\u000b", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f134125e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\t\u0002\f\u0003\t\u0004\u000b", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bopi();
         } else {

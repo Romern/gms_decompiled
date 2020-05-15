@@ -32,7 +32,7 @@ public final class xde {
     private static final xly f51988a = xly.SECP256R1;
 
     /* renamed from: c */
-    private static final sek f51989c = new sek(new String[]{"KeyStoreCryptoHelper"}, (short[]) null);
+    private static final Logger f51989c = new Logger(new String[]{"KeyStoreCryptoHelper"}, (short[]) null);
 
     /* renamed from: b */
     private final Context f51990b;

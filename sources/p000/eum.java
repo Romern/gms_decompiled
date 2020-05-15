@@ -34,7 +34,7 @@ final /* synthetic */ class eum implements eti {
         if (((ewj) euq.f15779v.f15934f.get(d)).mo10503a() == 4) {
             bsvd bsvd = ((eul) euq.f15779v.f15934f.get(d)).f15759a;
             bxvd bxvd = (bxvd) bsvd.mo74142c(5);
-            bxvd.mo73625a((bxvk) bsvd);
+            bxvd.mo73625a((GeneratedMessageLite) bsvd);
             bsvd bsvd2 = (bsvd) bxvd.mo74062i();
             if (bsvd2.f147232a == 2) {
                 bsxf = (bsxf) bsvd2.f147233b;
@@ -42,13 +42,13 @@ final /* synthetic */ class eum implements eti {
                 bsxf = bsxf.f147542b;
             }
             bxvd bxvd2 = (bxvd) bsxf.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bsxf);
+            bxvd2.mo73625a((GeneratedMessageLite) bsxf);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
             }
             bsxf bsxf3 = bsxf.f147542b;
-            ((bsxf) bxvd2.f164949b).f147544a = bxvk.m124030de();
+            ((bsxf) bxvd2.f164949b).f147544a = GeneratedMessageLite.m124030de();
             if (bsvd2.f147232a == 2) {
                 bsxf2 = (bsxf) bsvd2.f147233b;
             } else {

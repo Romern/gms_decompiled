@@ -72,9 +72,9 @@ public final class atbz implements atci {
     public atbz(String str, bycy bycy, bycw bycw, byte[] bArr, String str2) {
         bycy bycy2;
         if (bycy != null) {
-            byte[] k = bycy.mo73642k();
+            byte[] k = bycy.serializeToBytes();
             try {
-                bycy2 = (bycy) bxvk.m124016a(bycy.f165733j, k, bxus.m123744c());
+                bycy2 = (bycy) GeneratedMessageLite.m124016a(bycy.f165733j, k, bxus.m123744c());
             } catch (bxwf e) {
                 throw new RuntimeException(e);
             }
@@ -84,7 +84,7 @@ public final class atbz implements atci {
         this.f90052f = bycy2;
         if (bycw != null) {
             bxvd bxvd = (bxvd) bycw.mo74142c(5);
-            bxvd.mo73625a((bxvk) bycw);
+            bxvd.mo73625a((GeneratedMessageLite) bycw);
             this.f90058l = bxvd;
         }
         this.f90053g = str;
@@ -228,7 +228,7 @@ public final class atbz implements atci {
                 int i4 = i3 + 1;
                 byte[] bArr4 = a[i3];
                 try {
-                    bxtx a2 = bxtx.m123261a(m75473g(bArr4, bArr2));
+                    ByteString a2 = ByteString.m123261a(m75473g(bArr4, bArr2));
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = z;
@@ -239,7 +239,7 @@ public final class atbz implements atci {
                     bycv.f165720b = a2;
                     int i5 = i4 + 1;
                     byte[] bArr5 = a[i4];
-                    byte[] k = bycv.f165720b.mo73780k();
+                    byte[] k = bycv.f165720b.getKey();
                     Cipher instance = Cipher.getInstance("DESede/ECB/NoPadding");
                     instance.init(1, new SecretKeySpec(k, "DESede"));
                     if (!Arrays.equals(bArr5, Arrays.copyOf(instance.doFinal(new byte[8]), 3))) {
@@ -261,7 +261,7 @@ public final class atbz implements atci {
                         byte[] bArr6 = a[i6];
                         if (bArr6.length != 1) {
                             i6++;
-                            bxtx a4 = bxtx.m123261a(m75474h(bArr6, bArr3));
+                            ByteString a4 = ByteString.m123261a(m75474h(bArr6, bArr3));
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
@@ -294,14 +294,14 @@ public final class atbz implements atci {
                 System.arraycopy(arrayList.toArray(), 0, bycvArr, min, arrayList.size());
                 bycy bycy2 = this.f90052f;
                 bxvd bxvd = (bxvd) bycy2.mo74142c(5);
-                bxvd.mo73625a((bxvk) bycy2);
+                bxvd.mo73625a((GeneratedMessageLite) bycy2);
                 bycx bycx = (bycx) bxvd;
                 if (bycx.f164950c) {
                     bycx.mo74035c();
                     bycx.f164950c = false;
                 }
                 bycy bycy3 = bycy.f165733j;
-                ((bycy) bycx.f164949b).f165743i = bxvk.m124030de();
+                ((bycy) bycx.f164949b).f165743i = GeneratedMessageLite.m124030de();
                 bycx.mo74345a(Arrays.asList(bycvArr));
                 if (!bycx.f164950c) {
                     i = 0;
@@ -448,7 +448,7 @@ public final class atbz implements atci {
             bxvd da = bycw.f165723i.mo74144da();
             this.f90058l = da;
             byte[] bArr3 = new byte[16];
-            bxtx a2 = bxtx.m123261a(m75474h(a[0], bArr3));
+            ByteString a2 = ByteString.m123261a(m75474h(a[0], bArr3));
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -458,7 +458,7 @@ public final class atbz implements atci {
             bycw.f165725a |= 1;
             bycw.f165726b = a2;
             bxvd bxvd = this.f90058l;
-            bxtx a3 = bxtx.m123261a(m75474h(a[1], bArr3));
+            ByteString a3 = ByteString.m123261a(m75474h(a[1], bArr3));
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -468,7 +468,7 @@ public final class atbz implements atci {
             bycw2.f165725a |= 2;
             bycw2.f165727c = a3;
             bxvd bxvd2 = this.f90058l;
-            bxtx a4 = bxtx.m123261a(m75474h(a[2], bArr3));
+            ByteString a4 = ByteString.m123261a(m75474h(a[2], bArr3));
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
@@ -478,7 +478,7 @@ public final class atbz implements atci {
             bycw3.f165725a |= 4;
             bycw3.f165728d = a4;
             bxvd bxvd3 = this.f90058l;
-            bxtx a5 = bxtx.m123261a(m75474h(a[3], bArr3));
+            ByteString a5 = ByteString.m123261a(m75474h(a[3], bArr3));
             if (bxvd3.f164950c) {
                 bxvd3.mo74035c();
                 bxvd3.f164950c = false;
@@ -488,7 +488,7 @@ public final class atbz implements atci {
             bycw4.f165725a |= 8;
             bycw4.f165729e = a5;
             bxvd bxvd4 = this.f90058l;
-            bxtx a6 = bxtx.m123261a(m75474h(a[4], bArr3));
+            ByteString a6 = ByteString.m123261a(m75474h(a[4], bArr3));
             if (bxvd4.f164950c) {
                 bxvd4.mo74035c();
                 bxvd4.f164950c = false;
@@ -498,7 +498,7 @@ public final class atbz implements atci {
             bycw5.f165725a = 16 | bycw5.f165725a;
             bycw5.f165730f = a6;
             bxvd bxvd5 = this.f90058l;
-            bxtx a7 = bxtx.m123261a(new BigInteger(1, ((bycw) bxvd5.f164949b).f165728d.mo73780k()).multiply(new BigInteger(1, ((bycw) this.f90058l.f164949b).f165729e.mo73780k())).toByteArray());
+            ByteString a7 = ByteString.m123261a(new BigInteger(1, ((bycw) bxvd5.f164949b).f165728d.getKey()).multiply(new BigInteger(1, ((bycw) this.f90058l.f164949b).f165729e.getKey())).toByteArray());
             if (bxvd5.f164950c) {
                 bxvd5.mo74035c();
                 bxvd5.f164950c = false;
@@ -508,7 +508,7 @@ public final class atbz implements atci {
             bycw6.f165725a |= 32;
             bycw6.f165731g = a7;
             bxvd bxvd6 = this.f90058l;
-            bxtx a8 = bxtx.m123261a(a[6]);
+            ByteString a8 = ByteString.m123261a(a[6]);
             if (bxvd6.f164950c) {
                 bxvd6.mo74035c();
                 bxvd6.f164950c = false;
@@ -519,7 +519,7 @@ public final class atbz implements atci {
             bycw7.f165732h = a8;
             bycy bycy = this.f90052f;
             bxvd bxvd7 = (bxvd) bycy.mo74142c(5);
-            bxvd7.mo73625a((bxvk) bycy);
+            bxvd7.mo73625a((GeneratedMessageLite) bycy);
             bycx bycx = (bycx) bxvd7;
             if (bycx.f164950c) {
                 bycx.mo74035c();
@@ -557,7 +557,7 @@ public final class atbz implements atci {
         }
         bycy bycy = this.f90052f;
         bxvd bxvd = (bxvd) bycy.mo74142c(5);
-        bxvd.mo73625a((bxvk) bycy);
+        bxvd.mo73625a((GeneratedMessageLite) bycy);
         bycx bycx = (bycx) bxvd;
         int i3 = ((bycy) bycx.f164949b).f165741g;
         while (true) {
@@ -594,7 +594,7 @@ public final class atbz implements atci {
         byte[] bArr6 = new byte[i7];
         System.arraycopy(bArr4, 1, bArr6, 0, i5);
         try {
-            byte[] k = bycv.f165720b.mo73780k();
+            byte[] k = bycv.f165720b.getKey();
             byte[] bArr7 = new byte[8];
             ByteBuffer allocate = ByteBuffer.allocate(24);
             allocate.put(k, 0, 8);
@@ -707,7 +707,7 @@ public final class atbz implements atci {
             instance.update(bArr2, 1, s - 18);
             System.arraycopy(instance.digest(), 0, bArr2, length - 21, 20);
             Cipher instance2 = Cipher.getInstance("RSA/None/NoPadding");
-            instance2.init(1, (RSAPrivateCrtKey) KeyFactory.getInstance("RSA").generatePrivate(new RSAPrivateCrtKeySpec(new BigInteger(1, ((bycw) this.f90058l.f164949b).f165731g.mo73780k()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165732h.mo73780k()), BigInteger.ZERO, new BigInteger(1, ((bycw) this.f90058l.f164949b).f165728d.mo73780k()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165729e.mo73780k()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165726b.mo73780k()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165727c.mo73780k()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165730f.mo73780k()))));
+            instance2.init(1, (RSAPrivateCrtKey) KeyFactory.getInstance("RSA").generatePrivate(new RSAPrivateCrtKeySpec(new BigInteger(1, ((bycw) this.f90058l.f164949b).f165731g.getKey()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165732h.getKey()), BigInteger.ZERO, new BigInteger(1, ((bycw) this.f90058l.f164949b).f165728d.getKey()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165729e.getKey()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165726b.getKey()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165727c.getKey()), new BigInteger(1, ((bycw) this.f90058l.f164949b).f165730f.getKey()))));
             instance2.update(bArr2, 0, s);
             return m75475i(bArr2, instance2.doFinal());
         } catch (GeneralSecurityException e) {

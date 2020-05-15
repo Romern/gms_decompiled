@@ -16,7 +16,7 @@ public final class bxml extends bxvd implements bxxd {
         bxmm bxmm = (bxmm) this.f164949b;
         bxvu bxvu = bxmm.f163945o;
         if (!bxmm.f163964r.mo73666a()) {
-            bxmm.f163964r = bxvk.m124021a(bxmm.f163964r);
+            bxmm.f163964r = GeneratedMessageLite.m124021a(bxmm.f163964r);
         }
         bxsy.m123078a(iterable, bxmm.f163964r);
     }

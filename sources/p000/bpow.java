@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpow */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpow extends bxvk implements bxxd {
+public final class bpow extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpow f138581c;
@@ -19,7 +19,7 @@ public final class bpow extends bxvk implements bxxd {
     static {
         bpow bpow = new bpow();
         f138581c = bpow;
-        bxvk.m124024a(bpow.class, bpow);
+        GeneratedMessageLite.m124024a(bpow.class, bpow);
     }
 
     private bpow() {
@@ -36,7 +36,7 @@ public final class bpow extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138581c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f138581c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bpow();
         } else {

@@ -55,7 +55,7 @@ public final class ncg {
       bngx.a(java.util.Comparator, java.lang.Iterable):bngx */
     /* renamed from: a */
     private final mcp m25918a(SecretKey secretKey, byte[] bArr, naw naw, Set set) {
-        bxtx bxtx;
+        ByteString bxtx;
         boolean z;
         boolean z2;
         SecretKey secretKey2 = secretKey;
@@ -89,7 +89,7 @@ public final class ncg {
                     bmxy.m108589a(z2, "Chunk must have zero or positive length");
                     bxvd bxvd = naw2.f35159g;
                     bxvd da = mco.f33426d.mo74144da();
-                    bxtx a2 = bxtx.m123261a(nbw.f35217a);
+                    ByteString a2 = bxtx.m123261a(nbw.f35217a);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -120,7 +120,7 @@ public final class ncg {
                     bmxy.m108589a(z, "Chunk must have zero or positive length");
                     bxvd bxvd2 = naw2.f35159g;
                     bxvd da2 = mco.f33426d.mo74144da();
-                    bxtx a3 = bxtx.m123261a(nbw.f35217a);
+                    ByteString a3 = bxtx.m123261a(nbw.f35217a);
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -158,13 +158,13 @@ public final class ncg {
             mcq mcq = (mcq) bxvd3.f164949b;
             mcq mcq2 = mcq.f33439d;
             if (!mcq.f33442b.mo73666a()) {
-                mcq.f33442b = bxvk.m124019a(mcq.f33442b);
+                mcq.f33442b = GeneratedMessageLite.m124019a(mcq.f33442b);
             }
             mcq.f33442b.mo74153d(intValue);
         }
         byte[] bArr3 = a.f35223c;
         bxvd bxvd4 = naw2.f35160h;
-        bxtx a4 = bxtx.m123261a(bArr3);
+        ByteString a4 = bxtx.m123261a(bArr3);
         if (bxvd4.f164950c) {
             bxvd4.mo74035c();
             bxvd4.f164950c = false;
@@ -186,7 +186,7 @@ public final class ncg {
         mct.f33447a = i7;
         mct.f33451e = 1;
         mct.f33447a = i7 | 8;
-        bxtx a5 = bxtx.m123261a(m25920a(secretKey2, mcq5));
+        ByteString a5 = bxtx.m123261a(m25920a(secretKey2, mcq5));
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;
@@ -198,7 +198,7 @@ public final class ncg {
         mct mct3 = (mct) da3.mo74062i();
         bmxy.m108582a(mct3, "Metadata cannot be null");
         long a6 = naw2.f35154b.mo20420a();
-        naw2.f35154b.mo20422a(mct3.mo73642k());
+        naw2.f35154b.mo20422a(mct3.serializeToBytes());
         naw2.f35154b.mo20422a(bqcr.m112599b(a6));
         naw2.f35154b.mo20423b();
         naw2.f35158f = true;
@@ -235,7 +235,7 @@ public final class ncg {
             this.f35245d.nextBytes(bArr);
             try {
                 instance.init(1, secretKey, new GCMParameterSpec(128, bArr));
-                byte[] k = mcq.mo73642k();
+                byte[] k = mcq.serializeToBytes();
                 int length = k.length;
                 byte[] copyOf = Arrays.copyOf(bArr, length + 28);
                 try {
@@ -254,23 +254,23 @@ public final class ncg {
 
     /* renamed from: a */
     public final mcp mo20451a(bxvd bxvd, SecretKey secretKey, mde mde, mcp mcp) {
-        byte[] k = mcp.f33438f.mo73780k();
+        byte[] k = mcp.f33438f.getKey();
         naw naw = new naw(new nbb(new blbr(this.f35246e, (int) cclp.f179364a.mo6606a().mo76298a())), mcp);
         bnia j = bnic.m109500j();
         bxwc bxwc = mcp.f33434b;
         int size = bxwc.size();
         for (int i = 0; i < size; i++) {
-            j.mo67629b(new nbw(((mco) bxwc.get(i)).f33429b.mo73780k()));
+            j.mo67629b(new nbw(((mco) bxwc.get(i)).f33429b.getKey()));
         }
         mcp a = m25918a(secretKey, k, naw, j.mo67751a());
         m25919a();
         String str = mcp.f33437e;
         lvn lvn = f35242b;
         String valueOf = String.valueOf(str);
-        lvn.mo25409a(valueOf.length() == 0 ? new String("Old doc id: ") : "Old doc id: ".concat(valueOf), new Object[0]);
+        lvn.logVerbose(valueOf.length() == 0 ? new String("Old doc id: ") : "Old doc id: ".concat(valueOf), new Object[0]);
         String a2 = this.f35244c.mo19703a(bxvd, str, this.f35246e.toByteArray(), mde);
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;
@@ -289,7 +289,7 @@ public final class ncg {
         m25919a();
         String a2 = this.f35244c.mo19704a(bxvd, this.f35246e.toByteArray(), mde);
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;

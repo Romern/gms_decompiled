@@ -15,7 +15,7 @@ import com.google.android.gms.update.SystemUpdateStatus;
 public final class avsc extends avrk {
 
     /* renamed from: a */
-    private static final sek f93832a = avpq.m79017d("PreRebootControllerGlifV3");
+    private static final Logger f93832a = avpq.m79017d("PreRebootControllerGlifV3");
 
     /* renamed from: b */
     private static final bnic f93833b = bnic.m109494a(3, 8, 14, 21, 22, 23, 24, 25, 26);

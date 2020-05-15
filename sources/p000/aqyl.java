@@ -36,7 +36,7 @@ abstract class aqyl implements arib {
 
     /* renamed from: a */
     public final void mo48264a() {
-        f87094c.mo25409a("cleanup", new Object[0]);
+        f87094c.logVerbose("cleanup", new Object[0]);
         ParcelFileDescriptor[] parcelFileDescriptorArr = this.f87096b;
         f87094c.mo25412b("safelyClosePipe", new Object[0]);
         if (parcelFileDescriptorArr != null) {
@@ -69,13 +69,13 @@ abstract class aqyl implements arib {
 
     /* renamed from: a */
     public final void mo48265a(int i, String str) {
-        f87094c.mo25409a("onError", new Object[0]);
+        f87094c.logVerbose("onError", new Object[0]);
         this.f87097d.post(new aqyk(this, i, str));
     }
 
     /* renamed from: a */
     public final void mo48266a(PendingIntent pendingIntent) {
-        f87094c.mo25409a("onShowUi", new Object[0]);
+        f87094c.logVerbose("onShowUi", new Object[0]);
         this.f87097d.post(new aqyg(this, pendingIntent));
     }
 
@@ -97,19 +97,19 @@ abstract class aqyl implements arib {
 
     /* renamed from: a */
     public final void mo48268a(BootstrapCompletionResult bootstrapCompletionResult) {
-        f87094c.mo25409a("onCompleted", new Object[0]);
+        f87094c.logVerbose("onCompleted", new Object[0]);
         this.f87097d.post(new aqyh(this, bootstrapCompletionResult));
     }
 
     /* renamed from: a */
     public final void mo48269a(BootstrapOptions bootstrapOptions) {
-        f87094c.mo25409a("onBootstrapOptions", new Object[0]);
+        f87094c.logVerbose("onBootstrapOptions", new Object[0]);
         this.f87097d.post(new aqyj(this, bootstrapOptions));
     }
 
     /* renamed from: a */
     public final void mo48270a(BootstrapProgressResult bootstrapProgressResult) {
-        f87094c.mo25409a("onProgress", new Object[0]);
+        f87094c.logVerbose("onProgress", new Object[0]);
         this.f87097d.post(new aqyi(this, bootstrapProgressResult));
     }
 
@@ -121,7 +121,7 @@ abstract class aqyl implements arib {
         sb.append("Received ");
         sb.append(length);
         sb.append(" bytes of data.");
-        asco.mo25409a(sb.toString(), new Object[0]);
+        asco.logVerbose(sb.toString(), new Object[0]);
         try {
             if (this.f87098e.mo66813a()) {
                 ((arae) this.f87098e.mo66814b()).f87191c.write(bArr);

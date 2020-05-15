@@ -90,7 +90,7 @@ public final class agti extends aaab {
                     }
                     if (bygb != null) {
                         bxvd bxvd = (bxvd) bxzx.mo74142c(5);
-                        bxvd.mo73625a((bxvk) bxzx);
+                        bxvd.mo73625a((GeneratedMessageLite) bxzx);
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;
@@ -208,7 +208,7 @@ public final class agti extends aaab {
             GetConsentInformationRequest getConsentInformationRequest = this.f66462b;
             boot a2 = a.mo35978a(13, "GTAF_Server", this.f66465e.f66263c);
             bxvd bxvd2 = (bxvd) a2.mo74142c(5);
-            bxvd2.mo73625a((bxvk) a2);
+            bxvd2.mo73625a((GeneratedMessageLite) a2);
             if (cfmq.m140238i()) {
                 agrl.m54945a(bxvd2, getConsentInformationRequest.f80275e);
             }
@@ -247,7 +247,7 @@ public final class agti extends aaab {
                 bxzx b2 = a3.mo35837b(k, str3);
                 if (b2 != null) {
                     bxvd = (bxvd) b2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) b2);
+                    bxvd.mo73625a((GeneratedMessageLite) b2);
                     z = false;
                 } else {
                     bxvd da = bxzx.f165197j.mo74144da();

@@ -14,7 +14,7 @@ public final class jho implements jhn {
     public static final ComponentName f22496a = new ComponentName("com.google.android.gms", "com.google.android.gms.auth.managed.admin.DeviceAdminReceiver");
 
     /* renamed from: b */
-    private static final sek f22497b = ght.m13171a("AuthManaged", "PasswordComplexityHelperImpl");
+    private static final Logger f22497b = ght.m13171a("AuthManaged", "PasswordComplexityHelperImpl");
 
     /* renamed from: c */
     private static jho f22498c;

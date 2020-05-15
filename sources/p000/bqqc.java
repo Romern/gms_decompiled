@@ -27,19 +27,19 @@ public final class bqqc implements bqux {
         this.f141353a = str;
         if (str.equals(bqom.f141342b)) {
             try {
-                bxtx bxtx = bqsf.f141517b;
+                ByteString bxtx = bqsf.f141517b;
                 bxus b = bxus.m123743b();
                 bqre bqre = bqre.f141426b;
                 try {
                     bxuc h = bxtx.mo73764h();
-                    bxvk bxvk = (bxvk) bqre.mo74142c(4);
-                    bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                    a.mo74220a(bxvk, bxud.m123454a(h), b);
-                    a.mo74225d(bxvk);
+                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bqre.mo74142c(4);
+                    bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                    a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), b);
+                    a.mo74225d(GeneratedMessageLite);
                     h.mo73787a(0);
-                    bxvk.m124027b(bxvk);
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite);
                     this.f141355c = (bqrd) bqok.m113116b(bqsf);
-                    this.f141354b = ((bqre) bxvk).f141428a;
+                    this.f141354b = ((bqre) GeneratedMessageLite).f141428a;
                 } catch (IOException e) {
                     if (!(e.getCause() instanceof bxwf)) {
                         throw new bxwf(e.getMessage());
@@ -63,18 +63,18 @@ public final class bqqc implements bqux {
             throw new GeneralSecurityException(valueOf.length() == 0 ? new String("unsupported AEAD DEM key type: ") : "unsupported AEAD DEM key type: ".concat(valueOf));
         } else {
             try {
-                bxtx bxtx2 = bqsf.f141517b;
+                ByteString bxtx2 = bqsf.f141517b;
                 bxus b2 = bxus.m123743b();
                 bqqw bqqw = bqqw.f141394c;
                 try {
                     bxuc h2 = bxtx2.mo73764h();
-                    bxvk bxvk2 = (bxvk) bqqw.mo74142c(4);
-                    bxxv a2 = bxxm.f165037a.mo74228a(bxvk2);
-                    a2.mo74220a(bxvk2, bxud.m123454a(h2), b2);
-                    a2.mo74225d(bxvk2);
+                    GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) bqqw.mo74142c(4);
+                    bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+                    a2.mo74220a(GeneratedMessageLite2, bxud.m123454a(h2), b2);
+                    a2.mo74225d(GeneratedMessageLite2);
                     h2.mo73787a(0);
-                    bxvk.m124027b(bxvk2);
-                    bqqw bqqw2 = (bqqw) bxvk2;
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite2);
+                    bqqw bqqw2 = (bqqw) GeneratedMessageLite2;
                     this.f141356d = (bqqv) bqok.m113116b(bqsf);
                     bqqy bqqy = bqqw2.f141396a;
                     if (bqqy == null) {

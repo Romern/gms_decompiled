@@ -257,7 +257,7 @@ public final class bgtu {
                                 bgvz bgvz9 = (bgvz) it2.next();
                                 if (bgvz9.f117772b == a5) {
                                     bxvd bxvd3 = (bxvd) bgvz9.mo74142c(5);
-                                    bxvd3.mo73625a((bxvk) bgvz9);
+                                    bxvd3.mo73625a((GeneratedMessageLite) bgvz9);
                                     if (bxvd3.f164950c) {
                                         bxvd3.mo74035c();
                                         bxvd3.f164950c = false;
@@ -288,7 +288,7 @@ public final class bgtu {
                     bxvd2.f164950c = false;
                 }
                 bgvr bgvr = bgvr.f117713u;
-                ((bgvr) bxvd2.f164949b).f117728n = bxvk.m124030de();
+                ((bgvr) bxvd2.f164949b).f117728n = GeneratedMessageLite.m124030de();
                 int size = arrayList.size();
                 for (bgvz bgvz12 : arrayList) {
                     long j7 = j2;
@@ -300,7 +300,7 @@ public final class bgtu {
                     bgvr bgvr2 = (bgvr) bxvd2.f164949b;
                     bgvz12.getClass();
                     if (!bgvr2.f117728n.mo73666a()) {
-                        bgvr2.f117728n = bxvk.m124021a(bgvr2.f117728n);
+                        bgvr2.f117728n = GeneratedMessageLite.m124021a(bgvr2.f117728n);
                     }
                     bgvr2.f117728n.add(bgvz12);
                     j = j8;

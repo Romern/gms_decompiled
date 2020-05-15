@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwin */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwin extends bxvk implements bxxd {
+public final class bwin extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bxvu f159651d = new bwik();
@@ -31,7 +31,7 @@ public final class bwin extends bxvk implements bxxd {
     static {
         bwin bwin = new bwin();
         f159652e = bwin;
-        bxvk.m124024a(bwin.class, bwin);
+        GeneratedMessageLite.m124024a(bwin.class, bwin);
     }
 
     private bwin() {
@@ -52,7 +52,7 @@ public final class bwin extends bxvk implements bxxd {
             this.f159658g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f159652e, "\u0001\u0003\u0000\u0001\u0001\t\u0003\u0000\u0002\u0001\u0001Л\u0003ဂ\u0001\t\u001e", new Object[]{"f", "a", bwij.class, "b", "c", bwim.m121994b()});
+            return GeneratedMessageLite.m124022a(f159652e, "\u0001\u0003\u0000\u0001\u0001\t\u0003\u0000\u0002\u0001\u0001Л\u0003ဂ\u0001\t\u001e", new Object[]{"f", "a", bwij.class, "b", "c", bwim.m121994b()});
         } else if (i2 == 3) {
             return new bwin();
         } else {

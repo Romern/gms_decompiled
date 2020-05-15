@@ -68,13 +68,13 @@ public final class muh {
 
     /* renamed from: a */
     public final synchronized void mo20253a(String str) {
-        f34767a.mo25409a("Removing callbacks, id = %s", str);
+        f34767a.logVerbose("Removing callbacks, id = %s", str);
         this.f34768b.remove(str);
     }
 
     /* renamed from: a */
     public final synchronized void mo20254a(String str, lud lud) {
-        f34767a.mo25409a("Registering callbacks, id = %s", str);
+        f34767a.logVerbose("Registering callbacks, id = %s", str);
         this.f34768b.put(str, lud);
     }
 }

@@ -227,7 +227,7 @@ public final class awot extends awzg implements View.OnClickListener, awzt {
         String str3;
         String str4;
         byte[] bArr;
-        bxtx bxtx;
+        ByteString bxtx;
         long j;
         if (view == this.f94759h.mo52710b()) {
             OrchestrationViewEvent.m93825a(getActivity(), this.f95359C, new bjes(1621));
@@ -263,7 +263,7 @@ public final class awot extends awzg implements View.OnClickListener, awzt {
                     z = true;
                 }
                 genericSelectorResult.f110322d = z;
-                bxtx bxtx2 = axag.mo52938l().f129033b;
+                ByteString bxtx2 = axag.mo52938l().f129033b;
                 GenericSelectorResult genericSelectorResult2 = a.f94747a;
                 genericSelectorResult2.f110323e = bxtx2;
                 pageDetails.f110466o = genericSelectorResult2;
@@ -285,11 +285,11 @@ public final class awot extends awzg implements View.OnClickListener, awzt {
                                     bmag = bmag.f128442c;
                                 }
                                 if (bmag.f128444a == 2) {
-                                    bxtx = (bxtx) bmag.f128445b;
+                                    bxtx = (ByteString) bmag.f128445b;
                                 } else {
                                     bxtx = bxtx.f164797b;
                                 }
-                                bArr = bxtx.mo73780k();
+                                bArr = bxtx.getKey();
                             }
                         }
                     } else {
@@ -306,7 +306,7 @@ public final class awot extends awzg implements View.OnClickListener, awzt {
                     return;
                 }
                 bmbs a4 = bkag.mo52928a(Bundle.EMPTY);
-                sdo.m34966a(a4, "Address fragment value should not be null.");
+                sdo.checkIfNull(a4, "Address fragment value should not be null.");
                 String str5 = this.f94763m.name;
                 if (a4 != null) {
                     adda a5 = UserAddress.m66752a();
@@ -496,7 +496,7 @@ public final class awot extends awzg implements View.OnClickListener, awzt {
             bmrg.f130487a |= 2;
         } else if (bkdx instanceof bkag) {
             bmbs a = ((bkag) bkdx).mo52928a(bundle);
-            sdo.m34966a(a, "Address fragment value should not be null.");
+            sdo.checkIfNull(a, "Address fragment value should not be null.");
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

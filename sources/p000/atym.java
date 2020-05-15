@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: atym */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class atym extends bxvk implements bxxd {
+public final class atym extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final atym f91120j;
@@ -40,7 +40,7 @@ public final class atym extends bxvk implements bxxd {
     static {
         atym atym = new atym();
         f91120j = atym;
-        bxvk.m124024a(atym.class, atym);
+        GeneratedMessageLite.m124024a(atym.class, atym);
     }
 
     private atym() {
@@ -57,7 +57,7 @@ public final class atym extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f91120j, "\u0000\t\u0000\u0000\u0001\t\t\u0000\u0000\u0000\u0001\u0004\u0002\t\u0003\t\u0004\u0007\u0005\u0004\u0006\t\u0007\u0004\b\u0000\t\u0000", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f91120j, "\u0000\t\u0000\u0000\u0001\t\t\u0000\u0000\u0000\u0001\u0004\u0002\t\u0003\t\u0004\u0007\u0005\u0004\u0006\t\u0007\u0004\b\u0000\t\u0000", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new atym();
         } else {

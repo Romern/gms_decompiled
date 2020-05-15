@@ -94,7 +94,7 @@ public final class abgo extends abgl {
                     bzrk.mo74556c();
                     bzrk.f171156b.add(bzrj2);
                 }
-                abcf.mo32002a(((bzrk) da.mo74062i()).mo73642k());
+                abcf.mo32002a(((bzrk) da.mo74062i()).serializeToBytes());
                 return;
             }
         }

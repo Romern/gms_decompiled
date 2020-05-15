@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: acqr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class acqr extends bxvk implements bxxd {
+public final class acqr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final acqr f60528c;
@@ -19,7 +19,7 @@ public final class acqr extends bxvk implements bxxd {
     static {
         acqr acqr = new acqr();
         f60528c = acqr;
-        bxvk.m124024a(acqr.class, acqr);
+        GeneratedMessageLite.m124024a(acqr.class, acqr);
     }
 
     private acqr() {
@@ -36,7 +36,7 @@ public final class acqr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f60528c, "\u0001\u0001\u0000\u0001\u0005\u0005\u0001\u0000\u0000\u0000\u0005ဉ\u0001", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f60528c, "\u0001\u0001\u0000\u0001\u0005\u0005\u0001\u0000\u0000\u0000\u0005ဉ\u0001", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new acqr();
         } else {

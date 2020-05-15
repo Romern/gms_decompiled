@@ -72,7 +72,7 @@ public final class airz {
 
     /* renamed from: a */
     public final synchronized void mo37920a(String str, ahpy ahpy, bvgl bvgl, ailk ailk) {
-        this.f69615c.put(str, bvgl.mo73642k());
+        this.f69615c.put(str, bvgl.serializeToBytes());
         this.f69616d.put(str, ailk);
         this.f69617e.put(str, ahpy);
     }

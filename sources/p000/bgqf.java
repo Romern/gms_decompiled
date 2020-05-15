@@ -66,7 +66,7 @@ final /* synthetic */ class bgqf implements bgql {
         }
         a.getClass();
         ((buom) da.f164949b).f154551b = a;
-        bxtx aL = ((buom) da.mo74062i()).mo73639aL();
+        ByteString aL = ((buom) da.mo74062i()).mo73639aL();
         bxvd da2 = buon.f154553e.mo74144da();
         if (da2.f164950c) {
             da2.mo74035c();
@@ -77,7 +77,7 @@ final /* synthetic */ class bgqf implements bgql {
         buon.f154557c = aL;
         bgqk bgqk = bgqm.f117292k;
         if (bgqk != null) {
-            bxtx bxtx = bgqk.f117286a;
+            ByteString bxtx = bgqk.f117286a;
             bxtx.getClass();
             buon.f154556b = bxtx;
         }

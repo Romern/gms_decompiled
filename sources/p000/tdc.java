@@ -12,7 +12,7 @@ import com.felicanetworks.mfc.C0126R;
 public final class tdc extends svk implements View.OnClickListener {
 
     /* renamed from: p */
-    private static final sek f45678p = tea.m36798a("connected_app_item");
+    private static final Logger f45678p = tea.m36798a("connected_app_item");
 
     /* renamed from: a */
     public final String f45679a;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cacs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cacs extends bxvk implements bxxd {
+public final class cacs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final cacs f172612f;
@@ -31,7 +31,7 @@ public final class cacs extends bxvk implements bxxd {
     static {
         cacs cacs = new cacs();
         f172612f = cacs;
-        bxvk.m124024a(cacs.class, cacs);
+        GeneratedMessageLite.m124024a(cacs.class, cacs);
     }
 
     private cacs() {
@@ -52,7 +52,7 @@ public final class cacs extends bxvk implements bxxd {
             this.f172619g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f172612f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ဂ\u0001\u0003ဉ\u0002\u0004ဉ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f172612f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ဂ\u0001\u0003ဉ\u0002\u0004ဉ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new cacs();
         } else {

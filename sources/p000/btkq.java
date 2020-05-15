@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btkq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btkq extends bxvk implements bxxd {
+public final class btkq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btkq f149290b;
@@ -11,12 +11,12 @@ public final class btkq extends bxvk implements bxxd {
     private static volatile bxxk f149291c;
 
     /* renamed from: a */
-    public bxtx f149292a = bxtx.f164797b;
+    public ByteString f149292a = ByteString.f164797b;
 
     static {
         btkq btkq = new btkq();
         f149290b = btkq;
-        bxvk.m124024a(btkq.class, btkq);
+        GeneratedMessageLite.m124024a(btkq.class, btkq);
     }
 
     private btkq() {
@@ -33,7 +33,7 @@ public final class btkq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149290b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\n", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f149290b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\n", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btkq();
         } else {

@@ -9,7 +9,7 @@ public final class cbxh implements cbxf {
 
     static {
         try {
-            f178509a = bdyx.m91608a(new bdyw(bdyj.m91581a("com.google.android.gms.auth_account")).mo58443a(), "BackButtonLayout__back_button_always_visible", (bqzq) bxvk.m124014a(bqzq.f142077c, new byte[]{10, 2, 8, 0, 18, 2, 8, 1}), cbxg.f178508a);
+            f178509a = bdyx.m91608a(new bdyw(bdyj.m91581a("com.google.android.gms.auth_account")).mo58443a(), "BackButtonLayout__back_button_always_visible", (bqzq) GeneratedMessageLite.m124014a(bqzq.f142077c, new byte[]{10, 2, 8, 0, 18, 2, 8, 1}), cbxg.f178508a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"BackButtonLayout__back_button_always_visible\"");
         }

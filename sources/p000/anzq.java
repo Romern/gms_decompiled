@@ -92,8 +92,8 @@ public class anzq extends LinearLayout implements View.OnClickListener {
     public anzq(Context context, int i, int i2, String str) {
         super(context, null);
         Context context2;
-        sdo.m34966a(context, "Context must not be null.");
-        sdo.m34966a((Object) str, (Object) "URL must not be null.");
+        sdo.checkIfNull(context, "Context must not be null.");
+        sdo.checkIfNull((Object) str, (Object) "URL must not be null.");
         this.f77956o = i;
         this.f77955n = i2;
         this.f77949g = str;

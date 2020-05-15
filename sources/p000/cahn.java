@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cahn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cahn extends bxvk implements bxxd {
+public final class cahn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cahn f174569b;
@@ -16,7 +16,7 @@ public final class cahn extends bxvk implements bxxd {
     static {
         cahn cahn = new cahn();
         f174569b = cahn;
-        bxvk.m124024a(cahn.class, cahn);
+        GeneratedMessageLite.m124024a(cahn.class, cahn);
     }
 
     private cahn() {
@@ -33,7 +33,7 @@ public final class cahn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174569b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cahm.class});
+            return GeneratedMessageLite.m124022a(f174569b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cahm.class});
         } else if (i2 == 3) {
             return new cahn();
         } else {

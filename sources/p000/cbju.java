@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbju */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbju extends bxvk implements bxxd {
+public final class cbju extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbju f177369a;
@@ -13,7 +13,7 @@ public final class cbju extends bxvk implements bxxd {
     static {
         cbju cbju = new cbju();
         f177369a = cbju;
-        bxvk.m124024a(cbju.class, cbju);
+        GeneratedMessageLite.m124024a(cbju.class, cbju);
     }
 
     private cbju() {
@@ -30,7 +30,7 @@ public final class cbju extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177369a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f177369a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbju();

@@ -227,7 +227,7 @@ public class ConnectionlessBleTrustletChimeraService extends auot {
             bohf = bohf.f133058h;
         }
         bxvd bxvd = (bxvd) bohf.mo74142c(5);
-        bxvd.mo73625a((bxvk) bohf);
+        bxvd.mo73625a((GeneratedMessageLite) bohf);
         boolean k = mo50766k();
         if (bxvd.f164950c) {
             bxvd.mo74035c();

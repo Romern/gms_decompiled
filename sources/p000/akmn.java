@@ -13,7 +13,7 @@ final /* synthetic */ class akmn implements bmxj {
         cafg cafg = (cafg) obj;
         cafg a = akmp.m60021a(cafg);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         caff caff = (caff) bxvd;
         int i = Integer.MIN_VALUE;
         for (int i2 = 0; i2 < cafg.f172901e.size(); i2++) {

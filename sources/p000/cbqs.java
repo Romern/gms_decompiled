@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbqs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbqs extends bxvk implements bxxd {
+public final class cbqs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbqs f178063a;
@@ -13,7 +13,7 @@ public final class cbqs extends bxvk implements bxxd {
     static {
         cbqs cbqs = new cbqs();
         f178063a = cbqs;
-        bxvk.m124024a(cbqs.class, cbqs);
+        GeneratedMessageLite.m124024a(cbqs.class, cbqs);
     }
 
     private cbqs() {
@@ -30,7 +30,7 @@ public final class cbqs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f178063a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f178063a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbqs();

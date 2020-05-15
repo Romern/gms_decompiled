@@ -100,13 +100,13 @@ public final class athh {
         int i = 1000;
         while (true) {
             try {
-                byte[] k = ((btpa) atff.m75759a(askf, "t/security/getnonce", btoz.f149820a, btpa.f149822b)).f149824a.mo73780k();
+                byte[] k = ((btpa) atff.m75759a(askf, "t/security/getnonce", btoz.f149820a, btpa.f149822b)).f149824a.getKey();
                 if (k == null || k.length == 0) {
                     throw new IOException("nonce for attestation verdict was null");
                 }
                 String a = cgwa.f187838a.mo6606a().mo84557a();
                 sdo.m34977c(a);
-                bxtx a2 = bxtx.m123261a(k);
+                ByteString a2 = ByteString.m123261a(k);
                 HashMap hashMap = new HashMap();
                 boan boan = boan.f132470d;
                 if (8 % ((boam) boan).f132467b.f132457d != 0) {
@@ -117,7 +117,7 @@ public final class athh {
                     }
                     boan = ((boam) boan).mo68780a(((boam) boan).f132467b, (Character) '=');
                 }
-                hashMap.put("nonce", boan.mo68794a(a2.mo73780k()));
+                hashMap.put("nonce", boan.mo68794a(a2.getKey()));
                 DroidGuardResultsRequest droidGuardResultsRequest = new DroidGuardResultsRequest();
                 droidGuardResultsRequest.mo18378b((int) cgwa.f187838a.mo6606a().mo84558b());
                 String a3 = new vvp(askf.f89126d).mo28903a(a, hashMap, droidGuardResultsRequest);

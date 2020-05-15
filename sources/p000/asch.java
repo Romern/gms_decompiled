@@ -26,30 +26,30 @@ final class asch implements Runnable {
         while (!Thread.currentThread().isInterrupted()) {
             try {
                 int readInt = this.f88693c.readInt();
-                sek sek = asci.f88694a;
+                Logger Logger = asci.f88694a;
                 StringBuilder sb = new StringBuilder(30);
                 sb.append("Waiting for ");
                 sb.append(readInt);
                 sb.append(" bytes.");
-                sek.mo25409a(sb.toString(), new Object[0]);
+                Logger.logVerbose(sb.toString(), new Object[0]);
                 byte[] bArr = new byte[readInt];
                 this.f88693c.readFully(bArr);
                 if (asci.f88694a.mo19637a(2)) {
-                    sek sek2 = asci.f88694a;
+                    Logger logger2 = asci.f88694a;
                     int hashCode = Arrays.hashCode(bArr);
                     StringBuilder sb2 = new StringBuilder(36);
                     sb2.append("Received bytes with hash ");
                     sb2.append(hashCode);
-                    sek2.mo25409a(sb2.toString(), new Object[0]);
+                    logger2.logVerbose(sb2.toString(), new Object[0]);
                 }
                 if (this.f88691a) {
-                    asci.f88694a.mo25409a("Not calling listener -- thread already interrupted.", new Object[0]);
+                    asci.f88694a.logVerbose("Not calling listener -- thread already interrupted.", new Object[0]);
                 } else {
                     this.f88692b.mo48253b(bArr);
                 }
             } catch (IOException e) {
                 if (this.f88691a) {
-                    asci.f88694a.mo25409a("IOException after interrupting thread.", new Object[0]);
+                    asci.f88694a.logVerbose("IOException after interrupting thread.", new Object[0]);
                     return;
                 }
                 throw new RuntimeException(e);

@@ -231,7 +231,7 @@ final /* synthetic */ class bdjm implements Callable {
             bdpv bdpv2 = bdka.f105781a;
             bdqt bdqt11 = (bdqt) da.mo74062i();
             bmxy.m108581a(bdqt11);
-            byte[] k = bdqt11.mo73642k();
+            byte[] k = bdqt11.serializeToBytes();
             int length2 = k.length;
             byte[] bArr = new byte[(length2 + 1)];
             bArr[0] = 1;
@@ -264,7 +264,7 @@ final /* synthetic */ class bdjm implements Callable {
                     cimv a3 = bdjw.m90938a(a2.f105772a, bdjz.f105772a);
                     if (a3 != null) {
                         bxvd bxvd = (bxvd) a3.mo74142c(5);
-                        bxvd.mo73625a((bxvk) a3);
+                        bxvd.mo73625a((GeneratedMessageLite) a3);
                         cimu cimu = (cimu) bxvd;
                         bdjp bdjp = bdkc.f105784b;
                         Collections.unmodifiableList(((cimv) cimu.f164949b).f190835g);

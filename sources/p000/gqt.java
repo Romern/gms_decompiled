@@ -34,7 +34,7 @@ public final class gqt extends aaab {
         GetAccountsRequest getAccountsRequest = this.f18847b;
         String[] strArr = getAccountsRequest.f9930b;
         String str = getAccountsRequest.f9929a;
-        sek a = ght.m13171a("GetAccountsOperation");
+        Logger a = ght.m13171a("GetAccountsOperation");
         adyd a2 = adyd.m51363a(context);
         if (strArr != null) {
             try {

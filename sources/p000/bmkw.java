@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmkw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmkw extends bxvk implements bxxd {
+public final class bmkw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmkw f129898c;
@@ -25,7 +25,7 @@ public final class bmkw extends bxvk implements bxxd {
     static {
         bmkw bmkw = new bmkw();
         f129898c = bmkw;
-        bxvk.m124024a(bmkw.class, bmkw);
+        GeneratedMessageLite.m124024a(bmkw.class, bmkw);
     }
 
     private bmkw() {
@@ -46,7 +46,7 @@ public final class bmkw extends bxvk implements bxxd {
             this.f129903e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f129898c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᐉ\u0000\u0002ဈ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f129898c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᐉ\u0000\u0002ဈ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new bmkw();
         } else {

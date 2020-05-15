@@ -17,7 +17,7 @@ import java.io.IOException;
 public final class avlm extends avkc implements aaai {
 
     /* renamed from: a */
-    private static final sek f93312a = avpq.m79015b("SystemUpdateApiStub");
+    private static final Logger f93312a = avpq.m79015b("SystemUpdateApiStub");
 
     /* renamed from: b */
     private final avmx f93313b = ((avmx) avmx.f93453h.mo51589b());
@@ -38,13 +38,13 @@ public final class avlm extends avkc implements aaai {
 
     /* renamed from: a */
     public final SystemUpdateStatus mo51315a() {
-        f93312a.mo25409a("getSystemUpdateStatus()", new Object[0]);
+        f93312a.logVerbose("getSystemUpdateStatus()", new Object[0]);
         return this.f93313b.mo51414d();
     }
 
     /* renamed from: b */
     public final void mo51321b(avkj avkj) {
-        f93312a.mo25409a("unregisterUpdateStatusCallback()", new Object[0]);
+        f93312a.logVerbose("unregisterUpdateStatusCallback()", new Object[0]);
         avmx avmx = this.f93313b;
         synchronized (avmx.f93470i) {
             avmx.f93474m.remove(avkj.asBinder());
@@ -53,31 +53,31 @@ public final class avlm extends avkc implements aaai {
 
     /* renamed from: c */
     public final void mo51324c() {
-        f93312a.mo25409a("pauseDownload()", new Object[0]);
+        f93312a.logVerbose("pauseDownload()", new Object[0]);
         this.f93313b.mo51408b();
     }
 
     /* renamed from: d */
     public final void mo51325d() {
-        f93312a.mo25409a("resetStatus()", new Object[0]);
+        f93312a.logVerbose("resetStatus()", new Object[0]);
         this.f93313b.mo51401a();
     }
 
     /* renamed from: e */
     public final void mo51326e() {
-        f93312a.mo25409a("pauseAbInstallation()", new Object[0]);
+        f93312a.logVerbose("pauseAbInstallation()", new Object[0]);
         this.f93313b.mo51412c();
     }
 
     /* renamed from: f */
     public final void mo51327f() {
-        f93312a.mo25409a("checkForUpdate()", new Object[0]);
+        f93312a.logVerbose("checkForUpdate()", new Object[0]);
         this.f93313b.mo51416f();
     }
 
     /* renamed from: g */
     public final boolean mo51328g() {
-        f93312a.mo25409a("approveRebootTonight()", new Object[0]);
+        f93312a.logVerbose("approveRebootTonight()", new Object[0]);
         try {
             this.f93313b.mo51411b(true);
             return true;
@@ -92,7 +92,7 @@ public final class avlm extends avkc implements aaai {
         Context context;
         rex a;
         qfo qfo;
-        f93312a.mo25409a("getLastConfigUpdateTime()", new Object[0]);
+        f93312a.logVerbose("getLastConfigUpdateTime()", new Object[0]);
         if (cfrx.m142746b()) {
             return ((Long) this.f93315d.f93403d.mo51607b(avmn.f93395a)).longValue();
         }
@@ -134,7 +134,7 @@ public final class avlm extends avkc implements aaai {
 
     /* renamed from: a */
     public final void mo51316a(avkj avkj) {
-        f93312a.mo25409a("registerSystemUpdateCallback()", new Object[0]);
+        f93312a.logVerbose("registerSystemUpdateCallback()", new Object[0]);
         avmx avmx = this.f93313b;
         synchronized (avmx.f93470i) {
             avmx.f93474m.put(avkj.asBinder(), avkj);
@@ -143,37 +143,37 @@ public final class avlm extends avkc implements aaai {
 
     /* renamed from: b */
     public final void mo51322b(DownloadOptions downloadOptions) {
-        f93312a.mo25409a("resumeDownload(%s)", downloadOptions);
+        f93312a.logVerbose("resumeDownload(%s)", downloadOptions);
         this.f93313b.mo51409b(downloadOptions);
     }
 
     /* renamed from: a */
     public final void mo51317a(ActivityStatus activityStatus) {
-        f93312a.mo25409a("setActivityStatus(%s)", activityStatus);
+        f93312a.logVerbose("setActivityStatus(%s)", activityStatus);
         this.f93313b.mo51404a(activityStatus);
     }
 
     /* renamed from: b */
     public final void mo51323b(InstallationOptions installationOptions) {
-        f93312a.mo25409a("resumeAbInstallation(%s)", installationOptions);
+        f93312a.logVerbose("resumeAbInstallation(%s)", installationOptions);
         this.f93313b.mo51410b(installationOptions);
     }
 
     /* renamed from: a */
     public final void mo51318a(DownloadOptions downloadOptions) {
-        f93312a.mo25409a("approveDownload(%s)", downloadOptions);
+        f93312a.logVerbose("approveDownload(%s)", downloadOptions);
         this.f93313b.mo51405a(downloadOptions);
     }
 
     /* renamed from: a */
     public final void mo51319a(InstallationOptions installationOptions) {
-        f93312a.mo25409a("approveReboot(%s)", installationOptions);
+        f93312a.logVerbose("approveReboot(%s)", installationOptions);
         this.f93313b.mo51406a(installationOptions);
     }
 
     /* renamed from: a */
     public final void mo51320a(rnt rnt, ConfigUpdateOptions configUpdateOptions) {
-        f93312a.mo25409a("checkForConfigUpdate(%s)", configUpdateOptions);
+        f93312a.logVerbose("checkForConfigUpdate(%s)", configUpdateOptions);
         this.f93314c.mo16658a(new avln(rnt, configUpdateOptions));
     }
 }

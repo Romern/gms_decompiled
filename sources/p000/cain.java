@@ -18,7 +18,7 @@ public final class cain extends bxvd implements bxxd {
         caip caip2 = caip.f174755b;
         caio.getClass();
         if (!caip.f174757a.mo73666a()) {
-            caip.f174757a = bxvk.m124021a(caip.f174757a);
+            caip.f174757a = GeneratedMessageLite.m124021a(caip.f174757a);
         }
         caip.f174757a.add(caio);
     }

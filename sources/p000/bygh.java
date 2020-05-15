@@ -18,7 +18,7 @@ public final class bygh extends bxvd implements bxxd {
         bygk bygk2 = bygk.f166327s;
         bygj.getClass();
         if (!bygk.f166330b.mo73666a()) {
-            bygk.f166330b = bxvk.m124021a(bygk.f166330b);
+            bygk.f166330b = GeneratedMessageLite.m124021a(bygk.f166330b);
         }
         bygk.f166330b.add(bygj);
     }
@@ -33,7 +33,7 @@ public final class bygh extends bxvd implements bxxd {
         bygk bygk2 = bygk.f166327s;
         str.getClass();
         if (!bygk.f166338j.mo73666a()) {
-            bygk.f166338j = bxvk.m124021a(bygk.f166338j);
+            bygk.f166338j = GeneratedMessageLite.m124021a(bygk.f166338j);
         }
         bygk.f166338j.add(str);
     }

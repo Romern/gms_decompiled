@@ -28,7 +28,7 @@ public final class ahck extends ahcz {
             buzk.f155396d = 2;
             buzk.f155393a |= 4;
             bxvd da3 = buzv.f155434c.mo74144da();
-            bxtx a = bxtx.m123261a(ahcj.m55467d(str));
+            ByteString a = ByteString.m123261a(ahcj.m55467d(str));
             if (da3.f164950c) {
                 da3.mo74035c();
                 da3.f164950c = false;
@@ -67,7 +67,7 @@ public final class ahck extends ahcz {
         buzt4.f155426b = 1;
         buzt4.f155425a |= 1;
         bxvd da6 = buzv.f155434c.mo74144da();
-        bxtx a2 = bxtx.m123261a(ahcj.m55467d(str));
+        ByteString a2 = ByteString.m123261a(ahcj.m55467d(str));
         if (da6.f164950c) {
             da6.mo74035c();
             da6.f164950c = false;
@@ -101,7 +101,7 @@ public final class ahck extends ahcz {
         buzk buzk4 = (buzk) da4.f164949b;
         buzk4.f155396d = 1;
         buzk4.f155393a |= 4;
-        bxtx a3 = bxtx.m123258a(str2);
+        ByteString a3 = ByteString.m123258a(str2);
         if (da4.f164950c) {
             da4.mo74035c();
             da4.f164950c = false;

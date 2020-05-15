@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bive */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bive extends bxvk implements bxxd {
+public final class bive extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bive f121965c;
@@ -22,7 +22,7 @@ public final class bive extends bxvk implements bxxd {
     static {
         bive bive = new bive();
         f121965c = bive;
-        bxvk.m124024a(bive.class, bive);
+        GeneratedMessageLite.m124024a(bive.class, bive);
     }
 
     private bive() {
@@ -43,7 +43,7 @@ public final class bive extends bxvk implements bxxd {
             this.f121969d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121965c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f121965c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bive();
         } else {

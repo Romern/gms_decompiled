@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public final class qjy {
 
     /* renamed from: c */
-    private static final sek f41519c = qgn.m32143a("RequestGenerator");
+    private static final Logger f41519c = qgn.m32143a("RequestGenerator");
 
     /* renamed from: a */
     public final qgu f41520a;

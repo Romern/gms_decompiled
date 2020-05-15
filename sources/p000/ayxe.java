@@ -11,7 +11,7 @@ public final class ayxe implements ayvq {
             ayyd ayyd = (ayyd) ayvw;
             aywu b = ayyd.mo54526b();
             bxvj bxvj = ayxg.f98679a;
-            Map map = bxvk.f164959aj;
+            Map map = GeneratedMessageLite.f164959aj;
             b.mo74135a(bxvj);
             if (b.f164952m.mo73911a(bxvj.f164958d)) {
                 aywu b2 = ayyd.mo54526b();

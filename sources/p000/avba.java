@@ -159,7 +159,7 @@ public final class avba extends avau {
                             bxrv.mo74035c();
                             bxrv.f164950c = false;
                         }
-                        ((bxrw) bxrv.f164949b).f164632f = bxvk.m124030de();
+                        ((bxrw) bxrv.f164949b).f164632f = GeneratedMessageLite.m124030de();
                         bxrv.mo73615a(a7.f92943b);
                     }
                 }

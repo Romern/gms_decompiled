@@ -34,7 +34,7 @@ public final class amwl {
         amdk.m62658a("FSA2_PeopleSyncState", "@setLastFullSynctime = %d", Long.valueOf(j));
         amvh a = this.f76191a.mo41492a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -50,7 +50,7 @@ public final class amwl {
     public final void mo41491b(String str) {
         amvh a = this.f76191a.mo41492a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (str == null) {
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -85,7 +85,7 @@ public final class amwl {
     public final void mo41489a(String str) {
         amvh a = this.f76191a.mo41492a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (str == null) {
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

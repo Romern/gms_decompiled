@@ -153,7 +153,7 @@ public final class bfbv implements bfaf {
         bpcd bpcd = (bpcd) da.f164949b;
         bpcc7.getClass();
         if (!bpcd.f135718a.mo73666a()) {
-            bpcd.f135718a = bxvk.m124021a(bpcd.f135718a);
+            bpcd.f135718a = GeneratedMessageLite.m124021a(bpcd.f135718a);
         }
         bpcd.f135718a.add(bpcc7);
         qws qws = this.f113351j.f113009a;

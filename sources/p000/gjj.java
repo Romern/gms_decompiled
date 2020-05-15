@@ -21,7 +21,7 @@ import java.util.concurrent.TimeoutException;
 public final class gjj {
 
     /* renamed from: a */
-    public static final sek f18337a = ght.m13171a("AccountTransfer", "AccountTransferExporter");
+    public static final Logger f18337a = ght.m13171a("AccountTransfer", "AccountTransferExporter");
 
     /* renamed from: b */
     public final gto f18338b;

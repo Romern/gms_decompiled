@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 public final class xik {
 
     /* renamed from: e */
-    private static final sek f52356e = new sek(new String[]{"BleOperationHandler"}, (short[]) null);
+    private static final Logger f52356e = new Logger(new String[]{"BleOperationHandler"}, (short[]) null);
 
     /* renamed from: a */
     public volatile xif f52357a = xif.NONE;

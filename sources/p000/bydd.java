@@ -16,7 +16,7 @@ public final class bydd extends bxvd implements bxxd {
         bydf bydf = (bydf) this.f164949b;
         bydf bydf2 = bydf.f165769j;
         if (!bydf.f165774d.mo73666a()) {
-            bydf.f165774d = bxvk.m124021a(bydf.f165774d);
+            bydf.f165774d = GeneratedMessageLite.m124021a(bydf.f165774d);
         }
         bxsy.m123078a(iterable, bydf.f165774d);
     }

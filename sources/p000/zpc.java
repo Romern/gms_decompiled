@@ -26,7 +26,7 @@ public final class zpc {
         }
         cadn a = yyk.m45011a(caae, cadz.f172779e, cadz.f172780f, TimeUnit.MILLISECONDS, yyp.m45047a(cadz.f172782h));
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         cadm cadm = (cadm) bxvd;
         yyc c = yyd.m44993c(yyg.f54822b);
         bzzz bzzz = cadz.f172781g;

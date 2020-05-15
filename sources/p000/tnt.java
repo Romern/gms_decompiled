@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: tnt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class tnt extends bxvk implements bxxd {
+public final class tnt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final tnt f46353g;
@@ -31,7 +31,7 @@ public final class tnt extends bxvk implements bxxd {
     static {
         tnt tnt = new tnt();
         f46353g = tnt;
-        bxvk.m124024a(tnt.class, tnt);
+        GeneratedMessageLite.m124024a(tnt.class, tnt);
     }
 
     private tnt() {
@@ -48,7 +48,7 @@ public final class tnt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f46353g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0003\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0003\u001b\u0004\u001b\u0005\u001b", new Object[]{"a", "b", "c", "d", tns.class, "e", tnr.class, "f", tnm.class});
+            return GeneratedMessageLite.m124022a(f46353g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0003\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0003\u001b\u0004\u001b\u0005\u001b", new Object[]{"a", "b", "c", "d", tns.class, "e", tnr.class, "f", tnm.class});
         } else if (i2 == 3) {
             return new tnt();
         } else {

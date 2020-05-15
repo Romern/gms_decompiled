@@ -62,7 +62,7 @@ public final class byrd implements byre {
                     this.f167456c = a;
                     this.f167457d = a;
                 }
-                byrz byrz = new byrz(bysa.DEVICE_TO_DEVICE_RESPONDER_HELLO_PAYLOAD, byqy.m125143a(bArr, 1).mo73642k());
+                byrz byrz = new byrz(bysa.DEVICE_TO_DEVICE_RESPONDER_HELLO_PAYLOAD, byqy.m125143a(bArr, 1).serializeToBytes());
                 SecretKey secretKey = this.f167457d;
                 PublicKey publicKey = this.f167454a.getPublic();
                 int i = this.f167459f;
@@ -80,7 +80,7 @@ public final class byrd implements byre {
                 byrl.f167494a = i3;
                 byrl.f167494a = i3 | 2;
                 byrl.f167496c = i;
-                return byrb.m125178a(byrz, secretKey, ((byrl) da.mo74062i()).mo73642k());
+                return byrb.m125178a(byrz, secretKey, ((byrl) da.mo74062i()).serializeToBytes());
             } catch (InvalidKeyException | NoSuchAlgorithmException e) {
                 throw new byrq(e);
             }
@@ -93,9 +93,9 @@ public final class byrd implements byre {
     private final byte[] m125183d(byte[] bArr) {
         try {
             int i = byrb.f167453b;
-            bytc a = bysw.m125309a((byti) bxvk.m124014a(byti.f167671d, bArr));
+            bytc a = bysw.m125309a((byti) GeneratedMessageLite.m124014a(byti.f167671d, bArr));
             if ((a.f167649a & 8) != 0) {
-                byrl byrl = (byrl) bxvk.m124014a(byrl.f167492d, a.f167653e.mo73780k());
+                byrl byrl = (byrl) GeneratedMessageLite.m124014a(byrl.f167492d, a.f167653e.getKey());
                 if ((byrl.f167494a & 1) != 0) {
                     if (byrl.f167496c == 0) {
                         this.f167459f = 0;
@@ -115,7 +115,7 @@ public final class byrd implements byre {
                     }
                     byri a3 = byrb.m125173a(this.f167457d, bArr);
                     if (a3.f167478c == 1) {
-                        return a3.f167477b.mo73780k();
+                        return a3.f167477b.getKey();
                     }
                     throw new byrq("Incorrect sequence number in responder hello");
                 }
@@ -130,7 +130,7 @@ public final class byrd implements byre {
     /* renamed from: e */
     private final void m125184e(byte[] bArr) {
         try {
-            byrk byrk = (byrk) bxvk.m124014a(byrk.f167486d, bArr);
+            byrk byrk = (byrk) GeneratedMessageLite.m124014a(byrk.f167486d, bArr);
             if ((byrk.f167488a & 1) != 0) {
                 bytb bytb = byrk.f167489b;
                 if (bytb == null) {
@@ -246,7 +246,7 @@ public final class byrd implements byre {
             int i4 = this.f167459f;
             byrk.f167488a = 2 | i3;
             byrk.f167490c = i4;
-            return ((byrk) da.mo74062i()).mo73642k();
+            return ((byrk) da.mo74062i()).serializeToBytes();
         } else if (i2 == 3) {
             byte[] c = m125182c(new byte[0]);
             this.f167460g = 5;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blew */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blew extends bxvk implements bxxd {
+public final class blew extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final blew f126288f;
@@ -28,7 +28,7 @@ public final class blew extends bxvk implements bxxd {
     static {
         blew blew = new blew();
         f126288f = blew;
-        bxvk.m124024a(blew.class, blew);
+        GeneratedMessageLite.m124024a(blew.class, blew);
     }
 
     private blew() {
@@ -49,7 +49,7 @@ public final class blew extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f126288f, "\u0001\u0004\u0000\u0001\u0006\u001c\u0004\u0000\u0002\u0000\u0006\u0014\u0016ဉ\u0007\u0019ဌ\u0000\u001c\u001b", new Object[]{"a", "c", "d", "b", blev.f126287a, "e", blds.class});
+            return GeneratedMessageLite.m124022a(f126288f, "\u0001\u0004\u0000\u0001\u0006\u001c\u0004\u0000\u0002\u0000\u0006\u0014\u0016ဉ\u0007\u0019ဌ\u0000\u001c\u001b", new Object[]{"a", "c", "d", "b", blev.f126287a, "e", blds.class});
         } else if (i2 == 3) {
             return new blew();
         } else {

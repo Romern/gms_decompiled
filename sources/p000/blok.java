@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blok */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blok extends bxvk implements bxxd {
+public final class blok extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final blok f127099f;
@@ -31,7 +31,7 @@ public final class blok extends bxvk implements bxxd {
     static {
         blok blok = new blok();
         f127099f = blok;
-        bxvk.m124024a(blok.class, blok);
+        GeneratedMessageLite.m124024a(blok.class, blok);
     }
 
     private blok() {
@@ -52,7 +52,7 @@ public final class blok extends bxvk implements bxxd {
             this.f127106g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127099f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0002\u0001ᐉ\u0000\u0003င\u0002\u0004ဇ\u0003\u0005ᐉ\u0004", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f127099f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0002\u0001ᐉ\u0000\u0003င\u0002\u0004ဇ\u0003\u0005ᐉ\u0004", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new blok();
         } else {

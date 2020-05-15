@@ -24,7 +24,7 @@ public final class goe implements gnw {
     /* renamed from: a */
     public final void mo12082a(goa goa, Account account, gnz gnz, Object obj) {
         if (this.f18765a.contains(gnz)) {
-            gkj.f18395a.mo25414c("OnDataChanged check: %s", sek.m35081a(account));
+            gkj.f18395a.mo25414c("OnDataChanged check: %s", Logger.m35081a(account));
             this.f18766b.mo11985a(goa, account);
         }
     }

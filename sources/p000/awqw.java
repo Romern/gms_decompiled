@@ -59,7 +59,7 @@ public final class awqw extends awqu {
     /* renamed from: a */
     public final void mo52461a(bxvd bxvd) {
         try {
-            bxvd.mo73635b(this.f94879b.mo73642k(), bxus.m123744c());
+            bxvd.mo73635b(this.f94879b.serializeToBytes(), bxus.m123744c());
         } catch (bxwf e) {
             throw new RuntimeException("Error parsing log event!");
         }

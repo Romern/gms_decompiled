@@ -42,11 +42,11 @@ public final class rqd {
         sdo.m34962a(this.f43516b, "Invalid create circle status code.");
         sdo.m34962a(this.f43517c, "Invalid add person status code.");
         if (this.f43516b == 1) {
-            sdo.m34966a((Object) this.f43515a.f30294d, (Object) "Must provide a circle with circle id.");
-            sdo.m34966a((Object) this.f43515a.f30296f, (Object) "Must provide a circle with display name.");
+            sdo.checkIfNull((Object) this.f43515a.f30294d, (Object) "Must provide a circle with circle id.");
+            sdo.checkIfNull((Object) this.f43515a.f30296f, (Object) "Must provide a circle with display name.");
         }
         if (this.f43517c == 1) {
-            sdo.m34966a((Object) this.f43518d, (Object) "Must provide qualified id.");
+            sdo.checkIfNull((Object) this.f43518d, (Object) "Must provide qualified id.");
         }
     }
 

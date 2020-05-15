@@ -10,7 +10,7 @@ public final class szc {
     public static WeakReference f45470a = new WeakReference(null);
 
     /* renamed from: b */
-    public static final sek f45471b = tea.m36798a("rpc util");
+    public static final Logger f45471b = tea.m36798a("rpc util");
 
     /* renamed from: c */
     public static final chtn f45472c = chtn.m149536a("google.internal.communications.phonedeviceverification.v1.errordetail-bin", new szb());

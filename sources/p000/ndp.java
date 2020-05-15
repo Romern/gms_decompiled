@@ -5,7 +5,7 @@ package p000;
 public final class ndp {
 
     /* renamed from: a */
-    private static final sek f35351a = new lvn("RestoreRequestGenerator");
+    private static final Logger f35351a = new lvn("RestoreRequestGenerator");
 
     /* renamed from: b */
     private final long f35352b;
@@ -80,7 +80,7 @@ public final class ndp {
                     if ((lth5.f32916a & 1) != 0) {
                     }
                 }
-                f35351a.mo25409a("Requesting ancestral secondary key:%s", this.f35355e);
+                f35351a.logVerbose("Requesting ancestral secondary key:%s", this.f35355e);
                 String str2 = this.f35355e;
                 if (da.f164950c) {
                     da.mo74035c();

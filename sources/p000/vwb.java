@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: vwb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class vwb extends bxvk implements bxxd {
+public final class vwb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final vwb f50109c;
@@ -19,7 +19,7 @@ public final class vwb extends bxvk implements bxxd {
     static {
         vwb vwb = new vwb();
         f50109c = vwb;
-        bxvk.m124024a(vwb.class, vwb);
+        GeneratedMessageLite.m124024a(vwb.class, vwb);
     }
 
     private vwb() {
@@ -36,7 +36,7 @@ public final class vwb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f50109c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f50109c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new vwb();
         } else {

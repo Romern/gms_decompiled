@@ -44,7 +44,7 @@ final class ahda implements bvat {
                 buzk.f155393a = i;
                 buzk.f155396d = 3;
                 buzk.f155393a = i | 4;
-                bxtx a2 = bxtx.m123258a(str);
+                ByteString a2 = ByteString.m123258a(str);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

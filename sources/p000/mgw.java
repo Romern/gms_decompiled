@@ -133,7 +133,7 @@ public final class mgw implements mfq {
             f33663a.mo25412b(str, new Object[0]);
             lvn lvn = f33663a;
             String str2 = !cckw.m130265c() ? "disabled" : "enabled";
-            lvn.mo25409a(str2.length() == 0 ? new String("    App data transfer ") : "    App data transfer ".concat(str2), new Object[0]);
+            lvn.logVerbose(str2.length() == 0 ? new String("    App data transfer ") : "    App data transfer ".concat(str2), new Object[0]);
         }
     }
 

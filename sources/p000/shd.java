@@ -17,7 +17,7 @@ public class shd {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public static String m35267a(String str) {
-        sdo.m34966a((Object) str, (Object) "Encoding a null parameter!");
+        sdo.checkIfNull((Object) str, (Object) "Encoding a null parameter!");
         return Uri.encode(str);
     }
 

@@ -74,18 +74,18 @@ final class awos extends awpc {
         bwgz bwgz;
         bmrf bmrf;
         bmav bmav;
-        bxtx bxtx;
+        ByteString bxtx;
         if ((bmri.f130497a & 8) != 0) {
             bmag bmag = bmri.f130501e;
             if (bmag == null) {
                 bmag = bmag.f128442c;
             }
             if (bmag.f128444a == 2) {
-                bxtx = (bxtx) bmag.f128445b;
+                bxtx = (ByteString) bmag.f128445b;
             } else {
                 bxtx = bxtx.f164797b;
             }
-            bArr = bxtx.mo73780k();
+            bArr = bxtx.getKey();
         } else {
             bArr = null;
         }

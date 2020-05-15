@@ -243,7 +243,7 @@ public class ModuleManager {
 
         public FeatureRequest requestFeatures(FeatureList featureList) {
             boolean z;
-            bxwc bxwc = ((djf) bxvk.m124016a(djf.f13322b, featureList.getProtoBytes(), bxus.m123743b())).f13324a;
+            bxwc bxwc = ((djf) GeneratedMessageLite.m124016a(djf.f13322b, featureList.getProtoBytes(), bxus.m123743b())).f13324a;
             int size = bxwc.size();
             for (int i = 0; i < size; i++) {
                 djc djc = (djc) bxwc.get(i);

@@ -199,7 +199,7 @@ public final class bnmt {
     }
 
     /* renamed from: a */
-    public static HashMap m109794a() {
+    public static HashMap getNewHashMap() {
         return new HashMap();
     }
 

@@ -233,7 +233,7 @@ public final class awxk {
             }
             bmvt bmvt6 = (bmvt) da.f164949b;
             if (!bmvt6.f131097g.mo73666a()) {
-                bmvt6.f131097g = bxvk.m124021a(bmvt6.f131097g);
+                bmvt6.f131097g = GeneratedMessageLite.m124021a(bmvt6.f131097g);
             }
             bxsy.m123078a(arrayList, bmvt6.f131097g);
             TimeInterval timeInterval2 = commonWalletObject2.f110608k;
@@ -274,7 +274,7 @@ public final class awxk {
             }
             bmvt bmvt8 = (bmvt) da.f164949b;
             if (!bmvt8.f131099i.mo73666a()) {
-                bmvt8.f131099i = bxvk.m124021a(bmvt8.f131099i);
+                bmvt8.f131099i = GeneratedMessageLite.m124021a(bmvt8.f131099i);
             }
             bxsy.m123078a(arrayList3, bmvt8.f131099i);
             if (commonWalletObject2.f110612o.isEmpty() && !commonWalletObject2.f110613p) {
@@ -322,7 +322,7 @@ public final class awxk {
                         bmvm bmvm = (bmvm) da6.f164949b;
                         bmvl3.getClass();
                         if (!bmvm.f131069a.mo73666a()) {
-                            bmvm.f131069a = bxvk.m124021a(bmvm.f131069a);
+                            bmvm.f131069a = GeneratedMessageLite.m124021a(bmvm.f131069a);
                         }
                         bmvm.f131069a.add(bmvl3);
                         i6++;
@@ -336,7 +336,7 @@ public final class awxk {
                     bmvk bmvk2 = (bmvk) da5.f164949b;
                     bmvm2.getClass();
                     if (!bmvk2.f131060b.mo73666a()) {
-                        bmvk2.f131060b = bxvk.m124021a(bmvk2.f131060b);
+                        bmvk2.f131060b = GeneratedMessageLite.m124021a(bmvk2.f131060b);
                     }
                     bmvk2.f131060b.add(bmvm2);
                     i5++;
@@ -418,7 +418,7 @@ public final class awxk {
             }
             bmvt bmvt10 = (bmvt) da.f164949b;
             if (!bmvt10.f131101k.mo73666a()) {
-                bmvt10.f131101k = bxvk.m124021a(bmvt10.f131101k);
+                bmvt10.f131101k = GeneratedMessageLite.m124021a(bmvt10.f131101k);
             }
             bxsy.m123078a(arrayList7, bmvt10.f131101k);
             ArrayList arrayList9 = new ArrayList();
@@ -457,7 +457,7 @@ public final class awxk {
             }
             bmvt bmvt11 = (bmvt) da.f164949b;
             if (!bmvt11.f131102l.mo73666a()) {
-                bmvt11.f131102l = bxvk.m124021a(bmvt11.f131102l);
+                bmvt11.f131102l = GeneratedMessageLite.m124021a(bmvt11.f131102l);
             }
             bxsy.m123078a(arrayList9, bmvt11.f131102l);
             ArrayList arrayList11 = commonWalletObject2.f110616s;
@@ -497,7 +497,7 @@ public final class awxk {
                     bmvn bmvn2 = (bmvn) da12.f164949b;
                     bmvq3.getClass();
                     if (!bmvn2.f131072a.mo73666a()) {
-                        bmvn2.f131072a = bxvk.m124021a(bmvn2.f131072a);
+                        bmvn2.f131072a = GeneratedMessageLite.m124021a(bmvn2.f131072a);
                     }
                     bmvn2.f131072a.add(bmvq3);
                 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbin */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbin extends bxvk implements bxxd {
+public final class cbin extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final cbin f177270f;
@@ -28,7 +28,7 @@ public final class cbin extends bxvk implements bxxd {
     static {
         cbin cbin = new cbin();
         f177270f = cbin;
-        bxvk.m124024a(cbin.class, cbin);
+        GeneratedMessageLite.m124024a(cbin.class, cbin);
     }
 
     private cbin() {
@@ -45,7 +45,7 @@ public final class cbin extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177270f, "\u0000\u0006\u0001\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001Ȉ\u0002Ȼ\u0000\u0003=\u0000\u0004\t\u0005=\u0000\u0006\t", new Object[]{"b", "a", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f177270f, "\u0000\u0006\u0001\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001Ȉ\u0002Ȼ\u0000\u0003=\u0000\u0004\t\u0005=\u0000\u0006\t", new Object[]{"b", "a", "c", "d", "e"});
         } else if (i2 == 3) {
             return new cbin();
         } else {

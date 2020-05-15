@@ -167,11 +167,11 @@ public final class bgyg {
             bgvn bgvn = (bgvn) da.f164949b;
             bgvo3.getClass();
             if (!bgvn.f117697a.mo73666a()) {
-                bgvn.f117697a = bxvk.m124021a(bgvn.f117697a);
+                bgvn.f117697a = GeneratedMessageLite.m124021a(bgvn.f117697a);
             }
             bgvn.f117697a.add(bgvo3);
         }
-        return Base64.encodeToString(((bgvn) da.mo74062i()).mo73642k(), 2);
+        return Base64.encodeToString(((bgvn) da.mo74062i()).serializeToBytes(), 2);
     }
 
     /* renamed from: c */
@@ -190,7 +190,7 @@ public final class bgyg {
             byte[] decode = Base64.decode(string, 2);
             bxus c = bxus.m123744c();
             ArrayList arrayList = new ArrayList();
-            for (bgvo bgvo : ((bgvn) bxvk.m124016a(bgvn.f117695b, decode, c)).f117697a) {
+            for (bgvo bgvo : ((bgvn) GeneratedMessageLite.m124016a(bgvn.f117695b, decode, c)).f117697a) {
                 bgvw bgvw = bgvo.f117703d;
                 if (bgvw == null) {
                     bgvw = bgvw.f117757j;

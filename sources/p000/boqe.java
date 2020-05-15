@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boqe */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boqe extends bxvk implements bxxd {
+public final class boqe extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final boqe f134259c;
@@ -19,7 +19,7 @@ public final class boqe extends bxvk implements bxxd {
     static {
         boqe boqe = new boqe();
         f134259c = boqe;
-        bxvk.m124024a(boqe.class, boqe);
+        GeneratedMessageLite.m124024a(boqe.class, boqe);
     }
 
     private boqe() {
@@ -36,7 +36,7 @@ public final class boqe extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134259c, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bopx.f134218a});
+            return GeneratedMessageLite.m124022a(f134259c, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bopx.f134218a});
         } else if (i2 == 3) {
             return new boqe();
         } else {

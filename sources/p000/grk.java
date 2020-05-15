@@ -38,7 +38,7 @@ public final class grk {
             bofk2.getClass();
             boct.f132632w = bofk2;
             boct.f132610a = 134217728 | i2;
-            this.f18885a.mo24335a(((boct) da2.mo74062i()).mo73642k()).mo24327b();
+            this.f18885a.mo24335a(((boct) da2.mo74062i()).serializeToBytes()).mo24327b();
         }
     }
 }

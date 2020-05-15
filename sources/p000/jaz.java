@@ -10,7 +10,7 @@ import java.nio.ByteOrder;
 public final class jaz {
 
     /* renamed from: a */
-    private static final sek f22064a = jdh.m16547a("VaultHandleHelper");
+    private static final Logger f22064a = jdh.m16547a("VaultHandleHelper");
 
     /* renamed from: b */
     public static long m16449b(byte[] bArr) {
@@ -27,15 +27,15 @@ public final class jaz {
     }
 
     /* renamed from: a */
-    static bxtx m16446a(Context context) {
+    static ByteString m16446a(Context context) {
         return m16447a(addi.m50206a(context).mo33346b(), m16450b(context).longValue());
     }
 
     /* renamed from: a */
-    static bxtx m16447a(String str, long j) {
+    static ByteString m16447a(String str, long j) {
         try {
             f22064a.mo25412b("Building vaultHandle(version=%d, instanceId=%s, deviceId=%d)", (byte) 1, str, Long.valueOf(j));
-            return bxtx.m123261a(ByteBuffer.allocate(17).order(ByteOrder.LITTLE_ENDIAN).put((byte) 1).putLong(ByteBuffer.wrap(boan.f132471e.mo68796b(str)).getLong()).putLong(j).array());
+            return ByteString.m123261a(ByteBuffer.allocate(17).order(ByteOrder.LITTLE_ENDIAN).put((byte) 1).putLong(ByteBuffer.wrap(boan.f132471e.mo68796b(str)).getLong()).putLong(j).array());
         } catch (IllegalArgumentException | BufferUnderflowException e) {
             throw new RuntimeException("Failed to build vault handle", e);
         }

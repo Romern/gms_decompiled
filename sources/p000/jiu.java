@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 public final class jiu {
 
     /* renamed from: a */
-    public static final sek f22568a = jsy.m17256a("BleBackgroundAdvertiser");
+    public static final Logger f22568a = jsy.m17256a("BleBackgroundAdvertiser");
 
     /* renamed from: b */
     public static final long f22569b = TimeUnit.SECONDS.toMillis(5);

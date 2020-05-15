@@ -14,7 +14,7 @@ public final class ywo {
     public boolean f54711b = false;
 
     public ywo(DataSource dataSource) {
-        sdo.m34966a(dataSource, "DataSource should be specified");
+        sdo.checkIfNull(dataSource, "DataSource should be specified");
         this.f54710a = new DataSet(dataSource);
     }
 

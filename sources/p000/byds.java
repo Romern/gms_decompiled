@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byds */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byds extends bxvk implements bxxd {
+public final class byds extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final byds f165840a;
@@ -40,11 +40,11 @@ public final class byds extends bxvk implements bxxd {
     static {
         byds byds = new byds();
         f165840a = byds;
-        bxvk.m124024a(byds.class, byds);
+        GeneratedMessageLite.m124024a(byds.class, byds);
     }
 
     private byds() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
         bxxn bxxn = bxxn.f165040b;
     }
 
@@ -63,7 +63,7 @@ public final class byds extends bxvk implements bxxd {
             this.f165850j = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f165840a, "\u0001\u0007\u0000\u0001\u000f\u0015\u0007\u0000\u0000\u0007\u000fᐉ\r\u0010ᐉ\u000e\u0011ᐉ\u000f\u0012ᐉ\u0010\u0013ᐉ\u0011\u0014ᐉ\u0012\u0015ᐉ\u0013", new Object[]{"b", "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f165840a, "\u0001\u0007\u0000\u0001\u000f\u0015\u0007\u0000\u0000\u0007\u000fᐉ\r\u0010ᐉ\u000e\u0011ᐉ\u000f\u0012ᐉ\u0010\u0013ᐉ\u0011\u0014ᐉ\u0012\u0015ᐉ\u0013", new Object[]{"b", "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new byds();
         } else {

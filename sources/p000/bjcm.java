@@ -614,7 +614,7 @@ public final class bjcm {
                             bvuz bvuz24 = (bvuz) da2.f164949b;
                             bvux3.getClass();
                             if (!bvuz24.f157770g.mo73666a()) {
-                                bvuz24.f157770g = bxvk.m124021a(bvuz24.f157770g);
+                                bvuz24.f157770g = GeneratedMessageLite.m124021a(bvuz24.f157770g);
                             }
                             bvuz24.f157770g.add(bvux3);
                         }
@@ -667,7 +667,7 @@ public final class bjcm {
                                                 bvuu bvuu2 = (bvuu) da6.f164949b;
                                                 str3.getClass();
                                                 if (!bvuu2.f157745c.mo73666a()) {
-                                                    bvuu2.f157745c = bxvk.m124021a(bvuu2.f157745c);
+                                                    bvuu2.f157745c = GeneratedMessageLite.m124021a(bvuu2.f157745c);
                                                 }
                                                 bvuu2.f157745c.add(str3);
                                             }
@@ -692,7 +692,7 @@ public final class bjcm {
                                     bvuv bvuv3 = (bvuv) da5.f164949b;
                                     bvuu4.getClass();
                                     if (!bvuv3.f157751c.mo73666a()) {
-                                        bvuv3.f157751c = bxvk.m124021a(bvuv3.f157751c);
+                                        bvuv3.f157751c = GeneratedMessageLite.m124021a(bvuv3.f157751c);
                                     }
                                     bvuv3.f157751c.add(bvuu4);
                                 }
@@ -715,7 +715,7 @@ public final class bjcm {
                 }
                 if (gmmPlaceReportPayload.mo71624d() != null) {
                     try {
-                        bxtx a5 = bxtx.m123261a(Base64.decode(gmmPlaceReportPayload.mo71624d(), 10));
+                        ByteString a5 = ByteString.m123261a(Base64.decode(gmmPlaceReportPayload.mo71624d(), 10));
                         if (da2.f164950c) {
                             da2.mo74035c();
                             da2.f164950c = false;
@@ -914,7 +914,7 @@ public final class bjcm {
                             bvyv bvyv7 = (bvyv) da7.f164949b;
                             bvyt3.getClass();
                             if (!bvyv7.f158234e.mo73666a()) {
-                                bvyv7.f158234e = bxvk.m124021a(bvyv7.f158234e);
+                                bvyv7.f158234e = GeneratedMessageLite.m124021a(bvyv7.f158234e);
                             }
                             bvyv7.f158234e.add(bvyt3);
                         }

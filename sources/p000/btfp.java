@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btfp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btfp extends bxvk implements bxxd {
+public final class btfp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final btfp f148731d;
@@ -22,7 +22,7 @@ public final class btfp extends bxvk implements bxxd {
     static {
         btfp btfp = new btfp();
         f148731d = btfp;
-        bxvk.m124024a(btfp.class, btfp);
+        GeneratedMessageLite.m124024a(btfp.class, btfp);
     }
 
     private btfp() {
@@ -39,7 +39,7 @@ public final class btfp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148731d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\u0004\u0003Ȉ", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f148731d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\u0004\u0003Ȉ", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new btfp();
         } else {

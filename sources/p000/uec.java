@@ -136,7 +136,7 @@ public final class uec extends ucg {
         ucf.f47235b.mo27435d();
         try {
             uin b3 = ((ucf) uce).f47235b.mo27419b(uey);
-            sdo.m34966a(b3, "Authorized app doesn't exist");
+            sdo.checkIfNull(b3, "Authorized app doesn't exist");
             int i = ((txh) a3).f46906a;
             int i2 = ((txh) a3).f46908c;
             if (i != 0) {

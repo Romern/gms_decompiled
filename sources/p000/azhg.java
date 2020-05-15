@@ -153,8 +153,8 @@ public final class azhg extends azhc {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ void mo54923a(Object obj, Object obj2) {
         cbhy cbhy;
-        bxtx bxtx;
-        bxtx bxtx2;
+        ByteString bxtx;
+        ByteString bxtx2;
         cbgo cbgo = (cbgo) obj;
         cbhv cbhv = (cbhv) obj2;
         new Object[1][0] = cbhv;
@@ -226,7 +226,7 @@ public final class azhg extends azhc {
         if (cbhr != null) {
             if (z && (cbhy = cbhr.f177173e) != null) {
                 if (cbhy.f177216a == 1) {
-                    bxtx = (bxtx) cbhy.f177217b;
+                    bxtx = (ByteString) cbhy.f177217b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
@@ -240,11 +240,11 @@ public final class azhg extends azhc {
                         cbhy4 = cbhy.f177214d;
                     }
                     if (cbhy4.f177216a == 1) {
-                        bxtx2 = (bxtx) cbhy4.f177217b;
+                        bxtx2 = (ByteString) cbhy4.f177217b;
                     } else {
                         bxtx2 = bxtx.f164797b;
                     }
-                    contentValues.put("background_image", bxtx2.mo73780k());
+                    contentValues.put("background_image", bxtx2.getKey());
                 }
             }
             cbhr cbhr3 = cbhv.f177203l;
@@ -252,21 +252,21 @@ public final class azhg extends azhc {
                 cbhr3 = cbhr.f177167i;
             }
             bxvd bxvd = (bxvd) cbhr3.mo74142c(5);
-            bxvd.mo73625a((bxvk) cbhr3);
+            bxvd.mo73625a((GeneratedMessageLite) cbhr3);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
             ((cbhr) bxvd.f164949b).f177173e = null;
-            contentValues.put("app_theme", ((cbhr) bxvd.mo74062i()).mo73642k());
+            contentValues.put("app_theme", ((cbhr) bxvd.mo74062i()).serializeToBytes());
         }
         cbht cbht = cbhv.f177202k;
         if (cbht != null) {
-            contentValues.put("app_ui_config", cbht.mo73642k());
+            contentValues.put("app_ui_config", cbht.serializeToBytes());
         }
         cbhp cbhp = cbhv.f177201j;
         if (cbhp != null) {
-            contentValues.put("app_string_tag_mapping", cbhp.mo73642k());
+            contentValues.put("app_string_tag_mapping", cbhp.serializeToBytes());
         }
         if (azcd.m85252a(this.f99339a).mo54606a(this.f99356b, contentValues)) {
             azcd.m85252a(this.f99339a).mo54603a(this.f99356b, cbhv.f177200i);

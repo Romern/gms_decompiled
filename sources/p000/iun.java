@@ -15,7 +15,7 @@ final /* synthetic */ class iun implements aubq {
     /* renamed from: a */
     public final void mo6378a(aucb aucb) {
         bqgy bqgy = this.f21809a;
-        sek sek = iuq.f21814a;
+        Logger Logger = iuq.f21814a;
         if (!aucb.mo50384b()) {
             bqgy.mo69136a((Throwable) new iuk("Failed to derive symmetric key."));
             return;

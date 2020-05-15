@@ -20,7 +20,7 @@ import java.util.Map;
 public final class szr {
 
     /* renamed from: a */
-    public static final sek f45526a = tea.m36798a("storage_manager");
+    public static final Logger f45526a = tea.m36798a("storage_manager");
 
     /* renamed from: b */
     private static WeakReference f45527b = new WeakReference(null);
@@ -67,7 +67,7 @@ public final class szr {
 
     /* renamed from: b */
     public static final List m36696b() {
-        f45526a.mo25409a("Getting all verified phone numbers and verification timestamp", new Object[0]);
+        f45526a.logVerbose("Getting all verified phone numbers and verification timestamp", new Object[0]);
         szo a = szo.m36665a(rpr.m34216b());
         SQLiteDatabase readableDatabase = a.getReadableDatabase();
         try {
@@ -90,7 +90,7 @@ public final class szr {
 
     /* renamed from: c */
     public static final Map m36698c() {
-        f45526a.mo25409a("Getting all verified phone numbers and imsis", new Object[0]);
+        f45526a.logVerbose("Getting all verified phone numbers and imsis", new Object[0]);
         szo a = szo.m36665a(rpr.m34216b());
         SQLiteDatabase readableDatabase = a.getReadableDatabase();
         try {
@@ -122,7 +122,7 @@ public final class szr {
     public static final List m36699d() {
         cbqn cbqn;
         cbqn cbqn2;
-        f45526a.mo25409a("Getting all sim verification", new Object[0]);
+        f45526a.logVerbose("Getting all sim verification", new Object[0]);
         szo a = szo.m36665a(rpr.m34216b());
         try {
             Cursor query = a.getReadableDatabase().query("sim_verifications", f45528c, null, null, null, null, null);
@@ -136,14 +136,14 @@ public final class szr {
                         hashMap.put(string, m36690a(query, string));
                     } else {
                         bxvd bxvd = (bxvd) cbqy.mo74142c(5);
-                        bxvd.mo73625a((bxvk) cbqy);
+                        bxvd.mo73625a((GeneratedMessageLite) cbqy);
                         cbqw cbqw = (cbqw) bxvd;
                         cbqz cbqz = cbqy.f178085c;
                         if (cbqz == null) {
                             cbqz = cbqz.f178091c;
                         }
                         bxvd bxvd2 = (bxvd) cbqz.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) cbqz);
+                        bxvd2.mo73625a((GeneratedMessageLite) cbqz);
                         cbqz cbqz2 = cbqy.f178085c;
                         if (cbqz2 == null) {
                             cbqz2 = cbqz.f178091c;
@@ -154,7 +154,7 @@ public final class szr {
                             cbqn = cbqn.f178043d;
                         }
                         bxvd bxvd3 = (bxvd) cbqn.mo74142c(5);
-                        bxvd3.mo73625a((bxvk) cbqn);
+                        bxvd3.mo73625a((GeneratedMessageLite) cbqn);
                         cbqm cbqm = (cbqm) bxvd3;
                         cbqz cbqz3 = cbqy.f178085c;
                         if (cbqz3 == null) {
@@ -170,7 +170,7 @@ public final class szr {
                             cbqp = cbqp.f178048c;
                         }
                         bxvd bxvd4 = (bxvd) cbqp.mo74142c(5);
-                        bxvd4.mo73625a((bxvk) cbqp);
+                        bxvd4.mo73625a((GeneratedMessageLite) cbqp);
                         cbqo cbqo = (cbqo) bxvd4;
                         cbqo.mo75242a(query.getString(2));
                         if (cbqm.f164950c) {
@@ -218,7 +218,7 @@ public final class szr {
 
     /* renamed from: e */
     public static final bngx m36700e() {
-        f45526a.mo25409a("Getting all verified phone numbers", new Object[0]);
+        f45526a.logVerbose("Getting all verified phone numbers", new Object[0]);
         szo a = szo.m36665a(rpr.m34216b());
         SQLiteDatabase readableDatabase = a.getReadableDatabase();
         try {
@@ -257,14 +257,14 @@ public final class szr {
     /* JADX INFO: finally extract failed */
     /* renamed from: b */
     public static final List m36697b(int i) {
-        f45526a.mo25409a("Getting all ServiceStateEvents for subscriptionId %d", Integer.valueOf(i));
+        f45526a.logVerbose("Getting all ServiceStateEvents for subscriptionId %d", Integer.valueOf(i));
         szo a = szo.m36665a(rpr.m34216b());
         try {
             Cursor a2 = m36689a(a.getReadableDatabase(), 2, i, (int) cdfn.f180658a.mo6606a().mo77419u());
             ArrayList arrayList = new ArrayList();
             while (a2.moveToNext()) {
                 try {
-                    arrayList.add((cbpb) bxvk.m124016a(cbpb.f177888i, a2.getBlob(0), bxus.m123744c()));
+                    arrayList.add((cbpb) GeneratedMessageLite.m124016a(cbpb.f177888i, a2.getBlob(0), bxus.m123744c()));
                 } catch (bxwf e) {
                     f45526a.mo25417e("Error parsing ServiceStateEvent proto.", e, new Object[0]);
                 }
@@ -386,14 +386,14 @@ public final class szr {
     /* JADX INFO: finally extract failed */
     /* renamed from: a */
     public static final List m36691a(int i) {
-        f45526a.mo25409a("Getting all CellularNetworkEvents for subscriptionId %d", Integer.valueOf(i));
+        f45526a.logVerbose("Getting all CellularNetworkEvents for subscriptionId %d", Integer.valueOf(i));
         szo a = szo.m36665a(rpr.m34216b());
         try {
             Cursor a2 = m36689a(a.getReadableDatabase(), 1, i, (int) cdfn.f180658a.mo6606a().mo77408j());
             ArrayList arrayList = new ArrayList();
             while (a2.moveToNext()) {
                 try {
-                    arrayList.add((cbox) bxvk.m124016a(cbox.f177875g, a2.getBlob(0), bxus.m123744c()));
+                    arrayList.add((cbox) GeneratedMessageLite.m124016a(cbox.f177875g, a2.getBlob(0), bxus.m123744c()));
                 } catch (bxwf e) {
                     f45526a.mo25417e("Error parsing CellularNetworkEvent proto.", e, new Object[0]);
                 }
@@ -471,7 +471,7 @@ public final class szr {
         cbqn cbqn2;
         cbqn cbqn3;
         cbra cbra;
-        f45526a.mo25409a("Delete all and insert new verifications", new Object[0]);
+        f45526a.logVerbose("Delete all and insert new verifications", new Object[0]);
         szo a = szo.m36665a(rpr.m34216b());
         try {
             SQLiteDatabase writableDatabase = a.getWritableDatabase();

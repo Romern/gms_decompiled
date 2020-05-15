@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bonc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bonc extends bxvk implements bxxd {
+public final class bonc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bonc f133761e;
@@ -25,7 +25,7 @@ public final class bonc extends bxvk implements bxxd {
     static {
         bonc bonc = new bonc();
         f133761e = bonc;
-        bxvk.m124024a(bonc.class, bonc);
+        GeneratedMessageLite.m124024a(bonc.class, bonc);
     }
 
     private bonc() {
@@ -42,7 +42,7 @@ public final class bonc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133761e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003င\u0002", new Object[]{"a", "b", adbj.m50118b(), "c", "d"});
+            return GeneratedMessageLite.m124022a(f133761e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003င\u0002", new Object[]{"a", "b", adbj.m50118b(), "c", "d"});
         } else if (i2 == 3) {
             return new bonc();
         } else {

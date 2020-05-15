@@ -53,7 +53,7 @@ public final class bjnc extends bjhy {
     /* access modifiers changed from: protected */
     /* renamed from: u */
     public final void mo65258u() {
-        bxtx bxtx;
+        ByteString bxtx;
         if (!this.f122994p) {
             int a = bwro.m122241a(this.f122995q.f160788a);
             int i = a - 1;
@@ -73,11 +73,11 @@ public final class bjnc extends bjhy {
                     WidgetConfig widgetConfig = this.f122639a.f122692a.f122724a;
                     bwrp bwrp = this.f122995q;
                     if (bwrp.f160788a == 2) {
-                        bxtx = (bxtx) bwrp.f160789b;
+                        bxtx = (ByteString) bwrp.f160789b;
                     } else {
                         bxtx = bxtx.f164797b;
                     }
-                    byte[] k = bxtx.mo73780k();
+                    byte[] k = bxtx.getKey();
                     Intent a3 = bjfc.m103290a("tokenizeInstrument", widgetConfig);
                     a3.putExtra("tokenizationParams", k);
                     mo65128n().mo65084a(100, new bjfc(a3));

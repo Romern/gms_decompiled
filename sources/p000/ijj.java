@@ -20,7 +20,7 @@ public final class ijj {
     private static ijj f21108a;
 
     /* renamed from: e */
-    private static final sek f21109e = new sek("RegistrationManager");
+    private static final Logger f21109e = new Logger("RegistrationManager");
 
     /* renamed from: b */
     private final Context f21110b;
@@ -121,7 +121,7 @@ public final class ijj {
                 return false;
             }
             if (!soz.m35812h(this.f21111c.f21107a, str3)) {
-                f21109e.mo25418e("Cannot initiate enrollment because account does not exist: %s.", sek.m35081a(str));
+                f21109e.mo25418e("Cannot initiate enrollment because account does not exist: %s.", Logger.m35081a(str));
                 return false;
             }
             Account account = new Account(str3, "com.google");
@@ -154,7 +154,7 @@ public final class ijj {
                     bsnh.f146242a = bxww.mo74203a();
                 }
                 bsnh.f146242a.put("com.google.android.gms", bsnf);
-                bxtx aL = ((bsnh) da2.mo74062i()).mo73639aL();
+                ByteString aL = ((bsnh) da2.mo74062i()).mo73639aL();
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -203,7 +203,7 @@ public final class ijj {
                                 i7 = 0;
                             }
                         }
-                        aucb a2 = a.mo13178a(i7, Arrays.asList("PublicKey", "authzen"), str2, account, bsnn.mo73642k());
+                        aucb a2 = a.mo13178a(i7, Arrays.asList("PublicKey", "authzen"), str2, account, bsnn.serializeToBytes());
                         aucu.m76783a(a2, 60, TimeUnit.SECONDS);
                         Status status = ((KeyRegistrationResult) a2.mo50386d()).f10542b;
                         f21109e.mo25412b("Result of key registration=%s", status.mo17711d());
@@ -222,7 +222,7 @@ public final class ijj {
                 int i72 = 6;
                 if (i6 != 11) {
                 }
-                aucb a22 = a.mo13178a(i72, Arrays.asList("PublicKey", "authzen"), str2, account, bsnn.mo73642k());
+                aucb a22 = a.mo13178a(i72, Arrays.asList("PublicKey", "authzen"), str2, account, bsnn.serializeToBytes());
                 try {
                     aucu.m76783a(a22, 60, TimeUnit.SECONDS);
                     Status status2 = ((KeyRegistrationResult) a22.mo50386d()).f10542b;

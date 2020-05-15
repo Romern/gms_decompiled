@@ -18,7 +18,7 @@ import java.util.Set;
 public final class yda extends yct {
 
     /* renamed from: g */
-    private static final sek f53640g = new sek(new String[]{"NfcInstructionsFragment"}, (short[]) null);
+    private static final Logger f53640g = new Logger(new String[]{"NfcInstructionsFragment"}, (short[]) null);
 
     /* renamed from: a */
     private List f53641a;
@@ -109,7 +109,7 @@ public final class yda extends yct {
         bundle.putBoolean("FINGERPRINT_ALLOWED", z2);
         bundle.putBoolean("WELCOME_SCREEN", z);
         if (z) {
-            sdo.m34966a((Object) str, (Object) "App name or authority in request params cannot be null in welcome screen");
+            sdo.checkIfNull((Object) str, (Object) "App name or authority in request params cannot be null in welcome screen");
             sdo.m34971a(!str.trim().isEmpty(), (Object) "App name or authority from request params cannot be empty after trimming.");
             bundle.putCharSequence("APP_NAME", str);
         }

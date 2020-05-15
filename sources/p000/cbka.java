@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbka */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbka extends bxvk implements bxxd {
+public final class cbka extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbka f177382c;
@@ -19,7 +19,7 @@ public final class cbka extends bxvk implements bxxd {
     static {
         cbka cbka = new cbka();
         f177382c = cbka;
-        bxvk.m124024a(cbka.class, cbka);
+        GeneratedMessageLite.m124024a(cbka.class, cbka);
     }
 
     private cbka() {
@@ -36,7 +36,7 @@ public final class cbka extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177382c, "\u0000\u0007\u0001\u0000\u0001\b\u0007\u0000\u0000\u0000\u0001<\u0000\u0002<\u0000\u0003<\u0000\u0005<\u0000\u0006<\u0000\u0007<\u0000\b<\u0000", new Object[]{"b", "a", cbkj.class, cbjx.class, cbjv.class, cbjz.class, cbju.class, cbjw.class, cbjy.class});
+            return GeneratedMessageLite.m124022a(f177382c, "\u0000\u0007\u0001\u0000\u0001\b\u0007\u0000\u0000\u0000\u0001<\u0000\u0002<\u0000\u0003<\u0000\u0005<\u0000\u0006<\u0000\u0007<\u0000\b<\u0000", new Object[]{"b", "a", cbkj.class, cbjx.class, cbjv.class, cbjz.class, cbju.class, cbjw.class, cbjy.class});
         } else if (i2 == 3) {
             return new cbka();
         } else {

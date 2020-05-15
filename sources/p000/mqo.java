@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mqo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mqo extends bxvk implements bxxd {
+public final class mqo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final mqo f34328d;
@@ -22,7 +22,7 @@ public final class mqo extends bxvk implements bxxd {
     static {
         mqo mqo = new mqo();
         f34328d = mqo;
-        bxvk.m124024a(mqo.class, mqo);
+        GeneratedMessageLite.m124024a(mqo.class, mqo);
     }
 
     private mqo() {
@@ -39,7 +39,7 @@ public final class mqo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34328d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0001\u0000\u0001\u001b\u0003င\u0000", new Object[]{"a", "b", mql.class, "c"});
+            return GeneratedMessageLite.m124022a(f34328d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0001\u0000\u0001\u001b\u0003င\u0000", new Object[]{"a", "b", mql.class, "c"});
         } else if (i2 == 3) {
             return new mqo();
         } else {

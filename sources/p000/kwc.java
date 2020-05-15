@@ -46,7 +46,7 @@ final /* synthetic */ class kwc implements Consumer {
         }
         kwj kwj2 = (kwj) da.f164949b;
         if (!kwj2.f25270a.mo73666a()) {
-            kwj2.f25270a = bxvk.m124019a(kwj2.f25270a);
+            kwj2.f25270a = GeneratedMessageLite.m124019a(kwj2.f25270a);
         }
         kwj2.f25270a.mo74153d(a2);
         kwj kwj3 = (kwj) da.mo74062i();
@@ -58,7 +58,7 @@ final /* synthetic */ class kwc implements Consumer {
         kwr kwr2 = kwr.f25318d;
         kwj3.getClass();
         if (!kwr.f25320a.mo73666a()) {
-            kwr.f25320a = bxvk.m124021a(kwr.f25320a);
+            kwr.f25320a = GeneratedMessageLite.m124021a(kwr.f25320a);
         }
         kwr.f25320a.add(kwj3);
     }

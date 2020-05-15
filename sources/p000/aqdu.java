@@ -227,7 +227,7 @@ public final class aqdu {
                 }
                 aqav aqav12 = (aqav) da.f164949b;
                 if (!aqav12.f85489j.mo73666a()) {
-                    aqav12.f85489j = bxvk.m124021a(aqav12.f85489j);
+                    aqav12.f85489j = GeneratedMessageLite.m124021a(aqav12.f85489j);
                 }
                 bxsy.m123078a(list, aqav12.f85489j);
                 f85795k.clear();
@@ -263,7 +263,7 @@ public final class aqdu {
         if (cgkt.m145941m()) {
             a2.mo24337a(cagz.UNMETERED_OR_DAILY);
         }
-        a2.mo24335a(aqav15.mo73642k()).mo24327b();
+        a2.mo24335a(aqav15.serializeToBytes()).mo24327b();
     }
 
     public aqdu(Context context, long j, int i) {

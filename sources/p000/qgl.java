@@ -81,7 +81,7 @@ public final class qgl {
             qcv qcv2 = (qcv) da.f164949b;
             bpsu3.getClass();
             if (!qcv2.f40945c.mo73666a()) {
-                qcv2.f40945c = bxvk.m124021a(qcv2.f40945c);
+                qcv2.f40945c = GeneratedMessageLite.m124021a(qcv2.f40945c);
             }
             qcv2.f40945c.add(bpsu3);
         }

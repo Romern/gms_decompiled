@@ -60,7 +60,7 @@ public final class atda {
     }
 
     public final int hashCode() {
-        return Objects.hash(this.f90100a, this.f90101b, this.f90102c, this.f90103d, this.f90104e, Integer.valueOf(Arrays.hashCode(this.f90105f)), Integer.valueOf(Arrays.hashCode(this.f90106g)), Long.valueOf(this.f90107h), this.f90108i, Integer.valueOf(Arrays.hashCode(m75572a(this.f90109j).mo73642k())), this.f90110k);
+        return Objects.hash(this.f90100a, this.f90101b, this.f90102c, this.f90103d, this.f90104e, Integer.valueOf(Arrays.hashCode(this.f90105f)), Integer.valueOf(Arrays.hashCode(this.f90106g)), Long.valueOf(this.f90107h), this.f90108i, Integer.valueOf(Arrays.hashCode(m75572a(this.f90109j).serializeToBytes())), this.f90110k);
     }
 
     public final String toString() {

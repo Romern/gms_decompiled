@@ -31,6 +31,6 @@ public final /* synthetic */ class yrv implements Callable {
         sb2.append(a);
         sb2.append("/dataPointsByType:list?alt=proto");
         sb.append(sb2.toString());
-        return (caci) sgv.mo25513a(clientContext, 1, sb.toString(), cach.mo73642k(), caci.f172554c);
+        return (caci) sgv.mo25513a(clientContext, 1, sb.toString(), cach.serializeToBytes(), caci.f172554c);
     }
 }

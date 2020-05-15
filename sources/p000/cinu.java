@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cinu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cinu extends bxvk implements bxxd {
+public final class cinu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final cinu f190982h;
@@ -37,7 +37,7 @@ public final class cinu extends bxvk implements bxxd {
     static {
         cinu cinu = new cinu();
         f190982h = cinu;
-        bxvk.m124024a(cinu.class, cinu);
+        GeneratedMessageLite.m124024a(cinu.class, cinu);
     }
 
     private cinu() {
@@ -58,7 +58,7 @@ public final class cinu extends bxvk implements bxxd {
             this.f190991i = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f190982h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0001\u0001\u0001စ\u0000\u0002Л\u0003ဌ\u0001\u0004ခ\u0002\u0005ဉ\u0003\u0006ဉ\u0004", new Object[]{"a", "b", "d", cinx.class, "c", cint.f190981a, "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f190982h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0001\u0001\u0001စ\u0000\u0002Л\u0003ဌ\u0001\u0004ခ\u0002\u0005ဉ\u0003\u0006ဉ\u0004", new Object[]{"a", "b", "d", cinx.class, "c", cint.f190981a, "e", "f", "g"});
         } else if (i2 == 3) {
             return new cinu();
         } else {
@@ -85,7 +85,7 @@ public final class cinu extends bxvk implements bxxd {
     /* renamed from: c */
     public final void mo86262c() {
         if (!this.f190987d.mo73666a()) {
-            this.f190987d = bxvk.m124021a(this.f190987d);
+            this.f190987d = GeneratedMessageLite.m124021a(this.f190987d);
         }
     }
 }

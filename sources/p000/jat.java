@@ -75,7 +75,7 @@ public final class jat extends aaab {
             Status status = Status.f30107a;
             SharedKey[] sharedKeyArr = new SharedKey[list.size()];
             for (int i = 0; i < list.size(); i++) {
-                sharedKeyArr[i] = new SharedKey(((jbg) list.get(i)).f22092a, ((jbg) list.get(i)).f22093b.mo73780k());
+                sharedKeyArr[i] = new SharedKey(((jbg) list.get(i)).f22092a, ((jbg) list.get(i)).f22093b.getKey());
             }
             jai.mo13556a(status, sharedKeyArr);
         } catch (jck e) {

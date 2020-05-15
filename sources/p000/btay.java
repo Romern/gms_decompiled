@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btay */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btay extends bxvk implements bxxd {
+public final class btay extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bxvu f148055d = new btax();
@@ -58,7 +58,7 @@ public final class btay extends bxvk implements bxxd {
     static {
         btay btay = new btay();
         f148056p = btay;
-        bxvk.m124024a(btay.class, btay);
+        GeneratedMessageLite.m124024a(btay.class, btay);
     }
 
     private btay() {
@@ -75,7 +75,7 @@ public final class btay extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148056p, "\u0000\u000e\u0000\u0000\u0001\u0015\u000e\u0000\u0002\u0000\u0001\u0002\u0002\u0002\u0003,\u0005\u0002\u0006\u0002\u0007Ȉ\b\f\nȈ\u000b\u001b\u000f\f\u0010Ȉ\u0012\f\u0013Ȉ\u0015Ȉ", new Object[]{"a", "b", "c", "e", "f", "g", "h", "i", "j", bszt.class, "k", "l", "m", "n", "o"});
+            return GeneratedMessageLite.m124022a(f148056p, "\u0000\u000e\u0000\u0000\u0001\u0015\u000e\u0000\u0002\u0000\u0001\u0002\u0002\u0002\u0003,\u0005\u0002\u0006\u0002\u0007Ȉ\b\f\nȈ\u000b\u001b\u000f\f\u0010Ȉ\u0012\f\u0013Ȉ\u0015Ȉ", new Object[]{"a", "b", "c", "e", "f", "g", "h", "i", "j", bszt.class, "k", "l", "m", "n", "o"});
         } else if (i2 == 3) {
             return new btay();
         } else {

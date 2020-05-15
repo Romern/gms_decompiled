@@ -125,7 +125,7 @@ public final class sqq {
                     bojv.f133357a = i8 | 4;
                     bojv.f133360d = i9;
                     if (!bojv.f133361e.mo73666a()) {
-                        bojv.f133361e = bxvk.m124021a(bojv.f133361e);
+                        bojv.f133361e = GeneratedMessageLite.m124021a(bojv.f133361e);
                     }
                     bxsy.m123078a(arrayList2, bojv.f133361e);
                     String str4 = moduleApkInfo.apkVersionName;
@@ -147,7 +147,7 @@ public final class sqq {
                     boju boju2 = (boju) da.f164949b;
                     bojv3.getClass();
                     if (!boju2.f133353c.mo73666a()) {
-                        boju2.f133353c = bxvk.m124021a(boju2.f133353c);
+                        boju2.f133353c = GeneratedMessageLite.m124021a(boju2.f133353c);
                     }
                     boju2.f133353c.add(bojv3);
                 }

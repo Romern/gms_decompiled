@@ -150,8 +150,8 @@ public final class biaa implements bigv {
             bhzy bhzy = new bhzy(this, biab);
             bigx bigx = this.f120005a;
             PendingIntent pendingIntent = bigx.f120560j;
-            sdo.m34966a(pendingIntent, "PendingIntent can not be null.");
-            sdo.m34966a((Object) "places", (Object) "tag can not be null");
+            sdo.checkIfNull(pendingIntent, "PendingIntent can not be null.");
+            sdo.checkIfNull((Object) "places", (Object) "tag can not be null");
             sdo.m34975b(true, "tag can not be empty string");
             RemoveGeofencingRequest removeGeofencingRequest = new RemoveGeofencingRequest(null, pendingIntent, "places");
             rkb rkb = bigx.f120561k;
@@ -191,9 +191,9 @@ public final class biaa implements bigv {
             String[] strArr = (String[]) arrayList3.toArray(new String[arrayList3.size()]);
             bigx bigx2 = this.f120005a;
             List asList = Arrays.asList(strArr);
-            sdo.m34966a(asList, "geofence can't be null.");
+            sdo.checkIfNull(asList, "geofence can't be null.");
             sdo.m34975b(!asList.isEmpty(), "Geofences must contains at least one id.");
-            sdo.m34966a((Object) "places", (Object) "tag can not be null");
+            sdo.checkIfNull((Object) "places", (Object) "tag can not be null");
             sdo.m34975b(true, "tag can not be empty string");
             RemoveGeofencingRequest removeGeofencingRequest2 = new RemoveGeofencingRequest(asList, null, "places");
             rkb rkb2 = bigx2.f120561k;
@@ -347,7 +347,7 @@ public final class biaa implements bigv {
             int i3 = biab.f120020d.f30115i;
             bpqk c = bhqq.m101365c(11, placesParams);
             bxvd bxvd = (bxvd) c.mo74142c(5);
-            bxvd.mo73625a((bxvk) c);
+            bxvd.mo73625a((GeneratedMessageLite) c);
             bxvd da = bpql.f138757g.mo74144da();
             if (da.f164950c) {
                 da.mo74035c();

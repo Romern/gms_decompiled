@@ -46,13 +46,13 @@ public final class C0290h implements bqnu {
                 bqrl bqrl = bqrl.f141448e;
                 try {
                     bxuc h = bxtx.mo73764h();
-                    bxvk bxvk = (bxvk) bqrl.mo74142c(4);
-                    bxxv a4 = bxxm.f165037a.mo74228a(bxvk);
-                    a4.mo74220a(bxvk, bxud.m123454a(h), c);
-                    a4.mo74225d(bxvk);
+                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bqrl.mo74142c(4);
+                    bxxv a4 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                    a4.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                    a4.mo74225d(GeneratedMessageLite);
                     h.mo73787a(0);
-                    bxvk.m124027b(bxvk);
-                    bxvd a5 = bqrl.f141448e.mo74141a((bqrl) bxvk);
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                    bxvd a5 = bqrl.f141448e.mo74141a((bqrl) GeneratedMessageLite);
                     bxtx a6 = bxtx.m123261a(b.getAffineX().toByteArray());
                     if (a5.f164950c) {
                         a5.mo74035c();

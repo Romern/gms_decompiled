@@ -11,7 +11,7 @@ import java.security.spec.InvalidKeySpecException;
 public final class ipq implements ehw {
 
     /* renamed from: b */
-    private static final sek f21526b = new sek(new String[]{"GroupKeyDatabaseOperation"}, (byte[]) null);
+    private static final Logger f21526b = new Logger(new String[]{"GroupKeyDatabaseOperation"}, (byte[]) null);
 
     /* renamed from: a */
     public final Context f21527a;

@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public final class teq implements teu {
 
     /* renamed from: a */
-    private static final sek f45789a = tea.m36798a("registered_sms_verifier");
+    private static final Logger f45789a = tea.m36798a("registered_sms_verifier");
 
     /* renamed from: b */
     private final cbqy f45790b;
@@ -161,7 +161,7 @@ public final class teq implements teu {
                             list2 = list5;
                             break;
                         }
-                        bxtx a3 = tdg.m36747a(cursor.getString(cursor.getColumnIndex("address")));
+                        ByteString a3 = tdg.m36747a(cursor.getString(cursor.getColumnIndex("address")));
                         long j4 = cursor.getLong(cursor.getColumnIndex("date"));
                         if (!hashSet.contains(a3) || j4 >= millis || j4 <= j) {
                             j3 = j;
@@ -183,14 +183,14 @@ public final class teq implements teu {
                             if (!Patterns.WEB_URL.matcher(cursor.getString(cursor.getColumnIndex(str4))).find()) {
                                 Integer valueOf = Integer.valueOf(i6);
                                 if (hashMap2.containsKey(valueOf)) {
-                                    bxtx a4 = tdg.m36747a((String) hashMap2.get(valueOf));
+                                    ByteString a4 = tdg.m36747a((String) hashMap2.get(valueOf));
                                     String string = cursor.getString(cursor.getColumnIndex(str4));
                                     String str5 = str4;
                                     long j5 = millis;
                                     bnzd a5 = bnzi.m110903e().mo68732a().mo68725a(Long.toString(millis2), StandardCharsets.UTF_8);
-                                    a5.mo68717b(a4.mo73780k());
-                                    a5.mo68717b(a3.mo73780k());
-                                    bxtx a6 = bxtx.m123261a((byte[]) bmxy.m108581a(a5.mo68725a(string, StandardCharsets.UTF_8).mo68729a().mo68740b()));
+                                    a5.mo68717b(a4.getKey());
+                                    a5.mo68717b(a3.getKey());
+                                    ByteString a6 = ByteString.m123261a((byte[]) bmxy.m108581a(a5.mo68725a(string, StandardCharsets.UTF_8).mo68729a().mo68740b()));
                                     i4++;
                                     bxvd da = cboq.f177849b.mo74144da();
                                     bxvd da2 = cbop.f177846b.mo74144da();
@@ -233,13 +233,13 @@ public final class teq implements teu {
                         break;
                     }
                 }
-                sek sek = tdg.f45688a;
+                Logger Logger = tdg.f45688a;
                 int size2 = list2.size();
                 StringBuilder sb = new StringBuilder(33);
                 sb.append("Found ");
                 sb.append(size2);
                 sb.append(" valid messages.");
-                sek.mo25414c(sb.toString(), new Object[0]);
+                Logger.mo25414c(sb.toString(), new Object[0]);
                 cursor.close();
                 list = list2;
             } else {
@@ -257,7 +257,7 @@ public final class teq implements teu {
         }
         cbou cbou = (cbou) da4.f164949b;
         if (!cbou.f177866a.mo73666a()) {
-            cbou.f177866a = bxvk.m124021a(cbou.f177866a);
+            cbou.f177866a = GeneratedMessageLite.m124021a(cbou.f177866a);
         }
         bxsy.m123078a(list, cbou.f177866a);
         if (da3.f164950c) {

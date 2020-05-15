@@ -52,7 +52,7 @@ public class D2DSourceNfcHandlerChimeraActivity extends deu implements asas, ary
         }
         byte[] payload = ndefMessage.getRecords()[0].getPayload();
         try {
-            aroi = (aroi) bxvk.m124016a(aroi.f87996d, payload, bxus.m123744c());
+            aroi = (aroi) GeneratedMessageLite.m124016a(aroi.f87996d, payload, bxus.m123744c());
         } catch (bxwf e) {
             f108223c.mo25417e("Invalid BootstrapInfo proto.", e, new Object[0]);
             aroi = null;

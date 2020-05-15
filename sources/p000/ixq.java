@@ -119,7 +119,7 @@ public final class ixq extends dck implements ixr {
     public final void mo13450d() {
         try {
             this.f21928a.mo13127a(Binder.getCallingUid());
-            glh a = glh.m13369a(this.f21929b.f18573d.f21306a);
+            glh a = glh.m13369a(this.f21929b.f18573d.context);
             if (a.mo12012c()) {
                 a.mo12007a((imd) null);
             }
@@ -152,12 +152,12 @@ public final class ixq extends dck implements ixr {
             gls gls = this.f21929b;
             grv a = gls.f18579j.mo12135a(str);
             if (a == null) {
-                gls.f18570a.mo25418e("Could not get secret for account: %s.", sek.m35081a(str));
+                gls.f18570a.mo25418e("Could not get secret for account: %s.", Logger.m35081a(str));
                 l = null;
             } else {
                 Long a2 = gls.f18575f.mo12136a(a);
                 if (a2 == null) {
-                    gls.f18570a.mo25418e("Could not get counter for account: %s.", sek.m35081a(str));
+                    gls.f18570a.mo25418e("Could not get counter for account: %s.", Logger.m35081a(str));
                 }
                 l = a2;
             }
@@ -171,7 +171,7 @@ public final class ixq extends dck implements ixr {
     public final void mo13449c() {
         try {
             this.f21928a.mo13127a(Binder.getCallingUid());
-            SharedPreferences.Editor edit = new rtj(glh.m13369a(this.f21929b.f18573d.f21306a).f18463b, "frp_preferences_storage", true, true).edit();
+            SharedPreferences.Editor edit = new rtj(glh.m13369a(this.f21929b.f18573d.context).f18463b, "frp_preferences_storage", true, true).edit();
             edit.putBoolean("persistent_device_owner_restored", true);
             edit.commit();
         } catch (Exception e) {
@@ -185,7 +185,7 @@ public final class ixq extends dck implements ixr {
         try {
             this.f21928a.mo13127a(Binder.getCallingUid());
             gls gls = this.f21929b;
-            glh a = glh.m13369a(gls.f18573d.f21306a);
+            glh a = glh.m13369a(gls.f18573d.context);
             if (!a.mo12009a()) {
                 return CheckFactoryResetPolicyComplianceResponse.m6564a(1);
             }
@@ -222,7 +222,7 @@ public final class ixq extends dck implements ixr {
                     bzxd bzxd2 = (bzxd) da.mo74062i();
                     bxvd da2 = bzxe.f171735d.mo74144da();
                     glq glq = gls.f18583n;
-                    String a2 = glq.m13398a(gls.f18573d.f21306a, "factoryRestProtection", (String) null);
+                    String a2 = glq.m13398a(gls.f18573d.context, "factoryRestProtection", (String) null);
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -246,18 +246,18 @@ public final class ixq extends dck implements ixr {
                     bzxd2.getClass();
                     bzxe2.f171739c = bzxd2;
                     bzxe2.f171737a |= 2;
-                    ByteArrayEntity byteArrayEntity = new ByteArrayEntity(((bzxe) da2.mo74062i()).mo73642k());
+                    ByteArrayEntity byteArrayEntity = new ByteArrayEntity(((bzxe) da2.mo74062i()).serializeToBytes());
                     byteArrayEntity.setContentType("application/octet-stream");
                     try {
-                        bzxh bzxh = (bzxh) bxvk.m124016a(bzxh.f171749b, gmv.m13466a(gmv.m13464a((String) gnv.f18736g.mo58455c(), gls.f18573d.mo13123a().f10841e, byteArrayEntity, gls.f18573d.f21306a)), bxus.m123744c());
-                        sek sek = gls.f18570a;
+                        bzxh bzxh = (bzxh) GeneratedMessageLite.m124016a(bzxh.f171749b, gmv.m13466a(gmv.m13464a((String) gnv.f18736g.mo58455c(), gls.f18573d.mo13123a().f10841e, byteArrayEntity, gls.f18573d.context)), bxus.m123744c());
+                        Logger Logger = gls.f18570a;
                         Object[] objArr = new Object[1];
                         bzxg a3 = bzxg.m126293a(bzxh.f171751a);
                         if (a3 == null) {
                             a3 = bzxg.UNKNOWN;
                         }
                         objArr[0] = a3;
-                        sek.mo25414c("FrpValidationRequestCode: %s.", objArr);
+                        Logger.mo25414c("FrpValidationRequestCode: %s.", objArr);
                         bzxg a4 = bzxg.m126293a(bzxh.f171751a);
                         if (a4 == null) {
                             a4 = bzxg.UNKNOWN;
@@ -348,7 +348,7 @@ public final class ixq extends dck implements ixr {
             AccountCredentials accountCredentials = confirmCredentialsRequest.f10613b;
             CaptchaSolution captchaSolution = confirmCredentialsRequest.f10614c;
             Account a2 = accountCredentials.mo7674a();
-            sdo.m34966a(a2, "Account should be available.");
+            sdo.checkIfNull(a2, "Account should be available.");
             if (accountCredentials.f10832f != null) {
                 ReauthSettingsResponse a3 = gls.f18576g.mo12041a(new ReauthSettingsRequest(a2, false));
                 if (a3 == null) {
@@ -362,7 +362,7 @@ public final class ixq extends dck implements ixr {
                     bmxy.m108581a(verifyPinRequest.f10758c);
                     String str = verifyPinRequest.f10760e;
                     if (str == null) {
-                        str = glv.f18594a.f21309d;
+                        str = glv.f18594a.packageName;
                     }
                     Account account = verifyPinRequest.f10759d;
                     String a4 = glv.f18595b.mo33908a(account);
@@ -414,7 +414,7 @@ public final class ixq extends dck implements ixr {
                     }
                 }
             }
-            return gls.mo12031a(new gnl(gls.f18573d.f21306a, accountCredentials, captchaSolution));
+            return gls.mo12031a(new gnl(gls.f18573d.context, accountCredentials, captchaSolution));
         } catch (Exception e3) {
             throw m16295a(e3);
         } catch (Throwable th) {
@@ -427,7 +427,7 @@ public final class ixq extends dck implements ixr {
     public final TokenResponse mo13441a(TokenRequest tokenRequest) {
         try {
             this.f21928a.mo13127a(Binder.getCallingUid());
-            sdo.m34966a(tokenRequest, "TokenRequest cannot be null!");
+            sdo.checkIfNull(tokenRequest, "TokenRequest cannot be null!");
             return this.f21929b.mo12030a(tokenRequest.f10714j, tokenRequest);
         } catch (Exception e) {
             throw m16295a(e);
@@ -439,7 +439,7 @@ public final class ixq extends dck implements ixr {
         try {
             this.f21928a.mo13127a(Binder.getCallingUid());
             gls gls = this.f21929b;
-            return gls.mo12031a(new gnl(gls.f18573d.f21306a, updateCredentialsRequest.f10751b, updateCredentialsRequest.f10752c));
+            return gls.mo12031a(new gnl(gls.f18573d.context, updateCredentialsRequest.f10751b, updateCredentialsRequest.f10752c));
         } catch (Exception e) {
             throw m16295a(e);
         }
@@ -449,7 +449,7 @@ public final class ixq extends dck implements ixr {
     public final ValidateAccountCredentialsResponse mo13443a(AccountCredentials accountCredentials) {
         try {
             this.f21928a.mo13127a(Binder.getCallingUid());
-            gnm gnm = new gnm(this.f21929b.f18573d.f21306a, accountCredentials);
+            gnm gnm = new gnm(this.f21929b.f18573d.context, accountCredentials);
             try {
                 String packageName = gnm.f18707b.getPackageName();
                 String str = gnm.f18708c.f10829c;
@@ -470,7 +470,7 @@ public final class ixq extends dck implements ixr {
                 a2.getStatusLine().getStatusCode();
                 gnb gnb = new gnb(gmv.m13467b(a2));
                 izj izj = (izj) gnb.mo12063a(gnb.f18656b);
-                gnm.f18706a.mo25409a("ValidateAccountCredentials Status: %s.", izj);
+                gnm.f18706a.logVerbose("ValidateAccountCredentials Status: %s.", izj);
                 if (izj == izj.SUCCESS) {
                     return new ValidateAccountCredentialsResponse(1, 0, (String) gnb.mo12063a(gnb.f18655a));
                 }
@@ -507,8 +507,8 @@ public final class ixq extends dck implements ixr {
         try {
             this.f21928a.mo13127a(Binder.getCallingUid());
             gls gls = this.f21929b;
-            glh a = glh.m13369a(gls.f18573d.f21306a);
-            gll.m13391a(false, gls.f18573d.f21306a);
+            glh a = glh.m13369a(gls.f18573d.context);
+            gll.m13391a(false, gls.f18573d.context);
             a.mo12008a((List) new ArrayList(), false);
         } catch (Exception e) {
             throw m16295a(e);
@@ -614,12 +614,12 @@ public final class ixq extends dck implements ixr {
                                     try {
                                         str13 = glp.mo12020a(glp.f18564c, object.toString(), str7);
                                         try {
-                                            sek sek = glp.f18562a;
+                                            Logger Logger = glp.f18562a;
                                             Object[] objArr = new Object[3];
-                                            objArr[0] = sek.m35081a(str8);
-                                            objArr[1] = sek.m35081a(str9);
-                                            objArr[c] = sek.m35081a(str10);
-                                            sek.mo25414c("Req: [username: %s, firstName: %s, lastName: %s]", objArr);
+                                            objArr[0] = Logger.m35081a(str8);
+                                            objArr[1] = Logger.m35081a(str9);
+                                            objArr[c] = Logger.m35081a(str10);
+                                            Logger.mo25414c("Req: [username: %s, firstName: %s, lastName: %s]", objArr);
                                         } catch (IOException e2) {
                                         }
                                     } catch (IOException e3) {
@@ -690,7 +690,7 @@ public final class ixq extends dck implements ixr {
                             }
                             object2.endObject();
                             String a3 = glp2.mo12020a(glp2.f18565d, object2.toString(), str18);
-                            glp.f18562a.mo25414c("Result of password rating for {account %s, first: %s, last %s}: %s", sek.m35081a(str14), sek.m35081a(str16), sek.m35081a(str17), sek.m35081a(a3));
+                            glp.f18562a.mo25414c("Result of password rating for {account %s, first: %s, last %s}: %s", Logger.m35081a(str14), Logger.m35081a(str16), Logger.m35081a(str17), Logger.m35081a(a3));
                             JSONObject jSONObject2 = new JSONObject(a3);
                             izj a4 = ilu.m15678a(jSONObject2);
                             if (izj.SUCCESS == a4) {
@@ -785,10 +785,10 @@ public final class ixq extends dck implements ixr {
                     AppDescription appDescription4 = googleAccountSetupRequest.f10648n;
                     AccountCredentials accountCredentials = googleAccountSetupRequest.f10649o;
                     CaptchaSolution captchaSolution2 = googleAccountSetupRequest.f10650p;
-                    sdo.m34966a(appDescription4, "AppDescription cannot be null!");
-                    sdo.m34966a(accountCredentials, "AccountCredentials cannot be null!");
-                    sdo.m34966a(googleAccountSetupRequest, "GoogleAccountSetupRequest cannot be null!");
-                    gne gne = new gne(gls4.f18573d.f21306a, appDescription4, accountCredentials, googleAccountSetupRequest, captchaSolution2);
+                    sdo.checkIfNull(appDescription4, "AppDescription cannot be null!");
+                    sdo.checkIfNull(accountCredentials, "AccountCredentials cannot be null!");
+                    sdo.checkIfNull(googleAccountSetupRequest, "GoogleAccountSetupRequest cannot be null!");
+                    gne gne = new gne(gls4.f18573d.context, appDescription4, accountCredentials, googleAccountSetupRequest, captchaSolution2);
                     try {
                         String str24 = gne.f18670d.f10829c;
                         gmj gmj = gne.f18668b;
@@ -1014,7 +1014,7 @@ public final class ixq extends dck implements ixr {
                     this.f21928a.mo13128b(Binder.getCallingUid());
                     gls gls5 = this.f21929b;
                     String str31 = otpRequest.f10669c.f10841e;
-                    if (otpRequest.f10671e && gls5.f18573d.f21309d.equals(str31)) {
+                    if (otpRequest.f10671e && gls5.f18573d.packageName.equals(str31)) {
                         list = gls5.f18574e.mo12137a(otpRequest.f10668b, false);
                     } else {
                         try {
@@ -1168,14 +1168,14 @@ public final class ixq extends dck implements ixr {
                                             i2 = 4;
                                         }
                                     }
-                                    sek sek2 = gsg.f18947a;
+                                    Logger logger2 = gsg.f18947a;
                                     String valueOf = String.valueOf(account2);
                                     StringBuilder sb = new StringBuilder(String.valueOf(str33).length() + 23 + String.valueOf(valueOf).length());
                                     sb.append("Setting visibility to ");
                                     sb.append(str33);
                                     sb.append(" ");
                                     sb.append(valueOf);
-                                    sek2.mo25412b(sb.toString(), new Object[0]);
+                                    logger2.mo25412b(sb.toString(), new Object[0]);
                                     gsg.f18949b.mo33914a(account2, str33, 2);
                                     i2 = 4;
                                 }
@@ -1260,7 +1260,7 @@ public final class ixq extends dck implements ixr {
                     gls.f18570a.mo25416d("Assertion expected for partial bootstrap, not found", new Object[0]);
                 } else {
                     gls.f18570a.mo25412b("Completing partial restricted profile bootstrapping", new Object[0]);
-                    Context context = gls.f18573d.f21306a;
+                    Context context = gls.f18573d.context;
                     Intent startIntent = IntentOperation.getStartIntent(context, FinishBootstrapIntentOperation.class, "com.google.android.gms.auth.account.be.finish_bootstrap");
                     startIntent.putExtra("bootstrapAccount", account);
                     startIntent.putExtra("messenger", new Messenger(new glr(Looper.getMainLooper())));
@@ -1283,7 +1283,7 @@ public final class ixq extends dck implements ixr {
                             bundle.putString("password", (String) gls.f18572c.get(account));
                             gls.f18572c.remove(account);
                         }
-                        new grk(gls.f18573d.f21306a).mo12133a(4);
+                        new grk(gls.f18573d.context).mo12133a(4);
                         gnz gnz22 = gqd.f18807a;
                         bundle.remove("password");
                         bundle.putString("password", (String) gls.f18572c.get(account));

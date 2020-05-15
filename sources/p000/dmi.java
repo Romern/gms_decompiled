@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: dmi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class dmi extends bxvk implements bxxd {
+public final class dmi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final dmi f13532d;
@@ -22,7 +22,7 @@ public final class dmi extends bxvk implements bxxd {
     static {
         dmi dmi = new dmi();
         f13532d = dmi;
-        bxvk.m124024a(dmi.class, dmi);
+        GeneratedMessageLite.m124024a(dmi.class, dmi);
     }
 
     private dmi() {
@@ -39,7 +39,7 @@ public final class dmi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f13532d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဈ\u0000\u0002\u001b", new Object[]{"a", "b", "c", dmh.class});
+            return GeneratedMessageLite.m124022a(f13532d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဈ\u0000\u0002\u001b", new Object[]{"a", "b", "c", dmh.class});
         } else if (i2 == 3) {
             return new dmi();
         } else {
@@ -66,7 +66,7 @@ public final class dmi extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo9278a() {
         if (!this.f13536c.mo73666a()) {
-            this.f13536c = bxvk.m124021a(this.f13536c);
+            this.f13536c = GeneratedMessageLite.m124021a(this.f13536c);
         }
     }
 }

@@ -10,7 +10,7 @@ import com.google.android.gms.smartdevice.d2d.BootstrapConfigurations;
 public final class ards extends aqyl {
 
     /* renamed from: c */
-    public static final sek f87470c = ascp.m73787a("D2D", ards.class.getSimpleName());
+    public static final Logger f87470c = ascp.m73787a("D2D", ards.class.getSimpleName());
 
     /* renamed from: d */
     private final BootstrapConfigurations f87471d;
@@ -29,7 +29,7 @@ public final class ards extends aqyl {
     /* access modifiers changed from: protected */
     /* renamed from: b */
     public final void mo48272b() {
-        f87470c.mo25409a("startBootstrapByDirectTransferImpl", new Object[0]);
+        f87470c.logVerbose("startBootstrapByDirectTransferImpl", new Object[0]);
         arba arba = this.f87472e;
         BootstrapConfigurations bootstrapConfigurations = this.f87471d;
         ParcelFileDescriptor[] parcelFileDescriptorArr = this.f87096b;

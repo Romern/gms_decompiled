@@ -91,13 +91,13 @@ public final class aatw {
                 String a = aarp.mo31697a("ongoing_chat_request_pool_id", "");
                 if (!TextUtils.isEmpty(a)) {
                     bxvd bxvd = (bxvd) bzqp.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bzqp);
+                    bxvd.mo73625a((GeneratedMessageLite) bzqp);
                     bzqm bzqm = bzqp.f171052d;
                     if (bzqm == null) {
                         bzqm = bzqm.f171030d;
                     }
                     bxvd bxvd2 = (bxvd) bzqm.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) bzqm);
+                    bxvd2.mo73625a((GeneratedMessageLite) bzqm);
                     if (bxvd2.f164950c) {
                         bxvd2.mo74035c();
                         bxvd2.f164950c = false;

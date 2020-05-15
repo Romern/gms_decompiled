@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 public final class jpd {
 
     /* renamed from: a */
-    private static final sek f22966a = jsy.m17256a("FeatureSetupRouter");
+    private static final Logger f22966a = jsy.m17256a("FeatureSetupRouter");
 
     /* renamed from: a */
     public final void mo13970a(Context context, Account account, String str) {

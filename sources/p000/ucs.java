@@ -370,7 +370,7 @@ public final class ucs extends aaab {
                             int i5 = 101;
                             if (uey.f47398e.contains(twt.f46773b)) {
                                 ujl c = uhn.mo27429c(uey);
-                                sdo.m34966a(c, "Connected App does not exist");
+                                sdo.checkIfNull(c, "Connected App does not exist");
                                 if (c.f47796e.booleanValue()) {
                                     i5 = 102;
                                 }

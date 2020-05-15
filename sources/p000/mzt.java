@@ -47,15 +47,15 @@ final /* synthetic */ class mzt implements Callable {
                     if ((applicationInfo.flags & 1) == 0) {
                         if (str2 == null) {
                         }
-                        sek sek = nab.f35075a;
+                        Logger Logger = nab.f35075a;
                         String valueOf = String.valueOf(str);
-                        sek.mo25416d(valueOf.length() == 0 ? new String("IGNORING WIPE without API key: ") : "IGNORING WIPE without API key: ".concat(valueOf), new Object[0]);
+                        Logger.mo25416d(valueOf.length() == 0 ? new String("IGNORING WIPE without API key: ") : "IGNORING WIPE without API key: ".concat(valueOf), new Object[0]);
                         nab.f35117x.mo19822a(5, 4);
                     }
                 } catch (PackageManager.NameNotFoundException e) {
-                    sek sek2 = nab.f35075a;
+                    Logger logger2 = nab.f35075a;
                     String valueOf2 = String.valueOf(str);
-                    sek2.mo25418e(valueOf2.length() != 0 ? new String("Unknown package in wipe request: ") : "Unknown package in wipe request: ".concat(valueOf2), new Object[0]);
+                    logger2.mo25418e(valueOf2.length() != 0 ? new String("Unknown package in wipe request: ") : "Unknown package in wipe request: ".concat(valueOf2), new Object[0]);
                     nab.f35117x.mo19822a(10, 2);
                     nab.f35096c.mo19796a(str, str2).mo19793a("");
                     ncz.m25949b(nab.f35110q, str);
@@ -64,9 +64,9 @@ final /* synthetic */ class mzt implements Callable {
                     return Integer.valueOf(i);
                 }
             } catch (PackageManager.NameNotFoundException e2) {
-                sek sek22 = nab.f35075a;
+                Logger logger22 = nab.f35075a;
                 String valueOf22 = String.valueOf(str);
-                sek22.mo25418e(valueOf22.length() != 0 ? new String("Unknown package in wipe request: ") : "Unknown package in wipe request: ".concat(valueOf22), new Object[0]);
+                logger22.mo25418e(valueOf22.length() != 0 ? new String("Unknown package in wipe request: ") : "Unknown package in wipe request: ".concat(valueOf22), new Object[0]);
                 nab.f35117x.mo19822a(10, 2);
                 nab.f35096c.mo19796a(str, str2).mo19793a("");
                 ncz.m25949b(nab.f35110q, str);

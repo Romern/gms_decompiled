@@ -22,7 +22,7 @@ public class aaeh extends dck implements IInterface {
 
     public aaeh(rlf rlf) {
         super("com.google.android.gms.games.internal.IGamesCallbacks");
-        sdo.m34966a(rlf, "Holder must not be null");
+        sdo.checkIfNull(rlf, "Holder must not be null");
         this.f28000a = rlf;
     }
 

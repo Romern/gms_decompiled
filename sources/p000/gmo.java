@@ -11,7 +11,7 @@ final class gmo extends gmr {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo12065a(byte[] bArr) {
         try {
-            return (jex) bxvk.m124016a(jex.f22316d, bArr, bxus.m123744c());
+            return (jex) GeneratedMessageLite.m124016a(jex.f22316d, bArr, bxus.m123744c());
         } catch (bxwf e) {
             return null;
         }

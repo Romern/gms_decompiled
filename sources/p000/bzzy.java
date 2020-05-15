@@ -16,7 +16,7 @@ public final class bzzy extends bxvd implements bxxd {
         bzzz bzzz = (bzzz) this.f164949b;
         bzzz bzzz2 = bzzz.f172298f;
         if (!bzzz.f172303d.mo73666a()) {
-            bzzz.f172303d = bxvk.m124020a(bzzz.f172303d);
+            bzzz.f172303d = GeneratedMessageLite.m124020a(bzzz.f172303d);
         }
         bzzz.f172303d.mo74161a(j);
     }

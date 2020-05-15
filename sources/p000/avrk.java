@@ -5,11 +5,11 @@ package p000;
 public abstract class avrk {
 
     /* renamed from: a */
-    private static final sek f93824a = avpq.m79022i("OtaUiController");
+    private static final Logger f93824a = avpq.m79022i("OtaUiController");
 
     /* renamed from: a */
     public final void mo51533a(int i, avrl avrl) {
-        f93824a.mo25409a("Received event: %d.", Integer.valueOf(i));
+        f93824a.logVerbose("Received event: %d.", Integer.valueOf(i));
         mo51534b(i, avrl);
     }
 

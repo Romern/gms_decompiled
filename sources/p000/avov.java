@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 public final class avov {
 
     /* renamed from: a */
-    private static final sek f93680a = avpq.m79018e("PackageFiles");
+    private static final Logger f93680a = avpq.m79018e("PackageFiles");
 
     /* renamed from: b */
     private static final Pattern f93681b = Pattern.compile("(.*)(/cache)(/.*|$)");

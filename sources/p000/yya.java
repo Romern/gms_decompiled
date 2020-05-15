@@ -22,7 +22,7 @@ public final class yya {
         cacv.f172630a = i | 2;
         cacv.f172632c = str2;
         if (!cacv.f172633d.mo73666a()) {
-            cacv.f172633d = bxvk.m124021a(cacv.f172633d);
+            cacv.f172633d = GeneratedMessageLite.m124021a(cacv.f172633d);
         }
         bxsy.m123078a(collection, cacv.f172633d);
         if (da.f164950c) {
@@ -31,7 +31,7 @@ public final class yya {
         }
         cacv cacv2 = (cacv) da.f164949b;
         if (!cacv2.f172634e.mo73666a()) {
-            cacv2.f172634e = bxvk.m124021a(cacv2.f172634e);
+            cacv2.f172634e = GeneratedMessageLite.m124021a(cacv2.f172634e);
         }
         bxsy.m123078a(set, cacv2.f172634e);
         return (cacv) da.mo74062i();

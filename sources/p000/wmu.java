@@ -82,7 +82,7 @@ public final class wmu extends DialogFragment {
             byte[] byteArrayExtra = intent.getByteArrayExtra("com.google.android.gms.wallet.firstparty.EXTRA_INTEGRATOR_CALLBACK_DATA_TOKEN");
             if (byteArrayExtra != null) {
                 try {
-                    bwer bwer = (bwer) bxvk.m124016a(bwer.f159019c, byteArrayExtra, bxus.m123744c());
+                    bwer bwer = (bwer) GeneratedMessageLite.m124016a(bwer.f159019c, byteArrayExtra, bxus.m123744c());
                     int a = bweq.m121888a(bwer.f159021a);
                     if (a != 0 && a == 3) {
                         this.f50917a.mo18443b().mo29115a(this.f50917a.mo18480l(), 9);

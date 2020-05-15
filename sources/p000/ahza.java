@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ahza */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ahza extends bxvk implements bxxd {
+public final class ahza extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final ahza f68441e;
@@ -14,18 +14,18 @@ public final class ahza extends bxvk implements bxxd {
     public int f68443a;
 
     /* renamed from: b */
-    public bxtx f68444b = bxtx.f164797b;
+    public ByteString f68444b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f68445c = bxtx.f164797b;
+    public ByteString f68445c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f68446d = bxtx.f164797b;
+    public ByteString f68446d = ByteString.f164797b;
 
     static {
         ahza ahza = new ahza();
         f68441e = ahza;
-        bxvk.m124024a(ahza.class, ahza);
+        GeneratedMessageLite.m124024a(ahza.class, ahza);
     }
 
     private ahza() {
@@ -42,7 +42,7 @@ public final class ahza extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f68441e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ည\u0000\u0003ည\u0001\u0004ည\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f68441e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ည\u0000\u0003ည\u0001\u0004ည\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new ahza();
         } else {

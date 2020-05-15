@@ -2,13 +2,13 @@ package p000;
 
 /* renamed from: cafk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cafk extends bxvk implements bxxd {
+public final class cafk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cafk f172919a;
 
     /* renamed from: b */
-    public static final bxvj f172920b = bxvk.m124006a(cafx.f173026C, boju.f133349e, boju.f133349e, 21, bxzf.MESSAGE);
+    public static final bxvj f172920b = GeneratedMessageLite.m124006a(cafx.f173026C, boju.f133349e, boju.f133349e, 21, bxzf.MESSAGE);
 
     /* renamed from: c */
     private static volatile bxxk f172921c;
@@ -16,7 +16,7 @@ public final class cafk extends bxvk implements bxxd {
     static {
         cafk cafk = new cafk();
         f172919a = cafk;
-        bxvk.m124024a(cafk.class, cafk);
+        GeneratedMessageLite.m124024a(cafk.class, cafk);
     }
 
     private cafk() {
@@ -33,7 +33,7 @@ public final class cafk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172919a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f172919a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cafk();

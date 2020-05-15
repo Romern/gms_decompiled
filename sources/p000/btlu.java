@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btlu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btlu extends bxvk implements bxxd {
+public final class btlu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btlu f149431c;
@@ -19,7 +19,7 @@ public final class btlu extends bxvk implements bxxd {
     static {
         btlu btlu = new btlu();
         f149431c = btlu;
-        bxvk.m124024a(btlu.class, btlu);
+        GeneratedMessageLite.m124024a(btlu.class, btlu);
     }
 
     private btlu() {
@@ -36,7 +36,7 @@ public final class btlu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149431c, "\u0000\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001=\u0000\u0002=\u0000", new Object[]{"b", "a"});
+            return GeneratedMessageLite.m124022a(f149431c, "\u0000\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001=\u0000\u0002=\u0000", new Object[]{"b", "a"});
         } else if (i2 == 3) {
             return new btlu();
         } else {

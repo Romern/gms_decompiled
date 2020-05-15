@@ -13,7 +13,7 @@ import com.google.android.gms.common.api.Status;
 public final class aoov {
 
     /* renamed from: c */
-    private static final sek f78617c = aope.m66267a("RcsBindingManager");
+    private static final Logger f78617c = aope.m66267a("RcsBindingManager");
 
     /* renamed from: d */
     private static aoov f78618d;
@@ -70,9 +70,9 @@ public final class aoov {
 
     /* renamed from: b */
     public final synchronized void mo43136b(String str, String str2) {
-        sek sek = f78617c;
+        Logger Logger = f78617c;
         String valueOf = String.valueOf(str);
-        sek.mo25414c(valueOf.length() == 0 ? new String("Disconnected from ") : "Disconnected from ".concat(valueOf), new Object[0]);
+        Logger.mo25414c(valueOf.length() == 0 ? new String("Disconnected from ") : "Disconnected from ".concat(valueOf), new Object[0]);
         this.f78620b.mo43144a(str, 3, str2);
         m66241b(1);
         this.f78621e.mo43145a(0, str);
@@ -110,11 +110,11 @@ public final class aoov {
 
     /* renamed from: a */
     public final synchronized Status mo43133a(int i) {
-        sek sek = f78617c;
+        Logger Logger = f78617c;
         StringBuilder sb = new StringBuilder(69);
         sb.append("Checking if we should rebind to previous service. Attempt ");
         sb.append(i);
-        sek.mo25414c(sb.toString(), new Object[0]);
+        Logger.mo25414c(sb.toString(), new Object[0]);
         if (mo43137c() != 1) {
             f78617c.mo25414c("Already bound or binding to the RCS service", new Object[0]);
             return Status.f30111e;
@@ -198,9 +198,9 @@ public final class aoov {
     /* renamed from: a */
     public final synchronized void mo43135a(String str, String str2) {
         m66241b(3);
-        sek sek = f78617c;
+        Logger Logger = f78617c;
         String valueOf = String.valueOf(str);
-        sek.mo25414c(valueOf.length() == 0 ? new String("Connected to ") : "Connected to ".concat(valueOf), new Object[0]);
+        Logger.mo25414c(valueOf.length() == 0 ? new String("Connected to ") : "Connected to ".concat(valueOf), new Object[0]);
         this.f78620b.mo43144a(str, 2, str2);
     }
 }

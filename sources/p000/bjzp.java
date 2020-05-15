@@ -490,7 +490,7 @@ public class bjzp extends bkag implements bkes, bket {
                 }
                 bmbs bmbs = bkaf.f123745I;
                 bxvd bxvd = (bxvd) bmbs.mo74142c(5);
-                bxvd.mo73625a((bxvk) bmbs);
+                bxvd.mo73625a((GeneratedMessageLite) bmbs);
                 TextView textView3 = bkaf.f123775l;
                 if (textView3 instanceof FormEditText) {
                     String m = ((FormEditText) textView3).mo71937m();
@@ -663,7 +663,7 @@ public class bjzp extends bkag implements bkes, bket {
                 if (bmdn4 == null) {
                     bmdn4 = bmdn.f128831k;
                 }
-                bxtx bxtx = bmdn4.f128836d;
+                ByteString bxtx = bmdn4.f128836d;
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -674,7 +674,7 @@ public class bjzp extends bkag implements bkes, bket {
                 bmbs3.f128614d = bxtx;
             }
         } else if ((i & 8) != 0 && bmbr3.f128588e.mo73744a() > 0) {
-            bxtx bxtx2 = bkaf.f123751O.f128588e;
+            ByteString bxtx2 = bkaf.f123751O.f128588e;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -687,7 +687,7 @@ public class bjzp extends bkag implements bkes, bket {
         if (!bkaf.mo65720n()) {
             btwp a = bkaf.m105040a(bkaf.mo65712e());
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             btwo btwo = (btwo) bxvd;
             String i2 = bkaf.mo65716i();
             if (!TextUtils.isEmpty(i2)) {
@@ -732,13 +732,13 @@ public class bjzp extends bkag implements bkes, bket {
                 bmbs bmbs7 = (bmbs) da.f164949b;
                 a2.getClass();
                 if (!bmbs7.f128617g.mo73666a()) {
-                    bmbs7.f128617g = bxvk.m124021a(bmbs7.f128617g);
+                    bmbs7.f128617g = GeneratedMessageLite.m124021a(bmbs7.f128617g);
                 }
                 bmbs7.f128617g.add(a2);
             }
             bmbs bmbs8 = bkaf.f123745I;
             if ((bmbs8.f128611a & 64) != 0) {
-                bxtx bxtx3 = bmbs8.f128619i;
+                ByteString bxtx3 = bmbs8.f128619i;
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

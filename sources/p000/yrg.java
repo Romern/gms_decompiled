@@ -22,7 +22,7 @@ public final class yrg implements yri {
         }
         cady cady = (cady) da.f164949b;
         if (!cady.f172770b.mo73666a()) {
-            cady.f172770b = bxvk.m124021a(cady.f172770b);
+            cady.f172770b = GeneratedMessageLite.m124021a(cady.f172770b);
         }
         bxsy.m123078a(bngx, cady.f172770b);
         bngx bngx2 = yre.f54482b;
@@ -32,7 +32,7 @@ public final class yrg implements yri {
         }
         cady cady2 = (cady) da.f164949b;
         if (!cady2.f172771c.mo73666a()) {
-            cady2.f172771c = bxvk.m124021a(cady2.f172771c);
+            cady2.f172771c = GeneratedMessageLite.m124021a(cady2.f172771c);
         }
         bxsy.m123078a(bngx2, cady2.f172771c);
         String str = yre.f54486f;
@@ -49,6 +49,6 @@ public final class yrg implements yri {
 
     /* renamed from: a */
     public final yre mo30688a(byte[] bArr, zrd zrd) {
-        return m44656a((cady) bxvk.m124016a(cady.f172767e, bArr, bxus.m123744c()));
+        return m44656a((cady) GeneratedMessageLite.m124016a(cady.f172767e, bArr, bxus.m123744c()));
     }
 }

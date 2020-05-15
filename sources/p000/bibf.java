@@ -61,19 +61,19 @@ public final class bibf extends bibp {
         bvlf bvlf = (bvlf) obj;
         bonq a = bibp.m101914a(6, i, j, this.f120130j);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bpqk bpqk = ((bonq) bxvd.f164949b).f133837c;
         if (bpqk == null) {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         bxvd da = bppc.f138600c.mo74144da();
         if (bvlf != null) {
             i2 = bvlf.f156527b.size();
@@ -121,8 +121,8 @@ public final class bibf extends bibp {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo64507a() {
         if (!TextUtils.isEmpty(this.f120130j.f79574d)) {
-            return (bvlf) this.f120131k.mo25515a(this.f120123c, 1, this.f120153a, bian.m101865a(this.f120122b, this.f120126f, this.f120127g, this.f120128h, this.f120129i, this.f120130j).mo73642k(), bvlf.f156524c, cggs.m145360c(), 10247);
+            return (bvlf) this.f120131k.mo25515a(this.f120123c, 1, this.f120153a, bian.m101865a(this.f120122b, this.f120126f, this.f120127g, this.f120128h, this.f120129i, this.f120130j).serializeToBytes(), bvlf.f156524c, cggs.m145360c(), 10247);
         }
-        return (bvlf) this.f120131k.mo25517a(this.f120153a, bian.m101865a(this.f120122b, this.f120126f, this.f120127g, this.f120128h, this.f120129i, this.f120130j).mo73642k(), bvlf.f156524c, this.f120124d, this.f120125e, cggs.m145360c(), 10246);
+        return (bvlf) this.f120131k.mo25517a(this.f120153a, bian.m101865a(this.f120122b, this.f120126f, this.f120127g, this.f120128h, this.f120129i, this.f120130j).serializeToBytes(), bvlf.f156524c, this.f120124d, this.f120125e, cggs.m145360c(), 10246);
     }
 }

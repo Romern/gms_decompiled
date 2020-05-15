@@ -46,7 +46,7 @@ public final class aamv {
     /* renamed from: c */
     public final aait mo17069c() {
         bxvd bxvd = this.f28504b;
-        bxvd.mo73625a((bxvk) this.f28505c.mo17154b());
+        bxvd.mo73625a((GeneratedMessageLite) this.f28505c.mo17154b());
         return (aait) bxvd.mo74062i();
     }
 

@@ -18,7 +18,7 @@ public final class xqy {
     public static final /* synthetic */ int f52953a = 0;
 
     /* renamed from: b */
-    private static final sek f52954b = new sek(new String[]{"AuthenticatorSelector"}, (short[]) null);
+    private static final Logger f52954b = new Logger(new String[]{"AuthenticatorSelector"}, (short[]) null);
 
     /* renamed from: a */
     public static xqx m43291a(xwj xwj, RequestOptions requestOptions, xdx xdx, xwg xwg) {

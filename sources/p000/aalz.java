@@ -37,7 +37,7 @@ public final class aalz extends aamb {
                 sb.append(",");
                 aand aand = this.f28434d;
                 bxvd bxvd = (bxvd) blmp.mo74142c(5);
-                bxvd.mo73625a((bxvk) blmp);
+                bxvd.mo73625a((GeneratedMessageLite) blmp);
                 aand.mo17091a(bxvd);
                 return;
             }

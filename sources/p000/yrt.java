@@ -30,7 +30,7 @@ final /* synthetic */ class yrt implements Callable {
         }
         cabd cabd = (cabd) da.f164949b;
         if (!cabd.f172426a.mo73666a()) {
-            cabd.f172426a = bxvk.m124021a(cabd.f172426a);
+            cabd.f172426a = GeneratedMessageLite.m124021a(cabd.f172426a);
         }
         bxsy.m123078a(list, cabd.f172426a);
         cabd cabd2 = (cabd) da.mo74062i();
@@ -102,7 +102,7 @@ final /* synthetic */ class yrt implements Callable {
         if (cabd3 == null) {
             cabd3 = cabd.f172424b;
         }
-        Set b2 = zdl.m45333b(((caaz) sgv.mo25513a(clientContext, 1, sb4, cabd3.mo73642k(), caaz.f172401b)).f172403a);
+        Set b2 = zdl.m45333b(((caaz) sgv.mo25513a(clientContext, 1, sb4, cabd3.serializeToBytes(), caaz.f172401b)).f172403a);
         b.removeAll(b2);
         caba caba = (caba) cabb.f172405e.mo74144da();
         caba.mo74606b(b);

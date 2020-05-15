@@ -11,7 +11,7 @@ import java.util.Iterator;
 
 /* renamed from: bxxu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-final class bxxu extends bxtx {
+final class bxxu extends ByteString {
 
     /* renamed from: a */
     static final int[] f165060a = {1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, AndroidInputTypeSignal.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, 1346269, 2178309, 3524578, 5702887, 9227465, 14930352, 24157817, 39088169, 63245986, 102334155, 165580141, 267914296, 433494437, 701408733, 1134903170, 1836311903, Integer.MAX_VALUE};
@@ -24,10 +24,10 @@ final class bxxu extends bxtx {
     public final int f165062d;
 
     /* renamed from: e */
-    public final bxtx f165063e;
+    public final ByteString f165063e;
 
     /* renamed from: f */
-    public final bxtx f165064f;
+    public final ByteString f165064f;
 
     /* renamed from: g */
     public final int f165065g;
@@ -35,7 +35,7 @@ final class bxxu extends bxtx {
     /* renamed from: i */
     private final int f165066i;
 
-    public bxxu(bxtx bxtx, bxtx bxtx2) {
+    public bxxu(ByteString bxtx, ByteString bxtx2) {
         this.f165063e = bxtx;
         this.f165064f = bxtx2;
         int a = bxtx.mo73744a();
@@ -45,7 +45,7 @@ final class bxxu extends bxtx {
     }
 
     /* renamed from: a */
-    public static bxtx m124312a(bxtx bxtx, bxtx bxtx2) {
+    public static ByteString m124312a(ByteString bxtx, ByteString bxtx2) {
         int a = bxtx.mo73744a();
         int a2 = bxtx2.mo73744a();
         byte[] bArr = new byte[(a + a2)];
@@ -95,15 +95,15 @@ final class bxxu extends bxtx {
 
     /* renamed from: e */
     public final ByteBuffer mo73760e() {
-        return ByteBuffer.wrap(mo73780k()).asReadOnlyBuffer();
+        return ByteBuffer.wrap(getKey()).asReadOnlyBuffer();
     }
 
     public final boolean equals(Object obj) {
         if (obj == this) {
             return true;
         }
-        if (obj instanceof bxtx) {
-            bxtx bxtx = (bxtx) obj;
+        if (obj instanceof ByteString) {
+            ByteString bxtx = (ByteString) obj;
             if (this.f165062d == bxtx.mo73744a()) {
                 if (this.f165062d == 0) {
                     return true;
@@ -174,7 +174,7 @@ final class bxxu extends bxtx {
 
     /* access modifiers changed from: package-private */
     public Object writeReplace() {
-        return bxtx.m123264b(mo73780k());
+        return ByteString.m123264b(getKey());
     }
 
     /* renamed from: a */
@@ -200,7 +200,7 @@ final class bxxu extends bxtx {
     /* renamed from: f */
     public final boolean mo73762f() {
         int a = this.f165063e.mo73753a(0, 0, this.f165066i);
-        bxtx bxtx = this.f165064f;
+        ByteString bxtx = this.f165064f;
         return bxtx.mo73753a(a, 0, bxtx.mo73744a()) == 0;
     }
 
@@ -219,10 +219,10 @@ final class bxxu extends bxtx {
     }
 
     /* renamed from: a */
-    public final bxtx mo73754a(int i, int i2) {
+    public final ByteString mo73754a(int i, int i2) {
         int c = m123267c(i, i2, this.f165062d);
         if (c == 0) {
-            return bxtx.f164797b;
+            return ByteString.f164797b;
         }
         if (c == this.f165062d) {
             return this;
@@ -240,7 +240,7 @@ final class bxxu extends bxtx {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final String mo73755a(Charset charset) {
-        return new String(mo73780k(), charset);
+        return new String(getKey(), charset);
     }
 
     /* renamed from: a */

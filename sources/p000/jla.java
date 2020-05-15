@@ -10,7 +10,7 @@ import java.util.List;
 public final class jla {
 
     /* renamed from: a */
-    public static final sek f22734a = jsy.m17256a("EidGenerator");
+    public static final Logger f22734a = jsy.m17256a("EidGenerator");
 
     /* renamed from: a */
     private static final jkw m16859a(List list, long j, long j2, byte[] bArr) {

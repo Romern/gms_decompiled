@@ -33,7 +33,7 @@ public final class iuy implements jmk {
     private static final Role f21835d = new Role("easy_unlock", 8);
 
     /* renamed from: g */
-    private static final sek f21836g = new sek(new String[]{"ProximityAuthClient"}, (char[]) null);
+    private static final Logger f21836g = new Logger(new String[]{"ProximityAuthClient"}, (char[]) null);
 
     /* renamed from: a */
     public final Set f21837a;

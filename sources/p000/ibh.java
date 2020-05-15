@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public final class ibh {
 
     /* renamed from: a */
-    public static final sek f20672a = new sek("EventLogger");
+    public static final Logger f20672a = new Logger("EventLogger");
 
     /* renamed from: a */
     public static ibf m15168a(String str, long j, int i) {
@@ -467,7 +467,7 @@ public final class ibh {
         boge a2 = ibg.mo12881a();
         if (ibg.mo12882b() && (a = m15176a(context)) != null) {
             bxvd bxvd = (bxvd) a2.mo74142c(5);
-            bxvd.mo73625a((bxvk) a2);
+            bxvd.mo73625a((GeneratedMessageLite) a2);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;

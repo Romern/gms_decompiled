@@ -16,7 +16,7 @@ public final class avso extends bxvd implements bxxd {
         avsp avsp = (avsp) this.f164949b;
         avsp avsp2 = avsp.f93843d;
         if (!avsp.f93846b.mo73666a()) {
-            avsp.f93846b = bxvk.m124021a(avsp.f93846b);
+            avsp.f93846b = GeneratedMessageLite.m124021a(avsp.f93846b);
         }
         bxsy.m123078a(iterable, avsp.f93846b);
     }

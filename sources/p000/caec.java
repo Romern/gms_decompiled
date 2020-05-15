@@ -29,7 +29,7 @@ public final class caec extends bxvd implements bxxd {
         caed caed2 = caed.f172799i;
         caef.getClass();
         if (!caed.f172806f.mo73666a()) {
-            caed.f172806f = bxvk.m124021a(caed.f172806f);
+            caed.f172806f = GeneratedMessageLite.m124021a(caed.f172806f);
         }
         caed.f172806f.add(caef);
     }

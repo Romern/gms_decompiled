@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abdo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abdo extends bxvk implements bxxd {
+public final class abdo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final abdo f57109b;
@@ -16,7 +16,7 @@ public final class abdo extends bxvk implements bxxd {
     static {
         abdo abdo = new abdo();
         f57109b = abdo;
-        bxvk.m124024a(abdo.class, abdo);
+        GeneratedMessageLite.m124024a(abdo.class, abdo);
     }
 
     private abdo() {
@@ -33,7 +33,7 @@ public final class abdo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57109b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", abdf.class});
+            return GeneratedMessageLite.m124022a(f57109b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", abdf.class});
         } else if (i2 == 3) {
             return new abdo();
         } else {

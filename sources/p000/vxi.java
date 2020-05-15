@@ -59,7 +59,7 @@ final class vxi implements vvq {
         b.mo28934a(15, vxw.COARSE);
         if (cdqy.m134715b()) {
             bxvd da = bltc.f127663f.mo74144da();
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -112,7 +112,7 @@ final class vxi implements vvq {
                 bArr2[2] = (byte) (bArr2[2] ^ ((byte) b3));
                 byteArrayOutputStream.write(bArr2);
                 bxvd bxvd = (bxvd) bltc4.mo74142c(5);
-                bxvd.mo73625a((bxvk) bltc4);
+                bxvd.mo73625a((GeneratedMessageLite) bltc4);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

@@ -50,7 +50,7 @@ public final class BeginSignInRequest extends AbstractSafeParcelable {
         public GoogleIdTokenRequestOptions(boolean z, String str, String str2, boolean z2) {
             this.f10216a = z;
             if (z) {
-                sdo.m34966a((Object) str, (Object) "serverClientId must be provided if Google ID tokens are requested");
+                sdo.checkIfNull((Object) str, (Object) "serverClientId must be provided if Google ID tokens are requested");
             }
             this.f10217b = str;
             this.f10218c = str2;

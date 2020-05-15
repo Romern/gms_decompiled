@@ -429,7 +429,7 @@ final class agjo implements Callable {
                         agnj agnj2 = (agnj) da7.mo74062i();
                         agnj2.getClass();
                         if (!agnn.f66133a.mo73666a()) {
-                            agnn.f66133a = bxvk.m124021a(agnn.f66133a);
+                            agnn.f66133a = GeneratedMessageLite.m124021a(agnn.f66133a);
                         }
                         agnn.f66133a.add(agnj2);
                         if (bxvd3.f164950c) {
@@ -532,7 +532,7 @@ final class agjo implements Callable {
                         agkr.mo35656n().mo35355c();
                         agkr.mo35656n().mo35358d();
                         try {
-                            return agkr.mo35657o().mo35717b(((agnl) bxvd5.mo74062i()).mo73642k());
+                            return agkr.mo35657o().mo35717b(((agnl) bxvd5.mo74062i()).serializeToBytes());
                         } catch (IOException e2) {
                             agkr.mo35497E().f65564c.mo35437a("Data loss. Failed to bundle and serialize. appId", agid.m54288a(str5), e2);
                             return null;

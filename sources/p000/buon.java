@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buon */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buon extends bxvk implements bxxd {
+public final class buon extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final buon f154553e;
@@ -14,10 +14,10 @@ public final class buon extends bxvk implements bxxd {
     public long f154555a;
 
     /* renamed from: b */
-    public bxtx f154556b = bxtx.f164797b;
+    public ByteString f154556b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f154557c = bxtx.f164797b;
+    public ByteString f154557c = ByteString.f164797b;
 
     /* renamed from: d */
     public String f154558d = "";
@@ -25,7 +25,7 @@ public final class buon extends bxvk implements bxxd {
     static {
         buon buon = new buon();
         f154553e = buon;
-        bxvk.m124024a(buon.class, buon);
+        GeneratedMessageLite.m124024a(buon.class, buon);
     }
 
     private buon() {
@@ -42,7 +42,7 @@ public final class buon extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154553e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\u0002\u0002\n\u0003\n\u0004Ȉ", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f154553e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\u0002\u0002\n\u0003\n\u0004Ȉ", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new buon();
         } else {

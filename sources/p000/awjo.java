@@ -56,7 +56,7 @@ public final class awjo extends awcd {
                 OrchestrationDelegatorChimeraActivity orchestrationDelegatorChimeraActivity = this.f94162a;
                 String str = orchestrationDelegatorChimeraActivity.f94163b;
                 LogContext logContext = orchestrationDelegatorChimeraActivity.f94164c;
-                sdo.m34966a(byteArrayExtra, "EmbeddedLandingPageParameters must not be null");
+                sdo.checkIfNull(byteArrayExtra, "EmbeddedLandingPageParameters must not be null");
                 awjt awjt = new awjt();
                 Bundle a = awzk.m81653a(h, str, logContext);
                 a.putByteArray("embeddedLandingPageParameters", byteArrayExtra);

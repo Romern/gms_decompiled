@@ -26,7 +26,7 @@ import java.util.concurrent.ExecutionException;
 public final class jhl {
 
     /* renamed from: a */
-    public static final sek f22492a = ght.m13171a("AuthManaged", "AuthManagedHelper");
+    public static final Logger f22492a = ght.m13171a("AuthManaged", "AuthManagedHelper");
 
     /* renamed from: b */
     private static jhl f22493b;
@@ -120,7 +120,7 @@ public final class jhl {
             return null;
         }
         try {
-            return (camd) bxvk.m124016a(camd.f175245n, bArr, bxus.m123744c());
+            return (camd) GeneratedMessageLite.m124016a(camd.f175245n, bArr, bxus.m123744c());
         } catch (bxwf e) {
             f22492a.mo25417e("Failed to parse PackageInformation data: ", e, new Object[0]);
             return null;
@@ -183,7 +183,7 @@ public final class jhl {
         bzxn a;
         int i = Build.VERSION.SDK_INT;
         sdo.m34959a(account);
-        long a2 = spn.m35843a(context);
+        long a2 = spn.getAndroidId(context);
         if (a2 == 0) {
             f22492a.mo25418e("Checkin has not happened yet.", new Object[0]);
             return new jhh(new Status(21500, "Checkin not happened yet."));
@@ -242,7 +242,7 @@ public final class jhl {
             cama2.f175232b = languageTag;
             cama cama3 = (cama) da3.mo74062i();
             bxvd bxvd = (bxvd) cama3.mo74142c(5);
-            bxvd.mo73625a((bxvk) cama3);
+            bxvd.mo73625a((GeneratedMessageLite) cama3);
             try {
                 String b = qdf.m31915b(context);
                 if (b != null || !ccge.f178935a.mo6606a().mo75918a()) {
@@ -278,19 +278,19 @@ public final class jhl {
                     requestQueue.add(rqw.m34279a(context, ccgh.f178939a.mo6606a().mo75928e(), (bzxm) da.mo74062i(), bzxn.f171778c, jhg));
                     try {
                         a = jhg.get();
-                        sek sek = f22492a;
+                        Logger Logger = f22492a;
                         String valueOf = String.valueOf(a);
                         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 14);
                         sb.append("Got response: ");
                         sb.append(valueOf);
-                        sek.mo25414c(sb.toString(), new Object[0]);
+                        Logger.mo25414c(sb.toString(), new Object[0]);
                         if (a == null) {
                             if ((a.f171780a & 1) != 0) {
                                 camb camb = a.f171781b;
                                 if (camb == null) {
                                     camb = camb.f175235c;
                                 }
-                                byte[] k = ((camd) camb.f175237a.get(0)).mo73642k();
+                                byte[] k = ((camd) camb.f175237a.get(0)).serializeToBytes();
                                 camb camb2 = a.f171781b;
                                 if (camb2 == null) {
                                     camb2 = camb.f175235c;
@@ -329,12 +329,12 @@ public final class jhl {
                     jhg jhg2 = new jhg();
                     requestQueue2.add(rqw.m34279a(context, ccgh.f178939a.mo6606a().mo75928e(), (bzxm) da.mo74062i(), bzxn.f171778c, jhg2));
                     a = jhg2.get();
-                    sek sek2 = f22492a;
+                    Logger logger2 = f22492a;
                     String valueOf2 = String.valueOf(a);
                     StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf2).length() + 14);
                     sb2.append("Got response: ");
                     sb2.append(valueOf2);
-                    sek2.mo25414c(sb2.toString(), new Object[0]);
+                    logger2.mo25414c(sb2.toString(), new Object[0]);
                     if (a == null) {
                     }
                     f22492a.mo25418e("Null response from sever.", new Object[0]);

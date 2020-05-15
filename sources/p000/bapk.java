@@ -311,7 +311,7 @@ final class bapk implements Closeable {
             }
             bpyi bpyi8 = (bpyi) bxvd2.f164949b;
             if (!bpyi8.f139864k.mo73666a()) {
-                bpyi8.f139864k = bxvk.m124019a(bpyi8.f139864k);
+                bpyi8.f139864k = GeneratedMessageLite.m124019a(bpyi8.f139864k);
             }
             for (bqao bqao2 : a2) {
                 bpyi8.f139864k.mo74153d(bqao2.mo3214a());
@@ -367,7 +367,7 @@ final class bapk implements Closeable {
             mo55860a(1);
         }
         ((bads) this.f101495k.f101504f.mo16713a()).mo32749a((bpyi) bxvd.mo74062i());
-        ((achw) this.f101495k.f101499a.mo16713a()).mo25409a("Sync complete; result=%s", a3);
+        ((achw) this.f101495k.f101499a.mo16713a()).logVerbose("Sync complete; result=%s", a3);
     }
 
     /* renamed from: a */

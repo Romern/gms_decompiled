@@ -65,7 +65,7 @@ final class asid {
             bxvd.mo74035c();
             bxvd.f164950c = false;
         }
-        ((bpwi) bxvd.f164949b).f139501g = bxvk.m124030de();
+        ((bpwi) bxvd.f164949b).f139501g = GeneratedMessageLite.m124030de();
         for (int i3 = 0; i3 < size; i3++) {
             Account account = (Account) asList.get(i3);
             if (((Boolean) asie.f89003a.mo58455c()).booleanValue()) {
@@ -136,7 +136,7 @@ final class asid {
                     bpwi bpwi2 = bpwi.f139493h;
                     bpwh5.getClass();
                     if (!bpwi.f139501g.mo73666a()) {
-                        bpwi.f139501g = bxvk.m124021a(bpwi.f139501g);
+                        bpwi.f139501g = GeneratedMessageLite.m124021a(bpwi.f139501g);
                     }
                     bpwi.f139501g.add(bpwh5);
                 }

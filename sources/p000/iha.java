@@ -28,7 +28,7 @@ import java.util.concurrent.TimeoutException;
 public final class iha {
 
     /* renamed from: a */
-    public static final sek f20991a = new sek("ProximitySyncManager");
+    public static final Logger f20991a = new Logger("ProximitySyncManager");
 
     /* renamed from: b */
     private static iha f20992b;
@@ -127,11 +127,11 @@ public final class iha {
             try {
                 if (ccer.f178841a.mo6606a().mo75837a()) {
                     if (i3 == 4) {
-                        f20991a.mo25414c("Not syncing data for account %s since periodic syncs are turned off", sek.m35081a(str));
+                        f20991a.mo25414c("Not syncing data for account %s since periodic syncs are turned off", Logger.m35081a(str));
                         return true;
                     }
                 }
-                f20991a.mo25414c("Syncing data for account %s", sek.m35081a(str));
+                f20991a.mo25414c("Syncing data for account %s", Logger.m35081a(str));
                 byte[] bArr = ifj.m15366a(this.f20994d, new Account(str3, "com.google")).f10517b;
                 try {
                     String a = m15434a(str);
@@ -251,7 +251,7 @@ public final class iha {
                             permit = permit2;
                             z2 = true;
                             iiz iiz = this.f20997g;
-                            iiz.f21079b.mo25409a("Getting permit with permitId: %s...", sek.m35081a(str2));
+                            iiz.f21079b.logVerbose("Getting permit with permitId: %s...", Logger.m35081a(str2));
                             SQLiteDatabase a3 = iiz.f21080a.mo13052a();
                             String str4 = str2;
                             query = a3.query("permit", null, "id=?", new String[]{str4}, null, null, null);
@@ -259,7 +259,7 @@ public final class iha {
                             query.close();
                             if (permit != null) {
                                 iiz iiz2 = this.f20997g;
-                                iiz.f21079b.mo25409a("Saving permit with id: %s...", sek.m35081a(permit.f10382b));
+                                iiz.f21079b.logVerbose("Saving permit with id: %s...", Logger.m35081a(permit.f10382b));
                                 SQLiteDatabase a5 = iiz2.f21080a.mo13052a();
                                 iiz2.mo13055c(permit.f10382b);
                                 a5.beginTransaction();
@@ -349,18 +349,18 @@ public final class iha {
                                 f20991a.mo25418e("Device didn't appear in the device list after Authzen is registered.", new Object[0]);
                                 return false;
                             } else if (((Boolean) igt.f20951a.mo58455c()).booleanValue() && iho.mo7573o() && !iho.mo7565g()) {
-                                f20991a.mo25414c("Forcing Authzen registration for account %s because EasyUnlock is enabled and bluetooth address is missing.", sek.m35081a(str));
+                                f20991a.mo25414c("Forcing Authzen registration for account %s because EasyUnlock is enabled and bluetooth address is missing.", Logger.m35081a(str));
                                 boolean a6 = this.f20998h.mo13062a(2, str3, 9, 0);
                                 return a6;
                             }
                         } catch (gid e4) {
                             e = e4;
-                            f20991a.mo25418e("Failed to authenticate account: %s. Clearing data.", sek.m35081a(str), e);
+                            f20991a.mo25418e("Failed to authenticate account: %s. Clearing data.", Logger.m35081a(str), e);
                             iho = null;
                             z2 = false;
                             permit = null;
                             iiz iiz3 = this.f20997g;
-                            iiz.f21079b.mo25409a("Getting permit with permitId: %s...", sek.m35081a(str2));
+                            iiz.f21079b.logVerbose("Getting permit with permitId: %s...", Logger.m35081a(str2));
                             SQLiteDatabase a32 = iiz3.f21080a.mo13052a();
                             String str42 = str2;
                             query = a32.query("permit", null, "id=?", new String[]{str42}, null, null, null);
@@ -376,12 +376,12 @@ public final class iha {
                     } catch (gid e5) {
                         e = e5;
                         str2 = a;
-                        f20991a.mo25418e("Failed to authenticate account: %s. Clearing data.", sek.m35081a(str), e);
+                        f20991a.mo25418e("Failed to authenticate account: %s. Clearing data.", Logger.m35081a(str), e);
                         iho = null;
                         z2 = false;
                         permit = null;
                         iiz iiz32 = this.f20997g;
-                        iiz.f21079b.mo25409a("Getting permit with permitId: %s...", sek.m35081a(str2));
+                        iiz.f21079b.logVerbose("Getting permit with permitId: %s...", Logger.m35081a(str2));
                         SQLiteDatabase a322 = iiz32.f21080a.mo13052a();
                         String str422 = str2;
                         query = a322.query("permit", null, "id=?", new String[]{str422}, null, null, null);
@@ -395,7 +395,7 @@ public final class iha {
                         }
                     }
                 } catch (VolleyError | iiy e6) {
-                    f20991a.mo25418e("Failed to sync data with server for account: %s.", sek.m35081a(str), e6);
+                    f20991a.mo25418e("Failed to sync data with server for account: %s.", Logger.m35081a(str), e6);
                     return false;
                 } catch (Throwable th3) {
                     Throwable th4 = th3;

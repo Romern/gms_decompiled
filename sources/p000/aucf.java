@@ -18,7 +18,7 @@ public final class aucf {
     /* renamed from: b */
     public final void mo50392b(Exception exc) {
         auck auck = this.f91388a;
-        sdo.m34966a(exc, "Exception must not be null");
+        sdo.checkIfNull(exc, "Exception must not be null");
         synchronized (auck.f91393a) {
             if (!auck.f91395c) {
                 auck.f91395c = true;

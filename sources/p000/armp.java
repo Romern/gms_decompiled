@@ -26,7 +26,7 @@ public final class armp {
             bxvd.f164950c = false;
         }
         boul boul = boul.f134940e;
-        ((boul) bxvd.f164949b).f134945d = bxvk.m124028dc();
+        ((boul) bxvd.f164949b).f134945d = GeneratedMessageLite.m124028dc();
         List list = this.f87926a;
         if (bxvd.f164950c) {
             bxvd.mo74035c();
@@ -34,7 +34,7 @@ public final class armp {
         }
         boul boul2 = (boul) bxvd.f164949b;
         if (!boul2.f134945d.mo73666a()) {
-            boul2.f134945d = bxvk.m124019a(boul2.f134945d);
+            boul2.f134945d = GeneratedMessageLite.m124019a(boul2.f134945d);
         }
         bxsy.m123078a(list, boul2.f134945d);
         return (boul) this.f87927b.mo74062i();

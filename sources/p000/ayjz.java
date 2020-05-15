@@ -120,7 +120,7 @@ public final class ayjz {
                                         i += a.f97866c;
                                     }
                                     if (i != 0) {
-                                        bxtx a2 = bxtx.m123261a(aykn.mo54060a(0, i));
+                                        ByteString a2 = ByteString.m123261a(aykn.mo54060a(0, i));
                                         aykq.mo54070d();
                                         bxvd da = bymn.f167040f.mo74144da();
                                         j = j2;

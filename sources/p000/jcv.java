@@ -14,7 +14,7 @@ import org.json.JSONObject;
 public final class jcv {
 
     /* renamed from: a */
-    public static final sek f22196a = jdh.m16547a("FolsomJsBridge");
+    public static final Logger f22196a = jdh.m16547a("FolsomJsBridge");
 
     /* renamed from: b */
     public final jcw f22197b;
@@ -62,12 +62,12 @@ public final class jcv {
                     }
                     arrayList2.add(new SharedKey(i2, bArr));
                 }
-                sek sek = f22196a;
+                Logger logger = f22196a;
                 int size = arrayList2.size();
                 StringBuilder sb = new StringBuilder(37);
                 sb.append("Number of recovered keys: ");
                 sb.append(size);
-                sek.mo25412b(sb.toString(), new Object[0]);
+                logger.mo25412b(sb.toString(), new Object[0]);
                 izn a = izo.m16377a();
                 a.f22004a = next;
                 izm a2 = izl.m16372a(rpr.m34216b(), a.mo13531a());

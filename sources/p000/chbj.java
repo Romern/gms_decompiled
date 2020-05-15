@@ -11,6 +11,6 @@ final /* synthetic */ class chbj implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (byke) bxvk.m124014a(byke.f166739b, bArr);
+        return (byke) GeneratedMessageLite.m124014a(byke.f166739b, bArr);
     }
 }

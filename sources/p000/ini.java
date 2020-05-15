@@ -11,7 +11,7 @@ import java.util.concurrent.TimeoutException;
 public final class ini implements inc {
 
     /* renamed from: a */
-    public static final sek f21384a = new sek("Auth", "PhenotypeConfigSyncer");
+    public static final Logger f21384a = new Logger("Auth", "PhenotypeConfigSyncer");
 
     /* renamed from: c */
     private static final String f21385c = rpr.m34216b().getPackageName();
@@ -77,7 +77,7 @@ public final class ini implements inc {
 
     /* renamed from: a */
     public final void mo13156a(String str) {
-        f21384a.mo25409a("Called doInitialConfigSync().", new Object[0]);
+        f21384a.logVerbose("Called doInitialConfigSync().", new Object[0]);
         String str2 = str != null ? str : f21385c;
         if (m15756a().getBoolean("AUTH_CONFIG_SYNC_FINISHED", false)) {
             f21384a.mo25412b("Already synced configs, returning early", new Object[0]);

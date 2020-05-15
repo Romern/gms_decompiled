@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: agno */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class agno extends bxvk implements bxxd {
+public final class agno extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final agno f66134e;
@@ -25,7 +25,7 @@ public final class agno extends bxvk implements bxxd {
     static {
         agno agno = new agno();
         f66134e = agno;
-        bxvk.m124024a(agno.class, agno);
+        GeneratedMessageLite.m124024a(agno.class, agno);
     }
 
     private agno() {
@@ -42,7 +42,7 @@ public final class agno extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f66134e, "\u0001\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0004\u0000\u0001\u0015\u0002\u0015\u0003\u001b\u0004\u001b", new Object[]{"a", "b", "c", agnh.class, "d", agnp.class});
+            return GeneratedMessageLite.m124022a(f66134e, "\u0001\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0004\u0000\u0001\u0015\u0002\u0015\u0003\u001b\u0004\u001b", new Object[]{"a", "b", "c", agnh.class, "d", agnp.class});
         } else if (i2 == 3) {
             return new agno();
         } else {
@@ -69,14 +69,14 @@ public final class agno extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo35761b() {
         if (!this.f66139d.mo73666a()) {
-            this.f66139d = bxvk.m124021a(this.f66139d);
+            this.f66139d = GeneratedMessageLite.m124021a(this.f66139d);
         }
     }
 
     /* renamed from: a */
     public final void mo35760a() {
         if (!this.f66138c.mo73666a()) {
-            this.f66138c = bxvk.m124021a(this.f66138c);
+            this.f66138c = GeneratedMessageLite.m124021a(this.f66138c);
         }
     }
 }

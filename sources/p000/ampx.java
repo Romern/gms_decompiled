@@ -126,7 +126,7 @@ public final /* synthetic */ class ampx implements Callable {
         btdr btdr = (btdr) da.f164949b;
         str.getClass();
         if (!btdr.f148440a.mo73666a()) {
-            btdr.f148440a = bxvk.m124021a(btdr.f148440a);
+            btdr.f148440a = GeneratedMessageLite.m124021a(btdr.f148440a);
         }
         btdr.f148440a.add(str);
         btdw btdw = (btdw) btdy.f148473d.mo74144da();
@@ -139,7 +139,7 @@ public final /* synthetic */ class ampx implements Callable {
         btcf btcf = (btcf) da4.f164949b;
         btce.getClass();
         if (!btcf.f148265a.mo73666a()) {
-            btcf.f148265a = bxvk.m124019a(btcf.f148265a);
+            btcf.f148265a = GeneratedMessageLite.m124019a(btcf.f148265a);
         }
         btcf.f148265a.mo74153d(btce.mo3214a());
         if (btdw.f164950c) {

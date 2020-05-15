@@ -19,11 +19,11 @@ final class ili implements aubq {
         }
         int intValue = ((Integer) aucb.mo50386d()).intValue();
         if (!rjs.m33680f(intValue)) {
-            sek sek = ilm.f21293a;
+            Logger Logger = ilm.f21293a;
             StringBuilder sb = new StringBuilder(27);
             sb.append("Checkin failed: ");
             sb.append(intValue);
-            sek.mo25418e(sb.toString(), new Object[0]);
+            Logger.mo25418e(sb.toString(), new Object[0]);
             return;
         }
         aucb a = this.f21290a.f21296c.mo24701a((rpa) new qck());

@@ -17,7 +17,7 @@ final class lyd extends lyr {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo19743a(InputStream inputStream) {
-        return (bzoc) bxvk.m124010a(bzoc.f170793a, inputStream);
+        return (bzoc) GeneratedMessageLite.m124010a(bzoc.f170793a, inputStream);
     }
 
     /* access modifiers changed from: protected */

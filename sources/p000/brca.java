@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brca */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brca extends bxvk implements bxxd {
+public final class brca extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final brca f142346b;
@@ -19,7 +19,7 @@ public final class brca extends bxvk implements bxxd {
     static {
         brca brca = new brca();
         f142346b = brca;
-        bxvk.m124024a(brca.class, brca);
+        GeneratedMessageLite.m124024a(brca.class, brca);
     }
 
     private brca() {
@@ -36,7 +36,7 @@ public final class brca extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142346b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f142346b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new brca();
         } else {

@@ -103,28 +103,28 @@ public class PaymentMethodsChimeraActivity extends awce {
                     BuyFlowConfig h = mo51881h();
                     String str = this.f94163b;
                     LogContext logContext = this.f94164c;
-                    sdo.m34966a(bArr2, "Encrypted params must not be null");
-                    sdo.m34966a(byteArrayExtra, "Initialization token must not be null");
+                    sdo.checkIfNull(bArr2, "Encrypted params must not be null");
+                    sdo.checkIfNull(byteArrayExtra, "Initialization token must not be null");
                     awog = awog.m80409a(h, bArr2, null, byteArrayExtra, strArr2, pendingIntentArr2, z, str, logContext);
                 } else {
                     BuyFlowConfig h2 = mo51881h();
                     String str2 = this.f94163b;
                     LogContext logContext2 = this.f94164c;
-                    sdo.m34966a(bArr, "Unencrypted params must not be null");
-                    sdo.m34966a(byteArrayExtra, "Initialization token must not be null");
+                    sdo.checkIfNull(bArr, "Unencrypted params must not be null");
+                    sdo.checkIfNull(byteArrayExtra, "Initialization token must not be null");
                     awog = awog.m80409a(h2, null, bArr, byteArrayExtra, strArr2, pendingIntentArr2, z, str2, logContext2);
                 }
             } else if (bArr2 != null) {
                 BuyFlowConfig h3 = mo51881h();
                 String str3 = this.f94163b;
                 LogContext logContext3 = this.f94164c;
-                sdo.m34966a(bArr2, "Encrypted params must not be null");
+                sdo.checkIfNull(bArr2, "Encrypted params must not be null");
                 awog = awog.m80409a(h3, bArr2, null, null, strArr2, pendingIntentArr2, z, str3, logContext3);
             } else if (bArr != null) {
                 BuyFlowConfig h4 = mo51881h();
                 String str4 = this.f94163b;
                 LogContext logContext4 = this.f94164c;
-                sdo.m34966a(bArr, "Unencrypted params must not be null");
+                sdo.checkIfNull(bArr, "Unencrypted params must not be null");
                 awog = awog.m80409a(h4, null, bArr, null, strArr2, pendingIntentArr2, z, str4, logContext4);
             }
             mo51866a(awog, (int) C0126R.C0129id.fragment_holder);

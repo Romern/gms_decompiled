@@ -112,7 +112,7 @@ public final class antw extends dck implements antx {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final void mo42285a(antk antk, String str) {
-        sdo.m34966a((Object) str, (Object) "URL must not be null.");
+        sdo.checkIfNull((Object) str, (Object) "URL must not be null.");
         DefaultChimeraIntentService.m68555a(this.f77725a, new aobz(this.f77726b, str, antk));
     }
 

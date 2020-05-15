@@ -188,7 +188,7 @@ public final class gnv {
     }
 
     /* renamed from: N */
-    public static boolean m13504N() {
+    public static boolean isDroidGuardEnabled() {
         return cbzt.f178599a.mo6606a().mo75642d();
     }
 

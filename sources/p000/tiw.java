@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: tiw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class tiw extends bxvk implements bxxd {
+public final class tiw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final tiw f46154e;
@@ -25,7 +25,7 @@ public final class tiw extends bxvk implements bxxd {
     static {
         tiw tiw = new tiw();
         f46154e = tiw;
-        bxvk.m124024a(tiw.class, tiw);
+        GeneratedMessageLite.m124024a(tiw.class, tiw);
     }
 
     private tiw() {
@@ -42,7 +42,7 @@ public final class tiw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f46154e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0002\u0000\u0001\u001b\u0002\u001a\u0003ဉ\u0000", new Object[]{"a", "b", tiv.class, "c", "d"});
+            return GeneratedMessageLite.m124022a(f46154e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0002\u0000\u0001\u001b\u0002\u001a\u0003ဉ\u0000", new Object[]{"a", "b", tiv.class, "c", "d"});
         } else if (i2 == 3) {
             return new tiw();
         } else {

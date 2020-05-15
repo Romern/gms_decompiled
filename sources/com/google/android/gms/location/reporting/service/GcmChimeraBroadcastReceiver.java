@@ -56,7 +56,7 @@ public class GcmChimeraBroadcastReceiver extends BroadcastReceiver {
                         try {
                             byte[] decode = Base64.decode(stringExtra, 0);
                             try {
-                                bgvt bgvt2 = (bgvt) bxvk.m124016a(bgvt.f117740e, decode, bxus.m123744c());
+                                bgvt bgvt2 = (bgvt) GeneratedMessageLite.m124016a(bgvt.f117740e, decode, bxus.m123744c());
                                 if ((bgvt2.f117742a & 1) != 0 && !bgvt2.f117743b.isEmpty()) {
                                     bgvt = bgvt2;
                                 } else {

@@ -19,7 +19,7 @@ public final class byzf extends bxvg implements bxvh {
     static {
         byzf byzf = new byzf();
         f169070b = byzf;
-        bxvk.m124024a(byzf.class, byzf);
+        GeneratedMessageLite.m124024a(byzf.class, byzf);
     }
 
     private byzf() {
@@ -40,7 +40,7 @@ public final class byzf extends bxvg implements bxvh {
             this.f169073c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f169070b, "\u0001\u0001\u0000\u0000\u0004\u0004\u0001\u0000\u0001\u0000\u0004\u001b", new Object[]{"a", byzh.class});
+            return GeneratedMessageLite.m124022a(f169070b, "\u0001\u0001\u0000\u0000\u0004\u0004\u0001\u0000\u0001\u0000\u0004\u001b", new Object[]{"a", byzh.class});
         } else if (i2 == 3) {
             return new byzf();
         } else {
@@ -67,7 +67,7 @@ public final class byzf extends bxvg implements bxvh {
     /* renamed from: e */
     public final void mo74513e() {
         if (!this.f169072a.mo73666a()) {
-            this.f169072a = bxvk.m124021a(this.f169072a);
+            this.f169072a = GeneratedMessageLite.m124021a(this.f169072a);
         }
     }
 }

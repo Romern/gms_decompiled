@@ -111,7 +111,7 @@ public final class bfww {
         }
         this.f115560s = z;
         bxvd bxvd = this.f115555n;
-        bxvd.f164949b = (bxvk) bxvd.f164949b.mo74142c(4);
+        bxvd.f164949b = (GeneratedMessageLite) bxvd.f164949b.mo74142c(4);
         bxvd bxvd2 = this.f115555n;
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
@@ -135,7 +135,7 @@ public final class bfww {
         bpmm.f138301f = 0;
         this.f115550i.clear();
         bxvd bxvd3 = this.f115556o;
-        bxvd3.f164949b = (bxvk) bxvd3.f164949b.mo74142c(4);
+        bxvd3.f164949b = (GeneratedMessageLite) bxvd3.f164949b.mo74142c(4);
         bxvd bxvd4 = this.f115556o;
         if (bxvd4.f164950c) {
             bxvd4.mo74035c();
@@ -365,7 +365,7 @@ public final class bfww {
                         bpml bpml2 = bpml.f138283j;
                         bpmk4.getClass();
                         if (!bpml.f138292h.mo73666a()) {
-                            bpml.f138292h = bxvk.m124021a(bpml.f138292h);
+                            bpml.f138292h = GeneratedMessageLite.m124021a(bpml.f138292h);
                         }
                         bpml.f138292h.add(bpmk4);
                     }
@@ -380,7 +380,7 @@ public final class bfww {
                     bpmm bpmm2 = bpmm.f138294h;
                     bpml3.getClass();
                     if (!bpmm.f138302g.mo73666a()) {
-                        bpmm.f138302g = bxvk.m124021a(bpmm.f138302g);
+                        bpmm.f138302g = GeneratedMessageLite.m124021a(bpmm.f138302g);
                     }
                     bpmm.f138302g.add(bpml3);
                 }
@@ -421,7 +421,7 @@ public final class bfww {
                     bpmp bpmp2 = bpmp.f138316d;
                     bpmo3.getClass();
                     if (!bpmp.f138319b.mo73666a()) {
-                        bpmp.f138319b = bxvk.m124021a(bpmp.f138319b);
+                        bpmp.f138319b = GeneratedMessageLite.m124021a(bpmp.f138319b);
                     }
                     bpmp.f138319b.add(bpmo3);
                 }
@@ -693,7 +693,7 @@ public final class bfww {
                 bpmh bpmh6 = (bpmh) bxvd2.mo74062i();
                 bpmh6.getClass();
                 if (!bpmi2.f138267d.mo73666a()) {
-                    bpmi2.f138267d = bxvk.m124021a(bpmi2.f138267d);
+                    bpmi2.f138267d = GeneratedMessageLite.m124021a(bpmi2.f138267d);
                 }
                 bpmi2.f138267d.add(bpmh6);
             }

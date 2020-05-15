@@ -52,7 +52,7 @@ public abstract class AbstractGmsTracer {
         String str3 = "unknown";
         if (stu.m36316b() >= 14768000) {
             ModuleManager.BasicModuleInfo basicModuleInfo = ModuleManager.getBasicModuleInfo(context);
-            sdo.m34966a(basicModuleInfo, "A Chimera Context is required");
+            sdo.checkIfNull(basicModuleInfo, "A Chimera Context is required");
             if (!(basicModuleInfo == null || (str2 = basicModuleInfo.moduleId) == null)) {
                 String a = sqq.m35990a(str2);
                 i2 = basicModuleInfo.moduleVersion;
@@ -60,7 +60,7 @@ public abstract class AbstractGmsTracer {
             }
         } else {
             ModuleManager.ModuleInfo c = sqq.m35994c(context);
-            sdo.m34966a(c, "A Chimera Context is required");
+            sdo.checkIfNull(c, "A Chimera Context is required");
             if (c != null) {
                 str3 = sqq.m35990a(c.moduleId);
                 i2 = c.moduleVersion;
@@ -96,7 +96,7 @@ public abstract class AbstractGmsTracer {
         zzq zzq = null;
         if (bArr != null) {
             try {
-                zzq = (zzq) bxvk.m124016a(zzq.f56322f, bArr, bxus.m123744c());
+                zzq = (zzq) GeneratedMessageLite.m124016a(zzq.f56322f, bArr, bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("AbstractGmsTracer", "Invalid GCoreClientInfo bytes.");
             }

@@ -122,7 +122,7 @@ abstract class amxj {
         Long g = amvr.mo41400g();
         amvu amvu = amyr.f76407a.f76139c;
         ContentValues contentValues = new ContentValues();
-        contentValues.put("sync1", Base64.encodeToString(((alvh) bxvd.mo74062i()).mo73642k(), 2));
+        contentValues.put("sync1", Base64.encodeToString(((alvh) bxvd.mo74062i()).serializeToBytes(), 2));
         amig.m62939a();
         amvu.mo41455a(amvu.f76144a, g, contentValues, ((Boolean) amfl.f74862a.mo41191a()).booleanValue());
     }

@@ -18,7 +18,7 @@ public final class adcm {
     public static final /* synthetic */ int f61374a = 0;
 
     /* renamed from: b */
-    private static final sek f61375b = new sek("Identity", "UiTextUtil");
+    private static final Logger f61375b = new Logger("Identity", "UiTextUtil");
 
     /* renamed from: a */
     public static void m50165a(Context context, SpannableStringBuilder spannableStringBuilder, String str, String str2, Resources.Theme theme, int i, int i2, View.OnClickListener onClickListener) {

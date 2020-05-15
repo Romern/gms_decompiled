@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cakv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cakv extends bxvk implements bxxd {
+public final class cakv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final cakv f175064g;
@@ -31,7 +31,7 @@ public final class cakv extends bxvk implements bxxd {
     static {
         cakv cakv = new cakv();
         f175064g = cakv;
-        bxvk.m124024a(cakv.class, cakv);
+        GeneratedMessageLite.m124024a(cakv.class, cakv);
     }
 
     private cakv() {
@@ -48,7 +48,7 @@ public final class cakv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175064g, "\u0001\u0005\u0000\u0001\u0001\n\u0005\u0000\u0003\u0000\u0001\u001b\u0003ဂ\u0001\u0004ဂ\u0002\t\u001b\n\u001b", new Object[]{"a", "b", caku.class, "e", "f", "c", caku.class, "d", caku.class});
+            return GeneratedMessageLite.m124022a(f175064g, "\u0001\u0005\u0000\u0001\u0001\n\u0005\u0000\u0003\u0000\u0001\u001b\u0003ဂ\u0001\u0004ဂ\u0002\t\u001b\n\u001b", new Object[]{"a", "b", caku.class, "e", "f", "c", caku.class, "d", caku.class});
         } else if (i2 == 3) {
             return new cakv();
         } else {

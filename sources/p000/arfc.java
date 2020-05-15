@@ -15,9 +15,9 @@ final class arfc extends ahir {
 
     /* renamed from: a */
     public final void mo20150a(String str, ahiq ahiq) {
-        arfd.f87557a.mo25409a("Received payload.", new Object[0]);
+        arfd.f87557a.logVerbose("Received payload.", new Object[0]);
         if (!str.equals(this.f87556a.f87563g)) {
-            sek sek = arfd.f87557a;
+            Logger Logger = arfd.f87557a;
             String str2 = this.f87556a.f87563g;
             StringBuilder sb = new StringBuilder(String.valueOf(str2).length() + 62 + String.valueOf(str).length());
             sb.append("Connected to ");
@@ -25,7 +25,7 @@ final class arfc extends ahir {
             sb.append(", but receiving payloads from ");
             sb.append(str);
             sb.append("! Ignoring payload.");
-            sek.mo25418e(sb.toString(), new Object[0]);
+            Logger.mo25418e(sb.toString(), new Object[0]);
         } else if (ahiq.f67252b == 1) {
             byte[] bArr = ahiq.f67253c;
             arfd arfd = this.f87556a;

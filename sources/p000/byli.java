@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byli */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byli extends bxvk implements bxxd {
+public final class byli extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final byli f166837f;
@@ -31,7 +31,7 @@ public final class byli extends bxvk implements bxxd {
     static {
         byli byli = new byli();
         f166837f = byli;
-        bxvk.m124024a(byli.class, byli);
+        GeneratedMessageLite.m124024a(byli.class, byli);
     }
 
     private byli() {
@@ -52,7 +52,7 @@ public final class byli extends bxvk implements bxxd {
             this.f166844g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f166837f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0002\u0001ဈ\u0000\u0002ᔈ\u0001\u0003ᔈ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f166837f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0002\u0001ဈ\u0000\u0002ᔈ\u0001\u0003ᔈ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new byli();
         } else {

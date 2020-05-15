@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mdb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mdb extends bxvk implements bxxd {
+public final class mdb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final mdb f33467c;
@@ -19,7 +19,7 @@ public final class mdb extends bxvk implements bxxd {
     static {
         mdb mdb = new mdb();
         f33467c = mdb;
-        bxvk.m124024a(mdb.class, mdb);
+        GeneratedMessageLite.m124024a(mdb.class, mdb);
     }
 
     private mdb() {
@@ -36,7 +36,7 @@ public final class mdb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f33467c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mcz.f33466a});
+            return GeneratedMessageLite.m124022a(f33467c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mcz.f33466a});
         } else if (i2 == 3) {
             return new mdb();
         } else {

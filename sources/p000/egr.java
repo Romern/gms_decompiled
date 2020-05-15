@@ -310,7 +310,7 @@ public final class egr extends dwm {
         int size = a.size();
         for (int i = 0; i < size; i++) {
             try {
-                m10366a(printWriter, (tnt) bxvk.m124016a(tnt.f46353g, ((tjq) a.get(i)).mo26593c(), bxus.m123744c()));
+                m10366a(printWriter, (tnt) GeneratedMessageLite.m124016a(tnt.f46353g, ((tjq) a.get(i)).mo26593c(), bxus.m123744c()));
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) dss.f13961a.mo68387b();
                 bnsl.mo68437a(e);

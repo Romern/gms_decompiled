@@ -65,13 +65,13 @@ public final class goa {
         if (gsg.m13820b()) {
             gsg gsg = (gsg) gsg.f18948d.mo13145b();
             List a = ((gsl) gsl.f18953a.mo13145b()).mo12170a();
-            sek sek = gsg.f18947a;
+            Logger Logger = gsg.f18947a;
             int size = a.size();
             StringBuilder sb = new StringBuilder(60);
             sb.append("Add account explicitly with whitelisted packages ");
             sb.append(size);
             String sb2 = sb.toString();
-            sek.mo25414c(sb2, new Object[0]);
+            Logger.mo25414c(sb2, new Object[0]);
             HashMap hashMap = new HashMap();
             int size2 = a.size();
             for (int i = 0; i < size2; i++) {

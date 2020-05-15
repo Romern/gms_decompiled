@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 final class avmo extends avnf {
 
     /* renamed from: a */
-    public static final sek f93408a = avpq.m79017d("DefaultNotificationControl");
+    public static final Logger f93408a = avpq.m79017d("DefaultNotificationControl");
 
     protected avmo(Context context) {
         super(context);

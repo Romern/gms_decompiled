@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bivr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bivr extends bxvk implements bxxd {
+public final class bivr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bivr f122036e;
@@ -28,7 +28,7 @@ public final class bivr extends bxvk implements bxxd {
     static {
         bivr bivr = new bivr();
         f122036e = bivr;
-        bxvk.m124024a(bivr.class, bivr);
+        GeneratedMessageLite.m124024a(bivr.class, bivr);
     }
 
     private bivr() {
@@ -49,7 +49,7 @@ public final class bivr extends bxvk implements bxxd {
             this.f122042f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f122036e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0001\u0001Л\u0002ဋ\u0000\u0003ဌ\u0001", new Object[]{"a", "b", bivq.class, "c", "d", bitr.f121702a});
+            return GeneratedMessageLite.m124022a(f122036e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0001\u0001Л\u0002ဋ\u0000\u0003ဌ\u0001", new Object[]{"a", "b", bivq.class, "c", "d", bitr.f121702a});
         } else if (i2 == 3) {
             return new bivr();
         } else {

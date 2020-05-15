@@ -189,7 +189,7 @@ public final /* synthetic */ class aajm implements aajs {
                 }
                 if (z) {
                     bxvd bxvd = (bxvd) blmp.mo74142c(5);
-                    bxvd.mo73625a((bxvk) blmp);
+                    bxvd.mo73625a((GeneratedMessageLite) blmp);
                     blmo blmo = (blmo) bxvd;
                     if (blmo.f164950c) {
                         blmo.mo74035c();

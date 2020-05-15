@@ -7,7 +7,7 @@ import android.bluetooth.BluetoothDevice;
 public final class xtn extends xub {
 
     /* renamed from: d */
-    public static final sek f53074d = new sek(new String[]{"CableClientConnection"}, (short[]) null);
+    public static final Logger f53074d = new Logger(new String[]{"CableClientConnection"}, (short[]) null);
 
     /* renamed from: a */
     public final xwj f53075a;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwic */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwic extends bxvk implements bxxd {
+public final class bwic extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bwic f159612d;
@@ -25,7 +25,7 @@ public final class bwic extends bxvk implements bxxd {
     static {
         bwic bwic = new bwic();
         f159612d = bwic;
-        bxvk.m124024a(bwic.class, bwic);
+        GeneratedMessageLite.m124024a(bwic.class, bwic);
     }
 
     private bwic() {
@@ -42,7 +42,7 @@ public final class bwic extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f159612d, "\u0001\u0003\u0001\u0001\u0001\u0006\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0005ြ\u0000\u0006ြ\u0000", new Object[]{"b", "a", "e", "c", bmnr.class, bmno.class});
+            return GeneratedMessageLite.m124022a(f159612d, "\u0001\u0003\u0001\u0001\u0001\u0006\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0005ြ\u0000\u0006ြ\u0000", new Object[]{"b", "a", "e", "c", bmnr.class, bmno.class});
         } else if (i2 == 3) {
             return new bwic();
         } else {

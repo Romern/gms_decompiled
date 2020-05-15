@@ -42,7 +42,7 @@ public final class aafy extends aaho {
             try {
                 if (query.getCount() > 0) {
                     query.moveToFirst();
-                    aail = (aail) bxvk.m124016a(aail.f28193f, query.getBlob(1), bxus.m123744c());
+                    aail = (aail) GeneratedMessageLite.m124016a(aail.f28193f, query.getBlob(1), bxus.m123744c());
                     if (query != null) {
                         query.close();
                     }
@@ -74,7 +74,7 @@ public final class aafy extends aaho {
         Long l;
         Integer num;
         ContentValues contentValues = new ContentValues();
-        contentValues.put("pb", aail.mo73642k());
+        contentValues.put("pb", aail.serializeToBytes());
         int i = 1;
         if ((aail.f28195a & 1) != 0) {
             l = Long.valueOf(aail.f28196b);

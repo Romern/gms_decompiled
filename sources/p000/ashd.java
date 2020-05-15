@@ -188,9 +188,9 @@ public final class ashd {
         int i2 = i;
         if (rjx2 != null) {
             if (m74119a(str4, qxq2)) {
-                aucb = rjx2.mo24696a(str4, ((calx) calu.mo74062i()).mo73642k(), ashe.m74125a(qxq), i2);
+                aucb = rjx2.mo24696a(str4, ((calx) calu.mo74062i()).serializeToBytes(), ashe.m74125a(qxq), i2);
             } else {
-                aucb = rjx2.mo24695a(str4, ((calx) calu.mo74062i()).mo73642k(), new asha(), i2);
+                aucb = rjx2.mo24695a(str4, ((calx) calu.mo74062i()).serializeToBytes(), new asha(), i2);
             }
             try {
                 aucu.m76783a(aucb, 15000, TimeUnit.MILLISECONDS);
@@ -256,7 +256,7 @@ public final class ashd {
                 calx5.f175203a |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_MULTI_LINE;
             }
             if (!z) {
-                qwo a = qws2.mo24335a(((calx) calu.mo74062i()).mo73642k());
+                qwo a = qws2.mo24335a(((calx) calu.mo74062i()).serializeToBytes());
                 a.f42322f = cagz.m126622a(i);
                 a.f42320d = str4;
                 if (m74119a(str4, qxq2)) {
@@ -277,7 +277,7 @@ public final class ashd {
                         bosx3 = bosx.f134741g;
                     }
                     bxvd bxvd = (bxvd) bosx3.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bosx3);
+                    bxvd.mo73625a((GeneratedMessageLite) bosx3);
                     boolean d = aeyi.mo34652d();
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
@@ -305,7 +305,7 @@ public final class ashd {
                         bosx6 = bosx.f134741g;
                     }
                     bxvd bxvd2 = (bxvd) bosx6.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) bosx6);
+                    bxvd2.mo73625a((GeneratedMessageLite) bosx6);
                     boolean c = aeyi.mo34651c();
                     if (bxvd2.f164950c) {
                         bxvd2.mo74035c();
@@ -330,7 +330,7 @@ public final class ashd {
                     calx7.f175214l = bosx8;
                     calx7.f175203a |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_MULTI_LINE;
                 }
-                qwo a2 = qws2.mo24335a(((calx) calu3.mo74062i()).mo73642k());
+                qwo a2 = qws2.mo24335a(((calx) calu3.mo74062i()).serializeToBytes());
                 a2.mo24330c(aeyi.mo34650b());
                 a2.f42322f = cagz.m126622a(i);
                 a2.f42320d = str4;
@@ -390,7 +390,7 @@ public final class ashd {
             calx a = asem.mo49090a(context, j3, currentTimeMillis, qxq);
             if (a != null) {
                 bxvd bxvd = (bxvd) a.mo74142c(5);
-                bxvd.mo73625a((bxvk) a);
+                bxvd.mo73625a((GeneratedMessageLite) a);
                 asem.mo49091a(rjx, qws, qxq, (calu) bxvd, z4, list, z3, z2, z);
             }
             qxq.mo24388e();
@@ -413,7 +413,7 @@ public final class ashd {
                     String d = bmzo.m108692d(e);
                     String substring = d.substring(0, Math.min((int) cguz.f187794a.mo6606a().mo84526e(), d.length()));
                     bxvd da = calv.f175180j.mo74144da();
-                    bxtx a2 = bxtx.m123261a(substring.getBytes("UTF-8"));
+                    ByteString a2 = ByteString.m123261a(substring.getBytes("UTF-8"));
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;

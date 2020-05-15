@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ajhl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ajhl extends bxvk implements bxxd {
+public final class ajhl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final ajhl f70656i;
@@ -14,13 +14,13 @@ public final class ajhl extends bxvk implements bxxd {
     public int f70658a;
 
     /* renamed from: b */
-    public bxtx f70659b = bxtx.f164797b;
+    public ByteString f70659b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f70660c = bxtx.f164797b;
+    public ByteString f70660c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f70661d = bxtx.f164797b;
+    public ByteString f70661d = ByteString.f164797b;
 
     /* renamed from: e */
     public long f70662e;
@@ -29,15 +29,15 @@ public final class ajhl extends bxvk implements bxxd {
     public long f70663f;
 
     /* renamed from: g */
-    public bxtx f70664g = bxtx.f164797b;
+    public ByteString f70664g = ByteString.f164797b;
 
     /* renamed from: h */
-    public bxtx f70665h = bxtx.f164797b;
+    public ByteString f70665h = ByteString.f164797b;
 
     static {
         ajhl ajhl = new ajhl();
         f70656i = ajhl;
-        bxvk.m124024a(ajhl.class, ajhl);
+        GeneratedMessageLite.m124024a(ajhl.class, ajhl);
     }
 
     private ajhl() {
@@ -54,7 +54,7 @@ public final class ajhl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f70656i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ဂ\u0003\u0005ဂ\u0004\u0006ည\u0005\u0007ည\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f70656i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ဂ\u0003\u0005ဂ\u0004\u0006ည\u0005\u0007ည\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new ajhl();
         } else {

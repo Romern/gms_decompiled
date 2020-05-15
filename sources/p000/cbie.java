@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbie */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbie extends bxvk implements bxxd {
+public final class cbie extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbie f177232b;
@@ -16,7 +16,7 @@ public final class cbie extends bxvk implements bxxd {
     static {
         cbie cbie = new cbie();
         f177232b = cbie;
-        bxvk.m124024a(cbie.class, cbie);
+        GeneratedMessageLite.m124024a(cbie.class, cbie);
     }
 
     private cbie() {
@@ -33,7 +33,7 @@ public final class cbie extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177232b, "\u0000\u0001\u0000\u0000\u0003\u0003\u0001\u0000\u0000\u0000\u0003\t", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f177232b, "\u0000\u0001\u0000\u0000\u0003\u0003\u0001\u0000\u0000\u0000\u0003\t", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cbie();
         } else {

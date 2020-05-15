@@ -89,14 +89,14 @@ public final class qln {
                                 arrayList2.removeAll(bxwc);
                                 if (!arrayList2.isEmpty()) {
                                     bxvd bxvd = (bxvd) bojy.mo74142c(5);
-                                    bxvd.mo73625a((bxvk) bojy);
+                                    bxvd.mo73625a((GeneratedMessageLite) bojy);
                                     bojx bojx = (bojx) bxvd;
                                     if (bojx.f164950c) {
                                         bojx.mo74035c();
                                         bojx.f164950c = false;
                                     }
                                     bojy bojy2 = bojy.f133367g;
-                                    ((bojy) bojx.f164949b).f133374f = bxvk.m124030de();
+                                    ((bojy) bojx.f164949b).f133374f = GeneratedMessageLite.m124030de();
                                     bojx.mo68914a(arrayList2);
                                     arrayList.add((bojy) bojx.mo74062i());
                                 }
@@ -286,7 +286,7 @@ public final class qln {
                             }
                             if (z4) {
                                 bxvd bxvd = (bxvd) a4.mo74142c(5);
-                                bxvd.mo73625a((bxvk) a4);
+                                bxvd.mo73625a((GeneratedMessageLite) a4);
                                 if (bxvd.f164950c) {
                                     bxvd.mo74035c();
                                     bxvd.f164950c = false;
@@ -492,7 +492,7 @@ public final class qln {
             List arrayList3 = new ArrayList();
             try {
                 if (bArr.length > 0) {
-                    qml qml = (qml) bxvk.m124016a(qml.f41710b, bArr, bxus.m123743b());
+                    qml qml = (qml) GeneratedMessageLite.m124016a(qml.f41710b, bArr, bxus.m123743b());
                     String valueOf3 = String.valueOf(qml);
                     StringBuilder sb4 = new StringBuilder(String.valueOf(valueOf3).length() + 22);
                     sb4.append("Using PH Module Sets: ");
@@ -503,7 +503,7 @@ public final class qln {
                 if (!cdjl.m133598d() || ((byte[]) qlk.f41646b.mo58455c()).length <= 0) {
                     list2 = arrayList3;
                 } else {
-                    dje dje = (dje) bxvk.m124016a(dje.f13319b, (byte[]) qlk.f41646b.mo58455c(), bxus.m123743b());
+                    dje dje = (dje) GeneratedMessageLite.m124016a(dje.f13319b, (byte[]) qlk.f41646b.mo58455c(), bxus.m123743b());
                     List list4 = dje.f13321a;
                     String valueOf4 = String.valueOf(dje);
                     StringBuilder sb5 = new StringBuilder(String.valueOf(valueOf4).length() + 29);
@@ -522,7 +522,7 @@ public final class qln {
                         }
                         bojy bojy = (bojy) qmk2.f41707a.get(0);
                         bxvd bxvd = (bxvd) bojy.mo74142c(5);
-                        bxvd.mo73625a((bxvk) bojy);
+                        bxvd.mo73625a((GeneratedMessageLite) bojy);
                         bojx bojx = (bojx) bxvd;
                         if (bojx.f164950c) {
                             bojx.mo74035c();
@@ -534,7 +534,7 @@ public final class qln {
                         bojy2.f133372d = 128;
                         bojy bojy4 = (bojy) bojx.mo74062i();
                         bxvd bxvd2 = (bxvd) qmk2.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) qmk2);
+                        bxvd2.mo73625a((GeneratedMessageLite) qmk2);
                         if (bxvd2.f164950c) {
                             bxvd2.mo74035c();
                             bxvd2.f164950c = false;
@@ -614,7 +614,7 @@ public final class qln {
                                         j4.mo67752b((Iterable) a8.mo8953d());
                                     } else {
                                         try {
-                                            j4.mo67752b((Iterable) ((dje) bxvk.m124016a(dje.f13319b, bArr2, bxus.m123743b())).f13321a);
+                                            j4.mo67752b((Iterable) ((dje) GeneratedMessageLite.m124016a(dje.f13319b, bArr2, bxus.m123743b())).f13321a);
                                         } catch (bxwf e7) {
                                             bxwf bxwf = e7;
                                             long j5 = this.f41661b;
@@ -647,7 +647,7 @@ public final class qln {
                 } else {
                     bnia j6 = bnic.m109500j();
                     try {
-                        j6.mo67752b((Iterable) ((dje) bxvk.m124016a(dje.f13319b, (byte[]) qlk.f41646b.mo58455c(), bxus.m123743b())).f13321a);
+                        j6.mo67752b((Iterable) ((dje) GeneratedMessageLite.m124016a(dje.f13319b, (byte[]) qlk.f41646b.mo58455c(), bxus.m123743b())).f13321a);
                     } catch (bxwf e9) {
                         String valueOf6 = String.valueOf(e9);
                         StringBuilder sb8 = new StringBuilder(String.valueOf(valueOf6).length() + 31);
@@ -658,7 +658,7 @@ public final class qln {
                     byte[] bArr3 = (byte[]) qlk.f41647c.mo58455c();
                     if (bArr3 != qlk.f41645a) {
                         try {
-                            j6.mo67752b((Iterable) ((dje) bxvk.m124016a(dje.f13319b, bArr3, bxus.m123743b())).f13321a);
+                            j6.mo67752b((Iterable) ((dje) GeneratedMessageLite.m124016a(dje.f13319b, bArr3, bxus.m123743b())).f13321a);
                         } catch (bxwf e10) {
                             bxwf bxwf2 = e10;
                             long j7 = this.f41661b;
@@ -875,7 +875,7 @@ public final class qln {
                                                     z10 |= z6;
                                                     boolean contains2 = a4.contains(qmk6);
                                                     bxvd bxvd3 = (bxvd) qmm3.mo74142c(5);
-                                                    bxvd3.mo73625a((bxvk) qmm3);
+                                                    bxvd3.mo73625a((GeneratedMessageLite) qmm3);
                                                     if (!contains2) {
                                                         if (bxvd3.f164950c) {
                                                             bxvd3.mo74035c();
@@ -956,13 +956,13 @@ public final class qln {
                                     qox2.mo24185b();
                                     qox2.mo24179a(a5.f12990a);
                                     bxvd bxvd4 = (bxvd) d4.mo74142c(5);
-                                    bxvd4.mo73625a((bxvk) d4);
+                                    bxvd4.mo73625a((GeneratedMessageLite) d4);
                                     if (bxvd4.f164950c) {
                                         bxvd4.mo74035c();
                                         bxvd4.f164950c = false;
                                     }
                                     qmo qmo4 = qmo.f41724g;
-                                    ((qmo) bxvd4.f164949b).f41728c = bxvk.m124030de();
+                                    ((qmo) bxvd4.f164949b).f41728c = GeneratedMessageLite.m124030de();
                                     if (bxvd4.f164950c) {
                                         bxvd4.mo74035c();
                                         bxvd4.f164950c = false;
@@ -974,28 +974,28 @@ public final class qln {
                                         bxvd4.mo74035c();
                                         bxvd4.f164950c = false;
                                     }
-                                    ((qmo) bxvd4.f164949b).f41729d = bxvk.m124030de();
+                                    ((qmo) bxvd4.f164949b).f41729d = GeneratedMessageLite.m124030de();
                                     if (bxvd4.f164950c) {
                                         bxvd4.mo74035c();
                                         bxvd4.f164950c = false;
                                     }
                                     qmo qmo6 = (qmo) bxvd4.f164949b;
                                     if (!qmo6.f41729d.mo73666a()) {
-                                        qmo6.f41729d = bxvk.m124021a(qmo6.f41729d);
+                                        qmo6.f41729d = GeneratedMessageLite.m124021a(qmo6.f41729d);
                                     }
                                     bxsy.m123078a(dky, qmo6.f41729d);
                                     if (bxvd4.f164950c) {
                                         bxvd4.mo74035c();
                                         bxvd4.f164950c = false;
                                     }
-                                    ((qmo) bxvd4.f164949b).f41730e = bxvk.m124030de();
+                                    ((qmo) bxvd4.f164949b).f41730e = GeneratedMessageLite.m124030de();
                                     if (bxvd4.f164950c) {
                                         bxvd4.mo74035c();
                                         bxvd4.f164950c = false;
                                     }
                                     qmo qmo7 = (qmo) bxvd4.f164949b;
                                     if (!qmo7.f41730e.mo73666a()) {
-                                        qmo7.f41730e = bxvk.m124021a(qmo7.f41730e);
+                                        qmo7.f41730e = GeneratedMessageLite.m124021a(qmo7.f41730e);
                                     }
                                     bxsy.m123078a(dky2, qmo7.f41730e);
                                     boolean m = cdjh.f180979a.mo6606a().mo77748m();
@@ -1080,7 +1080,7 @@ public final class qln {
                 bxvd da3 = qnx.f41814d.mo74144da();
                 int size3 = a4.size();
                 for (int i10 = 0; i10 < size3; i10++) {
-                    bxtx aL = ((qmk) a4.get(i10)).mo73639aL();
+                    ByteString aL = ((qmk) a4.get(i10)).mo73639aL();
                     if (da3.f164950c) {
                         da3.mo74035c();
                         da3.f164950c = false;
@@ -1092,7 +1092,7 @@ public final class qln {
                 }
                 int size4 = dky.size();
                 for (int i11 = 0; i11 < size4; i11++) {
-                    bxtx aL2 = ((djd) dky.get(i11)).mo73639aL();
+                    ByteString aL2 = ((djd) dky.get(i11)).mo73639aL();
                     if (da3.f164950c) {
                         da3.mo74035c();
                         da3.f164950c = false;
@@ -1104,7 +1104,7 @@ public final class qln {
                 }
                 int size5 = a9.size();
                 for (int i12 = 0; i12 < size5; i12++) {
-                    bxtx aL3 = ((djd) a9.get(i12)).mo73639aL();
+                    ByteString aL3 = ((djd) a9.get(i12)).mo73639aL();
                     if (da3.f164950c) {
                         da3.mo74035c();
                         da3.f164950c = false;
@@ -1116,11 +1116,11 @@ public final class qln {
                 }
                 if (!a18.f41804e) {
                     Bundle bundle = new Bundle();
-                    bundle.putByteArray("UpdateRequest", ((qnx) da3.mo74062i()).mo73642k());
+                    bundle.putByteArray("UpdateRequest", ((qnx) da3.mo74062i()).serializeToBytes());
                     if (!list.isEmpty()) {
                         bxvd da4 = dje.f13319b.mo74144da();
                         da4.mo74060h(list3);
-                        bundle.putByteArray("UrgentFeatures", ((dje) da4.mo74062i()).mo73642k());
+                        bundle.putByteArray("UrgentFeatures", ((dje) da4.mo74062i()).serializeToBytes());
                     }
                     qnu = null;
                     qnu = null;
@@ -1129,7 +1129,7 @@ public final class qln {
                         try {
                             byte[] byteArray = call.getByteArray("UpdateRequest");
                             if (byteArray != null) {
-                                qnx = (qnx) bxvk.m124016a(qnx.f41814d, byteArray, bxus.m123743b());
+                                qnx = (qnx) GeneratedMessageLite.m124016a(qnx.f41814d, byteArray, bxus.m123743b());
                             }
                         } catch (bxwf e12) {
                             long j11 = a18.f41806g;
@@ -1170,7 +1170,7 @@ public final class qln {
                 }
                 try {
                     bngs b4 = bngx.m109371b(qnx.f41816a.size());
-                    for (bxtx bxtx : qnx.f41816a) {
+                    for (ByteString bxtx : qnx.f41816a) {
                         dky6 = a4;
                         z = h;
                         qnx qnx5 = qnx;
@@ -1178,13 +1178,13 @@ public final class qln {
                         qmk qmk7 = qmk.f41705d;
                         try {
                             bxuc h3 = bxtx.mo73764h();
-                            bxvk bxvk = (bxvk) qmk7.mo74142c(4);
-                            bxxv a19 = bxxm.f165037a.mo74228a(bxvk);
-                            a19.mo74220a(bxvk, bxud.m123454a(h3), b5);
-                            a19.mo74225d(bxvk);
+                            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) qmk7.mo74142c(4);
+                            bxxv a19 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                            a19.mo74220a(GeneratedMessageLite, bxud.m123454a(h3), b5);
+                            a19.mo74225d(GeneratedMessageLite);
                             h3.mo73787a(0);
-                            bxvk.m124027b(bxvk);
-                            b4.mo67668c((qmk) bxvk);
+                            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                            b4.mo67668c((qmk) GeneratedMessageLite);
                             h = z;
                             qnx = qnx5;
                             a4 = dky6;
@@ -1208,21 +1208,21 @@ public final class qln {
                     }
                     bngs b6 = bngx.m109371b(qnx.f41817b.size());
                     qli qli2 = h;
-                    for (bxtx bxtx2 : qnx.f41817b) {
+                    for (ByteString bxtx2 : qnx.f41817b) {
                         dky6 = a4;
                         z = qli2;
                         bxus b7 = bxus.m123743b();
                         djd djd = djd.f13314d;
                         try {
                             bxuc h4 = bxtx2.mo73764h();
-                            bxvk bxvk2 = (bxvk) djd.mo74142c(4);
-                            bxxv a20 = bxxm.f165037a.mo74228a(bxvk2);
+                            GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) djd.mo74142c(4);
+                            bxxv a20 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
                             qnx qnx6 = qnx;
-                            a20.mo74220a(bxvk2, bxud.m123454a(h4), b7);
-                            a20.mo74225d(bxvk2);
+                            a20.mo74220a(GeneratedMessageLite2, bxud.m123454a(h4), b7);
+                            a20.mo74225d(GeneratedMessageLite2);
                             h4.mo73787a(0);
-                            bxvk.m124027b(bxvk2);
-                            b6.mo67668c((djd) bxvk2);
+                            GeneratedMessageLite.m124027b(GeneratedMessageLite2);
+                            b6.mo67668c((djd) GeneratedMessageLite2);
                             qli2 = z;
                             qnx = qnx6;
                             a4 = dky6;
@@ -1248,7 +1248,7 @@ public final class qln {
                     Iterator it9 = qnx.f41818c.iterator();
                     qli qli3 = qli2;
                     while (it9.hasNext()) {
-                        bxtx bxtx3 = (bxtx) it9.next();
+                        ByteString bxtx3 = (ByteString) it9.next();
                         bxus b9 = bxus.m123743b();
                         dky6 = a4;
                         try {
@@ -1257,14 +1257,14 @@ public final class qln {
                             try {
                                 bxuc h5 = bxtx3.mo73764h();
                                 Iterator it10 = it9;
-                                bxvk bxvk3 = (bxvk) djd2.mo74142c(4);
-                                bxxv a21 = bxxm.f165037a.mo74228a(bxvk3);
-                                a21.mo74220a(bxvk3, bxud.m123454a(h5), b9);
-                                a21.mo74225d(bxvk3);
+                                GeneratedMessageLite GeneratedMessageLite3 = (GeneratedMessageLite) djd2.mo74142c(4);
+                                bxxv a21 = bxxm.f165037a.mo74228a(GeneratedMessageLite3);
+                                a21.mo74220a(GeneratedMessageLite3, bxud.m123454a(h5), b9);
+                                a21.mo74225d(GeneratedMessageLite3);
                                 h5.mo73787a(0);
                                 try {
-                                    bxvk.m124027b(bxvk3);
-                                    b8.mo67668c((djd) bxvk3);
+                                    GeneratedMessageLite.m124027b(GeneratedMessageLite3);
+                                    b8.mo67668c((djd) GeneratedMessageLite3);
                                     qli3 = z;
                                     it9 = it10;
                                     a4 = dky6;

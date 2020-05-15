@@ -139,7 +139,7 @@ final class bdlo implements bdlq {
         }
         cioi cioi2 = (cioi) da.f164949b;
         if (!cioi2.f191073f.mo73666a()) {
-            cioi2.f191073f = bxvk.m124021a(cioi2.f191073f);
+            cioi2.f191073f = GeneratedMessageLite.m124021a(cioi2.f191073f);
         }
         bxsy.m123078a(asList, cioi2.f191073f);
         return (cioi) da.mo74062i();

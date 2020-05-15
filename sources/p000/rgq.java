@@ -15,7 +15,7 @@ final /* synthetic */ class rgq implements bmxz {
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
         String str = this.f42937a;
-        sek sek = AccountPickerChimeraActivity.f30075b;
+        Logger Logger = AccountPickerChimeraActivity.f30075b;
         return str.equals(((aczd) obj).f61129c);
     }
 }

@@ -20,7 +20,7 @@ final class arhg {
 
     /* renamed from: a */
     public final void mo48537a(aroj aroj) {
-        System.arraycopy(aroj.f88008e.mo73780k(), 0, this.f87723a, this.f87725c, aroj.f88008e.mo73744a());
+        System.arraycopy(aroj.f88008e.getKey(), 0, this.f87723a, this.f87725c, aroj.f88008e.mo73744a());
         this.f87724b = aroj.f88006c;
         this.f87725c += aroj.f88008e.mo73744a();
         aroj aroj2 = (aroj) this.f87726d.get(this.f87724b + 1);

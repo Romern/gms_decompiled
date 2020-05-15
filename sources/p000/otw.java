@@ -409,7 +409,7 @@ public final class otw implements owi {
             }
             bpdd bpdd2 = (bpdd) da.f164949b;
             if (!bpdd2.f135914c.mo73666a()) {
-                bpdd2.f135914c = bxvk.m124019a(bpdd2.f135914c);
+                bpdd2.f135914c = GeneratedMessageLite.m124019a(bpdd2.f135914c);
             }
             bxsy.m123078a(b, bpdd2.f135914c);
         }

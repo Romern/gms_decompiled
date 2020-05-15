@@ -27,7 +27,7 @@ public final class axov {
     /* renamed from: a */
     public final PutDataRequest mo53349a() {
         ayjj a = ayjk.m84108a(this.f96224a);
-        this.f96225b.f110876c = a.f97759a.mo73642k();
+        this.f96225b.f110876c = a.f97759a.serializeToBytes();
         int size = a.f97760b.size();
         int i = 0;
         while (i < size) {

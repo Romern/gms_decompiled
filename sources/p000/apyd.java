@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: apyd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class apyd extends bxvk implements bxxd {
+public final class apyd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final apyd f85119a;
@@ -13,7 +13,7 @@ public final class apyd extends bxvk implements bxxd {
     static {
         apyd apyd = new apyd();
         f85119a = apyd;
-        bxvk.m124024a(apyd.class, apyd);
+        GeneratedMessageLite.m124024a(apyd.class, apyd);
     }
 
     private apyd() {
@@ -31,7 +31,7 @@ public final class apyd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85119a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f85119a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new apyd();

@@ -75,10 +75,10 @@ public final class adll extends sji {
                 }
                 bxvd da = adii.f61801b.mo74144da();
                 for (Signature signature : signatureArr) {
-                    da.mo74041d(bxtx.m123261a(signature.toByteArray()));
+                    da.mo74041d(ByteString.m123261a(signature.toByteArray()));
                 }
                 ParcelFileDescriptor.AutoCloseInputStream autoCloseInputStream = new ParcelFileDescriptor.AutoCloseInputStream(parcelFileDescriptor);
-                adli.f62108d.mo33512a(str.getBytes(adli.f62106b), ((adii) da.mo74062i()).mo73642k());
+                adli.f62108d.mo33512a(str.getBytes(adli.f62106b), ((adii) da.mo74062i()).serializeToBytes());
                 srz.m36168a(autoCloseInputStream, new FileOutputStream(b), true);
                 this.f62118d.mo11797a(Status.f30107a);
                 return;

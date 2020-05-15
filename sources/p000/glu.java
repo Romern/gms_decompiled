@@ -16,7 +16,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public final class glu {
 
     /* renamed from: a */
-    public static final sek f18585a = ght.m13171a("GoogleAccountHistoryStore");
+    public static final Logger f18585a = ght.m13171a("GoogleAccountHistoryStore");
 
     /* renamed from: b */
     public static final String f18586b = String.format("CREATE TABLE IF NOT EXISTS %s ( %s INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, %s TEXT NOT NULL, %s INTEGER NOT NULL, %s INTEGER NOT NULL, %s TEXT);", "AccountHistory", "id", "account_name", "change_type", "event_index", "change_data");
@@ -126,7 +126,7 @@ public final class glu {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final void mo12039a(String str) {
-        sdo.m34966a((Object) this.f18592h, (Object) "Transaction must be started before it can be concluded.");
+        sdo.checkIfNull((Object) this.f18592h, (Object) "Transaction must be started before it can be concluded.");
         boolean equals = this.f18592h.equals(str);
         String str2 = this.f18592h;
         StringBuilder sb = new StringBuilder(String.valueOf(str2).length() + 44 + String.valueOf(str).length());

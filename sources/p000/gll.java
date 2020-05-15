@@ -9,7 +9,7 @@ import android.provider.Settings;
 public final class gll {
 
     /* renamed from: a */
-    private static final sek f18474a = new sek("FRP", "SecureFrpUtil");
+    private static final Logger f18474a = new Logger("FRP", "SecureFrpUtil");
 
     /* renamed from: a */
     static SharedPreferences m13390a(Context context) {

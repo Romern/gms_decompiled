@@ -12,7 +12,7 @@ public final class ite {
     public static final aebo f21677a;
 
     /* renamed from: b */
-    public final sek f21678b = new sek(new String[]{"EnrollmentScheduler"}, (byte[]) null);
+    public final Logger f21678b = new Logger(new String[]{"EnrollmentScheduler"}, (byte[]) null);
 
     /* renamed from: c */
     private final Context f21679c;

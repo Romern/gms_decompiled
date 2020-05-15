@@ -55,7 +55,7 @@ final class eap extends dqi {
             }
             bxnj bxnj = (bxnj) da.f164949b;
             if (!bxnj.f164041b.mo73666a()) {
-                bxnj.f164041b = bxvk.m124021a(bxnj.f164041b);
+                bxnj.f164041b = GeneratedMessageLite.m124021a(bxnj.f164041b);
             }
             bxsy.m123078a(asList, bxnj.f164041b);
             int b = ayuo.m84849b(location.getLatitude());

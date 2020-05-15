@@ -160,21 +160,21 @@ final class bxtz extends bxuc {
     }
 
     /* renamed from: l */
-    public final bxtx mo73803l() {
+    public final ByteString mo73803l() {
         int t = mo73811t();
         if (t > 0) {
             int i = this.f164803f;
             int i2 = this.f164805h;
             if (t <= i - i2) {
-                bxtx a = bxtx.m123262a(this.f164802e, i2, t);
+                ByteString a = ByteString.m123262a(this.f164802e, i2, t);
                 this.f164805h += t;
                 return a;
             }
         }
         if (t != 0) {
-            return bxtx.m123264b(mo73795e(t));
+            return ByteString.m123264b(mo73795e(t));
         }
-        return bxtx.f164797b;
+        return ByteString.f164797b;
     }
 
     /* renamed from: m */

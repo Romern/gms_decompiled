@@ -34,7 +34,7 @@ public final class lvx {
         }
         a.f171299c = true;
         f33089a.mo25412b("Creating transfer to %s", ccnf.m130737f());
-        return this.f33090b.mo74581a(ccnf.m130737f(), "PUT", bzsa, bzrx, Base64.encodeToString(lth.mo73642k(), 2), a.mo74579a());
+        return this.f33090b.mo74581a(ccnf.m130737f(), "PUT", bzsa, bzrx, Base64.encodeToString(lth.serializeToBytes(), 2), a.mo74579a());
     }
 
     /* renamed from: a */

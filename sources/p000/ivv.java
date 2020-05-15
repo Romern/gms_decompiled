@@ -31,7 +31,7 @@ public final class ivv {
         djc.f13309a = i | 2;
         djc.f13311c = 0;
         da.mo74000a((djc) da2.mo74062i());
-        if (moduleManager.checkFeaturesAreAvailable(ModuleManager.FeatureList.fromProto(((djf) da.mo74062i()).mo73642k())) != 0) {
+        if (moduleManager.checkFeaturesAreAvailable(ModuleManager.FeatureList.fromProto(((djf) da.mo74062i()).serializeToBytes())) != 0) {
             return false;
         }
         return true;

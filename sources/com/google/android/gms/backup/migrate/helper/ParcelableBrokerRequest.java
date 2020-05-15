@@ -15,7 +15,7 @@ public class ParcelableBrokerRequest implements Parcelable {
 
     public ParcelableBrokerRequest(Parcel parcel) {
         try {
-            this.f29058a = (mpw) bxvk.m124016a(mpw.f34222b, parcel.createByteArray(), bxus.m123744c());
+            this.f29058a = (mpw) GeneratedMessageLite.m124016a(mpw.f34222b, parcel.createByteArray(), bxus.m123744c());
             this.f29059b = null;
         } catch (bxwf e) {
             this.f29058a = null;

@@ -234,7 +234,7 @@ public final class awen extends awpc {
             PageDetails pageDetails = this.f94219a.f95398ak;
             blym blym2 = (blym) pageDetails.f110460i;
             bxvd bxvd = (bxvd) blym2.mo74142c(5);
-            bxvd.mo73625a((bxvk) blym2);
+            bxvd.mo73625a((GeneratedMessageLite) blym2);
             blyj blyj = (blyj) bxvd;
             bmgn a = awfo.m79855a(bmgn, secureElementStoredValueArr, nrVar);
             if (blyj.f164950c) {
@@ -318,8 +318,8 @@ public final class awen extends awpc {
         try {
             bmcc bmcc = I.f95323u;
             bxvd bxvd = (bxvd) bmcc.mo74142c(5);
-            bxvd.mo73625a((bxvk) bmcc);
-            bmcv bmcv = (bmcv) bxvk.m124016a(bmcv.f128750g, bArr, bxus.m123744c());
+            bxvd.mo73625a((GeneratedMessageLite) bmcc);
+            bmcv bmcv = (bmcv) GeneratedMessageLite.m124016a(bmcv.f128750g, bArr, bxus.m123744c());
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;

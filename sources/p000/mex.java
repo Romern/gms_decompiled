@@ -76,7 +76,7 @@ public final class mex {
             if (lvp.mo19648f()) {
                 lvp.f33054a.cancelBackups();
             }
-            f33552a.mo25409a("Requesting backup of %s", this.f33553b);
+            f33552a.logVerbose("Requesting backup of %s", this.f33553b);
             int a = this.f33562k.mo19638a(new String[]{this.f33553b}, this.f33565n, this.f33563l, 1);
             if (a != 0) {
                 mo19904a(a);

@@ -8,9 +8,9 @@ public final class rbz {
     public final caik f42607a;
 
     /* renamed from: b */
-    public final bxtx f42608b;
+    public final ByteString f42608b;
 
-    public rbz(caik caik, bxtx bxtx) {
+    public rbz(caik caik, ByteString bxtx) {
         this.f42607a = caik;
         this.f42608b = bxtx;
     }

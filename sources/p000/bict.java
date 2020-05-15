@@ -60,7 +60,7 @@ public final class bict implements bhrm {
         this.f120242e = new bhva();
         C1245ok okVar = new C1245ok();
         try {
-            bvmr bvmr = ((bvmq) bxvk.m124014a(bvmq.f156775b, srz.m36178b(context.getResources().getAssets().open("on_the_go_model_parameters")))).f156777a;
+            bvmr bvmr = ((bvmq) GeneratedMessageLite.m124014a(bvmq.f156775b, srz.m36178b(context.getResources().getAssets().open("on_the_go_model_parameters")))).f156777a;
             if (bvmr == null) {
                 bvmr = bvmr.f156779b;
             }

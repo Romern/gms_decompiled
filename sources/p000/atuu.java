@@ -74,7 +74,7 @@ public final class atuu extends atvb {
             btlo.mo70826a(Arrays.asList(f90938b));
             byte[] bArr = this.f90941i;
             if (bArr != null) {
-                bxtx a2 = bxtx.m123261a(bArr);
+                ByteString a2 = ByteString.m123261a(bArr);
                 if (btlo.f164950c) {
                     btlo.mo74035c();
                     btlo.f164950c = false;
@@ -151,7 +151,7 @@ public final class atuu extends atvb {
             btlo.mo70826a(Arrays.asList(f90938b));
             byte[] bArr = this.f90941i;
             if (bArr != null) {
-                bxtx a2 = bxtx.m123261a(bArr);
+                ByteString a2 = ByteString.m123261a(bArr);
                 if (btlo.f164950c) {
                     btlo.mo74035c();
                     btlo.f164950c = false;

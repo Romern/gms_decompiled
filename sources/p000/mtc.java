@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mtc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mtc extends bxvk implements bxxd {
+public final class mtc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final mtc f34642b;
@@ -19,7 +19,7 @@ public final class mtc extends bxvk implements bxxd {
     static {
         mtc mtc = new mtc();
         f34642b = mtc;
-        bxvk.m124024a(mtc.class, mtc);
+        GeneratedMessageLite.m124024a(mtc.class, mtc);
     }
 
     private mtc() {
@@ -37,7 +37,7 @@ public final class mtc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34642b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f34642b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new mtc();
         } else {

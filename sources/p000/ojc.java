@@ -24,7 +24,7 @@ public final class ojc extends ojh {
             return;
         }
         if (i == 32770) {
-            bitn bitn = (bitn) bxvk.m124013a(bitn.f121680d, byteBuffer, bxus.m123744c());
+            bitn bitn = (bitn) GeneratedMessageLite.m124013a(bitn.f121680d, byteBuffer, bxus.m123744c());
             ojb ojb = this.f37738b;
             String str = bitn.f121683b;
             String str2 = bitn.f121684c;

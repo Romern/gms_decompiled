@@ -56,19 +56,19 @@ public final class bibe extends bibp {
         bvly bvly = (bvly) obj;
         bonq a = bibp.m101914a(4, i, j, placesParams);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bpqk bpqk = ((bonq) bxvd.f164949b).f133837c;
         if (bpqk == null) {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         bxvd da = bpow.f138581c.mo74144da();
         if (bvly != null) {
             i2 = bvly.f156623b.size();
@@ -116,8 +116,8 @@ public final class bibe extends bibp {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo64507a() {
         if (!TextUtils.isEmpty(this.f120120i.f79574d)) {
-            return (bvly) this.f120121j.mo25515a(this.f120114c, 1, this.f120153a, bian.m101868a(this.f120113b, this.f120118g, this.f120117f, this.f120119h, this.f120120i).mo73642k(), bvly.f156620c, cggs.m145360c(), 10265);
+            return (bvly) this.f120121j.mo25515a(this.f120114c, 1, this.f120153a, bian.m101868a(this.f120113b, this.f120118g, this.f120117f, this.f120119h, this.f120120i).serializeToBytes(), bvly.f156620c, cggs.m145360c(), 10265);
         }
-        return (bvly) this.f120121j.mo25517a(this.f120153a, bian.m101868a(this.f120113b, this.f120118g, this.f120117f, this.f120119h, this.f120120i).mo73642k(), bvly.f156620c, this.f120115d, this.f120116e, cggs.m145360c(), 10265);
+        return (bvly) this.f120121j.mo25517a(this.f120153a, bian.m101868a(this.f120113b, this.f120118g, this.f120117f, this.f120119h, this.f120120i).serializeToBytes(), bvly.f156620c, this.f120115d, this.f120116e, cggs.m145360c(), 10265);
     }
 }

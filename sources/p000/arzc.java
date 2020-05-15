@@ -7,14 +7,14 @@ import android.os.Bundle;
 public final class arzc extends arze {
 
     /* renamed from: c */
-    private static final sek f88506c = ascp.m73787a("Setup", "UI", "HeadlessLockScreenFragment");
+    private static final Logger f88506c = ascp.m73787a("Setup", "UI", "HeadlessLockScreenFragment");
 
     /* renamed from: b */
     private boolean f88507b = false;
 
     public final void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        f88506c.mo25409a("Created headless Lock Screen fragment", new Object[0]);
+        f88506c.logVerbose("Created headless Lock Screen fragment", new Object[0]);
         if (bundle != null) {
             this.f88507b = bundle.getBoolean("deviceLocked", false);
         }

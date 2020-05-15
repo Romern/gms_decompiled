@@ -38,7 +38,7 @@ public final class naw {
         long j = 0;
         for (int i = 0; i < size; i++) {
             mco mco = (mco) bxwc.get(i);
-            h.mo67695b(new nbw(mco.f33429b.mo73780k()), new nbx(j, mco.f33430c));
+            h.mo67695b(new nbw(mco.f33429b.getKey()), new nbx(j, mco.f33430c));
             j += (long) mco.f33430c;
         }
         this.f35155c = new nby(h.mo67618b());

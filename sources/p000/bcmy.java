@@ -32,7 +32,7 @@ public final class bcmy implements bcnl {
         }
         cbmo.getClass();
         ((cbcu) da.f164949b).f176691a = cbmo;
-        bxtx c = this.f104511a.mo57059c();
+        ByteString c = this.f104511a.mo57059c();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -46,7 +46,7 @@ public final class bcmy implements bcnl {
         }
         cbcu cbcu = (cbcu) da.f164949b;
         if (!cbcu.f176693c.mo73666a()) {
-            cbcu.f176693c = bxvk.m124019a(cbcu.f176693c);
+            cbcu.f176693c = GeneratedMessageLite.m124019a(cbcu.f176693c);
         }
         int size = a.size();
         for (int i = 0; i < size; i++) {

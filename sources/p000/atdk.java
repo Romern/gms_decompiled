@@ -23,7 +23,7 @@ public final class atdk implements atcv {
 
     public atdk(ataq ataq) {
         bxvd bxvd = (bxvd) ataq.mo74142c(5);
-        bxvd.mo73625a((bxvk) ataq);
+        bxvd.mo73625a((GeneratedMessageLite) ataq);
         this.f90122a = (atap) bxvd;
     }
 
@@ -76,7 +76,7 @@ public final class atdk implements atcv {
         int i2 = 0;
         while (i2 < size) {
             try {
-                byte[] h = assu.m74713a(((bmsv) bxwc.get(i2)).f130760c.mo73780k()).mo49448c().mo49438a(24360).mo49442h();
+                byte[] h = assu.m74713a(((bmsv) bxwc.get(i2)).f130760c.getKey()).mo49448c().mo49438a(24360).mo49442h();
                 if (h == null) {
                     i2++;
                 } else {
@@ -98,7 +98,7 @@ public final class atdk implements atcv {
 
     /* renamed from: h */
     public final byte[] mo49806h() {
-        return ((ataq) this.f90122a.mo74062i()).mo73642k();
+        return ((ataq) this.f90122a.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: a */
@@ -182,22 +182,22 @@ public final class atdk implements atcv {
             bmst = bmst.f130745c;
         }
         casd casd = new casd();
-        casd.mo74808a(bmsw.f130777o.mo73780k(), bmsw.f130768f.mo73780k(), bmsw.f130764b, bmsw.f130765c.mo73780k(), bmsw.f130766d.mo73780k(), bmsw.f130778p.mo73780k(), bmsw.f130775m.mo73780k(), bmsw.f130767e.mo73780k(), bmsw.f130763a.mo73780k(), bmsw.f130774l.mo73780k());
-        casd.mo74807a(bmst.f130748b.mo73780k(), bmst.f130747a.mo73780k());
-        casd.mo74811b(bmsw.f130772j.mo73780k(), bmsw.f130773k.mo73780k(), bmsw.f130770h.mo73780k(), bmsw.f130771i.mo73780k(), bmsw.f130769g.mo73780k());
+        casd.mo74808a(bmsw.f130777o.getKey(), bmsw.f130768f.getKey(), bmsw.f130764b, bmsw.f130765c.getKey(), bmsw.f130766d.getKey(), bmsw.f130778p.getKey(), bmsw.f130775m.getKey(), bmsw.f130767e.getKey(), bmsw.f130763a.getKey(), bmsw.f130774l.getKey());
+        casd.mo74807a(bmst.f130748b.getKey(), bmst.f130747a.getKey());
+        casd.mo74811b(bmsw.f130772j.getKey(), bmsw.f130773k.getKey(), bmsw.f130770h.getKey(), bmsw.f130771i.getKey(), bmsw.f130769g.getKey());
         bmsu bmsu = bmsw.f130776n;
         if (bmsu != null) {
-            casd.mo74809a(bmsu.f130755e.mo73780k(), bmsu.f130754d.mo73780k(), bmsu.f130753c.mo73780k(), bmsu.f130751a.mo73780k(), bmsu.f130752b.mo73780k());
+            casd.mo74809a(bmsu.f130755e.getKey(), bmsu.f130754d.getKey(), bmsu.f130753c.getKey(), bmsu.f130751a.getKey(), bmsu.f130752b.getKey());
         }
         bxwc bxwc = bmsw.f130779q;
         int size = bxwc.size();
         for (int i = 0; i < size; i++) {
             bmsv bmsv = (bmsv) bxwc.get(i);
-            casd.mo74806a(bmsv.f130759b.mo73780k()[0], bmsv.f130758a.mo73780k()[0], bmsv.f130760c.mo73780k());
+            casd.mo74806a(bmsv.f130759b.getKey()[0], bmsv.f130758a.getKey()[0], bmsv.f130760c.getKey());
         }
         bmsx bmsx = bmsy.f130794c;
         if (bmsx != null) {
-            casd.mo74810a(bmsx.f130783b.mo73780k(), bmsx.f130789h.mo73780k(), bmsx.f130788g.mo73780k(), bmsx.f130785d.mo73780k(), bmsx.f130782a.mo73780k(), bmsx.f130784c.mo73780k(), bmsx.f130787f.mo73780k(), bmsx.f130786e.mo73780k());
+            casd.mo74810a(bmsx.f130783b.getKey(), bmsx.f130789h.getKey(), bmsx.f130788g.getKey(), bmsx.f130785d.getKey(), bmsx.f130782a.getKey(), bmsx.f130784c.getKey(), bmsx.f130787f.getKey(), bmsx.f130786e.getKey());
         }
         return casd.mo74805a();
     }
@@ -216,7 +216,7 @@ public final class atdk implements atcv {
             if (ataq.f89969e < ataq.f89967c.size()) {
                 byte[] bArr = asrh.f89510c;
                 atap atap = this.f90122a;
-                if (Arrays.equals(bArr, atap.mo49766a(((ataq) atap.f164949b).f89969e).f130799c.mo73780k())) {
+                if (Arrays.equals(bArr, atap.mo49766a(((ataq) atap.f164949b).f89969e).f130799c.getKey())) {
                     atap atap2 = this.f90122a;
                     int i = ((ataq) atap2.f164949b).f89969e + 1;
                     if (atap2.f164950c) {
@@ -273,7 +273,7 @@ public final class atdk implements atcv {
             atap.f164950c = false;
         }
         ataq ataq = ataq.f89963f;
-        ((ataq) atap.f164949b).f89968d = bxvk.m124030de();
+        ((ataq) atap.f164949b).f89968d = GeneratedMessageLite.m124030de();
         List asList = Arrays.asList(btmaArr);
         if (atap.f164950c) {
             atap.mo74035c();
@@ -281,7 +281,7 @@ public final class atdk implements atcv {
         }
         ataq ataq2 = (ataq) atap.f164949b;
         if (!ataq2.f89968d.mo73666a()) {
-            ataq2.f89968d = bxvk.m124021a(ataq2.f89968d);
+            ataq2.f89968d = GeneratedMessageLite.m124021a(ataq2.f89968d);
         }
         bxsy.m123078a(asList, ataq2.f89968d);
     }
@@ -477,7 +477,7 @@ public final class atdk implements atcv {
         int size = ((ataq) this.f90122a.f164949b).f89967c.size();
         btma[] btmaArr = new btma[size];
         for (int i = 0; i < size; i++) {
-            short a = bqct.m112601a(this.f90122a.mo49766a(i).f130799c.mo73780k());
+            short a = bqct.m112601a(this.f90122a.mo49766a(i).f130799c.getKey());
             btma btma2 = (btma) hashMap.get(Short.valueOf(a));
             if (btma2 == null) {
                 if (i >= ((ataq) this.f90122a.f164949b).f89969e) {
@@ -513,7 +513,7 @@ public final class atdk implements atcv {
         }
         btmb btmb = (btmb) da4.f164949b;
         if (!btmb.f149464a.mo73666a()) {
-            btmb.f149464a = bxvk.m124021a(btmb.f149464a);
+            btmb.f149464a = GeneratedMessageLite.m124021a(btmb.f149464a);
         }
         bxsy.m123078a(asList, btmb.f149464a);
         if (da3.f164950c) {

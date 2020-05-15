@@ -84,7 +84,7 @@ public final class dxj extends dxd {
             bxjh bxjh2 = (bxjh) da.f164949b;
             bxjw3.getClass();
             if (!bxjh2.f163640c.mo73666a()) {
-                bxjh2.f163640c = bxvk.m124021a(bxjh2.f163640c);
+                bxjh2.f163640c = GeneratedMessageLite.m124021a(bxjh2.f163640c);
             }
             bxjh2.f163640c.add(bxjw3);
             duu.f14134q = 2;

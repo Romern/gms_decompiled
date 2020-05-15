@@ -31,11 +31,11 @@ public final class acxx {
     private final acyb f61064e;
 
     public acxx(acya acya, SecretKey secretKey, acyb acyb, SecretKey secretKey2, SecureRandom secureRandom) {
-        sdo.m34966a(acya, "Cipher must not be null.");
-        sdo.m34966a(secretKey, "Message key must not be null.");
-        sdo.m34966a(acyb, "MAC must not be null.");
-        sdo.m34966a(secretKey2, "MAC key must not be null.");
-        sdo.m34966a(secureRandom, "Random must not be null.");
+        sdo.checkIfNull(acya, "Cipher must not be null.");
+        sdo.checkIfNull(secretKey, "Message key must not be null.");
+        sdo.checkIfNull(acyb, "MAC must not be null.");
+        sdo.checkIfNull(secretKey2, "MAC key must not be null.");
+        sdo.checkIfNull(secureRandom, "Random must not be null.");
         this.f61063d = acya;
         this.f61062c = secretKey2;
         this.f61061b = secretKey;

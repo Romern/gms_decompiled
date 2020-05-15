@@ -802,14 +802,14 @@ public final class aowy {
             if (blnk == null) {
                 blnk = blnk.f126992a;
             }
-            contentValues.put("assistance", blnk.mo73642k());
+            contentValues.put("assistance", blnk.serializeToBytes());
         }
         if ((blrj.f127458a & AndroidInputTypeSignal.TYPE_TEXT_FLAG_MULTI_LINE) != 0) {
             blow blow = blrj.f127475r;
             if (blow == null) {
                 blow = blow.f127157a;
             }
-            contentValues.put("extensions", blow.mo73642k());
+            contentValues.put("extensions", blow.serializeToBytes());
         }
         int i2 = blrj.f127458a;
         if ((i2 & 4096) != 0) {

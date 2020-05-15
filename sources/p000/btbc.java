@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btbc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btbc extends bxvk implements bxxd {
+public final class btbc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final btbc f148098f;
@@ -28,7 +28,7 @@ public final class btbc extends bxvk implements bxxd {
     static {
         btbc btbc = new btbc();
         f148098f = btbc;
-        bxvk.m124024a(btbc.class, btbc);
+        GeneratedMessageLite.m124024a(btbc.class, btbc);
     }
 
     private btbc() {
@@ -45,7 +45,7 @@ public final class btbc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148098f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005Ȉ", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f148098f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005Ȉ", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new btbc();
         } else {

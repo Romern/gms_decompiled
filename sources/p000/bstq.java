@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bstq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bstq extends bxvk implements bxxd {
+public final class bstq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bstq f147044a;
@@ -13,7 +13,7 @@ public final class bstq extends bxvk implements bxxd {
     static {
         bstq bstq = new bstq();
         f147044a = bstq;
-        bxvk.m124024a(bstq.class, bstq);
+        GeneratedMessageLite.m124024a(bstq.class, bstq);
     }
 
     private bstq() {
@@ -30,7 +30,7 @@ public final class bstq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147044a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f147044a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bstq();

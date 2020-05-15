@@ -53,10 +53,10 @@ public final class byqx {
         this.f167441a = byqw.FAILED;
         try {
             this.f167445e = secretKey;
-            byte[] k = bysw.m125309a((byti) bxvk.m124014a(byti.f167671d, bArr)).f167655g.mo73780k();
+            byte[] k = bysw.m125309a((byti) GeneratedMessageLite.m124014a(byti.f167671d, bArr)).f167655g.getKey();
             bysv bysv = new bysv();
             bysv.f167622a = bArr;
-            byte[] k2 = bysv.mo74498a(this.f167445e, byss.HMAC_SHA256, this.f167445e, bysr.AES_256_CBC, bArr2).mo73642k();
+            byte[] k2 = bysv.mo74498a(this.f167445e, byss.HMAC_SHA256, this.f167445e, bysr.AES_256_CBC, bArr2).serializeToBytes();
             byrd b = byrd.m125181b();
             this.f167444d = b;
             b.mo74486b(k);
@@ -76,7 +76,7 @@ public final class byqx {
         bmxy.m108581a(bArr2);
         bmxy.m108588a(!list.isEmpty());
         try {
-            int a = m125139a((byti) bxvk.m124014a(byti.f167671d, bArr), list);
+            int a = m125139a((byti) GeneratedMessageLite.m124014a(byti.f167671d, bArr), list);
             if (a < 0) {
                 byte[] bArr3 = new byte[32];
                 new SecureRandom().nextBytes(bArr3);
@@ -107,12 +107,12 @@ public final class byqx {
         byqy e = this.f167444d.mo74489e();
         this.f167442b = e;
         try {
-            bytd a = bysw.m125312a((byti) bxvk.m124014a(byti.f167671d, e.mo74478b(bArr)), this.f167445e, byss.HMAC_SHA256, this.f167445e, bysr.AES_256_CBC, this.f167443c);
+            bytd a = bysw.m125312a((byti) GeneratedMessageLite.m124014a(byti.f167671d, e.mo74478b(bArr)), this.f167445e, byss.HMAC_SHA256, this.f167445e, bysr.AES_256_CBC, this.f167443c);
             this.f167444d = null;
             this.f167443c = null;
             this.f167445e = null;
             this.f167441a = byqw.COMPLETE;
-            a.f167662c.mo73780k();
+            a.f167662c.getKey();
         } catch (InvalidKeyException e2) {
             throw new SignatureException(e2);
         } catch (bxwf e3) {

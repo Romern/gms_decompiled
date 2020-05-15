@@ -24,7 +24,7 @@ public final class qxj implements qwq {
 
     /* renamed from: a */
     public final byte[] mo14930a() {
-        return mo24362b().mo73642k();
+        return mo24362b().serializeToBytes();
     }
 
     /* renamed from: b */
@@ -46,7 +46,7 @@ public final class qxj implements qwq {
         cahe.f174540b = j;
         byte[] bArr = this.f42365a;
         if (bArr.length != 0) {
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

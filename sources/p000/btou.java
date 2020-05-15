@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btou */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btou extends bxvk implements bxxd {
+public final class btou extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btou f149804a;
@@ -13,7 +13,7 @@ public final class btou extends bxvk implements bxxd {
     static {
         btou btou = new btou();
         f149804a = btou;
-        bxvk.m124024a(btou.class, btou);
+        GeneratedMessageLite.m124024a(btou.class, btou);
     }
 
     private btou() {
@@ -30,7 +30,7 @@ public final class btou extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149804a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f149804a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btou();

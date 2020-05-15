@@ -17,7 +17,7 @@ import java.util.zip.ZipFile;
 public final class avlx {
 
     /* renamed from: a */
-    private static final sek f93344a = avpq.m79016c("PackageMetadatas");
+    private static final Logger f93344a = avpq.m79016c("PackageMetadatas");
     @Deprecated
 
     /* renamed from: b */
@@ -56,7 +56,7 @@ public final class avlx {
         }
         avsv avsv2 = (avsv) avsu.f164949b;
         if (!avsv2.f93860a.mo73666a()) {
-            avsv2.f93860a = bxvk.m124021a(avsv2.f93860a);
+            avsv2.f93860a = GeneratedMessageLite.m124021a(avsv2.f93860a);
         }
         bxsy.m123078a(a2, avsv2.f93860a);
         Iterable a3 = f93349f.mo66918a((CharSequence) bmxx.m108578b((String) map.get(str.concat("radio"))));
@@ -66,7 +66,7 @@ public final class avlx {
         }
         avsv avsv3 = (avsv) avsu.f164949b;
         if (!avsv3.f93863d.mo73666a()) {
-            avsv3.f93863d = bxvk.m124021a(avsv3.f93863d);
+            avsv3.f93863d = GeneratedMessageLite.m124021a(avsv3.f93863d);
         }
         bxsy.m123078a(a3, avsv3.f93863d);
         Iterable a4 = f93349f.mo66918a((CharSequence) bmxx.m108578b((String) map.get(str.concat("device"))));
@@ -76,7 +76,7 @@ public final class avlx {
         }
         avsv avsv4 = (avsv) avsu.f164949b;
         if (!avsv4.f93862c.mo73666a()) {
-            avsv4.f93862c = bxvk.m124021a(avsv4.f93862c);
+            avsv4.f93862c = GeneratedMessageLite.m124021a(avsv4.f93862c);
         }
         bxsy.m123078a(a4, avsv4.f93862c);
         Long a5 = bqcr.m112596a(bmxx.m108578b((String) map.get(str.concat("timestamp"))));

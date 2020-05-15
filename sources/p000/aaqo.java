@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aaqo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aaqo extends bxvk implements bxxd {
+public final class aaqo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final aaqo f28924f;
@@ -28,7 +28,7 @@ public final class aaqo extends bxvk implements bxxd {
     static {
         aaqo aaqo = new aaqo();
         f28924f = aaqo;
-        bxvk.m124024a(aaqo.class, aaqo);
+        GeneratedMessageLite.m124024a(aaqo.class, aaqo);
     }
 
     private aaqo() {
@@ -45,7 +45,7 @@ public final class aaqo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28924f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003င\u0002\u0004ဂ\u0003", new Object[]{"a", "b", aaqn.f28923a, "c", aaqm.f28922a, "d", "e"});
+            return GeneratedMessageLite.m124022a(f28924f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003င\u0002\u0004ဂ\u0003", new Object[]{"a", "b", aaqn.f28923a, "c", aaqm.f28922a, "d", "e"});
         } else if (i2 == 3) {
             return new aaqo();
         } else {

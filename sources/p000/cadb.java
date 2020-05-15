@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cadb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cadb extends bxvk implements bxxd {
+public final class cadb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cadb f172650b;
@@ -19,7 +19,7 @@ public final class cadb extends bxvk implements bxxd {
     static {
         cadb cadb = new cadb();
         f172650b = cadb;
-        bxvk.m124024a(cadb.class, cadb);
+        GeneratedMessageLite.m124024a(cadb.class, cadb);
     }
 
     private cadb() {
@@ -36,7 +36,7 @@ public final class cadb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172650b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f172650b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new cadb();
         } else {

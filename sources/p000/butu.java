@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: butu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class butu extends bxvk implements bxxd {
+public final class butu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final butu f154874f;
@@ -28,7 +28,7 @@ public final class butu extends bxvk implements bxxd {
     static {
         butu butu = new butu();
         f154874f = butu;
-        bxvk.m124024a(butu.class, butu);
+        GeneratedMessageLite.m124024a(butu.class, butu);
     }
 
     private butu() {
@@ -45,7 +45,7 @@ public final class butu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154874f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f154874f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new butu();
         } else {

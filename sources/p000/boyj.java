@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boyj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boyj extends bxvk implements bxxd {
+public final class boyj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final boyj f135319i;
@@ -37,7 +37,7 @@ public final class boyj extends bxvk implements bxxd {
     static {
         boyj boyj = new boyj();
         f135319i = boyj;
-        bxvk.m124024a(boyj.class, boyj);
+        GeneratedMessageLite.m124024a(boyj.class, boyj);
     }
 
     private boyj() {
@@ -54,7 +54,7 @@ public final class boyj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135319i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0003\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0004\u001a\u0005\u001a\u0006\u001a\u0007ဂ\u0003", new Object[]{"a", "b", boyi.f135318a, "c", boyg.f135317a, "d", boyf.f135316a, "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f135319i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0003\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0004\u001a\u0005\u001a\u0006\u001a\u0007ဂ\u0003", new Object[]{"a", "b", boyi.f135318a, "c", boyg.f135317a, "d", boyf.f135316a, "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new boyj();
         } else {

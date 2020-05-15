@@ -21,7 +21,7 @@ public final class ufj extends FilterInputStream {
         super(inputStream);
         MessageDigest b = spn.m35868b(str);
         this.f47436a = b;
-        sdo.m34966a(b, str.length() == 0 ? new String("Unable to create message digest for ") : "Unable to create message digest for ".concat(str));
+        sdo.checkIfNull(b, str.length() == 0 ? new String("Unable to create message digest for ") : "Unable to create message digest for ".concat(str));
         if (inputStream.markSupported()) {
             this.f47437b = true;
             m38278a();

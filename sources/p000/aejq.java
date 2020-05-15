@@ -21,8 +21,8 @@ final class aejq extends aejr {
         aekl aekl = (aekl) rjd;
         RemoveGeofencingRequest removeGeofencingRequest = this.f63459a;
         aekl.mo25288A();
-        sdo.m34966a(removeGeofencingRequest, "removeGeofencingRequest can't be null.");
-        sdo.m34966a(this, "ResultHolder not provided.");
+        sdo.checkIfNull(removeGeofencingRequest, "removeGeofencingRequest can't be null.");
+        sdo.checkIfNull(this, "ResultHolder not provided.");
         ((aekb) aekl.mo25289B()).mo34225a(removeGeofencingRequest, new aekk(this));
     }
 }

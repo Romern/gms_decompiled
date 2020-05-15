@@ -14,7 +14,7 @@ final /* synthetic */ class tae implements Runnable {
 
     public final void run() {
         ApiConsentChimeraActivity apiConsentChimeraActivity = this.f45546a.f45547a;
-        sek sek = ApiConsentChimeraActivity.f30509a;
+        Logger Logger = ApiConsentChimeraActivity.f30509a;
         apiConsentChimeraActivity.f30512d = 7;
         apiConsentChimeraActivity.finish();
     }

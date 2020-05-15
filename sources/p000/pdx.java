@@ -84,7 +84,7 @@ final class pdx {
                     if (pdz.f38911O != null) {
                         Pair a = pcm.m30203a(bArr, 2, s3 + 2);
                         if (a != null) {
-                            byte[] k = ((bxxc) a.second).mo73642k();
+                            byte[] k = ((bxxc) a.second).serializeToBytes();
                             ByteBuffer a2 = this.f38893d.mo22942a(((Integer) a.first).intValue(), k);
                             System.arraycopy(a2.array(), 0, bArr, 0, a2.array().length);
                             s4 = ((Integer) a.first).shortValue();

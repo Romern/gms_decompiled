@@ -8,7 +8,7 @@ import android.telephony.TelephonyManager;
 public final class jvl {
 
     /* renamed from: a */
-    public static final sek f23366a = ght.m13171a("CarrierSetupHelper");
+    public static final Logger f23366a = ght.m13171a("CarrierSetupHelper");
 
     /* renamed from: b */
     public final TelephonyManager f23367b;

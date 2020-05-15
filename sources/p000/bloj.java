@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bloj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bloj extends bxvk implements bxxd {
+public final class bloj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bloj f127093e;
@@ -25,7 +25,7 @@ public final class bloj extends bxvk implements bxxd {
     static {
         bloj bloj = new bloj();
         f127093e = bloj;
-        bxvk.m124024a(bloj.class, bloj);
+        GeneratedMessageLite.m124024a(bloj.class, bloj);
     }
 
     private bloj() {
@@ -42,7 +42,7 @@ public final class bloj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127093e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001\u0016\u0003ဌ\u0002\u0004င\u0003", new Object[]{"a", "b", "c", bloo.m107422b(), "d"});
+            return GeneratedMessageLite.m124022a(f127093e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001\u0016\u0003ဌ\u0002\u0004င\u0003", new Object[]{"a", "b", "c", bloo.m107422b(), "d"});
         } else if (i2 == 3) {
             return new bloj();
         } else {

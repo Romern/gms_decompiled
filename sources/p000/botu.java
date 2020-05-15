@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: botu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class botu extends bxvk implements bxxd {
+public final class botu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final botu f134876b;
@@ -16,7 +16,7 @@ public final class botu extends bxvk implements bxxd {
     static {
         botu botu = new botu();
         f134876b = botu;
-        bxvk.m124024a(botu.class, botu);
+        GeneratedMessageLite.m124024a(botu.class, botu);
     }
 
     private botu() {
@@ -33,7 +33,7 @@ public final class botu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134876b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bott.class});
+            return GeneratedMessageLite.m124022a(f134876b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bott.class});
         } else if (i2 == 3) {
             return new botu();
         } else {

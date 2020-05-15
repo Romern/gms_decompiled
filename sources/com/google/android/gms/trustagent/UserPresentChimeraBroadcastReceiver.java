@@ -46,7 +46,7 @@ public class UserPresentChimeraBroadcastReceiver extends BroadcastReceiver {
                     bohi = a.f92326c;
                 }
                 bxvd bxvd = (bxvd) bohi.mo74142c(5);
-                bxvd.mo73625a((bxvk) bohi);
+                bxvd.mo73625a((GeneratedMessageLite) bohi);
                 bogj = (bogj) bxvd;
                 bxvd da = bogx.f133038d.mo74144da();
                 if (da.f164950c) {
@@ -85,7 +85,7 @@ public class UserPresentChimeraBroadcastReceiver extends BroadcastReceiver {
                         bogw bogw2 = (bogw) da2.mo74062i();
                         bogw2.getClass();
                         if (!bogx2.f133042c.mo73666a()) {
-                            bogx2.f133042c = bxvk.m124021a(bogx2.f133042c);
+                            bogx2.f133042c = GeneratedMessageLite.m124021a(bogx2.f133042c);
                         }
                         bogx2.f133042c.add(bogw2);
                     }

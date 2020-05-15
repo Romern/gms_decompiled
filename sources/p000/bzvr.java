@@ -17,7 +17,7 @@ public final class bzvr extends bxvd implements bxxd {
         bzvs bzvs2 = bzvs.f171544b;
         bzvq.getClass();
         if (!bzvs.f171546a.mo73666a()) {
-            bzvs.f171546a = bxvk.m124021a(bzvs.f171546a);
+            bzvs.f171546a = GeneratedMessageLite.m124021a(bzvs.f171546a);
         }
         bzvs.f171546a.add(bzvq);
     }

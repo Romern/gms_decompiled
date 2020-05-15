@@ -27,7 +27,7 @@ public interface rdp extends Closeable {
     boolean mo24487a();
 
     /* renamed from: a */
-    boolean mo24488a(caik caik, bxtx bxtx);
+    boolean mo24488a(caik caik, ByteString bxtx);
 
     /* renamed from: a */
     boolean mo24489a(String str);

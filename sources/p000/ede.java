@@ -130,7 +130,7 @@ final class ede extends dqi {
                             bxmn.mo74035c();
                             bxmn.f164950c = false;
                         }
-                        ((bxmo) bxmn.f164949b).f163968a = bxvk.m124030de();
+                        ((bxmo) bxmn.f164949b).f163968a = GeneratedMessageLite.m124030de();
                         bxmn.mo73591a(a2);
                     }
                     tip tip = new tip(7, i4, 1);

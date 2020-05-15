@@ -71,7 +71,7 @@ public final class bdqe {
                 cinx.f190995a = i7 | 512;
                 cinx cinx2 = (cinx) da.mo74062i();
                 bxvd bxvd = (bxvd) cinx2.mo74142c(5);
-                bxvd.mo73625a((bxvk) cinx2);
+                bxvd.mo73625a((GeneratedMessageLite) cinx2);
                 if (bdqd.mo58294a()) {
                     long j7 = ((bdqd) list.get(list.size() - 1)).f106251c - bdqd2.f106250b;
                     if (bxvd.f164950c) {
@@ -92,7 +92,7 @@ public final class bdqe {
             cinx.f190995a = i7 | 512;
             cinx cinx22 = (cinx) da.mo74062i();
             bxvd bxvd2 = (bxvd) cinx22.mo74142c(5);
-            bxvd2.mo73625a((bxvk) cinx22);
+            bxvd2.mo73625a((GeneratedMessageLite) cinx22);
             if (bdqd.mo58294a()) {
             }
             this.f106257b.add((cinx) bxvd2.mo74062i());

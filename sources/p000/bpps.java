@@ -17,7 +17,7 @@ public final class bpps extends bxvd implements bxxd {
         bppt bppt2 = bppt.f138657d;
         str.getClass();
         if (!bppt.f138660b.mo73666a()) {
-            bppt.f138660b = bxvk.m124021a(bppt.f138660b);
+            bppt.f138660b = GeneratedMessageLite.m124021a(bppt.f138660b);
         }
         bppt.f138660b.add(str);
     }

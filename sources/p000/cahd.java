@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cahd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cahd extends bxvk implements bxxd {
+public final class cahd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cahd f174532d;
@@ -22,7 +22,7 @@ public final class cahd extends bxvk implements bxxd {
     static {
         cahd cahd = new cahd();
         f174532d = cahd;
-        bxvk.m124024a(cahd.class, cahd);
+        GeneratedMessageLite.m124024a(cahd.class, cahd);
     }
 
     private cahd() {
@@ -39,7 +39,7 @@ public final class cahd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174532d, "\u0001\u0003\u0001\u0000\u0001\u0004\u0003\u0000\u0001\u0000\u0001း\u0000\u0003\u001b\u0004ဵ\u0000", new Object[]{"b", "a", "c", cahc.class});
+            return GeneratedMessageLite.m124022a(f174532d, "\u0001\u0003\u0001\u0000\u0001\u0004\u0003\u0000\u0001\u0000\u0001း\u0000\u0003\u001b\u0004ဵ\u0000", new Object[]{"b", "a", "c", cahc.class});
         } else if (i2 == 3) {
             return new cahd();
         } else {
@@ -66,7 +66,7 @@ public final class cahd extends bxvk implements bxxd {
     /* renamed from: c */
     public final void mo74642c() {
         if (!this.f174536c.mo73666a()) {
-            this.f174536c = bxvk.m124021a(this.f174536c);
+            this.f174536c = GeneratedMessageLite.m124021a(this.f174536c);
         }
     }
 }

@@ -12,7 +12,7 @@ public final /* synthetic */ class mjg implements Runnable {
 
     public final void run() {
         aqzp aqzp = this.f33823a.f33828b;
-        mjj.f33830d.mo25409a("onCompleted", new Object[0]);
+        mjj.f33830d.logVerbose("onCompleted", new Object[0]);
         mjj mjj = (mjj) aqzp;
         mht mht = mjj.f33839m;
         if (mht.f33740a) {

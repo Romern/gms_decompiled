@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caen */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caen extends bxvk implements bxxd {
+public final class caen extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final caen f172838b;
@@ -16,7 +16,7 @@ public final class caen extends bxvk implements bxxd {
     static {
         caen caen = new caen();
         f172838b = caen;
-        bxvk.m124024a(caen.class, caen);
+        GeneratedMessageLite.m124024a(caen.class, caen);
     }
 
     private caen() {
@@ -33,7 +33,7 @@ public final class caen extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172838b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", caem.class});
+            return GeneratedMessageLite.m124022a(f172838b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", caem.class});
         } else if (i2 == 3) {
             return new caen();
         } else {

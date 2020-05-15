@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btro */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btro extends bxvk implements bxxd {
+public final class btro extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final btro f150127e;
@@ -25,7 +25,7 @@ public final class btro extends bxvk implements bxxd {
     static {
         btro btro = new btro();
         f150127e = btro;
-        bxvk.m124024a(btro.class, btro);
+        GeneratedMessageLite.m124024a(btro.class, btro);
     }
 
     private btro() {
@@ -42,7 +42,7 @@ public final class btro extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150127e, "\u0000\u0004\u0000\u0000\u0001\u0006\u0004\u0000\u0003\u0000\u0001\t\u0004\u001b\u0005\u001b\u0006\u001b", new Object[]{"a", "b", bmve.class, "c", bmvi.class, "d", bmvu.class});
+            return GeneratedMessageLite.m124022a(f150127e, "\u0000\u0004\u0000\u0000\u0001\u0006\u0004\u0000\u0003\u0000\u0001\t\u0004\u001b\u0005\u001b\u0006\u001b", new Object[]{"a", "b", bmve.class, "c", bmvi.class, "d", bmvu.class});
         } else if (i2 == 3) {
             return new btro();
         } else {

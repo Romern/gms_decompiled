@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byml */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byml extends bxvk implements bxxd {
+public final class byml extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final byml f167033b;
@@ -16,7 +16,7 @@ public final class byml extends bxvk implements bxxd {
     static {
         byml byml = new byml();
         f167033b = byml;
-        bxvk.m124024a(byml.class, byml);
+        GeneratedMessageLite.m124024a(byml.class, byml);
     }
 
     private byml() {
@@ -33,7 +33,7 @@ public final class byml extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167033b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u001b", new Object[]{"a", bymm.class});
+            return GeneratedMessageLite.m124022a(f167033b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u001b", new Object[]{"a", bymm.class});
         } else if (i2 == 3) {
             return new byml();
         } else {

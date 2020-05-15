@@ -11,7 +11,7 @@ final class gmn extends gmr {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo12065a(byte[] bArr) {
         try {
-            return (bsnd) bxvk.m124016a(bsnd.f146232a, bArr, bxus.m123744c());
+            return (bsnd) GeneratedMessageLite.m124016a(bsnd.f146232a, bArr, bxus.m123744c());
         } catch (bxwf e) {
             return null;
         }

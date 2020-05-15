@@ -111,7 +111,7 @@ public final class bilk {
                 }
                 rkb rkb = this.f120832c;
                 String a = this.f120836g.mo8007a();
-                sdo.m34966a((Object) a, (Object) "placeId == null");
+                sdo.checkIfNull((Object) a, (Object) "placeId == null");
                 sdo.m34975b(true ^ a.isEmpty(), "placeId is empty");
                 rle a2 = rkb.mo24787a((rle) new aelg(aema.f63501a, rkb, a));
                 a2.mo9458a((rkl) new bilj(this, new bili(this), ((bilq) this.f120835f).getResources().getDimensionPixelSize(C0126R.dimen.place_picker_photo_width), ((bilq) this.f120835f).getResources().getDimensionPixelSize(C0126R.dimen.place_picker_confirm_map_height)));

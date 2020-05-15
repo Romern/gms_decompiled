@@ -70,7 +70,7 @@ public final class uig extends AbstractList implements List, Closeable {
             throw new IndexOutOfBoundsException();
         } else if (this.f47680d.moveToPosition(i)) {
             Object a = this.f47681e.mo27496a(this.f47679c, this.f47680d);
-            sdo.m34966a(a, "Result decoder returned null.");
+            sdo.checkIfNull(a, "Result decoder returned null.");
             return a;
         } else {
             throw new IllegalStateException("Failed to move delegate cursor.");

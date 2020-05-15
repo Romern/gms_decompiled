@@ -40,10 +40,10 @@ public final class arrz implements bqfp {
     /* renamed from: a */
     public final void mo6481a(Throwable th) {
         arsb.f88212a.mo25412b("onFailure", new Object[0]);
-        sek sek = arsb.f88212a;
+        Logger Logger = arsb.f88212a;
         Object[] objArr = new Object[0];
-        if (sek.mo19637a(3) || !asco.m73782a()) {
-            asco asco = (asco) sek;
+        if (Logger.mo19637a(3) || !asco.m73782a()) {
+            asco asco = (asco) Logger;
             Log.d(asco.f88711b, asco.mo49046h("Error: ", objArr), th);
         }
         arsb arsb = this.f88211a;

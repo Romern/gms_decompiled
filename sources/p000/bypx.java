@@ -100,7 +100,7 @@ public abstract class bypx implements Comparable {
 
     /* renamed from: a */
     public static bypp m125082a(byte... bArr) {
-        return new bypp(bxtx.m123261a(bArr));
+        return new bypp(ByteString.m123261a(bArr));
     }
 
     /* renamed from: a */

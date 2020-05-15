@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsic */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsic extends bxvk implements bxxd {
+public final class bsic extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bsic f144661b;
@@ -16,7 +16,7 @@ public final class bsic extends bxvk implements bxxd {
     static {
         bsic bsic = new bsic();
         f144661b = bsic;
-        bxvk.m124024a(bsic.class, bsic);
+        GeneratedMessageLite.m124024a(bsic.class, bsic);
     }
 
     private bsic() {
@@ -33,7 +33,7 @@ public final class bsic extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f144661b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002Ȉ", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f144661b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002Ȉ", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bsic();
         } else {

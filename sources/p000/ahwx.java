@@ -182,7 +182,7 @@ final class ahwx extends buqn {
                     ahyw = (ahyw) da2.mo74062i();
                 }
                 bxvd bxvd = (bxvd) ahyw.mo74142c(5);
-                bxvd.mo73625a((bxvk) ahyw);
+                bxvd.mo73625a((GeneratedMessageLite) ahyw);
                 bvkk bvkk8 = bvkr3.f156462a;
                 if (bvkk8 == null) {
                     bvkk8 = bvkk.f156420q;
@@ -210,7 +210,7 @@ final class ahwx extends buqn {
                 int i4 = 16 | ahyw6.f68392a;
                 ahyw6.f68392a = i4;
                 ahyw6.f68397f = str3;
-                bxtx bxtx = bvkr3.f156463b;
+                ByteString bxtx = bvkr3.f156463b;
                 bxtx.getClass();
                 int i5 = i4 | 8;
                 ahyw6.f68392a = i5;
@@ -264,7 +264,7 @@ final class ahwx extends buqn {
                 if (bvkh == null) {
                     bvkh = bvkh.f156412b;
                 }
-                bxtx bxtx2 = bvkh.f156414a;
+                ByteString bxtx2 = bvkh.f156414a;
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

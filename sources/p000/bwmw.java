@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwmw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwmw extends bxvk implements bxxd {
+public final class bwmw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bxvu f160322b = new bwmv();
@@ -19,7 +19,7 @@ public final class bwmw extends bxvk implements bxxd {
     static {
         bwmw bwmw = new bwmw();
         f160323c = bwmw;
-        bxvk.m124024a(bwmw.class, bwmw);
+        GeneratedMessageLite.m124024a(bwmw.class, bwmw);
     }
 
     private bwmw() {
@@ -36,7 +36,7 @@ public final class bwmw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f160323c, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001e", new Object[]{"a", bwmu.m122116b()});
+            return GeneratedMessageLite.m124022a(f160323c, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001e", new Object[]{"a", bwmu.m122116b()});
         } else if (i2 == 3) {
             return new bwmw();
         } else {

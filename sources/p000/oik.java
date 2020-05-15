@@ -261,12 +261,12 @@ public class oik extends ojh {
     public void mo22085a(int i, ByteBuffer byteBuffer) {
         int b = birw.m102772b(i);
         if (b == 32772) {
-            bipu bipu = (bipu) bxvk.m124012a(bipu.f121213d, byteBuffer);
+            bipu bipu = (bipu) GeneratedMessageLite.m124012a(bipu.f121213d, byteBuffer);
             if (bipu != null) {
                 mo22070a(bipu);
             }
         } else if (b == 32773) {
-            biom biom = (biom) bxvk.m124012a(biom.f121063d, byteBuffer);
+            biom biom = (biom) GeneratedMessageLite.m124012a(biom.f121063d, byteBuffer);
             if (biom != null) {
                 int i2 = biom.f121066b;
                 int i3 = biom.f121067c;

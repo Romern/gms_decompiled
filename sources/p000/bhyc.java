@@ -110,10 +110,10 @@ public final class bhyc {
                     PlacesParams placesParams3 = PlacesParams.f79571a;
                     bpqk c = bhqq.m101365c(1, placesParams3);
                     bxvd bxvd = (bxvd) c.mo74142c(5);
-                    bxvd.mo73625a((bxvk) c);
+                    bxvd.mo73625a((GeneratedMessageLite) c);
                     bprg a = bhqq.m101359a(11, placesParams3.f79573c, Locale.getDefault().toString());
                     bxvd bxvd2 = (bxvd) a.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) a);
+                    bxvd2.mo73625a((GeneratedMessageLite) a);
                     bxvd da = bprh.f138851c.mo74144da();
                     if (da.f164950c) {
                         da.mo74035c();
@@ -150,10 +150,10 @@ public final class bhyc {
                     PlacesParams placesParams4 = PlacesParams.f79571a;
                     bpqk c2 = bhqq.m101365c(1, placesParams4);
                     bxvd bxvd3 = (bxvd) c2.mo74142c(5);
-                    bxvd3.mo73625a((bxvk) c2);
+                    bxvd3.mo73625a((GeneratedMessageLite) c2);
                     bprg a2 = bhqq.m101359a(2, placesParams4.f79573c, Locale.getDefault().toString());
                     bxvd bxvd4 = (bxvd) a2.mo74142c(5);
-                    bxvd4.mo73625a((bxvk) a2);
+                    bxvd4.mo73625a((GeneratedMessageLite) a2);
                     bxvd da2 = bprl.f138862d.mo74144da();
                     bppt a3 = bhqq.m101348a((Collection) userLocationNearbyAlertFilter.f109589b, false);
                     if (bxvd4.f164950c) {

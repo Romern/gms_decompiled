@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzem */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzem extends bxvk implements bxxd {
+public final class bzem extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bzem f169684e;
@@ -25,7 +25,7 @@ public final class bzem extends bxvk implements bxxd {
     static {
         bzem bzem = new bzem();
         f169684e = bzem;
-        bxvk.m124024a(bzem.class, bzem);
+        GeneratedMessageLite.m124024a(bzem.class, bzem);
     }
 
     private bzem() {
@@ -42,7 +42,7 @@ public final class bzem extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f169684e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\f\u0002Ȉ\u0003\f\u0004\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f169684e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\f\u0002Ȉ\u0003\f\u0004\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bzem();
         } else {

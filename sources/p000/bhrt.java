@@ -236,7 +236,7 @@ public final class bhrt implements bhro, bhsp {
                         bpof bpof2 = (bpof) da.f164949b;
                         bpoe2.getClass();
                         if (!bpof2.f138504h.mo73666a()) {
-                            bpof2.f138504h = bxvk.m124021a(bpof2.f138504h);
+                            bpof2.f138504h = GeneratedMessageLite.m124021a(bpof2.f138504h);
                         }
                         bpof2.f138504h.add(bpoe2);
                     }
@@ -245,7 +245,7 @@ public final class bhrt implements bhro, bhsp {
                 bicx bicx = (bicx) bhuk;
                 bpoh a2 = bicx.mo64530a();
                 bxvd bxvd = (bxvd) a2.mo74142c(5);
-                bxvd.mo73625a((bxvk) a2);
+                bxvd.mo73625a((GeneratedMessageLite) a2);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

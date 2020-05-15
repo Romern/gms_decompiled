@@ -9,7 +9,7 @@ import android.os.Bundle;
 public final class qfv extends qfu {
 
     /* renamed from: a */
-    private static final sek f41134a = qgn.m32143a("HighFrequencyBackoffDelayComputer");
+    private static final Logger f41134a = qgn.m32143a("HighFrequencyBackoffDelayComputer");
 
     /* renamed from: b */
     private final rtj f41135b;

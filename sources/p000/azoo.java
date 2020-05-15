@@ -16,7 +16,7 @@ final class azoo implements chtk {
     /* renamed from: b */
     public final cbay mo26261a(byte[] bArr) {
         try {
-            return (cbay) bxvk.m124014a(cbay.f176515b, bArr);
+            return (cbay) GeneratedMessageLite.m124014a(cbay.f176515b, bArr);
         } catch (bxwf e) {
             azph.m85998a(this.f99796a).mo55126a(504, 6);
             return null;
@@ -25,6 +25,6 @@ final class azoo implements chtk {
 
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ byte[] mo26262a(Object obj) {
-        return ((cbay) obj).mo73642k();
+        return ((cbay) obj).serializeToBytes();
     }
 }

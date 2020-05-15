@@ -33,9 +33,9 @@ final class arbh implements ahcp {
 
     /* renamed from: a */
     public final void mo36304a(int i) {
-        sek sek = arbj.f87275a;
+        Logger Logger = arbj.f87275a;
         String valueOf = String.valueOf(ahcu.m55496a(i));
-        sek.mo25418e(valueOf.length() == 0 ? new String("Nearby.Bootstrap ConnectionListener error: ") : "Nearby.Bootstrap ConnectionListener error: ".concat(valueOf), new Object[0]);
+        Logger.mo25418e(valueOf.length() == 0 ? new String("Nearby.Bootstrap ConnectionListener error: ") : "Nearby.Bootstrap ConnectionListener error: ".concat(valueOf), new Object[0]);
         armu armu = this.f87273a.f87279e;
         if (armu != null) {
             armu.mo48348a(10557);
@@ -67,7 +67,7 @@ final class arbh implements ahcp {
         sdo.m34969a(str, (Object) "base64 cannot be null.");
         sdo.m34971a(str.length() >= 6, (Object) "base64 must be 6 or more characters.");
         StringBuilder sb = new StringBuilder(str.toUpperCase(Locale.US).substring(0, 6));
-        sdo.m34966a(sb, "sb cannot be null.");
+        sdo.checkIfNull(sb, "sb cannot be null.");
         for (int i = 0; i < sb.length(); i++) {
             char charAt = sb.charAt(i);
             if (charAt == '+') {
@@ -96,7 +96,7 @@ final class arbh implements ahcp {
     /* renamed from: a */
     public final void mo36305a(Device device, byte[] bArr) {
         bmxy.m108582a(device, "device is null.");
-        sek sek = arbj.f87275a;
+        Logger Logger = arbj.f87275a;
         String str = device.f80397b;
         String str2 = device.f80399d;
         StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 30 + String.valueOf(str2).length());
@@ -105,7 +105,7 @@ final class arbh implements ahcp {
         sb.append(" (");
         sb.append(str2);
         sb.append(")");
-        sek.mo25409a(sb.toString(), new Object[0]);
+        Logger.logVerbose(sb.toString(), new Object[0]);
         arnn arnn = new arnn(this.f87273a.f87276b, device);
         bmxy.m108582a(arnn, "DeviceMessageSender is null.");
         armu armu = this.f87273a.f87279e;

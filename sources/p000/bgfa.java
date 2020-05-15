@@ -259,7 +259,7 @@ public final class bgfa {
                     bfyd bfyd2 = (bfyd) da.f164949b;
                     bgoq.getClass();
                     if (!bfyd2.f115661c.mo73666a()) {
-                        bfyd2.f115661c = bxvk.m124021a(bfyd2.f115661c);
+                        bfyd2.f115661c = GeneratedMessageLite.m124021a(bfyd2.f115661c);
                     }
                     bfyd2.f115661c.add(bgoq);
                 }
@@ -276,7 +276,7 @@ public final class bgfa {
                 bfyc bfyc = (bfyc) bxvd2.mo74062i();
                 bfyc.getClass();
                 if (!bfyd3.f115662d.mo73666a()) {
-                    bfyd3.f115662d = bxvk.m124021a(bfyd3.f115662d);
+                    bfyd3.f115662d = GeneratedMessageLite.m124021a(bfyd3.f115662d);
                 }
                 bfyd3.f115662d.add(bfyc);
             }
@@ -392,7 +392,7 @@ public final class bgfa {
                 if ((bfyc.f115654a & 1) != 0) {
                     List list = this.f116330c;
                     bxvd bxvd = (bxvd) bfyc.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bfyc);
+                    bxvd.mo73625a((GeneratedMessageLite) bfyc);
                     list.add(bxvd);
                 }
             }

@@ -68,7 +68,7 @@ public final class babx implements bmzi {
                 int intValue = num.intValue();
                 cayo cayo = bacf.f100467a;
                 Executor executor = bacf.f100468b;
-                ((achw) cayo.mo16713a()).mo25409a("[ProdGrpcChannelModule] Binding to %s:%d with OkHttp", str, Integer.valueOf(intValue));
+                ((achw) cayo.mo16713a()).logVerbose("[ProdGrpcChannelModule] Binding to %s:%d with OkHttp", str, Integer.valueOf(intValue));
                 cifv b = cifv.m150191b(str, intValue);
                 b.transportExecutor(executor);
                 this.f100450g = bqga.m112775a(b.mo85581b());

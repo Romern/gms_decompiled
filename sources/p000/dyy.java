@@ -60,7 +60,7 @@ final class dyy implements Runnable {
         bxkm2.getClass();
         bxkn.f163772b = bxkm2;
         bxkn.f163771a |= 1;
-        bxtx a = bxtx.m123261a(this.f14450a.f80676b);
+        ByteString a = ByteString.m123261a(this.f14450a.f80676b);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

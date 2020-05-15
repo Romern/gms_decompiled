@@ -154,7 +154,7 @@ public final class cdjs implements cdjo {
         f181053c = bdyx.m91610a(a, "Chimera__blacklist_intent_operation_on_exception", false);
         f181054d = bdyx.m91609a(a, "Chimera__blacklisted_zapp_diff_base_modules", "AdsFdrDynamite.integ:20290*,AdsFdrDynamite.integ:20300*,AdsFdrDynamite.integ:20461*,AdsFdrDynamite.integ:21001*,AdsFdrDynamite.integ:21207*");
         try {
-            f181055e = bdyx.m91608a(a, "Chimera__blocked_features", (dje) bxvk.m124014a(dje.f13319b, new byte[0]), cdjp.f181033a);
+            f181055e = bdyx.m91608a(a, "Chimera__blocked_features", (dje) GeneratedMessageLite.m124014a(dje.f13319b, new byte[0]), cdjp.f181033a);
             f181056f = bdyx.m91609a(a, "Chimera__blocked_system_image_optional_features", "");
             f181057g = bdyx.m91610a(a, "Chimera__check_permit_metered_network", false);
             f181058h = bdyx.m91607a(a, "Chimera__chimera_download_stats_sampling_rate", 10L);
@@ -182,11 +182,11 @@ public final class cdjs implements cdjo {
             f181076z = bdyx.m91607a(a, "Chimera__max_download_restart_times", 10L);
             f181036A = bdyx.m91607a(a, "Chimera__max_module_set_history_len", 2L);
             try {
-                bdyx.m91608a(a, "Chimera__module_set_list", (qml) bxvk.m124014a(qml.f41710b, new byte[0]), cdjq.f181034a);
+                bdyx.m91608a(a, "Chimera__module_set_list", (qml) GeneratedMessageLite.m124014a(qml.f41710b, new byte[0]), cdjq.f181034a);
                 f181037B = bdyx.m91610a(a, "Chimera__override_default_fragment_transitions", true);
                 f181038C = bdyx.m91610a(a, "Chimera__propagate_module_download_errors", true);
                 try {
-                    bdyx.m91608a(a, "Chimera__required_features", (dje) bxvk.m124014a(dje.f13319b, new byte[0]), cdjr.f181035a);
+                    bdyx.m91608a(a, "Chimera__required_features", (dje) GeneratedMessageLite.m124014a(dje.f13319b, new byte[0]), cdjr.f181035a);
                     f181039D = bdyx.m91610a(a, "Chimera__restart_interrupted_downloads", false);
                     f181040E = bdyx.m91610a(a, "Chimera__share_apks_with_all_users", false);
                     f181041F = bdyx.m91610a(a, "Chimera__show_chimera_settings", false);

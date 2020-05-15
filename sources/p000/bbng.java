@@ -14,7 +14,7 @@ final /* synthetic */ class bbng implements bmxj {
         long j = this.f102947a;
         bbnu bbnu = (bbnu) obj;
         bxvd bxvd = (bxvd) bbnu.mo74142c(5);
-        bxvd.mo73625a((bxvk) bbnu);
+        bxvd.mo73625a((GeneratedMessageLite) bbnu);
         bbnr bbnr = (bbnr) bxvd;
         if (bbnr.f164950c) {
             bbnr.mo74035c();

@@ -28,7 +28,7 @@ final /* synthetic */ class aiqq implements airj {
         bvgi.f156003b = 2;
         bvgi.f156002a |= 1;
         bxvd da2 = bvge.f155990c.mo74144da();
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -46,7 +46,7 @@ final /* synthetic */ class aiqq implements airj {
         bvge2.getClass();
         bvgi2.f156005d = bvge2;
         bvgi2.f156002a |= 4;
-        byte[] a2 = aips.m57683a(bArr2, ((bvgi) da.mo74062i()).mo73642k());
+        byte[] a2 = aips.m57683a(bArr2, ((bvgi) da.mo74062i()).serializeToBytes());
         if (a2 != null) {
             aiqy.f69525e.mo66704b(a2).mo66727a(new aiqr(aiqy, bArr));
         } else {

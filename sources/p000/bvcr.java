@@ -17,7 +17,7 @@ final class bvcr implements bvat {
     public final /* bridge */ /* synthetic */ void mo36284a(bxxc bxxc) {
         bvai bvai = (bvai) bxxc;
         bxvd bxvd = (bxvd) bvai.mo74142c(5);
-        bxvd.mo73625a((bxvk) bvai);
+        bxvd.mo73625a((GeneratedMessageLite) bvai);
         bvah bvah = (bvah) bxvd;
         bvaa d = this.f155603a.mo73288d();
         if (bvah.f164950c) {

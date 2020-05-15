@@ -25,13 +25,13 @@ public final class vwg {
 
     /* JADX WARNING: Removed duplicated region for block: B:11:0x001e  */
     /* renamed from: a */
-    public static bxtx m41486a(String str, bxtx bxtx) {
+    public static ByteString m41486a(String str, ByteString bxtx) {
         Throwable th;
         HttpURLConnection httpURLConnection;
         try {
             httpURLConnection = (HttpURLConnection) stp.m36306a(new URL(str), 6147);
             try {
-                bxtx a = m41488a(httpURLConnection, bxtx);
+                ByteString a = m41488a(httpURLConnection, bxtx);
                 if (httpURLConnection != null) {
                     stp.m36307a(httpURLConnection);
                 }
@@ -66,7 +66,7 @@ public final class vwg {
 
     /* JADX WARNING: Removed duplicated region for block: B:14:0x0039  */
     /* renamed from: a */
-    public static bxtx m41487a(String str, bxtx bxtx, abpc abpc) {
+    public static ByteString m41487a(String str, ByteString bxtx, abpc abpc) {
         HttpURLConnection httpURLConnection;
         if (abpc == null) {
             try {
@@ -84,7 +84,7 @@ public final class vwg {
         }
         try {
             httpURLConnection.setRequestProperty("Content-Type", "application/x-protobuf");
-            bxtx a = m41488a(httpURLConnection, bxtx);
+            ByteString a = m41488a(httpURLConnection, bxtx);
             if (httpURLConnection != null) {
                 stp.m36307a(httpURLConnection);
             }
@@ -99,7 +99,7 @@ public final class vwg {
     }
 
     /* renamed from: a */
-    private static bxtx m41488a(HttpURLConnection httpURLConnection, bxtx bxtx) {
+    private static ByteString m41488a(HttpURLConnection httpURLConnection, ByteString bxtx) {
         InputStream inputStream;
         httpURLConnection.setDoOutput(true);
         httpURLConnection.setFixedLengthStreamingMode(bxtx.mo73744a());
@@ -116,7 +116,7 @@ public final class vwg {
             int responseCode = httpURLConnection.getResponseCode();
             if (responseCode == 200) {
                 inputStream = httpURLConnection.getInputStream();
-                bxtx a = bxtx.m123256a(inputStream);
+                ByteString a = bxtx.m123256a(inputStream);
                 if (inputStream != null) {
                     inputStream.close();
                 }

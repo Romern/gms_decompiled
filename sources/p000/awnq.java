@@ -46,7 +46,7 @@ public final class awnq extends awcd {
                 OrchestrationDelegatorChimeraActivity orchestrationDelegatorChimeraActivity2 = this.f94162a;
                 String str = orchestrationDelegatorChimeraActivity2.f94163b;
                 LogContext logContext = orchestrationDelegatorChimeraActivity2.f94164c;
-                sdo.m34966a(byteArrayExtra, "Encrypted params must not be null.");
+                sdo.checkIfNull(byteArrayExtra, "Encrypted params must not be null.");
                 awnu = new awnu();
                 Bundle a = awzk.m81653a(h, str, logContext);
                 a.putByteArray("parameters", byteArrayExtra);
@@ -56,7 +56,7 @@ public final class awnq extends awcd {
                 OrchestrationDelegatorChimeraActivity orchestrationDelegatorChimeraActivity3 = this.f94162a;
                 String str2 = orchestrationDelegatorChimeraActivity3.f94163b;
                 LogContext logContext2 = orchestrationDelegatorChimeraActivity3.f94164c;
-                sdo.m34966a(byteArrayExtra2, "Initialization token must not be null.");
+                sdo.checkIfNull(byteArrayExtra2, "Initialization token must not be null.");
                 awnu = new awnu();
                 Bundle a2 = awzk.m81653a(h2, str2, logContext2);
                 a2.putByteArray("initializeToken", byteArrayExtra2);

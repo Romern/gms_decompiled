@@ -52,8 +52,8 @@ final /* synthetic */ class aibt implements Runnable {
                         ahza = (ahza) it.next();
                         int i2 = ahza.f68443a;
                         if ((i2 & 1) != 0 && (i2 & 4) != 0) {
-                            byte[] k = ahza.f68446d.mo73780k();
-                            byte[] k2 = ahza.f68444b.mo73780k();
+                            byte[] k = ahza.f68446d.getKey();
+                            byte[] k2 = ahza.f68444b.getKey();
                             buru = buru2;
                             try {
                                 if (Arrays.equals(k, bnzi.m110902d().mo68722a(bqce.m112562a(k2, aynj.m84359a(address))).mo68740b())) {
@@ -92,18 +92,18 @@ final /* synthetic */ class aibt implements Runnable {
                 ahst ahst = aics.f68705b;
                 String address2 = bluetoothDevice.getAddress();
                 try {
-                    bxtx bxtx = ahza.f68445c;
+                    ByteString bxtx = ahza.f68445c;
                     bxus c = bxus.m123744c();
                     aiaa aiaa = aiaa.f68501K;
                     try {
                         bxuc h = bxtx.mo73764h();
-                        bxvk bxvk = (bxvk) aiaa.mo74142c(4);
-                        bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                        a2.mo74220a(bxvk, bxud.m123454a(h), c);
-                        a2.mo74225d(bxvk);
+                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) aiaa.mo74142c(4);
+                        bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                        a2.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                        a2.mo74225d(GeneratedMessageLite);
                         h.mo73787a(0);
-                        bxvk.m124027b(bxvk);
-                        aiaa aiaa2 = (aiaa) bxvk;
+                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                        aiaa aiaa2 = (aiaa) GeneratedMessageLite;
                         bxvd da = ahyz.f68425p.mo74144da();
                         if (da.f164950c) {
                             da.mo74035c();
@@ -114,7 +114,7 @@ final /* synthetic */ class aibt implements Runnable {
                         int i3 = ahyz.f68427a | 1;
                         ahyz.f68427a = i3;
                         ahyz.f68428b = address2;
-                        bxtx bxtx2 = ahza.f68444b;
+                        ByteString bxtx2 = ahza.f68444b;
                         bxtx2.getClass();
                         int i4 = i3 | 2;
                         ahyz.f68427a = i4;

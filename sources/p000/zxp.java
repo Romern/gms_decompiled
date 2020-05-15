@@ -22,7 +22,7 @@ public final class zxp {
             return zxf;
         }
         bxvd da = zxf.f56084e.mo74144da();
-        String concat = String.valueOf(m46640a(zxf.f56089d.mo73780k())).concat(".ttf");
+        String concat = String.valueOf(m46640a(zxf.f56089d.getKey())).concat(".ttf");
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -32,7 +32,7 @@ public final class zxp {
         int i = zxf2.f56086a | 1;
         zxf2.f56086a = i;
         zxf2.f56087b = concat;
-        bxtx bxtx = zxf.f56089d;
+        ByteString bxtx = zxf.f56089d;
         bxtx.getClass();
         int i2 = i | 4;
         zxf2.f56086a = i2;

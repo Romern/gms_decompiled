@@ -13,7 +13,7 @@ final /* synthetic */ class hbt implements View.OnTouchListener {
     }
 
     public final boolean onTouch(View view, MotionEvent motionEvent) {
-        sek sek = hbu.f19435a;
+        Logger Logger = hbu.f19435a;
         return true;
     }
 }

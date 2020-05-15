@@ -9,7 +9,7 @@ import com.google.android.gms.audit.LogAuditRecordsRequest;
 public final class aqjw {
 
     /* renamed from: a */
-    public static final sek f86247a = new sek("SetupServices", "AuditHelper");
+    public static final Logger f86247a = new Logger("SetupServices", "AuditHelper");
 
     /* renamed from: a */
     public static aucb m71743a(Context context, Account account) {
@@ -25,7 +25,7 @@ public final class aqjw {
     public static aucb m71744a(Context context, ggp ggp, byte[] bArr) {
         ggk a = ggh.m13102a(context);
         bxvd da = bsqx.f146703c.mo74144da();
-        bxtx a2 = bxtx.m123261a(bArr);
+        ByteString a2 = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -34,14 +34,14 @@ public final class aqjw {
         a2.getClass();
         bsqx.f146705a |= 1;
         bsqx.f146706b = a2;
-        ggp.f18145d = ((bsqx) da.mo74062i()).mo73642k();
+        ggp.f18145d = ((bsqx) da.mo74062i()).serializeToBytes();
         LogAuditRecordsRequest a3 = ggp.mo11799a();
-        sek sek = f86247a;
+        Logger Logger = f86247a;
         String valueOf = String.valueOf(a3);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 14);
         sb.append("Audit request=");
         sb.append(valueOf);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         return a.mo11796a(a3);
     }
 
@@ -165,7 +165,7 @@ public final class aqjw {
             bsrc.f146735a |= 1;
         }
         bxvd da3 = bsra.f146725c.mo74144da();
-        String hexString = Long.toHexString(spn.m35843a(context));
+        String hexString = Long.toHexString(spn.getAndroidId(context));
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;

@@ -89,7 +89,7 @@ public final class dtx {
                     }
                     tno tno = (tno) da.f164949b;
                     if (!tno.f46309a.mo73666a()) {
-                        tno.f46309a = bxvk.m124021a(tno.f46309a);
+                        tno.f46309a = GeneratedMessageLite.m124021a(tno.f46309a);
                     }
                     bxsy.m123078a(a, tno.f46309a);
                     tnq tnq = dtt.f14012d;
@@ -101,7 +101,7 @@ public final class dtx {
                         tno tno2 = (tno) da.f164949b;
                         tnq.getClass();
                         if (!tno2.f46310b.mo73666a()) {
-                            tno2.f46310b = bxvk.m124021a(tno2.f46310b);
+                            tno2.f46310b = GeneratedMessageLite.m124021a(tno2.f46310b);
                         }
                         tno2.f46310b.add(tnq);
                     }
@@ -249,7 +249,7 @@ public final class dtx {
                 }
                 return null;
             }
-            tno tno = (tno) bxvk.m124016a(tno.f46307c, a.mo26593c(), bxus.m123744c());
+            tno tno = (tno) GeneratedMessageLite.m124016a(tno.f46307c, a.mo26593c(), bxus.m123744c());
             if (tno == null) {
                 Set c2 = mo9602c();
                 boolean B2 = cdgp.m133192B();
@@ -619,7 +619,7 @@ public final class dtx {
                         dwq.m9667k().mo9433a(this.f14020g);
                     }
                 } else {
-                    tno tno = (tno) bxvk.m124016a(tno.f46307c, a.mo26593c(), bxus.m123744c());
+                    tno tno = (tno) GeneratedMessageLite.m124016a(tno.f46307c, a.mo26593c(), bxus.m123744c());
                     if (tno == null) {
                         c = mo9602c();
                         boolean B2 = cdgp.m133192B();

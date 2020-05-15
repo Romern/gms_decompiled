@@ -35,7 +35,7 @@ final class awxb extends awpe {
         }
         btro btro = createWalletObjectsServiceRequest.f110391b;
         bxvd bxvd = (bxvd) btro.mo74142c(5);
-        bxvd.mo73625a((bxvk) btro);
+        bxvd.mo73625a((GeneratedMessageLite) btro);
         btrn a = this.f95220e.f95222b.mo52470a(this.f95219c.f110419c);
         if (a == null) {
             return ServerResponse.f110426d;

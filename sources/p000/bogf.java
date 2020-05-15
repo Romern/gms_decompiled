@@ -16,7 +16,7 @@ public final class bogf extends bxvd implements bxxd {
         bogg bogg = (bogg) this.f164949b;
         bogg bogg2 = bogg.f132977f;
         if (!bogg.f132983e.mo73666a()) {
-            bogg.f132983e = bxvk.m124021a(bogg.f132983e);
+            bogg.f132983e = GeneratedMessageLite.m124021a(bogg.f132983e);
         }
         bxsy.m123078a(iterable, bogg.f132983e);
     }

@@ -785,7 +785,7 @@ final class bjvu {
         } else {
             bygi bygi6 = f123429z;
             bxvd = (bxvd) bygi6.mo74142c(5);
-            bxvd.mo73625a((bxvk) bygi6);
+            bxvd.mo73625a((GeneratedMessageLite) bygi6);
         }
         if (bxvd != null) {
             if (bygh.f164950c) {

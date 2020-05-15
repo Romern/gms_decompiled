@@ -86,7 +86,7 @@ public final class amvy extends amvx {
         }
         if (cfxs.m143767b() && !bmxx.m108577a(mo41465a("sync1"))) {
             try {
-                r.f76128k = (alvh) bxvk.m124016a(alvh.f74376d, Base64.decode(mo41465a("sync1"), 2), bxus.m123744c());
+                r.f76128k = (alvh) GeneratedMessageLite.m124016a(alvh.f74376d, Base64.decode(mo41465a("sync1"), 2), bxus.m123744c());
             } catch (bxwf | IllegalArgumentException e) {
                 Log.e("FSA2_GroupsCursor", "SyncOneColumnData parsing error", e);
             }

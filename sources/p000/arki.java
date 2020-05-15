@@ -19,7 +19,7 @@ public final /* synthetic */ class arki implements aubq {
         arba arba = this.f87814b;
         rod a = arba.f87260a.mo48606a(arba, this.f87813a);
         rob rob = a.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         arba.f87260a.mo48608a(arba, new arkv(a), new arkw(rob));
     }
 }

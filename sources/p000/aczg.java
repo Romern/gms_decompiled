@@ -12,7 +12,7 @@ final /* synthetic */ class aczg implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = aczl.f61150a;
+        Logger Logger = aczl.f61150a;
         return ((Account) obj).name;
     }
 }

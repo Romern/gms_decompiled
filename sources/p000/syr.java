@@ -5,5 +5,5 @@ package p000;
 public final class syr {
 
     /* renamed from: a */
-    public static final sek f45460a = tea.m36798a("intent_handler");
+    public static final Logger f45460a = tea.m36798a("intent_handler");
 }

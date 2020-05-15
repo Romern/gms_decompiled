@@ -28,7 +28,7 @@ public final class awnb extends awpf {
 
     /* renamed from: a */
     public final ServerResponse mo52306a(bjev bjev) {
-        return this.f94658c.f110268a.mo52125a(awyd.m81491c(this.f94656a.f110418b.f110406a).concat("/payments/apis/instantbuy/serving/error-reporting"), bjev, this.f94657b.mo73642k(), 58);
+        return this.f94658c.f110268a.mo52125a(awyd.m81491c(this.f94656a.f110418b.f110406a).concat("/payments/apis/instantbuy/serving/error-reporting"), bjev, this.f94657b.serializeToBytes(), 58);
     }
 
     /* access modifiers changed from: protected */

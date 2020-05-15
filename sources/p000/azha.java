@@ -70,7 +70,7 @@ public final class azha extends azgx {
                         azoj.m85933c("UserDataMsgHandler", "Change account info push received with no registration ID", new Object[0]);
                         return null;
                     }
-                    byte[] k = ((cbmq) bxwc2.get(0)).f177668a.mo73780k();
+                    byte[] k = ((cbmq) bxwc2.get(0)).f177668a.getKey();
                     ArrayList arrayList = new ArrayList();
                     int size = bxwc.size();
                     for (int i = 0; i < size; i++) {
@@ -111,7 +111,7 @@ public final class azha extends azgx {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ bxxc mo54916a(cbkj cbkj) {
-        return (cblu) azol.m85935a((bxxk) cblu.f177563d.mo74142c(7), cbkj.f177411e.mo73780k());
+        return (cblu) azol.m85935a((bxxk) cblu.f177563d.mo74142c(7), cbkj.f177411e.getKey());
     }
 
     /* access modifiers changed from: protected */

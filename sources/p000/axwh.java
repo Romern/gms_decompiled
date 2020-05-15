@@ -685,8 +685,8 @@ public final class axwh extends adzt {
                                             this.f96565a.mo53683d();
                                             if (!chmi.f188780a.mo6606a().mo85352a()) {
                                                 Map map = this.f96565a.f96593r;
-                                                sdo.m34966a((Object) c2, (Object) "networkId is null");
-                                                sdo.m34966a(map, "syncTable is null");
+                                                sdo.checkIfNull((Object) c2, (Object) "networkId is null");
+                                                sdo.checkIfNull(map, "syncTable is null");
                                                 if (Log.isLoggable("CloudNode", 2)) {
                                                     String valueOf2 = String.valueOf(map);
                                                     StringBuilder sb2 = new StringBuilder(String.valueOf(c2).length() + 41 + String.valueOf(valueOf2).length());
@@ -753,8 +753,8 @@ public final class axwh extends adzt {
                                                 }
                                             } else {
                                                 Map map2 = this.f96565a.f96593r;
-                                                sdo.m34966a((Object) c2, (Object) "networkId is null");
-                                                sdo.m34966a(map2, "syncTable is null");
+                                                sdo.checkIfNull((Object) c2, (Object) "networkId is null");
+                                                sdo.checkIfNull(map2, "syncTable is null");
                                                 if (Log.isLoggable("CloudNode", 2)) {
                                                     String valueOf4 = String.valueOf(map2);
                                                     StringBuilder sb4 = new StringBuilder(String.valueOf(c2).length() + 47 + String.valueOf(valueOf4).length());

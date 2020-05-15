@@ -70,7 +70,7 @@ public abstract class txm extends txk {
 
     protected txm(txr txr, uih uih, AppIdentity appIdentity, ukk ukk, tyq tyq, uaw uaw) {
         super(txr, uih, appIdentity, tyq, uaw);
-        sdo.m34966a(ukk, "Entryspec must not be null");
+        sdo.checkIfNull(ukk, "Entryspec must not be null");
         this.f46922e = ukk;
     }
 

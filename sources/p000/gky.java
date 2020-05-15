@@ -12,7 +12,7 @@ import java.util.Set;
 public final class gky {
 
     /* renamed from: a */
-    public static final sek f18442a = ght.m13171a("AccountStateSyncher");
+    public static final Logger f18442a = ght.m13171a("AccountStateSyncher");
 
     /* renamed from: b */
     public final Context f18443b;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvod */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvod extends bxvk implements bxxd {
+public final class bvod extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bvod f157012f;
@@ -28,7 +28,7 @@ public final class bvod extends bxvk implements bxxd {
     static {
         bvod bvod = new bvod();
         f157012f = bvod;
-        bxvk.m124024a(bvod.class, bvod);
+        GeneratedMessageLite.m124024a(bvod.class, bvod);
     }
 
     private bvod() {
@@ -45,7 +45,7 @@ public final class bvod extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157012f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဌ\u0002\u0003ဂ\u0003\u0004ဉ\u0001", new Object[]{"a", "b", "d", bvob.f157011a, "e", "c"});
+            return GeneratedMessageLite.m124022a(f157012f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဌ\u0002\u0003ဂ\u0003\u0004ဉ\u0001", new Object[]{"a", "b", "d", bvob.f157011a, "e", "c"});
         } else if (i2 == 3) {
             return new bvod();
         } else {

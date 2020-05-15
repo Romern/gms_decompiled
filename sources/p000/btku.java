@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btku */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btku extends bxvk implements bxxd {
+public final class btku extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btku f149314b;
@@ -11,12 +11,12 @@ public final class btku extends bxvk implements bxxd {
     private static volatile bxxk f149315c;
 
     /* renamed from: a */
-    public bxtx f149316a = bxtx.f164797b;
+    public ByteString f149316a = ByteString.f164797b;
 
     static {
         btku btku = new btku();
         f149314b = btku;
-        bxvk.m124024a(btku.class, btku);
+        GeneratedMessageLite.m124024a(btku.class, btku);
     }
 
     private btku() {
@@ -33,7 +33,7 @@ public final class btku extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149314b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\n", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f149314b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\n", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btku();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvge */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvge extends bxvk implements bxxd {
+public final class bvge extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bvge f155990c;
@@ -14,12 +14,12 @@ public final class bvge extends bxvk implements bxxd {
     public int f155992a;
 
     /* renamed from: b */
-    public bxtx f155993b = bxtx.f164797b;
+    public ByteString f155993b = ByteString.f164797b;
 
     static {
         bvge bvge = new bvge();
         f155990c = bvge;
-        bxvk.m124024a(bvge.class, bvge);
+        GeneratedMessageLite.m124024a(bvge.class, bvge);
     }
 
     private bvge() {
@@ -36,7 +36,7 @@ public final class bvge extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155990c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f155990c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bvge();
         } else {

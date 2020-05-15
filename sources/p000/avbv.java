@@ -27,7 +27,7 @@ final /* synthetic */ class avbv implements bbjo {
         if (avbw.f92929l.mo51192a()) {
             bxqf bxqf2 = avbw.f92928k;
             bxvd bxvd = (bxvd) bxqf2.mo74142c(5);
-            bxvd.mo73625a((bxvk) bxqf2);
+            bxvd.mo73625a((GeneratedMessageLite) bxqf2);
             bxok b = avbw.f92929l.mo51193b();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

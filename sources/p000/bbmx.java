@@ -28,19 +28,19 @@ final /* synthetic */ class bbmx implements bmxj {
         int a2 = bbnv.m88245a(bbnu2.f102984b, a);
         if (a2 != -1) {
             bxvd bxvd = (bxvd) bbnu2.mo74142c(5);
-            bxvd.mo73625a((bxvk) bbnu2);
+            bxvd.mo73625a((GeneratedMessageLite) bbnu2);
             bbnr bbnr = (bbnr) bxvd;
             bbnr.mo56244a(a2, bbnv.m88247a((bbns) bbnu2.f102984b.get(a2)));
             bbnu = (bbnu) bbnr.mo74062i();
         } else {
             bxvd bxvd2 = (bxvd) bbnu2.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bbnu2);
+            bxvd2.mo73625a((GeneratedMessageLite) bbnu2);
             bbnr bbnr2 = (bbnr) bxvd2;
             bbnr2.mo56246a(bbnv.m88246a(a));
             bbnu = (bbnu) bbnr2.mo74062i();
         }
         bxvd bxvd3 = (bxvd) bbnu.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bbnu);
+        bxvd3.mo73625a((GeneratedMessageLite) bbnu);
         bbnr bbnr3 = (bbnr) bxvd3;
         int b = bbnv.m88251b(bbnu.f102987e, a);
         if (b != -1) {

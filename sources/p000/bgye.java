@@ -513,7 +513,7 @@ public final class bgye implements SharedPreferences.OnSharedPreferenceChangeLis
                     sb2.append(", ");
                     sb2.append(valueOf3);
                     sb2.append(") must provide referenceUpdateNumber");
-                    sdo.m34966a(l, sb2.toString());
+                    sdo.checkIfNull(l, sb2.toString());
                     if (bgys2.f118112b.longValue() != p.f150892c) {
                         String valueOf4 = String.valueOf(bgys);
                         long j = p.f150892c;

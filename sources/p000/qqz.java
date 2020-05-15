@@ -41,7 +41,7 @@ public final class qqz {
 
     /* renamed from: a */
     public static qqz m32680a(quk quk) {
-        qrc qrc = new qrc(new SecretKeySpec(quk.f42157c.mo73780k(), "AES"), new SecretKeySpec(quk.f42158d.mo73780k(), "AES"));
+        qrc qrc = new qrc(new SecretKeySpec(quk.f42157c.getKey(), "AES"), new SecretKeySpec(quk.f42158d.getKey(), "AES"));
         return new qqz(Base64.encodeToString(qrc.mo24215a(qrb.PASSWORD, "nigori-key"), 2), qrc);
     }
 
@@ -62,7 +62,7 @@ public final class qqz {
         str.getClass();
         quk.f42155a |= 1;
         quk.f42156b = str;
-        bxtx a = bxtx.m123261a(this.f41986b.f41990a.getEncoded());
+        ByteString a = ByteString.m123261a(this.f41986b.f41990a.getEncoded());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -71,7 +71,7 @@ public final class qqz {
         a.getClass();
         quk2.f42155a |= 4;
         quk2.f42157c = a;
-        bxtx a2 = bxtx.m123261a(this.f41986b.f41991b.getEncoded());
+        ByteString a2 = ByteString.m123261a(this.f41986b.f41991b.getEncoded());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

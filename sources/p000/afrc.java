@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: afrc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class afrc extends bxvk implements bxxd {
+public final class afrc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final afrc f64601d;
@@ -22,7 +22,7 @@ public final class afrc extends bxvk implements bxxd {
     static {
         afrc afrc = new afrc();
         f64601d = afrc;
-        bxvk.m124024a(afrc.class, afrc);
+        GeneratedMessageLite.m124024a(afrc.class, afrc);
     }
 
     private afrc() {
@@ -39,7 +39,7 @@ public final class afrc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f64601d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", afrg.m53476b(), "c"});
+            return GeneratedMessageLite.m124022a(f64601d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", afrg.m53476b(), "c"});
         } else if (i2 == 3) {
             return new afrc();
         } else {

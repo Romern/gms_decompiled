@@ -8,7 +8,7 @@ import java.util.Set;
 public final class xzh {
 
     /* renamed from: b */
-    public static final sek f53445b = new sek(new String[]{"PreferredTransportProvider"}, (short[]) null);
+    public static final Logger f53445b = new Logger(new String[]{"PreferredTransportProvider"}, (short[]) null);
 
     /* renamed from: a */
     public final Set f53446a;

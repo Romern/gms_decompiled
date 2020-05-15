@@ -45,7 +45,7 @@ public final class burw extends dck implements burx {
             aiaa aiaa = ahyz.f68439n;
             return aiaa == null ? aiaa.f68501K : aiaa;
         }
-        bxtx bxtx = ahyz.f68429c;
+        ByteString bxtx = ahyz.f68429c;
         try {
             List list = (List) this.f154798d.mo73054a().get();
             if (list != null) {
@@ -64,7 +64,7 @@ public final class burw extends dck implements burx {
                     return null;
                 }
                 try {
-                    return (aiaa) bxvk.m124016a(aiaa.f68501K, ahza.f68445c.mo73780k(), bxus.m123744c());
+                    return (aiaa) GeneratedMessageLite.m124016a(aiaa.f68501K, ahza.f68445c.getKey(), bxus.m123744c());
                 } catch (bxwf e) {
                     bnsl bnsl = (bnsl) ahsd.f67925a.mo68388c();
                     bnsl.mo68437a(e);
@@ -112,7 +112,7 @@ public final class burw extends dck implements burx {
             return null;
         }
         butd h = DeviceDetailsLinks.m151151h();
-        h.mo73102a(a.f68429c.mo73780k());
+        h.mo73102a(a.f68429c.getKey());
         byzb byzb = a2.f68511I;
         if (byzb == null) {
             byzb = byzb.f169045j;
@@ -149,7 +149,7 @@ public final class burw extends dck implements burx {
             ((bnsl) ahsd.f67925a.mo68390d()).mo68405a("FastPair: DetailPage: Account key is null");
             return null;
         }
-        ahyz a = this.f154797c.mo37032a(bxtx.m123261a(bArr));
+        ahyz a = this.f154797c.mo37032a(ByteString.m123261a(bArr));
         if (a != null) {
             return a.f68428b;
         }
@@ -274,13 +274,13 @@ public final class burw extends dck implements burx {
                 if (createByteArray == null) {
                     ((bnsl) ahsd.f67925a.mo68390d()).mo68405a("FastPair: getStoredDiscoveryItem: Account key is null");
                 } else {
-                    ahyz a7 = this.f154797c.mo37032a(bxtx.m123261a(createByteArray));
+                    ahyz a7 = this.f154797c.mo37032a(ByteString.m123261a(createByteArray));
                     if (a7 == null) {
                         ((bnsl) ahsd.f67925a.mo68390d()).mo68405a("FastPair: getStoredDiscoveryItem: can't find StoredFastPairItem.");
                     } else {
                         aiaa a8 = m120346a(a7);
                         if (a8 != null) {
-                            bArr2 = a8.mo73642k();
+                            bArr2 = a8.serializeToBytes();
                         }
                     }
                 }

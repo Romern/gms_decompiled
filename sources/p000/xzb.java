@@ -5,5 +5,5 @@ package p000;
 public class xzb {
 
     /* renamed from: a */
-    public static final sek f53421a = new sek(new String[]{"KeyHandleCache"}, (short[]) null);
+    public static final Logger f53421a = new Logger(new String[]{"KeyHandleCache"}, (short[]) null);
 }

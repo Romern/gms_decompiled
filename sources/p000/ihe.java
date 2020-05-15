@@ -15,7 +15,7 @@ import com.google.android.gms.auth.authzen.cryptauth.SyncAlarmIntentOperation;
 public final class ihe {
 
     /* renamed from: c */
-    public static final sek f21007c = new sek("SyncManager");
+    public static final Logger f21007c = new Logger("SyncManager");
 
     /* renamed from: d */
     private static final bngx f21008d = bngx.m109358a(0, 100, Integer.valueOf((int) BaseMfiEventCallback.TYPE_UNKNOWN_ERROR));
@@ -137,7 +137,7 @@ public final class ihe {
         String str2 = str;
         int i6 = i3;
         int i7 = i4;
-        f21007c.mo25414c("Sync requested for event %d, account %s, and components %x, with reason %d", Integer.valueOf(i), sek.m35081a(str), Integer.valueOf(i2), Integer.valueOf(i3));
+        f21007c.mo25414c("Sync requested for event %d, account %s, and components %x, with reason %d", Integer.valueOf(i), Logger.m35081a(str), Integer.valueOf(i2), Integer.valueOf(i3));
         if ((i2 & 1) != 0) {
             mo13010a(i5, str2, i6, i7);
         }

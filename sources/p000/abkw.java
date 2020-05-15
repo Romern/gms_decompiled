@@ -40,7 +40,7 @@ public final class abkw {
     /* renamed from: a */
     public static void m47830a(Intent intent, cejm cejm) {
         String str;
-        bxtx bxtx;
+        ByteString bxtx;
         int i;
         boolean z;
         double d;
@@ -63,11 +63,11 @@ public final class abkw {
                 case 1:
                     String str3 = cejl.f182786c;
                     if (cejl.f182784a == 3) {
-                        bxtx = (bxtx) cejl.f182785b;
+                        bxtx = (ByteString) cejl.f182785b;
                     } else {
                         bxtx = bxtx.f164797b;
                     }
-                    intent.putExtra(str3, bxtx.mo73780k());
+                    intent.putExtra(str3, bxtx.getKey());
                     break;
                 case 2:
                     String str4 = cejl.f182786c;

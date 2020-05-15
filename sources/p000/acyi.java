@@ -28,7 +28,7 @@ public final class acyi extends aaab {
         acxx a = acye.m49986a(context);
         acyk acyk = this.f61079b;
         byte[] bArr = this.f61078a;
-        sdo.m34966a(bArr, "Encrypted bytes must not be null.");
+        sdo.checkIfNull(bArr, "Encrypted bytes must not be null.");
         if (bArr.length > 0) {
             z = true;
         } else {

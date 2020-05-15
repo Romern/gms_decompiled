@@ -66,13 +66,13 @@ public final class ahcd implements ahcv {
                         if (buzu2 == null) {
                             buzu2 = buzu.f155430c;
                         }
-                        String a3 = ahcj.m55464a(buzu2.f155433b.mo73780k());
+                        String a3 = ahcj.m55464a(buzu2.f155433b.getKey());
                         this.f66981h.put(a3, a3);
                         buzq buzq2 = buyw.f155346b;
                         if (buzq2 == null) {
                             buzq2 = buzq.f155418c;
                         }
-                        byte[] k = buzq2.f155421b.mo73780k();
+                        byte[] k = buzq2.f155421b.getKey();
                         int length = k.length;
                         if (length <= 4) {
                             return null;

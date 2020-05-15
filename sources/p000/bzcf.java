@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzcf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzcf extends bxvk implements bxxd {
+public final class bzcf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bzcf f169312c;
@@ -22,7 +22,7 @@ public final class bzcf extends bxvk implements bxxd {
     static {
         bzcf bzcf = new bzcf();
         f169312c = bzcf;
-        bxvk.m124024a(bzcf.class, bzcf);
+        GeneratedMessageLite.m124024a(bzcf.class, bzcf);
     }
 
     private bzcf() {
@@ -43,7 +43,7 @@ public final class bzcf extends bxvk implements bxxd {
             this.f169316d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f169312c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0001\u0001Л\u0002\u001a", new Object[]{"a", byzs.class, "b"});
+            return GeneratedMessageLite.m124022a(f169312c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0001\u0001Л\u0002\u001a", new Object[]{"a", byzs.class, "b"});
         } else if (i2 == 3) {
             return new bzcf();
         } else {
@@ -70,7 +70,7 @@ public final class bzcf extends bxvk implements bxxd {
     /* renamed from: c */
     public final void mo74523c() {
         if (!this.f169314a.mo73666a()) {
-            this.f169314a = bxvk.m124021a(this.f169314a);
+            this.f169314a = GeneratedMessageLite.m124021a(this.f169314a);
         }
     }
 }

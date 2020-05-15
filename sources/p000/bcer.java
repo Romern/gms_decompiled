@@ -5,7 +5,7 @@ package p000;
 final class bcer extends bcfw {
 
     /* renamed from: a */
-    public final bxtx f104054a;
+    public final ByteString f104054a;
 
     /* renamed from: b */
     public final int f104055b;
@@ -22,7 +22,7 @@ final class bcer extends bcfw {
     /* renamed from: f */
     public final bmxv f104059f;
 
-    public bcer(bxtx bxtx, int i, bmxv bmxv, bmxv bmxv2, bmxv bmxv3, bmxv bmxv4) {
+    public bcer(ByteString bxtx, int i, bmxv bmxv, bmxv bmxv2, bmxv bmxv3, bmxv bmxv4) {
         this.f104054a = bxtx;
         this.f104055b = i;
         this.f104056c = bmxv;
@@ -32,7 +32,7 @@ final class bcer extends bcfw {
     }
 
     /* renamed from: a */
-    public final bxtx mo56743a() {
+    public final ByteString mo56743a() {
         return this.f104054a;
     }
 

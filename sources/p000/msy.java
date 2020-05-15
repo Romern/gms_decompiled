@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: msy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class msy extends bxvk implements bxxd {
+public final class msy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final msy f34602c;
@@ -19,7 +19,7 @@ public final class msy extends bxvk implements bxxd {
     static {
         msy msy = new msy();
         f34602c = msy;
-        bxvk.m124024a(msy.class, msy);
+        GeneratedMessageLite.m124024a(msy.class, msy);
     }
 
     private msy() {
@@ -36,7 +36,7 @@ public final class msy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34602c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", msx.f34601a});
+            return GeneratedMessageLite.m124022a(f34602c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", msx.f34601a});
         } else if (i2 == 3) {
             return new msy();
         } else {

@@ -5,7 +5,7 @@ package p000;
 public final class xlc implements xjb {
 
     /* renamed from: b */
-    public static final sek f52643b = new sek(new String[]{"NfcChannel"}, (short[]) null);
+    public static final Logger f52643b = new Logger(new String[]{"NfcChannel"}, (short[]) null);
 
     /* renamed from: a */
     public final xkx f52644a;

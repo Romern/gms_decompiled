@@ -17,7 +17,7 @@ public final class btbd extends bxvd implements bxxd {
         btbe btbe2 = btbe.f148105j;
         bszx.getClass();
         if (!btbe.f148111e.mo73666a()) {
-            btbe.f148111e = bxvk.m124019a(btbe.f148111e);
+            btbe.f148111e = GeneratedMessageLite.m124019a(btbe.f148111e);
         }
         btbe.f148111e.mo74153d(bszx.mo3214a());
     }

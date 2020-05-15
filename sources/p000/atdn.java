@@ -70,7 +70,7 @@ final class atdn implements atcq {
             btlh.f149368a = 1;
             byte[] bArr2 = this.f90132i.f90090h;
             if (bArr2 != null) {
-                bxtx a = bxtx.m123261a(bArr2);
+                ByteString a = ByteString.m123261a(bArr2);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -114,7 +114,7 @@ final class atdn implements atcq {
             if (btkg == null) {
                 btkg = btkg.f149250c;
             }
-            byte[] k = btkg.f149252a.mo73780k();
+            byte[] k = btkg.f149252a.getKey();
             btkg btkg2 = a2.f149276a;
             if (btkg2 == null) {
                 btkg2 = btkg.f149250c;

@@ -33,7 +33,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public final class argm extends aqyf implements ascg, arqe {
 
     /* renamed from: h */
-    public static final sek f87667h = ascp.m73787a("D2D", "TargetDirectTransferController");
+    public static final Logger f87667h = ascp.m73787a("D2D", "TargetDirectTransferController");
 
     /* renamed from: A */
     private final aqxo f87668A;
@@ -178,18 +178,18 @@ public final class argm extends aqyf implements ascg, arqe {
         armn.mo48662a(this.f87694y);
         this.f87669B = this.f87668A.mo48207a(this.f87678i, this.f87692w, this.f87677J, this.f87694y, false);
         if (bootstrapOptions2.f107841n) {
-            f87667h.mo25409a("Target supports 3P MFM", new Object[0]);
+            f87667h.logVerbose("Target supports 3P MFM", new Object[0]);
             this.f87670C = this.f87668A.mo48206a(this.f87678i, arai2.f87198b, this.f87692w, this.f87677J, !this.f87694y);
             return;
         }
-        f87667h.mo25409a("Target does not support 3P MFM", new Object[0]);
+        f87667h.logVerbose("Target does not support 3P MFM", new Object[0]);
         this.f87670C = null;
     }
 
     /* renamed from: a */
     public final void mo48242a() {
         super.mo48242a();
-        f87667h.mo25409a("Cleaning up.", new Object[0]);
+        f87667h.logVerbose("Cleaning up.", new Object[0]);
         this.f87681l.mo49039a();
         ardy ardy = this.f87670C;
         if (ardy != null) {
@@ -207,7 +207,7 @@ public final class argm extends aqyf implements ascg, arqe {
     /* access modifiers changed from: protected */
     /* renamed from: c */
     public final void mo48254c() {
-        f87667h.mo25409a("handleOnCompleted().", new Object[0]);
+        f87667h.logVerbose("handleOnCompleted().", new Object[0]);
         if (this.f87674G.get()) {
             f87667h.mo25414c("Complete state is already handled.", new Object[0]);
             return;
@@ -311,7 +311,7 @@ public final class argm extends aqyf implements ascg, arqe {
         boolean z;
         BootstrapConfigurations bootstrapConfigurations = messagePayload.f107978e;
         if (bootstrapConfigurations != null) {
-            f87667h.mo25409a("processBootstrapConfigurations.", new Object[0]);
+            f87667h.logVerbose("processBootstrapConfigurations.", new Object[0]);
             int i = bootstrapConfigurations.f107820l;
             if (i > 0 && this.f87693x.f107843p) {
                 mo48255c(i);
@@ -328,7 +328,7 @@ public final class argm extends aqyf implements ascg, arqe {
             f87667h.mo25412b("from source: %s", c);
             if (mo48520g()) {
                 if (!TextUtils.isEmpty(bootstrapConfigurations.f107812d)) {
-                    f87667h.mo25409a("Get wifi ssid from bootstrapConfigurations", new Object[0]);
+                    f87667h.logVerbose("Get wifi ssid from bootstrapConfigurations", new Object[0]);
                 }
                 int i2 = 4;
                 if (c.mo48320a(4)) {
@@ -370,7 +370,7 @@ public final class argm extends aqyf implements ascg, arqe {
         }
         WorkProfilePayload workProfilePayload = messagePayload.f107986m;
         if (workProfilePayload != null) {
-            f87667h.mo25412b("Persisting work profile %s", sek.m35081a(workProfilePayload.f107996b));
+            f87667h.mo25412b("Persisting work profile %s", Logger.m35081a(workProfilePayload.f107996b));
             this.f87687r = false;
             this.f87672E.mo48621a(workProfilePayload);
             this.f87691v.f87202f.mo48202a();

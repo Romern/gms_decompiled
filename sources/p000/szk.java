@@ -22,7 +22,7 @@ final /* synthetic */ class szk implements Runnable {
         ServiceState serviceState = this.f45506b;
         szm szm = szl.f45508b;
         int i = szl.f45507a;
-        sek sek = szm.f45509a;
+        Logger Logger = szm.f45509a;
         szm.mo26275a(serviceState, i, (SignalStrength) null);
     }
 }

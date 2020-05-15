@@ -33,7 +33,7 @@ final /* synthetic */ class arce implements Runnable {
         arbt arbt = ardc.f87415d;
         ConnectionRequest connectionRequest = connectParams.f108001b;
         arbt.f87322h = connectParams.f108002c;
-        sdo.m34966a(arit, "SourceDeviceCallbacks must not be null!");
+        sdo.checkIfNull(arit, "SourceDeviceCallbacks must not be null!");
         if (connectionRequest == null || arbt.f87322h == null) {
             arbt.m72422c(arit, new Status(10594));
             return;
@@ -65,7 +65,7 @@ final /* synthetic */ class arce implements Runnable {
             }
             arbt.f87325k = false;
             arbt.f87324j = d2DDevice;
-            sek sek = arbt.f87315a;
+            Logger Logger = arbt.f87315a;
             arbb arbb = arbt.f87320f;
             armu a = arbt.mo48376a(arbt.f87322h);
             if (!cgql.m146579d()) {

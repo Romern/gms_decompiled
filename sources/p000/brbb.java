@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brbb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brbb extends bxvk implements bxxd {
+public final class brbb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bxvu f142220d = new brba();
@@ -26,7 +26,7 @@ public final class brbb extends bxvk implements bxxd {
     public bree f142226e;
 
     /* renamed from: f */
-    public bxtx f142227f = bxtx.f164797b;
+    public ByteString f142227f = ByteString.f164797b;
 
     /* renamed from: h */
     private int f142228h;
@@ -34,7 +34,7 @@ public final class brbb extends bxvk implements bxxd {
     static {
         brbb brbb = new brbb();
         f142221g = brbb;
-        bxvk.m124024a(brbb.class, brbb);
+        GeneratedMessageLite.m124024a(brbb.class, brbb);
     }
 
     private brbb() {
@@ -51,7 +51,7 @@ public final class brbb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142221g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0002ဇ\u0001\u0003\u001e\u0004ဉ\u0002\u0005ည\u0003", new Object[]{"h", "a", "b", "c", brej.m113931b(), "e", "f"});
+            return GeneratedMessageLite.m124022a(f142221g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0002ဇ\u0001\u0003\u001e\u0004ဉ\u0002\u0005ည\u0003", new Object[]{"h", "a", "b", "c", brej.m113931b(), "e", "f"});
         } else if (i2 == 3) {
             return new brbb();
         } else {

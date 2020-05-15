@@ -132,7 +132,7 @@ public final class pwn implements pik {
         try {
             pwk pwk = this.f40499o;
             bxvd da = blsa.f127560c.mo74144da();
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -141,7 +141,7 @@ public final class pwn implements pik {
             a.getClass();
             blsa.f127562a |= 1;
             blsa.f127563b = a;
-            byte[] k = ((blsa) da.mo74062i()).mo73642k();
+            byte[] k = ((blsa) da.mo74062i()).serializeToBytes();
             long c = pwk.mo23633c();
             new Object[1][0] = "receiver-0";
             pwk.f40175u.mo23229a(pwk.f40174t, k, c, "receiver-0");
@@ -197,7 +197,7 @@ public final class pwn implements pik {
             String a2 = mo23772a("MULTICAST_SENDER_KEY");
             if (!(a2 == null || (a = mo23772a("MULTICAST_WRAPPED_SENDER_KEY")) == null)) {
                 this.f40489e.edit().putString(a2, Base64.encodeToString(bArr, 0)).apply();
-                this.f40489e.edit().putString(a, Base64.encodeToString(blse.mo73642k(), 0)).apply();
+                this.f40489e.edit().putString(a, Base64.encodeToString(blse.serializeToBytes(), 0)).apply();
             }
             List list = this.f40490f;
             int size = list.size();

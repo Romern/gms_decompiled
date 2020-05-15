@@ -62,7 +62,7 @@ final class ayxp implements ayxh {
             bptu = bptu.f139179e;
         }
         bxvd bxvd = (bxvd) bptu.mo74142c(5);
-        bxvd.mo73625a((bxvk) bptu);
+        bxvd.mo73625a((GeneratedMessageLite) bptu);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

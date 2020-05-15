@@ -279,7 +279,7 @@ public final class atvu {
                 ((btrg) da8.f164949b).f150095e = btrb2;
                 btrg btrg4 = (btrg) da8.mo74062i();
                 bxvd bxvd = (bxvd) btrg4.mo74142c(5);
-                bxvd.mo73625a((bxvk) btrg4);
+                bxvd.mo73625a((GeneratedMessageLite) btrg4);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -291,7 +291,7 @@ public final class atvu {
                 bxyk bxyk3 = ((btrg) bxvd.f164949b).f150092b;
                 bxyk3 = bxyk3 == null ? bxyk.f165095c : bxyk3;
                 bxvd bxvd2 = (bxvd) bxyk3.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bxyk3);
+                bxvd2.mo73625a((GeneratedMessageLite) bxyk3);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
@@ -307,7 +307,7 @@ public final class atvu {
                 btrb btrb3 = ((btrg) bxvd.f164949b).f150095e;
                 btrb3 = btrb3 == null ? btrb.f150056k : btrb3;
                 bxvd bxvd3 = (bxvd) btrb3.mo74142c(5);
-                bxvd3.mo73625a((bxvk) btrb3);
+                bxvd3.mo73625a((GeneratedMessageLite) btrb3);
                 if (bxvd3.f164950c) {
                     bxvd3.mo74035c();
                     bxvd3.f164950c = false;
@@ -350,7 +350,7 @@ public final class atvu {
                 ((btrg) bxvd.f164949b).f150095e = btrb5;
                 btrg = (btrg) bxvd.mo74062i();
             }
-            intent2.putExtra("transaction", btrg.mo73642k());
+            intent2.putExtra("transaction", btrg.serializeToBytes());
             asmg asmg = new asmg();
             asmg.f89223a = btrg.f150097g;
             asmg.f89226d = "Visa-101";
@@ -1524,7 +1524,7 @@ public final class atvu {
             str = str2;
         }
         Intent putExtra = new Intent(str).putExtra("account_name", this.f91026b.getIntent().getStringExtra("account_name")).putExtra("payment_card", this.f91026b.f108941e);
-        putExtra.putExtra("transaction", ((btrg) this.f91027c.f91029a.mo74062i()).mo73642k());
+        putExtra.putExtra("transaction", ((btrg) this.f91027c.f91029a.mo74062i()).serializeToBytes());
         if (!atxn.m76506a(this.f91026b, putExtra)) {
             return false;
         }

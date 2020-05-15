@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbdl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbdl extends bxvk implements bxxd {
+public final class cbdl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbdl f176754d;
@@ -22,7 +22,7 @@ public final class cbdl extends bxvk implements bxxd {
     static {
         cbdl cbdl = new cbdl();
         f176754d = cbdl;
-        bxvk.m124024a(cbdl.class, cbdl);
+        GeneratedMessageLite.m124024a(cbdl.class, cbdl);
     }
 
     private cbdl() {
@@ -39,7 +39,7 @@ public final class cbdl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176754d, "\u0000\u0004\u0001\u0000\u0001g\u0004\u0000\u0000\u0000\u0001\fe<\u0000fȻ\u0000g<\u0000", new Object[]{"b", "a", "c", cbea.class, cbdi.class});
+            return GeneratedMessageLite.m124022a(f176754d, "\u0000\u0004\u0001\u0000\u0001g\u0004\u0000\u0000\u0000\u0001\fe<\u0000fȻ\u0000g<\u0000", new Object[]{"b", "a", "c", cbea.class, cbdi.class});
         } else if (i2 == 3) {
             return new cbdl();
         } else {

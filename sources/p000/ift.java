@@ -7,7 +7,7 @@ import android.content.Context;
 public abstract class ift extends aaab {
 
     /* renamed from: a */
-    private static final sek f20883a = new sek("CryptauthInternalDataServiceOperation");
+    private static final Logger f20883a = new Logger("CryptauthInternalDataServiceOperation");
 
     public ift(String str) {
         super(107, str);

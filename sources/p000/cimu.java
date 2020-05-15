@@ -166,7 +166,7 @@ public final class cimu extends bxvd implements bxxd {
         cimv cimv = (cimv) this.f164949b;
         cimv cimv2 = cimv.f190788ar;
         if (!cimv.f190845q.mo73666a()) {
-            cimv.f190845q = bxvk.m124021a(cimv.f190845q);
+            cimv.f190845q = GeneratedMessageLite.m124021a(cimv.f190845q);
         }
         bxsy.m123078a(iterable, cimv.f190845q);
     }
@@ -180,7 +180,7 @@ public final class cimu extends bxvd implements bxxd {
         cimv cimv = (cimv) this.f164949b;
         cimv cimv2 = cimv.f190788ar;
         if (!cimv.f190844p.mo73666a()) {
-            cimv.f190844p = bxvk.m124021a(cimv.f190844p);
+            cimv.f190844p = GeneratedMessageLite.m124021a(cimv.f190844p);
         }
         bxsy.m123078a(iterable, cimv.f190844p);
     }

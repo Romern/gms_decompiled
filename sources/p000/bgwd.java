@@ -64,7 +64,7 @@ public final class bgwd extends bgwc {
         }
         bvxg bvxg = (bvxg) da.f164949b;
         if (!bvxg.f158060a.mo73666a()) {
-            bvxg.f158060a = bxvk.m124021a(bvxg.f158060a);
+            bvxg.f158060a = GeneratedMessageLite.m124021a(bvxg.f158060a);
         }
         bxsy.m123078a(arrayList4, bvxg.f158060a);
         bvxg bvxg2 = (bvxg) da.mo74062i();
@@ -80,7 +80,7 @@ public final class bgwd extends bgwc {
         }
         bvvt bvvt = (bvvt) da2.f164949b;
         if (!bvvt.f157848d.mo73666a()) {
-            bvvt.f157848d = bxvk.m124021a(bvvt.f157848d);
+            bvvt.f157848d = GeneratedMessageLite.m124021a(bvvt.f157848d);
         }
         bxsy.m123078a(arrayList6, bvvt.f157848d);
         if (da2.f164950c) {
@@ -89,7 +89,7 @@ public final class bgwd extends bgwc {
         }
         bvvt bvvt2 = (bvvt) da2.f164949b;
         if (!bvvt2.f157850f.mo73666a()) {
-            bvvt2.f157850f = bxvk.m124021a(bvvt2.f157850f);
+            bvvt2.f157850f = GeneratedMessageLite.m124021a(bvvt2.f157850f);
         }
         bxsy.m123078a(arrayList5, bvvt2.f157850f);
         if (arrayList != null) {
@@ -99,7 +99,7 @@ public final class bgwd extends bgwc {
             }
             bvvt bvvt3 = (bvvt) da2.f164949b;
             if (!bvvt3.f157847c.mo73666a()) {
-                bvvt3.f157847c = bxvk.m124021a(bvvt3.f157847c);
+                bvvt3.f157847c = GeneratedMessageLite.m124021a(bvvt3.f157847c);
             }
             bxsy.m123078a(arrayList, bvvt3.f157847c);
         }
@@ -110,7 +110,7 @@ public final class bgwd extends bgwc {
             }
             bvvt bvvt4 = (bvvt) da2.f164949b;
             if (!bvvt4.f157846b.mo73666a()) {
-                bvvt4.f157846b = bxvk.m124021a(bvvt4.f157846b);
+                bvvt4.f157846b = GeneratedMessageLite.m124021a(bvvt4.f157846b);
             }
             bxsy.m123078a(arrayList2, bvvt4.f157846b);
         }

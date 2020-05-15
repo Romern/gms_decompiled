@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byws */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byws extends bxvk implements bxxd {
+public final class byws extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byws f168654c;
@@ -19,7 +19,7 @@ public final class byws extends bxvk implements bxxd {
     static {
         byws byws = new byws();
         f168654c = byws;
-        bxvk.m124024a(byws.class, byws);
+        GeneratedMessageLite.m124024a(byws.class, byws);
     }
 
     private byws() {
@@ -36,7 +36,7 @@ public final class byws extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168654c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bzac.f169213a});
+            return GeneratedMessageLite.m124022a(f168654c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bzac.f169213a});
         } else if (i2 == 3) {
             return new byws();
         } else {

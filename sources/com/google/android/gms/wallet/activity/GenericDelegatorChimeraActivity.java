@@ -43,7 +43,7 @@ public class GenericDelegatorChimeraActivity extends deu {
     public final void onCreate(Bundle bundle) {
         char c;
         String action = getIntent().getAction();
-        sdo.m34966a((Object) action, (Object) "Intent action must not be null");
+        sdo.checkIfNull((Object) action, (Object) "Intent action must not be null");
         if (f109913b.contains(action) && mo59777e()) {
             throw new SecurityException("This action can't be handled through an exported activity.");
         } else if (!f109913b.contains(action) && !mo59777e()) {

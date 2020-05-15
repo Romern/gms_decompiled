@@ -18,7 +18,7 @@ import java.util.List;
 public final class xdr implements xeh {
 
     /* renamed from: a */
-    public static final sek f52012a = new sek(new String[]{"UserVerifier"}, (short[]) null);
+    public static final Logger f52012a = new Logger(new String[]{"UserVerifier"}, (short[]) null);
 
     /* renamed from: b */
     private final Context f52013b;

@@ -42,7 +42,7 @@ public final class aaib {
 
     /* renamed from: a */
     static String m21288a(dci dci) {
-        return srv.m36160a(dci.mo73639aL().mo73780k());
+        return srv.m36160a(dci.mo73639aL().getKey());
     }
 
     /* renamed from: b */
@@ -93,7 +93,7 @@ public final class aaib {
         }
         if (!TextUtils.isEmpty(str)) {
             try {
-                dci dci = (dci) bxvk.m124007a(dci.f12811g, bxtx.m123261a(srv.m36161a(str)));
+                dci dci = (dci) GeneratedMessageLite.m124007a(dci.f12811g, ByteString.m123261a(srv.m36161a(str)));
                 String str2 = dci.f12814b;
                 File a = aaic.m21296a(str2, "pcam", m21289b());
                 File a2 = aaic.m21296a(str2, "pcbc", m21289b());
@@ -120,8 +120,8 @@ public final class aaib {
             dci = dci.f12811g;
         }
         String str = dci.f12814b;
-        byte[] k = dch.f12809c.mo73780k();
-        byte[] k2 = dch.f12810d.mo73780k();
+        byte[] k = dch.f12809c.getKey();
+        byte[] k2 = dch.f12810d.getKey();
         if (!(TextUtils.isEmpty(str) || k2 == null || k2.length == 0)) {
             aaic.m21301b(this.f28163a);
             this.f28163a.mkdirs();

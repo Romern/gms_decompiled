@@ -72,7 +72,7 @@ final /* synthetic */ class ahma implements Runnable {
                             byte[] a = ahkv.f67392h.mo36752a(ahkv.mo36711c(), bArr);
                             buuw buuw = buuw.PAIRED_KEY_ENCRYPTION;
                             bxvd da = buuk.f154951c.mo74144da();
-                            bxtx a2 = bxtx.m123261a(a);
+                            ByteString a2 = ByteString.m123261a(a);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
@@ -81,7 +81,7 @@ final /* synthetic */ class ahma implements Runnable {
                             a2.getClass();
                             buuk.f154953a |= 1;
                             buuk.f154954b = a2;
-                            ahna.mo36799a(ahoy.m56304a(buuw, da.mo74062i()).mo73642k());
+                            ahna.mo36799a(ahoy.m56304a(buuw, da.mo74062i()).serializeToBytes());
                             if (ahna != null) {
                                 try {
                                     new Object[1][0] = ahmn.mo36958g().mo44188a();
@@ -97,7 +97,7 @@ final /* synthetic */ class ahma implements Runnable {
                                         if (buuk2 == null) {
                                             buuk2 = buuk.f154951c;
                                         }
-                                        byte[] k = buuk2.f154954b.mo73780k();
+                                        byte[] k = buuk2.f154954b.getKey();
                                         byte[] bArr2 = (byte[]) ahkv.f67391g.get(str2);
                                         z = bArr2 != null && ahkv.f67392h.mo36750a(bArr2, bArr, k);
                                         bnsl bnsl = (bnsl) ahkm.f67363a.mo68390d();

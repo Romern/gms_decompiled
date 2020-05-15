@@ -11,6 +11,6 @@ final /* synthetic */ class cbvr implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (bqkr) bxvk.m124014a(bqkr.f141031b, bArr);
+        return (bqkr) GeneratedMessageLite.m124014a(bqkr.f141031b, bArr);
     }
 }

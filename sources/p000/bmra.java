@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmra */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmra extends bxvk implements bxxd {
+public final class bmra extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bmra f130453e;
@@ -25,7 +25,7 @@ public final class bmra extends bxvk implements bxxd {
     static {
         bmra bmra = new bmra();
         f130453e = bmra;
-        bxvk.m124024a(bmra.class, bmra);
+        GeneratedMessageLite.m124024a(bmra.class, bmra);
     }
 
     private bmra() {
@@ -42,7 +42,7 @@ public final class bmra extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130453e, "\u0001\u0002\u0001\u0001\u0002\u0005\u0002\u0000\u0000\u0000\u0002ဌ\u0000\u0005ြ\u0000", new Object[]{"c", "b", "a", "d", bmqy.f130452a, bmqx.class});
+            return GeneratedMessageLite.m124022a(f130453e, "\u0001\u0002\u0001\u0001\u0002\u0005\u0002\u0000\u0000\u0000\u0002ဌ\u0000\u0005ြ\u0000", new Object[]{"c", "b", "a", "d", bmqy.f130452a, bmqx.class});
         } else if (i2 == 3) {
             return new bmra();
         } else {

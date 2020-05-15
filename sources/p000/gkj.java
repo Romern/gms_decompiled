@@ -17,7 +17,7 @@ import java.util.HashSet;
 public final class gkj {
 
     /* renamed from: a */
-    public static final sek f18395a = ght.m13171a("AccountStatusChecker");
+    public static final Logger f18395a = ght.m13171a("AccountStatusChecker");
 
     /* renamed from: b */
     private final Context f18396b;
@@ -53,9 +53,9 @@ public final class gkj {
                 boolean hasSystemFeature = this.f18398d.f21322a.hasSystemFeature("org.chromium.arc.device_management");
                 if (z || hasSystemFeature) {
                     gkk gkk = this.f18399e;
-                    sek sek = gkk.f18400a;
+                    Logger Logger = gkk.f18400a;
                     String valueOf = String.valueOf(str);
-                    sek.mo25414c(valueOf.length() == 0 ? new String("Broadcasting bad device management: ") : "Broadcasting bad device management: ".concat(valueOf), new Object[0]);
+                    Logger.mo25414c(valueOf.length() == 0 ? new String("Broadcasting bad device management: ") : "Broadcasting bad device management: ".concat(valueOf), new Object[0]);
                     String a = gkk.f18409j.mo13129a();
                     if (a != null) {
                         Intent intent = new Intent("com.google.android.gms.auth.BAD_DEVICE_MANAGEMENT");
@@ -70,7 +70,7 @@ public final class gkj {
                 int i = Build.VERSION.SDK_INT;
                 Bundle applicationRestrictions = ((UserManager) this.f18396b.getSystemService("user")).getApplicationRestrictions(this.f18396b.getPackageName());
                 if ((applicationRestrictions == null || !applicationRestrictions.getBoolean("auth_account:hide_dm_notification")) && (l == null || System.currentTimeMillis() >= l.longValue())) {
-                    f18395a.mo25412b("Notifying for %s because of DeviceManagement", sek.m35081a(account));
+                    f18395a.mo25412b("Notifying for %s because of DeviceManagement", Logger.m35081a(account));
                     if (hasSystemFeature) {
                         f18395a.mo25414c("Notifying 'Account blocked' because of DeviceManagement", new Object[0]);
                         gkp gkp = this.f18397c;
@@ -84,15 +84,15 @@ public final class gkj {
                     this.f18397c.mo11991a(account);
                     return;
                 }
-                f18395a.mo25414c("Canceling for %s because of DM suppression", sek.m35081a(account));
+                f18395a.mo25414c("Canceling for %s because of DM suppression", Logger.m35081a(account));
                 this.f18397c.mo11993b(account);
                 return;
             }
-            f18395a.mo25414c("Canceling for %s", sek.m35081a(account));
+            f18395a.mo25414c("Canceling for %s", Logger.m35081a(account));
             this.f18397c.mo11993b(account);
             return;
         }
-        f18395a.mo25414c("Notifying for %s because of bad LST", sek.m35081a(account));
+        f18395a.mo25414c("Notifying for %s because of bad LST", Logger.m35081a(account));
         this.f18397c.mo11991a(account);
         if (this.f18398d.mo13131a(account)) {
             gkk gkk2 = this.f18399e;

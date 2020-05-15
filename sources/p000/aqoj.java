@@ -128,7 +128,7 @@ public final class aqoj extends sbm implements aqkr {
     /* renamed from: a */
     public final void mo47937a(aqoc aqoc) {
         GoogleSignInAccount googleSignInAccount;
-        sdo.m34966a(aqoc, "Expecting a valid ISignInCallbacks");
+        sdo.checkIfNull(aqoc, "Expecting a valid ISignInCallbacks");
         try {
             Account b = this.f86410a.mo25320b();
             if ("<<default account>>".equals(b.name)) {

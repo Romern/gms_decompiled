@@ -91,7 +91,7 @@ public final class arlt {
             deviceManagementInfoResponse = (DeviceManagementInfoResponse) ((ixl) this.f87864c).mo13426a(new ixf(account));
         }
         boolean z = deviceManagementInfoResponse != null && !TextUtils.isEmpty(deviceManagementInfoResponse.f10624b);
-        f87862a.mo25409a("isManagedAccount(%s) = %s", account, Boolean.valueOf(z));
+        f87862a.logVerbose("isManagedAccount(%s) = %s", account, Boolean.valueOf(z));
         return z;
     }
 }

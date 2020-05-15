@@ -64,7 +64,7 @@ public abstract class mjk implements mjo {
         mjn mjn = this.f33841a;
         if (i == 0) {
             mhv mhv = ((mib) mjn).f33756g;
-            mgj.f33623a.mo25409a("Device connected.", new Object[0]);
+            mgj.f33623a.logVerbose("Device connected.", new Object[0]);
             mgj mgj = (mgj) mhv;
             mgj.f33638p.mo19910a(mfk.f33578a);
             mgj.f33627e.mo19999a();
@@ -73,7 +73,7 @@ public abstract class mjk implements mjo {
             return;
         }
         mhv mhv2 = ((mib) mjn).f33756g;
-        mgj.f33623a.mo25409a("Connection failed.", new Object[0]);
+        mgj.f33623a.logVerbose("Connection failed.", new Object[0]);
         mgj mgj2 = (mgj) mhv2;
         mgj2.f33638p.mo19910a(mfj.f33577a);
         mgj2.mo19989f();

@@ -83,7 +83,7 @@ final class atit extends atki {
                     uri = null;
                 }
                 asov.f89325f = uri;
-                asov.f89326g = btjk.f149142t.mo73780k();
+                asov.f89326g = btjk.f149142t.getKey();
                 asov.f89327h = onlineAccountCardLinkInfoArr;
                 int a6 = btog.m116982a(btjk.f149145w);
                 if (a6 == 0) {

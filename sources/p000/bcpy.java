@@ -5,7 +5,7 @@ package p000;
 final class bcpy extends bcpz {
 
     /* renamed from: a */
-    private final bxtx f104670a;
+    private final ByteString f104670a;
 
     /* renamed from: a */
     public final int mo57180a() {
@@ -13,7 +13,7 @@ final class bcpy extends bcpz {
     }
 
     /* renamed from: e */
-    public final bxtx mo57196e() {
+    public final ByteString mo57196e() {
         return this.f104670a;
     }
 
@@ -37,7 +37,7 @@ final class bcpy extends bcpz {
         return sb.toString();
     }
 
-    public bcpy(bxtx bxtx) {
+    public bcpy(ByteString bxtx) {
         this.f104670a = bxtx;
     }
 }

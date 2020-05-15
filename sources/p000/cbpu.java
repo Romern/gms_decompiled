@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbpu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbpu extends bxvk implements bxxd {
+public final class cbpu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbpu f177959c;
@@ -19,7 +19,7 @@ public final class cbpu extends bxvk implements bxxd {
     static {
         cbpu cbpu = new cbpu();
         f177959c = cbpu;
-        bxvk.m124024a(cbpu.class, cbpu);
+        GeneratedMessageLite.m124024a(cbpu.class, cbpu);
     }
 
     private cbpu() {
@@ -36,7 +36,7 @@ public final class cbpu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177959c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f177959c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cbpu();
         } else {

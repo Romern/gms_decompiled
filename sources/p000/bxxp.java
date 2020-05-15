@@ -109,7 +109,7 @@ interface bxxp {
     void mo73715m(List list);
 
     /* renamed from: n */
-    bxtx mo73716n();
+    ByteString mo73716n();
 
     /* renamed from: n */
     void mo73717n(List list);

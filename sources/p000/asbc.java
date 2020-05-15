@@ -56,7 +56,7 @@ public final class asbc extends WebViewClient {
         String str6 = arpv.f88106b;
         if (str5 == null && str6 == null) {
             AccountChallengeWebView accountChallengeWebView = this.f88644a;
-            sek sek = AccountChallengeWebView.f108239a;
+            Logger Logger = AccountChallengeWebView.f108239a;
             arwo arwo = accountChallengeWebView.f108255o;
             if (arwo != null) {
                 arws arws = arwo.f88372a;
@@ -70,12 +70,12 @@ public final class asbc extends WebViewClient {
             this.f88644a.f108253m.mo71366e().setVisibility(4);
         } else if (!TextUtils.isEmpty(str5)) {
             AccountChallengeWebView accountChallengeWebView3 = this.f88644a;
-            sek sek2 = AccountChallengeWebView.f108239a;
+            Logger logger2 = AccountChallengeWebView.f108239a;
             accountChallengeWebView3.f108246f.add(accountChallengeWebView3.f108251k);
             new asbj(this.f88644a, this.f88644a.f108251k.getString("name"), str5).execute(new Void[0]);
         } else if (!TextUtils.isEmpty(str6)) {
             AccountChallengeWebView accountChallengeWebView4 = this.f88644a;
-            sek sek3 = AccountChallengeWebView.f108239a;
+            Logger logger3 = AccountChallengeWebView.f108239a;
             accountChallengeWebView4.f108251k.putString("sessionCheckpoint", str6);
             this.f88644a.f108251k.putString("url", null);
             AccountChallengeWebView accountChallengeWebView5 = this.f88644a;

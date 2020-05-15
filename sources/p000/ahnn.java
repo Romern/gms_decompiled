@@ -12,7 +12,7 @@ final class ahnn extends ahnl {
     /* renamed from: a */
     public final boolean mo36889a(ahna ahna) {
         if (ahna.mo36802d() == -1 || ahna.mo36802d() + cfnv.f184625a.mo6606a().mo81771ad() >= SystemClock.elapsedRealtime()) {
-            ahna.mo36799a(ahoy.m56304a(buuw.KEEP_ALIVE, buuf.f154939a).mo73642k());
+            ahna.mo36799a(ahoy.m56304a(buuw.KEEP_ALIVE, buuf.f154939a).serializeToBytes());
             Thread.sleep(cfnv.m140742D());
             return true;
         }

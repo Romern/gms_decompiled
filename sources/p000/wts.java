@@ -330,7 +330,7 @@ public final class wts extends Fragment {
                     bnsl4.mo68405a("FastPair: fail to forget footprints because device has no sha256.");
                     return;
                 } else {
-                    buru.mo73060a(account, bArr, a2.f68446d.mo73780k());
+                    buru.mo73060a(account, bArr, a2.f68446d.getKey());
                     return;
                 }
             } catch (InterruptedException | ExecutionException e2) {

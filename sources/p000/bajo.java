@@ -54,7 +54,7 @@ public final class bajo extends cazu {
             while (i.hasNext()) {
                 badq badq = (badq) i.next();
                 bmxy.m108582a(badq.mo55651c(), "Server state must have assigned timestamps!");
-                bxtx a2 = bair.m86940a(badq.mo55650b());
+                ByteString a2 = bair.m86940a(badq.mo55650b());
                 if (badq.mo55649a() != null) {
                     hashMap.put(a2, badq);
                 } else {

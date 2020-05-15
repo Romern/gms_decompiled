@@ -84,10 +84,10 @@ final class bxtg {
         } else if (i2 > bArr.length - a) {
             throw bxwf.m124088a();
         } else if (i2 != 0) {
-            bxtf.f164769c = bxtx.m123262a(bArr, a, i2);
+            bxtf.f164769c = ByteString.m123262a(bArr, a, i2);
             return a + i2;
         } else {
-            bxtf.f164769c = bxtx.f164797b;
+            bxtf.f164769c = ByteString.f164797b;
             return a;
         }
     }
@@ -161,9 +161,9 @@ final class bxtg {
                     throw bxwf.m124089b();
                 } else if (i4 <= bArr.length - a2) {
                     if (i4 != 0) {
-                        bxyo.mo74283a(i, bxtx.m123262a(bArr, a2, i4));
+                        bxyo.mo74283a(i, ByteString.m123262a(bArr, a2, i4));
                     } else {
-                        bxyo.mo74283a(i, bxtx.f164797b);
+                        bxyo.mo74283a(i, ByteString.f164797b);
                     }
                     return a2 + i4;
                 } else {

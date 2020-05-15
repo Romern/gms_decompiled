@@ -6,7 +6,7 @@ public final class kia implements kew {
     /* renamed from: a */
     public final bnic mo14435a(byte[] bArr) {
         try {
-            kdh kdh = (kdh) bxvk.m124014a(kdh.f23882b, bArr);
+            kdh kdh = (kdh) GeneratedMessageLite.m124014a(kdh.f23882b, bArr);
             bnia j = bnic.m109500j();
             bxwc bxwc = kdh.f23884a;
             int size = bxwc.size();
@@ -33,10 +33,10 @@ public final class kia implements kew {
             kdh kdh = (kdh) da.f164949b;
             kdg.getClass();
             if (!kdh.f23884a.mo73666a()) {
-                kdh.f23884a = bxvk.m124021a(kdh.f23884a);
+                kdh.f23884a = GeneratedMessageLite.m124021a(kdh.f23884a);
             }
             kdh.f23884a.add(kdg);
         }
-        return ((kdh) da.mo74062i()).mo73642k();
+        return ((kdh) da.mo74062i()).serializeToBytes();
     }
 }

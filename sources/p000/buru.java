@@ -51,7 +51,7 @@ public final class buru {
         Iterator it = list.iterator();
         while (it.hasNext()) {
             ahza ahza = (ahza) it.next();
-            if (Arrays.equals(bArr, ahza.f68444b.mo73780k())) {
+            if (Arrays.equals(bArr, ahza.f68444b.getKey())) {
                 busr busr = busr.f154819a;
                 return ahza;
             }
@@ -77,7 +77,7 @@ public final class buru {
                             } else {
                                 ahza = ahza.f68441e;
                             }
-                            byte[] k = ahza.f68446d.mo73780k();
+                            byte[] k = ahza.f68446d.getKey();
                             if (k.length >= 4) {
                                 int i = 0;
                                 while (true) {
@@ -304,8 +304,8 @@ public final class buru {
                     ahza ahza2 = (ahza) it.next();
                     int i2 = ahza2.f68443a;
                     if ((i2 & 1) != 0 && (i2 & 4) != 0) {
-                        byte[] k = ahza2.f68446d.mo73780k();
-                        byte[] k2 = ahza2.f68444b.mo73780k();
+                        byte[] k = ahza2.f68446d.getKey();
+                        byte[] k2 = ahza2.f68444b.getKey();
                         if (Arrays.equals(k, bnzi.m110902d().mo68722a(bqce.m112562a(k2, aynj.m84359a(str))).mo68740b())) {
                             break;
                         }
@@ -346,7 +346,7 @@ public final class buru {
         try {
             for (ahza ahza : (List) mo73055a(account).get()) {
                 try {
-                    mo73069d(account).mo55928a(m120322b(ahza.f68444b.mo73780k()), ahzb.f68447c).get();
+                    mo73069d(account).mo55928a(m120322b(ahza.f68444b.getKey()), ahzb.f68447c).get();
                 } catch (InterruptedException | ExecutionException e) {
                     bnsl bnsl = (bnsl) busr.f154819a.mo68388c();
                     bnsl.mo68437a(e);
@@ -388,8 +388,8 @@ public final class buru {
             ahza ahza = (ahza) it.next();
             int i = ahza.f68443a;
             if (!((i & 1) == 0 || (i & 4) == 0)) {
-                byte[] k = ahza.f68446d.mo73780k();
-                byte[] k2 = ahza.f68444b.mo73780k();
+                byte[] k = ahza.f68446d.getKey();
+                byte[] k2 = ahza.f68444b.getKey();
                 if (Arrays.equals(k, bnzi.m110902d().mo68722a(bqce.m112562a(k2, aynj.m84359a(str))).mo68740b())) {
                     bnsl bnsl = (bnsl) busr.f154819a.mo68390d();
                     bnsl.mo68432a("buru", "a", 653, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -443,8 +443,8 @@ public final class buru {
 
     /* renamed from: a */
     public final void mo73058a(Account account, burt burt, bqfp bqfp) {
-        byte[] k = burt.mo73010a().mo73642k();
-        byte[] k2 = burt.mo73011b().mo73780k();
+        byte[] k = burt.mo73010a().serializeToBytes();
+        byte[] k2 = burt.mo73011b().getKey();
         if (!cfos.m141988b() || !((bnsl) busr.f154819a.mo68390d()).mo68447l()) {
             busr busr = busr.f154819a;
             int length = k.length;
@@ -455,7 +455,7 @@ public final class buru {
         }
         long elapsedRealtime = SystemClock.elapsedRealtime();
         bxvd da = ahza.f68441e.mo74144da();
-        bxtx b = burt.mo73011b();
+        ByteString b = burt.mo73011b();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -464,7 +464,7 @@ public final class buru {
         b.getClass();
         ahza.f68443a |= 1;
         ahza.f68444b = b;
-        bxtx a = bxtx.m123261a(k);
+        ByteString a = ByteString.m123261a(k);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -473,7 +473,7 @@ public final class buru {
         a.getClass();
         ahza2.f68443a |= 2;
         ahza2.f68445c = a;
-        bxtx c = burt.mo73012c();
+        ByteString c = burt.mo73012c();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -533,7 +533,7 @@ public final class buru {
             byte[] b = m120322b(bArr);
             bxvd da = ahzb.f68447c.mo74144da();
             bxvd da2 = ahza.f68441e.mo74144da();
-            bxtx a = bxtx.m123261a(m120323c(bArr2));
+            ByteString a = ByteString.m123261a(m120323c(bArr2));
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -577,7 +577,7 @@ public final class buru {
                     bnsl.mo68405a("FastPair: fail to forget footprints because device has no sha256.");
                     return;
                 } else {
-                    mo73060a(account, bArr, a2.f68446d.mo73780k());
+                    mo73060a(account, bArr, a2.f68446d.getKey());
                     return;
                 }
             } catch (InterruptedException | ExecutionException e) {

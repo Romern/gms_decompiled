@@ -107,11 +107,11 @@ public final class azgt extends azgx {
             }
             cbgs cbgs = (cbgs) da.f164949b;
             if (!cbgs.f177081a.mo73666a()) {
-                cbgs.f177081a = bxvk.m124021a(cbgs.f177081a);
+                cbgs.f177081a = GeneratedMessageLite.m124021a(cbgs.f177081a);
             }
             bxsy.m123078a(arrayList, cbgs.f177081a);
         }
-        return ((cbgs) da.mo74062i()).mo73642k();
+        return ((cbgs) da.mo74062i()).serializeToBytes();
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
@@ -328,7 +328,7 @@ public final class azgt extends azgx {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ bxxc mo54916a(cbkj cbkj) {
-        return (cbkg) azol.m85935a((bxxk) cbkg.f177400d.mo74142c(7), cbkj.f177411e.mo73780k());
+        return (cbkg) azol.m85935a((bxxk) cbkg.f177400d.mo74142c(7), cbkj.f177411e.getKey());
     }
 
     /* access modifiers changed from: protected */

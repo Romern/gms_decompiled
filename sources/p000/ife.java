@@ -11,7 +11,7 @@ import java.util.concurrent.TimeoutException;
 final class ife {
 
     /* renamed from: a */
-    public static final sek f20850a = new sek("AuthZenGcmEventHandler");
+    public static final Logger f20850a = new Logger("AuthZenGcmEventHandler");
 
     /* renamed from: b */
     private final ikj f20851b;
@@ -100,11 +100,11 @@ final class ife {
                     ikj ikj = this.f20851b;
                     context = this.f20853d;
                     rkb rkb = this.f20852c;
-                    bypc bypc = (bypc) bxvk.m124014a(bypc.f167305k, byrz.f167531b);
+                    bypc bypc = (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, byrz.f167531b);
                     if ((bypc.f167307a & 4096) != 0) {
                         ikj.f21205d.mo25414c("Transaction has FIDO data. Calling the FIDO2 0p API to start a silent caBLEauthenticator session.", new Object[0]);
                         bxvd da = bsno.f146308c.mo74144da();
-                        bxtx bxtx = bypc.f167308b;
+                        ByteString bxtx = bypc.f167308b;
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -115,18 +115,18 @@ final class ife {
                         str3.getClass();
                         bsno.f146311b = str3;
                         xnw c = wzk.m42529c(context);
-                        byte[] k = ((bsno) da.mo74062i()).mo73642k();
-                        byte[] k2 = bypc.f167315i.mo73780k();
+                        byte[] k = ((bsno) da.mo74062i()).serializeToBytes();
+                        byte[] k2 = bypc.f167315i.getKey();
                         xod xod = new xod();
                         roz b2 = rpa.m34196b();
                         b2.f43472a = new xns(1, k, k2, xod);
                         c.mo24701a(b2.mo24977a());
                     }
-                    igg.m15405a().mo12992a(bypc.f167308b.mo73780k());
-                    sek sek = ikj.f21205d;
+                    igg.m15405a().mo12992a(bypc.f167308b.getKey());
+                    Logger Logger = ikj.f21205d;
                     Object[] objArr = new Object[1];
                     StringBuilder sb = new StringBuilder("{\n");
-                    sb.append(String.format("  id: %s\n", srv.m36160a(bypc.f167308b.mo73780k())));
+                    sb.append(String.format("  id: %s\n", srv.m36160a(bypc.f167308b.getKey())));
                     rkb rkb2 = rkb;
                     sb.append(String.format("  tx_creation_time_millis: %s\n", Long.valueOf(bypc.f167309c)));
                     sb.append(String.format("  min_required_version: %d\n", Integer.valueOf(bypc.f167316j)));
@@ -198,7 +198,7 @@ final class ife {
                     }
                     sb.append("  }\n}");
                     objArr[0] = sb.toString();
-                    sek.mo25414c("Processing TxRequest: %s\n", objArr);
+                    Logger.mo25414c("Processing TxRequest: %s\n", objArr);
                     bypc bypc2 = bypc;
                     rkb rkb3 = rkb2;
                     ikj.m15596a(context, bypc, str3, a, bypf.RECEIVED, null);
@@ -229,7 +229,7 @@ final class ife {
                     ikj ikj3 = this.f20851b;
                     Context context2 = this.f20853d;
                     rkb rkb4 = this.f20852c;
-                    ikg a9 = ikh.m15586a(context2).mo13087a(((byoy) bxvk.m124014a(byoy.f167279b, byrz.f167531b)).f167281a.mo73780k());
+                    ikg a9 = ikh.m15586a(context2).mo13087a(((byoy) GeneratedMessageLite.m124014a(byoy.f167279b, byrz.f167531b)).f167281a.getKey());
                     if (a9 != null) {
                         bypc bypc3 = a9.f21184a;
                         Intent a10 = ikj.m15594a(context2, bypc3, str3, a);
@@ -238,7 +238,7 @@ final class ife {
                         ikl ikl = ikj3.f21206b;
                         Intent intent3 = new Intent("AUTHZEN_CLOSE_ACTIVITY");
                         intent3.setPackage("com.google.android.gms");
-                        intent3.putExtra("transaction_id", bypc3.f167308b.mo73780k());
+                        intent3.putExtra("transaction_id", bypc3.f167308b.getKey());
                         ikl.f21216a.sendBroadcast(intent3);
                         ikl.mo13096a(a10, a11);
                         if (((Boolean) igt.f20955e.mo58455c()).booleanValue()) {
@@ -256,13 +256,13 @@ final class ife {
                         ikj.f21205d.mo25418e("No cached entry found", new Object[0]);
                     }
                 } else if (ordinal != 14) {
-                    sek sek2 = f20850a;
+                    Logger logger2 = f20850a;
                     String valueOf2 = String.valueOf(byrz.f167530a.name());
-                    sek2.mo25418e(valueOf2.length() == 0 ? new String("Unexpected payload type: ") : "Unexpected payload type: ".concat(valueOf2), new Object[0]);
+                    logger2.mo25418e(valueOf2.length() == 0 ? new String("Unexpected payload type: ") : "Unexpected payload type: ".concat(valueOf2), new Object[0]);
                     iir.f21069d = 14;
                     iir.mo13046a();
                 } else {
-                    byry byry = (byry) bxvk.m124014a(byry.f167524e, byrz.f167531b);
+                    byry byry = (byry) GeneratedMessageLite.m124014a(byry.f167524e, byrz.f167531b);
                     if ((byry.f167526a & 1) != 0) {
                         intent2 = new Intent("com.google.android.gms.auth.authzen.GCM_DEVICE_PROXIMITY");
                         intent2.putExtra("account_name", str3);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpoh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpoh extends bxvk implements bxxd {
+public final class bpoh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: s */
     public static final bpoh f138508s;
@@ -67,7 +67,7 @@ public final class bpoh extends bxvk implements bxxd {
     static {
         bpoh bpoh = new bpoh();
         f138508s = bpoh;
-        bxvk.m124024a(bpoh.class, bpoh);
+        GeneratedMessageLite.m124024a(bpoh.class, bpoh);
     }
 
     private bpoh() {
@@ -84,7 +84,7 @@ public final class bpoh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138508s, "\u0001\u0011\u0000\u0001\u0001\u0013\u0011\u0000\u0001\u0000\u0001ဌ\u0001\u0003င\u0003\u0004ဉ\u0006\u0005ဉ\u0007\u0006ဉ\b\u0007ဉ\t\bဇ\u0004\tဉ\n\nဉ\u000b\u000b\u0016\fင\u0005\rဉ\f\u000eဉ\r\u0010ဉ\u000f\u0011င\u0000\u0012ဉ\u0010\u0013ဉ\u0011", new Object[]{"a", "c", bpog.f138507a, "d", "h", "i", "j", "k", "e", "l", "m", "f", "g", "n", "o", "p", "b", "q", "r"});
+            return GeneratedMessageLite.m124022a(f138508s, "\u0001\u0011\u0000\u0001\u0001\u0013\u0011\u0000\u0001\u0000\u0001ဌ\u0001\u0003င\u0003\u0004ဉ\u0006\u0005ဉ\u0007\u0006ဉ\b\u0007ဉ\t\bဇ\u0004\tဉ\n\nဉ\u000b\u000b\u0016\fင\u0005\rဉ\f\u000eဉ\r\u0010ဉ\u000f\u0011င\u0000\u0012ဉ\u0010\u0013ဉ\u0011", new Object[]{"a", "c", bpog.f138507a, "d", "h", "i", "j", "k", "e", "l", "m", "f", "g", "n", "o", "p", "b", "q", "r"});
         } else if (i2 == 3) {
             return new bpoh();
         } else {

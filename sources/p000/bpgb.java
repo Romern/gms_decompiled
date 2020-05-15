@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpgb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpgb extends bxvk implements bxxd {
+public final class bpgb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bpgb f137469a;
@@ -13,7 +13,7 @@ public final class bpgb extends bxvk implements bxxd {
     static {
         bpgb bpgb = new bpgb();
         f137469a = bpgb;
-        bxvk.m124024a(bpgb.class, bpgb);
+        GeneratedMessageLite.m124024a(bpgb.class, bpgb);
     }
 
     private bpgb() {
@@ -30,7 +30,7 @@ public final class bpgb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f137469a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f137469a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bpgb();

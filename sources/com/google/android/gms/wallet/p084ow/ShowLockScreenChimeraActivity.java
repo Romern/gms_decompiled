@@ -59,7 +59,7 @@ public class ShowLockScreenChimeraActivity extends bkjk {
     public final void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         BuyFlowConfig buyFlowConfig = (BuyFlowConfig) getIntent().getParcelableExtra("buyFlowConfig");
-        sdo.m34966a(buyFlowConfig, "buyFlowConfig is required");
+        sdo.checkIfNull(buyFlowConfig, "buyFlowConfig is required");
         awia.m79981a((com.google.android.chimera.Activity) this, buyFlowConfig, awia.f94379a, false);
     }
 }

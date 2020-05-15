@@ -44,7 +44,7 @@ public final class uln extends uny {
     public uln(uno uno, long j, long j2, String str, ukk ukk, int i, long j3, boolean z, String str2) {
         super(uno, ulq.f48148a, j);
         this.f48132a = j2;
-        sdo.m34966a((Object) str, (Object) "null payload");
+        sdo.checkIfNull((Object) str, (Object) "null payload");
         this.f48133b = str;
         this.f48135d = ukk;
         this.f48134c = i;

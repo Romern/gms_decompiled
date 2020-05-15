@@ -61,7 +61,7 @@ public final class sbd implements sbg {
         if (!(fetchFeatures == null || (protoBytes = fetchFeatures.getProtoBytes()) == null)) {
             if (protoBytes.length != 0) {
                 try {
-                    bxwc bxwc = ((djf) bxvk.m124014a(djf.f13322b, protoBytes)).f13324a;
+                    bxwc bxwc = ((djf) GeneratedMessageLite.m124014a(djf.f13322b, protoBytes)).f13324a;
                     ArrayList arrayList = new ArrayList(bxwc.size());
                     int size = bxwc.size();
                     for (int i2 = 0; i2 < size; i2++) {

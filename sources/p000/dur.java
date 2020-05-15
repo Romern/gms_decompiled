@@ -186,7 +186,7 @@ public final class dur extends duq {
                 bxkm2 = bxkm.f163763d;
             }
             objArr2[1] = bxkm2.f163767c;
-            objArr2[2] = bxkn.f163773c.mo73780k();
+            objArr2[2] = bxkn.f163773c.getKey();
             bxkm bxkm3 = bxkn.f163772b;
             if (bxkm3 == null) {
                 bxkm3 = bxkm.f163763d;

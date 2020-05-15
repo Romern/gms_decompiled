@@ -33,7 +33,7 @@ final class vzd extends Thread {
                 sb.append(defaultUrl);
                 sb.append("&signedRequest=");
                 sb.append(str);
-                this.f50273a.mo28994a(vwg.m41486a(sb.toString(), bxtx.f164797b).mo73780k(), this.f50274b);
+                this.f50273a.mo28994a(vwg.m41486a(sb.toString(), ByteString.f164797b).getKey(), this.f50274b);
                 this.f50273a.f50277a = true;
             } catch (IOException e) {
                 Log.e("DG.WV", "Could not communicate with the provisioning server.", e);

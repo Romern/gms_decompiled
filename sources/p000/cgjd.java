@@ -11,6 +11,6 @@ final /* synthetic */ class cgjd implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (bzeo) bxvk.m124014a(bzeo.f169695b, bArr);
+        return (bzeo) GeneratedMessageLite.m124014a(bzeo.f169695b, bArr);
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvoo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvoo extends bxvk implements bxxd {
+public final class bvoo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bvoo f157062e;
@@ -28,7 +28,7 @@ public final class bvoo extends bxvk implements bxxd {
     static {
         bvoo bvoo = new bvoo();
         f157062e = bvoo;
-        bxvk.m124024a(bvoo.class, bvoo);
+        GeneratedMessageLite.m124024a(bvoo.class, bvoo);
     }
 
     private bvoo() {
@@ -45,7 +45,7 @@ public final class bvoo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157062e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003ဈ\u0002\u0004ဈ\u0003", new Object[]{"f", "a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f157062e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003ဈ\u0002\u0004ဈ\u0003", new Object[]{"f", "a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bvoo();
         } else {

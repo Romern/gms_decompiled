@@ -61,7 +61,7 @@ public final class vla extends shj {
     /* renamed from: a */
     public final HashMap mo25519a(Context context, ClientContext clientContext) {
         HashMap a = super.mo25519a(context, clientContext);
-        a.put("X-Device-ID", Long.toHexString(spn.m35843a(context)));
+        a.put("X-Device-ID", Long.toHexString(spn.getAndroidId(context)));
         a.put("User-Agent", sic.m35342a(context, "Drive Android SDK/1.0"));
         return a;
     }

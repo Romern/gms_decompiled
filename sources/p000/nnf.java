@@ -26,7 +26,7 @@ final /* synthetic */ class nnf implements ojn {
         if (biwd2 == null) {
             biwd2 = biwd.f122072e;
         }
-        byte[] k = biwd2.f122077d.mo73780k();
+        byte[] k = biwd2.f122077d.getKey();
         biwd biwd3 = bivb.f121932j;
         if (biwd3 == null) {
             biwd3 = biwd.f122072e;

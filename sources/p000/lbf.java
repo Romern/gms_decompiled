@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lbf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lbf extends bxvk implements bxxd {
+public final class lbf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final lbf f25715f;
@@ -28,7 +28,7 @@ public final class lbf extends bxvk implements bxxd {
     static {
         lbf lbf = new lbf();
         f25715f = lbf;
-        bxvk.m124024a(lbf.class, lbf);
+        GeneratedMessageLite.m124024a(lbf.class, lbf);
     }
 
     private lbf() {
@@ -45,7 +45,7 @@ public final class lbf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25715f, "\u0000\u0005\u0000\u0000\u0001\u0007\u0005\u0000\u0001\u0000\u0001\u001b\u0004Ȉ\u0005\u0004\u0006\u0005\u0007\u0005", new Object[]{"a", lbd.class, "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f25715f, "\u0000\u0005\u0000\u0000\u0001\u0007\u0005\u0000\u0001\u0000\u0001\u001b\u0004Ȉ\u0005\u0004\u0006\u0005\u0007\u0005", new Object[]{"a", lbd.class, "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new lbf();
         } else {

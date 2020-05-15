@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bong */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bong extends bxvk implements bxxd {
+public final class bong extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: r */
     public static final bong f133782r;
@@ -64,7 +64,7 @@ public final class bong extends bxvk implements bxxd {
     static {
         bong bong = new bong();
         f133782r = bong;
-        bxvk.m124024a(bong.class, bong);
+        GeneratedMessageLite.m124024a(bong.class, bong);
     }
 
     private bong() {
@@ -81,7 +81,7 @@ public final class bong extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133782r, "\u0001\u0010\u0000\u0001\u0001\u0012\u0010\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0006ဉ\u0004\u0007ဉ\u0005\bဉ\u0006\nဉ\u0007\u000bဉ\b\fဉ\t\rဉ\n\u000eဉ\u000b\u000fဉ\f\u0010ဉ\r\u0011ဉ\u000e\u0012ဉ\u000f", new Object[]{"a", "b", bonf.f133781a, "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q"});
+            return GeneratedMessageLite.m124022a(f133782r, "\u0001\u0010\u0000\u0001\u0001\u0012\u0010\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0006ဉ\u0004\u0007ဉ\u0005\bဉ\u0006\nဉ\u0007\u000bဉ\b\fဉ\t\rဉ\n\u000eဉ\u000b\u000fဉ\f\u0010ဉ\r\u0011ဉ\u000e\u0012ဉ\u000f", new Object[]{"a", "b", bonf.f133781a, "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q"});
         } else if (i2 == 3) {
             return new bong();
         } else {

@@ -64,7 +64,7 @@ final class bxut {
                 bxul.mo73880a(bxvi.f164953a, entry.getValue(), bxxm.f165037a.mo74227a((Class) entry.getValue().getClass()));
                 return;
             case 11:
-                bxul.mo73878a(bxvi.f164953a, (bxtx) entry.getValue());
+                bxul.mo73878a(bxvi.f164953a, (ByteString) entry.getValue());
                 return;
             case 12:
                 bxul.mo73890e(bxvi.f164953a, ((Integer) entry.getValue()).intValue());

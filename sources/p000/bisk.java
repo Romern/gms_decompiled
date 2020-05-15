@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bisk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bisk extends bxvk implements bxxd {
+public final class bisk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bisk f121575b;
@@ -22,7 +22,7 @@ public final class bisk extends bxvk implements bxxd {
     static {
         bisk bisk = new bisk();
         f121575b = bisk;
-        bxvk.m124024a(bisk.class, bisk);
+        GeneratedMessageLite.m124024a(bisk.class, bisk);
     }
 
     private bisk() {
@@ -43,7 +43,7 @@ public final class bisk extends bxvk implements bxxd {
             this.f121579d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121575b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"c", "a", bisn.m102793b()});
+            return GeneratedMessageLite.m124022a(f121575b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"c", "a", bisn.m102793b()});
         } else if (i2 == 3) {
             return new bisk();
         } else {

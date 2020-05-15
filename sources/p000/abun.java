@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abun */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abun extends bxvk implements bxxd {
+public final class abun extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final abun f58432c;
@@ -22,7 +22,7 @@ public final class abun extends bxvk implements bxxd {
     static {
         abun abun = new abun();
         f58432c = abun;
-        bxvk.m124024a(abun.class, abun);
+        GeneratedMessageLite.m124024a(abun.class, abun);
     }
 
     private abun() {
@@ -39,7 +39,7 @@ public final class abun extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58432c, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0001\u0000\u0001\u001b\u0003ဉ\u0000", new Object[]{"d", "a", abum.class, "b"});
+            return GeneratedMessageLite.m124022a(f58432c, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0001\u0000\u0001\u001b\u0003ဉ\u0000", new Object[]{"d", "a", abum.class, "b"});
         } else if (i2 == 3) {
             return new abun();
         } else {

@@ -34,7 +34,7 @@ public final class akhb {
     private final int m59658a(Account account, ajii ajii, boolean z) {
         ajih b = mo39436b(account);
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         ajig ajig = (ajig) bxvd;
         int size = ((ajih) ajig.f164949b).f70709a.size();
         int i = 0;
@@ -50,7 +50,7 @@ public final class akhb {
                 return 35500;
             } else {
                 bxvd bxvd2 = (bxvd) a.mo74142c(5);
-                bxvd2.mo73625a((bxvk) a);
+                bxvd2.mo73625a((GeneratedMessageLite) a);
                 ajie ajie = (ajie) bxvd2;
                 if (ajie.f164950c) {
                     ajie.mo74035c();
@@ -110,7 +110,7 @@ public final class akhb {
         if (d.exists()) {
             try {
                 fileInputStream = new FileInputStream(d);
-                ajih ajih = (ajih) bxvk.m124010a(ajih.f70707b, fileInputStream);
+                ajih ajih = (ajih) GeneratedMessageLite.m124010a(ajih.f70707b, fileInputStream);
                 fileInputStream.close();
                 return ajih;
             } catch (IOException e) {
@@ -632,7 +632,7 @@ public final class akhb {
                                         i2 = size;
                                         bnsl5.mo68424a("We noticed that the unassociated %s has the same device name as the Gaia %s. Merging the two contacts.", akhc.m59670a(ajif4), akhc.m59670a(ajif5));
                                         bxvd bxvd = (bxvd) ajih5.mo74142c(5);
-                                        bxvd.mo73625a((bxvk) ajih5);
+                                        bxvd.mo73625a((GeneratedMessageLite) ajih5);
                                         ajig ajig3 = (ajig) bxvd;
                                         ajig3.mo38672a(i20, akhc.m59669a(ajif5, ajif4));
                                         arrayList3.set(i19, (ajih) ajig3.mo74062i());
@@ -670,7 +670,7 @@ public final class akhb {
                                                 bnsl6.mo68432a("akhc", "a", 137, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                                                 bnsl6.mo68424a("We noticed that the unassociated %s shares a phone number with the Gaia %s. Merging the two contacts.", akhc.m59670a(ajif4), akhc.m59670a(ajif5));
                                                 bxvd bxvd2 = (bxvd) ajih5.mo74142c(5);
-                                                bxvd2.mo73625a((bxvk) ajih5);
+                                                bxvd2.mo73625a((GeneratedMessageLite) ajih5);
                                                 ajig ajig4 = (ajig) bxvd2;
                                                 ajig4.mo38672a(i20, akhc.m59669a(ajif5, ajif4));
                                                 arrayList3.set(i19, (ajih) ajig4.mo74062i());
@@ -707,7 +707,7 @@ public final class akhb {
                                                     bnsl7.mo68432a("akhc", "a", (int) MfiClientException.TYPE_MFICLIENT_NOT_STARTED, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                                                     bnsl7.mo68424a("We noticed that the unassociated %s shares an email with the Gaia %s. Merging the two contacts.", akhc.m59670a(ajif4), akhc.m59670a(ajif5));
                                                     bxvd bxvd3 = (bxvd) ajih5.mo74142c(5);
-                                                    bxvd3.mo73625a((bxvk) ajih5);
+                                                    bxvd3.mo73625a((GeneratedMessageLite) ajih5);
                                                     ajig ajig5 = (ajig) bxvd3;
                                                     ajig5.mo38672a(i20, akhc.m59669a(ajif5, ajif4));
                                                     arrayList3.set(i19, (ajih) ajig5.mo74062i());
@@ -744,7 +744,7 @@ public final class akhb {
                             for (int i29 = 0; i29 < arrayList4.size(); i29++) {
                                 ajih ajih6 = (ajih) arrayList4.get(i29);
                                 bxvd bxvd4 = (bxvd) ajih6.mo74142c(5);
-                                bxvd4.mo73625a((bxvk) ajih6);
+                                bxvd4.mo73625a((GeneratedMessageLite) ajih6);
                                 ajig ajig6 = (ajig) bxvd4;
                                 ajig6.mo38674a(ajif4);
                                 arrayList4.set(i29, (ajih) ajig6.mo74062i());
@@ -916,7 +916,7 @@ public final class akhb {
                 }
                 ajih ajih9 = ajih8;
                 bxvd bxvd5 = (bxvd) ajih2.mo74142c(5);
-                bxvd5.mo73625a((bxvk) ajih2);
+                bxvd5.mo73625a((GeneratedMessageLite) ajih2);
                 ajig ajig7 = (ajig) bxvd5;
                 for (int i35 = 0; i35 < ((ajih) ajig7.f164949b).f70709a.size(); i35++) {
                     ajif a13 = ajig7.mo38670a(i35);
@@ -932,7 +932,7 @@ public final class akhb {
                             j = 0;
                         }
                         bxvd bxvd6 = (bxvd) a13.mo74142c(5);
-                        bxvd6.mo73625a((bxvk) a13);
+                        bxvd6.mo73625a((GeneratedMessageLite) a13);
                         ajie ajie2 = (ajie) bxvd6;
                         boolean z4 = akgz2.f71961b;
                         if (ajie2.f164950c) {

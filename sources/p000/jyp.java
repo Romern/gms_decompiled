@@ -11,7 +11,7 @@ import java.util.LinkedList;
 public final class jyp extends Loader {
 
     /* renamed from: a */
-    public static final sek f23538a = ght.m13171a("MinuteMaid", "DroidGuardLoader");
+    public static final Logger f23538a = ght.m13171a("MinuteMaid", "DroidGuardLoader");
 
     /* renamed from: b */
     public final String f23539b;

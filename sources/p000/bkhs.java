@@ -205,7 +205,7 @@ public abstract class bkhs extends bkdx implements bjug, bjem {
         if (bmdn2 == null) {
             bmdn2 = bmdn.f128831k;
         }
-        bxtx bxtx = bmdn2.f128836d;
+        ByteString bxtx = bmdn2.f128836d;
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -246,7 +246,7 @@ public abstract class bkhs extends bkdx implements bjug, bjem {
             bmis bmis3 = (bmis) da.f164949b;
             bmir3.getClass();
             if (!bmis3.f129632e.mo73666a()) {
-                bmis3.f129632e = bxvk.m124021a(bmis3.f129632e);
+                bmis3.f129632e = GeneratedMessageLite.m124021a(bmis3.f129632e);
             }
             bmis3.f129632e.add(bmir3);
         }

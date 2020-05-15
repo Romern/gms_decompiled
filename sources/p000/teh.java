@@ -81,7 +81,7 @@ final /* synthetic */ class teh implements Runnable {
                             tej.f45751a.mo25412b("Received pending verification with state: VERIFYING.", new Object[0]);
                             tej.f45760j = 4;
                             bxvd bxvd = (bxvd) a.mo74142c(5);
-                            bxvd.mo73625a((bxvk) a);
+                            bxvd.mo73625a((GeneratedMessageLite) a);
                             tej.f45757g = (cbqw) bxvd;
                             tej.f45755e.mo26434a(tej.f45759i);
                             return;

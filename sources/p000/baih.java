@@ -64,7 +64,7 @@ public final class baih implements Callable {
         bany b;
         Throwable th2;
         long j;
-        ((achw) this.f100979i.mo16713a()).mo25409a("Reading time series footprints from %s/%s.", Integer.valueOf(this.f100976f), Integer.valueOf(this.f100977g));
+        ((achw) this.f100979i.mo16713a()).logVerbose("Reading time series footprints from %s/%s.", Integer.valueOf(this.f100976f), Integer.valueOf(this.f100977g));
         try {
             bafv a = this.f100971a.mo55681a(this.f100975e, this.f100976f, this.f100977g);
             try {

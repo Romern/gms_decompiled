@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bixa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bixa extends bxvk implements bxxd {
+public final class bixa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bixa f122152a;
@@ -13,7 +13,7 @@ public final class bixa extends bxvk implements bxxd {
     static {
         bixa bixa = new bixa();
         f122152a = bixa;
-        bxvk.m124024a(bixa.class, bixa);
+        GeneratedMessageLite.m124024a(bixa.class, bixa);
     }
 
     private bixa() {
@@ -30,7 +30,7 @@ public final class bixa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f122152a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f122152a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bixa();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boex */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boex extends bxvk implements bxxd {
+public final class boex extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final boex f132861e;
@@ -25,7 +25,7 @@ public final class boex extends bxvk implements bxxd {
     static {
         boex boex = new boex();
         f132861e = boex;
-        bxvk.m124024a(boex.class, boex);
+        GeneratedMessageLite.m124024a(boex.class, boex);
     }
 
     private boex() {
@@ -42,7 +42,7 @@ public final class boex extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132861e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဃ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f132861e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဃ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new boex();
         } else {

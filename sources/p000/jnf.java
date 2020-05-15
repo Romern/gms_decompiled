@@ -12,7 +12,7 @@ final /* synthetic */ class jnf implements Callable {
     }
 
     public final Object call() {
-        sek sek = jnj.f22876a;
+        Logger Logger = jnj.f22876a;
         return jpt.m17081b(rpr.m34216b());
     }
 }

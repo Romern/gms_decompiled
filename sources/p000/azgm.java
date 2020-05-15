@@ -42,7 +42,7 @@ public final /* synthetic */ class azgm implements Runnable {
         a.f98996b.beginTransaction();
         try {
             ContentValues contentValues = new ContentValues();
-            contentValues.put("sender_properties", cbip.mo73642k());
+            contentValues.put("sender_properties", cbip.serializeToBytes());
             a.f98996b.update("conversations", contentValues, "conversation_id = ? ", new String[]{a2.f99774a});
         } finally {
             a.f98996b.setTransactionSuccessful();

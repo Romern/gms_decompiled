@@ -15,7 +15,7 @@ import com.google.android.gms.auth.managed.p029ui.PhoneskyDpcInstallLoader$2;
 public final class jhb extends Loader {
 
     /* renamed from: a */
-    public static final sek f22465a = ght.m13171a("AuthManaged", "PhoneskyDpcInstallLoader");
+    public static final Logger f22465a = ght.m13171a("AuthManaged", "PhoneskyDpcInstallLoader");
 
     /* renamed from: h */
     private static final Intent f22466h = new Intent().setPackage("com.android.vending").setAction("com.google.android.finsky.BIND_PLAY_INSTALL_SERVICE");

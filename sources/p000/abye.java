@@ -121,11 +121,11 @@ public final class abye {
         }
         Bundle bundle = new Bundle();
         bundle.putAll(actionImpl.f152347g);
-        sdo.m34966a(fub.f17254a.get("object"), "setObject is required before calling build().");
-        sdo.m34966a(fub.f17254a.get("type"), "setType is required before calling build().");
+        sdo.checkIfNull(fub.f17254a.get("object"), "setObject is required before calling build().");
+        sdo.checkIfNull(fub.f17254a.get("type"), "setType is required before calling build().");
         Bundle bundle2 = (Bundle) fub.f17254a.getParcelable("object");
-        sdo.m34966a(bundle2.get("name"), "Must call setObject() with a valid name. Example: setObject(new Thing.Builder().setName(name).setUrl(url))");
-        sdo.m34966a(bundle2.get("url"), "Must call setObject() with a valid app URI. Example: setObject(new Thing.Builder().setName(name).setUrl(url))");
+        sdo.checkIfNull(bundle2.get("name"), "Must call setObject() with a valid name. Example: setObject(new Thing.Builder().setName(name).setUrl(url))");
+        sdo.checkIfNull(bundle2.get("url"), "Must call setObject() with a valid app URI. Example: setObject(new Thing.Builder().setName(name).setUrl(url))");
         bundle.putAll(new fue(fub.f17254a).f17255a);
         fqv.mo11173a(ftr.m12361a(".private:action", ftr.m12360a(bundle)));
         ftb ftb = new ftb();

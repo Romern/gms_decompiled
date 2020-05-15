@@ -10,7 +10,7 @@ import android.content.pm.ResolveInfo;
 public final class jvy {
 
     /* renamed from: a */
-    private static final sek f23385a = ght.m13171a("AddAccount", "IntentResolveHelper");
+    private static final Logger f23385a = ght.m13171a("AddAccount", "IntentResolveHelper");
 
     /* renamed from: a */
     public static Intent m17406a(Context context, Intent intent) {

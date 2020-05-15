@@ -11,7 +11,7 @@ import com.google.android.gms.update.control.NetworkControl$2;
 public final class avnb {
 
     /* renamed from: a */
-    public static final sek f93486a = avpq.m79017d("NetworkControl");
+    public static final Logger f93486a = avpq.m79017d("NetworkControl");
 
     /* renamed from: b */
     public static final avta f93487b = new avta("control.network.passive_wifi_reconnection_monitoring_enabled", false);

@@ -38,7 +38,7 @@ public final class vml {
         this.f49526a = intent;
         intent.setClassName(context, "com.google.android.gms.drive.ui.select.SelectFileActivity");
         sdo.m34969a(str, (Object) "Account Name not specified");
-        sdo.m34966a((Object) str2, (Object) "Authorized app not specified");
+        sdo.checkIfNull((Object) str2, (Object) "Authorized app not specified");
         this.f49526a.putExtra("accountName", str);
         this.f49526a.putExtra("callerSdkAppId", str2);
         this.f49526a.putExtra("callerPackageName", str3);

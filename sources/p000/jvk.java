@@ -19,7 +19,7 @@ public final class jvk {
     static final imr f23364c = imr.m15727a("is_setup_wizard");
 
     /* renamed from: d */
-    private static final sek f23365d = ght.m13171a("AddAccount", "AppPickerHelper");
+    private static final Logger f23365d = ght.m13171a("AddAccount", "AppPickerHelper");
 
     /* renamed from: a */
     public static Intent m17399a(Context context, Account account, boolean z, boolean z2, boolean z3, rrq rrq) {

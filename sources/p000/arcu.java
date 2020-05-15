@@ -23,7 +23,7 @@ final class arcu implements Runnable {
         ardc.f87413b.mo48652e(2);
         armj.m73128a(ardc.f87413b, 2);
         arbt arbt = ardc.f87415d;
-        sdo.m34966a(ariz, "scanListener is null.");
+        sdo.checkIfNull(ariz, "scanListener is null.");
         if (arbt.f87323i == null) {
             arbt.f87323i = new ardu(ariz);
             Status a = arbt.f87318d.mo49051a();
@@ -42,7 +42,7 @@ final class arcu implements Runnable {
             aras.f87233c = 1;
             aucb[] aucbArr = new aucb[2];
             arbb arbb2 = aras.f87231a;
-            arbj.f87275a.mo25409a("Starting scan through Nearby Bootstrap", new Object[0]);
+            arbj.f87275a.logVerbose("Starting scan through Nearby Bootstrap", new Object[0]);
             arbj arbj = (arbj) arbb2;
             arbj.f87278d = ardt;
             ahco ahco = arbj.f87276b;
@@ -57,10 +57,10 @@ final class arcu implements Runnable {
             rjx rjx = (rjx) ahco;
             rod a2 = ahej.f67076a.mo37440a(rjx, new Object(), "scan");
             rob rob = a2.f43429b;
-            sdo.m34966a(rob, "Key must not be null");
+            sdo.checkIfNull(rob, "Key must not be null");
             aucbArr[0] = ahej.f67076a.mo37437a(rjx, new ahee(a2, ahdu), new ahef(rob));
             arbr arbr = aras.f87232b;
-            arbr.f87299b.mo25409a("Starting scan via Nearby Connections.", new Object[0]);
+            arbr.f87299b.logVerbose("Starting scan via Nearby Connections.", new Object[0]);
             arbr.f87303f = ardt;
             ahik ahik = new ahik();
             ahik.mo36534a(arbr.f87298a);

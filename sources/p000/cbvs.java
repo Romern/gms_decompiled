@@ -107,7 +107,7 @@ public final class cbvs implements cbvq {
         f178354c = bdyx.m91607a(bdyw, "gads:event_attestation:common_payload_cache_duration_in_ms", 3600000L);
         f178355d = bdyx.m91607a(bdyw, "gads:event_attestation:common_payload_cache_size", 5L);
         try {
-            f178356e = bdyx.m91608a(bdyw, "gads:event_attestation:destination_domain_public_key", (bqkr) bxvk.m124014a(bqkr.f141031b, new byte[]{10, 85, 10, 15, 100, 111, 117, 98, 108, 101, 99, 108, 105, 99, 107, 46, 110, 101, 116, 18, 66, 48, 51, 49, 101, 50, 54, 98, 51, 54, 101, 50, 52, 53, 49, 52, 55, 101, 53, 56, 55, 97, 51, 99, 53, 100, 51, 56, 101, 49, 50, 97, 49, 55, 52, 57, 50, 55, 98, 101, 52, 49, 102, 48, 98, 99, 49, 101, 50, 55, 51, 57, 100, 54, 98, 51, 54, 57, 48, 54, 51, 52, 53, 53, 100, 99, 55}), cbvr.f178351a);
+            f178356e = bdyx.m91608a(bdyw, "gads:event_attestation:destination_domain_public_key", (bqkr) GeneratedMessageLite.m124014a(bqkr.f141031b, new byte[]{10, 85, 10, 15, 100, 111, 117, 98, 108, 101, 99, 108, 105, 99, 107, 46, 110, 101, 116, 18, 66, 48, 51, 49, 101, 50, 54, 98, 51, 54, 101, 50, 52, 53, 49, 52, 55, 101, 53, 56, 55, 97, 51, 99, 53, 100, 51, 56, 101, 49, 50, 97, 49, 55, 52, 57, 50, 55, 98, 101, 52, 49, 102, 48, 98, 99, 49, 101, 50, 55, 51, 57, 100, 54, 98, 51, 54, 57, 48, 54, 51, 52, 53, 53, 100, 99, 55}), cbvr.f178351a);
             f178357f = bdyx.m91610a(bdyw, "gads:event_attestation:enable_migration", false);
             bdyx.m91610a(bdyw, "enable_gms_adid_setting", true);
             f178358g = bdyx.m91610a(bdyw, "gads:event_attestation:enable_device_integrity", false);

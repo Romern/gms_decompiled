@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsua */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsua extends bxvk implements bxxd {
+public final class bsua extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bsua f147094f;
@@ -17,7 +17,7 @@ public final class bsua extends bxvk implements bxxd {
     public String f147097b = "";
 
     /* renamed from: c */
-    public bxtx f147098c = bxtx.f164797b;
+    public ByteString f147098c = ByteString.f164797b;
 
     /* renamed from: d */
     public qui f147099d;
@@ -28,7 +28,7 @@ public final class bsua extends bxvk implements bxxd {
     static {
         bsua bsua = new bsua();
         f147094f = bsua;
-        bxvk.m124024a(bsua.class, bsua);
+        GeneratedMessageLite.m124024a(bsua.class, bsua);
     }
 
     private bsua() {
@@ -45,7 +45,7 @@ public final class bsua extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147094f, "\u0000\u0005\u0000\u0000\u0001\b\u0005\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0005\n\u0006\t\b\t", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f147094f, "\u0000\u0005\u0000\u0000\u0001\b\u0005\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0005\n\u0006\t\b\t", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bsua();
         } else {

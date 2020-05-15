@@ -74,7 +74,7 @@ public final class akjz {
                             } else {
                                 byte[] decode = Base64.decode(N, 3);
                                 try {
-                                    list = ((akkq) bxvk.m124016a(akkq.f72175b, decode, bxus.m123744c())).f72177a;
+                                    list = ((akkq) GeneratedMessageLite.m124016a(akkq.f72175b, decode, bxus.m123744c())).f72177a;
                                 } catch (bxwf e2) {
                                     try {
                                         list = aknc.m60070a(aknc.f72295c.mo66925c((CharSequence) N));

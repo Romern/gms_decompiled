@@ -21,7 +21,7 @@ public final class xuc extends BluetoothGattServerCallback {
     public static final byte[] f53120a = {32};
 
     /* renamed from: o */
-    public static final sek f53121o = new sek(new String[]{"CtapBleGattServer"}, (short[]) null);
+    public static final Logger f53121o = new Logger(new String[]{"CtapBleGattServer"}, (short[]) null);
 
     /* renamed from: b */
     BluetoothGattCharacteristic f53122b;
@@ -242,9 +242,9 @@ public final class xuc extends BluetoothGattServerCallback {
     }
 
     public final void onMtuChanged(BluetoothDevice bluetoothDevice, int i) {
-        sek sek = f53121o;
+        Logger Logger = f53121o;
         Integer valueOf = Integer.valueOf(i);
-        sek.mo25414c("MTU size for %s changed to %s", bluetoothDevice, valueOf);
+        Logger.mo25414c("MTU size for %s changed to %s", bluetoothDevice, valueOf);
         this.f53136q.put(bluetoothDevice.getAddress(), valueOf);
     }
 
@@ -253,12 +253,12 @@ public final class xuc extends BluetoothGattServerCallback {
         if (mo30143a(bluetoothDevice) && (bqgy = this.f53134n) != null) {
             this.f53134n = null;
             if (i != 257) {
-                sek sek = f53121o;
+                Logger Logger = f53121o;
                 String valueOf = String.valueOf(bluetoothDevice);
                 StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 35);
                 sb.append("Successfully sent notification to: ");
                 sb.append(valueOf);
-                sek.mo25414c(sb.toString(), new Object[0]);
+                Logger.mo25414c(sb.toString(), new Object[0]);
                 bqgy.mo69138b((Object) true);
                 return;
             }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mpj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mpj extends bxvk implements bxxd {
+public final class mpj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final mpj f34153b;
@@ -11,7 +11,7 @@ public final class mpj extends bxvk implements bxxd {
     private static volatile bxxk f34154d;
 
     /* renamed from: a */
-    public bxtx f34155a = bxtx.f164797b;
+    public ByteString f34155a = ByteString.f164797b;
 
     /* renamed from: c */
     private int f34156c;
@@ -19,7 +19,7 @@ public final class mpj extends bxvk implements bxxd {
     static {
         mpj mpj = new mpj();
         f34153b = mpj;
-        bxvk.m124024a(mpj.class, mpj);
+        GeneratedMessageLite.m124024a(mpj.class, mpj);
     }
 
     private mpj() {
@@ -36,7 +36,7 @@ public final class mpj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34153b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f34153b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new mpj();
         } else {

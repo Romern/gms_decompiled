@@ -38,7 +38,7 @@ public final class ojt extends ojh {
         }
         switch (i) {
             case 32769:
-                bion bion = (bion) bxvk.m124012a(bion.f121069d, byteBuffer);
+                bion bion = (bion) GeneratedMessageLite.m124012a(bion.f121069d, byteBuffer);
                 if (bion != null) {
                     Handler handler = this.f37805c;
                     bisf a = bisf.m102781a(bion.f121071a);
@@ -72,7 +72,7 @@ public final class ojt extends ojh {
             default:
                 return;
             case 32772:
-                bivm bivm = (bivm) bxvk.m124012a(bivm.f122013c, byteBuffer);
+                bivm bivm = (bivm) GeneratedMessageLite.m124012a(bivm.f122013c, byteBuffer);
                 if (bivm != null) {
                     Handler handler2 = this.f37805c;
                     bisf a2 = bisf.m102781a(bivm.f122015a);
@@ -87,7 +87,7 @@ public final class ojt extends ojh {
                 b2.mo68405a("Wrong StepChannelResponse message");
                 return;
             case 32774:
-                biun biun = (biun) bxvk.m124012a(biun.f121822c, byteBuffer);
+                biun biun = (biun) GeneratedMessageLite.m124012a(biun.f121822c, byteBuffer);
                 if (biun != null) {
                     Handler handler3 = this.f37805c;
                     bisf a3 = bisf.m102781a(biun.f121824a);
@@ -102,7 +102,7 @@ public final class ojt extends ojh {
                 b3.mo68405a("Wrong SeekStationResponse message");
                 return;
             case 32776:
-                biul biul = (biul) bxvk.m124012a(biul.f121808d, byteBuffer);
+                biul biul = (biul) GeneratedMessageLite.m124012a(biul.f121808d, byteBuffer);
                 if (biul != null) {
                     Handler handler4 = this.f37805c;
                     bisf a4 = bisf.m102781a(biul.f121810a);
@@ -117,7 +117,7 @@ public final class ojt extends ojh {
                 b4.mo68405a("Wrong ScanStationsResponse message");
                 return;
             case 32778:
-                bivy bivy = (bivy) bxvk.m124012a(bivy.f122059c, byteBuffer);
+                bivy bivy = (bivy) GeneratedMessageLite.m124012a(bivy.f122059c, byteBuffer);
                 if (bivy != null) {
                     Handler handler5 = this.f37805c;
                     bisf a5 = bisf.m102781a(bivy.f122061a);
@@ -132,7 +132,7 @@ public final class ojt extends ojh {
                 b5.mo68405a("Wrong TuneToStationResponse message");
                 return;
             case 32780:
-                biqq biqq = (biqq) bxvk.m124012a(biqq.f121317e, byteBuffer);
+                biqq biqq = (biqq) GeneratedMessageLite.m124012a(biqq.f121317e, byteBuffer);
                 if (biqq == null) {
                     bnsi b6 = f37803a.mo68387b();
                     b6.mo68432a("ojt", "a", 297, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -143,7 +143,7 @@ public final class ojt extends ojh {
                 handler6.sendMessage(handler6.obtainMessage(8, biqq));
                 return;
             case 32781:
-                bivk bivk = (bivk) bxvk.m124012a(bivk.f122002b, byteBuffer);
+                bivk bivk = (bivk) GeneratedMessageLite.m124012a(bivk.f122002b, byteBuffer);
                 if (bivk == null) {
                     bnsi b7 = f37803a.mo68387b();
                     b7.mo68432a("ojt", "a", 327, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -154,7 +154,7 @@ public final class ojt extends ojh {
                 handler7.sendMessage(handler7.obtainMessage(12, bivk));
                 return;
             case 32783:
-                bipn bipn = (bipn) bxvk.m124012a(bipn.f121186c, byteBuffer);
+                bipn bipn = (bipn) GeneratedMessageLite.m124012a(bipn.f121186c, byteBuffer);
                 if (bipn != null) {
                     Handler handler8 = this.f37805c;
                     bisf a6 = bisf.m102781a(bipn.f121188a);
@@ -169,7 +169,7 @@ public final class ojt extends ojh {
                 b8.mo68405a("Wrong CancelRadioOperationsResponse message");
                 return;
             case 32785:
-                bipw bipw = (bipw) bxvk.m124012a(bipw.f121226d, byteBuffer);
+                bipw bipw = (bipw) GeneratedMessageLite.m124012a(bipw.f121226d, byteBuffer);
                 if (bipw != null) {
                     Handler handler9 = this.f37805c;
                     bisf a7 = bisf.m102781a(bipw.f121228a);
@@ -184,7 +184,7 @@ public final class ojt extends ojh {
                 b9.mo68405a("Wrong ConfigureChannelSpacingResponse message");
                 return;
             case 32786:
-                bitz bitz = (bitz) bxvk.m124012a(bitz.f121751c, byteBuffer);
+                bitz bitz = (bitz) GeneratedMessageLite.m124012a(bitz.f121751c, byteBuffer);
                 if (bitz != null) {
                     Handler handler10 = this.f37805c;
                     int i4 = bitz.f121753a;
@@ -200,7 +200,7 @@ public final class ojt extends ojh {
                 b10.mo68405a("Wrong RadioStationInfoNotification message");
                 return;
             case 32788:
-                bisj bisj = (bisj) bxvk.m124012a(bisj.f121569d, byteBuffer);
+                bisj bisj = (bisj) GeneratedMessageLite.m124012a(bisj.f121569d, byteBuffer);
                 if (bisj != null) {
                     Handler handler11 = this.f37805c;
                     bisf a8 = bisf.m102781a(bisj.f121571a);
@@ -215,7 +215,7 @@ public final class ojt extends ojh {
                 b11.mo68405a("Wrong MuteRadioResponse message");
                 return;
             case 32790:
-                biqs biqs = (biqs) bxvk.m124012a(biqs.f121330d, byteBuffer);
+                biqs biqs = (biqs) GeneratedMessageLite.m124012a(biqs.f121330d, byteBuffer);
                 if (biqs != null) {
                     bivu[] bivuArr = new bivu[biqs.f121334c.size()];
                     Handler handler12 = this.f37805c;
@@ -231,7 +231,7 @@ public final class ojt extends ojh {
                 b12.mo68405a("Wrong GetTrafficUpdateResponse message");
                 return;
             case 32792:
-                bitw bitw = (bitw) bxvk.m124012a(bitw.f121727d, byteBuffer);
+                bitw bitw = (bitw) GeneratedMessageLite.m124012a(bitw.f121727d, byteBuffer);
                 if (bitw != null) {
                     Handler handler13 = this.f37805c;
                     bisf a10 = bisf.m102781a(bitw.f121730b);
@@ -252,7 +252,7 @@ public final class ojt extends ojh {
                 b13.mo68405a("Wrong RadioSourceResponse message");
                 return;
             case 32793:
-                bitx bitx = (bitx) bxvk.m124012a(bitx.f121733g, byteBuffer);
+                bitx bitx = (bitx) GeneratedMessageLite.m124012a(bitx.f121733g, byteBuffer);
                 if (bitx == null) {
                     bnsi b14 = f37803a.mo68387b();
                     b14.mo68432a("ojt", "a", 357, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");

@@ -48,7 +48,7 @@ public final class oqt extends aaab {
         try {
             oqk oqk = this.f38246a;
             EAPAKARequest eAPAKARequest = this.f38248c;
-            sek sek = oqk.f38239a;
+            Logger Logger = oqk.f38239a;
             String valueOf = String.valueOf(eAPAKARequest.f29530c);
             String valueOf2 = String.valueOf(eAPAKARequest.f29529b);
             String valueOf3 = String.valueOf(eAPAKARequest.f29531d);
@@ -63,7 +63,7 @@ public final class oqt extends aaab {
             sb.append(valueOf3);
             sb.append("; req.isimRequest: ");
             sb.append(str);
-            sek.mo25412b(sb.toString(), new Object[0]);
+            Logger.mo25412b(sb.toString(), new Object[0]);
             int i2 = Build.VERSION.SDK_INT;
             Integer num = eAPAKARequest.f29530c;
             int i3 = 2;
@@ -84,9 +84,9 @@ public final class oqt extends aaab {
                 }
             }
             String iccAuthentication = telephonyManager.getIccAuthentication(i3, i, eAPAKARequest.f29528a);
-            sek sek2 = oqk.f38239a;
+            Logger logger2 = oqk.f38239a;
             String valueOf4 = String.valueOf(iccAuthentication);
-            sek2.mo25412b(valueOf4.length() == 0 ? new String("resp: ") : "resp: ".concat(valueOf4), new Object[0]);
+            logger2.mo25412b(valueOf4.length() == 0 ? new String("resp: ") : "resp: ".concat(valueOf4), new Object[0]);
             this.f38249d.mo26402a(this.f38250e, 70, 8);
             this.f38247b.mo22513a(Status.f30107a, new EAPAKAResponse(iccAuthentication));
         } catch (UnsupportedOperationException e) {

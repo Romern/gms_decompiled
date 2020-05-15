@@ -44,7 +44,7 @@ public final class aqgw extends Request implements NetworkCallbacks {
     }
 
     public final byte[] getBody() {
-        return this.f86092e.mo73642k();
+        return this.f86092e.serializeToBytes();
     }
 
     public final String getBodyContentType() {

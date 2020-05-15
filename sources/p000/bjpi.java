@@ -79,7 +79,7 @@ public final class bjpi extends bjjm implements bjph, bjop {
     /* renamed from: a */
     public final void mo65162a(bwxl bwxl, bwxl bwxl2) {
         super.mo65162a(bwxl, bwxl2);
-        bxvj b = bxvk.m124025b(bwuw.f161081c);
+        bxvj b = GeneratedMessageLite.m124025b(bwuw.f161081c);
         bwxl2.mo74135a(b);
         Object b2 = bwxl2.f164952m.mo73913b(b.f164958d);
         if (b2 == null) {

@@ -77,7 +77,7 @@ public class acjd extends aeah {
                     return 2;
                 }
             } else {
-                achs.f59875e.mo25409a("soft-disabled by way of flag", new Object[0]);
+                achs.f59875e.logVerbose("soft-disabled by way of flag", new Object[0]);
                 return 2;
             }
         } catch (Exception e2) {

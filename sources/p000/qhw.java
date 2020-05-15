@@ -10,7 +10,7 @@ import java.util.List;
 final class qhw {
 
     /* renamed from: a */
-    private static final sek f41434a = qgn.m32143a("AccountModule");
+    private static final Logger f41434a = qgn.m32143a("AccountModule");
 
     /* renamed from: a */
     public static List m32192a(Context context, bngx bngx) {

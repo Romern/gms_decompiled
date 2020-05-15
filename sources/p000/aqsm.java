@@ -33,7 +33,7 @@ public final class aqsm implements aqru, aqrv, aqrw, aqsg, aqtc {
     public int f86705h;
 
     /* renamed from: i */
-    private bxtx f86706i;
+    private ByteString f86706i;
 
     public aqsm(aqsh aqsh, bziw bziw, aqrx aqrx, aqsb aqsb) {
         this.f86700c = aqsh;
@@ -54,7 +54,7 @@ public final class aqsm implements aqru, aqrv, aqrw, aqsg, aqtc {
         }
         this.f86704g = null;
         aqrx aqrx = this.f86701d;
-        bxtx bxtx = this.f86706i;
+        ByteString bxtx = this.f86706i;
         aqwv aqwv = aqrx.f86673a;
         bxvd da = bziq.f170219f.mo74144da();
         if (da.f164950c) {
@@ -91,7 +91,7 @@ public final class aqsm implements aqru, aqrv, aqrw, aqsg, aqtc {
     }
 
     /* renamed from: a */
-    public final void mo48131a(bxtx bxtx) {
+    public final void mo48131a(ByteString bxtx) {
         if (!bxtx.mo73779j()) {
             this.f86706i = bxtx;
         }

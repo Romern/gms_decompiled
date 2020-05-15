@@ -158,7 +158,7 @@ public class axcs extends bkjc implements LoaderManager.LoaderCallbacks, axct {
             bmnr = bmnr.f130153o;
         }
         bxvd bxvd = (bxvd) bmnr.mo74142c(5);
-        bxvd.mo73625a((bxvk) bmnr);
+        bxvd.mo73625a((GeneratedMessageLite) bmnr);
         mo66073a(bxvd);
     }
 
@@ -188,7 +188,7 @@ public class axcs extends bkjc implements LoaderManager.LoaderCallbacks, axct {
             bmnr = bmnr.f130153o;
         }
         bxvd bxvd = (bxvd) bmnr.mo74142c(5);
-        bxvd.mo73625a((bxvk) bmnr);
+        bxvd.mo73625a((GeneratedMessageLite) bmnr);
         mo66073a(bxvd);
     }
 
@@ -311,7 +311,7 @@ public class axcs extends bkjc implements LoaderManager.LoaderCallbacks, axct {
                 WebView webView4 = new WebView(getActivity());
                 this.f95794a = webView4;
                 webView4.getSettings().setJavaScriptEnabled(true);
-                sdo.m34966a(this, "HiddenWebViewClient requires a LoadAuthTokenListener");
+                sdo.checkIfNull(this, "HiddenWebViewClient requires a LoadAuthTokenListener");
                 webView4.setWebViewClient(new awyw(this));
             }
         }

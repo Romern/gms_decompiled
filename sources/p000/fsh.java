@@ -82,7 +82,7 @@ public final class fsh {
     public static byte[] m12245a(abue abue) {
         SparseArray sparseArray;
         bxvt bxvt = abue.f58376c;
-        bxtx bxtx = abue.f58377d;
+        ByteString bxtx = abue.f58377d;
         if (bxvt != null) {
             sparseArray = new SparseArray();
             int i = 0;
@@ -90,7 +90,7 @@ public final class fsh {
                 int intValue = ((Integer) bxvt.get(i2)).intValue();
                 if (intValue > 0) {
                     int i3 = intValue + i;
-                    sparseArray.append(i2, bxtx.mo73754a(i, i3).mo73780k());
+                    sparseArray.append(i2, bxtx.mo73754a(i, i3).getKey());
                     i = i3;
                 }
             }

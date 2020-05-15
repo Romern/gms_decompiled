@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amno */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amno extends bxvk implements bxxd {
+public final class amno extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final amno f75521d;
@@ -22,7 +22,7 @@ public final class amno extends bxvk implements bxxd {
     static {
         amno amno = new amno();
         f75521d = amno;
-        bxvk.m124024a(amno.class, amno);
+        GeneratedMessageLite.m124024a(amno.class, amno);
     }
 
     private amno() {
@@ -39,7 +39,7 @@ public final class amno extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75521d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001", new Object[]{"a", "b", amnn.f75520a, "c"});
+            return GeneratedMessageLite.m124022a(f75521d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001", new Object[]{"a", "b", amnn.f75520a, "c"});
         } else if (i2 == 3) {
             return new amno();
         } else {

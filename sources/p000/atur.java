@@ -67,7 +67,7 @@ public final class atur extends atvb {
             }
             if (bArr != null) {
                 if (bArr.length > 0) {
-                    return (btjx) bxvk.m124016a(btjx.f149192h, bArr, bxus.m123744c());
+                    return (btjx) GeneratedMessageLite.m124016a(btjx.f149192h, bArr, bxus.m123744c());
                 }
             }
             bxvd da = btjx.f149192h.mo74144da();

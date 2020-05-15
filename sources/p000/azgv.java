@@ -477,7 +477,7 @@ public final class azgv extends azgx implements azea {
                                                         }
                                                         cbim cbim = cbij4.f177256d;
                                                         if (cbim != null) {
-                                                            bArr = cbim.mo73642k();
+                                                            bArr = cbim.serializeToBytes();
                                                         } else {
                                                             bArr = null;
                                                         }
@@ -498,7 +498,7 @@ public final class azgv extends azgx implements azea {
                                                         }
                                                         bxte bxte = cbil.f177262d;
                                                         if (bxte != null) {
-                                                            azdb.f99038l = bxte.mo73642k();
+                                                            azdb.f99038l = bxte.serializeToBytes();
                                                         }
                                                         int i5 = cbil.f177259a;
                                                         if (i5 == 1) {
@@ -517,21 +517,21 @@ public final class azgv extends azgx implements azea {
                                                             }
                                                             azdb.f99034h = cbin2.f177274c;
                                                             azdb.f99033g = "proto/MatchstickMessageContent";
-                                                            azdb.f99032f = cbil.mo73642k();
+                                                            azdb.f99032f = cbil.serializeToBytes();
                                                             return azdb.mo54711a();
                                                         } else if (i5 == 5) {
                                                             azdb.f99034h = "application/sticker";
                                                             azdb.f99033g = "proto/MatchstickMessageContent";
-                                                            azdb.f99032f = cbil.mo73642k();
+                                                            azdb.f99032f = cbil.serializeToBytes();
                                                             return azdb.mo54711a();
                                                         } else if (i5 == 6) {
                                                             azdb.f99034h = "application/link";
                                                             azdb.f99033g = "proto/MatchstickMessageContent";
-                                                            azdb.f99032f = cbil.mo73642k();
+                                                            azdb.f99032f = cbil.serializeToBytes();
                                                             return azdb.mo54711a();
                                                         } else if (i5 == 13) {
                                                             cbiu cbiu = (cbiu) cbil.f177260b;
-                                                            byte[] k = cbiu.mo73642k();
+                                                            byte[] k = cbiu.serializeToBytes();
                                                             if (!azcm.m85300a(context).mo54662c(cbiu.f177301a)) {
                                                                 azet azet = this.f99316h;
                                                                 String str7 = cbiu.f177301a;
@@ -567,7 +567,7 @@ public final class azgv extends azgx implements azea {
                                                                 }
                                                                 azdb.f99034h = str;
                                                                 azdb.f99033g = "proto/MatchstickMessageContent";
-                                                                azdb.f99032f = cbil.mo73642k();
+                                                                azdb.f99032f = cbil.serializeToBytes();
                                                                 return azdb.mo54711a();
                                                             } else if (cbil.f177259a == 2 && !((cbin) cbil.f177260b).f177274c.isEmpty()) {
                                                                 if (cbil.f177259a == 2) {
@@ -578,13 +578,13 @@ public final class azgv extends azgx implements azea {
                                                                 str = cbin.f177274c;
                                                                 azdb.f99034h = str;
                                                                 azdb.f99033g = "proto/MatchstickMessageContent";
-                                                                azdb.f99032f = cbil.mo73642k();
+                                                                azdb.f99032f = cbil.serializeToBytes();
                                                                 return azdb.mo54711a();
                                                             }
                                                             str = localEntityId2.f111075b != 3 ? "application/unkown" : "application/botresponse-unsupported";
                                                             azdb.f99034h = str;
                                                             azdb.f99033g = "proto/MatchstickMessageContent";
-                                                            azdb.f99032f = cbil.mo73642k();
+                                                            azdb.f99032f = cbil.serializeToBytes();
                                                             return azdb.mo54711a();
                                                         }
                                                     }
@@ -755,7 +755,7 @@ public final class azgv extends azgx implements azea {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ bxxc mo54916a(cbkj cbkj) {
-        return (cbij) azol.m85935a((bxxk) cbij.f177251e.mo74142c(7), cbkj.f177411e.mo73780k());
+        return (cbij) azol.m85935a((bxxk) cbij.f177251e.mo74142c(7), cbkj.f177411e.getKey());
     }
 
     /* access modifiers changed from: protected */

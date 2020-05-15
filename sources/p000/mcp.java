@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mcp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mcp extends bxvk implements bxxd {
+public final class mcp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final mcp f33431g;
@@ -26,12 +26,12 @@ public final class mcp extends bxvk implements bxxd {
     public String f33437e = "";
 
     /* renamed from: f */
-    public bxtx f33438f = bxtx.f164797b;
+    public ByteString f33438f = ByteString.f164797b;
 
     static {
         mcp mcp = new mcp();
         f33431g = mcp;
-        bxvk.m124024a(mcp.class, mcp);
+        GeneratedMessageLite.m124024a(mcp.class, mcp);
     }
 
     private mcp() {
@@ -48,7 +48,7 @@ public final class mcp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f33431g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0001\u0000\u0001\u001b\u0002ဌ\u0000\u0003ဈ\u0002\u0004ည\u0003\u0005ဌ\u0001", new Object[]{"a", "b", mco.class, "c", mcu.f33452a, "e", "f", "d", mcr.f33444a});
+            return GeneratedMessageLite.m124022a(f33431g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0001\u0000\u0001\u001b\u0002ဌ\u0000\u0003ဈ\u0002\u0004ည\u0003\u0005ဌ\u0001", new Object[]{"a", "b", mco.class, "c", mcu.f33452a, "e", "f", "d", mcr.f33444a});
         } else if (i2 == 3) {
             return new mcp();
         } else {

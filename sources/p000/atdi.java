@@ -89,9 +89,9 @@ public final class atdi implements atcy {
         } else {
             bmsr = bmsr.f130740b;
         }
-        byte[] k = bmsr.f130742a.mo73780k();
+        byte[] k = bmsr.f130742a.getKey();
         bxvd bxvd = atdh.f90118a;
-        byte[] k2 = ((bycz) bxvd.f164949b).f165747b.mo73780k();
+        byte[] k2 = ((bycz) bxvd.f164949b).f165747b.getKey();
         czl.m8003a(k != null && k.length > 0, "cannot update bundles with null or empty update payloads");
         try {
             Object nextValue = new JSONTokener(czm.m8009a(k)).nextValue();
@@ -114,7 +114,7 @@ public final class atdi implements atcy {
                         }
                     }
                 }
-                bxtx a3 = bxtx.m123261a(bArr2);
+                ByteString a3 = ByteString.m123261a(bArr2);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

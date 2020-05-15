@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abtk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abtk extends bxvk implements bxxd {
+public final class abtk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final abtk f58246d;
@@ -22,7 +22,7 @@ public final class abtk extends bxvk implements bxxd {
     static {
         abtk abtk = new abtk();
         f58246d = abtk;
-        bxvk.m124024a(abtk.class, abtk);
+        GeneratedMessageLite.m124024a(abtk.class, abtk);
     }
 
     private abtk() {
@@ -40,7 +40,7 @@ public final class abtk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58246d, "\u0001\u0002\u0000\u0001\u0003\u0004\u0002\u0000\u0000\u0000\u0003ဇ\u0000\u0004ဉ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f58246d, "\u0001\u0002\u0000\u0001\u0003\u0004\u0002\u0000\u0000\u0000\u0003ဇ\u0000\u0004ဉ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new abtk();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bitt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bitt extends bxvk implements bxxd {
+public final class bitt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final bitt f121703o;
@@ -61,7 +61,7 @@ public final class bitt extends bxvk implements bxxd {
     static {
         bitt bitt = new bitt();
         f121703o = bitt;
-        bxvk.m124024a(bitt.class, bitt);
+        GeneratedMessageLite.m124024a(bitt.class, bitt);
     }
 
     private bitt() {
@@ -82,7 +82,7 @@ public final class bitt extends bxvk implements bxxd {
             this.f121720q = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121703o, "\u0001\u000e\u0000\u0001\u0001\u000e\u000e\u0000\u0002\u0004\u0001ᔄ\u0000\u0002ᔌ\u0001\u0003Л\u0004\u0016\u0005ᔄ\u0002\u0006ဇ\u0003\u0007ဌ\u0004\bဌ\u0005\tဇ\u0006\nဇ\u0007\u000bဌ\b\fဇ\t\rဇ\n\u000eင\u000b", new Object[]{"p", "a", "b", biub.f121765a, "c", biud.class, "d", "e", "f", "g", birk.f121424a, "h", biuf.f121784a, "i", "j", "k", bivv.f122051a, "l", "m", "n"});
+            return GeneratedMessageLite.m124022a(f121703o, "\u0001\u000e\u0000\u0001\u0001\u000e\u000e\u0000\u0002\u0004\u0001ᔄ\u0000\u0002ᔌ\u0001\u0003Л\u0004\u0016\u0005ᔄ\u0002\u0006ဇ\u0003\u0007ဌ\u0004\bဌ\u0005\tဇ\u0006\nဇ\u0007\u000bဌ\b\fဇ\t\rဇ\n\u000eင\u000b", new Object[]{"p", "a", "b", biub.f121765a, "c", biud.class, "d", "e", "f", "g", birk.f121424a, "h", biuf.f121784a, "i", "j", "k", bivv.f122051a, "l", "m", "n"});
         } else if (i2 == 3) {
             return new bitt();
         } else {

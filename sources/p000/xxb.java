@@ -9,7 +9,7 @@ import java.util.Set;
 public final class xxb {
 
     /* renamed from: c */
-    public static final sek f53322c = new sek(new String[]{"HeadlessU2fApiHelper"}, (short[]) null);
+    public static final Logger f53322c = new Logger(new String[]{"HeadlessU2fApiHelper"}, (short[]) null);
 
     /* renamed from: d */
     private static xxb f53323d;

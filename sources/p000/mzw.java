@@ -72,7 +72,7 @@ final /* synthetic */ class mzw implements Callable {
         mss.f34587a |= 1;
         mss.f34588b = j;
         if (!mss.f34589c.mo73666a()) {
-            mss.f34589c = bxvk.m124021a(mss.f34589c);
+            mss.f34589c = GeneratedMessageLite.m124021a(mss.f34589c);
         }
         bxsy.m123078a(arrayList, mss.f34589c);
         if (da.f164950c) {
@@ -106,19 +106,19 @@ final /* synthetic */ class mzw implements Callable {
             }
             String d = ccnl.f179542a.mo6606a().mo76461d();
             if (!TextUtils.isEmpty(d)) {
-                nab.f35075a.mo25409a("Whitelisted launchers: %s", d);
+                nab.f35075a.logVerbose("Whitelisted launchers: %s", d);
                 nab.f35081F.addAll(bmyx.m108640a(',').mo66925c((CharSequence) d));
             }
         }
         if (nab.f35098e == null && nab.f35107n == null) {
             a = mcg.m24868a(packageInfoArr, nab.f35117x, nab.f35108o);
-            sek sek = nab.f35075a;
+            Logger Logger = nab.f35075a;
             int length = a.length;
             StringBuilder sb = new StringBuilder(37);
             sb.append("New restore session, ");
             sb.append(length);
             sb.append(" apps");
-            sek.mo25414c(sb.toString(), new Object[0]);
+            Logger.mo25414c(sb.toString(), new Object[0]);
             SharedPreferences.Editor edit = nab.f35108o.edit();
             edit.clear();
             edit.commit();
@@ -147,7 +147,7 @@ final /* synthetic */ class mzw implements Callable {
                         myr.f34964c.mo19839b(4, str3);
                     }
                 }
-                nab.f35075a.mo25409a("Restoring from d2d data.", new Object[0]);
+                nab.f35075a.logVerbose("Restoring from d2d data.", new Object[0]);
                 nab.f35117x.mo19837b(2);
                 if (nab.f35099f != null) {
                     List list = nab.f35107n.f34965d;

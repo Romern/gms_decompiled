@@ -25,7 +25,7 @@ final class awcg implements Runnable {
         a.getClass();
         blxm.f128086d = a;
         blxm.f128083a |= 1;
-        bxtx a2 = bxtx.m123261a(awcj.f94185i);
+        ByteString a2 = ByteString.m123261a(awcj.f94185i);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

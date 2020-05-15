@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ciob */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ciob extends bxvk implements bxxd {
+public final class ciob extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final ciob f191036c;
@@ -19,7 +19,7 @@ public final class ciob extends bxvk implements bxxd {
     static {
         ciob ciob = new ciob();
         f191036c = ciob;
-        bxvk.m124024a(ciob.class, ciob);
+        GeneratedMessageLite.m124024a(ciob.class, ciob);
     }
 
     private ciob() {
@@ -36,7 +36,7 @@ public final class ciob extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191036c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f191036c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new ciob();
         } else {

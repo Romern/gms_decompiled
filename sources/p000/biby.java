@@ -44,7 +44,7 @@ public final class biby implements Callable {
             bvug bvug2 = (bvug) da.f164949b;
             bvmo.getClass();
             if (!bvug2.f157687d.mo73666a()) {
-                bvug2.f157687d = bxvk.m124021a(bvug2.f157687d);
+                bvug2.f157687d = GeneratedMessageLite.m124021a(bvug2.f157687d);
             }
             bvug2.f157687d.add(bvmo);
         }

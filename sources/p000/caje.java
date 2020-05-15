@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caje */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caje extends bxvk implements bxxd {
+public final class caje extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final caje f174809d;
@@ -22,7 +22,7 @@ public final class caje extends bxvk implements bxxd {
     static {
         caje caje = new caje();
         f174809d = caje;
-        bxvk.m124024a(caje.class, caje);
+        GeneratedMessageLite.m124024a(caje.class, caje);
     }
 
     private caje() {
@@ -39,7 +39,7 @@ public final class caje extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174809d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", cajd.f174808a, "c"});
+            return GeneratedMessageLite.m124022a(f174809d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", cajd.f174808a, "c"});
         } else if (i2 == 3) {
             return new caje();
         } else {

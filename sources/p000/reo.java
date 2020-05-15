@@ -162,10 +162,10 @@ public final class reo {
             cafx = spn.m35846a(context, z, str2, caik2.f174715c, num, sqq.m35991a(this.f42821h), soy.m35781a(this.f42816c));
         }
         bxvd bxvd = (bxvd) cafx.mo74142c(5);
-        bxvd.mo73625a((bxvk) cafx);
+        bxvd.mo73625a((GeneratedMessageLite) cafx);
         bxvf bxvf2 = (bxvf) bxvd;
         if (((cafx) bxvf2.f164949b).f173032b == 0 && caik2.f174719g) {
-            long a = spn.m35843a(this.f42816c);
+            long a = spn.getAndroidId(this.f42816c);
             if (bxvf2.f164950c) {
                 bxvf2.mo74035c();
                 bxvf2.f164950c = false;
@@ -237,7 +237,7 @@ public final class reo {
         }
         int size = list.size();
         for (int i4 = 0; i4 < size; i4++) {
-            bxtx bxtx = ((rdf) list.get(i4)).f42721b;
+            ByteString bxtx = ((rdf) list.get(i4)).f42721b;
             if (bxvf.f164950c) {
                 bxvf.mo74035c();
                 bxvf.f164950c = false;
@@ -245,7 +245,7 @@ public final class reo {
             cagn cagn6 = (cagn) bxvf.f164949b;
             bxtx.getClass();
             if (!cagn6.f174477i.mo73666a()) {
-                cagn6.f174477i = bxvk.m124021a(cagn6.f174477i);
+                cagn6.f174477i = GeneratedMessageLite.m124021a(cagn6.f174477i);
             }
             cagn6.f174477i.add(bxtx);
         }
@@ -824,7 +824,7 @@ public final class reo {
                     } else {
                         try {
                             Context context = this.f42816c;
-                            rbz a2 = rca.m33323a(context, new qws(context, "CLEARCUT_FUNNEL", null).mo24335a(c.mo73642k()).mo24321a());
+                            rbz a2 = rca.m33323a(context, new qws(context, "CLEARCUT_FUNNEL", null).mo24335a(c.serializeToBytes()).mo24321a());
                             rdf rdf = new rdf(null, a2.f42608b, 1);
                             ArrayList arrayList3 = new ArrayList();
                             arrayList3.add(rdf);
@@ -961,7 +961,7 @@ public final class reo {
                             cago = null;
                         } else {
                             try {
-                                cago cago2 = (cago) bxvk.m124016a(cago.f174485f, bArr, bxus.m123744c());
+                                cago cago2 = (cago) GeneratedMessageLite.m124016a(cago.f174485f, bArr, bxus.m123744c());
                                 long j2 = cago2.f174488b;
                                 if (j2 >= 0) {
                                     StringBuilder sb4 = new StringBuilder(55);

@@ -15,7 +15,7 @@ final class tav implements Runnable {
 
     public final void run() {
         ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45585a;
-        sek sek = ConstellationSettingsChimeraActivity.f30536b;
+        Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
         synchronized (constellationSettingsChimeraActivity.f30539C) {
             this.f45585a.mo17980g();
         }

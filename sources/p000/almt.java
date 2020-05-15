@@ -104,7 +104,7 @@ public final class almt extends alzo implements aaai {
     /* renamed from: c */
     public final sce mo40589c(alzm alzm, String str, String str2, int i) {
         boolean z;
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
         if (i >= 0) {
             z = true;
@@ -138,7 +138,7 @@ public final class almt extends alzo implements aaai {
       sdo.a(java.lang.String, java.lang.Object):void */
     /* renamed from: e */
     public final sce mo40595e(alzm alzm, String str, String str2) {
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
         if (cfzr.m144037f() == 2) {
             throw new UnsupportedOperationException(cfzg.m144007b());
@@ -175,7 +175,7 @@ public final class almt extends alzo implements aaai {
     /* renamed from: b */
     public final sce mo40581b(alzm alzm, String str, int i, int i2) {
         alon alon;
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "avatarUrl");
         allt.m61239a(i, "avatarSize");
         if (cgaa.m144066d() == 2) {
@@ -200,7 +200,7 @@ public final class almt extends alzo implements aaai {
 
     /* renamed from: a */
     public final Bundle mo40540a(alzm alzm, boolean z, String str, String str2, int i) {
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         almx a = almx.m61368a(this.f73791a);
         boolean z2 = false;
         int i2 = 0;
@@ -261,9 +261,9 @@ public final class almt extends alzo implements aaai {
     /* renamed from: d */
     public final void mo40594d(alzm alzm, String str, String str2) {
         mo40550a();
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
-        sdo.m34966a((Object) str2, (Object) "deviceId");
+        sdo.checkIfNull((Object) str2, (Object) "deviceId");
         m61309a(new alpk(alzm, this.f73793c, this.f73794d, str, str2));
     }
 
@@ -325,7 +325,7 @@ public final class almt extends alzo implements aaai {
       sdo.a(java.lang.String, java.lang.Object):void */
     /* renamed from: b */
     public final sce mo40582b(alzm alzm, String str, String str2, int i, int i2) {
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
         allt.m61239a(i, "avatarSize");
         alpf alpf = new alpf(this.f73793c, this.f73794d, mo40539a(alzm), str, str2, i, i2);
@@ -355,7 +355,7 @@ public final class almt extends alzo implements aaai {
       sdo.a(java.lang.String, java.lang.Object):void */
     /* renamed from: b */
     public final void mo40585b(alzm alzm, String str) {
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
         if (cfzo.m144028b() == 2) {
             throw new UnsupportedOperationException(cfzg.m144007b());
@@ -472,9 +472,9 @@ public final class almt extends alzo implements aaai {
 
     /* renamed from: a */
     public final sce mo40546a(alzm alzm, AvatarReference avatarReference, ParcelableLoadImageOptions parcelableLoadImageOptions) {
-        sdo.m34966a(alzm, "callbacks");
-        sdo.m34966a(avatarReference, "avatarReference");
-        sdo.m34966a(parcelableLoadImageOptions, "options");
+        sdo.checkIfNull(alzm, "callbacks");
+        sdo.checkIfNull(avatarReference, "avatarReference");
+        sdo.checkIfNull(parcelableLoadImageOptions, "options");
         if (cgaa.m144065c() == 2) {
             throw new UnsupportedOperationException(cfzg.m144007b());
         } else if (cgaa.m144065c() == 1) {
@@ -498,7 +498,7 @@ public final class almt extends alzo implements aaai {
       sdo.a(java.lang.String, java.lang.Object):void */
     /* renamed from: a */
     public final sce mo40547a(alzm alzm, String str) {
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "url");
         if (cgaa.m144064b() == 2) {
             throw new UnsupportedOperationException(cfzg.m144007b());
@@ -540,7 +540,7 @@ public final class almt extends alzo implements aaai {
         int i4 = i;
         boolean z3 = false;
         Object[] objArr = {str, str2, Boolean.valueOf(z), str3, str4, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Boolean.valueOf(z2)};
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         if (i4 == 2) {
             sdo.m34975b(alnv.m61406a(this.f73796f), "Unsupported autocomplete type");
         } else {
@@ -615,7 +615,7 @@ public final class almt extends alzo implements aaai {
 
     /* renamed from: a */
     public final void mo40559a(alzm alzm, String str, String str2, int i) {
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         if (cfzr.m144034c() == 2) {
             throw new UnsupportedOperationException(cfzg.m144007b());
         } else if (cfzr.m144034c() == 1) {
@@ -669,9 +669,9 @@ public final class almt extends alzo implements aaai {
     /* renamed from: a */
     public final void mo40562a(alzm alzm, String str, String str2, Uri uri, boolean z) {
         mo40550a();
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
-        sdo.m34966a(uri, "uri");
+        sdo.checkIfNull(uri, "uri");
         if (!cfzg.f186196a.mo6606a().mo83163f().f165797a.contains(this.f73793c)) {
             if (cgap.m144100b() == 2) {
                 throw new UnsupportedOperationException(cfzg.m144007b());
@@ -695,7 +695,7 @@ public final class almt extends alzo implements aaai {
     @Deprecated
     /* renamed from: a */
     public final void mo40564a(alzm alzm, String str, String str2, String str3, int i, String str4) {
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
         if (!cfzg.m144008c().f165797a.contains(this.f73793c)) {
             if (cfzr.m144033b() == 2) {
@@ -719,7 +719,7 @@ public final class almt extends alzo implements aaai {
       sdo.a(java.lang.String, java.lang.Object):void */
     /* renamed from: a */
     public final void mo40565a(alzm alzm, String str, String str2, String str3, int i, String str4, boolean z) {
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
         if (!cfzg.m144008c().f165797a.contains(this.f73793c)) {
             if (cfzr.m144033b() == 2) {
@@ -774,7 +774,7 @@ public final class almt extends alzo implements aaai {
     /* renamed from: a */
     public final void mo40568a(alzm alzm, String str, String str2, String str3, int i, boolean z, int i2, int i3, String str4, boolean z2, int i4, int i5) {
         Object[] objArr = {str, str2, str3, Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), Integer.valueOf(i3), str4, Boolean.valueOf(z2), Integer.valueOf(i4), Integer.valueOf(i5)};
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
         if (cfzr.m144035d() == 2) {
             throw new UnsupportedOperationException(cfzg.m144007b());
@@ -816,7 +816,7 @@ public final class almt extends alzo implements aaai {
         boolean z2;
         boolean z3 = false;
         Object[] objArr = {str, str2, str3, list, Integer.valueOf(i), Boolean.valueOf(z), Long.valueOf(j), str4, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4)};
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
         if ((i & 2097151) != 0) {
             z2 = true;
@@ -871,10 +871,10 @@ public final class almt extends alzo implements aaai {
     /* renamed from: a */
     public final void mo40577a(alzm alzm, String str, String str2, String[] strArr) {
         mo40550a();
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         sdo.m34969a(str, (Object) "account");
-        sdo.m34966a((Object) str2, (Object) "deviceId");
-        sdo.m34966a(strArr, "sources");
+        sdo.checkIfNull((Object) str2, (Object) "deviceId");
+        sdo.checkIfNull(strArr, "sources");
         m61309a(new alpm(alzm, this.f73793c, this.f73794d, str, str2, strArr));
     }
 
@@ -896,7 +896,7 @@ public final class almt extends alzo implements aaai {
     /* renamed from: a */
     public final void mo40579a(alzm alzm, boolean z, boolean z2, String str, String str2, int i) {
         int i2 = i;
-        sdo.m34966a(alzm, "callbacks");
+        sdo.checkIfNull(alzm, "callbacks");
         boolean z3 = true;
         if (!(i2 == 0 || i2 == 1)) {
             z3 = false;

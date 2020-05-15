@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byfn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byfn extends bxvk implements bxxd {
+public final class byfn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final byfn f166050a;
@@ -16,7 +16,7 @@ public final class byfn extends bxvk implements bxxd {
     static {
         byfn byfn = new byfn();
         f166050a = byfn;
-        bxvk.m124024a(byfn.class, byfn);
+        GeneratedMessageLite.m124024a(byfn.class, byfn);
     }
 
     private byfn() {
@@ -37,7 +37,7 @@ public final class byfn extends bxvk implements bxxd {
             this.f166052b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f166050a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f166050a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new byfn();

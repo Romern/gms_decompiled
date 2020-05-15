@@ -10,6 +10,6 @@ final /* synthetic */ class afrk implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        return ((btdb) obj).mo73642k();
+        return ((btdb) obj).serializeToBytes();
     }
 }

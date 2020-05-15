@@ -14,7 +14,7 @@ import com.google.firebase.auth.api.model.GetTokenResponse;
 public final class brph {
 
     /* renamed from: a */
-    public static final sek f143124a = new sek("FBAuthApiDispatcher", new String[0]);
+    public static final Logger f143124a = new Logger("FBAuthApiDispatcher", new String[0]);
 
     /* renamed from: b */
     public final brpw f143125b;

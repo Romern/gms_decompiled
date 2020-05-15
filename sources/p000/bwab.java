@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwab */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwab extends bxvk implements bxxd {
+public final class bwab extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bwab f158605a;
@@ -19,7 +19,7 @@ public final class bwab extends bxvk implements bxxd {
     static {
         bwab bwab = new bwab();
         f158605a = bwab;
-        bxvk.m124024a(bwab.class, bwab);
+        GeneratedMessageLite.m124024a(bwab.class, bwab);
     }
 
     private bwab() {
@@ -40,7 +40,7 @@ public final class bwab extends bxvk implements bxxd {
             this.f158608c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f158605a, "\u0000\u0001\u0000\u0000\u0004\u0004\u0001\u0000\u0000\u0001\u0004Љ", new Object[]{"b"});
+            return GeneratedMessageLite.m124022a(f158605a, "\u0000\u0001\u0000\u0000\u0004\u0004\u0001\u0000\u0000\u0001\u0004Љ", new Object[]{"b"});
         } else if (i2 == 3) {
             return new bwab();
         } else {

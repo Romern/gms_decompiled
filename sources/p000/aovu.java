@@ -52,7 +52,7 @@ public final class aovu extends aovg {
         }
         blrj a2 = aoww.m69746a(this.f83700i);
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

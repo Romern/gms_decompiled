@@ -148,12 +148,12 @@ public final class cerd implements cera {
         f183369w = bdyx.m91610a(a, "LanguageProfile__notify_account_change_enabled", true);
         f183370x = bdyx.m91609a(a, "LanguageProfile__perusertopics_base_url", "https://firebaseperusertopics-pa.googleapis.com/v1/perusertopics/");
         try {
-            f183371y = bdyx.m91608a(a, "LanguageProfile__settings_download_sync_policy", (bylh) bxvk.m124014a(bylh.f166832d, new byte[]{10, 20, 10, 18, 10, 8, 8, 1, 16, 1, 40, 3, 48, 1, 18, 6, 10, 0, 18, 2, 8, 1, 18, 4, 8, 1, 24, 1}), cerb.f183342a);
+            f183371y = bdyx.m91608a(a, "LanguageProfile__settings_download_sync_policy", (bylh) GeneratedMessageLite.m124014a(bylh.f166832d, new byte[]{10, 20, 10, 18, 10, 8, 8, 1, 16, 1, 40, 3, 48, 1, 18, 6, 10, 0, 18, 2, 8, 1, 18, 4, 8, 1, 24, 1}), cerb.f183342a);
             f183372z = bdyx.m91607a(a, "LanguageProfile__ulp_data_wipeout_window_sec", 5184000L);
             f183344A = bdyx.m91610a(a, "LanguageProfile__use_sync_policy_engine_for_download", false);
             f183345B = bdyx.m91610a(a, "LanguageProfile__visible_to_third_party", false);
             try {
-                f183346C = bdyx.m91608a(a, "LanguageProfile__wipeout_policy", (bylh) bxvk.m124014a(bylh.f166832d, new byte[]{10, 50, 10, 20, 10, 10, 8, 3, 16, 1, 40, 3, 48, 1, 80, 2, 18, 6, 10, 0, 18, 2, 8, 1, 18, 26, 10, 10, 8, 3, 16, 1, 40, 3, 48, 1, 80, 2, 18, 12, 10, 4, 8, Byte.MIN_VALUE, -93, 5, 18, 4, 8, -32, -22, 4}), cerc.f183343a);
+                f183346C = bdyx.m91608a(a, "LanguageProfile__wipeout_policy", (bylh) GeneratedMessageLite.m124014a(bylh.f166832d, new byte[]{10, 50, 10, 20, 10, 10, 8, 3, 16, 1, 40, 3, 48, 1, 80, 2, 18, 6, 10, 0, 18, 2, 8, 1, 18, 26, 10, 10, 8, 3, 16, 1, 40, 3, 48, 1, 80, 2, 18, 12, 10, 4, 8, Byte.MIN_VALUE, -93, 5, 18, 4, 8, -32, -22, 4}), cerc.f183343a);
             } catch (bxwf e) {
                 throw new AssertionError("Could not parse proto flag \"LanguageProfile__wipeout_policy\"");
             }

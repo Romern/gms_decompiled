@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public final class xef implements xdm {
 
     /* renamed from: a */
-    private static final sek f52063a = new sek(new String[]{"SoftwareKeyCryptoHelper"}, (short[]) null);
+    private static final Logger f52063a = new Logger(new String[]{"SoftwareKeyCryptoHelper"}, (short[]) null);
 
     /* renamed from: b */
     static xee m42758b(byte[] bArr) {
@@ -34,7 +34,7 @@ public final class xef implements xdm {
                     throw new xma("Missing required map values in decoding keys from storage.");
                 }
                 KeyFactory instance = KeyFactory.getInstance("EC");
-                KeyPair keyPair = new KeyPair(instance.generatePublic(new X509EncodedKeySpec(((bypx) bnim.get(a2)).mo74445d().f167357a.mo73780k())), instance.generatePrivate(new PKCS8EncodedKeySpec(((bypx) bnim.get(a)).mo74445d().f167357a.mo73780k())));
+                KeyPair keyPair = new KeyPair(instance.generatePublic(new X509EncodedKeySpec(((bypx) bnim.get(a2)).mo74445d().f167357a.getKey())), instance.generatePrivate(new PKCS8EncodedKeySpec(((bypx) bnim.get(a)).mo74445d().f167357a.getKey())));
                 byps a3 = bypx.m125083a(3);
                 if (bnim.containsKey(a3)) {
                     xlu = xlu.m43152a((bypx) bnim.get(a3));

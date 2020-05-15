@@ -19,7 +19,7 @@ import java.io.IOException;
 public final class hqu extends adcf {
 
     /* renamed from: a */
-    public static final sek f20246a = ght.m13172b("AccountReauthFragment");
+    public static final Logger f20246a = ght.m13172b("AccountReauthFragment");
 
     /* renamed from: b */
     public String f20247b;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abul */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abul extends bxvk implements bxxd {
+public final class abul extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: n */
     public static final abul f58412n;
@@ -52,7 +52,7 @@ public final class abul extends bxvk implements bxxd {
     static {
         abul abul = new abul();
         f58412n = abul;
-        bxvk.m124024a(abul.class, abul);
+        GeneratedMessageLite.m124024a(abul.class, abul);
     }
 
     private abul() {
@@ -81,7 +81,7 @@ public final class abul extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58412n, "\u0001\f\u0000\u0001\u0001\f\f\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဇ\u0001\u0003ဉ\u0002\u0004င\u0003\u0005ဈ\u0004\u0006ဇ\u0005\u0007ဂ\u0006\bဌ\u0007\tင\b\nဈ\t\u000bဇ\n\fဂ\u000b", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", abtf.m48247b(), "j", "k", "l", "m"});
+            return GeneratedMessageLite.m124022a(f58412n, "\u0001\f\u0000\u0001\u0001\f\f\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဇ\u0001\u0003ဉ\u0002\u0004င\u0003\u0005ဈ\u0004\u0006ဇ\u0005\u0007ဂ\u0006\bဌ\u0007\tင\b\nဈ\t\u000bဇ\n\fဂ\u000b", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", abtf.m48247b(), "j", "k", "l", "m"});
         } else if (i2 == 3) {
             return new abul();
         } else {

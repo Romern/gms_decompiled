@@ -148,7 +148,7 @@ final class ahoy {
         boolean z21;
         boolean z22;
         boolean z23;
-        buuj buuj = (buuj) bxvk.m124016a(buuj.f154946d, bArr, bxus.m123744c());
+        buuj buuj = (buuj) GeneratedMessageLite.m124016a(buuj.f154946d, bArr, bxus.m123744c());
         buuw a2 = m56306a(buuj);
         buup buup = buup.UNKNOWN_PACKET_TYPE;
         buuw buuw = buuw.UNKNOWN_FRAME_TYPE;
@@ -559,7 +559,7 @@ final class ahoy {
 
     /* renamed from: a */
     static byte[] m56308a() {
-        return m56304a(buuw.DISCONNECTION, buue.f154937a).mo73642k();
+        return m56304a(buuw.DISCONNECTION, buue.f154937a).serializeToBytes();
     }
 
     /* renamed from: a */
@@ -573,7 +573,7 @@ final class ahoy {
         buud.f154934a |= 1;
         buud.f154935b = i;
         if (bArr != null) {
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -583,7 +583,7 @@ final class ahoy {
             buud2.f154934a |= 2;
             buud2.f154936c = a;
         }
-        return m56304a(buuw.CONNECTION_RESPONSE, da.mo74062i()).mo73642k();
+        return m56304a(buuw.CONNECTION_RESPONSE, da.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: a */
@@ -600,6 +600,6 @@ final class ahoy {
         butx.getClass();
         buty.f154906c = butx;
         buty.f154904a = i | 2;
-        return m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da.mo74062i()).mo73642k();
+        return m56304a(buuw.BANDWIDTH_UPGRADE_NEGOTIATION, da.mo74062i()).serializeToBytes();
     }
 }

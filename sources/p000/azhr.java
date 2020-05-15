@@ -149,7 +149,7 @@ public final class azhr extends azhc {
                 ((cbmh) da2.f164949b).f177623a = i7 - 2;
                 cbmh cbmh3 = (cbmh) da2.f164949b;
                 if (!cbmh3.f177624b.mo73666a()) {
-                    cbmh3.f177624b = bxvk.m124021a(cbmh3.f177624b);
+                    cbmh3.f177624b = GeneratedMessageLite.m124021a(cbmh3.f177624b);
                 }
                 bxsy.m123078a(arrayList, cbmh3.f177624b);
                 if (da.f164950c) {
@@ -231,7 +231,7 @@ public final class azhr extends azhc {
                         cbij6 = cbij.f177251e;
                     }
                     bxvd bxvd = (bxvd) cbij6.mo74142c(5);
-                    bxvd.mo73625a((bxvk) cbij6);
+                    bxvd.mo73625a((GeneratedMessageLite) cbij6);
                     cbii cbii = (cbii) bxvd;
                     if (cbii.f164950c) {
                         cbii.mo74035c();

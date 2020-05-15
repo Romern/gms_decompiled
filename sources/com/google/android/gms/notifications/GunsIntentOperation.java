@@ -828,7 +828,7 @@ public class GunsIntentOperation extends IntentOperation {
                 blfm blfm = (blfm) da.f164949b;
                 blco2.getClass();
                 if (!blfm.f126391b.mo73666a()) {
-                    blfm.f126391b = bxvk.m124021a(blfm.f126391b);
+                    blfm.f126391b = GeneratedMessageLite.m124021a(blfm.f126391b);
                 }
                 blfm.f126391b.add(blco2);
                 bxvd da2 = blcy.f125998h.mo74144da();
@@ -887,7 +887,7 @@ public class GunsIntentOperation extends IntentOperation {
                 }
                 blcy blcy6 = (blcy) da2.f164949b;
                 if (!blcy6.f126006g.mo73666a()) {
-                    blcy6.f126006g = bxvk.m124021a(blcy6.f126006g);
+                    blcy6.f126006g = GeneratedMessageLite.m124021a(blcy6.f126006g);
                 }
                 bxsy.m123078a(a2, blcy6.f126006g);
                 blcy blcy7 = (blcy) da2.mo74062i();

@@ -13,7 +13,7 @@ public final /* synthetic */ class tbi implements View.OnClickListener {
     }
 
     public void onClick(View view) {
-        sek sek = ConstellationDebugChimeraActivity.f30575b;
+        Logger Logger = ConstellationDebugChimeraActivity.f30575b;
         szg.m36644a().mo26266a(86400, 1000);
     }
 }

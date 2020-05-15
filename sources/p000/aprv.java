@@ -207,7 +207,7 @@ public class aprv extends aplq {
                                 while (i6 < abud5.f58355e.size()) {
                                     String str5 = (String) abud5.f58355e.get(i6);
                                     if (hashSet4.contains(str5)) {
-                                        bxtx bxtx = ((abuf) ((abug) a3.f58392d.get(0)).f58386b.get(i6)).f58381a;
+                                        ByteString bxtx = ((abuf) ((abug) a3.f58392d.get(0)).f58386b.get(i6)).f58381a;
                                         int i7 = 0;
                                         while (i7 < arrayList4.size()) {
                                             if (bxtx.mo73743a(i7) != 0) {
@@ -268,7 +268,7 @@ public class aprv extends aplq {
                                                         abud2 = abud5;
                                                         String str8 = (String) arrayList4.get(i9);
                                                         arrayList2 = arrayList4;
-                                                        byte[] k = abue2.f58375b.mo73780k();
+                                                        byte[] k = abue2.f58375b.getKey();
                                                         abuh2 = a3;
                                                         if (!str7.equals("thing_proto")) {
                                                             abue = abue2;

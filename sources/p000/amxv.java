@@ -64,7 +64,7 @@ final class amxv extends amxj {
         }
         bteq bteq = (bteq) da.f164949b;
         if (!bteq.f148552a.mo73666a()) {
-            bteq.f148552a = bxvk.m124021a(bteq.f148552a);
+            bteq.f148552a = GeneratedMessageLite.m124021a(bteq.f148552a);
         }
         bxsy.m123078a(asList, bteq.f148552a);
         if (ancm.m64009a((bzks[]) Collections.unmodifiableList(((bteq) da.f164949b).f148552a).toArray(new bzks[0]))) {

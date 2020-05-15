@@ -7,7 +7,7 @@ import android.content.Context;
 public final class syp {
 
     /* renamed from: a */
-    public static final sek f45455a = tea.m36798a("reboot_checker");
+    public static final Logger f45455a = tea.m36798a("reboot_checker");
 
     /* renamed from: d */
     public static final int f45456d = 4;

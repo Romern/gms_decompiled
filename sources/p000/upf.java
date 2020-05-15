@@ -234,7 +234,7 @@ public final class upf implements uoz {
     public final void mo27812a(ChangeEvent changeEvent, ujx ujx) {
         DriveId driveId = changeEvent.f30770a;
         sdo.m34959a(driveId);
-        sdo.m34966a(ujx, "Entry can't be null for change events");
+        sdo.checkIfNull(ujx, "Entry can't be null for change events");
         sdo.m34975b(driveId.equals(ujx.mo27610g()), "Event and entry mismatch");
         m39158a(ujx.mo27610g(), this.f48460d, new upd(this, changeEvent, ujx));
         m39161a(this.f48459c, new upe(this, ujx));

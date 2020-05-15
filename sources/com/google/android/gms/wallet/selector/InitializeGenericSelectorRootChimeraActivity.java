@@ -61,7 +61,7 @@ public class InitializeGenericSelectorRootChimeraActivity extends awce {
             this.f110326j = bmqz.m108301a(getIntent().getIntExtra("com.google.android.gms.wallet.firstparty.EXTRA_GENERIC_SELECTOR_SCENARIO", 2));
             this.f110325i = getIntent().getByteArrayExtra("com.google.android.gms.wallet.firstparty.EXTRA_PARAMS");
             if (awia.m79997b(this.f110326j)) {
-                sdo.m34966a(this.f110325i, "GenericSelectorParameters are required.");
+                sdo.checkIfNull(this.f110325i, "GenericSelectorParameters are required.");
             }
             if (bundle == null) {
                 if (!getIntent().hasExtra("com.google.android.gms.identity.intents.EXTRA_REQUEST") || !getIntent().hasExtra("com.google.android.gms.wallet.firstparty.EXTRA_COUNTRY_CODE")) {

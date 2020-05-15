@@ -16,7 +16,7 @@ public final class btrs extends bxvd implements bxxd {
         btrt btrt = (btrt) this.f164949b;
         btrt btrt2 = btrt.f150144e;
         if (!btrt.f150149d.mo73666a()) {
-            btrt.f150149d = bxvk.m124021a(btrt.f150149d);
+            btrt.f150149d = GeneratedMessageLite.m124021a(btrt.f150149d);
         }
         bxsy.m123078a(iterable, btrt.f150149d);
     }

@@ -35,7 +35,7 @@ final class adfa {
         bkjz.f124486b = str;
         bkjz.f124485a = i2 | 2;
         bkjz.f124487c = i;
-        byte[] k = ((bkjz) da.mo74062i()).mo73642k();
+        byte[] k = ((bkjz) da.mo74062i()).serializeToBytes();
         this.f61540c = k;
         return k;
     }

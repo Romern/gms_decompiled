@@ -40,12 +40,12 @@ public final class byqv {
         this.f167430a = byqu.FAILED;
         this.f167435f = bArr;
         try {
-            bytd a = bysw.m125312a((byti) bxvk.m124014a(byti.f167671d, this.f167431b.mo74486b(bArr)), this.f167432c, byss.HMAC_SHA256, this.f167432c, bysr.AES_256_CBC, this.f167433d);
+            bytd a = bysw.m125312a((byti) GeneratedMessageLite.m124014a(byti.f167671d, this.f167431b.mo74486b(bArr)), this.f167432c, byss.HMAC_SHA256, this.f167432c, bysr.AES_256_CBC, this.f167433d);
             this.f167434e = this.f167431b.mo74489e();
             this.f167431b = null;
             this.f167433d = null;
             this.f167430a = byqu.HANDSHAKE_RESPONDED;
-            return a.f167662c.mo73780k();
+            return a.f167662c.getKey();
         } catch (InvalidKeyException e) {
             throw new SignatureException(e);
         } catch (bxwf e2) {
@@ -69,7 +69,7 @@ public final class byqv {
         try {
             bysv bysv = new bysv();
             bysv.f167622a = this.f167435f;
-            byte[] k = bysv.mo74498a(this.f167432c, byss.HMAC_SHA256, this.f167432c, bysr.AES_256_CBC, bArr).mo73642k();
+            byte[] k = bysv.mo74498a(this.f167432c, byss.HMAC_SHA256, this.f167432c, bysr.AES_256_CBC, bArr).serializeToBytes();
             this.f167432c = null;
             this.f167435f = null;
             this.f167430a = byqu.COMPLETE;

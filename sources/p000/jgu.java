@@ -13,7 +13,7 @@ import java.util.Locale;
 public final class jgu extends Loader implements jgm, jgo {
 
     /* renamed from: a */
-    public static final sek f22437a = ght.m13171a("AuthManaged", "ManagingAppDownloadStatusLoader");
+    public static final Logger f22437a = ght.m13171a("AuthManaged", "ManagingAppDownloadStatusLoader");
 
     /* renamed from: b */
     public final long f22438b;

@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 public final class akvq implements akww {
 
     /* renamed from: a */
-    public static final sek f72968a = akzt.m60725a("OctarineAdvertisingIdBridge");
+    public static final Logger f72968a = akzt.m60725a("OctarineAdvertisingIdBridge");
 
     /* renamed from: b */
     private final bmzi f72969b;

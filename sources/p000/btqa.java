@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btqa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btqa extends bxvk implements bxxd {
+public final class btqa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btqa f149916a;
@@ -13,7 +13,7 @@ public final class btqa extends bxvk implements bxxd {
     static {
         btqa btqa = new btqa();
         f149916a = btqa;
-        bxvk.m124024a(btqa.class, btqa);
+        GeneratedMessageLite.m124024a(btqa.class, btqa);
     }
 
     private btqa() {
@@ -30,7 +30,7 @@ public final class btqa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149916a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f149916a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btqa();

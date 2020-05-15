@@ -31,7 +31,7 @@ public abstract class agps {
             return null;
         }
         try {
-            return (btap) bxvk.m124016a(btap.f148027h, asByteArray, bxus.m123744c());
+            return (btap) GeneratedMessageLite.m124016a(btap.f148027h, asByteArray, bxus.m123744c());
         } catch (bxwf e) {
             bnsl a = f66253a.mo26019b(agyt.m55307c());
             a.mo68437a(e);
@@ -61,7 +61,7 @@ public abstract class agps {
             return null;
         }
         try {
-            return (bxzw) bxvk.m124016a(bxzw.f165192d, asByteArray, bxus.m123744c());
+            return (bxzw) GeneratedMessageLite.m124016a(bxzw.f165192d, asByteArray, bxus.m123744c());
         } catch (bxwf e) {
             bnsl a = f66253a.mo26019b(agyt.m55307c());
             a.mo68437a(e);

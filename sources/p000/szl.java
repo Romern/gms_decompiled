@@ -24,7 +24,7 @@ final class szl extends PhoneStateListener {
         if (szn.m36659a(serviceState) == 4 && szn.m36662b(serviceState) == 4) {
             szm szm = this.f45508b;
             int i = this.f45507a;
-            sek sek = szm.f45509a;
+            Logger Logger = szm.f45509a;
             TelephonyManager a = szm.m36649a(i);
             szm.f45509a.mo25412b("Registering signal strength listener for subId %s.", Integer.valueOf(i));
             szj szj = new szj(szm, a, serviceState, i);

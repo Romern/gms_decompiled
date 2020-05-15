@@ -75,7 +75,7 @@ public final class bguw {
 
     /* renamed from: a */
     private final synchronized void m100055a(bvzk bvzk, bvsy bvsy, String str) {
-        qwo a = this.f117611c.mo24335a(bvsy.mo73642k());
+        qwo a = this.f117611c.mo24335a(bvsy.serializeToBytes());
         a.mo24328b(bvzk.f158527dy);
         a.mo24330c(str);
         a.mo24327b();
@@ -524,7 +524,7 @@ public final class bguw {
         bvsz14.getClass();
         bvsy.f157542d = bvsz14;
         bvsy.f157539a |= 1;
-        qwo a2 = this.f117611c.mo24335a(((bvsy) bxvd.mo74062i()).mo73642k());
+        qwo a2 = this.f117611c.mo24335a(((bvsy) bxvd.mo74062i()).serializeToBytes());
         a2.mo24328b(bvzk.f158527dy);
         a2.mo24327b();
     }

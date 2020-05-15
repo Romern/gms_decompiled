@@ -123,7 +123,7 @@ public final class wqj extends whz {
             if (bsli5 == null) {
                 bsli5 = bsli.f144923d;
             }
-            bsls bsls = (bsls) sgv.mo25513a(a2, 1, sb2, bsli5.mo73642k(), bsls.f144946b);
+            bsls bsls = (bsls) sgv.mo25513a(a2, 1, sb2, bsli5.serializeToBytes(), bsls.f144946b);
             return new wif(true, 0);
         } catch (gid e) {
             return new wif(false, 2);

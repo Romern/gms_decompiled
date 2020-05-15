@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aapu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aapu extends bxvk implements bxxd {
+public final class aapu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final aapu f28835d;
@@ -22,7 +22,7 @@ public final class aapu extends bxvk implements bxxd {
     static {
         aapu aapu = new aapu();
         f28835d = aapu;
-        bxvk.m124024a(aapu.class, aapu);
+        GeneratedMessageLite.m124024a(aapu.class, aapu);
     }
 
     private aapu() {
@@ -39,7 +39,7 @@ public final class aapu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28835d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", aapt.f28834a, "c"});
+            return GeneratedMessageLite.m124022a(f28835d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", aapt.f28834a, "c"});
         } else if (i2 == 3) {
             return new aapu();
         } else {

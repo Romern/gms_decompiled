@@ -247,7 +247,7 @@ public final class bqok {
     }
 
     /* renamed from: a */
-    private static Object m113105a(String str, bxtx bxtx, Class cls) {
+    private static Object m113105a(String str, ByteString bxtx, Class cls) {
         return m113100a(str, cls).mo69286a(bxtx);
     }
 
@@ -258,7 +258,7 @@ public final class bqok {
 
     /* renamed from: a */
     public static Object m113107a(String str, byte[] bArr, Class cls) {
-        return m113105a(str, bxtx.m123261a(bArr), cls);
+        return m113105a(str, ByteString.m123261a(bArr), cls);
     }
 
     /* renamed from: a */

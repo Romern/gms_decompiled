@@ -11,7 +11,7 @@ final class gmp extends gmr {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo12065a(byte[] bArr) {
         try {
-            return (jfc) bxvk.m124016a(jfc.f22341e, bArr, bxus.m123744c());
+            return (jfc) GeneratedMessageLite.m124016a(jfc.f22341e, bArr, bxus.m123744c());
         } catch (bxwf e) {
             return null;
         }

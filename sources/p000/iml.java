@@ -113,7 +113,7 @@ public final class iml {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final String mo13139a(String str) {
-        sdo.m34966a((Object) str, (Object) "Supplied key cannot be null!");
+        sdo.checkIfNull((Object) str, (Object) "Supplied key cannot be null!");
         Lock readLock = this.f21359a.readLock();
         readLock.lock();
         try {
@@ -221,7 +221,7 @@ public final class iml {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final boolean mo13141a(String str, String str2, String str3) {
-        sdo.m34966a((Object) str, (Object) "Supplied key cannot be null!");
+        sdo.checkIfNull((Object) str, (Object) "Supplied key cannot be null!");
         Lock writeLock = this.f21359a.writeLock();
         writeLock.lock();
         try {

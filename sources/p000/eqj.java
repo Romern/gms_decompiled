@@ -470,10 +470,10 @@ public final class eqj implements eqh {
         if (bswb == null) {
             bswb a = m10982a(m10985a(str), bngx.m109376e());
             bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
         } else {
             bxvd bxvd2 = (bxvd) bswb.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bswb);
+            bxvd2.mo73625a((GeneratedMessageLite) bswb);
             bsxk a2 = m10985a(str);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();

@@ -172,7 +172,7 @@ public final class axbf extends bkdx {
             if (bmdn4 == null) {
                 bmdn4 = bmdn.f128831k;
             }
-            bxtx bxtx = bmdn4.f128836d;
+            ByteString bxtx = bmdn4.f128836d;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

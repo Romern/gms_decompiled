@@ -676,11 +676,11 @@ public final class awcj extends awzg implements bkbo, bkio, bjem, bjvx {
         }
         blxp blxp4 = (blxp) da.f164949b;
         if (!blxp4.f128114e.mo73666a()) {
-            blxp4.f128114e = bxvk.m124021a(blxp4.f128114e);
+            blxp4.f128114e = GeneratedMessageLite.m124021a(blxp4.f128114e);
         }
         bxsy.m123078a(asList, blxp4.f128114e);
         if (bArr != null) {
-            bxtx a3 = bxtx.m123261a(bArr);
+            ByteString a3 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -780,7 +780,7 @@ public final class awcj extends awzg implements bkbo, bkio, bjem, bjvx {
         } else {
             bmmp = bmmp.f130032e;
         }
-        byte[] k = bmmp.f130037d.mo73780k();
+        byte[] k = bmmp.f130037d.getKey();
         Bundle bundle = new Bundle();
         bjvp.m104737a(bundle, "EventListener.EXTRA_TRIGGER_VALUE_REFERENCES", list);
         if (bmmv.f130056b == 4) {

@@ -26,7 +26,7 @@ public final class ajee {
             return null;
         }
         try {
-            return (bzbz) bxvk.m124014a(bzbz.f169283c, sqd.m35971c(string));
+            return (bzbz) GeneratedMessageLite.m124014a(bzbz.f169283c, sqd.m35971c(string));
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) ahfq.f67120a.mo68387b();
             bnsl.mo68437a(e);
@@ -51,7 +51,7 @@ public final class ajee {
                     ajbn ajbn = this.f70417a;
                     byzr byzr = (byzr) bzca.f169291b.get(i);
                     bxvd bxvd = (bxvd) byzr.mo74142c(5);
-                    bxvd.mo73625a((bxvk) byzr);
+                    bxvd.mo73625a((GeneratedMessageLite) byzr);
                     ajbn.mo38449a((bxvf) bxvd);
                 }
                 return;

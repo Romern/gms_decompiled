@@ -533,7 +533,7 @@ public final class bcfx implements bcnt {
                 }
                 bqht bqht = (bqht) da2.f164949b;
                 if (!bqht.f140721a.mo73666a()) {
-                    bqht.f140721a = bxvk.m124020a(bqht.f140721a);
+                    bqht.f140721a = GeneratedMessageLite.m124020a(bqht.f140721a);
                 }
                 bxsy.m123078a(l, bqht.f140721a);
                 if (da.f164950c) {
@@ -550,7 +550,7 @@ public final class bcfx implements bcnt {
             bbot.m88296a(bcns.mo56997m(), new bcev(da));
             bbot.m88296a(bcns.mo57000p(), new bcew(da));
             bbot.m88296a(bcns.mo56999o(), new bcex(da));
-            bxtx aL = ((bqhp) da.mo74062i()).mo73639aL();
+            ByteString aL = ((bqhp) da.mo74062i()).mo73639aL();
             if (aL != null) {
                 bcfv.f104090a = aL;
                 bcfv.f104091b = Integer.valueOf(bcns.mo56983a());
@@ -567,7 +567,7 @@ public final class bcfx implements bcnt {
                     throw new IllegalStateException(valueOf.length() == 0 ? new String("Missing required properties:") : "Missing required properties:".concat(valueOf));
                 }
                 bcer bcer = new bcer(bcfv.f104090a, bcfv.f104091b.intValue(), bcfv.f104092c, bcfv.f104093d, bcfv.f104094e, bcfv.f104095f);
-                qwo a2 = qws.mo24335a(bcer.f104054a.mo73780k());
+                qwo a2 = qws.mo24335a(bcer.f104054a.getKey());
                 a2.mo24328b(bcer.f104055b);
                 if (bcer.f104059f.mo66813a()) {
                     a2.mo24330c((String) bcer.f104059f.mo66814b());

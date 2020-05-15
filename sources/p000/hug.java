@@ -113,7 +113,7 @@ final class hug {
                     try {
                         for (ModuleManager.ModuleSetInfo moduleSetInfo : this.f20438b.getCurrentConfig().moduleSets) {
                             try {
-                                for (String str : ((bojy) bxvk.m124014a(bojy.f133367g, moduleSetInfo.getProtoBytes())).f133374f) {
+                                for (String str : ((bojy) GeneratedMessageLite.m124014a(bojy.f133367g, moduleSetInfo.getProtoBytes())).f133374f) {
                                     if ("auth_suw".equals(str)) {
                                         sbw sbw2 = f20436a;
                                         String str2 = moduleSetInfo.moduleSetId;

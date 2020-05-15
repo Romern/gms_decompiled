@@ -188,9 +188,9 @@ public final class ajfo extends buqn {
                 }
                 int a3 = byze.f169068c.mo73744a();
                 if (a3 > 50) {
-                    bArr = Arrays.copyOf(byze.f169068c.mo73780k(), 50);
+                    bArr = Arrays.copyOf(byze.f169068c.getKey(), 50);
                 } else {
-                    bArr = byze.f169068c.mo73780k();
+                    bArr = byze.f169068c.getKey();
                 }
                 byzh byzh = byze.f169067b;
                 if (byzh == null) {

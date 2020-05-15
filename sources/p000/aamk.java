@@ -99,7 +99,7 @@ public final class aamk {
         }
         aajw aajw = (aajw) a.mo66814b();
         bxvd bxvd = (bxvd) aajw.mo74142c(5);
-        bxvd.mo73625a((bxvk) aajw);
+        bxvd.mo73625a((GeneratedMessageLite) aajw);
         return bxvd;
     }
 
@@ -122,7 +122,7 @@ public final class aamk {
             aanz aanz = this.f28463a;
             aajw aajw = (aajw) a.mo66814b();
             bxvd bxvd = (bxvd) aajw.mo74142c(5);
-            bxvd.mo73625a((bxvk) aajw);
+            bxvd.mo73625a((GeneratedMessageLite) aajw);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;

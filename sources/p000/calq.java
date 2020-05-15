@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: calq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class calq extends bxvk implements bxxd {
+public final class calq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final calq f175170a;
@@ -13,7 +13,7 @@ public final class calq extends bxvk implements bxxd {
     static {
         calq calq = new calq();
         f175170a = calq;
-        bxvk.m124024a(calq.class, calq);
+        GeneratedMessageLite.m124024a(calq.class, calq);
     }
 
     private calq() {
@@ -31,7 +31,7 @@ public final class calq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175170a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f175170a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new calq();

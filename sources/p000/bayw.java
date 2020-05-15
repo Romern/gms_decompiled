@@ -28,7 +28,7 @@ final /* synthetic */ class bayw implements bqeh {
             return bqga.m112775a(Boolean.valueOf(bbav.m87739a(bavd, bavd2)));
         }
         bxvd bxvd = (bxvd) bavr.mo74142c(5);
-        bxvd.mo73625a((bxvk) bavr);
+        bxvd.mo73625a((GeneratedMessageLite) bavr);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

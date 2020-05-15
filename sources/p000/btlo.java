@@ -18,7 +18,7 @@ public final class btlo extends bxvd implements bxxd {
         btlp btlp = (btlp) this.f164949b;
         btlp btlp2 = btlp.f149399e;
         if (!btlp.f149404d.mo73666a()) {
-            btlp.f149404d = bxvk.m124019a(btlp.f149404d);
+            btlp.f149404d = GeneratedMessageLite.m124019a(btlp.f149404d);
         }
         Iterator it = iterable.iterator();
         while (it.hasNext()) {

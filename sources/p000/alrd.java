@@ -33,7 +33,7 @@ public final class alrd implements Runnable {
             bzdh bzdh = (bzdh) bzdb.f164949b;
             bzdh.f169469a |= 4096;
             bzdh.f169480l = true;
-            if (alqq.m61526a(((bzdh) bzdb.mo74062i()).mo73642k(), alqx.f74141a, ((alrc) alqq).f74151f)) {
+            if (alqq.m61526a(((bzdh) bzdb.mo74062i()).serializeToBytes(), alqx.f74141a, ((alrc) alqq).f74151f)) {
                 this.f74153b.edit().putLong("contacts-logger-full-upload-timestamp", 0).apply();
             }
         } catch (Exception e) {

@@ -11,7 +11,7 @@ public final class auzx {
 
     /* renamed from: a */
     public final auzy mo51097a() {
-        sdo.m34966a(this.f92843a, "Must provide a valid account!");
+        sdo.checkIfNull(this.f92843a, "Must provide a valid account!");
         return new auzy(this.f92843a);
     }
 

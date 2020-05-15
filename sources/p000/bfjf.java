@@ -553,7 +553,7 @@ public final class bfjf implements bhba {
                         bumt bumt = (bumt) da.f164949b;
                         bumz2.getClass();
                         if (!bumt.f154274a.mo73666a()) {
-                            bumt.f154274a = bxvk.m124021a(bumt.f154274a);
+                            bumt.f154274a = GeneratedMessageLite.m124021a(bumt.f154274a);
                         }
                         bumt.f154274a.add(bumz2);
                         i3++;

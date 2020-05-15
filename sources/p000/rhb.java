@@ -19,7 +19,7 @@ import java.util.ArrayList;
 public abstract class rhb extends rhc {
 
     /* renamed from: b */
-    public static final sek f42954b = new sek("CommonAccount", "BaseAccountChipAccountPicker");
+    public static final Logger f42954b = new Logger("CommonAccount", "BaseAccountChipAccountPicker");
 
     /* renamed from: l */
     private static final int f42955l = 2;

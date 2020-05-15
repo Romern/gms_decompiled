@@ -25,7 +25,7 @@ final class bair {
     }
 
     /* renamed from: a */
-    public static bxtx m86940a(byte[] bArr) {
-        return bArr != null ? bxtx.m123261a(bArr) : bxtx.f164797b;
+    public static ByteString m86940a(byte[] bArr) {
+        return bArr != null ? ByteString.m123261a(bArr) : ByteString.f164797b;
     }
 }

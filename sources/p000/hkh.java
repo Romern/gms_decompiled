@@ -8,7 +8,7 @@ import com.google.android.gms.auth.api.identity.BeginSignInRequest;
 public final class hkh implements hep {
 
     /* renamed from: a */
-    public static final sek f19936a = ght.m13172b("ListSignInCredentialsOperation");
+    public static final Logger f19936a = ght.m13172b("ListSignInCredentialsOperation");
 
     /* renamed from: e */
     private static final adcb f19937e = adca.m50151b(hjw.f19921a);

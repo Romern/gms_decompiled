@@ -42,18 +42,18 @@ public final class kzm implements kzn {
     /* renamed from: a */
     private static bmxv m18821a(bbfz bbfz, String str) {
         try {
-            bxtx bxtx = (bxtx) bbfz.mo56111a().mo66814b();
+            ByteString bxtx = (ByteString) bbfz.mo56111a().mo66814b();
             bxus c = bxus.m123744c();
             kzd kzd = kzd.f25441b;
             try {
                 bxuc h = bxtx.mo73764h();
-                bxvk bxvk = (bxvk) kzd.mo74142c(4);
-                bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                a.mo74220a(bxvk, bxud.m123454a(h), c);
-                a.mo74225d(bxvk);
+                GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) kzd.mo74142c(4);
+                bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                a.mo74225d(GeneratedMessageLite);
                 h.mo73787a(0);
-                bxvk.m124027b(bxvk);
-                return bmxv.m108566b((kzd) bxvk);
+                GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                return bmxv.m108566b((kzd) GeneratedMessageLite);
             } catch (IOException e) {
                 if (!(e.getCause() instanceof bxwf)) {
                     throw new bxwf(e.getMessage());
@@ -91,9 +91,9 @@ public final class kzm implements kzn {
             return bmvz.f131120a;
         }
         bbfz bbfz = (bbfz) a.mo66814b();
-        if (z && ((bxtx) bbfz.mo56111a().mo66814b()).mo73744a() < 4096) {
+        if (z && ((ByteString) bbfz.mo56111a().mo66814b()).mo73744a() < 4096) {
             bbgi bbgi = this.f25462c;
-            bxtx a2 = bxtx.m123258a(str);
+            ByteString a2 = ByteString.m123258a(str);
             bmxy.m108581a(a2);
             bmxy.m108581a(bbfz);
             synchronized (bbgi.f102588b) {
@@ -102,18 +102,18 @@ public final class kzm implements kzn {
             bqga.m112775a((Object) null);
         }
         try {
-            bxtx bxtx = (bxtx) bbfz.mo56111a().mo66814b();
+            ByteString bxtx = (ByteString) bbfz.mo56111a().mo66814b();
             bxus c = bxus.m123744c();
             kzd kzd = kzd.f25441b;
             try {
                 bxuc h = bxtx.mo73764h();
-                bxvk bxvk = (bxvk) kzd.mo74142c(4);
-                bxxv a3 = bxxm.f165037a.mo74228a(bxvk);
-                a3.mo74220a(bxvk, bxud.m123454a(h), c);
-                a3.mo74225d(bxvk);
+                GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) kzd.mo74142c(4);
+                bxxv a3 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                a3.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                a3.mo74225d(GeneratedMessageLite);
                 h.mo73787a(0);
-                bxvk.m124027b(bxvk);
-                return bmxv.m108566b((kzd) bxvk);
+                GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                return bmxv.m108566b((kzd) GeneratedMessageLite);
             } catch (IOException e) {
                 if (!(e.getCause() instanceof bxwf)) {
                     throw new bxwf(e.getMessage());

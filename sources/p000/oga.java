@@ -95,7 +95,7 @@ public final class oga implements ogw {
                 }
                 ByteBuffer buffer = BufferPool.getBuffer(i3 + 2);
                 buffer.putShort(7);
-                buffer.put(bipp3.mo73642k());
+                buffer.put(bipp3.serializeToBytes());
                 ogs.mo22128a(i, buffer, false, true, new ogv(true, false, 0));
             }
         }

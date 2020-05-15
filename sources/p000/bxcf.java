@@ -16,7 +16,7 @@ public final class bxcf extends bxvg implements bxvh {
     static {
         bxcf bxcf = new bxcf();
         f162779a = bxcf;
-        bxvk.m124024a(bxcf.class, bxcf);
+        GeneratedMessageLite.m124024a(bxcf.class, bxcf);
     }
 
     private bxcf() {
@@ -37,7 +37,7 @@ public final class bxcf extends bxvg implements bxvh {
             this.f162781b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f162779a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f162779a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new bxcf();

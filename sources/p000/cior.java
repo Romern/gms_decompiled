@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cior */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cior extends bxvk implements bxxd {
+public final class cior extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cior f191109c;
@@ -19,7 +19,7 @@ public final class cior extends bxvk implements bxxd {
     static {
         cior cior = new cior();
         f191109c = cior;
-        bxvk.m124024a(cior.class, cior);
+        GeneratedMessageLite.m124024a(cior.class, cior);
     }
 
     private cior() {
@@ -36,7 +36,7 @@ public final class cior extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191109c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", cioq.f191108a});
+            return GeneratedMessageLite.m124022a(f191109c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", cioq.f191108a});
         } else if (i2 == 3) {
             return new cior();
         } else {

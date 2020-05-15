@@ -31,7 +31,7 @@ public class InactiveReason extends AbstractSafeParcelable {
       sdo.a(java.lang.Object, java.lang.Object):void */
     public InactiveReason(int i, String str) {
         this.f150917b = i;
-        sdo.m34966a((Object) str, (Object) "missing name");
+        sdo.checkIfNull((Object) str, (Object) "missing name");
         this.f150918c = str;
     }
 

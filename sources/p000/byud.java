@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byud */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byud extends bxvk implements bxxd {
+public final class byud extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final byud f167762b;
@@ -19,7 +19,7 @@ public final class byud extends bxvk implements bxxd {
     static {
         byud byud = new byud();
         f167762b = byud;
-        bxvk.m124024a(byud.class, byud);
+        GeneratedMessageLite.m124024a(byud.class, byud);
     }
 
     private byud() {
@@ -36,7 +36,7 @@ public final class byud extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167762b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f167762b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new byud();
         } else {

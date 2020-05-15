@@ -31,11 +31,11 @@ public final class akjq extends akjs implements NetworkCallbacks {
             }
             return;
         }
-        eoa.m10826b("GoogleAuthProtoRequest", Base64.encodeToString(bxxc.mo73642k(), 0), new Object[0]);
+        eoa.m10826b("GoogleAuthProtoRequest", Base64.encodeToString(bxxc.serializeToBytes(), 0), new Object[0]);
     }
 
     public final byte[] getBody() {
-        return ((bxsz) this.f72110e).mo73642k();
+        return ((bxsz) this.f72110e).serializeToBytes();
     }
 
     public final void onPostNetworkDispatch() {

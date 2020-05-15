@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpgo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpgo extends bxvk implements bxxd {
+public final class bpgo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpgo f137518c;
@@ -19,7 +19,7 @@ public final class bpgo extends bxvk implements bxxd {
     static {
         bpgo bpgo = new bpgo();
         f137518c = bpgo;
-        bxvk.m124024a(bpgo.class, bpgo);
+        GeneratedMessageLite.m124024a(bpgo.class, bpgo);
     }
 
     private bpgo() {
@@ -36,7 +36,7 @@ public final class bpgo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f137518c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f137518c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001င\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bpgo();
         } else {

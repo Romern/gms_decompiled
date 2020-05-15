@@ -317,7 +317,7 @@ public final class dgv extends dez {
                     while (i4 < ((dke) da.f164949b).f13394c.size()) {
                         dkd d2 = da.mo74040d(i4);
                         bxvd bxvd = (bxvd) d2.mo74142c(5);
-                        bxvd.mo73625a((bxvk) d2);
+                        bxvd.mo73625a((GeneratedMessageLite) d2);
                         Uri parse = Uri.parse(((dkd) bxvd.f164949b).f13382b);
                         if (parse.isRelative() || "file".equals(parse.getScheme())) {
                             if (bxvd.f164950c) {
@@ -371,7 +371,7 @@ public final class dgv extends dez {
                             dhs a2 = dhs.m8523a(dha.m8459a(d, e).getAbsolutePath());
                             if (a2 != null) {
                                 bxvd bxvd2 = (bxvd) e.mo74142c(5);
-                                bxvd2.mo73625a((bxvk) e);
+                                bxvd2.mo73625a((GeneratedMessageLite) e);
                                 String str2 = a2.f13182a;
                                 if (bxvd2.f164950c) {
                                     bxvd2.mo74035c();
@@ -411,7 +411,7 @@ public final class dgv extends dez {
                     while (i < ((dke) da.f164949b).f13394c.size()) {
                         dkd d3 = da.mo74040d(i);
                         bxvd bxvd3 = (bxvd) d3.mo74142c(5);
-                        bxvd3.mo73625a((bxvk) d3);
+                        bxvd3.mo73625a((GeneratedMessageLite) d3);
                         Uri parse2 = Uri.parse(((dkd) bxvd3.f164949b).f13382b);
                         boolean z = parse2.isRelative() || "file".equals(parse2.getScheme());
                         if (bxvd3.f164950c) {
@@ -499,7 +499,7 @@ public final class dgv extends dez {
                         }
                         if (str != null) {
                             bxvd bxvd4 = (bxvd) d4.mo74142c(5);
-                            bxvd4.mo73625a((bxvk) d4);
+                            bxvd4.mo73625a((GeneratedMessageLite) d4);
                             if (bxvd4.f164950c) {
                                 bxvd4.mo74035c();
                                 bxvd4.f164950c = false;
@@ -537,7 +537,7 @@ public final class dgv extends dez {
                         da.mo74035c();
                         da.f164950c = false;
                     }
-                    ((dke) da.f164949b).f13394c = bxvk.m124030de();
+                    ((dke) da.f164949b).f13394c = GeneratedMessageLite.m124030de();
                     da.mo74075k(arrayList);
                 }
                 if (da.f164950c) {
@@ -757,7 +757,7 @@ public final class dgv extends dez {
                 bxvd2.f164950c = false;
             }
             dke dke = dke.f13390f;
-            ((dke) bxvd2.f164949b).f13395d = bxvk.m124030de();
+            ((dke) bxvd2.f164949b).f13395d = GeneratedMessageLite.m124030de();
             bxvd2.mo74070j(arrayList);
             if (z) {
                 if (!mo8984a(file2, (dke) bxvd.mo74062i(), false)) {
@@ -916,7 +916,7 @@ public final class dgv extends dez {
                 bxvd2.f164950c = false;
             }
             dke dke = dke.f13390f;
-            ((dke) bxvd2.f164949b).f13395d = bxvk.m124030de();
+            ((dke) bxvd2.f164949b).f13395d = GeneratedMessageLite.m124030de();
             bxvd2.mo74070j(arrayList);
         }
         return z | dha.m8468a(bxvd2, dfz, set);
@@ -959,7 +959,7 @@ public final class dgv extends dez {
             if (binarySearch >= 0) {
                 dkd d = bxvd3.mo74040d(binarySearch);
                 bxvd2 = (bxvd) d.mo74142c(5);
-                bxvd2.mo73625a((bxvk) d);
+                bxvd2.mo73625a((GeneratedMessageLite) d);
                 dkd dkd2 = (dkd) bxvd2.f164949b;
                 if (j != dkd2.f13383c || i3 != dkd2.f13386f || !str.equals(dkd2.f13388h)) {
                     if (m.length() == 0) {
@@ -1010,7 +1010,7 @@ public final class dgv extends dez {
                                     bxvd2.mo74035c();
                                     bxvd2.f164950c = false;
                                 }
-                                ((dkd) bxvd2.f164949b).f13385e = bxvk.m124030de();
+                                ((dkd) bxvd2.f164949b).f13385e = GeneratedMessageLite.m124030de();
                                 i = binarySearch;
                                 z2 = true;
                             }
@@ -1021,7 +1021,7 @@ public final class dgv extends dez {
                         for (int i9 = 0; i9 < ((dkd) bxvd2.f164949b).f13385e.size(); i9++) {
                             dkf c = bxvd2.mo74034c(i9);
                             bxvd bxvd4 = (bxvd) c.mo74142c(5);
-                            bxvd4.mo73625a((bxvk) c);
+                            bxvd4.mo73625a((GeneratedMessageLite) c);
                             if (bxvd4.f164950c) {
                                 bxvd4.mo74035c();
                                 bxvd4.f164950c = false;
@@ -1172,7 +1172,7 @@ public final class dgv extends dez {
                 if (d.isDirectory()) {
                     dke k = mo8993k();
                     bxvd bxvd4 = (bxvd) k.mo74142c(5);
-                    bxvd4.mo73625a((bxvk) k);
+                    bxvd4.mo73625a((GeneratedMessageLite) k);
                     if (z) {
                         z3 = mo8978a(bxvd4, d, dfz, set, dkw);
                     } else {
@@ -1254,7 +1254,7 @@ public final class dgv extends dez {
                                             } else {
                                                 dkd d2 = bxvd4.mo74040d(binarySearch);
                                                 bxvd3 = (bxvd) d2.mo74142c(5);
-                                                bxvd3.mo73625a((bxvk) d2);
+                                                bxvd3.mo73625a((GeneratedMessageLite) d2);
                                                 dkd dkd2 = (dkd) bxvd3.mo74062i();
                                                 String str = packageArchiveInfo.packageName;
                                                 int i8 = packageArchiveInfo.versionCode;
@@ -1334,7 +1334,7 @@ public final class dgv extends dez {
                                                 dkd6.f13388h = str2;
                                                 dkd6.f13381a = i10 | 4;
                                                 dkd6.f13384d = false;
-                                                dkd6.f13385e = bxvk.m124030de();
+                                                dkd6.f13385e = GeneratedMessageLite.m124030de();
                                                 File file3 = file2;
                                                 i2 = i4;
                                                 i = i3;
@@ -1692,7 +1692,7 @@ public final class dgv extends dez {
             if (binarySearch >= 0) {
                 dkf c4 = bxvd8.mo74034c(binarySearch);
                 bxvd bxvd9 = (bxvd) c4.mo74142c(5);
-                bxvd9.mo73625a((bxvk) c4);
+                bxvd9.mo73625a((GeneratedMessageLite) c4);
                 bxvd3 = bxvd9;
             } else {
                 bxvd3 = da;
@@ -2781,7 +2781,7 @@ public final class dgv extends dez {
                     bxvd2.mo74035c();
                     bxvd11.f164950c = false;
                 }
-                ((dkd) bxvd11.f164949b).f13385e = bxvk.m124030de();
+                ((dkd) bxvd11.f164949b).f13385e = GeneratedMessageLite.m124030de();
                 if (bxvd11.f164950c) {
                     bxvd2.mo74035c();
                     bxvd11.f164950c = false;
@@ -2844,7 +2844,7 @@ public final class dgv extends dez {
     /* renamed from: a */
     public final boolean mo8984a(File file, dke dke, boolean z) {
         boolean z2 = false;
-        if (dft.m8316a(dke.mo73642k(), new File(file, "pending_fileapks.pb"), m8431b(file), false) > 0) {
+        if (dft.m8316a(dke.serializeToBytes(), new File(file, "pending_fileapks.pb"), m8431b(file), false) > 0) {
             z2 = true;
         }
         aytw.m84814b();

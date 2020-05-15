@@ -11,7 +11,7 @@ final /* synthetic */ class fgf implements bmzi {
 
     /* renamed from: a */
     public final Object mo6606a() {
-        sek sek = fgh.f16501b;
+        Logger Logger = fgh.f16501b;
         return Boolean.valueOf(alfj.m60866b(rpr.m34216b()));
     }
 }

@@ -20,7 +20,7 @@ import com.google.android.setupdesign.GlifLayout;
 public final class arza extends Fragment {
 
     /* renamed from: a */
-    public static final sek f88493a = ascp.m73787a("Setup", "UI", "FingerprintFragment");
+    public static final Logger f88493a = ascp.m73787a("Setup", "UI", "FingerprintFragment");
 
     /* renamed from: b */
     public aryz f88494b;

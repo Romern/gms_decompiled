@@ -27,7 +27,7 @@ public final class aats extends aayk {
                 return null;
             }
             try {
-                return (bzqp) bxvk.m124016a(bzqp.f171047j, k.f56844c, bxus.m123744c());
+                return (bzqp) GeneratedMessageLite.m124016a(bzqp.f171047j, k.f56844c, bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("gH_EscOptionsCronetReq", "Parsing EscalationOptions failed!", e);
                 return null;

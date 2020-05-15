@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwmb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwmb extends bxvk implements bxxd {
+public final class bwmb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bwmb f160236a;
@@ -16,7 +16,7 @@ public final class bwmb extends bxvk implements bxxd {
     static {
         bwmb bwmb = new bwmb();
         f160236a = bwmb;
-        bxvk.m124024a(bwmb.class, bwmb);
+        GeneratedMessageLite.m124024a(bwmb.class, bwmb);
     }
 
     private bwmb() {
@@ -38,7 +38,7 @@ public final class bwmb extends bxvk implements bxxd {
             this.f160238b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f160236a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f160236a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new bwmb();

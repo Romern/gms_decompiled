@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byzm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byzm extends bxvk implements bxxd {
+public final class byzm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final byzm f169125d;
@@ -25,7 +25,7 @@ public final class byzm extends bxvk implements bxxd {
     static {
         byzm byzm = new byzm();
         f169125d = byzm;
-        bxvk.m124024a(byzm.class, byzm);
+        GeneratedMessageLite.m124024a(byzm.class, byzm);
     }
 
     private byzm() {
@@ -42,7 +42,7 @@ public final class byzm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f169125d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002က\u0001\u0003ဉ\u0002", new Object[]{"a", "b", bzav.f169234a, "c", "e"});
+            return GeneratedMessageLite.m124022a(f169125d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002က\u0001\u0003ဉ\u0002", new Object[]{"a", "b", bzav.f169234a, "c", "e"});
         } else if (i2 == 3) {
             return new byzm();
         } else {

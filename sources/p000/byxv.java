@@ -4,7 +4,7 @@ import com.google.android.gms.org.conscrypt.PSKKeyManager;
 
 /* renamed from: byxv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byxv extends bxvk implements bxxd {
+public final class byxv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: p */
     public static final byxv f168807p;
@@ -60,7 +60,7 @@ public final class byxv extends bxvk implements bxxd {
     static {
         byxv byxv = new byxv();
         f168807p = byxv;
-        bxvk.m124024a(byxv.class, byxv);
+        GeneratedMessageLite.m124024a(byxv.class, byxv);
     }
 
     private byxv() {
@@ -149,7 +149,7 @@ public final class byxv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168807p, "\u0001\u000e\u0000\u0001\u0001\u000e\u000e\u0000\u0000\u0000\u0001င\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004က\u0003\u0005ဇ\u0004\u0006င\u0005\u0007င\u0006\bက\u0007\tင\b\nင\t\u000bင\n\fင\u000b\rဉ\f\u000eဉ\r", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o"});
+            return GeneratedMessageLite.m124022a(f168807p, "\u0001\u000e\u0000\u0001\u0001\u000e\u000e\u0000\u0000\u0000\u0001င\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004က\u0003\u0005ဇ\u0004\u0006င\u0005\u0007င\u0006\bက\u0007\tင\b\nင\t\u000bင\n\fင\u000b\rဉ\f\u000eဉ\r", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o"});
         } else if (i2 == 3) {
             return new byxv();
         } else {

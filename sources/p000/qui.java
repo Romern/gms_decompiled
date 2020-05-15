@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qui */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qui extends bxvk implements bxxd {
+public final class qui extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final qui f42142d;
@@ -17,12 +17,12 @@ public final class qui extends bxvk implements bxxd {
     public String f42145b = "";
 
     /* renamed from: c */
-    public bxtx f42146c = bxtx.f164797b;
+    public ByteString f42146c = ByteString.f164797b;
 
     static {
         qui qui = new qui();
         f42142d = qui;
-        bxvk.m124024a(qui.class, qui);
+        GeneratedMessageLite.m124024a(qui.class, qui);
     }
 
     private qui() {
@@ -39,7 +39,7 @@ public final class qui extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f42142d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f42142d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new qui();
         } else {

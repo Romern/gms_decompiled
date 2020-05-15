@@ -97,7 +97,7 @@ public final class aixs {
             buyq2.f155328d = buzh2;
             buyq2.f155325a |= 4;
             bxvd da3 = buzq.f155418c.mo74144da();
-            bxtx a = bxtx.m123261a(ajgm.f70586a.f67128a);
+            ByteString a = ByteString.m123261a(ajgm.f70586a.f67128a);
             if (da3.f164950c) {
                 da3.mo74035c();
                 da3.f164950c = false;
@@ -135,7 +135,7 @@ public final class aixs {
             buyq5.f155329e = buyx;
             buyq5.f155325a |= 8;
             bxvd da4 = buzq.f155418c.mo74144da();
-            bxtx a2 = bxtx.m123261a(ajgm.f70586a.f67128a);
+            ByteString a2 = ByteString.m123261a(ajgm.f70586a.f67128a);
             if (da4.f164950c) {
                 da4.mo74035c();
                 da4.f164950c = false;
@@ -276,7 +276,7 @@ public final class aixs {
             }
             buzb buzb3 = (buzb) da.f164949b;
             if (!buzb3.f155370d.mo73666a()) {
-                buzb3.f155370d = bxvk.m124019a(buzb3.f155370d);
+                buzb3.f155370d = GeneratedMessageLite.m124019a(buzb3.f155370d);
             }
             for (buyz buyz : asList) {
                 buzb3.f155370d.mo74153d(buyz.f155363d);

@@ -135,7 +135,7 @@ public final class ubn extends utk implements IBinder.DeathRecipient, aaai {
         d.mo28302d(i);
         DriveId driveId = createFileIntentSenderRequest.f30833d;
         String str = createFileIntentSenderRequest.f30832c;
-        sdo.m34966a(uey, "app");
+        sdo.checkIfNull(uey, "app");
         Intent intent = new Intent();
         intent.setClassName(apiChimeraService, "com.google.android.gms.drive.ui.create.CreateFileActivityDelegate");
         intent.putExtra("accountName", uey.f47394a.f47682a);

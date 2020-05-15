@@ -9,7 +9,7 @@ import com.google.android.gms.common.ConnectionResult;
 public final class igs implements rjz, rka {
 
     /* renamed from: f */
-    public static final sek f20937f = new sek(igs.class.getSimpleName());
+    public static final Logger f20937f = new Logger(igs.class.getSimpleName());
 
     /* renamed from: a */
     public final Context f20938a;

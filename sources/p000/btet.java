@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btet */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btet extends bxvk implements bxxd {
+public final class btet extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final btet f148559h;
@@ -17,7 +17,7 @@ public final class btet extends bxvk implements bxxd {
     public String f148562b = "";
 
     /* renamed from: c */
-    public bxtx f148563c = bxtx.f164797b;
+    public ByteString f148563c = ByteString.f164797b;
 
     /* renamed from: d */
     public btea f148564d;
@@ -34,7 +34,7 @@ public final class btet extends bxvk implements bxxd {
     static {
         btet btet = new btet();
         f148559h = btet;
-        bxvk.m124024a(btet.class, btet);
+        GeneratedMessageLite.m124024a(btet.class, btet);
     }
 
     private btet() {
@@ -51,7 +51,7 @@ public final class btet extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148559h, "\u0000\u0007\u0000\u0000\u0001\n\u0007\u0000\u0000\u0000\u0001\f\u0002Ȉ\u0003\f\u0005\n\u0006\t\b\t\n\t", new Object[]{"a", "b", "g", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f148559h, "\u0000\u0007\u0000\u0000\u0001\n\u0007\u0000\u0000\u0000\u0001\f\u0002Ȉ\u0003\f\u0005\n\u0006\t\b\t\n\t", new Object[]{"a", "b", "g", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new btet();
         } else {

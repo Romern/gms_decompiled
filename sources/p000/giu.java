@@ -130,7 +130,7 @@ public final class giu {
         }
         sdo.m34975b(z, "Must have at least one URL.");
         try {
-            jhu jhu = (jhu) bxvk.m124016a(jhu.f22516c, Base64.decode(gik.m13216d(this.f18314a, account, m13226a(strArr)), 9), bxus.m123744c());
+            jhu jhu = (jhu) GeneratedMessageLite.m124016a(jhu.f22516c, Base64.decode(gik.m13216d(this.f18314a, account, m13226a(strArr)), 9), bxus.m123744c());
             if (jhu == null || (jhu.f22518a & 1) == 0) {
                 throw new gid("Invalid response.");
             }

@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public final class idp extends aaab {
 
     /* renamed from: a */
-    public static final sek f20767a = new sek("GoogleSilentSignIn", new String[0]);
+    public static final Logger f20767a = new Logger("GoogleSilentSignIn", new String[0]);
 
     /* renamed from: b */
     public final ide f20768b;

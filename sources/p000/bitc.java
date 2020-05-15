@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bitc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bitc extends bxvk implements bxxd {
+public final class bitc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bitc f121624e;
@@ -28,7 +28,7 @@ public final class bitc extends bxvk implements bxxd {
     static {
         bitc bitc = new bitc();
         f121624e = bitc;
-        bxvk.m124024a(bitc.class, bitc);
+        GeneratedMessageLite.m124024a(bitc.class, bitc);
     }
 
     private bitc() {
@@ -49,7 +49,7 @@ public final class bitc extends bxvk implements bxxd {
             this.f121630f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121624e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0003\u0001ᔄ\u0000\u0002ᔌ\u0001\u0003ᐉ\u0002", new Object[]{"a", "b", "c", bita.f121623a, "d"});
+            return GeneratedMessageLite.m124022a(f121624e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0003\u0001ᔄ\u0000\u0002ᔌ\u0001\u0003ᐉ\u0002", new Object[]{"a", "b", "c", bita.f121623a, "d"});
         } else if (i2 == 3) {
             return new bitc();
         } else {

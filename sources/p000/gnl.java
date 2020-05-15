@@ -9,7 +9,7 @@ import com.google.android.gms.auth.firstparty.shared.CaptchaSolution;
 public final class gnl {
 
     /* renamed from: a */
-    public static final sek f18699a = ght.m13171a("UpdateCredentialsOperation");
+    public static final Logger f18699a = ght.m13171a("UpdateCredentialsOperation");
 
     /* renamed from: b */
     public final Context f18700b;

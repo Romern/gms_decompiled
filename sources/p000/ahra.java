@@ -134,7 +134,7 @@ final class ahra implements ahnm {
         buun2.getClass();
         buuu.f154991e = buun2;
         buuu.f154987a = i3 | 8;
-        ahnp.mo36891a(list, ahoy.m56304a(buuw.PAYLOAD_TRANSFER, da2.mo74062i()).mo73642k(), buut2.f154982b, buun2.f154965c, "CONTROL");
+        ahnp.mo36891a(list, ahoy.m56304a(buuw.PAYLOAD_TRANSFER, da2.mo74062i()).serializeToBytes(), buut2.f154982b, buun2.f154965c, "CONTROL");
     }
 
     /* renamed from: a */
@@ -254,7 +254,7 @@ final class ahra implements ahnm {
                         if (buuq3 == null) {
                             buuq3 = buuq.f154972e;
                         }
-                        aiic.mo37513a(buuq3.f154977d.mo73780k());
+                        aiic.mo37513a(buuq3.f154977d.getKey());
                         ahnq = new ahnr(aiic.f68912a);
                     } else if (i == 2) {
                         File file = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "Nearby");
@@ -364,7 +364,7 @@ final class ahra implements ahnm {
             }
             ahqy.mo36980a(str3, buuq.f154976c);
             try {
-                ahqy.f67847a.mo36898a(buuq.f154977d.mo73780k());
+                ahqy.f67847a.mo36898a(buuq.f154977d.getKey());
                 mo36994a(new ahqr(this, buut2, buuq, ahkv, str));
             } catch (IOException e3) {
                 ((bnsl) ahkm.f67363a.mo68387b()).mo68420a("Unable to attach chunk for incoming Payload %s, abandoning.", ahqy);

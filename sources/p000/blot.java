@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blot */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blot extends bxvk implements bxxd {
+public final class blot extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final blot f127133j;
@@ -43,7 +43,7 @@ public final class blot extends bxvk implements bxxd {
     static {
         blot blot = new blot();
         f127133j = blot;
-        bxvk.m124024a(blot.class, blot);
+        GeneratedMessageLite.m124024a(blot.class, blot);
     }
 
     private blot() {
@@ -64,7 +64,7 @@ public final class blot extends bxvk implements bxxd {
             this.f127144k = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127133j, "\u0001\b\u0000\u0001\u0001\b\b\u0000\u0000\u0003\u0001ဌ\u0000\u0002င\u0001\u0003ᐉ\u0002\u0004ᐉ\u0003\u0005ᐉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007", new Object[]{"a", "b", bloe.f127076a, "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f127133j, "\u0001\b\u0000\u0001\u0001\b\b\u0000\u0000\u0003\u0001ဌ\u0000\u0002င\u0001\u0003ᐉ\u0002\u0004ᐉ\u0003\u0005ᐉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007", new Object[]{"a", "b", bloe.f127076a, "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new blot();
         } else {

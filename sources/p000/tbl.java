@@ -14,7 +14,7 @@ public final /* synthetic */ class tbl implements View.OnClickListener {
     }
 
     public void onClick(View view) {
-        sek sek = ConstellationDebugChimeraActivity.f30575b;
+        Logger Logger = ConstellationDebugChimeraActivity.f30575b;
         szr.m36692a();
         List a = szr.m36691a(-1);
         int size = a.size();

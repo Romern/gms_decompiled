@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blod */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blod extends bxvk implements bxxd {
+public final class blod extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final blod f127069e;
@@ -28,7 +28,7 @@ public final class blod extends bxvk implements bxxd {
     static {
         blod blod = new blod();
         f127069e = blod;
-        bxvk.m124024a(blod.class, blod);
+        GeneratedMessageLite.m124024a(blod.class, blod);
     }
 
     private blod() {
@@ -49,7 +49,7 @@ public final class blod extends bxvk implements bxxd {
             this.f127075f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127069e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ᐉ\u0000\u0002ဌ\u0001\u0003ဇ\u0002", new Object[]{"a", "b", "c", blns.f127021a, "d"});
+            return GeneratedMessageLite.m124022a(f127069e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ᐉ\u0000\u0002ဌ\u0001\u0003ဇ\u0002", new Object[]{"a", "b", "c", blns.f127021a, "d"});
         } else if (i2 == 3) {
             return new blod();
         } else {

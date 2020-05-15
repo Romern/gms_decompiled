@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpeg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpeg extends bxvk implements bxxd {
+public final class bpeg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bpeg f137266g;
@@ -31,7 +31,7 @@ public final class bpeg extends bxvk implements bxxd {
     static {
         bpeg bpeg = new bpeg();
         f137266g = bpeg;
-        bxvk.m124024a(bpeg.class, bpeg);
+        GeneratedMessageLite.m124024a(bpeg.class, bpeg);
     }
 
     private bpeg() {
@@ -48,7 +48,7 @@ public final class bpeg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f137266g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဇ\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003\u0005င\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f137266g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဇ\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003\u0005င\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new bpeg();
         } else {

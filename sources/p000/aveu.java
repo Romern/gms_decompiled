@@ -83,7 +83,7 @@ public final class aveu {
     public final void mo51187a(bxpv bxpv, boolean z, boolean z2, boolean z3) {
         long longValue = ((Long) this.f93039c.mo6606a()).longValue();
         bxvd bxvd = (bxvd) bxpv.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxpv);
+        bxvd.mo73625a((GeneratedMessageLite) bxpv);
         bxps bxps = (bxps) bxvd;
         if (z) {
             bxvd da = bxpu.f164309d.mo74144da();

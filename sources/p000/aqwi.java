@@ -68,10 +68,10 @@ public final class aqwi extends AsyncTaskLoader {
             blbu blbu = (blbu) da2.f164949b;
             blby2.getClass();
             if (!blbu.f125869a.mo73666a()) {
-                blbu.f125869a = bxvk.m124021a(blbu.f125869a);
+                blbu.f125869a = GeneratedMessageLite.m124021a(blbu.f125869a);
             }
             blbu.f125869a.add(blby2);
-            blbv blbv = (blbv) ((aqwx) aqwy).f87012b.mo25513a(clientContext, 1, "/batchfetch?alt=proto", ((blbu) da2.mo74062i()).mo73642k(), blbv.f125871b);
+            blbv blbv = (blbv) ((aqwx) aqwy).f87012b.mo25513a(clientContext, 1, "/batchfetch?alt=proto", ((blbu) da2.mo74062i()).serializeToBytes(), blbv.f125871b);
             if (blbv.f125873a.size() > 0) {
                 bxvd da3 = blcb.f125898d.mo74144da();
                 blca blca = ((blcb) blbv.f125873a.get(0)).f125901b;

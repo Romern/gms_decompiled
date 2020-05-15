@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbnt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbnt extends bxvk implements bxxd {
+public final class cbnt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbnt f177759a;
@@ -13,7 +13,7 @@ public final class cbnt extends bxvk implements bxxd {
     static {
         cbnt cbnt = new cbnt();
         f177759a = cbnt;
-        bxvk.m124024a(cbnt.class, cbnt);
+        GeneratedMessageLite.m124024a(cbnt.class, cbnt);
     }
 
     private cbnt() {
@@ -30,7 +30,7 @@ public final class cbnt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177759a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f177759a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbnt();

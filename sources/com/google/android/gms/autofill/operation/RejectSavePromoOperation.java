@@ -50,9 +50,9 @@ public final class RejectSavePromoOperation extends IntentOperation {
         try {
             byte[] byteArrayExtra = intent.getByteArrayExtra("save_ui_action_event_extra");
             if (!(byteArrayExtra == null || byteArrayExtra.length == 0)) {
-                lau lau = (lau) bxvk.m124014a(lau.f25613i, byteArrayExtra);
+                lau lau = (lau) GeneratedMessageLite.m124014a(lau.f25613i, byteArrayExtra);
                 bxvd bxvd = (bxvd) lau.mo74142c(5);
-                bxvd.mo73625a((bxvk) lau);
+                bxvd.mo73625a((GeneratedMessageLite) lau);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

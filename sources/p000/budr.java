@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: budr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class budr extends bxvk implements bxxd {
+public final class budr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final budr f153505d;
@@ -22,7 +22,7 @@ public final class budr extends bxvk implements bxxd {
     static {
         budr budr = new budr();
         f153505d = budr;
-        bxvk.m124024a(budr.class, budr);
+        GeneratedMessageLite.m124024a(budr.class, budr);
     }
 
     private budr() {
@@ -39,7 +39,7 @@ public final class budr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153505d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဃ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f153505d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဃ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new budr();
         } else {

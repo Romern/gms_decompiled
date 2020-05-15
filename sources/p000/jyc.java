@@ -9,7 +9,7 @@ import com.google.autofill.detection.p098ml.AndroidInputTypeSignal;
 public final class jyc {
 
     /* renamed from: d */
-    private static final sek f23505d = ght.m13171a("MetricsHelper");
+    private static final Logger f23505d = ght.m13171a("MetricsHelper");
 
     /* renamed from: e */
     private static final imr f23506e = imr.m15727a("MetricsHelper.event");
@@ -58,14 +58,14 @@ public final class jyc {
         if ((boct.f132610a & AndroidInputTypeSignal.TYPE_TEXT_FLAG_CAP_SENTENCES) != 0) {
             bxvd bxvd = this.f23510b;
             boco boco = boct.f132623n;
-            bxvd.mo73625a((bxvk) (boco == null ? boco.f132581g : boco));
+            bxvd.mo73625a((GeneratedMessageLite) (boco == null ? boco.f132581g : boco));
         }
         boct boct2 = (boct) this.f23509a.f164949b;
         if ((boct2.f132610a & AndroidInputTypeSignal.TYPE_TEXT_FLAG_AUTO_COMPLETE) != 0) {
             bofn bofn = boct2.f132625p;
             bofn = bofn == null ? bofn.f132923f : bofn;
             bxvd bxvd2 = (bxvd) bofn.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bofn);
+            bxvd2.mo73625a((GeneratedMessageLite) bofn);
             this.f23511c = bxvd2;
         }
     }
@@ -116,7 +116,7 @@ public final class jyc {
             boct3.f132625p = bofn;
             boct3.f132610a |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_AUTO_COMPLETE;
         }
-        this.f23512h.mo14202g().mo13148b(f23506e, ((boct) this.f23509a.mo74062i()).mo73642k());
+        this.f23512h.mo14202g().mo13148b(f23506e, ((boct) this.f23509a.mo74062i()).serializeToBytes());
     }
 
     /* renamed from: c */
@@ -150,7 +150,7 @@ public final class jyc {
             jyb jyb = this.f23513i;
             if (jyb == null || jyb.mo14094bb()) {
                 if (f23505d.mo19637a(3)) {
-                    f23505d.mo25412b("Sending Clearcut event:\n%s", new String(((boct) this.f23509a.mo74062i()).mo73642k()));
+                    f23505d.mo25412b("Sending Clearcut event:\n%s", new String(((boct) this.f23509a.mo74062i()).serializeToBytes()));
                 }
                 this.f23514j.mo14224a((boct) this.f23509a.mo74062i());
             }

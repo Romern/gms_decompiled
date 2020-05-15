@@ -24,7 +24,7 @@ public final class ReportingConfig extends AbstractSafeParcelable {
 
     public ReportingConfig(List list, Conditions conditions) {
         this.f150914a = Collections.unmodifiableList(list);
-        sdo.m34966a(conditions, "conditions");
+        sdo.checkIfNull(conditions, "conditions");
         this.f150915b = conditions;
     }
 

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brct */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brct extends bxvk implements bxxd {
+public final class brct extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final brct f142428a;
@@ -13,7 +13,7 @@ public final class brct extends bxvk implements bxxd {
     static {
         brct brct = new brct();
         f142428a = brct;
-        bxvk.m124024a(brct.class, brct);
+        GeneratedMessageLite.m124024a(brct.class, brct);
     }
 
     private brct() {
@@ -30,7 +30,7 @@ public final class brct extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142428a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f142428a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new brct();

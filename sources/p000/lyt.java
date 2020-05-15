@@ -36,7 +36,7 @@ public final class lyt {
         mqk.f34285b |= 512;
         mqk mqk3 = (mqk) a.mo74062i();
         if (ccmz.m130716d()) {
-            qwo a2 = this.f33218a.mo24335a(mqk3.mo73642k());
+            qwo a2 = this.f33218a.mo24335a(mqk3.serializeToBytes());
             a2.mo24328b(42);
             a2.mo24327b();
         }

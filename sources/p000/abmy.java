@@ -72,7 +72,7 @@ public final class abmy {
                 borx borx2 = (borx) da2.mo74062i();
                 borx2.getClass();
                 if (!bory.f134531b.mo73666a()) {
-                    bory.f134531b = bxvk.m124021a(bory.f134531b);
+                    bory.f134531b = GeneratedMessageLite.m124021a(bory.f134531b);
                 }
                 bory.f134531b.add(borx2);
             }

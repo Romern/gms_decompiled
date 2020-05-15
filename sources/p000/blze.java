@@ -18,7 +18,7 @@ public final class blze extends bxvd implements bxxd {
         blzf blzf = (blzf) this.f164949b;
         bxvu bxvu = blzf.f128336h;
         if (!blzf.f128345g.mo73666a()) {
-            blzf.f128345g = bxvk.m124019a(blzf.f128345g);
+            blzf.f128345g = GeneratedMessageLite.m124019a(blzf.f128345g);
         }
         Iterator it = iterable.iterator();
         while (it.hasNext()) {

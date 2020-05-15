@@ -50,10 +50,10 @@ public final class bidy extends bien {
         PlacesParams placesParams = this.f120388a;
         bpqk c = bhqq.m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = bhqq.m101359a(4, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bxvd da = bppz.f138678h.mo74144da();
         String str = addPlaceRequest.f79450a;
         if (str != null) {
@@ -113,7 +113,7 @@ public final class bidy extends bien {
                 bppz bppz4 = (bppz) da.f164949b;
                 a2.getClass();
                 if (!bppz4.f138684e.mo73666a()) {
-                    bppz4.f138684e = bxvk.m124021a(bppz4.f138684e);
+                    bppz4.f138684e = GeneratedMessageLite.m124021a(bppz4.f138684e);
                 }
                 bppz4.f138684e.add(a2);
             }
@@ -219,7 +219,7 @@ public final class bidy extends bien {
                 }
                 bvkv bvkv3 = (bvkv) da.f164949b;
                 if (!bvkv3.f156474c.mo73666a()) {
-                    bvkv3.f156474c = bxvk.m124021a(bvkv3.f156474c);
+                    bvkv3.f156474c = GeneratedMessageLite.m124021a(bvkv3.f156474c);
                 }
                 bxsy.m123078a(a3, bvkv3.f156474c);
             }
@@ -235,7 +235,7 @@ public final class bidy extends bien {
                 bvkv4.f156472a |= 32;
                 bvkv4.f156479h = uri2;
             }
-            bvkw bvkw = (bvkw) f.mo64492a(new bibc(sgv, str, str2, "addPlace", ((bvkv) da.mo74062i()).mo73642k(), bvkw.f156480d, 2, 10241), placesParams);
+            bvkw bvkw = (bvkw) f.mo64492a(new bibc(sgv, str, str2, "addPlace", ((bvkv) da.mo74062i()).serializeToBytes(), bvkw.f156480d, 2, 10241), placesParams);
             Context context3 = f.f120053a;
             if (bvkw != null) {
                 if ((bvkw.f156482a & 2) != 0) {

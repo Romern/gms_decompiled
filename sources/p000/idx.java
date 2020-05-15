@@ -139,7 +139,7 @@ public final class idx {
                 }
                 bofg bofg6 = (bofg) da2.f164949b;
                 if (!bofg6.f132902i.mo73666a()) {
-                    bofg6.f132902i = bxvk.m124019a(bofg6.f132902i);
+                    bofg6.f132902i = GeneratedMessageLite.m124019a(bofg6.f132902i);
                 }
                 bofg6.f132902i.mo74153d(i10);
             }

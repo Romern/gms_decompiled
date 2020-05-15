@@ -8,7 +8,7 @@ import com.google.android.gms.smartdevice.d2d.D2DDevice;
 public final class aras implements arbb {
 
     /* renamed from: d */
-    private static final sek f87230d = ascp.m73787a("SourceConnectorCompat");
+    private static final Logger f87230d = ascp.m73787a("SourceConnectorCompat");
 
     /* renamed from: a */
     public final arbb f87231a;

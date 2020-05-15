@@ -107,7 +107,7 @@ public abstract class azhy {
                     arrayList3.add((cipf) da2.mo74062i());
                     i3 = 7;
                 }
-                bxtx a2 = bxtx.m123261a(c.f99004a);
+                ByteString a2 = ByteString.m123261a(c.f99004a);
                 long j = c.f99006c;
                 bxvd da3 = cipb.f191175d.mo74144da();
                 if (da3.f164950c) {
@@ -121,7 +121,7 @@ public abstract class azhy {
                     cipb.f191177a = a2;
                 }
                 if (!cipb.f191178b.mo73666a()) {
-                    cipb.f191178b = bxvk.m124021a(cipb.f191178b);
+                    cipb.f191178b = GeneratedMessageLite.m124021a(cipb.f191178b);
                 }
                 bxsy.m123078a(arrayList3, cipb.f191178b);
                 arrayList2.add((cipb) da3.mo74062i());
@@ -162,7 +162,7 @@ public abstract class azhy {
             ciov ciov2 = (ciov) da4.f164949b;
             ciov2.f191147b = E;
             if (!ciov2.f191146a.mo73666a()) {
-                ciov2.f191146a = bxvk.m124021a(ciov2.f191146a);
+                ciov2.f191146a = GeneratedMessageLite.m124021a(ciov2.f191146a);
             }
             bxsy.m123078a(arrayList2, ciov2.f191146a);
             if (da4.f164950c) {
@@ -171,7 +171,7 @@ public abstract class azhy {
             }
             ciov ciov3 = (ciov) da4.f164949b;
             if (!ciov3.f191148c.mo73666a()) {
-                ciov3.f191148c = bxvk.m124021a(ciov3.f191148c);
+                ciov3.f191148c = GeneratedMessageLite.m124021a(ciov3.f191148c);
             }
             bxsy.m123078a(arrayList4, ciov3.f191148c);
             if (da4.f164950c) {
@@ -180,7 +180,7 @@ public abstract class azhy {
             }
             ciov ciov4 = (ciov) da4.f164949b;
             if (!ciov4.f191149d.mo73666a()) {
-                ciov4.f191149d = bxvk.m124019a(ciov4.f191149d);
+                ciov4.f191149d = GeneratedMessageLite.m124019a(ciov4.f191149d);
             }
             bxsy.m123078a(arrayList5, ciov4.f191149d);
             if (da4.f164950c) {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blea */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blea extends bxvk implements bxxd {
+public final class blea extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final blea f126162d;
@@ -22,7 +22,7 @@ public final class blea extends bxvk implements bxxd {
     static {
         blea blea = new blea();
         f126162d = blea;
-        bxvk.m124024a(blea.class, blea);
+        GeneratedMessageLite.m124024a(blea.class, blea);
     }
 
     private blea() {
@@ -39,7 +39,7 @@ public final class blea extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f126162d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f126162d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new blea();
         } else {

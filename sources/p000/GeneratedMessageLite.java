@@ -8,9 +8,9 @@ import java.nio.ByteBuffer;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/* renamed from: bxvk */
+/* renamed from: GeneratedMessageLite */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public abstract class bxvk extends bxsz {
+public abstract class GeneratedMessageLite extends bxsz {
 
     /* renamed from: aj */
     public static final Map f164959aj = new ConcurrentHashMap();
@@ -106,7 +106,7 @@ public abstract class bxvk extends bxsz {
         if (obj == null || getClass() != obj.getClass()) {
             return false;
         }
-        return bxxm.f165037a.mo74228a(this).mo74222a(this, (bxvk) obj);
+        return bxxm.f165037a.mo74228a(this).mo74222a(this, (GeneratedMessageLite) obj);
     }
 
     public final int hashCode() {
@@ -134,18 +134,18 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: a */
-    public static bxvk m124007a(bxvk bxvk, bxtx bxtx) {
+    public static GeneratedMessageLite m124007a(GeneratedMessageLite GeneratedMessageLite, ByteString bxtx) {
         bxus b = bxus.m123743b();
         try {
             bxuc h = bxtx.mo73764h();
-            bxvk bxvk2 = (bxvk) bxvk.mo74142c(4);
-            bxxv a = bxxm.f165037a.mo74228a(bxvk2);
-            a.mo74220a(bxvk2, bxud.m123454a(h), b);
-            a.mo74225d(bxvk2);
+            GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) GeneratedMessageLite.mo74142c(4);
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+            a.mo74220a(GeneratedMessageLite2, bxud.m123454a(h), b);
+            a.mo74225d(GeneratedMessageLite2);
             h.mo73787a(0);
-            m124027b(bxvk2);
-            m124027b(bxvk2);
-            return bxvk2;
+            m124027b(GeneratedMessageLite2);
+            m124027b(GeneratedMessageLite2);
+            return GeneratedMessageLite2;
         } catch (IOException e) {
             if (!(e.getCause() instanceof bxwf)) {
                 throw new bxwf(e.getMessage());
@@ -164,18 +164,18 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: b */
-    public static bxvk m124026b(bxvk bxvk, InputStream inputStream) {
-        bxvk bxvk2;
+    public static GeneratedMessageLite m124026b(GeneratedMessageLite GeneratedMessageLite, InputStream inputStream) {
+        GeneratedMessageLite GeneratedMessageLite2;
         bxus b = bxus.m123743b();
         try {
             int read = inputStream.read();
             if (read != -1) {
                 bxuc a = bxuc.m123416a(new bxsx(inputStream, bxuc.m123414a(read, inputStream)));
-                bxvk2 = (bxvk) bxvk.mo74142c(4);
+                GeneratedMessageLite2 = (GeneratedMessageLite) GeneratedMessageLite.mo74142c(4);
                 try {
-                    bxxv a2 = bxxm.f165037a.mo74228a(bxvk2);
-                    a2.mo74220a(bxvk2, bxud.m123454a(a), b);
-                    a2.mo74225d(bxvk2);
+                    bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+                    a2.mo74220a(GeneratedMessageLite2, bxud.m123454a(a), b);
+                    a2.mo74225d(GeneratedMessageLite2);
                     try {
                         a.mo73787a(0);
                     } catch (bxwf e) {
@@ -193,10 +193,10 @@ public abstract class bxvk extends bxsz {
                     throw e3;
                 }
             } else {
-                bxvk2 = null;
+                GeneratedMessageLite2 = null;
             }
-            m124027b(bxvk2);
-            return bxvk2;
+            m124027b(GeneratedMessageLite2);
+            return GeneratedMessageLite2;
         } catch (IOException e4) {
             throw new bxwf(e4.getMessage());
         }
@@ -216,19 +216,19 @@ public abstract class bxvk extends bxsz {
 
     /* renamed from: j */
     public final /* bridge */ /* synthetic */ bxxc mo74067j() {
-        return (bxvk) mo74142c(6);
+        return (GeneratedMessageLite) mo74142c(6);
     }
 
     /* renamed from: a */
-    public static bxvk m124008a(bxvk bxvk, bxuc bxuc) {
+    public static GeneratedMessageLite m124008a(GeneratedMessageLite GeneratedMessageLite, bxuc bxuc) {
         bxus b = bxus.m123743b();
-        bxvk bxvk2 = (bxvk) bxvk.mo74142c(4);
+        GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) GeneratedMessageLite.mo74142c(4);
         try {
-            bxxv a = bxxm.f165037a.mo74228a(bxvk2);
-            a.mo74220a(bxvk2, bxud.m123454a(bxuc), b);
-            a.mo74225d(bxvk2);
-            m124027b(bxvk2);
-            return bxvk2;
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+            a.mo74220a(GeneratedMessageLite2, bxud.m123454a(bxuc), b);
+            a.mo74225d(GeneratedMessageLite2);
+            m124027b(GeneratedMessageLite2);
+            return GeneratedMessageLite2;
         } catch (IOException e) {
             if (e.getCause() instanceof bxwf) {
                 throw ((bxwf) e.getCause());
@@ -243,20 +243,20 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: b */
-    public static void m124027b(bxvk bxvk) {
-        if (bxvk != null && !bxvk.mo74020aS()) {
+    public static void m124027b(GeneratedMessageLite GeneratedMessageLite) {
+        if (GeneratedMessageLite != null && !GeneratedMessageLite.mo74020aS()) {
             throw m123094m().mo74281a();
         }
     }
 
     /* renamed from: a */
-    static bxvk m124009a(bxvk bxvk, bxuc bxuc, bxus bxus) {
-        bxvk bxvk2 = (bxvk) bxvk.mo74142c(4);
+    static GeneratedMessageLite m124009a(GeneratedMessageLite GeneratedMessageLite, bxuc bxuc, bxus bxus) {
+        GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) GeneratedMessageLite.mo74142c(4);
         try {
-            bxxv a = bxxm.f165037a.mo74228a(bxvk2);
-            a.mo74220a(bxvk2, bxud.m123454a(bxuc), bxus);
-            a.mo74225d(bxvk2);
-            return bxvk2;
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+            a.mo74220a(GeneratedMessageLite2, bxud.m123454a(bxuc), bxus);
+            a.mo74225d(GeneratedMessageLite2);
+            return GeneratedMessageLite2;
         } catch (IOException e) {
             if (e.getCause() instanceof bxwf) {
                 throw ((bxwf) e.getCause());
@@ -271,16 +271,16 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: a */
-    public static bxvk m124010a(bxvk bxvk, InputStream inputStream) {
+    public static GeneratedMessageLite m124010a(GeneratedMessageLite GeneratedMessageLite, InputStream inputStream) {
         bxuc a = bxuc.m123416a(inputStream);
         bxus b = bxus.m123743b();
-        bxvk bxvk2 = (bxvk) bxvk.mo74142c(4);
+        GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) GeneratedMessageLite.mo74142c(4);
         try {
-            bxxv a2 = bxxm.f165037a.mo74228a(bxvk2);
-            a2.mo74220a(bxvk2, bxud.m123454a(a), b);
-            a2.mo74225d(bxvk2);
-            m124027b(bxvk2);
-            return bxvk2;
+            bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+            a2.mo74220a(GeneratedMessageLite2, bxud.m123454a(a), b);
+            a2.mo74225d(GeneratedMessageLite2);
+            m124027b(GeneratedMessageLite2);
+            return GeneratedMessageLite2;
         } catch (IOException e) {
             if (e.getCause() instanceof bxwf) {
                 throw ((bxwf) e.getCause());
@@ -295,15 +295,15 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: a */
-    public static bxvk m124011a(bxvk bxvk, InputStream inputStream, bxus bxus) {
+    public static GeneratedMessageLite m124011a(GeneratedMessageLite GeneratedMessageLite, InputStream inputStream, bxus bxus) {
         bxuc a = bxuc.m123416a(inputStream);
-        bxvk bxvk2 = (bxvk) bxvk.mo74142c(4);
+        GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) GeneratedMessageLite.mo74142c(4);
         try {
-            bxxv a2 = bxxm.f165037a.mo74228a(bxvk2);
-            a2.mo74220a(bxvk2, bxud.m123454a(a), bxus);
-            a2.mo74225d(bxvk2);
-            m124027b(bxvk2);
-            return bxvk2;
+            bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+            a2.mo74220a(GeneratedMessageLite2, bxud.m123454a(a), bxus);
+            a2.mo74225d(GeneratedMessageLite2);
+            m124027b(GeneratedMessageLite2);
+            return GeneratedMessageLite2;
         } catch (IOException e) {
             if (e.getCause() instanceof bxwf) {
                 throw ((bxwf) e.getCause());
@@ -318,17 +318,17 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: a */
-    public static bxvk m124012a(bxvk bxvk, ByteBuffer byteBuffer) {
+    public static GeneratedMessageLite m124012a(GeneratedMessageLite GeneratedMessageLite, ByteBuffer byteBuffer) {
         bxus b = bxus.m123743b();
         bxuc a = bxuc.m123418a(byteBuffer);
-        bxvk bxvk2 = (bxvk) bxvk.mo74142c(4);
+        GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) GeneratedMessageLite.mo74142c(4);
         try {
-            bxxv a2 = bxxm.f165037a.mo74228a(bxvk2);
-            a2.mo74220a(bxvk2, bxud.m123454a(a), b);
-            a2.mo74225d(bxvk2);
-            m124027b(bxvk2);
-            m124027b(bxvk2);
-            return bxvk2;
+            bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+            a2.mo74220a(GeneratedMessageLite2, bxud.m123454a(a), b);
+            a2.mo74225d(GeneratedMessageLite2);
+            m124027b(GeneratedMessageLite2);
+            m124027b(GeneratedMessageLite2);
+            return GeneratedMessageLite2;
         } catch (IOException e) {
             if (e.getCause() instanceof bxwf) {
                 throw ((bxwf) e.getCause());
@@ -343,16 +343,16 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: a */
-    public static bxvk m124013a(bxvk bxvk, ByteBuffer byteBuffer, bxus bxus) {
+    public static GeneratedMessageLite m124013a(GeneratedMessageLite GeneratedMessageLite, ByteBuffer byteBuffer, bxus bxus) {
         bxuc a = bxuc.m123418a(byteBuffer);
-        bxvk bxvk2 = (bxvk) bxvk.mo74142c(4);
+        GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) GeneratedMessageLite.mo74142c(4);
         try {
-            bxxv a2 = bxxm.f165037a.mo74228a(bxvk2);
-            a2.mo74220a(bxvk2, bxud.m123454a(a), bxus);
-            a2.mo74225d(bxvk2);
-            m124027b(bxvk2);
-            m124027b(bxvk2);
-            return bxvk2;
+            bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+            a2.mo74220a(GeneratedMessageLite2, bxud.m123454a(a), bxus);
+            a2.mo74225d(GeneratedMessageLite2);
+            m124027b(GeneratedMessageLite2);
+            m124027b(GeneratedMessageLite2);
+            return GeneratedMessageLite2;
         } catch (IOException e) {
             if (e.getCause() instanceof bxwf) {
                 throw ((bxwf) e.getCause());
@@ -367,21 +367,21 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: a */
-    public static bxvk m124014a(bxvk bxvk, byte[] bArr) {
-        bxvk a = m124015a(bxvk, bArr, 0, bArr.length, bxus.m123743b());
+    public static GeneratedMessageLite m124014a(GeneratedMessageLite GeneratedMessageLite, byte[] bArr) {
+        GeneratedMessageLite a = m124015a(GeneratedMessageLite, bArr, 0, bArr.length, bxus.m123743b());
         m124027b(a);
         return a;
     }
 
     /* renamed from: a */
-    public static bxvk m124015a(bxvk bxvk, byte[] bArr, int i, int i2, bxus bxus) {
-        bxvk bxvk2 = (bxvk) bxvk.mo74142c(4);
+    public static GeneratedMessageLite m124015a(GeneratedMessageLite GeneratedMessageLite, byte[] bArr, int i, int i2, bxus bxus) {
+        GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) GeneratedMessageLite.mo74142c(4);
         try {
-            bxxv a = bxxm.f165037a.mo74228a(bxvk2);
-            a.mo74221a(bxvk2, bArr, i, i + i2, new bxtf(bxus));
-            a.mo74225d(bxvk2);
-            if (bxvk2.f164758ag == 0) {
-                return bxvk2;
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+            a.mo74221a(GeneratedMessageLite2, bArr, i, i + i2, new bxtf(bxus));
+            a.mo74225d(GeneratedMessageLite2);
+            if (GeneratedMessageLite2.f164758ag == 0) {
+                return GeneratedMessageLite2;
             }
             throw new RuntimeException();
         } catch (IOException e) {
@@ -395,8 +395,8 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: a */
-    public static bxvk m124016a(bxvk bxvk, byte[] bArr, bxus bxus) {
-        bxvk a = m124015a(bxvk, bArr, 0, bArr.length, bxus);
+    public static GeneratedMessageLite m124016a(GeneratedMessageLite GeneratedMessageLite, byte[] bArr, bxus bxus) {
+        GeneratedMessageLite a = m124015a(GeneratedMessageLite, bArr, 0, bArr.length, bxus);
         m124027b(a);
         return a;
     }
@@ -455,20 +455,20 @@ public abstract class bxvk extends bxsz {
     }
 
     /* renamed from: a */
-    protected static void m124024a(Class cls, bxvk bxvk) {
-        f164959aj.put(cls, bxvk);
+    protected static void m124024a(Class cls, GeneratedMessageLite GeneratedMessageLite) {
+        f164959aj.put(cls, GeneratedMessageLite);
     }
 
     /* renamed from: a */
-    public final bxvd mo74141a(bxvk bxvk) {
+    public final bxvd mo74141a(GeneratedMessageLite GeneratedMessageLite) {
         bxvd da = mo74144da();
-        da.mo73625a(bxvk);
+        da.mo73625a(GeneratedMessageLite);
         return da;
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
      method: bxxv.a(java.lang.Object, bxul):void
-     arg types: [bxvk, bxul]
+     arg types: [GeneratedMessageLite, bxul]
      candidates:
       bxxv.a(java.lang.Object, java.lang.Object):boolean
       bxxv.a(java.lang.Object, bxul):void */

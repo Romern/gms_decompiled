@@ -111,7 +111,7 @@ public final class rbn implements rbp {
     /* renamed from: a */
     private final byte[] m33261a(boqt boqt) {
         if (!this.f42584d.containsKey(boqt)) {
-            this.f42584d.put(boqt, boqt.mo73642k());
+            this.f42584d.put(boqt, boqt.serializeToBytes());
         }
         return (byte[]) this.f42584d.get(boqt);
     }
@@ -225,7 +225,7 @@ public final class rbn implements rbp {
         boqv boqv = (boqv) da.f164949b;
         boqv.f134335a |= 1;
         boqv.f134336b = i;
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

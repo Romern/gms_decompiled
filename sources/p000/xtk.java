@@ -21,7 +21,7 @@ import java.util.UUID;
 public final class xtk {
 
     /* renamed from: k */
-    public static final sek f53046k = new sek(new String[]{"CableAuthenticatorSession"}, (short[]) null);
+    public static final Logger f53046k = new Logger(new String[]{"CableAuthenticatorSession"}, (short[]) null);
 
     /* renamed from: a */
     public final Context f53047a;
@@ -298,11 +298,11 @@ public final class xtk {
         } else {
             int length = bArr2.length;
             if (length != 16) {
-                sek sek = xtm.f53067g;
+                Logger Logger = xtm.f53067g;
                 StringBuilder sb = new StringBuilder(34);
                 sb.append("Unexpected EID length: ");
                 sb.append(length);
-                sek.mo25418e(sb.toString(), new Object[0]);
+                Logger.mo25418e(sb.toString(), new Object[0]);
                 bArr = null;
             } else {
                 try {

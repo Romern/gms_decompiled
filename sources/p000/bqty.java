@@ -16,7 +16,7 @@ final class bqty extends bqnq {
     public final /* bridge */ /* synthetic */ Object mo69296a(Object obj) {
         bqsz bqsz = (bqsz) obj;
         int i = 1;
-        RSAPublicKey rSAPublicKey = (RSAPublicKey) ((KeyFactory) bqvo.f141695g.mo69341a("RSA")).generatePublic(new RSAPublicKeySpec(new BigInteger(1, bqsz.f141611c.mo73780k()), new BigInteger(1, bqsz.f141612d.mo73780k())));
+        RSAPublicKey rSAPublicKey = (RSAPublicKey) ((KeyFactory) bqvo.f141695g.mo69341a("RSA")).generatePublic(new RSAPublicKeySpec(new BigInteger(1, bqsz.f141611c.getKey()), new BigInteger(1, bqsz.f141612d.getKey())));
         bqsx bqsx = bqsz.f141610b;
         if (bqsx == null) {
             bqsx = bqsx.f141592d;

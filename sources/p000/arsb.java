@@ -13,7 +13,7 @@ import java.util.concurrent.ExecutorService;
 public final class arsb extends Fragment {
 
     /* renamed from: a */
-    public static final sek f88212a = ascp.m73787a("MagicWand", "AssertionFragment");
+    public static final Logger f88212a = ascp.m73787a("MagicWand", "AssertionFragment");
 
     /* renamed from: b */
     public static final bqgj f88213b = bqgs.m112811a((ExecutorService) snp.m35704b(9));

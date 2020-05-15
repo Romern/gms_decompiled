@@ -47,7 +47,7 @@ public final class bafi {
         int size = bxwc.size();
         for (int i = 0; i < size; i++) {
             byja byja = (byja) bxwc.get(i);
-            byte[] k = byja.f166627b.mo73780k();
+            byte[] k = byja.f166627b.getKey();
             int a = byiz.m124863a(byja.f166628c);
             int i2 = 1;
             if (a == 0) {
@@ -78,7 +78,7 @@ public final class bafi {
         while (i2.hasNext()) {
             badp badp = (badp) i2.next();
             bxvd da2 = byja.f166624d.mo74144da();
-            bxtx a = bxtx.m123261a(badp.mo55630a());
+            ByteString a = ByteString.m123261a(badp.mo55630a());
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -113,7 +113,7 @@ public final class bafi {
             byja byja3 = (byja) da2.mo74062i();
             byja3.getClass();
             if (!byif.f166560a.mo73666a()) {
-                byif.f166560a = bxvk.m124021a(byif.f166560a);
+                byif.f166560a = GeneratedMessageLite.m124021a(byif.f166560a);
             }
             byif.f166560a.add(byja3);
         }
@@ -136,8 +136,8 @@ public final class bafi {
     }
 
     /* renamed from: a */
-    public static bxtx m86739a(byhi byhi) {
-        return bxtx.m123261a(bnzi.m110904f().mo68722a(byhi.f166456d.mo73780k()).mo68740b());
+    public static ByteString m86739a(byhi byhi) {
+        return ByteString.m123261a(bnzi.m110904f().mo68722a(byhi.f166456d.getKey()).mo68740b());
     }
 
     /* renamed from: a */
@@ -189,7 +189,7 @@ public final class bafi {
         if (bArr != null) {
             bxus a = bxus.m123742a();
             a.mo73904a(byip.f166588d);
-            bygn bygn = (bygn) bxvk.m124016a(bygn.f166357a, bArr, a);
+            bygn bygn = (bygn) GeneratedMessageLite.m124016a(bygn.f166357a, bArr, a);
             bxvj bxvj = byip.f166588d;
             bygn.mo74135a(bxvj);
             if (bygn.f164952m.mo73911a(bxvj.f164958d)) {
@@ -245,7 +245,7 @@ public final class bafi {
     }
 
     /* renamed from: a */
-    public static String m86744a(bxtx bxtx) {
-        return boan.f132472f.mo68794a(bxtx.mo73780k());
+    public static String m86744a(ByteString bxtx) {
+        return boan.f132472f.mo68794a(bxtx.getKey());
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buim */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buim extends bxvk implements bxxd {
+public final class buim extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buim f153954d;
@@ -11,18 +11,18 @@ public final class buim extends bxvk implements bxxd {
     private static volatile bxxk f153955e;
 
     /* renamed from: a */
-    public bxtx f153956a = bxtx.f164797b;
+    public ByteString f153956a = ByteString.f164797b;
 
     /* renamed from: b */
-    public bxtx f153957b = bxtx.f164797b;
+    public ByteString f153957b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f153958c = bxtx.f164797b;
+    public ByteString f153958c = ByteString.f164797b;
 
     static {
         buim buim = new buim();
         f153954d = buim;
-        bxvk.m124024a(buim.class, buim);
+        GeneratedMessageLite.m124024a(buim.class, buim);
     }
 
     private buim() {
@@ -39,7 +39,7 @@ public final class buim extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153954d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\n\u0002\n\u0003\n", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f153954d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\n\u0002\n\u0003\n", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new buim();
         } else {

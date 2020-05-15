@@ -47,7 +47,7 @@ public final class mwr implements anz {
             }
             bsqh bsqh = this.f34858a.f29183z;
             bxvd bxvd = (bxvd) bsqh.mo74142c(5);
-            bxvd.mo73625a((bxvk) bsqh);
+            bxvd.mo73625a((GeneratedMessageLite) bsqh);
             bsqp bsqp = (bsqp) bsqq.f146675b.mo74144da();
             bsqp.mo70703a((int) C0126R.string.drive_backup_state_dialog_title);
             if (bxvd.f164950c) {

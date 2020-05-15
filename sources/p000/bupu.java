@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bupu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bupu extends bxvk implements bxxd {
+public final class bupu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bupu f154676a;
@@ -13,7 +13,7 @@ public final class bupu extends bxvk implements bxxd {
     static {
         bupu bupu = new bupu();
         f154676a = bupu;
-        bxvk.m124024a(bupu.class, bupu);
+        GeneratedMessageLite.m124024a(bupu.class, bupu);
     }
 
     private bupu() {
@@ -30,7 +30,7 @@ public final class bupu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154676a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f154676a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bupu();

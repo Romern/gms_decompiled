@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public final class imy {
 
     /* renamed from: a */
-    private static final sek f21371a = new sek("AuthUtil", "UrlChecker");
+    private static final Logger f21371a = new Logger("AuthUtil", "UrlChecker");
 
     /* renamed from: b */
     private final Pattern f21372b;
@@ -36,13 +36,13 @@ public final class imy {
             sb.append(host);
             sb.append(path);
             String sb2 = sb.toString();
-            sek sek = f21371a;
+            Logger Logger = f21371a;
             String valueOf = String.valueOf(sb2);
-            sek.mo25414c(valueOf.length() == 0 ? new String("Untrusted URL: ") : "Untrusted URL: ".concat(valueOf), new Object[0]);
+            Logger.mo25414c(valueOf.length() == 0 ? new String("Untrusted URL: ") : "Untrusted URL: ".concat(valueOf), new Object[0]);
         } catch (URISyntaxException e) {
-            sek sek2 = f21371a;
+            Logger logger2 = f21371a;
             String valueOf2 = String.valueOf(e.getMessage());
-            sek2.mo25414c(valueOf2.length() == 0 ? new String("Untrusted URL with URISyntaxException: ") : "Untrusted URL with URISyntaxException: ".concat(valueOf2), new Object[0]);
+            logger2.mo25414c(valueOf2.length() == 0 ? new String("Untrusted URL with URISyntaxException: ") : "Untrusted URL with URISyntaxException: ".concat(valueOf2), new Object[0]);
         }
     }
 

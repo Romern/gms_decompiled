@@ -54,7 +54,7 @@ public final class gic {
             return null;
         }
         try {
-            return (bsoa) bxvk.m124016a(bsoa.f146351k, bundle.getByteArray("keyTokenRequestOptionsWrapperBundle"), bxus.m123744c());
+            return (bsoa) GeneratedMessageLite.m124016a(bsoa.f146351k, bundle.getByteArray("keyTokenRequestOptionsWrapperBundle"), bxus.m123744c());
         } catch (bxwf e) {
             throw new IllegalStateException(e);
         }

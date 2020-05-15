@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brbl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brbl extends bxvk implements bxxd {
+public final class brbl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final brbl f142279d;
@@ -28,7 +28,7 @@ public final class brbl extends bxvk implements bxxd {
     static {
         brbl brbl = new brbl();
         f142279d = brbl;
-        bxvk.m124024a(brbl.class, brbl);
+        GeneratedMessageLite.m124024a(brbl.class, brbl);
     }
 
     private brbl() {
@@ -49,7 +49,7 @@ public final class brbl extends bxvk implements bxxd {
             this.f142285f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f142279d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0002\u0001\u0001ဉ\u0000\u0002Л\u0003\u001b", new Object[]{"e", "a", "b", brdk.class, "c", brca.class});
+            return GeneratedMessageLite.m124022a(f142279d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0002\u0001\u0001ဉ\u0000\u0002Л\u0003\u001b", new Object[]{"e", "a", "b", brdk.class, "c", brca.class});
         } else if (i2 == 3) {
             return new brbl();
         } else {

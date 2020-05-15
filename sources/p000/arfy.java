@@ -28,7 +28,7 @@ final class arfy implements Runnable {
                 if (str2 != null) {
                     str = str2;
                 } else {
-                    arfd.f87557a.mo25409a("Token is null. Returning dummy token: 12345", new Object[0]);
+                    arfd.f87557a.logVerbose("Token is null. Returning dummy token: 12345", new Object[0]);
                     str = "12345";
                 }
                 try {

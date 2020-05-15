@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ammv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ammv extends bxvk implements bxxd {
+public final class ammv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final ammv f75396e;
@@ -25,7 +25,7 @@ public final class ammv extends bxvk implements bxxd {
     static {
         ammv ammv = new ammv();
         f75396e = ammv;
-        bxvk.m124024a(ammv.class, ammv);
+        GeneratedMessageLite.m124024a(ammv.class, ammv);
     }
 
     private ammv() {
@@ -42,7 +42,7 @@ public final class ammv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75396e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", amiy.f74975a, "c", "d"});
+            return GeneratedMessageLite.m124022a(f75396e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", amiy.f74975a, "c", "d"});
         } else if (i2 == 3) {
             return new ammv();
         } else {

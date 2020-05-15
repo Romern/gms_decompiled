@@ -34,21 +34,21 @@ public final class ardx implements Runnable {
         if (cgqs.m146607m()) {
             ardy ardy = this.f87479b.f107935a;
             String[] strArr = this.f87478a;
-            sek sek = ardy.f87480a;
+            Logger Logger = ardy.f87480a;
             if (strArr != null) {
                 HashSet a = bnpf.m110048a(strArr.length);
                 Collections.addAll(a, strArr);
                 if (ardy.f87484e.containsAll(a)) {
-                    ardy.f87480a.mo25409a("Skipping broadcast. %s already processed", Arrays.toString(this.f87478a));
+                    ardy.f87480a.logVerbose("Skipping broadcast. %s already processed", Arrays.toString(this.f87478a));
                     return;
                 }
             }
         }
-        ardy.f87480a.mo25409a("Handling authenticatorIds %s", Arrays.toString(this.f87478a));
+        ardy.f87480a.logVerbose("Handling authenticatorIds %s", Arrays.toString(this.f87478a));
         ardy ardy2 = this.f87479b.f107935a;
         sdo.m34964a(ardy2.f87481b);
         ardy2.f87487h.mo48752c();
-        ardy.f87480a.mo25409a("Additional info requested, importAccount(RETRIEVE_DATA)", new Object[0]);
+        ardy.f87480a.logVerbose("Additional info requested, importAccount(RETRIEVE_DATA)", new Object[0]);
         gtq gtq = new gtq();
         gtq.mo12204a(2);
         aucb b = ardy2.f87482c.mo12202b(gtq.mo12203a());
@@ -77,7 +77,7 @@ public final class ardx implements Runnable {
             for (int i2 = 0; i2 < arrayList.size(); i2++) {
                 AuthenticatorAnnotatedData authenticatorAnnotatedData = (AuthenticatorAnnotatedData) arrayList.get(i2);
                 String str = authenticatorAnnotatedData.f10058f;
-                ardy.f87480a.mo25409a("Processing authenticator data with id(%s)", str);
+                ardy.f87480a.logVerbose("Processing authenticator data with id(%s)", str);
                 ardy2.f87484e.add(str);
                 AuthenticatorTransferInfo authenticatorTransferInfo = authenticatorAnnotatedData.f10055c;
                 ardy.f87480a.mo25412b("Processing %s, status - %d", authenticatorTransferInfo.f10062c, Integer.valueOf(authenticatorTransferInfo.f10063d));
@@ -88,7 +88,7 @@ public final class ardx implements Runnable {
                     TargetAccountImportController$ChallengeIntentHelper targetAccountImportController$ChallengeIntentHelper = ardy2.f87486g;
                     PendingIntent a3 = ForwardingChimeraActivity.m92735a(targetAccountImportController$ChallengeIntentHelper.f107930a, targetAccountImportController$ChallengeIntentHelper, authenticatorTransferInfo.f10065f);
                     if (targetAccountImportController$ChallengeIntentHelper.f107934e) {
-                        ardy.f87480a.mo25409a("Queuing additional challenge request", new Object[0]);
+                        ardy.f87480a.logVerbose("Queuing additional challenge request", new Object[0]);
                         targetAccountImportController$ChallengeIntentHelper.f107931b.add(a3);
                     } else {
                         targetAccountImportController$ChallengeIntentHelper.f107932c.mo48751b();
@@ -109,6 +109,6 @@ public final class ardx implements Runnable {
             }
             return;
         }
-        ardy.f87480a.mo25409a("No authenticator data to process", new Object[0]);
+        ardy.f87480a.logVerbose("No authenticator data to process", new Object[0]);
     }
 }

@@ -28,7 +28,7 @@ public final class acsz {
         if (a != null) {
             for (Signature signature : signatureArr) {
                 bxvd da = acte.f60730c.mo74144da();
-                bxtx a2 = bxtx.m123261a(a.digest(signature.toByteArray()));
+                ByteString a2 = ByteString.m123261a(a.digest(signature.toByteArray()));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

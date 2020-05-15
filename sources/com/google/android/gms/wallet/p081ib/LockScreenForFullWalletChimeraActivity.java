@@ -98,8 +98,8 @@ public class LockScreenForFullWalletChimeraActivity extends FragmentActivity {
         Intent intent = getIntent();
         this.f110237e = (BuyFlowConfig) intent.getParcelableExtra("com.google.android.gms.wallet.buyFlowConfig");
         this.f110235a = (LoadFullWalletServiceRequest) intent.getParcelableExtra("loadFullWalletServiceRequest");
-        sdo.m34966a(this.f110237e, "Buyflow config is required!");
-        sdo.m34966a(this.f110235a, "request is required!");
+        sdo.checkIfNull(this.f110237e, "Buyflow config is required!");
+        sdo.checkIfNull(this.f110235a, "request is required!");
         if (bundle != null) {
             this.f110238f = bundle.getBoolean("startedLockscreenActivity");
             this.f110239g = bundle.getInt("serviceConnectionSavePoint");
@@ -149,8 +149,8 @@ public class LockScreenForFullWalletChimeraActivity extends FragmentActivity {
 
     /* renamed from: a */
     public static Intent m93994a(BuyFlowConfig buyFlowConfig, LoadFullWalletServiceRequest loadFullWalletServiceRequest) {
-        sdo.m34966a(buyFlowConfig, "buyFlowConfig is required");
-        sdo.m34966a(loadFullWalletServiceRequest, "request is required");
+        sdo.checkIfNull(buyFlowConfig, "buyFlowConfig is required");
+        sdo.checkIfNull(loadFullWalletServiceRequest, "request is required");
         Intent intent = new Intent("com.google.android.gms.wallet.ib.ACTION_LOCK_SCREEN_FOR_FULL_WALLET");
         intent.setPackage("com.google.android.gms");
         intent.putExtra("com.google.android.gms.wallet.buyFlowConfig", buyFlowConfig);

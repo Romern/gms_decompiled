@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvua */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvua extends bxvk implements bxxd {
+public final class bvua extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bvua f157643b;
@@ -16,7 +16,7 @@ public final class bvua extends bxvk implements bxxd {
     static {
         bvua bvua = new bvua();
         f157643b = bvua;
-        bxvk.m124024a(bvua.class, bvua);
+        GeneratedMessageLite.m124024a(bvua.class, bvua);
     }
 
     private bvua() {
@@ -33,7 +33,7 @@ public final class bvua extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157643b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u001b", new Object[]{"a", bvty.class});
+            return GeneratedMessageLite.m124022a(f157643b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u001b", new Object[]{"a", bvty.class});
         } else if (i2 == 3) {
             return new bvua();
         } else {

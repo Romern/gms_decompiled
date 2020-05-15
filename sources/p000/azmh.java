@@ -86,7 +86,7 @@ final /* synthetic */ class azmh implements Runnable {
             }
             if (cfgs.m139404j()) {
                 bxvd bxvd = (bxvd) cbds.mo74142c(5);
-                bxvd.mo73625a((bxvk) cbds);
+                bxvd.mo73625a((GeneratedMessageLite) cbds);
                 String e = cfgs.m139399e();
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
@@ -103,7 +103,7 @@ final /* synthetic */ class azmh implements Runnable {
             }
             cbds.getClass();
             ((cbex) cbev.f164949b).f176862a = cbds;
-            bmxv a3 = azbj.m85193a(a2.f99884a).mo54564d().mo56314a(bcoh, boan.f132471e.mo68783a().mo68794a(((cbex) cbev.mo74062i()).mo73642k()));
+            bmxv a3 = azbj.m85193a(a2.f99884a).mo54564d().mo56314a(bcoh, boan.f132471e.mo68783a().mo68794a(((cbex) cbev.mo74062i()).serializeToBytes()));
             if (!a3.mo66813a()) {
                 azph.m85998a(a2.f99884a).mo55126a(1705, 72);
                 azmr.apply("Could not parse conversation intent");

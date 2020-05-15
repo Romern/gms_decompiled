@@ -16,7 +16,7 @@ public final class bzdn extends bxvd implements bxxd {
         bzdo bzdo = (bzdo) this.f164949b;
         bzdo bzdo2 = bzdo.f169528f;
         if (!bzdo.f169533d.mo73666a()) {
-            bzdo.f169533d = bxvk.m124020a(bzdo.f169533d);
+            bzdo.f169533d = GeneratedMessageLite.m124020a(bzdo.f169533d);
         }
         bxsy.m123078a(iterable, bzdo.f169533d);
     }

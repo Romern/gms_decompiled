@@ -177,7 +177,7 @@ final class agjd implements Runnable {
             aghr2.f65531d = i;
             aghr2.f65533f = 0;
             if (!aghr2.mo35537u().f65291a) {
-                sdo.m34966a(aghr2.mo35542z(), "Context must not be null.");
+                sdo.checkIfNull(aghr2.mo35542z(), "Context must not be null.");
                 sdo.m34969a("-", (Object) "App ID must be nonempty.");
                 synchronized (rnq.f43412a) {
                     if (rnq.f43413b == null) {
@@ -200,7 +200,7 @@ final class agjd implements Runnable {
                 }
             } else {
                 Context z4 = aghr2.mo35542z();
-                sdo.m34966a(z4, "Context must not be null.");
+                sdo.checkIfNull(z4, "Context must not be null.");
                 synchronized (rnq.f43412a) {
                     if (rnq.f43413b == null) {
                         rnq.f43413b = new rnq(z4);

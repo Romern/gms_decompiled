@@ -50,7 +50,7 @@ public final class dkt {
     /* renamed from: a */
     public static int m8752a(djz djz, byte[] bArr) {
         try {
-            bxwc bxwc = ((djf) bxvk.m124016a(djf.f13322b, bArr, bxus.m123743b())).f13324a;
+            bxwc bxwc = ((djf) GeneratedMessageLite.m124016a(djf.f13322b, bArr, bxus.m123743b())).f13324a;
             ArrayList arrayList = new ArrayList(bxwc.size());
             int size = bxwc.size();
             for (int i = 0; i < size; i++) {

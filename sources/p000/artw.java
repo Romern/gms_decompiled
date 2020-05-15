@@ -13,7 +13,7 @@ final /* synthetic */ class artw implements aubg {
 
     /* renamed from: a */
     public final Object mo7031a(aucb aucb) {
-        sek sek = aruc.f88303a;
+        Logger Logger = aruc.f88303a;
         return byrr.m125226a(byrr.m125227b(((CryptauthPublicKey) aucb.mo50386d()).f10517b));
     }
 }

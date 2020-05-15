@@ -48,7 +48,7 @@ final class bxxg implements bxxv {
             for (int i2 = 0; i2 < a.f165103b; i2++) {
                 int i3 = a.f165104c[i2];
                 int i4 = bxuk.m123657i(1);
-                i += i4 + i4 + bxuk.m123655h(2, bxzh.m124563b(i3)) + bxuk.m123642c(3, (bxtx) a.f165105d[i2]);
+                i += i4 + i4 + bxuk.m123655h(2, bxzh.m124563b(i3)) + bxuk.m123642c(3, (ByteString) a.f165105d[i2]);
             }
             a.f165106e = i;
         }
@@ -129,7 +129,7 @@ final class bxxg implements bxxv {
                 if (b3 == bxzh.f165160a) {
                     int i = 0;
                     bxvj bxvj = null;
-                    bxtx bxtx = null;
+                    ByteString bxtx = null;
                     while (true) {
                         if (bxxp.mo73681a() == Integer.MAX_VALUE) {
                             break;
@@ -154,7 +154,7 @@ final class bxxg implements bxxv {
                         continue;
                     } else if (bxvj != null) {
                         bxxc h = bxvj.f164957c.mo73646aR().mo74057h();
-                        ByteBuffer wrap = ByteBuffer.wrap(bxtx.mo73780k());
+                        ByteBuffer wrap = ByteBuffer.wrap(bxtx.getKey());
                         if (wrap.hasArray()) {
                             bxth bxth = new bxth(wrap);
                             bxxm.f165037a.mo74228a(h).mo74220a(h, bxth, bxus);
@@ -191,11 +191,11 @@ final class bxxg implements bxxv {
 
     /* renamed from: a */
     public final void mo74221a(Object obj, byte[] bArr, int i, int i2, bxtf bxtf) {
-        bxvk bxvk = (bxvk) obj;
-        bxyo bxyo = bxvk.f164960ah;
+        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) obj;
+        bxyo bxyo = GeneratedMessageLite.f164960ah;
         if (bxyo == bxyo.f165102a) {
             bxyo = bxyo.m124424a();
-            bxvk.f164960ah = bxyo;
+            GeneratedMessageLite.f164960ah = bxyo;
         }
         bxux c = ((bxvg) obj).mo74136c();
         bxvj bxvj = null;
@@ -204,7 +204,7 @@ final class bxxg implements bxxv {
             int i3 = bxtf.f164767a;
             if (i3 == bxzh.f165160a) {
                 int i4 = 0;
-                bxtx bxtx = null;
+                ByteString bxtx = null;
                 while (a < i2) {
                     a = bxtg.m123141a(bArr, a, bxtf);
                     int i5 = bxtf.f164767a;
@@ -217,7 +217,7 @@ final class bxxg implements bxxv {
                                 c.mo73908a(bxvj.f164958d, bxtf.f164769c);
                             } else if (a2 == 2) {
                                 a = bxtg.m123149e(bArr, a, bxtf);
-                                bxtx = (bxtx) bxtf.f164769c;
+                                bxtx = (ByteString) bxtf.f164769c;
                             }
                         }
                     } else if (a2 == 0) {

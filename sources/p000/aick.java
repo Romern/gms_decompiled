@@ -40,7 +40,7 @@ public final class aick extends buqn {
         }
         Context context = this.f68685d.f68708e;
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         String str2 = this.f68684c;
         if (bxvd.f164950c) {
             bxvd.mo74035c();

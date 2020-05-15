@@ -30,7 +30,7 @@ import javax.crypto.SecretKey;
 public final class jcs {
 
     /* renamed from: a */
-    public static final sek f22185a = jdh.m16547a("KeySyncController");
+    public static final Logger f22185a = jdh.m16547a("KeySyncController");
 
     /* renamed from: b */
     public final Account f22186b;
@@ -71,8 +71,8 @@ public final class jcs {
             List b = ((jcf) jcf.f22150a.mo13145b()).mo13574b(this.f22186b.name);
             if (!b.isEmpty()) {
                 jbf jbf = (jbf) b.get(0);
-                bxtx bxtx = jbf.f22086a;
-                byte[] k = jbf.f22087b.mo73780k();
+                ByteString bxtx = jbf.f22086a;
+                byte[] k = jbf.f22087b.getKey();
                 SecretKey b2 = ((jcj) jcj.f22155a.mo13145b()).mo13579b(str);
                 if (b2 != null) {
                     try {
@@ -84,14 +84,14 @@ public final class jcs {
                         }
                         bxtx.getClass();
                         ((bqmn) da.f164949b).f141240a = bxtx;
-                        bxtx a2 = bxtx.m123261a(a);
+                        ByteString a2 = bxtx.m123261a(a);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
                         }
                         a2.getClass();
                         ((bqmn) da.f164949b).f141241b = a2;
-                        bxtx a3 = bxtx.m123261a(bArr);
+                        ByteString a3 = bxtx.m123261a(bArr);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -172,21 +172,21 @@ public final class jcs {
                         if (encryptedRecoveryKeyBlob != null) {
                             byte[] array = ByteBuffer.allocate(8).order(ByteOrder.LITTLE_ENDIAN).putLong(keyChainSnapshot.getCounterId()).array();
                             bxvd da = bqnc.f141296e.mo74144da();
-                            bxtx a3 = bxtx.m123261a(serverParams);
+                            ByteString a3 = ByteString.m123261a(serverParams);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
                             }
                             a3.getClass();
                             ((bqnc) da.f164949b).f141301d = a3;
-                            bxtx a4 = bxtx.m123261a(a2);
+                            ByteString a4 = ByteString.m123261a(a2);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
                             }
                             a4.getClass();
                             ((bqnc) da.f164949b).f141298a = a4;
-                            bxtx a5 = bxtx.m123261a(array);
+                            ByteString a5 = ByteString.m123261a(array);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
@@ -196,9 +196,9 @@ public final class jcs {
                             bqnc.f141299b = a5;
                             bqnc.f141300c = maxAttempts;
                             bqnc bqnc2 = (bqnc) da.mo74062i();
-                            bxtx a6 = m16519a(keyChainSnapshot);
+                            ByteString a6 = m16519a(keyChainSnapshot);
                             bqna bqna = (bqna) bqnb.f141289f.mo74144da();
-                            bxtx a7 = bxtx.m123261a(encryptedRecoveryKeyBlob);
+                            ByteString a7 = ByteString.m123261a(encryptedRecoveryKeyBlob);
                             if (bqna.f164950c) {
                                 bqna.mo74035c();
                                 bqna.f164950c = false;
@@ -224,7 +224,7 @@ public final class jcs {
                                         }
                                         alias.getClass();
                                         ((bqmm) da2.f164949b).f141237c = alias;
-                                        bxtx a8 = bxtx.m123261a(encryptedKeyMaterial);
+                                        ByteString a8 = ByteString.m123261a(encryptedKeyMaterial);
                                         if (da2.f164950c) {
                                             da2.mo74035c();
                                             da2.f164950c = false;
@@ -262,12 +262,12 @@ public final class jcs {
                                             }
                                         }
                                     } catch (gid | IOException e3) {
-                                        sek sek = f22185a;
+                                        Logger Logger = f22185a;
                                         String valueOf = String.valueOf(e3);
                                         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 24);
                                         sb.append("Failed to read consent: ");
                                         sb.append(valueOf);
-                                        sek.mo25412b(sb.toString(), new Object[0]);
+                                        Logger.mo25412b(sb.toString(), new Object[0]);
                                         z = false;
                                     }
                                 } else {
@@ -287,7 +287,7 @@ public final class jcs {
                                             }
                                             alias2.getClass();
                                             ((bqmm) da3.f164949b).f141237c = alias2;
-                                            bxtx a9 = bxtx.m123261a(encryptedKeyMaterial2);
+                                            ByteString a9 = ByteString.m123261a(encryptedKeyMaterial2);
                                             if (da3.f164950c) {
                                                 da3.mo74035c();
                                                 da3.f164950c = false;
@@ -316,12 +316,12 @@ public final class jcs {
                                             bqna.mo69280a((bqmm) da4.mo74062i());
                                             this.f22192h.add(alias2);
                                         } catch (jck e4) {
-                                            sek sek2 = f22185a;
+                                            Logger logger2 = f22185a;
                                             String valueOf2 = String.valueOf(e4);
                                             StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf2).length() + 30);
                                             sb2.append("Failed to construct key pair: ");
                                             sb2.append(valueOf2);
-                                            sek2.mo25416d(sb2.toString(), new Object[0]);
+                                            logger2.mo25416d(sb2.toString(), new Object[0]);
                                         }
                                     }
                                 }
@@ -368,7 +368,7 @@ public final class jcs {
     }
 
     /* renamed from: a */
-    static bxtx m16519a(KeyChainSnapshot keyChainSnapshot) {
+    static ByteString m16519a(KeyChainSnapshot keyChainSnapshot) {
         KeyChainProtectionParams keyChainProtectionParams = (KeyChainProtectionParams) keyChainSnapshot.getKeyChainProtectionParams().get(0);
         KeyDerivationParams keyDerivationParams = keyChainProtectionParams.getKeyDerivationParams();
         int a = jif.m16752a(keyChainProtectionParams.getLockScreenUiFormat());
@@ -410,12 +410,12 @@ public final class jcs {
                 if (a2 != 0) {
                     jig3.f22549e = i4;
                     jig3.f22545a |= 8;
-                    sek sek = f22185a;
+                    Logger Logger = f22185a;
                     int algorithm2 = keyDerivationParams.getAlgorithm();
                     StringBuilder sb = new StringBuilder(30);
                     sb.append("Unknown hash type: ");
                     sb.append(algorithm2);
-                    sek.mo25418e(sb.toString(), new Object[0]);
+                    Logger.mo25418e(sb.toString(), new Object[0]);
                 } else {
                     throw null;
                 }
@@ -436,13 +436,13 @@ public final class jcs {
             jig jig5 = (jig) da.f164949b;
             jig5.f22545a |= 32;
             jig5.f22551g = memoryDifficulty;
-            sek sek2 = f22185a;
+            Logger logger2 = f22185a;
             int memoryDifficulty2 = keyDerivationParams.getMemoryDifficulty();
             StringBuilder sb2 = new StringBuilder(58);
             sb2.append("Got memory difficulty from KeyDrivationParams: ");
             sb2.append(memoryDifficulty2);
-            sek2.mo25412b(sb2.toString(), new Object[0]);
-            bxtx a3 = bxtx.m123261a(keyDerivationParams.getSalt());
+            logger2.mo25412b(sb2.toString(), new Object[0]);
+            ByteString a3 = ByteString.m123261a(keyDerivationParams.getSalt());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -452,7 +452,7 @@ public final class jcs {
             jig6.f22545a |= 16;
             jig6.f22550f = a3;
             try {
-                bxtx a4 = bxtx.m123261a(keyChainSnapshot.getTrustedHardwareCertPath().getEncoded("PkiPath"));
+                ByteString a4 = ByteString.m123261a(keyChainSnapshot.getTrustedHardwareCertPath().getEncoded("PkiPath"));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -564,12 +564,12 @@ public final class jcs {
                         return true;
                     }
                 } catch (gid | IOException e) {
-                    sek sek = f22185a;
+                    Logger Logger = f22185a;
                     String valueOf = String.valueOf(e);
                     StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 32);
                     sb.append("Failed to get snapshot version: ");
                     sb.append(valueOf);
-                    sek.mo25414c(sb.toString(), new Object[0]);
+                    Logger.mo25414c(sb.toString(), new Object[0]);
                     throw new jck(13, e);
                 }
             }
@@ -596,21 +596,21 @@ public final class jcs {
                     }
                     return !z ? i != 0 : i != snapshotVersion;
                 } catch (gid | IOException e2) {
-                    sek sek2 = f22185a;
+                    Logger logger2 = f22185a;
                     String valueOf2 = String.valueOf(e2);
                     StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf2).length() + 23);
                     sb2.append("Failed to read KeyPair:");
                     sb2.append(valueOf2);
-                    sek2.mo25414c(sb2.toString(), new Object[0]);
+                    logger2.mo25414c(sb2.toString(), new Object[0]);
                     throw new jck(11, e2);
                 }
             } catch (gid | IOException e3) {
-                sek sek3 = f22185a;
+                Logger logger3 = f22185a;
                 String valueOf3 = String.valueOf(e3);
                 StringBuilder sb3 = new StringBuilder(String.valueOf(valueOf3).length() + 24);
                 sb3.append("Failed to read consent: ");
                 sb3.append(valueOf3);
-                sek3.mo25412b(sb3.toString(), new Object[0]);
+                logger3.mo25412b(sb3.toString(), new Object[0]);
                 throw new jck(13, e3);
             }
         } else {

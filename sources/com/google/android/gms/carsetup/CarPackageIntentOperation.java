@@ -70,7 +70,7 @@ public class CarPackageIntentOperation extends qlg {
             bpdj.f136251c = i3;
             bpcl a = nvu.f36694a.mo22311a();
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             bpdj bpdj2 = (bpdj) da.mo74062i();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

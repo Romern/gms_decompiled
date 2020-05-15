@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blpi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blpi extends bxvk implements bxxd {
+public final class blpi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final blpi f127229a;
@@ -22,7 +22,7 @@ public final class blpi extends bxvk implements bxxd {
     static {
         blpi blpi = new blpi();
         f127229a = blpi;
-        bxvk.m124024a(blpi.class, blpi);
+        GeneratedMessageLite.m124024a(blpi.class, blpi);
     }
 
     private blpi() {
@@ -43,7 +43,7 @@ public final class blpi extends bxvk implements bxxd {
             this.f127233d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127229a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"b", "c"});
+            return GeneratedMessageLite.m124022a(f127229a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"b", "c"});
         } else if (i2 == 3) {
             return new blpi();
         } else {

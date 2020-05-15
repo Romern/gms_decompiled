@@ -26,7 +26,7 @@ public final class rte {
         Set b = sqw.m36045b();
         try {
             for (ModuleManager.ModuleInfo moduleInfo : ModuleManager.get(this.f43646a).getAllModulesWithMetadata("com.google.android.gms.phenotype.registration.proto")) {
-                for (zzu zzu : ((zzv) bxvk.m124014a(zzv.f56346b, moduleInfo.getMetadata(this.f43646a).getByteArray("com.google.android.gms.phenotype.registration.proto"))).f56348a) {
+                for (zzu zzu : ((zzv) GeneratedMessageLite.m124014a(zzv.f56346b, moduleInfo.getMetadata(this.f43646a).getByteArray("com.google.android.gms.phenotype.registration.proto"))).f56348a) {
                     if (!zzu.f56344h) {
                         b.add(zzu);
                     }

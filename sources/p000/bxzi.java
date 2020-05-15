@@ -6,12 +6,12 @@ final class bxzi extends bmxe {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo12636a(Object obj) {
-        return bxtx.m123261a((byte[]) obj);
+        return ByteString.m123261a((byte[]) obj);
     }
 
     /* access modifiers changed from: protected */
     /* renamed from: b */
     public final /* bridge */ /* synthetic */ Object mo12637b(Object obj) {
-        return ((bxtx) obj).mo73780k();
+        return ((ByteString) obj).getKey();
     }
 }

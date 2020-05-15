@@ -9,7 +9,7 @@ import com.google.android.gms.common.api.Status;
 public final class itq extends aaab {
 
     /* renamed from: c */
-    private static final sek f21701c = new sek(new String[]{"HaveKeyWithKeyHandleOperation"}, (byte[]) null);
+    private static final Logger f21701c = new Logger(new String[]{"HaveKeyWithKeyHandleOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final ire f21702a;

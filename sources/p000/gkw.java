@@ -45,7 +45,7 @@ public final class gkw extends smx {
         bofx.f132953b = 5;
         bofx.f132952a |= 1;
         new glf(gky.f18443b).mo12006a(gky.f18442a, (bofx) da.mo74062i());
-        gky.f18442a.mo25414c("performSync(account=%s)", sek.m35081a(account));
+        gky.f18442a.mo25414c("performSync(account=%s)", Logger.m35081a(account));
         ashr.m74143a(gky.f18443b.getContentResolver(), account, str, "gaia-change", "gaia-change");
         ContentResolver.setIsSyncable(account, str, 1);
         rtg.m34394a(account, str);

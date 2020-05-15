@@ -15,7 +15,7 @@ import java.util.Map;
 public final class ipt implements ipv {
 
     /* renamed from: a */
-    public static final sek f21530a = new sek(new String[]{"DeviceMetadataLevelDbStore"}, (byte[]) null);
+    public static final Logger f21530a = new Logger(new String[]{"DeviceMetadataLevelDbStore"}, (byte[]) null);
 
     /* renamed from: c */
     private static LevelDb f21531c;

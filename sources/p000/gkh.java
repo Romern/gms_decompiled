@@ -18,7 +18,7 @@ import java.util.List;
 public final class gkh {
 
     /* renamed from: a */
-    private static final sek f18390a = ght.m13171a("AccountRenameHelper");
+    private static final Logger f18390a = ght.m13171a("AccountRenameHelper");
 
     /* renamed from: b */
     private final adyd f18391b;
@@ -86,16 +86,16 @@ public final class gkh {
             try {
                 Account result = renameAccount.getResult();
                 if (!result.name.equals(account2.name)) {
-                    f18390a.mo25414c("Rename for account %s failed.", sek.m35081a(account));
+                    f18390a.mo25414c("Rename for account %s failed.", Logger.m35081a(account));
                     return false;
                 }
-                f18390a.mo25414c("Account rename succeeded: %s -> %s.", sek.m35081a(account), sek.m35081a(account2));
+                f18390a.mo25414c("Account rename succeeded: %s -> %s.", Logger.m35081a(account), Logger.m35081a(account2));
                 if (account.equals(this.f18392c.mo19591a())) {
                     try {
                         this.f18392c.mo19592a(account2);
-                        f18390a.mo25414c("Set account %s as backup account.", sek.m35081a(account2));
+                        f18390a.mo25414c("Set account %s as backup account.", Logger.m35081a(account2));
                     } catch (Exception e) {
-                        f18390a.mo25418e("Failed to set backup account: %s", sek.m35081a(account2), e);
+                        f18390a.mo25418e("Failed to set backup account: %s", Logger.m35081a(account2), e);
                     }
                 }
                 for (String str2 : hashMap.keySet()) {
@@ -106,7 +106,7 @@ public final class gkh {
                 this.f18393d.mo12040a(account2.name, 3, account.name);
                 return true;
             } catch (AuthenticatorException | OperationCanceledException | IOException e2) {
-                f18390a.mo25414c("Rename for account %s failed.", sek.m35081a(account));
+                f18390a.mo25414c("Rename for account %s failed.", Logger.m35081a(account));
                 return false;
             }
         } catch (Throwable th) {

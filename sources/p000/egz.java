@@ -18,7 +18,7 @@ final class egz {
     public final List f14894b;
 
     /* renamed from: c */
-    public final sek f14895c;
+    public final Logger f14895c;
 
     /* renamed from: d */
     private final SecureRandom f14896d = new SecureRandom();
@@ -26,12 +26,12 @@ final class egz {
     /* renamed from: e */
     private SecretKey f14897e;
 
-    public egz(eia eia, egx egx, sek sek) {
+    public egz(eia eia, egx egx, Logger Logger) {
         bmxy.m108581a(eia);
         this.f14893a = eia;
         bmxy.m108581a(egx);
-        bmxy.m108581a(sek);
-        this.f14895c = sek;
+        bmxy.m108581a(Logger);
+        this.f14895c = Logger;
         this.f14894b = new ArrayList();
         this.f14897e = null;
     }

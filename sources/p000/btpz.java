@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btpz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btpz extends bxvk implements bxxd {
+public final class btpz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btpz f149912c;
@@ -14,12 +14,12 @@ public final class btpz extends bxvk implements bxxd {
     public boolean f149914a;
 
     /* renamed from: b */
-    public bxtx f149915b = bxtx.f164797b;
+    public ByteString f149915b = ByteString.f164797b;
 
     static {
         btpz btpz = new btpz();
         f149912c = btpz;
-        bxvk.m124024a(btpz.class, btpz);
+        GeneratedMessageLite.m124024a(btpz.class, btpz);
     }
 
     private btpz() {
@@ -36,7 +36,7 @@ public final class btpz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149912c, "\u0000\u0002\u0000\u0000\u0001\u0003\u0002\u0000\u0000\u0000\u0001\u0007\u0003\n", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f149912c, "\u0000\u0002\u0000\u0000\u0001\u0003\u0002\u0000\u0000\u0000\u0001\u0007\u0003\n", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new btpz();
         } else {

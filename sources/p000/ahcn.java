@@ -56,7 +56,7 @@ public final class ahcn extends ahdb {
         if (buzw2 == null) {
             buzw2 = buzw.f155438d;
         }
-        return new Device(a2, b, ahcj.m55464a(buzw2.f155441b.mo73780k()), ahcj.m55466c(str));
+        return new Device(a2, b, ahcj.m55464a(buzw2.f155441b.getKey()), ahcj.m55466c(str));
     }
 
     /* access modifiers changed from: protected */

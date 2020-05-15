@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqdc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqdc extends bxvk implements bxxd {
+public final class aqdc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final aqdc f85747f;
@@ -28,7 +28,7 @@ public final class aqdc extends bxvk implements bxxd {
     static {
         aqdc aqdc = new aqdc();
         f85747f = aqdc;
-        bxvk.m124024a(aqdc.class, aqdc);
+        GeneratedMessageLite.m124024a(aqdc.class, aqdc);
     }
 
     private aqdc() {
@@ -45,7 +45,7 @@ public final class aqdc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85747f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001င\u0000\u0003ဉ\u0003\u0004ဉ\u0004\u0005ဉ\u0005", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f85747f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001င\u0000\u0003ဉ\u0003\u0004ဉ\u0004\u0005ဉ\u0005", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new aqdc();
         } else {

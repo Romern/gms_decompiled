@@ -15,7 +15,7 @@ import java.util.List;
 public final class arbx extends arbt implements arib {
 
     /* renamed from: l */
-    public static final sek f87330l = ascp.m73787a("D2D", arbx.class.getSimpleName());
+    public static final Logger f87330l = ascp.m73787a("D2D", arbx.class.getSimpleName());
 
     /* renamed from: m */
     private ards f87331m;
@@ -61,7 +61,7 @@ public final class arbx extends arbt implements arib {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final void mo48377a() {
-        f87330l.mo25409a("resetNearbyDirectTransferController", new Object[0]);
+        f87330l.logVerbose("resetNearbyDirectTransferController", new Object[0]);
         ards ards = this.f87331m;
         if (ards != null) {
             ards.mo48264a();
@@ -86,7 +86,7 @@ public final class arbx extends arbt implements arib {
 
     /* renamed from: a */
     public final void mo48268a(BootstrapCompletionResult bootstrapCompletionResult) {
-        f87330l.mo25409a("Direct transfer completed", new Object[0]);
+        f87330l.logVerbose("Direct transfer completed", new Object[0]);
         arin arin = this.f87321g;
         if (arin != null) {
             try {
@@ -113,7 +113,7 @@ public final class arbx extends arbt implements arib {
 
     /* renamed from: a */
     public final void mo48270a(BootstrapProgressResult bootstrapProgressResult) {
-        f87330l.mo25409a("Progress update", new Object[0]);
+        f87330l.logVerbose("Progress update", new Object[0]);
         arin arin = this.f87321g;
         if (arin != null) {
             try {

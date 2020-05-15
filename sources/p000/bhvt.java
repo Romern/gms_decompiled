@@ -32,7 +32,7 @@ public final class bhvt {
         bicx bicx = (bicx) bhuk;
         bpnx a = bicx.mo64529a((int) (elapsedRealtime - j));
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -47,7 +47,7 @@ public final class bhvt {
             bpoj = bpoj.f138532f;
         }
         bxvd bxvd2 = (bxvd) bpoj.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpoj);
+        bxvd2.mo73625a((GeneratedMessageLite) bpoj);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;
@@ -117,7 +117,7 @@ public final class bhvt {
         bicx bicx = (bicx) bhuk;
         bpnx a = bicx.mo64529a((int) elapsedRealtime);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

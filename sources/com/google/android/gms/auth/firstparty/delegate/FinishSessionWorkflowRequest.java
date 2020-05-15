@@ -38,9 +38,9 @@ public class FinishSessionWorkflowRequest extends AbstractSafeParcelable {
       sdo.a(java.lang.String, java.lang.Object):void */
     public FinishSessionWorkflowRequest(int i, Bundle bundle, AppDescription appDescription, String str, AccountAuthenticatorResponse accountAuthenticatorResponse) {
         this.f10776a = i;
-        sdo.m34966a(bundle, "sessionBundle cannot be null");
+        sdo.checkIfNull(bundle, "sessionBundle cannot be null");
         this.f10780e = bundle;
-        sdo.m34966a(appDescription, "callingAppDescription cannot be null");
+        sdo.checkIfNull(appDescription, "callingAppDescription cannot be null");
         this.f10777b = appDescription;
         sdo.m34969a(str, (Object) "accountType must be provided");
         this.f10778c = str;

@@ -67,7 +67,7 @@ public final class obh extends obe {
         printWriter2.print(":{");
         switch (c2) {
             case 32769:
-                biut biut = (biut) bxvk.m124013a(biut.f121870d, byteBuffer2, bxus.m123744c());
+                biut biut = (biut) GeneratedMessageLite.m124013a(biut.f121870d, byteBuffer2, bxus.m123744c());
                 if (biut != null) {
                     Object[] objArr = new Object[2];
                     biva a = biva.m102863a(biut.f121873b);
@@ -81,7 +81,7 @@ public final class obh extends obe {
                 }
                 break;
             case 32770:
-                biuu biuu = (biuu) bxvk.m124013a(biuu.f121876b, byteBuffer2, bxus.m123744c());
+                biuu biuu = (biuu) GeneratedMessageLite.m124013a(biuu.f121876b, byteBuffer2, bxus.m123744c());
                 if (biuu != null) {
                     Object[] objArr2 = new Object[1];
                     bisf a2 = bisf.m102781a(biuu.f121878a);
@@ -94,7 +94,7 @@ public final class obh extends obe {
                 }
                 break;
             case 32771:
-                biup biup = (biup) bxvk.m124013a(biup.f121833w, byteBuffer2, bxus.m123744c());
+                biup biup = (biup) GeneratedMessageLite.m124013a(biup.f121833w, byteBuffer2, bxus.m123744c());
                 if (biup != null) {
                     printWriter2.printf("%s", biup);
                     break;
@@ -102,7 +102,7 @@ public final class obh extends obe {
                 break;
             default:
                 try {
-                    biuq biuq = (biuq) bxvk.m124013a(biuq.f121858c, byteBuffer2, bxus.m123744c());
+                    biuq biuq = (biuq) GeneratedMessageLite.m124013a(biuq.f121858c, byteBuffer2, bxus.m123744c());
                     if (biuq != null) {
                         Object[] objArr3 = new Object[2];
                         biva a3 = biva.m102863a(biuq.f121860a);

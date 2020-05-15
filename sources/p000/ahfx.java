@@ -58,7 +58,7 @@ public final class ahfx {
             bvez2.f155829a = i4 | 1;
             bvez2.f155830b = str;
             this.f67132d.mo36411a(da, bxxc);
-            return this.f67129a.mo24335a(((bvez) da.mo74062i()).mo73642k());
+            return this.f67129a.mo24335a(((bvez) da.mo74062i()).serializeToBytes());
         }
         throw null;
     }

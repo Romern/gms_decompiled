@@ -119,7 +119,7 @@ public final class dol {
             if (!cdgf.m133171b().f163219b.isEmpty()) {
                 bxga b = cdgf.m133171b();
                 bxvd bxvd = (bxvd) b.mo74142c(5);
-                bxvd.mo73625a((bxvk) b);
+                bxvd.mo73625a((GeneratedMessageLite) b);
                 bxfz bxfz2 = (bxfz) bxvd;
                 long a2 = dwq.m9665i().mo20505a();
                 if (bxfz2.f164950c) {
@@ -137,7 +137,7 @@ public final class dol {
         } else if (!cdgf.m133172c().f163219b.isEmpty()) {
             bxga c = cdgf.m133172c();
             bxvd bxvd2 = (bxvd) c.mo74142c(5);
-            bxvd2.mo73625a((bxvk) c);
+            bxvd2.mo73625a((GeneratedMessageLite) c);
             bxfz bxfz3 = (bxfz) bxvd2;
             long a3 = dwq.m9665i().mo20505a();
             if (bxfz3.f164950c) {

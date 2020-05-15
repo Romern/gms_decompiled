@@ -433,13 +433,13 @@ public abstract class sam {
         this.f43933D = false;
         this.f43934E = null;
         this.f43935F = new AtomicInteger(0);
-        sdo.m34966a(context, "Context must not be null");
+        sdo.checkIfNull(context, "Context must not be null");
         this.f43948r = context;
-        sdo.m34966a(looper, "Looper must not be null");
+        sdo.checkIfNull(looper, "Looper must not be null");
         this.f43949s = looper;
-        sdo.m34966a(sbq, "Supervisor must not be null");
+        sdo.checkIfNull(sbq, "Supervisor must not be null");
         this.f43941g = sbq;
-        sdo.m34966a(rfj, "API availability must not be null");
+        sdo.checkIfNull(rfj, "API availability must not be null");
         this.f43942h = rfj;
         this.f43950t = new sae(this, looper);
         this.f43945k = i;
@@ -580,7 +580,7 @@ public abstract class sam {
 
     /* renamed from: a */
     public void mo25296a(sag sag) {
-        sdo.m34966a(sag, "Connection progress callbacks cannot be null.");
+        sdo.checkIfNull(sag, "Connection progress callbacks cannot be null.");
         this.f43954x = sag;
         m34754a(2, (IInterface) null);
     }
@@ -588,7 +588,7 @@ public abstract class sam {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final void mo25297a(sag sag, int i, PendingIntent pendingIntent) {
-        sdo.m34966a(sag, "Connection progress callbacks cannot be null.");
+        sdo.checkIfNull(sag, "Connection progress callbacks cannot be null.");
         this.f43954x = sag;
         Handler handler = this.f43950t;
         handler.sendMessage(handler.obtainMessage(3, this.f43935F.get(), i, pendingIntent));

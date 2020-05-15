@@ -17,7 +17,7 @@ public final class afsb implements afxu {
 
     /* renamed from: a */
     public static bbjq m53492a(bbjq bbjq) {
-        return bbjq.mo56174a(((bxxc) bbjq.f102773a).mo73642k()).mo56173a();
+        return bbjq.mo56174a(((bxxc) bbjq.f102773a).serializeToBytes()).mo56173a();
     }
 
     /* renamed from: b */

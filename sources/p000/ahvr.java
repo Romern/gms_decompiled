@@ -95,7 +95,7 @@ public final class ahvr extends ahvo {
                 srn srn = ahsd.f67925a;
             } else {
                 Intent className = new Intent().setClassName(ahyh.f68346c, "com.google.android.gms.nearby.discovery.fastpair.HalfSheetActivity");
-                className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET", ahvd.m56714b(ahsu.f67969b).mo73642k());
+                className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET", ahvd.m56714b(ahsu.f67969b).serializeToBytes());
                 className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET_TYPE", "DEVICE_PAIRING");
                 className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET_IS_RETROACTIVE", true);
                 className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET_CLOUD_SYNC_INTENT", b);

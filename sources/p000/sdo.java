@@ -100,7 +100,7 @@ public final class sdo {
     }
 
     /* renamed from: a */
-    public static void m34966a(Object obj, Object obj2) {
+    public static void checkIfNull(Object obj, Object obj2) {
         if (obj == null) {
             throw new NullPointerException(String.valueOf(obj2));
         }

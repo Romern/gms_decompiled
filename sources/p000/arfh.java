@@ -11,7 +11,7 @@ import com.google.android.gms.smartdevice.d2d.BootstrapOptions;
 abstract class arfh {
 
     /* renamed from: a */
-    public static final sek f87583a = ascp.m73787a("D2D", arfh.class.getSimpleName());
+    public static final Logger f87583a = ascp.m73787a("D2D", arfh.class.getSimpleName());
 
     /* renamed from: b */
     protected final arai f87584b;

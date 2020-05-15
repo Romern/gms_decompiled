@@ -46,20 +46,20 @@ public final class acwk {
             sparseArray.put(i2, abqd);
         }
         bxvd bxvd = (bxvd) abqe.mo74142c(5);
-        bxvd.mo73625a((bxvk) abqe);
+        bxvd.mo73625a((GeneratedMessageLite) abqe);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
         }
         abqe abqe2 = abqe.f57949g;
-        ((abqe) bxvd.f164949b).f57955e = bxvk.m124030de();
+        ((abqe) bxvd.f164949b).f57955e = GeneratedMessageLite.m124030de();
         for (int i3 = 0; i3 < f60967b.length; i3++) {
             abqd abqd2 = (abqd) sparseArray.get(i3);
             if (abqd2 == null) {
                 DocumentSection documentSection = f60966a[i3];
                 abqo a = abzm.m48648a(documentSection.f9544d);
                 bxvd bxvd2 = (bxvd) a.mo74142c(5);
-                bxvd2.mo73625a((bxvk) a);
+                bxvd2.mo73625a((GeneratedMessageLite) a);
                 if (documentSection.f9545e != DocumentSection.f9541a) {
                     int i4 = documentSection.f9545e;
                     if (bxvd2.f164950c) {
@@ -91,7 +91,7 @@ public final class acwk {
                 bxvd.mo74079l(da);
             } else {
                 bxvd bxvd3 = (bxvd) abqd2.mo74142c(5);
-                bxvd3.mo73625a((bxvk) abqd2);
+                bxvd3.mo73625a((GeneratedMessageLite) abqd2);
                 if (bxvd3.f164950c) {
                     bxvd3.mo74035c();
                     bxvd3.f164950c = false;

@@ -11,7 +11,7 @@ import java.util.concurrent.TimeoutException;
 public final class ilm {
 
     /* renamed from: a */
-    public static final sek f21293a = new sek("GLSActivity", "CheckinHelper");
+    public static final Logger f21293a = new Logger("GLSActivity", "CheckinHelper");
 
     /* renamed from: d */
     public static final imo f21294d = new ilh();
@@ -42,23 +42,23 @@ public final class ilm {
             f21293a.mo25414c("Checkin check is skipped because force legacy multi dex is enabled", new Object[0]);
             return;
         }
-        if (spn.m35843a(this.f21295b) == 0) {
+        if (spn.getAndroidId(this.f21295b) == 0) {
             qcw qcw = new qcw(this.f21295b, this);
             qcw.mo23921b();
             try {
                 int intValue = ((Integer) aucu.m76783a(this.f21296c.mo23912a(qcw.mo23920a()), 2, TimeUnit.MINUTES)).intValue();
                 if (!rjs.m33680f(intValue)) {
-                    sek sek = f21293a;
+                    Logger Logger = f21293a;
                     StringBuilder sb = new StringBuilder(47);
                     sb.append("Checkin fails and the error code is ");
                     sb.append(intValue);
-                    sek.mo25418e(sb.toString(), new Object[0]);
+                    Logger.mo25418e(sb.toString(), new Object[0]);
                 }
             } catch (InterruptedException | ExecutionException | TimeoutException e) {
                 f21293a.mo25417e("Error waiting for checkin result", e, new Object[0]);
             }
         }
-        if (spn.m35843a(this.f21295b) == 0) {
+        if (spn.getAndroidId(this.f21295b) == 0) {
             f21293a.mo25418e("AndroidId is still 0 after Checkin", new Object[0]);
         }
     }

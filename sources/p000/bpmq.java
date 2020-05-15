@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpmq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpmq extends bxvk implements bxxd {
+public final class bpmq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bpmq f138321d;
@@ -22,7 +22,7 @@ public final class bpmq extends bxvk implements bxxd {
     static {
         bpmq bpmq = new bpmq();
         f138321d = bpmq;
-        bxvk.m124024a(bpmq.class, bpmq);
+        GeneratedMessageLite.m124024a(bpmq.class, bpmq);
     }
 
     private bpmq() {
@@ -39,7 +39,7 @@ public final class bpmq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138321d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f138321d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bpmq();
         } else {

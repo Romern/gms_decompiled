@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aptu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aptu extends bxvk implements bxxd {
+public final class aptu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final aptu f84877e;
@@ -28,7 +28,7 @@ public final class aptu extends bxvk implements bxxd {
     static {
         aptu aptu = new aptu();
         f84877e = aptu;
-        bxvk.m124024a(aptu.class, aptu);
+        GeneratedMessageLite.m124024a(aptu.class, aptu);
     }
 
     private aptu() {
@@ -45,7 +45,7 @@ public final class aptu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f84877e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001\u001b\u0002ဂ\u0000\u0003ဇ\u0001\u0004င\u0002", new Object[]{"f", "a", aptt.class, "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f84877e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001\u001b\u0002ဂ\u0000\u0003ဇ\u0001\u0004င\u0002", new Object[]{"f", "a", aptt.class, "b", "c", "d"});
         } else if (i2 == 3) {
             return new aptu();
         } else {

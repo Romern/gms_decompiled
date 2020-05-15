@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzwg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzwg extends bxvk implements bxxd {
+public final class bzwg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bzwg f171617c;
@@ -19,7 +19,7 @@ public final class bzwg extends bxvk implements bxxd {
     static {
         bzwg bzwg = new bzwg();
         f171617c = bzwg;
-        bxvk.m124024a(bzwg.class, bzwg);
+        GeneratedMessageLite.m124024a(bzwg.class, bzwg);
     }
 
     private bzwg() {
@@ -36,7 +36,7 @@ public final class bzwg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f171617c, "\u0001\u0001\u0000\u0001dd\u0001\u0000\u0000\u0000dဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f171617c, "\u0001\u0001\u0000\u0001dd\u0001\u0000\u0000\u0000dဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bzwg();
         } else {

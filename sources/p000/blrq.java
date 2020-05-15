@@ -17,7 +17,7 @@ public final class blrq extends bxvd implements bxxd {
         blrt blrt2 = blrt.f127524b;
         blrs.getClass();
         if (!blrt.f127526a.mo73666a()) {
-            blrt.f127526a = bxvk.m124019a(blrt.f127526a);
+            blrt.f127526a = GeneratedMessageLite.m124019a(blrt.f127526a);
         }
         blrt.f127526a.mo74153d(blrs.f127523r);
     }

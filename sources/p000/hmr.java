@@ -10,7 +10,7 @@ final /* synthetic */ class hmr implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = hms.f20041a;
+        Logger Logger = hms.f20041a;
         return Long.valueOf(((qun) obj).f42174i);
     }
 }

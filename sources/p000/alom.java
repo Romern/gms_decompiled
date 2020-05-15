@@ -61,7 +61,7 @@ final class alom implements Runnable {
                             }
                             cipv = ciqh.m150827a(ciqq);
                             try {
-                                cipv.mo86289a(this.f73957b.mo73642k());
+                                cipv.mo86289a(this.f73957b.serializeToBytes());
                                 cauw cauw2 = alow.f73992a;
                                 synchronized (cauw2.f176084d) {
                                     if (!cauw2.f176083c) {

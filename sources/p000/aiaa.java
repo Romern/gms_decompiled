@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aiaa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aiaa extends bxvk implements bxxd {
+public final class aiaa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: K */
     public static final aiaa f68501K;
@@ -26,13 +26,13 @@ public final class aiaa extends bxvk implements bxxd {
     public int f68507E;
 
     /* renamed from: F */
-    public bxtx f68508F = bxtx.f164797b;
+    public ByteString f68508F = ByteString.f164797b;
 
     /* renamed from: G */
     public String f68509G = "";
 
     /* renamed from: H */
-    public bxtx f68510H = bxtx.f164797b;
+    public ByteString f68510H = ByteString.f164797b;
 
     /* renamed from: I */
     public byzb f68511I;
@@ -116,12 +116,12 @@ public final class aiaa extends bxvk implements bxxd {
     public String f68537y = "";
 
     /* renamed from: z */
-    public bxtx f68538z = bxtx.f164797b;
+    public ByteString f68538z = ByteString.f164797b;
 
     static {
         aiaa aiaa = new aiaa();
         f68501K = aiaa;
-        bxvk.m124024a(aiaa.class, aiaa);
+        GeneratedMessageLite.m124024a(aiaa.class, aiaa);
     }
 
     private aiaa() {
@@ -138,7 +138,7 @@ public final class aiaa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f68501K, "\u0001\"\u0000\u0002\u0001/\"\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0004ဈ\u0002\u0005ဈ\u0003\u0006ဈ\u0004\u0007ဈ\u0005\bဈ\u0006\tဈ\u0007\nဂ\b\u000bဂ\t\u0011ဌ\n\u0013ဌ\u000b\u0014ဂ\f\u0016င\r\u0017င\u000e\u0019ဈ\u000f\u001aဈ\u0010\u001cဂ\u0011\u001dဌ\u0012\u001eဈ\u0013\u001fခ\u0014 ဈ\u0015\"ဈ\u0016$ည\u0017%ဈ\u0018&ဌ\u0019(\u001b)ဂ\u001a*ဌ\u001b+ည\u001c,ဈ\u001d-ည\u001e.ဉ\u001f/ဉ ", new Object[]{"a", "b", "c", "d", bzbk.m125616b(), "e", "f", "g", "h", "i", "j", "k", "l", "m", ahzy.f68500a, "n", bzbn.f169260a, "o", "p", "q", "r", "s", "t", "u", bzar.m125590b(), "v", "w", "x", "y", "z", "A", "B", ahzu.f68498a, "C", aiab.class, "D", "E", ahzw.f68499a, "F", "G", "H", "I", "J"});
+            return GeneratedMessageLite.m124022a(f68501K, "\u0001\"\u0000\u0002\u0001/\"\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0004ဈ\u0002\u0005ဈ\u0003\u0006ဈ\u0004\u0007ဈ\u0005\bဈ\u0006\tဈ\u0007\nဂ\b\u000bဂ\t\u0011ဌ\n\u0013ဌ\u000b\u0014ဂ\f\u0016င\r\u0017င\u000e\u0019ဈ\u000f\u001aဈ\u0010\u001cဂ\u0011\u001dဌ\u0012\u001eဈ\u0013\u001fခ\u0014 ဈ\u0015\"ဈ\u0016$ည\u0017%ဈ\u0018&ဌ\u0019(\u001b)ဂ\u001a*ဌ\u001b+ည\u001c,ဈ\u001d-ည\u001e.ဉ\u001f/ဉ ", new Object[]{"a", "b", "c", "d", bzbk.m125616b(), "e", "f", "g", "h", "i", "j", "k", "l", "m", ahzy.f68500a, "n", bzbn.f169260a, "o", "p", "q", "r", "s", "t", "u", bzar.m125590b(), "v", "w", "x", "y", "z", "A", "B", ahzu.f68498a, "C", aiab.class, "D", "E", ahzw.f68499a, "F", "G", "H", "I", "J"});
         } else if (i2 == 3) {
             return new aiaa();
         } else {
@@ -165,7 +165,7 @@ public final class aiaa extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo37329a() {
         if (!this.f68505C.mo73666a()) {
-            this.f68505C = bxvk.m124021a(this.f68505C);
+            this.f68505C = GeneratedMessageLite.m124021a(this.f68505C);
         }
     }
 }

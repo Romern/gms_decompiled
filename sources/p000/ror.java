@@ -39,7 +39,7 @@ public final class ror extends aqob implements rjz, rka {
         rjl rjl = f43454h;
         this.f43455a = context;
         this.f43456b = handler;
-        sdo.m34966a(sat, "ClientSettings must not be null");
+        sdo.checkIfNull(sat, "ClientSettings must not be null");
         this.f43458d = sat;
         this.f43457c = sat.f43964b;
         this.f43461g = rjl;

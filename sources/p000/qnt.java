@@ -53,7 +53,7 @@ public final class qnt {
                 byte[] byteArray = moduleInfo.getMetadata(context).getByteArray("com.google.android.gms.phenotype.registration.proto");
                 bmzs.m108696a(byteArray);
                 try {
-                    Iterator it = ((zzv) bxvk.m124016a(zzv.f56346b, byteArray, bxus.m123743b())).f56348a.iterator();
+                    Iterator it = ((zzv) GeneratedMessageLite.m124016a(zzv.f56346b, byteArray, bxus.m123743b())).f56348a.iterator();
                     while (true) {
                         if (!it.hasNext()) {
                             break;
@@ -127,7 +127,7 @@ public final class qnt {
         zzu.f56338b = "com.google.android.gms.chimera";
         "chimera".getClass();
         if (!zzu.f56339c.mo73666a()) {
-            zzu.f56339c = bxvk.m124021a(zzu.f56339c);
+            zzu.f56339c = GeneratedMessageLite.m124021a(zzu.f56339c);
         }
         zzu.f56339c.add("chimera");
         bxvd da2 = qhd.f41286y.mo74144da();
@@ -164,17 +164,17 @@ public final class qnt {
             da2.mo74035c();
             da2.f164950c = false;
         }
-        ((qhd) da2.f164949b).f41299m = bxvk.m124030de();
+        ((qhd) da2.f164949b).f41299m = GeneratedMessageLite.m124030de();
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
         }
-        ((qhd) da2.f164949b).f41301o = bxvk.m124030de();
+        ((qhd) da2.f164949b).f41301o = GeneratedMessageLite.m124030de();
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
         }
-        ((qhd) da2.f164949b).f41304r = bxvk.m124030de();
+        ((qhd) da2.f164949b).f41304r = GeneratedMessageLite.m124030de();
         bxvd da3 = bqzv.f142093e.mo74144da();
         long j = (long) i;
         if (da3.f164950c) {
@@ -197,7 +197,7 @@ public final class qnt {
         qhd2.getClass();
         bqzv2.f142096b = qhd2;
         bqzv2.f142095a |= 1;
-        bxtx aL = ((bqzv) da3.mo74062i()).mo73639aL();
+        ByteString aL = ((bqzv) da3.mo74062i()).mo73639aL();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -227,7 +227,7 @@ public final class qnt {
             zzv zzv = (zzv) da.f164949b;
             zzu.getClass();
             if (!zzv.f56348a.mo73666a()) {
-                zzv.f56348a = bxvk.m124021a(zzv.f56348a);
+                zzv.f56348a = GeneratedMessageLite.m124021a(zzv.f56348a);
             }
             zzv.f56348a.add(zzu);
             List a = rtf.m34393a(context, (zzv) da.mo74062i(), i);

@@ -13,7 +13,7 @@ import java.util.Map;
 public final class tdj {
 
     /* renamed from: b */
-    private static final sek f45695b = tea.m36798a("droidguard_provider");
+    private static final Logger f45695b = tea.m36798a("droidguard_provider");
 
     /* renamed from: c */
     private static final Charset f45696c = Charset.forName("UTF-8");
@@ -35,7 +35,7 @@ public final class tdj {
 
     /* renamed from: a */
     public final String mo26396a(Map map) {
-        f45695b.mo25409a("getting snapshot", new Object[0]);
+        f45695b.logVerbose("getting snapshot", new Object[0]);
         return this.f45697a.mo28905a(map);
     }
 

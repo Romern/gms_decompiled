@@ -23,17 +23,17 @@ final class axzv implements axzu {
             if ((ayev.f97378a & 1) != 0) {
                 try {
                     fileInputStream = new FileInputStream(axyt.f96802b);
-                    bxtx a = bxtx.m123256a(fileInputStream);
+                    ByteString a = ByteString.m123256a(fileInputStream);
                     srz.m36171a((Closeable) fileInputStream);
                     if (a != null) {
                         bxvd bxvd = (bxvd) ayev.mo74142c(5);
-                        bxvd.mo73625a((bxvk) ayev);
+                        bxvd.mo73625a((GeneratedMessageLite) ayev);
                         ayfb ayfb = ayev.f97379b;
                         if (ayfb == null) {
                             ayfb = ayfb.f97441e;
                         }
                         bxvd bxvd2 = (bxvd) ayfb.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) ayfb);
+                        bxvd2.mo73625a((GeneratedMessageLite) ayfb);
                         if (bxvd2.f164950c) {
                             bxvd2.mo74035c();
                             bxvd2.f164950c = false;

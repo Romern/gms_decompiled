@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqgl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqgl extends bxvk implements bxxd {
+public final class aqgl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final aqgl f86059c;
@@ -14,12 +14,12 @@ public final class aqgl extends bxvk implements bxxd {
     public int f86061a;
 
     /* renamed from: b */
-    public bxtx f86062b = bxtx.f164797b;
+    public ByteString f86062b = ByteString.f164797b;
 
     static {
         aqgl aqgl = new aqgl();
         f86059c = aqgl;
-        bxvk.m124024a(aqgl.class, aqgl);
+        GeneratedMessageLite.m124024a(aqgl.class, aqgl);
     }
 
     private aqgl() {
@@ -36,7 +36,7 @@ public final class aqgl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f86059c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f86059c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new aqgl();
         } else {

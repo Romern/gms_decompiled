@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzpl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzpl extends bxvk implements bxxd {
+public final class bzpl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bzpl f170931a;
@@ -13,7 +13,7 @@ public final class bzpl extends bxvk implements bxxd {
     static {
         bzpl bzpl = new bzpl();
         f170931a = bzpl;
-        bxvk.m124024a(bzpl.class, bzpl);
+        GeneratedMessageLite.m124024a(bzpl.class, bzpl);
     }
 
     private bzpl() {
@@ -30,7 +30,7 @@ public final class bzpl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f170931a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f170931a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bzpl();

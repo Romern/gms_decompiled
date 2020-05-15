@@ -23,7 +23,7 @@ public abstract class byqy {
         byri byri = (byri) da.f164949b;
         byri.f167476a |= 2;
         byri.f167478c = i;
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -89,10 +89,10 @@ public abstract class byqy {
         try {
             byrz a = byrb.m125174a(bArr, mo74483g());
             if (bysa.DEVICE_TO_DEVICE_MESSAGE.equals(a.f167530a)) {
-                byri byri = (byri) bxvk.m124014a(byri.f167474d, a.f167531b);
+                byri byri = (byri) GeneratedMessageLite.m124014a(byri.f167474d, a.f167531b);
                 mo74479c();
                 if (byri.f167478c == mo74481e()) {
-                    return byri.f167477b.mo73780k();
+                    return byri.f167477b.getKey();
                 }
                 throw new SignatureException("Incorrect sequence number");
             }
@@ -134,7 +134,7 @@ public abstract class byqy {
     public final byte[] mo74476a(byte[] bArr) {
         mo74477b();
         try {
-            return byrb.m125177a(new byrz(bysa.DEVICE_TO_DEVICE_MESSAGE, m125143a(bArr, mo74480d()).mo73642k()), mo74482f());
+            return byrb.m125177a(new byrz(bysa.DEVICE_TO_DEVICE_MESSAGE, m125143a(bArr, mo74480d()).serializeToBytes()), mo74482f());
         } catch (InvalidKeyException e) {
             throw new RuntimeException(e);
         } catch (NoSuchAlgorithmException e2) {

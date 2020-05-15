@@ -14,6 +14,6 @@ final /* synthetic */ class abcu implements qwq {
     public final byte[] mo14930a() {
         bxvd bxvd = this.f57051a;
         int i = abcx.f57057b;
-        return ((abeh) bxvd.mo74062i()).mo73642k();
+        return ((abeh) bxvd.mo74062i()).serializeToBytes();
     }
 }

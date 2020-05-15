@@ -18,7 +18,7 @@ import com.google.android.chimera.WebView;
 public final class jdc extends Fragment {
 
     /* renamed from: a */
-    public static final sek f22209a = jdh.m16547a("WebViewFragment");
+    public static final Logger f22209a = jdh.m16547a("WebViewFragment");
 
     /* renamed from: b */
     public jcw f22210b;

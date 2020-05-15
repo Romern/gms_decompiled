@@ -36,7 +36,7 @@ public class SignInPassword extends AbstractSafeParcelable {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.String, java.lang.Object):void */
     public SignInPassword(String str, String str2) {
-        sdo.m34966a((Object) str, (Object) "Account identifier cannot be null");
+        sdo.checkIfNull((Object) str, (Object) "Account identifier cannot be null");
         String trim = str.trim();
         sdo.m34969a(trim, (Object) "Account identifier cannot be empty");
         this.f10255a = trim;

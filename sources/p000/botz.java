@@ -22,7 +22,7 @@ public final class botz extends bxvg implements bxvh {
     static {
         botz botz = new botz();
         f134902c = botz;
-        bxvk.m124024a(botz.class, botz);
+        GeneratedMessageLite.m124024a(botz.class, botz);
     }
 
     private botz() {
@@ -44,7 +44,7 @@ public final class botz extends bxvg implements bxvh {
             this.f134906d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f134902c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f134902c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new botz();
         } else {

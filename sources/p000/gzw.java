@@ -18,7 +18,7 @@ final class gzw extends CountDownTimer {
 
     public final void onFinish() {
         gzz gzz = this.f19310a.f19314c;
-        sek sek = gzz.f19315d;
+        Logger Logger = gzz.f19315d;
         gzz.f19334w.mo2453l(1);
         this.f19310a.f19313b = SystemClock.elapsedRealtime();
     }

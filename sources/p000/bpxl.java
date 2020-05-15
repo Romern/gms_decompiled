@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpxl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpxl extends bxvk implements bxxd {
+public final class bpxl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpxl f139729c;
@@ -22,7 +22,7 @@ public final class bpxl extends bxvk implements bxxd {
     static {
         bpxl bpxl = new bpxl();
         f139729c = bpxl;
-        bxvk.m124024a(bpxl.class, bpxl);
+        GeneratedMessageLite.m124024a(bpxl.class, bpxl);
     }
 
     private bpxl() {
@@ -39,7 +39,7 @@ public final class bpxl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139729c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"d", "a", bpzv.f140115a, "b", bpzv.f140115a});
+            return GeneratedMessageLite.m124022a(f139729c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"d", "a", bpzv.f140115a, "b", bpzv.f140115a});
         } else if (i2 == 3) {
             return new bpxl();
         } else {

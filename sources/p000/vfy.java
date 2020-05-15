@@ -58,7 +58,7 @@ public final class vfy {
 
     /* renamed from: a */
     public final void mo28408a(Filter filter) {
-        sdo.m34966a(filter, "Filter may not be null.");
+        sdo.checkIfNull(filter, "Filter may not be null.");
         if (!(filter instanceof MatchAllFilter)) {
             this.f49213e.add(filter);
         }

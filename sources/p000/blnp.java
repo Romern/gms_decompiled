@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blnp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blnp extends bxvk implements bxxd {
+public final class blnp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final blnp f127015a;
@@ -22,7 +22,7 @@ public final class blnp extends bxvk implements bxxd {
     static {
         blnp blnp = new blnp();
         f127015a = blnp;
-        bxvk.m124024a(blnp.class, blnp);
+        GeneratedMessageLite.m124024a(blnp.class, blnp);
     }
 
     private blnp() {
@@ -43,7 +43,7 @@ public final class blnp extends bxvk implements bxxd {
             this.f127019d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127015a, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0001\u0002ᐉ\u0001", new Object[]{"b", "c"});
+            return GeneratedMessageLite.m124022a(f127015a, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0001\u0002ᐉ\u0001", new Object[]{"b", "c"});
         } else if (i2 == 3) {
             return new blnp();
         } else {

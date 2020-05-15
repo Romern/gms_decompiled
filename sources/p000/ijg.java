@@ -16,7 +16,7 @@ import java.util.concurrent.TimeoutException;
 public final class ijg {
 
     /* renamed from: h */
-    private static final sek f21097h = new sek("Enroller");
+    private static final Logger f21097h = new Logger("Enroller");
 
     /* renamed from: a */
     private final Account f21098a;
@@ -138,7 +138,7 @@ public final class ijg {
             bynz bynz2 = (bynz) a2.mo74062i();
             try {
                 ijh ijh = this.f21100c;
-                byte[] a3 = ifj.m15369a(ijh.f21105a, bysa.DEVICE_INFO_UPDATE, bynz2.mo73642k(), ijh.f21106b);
+                byte[] a3 = ifj.m15369a(ijh.f21105a, bysa.DEVICE_INFO_UPDATE, bynz2.serializeToBytes(), ijh.f21106b);
                 iib iib = new iib();
                 iib.f21050d = "gcmV1";
                 iib.f21052f.add(5);

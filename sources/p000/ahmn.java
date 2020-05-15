@@ -447,7 +447,7 @@ abstract class ahmn implements ahqi, ahnm, ahmy {
                             }
                         }
                         if ((buuc.f154924a & 16) != 0) {
-                            bArr = buuc.f154930h.mo73780k();
+                            bArr = buuc.f154930h.getKey();
                         } else {
                             bArr = buuc.f154926c.getBytes(ahkv.f67378a);
                         }
@@ -460,7 +460,7 @@ abstract class ahmn implements ahqi, ahnm, ahmy {
                         } else {
                             z = false;
                         }
-                        this.f67551h.put(buuc.f154925b, new ahmj(ahkv, bArr, ahna, buuc.f154928e, true, elapsedRealtime, buuc.f154927d.mo73780k(), ahkv.mo36723i(), null, (buub[]) new bxvv(buuc.f154929f, buuc.f154921g).toArray(new buub[0]), z));
+                        this.f67551h.put(buuc.f154925b, new ahmj(ahkv, bArr, ahna, buuc.f154928e, true, elapsedRealtime, buuc.f154927d.getKey(), ahkv.mo36723i(), null, (buub[]) new bxvv(buuc.f154929f, buuc.f154921g).toArray(new buub[0]), z));
                         ahmz ahmz = this.f67547d;
                         ahmz.f67591c.execute(new ahmu(ahmz, ahkv, buuc.f154925b, ahna, this));
                         return;

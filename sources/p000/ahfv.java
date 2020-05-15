@@ -9,8 +9,8 @@ public final class ahfv {
     /* renamed from: a */
     public final byte[] f67128a;
 
-    public ahfv(bxtx bxtx) {
-        this.f67128a = bxtx.mo73780k();
+    public ahfv(ByteString bxtx) {
+        this.f67128a = bxtx.getKey();
     }
 
     /* renamed from: a */

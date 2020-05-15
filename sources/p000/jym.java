@@ -10,7 +10,7 @@ import java.net.URISyntaxException;
 public final class jym {
 
     /* renamed from: a */
-    private static final sek f23532a = ght.m13171a("CookieReader");
+    private static final Logger f23532a = ght.m13171a("CookieReader");
 
     /* renamed from: b */
     private final CookieManager f23533b;

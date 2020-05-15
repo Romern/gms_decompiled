@@ -18,7 +18,7 @@ public final class cabp extends bxvd implements bxxd {
         cabq cabq2 = cabq.f172465b;
         cabo.getClass();
         if (!cabq.f172467a.mo73666a()) {
-            cabq.f172467a = bxvk.m124021a(cabq.f172467a);
+            cabq.f172467a = GeneratedMessageLite.m124021a(cabq.f172467a);
         }
         cabq.f172467a.add(cabo);
     }

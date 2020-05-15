@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bohi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bohi extends bxvk implements bxxd {
+public final class bohi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: A */
     private static volatile bxxk f133069A;
@@ -88,7 +88,7 @@ public final class bohi extends bxvk implements bxxd {
     static {
         bohi bohi = new bohi();
         f133070z = bohi;
-        bxvk.m124024a(bohi.class, bohi);
+        GeneratedMessageLite.m124024a(bohi.class, bohi);
     }
 
     private bohi() {
@@ -107,7 +107,7 @@ public final class bohi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133070z, "\u0001\u0018\u0000\u0001\u0001\u001a\u0018\u0000\u0005\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0004ဌ\u0003\u0005ဂ\u0004\u0006ဌ\u0005\u0007ဂ\u0006\bဇ\u0007\tဇ\b\nဇ\t\u000b\u001b\fဉ\n\r\u001b\u000e\u001b\u000f\u001b\u0010\u001b\u0011ဇ\u000b\u0012ဌ\f\u0013ဉ\r\u0014ဉ\u000e\u0016ဂ\u000f\u0017ဉ\u0010\u0018ဈ\u0011\u0019ဉ\u0012\u001aဉ\u0013", new Object[]{"a", "b", bohg.f133067a, "c", bohb.f133050a, "d", bohc.f133051a, "e", "f", bohe.f133057a, "g", "h", "i", "j", "k", boes.class, "l", "m", bogh.class, "n", bogt.class, "o", bogm.class, "p", bogi.class, "q", "r", bohh.f133068a, "s", "t", "u", "v", "w", "x", "y"});
+            return GeneratedMessageLite.m124022a(f133070z, "\u0001\u0018\u0000\u0001\u0001\u001a\u0018\u0000\u0005\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0004ဌ\u0003\u0005ဂ\u0004\u0006ဌ\u0005\u0007ဂ\u0006\bဇ\u0007\tဇ\b\nဇ\t\u000b\u001b\fဉ\n\r\u001b\u000e\u001b\u000f\u001b\u0010\u001b\u0011ဇ\u000b\u0012ဌ\f\u0013ဉ\r\u0014ဉ\u000e\u0016ဂ\u000f\u0017ဉ\u0010\u0018ဈ\u0011\u0019ဉ\u0012\u001aဉ\u0013", new Object[]{"a", "b", bohg.f133067a, "c", bohb.f133050a, "d", bohc.f133051a, "e", "f", bohe.f133057a, "g", "h", "i", "j", "k", boes.class, "l", "m", bogh.class, "n", bogt.class, "o", bogm.class, "p", bogi.class, "q", "r", bohh.f133068a, "s", "t", "u", "v", "w", "x", "y"});
         } else if (i2 == 3) {
             return new bohi();
         } else {
@@ -134,14 +134,14 @@ public final class bohi extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo68912b() {
         if (!this.f133086p.mo73666a()) {
-            this.f133086p = bxvk.m124021a(this.f133086p);
+            this.f133086p = GeneratedMessageLite.m124021a(this.f133086p);
         }
     }
 
     /* renamed from: a */
     public final void mo68911a() {
         if (!this.f133085o.mo73666a()) {
-            this.f133085o = bxvk.m124021a(this.f133085o);
+            this.f133085o = GeneratedMessageLite.m124021a(this.f133085o);
         }
     }
 }

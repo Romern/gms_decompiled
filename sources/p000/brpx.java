@@ -19,7 +19,7 @@ public final class brpx {
         sdo.m34977c(str);
         this.f143146a = str;
         try {
-            byte[] a = spo.m35904a(context, str, "SHA1");
+            byte[] a = spo.getPackageCertificateHash(context, str, "SHA1");
             if (a == null) {
                 String valueOf = String.valueOf(str);
                 Log.e("FBA-PackageInfo", valueOf.length() == 0 ? new String("single cert required: ") : "single cert required: ".concat(valueOf));

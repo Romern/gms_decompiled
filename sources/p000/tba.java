@@ -35,7 +35,7 @@ final class tba extends tdq {
         try {
             sza j = this.f45596d.mo17982j();
             ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity = this.f45596d;
-            sek sek = ConstellationSettingsChimeraActivity.f30536b;
+            Logger Logger = ConstellationSettingsChimeraActivity.f30536b;
             j.mo26257a(constellationSettingsChimeraActivity.f30537A, this.f45593a, this.f45594b);
             if (!this.f45593a) {
                 ConstellationSettingsChimeraActivity constellationSettingsChimeraActivity2 = this.f45596d;

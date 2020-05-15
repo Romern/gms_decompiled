@@ -67,7 +67,7 @@ public final class avmx {
     private static final avtk f93445K = new avtk("control.installation.auto_reboot_end_time", -1L);
 
     /* renamed from: a */
-    public static final sek f93446a = avpq.m79017d("InstallationControl");
+    public static final Logger f93446a = avpq.m79017d("InstallationControl");
 
     /* renamed from: b */
     public static final avto f93447b = new avto("control.installation.current_update_url", "");
@@ -541,7 +541,7 @@ public final class avmx {
                 ((avms) avms.f93422b.mo51589b()).mo51399a(111);
             }
             if (!mo51415e()) {
-                f93446a.mo25409a("Auto reboot not scheduled (probably because of expiry or device reboot).", new Object[0]);
+                f93446a.logVerbose("Auto reboot not scheduled (probably because of expiry or device reboot).", new Object[0]);
                 return;
             }
             int i = mo51414d().f109461c;
@@ -636,9 +636,9 @@ public final class avmx {
 
     /* renamed from: a */
     public final void mo51403a(int i, int i2) {
-        sek sek = f93446a;
+        Logger Logger = f93446a;
         Integer valueOf = Integer.valueOf(i);
-        sek.mo25414c("Update engine status updated to 0x%03X.", valueOf);
+        Logger.mo25414c("Update engine status updated to 0x%03X.", valueOf);
         if (((Integer) this.f93472k.mo51607b(f93460t)).intValue() != i || ((Integer) this.f93472k.mo51607b(f93461u)).intValue() != i2) {
             this.f93472k.mo51605a(f93460t.mo51602b(valueOf), f93461u.mo51602b(Integer.valueOf(i2)));
             this.f93468M.mo51399a(101);

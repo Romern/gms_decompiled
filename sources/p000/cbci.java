@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbci */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbci extends bxvk implements bxxd {
+public final class cbci extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbci f176653d;
@@ -22,7 +22,7 @@ public final class cbci extends bxvk implements bxxd {
     static {
         cbci cbci = new cbci();
         f176653d = cbci;
-        bxvk.m124024a(cbci.class, cbci);
+        GeneratedMessageLite.m124024a(cbci.class, cbci);
     }
 
     private cbci() {
@@ -39,7 +39,7 @@ public final class cbci extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176653d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\t\u0002\t\u0003\u0007", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f176653d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\t\u0002\t\u0003\u0007", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cbci();
         } else {

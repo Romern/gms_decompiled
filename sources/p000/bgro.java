@@ -71,7 +71,7 @@ final class bgro extends bgtf {
                 return false;
             }
             bgqc bgqc2 = (bgqc) bgpv2;
-            bxtx bxtx = (bxtx) bgqc2.f117266k.get();
+            ByteString bxtx = (ByteString) bgqc2.f117266k.get();
             if (bxtx.f164797b.equals(bxtx) || (c2 = bgqc2.mo63094c()) == null) {
                 return false;
             }

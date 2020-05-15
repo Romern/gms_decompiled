@@ -67,11 +67,11 @@ final class rau extends rle {
                     LogEventParcelable a = qwo.mo24321a();
                     cagi cagi = a.f30039j;
                     bxvd bxvd = (bxvd) cagi.mo74142c(5);
-                    bxvd.mo73625a((bxvk) cagi);
+                    bxvd.mo73625a((GeneratedMessageLite) cagi);
                     bxvf bxvf = (bxvf) bxvd;
                     if (a.f30040k != null) {
                         if (a.f30039j.f173106i.mo73744a() == 0) {
-                            bxtx a2 = bxtx.m123261a(a.f30040k.mo14930a());
+                            ByteString a2 = ByteString.m123261a(a.f30040k.mo14930a());
                             if (bxvf.f164950c) {
                                 bxvf.mo74035c();
                                 bxvf.f164950c = false;

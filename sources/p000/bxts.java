@@ -17,7 +17,7 @@ final class bxts {
     }
 
     /* renamed from: a */
-    public final bxtx mo73749a() {
+    public final ByteString mo73749a() {
         this.f164787a.mo73868d();
         return new bxtu(this.f164788b);
     }

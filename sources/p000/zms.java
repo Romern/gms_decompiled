@@ -176,18 +176,18 @@ final class zms implements ytv {
                     for (cadn cadn : arrayList3) {
                         currentTimeMillis = r1;
                         r1 = zbe3;
-                        bxtx bxtx = ((caaw) cadn.f172704d.get(0)).f172388h;
+                        ByteString bxtx = ((caaw) cadn.f172704d.get(0)).f172388h;
                         bxus c = bxus.m123744c();
                         cadh cadh = cadh.f172669j;
                         try {
                             bxuc h = bxtx.mo73764h();
-                            bxvk bxvk = (bxvk) cadh.mo74142c(4);
-                            bxxv a6 = bxxm.f165037a.mo74228a(bxvk);
-                            a6.mo74220a(bxvk, bxud.m123454a(h), c);
-                            a6.mo74225d(bxvk);
+                            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) cadh.mo74142c(4);
+                            bxxv a6 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                            a6.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                            a6.mo74225d(GeneratedMessageLite);
                             h.mo73787a(0);
-                            bxvk.m124027b(bxvk);
-                            arrayList4.add((cadh) bxvk);
+                            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                            arrayList4.add((cadh) GeneratedMessageLite);
                             zbe3 = r1;
                             r1 = currentTimeMillis;
                         } catch (IOException e4) {
@@ -265,7 +265,7 @@ final class zms implements ytv {
                                     z4 = false;
                                 }
                                 sdo.m34971a(z4, (Object) "Objective already set.");
-                                sdo.m34966a(durationObjective, "Attempting to use a null objective");
+                                sdo.checkIfNull(durationObjective, "Attempting to use a null objective");
                                 yxa.f54722e = 2;
                                 yxa.f54724g = durationObjective;
                             } else {
@@ -300,7 +300,7 @@ final class zms implements ytv {
                                 z3 = false;
                             }
                             sdo.m34971a(z3, (Object) "Objective already set.");
-                            sdo.m34966a(frequencyObjective, "Attempting to use a null objective");
+                            sdo.checkIfNull(frequencyObjective, "Attempting to use a null objective");
                             yxa.f54722e = 3;
                             yxa.f54725h = frequencyObjective;
                         } else if ((i3 & 64) != 0) {

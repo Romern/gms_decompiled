@@ -25,7 +25,7 @@ final class bqtc extends bqnq {
         if (b == 0) {
             b = 1;
         }
-        ECPrivateKey a = bqvm.m113477a(bqua.m113410b(b), bqrk.f141447c.mo73780k());
+        ECPrivateKey a = bqvm.m113477a(bqua.m113410b(b), bqrk.f141447c.getKey());
         bqrl bqrl2 = bqrk.f141446b;
         if (bqrl2 == null) {
             bqrl2 = bqrl.f141448e;

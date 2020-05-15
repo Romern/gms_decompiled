@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqco */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqco extends bxvk implements bxxd {
+public final class aqco extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final aqco f85682d;
@@ -22,7 +22,7 @@ public final class aqco extends bxvk implements bxxd {
     static {
         aqco aqco = new aqco();
         f85682d = aqco;
-        bxvk.m124024a(aqco.class, aqco);
+        GeneratedMessageLite.m124024a(aqco.class, aqco);
     }
 
     private aqco() {
@@ -39,7 +39,7 @@ public final class aqco extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85682d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002ဉ\u0000", new Object[]{"a", "b", aqcn.class, "c"});
+            return GeneratedMessageLite.m124022a(f85682d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002ဉ\u0000", new Object[]{"a", "b", aqcn.class, "c"});
         } else if (i2 == 3) {
             return new aqco();
         } else {

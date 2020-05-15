@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwrn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwrn extends bxvk implements bxxd {
+public final class bwrn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bwrn f160782a;
@@ -16,10 +16,10 @@ public final class bwrn extends bxvk implements bxxd {
     static {
         bwrn bwrn = new bwrn();
         f160782a = bwrn;
-        bxvk.m124024a(bwrn.class, bwrn);
+        GeneratedMessageLite.m124024a(bwrn.class, bwrn);
         bwny bwny = bwny.f160414k;
         bwrn bwrn2 = f160782a;
-        f160783b = bxvk.m124006a(bwny, bwrn2, bwrn2, 262235235, bxzf.MESSAGE);
+        f160783b = GeneratedMessageLite.m124006a(bwny, bwrn2, bwrn2, 262235235, bxzf.MESSAGE);
     }
 
     private bwrn() {
@@ -36,7 +36,7 @@ public final class bwrn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f160782a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f160782a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bwrn();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: avsw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class avsw extends bxvk implements bxxd {
+public final class avsw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final avsw f93866e;
@@ -25,7 +25,7 @@ public final class avsw extends bxvk implements bxxd {
     static {
         avsw avsw = new avsw();
         f93866e = avsw;
-        bxvk.m124024a(avsw.class, avsw);
+        GeneratedMessageLite.m124024a(avsw.class, avsw);
     }
 
     private avsw() {
@@ -42,7 +42,7 @@ public final class avsw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f93866e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002\u0007\u0003\t\u0004\t", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f93866e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002\u0007\u0003\t\u0004\t", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new avsw();
         } else {

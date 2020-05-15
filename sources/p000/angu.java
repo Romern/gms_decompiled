@@ -33,7 +33,7 @@ public abstract class angu extends aaab {
         cahp a2 = mo41825a();
         if (a2 != null) {
             bxvd bxvd = (bxvd) a2.mo74142c(5);
-            bxvd.mo73625a((bxvk) a2);
+            bxvd.mo73625a((GeneratedMessageLite) a2);
             caho caho = (caho) bxvd;
             int elapsedRealtime = (int) (SystemClock.elapsedRealtime() - j);
             if (caho.f164950c) {
@@ -64,7 +64,7 @@ public abstract class angu extends aaab {
             caig caig3 = (caig) a.f164949b;
             caig caig4 = caig.f174681k;
             if (!caig3.f174686d.mo73666a()) {
-                caig3.f174686d = bxvk.m124021a(caig3.f174686d);
+                caig3.f174686d = GeneratedMessageLite.m124021a(caig3.f174686d);
             }
             bxsy.m123078a(asList, caig3.f174686d);
         }
@@ -125,7 +125,7 @@ public abstract class angu extends aaab {
         } else {
             a.mo74062i();
         }
-        qwo a3 = anfd.m64146a().mo24335a(((caig) a.mo74062i()).mo73642k());
+        qwo a3 = anfd.m64146a().mo24335a(((caig) a.mo74062i()).serializeToBytes());
         a3.mo24328b(this.f76817b.f174680O);
         a3.mo24327b();
     }
@@ -239,7 +239,7 @@ public abstract class angu extends aaab {
         caih4.getClass();
         caig.f174688f = caih4;
         caig.f174683a |= 16;
-        qwo a3 = anfd.m64146a().mo24335a(((caig) a.mo74062i()).mo73642k());
+        qwo a3 = anfd.m64146a().mo24335a(((caig) a.mo74062i()).serializeToBytes());
         a3.mo24328b(31);
         a3.mo24327b();
     }

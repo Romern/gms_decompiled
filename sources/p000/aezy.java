@@ -20,7 +20,7 @@ public final class aezy {
     private static WeakReference f64067b;
 
     /* renamed from: e */
-    private static final sek f64068e = new sek(new String[]{"ClientConnectionManager"}, (int[]) null);
+    private static final Logger f64068e = new Logger(new String[]{"ClientConnectionManager"}, (int[]) null);
 
     /* renamed from: c */
     private final SharedPreferences f64069c;

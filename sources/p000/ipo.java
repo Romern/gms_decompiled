@@ -23,7 +23,7 @@ public final class ipo implements eia, isv {
     static final byte[] f21518a = "hashedPk".getBytes(Charset.forName("UTF-8"));
 
     /* renamed from: c */
-    public static final sek f21519c = new sek(new String[]{"CryptauthDatabaseOperation"}, (byte[]) null);
+    public static final Logger f21519c = new Logger(new String[]{"CryptauthDatabaseOperation"}, (byte[]) null);
 
     /* renamed from: b */
     public final Context f21520b;
@@ -273,18 +273,18 @@ public final class ipo implements eia, isv {
                                 strArr2[1] = str;
                                 strArr2[2] = Integer.toString(ehc.f14909e);
                                 if (sQLiteDatabase2.delete("keys", "key_name = ? AND account = ? AND key_form = ?", strArr2) > 0) {
-                                    sek sek = f21519c;
+                                    Logger Logger = f21519c;
                                     Object[] objArr = new Object[2];
                                     objArr[i2] = "PublicKey";
                                     objArr[1] = str;
-                                    sek.mo25412b("No rows found for [key=%s account=%s]", objArr);
+                                    Logger.mo25412b("No rows found for [key=%s account=%s]", objArr);
                                     ehr = null;
                                 } else {
-                                    sek sek2 = f21519c;
+                                    Logger logger2 = f21519c;
                                     Object[] objArr2 = new Object[2];
                                     objArr2[i2] = "PublicKey";
                                     objArr2[1] = str;
-                                    sek2.mo25412b("Deleted corrupted keys [key=%s account=%s]", objArr2);
+                                    logger2.mo25412b("Deleted corrupted keys [key=%s account=%s]", objArr2);
                                     ehr = null;
                                 }
                                 sQLiteDatabase.setTransactionSuccessful();
@@ -492,9 +492,9 @@ public final class ipo implements eia, isv {
                                 if (((Boolean) ipl.f21505o.mo58455c()).booleanValue()) {
                                     if ("PublicKey".equals(i)) {
                                         byte[] b = bnzi.m110896a().mo68722a(m15820b(a2)).mo68740b();
-                                        bxtx a3 = bxtx.m123261a(f21518a);
-                                        a3.mo73770a(bxtx.m123261a(b));
-                                        d = a3.mo73780k();
+                                        ByteString a3 = ByteString.m123261a(f21518a);
+                                        a3.mo73770a(ByteString.m123261a(b));
+                                        d = a3.getKey();
                                     }
                                 }
                                 ehc e = m15823e(a2);
@@ -575,9 +575,9 @@ public final class ipo implements eia, isv {
             try {
                 sQLiteDatabase = a.getWritableDatabase();
             } catch (SQLiteException e) {
-                sek sek = f21519c;
+                Logger Logger = f21519c;
                 String valueOf = String.valueOf(e.getMessage());
-                sek.mo25418e(valueOf.length() == 0 ? new String("failed to update key status ") : "failed to update key status ".concat(valueOf), new Object[0]);
+                Logger.mo25418e(valueOf.length() == 0 ? new String("failed to update key status ") : "failed to update key status ".concat(valueOf), new Object[0]);
                 return;
             }
         } else {
@@ -591,13 +591,13 @@ public final class ipo implements eia, isv {
                     ContentValues contentValues = new ContentValues();
                     m15818a(contentValues, (ehp) list2.get(i));
                     String d = sqd.m35972d(ehm2.mo10150a(i).f14976a);
-                    sek sek2 = f21519c;
+                    Logger logger2 = f21519c;
                     Object[] objArr = new Object[4];
                     objArr[c] = d;
                     objArr[1] = ehm2.f14979b;
                     objArr[2] = ehm2.f14978a;
                     objArr[3] = Integer.valueOf(((ehp) list2.get(i)).f14994e);
-                    sek2.mo25412b("Updating key status for key=%s, account=%s, name=%s to %d", objArr);
+                    logger2.mo25412b("Updating key status for key=%s, account=%s, name=%s to %d", objArr);
                     int update = sQLiteDatabase.update("keys", contentValues, "key_name = ? AND key_handle = ? AND account = ?", new String[]{ehm2.f14978a, d, ehm2.f14979b});
                     if (update > 1) {
                         f21519c.mo25418e("Too many rows (%d) updated for [key=%s handle=%s]", Integer.valueOf(update), ehm2.f14978a, d);

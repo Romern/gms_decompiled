@@ -43,7 +43,7 @@ final /* synthetic */ class yrr implements Callable {
         }
         cacm cacm = (cacm) da2.f164949b;
         if (!cacm.f172580a.mo73666a()) {
-            cacm.f172580a = bxvk.m124021a(cacm.f172580a);
+            cacm.f172580a = GeneratedMessageLite.m124021a(cacm.f172580a);
         }
         bxsy.m123078a(list, cacm.f172580a);
         if (da.f164950c) {
@@ -106,7 +106,7 @@ final /* synthetic */ class yrr implements Callable {
         if (cacm3 == null) {
             cacm3 = cacm.f172578b;
         }
-        Set a3 = zdm.m45334a(((cact) sgv.mo25513a(clientContext, 1, sb4, cacm3.mo73642k(), cact.f172620b)).f172622a);
+        Set a3 = zdm.m45334a(((cact) sgv.mo25513a(clientContext, 1, sb4, cacm3.serializeToBytes(), cact.f172620b)).f172622a);
         a.removeAll(a3);
         caba caba = (caba) cabb.f172405e.mo74144da();
         caba.mo74606b(a);

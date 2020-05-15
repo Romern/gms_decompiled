@@ -5,7 +5,7 @@ package p000;
 final class pjg {
 
     /* renamed from: a */
-    public bxtx f39342a = bxtx.f164797b;
+    public ByteString f39342a = ByteString.f164797b;
 
     /* renamed from: b */
     public final boolean f39343b;

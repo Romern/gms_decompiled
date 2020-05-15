@@ -226,7 +226,7 @@ public final class ahti {
                     bvew = bvew.f155805c;
                 }
                 bxvd bxvd2 = (bxvd) bvew.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bvew);
+                bxvd2.mo73625a((GeneratedMessageLite) bvew);
                 int i2 = bluetoothGattException.f111041a;
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
@@ -253,7 +253,7 @@ public final class ahti {
                     bveu = bveu.f155796d;
                 }
                 bxvd bxvd4 = (bxvd) bveu.mo74142c(5);
-                bxvd4.mo73625a((bxvk) bveu);
+                bxvd4.mo73625a((GeneratedMessageLite) bveu);
                 int i3 = createBondException.f111062b;
                 if (bxvd4.f164950c) {
                     bxvd4.mo74035c();
@@ -289,7 +289,7 @@ public final class ahti {
                     bvet = bvet.f155791d;
                 }
                 bxvd bxvd6 = (bxvd) bvet.mo74142c(5);
-                bxvd6.mo73625a((bxvk) bvet);
+                bxvd6.mo73625a((GeneratedMessageLite) bvet);
                 int i7 = connectException.f111060a;
                 if (bxvd6.f164950c) {
                     bxvd6.mo74035c();
@@ -321,7 +321,7 @@ public final class ahti {
                     bves = bves.f155787c;
                 }
                 bxvd bxvd8 = (bxvd) bves.mo74142c(5);
-                bxvd8.mo73625a((bxvk) bves);
+                bxvd8.mo73625a((GeneratedMessageLite) bves);
                 int i9 = ayqq.f98295a;
                 if (bxvd8.f164950c) {
                     bxvd8.mo74035c();

@@ -9,7 +9,7 @@ import com.google.android.gms.auth.managed.intentoperations.RevokePasswordRequir
 public final class jfv {
 
     /* renamed from: a */
-    private static final sek f22398a = ght.m13171a("AuthManaged", "PasswordComplexityCheckerImpl");
+    private static final Logger f22398a = ght.m13171a("AuthManaged", "PasswordComplexityCheckerImpl");
 
     /* renamed from: b */
     private static jfv f22399b;
@@ -51,11 +51,11 @@ public final class jfv {
     public final synchronized void mo13706a(Context context) {
         int a = this.f22400c.mo13746a();
         if (a != 1) {
-            sek sek = f22398a;
+            Logger Logger = f22398a;
             StringBuilder sb = new StringBuilder(40);
             sb.append("Device incompatible. Reason: ");
             sb.append(a);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
         } else if (!this.f22400c.mo13749a(context)) {
             f22398a.mo25416d("Device admin not active.", new Object[0]);
         } else {
@@ -69,11 +69,11 @@ public final class jfv {
         jfu jfu;
         int a = this.f22400c.mo13746a();
         if (a != 1) {
-            sek sek = f22398a;
+            Logger Logger = f22398a;
             StringBuilder sb = new StringBuilder(40);
             sb.append("Device incompatible. Reason: ");
             sb.append(a);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
         } else if (!this.f22400c.mo13749a(context)) {
             f22398a.mo25416d("Device admin not active.", new Object[0]);
         } else {

@@ -278,7 +278,7 @@ public final class awsg {
                             blzq = blzq.f128364p;
                         }
                         bxvd bxvd = (bxvd) blzq.mo74142c(5);
-                        bxvd.mo73625a((bxvk) blzq);
+                        bxvd.mo73625a((GeneratedMessageLite) blzq);
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;
@@ -353,7 +353,7 @@ public final class awsg {
                                 blzq5 = blzq.f128364p;
                             }
                             bxvd bxvd2 = (bxvd) blzq5.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) blzq5);
+                            bxvd2.mo73625a((GeneratedMessageLite) blzq5);
                             if (bxvd2.f164950c) {
                                 bxvd2.mo74035c();
                                 bxvd2.f164950c = false;
@@ -377,7 +377,7 @@ public final class awsg {
                                 blzq8 = blzq.f128364p;
                             }
                             bxvd bxvd3 = (bxvd) blzq8.mo74142c(5);
-                            bxvd3.mo73625a((bxvk) blzq8);
+                            bxvd3.mo73625a((GeneratedMessageLite) blzq8);
                             if (bxvd3.f164950c) {
                                 bxvd3.mo74035c();
                                 bxvd3.f164950c = false;
@@ -401,7 +401,7 @@ public final class awsg {
                             blze6.mo74035c();
                             blze6.f164950c = false;
                         }
-                        ((blzf) blze6.f164949b).f128345g = bxvk.m124028dc();
+                        ((blzf) blze6.f164949b).f128345g = GeneratedMessageLite.m124028dc();
                         blze6.mo66774a(Arrays.asList(IbBuyFlowInput.m94106a(maskedWalletRequest.f109867l, maskedWalletRequest.f109868m, maskedWalletRequest.f109871p, a3.mo60006n())));
                         a3.mo59986b(this.f95013b);
                         if (a3.mo60006n() == 3) {
@@ -412,7 +412,7 @@ public final class awsg {
                         }
                         bwgu a9 = awrt.m80817a(this.f95015d.mo52470a(string));
                         bxvd bxvd4 = (bxvd) a9.mo74142c(5);
-                        bxvd4.mo73625a((bxvk) a9);
+                        bxvd4.mo73625a((GeneratedMessageLite) a9);
                         boolean a10 = awrt.m80853a(this.f95020i);
                         if (bxvd4.f164950c) {
                             bxvd4.mo74035c();

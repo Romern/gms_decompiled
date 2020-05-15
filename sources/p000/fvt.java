@@ -101,7 +101,7 @@ public final class fvt extends sji {
                     }
                     bzgn bzgn3 = (bzgn) da.f164949b;
                     if (!bzgn3.f169957c.mo73666a()) {
-                        bzgn3.f169957c = bxvk.m124021a(bzgn3.f169957c);
+                        bzgn3.f169957c = GeneratedMessageLite.m124021a(bzgn3.f169957c);
                     }
                     bxsy.m123078a(arrayList, bzgn3.f169957c);
                 }
@@ -127,7 +127,7 @@ public final class fvt extends sji {
                         }
                         bzgn bzgn4 = (bzgn) da.f164949b;
                         if (!bzgn4.f169958d.mo73666a()) {
-                            bzgn4.f169958d = bxvk.m124021a(bzgn4.f169958d);
+                            bzgn4.f169958d = GeneratedMessageLite.m124021a(bzgn4.f169958d);
                         }
                         bxsy.m123078a(arrayList2, bzgn4.f169958d);
                     }

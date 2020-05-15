@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brci */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brci extends bxvk implements bxxd {
+public final class brci extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final brci f142378g;
@@ -31,7 +31,7 @@ public final class brci extends bxvk implements bxxd {
     static {
         brci brci = new brci();
         f142378g = brci;
-        bxvk.m124024a(brci.class, brci);
+        GeneratedMessageLite.m124024a(brci.class, brci);
     }
 
     private brci() {
@@ -48,7 +48,7 @@ public final class brci extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142378g, "\u0001\u0005\u0000\u0001\u0001\t\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဈ\u0004\u0004ဈ\u0006\u0006ဈ\u0002\tဈ\u0005", new Object[]{"a", "b", "d", "f", "c", "e"});
+            return GeneratedMessageLite.m124022a(f142378g, "\u0001\u0005\u0000\u0001\u0001\t\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဈ\u0004\u0004ဈ\u0006\u0006ဈ\u0002\tဈ\u0005", new Object[]{"a", "b", "d", "f", "c", "e"});
         } else if (i2 == 3) {
             return new brci();
         } else {

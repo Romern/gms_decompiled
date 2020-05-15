@@ -16,7 +16,7 @@ public final class bqyl extends bxvd implements bxxd {
         bqym bqym = (bqym) this.f164949b;
         bqym bqym2 = bqym.f141963b;
         if (!bqym.f141965a.mo73666a()) {
-            bqym.f141965a = bxvk.m124019a(bqym.f141965a);
+            bqym.f141965a = GeneratedMessageLite.m124019a(bqym.f141965a);
         }
         bqym.f141965a.mo74153d(i);
     }

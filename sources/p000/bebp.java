@@ -35,6 +35,6 @@ public final class bebp extends bebl {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final void mo28335a(bkxr bkxr) {
-        this.f106874b.mo24335a(bkxr.mo73642k()).mo24327b().mo9458a(bebn.f106872a);
+        this.f106874b.mo24335a(bkxr.serializeToBytes()).mo24327b().mo9458a(bebn.f106872a);
     }
 }

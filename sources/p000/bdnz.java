@@ -409,7 +409,7 @@ public final class bdnz implements bdkj, bdez {
                                 ciny = ciny.f191008f;
                             }
                             bxvd bxvd = (bxvd) ciny.mo74142c(5);
-                            bxvd.mo73625a((bxvk) ciny);
+                            bxvd.mo73625a((GeneratedMessageLite) ciny);
                             ciny ciny2 = (ciny) bxvd.f164949b;
                             if ((ciny2.f191010a & 2) != 0) {
                                 long j13 = ciny2.f191012c - longValue2;
@@ -460,7 +460,7 @@ public final class bdnz implements bdkj, bdez {
                                 ciny9 = ciny.f191008f;
                             }
                             bxvd bxvd2 = (bxvd) ciny9.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) ciny9);
+                            bxvd2.mo73625a((GeneratedMessageLite) ciny9);
                             ciny ciny10 = (ciny) bxvd2.f164949b;
                             if ((ciny10.f191010a & 2) != 0) {
                                 long j16 = ciny10.f191012c - longValue2;

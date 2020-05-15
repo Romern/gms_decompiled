@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public final class qfw extends qfu {
 
     /* renamed from: a */
-    private static final sek f41136a = qgn.m32143a("NetworkBackoffDelayComputer");
+    private static final Logger f41136a = qgn.m32143a("NetworkBackoffDelayComputer");
 
     /* renamed from: b */
     private final Object f41137b = new Object();

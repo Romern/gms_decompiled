@@ -14,7 +14,7 @@ public final class izs {
     public static final izs f22010a = new izs();
 
     /* renamed from: b */
-    private static final sek f22011b = jdh.m16547a("SignedCertificatesCache");
+    private static final Logger f22011b = jdh.m16547a("SignedCertificatesCache");
 
     /* renamed from: c */
     private static final File m16381c(Context context) {
@@ -38,7 +38,7 @@ public final class izs {
             try {
                 byte[] readAllBytes = Files.readAllBytes(c.toPath());
                 try {
-                    jib jib = (jib) bxvk.m124016a(jib.f22535e, readAllBytes, bxus.m123744c());
+                    jib jib = (jib) GeneratedMessageLite.m124016a(jib.f22535e, readAllBytes, bxus.m123744c());
                     if (jib.f22538b.mo73779j()) {
                         f22011b.mo25418e("Cached certificates list was empty", new Object[0]);
                         return bmvz.f131120a;

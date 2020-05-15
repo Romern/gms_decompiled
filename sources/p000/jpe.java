@@ -9,7 +9,7 @@ import java.util.List;
 public final class jpe {
 
     /* renamed from: a */
-    private static final sek f22967a = jsy.m17256a("FeatureUtils");
+    private static final Logger f22967a = jsy.m17256a("FeatureUtils");
 
     /* renamed from: a */
     public static boolean m17064a(Context context) {

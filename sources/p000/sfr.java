@@ -53,7 +53,7 @@ public final class sfr {
             z = false;
         }
         sdo.m34975b(z, "Calling UID is not available.");
-        sdo.m34966a((Object) this.f44145d.f30215e, (Object) "Calling package name is not available.");
+        sdo.checkIfNull((Object) this.f44145d.f30215e, (Object) "Calling package name is not available.");
     }
 
     /* renamed from: a */

@@ -311,7 +311,7 @@ public final class axau extends bkdx implements bkfe, bkei, bjwp, bkda, bkfv {
             }
             bmqf bmqf2 = (bmqf) this.f124069w;
             bxvd bxvd = (bxvd) bmqf2.mo74142c(5);
-            bxvd.mo73625a((bxvk) bmqf2);
+            bxvd.mo73625a((GeneratedMessageLite) bmqf2);
             bmqf bmqf3 = (bmqf) this.f124069w;
             if (bmqf3.f130373b == 7) {
                 bmpl2 = (bmpl) bmqf3.f130374c;
@@ -319,13 +319,13 @@ public final class axau extends bkdx implements bkfe, bkei, bjwp, bkda, bkfv {
                 bmpl2 = bmpl.f130314g;
             }
             bxvd bxvd2 = (bxvd) bmpl2.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bmpl2);
+            bxvd2.mo73625a((GeneratedMessageLite) bmpl2);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
             }
             bmpl bmpl5 = bmpl.f130314g;
-            ((bmpl) bxvd2.f164949b).f130317b = bxvk.m124030de();
+            ((bmpl) bxvd2.f164949b).f130317b = GeneratedMessageLite.m124030de();
             String str4 = A.f158974d;
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
@@ -336,7 +336,7 @@ public final class axau extends bkdx implements bkfe, bkei, bjwp, bkda, bkfv {
             bmpl6.f130316a = 1 | bmpl6.f130316a;
             bmpl6.f130318c = str4;
             if (!bmpl6.f130317b.mo73666a()) {
-                bmpl6.f130317b = bxvk.m124021a(bmpl6.f130317b);
+                bmpl6.f130317b = GeneratedMessageLite.m124021a(bmpl6.f130317b);
             }
             bxsy.m123078a(arrayList, bmpl6.f130317b);
             if (bxvd.f164950c) {
@@ -508,7 +508,7 @@ public final class axau extends bkdx implements bkfe, bkei, bjwp, bkda, bkfv {
         }
         bmqf bmqf2 = (bmqf) this.f124069w;
         if ((bmqf2.f130372a & 512) != 0 && bmqf2.f130385n.mo73744a() > 0) {
-            bxtx bxtx = ((bmqf) this.f124069w).f130385n;
+            ByteString bxtx = ((bmqf) this.f124069w).f130385n;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

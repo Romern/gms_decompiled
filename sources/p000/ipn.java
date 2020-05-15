@@ -19,13 +19,13 @@ public final class ipn {
     public final Context f21516d;
 
     /* renamed from: e */
-    public final sek f21517e;
+    public final Logger f21517e;
 
-    public ipn(byte[] bArr, byte[] bArr2, xed xed, Context context, sek sek) {
+    public ipn(byte[] bArr, byte[] bArr2, xed xed, Context context, Logger Logger) {
         this.f21513a = bArr;
         this.f21514b = bArr2;
         this.f21515c = xed;
         this.f21516d = context;
-        this.f21517e = sek;
+        this.f21517e = Logger;
     }
 }

@@ -34,7 +34,7 @@ public final class ena {
     /* renamed from: a */
     public static X509Certificate m10749a(Signature signature) {
         try {
-            return (X509Certificate) CertificateFactory.getInstance("X509").generateCertificate(bxtx.m123261a(signature.toByteArray()).mo73763g());
+            return (X509Certificate) CertificateFactory.getInstance("X509").generateCertificate(ByteString.m123261a(signature.toByteArray()).mo73763g());
         } catch (CertificateException e) {
             Log.e("DynamicModuleDownloader", "Cannot decode certificate.");
             return null;

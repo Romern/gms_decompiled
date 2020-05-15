@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btik */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btik extends bxvk implements bxxd {
+public final class btik extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btik f148985c;
@@ -19,7 +19,7 @@ public final class btik extends bxvk implements bxxd {
     static {
         btik btik = new btik();
         f148985c = btik;
-        bxvk.m124024a(btik.class, btik);
+        GeneratedMessageLite.m124024a(btik.class, btik);
     }
 
     private btik() {
@@ -36,7 +36,7 @@ public final class btik extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148985c, "\u0000\u0002\u0000\u0000\u0002\u0003\u0002\u0001\u0001\u0000\u0002\u001b\u00032", new Object[]{"a", bthy.class, "b", btij.f148984a});
+            return GeneratedMessageLite.m124022a(f148985c, "\u0000\u0002\u0000\u0000\u0002\u0003\u0002\u0001\u0001\u0000\u0002\u001b\u00032", new Object[]{"a", bthy.class, "b", btij.f148984a});
         } else if (i2 == 3) {
             return new btik();
         } else {

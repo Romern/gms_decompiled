@@ -99,7 +99,7 @@ final class slj implements srl {
                 }
                 bpty bpty7 = (bpty) da.f164949b;
                 if (!bpty7.f139209h.mo73666a()) {
-                    bpty7.f139209h = bxvk.m124021a(bpty7.f139209h);
+                    bpty7.f139209h = GeneratedMessageLite.m124021a(bpty7.f139209h);
                 }
                 bxsy.m123078a(asList, bpty7.f139209h);
             }

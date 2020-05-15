@@ -21,7 +21,7 @@ public final class atap extends bxvd implements bxxd {
         ataq ataq = (ataq) this.f164949b;
         ataq ataq2 = ataq.f89963f;
         if (!ataq.f89967c.mo73666a()) {
-            ataq.f89967c = bxvk.m124021a(ataq.f89967c);
+            ataq.f89967c = GeneratedMessageLite.m124021a(ataq.f89967c);
         }
         bxsy.m123078a(iterable, ataq.f89967c);
     }

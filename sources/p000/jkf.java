@@ -12,7 +12,7 @@ import com.google.android.gms.auth.proximity.Role;
 public final class jkf {
 
     /* renamed from: a */
-    public static final sek f22700a = jsy.m17256a("ChannelServices");
+    public static final Logger f22700a = jsy.m17256a("ChannelServices");
 
     /* renamed from: b */
     private static final String[] f22701b = {"com.google.android.gms.auth.proximity.BleCentralService", "com.google.android.gms.auth.proximity.BlePeripheralService"};

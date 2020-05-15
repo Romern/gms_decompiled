@@ -21,7 +21,7 @@ public final class ajae {
     /* renamed from: a */
     public final byte[] mo38353a() {
         String str = this.f70222b;
-        return str == null ? this.f70221a.mo73642k() : str.getBytes();
+        return str == null ? this.f70221a.serializeToBytes() : str.getBytes();
     }
 
     public final boolean equals(Object obj) {

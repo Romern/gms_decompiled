@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmec */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmec extends bxvk implements bxxd {
+public final class bmec extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmec f128911c;
@@ -19,7 +19,7 @@ public final class bmec extends bxvk implements bxxd {
     static {
         bmec bmec = new bmec();
         f128911c = bmec;
-        bxvk.m124024a(bmec.class, bmec);
+        GeneratedMessageLite.m124024a(bmec.class, bmec);
     }
 
     private bmec() {
@@ -36,7 +36,7 @@ public final class bmec extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128911c, "\u0001\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000", new Object[]{"b", "a", bmeg.class, bmdy.class});
+            return GeneratedMessageLite.m124022a(f128911c, "\u0001\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000", new Object[]{"b", "a", bmeg.class, bmdy.class});
         } else if (i2 == 3) {
             return new bmec();
         } else {

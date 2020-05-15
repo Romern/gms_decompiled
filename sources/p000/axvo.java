@@ -212,7 +212,7 @@ final class axvo extends axvn {
                                                         ayej ayej3 = (ayej) da.mo74062i();
                                                         ayen i10 = axvx.mo53652i();
                                                         bxvd = (bxvd) i10.mo74142c(5);
-                                                        bxvd.mo73625a((bxvk) i10);
+                                                        bxvd.mo73625a((GeneratedMessageLite) i10);
                                                         if (!bxvd.f164950c) {
                                                             bxvd.mo74035c();
                                                             bxvd.f164950c = false;
@@ -266,7 +266,7 @@ final class axvo extends axvn {
                                                 ayej ayej32 = (ayej) da.mo74062i();
                                                 ayen i102 = axvx.mo53652i();
                                                 bxvd = (bxvd) i102.mo74142c(5);
-                                                bxvd.mo73625a((bxvk) i102);
+                                                bxvd.mo73625a((GeneratedMessageLite) i102);
                                                 if (!bxvd.f164950c) {
                                                 }
                                                 ayen ayen3 = (ayen) bxvd.f164949b;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mpr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mpr extends bxvk implements bxxd {
+public final class mpr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final mpr f34208f;
@@ -28,7 +28,7 @@ public final class mpr extends bxvk implements bxxd {
     static {
         mpr mpr = new mpr();
         f34208f = mpr;
-        bxvk.m124024a(mpr.class, mpr);
+        GeneratedMessageLite.m124024a(mpr.class, mpr);
     }
 
     private mpr() {
@@ -45,7 +45,7 @@ public final class mpr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34208f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f34208f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new mpr();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqif */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqif extends bxvk implements bxxd {
+public final class bqif extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bqif f140792c;
@@ -19,7 +19,7 @@ public final class bqif extends bxvk implements bxxd {
     static {
         bqif bqif = new bqif();
         f140792c = bqif;
-        bxvk.m124024a(bqif.class, bqif);
+        GeneratedMessageLite.m124024a(bqif.class, bqif);
     }
 
     private bqif() {
@@ -36,7 +36,7 @@ public final class bqif extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f140792c, "\u0000\u0002\u0001\u0000\u0003\u0004\u0002\u0000\u0000\u0000\u0003<\u0000\u0004<\u0000", new Object[]{"b", "a", bqhv.class, bqhw.class});
+            return GeneratedMessageLite.m124022a(f140792c, "\u0000\u0002\u0001\u0000\u0003\u0004\u0002\u0000\u0000\u0000\u0003<\u0000\u0004<\u0000", new Object[]{"b", "a", bqhv.class, bqhw.class});
         } else if (i2 == 3) {
             return new bqif();
         } else {

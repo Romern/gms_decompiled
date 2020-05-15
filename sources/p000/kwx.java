@@ -21,7 +21,7 @@ public final class kwx implements Parcelable.Creator {
         try {
             byte[] createByteArray = parcel.createByteArray();
             if (createByteArray != null) {
-                kzx = (kzx) bxvk.m124014a(kzx.f25494d, createByteArray);
+                kzx = (kzx) GeneratedMessageLite.m124014a(kzx.f25494d, createByteArray);
             }
         } catch (bxwf e) {
         }
@@ -29,7 +29,7 @@ public final class kwx implements Parcelable.Creator {
         try {
             byte[] createByteArray2 = parcel.createByteArray();
             if (createByteArray2 != null) {
-                lbh = (lbh) bxvk.m124014a(lbh.f25725b, createByteArray2);
+                lbh = (lbh) GeneratedMessageLite.m124014a(lbh.f25725b, createByteArray2);
             }
         } catch (bxwf e2) {
         }

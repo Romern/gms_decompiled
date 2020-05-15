@@ -54,7 +54,7 @@ public class DriveId extends AbstractSafeParcelable implements ReflectedParcelab
         String valueOf = String.valueOf(str);
         sdo.m34975b(startsWith, valueOf.length() == 0 ? new String("Invalid DriveId: ") : "Invalid DriveId: ".concat(valueOf));
         try {
-            utw utw = (utw) bxvk.m124016a(utw.f48643g, Base64.decode(str.substring(8), 10), bxus.m123744c());
+            utw utw = (utw) GeneratedMessageLite.m124016a(utw.f48643g, Base64.decode(str.substring(8), 10), bxus.m123744c());
             if (!"".equals(utw.f48647c)) {
                 str2 = utw.f48647c;
             } else {

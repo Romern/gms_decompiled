@@ -10,7 +10,7 @@ import com.google.android.gms.common.api.Status;
 public final class itt extends aaab {
 
     /* renamed from: f */
-    private static final sek f21715f = new sek(new String[]{"HmacOperation"}, (byte[]) null);
+    private static final Logger f21715f = new Logger(new String[]{"HmacOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final irk f21716a;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amkz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amkz extends bxvk implements bxxd {
+public final class amkz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final amkz f75139f;
@@ -28,7 +28,7 @@ public final class amkz extends bxvk implements bxxd {
     static {
         amkz amkz = new amkz();
         f75139f = amkz;
-        bxvk.m124024a(amkz.class, amkz);
+        GeneratedMessageLite.m124024a(amkz.class, amkz);
     }
 
     private amkz() {
@@ -46,7 +46,7 @@ public final class amkz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75139f, "\u0001\u0004\u0000\u0001\u0001\u0006\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001\u0005ဂ\u0004\u0006ဌ\u0005", new Object[]{"a", "b", amjg.f74995a, "c", "d", "e", amjh.f74996a});
+            return GeneratedMessageLite.m124022a(f75139f, "\u0001\u0004\u0000\u0001\u0001\u0006\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001\u0005ဂ\u0004\u0006ဌ\u0005", new Object[]{"a", "b", amjg.f74995a, "c", "d", "e", amjh.f74996a});
         } else if (i2 == 3) {
             return new amkz();
         } else {

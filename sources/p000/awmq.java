@@ -98,7 +98,7 @@ public final class awmq extends awzg implements axai, bkio {
             a.getClass();
             bmrj.f130507b = a;
             bmrj.f130506a = 1 | bmrj.f130506a;
-            bxtx a2 = bxtx.m123261a(this.f94623b);
+            ByteString a2 = ByteString.m123261a(this.f94623b);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -205,7 +205,7 @@ public final class awmq extends awzg implements axai, bkio {
     public final void onCreate(Bundle bundle) {
         bmaq bmaq;
         bmav bmav;
-        bxtx bxtx;
+        ByteString bxtx;
         bmkw bmkw;
         super.onCreate(bundle);
         Bundle arguments = getArguments();
@@ -288,11 +288,11 @@ public final class awmq extends awzg implements axai, bkio {
                     bmag = bmag.f128442c;
                 }
                 if (bmag.f128444a == 2) {
-                    bxtx = (bxtx) bmag.f128445b;
+                    bxtx = (ByteString) bmag.f128445b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
-                bArr = bxtx.mo73780k();
+                bArr = bxtx.getKey();
             }
             idCreditFragment$IdCreditPageDetails.f110466o = new IdCreditResult(bArr);
             idCreditFragment$IdCreditPageDetails.f110452a = false;
@@ -425,7 +425,7 @@ public final class awmq extends awzg implements axai, bkio {
             if (bmdn2 == null) {
                 bmdn2 = bmdn.f128831k;
             }
-            bxtx bxtx = bmdn2.f128836d;
+            ByteString bxtx = bmdn2.f128836d;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -436,7 +436,7 @@ public final class awmq extends awzg implements axai, bkio {
             bmfc2.f129069c = bxtx;
             byte[] bArr2 = axaj.f95520d;
             if (bArr2 != null) {
-                bxtx a3 = bxtx.m123261a(bArr2);
+                ByteString a3 = bxtx.m123261a(bArr2);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -444,7 +444,7 @@ public final class awmq extends awzg implements axai, bkio {
                 bmfc bmfc3 = (bmfc) da.f164949b;
                 a3.getClass();
                 if (!bmfc3.f129070d.mo73666a()) {
-                    bmfc3.f129070d = bxvk.m124021a(bmfc3.f129070d);
+                    bmfc3.f129070d = GeneratedMessageLite.m124021a(bmfc3.f129070d);
                 }
                 bmfc3.f129070d.add(a3);
             }
@@ -479,7 +479,7 @@ public final class awmq extends awzg implements axai, bkio {
         }
         bmrm.mo66806a(Arrays.asList(arrayList.size() != 0 ? (String[]) arrayList.toArray(new String[arrayList.size()]) : new String[0]));
         if (bArr != null) {
-            bxtx a4 = bxtx.m123261a(bArr);
+            ByteString a4 = ByteString.m123261a(bArr);
             if (bmrm.f164950c) {
                 bmrm.mo74035c();
                 bmrm.f164950c = false;
@@ -517,7 +517,7 @@ public final class awmq extends awzg implements axai, bkio {
     public final /* bridge */ /* synthetic */ Object mo52064d(Object obj) {
         bmrl bmrl = (bmrl) obj;
         bxvd bxvd = (bxvd) bmrl.mo74142c(5);
-        bxvd.mo73625a((bxvk) bmrl);
+        bxvd.mo73625a((GeneratedMessageLite) bmrl);
         bmlz h = mo51924h();
         if (bxvd.f164950c) {
             bxvd.mo74035c();
@@ -653,7 +653,7 @@ public final class awmq extends awzg implements axai, bkio {
                 bmrm.mo66806a(bmrn.f130548d);
             }
             if (bArr != null) {
-                bxtx a = bxtx.m123261a(bArr);
+                ByteString a = ByteString.m123261a(bArr);
                 if (bmrm.f164950c) {
                     bmrm.mo74035c();
                     bmrm.f164950c = false;
@@ -836,7 +836,7 @@ public final class awmq extends awzg implements axai, bkio {
         if (((Integer) this.f95374R.mo15534a(j)).intValue() == 6) {
             bmrl bmrl = (bmrl) this.f95397aj;
             bxvd bxvd = (bxvd) bmrl.mo74142c(5);
-            bxvd.mo73625a((bxvk) bmrl);
+            bxvd.mo73625a((GeneratedMessageLite) bmrl);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -845,7 +845,7 @@ public final class awmq extends awzg implements axai, bkio {
             bmrl bmrl3 = bmrl.f130520u;
             bxxc.getClass();
             if (!bmrl2.f130531j.mo73666a()) {
-                bmrl2.f130531j = bxvk.m124021a(bmrl2.f130531j);
+                bmrl2.f130531j = GeneratedMessageLite.m124021a(bmrl2.f130531j);
             }
             bmrl2.f130531j.set(intValue, bxxc);
             this.f95397aj = bxvd.mo74062i();
@@ -869,7 +869,7 @@ public final class awmq extends awzg implements axai, bkio {
         bmmp bmmp2;
         int i;
         bmmp bmmp3;
-        bxtx bxtx;
+        ByteString bxtx;
         int a = bmmb.m108166a(bmmv.f130058d);
         if (a == 0) {
             a = 1;
@@ -902,7 +902,7 @@ public final class awmq extends awzg implements axai, bkio {
             } else {
                 bmmp2 = bmmp.f130032e;
             }
-            byte[] k = bmmp2.f130037d.mo73780k();
+            byte[] k = bmmp2.f130037d.getKey();
             mo52808n(false);
             axaj axaj = (axaj) mo52884b(10, axaj.class);
             if (axaj == null || (i = axaj.f95517a) == 3 || i == 5) {
@@ -945,11 +945,11 @@ public final class awmq extends awzg implements axai, bkio {
                         bmag = bmag.f128442c;
                     }
                     if (bmag.f128444a == 2) {
-                        bxtx = (bxtx) bmag.f128445b;
+                        bxtx = (ByteString) bmag.f128445b;
                     } else {
                         bxtx = bxtx.f164797b;
                     }
-                    pageDetails.f110466o = new IdCreditResult(bxtx.mo73780k());
+                    pageDetails.f110466o = new IdCreditResult(bxtx.getKey());
                 }
             }
             mo52873af();
@@ -961,7 +961,7 @@ public final class awmq extends awzg implements axai, bkio {
     /* renamed from: a */
     public final void mo52279a(bmrl bmrl, List list, bwgz bwgz, bmav bmav, bmaq bmaq, bmar bmar, long j, bmag bmag, boolean z, String str) {
         int i;
-        bxtx bxtx;
+        ByteString bxtx;
         bmkw bmkw;
         bmrl bmrl2 = bmrl;
         bmav bmav2 = bmav;
@@ -1001,11 +1001,11 @@ public final class awmq extends awzg implements axai, bkio {
         idCreditFragment$IdCreditPageDetails.f110467p = bmar;
         if (bmag2 != null) {
             if (bmag2.f128444a == 2) {
-                bxtx = (bxtx) bmag2.f128445b;
+                bxtx = (ByteString) bmag2.f128445b;
             } else {
                 bxtx = bxtx.f164797b;
             }
-            bArr = bxtx.mo73780k();
+            bArr = bxtx.getKey();
         }
         idCreditFragment$IdCreditPageDetails.f110466o = new IdCreditResult(bArr);
         if (j2 > 0) {

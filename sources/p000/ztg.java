@@ -516,7 +516,7 @@ public final class ztg extends srp {
                             Long valueOf = Long.valueOf(a7);
                             contentValues2.put("_id", valueOf);
                             contentValues2.put(str18, caah2.f172336b);
-                            contentValues2.put("proto", caah2.mo73642k());
+                            contentValues2.put("proto", caah2.serializeToBytes());
                             sQLiteDatabase2.insertOrThrow(str62, null, contentValues2);
                             hashMap.put(caah2.f172336b, valueOf);
                             i4++;
@@ -539,7 +539,7 @@ public final class ztg extends srp {
                                 str20 = str64;
                                 contentValues3.put(str20, (Long) hashMap.get(caah3.f172336b));
                                 contentValues3.put("identifier", caae.f172326b);
-                                contentValues3.put("proto", caae.mo73642k());
+                                contentValues3.put("proto", caae.serializeToBytes());
                                 sQLiteDatabase2.insertOrThrow("DataSources", null, contentValues3);
                                 hashMap2.put(caae.f172326b, valueOf2);
                                 str21 = str10;
@@ -1434,7 +1434,7 @@ public final class ztg extends srp {
                                                     Long valueOf = Long.valueOf(a7);
                                                     contentValues3.put(str49, valueOf);
                                                     contentValues3.put(str75, caah3.f172336b);
-                                                    contentValues3.put(str83, caah3.mo73642k());
+                                                    contentValues3.put(str83, caah3.serializeToBytes());
                                                     sQLiteDatabase2.insertOrThrow(str86, null, contentValues3);
                                                     hashMap2.put(caah3.f172336b, valueOf);
                                                     i13++;
@@ -1459,7 +1459,7 @@ public final class ztg extends srp {
                                                         str23 = str84;
                                                         contentValues4.put(str23, (Long) hashMap2.get(caah4.f172336b));
                                                         contentValues4.put("identifier", caae.f172326b);
-                                                        contentValues4.put(str99, caae.mo73642k());
+                                                        contentValues4.put(str99, caae.serializeToBytes());
                                                         sQLiteDatabase2.insertOrThrow("DataSources", null, contentValues4);
                                                         hashMap3.put(caae.f172326b, valueOf2);
                                                         contentValues = contentValues4;
@@ -1605,7 +1605,7 @@ public final class ztg extends srp {
                                     byte[] e = ztl.m46305e(query9, str38);
                                     j3 = ztl.m46302b(query9, str105);
                                     bxvd = da2;
-                                    bxvd.f164949b = (bxvk) bxvd.f164949b.mo74142c(4);
+                                    bxvd.f164949b = (GeneratedMessageLite) bxvd.f164949b.mo74142c(4);
                                     bxvd.mo73635b(e, bxus.m123744c());
                                     str36 = str100;
                                     i5 = 0;
@@ -1624,7 +1624,7 @@ public final class ztg extends srp {
                                     if (bnic.contains(Long.valueOf(caea.f172787b))) {
                                         contentValues2 = contentValues7;
                                         contentValues2.put("origin_data_source_id", Long.valueOf(((caea) bxvd.f164949b).f172787b));
-                                        contentValues2.put(str38, zrw.m46080a((caaa) ((caea) bxvd.f164949b).f172788c.get(i5), null, null).mo73642k());
+                                        contentValues2.put(str38, zrw.m46080a((caaa) ((caea) bxvd.f164949b).f172788c.get(i5), null, null).serializeToBytes());
                                         String[] strArr3 = new String[1];
                                         strArr3[i5] = Long.toString(j3);
                                         sQLiteDatabase3.update(str36, contentValues2, "_id = ?", strArr3);
@@ -1641,7 +1641,7 @@ public final class ztg extends srp {
                                     bnic = bnic2;
                                 }
                                 contentValues2.putNull("origin_data_source_id");
-                                contentValues2.put(str38, zrw.m46080a((caaa) ((caea) bxvd.f164949b).f172788c.get(i5), null, null).mo73642k());
+                                contentValues2.put(str38, zrw.m46080a((caaa) ((caea) bxvd.f164949b).f172788c.get(i5), null, null).serializeToBytes());
                                 String[] strArr32 = new String[1];
                                 strArr32[i5] = Long.toString(j3);
                                 sQLiteDatabase3.update(str36, contentValues2, "_id = ?", strArr32);
@@ -1715,7 +1715,7 @@ public final class ztg extends srp {
                             try {
                                 j = query10.getLong(0);
                                 String string = query10.getString(1);
-                                caae caae2 = (caae) bxvk.m124016a(caae.f172323i, query10.getBlob(2), bxus.m123744c());
+                                caae caae2 = (caae) GeneratedMessageLite.m124016a(caae.f172323i, query10.getBlob(2), bxus.m123744c());
                                 String yyf = yyd.m44988a((caaf) caae2).toString();
                                 if (!yyf.equals(string) || !yyf.equals(caae2.f172326b)) {
                                     m46275a(sQLiteDatabase3, j);

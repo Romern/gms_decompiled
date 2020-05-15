@@ -9,7 +9,7 @@ import java.io.IOException;
 public final class jll {
 
     /* renamed from: a */
-    private static final sek f22759a = jsy.m17256a("GcmMessageSender");
+    private static final Logger f22759a = jsy.m17256a("GcmMessageSender");
 
     /* renamed from: a */
     public static Bundle m16881a(Context context, String str) {

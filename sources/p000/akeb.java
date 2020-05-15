@@ -137,7 +137,7 @@ final /* synthetic */ class akeb implements Runnable {
                     ajnx ajnx2 = (ajnx) da.f164949b;
                     ajnx2.f71033a |= 2;
                     ajnx2.f71035c = z;
-                    ahiq a4 = ahiq.m55840a(((ajnx) da.mo74062i()).mo73642k());
+                    ahiq a4 = ahiq.m55840a(((ajnx) da.mo74062i()).serializeToBytes());
                     ahiqArr3[i4] = a4;
                     akgy.mo39382a(wifiCredentialsAttachment, a4.f67251a);
                     i4++;

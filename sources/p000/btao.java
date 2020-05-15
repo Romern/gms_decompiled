@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btao */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btao extends bxvk implements bxxd {
+public final class btao extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final btao f148017i;
@@ -37,7 +37,7 @@ public final class btao extends bxvk implements bxxd {
     static {
         btao btao = new btao();
         f148017i = btao;
-        bxvk.m124024a(btao.class, btao);
+        GeneratedMessageLite.m124024a(btao.class, btao);
     }
 
     private btao() {
@@ -54,7 +54,7 @@ public final class btao extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148017i, "\u0000\b\u0000\u0000\u0003\f\b\u0000\u0000\u0000\u0003Ȉ\u0004Ȉ\u0005\u0002\u0007Ȉ\bȈ\nȈ\u000b\u0002\f\u0004", new Object[]{"a", "b", "e", "c", "d", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f148017i, "\u0000\b\u0000\u0000\u0003\f\b\u0000\u0000\u0000\u0003Ȉ\u0004Ȉ\u0005\u0002\u0007Ȉ\bȈ\nȈ\u000b\u0002\f\u0004", new Object[]{"a", "b", "e", "c", "d", "f", "g", "h"});
         } else if (i2 == 3) {
             return new btao();
         } else {

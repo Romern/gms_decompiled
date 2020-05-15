@@ -15,7 +15,7 @@ public final class qvn {
     public static final imo f42243a = new qvm();
 
     /* renamed from: e */
-    private static final sek f42244e = qqu.m32672c("CryptographerManager");
+    private static final Logger f42244e = qqu.m32672c("CryptographerManager");
 
     /* renamed from: b */
     public final qvt f42245b = ((qvt) qvt.f42265a.mo13145b());
@@ -84,8 +84,8 @@ public final class qvn {
                         if (bstz3 == null) {
                             bstz3 = bstz.f147086g;
                         }
-                        sdo.m34966a(a2, "keystoreKeys cannot be null");
-                        sdo.m34966a(bstz3, "nigoriSpecifics cannot be null");
+                        sdo.checkIfNull(a2, "keystoreKeys cannot be null");
+                        sdo.checkIfNull(bstz3, "nigoriSpecifics cannot be null");
                         sdo.m34974b(qqy.m32675a(bstz3));
                         if (a2.isEmpty()) {
                             throw new qra("Empty keystore keys.");
@@ -104,7 +104,7 @@ public final class qvn {
                             }
                             byte[] a3 = qqy.mo24213a(qui);
                             ArrayList arrayList2 = new ArrayList();
-                            arrayList2.add(qqz.m32680a((quk) bxvk.m124016a(quk.f42153e, a3, bxus.m123744c())));
+                            arrayList2.add(qqz.m32680a((quk) GeneratedMessageLite.m124016a(quk.f42153e, a3, bxus.m123744c())));
                             arrayList2.add(qqz);
                             qqy qqy2 = new qqy(arrayList2, qqz.f41985a);
                             qui qui2 = bstz3.f147088a;

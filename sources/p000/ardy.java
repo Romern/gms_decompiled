@@ -22,7 +22,7 @@ import java.util.Set;
 public final class ardy {
 
     /* renamed from: a */
-    public static final sek f87480a = ascp.m73787a("D2D", "TargetAccountImportController");
+    public static final Logger f87480a = ascp.m73787a("D2D", "TargetAccountImportController");
 
     /* renamed from: b */
     public final Handler f87481b;
@@ -188,7 +188,7 @@ public final class ardy {
             f87480a.mo25412b("importAccount(START_SESSION, data) size = %s", Integer.valueOf(a));
             i = 1;
         } else {
-            f87480a.mo25409a("importAccounts(DEPOSIT_DATA, data) size = %s", Integer.valueOf(a));
+            f87480a.logVerbose("importAccounts(DEPOSIT_DATA, data) size = %s", Integer.valueOf(a));
         }
         gtq gtq = new gtq();
         gtq.mo12204a(i);
@@ -201,7 +201,7 @@ public final class ardy {
         } else {
             accountTransferMsg2 = null;
         }
-        f87480a.mo25409a("importAccount() %s", a2);
+        f87480a.logVerbose("importAccount() %s", a2);
         mo48452c(accountTransferMsg2);
     }
 
@@ -209,7 +209,7 @@ public final class ardy {
     public final boolean mo48452c(AccountTransferMsg accountTransferMsg) {
         AccountTransferProgress accountTransferProgress;
         if (!(accountTransferMsg == null || (accountTransferProgress = accountTransferMsg.f10044e) == null)) {
-            f87480a.mo25409a("checking progress %s", accountTransferProgress);
+            f87480a.logVerbose("checking progress %s", accountTransferProgress);
             this.f87488i = accountTransferMsg;
             for (String str : accountTransferProgress.mo7386b().values()) {
                 if (!"in_progress".equals(str)) {

@@ -47,7 +47,7 @@ final class bxxw {
         }
         int i2 = size * bxuk.m123657i(i);
         for (int i3 = 0; i3 < list.size(); i3++) {
-            i2 += bxuk.m123640b((bxtx) list.get(i3));
+            i2 += bxuk.m123640b((ByteString) list.get(i3));
         }
         return i2;
     }
@@ -295,8 +295,8 @@ final class bxxw {
             bxwm bxwm = (bxwm) list;
             while (i4 < size) {
                 Object b = bxwm.mo74190b(i4);
-                if (b instanceof bxtx) {
-                    i3 = bxuk.m123640b((bxtx) b);
+                if (b instanceof ByteString) {
+                    i3 = bxuk.m123640b((ByteString) b);
                 } else {
                     i3 = bxuk.m123641b((String) b);
                 }
@@ -306,8 +306,8 @@ final class bxxw {
         } else {
             while (i4 < size) {
                 Object obj = list.get(i4);
-                if (obj instanceof bxtx) {
-                    i2 = bxuk.m123640b((bxtx) obj);
+                if (obj instanceof ByteString) {
+                    i2 = bxuk.m123640b((ByteString) obj);
                 } else {
                     i2 = bxuk.m123641b((String) obj);
                 }
@@ -644,7 +644,7 @@ final class bxxw {
     public static void m124358b(int i, List list, bxul bxul) {
         if (list != null && !list.isEmpty()) {
             for (int i2 = 0; i2 < list.size(); i2++) {
-                bxul.f164857a.mo73832a(i, (bxtx) list.get(i2));
+                bxul.f164857a.mo73832a(i, (ByteString) list.get(i2));
             }
         }
     }
@@ -852,7 +852,7 @@ final class bxxw {
                     if (b instanceof String) {
                         bxul.f164857a.mo73835a(i, (String) b);
                     } else {
-                        bxul.f164857a.mo73832a(i, (bxtx) b);
+                        bxul.f164857a.mo73832a(i, (ByteString) b);
                     }
                     i2++;
                 }
@@ -905,7 +905,7 @@ final class bxxw {
     /* renamed from: a */
     public static void m124352a(Class cls) {
         Class cls2;
-        if (!bxvk.class.isAssignableFrom(cls) && (cls2 = f165070d) != null && !cls2.isAssignableFrom(cls)) {
+        if (!GeneratedMessageLite.class.isAssignableFrom(cls) && (cls2 = f165070d) != null && !cls2.isAssignableFrom(cls)) {
             throw new IllegalArgumentException("Message classes must extend GeneratedMessage or GeneratedMessageLite");
         }
     }

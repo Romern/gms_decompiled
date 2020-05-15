@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: las */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class las extends bxvk implements bxxd {
+public final class las extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final las f25605g;
@@ -31,7 +31,7 @@ public final class las extends bxvk implements bxxd {
     static {
         las las = new las();
         f25605g = las;
-        bxvk.m124024a(las.class, las);
+        GeneratedMessageLite.m124024a(las.class, las);
     }
 
     private las() {
@@ -48,7 +48,7 @@ public final class las extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25605g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001\t\u0002\f\u0003\u0007\u0004\u0007\u0005\u0007\u0006\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f25605g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001\t\u0002\f\u0003\u0007\u0004\u0007\u0005\u0007\u0006\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new las();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbcc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbcc extends bxvk implements bxxd {
+public final class cbcc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbcc f176640a;
@@ -13,11 +13,11 @@ public final class cbcc extends bxvk implements bxxd {
     static {
         cbcc cbcc = new cbcc();
         f176640a = cbcc;
-        bxvk.m124024a(cbcc.class, cbcc);
+        GeneratedMessageLite.m124024a(cbcc.class, cbcc);
     }
 
     private cbcc() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -31,7 +31,7 @@ public final class cbcc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176640a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f176640a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbcc();

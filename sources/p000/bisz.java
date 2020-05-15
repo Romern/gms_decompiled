@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bisz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bisz extends bxvk implements bxxd {
+public final class bisz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bisz f121616e;
@@ -28,7 +28,7 @@ public final class bisz extends bxvk implements bxxd {
     static {
         bisz bisz = new bisz();
         f121616e = bisz;
-        bxvk.m124024a(bisz.class, bisz);
+        GeneratedMessageLite.m124024a(bisz.class, bisz);
     }
 
     private bisz() {
@@ -49,7 +49,7 @@ public final class bisz extends bxvk implements bxxd {
             this.f121622f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121616e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0003\u0001ᔄ\u0000\u0002ᔄ\u0001\u0003ᔄ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f121616e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0003\u0001ᔄ\u0000\u0002ᔄ\u0001\u0003ᔄ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bisz();
         } else {

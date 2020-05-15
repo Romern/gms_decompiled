@@ -15,7 +15,7 @@ public final class aizs {
         byys byys = (byys) bxvf.f164949b;
         byys.f169005b = i - 1;
         byys.f169004a |= 1;
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (bxvf.f164950c) {
             bxvf.mo74035c();
             bxvf.f164950c = false;
@@ -60,7 +60,7 @@ public final class aizs {
             }
             objArr[0] = str;
             if ((2 & byys.f169004a) != 0) {
-                str2 = srv.m36160a(byys.f169006c.mo73780k());
+                str2 = srv.m36160a(byys.f169006c.getKey());
             }
             objArr[1] = str2;
             return String.format("BeaconId{type=%s, id=%s}", objArr);

@@ -26,7 +26,7 @@ public final /* synthetic */ class arxb implements aubq {
             snp.m35703a(1, 9).mo25814a(new arxg(arxy, connectionRequest), cgpa.f187426a.mo6606a().mo84223q(), TimeUnit.MILLISECONDS).mo741a(arxh.f88407a, bqfb.INSTANCE);
             return;
         }
-        arxy.f88430a.mo25409a("Disconnect failed, likely no connection in progress", new Object[0]);
+        arxy.f88430a.logVerbose("Disconnect failed, likely no connection in progress", new Object[0]);
         arxy.f88432c.mo48360a(connectionRequest, arxy.f88437h).mo50372a(new arxi(arxy));
     }
 }

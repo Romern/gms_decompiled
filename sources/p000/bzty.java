@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzty */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzty extends bxvk implements bxxd {
+public final class bzty extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bzty f171383c;
@@ -14,12 +14,12 @@ public final class bzty extends bxvk implements bxxd {
     public bztq f171385a;
 
     /* renamed from: b */
-    public bxtx f171386b = bxtx.f164797b;
+    public ByteString f171386b = ByteString.f164797b;
 
     static {
         bzty bzty = new bzty();
         f171383c = bzty;
-        bxvk.m124024a(bzty.class, bzty);
+        GeneratedMessageLite.m124024a(bzty.class, bzty);
     }
 
     private bzty() {
@@ -36,7 +36,7 @@ public final class bzty extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f171383c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002\n", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f171383c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002\n", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bzty();
         } else {

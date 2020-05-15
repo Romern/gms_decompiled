@@ -31,7 +31,7 @@ public final class quw {
         for (int i = 0; i < size; i++) {
             bytw bytw = (bytw) list.get(i);
             bxvd bxvd = (bxvd) bytw.mo74142c(5);
-            bxvd.mo73625a((bxvk) bytw);
+            bxvd.mo73625a((GeneratedMessageLite) bytw);
             String a = qqt.m32667a(bytw.f167728b);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -57,7 +57,7 @@ public final class quw {
         }
         byub byub = (byub) da.f164949b;
         if (!byub.f167756b.mo73666a()) {
-            byub.f167756b = bxvk.m124021a(byub.f167756b);
+            byub.f167756b = GeneratedMessageLite.m124021a(byub.f167756b);
         }
         bxsy.m123078a(a, byub.f167756b);
         bxvd da2 = byua.f167744h.mo74144da();
@@ -109,28 +109,28 @@ public final class quw {
                 String valueOf = String.valueOf(shd.m35267a(quu.f42208b));
                 sb.append(valueOf.length() == 0 ? new String("&key=") : "&key=".concat(valueOf));
             }
-            byuc byuc = (byuc) sgv.mo25516a(sb.toString(), byub3.mo73642k(), byuc.f167758c, quu.f42207a, quu.f42209c);
+            byuc byuc = (byuc) sgv.mo25516a(sb.toString(), byub3.serializeToBytes(), byuc.f167758c, quu.f42207a, quu.f42209c);
             bxvd bxvd = (bxvd) byuc.mo74142c(5);
-            bxvd.mo73625a((bxvk) byuc);
+            bxvd.mo73625a((GeneratedMessageLite) byuc);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((byuc) bxvd.f164949b).f167760a = bxvk.m124030de();
+            ((byuc) bxvd.f164949b).f167760a = GeneratedMessageLite.m124030de();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((byuc) bxvd.f164949b).f167761b = bxvk.m124030de();
+            ((byuc) bxvd.f164949b).f167761b = GeneratedMessageLite.m124030de();
             for (byts byts : byuc.f167760a) {
                 bxvd bxvd2 = (bxvd) byts.mo74142c(5);
-                bxvd2.mo73625a((bxvk) byts);
+                bxvd2.mo73625a((GeneratedMessageLite) byts);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
                 }
                 byts byts2 = byts.f167713b;
-                ((byts) bxvd2.f164949b).f167715a = bxvk.m124030de();
+                ((byts) bxvd2.f164949b).f167715a = GeneratedMessageLite.m124030de();
                 bngx b = m32930b(byts.f167715a);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
@@ -147,20 +147,20 @@ public final class quw {
                 byts byts4 = (byts) bxvd2.mo74062i();
                 byts4.getClass();
                 if (!byuc2.f167760a.mo73666a()) {
-                    byuc2.f167760a = bxvk.m124021a(byuc2.f167760a);
+                    byuc2.f167760a = GeneratedMessageLite.m124021a(byuc2.f167760a);
                 }
                 byuc2.f167760a.add(byts4);
             }
             for (byty byty : byuc.f167761b) {
                 bxvd bxvd3 = (bxvd) byty.mo74142c(5);
-                bxvd3.mo73625a((bxvk) byty);
+                bxvd3.mo73625a((GeneratedMessageLite) byty);
                 bytx bytx = (bytx) bxvd3;
                 if (bytx.f164950c) {
                     bytx.mo74035c();
                     bytx.f164950c = false;
                 }
                 byty byty2 = byty.f167731d;
-                ((byty) bytx.f164949b).f167734b = bxvk.m124030de();
+                ((byty) bytx.f164949b).f167734b = GeneratedMessageLite.m124030de();
                 bngx b2 = m32930b(byty.f167734b);
                 if (bytx.f164950c) {
                     bytx.mo74035c();
@@ -177,7 +177,7 @@ public final class quw {
                 byty byty4 = (byty) bytx.mo74062i();
                 byty4.getClass();
                 if (!byuc3.f167761b.mo73666a()) {
-                    byuc3.f167761b = bxvk.m124021a(byuc3.f167761b);
+                    byuc3.f167761b = GeneratedMessageLite.m124021a(byuc3.f167761b);
                 }
                 byuc3.f167761b.add(byty4);
             }

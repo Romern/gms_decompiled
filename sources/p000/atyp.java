@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: atyp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class atyp extends bxvk implements bxxd {
+public final class atyp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final atyp f91140b;
@@ -16,7 +16,7 @@ public final class atyp extends bxvk implements bxxd {
     static {
         atyp atyp = new atyp();
         f91140b = atyp;
-        bxvk.m124024a(atyp.class, atyp);
+        GeneratedMessageLite.m124024a(atyp.class, atyp);
     }
 
     private atyp() {
@@ -33,7 +33,7 @@ public final class atyp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f91140b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", atyo.f91139a});
+            return GeneratedMessageLite.m124022a(f91140b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", atyo.f91139a});
         } else if (i2 == 3) {
             return new atyp();
         } else {

@@ -38,7 +38,7 @@ final /* synthetic */ class azpe implements Runnable {
                     bxvd.f164950c = false;
                 }
                 boqd boqd = boqd.f134234x;
-                ((boqd) bxvd.f164949b).f134249n = bxvk.m124030de();
+                ((boqd) bxvd.f164949b).f134249n = GeneratedMessageLite.m124030de();
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -52,7 +52,7 @@ final /* synthetic */ class azpe implements Runnable {
                     bxvd.f164950c = false;
                 }
                 boqd boqd3 = boqd.f134234x;
-                ((boqd) bxvd.f164949b).f134249n = bxvk.m124030de();
+                ((boqd) bxvd.f164949b).f134249n = GeneratedMessageLite.m124030de();
                 String B = cfeo.m138845B();
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
@@ -137,7 +137,7 @@ final /* synthetic */ class azpe implements Runnable {
                 boqj3 = boqj.f134271k;
             }
             bxvd bxvd2 = (bxvd) boqj3.mo74142c(5);
-            bxvd2.mo73625a((bxvk) boqj3);
+            bxvd2.mo73625a((GeneratedMessageLite) boqj3);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;

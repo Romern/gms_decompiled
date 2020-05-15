@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: jbb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class jbb extends bxvk implements bxxd {
+public final class jbb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final jbb f22074b;
@@ -16,7 +16,7 @@ public final class jbb extends bxvk implements bxxd {
     static {
         jbb jbb = new jbb();
         f22074b = jbb;
-        bxvk.m124024a(jbb.class, jbb);
+        GeneratedMessageLite.m124024a(jbb.class, jbb);
     }
 
     private jbb() {
@@ -42,7 +42,7 @@ public final class jbb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f22074b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0001\u0000\u0000\u00022", new Object[]{"a", jba.f22073a});
+            return GeneratedMessageLite.m124022a(f22074b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0001\u0000\u0000\u00022", new Object[]{"a", jba.f22073a});
         } else if (i2 == 3) {
             return new jbb();
         } else {

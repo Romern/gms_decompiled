@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwtn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwtn extends bxvk implements bxxd {
+public final class bwtn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bwtn f160974a;
@@ -13,7 +13,7 @@ public final class bwtn extends bxvk implements bxxd {
     static {
         bwtn bwtn = new bwtn();
         f160974a = bwtn;
-        bxvk.m124024a(bwtn.class, bwtn);
+        GeneratedMessageLite.m124024a(bwtn.class, bwtn);
     }
 
     private bwtn() {
@@ -30,7 +30,7 @@ public final class bwtn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f160974a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f160974a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bwtn();

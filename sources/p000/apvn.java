@@ -46,7 +46,7 @@ public final class apvn extends aaab {
             a.addFlags(8388608);
             StringBuilder sb = new StringBuilder();
             apum.m71046a(sb, "k", this.f84993b);
-            apum.m71046a(sb, "di", String.valueOf(spn.m35843a(context)));
+            apum.m71046a(sb, "di", String.valueOf(spn.getAndroidId(context)));
             apum.m71046a(sb, "pk", this.f84994c);
             apum.m71046a(sb, "sv", String.valueOf(Build.VERSION.SDK_INT));
             apum.m71046a(sb, "gv", "20.15.15 (120300-{{cl}})");

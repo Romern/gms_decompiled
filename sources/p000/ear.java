@@ -60,7 +60,7 @@ public final class ear extends dyd implements lrj {
             }
             bxni bxni2 = (bxni) da.f164949b;
             if (!bxni2.f164036c.mo73666a()) {
-                bxni2.f164036c = bxvk.m124020a(bxni2.f164036c);
+                bxni2.f164036c = GeneratedMessageLite.m124020a(bxni2.f164036c);
             }
             bxsy.m123078a(b, bxni2.f164036c);
         }

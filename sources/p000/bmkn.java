@@ -16,7 +16,7 @@ public final class bmkn extends bxvd implements bxxd {
         bmks bmks = (bmks) this.f164949b;
         bmks bmks2 = bmks.f129878d;
         if (!bmks.f129882c.mo73666a()) {
-            bmks.f129882c = bxvk.m124021a(bmks.f129882c);
+            bmks.f129882c = GeneratedMessageLite.m124021a(bmks.f129882c);
         }
         bxsy.m123078a(iterable, bmks.f129882c);
     }

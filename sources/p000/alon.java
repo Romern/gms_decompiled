@@ -78,7 +78,7 @@ public final class alon implements alok {
     public final void mo40617a(String str, byte[] bArr, long j) {
         if (str != null) {
             bxvd da = amqr.f75772d.mo74144da();
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -232,7 +232,7 @@ public final class alon implements alok {
             }
             if (bArr != null) {
                 try {
-                    amqr2 = (amqr) bxvk.m124016a(amqr.f75772d, bArr, bxus.m123744c());
+                    amqr2 = (amqr) GeneratedMessageLite.m124016a(amqr.f75772d, bArr, bxus.m123744c());
                 } catch (bxwf e8) {
                     Log.e("AvatarCacheImpl", "getFromDiskCache: Error parsing from byte[].", e8);
                     amqr2 = null;
@@ -258,6 +258,6 @@ public final class alon implements alok {
         if (z) {
             this.f73965f.mo15547a(str, amqr);
         }
-        return amqr.f75775b.mo73780k();
+        return amqr.f75775b.getKey();
     }
 }

@@ -31,7 +31,7 @@ public final class bjmp extends bjhs {
         }
         bwqf bwqf = (bwqf) da.f164949b;
         if (!bwqf.f160658a.mo73666a()) {
-            bwqf.f160658a = bxvk.m124021a(bwqf.f160658a);
+            bwqf.f160658a = GeneratedMessageLite.m124021a(bwqf.f160658a);
         }
         bxsy.m123078a(arrayList, bwqf.f160658a);
         return (bwqf) da.mo74062i();

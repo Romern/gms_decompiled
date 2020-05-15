@@ -29,6 +29,6 @@ public final class wzf {
         if (a == 0 || a == 1) {
             Log.e("gF_BaseMetricsLogger", "MetricsData requires user action type to be set");
         }
-        context.sendBroadcast(new Intent().setClassName("com.google.android.gms", "com.google.android.gms.chimera.GmsIntentOperationService$GmsExternalReceiver").setAction("com.google.android.gms.googlehelp.metrics.MetricsIntentOperation.LOG_METRIC").putExtra("EXTRA_METRIC_DATA", abeh.mo73642k()));
+        context.sendBroadcast(new Intent().setClassName("com.google.android.gms", "com.google.android.gms.chimera.GmsIntentOperationService$GmsExternalReceiver").setAction("com.google.android.gms.googlehelp.metrics.MetricsIntentOperation.LOG_METRIC").putExtra("EXTRA_METRIC_DATA", abeh.serializeToBytes()));
     }
 }

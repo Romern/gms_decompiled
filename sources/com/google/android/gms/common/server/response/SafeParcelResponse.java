@@ -269,7 +269,7 @@ public class SafeParcelResponse extends FastSafeParcelableJsonResponse {
     }
 
     public final String toString() {
-        sdo.m34966a(this.f30336d, "Cannot convert to JSON on client side.");
+        sdo.checkIfNull(this.f30336d, "Cannot convert to JSON on client side.");
         Parcel b = mo17878b();
         b.setDataPosition(0);
         StringBuilder sb = new StringBuilder(100);

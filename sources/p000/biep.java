@@ -77,10 +77,10 @@ public final class biep extends bien {
         PlacesParams placesParams = this.f120388a;
         bpqk c = bhqq.m101365c(1, placesParams);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bprg a = bhqq.m101359a(8, placesParams.f79573c, Locale.getDefault().toString());
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         bxvd da = bprm.f138869c.mo74144da();
         if ("Home".equals(str)) {
             bpot bpot = bpot.HOME;
@@ -182,7 +182,7 @@ public final class biep extends bien {
             } else {
                 bvpk = null;
                 if (bvpk != null) {
-                    bvpl bvpl = (bvpl) f.mo64492a(new bibd(f.f120057e, f.f120054b, "writeAlias", bvpk.mo73642k(), bvpl.f157312d, 13, 10245), placesParams);
+                    bvpl bvpl = (bvpl) f.mo64492a(new bibd(f.f120057e, f.f120054b, "writeAlias", bvpk.serializeToBytes(), bvpl.f157312d, 13, 10245), placesParams);
                     Context context3 = f.f120053a;
                     bvow bvow = bvpl.f157315b;
                     if (bvow == null) {

@@ -17,7 +17,7 @@ import java.util.Set;
 final class xwp extends xwh implements xws {
 
     /* renamed from: e */
-    private static final sek f53303e = new sek(new String[]{"ClearCutU2fEventLogger"}, (short[]) null);
+    private static final Logger f53303e = new Logger(new String[]{"ClearCutU2fEventLogger"}, (short[]) null);
 
     /* renamed from: d */
     private List f53304d;
@@ -100,7 +100,7 @@ final class xwp extends xwh implements xws {
         }
         xap xap2 = (xap) da.f164949b;
         if (!xap2.f51809d.mo73666a()) {
-            xap2.f51809d = bxvk.m124019a(xap2.f51809d);
+            xap2.f51809d = GeneratedMessageLite.m124019a(xap2.f51809d);
         }
         for (xan xan : a) {
             xap2.f51809d.mo74153d(xan.f51798g);
@@ -133,13 +133,13 @@ final class xwp extends xwh implements xws {
                 }
                 xao xao = (xao) da2.f164949b;
                 if (!xao.f51802b.mo73666a()) {
-                    xao.f51802b = bxvk.m124019a(xao.f51802b);
+                    xao.f51802b = GeneratedMessageLite.m124019a(xao.f51802b);
                 }
                 for (xan xan2 : a2) {
                     xao.f51802b.mo74153d(xan2.f51798g);
                 }
                 if ("com.google.android.gms".equalsIgnoreCase(str2)) {
-                    bxtx a3 = bxtx.m123261a(xid.m42997a().digest(registeredKey.f31934a.f31911b));
+                    ByteString a3 = ByteString.m123261a(xid.m42997a().digest(registeredKey.f31934a.f31911b));
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -157,7 +157,7 @@ final class xwp extends xwh implements xws {
             }
             xap xap4 = (xap) da.f164949b;
             if (!xap4.f51808c.mo73666a()) {
-                xap4.f51808c = bxvk.m124021a(xap4.f51808c);
+                xap4.f51808c = GeneratedMessageLite.m124021a(xap4.f51808c);
             }
             bxsy.m123078a(arrayList, xap4.f51808c);
         }
@@ -256,9 +256,9 @@ final class xwp extends xwh implements xws {
             }
         }
         if (i < 0) {
-            sek sek = f53303e;
+            Logger Logger = f53303e;
             String valueOf = String.valueOf(boan.f132472f.mo68794a(bArr));
-            sek.mo25418e(valueOf.length() == 0 ? new String("Unexpected Key Handle in SignResponseData: ") : "Unexpected Key Handle in SignResponseData: ".concat(valueOf), new Object[0]);
+            Logger.mo25418e(valueOf.length() == 0 ? new String("Unexpected Key Handle in SignResponseData: ") : "Unexpected Key Handle in SignResponseData: ".concat(valueOf), new Object[0]);
             return;
         }
         m43552a(xwj, transport, Integer.valueOf(i));

@@ -18,7 +18,7 @@ import com.google.android.gms.common.api.Status;
 public final class hbu extends adcf {
 
     /* renamed from: a */
-    public static final sek f19435a = ght.m13172b("AuthorizationAccountChooserFragment");
+    public static final Logger f19435a = ght.m13172b("AuthorizationAccountChooserFragment");
 
     /* renamed from: f */
     private static final int f19436f = C0126R.style.CredentialsDialogTheme;

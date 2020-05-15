@@ -150,7 +150,7 @@ public final class bcav implements bdaw {
                 g.mo57066a(hashSet);
                 bcoe f = bcoh.m89462f();
                 f.mo57052a(j2);
-                f.mo57056a(bxtx.m123261a(blob));
+                f.mo57056a(ByteString.m123261a(blob));
                 f.mo57054a(g);
                 f.mo57053a(bcog.m89460a(i));
                 bmxv b = bmxv.m108566b(f.mo57051a());

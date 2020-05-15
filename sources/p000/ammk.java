@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ammk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ammk extends bxvk implements bxxd {
+public final class ammk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final ammk f75296c;
@@ -19,7 +19,7 @@ public final class ammk extends bxvk implements bxxd {
     static {
         ammk ammk = new ammk();
         f75296c = ammk;
-        bxvk.m124024a(ammk.class, ammk);
+        GeneratedMessageLite.m124024a(ammk.class, ammk);
     }
 
     private ammk() {
@@ -36,7 +36,7 @@ public final class ammk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75296c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f75296c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new ammk();
         } else {

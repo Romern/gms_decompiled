@@ -49,7 +49,7 @@ public final class bzcv extends bxvd implements bxxd {
         bzcx bzcx = (bzcx) this.f164949b;
         bzcx bzcx2 = bzcx.f169429h;
         if (!bzcx.f169434d.mo73666a()) {
-            bzcx.f169434d = bxvk.m124020a(bzcx.f169434d);
+            bzcx.f169434d = GeneratedMessageLite.m124020a(bzcx.f169434d);
         }
         bxsy.m123078a(iterable, bzcx.f169434d);
     }

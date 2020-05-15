@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: baun */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class baun extends bxvk implements bxxd {
+public final class baun extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final baun f101788b;
@@ -16,7 +16,7 @@ public final class baun extends bxvk implements bxxd {
     static {
         baun baun = new baun();
         f101788b = baun;
-        bxvk.m124024a(baun.class, baun);
+        GeneratedMessageLite.m124024a(baun.class, baun);
     }
 
     private baun() {
@@ -33,7 +33,7 @@ public final class baun extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f101788b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", baum.class});
+            return GeneratedMessageLite.m124022a(f101788b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", baum.class});
         } else if (i2 == 3) {
             return new baun();
         } else {

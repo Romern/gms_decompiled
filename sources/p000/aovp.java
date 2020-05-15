@@ -37,7 +37,7 @@ public final class aovp extends aovg {
             blpu blpu = (blpu) da.f164949b;
             a.getClass();
             if (!blpu.f127299c.mo73666a()) {
-                blpu.f127299c = bxvk.m124021a(blpu.f127299c);
+                blpu.f127299c = GeneratedMessageLite.m124021a(blpu.f127299c);
             }
             blpu.f127299c.add(a);
         }

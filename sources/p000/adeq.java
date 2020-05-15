@@ -52,7 +52,7 @@ final class adeq implements adex {
         btii.f148983d = b;
         Collection collection = this.f61508a;
         if (!btii.f148982c.mo73666a()) {
-            btii.f148982c = bxvk.m124019a(btii.f148982c);
+            btii.f148982c = GeneratedMessageLite.m124019a(btii.f148982c);
         }
         bxsy.m123078a(collection, btii.f148982c);
         btii btii2 = (btii) da.mo74062i();

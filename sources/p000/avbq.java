@@ -20,7 +20,7 @@ public final class avbq extends avaq {
         bnsi d = f92919c.mo68390d();
         d.mo68432a("avbq", "a", 29, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
         d.mo68420a("Executing operation '%s'...", this.f27820m);
-        this.f92857a.mo29070a(Status.f30107a, new ReadDeviceLevelSettingsResult((this.f92858b.mo51192a() ? this.f92858b.mo51193b() : bxok.f164161d).mo73642k()));
+        this.f92857a.mo29070a(Status.f30107a, new ReadDeviceLevelSettingsResult((this.f92858b.mo51192a() ? this.f92858b.mo51193b() : bxok.f164161d).serializeToBytes()));
         bnsi d2 = f92919c.mo68390d();
         d2.mo68432a("avbq", "a", 40, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
         d2.mo68420a("Operation '%s' successful!", this.f27820m);

@@ -36,7 +36,7 @@ public class bqno implements bqnm {
     }
 
     /* renamed from: a */
-    public final Object mo69286a(bxtx bxtx) {
+    public final Object mo69286a(ByteString bxtx) {
         try {
             return m113036b(this.f141311a.mo69297a(bxtx));
         } catch (bxwf e) {
@@ -51,7 +51,7 @@ public class bqno implements bqnm {
     }
 
     /* renamed from: c */
-    public final bqsd mo69291c(bxtx bxtx) {
+    public final bqsd mo69291c(ByteString bxtx) {
         try {
             bxxc a = m113037c().mo69292a(bxtx);
             bxvd da = bqsd.f141509d.mo74144da();
@@ -62,7 +62,7 @@ public class bqno implements bqnm {
             }
             a2.getClass();
             ((bqsd) da.f164949b).f141511a = a2;
-            bxtx aL = a.mo73639aL();
+            ByteString aL = a.mo73639aL();
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -92,7 +92,7 @@ public class bqno implements bqnm {
     }
 
     /* renamed from: b */
-    public final bxxc mo69289b(bxtx bxtx) {
+    public final bxxc mo69289b(ByteString bxtx) {
         try {
             return m113037c().mo69292a(bxtx);
         } catch (bxwf e) {

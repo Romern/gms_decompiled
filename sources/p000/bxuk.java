@@ -38,7 +38,7 @@ public abstract class bxuk extends bxtl {
     }
 
     /* renamed from: c */
-    public static int m123642c(int i, bxtx bxtx) {
+    public static int m123642c(int i, ByteString bxtx) {
         return m123657i(i) + m123640b(bxtx);
     }
 
@@ -181,7 +181,7 @@ public abstract class bxuk extends bxtl {
     public abstract void mo73831a(int i, long j);
 
     /* renamed from: a */
-    public abstract void mo73832a(int i, bxtx bxtx);
+    public abstract void mo73832a(int i, ByteString bxtx);
 
     /* renamed from: a */
     public abstract void mo73833a(int i, bxxc bxxc);
@@ -196,7 +196,7 @@ public abstract class bxuk extends bxtl {
     public abstract void mo73836a(int i, boolean z);
 
     /* renamed from: a */
-    public abstract void mo73838a(bxtx bxtx);
+    public abstract void mo73838a(ByteString bxtx);
 
     /* renamed from: a */
     public abstract void mo73839a(bxxc bxxc);
@@ -223,7 +223,7 @@ public abstract class bxuk extends bxtl {
     public abstract void mo73846b(int i, long j);
 
     /* renamed from: b */
-    public abstract void mo73847b(int i, bxtx bxtx);
+    public abstract void mo73847b(int i, ByteString bxtx);
 
     /* renamed from: b */
     public abstract void mo73849b(bxxc bxxc);
@@ -375,7 +375,7 @@ public abstract class bxuk extends bxtl {
     }
 
     /* renamed from: b */
-    public static int m123640b(bxtx bxtx) {
+    public static int m123640b(ByteString bxtx) {
         return m123663m(bxtx.mo73744a());
     }
 

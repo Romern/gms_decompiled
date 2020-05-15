@@ -43,10 +43,10 @@ public final class adhl implements adhk {
         adik.mo33534b();
         byte[] a = adik.f61808c.mo33514a(adik.mo33541i(str));
         if (a != null) {
-            adii adii = (adii) bxvk.m124016a(adii.f61801b, a, bxus.m123743b());
+            adii adii = (adii) GeneratedMessageLite.m124016a(adii.f61801b, a, bxus.m123743b());
             signatureArr = new Signature[adii.f61803a.size()];
             for (int i2 = 0; i2 < adii.f61803a.size(); i2++) {
-                signatureArr[i2] = new Signature(((bxtx) adii.f61803a.get(i2)).mo73780k());
+                signatureArr[i2] = new Signature(((ByteString) adii.f61803a.get(i2)).getKey());
             }
         } else {
             signatureArr = null;

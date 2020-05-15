@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cinl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cinl extends bxvk implements bxxd {
+public final class cinl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: w */
     public static final cinl f190943w;
@@ -82,7 +82,7 @@ public final class cinl extends bxvk implements bxxd {
     static {
         cinl cinl = new cinl();
         f190943w = cinl;
-        bxvk.m124024a(cinl.class, cinl);
+        GeneratedMessageLite.m124024a(cinl.class, cinl);
     }
 
     private cinl() {
@@ -107,7 +107,7 @@ public final class cinl extends bxvk implements bxxd {
             this.f190967x = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f190943w, "\u0001\u0015\u0000\u0001\u0001\u001a\u0015\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003င\u0003\u0004င\u0004\u0005င\u0005\u0006ဋ\u0006\u0007ဋ\u0007\bဌ\b\nဉ\t\u000bဉ\u000b\rဂ\r\u000eဌ\u000e\u000fဌ\u000f\u0010င\u0011\u0011ဈ\u0012\u0013င\u0010\u0014ဈ\u0014\u0015(\u0018ဌ\n\u0019ဈ\u0002\u001aဉ\u0016", new Object[]{"a", "b", "c", "e", "f", "g", "h", "i", "j", cinp.f190973a, "k", "m", "n", "o", cinq.f190974a, "p", cinn.f190972a, "r", "s", "q", "u", "t", "l", cink.m150635b(), "d", "v"});
+            return GeneratedMessageLite.m124022a(f190943w, "\u0001\u0015\u0000\u0001\u0001\u001a\u0015\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003င\u0003\u0004င\u0004\u0005င\u0005\u0006ဋ\u0006\u0007ဋ\u0007\bဌ\b\nဉ\t\u000bဉ\u000b\rဂ\r\u000eဌ\u000e\u000fဌ\u000f\u0010င\u0011\u0011ဈ\u0012\u0013င\u0010\u0014ဈ\u0014\u0015(\u0018ဌ\n\u0019ဈ\u0002\u001aဉ\u0016", new Object[]{"a", "b", "c", "e", "f", "g", "h", "i", "j", cinp.f190973a, "k", "m", "n", "o", cinq.f190974a, "p", cinn.f190972a, "r", "s", "q", "u", "t", "l", cink.m150635b(), "d", "v"});
         } else if (i2 == 3) {
             return new cinl();
         } else {

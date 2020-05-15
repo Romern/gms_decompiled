@@ -109,13 +109,13 @@ public final class acag extends acpn {
                 absy = absy.f58176h;
             }
             bxvd bxvd = (bxvd) absy.mo74142c(5);
-            bxvd.mo73625a((bxvk) absy);
+            bxvd.mo73625a((GeneratedMessageLite) absy);
             List a2 = acxd.mo33186a(Collections.unmodifiableList(((absy) bxvd.f164949b).f58179b));
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((absy) bxvd.f164949b).f58179b = bxvk.m124030de();
+            ((absy) bxvd.f164949b).f58179b = GeneratedMessageLite.m124030de();
             bxvd.mo73950M(a2);
             this.f59095d.mo32517a().mo32542c(acak, (absy) bxvd.mo74062i());
         }
@@ -197,7 +197,7 @@ public final class acag extends acpn {
             bpxj2.f139723c = a;
         }
         bxvd bxvd = (bxvd) bpxk.mo74142c(5);
-        bxvd.mo73625a((bxvk) bpxk);
+        bxvd.mo73625a((GeneratedMessageLite) bpxk);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -237,7 +237,7 @@ public final class acag extends acpn {
                 }
                 m48760a(str, str2, absr3.f58138c);
                 NativeIndex nativeIndex = this.f59099o;
-                byte[] k = caef.mo73642k();
+                byte[] k = caef.serializeToBytes();
                 aclb a3 = acal.m48769a(a);
                 absr absr4 = a.f58157b;
                 if (absr4 != null) {
@@ -266,7 +266,7 @@ public final class acag extends acpn {
                 return;
             }
             NativeIndex nativeIndex2 = this.f59099o;
-            byte[] k2 = caef2.mo73642k();
+            byte[] k2 = caef2.serializeToBytes();
             aclb a5 = acal.m48769a(a);
             absr absr5 = a.f58157b;
             if (absr5 == null) {
@@ -663,12 +663,12 @@ public final class acag extends acpn {
                 synchronized (abvw2.f58583k) {
                     bpys = (bpys) abvw2.f58583k.mo74062i();
                     bxvd bxvd = abvw2.f58583k;
-                    bxvd.f164949b = (bxvk) bxvd.f164949b.mo74142c(4);
+                    bxvd.f164949b = (GeneratedMessageLite) bxvd.f164949b.mo74142c(4);
                 }
                 long currentTimeMillis2 = System.currentTimeMillis() - currentTimeMillis;
                 abym abym = this.f59097f;
                 bxvd bxvd2 = (bxvd) bpys.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bpys);
+                bxvd2.mo73625a((GeneratedMessageLite) bpys);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;

@@ -903,7 +903,7 @@ public final class azph {
     public final void mo55134a(int i, int i2, String str, LocalEntityId localEntityId, String str2, aznz aznz, int i3, String str3, Integer num, LocalEntityId localEntityId2) {
         boqd a = mo55122a(i, i2, str, localEntityId, str2, aznz, i3, str3, num);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (localEntityId2 == null) {
             localEntityId2 = m86001a(aznz);
         }
@@ -963,7 +963,7 @@ public final class azph {
                     bzrp = bzrp.f171179f;
                 }
                 bxvd bxvd2 = (bxvd) bzrp.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bzrp);
+                bxvd2.mo73625a((GeneratedMessageLite) bzrp);
                 bxvd = bxvd2;
             }
             if (bxvd.f164950c) {
@@ -1125,7 +1125,7 @@ public final class azph {
             }
             boqj boqj2 = (boqj) da2.f164949b;
             if (!boqj2.f134282j.mo73666a()) {
-                boqj2.f134282j = bxvk.m124021a(boqj2.f134282j);
+                boqj2.f134282j = GeneratedMessageLite.m124021a(boqj2.f134282j);
             }
             bxsy.m123078a(arrayList, boqj2.f134282j);
         }
@@ -1136,7 +1136,7 @@ public final class azph {
             }
             boqj boqj3 = (boqj) da2.f164949b;
             if (!boqj3.f134281i.mo73666a()) {
-                boqj3.f134281i = bxvk.m124021a(boqj3.f134281i);
+                boqj3.f134281i = GeneratedMessageLite.m124021a(boqj3.f134281i);
             }
             bxsy.m123078a(arrayList2, boqj3.f134281i);
         }
@@ -1214,7 +1214,7 @@ public final class azph {
         }
         boqd a = mo55122a(i, 3, str, null, aznz.f99775b, aznz, 0, null, null);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (i2 != 2) {
             boqd boqd = (boqd) bxvd.f164949b;
             if ((boqd.f134236a & 4) == 0) {
@@ -1242,7 +1242,7 @@ public final class azph {
                     boqe3 = boqe.f134259c;
                 }
                 bxvd bxvd2 = (bxvd) boqe3.mo74142c(5);
-                bxvd2.mo73625a((bxvk) boqe3);
+                bxvd2.mo73625a((GeneratedMessageLite) boqe3);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
@@ -1394,7 +1394,7 @@ public final class azph {
     public final void mo55159a(cbbl cbbl) {
         cbbl a = azqh.m86163a(this.f99818d).mo55218a(cbbl);
         azqh.m86163a(this.f99818d);
-        mo55152a(1855, (String) null, boan.f132471e.mo68783a().mo68794a(a.mo73642k()), (ConversationId) null);
+        mo55152a(1855, (String) null, boan.f132471e.mo68783a().mo68794a(a.serializeToBytes()), (ConversationId) null);
     }
 
     /* renamed from: a */

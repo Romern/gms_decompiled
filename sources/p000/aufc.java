@@ -17,7 +17,7 @@ public final class aufc extends bxvd implements bxxd {
         aufd aufd2 = aufd.f91633b;
         auez.getClass();
         if (!aufd.f91635a.mo73666a()) {
-            aufd.f91635a = bxvk.m124021a(aufd.f91635a);
+            aufd.f91635a = GeneratedMessageLite.m124021a(aufd.f91635a);
         }
         aufd.f91635a.add(auez);
     }

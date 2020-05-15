@@ -12,7 +12,7 @@ import java.util.concurrent.TimeoutException;
 public final class argr {
 
     /* renamed from: a */
-    public static final sek f87699a = ascp.m73787a("D2D", "TargetDirectTransferServiceController");
+    public static final Logger f87699a = ascp.m73787a("D2D", "TargetDirectTransferServiceController");
 
     /* renamed from: b */
     public argm f87700b;
@@ -69,7 +69,7 @@ public final class argr {
         this.f87700b = argm;
         argm.mo48245a(new arhq(false, argm, 9), cgqs.f187523a.mo6606a().mo84336v());
         argm.f87681l.mo49040a(argm);
-        argm.f87667h.mo25409a("startEncryptionNegotiation", new Object[0]);
+        argm.f87667h.logVerbose("startEncryptionNegotiation", new Object[0]);
         argq.mo48522a(new Status(0));
     }
 }

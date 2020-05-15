@@ -100,7 +100,7 @@ public final class bhst implements bhsq {
         bxvd bxvd;
         bxvd bxvd2;
         try {
-            bvnx bvnx = (bvnx) bxvk.m124014a(bvnx.f156978c, boan.f132471e.mo68796b(str));
+            bvnx bvnx = (bvnx) GeneratedMessageLite.m124014a(bvnx.f156978c, boan.f132471e.mo68796b(str));
             bxvd da = bvoa.f156994o.mo74144da();
             bvni bvni = bvnx.f156981b;
             if (bvni == null) {
@@ -154,7 +154,7 @@ public final class bhst implements bhsq {
                     bvnw2.f156974b = j2;
                 } else {
                     bxvd bxvd3 = (bxvd) bvnw.mo74142c(5);
-                    bxvd3.mo73625a((bxvk) bvnw);
+                    bxvd3.mo73625a((GeneratedMessageLite) bvnw);
                     bxvd = bxvd3;
                 }
                 int i6 = 0;
@@ -171,7 +171,7 @@ public final class bhst implements bhsq {
                     }
                     if (a == bvnm) {
                         bxvd2 = (bxvd) bvnn.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) bvnn);
+                        bxvd2.mo73625a((GeneratedMessageLite) bvnn);
                         break;
                     }
                     i6++;
@@ -196,7 +196,7 @@ public final class bhst implements bhsq {
                 bvnn3.f156949a |= 2;
                 bvnn3.f156951c = i7;
                 if (!bvnn3.f156952d.mo73666a()) {
-                    bvnn3.f156952d = bxvk.m124020a(bvnn3.f156952d);
+                    bvnn3.f156952d = GeneratedMessageLite.m124020a(bvnn3.f156952d);
                 }
                 bvnn3.f156952d.mo74161a(j);
                 if (i6 != -1) {

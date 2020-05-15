@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bter */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bter extends bxvk implements bxxd {
+public final class bter extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bter f148556b;
@@ -16,7 +16,7 @@ public final class bter extends bxvk implements bxxd {
     static {
         bter bter = new bter();
         f148556b = bter;
-        bxvk.m124024a(bter.class, bter);
+        GeneratedMessageLite.m124024a(bter.class, bter);
     }
 
     private bter() {
@@ -33,7 +33,7 @@ public final class bter extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148556b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bzkv.class});
+            return GeneratedMessageLite.m124022a(f148556b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bzkv.class});
         } else if (i2 == 3) {
             return new bter();
         } else {

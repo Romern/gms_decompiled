@@ -28,7 +28,7 @@ public final class bail implements Callable {
     private final int f101003f;
 
     /* renamed from: g */
-    private final bxtx f101004g;
+    private final ByteString f101004g;
 
     public bail(cayo cayo, bafu bafu, String str, Account account, int i, int i2, byte[] bArr) {
         this.f100998a = cayo;
@@ -37,7 +37,7 @@ public final class bail implements Callable {
         this.f101001d = account;
         this.f101002e = i;
         this.f101003f = i2;
-        this.f101004g = bxtx.m123261a(bArr);
+        this.f101004g = ByteString.m123261a(bArr);
     }
 
     /* renamed from: a */
@@ -45,7 +45,7 @@ public final class bail implements Callable {
         Throwable th;
         bany b;
         Throwable th2;
-        ((achw) this.f100998a.mo16713a()).mo25409a("Writing %d bytes of data to Footprints %s/%s.", Integer.valueOf(this.f101004g.mo73744a()), Integer.valueOf(this.f101002e), Integer.valueOf(this.f101003f));
+        ((achw) this.f100998a.mo16713a()).logVerbose("Writing %d bytes of data to Footprints %s/%s.", Integer.valueOf(this.f101004g.mo73744a()), Integer.valueOf(this.f101002e), Integer.valueOf(this.f101003f));
         try {
             bafv a = this.f100999b.mo55681a(this.f101001d, this.f101002e, this.f101003f);
             try {

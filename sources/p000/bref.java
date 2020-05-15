@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bref */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bref extends bxvk implements bxxd {
+public final class bref extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bref f142597f;
@@ -28,7 +28,7 @@ public final class bref extends bxvk implements bxxd {
     static {
         bref bref = new bref();
         f142597f = bref;
-        bxvk.m124024a(bref.class, bref);
+        GeneratedMessageLite.m124024a(bref.class, bref);
     }
 
     private bref() {
@@ -45,7 +45,7 @@ public final class bref extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142597f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f142597f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bref();
         } else {

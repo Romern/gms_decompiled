@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: budb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class budb extends bxvk implements bxxd {
+public final class budb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final budb f153444c;
@@ -22,7 +22,7 @@ public final class budb extends bxvk implements bxxd {
     static {
         budb budb = new budb();
         f153444c = budb;
-        bxvk.m124024a(budb.class, budb);
+        GeneratedMessageLite.m124024a(budb.class, budb);
     }
 
     private budb() {
@@ -39,7 +39,7 @@ public final class budb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153444c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ခ\u0000\u0002ခ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f153444c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ခ\u0000\u0002ခ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new budb();
         } else {

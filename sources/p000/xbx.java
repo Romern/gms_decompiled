@@ -16,7 +16,7 @@ import java.util.Set;
 public final class xbx {
 
     /* renamed from: c */
-    public static final sek f51896c = new sek(new String[]{"FidoEnrollmentUtils"}, (short[]) null);
+    public static final Logger f51896c = new Logger(new String[]{"FidoEnrollmentUtils"}, (short[]) null);
 
     /* renamed from: a */
     public final Context f51897a;
@@ -105,12 +105,12 @@ public final class xbx {
                     if (ordinal == 1) {
                         str3 = "fido:software_optional_uv";
                     } else if (ordinal != 2) {
-                        sek sek = f51896c;
+                        Logger Logger = f51896c;
                         String valueOf = String.valueOf(xka);
                         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 40);
                         sb.append("Don't know how to auto-enroll key type: ");
                         sb.append(valueOf);
-                        sek.mo25418e(sb.toString(), new Object[0]);
+                        Logger.mo25418e(sb.toString(), new Object[0]);
                         xjz xjz = a.f52031b;
                         String valueOf2 = String.valueOf(xka);
                         StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf2).length() + 18);
@@ -131,7 +131,7 @@ public final class xbx {
                 this.f51901f.update("google.com".getBytes(StandardCharsets.UTF_8));
                 byte[] digest = this.f51901f.digest();
                 bxvd da = xwu.f53308e.mo74144da();
-                bxtx a4 = bxtx.m123261a(digest);
+                ByteString a4 = ByteString.m123261a(digest);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -144,7 +144,7 @@ public final class xbx {
                 a3.getClass();
                 xwu.f53312c = a3;
                 try {
-                    bxtx a5 = bxtx.m123261a(xlu.mo29922a().mo74444c());
+                    ByteString a5 = ByteString.m123261a(xlu.mo29922a().mo74444c());
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -154,7 +154,7 @@ public final class xbx {
                 } catch (bypr e) {
                     f51896c.mo25417e("Unable to encode CableCredentialData to CBOR bytestring", e, new Object[0]);
                 }
-                aucb b2 = ios.mo24732b(new ins(str2, account, ((xwu) da.mo74062i()).mo73642k(), c, b));
+                aucb b2 = ios.mo24732b(new ins(str2, account, ((xwu) da.mo74062i()).serializeToBytes(), c, b));
                 b2.mo50373a(new xbs(this, b2, str, a, xbw));
                 b2.mo50372a(new xbt(this, xbw2, a));
             } catch (IOException e2) {

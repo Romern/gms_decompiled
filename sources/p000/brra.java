@@ -75,7 +75,7 @@ public final class brra implements brpy {
         bkkt.f124631i = true;
         List list = this.f143207e.f152555b;
         if (!bkkt.f124632j.mo73666a()) {
-            bkkt.f124632j = bxvk.m124021a(bkkt.f124632j);
+            bkkt.f124632j = GeneratedMessageLite.m124021a(bkkt.f124632j);
         }
         bxsy.m123078a(list, bkkt.f124632j);
         List list2 = this.f143208f.f152555b;
@@ -135,7 +135,7 @@ public final class brra implements brpy {
         }
         bkkt bkkt2 = (bkkt) da.f164949b;
         if (!bkkt2.f124630h.mo73666a()) {
-            bkkt2.f124630h = bxvk.m124019a(bkkt2.f124630h);
+            bkkt2.f124630h = GeneratedMessageLite.m124019a(bkkt2.f124630h);
         }
         for (bklo bklo2 : asList) {
             bkkt2.f124630h.mo74153d(bklo2.f124818h);

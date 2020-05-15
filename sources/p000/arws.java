@@ -127,7 +127,7 @@ public final class arws extends Fragment {
             z = false;
         }
         sdo.m34971a(z, (Object) "Cannot call AccountChallengeWebView#startChallenges more than once.");
-        sdo.m34966a(arrayList, "accounts cannot be null.");
+        sdo.checkIfNull(arrayList, "accounts cannot be null.");
         accountChallengeWebView2.f108244d = arrayList;
         accountChallengeWebView2.f108249i = 0;
         accountChallengeWebView2.f108251k = null;

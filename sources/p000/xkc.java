@@ -17,7 +17,7 @@ public final class xkc {
     public static byte[] m43084b(bypx bypx, String str) {
         sdo.m34959a(bypx);
         try {
-            return bypx.mo74445d().f167357a.mo73780k();
+            return bypx.mo74445d().f167357a.getKey();
         } catch (bypw e) {
             throw new xkk(str, e);
         }

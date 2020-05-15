@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqgm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqgm extends bxvk implements bxxd {
+public final class aqgm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final aqgm f86063f;
@@ -31,12 +31,12 @@ public final class aqgm extends bxvk implements bxxd {
     static {
         aqgm aqgm = new aqgm();
         f86063f = aqgm;
-        bxvk.m124024a(aqgm.class, aqgm);
+        GeneratedMessageLite.m124024a(aqgm.class, aqgm);
     }
 
     private aqgm() {
         bxxn bxxn = bxxn.f165040b;
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -54,7 +54,7 @@ public final class aqgm extends bxvk implements bxxd {
             this.f86070g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f86063f, "\u0001\u0004\u0000\u0001\u0001\r\u0004\u0000\u0000\u0003\u0001ᔈ\u0000\u0002ᔉ\u0002\u0003ᔂ\u0003\rစ\n", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f86063f, "\u0001\u0004\u0000\u0001\u0001\r\u0004\u0000\u0000\u0003\u0001ᔈ\u0000\u0002ᔉ\u0002\u0003ᔂ\u0003\rစ\n", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new aqgm();
         } else {

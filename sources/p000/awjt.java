@@ -135,7 +135,7 @@ public final class awjt extends awzk {
         a.getClass();
         bwiy.f159703b = a;
         bwiy.f159702a |= 1;
-        bxtx a2 = bxtx.m123261a(this.f94563g);
+        ByteString a2 = ByteString.m123261a(this.f94563g);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -313,7 +313,7 @@ public final class awjt extends awzk {
                 if (bwhn2 != null) {
                     bwja bwja2 = (bwja) this.f95397aj;
                     bxvd bxvd = (bxvd) bwja2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bwja2);
+                    bxvd.mo73625a((GeneratedMessageLite) bwja2);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -537,7 +537,7 @@ public final class awjt extends awzk {
         }
         if (bwhn != null) {
             bxvd da = bwjb.f159729d.mo74144da();
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -556,7 +556,7 @@ public final class awjt extends awzk {
             int i = bwho.f159541a | 1;
             bwho.f159541a = i;
             bwho.f159542b = j;
-            bxtx bxtx = bwhn.f159537e;
+            ByteString bxtx = bwhn.f159537e;
             bxtx.getClass();
             bwho.f159541a = i | 2;
             bwho.f159543c = bxtx;
@@ -628,7 +628,7 @@ public final class awjt extends awzk {
         } else {
             bmmp = bmmp.f130032e;
         }
-        mo52895f((bwjb) mo52885b(bundle, bmmp.f130037d.mo73780k(), (List) null));
+        mo52895f((bwjb) mo52885b(bundle, bmmp.f130037d.getKey(), (List) null));
     }
 
     /* access modifiers changed from: protected */

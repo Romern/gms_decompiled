@@ -19,7 +19,7 @@ import java.util.List;
 public final class iqf {
 
     /* renamed from: a */
-    private static final sek f21549a = new sek(new String[]{"DeviceSyncController"}, (byte[]) null);
+    private static final Logger f21549a = new Logger(new String[]{"DeviceSyncController"}, (byte[]) null);
 
     /* renamed from: b */
     private final Context f21550b;
@@ -69,7 +69,7 @@ public final class iqf {
     }
 
     /* renamed from: a */
-    private final bqlm m15893a(Account account, String str, bxtx bxtx, PrivateKey privateKey, bqlq bqlq, byte[] bArr, String str2, int i) {
+    private final bqlm m15893a(Account account, String str, ByteString bxtx, PrivateKey privateKey, bqlq bqlq, byte[] bArr, String str2, int i) {
         chtv chtv;
         try {
             bxvd da = bqlr.f141155c.mo74144da();
@@ -110,9 +110,9 @@ public final class iqf {
                         }
                     }
                     if (bArr2 == null) {
-                        bArr2 = this.f21560l.mo13326a(ehv.m10473c(bxtx.mo73780k()), bArr).f10555c;
+                        bArr2 = this.f21560l.mo13326a(ehv.m10473c(bxtx.getKey()), bArr).f10555c;
                     }
-                    bxtx a2 = bxtx.m123261a(bArr2);
+                    ByteString a2 = bxtx.m123261a(bArr2);
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -211,7 +211,7 @@ public final class iqf {
         int i2 = 1;
         if (bqlh != null) {
             try {
-                ehx = new ehx(str2, account.name, ehx.f15026c, ehv.m10474d(this.f21560l.mo13324a(ehv.m10474d(this.f21556h.mo13221b(str2, account).f21638c), account, bqlh.f141096c.mo73780k()).f10551c));
+                ehx = new ehx(str2, account.name, ehx.f15026c, ehv.m10474d(this.f21560l.mo13324a(ehv.m10474d(this.f21556h.mo13221b(str2, account).f21638c), account, bqlh.f141096c.getKey()).f10551c));
                 z = true;
             } catch (isu e) {
                 e = e;
@@ -374,7 +374,7 @@ public final class iqf {
                 ehx = b;
                 z = false;
             }
-            bxtx a = bxtx.m123261a(ehv.m10472b(ehx.f15026c));
+            ByteString a = ByteString.m123261a(ehv.m10472b(ehx.f15026c));
             ehx ehx4 = ehx;
             bqlm a2 = m15893a(account, str, a, ehx.f15027d, !z ? bqlq.SERVER_INITIATED : bqlq.INITIALIZATION, bArr, str2, i);
             if (a.equals(a2.f141119b)) {
@@ -383,7 +383,7 @@ public final class iqf {
                 ehx2 = ehx4;
             } else {
                 if (!a2.f141119b.mo73779j()) {
-                    ehx ehx5 = new ehx(str3, account2.name, ehv.m10473c(a2.f141119b.mo73780k()), null);
+                    ehx ehx5 = new ehx(str3, account2.name, ehv.m10473c(a2.f141119b.getKey()), null);
                     m15895a(3, str4, i2);
                     ehx3 = ehx5;
                 } else {
@@ -392,7 +392,7 @@ public final class iqf {
                     ehx3 = a3;
                 }
                 new ipy(this.f21550b, account2.name).mo13246b(str3);
-                bqlm = m15893a(account, str, bxtx.m123261a(ehv.m10472b(ehx3.f15026c)), ehx3.f15027d, bqlq.SERVER_INITIATED, bArr, str2, i);
+                bqlm = m15893a(account, str, ByteString.m123261a(ehv.m10472b(ehx3.f15026c)), ehx3.f15027d, bqlq.SERVER_INITIATED, bArr, str2, i);
                 ehx2 = ehx3;
                 z2 = true;
             }
@@ -431,7 +431,7 @@ public final class iqf {
                         a4.getClass();
                         bqkx.f141061a = a4;
                         if (!bqkx.f141062b.mo73666a()) {
-                            bqkx.f141062b = bxvk.m124021a(bqkx.f141062b);
+                            bqkx.f141062b = GeneratedMessageLite.m124021a(bqkx.f141062b);
                         }
                         bxsy.m123078a(list, bqkx.f141062b);
                         bqkx bqkx2 = (bqkx) da2.mo74062i();

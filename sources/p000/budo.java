@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: budo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class budo extends bxvk implements bxxd {
+public final class budo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final budo f153492e;
@@ -25,7 +25,7 @@ public final class budo extends bxvk implements bxxd {
     static {
         budo budo = new budo();
         f153492e = budo;
-        bxvk.m124024a(budo.class, budo);
+        GeneratedMessageLite.m124024a(budo.class, budo);
     }
 
     private budo() {
@@ -42,7 +42,7 @@ public final class budo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153492e, "\u0001\u0006\u0001\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဃ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000\u0005ြ\u0000\u0006ြ\u0000", new Object[]{"c", "b", "a", "d", budi.class, budm.class, budl.class, budn.class, budh.class});
+            return GeneratedMessageLite.m124022a(f153492e, "\u0001\u0006\u0001\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဃ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000\u0005ြ\u0000\u0006ြ\u0000", new Object[]{"c", "b", "a", "d", budi.class, budm.class, budl.class, budn.class, budh.class});
         } else if (i2 == 3) {
             return new budo();
         } else {

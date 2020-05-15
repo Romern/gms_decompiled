@@ -130,7 +130,7 @@ final class bdlm extends bdli implements bdez, bdkj {
             bxvd da = cios.f191113s.mo74144da();
             cioi b = bdlq.mo58152b();
             bxvd bxvd = (bxvd) b.mo74142c(5);
-            bxvd.mo73625a((bxvk) b);
+            bxvd.mo73625a((GeneratedMessageLite) b);
             int b2 = bdlh.m91019b(this.f105900c);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

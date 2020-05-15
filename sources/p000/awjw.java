@@ -65,7 +65,7 @@ public final class awjw extends awzg {
             a.getClass();
             bwje.f159751b = a;
             bwje.f159750a = 1 | bwje.f159750a;
-            bxtx a2 = bxtx.m123261a(this.f94572f);
+            ByteString a2 = ByteString.m123261a(this.f94572f);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -344,7 +344,7 @@ public final class awjw extends awzg {
                 bwjh bwjh = (bwjh) da.f164949b;
                 bmed.getClass();
                 if (!bwjh.f159778b.mo73666a()) {
-                    bwjh.f159778b = bxvk.m124021a(bwjh.f159778b);
+                    bwjh.f159778b = GeneratedMessageLite.m124021a(bwjh.f159778b);
                 }
                 bwjh.f159778b.add(bmed);
             }
@@ -361,7 +361,7 @@ public final class awjw extends awzg {
                 bwjh bwjh2 = (bwjh) da.f164949b;
                 bmkv.getClass();
                 if (!bwjh2.f159779c.mo73666a()) {
-                    bwjh2.f159779c = bxvk.m124021a(bwjh2.f159779c);
+                    bwjh2.f159779c = GeneratedMessageLite.m124021a(bwjh2.f159779c);
                 }
                 bwjh2.f159779c.add(bmkv);
             }
@@ -378,7 +378,7 @@ public final class awjw extends awzg {
                 bwjh bwjh3 = (bwjh) da.f164949b;
                 bmfe.getClass();
                 if (!bwjh3.f159780d.mo73666a()) {
-                    bwjh3.f159780d = bxvk.m124021a(bwjh3.f159780d);
+                    bwjh3.f159780d = GeneratedMessageLite.m124021a(bwjh3.f159780d);
                 }
                 bwjh3.f159780d.add(bmfe);
             }
@@ -408,7 +408,7 @@ public final class awjw extends awzg {
         if (((Integer) this.f95374R.mo15534a(j)).intValue() == 6) {
             bwjg bwjg = (bwjg) this.f95397aj;
             bxvd bxvd = (bxvd) bwjg.mo74142c(5);
-            bxvd.mo73625a((bxvk) bwjg);
+            bxvd.mo73625a((GeneratedMessageLite) bwjg);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -417,7 +417,7 @@ public final class awjw extends awzg {
             bwjg bwjg3 = bwjg.f159762k;
             bxxc.getClass();
             if (!bwjg2.f159765b.mo73666a()) {
-                bwjg2.f159765b = bxvk.m124021a(bwjg2.f159765b);
+                bwjg2.f159765b = GeneratedMessageLite.m124021a(bwjg2.f159765b);
             }
             bwjg2.f159765b.set(intValue, bxxc);
             this.f95397aj = bxvd.mo74062i();
@@ -470,7 +470,7 @@ public final class awjw extends awzg {
         } else {
             bmmp = bmmp.f130032e;
         }
-        byte[] k = bmmp.f130037d.mo73780k();
+        byte[] k = bmmp.f130037d.getKey();
         Bundle bundle = new Bundle();
         bjvp.m104737a(bundle, "EventListener.EXTRA_TRIGGER_VALUE_REFERENCES", list);
         if (bmmv.f130056b == 4) {
@@ -496,9 +496,9 @@ public final class awjw extends awzg {
             }
             bwjh bwjh = (bwjh) mo52885b(bundle, (byte[]) null, bmmp3.f130036c);
             bxvd bxvd = (bxvd) bwjh.mo74142c(5);
-            bxvd.mo73625a((bxvk) bwjh);
+            bxvd.mo73625a((GeneratedMessageLite) bwjh);
             if (k != null && k.length > 0) {
-                bxtx a2 = bxtx.m123261a(k);
+                ByteString a2 = ByteString.m123261a(k);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

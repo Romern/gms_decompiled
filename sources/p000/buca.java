@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buca */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buca extends bxvk implements bxxd {
+public final class buca extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buca f153311d;
@@ -17,12 +17,12 @@ public final class buca extends bxvk implements bxxd {
     public int f153314b;
 
     /* renamed from: c */
-    public bxtx f153315c = bxtx.f164797b;
+    public ByteString f153315c = ByteString.f164797b;
 
     static {
         buca buca = new buca();
         f153311d = buca;
-        bxvk.m124024a(buca.class, buca);
+        GeneratedMessageLite.m124024a(buca.class, buca);
     }
 
     private buca() {
@@ -39,7 +39,7 @@ public final class buca extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153311d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဋ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f153311d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဋ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new buca();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvwt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvwt extends bxvk implements bxxd {
+public final class bvwt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bvwt f158012e;
@@ -25,7 +25,7 @@ public final class bvwt extends bxvk implements bxxd {
     static {
         bvwt bvwt = new bvwt();
         f158012e = bvwt;
-        bxvk.m124024a(bvwt.class, bvwt);
+        GeneratedMessageLite.m124024a(bvwt.class, bvwt);
     }
 
     private bvwt() {
@@ -42,7 +42,7 @@ public final class bvwt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f158012e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဌ\u0000\u0003ဇ\u0001", new Object[]{"a", "b", bvws.class, "c", bvve.f157790a, "d"});
+            return GeneratedMessageLite.m124022a(f158012e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဌ\u0000\u0003ဇ\u0001", new Object[]{"a", "b", bvws.class, "c", bvve.f157790a, "d"});
         } else if (i2 == 3) {
             return new bvwt();
         } else {
@@ -69,7 +69,7 @@ public final class bvwt extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo73395a() {
         if (!this.f158015b.mo73666a()) {
-            this.f158015b = bxvk.m124021a(this.f158015b);
+            this.f158015b = GeneratedMessageLite.m124021a(this.f158015b);
         }
     }
 }

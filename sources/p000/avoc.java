@@ -70,7 +70,7 @@ public final class avoc {
         }
         bohp bohp4 = (bohp) da.f164949b;
         if (!bohp4.f133126c.mo73666a()) {
-            bohp4.f133126c = bxvk.m124021a(bohp4.f133126c);
+            bohp4.f133126c = GeneratedMessageLite.m124021a(bohp4.f133126c);
         }
         bxsy.m123078a(b3, bohp4.f133126c);
         return (bohp) da.mo74062i();

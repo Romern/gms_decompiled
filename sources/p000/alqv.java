@@ -81,7 +81,7 @@ public final class alqv extends alqq {
         int i = alpz.f74048a;
         amig.m62939a();
         String[] strArr = ((Boolean) amfs.f74869a.mo41191a()).booleanValue() ? f74136k : f74135j;
-        HashMap a = bnmt.m109794a();
+        HashMap a = bnmt.getNewHashMap();
         Cursor cursor = null;
         try {
             cursor = this.f74110a.getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, strArr, m61534a("contact_id", list), null, null);
@@ -177,7 +177,7 @@ public final class alqv extends alqq {
         int i = alpz.f74048a;
         amig.m62939a();
         String[] strArr = ((Boolean) amfs.f74869a.mo41191a()).booleanValue() ? f74134i : f74133h;
-        HashMap a = bnmt.m109794a();
+        HashMap a = bnmt.getNewHashMap();
         Cursor cursor = null;
         try {
             cursor = this.f74110a.getContentResolver().query(ContactsContract.CommonDataKinds.Email.CONTENT_URI, strArr, m61534a("contact_id", list), null, null);
@@ -238,7 +238,7 @@ public final class alqv extends alqq {
             bzdh = bzdh.f169466A;
         }
         bxvd bxvd = (bxvd) bzdh.mo74142c(5);
-        bxvd.mo73625a((bxvk) bzdh);
+        bxvd.mo73625a((GeneratedMessageLite) bzdh);
         bzdb bzdb = (bzdb) bxvd;
         if (bzdb.f164950c) {
             bzdb.mo74035c();
@@ -521,7 +521,7 @@ public final class alqv extends alqq {
      */
     /* JADX WARNING: Code restructure failed: missing block: B:170:0x0483, code lost:
         r26 = r3;
-        ((p000.bzcu) r12.f164949b).f169415f = p000.bxvk.m124030de();
+        ((p000.bzcu) r12.f164949b).f169415f = p000.GeneratedMessageLite.m124030de();
         r3 = r10.iterator();
      */
     /* JADX WARNING: Code restructure failed: missing block: B:172:0x0497, code lost:
@@ -678,7 +678,7 @@ public final class alqv extends alqq {
         r12.f164950c = false;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:216:0x05a8, code lost:
-        ((p000.bzcu) r12.f164949b).f169416g = p000.bxvk.m124030de();
+        ((p000.bzcu) r12.f164949b).f169416g = p000.GeneratedMessageLite.m124030de();
         r3 = r3.iterator();
      */
     /* JADX WARNING: Code restructure failed: missing block: B:218:0x05ba, code lost:
@@ -828,7 +828,7 @@ public final class alqv extends alqq {
         r12.f164950c = false;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:257:0x06cc, code lost:
-        ((p000.bzcu) r12.f164949b).f169417h = p000.bxvk.m124030de();
+        ((p000.bzcu) r12.f164949b).f169417h = p000.GeneratedMessageLite.m124030de();
         r3 = r3.iterator();
      */
     /* JADX WARNING: Code restructure failed: missing block: B:259:0x06de, code lost:
@@ -912,7 +912,7 @@ public final class alqv extends alqq {
         r12.f164950c = false;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:284:0x0762, code lost:
-        ((p000.bzcu) r12.f164949b).f169420k = p000.bxvk.m124030de();
+        ((p000.bzcu) r12.f164949b).f169420k = p000.GeneratedMessageLite.m124030de();
         r4 = 0;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:286:0x0771, code lost:
@@ -1520,7 +1520,7 @@ public final class alqv extends alqq {
         strArr[c] = "raw_contact_id";
         strArr[1] = "contact_id";
         strArr[2] = "data1";
-        HashMap a2 = bnmt.m109794a();
+        HashMap a2 = bnmt.getNewHashMap();
         Cursor cursor2 = null;
         Cursor cursor3 = null;
         Cursor cursor4 = null;
@@ -1600,7 +1600,7 @@ public final class alqv extends alqq {
         bzdh2.getClass();
         bzcx.f169436f = bzdh2;
         bzcx.f169431a = i4 | 16;
-        bzcx.f169434d = bxvk.m124029dd();
+        bzcx.f169434d = GeneratedMessageLite.m124029dd();
         bzcv.mo74536a(set);
         if (alqx.f74144d) {
             if (bzcv.f164950c) {
@@ -1616,7 +1616,7 @@ public final class alqv extends alqq {
                 int i7 = i6 + 1;
                 bzcu bzcu = (bzcu) bxwc.get(i5);
                 bxvd bxvd = (bxvd) bzcu.mo74142c(5);
-                bxvd.mo73625a((bxvk) bzcu);
+                bxvd.mo73625a((GeneratedMessageLite) bzcu);
                 bzcs bzcs = (bzcs) bxvd;
                 if (bzcs.f164950c) {
                     bzcs.mo74035c();
@@ -1643,7 +1643,7 @@ public final class alqv extends alqq {
         int i = 0;
         int i2 = 0;
         for (int i3 = 0; i3 < size; i3++) {
-            boolean a = mo40660a(alqx2, ((bzcu) bxwc.get(i3)).mo73642k(), str2);
+            boolean a = mo40660a(alqx2, ((bzcu) bxwc.get(i3)).serializeToBytes(), str2);
             if (!a) {
                 i2++;
             } else {
@@ -1668,7 +1668,7 @@ public final class alqv extends alqq {
             bzcu.f169410a |= 1;
             bzcu.f169411b = longValue;
             bzcu.m125663b(bzcu);
-            boolean a2 = mo40660a(alqx2, ((bzcu) bzcs.mo74062i()).mo73642k(), str2);
+            boolean a2 = mo40660a(alqx2, ((bzcu) bzcs.mo74062i()).serializeToBytes(), str2);
             if (!a2) {
                 i6++;
             } else {
@@ -1711,6 +1711,6 @@ public final class alqv extends alqq {
         if (bzdh == null) {
             bzdh = bzdh.f169466A;
         }
-        return alqq.m61526a(bzdh.mo73642k(), str2, this.f74138l) & z;
+        return alqq.m61526a(bzdh.serializeToBytes(), str2, this.f74138l) & z;
     }
 }

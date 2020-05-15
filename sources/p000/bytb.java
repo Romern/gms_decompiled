@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bytb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bytb extends bxvk implements bxxd {
+public final class bytb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bytb f167639f;
@@ -31,7 +31,7 @@ public final class bytb extends bxvk implements bxxd {
     static {
         bytb bytb = new bytb();
         f167639f = bytb;
-        bxvk.m124024a(bytb.class, bytb);
+        GeneratedMessageLite.m124024a(bytb.class, bytb);
     }
 
     private bytb() {
@@ -52,7 +52,7 @@ public final class bytb extends bxvk implements bxxd {
             this.f167646g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f167639f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0004\u0001ᔌ\u0000\u0002ᐉ\u0001\u0003ᐉ\u0002\u0004ᐉ\u0003", new Object[]{"a", "b", bytg.f167670a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f167639f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0004\u0001ᔌ\u0000\u0002ᐉ\u0001\u0003ᐉ\u0002\u0004ᐉ\u0003", new Object[]{"a", "b", bytg.f167670a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new bytb();
         } else {

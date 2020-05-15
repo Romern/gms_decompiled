@@ -51,7 +51,7 @@ import org.json.JSONObject;
 public final class gls {
 
     /* renamed from: a */
-    public static final sek f18570a = ght.m13171a("GoogleAccountDataServiceImpl");
+    public static final Logger f18570a = ght.m13171a("GoogleAccountDataServiceImpl");
 
     /* renamed from: b */
     public static final Semaphore f18571b = new Semaphore(0);
@@ -75,7 +75,7 @@ public final class gls {
     public final goa f18577h = ((goa) goa.f18759a.mo13145b());
 
     /* renamed from: i */
-    public final glp f18578i = new glp(this.f18573d.f21306a);
+    public final glp f18578i = new glp(this.f18573d.context);
 
     /* renamed from: j */
     public final grm f18579j;
@@ -98,7 +98,7 @@ public final class gls {
     public gls(ilq ilq) {
         sdo.m34959a(ilq);
         this.f18573d = ilq;
-        Context context = ilq.f21306a;
+        Context context = ilq.context;
         this.f18574e = gro.m13782a(context);
         this.f18575f = new grx(context);
         this.f18576g = new glv(ilq);
@@ -113,7 +113,7 @@ public final class gls {
     /* renamed from: a */
     public final Bundle mo12024a(String str) {
         Account account = new Account(str, "com.google");
-        if (!soz.m35791a(this.f18573d.f21306a, account)) {
+        if (!soz.m35791a(this.f18573d.context, account)) {
             return null;
         }
         goa goa = this.f18577h;
@@ -144,18 +144,18 @@ public final class gls {
     public final String mo12033b(Account account) {
         sdo.m34969a(account.name, (Object) "AccountName must be provided");
         String str = (String) this.f18577h.mo12090a(account, gqd.f18809c);
-        f18570a.mo25412b("getGoogleAccountId(%s): %s.", sek.m35081a(account), sek.m35081a(str));
+        f18570a.mo25412b("getGoogleAccountId(%s): %s.", Logger.m35081a(account), Logger.m35081a(str));
         return str == null ? "" : str;
     }
 
     /* renamed from: c */
     public final DeviceManagementInfoResponse mo12035c(Account account) {
-        bzxl a = gmi.m13447a(this.f18573d.f21306a, account);
+        bzxl a = gmi.m13447a(this.f18573d.context, account);
         Locale locale = Locale.getDefault();
         int i = Build.VERSION.SDK_INT;
         String languageTag = locale.toLanguageTag();
         bxvd da = cama.f175229e.mo74144da();
-        long a2 = spn.m35843a(this.f18573d.f21306a);
+        long a2 = spn.getAndroidId(this.f18573d.context);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -168,7 +168,7 @@ public final class gls {
         cama.f175231a = i2 | 1;
         cama.f175232b = languageTag;
         try {
-            String b = qdf.m31915b(this.f18573d.f21306a);
+            String b = qdf.m31915b(this.f18573d.context);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -208,7 +208,7 @@ public final class gls {
                 String str = ((camd) camb2.f175237a.get(0)).f175248b;
                 if (!TextUtils.isEmpty(str)) {
                     try {
-                        svr.m36484b(this.f18573d.f21306a).mo26176b(str, 0);
+                        svr.m36484b(this.f18573d.context).mo26176b(str, 0);
                         return new DeviceManagementInfoResponse(str, true);
                     } catch (PackageManager.NameNotFoundException e2) {
                         return new DeviceManagementInfoResponse(str, false);
@@ -246,7 +246,7 @@ public final class gls {
 
     /* renamed from: a */
     public final AccountChangeEventsResponse mo12025a(AccountChangeEventsRequest accountChangeEventsRequest) {
-        glu a = glu.m13415a(this.f18573d.f21306a);
+        glu a = glu.m13415a(this.f18573d.context);
         String a2 = a.mo12037a();
         try {
             return new AccountChangeEventsResponse(a.mo12038a(accountChangeEventsRequest.f9912c, accountChangeEventsRequest.f9911b));
@@ -257,12 +257,12 @@ public final class gls {
 
     /* renamed from: a */
     public final AccountRemovalResponse mo12026a(AccountRemovalRequest accountRemovalRequest) {
-        sdo.m34966a(accountRemovalRequest, "accountRemovalRequest cannot be null!");
+        sdo.checkIfNull(accountRemovalRequest, "accountRemovalRequest cannot be null!");
         Account account = accountRemovalRequest.f10588c;
-        if (!soz.m35791a(this.f18573d.f21306a, account)) {
+        if (!soz.m35791a(this.f18573d.context, account)) {
             return new AccountRemovalResponse(izj.BAD_USERNAME);
         }
-        adyd a = adyd.m51363a(this.f18573d.f21306a);
+        adyd a = adyd.m51363a(this.f18573d.context);
         try {
             int i = Build.VERSION.SDK_INT;
             a.mo33925d(account);
@@ -278,8 +278,8 @@ public final class gls {
 
     /* renamed from: a */
     public final ClearTokenResponse mo12027a(ClearTokenRequest clearTokenRequest) {
-        adyd a = adyd.m51363a(this.f18573d.f21306a);
-        sdo.m34966a(clearTokenRequest, "clearTokenRequest cannot be null!");
+        adyd a = adyd.m51363a(this.f18573d.context);
+        sdo.checkIfNull(clearTokenRequest, "clearTokenRequest cannot be null!");
         a.mo33921b("com.google", clearTokenRequest.f10609b);
         a.mo33921b("cn.google", clearTokenRequest.f10609b);
         return new ClearTokenResponse(izj.SUCCESS);
@@ -287,7 +287,7 @@ public final class gls {
 
     /* renamed from: a */
     public final GoogleAccountData mo12028a(Account account) {
-        if (!soz.m35791a(this.f18573d.f21306a, account)) {
+        if (!soz.m35791a(this.f18573d.context, account)) {
             return null;
         }
         Set set = (Set) this.f18577h.mo12090a(account, gqd.f18812f);
@@ -308,7 +308,7 @@ public final class gls {
         TokenResponse tokenResponse;
         glu a;
         String a2;
-        gnc gnc = new gnc(this.f18573d.f21306a, accountSignInRequest);
+        gnc gnc = new gnc(this.f18573d.context, accountSignInRequest);
         try {
             AccountSignInRequest accountSignInRequest2 = gnc.f18664f;
             String str2 = accountSignInRequest2.f10596f.f10829c;
@@ -471,8 +471,8 @@ public final class gls {
         TokenData tokenData;
         giq giq;
         TokenRequest tokenRequest2 = tokenRequest;
-        sdo.m34966a(appDescription, "Calling AppDescription cannot be null!");
-        sdo.m34966a(tokenRequest2, "TokenRequest cannot be null!");
+        sdo.checkIfNull(appDescription, "Calling AppDescription cannot be null!");
+        sdo.checkIfNull(tokenRequest2, "TokenRequest cannot be null!");
         long j2 = tokenRequest.mo7640b().getLong("gads_service_connection_start_time_millis", -1);
         if (j2 != -1) {
             j = SystemClock.elapsedRealtime() - j2;
@@ -480,7 +480,7 @@ public final class gls {
             j = -1;
         }
         long elapsedRealtime = SystemClock.elapsedRealtime();
-        Context context = this.f18573d.f21306a;
+        Context context = this.f18573d.context;
         gkr gkr = (gkr) gkr.f18427a.mo13145b();
         gns gns = (gns) gns.f18716b.mo13145b();
         gmw gmw = new gmw();
@@ -540,7 +540,7 @@ public final class gls {
                                 giq.f18311e = new ArrayList(hashSet2);
                             }
                         } else {
-                            gns.f18715a.mo25409a("Missing snowballing token: no granted scopes set.", new Object[0]);
+                            gns.f18715a.logVerbose("Missing snowballing token: no granted scopes set.", new Object[0]);
                             giq = null;
                         }
                         if (giq != null) {
@@ -589,10 +589,10 @@ public final class gls {
             Thread.currentThread().interrupt();
             throw new rqy(izj.SERVICE_DISABLED, "Internal error", e4);
         } catch (rqy e5) {
-            f18570a.mo25417e("getToken() -> %s. Account: %s, App: %s, Service: %s", e5, e5.f43534a, sek.m35081a(tokenRequest.mo7637a()), tokenRequest2.f10714j.f10841e, tokenRequest2.f10706b);
+            f18570a.mo25417e("getToken() -> %s. Account: %s, App: %s, Service: %s", e5, e5.f43534a, Logger.m35081a(tokenRequest.mo7637a()), tokenRequest2.f10714j.f10841e, tokenRequest2.f10706b);
             tokenResponse = gmw.m13470a(tokenRequest.mo7637a(), e5.f43534a);
         }
-        f18570a.mo25409a("getToken() -> %s. Account: %s, App: %s, Service: %s", tokenResponse.mo7647b(), sek.m35081a(tokenRequest.mo7637a()), tokenRequest2.f10714j.f10841e, tokenRequest2.f10706b);
+        f18570a.logVerbose("getToken() -> %s. Account: %s, App: %s, Service: %s", tokenResponse.mo7647b(), Logger.m35081a(tokenRequest.mo7637a()), tokenRequest2.f10714j.f10841e, tokenRequest2.f10706b);
         tokenResponse.f10747x.putLong("logging.internal_service_latency_millis", SystemClock.elapsedRealtime() - elapsedRealtime);
         if (j3 >= 0) {
             tokenResponse.f10747x.putLong("logging.gads_connection_latency_millis", j3);

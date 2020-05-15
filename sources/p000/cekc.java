@@ -11,6 +11,6 @@ final /* synthetic */ class cekc implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (cejj) bxvk.m124014a(cejj.f182771b, bArr);
+        return (cejj) GeneratedMessageLite.m124014a(cejj.f182771b, bArr);
     }
 }

@@ -11,7 +11,7 @@ import java.util.List;
 public final class szd {
 
     /* renamed from: a */
-    private final sek f45473a = tea.m36798a("throttler");
+    private final Logger f45473a = tea.m36798a("throttler");
 
     /* renamed from: b */
     private final Context f45474b;
@@ -39,14 +39,14 @@ public final class szd {
         while (it.hasNext()) {
             Long l = (Long) it.next();
             if (l.longValue() < j2) {
-                sek sek = this.f45473a;
+                Logger Logger = this.f45473a;
                 String valueOf = String.valueOf(l);
                 StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 56);
                 sb.append("Removing old timestamp ");
                 sb.append(valueOf);
                 sb.append(", threshold: ");
                 sb.append(j2);
-                sek.mo25409a(sb.toString(), new Object[0]);
+                Logger.logVerbose(sb.toString(), new Object[0]);
                 it.remove();
             }
         }
@@ -56,7 +56,7 @@ public final class szd {
     /* renamed from: b */
     public final boolean mo26264b() {
         List a = m36641a(tdn.m36762a());
-        sek sek = this.f45473a;
+        Logger Logger = this.f45473a;
         int size = a.size();
         long j = this.f45476d;
         StringBuilder sb = new StringBuilder(67);
@@ -64,7 +64,7 @@ public final class szd {
         sb.append(size);
         sb.append(", Allowed Count:");
         sb.append(j);
-        sek.mo25409a(sb.toString(), new Object[0]);
+        Logger.logVerbose(sb.toString(), new Object[0]);
         if (((long) a.size()) < this.f45476d) {
             return true;
         }
@@ -92,7 +92,7 @@ public final class szd {
             if (l != null) {
                 arrayList.add(l);
             } else {
-                this.f45473a.mo25409a("Removing lingering null timestamp from db", new Object[0]);
+                this.f45473a.logVerbose("Removing lingering null timestamp from db", new Object[0]);
             }
         }
         a3.mo26290b(str, TextUtils.join(",", arrayList));

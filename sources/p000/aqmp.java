@@ -28,7 +28,7 @@ final /* synthetic */ class aqmp implements Callable {
             aqnx aqnx = new aqnx(shl);
             String str = signInChimeraActivity.f107681e;
             bmxy.m108581a(str);
-            byte[] bArr = (byte[]) bmxy.m108581a(spn.m35888f(signInChimeraActivity.getBaseContext(), str));
+            byte[] bArr = (byte[]) bmxy.m108581a(spn.getSHA1OfPackage(signInChimeraActivity.getBaseContext(), str));
             bxvd da = bydu.f165857c.mo74144da();
             if (da.f164950c) {
                 da.mo74035c();

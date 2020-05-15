@@ -57,7 +57,7 @@ public final class awrv implements Callable {
             if (bwki == null) {
                 bwki = bwki.f159970e;
             }
-            bxtx bxtx = bwki.f159975d;
+            ByteString bxtx = bwki.f159975d;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -82,7 +82,7 @@ public final class awrv implements Callable {
             } else {
                 if (a != null) {
                     bxvd bxvd = (bxvd) a.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a);
+                    bxvd.mo73625a((GeneratedMessageLite) a);
                     byae = (byae) bxvd;
                 } else {
                     byae = (byae) byah.f165256g.mo74144da();

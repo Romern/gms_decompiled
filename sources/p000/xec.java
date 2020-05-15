@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public class xec {
 
     /* renamed from: f */
-    public static final sek f52053f = new sek(new String[]{"RequestHandler"}, (short[]) null);
+    public static final Logger f52053f = new Logger(new String[]{"RequestHandler"}, (short[]) null);
 
     /* renamed from: c */
     public final xwj f52054c;
@@ -82,9 +82,9 @@ public class xec {
         xdx xdx = this.f52055d;
         xwj xwj = this.f52054c;
         xeh xeh = this.f52056e;
-        sek sek = xdx.f52034d;
+        Logger Logger = xdx.f52034d;
         String valueOf = String.valueOf(str);
-        sek.mo25412b(valueOf.length() == 0 ? new String("Sign with appId ") : "Sign with appId ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("Sign with appId ") : "Sign with appId ".concat(valueOf), new Object[0]);
         bmxy.m108582a(str2, "appId cannot be null");
         bmxy.m108589a(!str.trim().isEmpty(), "appId cannot be empty");
         bmxy.m108582a(xkb2, "Key cannot be null");

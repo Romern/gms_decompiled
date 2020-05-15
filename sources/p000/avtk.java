@@ -5,7 +5,7 @@ package p000;
 public final class avtk extends avti {
 
     /* renamed from: c */
-    private static final sek f93890c = avpq.m79021h("LongKey");
+    private static final Logger f93890c = avpq.m79021h("LongKey");
 
     public avtk(String str, Long l) {
         super(str, l);

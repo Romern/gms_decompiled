@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qmk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qmk extends bxvk implements bxxd {
+public final class qmk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final qmk f41705d;
@@ -22,7 +22,7 @@ public final class qmk extends bxvk implements bxxd {
     static {
         qmk qmk = new qmk();
         f41705d = qmk;
-        bxvk.m124024a(qmk.class, qmk);
+        GeneratedMessageLite.m124024a(qmk.class, qmk);
     }
 
     private qmk() {
@@ -31,14 +31,14 @@ public final class qmk extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo24111b() {
         if (!this.f41708b.mo73666a()) {
-            this.f41708b = bxvk.m124021a(this.f41708b);
+            this.f41708b = GeneratedMessageLite.m124021a(this.f41708b);
         }
     }
 
     /* renamed from: c */
     public final void mo24112c() {
         if (!this.f41709c.mo73666a()) {
-            this.f41709c = bxvk.m124021a(this.f41709c);
+            this.f41709c = GeneratedMessageLite.m124021a(this.f41709c);
         }
     }
 
@@ -60,7 +60,7 @@ public final class qmk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f41705d, "\u0001\u0003\u0000\u0000\u0001\u0005\u0003\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0005\u001b", new Object[]{"a", bojy.class, "b", qmt.class, "c", djc.class});
+            return GeneratedMessageLite.m124022a(f41705d, "\u0001\u0003\u0000\u0000\u0001\u0005\u0003\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0005\u001b", new Object[]{"a", bojy.class, "b", qmt.class, "c", djc.class});
         } else if (i2 == 3) {
             return new qmk();
         } else {
@@ -87,7 +87,7 @@ public final class qmk extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo24110a() {
         if (!this.f41707a.mo73666a()) {
-            this.f41707a = bxvk.m124021a(this.f41707a);
+            this.f41707a = GeneratedMessageLite.m124021a(this.f41707a);
         }
     }
 }

@@ -24,14 +24,14 @@ public final class kal extends AsyncTask {
     public final /* bridge */ /* synthetic */ Object doInBackground(Object[] objArr) {
         Void[] voidArr = (Void[]) objArr;
         AccountSettingsChimeraActivity accountSettingsChimeraActivity = this.f23659b;
-        sek sek = AccountSettingsChimeraActivity.f11573b;
+        Logger Logger = AccountSettingsChimeraActivity.f11573b;
         try {
             giu.m13225a(accountSettingsChimeraActivity).mo11918a(this.f23658a, accountSettingsChimeraActivity.f11576e);
             return true;
         } catch (git e) {
-            sek sek2 = AccountSettingsChimeraActivity.f11573b;
+            Logger logger2 = AccountSettingsChimeraActivity.f11573b;
             String valueOf = String.valueOf(e.f18313a);
-            sek2.mo25414c(valueOf.length() == 0 ? new String("Found recovery URL: ") : "Found recovery URL: ".concat(valueOf), new Object[0]);
+            logger2.mo25414c(valueOf.length() == 0 ? new String("Found recovery URL: ") : "Found recovery URL: ".concat(valueOf), new Object[0]);
             return false;
         } catch (IOException e2) {
             AccountSettingsChimeraActivity.f11573b.mo25410a((Throwable) e2);
@@ -46,7 +46,7 @@ public final class kal extends AsyncTask {
     public final /* bridge */ /* synthetic */ void onPostExecute(Object obj) {
         if (((Boolean) obj).booleanValue()) {
             AccountSettingsChimeraActivity accountSettingsChimeraActivity = this.f23659b;
-            sek sek = AccountSettingsChimeraActivity.f11573b;
+            Logger Logger = AccountSettingsChimeraActivity.f11573b;
             accountSettingsChimeraActivity.f11577f.mo14197a(accountSettingsChimeraActivity.f11576e);
         }
     }

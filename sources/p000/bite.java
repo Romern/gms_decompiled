@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bite */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bite extends bxvk implements bxxd {
+public final class bite extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bite f121633a;
@@ -13,7 +13,7 @@ public final class bite extends bxvk implements bxxd {
     static {
         bite bite = new bite();
         f121633a = bite;
-        bxvk.m124024a(bite.class, bite);
+        GeneratedMessageLite.m124024a(bite.class, bite);
     }
 
     private bite() {
@@ -30,7 +30,7 @@ public final class bite extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f121633a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f121633a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bite();

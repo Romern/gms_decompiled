@@ -12,9 +12,9 @@ final class ree extends UploadDataProvider {
     int f42790a = 0;
 
     /* renamed from: b */
-    final /* synthetic */ bxtx f42791b;
+    final /* synthetic */ ByteString f42791b;
 
-    public ree(bxtx bxtx) {
+    public ree(ByteString bxtx) {
         this.f42791b = bxtx;
     }
 

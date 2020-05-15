@@ -17,7 +17,7 @@ public final class fsi {
             cixm = null;
         } else {
             try {
-                cixm = (cixm) bxvk.m124016a(cixm.f191686d, a.f9546f, bxus.m123744c());
+                cixm = (cixm) GeneratedMessageLite.m124016a(cixm.f191686d, a.f9546f, bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("SchemaOrgUtils", "Unabled to parse the provided action.");
                 cixm = null;

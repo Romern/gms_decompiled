@@ -73,7 +73,7 @@ final class ajen extends buqn {
         }
         bzcn bzcn = (bzcn) bxvf.f164949b;
         if (!bzcn.f169378b.mo73666a()) {
-            bzcn.f169378b = bxvk.m124021a(bzcn.f169378b);
+            bzcn.f169378b = GeneratedMessageLite.m124021a(bzcn.f169378b);
         }
         bxsy.m123078a(list, bzcn.f169378b);
         bxvf.mo74133b(this.f70438b);
@@ -84,7 +84,7 @@ final class ajen extends buqn {
         }
         bzcn bzcn2 = (bzcn) bxvf.f164949b;
         if (!bzcn2.f169382f.mo73666a()) {
-            bzcn2.f169382f = bxvk.m124021a(bzcn2.f169382f);
+            bzcn2.f169382f = GeneratedMessageLite.m124021a(bzcn2.f169382f);
         }
         bxsy.m123078a(list2, bzcn2.f169382f);
         String id = TimeZone.getDefault().getID();

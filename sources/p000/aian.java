@@ -200,7 +200,7 @@ public final class aian extends buqn {
                         i12++;
                     }
                     Object[] objArr5 = new Object[1];
-                    bxtx bxtx = ahwk.f68228d;
+                    ByteString bxtx = ahwk.f68228d;
                     objArr5[0] = bxtx == null ? Integer.valueOf(bxtx.hashCode()) : "null";
                     printWriter2.printf("  shown account key.hash: %s\n", objArr5);
                     if (!cfoj.m141557g()) {
@@ -313,7 +313,7 @@ public final class aian extends buqn {
         while (r3.hasNext()) {
         }
         Object[] objArr52 = new Object[1];
-        bxtx bxtx2 = ahwk2.f68228d;
+        ByteString bxtx2 = ahwk2.f68228d;
         objArr52[0] = bxtx2 == null ? Integer.valueOf(bxtx2.hashCode()) : "null";
         printWriter22.printf("  shown account key.hash: %s\n", objArr52);
         if (!cfoj.m141557g()) {

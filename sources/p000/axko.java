@@ -54,7 +54,7 @@ public final class axko extends axeq {
         btso.f150241a |= 1;
         if (this.f96082e.f110795e != null) {
             btrs btrs = (btrs) btrt.f150144e.mo74144da();
-            bxtx a = bxtx.m123261a(this.f96082e.f110795e);
+            ByteString a = ByteString.m123261a(this.f96082e.f110795e);
             if (btrs.f164950c) {
                 btrs.mo74035c();
                 btrs.f164950c = false;
@@ -114,7 +114,7 @@ public final class axko extends axeq {
         }
         btso btso4 = (btso) da.f164949b;
         if (!btso4.f150244d.mo73666a()) {
-            btso4.f150244d = bxvk.m124019a(btso4.f150244d);
+            btso4.f150244d = GeneratedMessageLite.m124019a(btso4.f150244d);
         }
         for (btrr btrr : asList) {
             btso4.f150244d.mo74153d(btrr.f150143g);
@@ -151,7 +151,7 @@ public final class axko extends axeq {
             }
             byte[] bArr = ((ClaimMoneyRequest) this.f95865d).f110796f;
             if (bArr != null) {
-                bxtx a2 = bxtx.m123261a(bArr);
+                ByteString a2 = ByteString.m123261a(bArr);
                 if (da4.f164950c) {
                     da4.mo74035c();
                     da4.f164950c = false;

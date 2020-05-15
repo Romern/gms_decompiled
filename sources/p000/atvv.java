@@ -13,7 +13,7 @@ public final class atvv {
 
     public atvv(btrg btrg) {
         bxvd bxvd = (bxvd) btrg.mo74142c(5);
-        bxvd.mo73625a((bxvk) btrg);
+        bxvd.mo73625a((GeneratedMessageLite) btrg);
         this.f91029a = bxvd;
     }
 
@@ -213,7 +213,7 @@ public final class atvv {
         btrb btrb = ((btrg) bxvd.f164949b).f150095e;
         if (btrb != null) {
             bxvd bxvd2 = (bxvd) btrb.mo74142c(5);
-            bxvd2.mo73625a((bxvk) btrb);
+            bxvd2.mo73625a((GeneratedMessageLite) btrb);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
@@ -380,7 +380,7 @@ public final class atvv {
         btrb btrb = ((btrg) bxvd.f164949b).f150095e;
         if (btrb != null) {
             bxvd bxvd2 = (bxvd) btrb.mo74142c(5);
-            bxvd2.mo73625a((bxvk) btrb);
+            bxvd2.mo73625a((GeneratedMessageLite) btrb);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;

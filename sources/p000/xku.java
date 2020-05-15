@@ -38,7 +38,7 @@ public final class xku extends xkh {
     private static final bnic f52616k = bnic.m109493a(xqv.f52942g, xqv.f52943h, xqv.f52944i, xqv.f52945j, xqv.f52946k);
 
     /* renamed from: t */
-    private static final sek f52617t = new sek(new String[]{"AuthenticatorGetInfoResponseData"}, (short[]) null);
+    private static final Logger f52617t = new Logger(new String[]{"AuthenticatorGetInfoResponseData"}, (short[]) null);
 
     /* renamed from: g */
     public final boolean f52618g;

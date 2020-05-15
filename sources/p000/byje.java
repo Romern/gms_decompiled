@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byje */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byje extends bxvk implements bxxd {
+public final class byje extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final byje f166642e;
@@ -25,7 +25,7 @@ public final class byje extends bxvk implements bxxd {
     static {
         byje byje = new byje();
         f166642e = byje;
-        bxvk.m124024a(byje.class, byje);
+        GeneratedMessageLite.m124024a(byje.class, byje);
     }
 
     private byje() {
@@ -42,7 +42,7 @@ public final class byje extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166642e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဇ\u0000\u0003င\u0001", new Object[]{"a", "b", byjd.class, "c", "d"});
+            return GeneratedMessageLite.m124022a(f166642e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဇ\u0000\u0003င\u0001", new Object[]{"a", "b", byjd.class, "c", "d"});
         } else if (i2 == 3) {
             return new byje();
         } else {

@@ -11,6 +11,6 @@ final /* synthetic */ class cdjr implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (dje) bxvk.m124014a(dje.f13319b, bArr);
+        return (dje) GeneratedMessageLite.m124014a(dje.f13319b, bArr);
     }
 }

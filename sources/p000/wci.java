@@ -22,7 +22,7 @@ public final class wci implements cayy {
         if (!cdrw.f181623a.mo6606a().mo78231b()) {
             return null;
         }
-        qwo a = b.mo24335a(((bydg) bxvd.mo74062i()).mo73642k());
+        qwo a = b.mo24335a(((bydg) bxvd.mo74062i()).serializeToBytes());
         a.mo24328b(1);
         a.mo24327b();
         return null;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bipe */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bipe extends bxvk implements bxxd {
+public final class bipe extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bipe f121149c;
@@ -25,7 +25,7 @@ public final class bipe extends bxvk implements bxxd {
     static {
         bipe bipe = new bipe();
         f121149c = bipe;
-        bxvk.m124024a(bipe.class, bipe);
+        GeneratedMessageLite.m124024a(bipe.class, bipe);
     }
 
     private bipe() {
@@ -46,7 +46,7 @@ public final class bipe extends bxvk implements bxxd {
             this.f121154e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121149c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔇ\u0001", new Object[]{"d", "a", bisf.m102782b(), "b"});
+            return GeneratedMessageLite.m124022a(f121149c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔇ\u0001", new Object[]{"d", "a", bisf.m102782b(), "b"});
         } else if (i2 == 3) {
             return new bipe();
         } else {

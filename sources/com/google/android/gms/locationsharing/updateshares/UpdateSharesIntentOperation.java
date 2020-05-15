@@ -126,7 +126,7 @@ public class UpdateSharesIntentOperation extends IntentOperation {
             bzmr.f170644f = a4;
             bzmr.f170639a |= 64;
             if (!bzmr.f170640b.mo73666a()) {
-                bzmr.f170640b = bxvk.m124021a(bzmr.f170640b);
+                bzmr.f170640b = GeneratedMessageLite.m124021a(bzmr.f170640b);
             }
             bxsy.m123078a(arrayList3, bzmr.f170640b);
             bxvd da3 = bzln.f170550f.mo74144da();
@@ -265,7 +265,7 @@ public class UpdateSharesIntentOperation extends IntentOperation {
                         bzlx bzlx = (bzlx) bxwc.get(i8);
                         Context context2 = aeub.f63812c;
                         bxvd bxvd3 = (bxvd) bzlx.mo74142c(5);
-                        bxvd3.mo73625a((bxvk) bzlx);
+                        bxvd3.mo73625a((GeneratedMessageLite) bzlx);
                         LocationShare a5 = aexx.m52668a(context2, bxvd3, bzln4);
                         if (a5 != null) {
                             arrayList2.add(a5);

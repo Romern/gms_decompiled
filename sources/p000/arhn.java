@@ -81,7 +81,7 @@ public final class arhn {
     /* renamed from: a */
     public final void mo48550a(byte[] bArr) {
         try {
-            arhx arhx = (arhx) bxvk.m124016a(arhx.f87755d, bArr, bxus.m123744c());
+            arhx arhx = (arhx) GeneratedMessageLite.m124016a(arhx.f87755d, bArr, bxus.m123744c());
             int a = arhw.m72779a(arhx.f87758b);
             if (a == 0 || a != 2) {
                 f87731a.mo25418e("Expecting V1 frame", new Object[0]);
@@ -91,7 +91,7 @@ public final class arhn {
                 if (arhz == null) {
                     arhz = arhz.f87765d;
                 }
-                IvParameterSpec ivParameterSpec = new IvParameterSpec(arhz.f87768b.mo73780k());
+                IvParameterSpec ivParameterSpec = new IvParameterSpec(arhz.f87768b.getKey());
                 try {
                     Cipher instance = Cipher.getInstance("AES/GCM/NoPadding");
                     instance.init(2, this.f87734d, ivParameterSpec);
@@ -99,9 +99,9 @@ public final class arhn {
                     if (arhz2 == null) {
                         arhz2 = arhz.f87765d;
                     }
-                    byte[] doFinal = instance.doFinal(arhz2.f87769c.mo73780k());
+                    byte[] doFinal = instance.doFinal(arhz2.f87769c.getKey());
                     try {
-                        arhy arhy = (arhy) bxvk.m124016a(arhy.f87760d, doFinal, bxus.m123744c());
+                        arhy arhy = (arhy) GeneratedMessageLite.m124016a(arhy.f87760d, doFinal, bxus.m123744c());
                         if (this.f87732b == arhy.f87763b) {
                             throw new GeneralSecurityException("Unexpected role in payload");
                         } else if (!this.f87733c.equals(arhy.f87764c)) {
@@ -147,7 +147,7 @@ public final class arhn {
             str.getClass();
             arhy.f87762a = i2 | 2;
             arhy.f87764c = str;
-            byte[] doFinal = instance.doFinal(((arhy) da.mo74062i()).mo73642k());
+            byte[] doFinal = instance.doFinal(((arhy) da.mo74062i()).serializeToBytes());
             bxvd da2 = arhx.f87755d.mo74144da();
             if (da2.f164950c) {
                 da2.mo74035c();
@@ -157,7 +157,7 @@ public final class arhn {
             arhx.f87758b = 1;
             arhx.f87757a |= 1;
             bxvd da3 = arhz.f87765d.mo74144da();
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da3.f164950c) {
                 da3.mo74035c();
                 da3.f164950c = false;
@@ -166,7 +166,7 @@ public final class arhn {
             a.getClass();
             arhz.f87767a = 1 | arhz.f87767a;
             arhz.f87768b = a;
-            bxtx a2 = bxtx.m123261a(doFinal);
+            ByteString a2 = ByteString.m123261a(doFinal);
             if (da3.f164950c) {
                 da3.mo74035c();
                 da3.f164950c = false;
@@ -184,7 +184,7 @@ public final class arhn {
             arhz3.getClass();
             arhx2.f87759c = arhz3;
             arhx2.f87757a |= 2;
-            return ((arhx) da2.mo74062i()).mo73642k();
+            return ((arhx) da2.mo74062i()).serializeToBytes();
         } catch (GeneralSecurityException e) {
             f87731a.mo25417e("Encryption error", e, new Object[0]);
             throw e;

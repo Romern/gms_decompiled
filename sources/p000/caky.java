@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caky */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caky extends bxvk implements bxxd {
+public final class caky extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final caky f175084f;
@@ -28,7 +28,7 @@ public final class caky extends bxvk implements bxxd {
     static {
         caky caky = new caky();
         f175084f = caky;
-        bxvk.m124024a(caky.class, caky);
+        GeneratedMessageLite.m124024a(caky.class, caky);
     }
 
     private caky() {
@@ -45,7 +45,7 @@ public final class caky extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175084f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002ဂ\u0001\u0003ဂ\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f175084f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002ဂ\u0001\u0003ဂ\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new caky();
         } else {

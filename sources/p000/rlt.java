@@ -23,7 +23,7 @@ public final class rlt implements rjz, rka {
 
     /* renamed from: a */
     private final void m33940a() {
-        sdo.m34966a(this.f43248b, "Callbacks must be attached to a ClientConnectionHelper instance before connecting the client.");
+        sdo.checkIfNull(this.f43248b, "Callbacks must be attached to a ClientConnectionHelper instance before connecting the client.");
     }
 
     /* renamed from: g */

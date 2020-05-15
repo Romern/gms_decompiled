@@ -89,7 +89,7 @@ final class aagk implements sac, sad {
             try {
                 GassResponseParcel a2 = a.mo16883a(new GassRequestParcel(1, this.f28069c, this.f28070d));
                 if (a2.f32758b == null) {
-                    a2.f32758b = (C0152c) bxvk.m124016a(C0152c.f7500Q, a2.f32759c, bxus.m123744c());
+                    a2.f32758b = (C0152c) GeneratedMessageLite.m124016a(C0152c.f7500Q, a2.f32759c, bxus.m123744c());
                     a2.f32759c = null;
                 }
                 a2.mo19548a();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abep */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abep extends bxvk implements bxxd {
+public final class abep extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final abep f57271d;
@@ -22,7 +22,7 @@ public final class abep extends bxvk implements bxxd {
     static {
         abep abep = new abep();
         f57271d = abep;
-        bxvk.m124024a(abep.class, abep);
+        GeneratedMessageLite.m124024a(abep.class, abep);
     }
 
     private abep() {
@@ -39,7 +39,7 @@ public final class abep extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57271d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f57271d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new abep();
         } else {

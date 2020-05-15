@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvtz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvtz extends bxvk implements bxxd {
+public final class bvtz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bvtz f157640b;
@@ -16,7 +16,7 @@ public final class bvtz extends bxvk implements bxxd {
     static {
         bvtz bvtz = new bvtz();
         f157640b = bvtz;
-        bxvk.m124024a(bvtz.class, bvtz);
+        GeneratedMessageLite.m124024a(bvtz.class, bvtz);
     }
 
     private bvtz() {
@@ -33,7 +33,7 @@ public final class bvtz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157640b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u001a", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f157640b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u001a", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bvtz();
         } else {

@@ -16,7 +16,7 @@ public final class atoo {
         }
         btpk btpk = (btpk) da.f164949b;
         if (!btpk.f149856a.mo73666a()) {
-            btpk.f149856a = bxvk.m124021a(btpk.f149856a);
+            btpk.f149856a = GeneratedMessageLite.m124021a(btpk.f149856a);
         }
         bxsy.m123078a(asList, btpk.f149856a);
         bxyk a = atyh.m76556a(System.currentTimeMillis());

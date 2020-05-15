@@ -22,7 +22,7 @@ public final class buzp extends bxvg implements bxvh {
     static {
         buzp buzp = new buzp();
         f155413c = buzp;
-        bxvk.m124024a(buzp.class, buzp);
+        GeneratedMessageLite.m124024a(buzp.class, buzp);
     }
 
     private buzp() {
@@ -43,7 +43,7 @@ public final class buzp extends bxvg implements bxvh {
             this.f155417d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f155413c, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0000\u0002ဌ\u0000", new Object[]{"a", "b", buzr.f155422a});
+            return GeneratedMessageLite.m124022a(f155413c, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0000\u0002ဌ\u0000", new Object[]{"a", "b", buzr.f155422a});
         } else if (i2 == 3) {
             return new buzp();
         } else {

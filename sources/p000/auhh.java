@@ -35,7 +35,7 @@ public final /* synthetic */ class auhh implements bmxj {
         }
         bmxy.m108600b(z);
         bxvd bxvd = (bxvd) auhc.mo74142c(5);
-        bxvd.mo73625a((bxvk) auhc);
+        bxvd.mo73625a((GeneratedMessageLite) auhc);
         try {
             String lastPathSegment = uri.getLastPathSegment();
             int hashCode = lastPathSegment.hashCode();
@@ -63,7 +63,7 @@ public final /* synthetic */ class auhh implements bmxj {
                             bxvd.f164950c = false;
                         }
                         auhc auhc4 = auhc.f91805d;
-                        ((auhc) bxvd.f164949b).f91809c = bxvk.m124030de();
+                        ((auhc) bxvd.f164949b).f91809c = GeneratedMessageLite.m124030de();
                         Iterable iterable = (Iterable) obj2;
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();

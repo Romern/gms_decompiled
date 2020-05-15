@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boqd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boqd extends bxvk implements bxxd {
+public final class boqd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: x */
     public static final boqd f134234x;
@@ -62,7 +62,7 @@ public final class boqd extends bxvk implements bxxd {
     public int f134252q;
 
     /* renamed from: r */
-    public bxtx f134253r = bxtx.f164797b;
+    public ByteString f134253r = ByteString.f164797b;
 
     /* renamed from: s */
     public boqr f134254s;
@@ -82,7 +82,7 @@ public final class boqd extends bxvk implements bxxd {
     static {
         boqd boqd = new boqd();
         f134234x = boqd;
-        bxvk.m124024a(boqd.class, boqd);
+        GeneratedMessageLite.m124024a(boqd.class, boqd);
     }
 
     private boqd() {
@@ -99,7 +99,7 @@ public final class boqd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134234x, "\u0001\u0016\u0000\u0001\u0001\u0017\u0016\u0000\u0002\u0000\u0001ဌ\u0000\u0002ဉ\u0002\u0003ဉ\u0003\u0004ဉ\u0006\u0005ဉ\u0007\u0006ဉ\b\u0007ဉ\t\bဉ\n\tဉ\u000b\n\u001a\u000bဈ\f\fဌ\r\rင\u000e\u000eဉ\u0010\u0010ည\u000f\u0011ဈ\u0012\u0012ဈ\u0001\u0013ဉ\u0004\u0014ဉ\u0005\u0015\u001b\u0016ဉ\u0013\u0017ဉ\u0014", new Object[]{"a", "b", bopt.f134181a, "d", "e", "h", "i", "j", "k", "l", "m", "n", "o", "p", boqc.f134233a, "q", "s", "r", "t", "c", "f", "g", "u", boqp.class, "v", "w"});
+            return GeneratedMessageLite.m124022a(f134234x, "\u0001\u0016\u0000\u0001\u0001\u0017\u0016\u0000\u0002\u0000\u0001ဌ\u0000\u0002ဉ\u0002\u0003ဉ\u0003\u0004ဉ\u0006\u0005ဉ\u0007\u0006ဉ\b\u0007ဉ\t\bဉ\n\tဉ\u000b\n\u001a\u000bဈ\f\fဌ\r\rင\u000e\u000eဉ\u0010\u0010ည\u000f\u0011ဈ\u0012\u0012ဈ\u0001\u0013ဉ\u0004\u0014ဉ\u0005\u0015\u001b\u0016ဉ\u0013\u0017ဉ\u0014", new Object[]{"a", "b", bopt.f134181a, "d", "e", "h", "i", "j", "k", "l", "m", "n", "o", "p", boqc.f134233a, "q", "s", "r", "t", "c", "f", "g", "u", boqp.class, "v", "w"});
         } else if (i2 == 3) {
             return new boqd();
         } else {
@@ -126,7 +126,7 @@ public final class boqd extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo68928a() {
         if (!this.f134249n.mo73666a()) {
-            this.f134249n = bxvk.m124021a(this.f134249n);
+            this.f134249n = GeneratedMessageLite.m124021a(this.f134249n);
         }
     }
 }

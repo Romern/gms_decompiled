@@ -611,7 +611,7 @@ public final class amxq extends amxs {
                     amwl amwl = this.f76324c;
                     amvh a3 = amwl.f76191a.mo41492a();
                     bxvd bxvd = (bxvd) a3.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a3);
+                    bxvd.mo73625a((GeneratedMessageLite) a3);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;

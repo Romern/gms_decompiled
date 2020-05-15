@@ -17,7 +17,7 @@ public final class bfyi extends bxvd implements bxxd {
         bfyj bfyj2 = bfyj.f115690d;
         bfyf.getClass();
         if (!bfyj.f115694c.mo73666a()) {
-            bfyj.f115694c = bxvk.m124021a(bfyj.f115694c);
+            bfyj.f115694c = GeneratedMessageLite.m124021a(bfyj.f115694c);
         }
         bfyj.f115694c.add(bfyf);
     }

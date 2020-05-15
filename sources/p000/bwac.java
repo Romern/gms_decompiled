@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwac */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwac extends bxvk implements bxxd {
+public final class bwac extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bwac f158609d;
@@ -31,7 +31,7 @@ public final class bwac extends bxvk implements bxxd {
     static {
         bwac bwac = new bwac();
         f158609d = bwac;
-        bxvk.m124024a(bwac.class, bwac);
+        GeneratedMessageLite.m124024a(bwac.class, bwac);
     }
 
     private bwac() {
@@ -52,7 +52,7 @@ public final class bwac extends bxvk implements bxxd {
             this.f158616g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f158609d, "\u0000\u0005\u0000\u0000\u0010f\u0005\u0000\u0000\u0002\u0010ЉGЉP\fV\tf\t", new Object[]{"e", "f", "a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f158609d, "\u0000\u0005\u0000\u0000\u0010f\u0005\u0000\u0000\u0002\u0010ЉGЉP\fV\tf\t", new Object[]{"e", "f", "a", "b", "c"});
         } else if (i2 == 3) {
             return new bwac();
         } else {

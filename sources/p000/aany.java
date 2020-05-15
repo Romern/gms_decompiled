@@ -58,15 +58,15 @@ abstract class aany {
 
     /* access modifiers changed from: protected */
     /* renamed from: c */
-    public abstract bmxv mo17165c(bxvk bxvk);
+    public abstract bmxv mo17165c(GeneratedMessageLite GeneratedMessageLite);
 
     /* access modifiers changed from: protected */
     /* renamed from: c */
-    public abstract bxvk mo17166c(byte[] bArr);
+    public abstract GeneratedMessageLite mo17166c(byte[] bArr);
 
     /* renamed from: b */
-    public final void mo17163b(bxvk bxvk) {
-        bmxv c = mo17165c(bxvk);
+    public final void mo17163b(GeneratedMessageLite GeneratedMessageLite) {
+        bmxv c = mo17165c(GeneratedMessageLite);
         if (!c.mo66813a()) {
             Log.e("GCM", "Invalid proto message was provided.");
         } else {
@@ -87,8 +87,8 @@ abstract class aany {
                 it.seekToFirst();
                 while (it.isValid()) {
                     bmxv d = m21721d(it.value());
-                    if (d.mo66813a() && sdp.mo17022a((bxvk) d.mo66814b())) {
-                        bngs.mo67668c((bxvk) d.mo66814b());
+                    if (d.mo66813a() && sdp.mo17022a((GeneratedMessageLite) d.mo66814b())) {
+                        bngs.mo67668c((GeneratedMessageLite) d.mo66814b());
                     }
                     it.next();
                 }
@@ -129,14 +129,14 @@ abstract class aany {
     }
 
     /* renamed from: a */
-    public final boolean mo17161a(bxvk bxvk) {
-        bmxv c = mo17165c(bxvk);
+    public final boolean mo17161a(GeneratedMessageLite GeneratedMessageLite) {
+        bmxv c = mo17165c(GeneratedMessageLite);
         if (!c.mo66813a()) {
             Log.w("GCM", "Not storing invalid message.");
             return false;
         }
         try {
-            mo17160a().put((byte[]) c.mo66814b(), bxvk.mo73642k());
+            mo17160a().put((byte[]) c.mo66814b(), GeneratedMessageLite.serializeToBytes());
             return true;
         } catch (LevelDbException e) {
             Log.e("GCM", "Failed to addOrUpdate message.", e);

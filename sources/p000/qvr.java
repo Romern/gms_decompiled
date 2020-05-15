@@ -14,7 +14,7 @@ public final class qvr {
     public static final imo f42258a = new qvq();
 
     /* renamed from: g */
-    private static final sek f42259g = qqu.m32671b("IndexManager");
+    private static final Logger f42259g = qqu.m32671b("IndexManager");
 
     /* renamed from: b */
     public final qta f42260b = ((qta) qta.f42084i.mo13145b());

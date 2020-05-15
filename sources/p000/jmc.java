@@ -11,7 +11,7 @@ import javax.crypto.SecretKey;
 public final class jmc implements jih {
 
     /* renamed from: c */
-    private static final sek f22809c = jsy.m17256a("InitiatorAuthenticator");
+    private static final Logger f22809c = jsy.m17256a("InitiatorAuthenticator");
 
     /* renamed from: a */
     public final byqv f22810a;
@@ -81,7 +81,7 @@ public final class jmc implements jih {
             byte[] d = byqv.f167431b.mo74488d();
             bysv bysv = new bysv();
             bysv.mo74501b(d);
-            byqv.f167433d = bysv.mo74499a(a, byss.HMAC_SHA256, new byte[0]).mo73642k();
+            byqv.f167433d = bysv.mo74499a(a, byss.HMAC_SHA256, new byte[0]).serializeToBytes();
             byqv.f167430a = byqu.HANDSHAKE_INITIATED;
             return new jnz(byqv.f167433d, "auth");
         } catch (byrq | InvalidKeyException | NoSuchAlgorithmException e) {

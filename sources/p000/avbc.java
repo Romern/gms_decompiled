@@ -45,7 +45,7 @@ public final class avbc extends avas {
         mo51124a(chbh.f188248a.mo6606a().mo84965y());
         this.f92869h.mo58314a();
         if (!chbh.m148009g()) {
-            bArr = mo51121a(avgl.FORCED).mo73642k();
+            bArr = mo51121a(avgl.FORCED).serializeToBytes();
         } else {
             bnsi d2 = f92893k.mo68390d();
             d2.mo68432a("avbc", "d", 94, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bkt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bkt extends bxvk implements bxxd {
+public final class bkt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bkt f5033a;
@@ -13,7 +13,7 @@ public final class bkt extends bxvk implements bxxd {
     static {
         bkt bkt = new bkt();
         f5033a = bkt;
-        bxvk.m124024a(bkt.class, bkt);
+        GeneratedMessageLite.m124024a(bkt.class, bkt);
     }
 
     private bkt() {
@@ -31,7 +31,7 @@ public final class bkt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f5033a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f5033a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bkt();

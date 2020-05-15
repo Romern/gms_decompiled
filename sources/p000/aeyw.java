@@ -101,7 +101,7 @@ final class aeyw implements aeyp {
 
     public final /* bridge */ /* synthetic */ Object next() {
         Pair pair;
-        sdo.m34966a(this.f64018d, "hasNext() must be called and must return true before calling next()");
+        sdo.checkIfNull(this.f64018d, "hasNext() must be called and must return true before calling next()");
         if (this.f64018d.mo34662a() > this.f64020f) {
             this.f64020f = this.f64018d.mo34662a();
         }

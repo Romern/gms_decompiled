@@ -35,7 +35,7 @@ final /* synthetic */ class pak implements Runnable {
                     for (byte[] bArr : list) {
                         List list2 = pad.f38698f;
                         bxus c = bxus.m123744c();
-                        list2.add((bivb) bxvk.m124016a(bivb.f121921l, bArr, c));
+                        list2.add((bivb) GeneratedMessageLite.m124016a(bivb.f121921l, bArr, c));
                     }
                     if (pad.f38699g != null) {
                         try {

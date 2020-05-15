@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbmv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbmv extends bxvk implements bxxd {
+public final class cbmv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbmv f177683d;
@@ -22,7 +22,7 @@ public final class cbmv extends bxvk implements bxxd {
     static {
         cbmv cbmv = new cbmv();
         f177683d = cbmv;
-        bxvk.m124024a(cbmv.class, cbmv);
+        GeneratedMessageLite.m124024a(cbmv.class, cbmv);
     }
 
     private cbmv() {
@@ -39,7 +39,7 @@ public final class cbmv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177683d, "\u0000\u0003\u0000\u0000\u0001\u0004\u0003\u0000\u0000\u0000\u0001\t\u0003\t\u0004\t", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f177683d, "\u0000\u0003\u0000\u0000\u0001\u0004\u0003\u0000\u0000\u0000\u0001\t\u0003\t\u0004\t", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cbmv();
         } else {

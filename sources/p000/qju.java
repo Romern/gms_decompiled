@@ -10,7 +10,7 @@ import java.security.NoSuchAlgorithmException;
 final class qju {
 
     /* renamed from: a */
-    private static final sek f41514a = qgn.m32143a("ManagingAppModule");
+    private static final Logger f41514a = qgn.m32143a("ManagingAppModule");
 
     /* renamed from: a */
     static bmxv m32265a(Context context) {
@@ -54,7 +54,7 @@ final class qju {
         qgy.f41278b = str;
         bmxv a = m32266a(context, str, "SHA1");
         if (a.mo66813a()) {
-            bxtx a2 = bxtx.m123261a((byte[]) a.mo66814b());
+            ByteString a2 = ByteString.m123261a((byte[]) a.mo66814b());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -66,7 +66,7 @@ final class qju {
         }
         bmxv a3 = m32266a(context, str, "SHA256");
         if (a3.mo66813a()) {
-            bxtx a4 = bxtx.m123261a((byte[]) a3.mo66814b());
+            ByteString a4 = ByteString.m123261a((byte[]) a3.mo66814b());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

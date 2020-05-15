@@ -71,49 +71,49 @@ public final class ojx extends ojh {
             biva biva2 = biva.SENSOR_LOCATION;
             switch (biva.ordinal()) {
                 case 0:
-                    return (birs) bxvk.m124016a(birs.f121457h, bArr, bxus.m123744c());
+                    return (birs) GeneratedMessageLite.m124016a(birs.f121457h, bArr, bxus.m123744c());
                 case 1:
-                    return (bipr) bxvk.m124016a(bipr.f121205e, bArr, bxus.m123744c());
+                    return (bipr) GeneratedMessageLite.m124016a(bipr.f121205e, bArr, bxus.m123744c());
                 case 2:
-                    return (bivg) bxvk.m124016a(bivg.f121975e, bArr, bxus.m123744c());
+                    return (bivg) GeneratedMessageLite.m124016a(bivg.f121975e, bArr, bxus.m123744c());
                 case 3:
-                    return (biuj) bxvk.m124016a(biuj.f121795b, bArr, bxus.m123744c());
+                    return (biuj) GeneratedMessageLite.m124016a(biuj.f121795b, bArr, bxus.m123744c());
                 case 4:
-                    return (bitg) bxvk.m124016a(bitg.f121639d, bArr, bxus.m123744c());
+                    return (bitg) GeneratedMessageLite.m124016a(bitg.f121639d, bArr, bxus.m123744c());
                 case 5:
-                    return (biqi) bxvk.m124016a(biqi.f121282e, bArr, bxus.m123744c());
+                    return (biqi) GeneratedMessageLite.m124016a(biqi.f121282e, bArr, bxus.m123744c());
                 case 6:
-                    return (bith) bxvk.m124016a(bith.f121645b, bArr, bxus.m123744c());
+                    return (bith) GeneratedMessageLite.m124016a(bith.f121645b, bArr, bxus.m123744c());
                 case 7:
-                    return (biqn) bxvk.m124014a(biqn.f121305b, bArr);
+                    return (biqn) GeneratedMessageLite.m124014a(biqn.f121305b, bArr);
                 case 8:
-                    return (bipy) bxvk.m124016a(bipy.f121238c, bArr, bxus.m123744c());
+                    return (bipy) GeneratedMessageLite.m124016a(bipy.f121238c, bArr, bxus.m123744c());
                 case 9:
-                    return (bitf) bxvk.m124016a(bitf.f121635c, bArr, bxus.m123744c());
+                    return (bitf) GeneratedMessageLite.m124016a(bitf.f121635c, bArr, bxus.m123744c());
                 case 10:
-                    return (biqd) bxvk.m124016a(biqd.f121254e, bArr, bxus.m123744c());
+                    return (biqd) GeneratedMessageLite.m124016a(biqd.f121254e, bArr, bxus.m123744c());
                 case 11:
-                    return (bira) bxvk.m124016a(bira.f121370d, bArr, bxus.m123744c());
+                    return (bira) GeneratedMessageLite.m124016a(bira.f121370d, bArr, bxus.m123744c());
                 case 12:
-                    return (biqc) bxvk.m124016a(biqc.f121249b, bArr, bxus.m123744c());
+                    return (biqc) GeneratedMessageLite.m124016a(biqc.f121249b, bArr, bxus.m123744c());
                 case 13:
-                    return (bipx) bxvk.m124016a(bipx.f121233d, bArr, bxus.m123744c());
+                    return (bipx) GeneratedMessageLite.m124016a(bipx.f121233d, bArr, bxus.m123744c());
                 case 14:
-                    return (biti) bxvk.m124016a(biti.f121650c, bArr, bxus.m123744c());
+                    return (biti) GeneratedMessageLite.m124016a(biti.f121650c, bArr, bxus.m123744c());
                 case 15:
-                    return (bipz) bxvk.m124016a(bipz.f121242e, bArr, bxus.m123744c());
+                    return (bipz) GeneratedMessageLite.m124016a(bipz.f121242e, bArr, bxus.m123744c());
                 case 16:
-                    return (birq) bxvk.m124014a(birq.f121445e, bArr);
+                    return (birq) GeneratedMessageLite.m124014a(birq.f121445e, bArr);
                 case 17:
-                    return (bivo) bxvk.m124016a(bivo.f122021b, bArr, bxus.m123744c());
+                    return (bivo) GeneratedMessageLite.m124016a(bivo.f122021b, bArr, bxus.m123744c());
                 case 18:
-                    return (biol) bxvk.m124016a(biol.f121057e, bArr, bxus.m123744c());
+                    return (biol) GeneratedMessageLite.m124016a(biol.f121057e, bArr, bxus.m123744c());
                 case 19:
-                    return (biqv) bxvk.m124016a(biqv.f121353e, bArr, bxus.m123744c());
+                    return (biqv) GeneratedMessageLite.m124016a(biqv.f121353e, bArr, bxus.m123744c());
                 case 20:
-                    return (biqu) bxvk.m124014a(biqu.f121346e, bArr);
+                    return (biqu) GeneratedMessageLite.m124014a(biqu.f121346e, bArr);
                 case 21:
-                    return (bivp) bxvk.m124016a(bivp.f122024b, bArr, bxus.m123744c());
+                    return (bivp) GeneratedMessageLite.m124016a(bivp.f122024b, bArr, bxus.m123744c());
                 default:
                     String valueOf = String.valueOf(biva.name());
                     throw new IllegalArgumentException(valueOf.length() == 0 ? new String("Invalid type ") : "Invalid type ".concat(valueOf));
@@ -241,7 +241,7 @@ public final class ojx extends ojh {
         int i2 = f37812g;
         if (i2 != 0) {
             if (i == i2) {
-                biuu biuu = (biuu) bxvk.m124012a(biuu.f121876b, byteBuffer);
+                biuu biuu = (biuu) GeneratedMessageLite.m124012a(biuu.f121876b, byteBuffer);
                 if (biuu != null) {
                     bisf a = bisf.m102781a(biuu.f121878a);
                     if (a == null) {
@@ -264,7 +264,7 @@ public final class ojx extends ojh {
             if (i3 == 0) {
                 throw null;
             } else if (i == i3) {
-                biup biup = (biup) bxvk.m124012a(biup.f121833w, byteBuffer);
+                biup biup = (biup) GeneratedMessageLite.m124012a(biup.f121833w, byteBuffer);
                 if (biup != null) {
                     bxwc bxwc = biup.f121835a;
                     int size = bxwc.size();
@@ -381,7 +381,7 @@ public final class ojx extends ojh {
                 int i26 = f37815j;
                 if (i26 == 0) {
                     throw null;
-                } else if (i == i26 && (biuq = (biuq) bxvk.m124012a(biuq.f121858c, byteBuffer)) != null) {
+                } else if (i == i26 && (biuq = (biuq) GeneratedMessageLite.m124012a(biuq.f121858c, byteBuffer)) != null) {
                     bnsi c2 = f37811b.mo68388c();
                     c2.mo68432a("ojx", "a", 419, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                     biva a2 = biva.m102863a(biuq.f121860a);
@@ -413,7 +413,7 @@ public final class ojx extends ojh {
                 for (int i = 0; i < this.f37820f.size(); i++) {
                     ojw ojw = (ojw) this.f37820f.valueAt(i);
                     bxxc bxxc = ojw.f37809a;
-                    arrayList.add(Pair.create(Integer.valueOf(this.f37820f.keyAt(i)), Pair.create(bxxc != null ? bxxc.mo73642k() : null, Long.valueOf(ojw.f37810b))));
+                    arrayList.add(Pair.create(Integer.valueOf(this.f37820f.keyAt(i)), Pair.create(bxxc != null ? bxxc.serializeToBytes() : null, Long.valueOf(ojw.f37810b))));
                 }
                 bundle.putBinder("sensor_records", ojq.m28926a(arrayList).asBinder());
             }

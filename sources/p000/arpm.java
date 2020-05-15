@@ -20,13 +20,13 @@ final /* synthetic */ class arpm implements aubw {
         arps.f88093d = advertisingInfo.f107794b;
         String str = advertisingInfo.f107796d;
         String str2 = advertisingInfo.f107795c;
-        arps.f88090a.mo25409a("Retrieved advertising info.", new Object[0]);
-        sek sek = arps.f88090a;
+        arps.f88090a.logVerbose("Retrieved advertising info.", new Object[0]);
+        Logger Logger = arps.f88090a;
         String valueOf = String.valueOf(arps.f88093d);
-        sek.mo25409a(valueOf.length() == 0 ? new String("mDeviceName fetched: ") : "mDeviceName fetched: ".concat(valueOf), new Object[0]);
-        sek sek2 = arps.f88090a;
+        Logger.logVerbose(valueOf.length() == 0 ? new String("mDeviceName fetched: ") : "mDeviceName fetched: ".concat(valueOf), new Object[0]);
+        Logger logger2 = arps.f88090a;
         String valueOf2 = String.valueOf(str);
-        sek2.mo25409a(valueOf2.length() == 0 ? new String("Pairing code: ") : "Pairing code: ".concat(valueOf2), new Object[0]);
+        logger2.logVerbose(valueOf2.length() == 0 ? new String("Pairing code: ") : "Pairing code: ".concat(valueOf2), new Object[0]);
         Bundle bundle = new Bundle();
         bundle.putString("deviceName", arps.f88093d);
         bundle.putString("pairingCode", str);

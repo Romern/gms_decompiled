@@ -111,7 +111,7 @@ public final class atat {
             bozl = bozl.f135386f;
         }
         bxvd bxvd = (bxvd) bozl.mo74142c(5);
-        bxvd.mo73625a((bxvk) bozl);
+        bxvd.mo73625a((GeneratedMessageLite) bozl);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

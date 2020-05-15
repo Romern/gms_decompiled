@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bisl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bisl extends bxvk implements bxxd {
+public final class bisl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bisl f121580c;
@@ -19,7 +19,7 @@ public final class bisl extends bxvk implements bxxd {
     static {
         bisl bisl = new bisl();
         f121580c = bisl;
-        bxvk.m124024a(bisl.class, bisl);
+        GeneratedMessageLite.m124024a(bisl.class, bisl);
     }
 
     private bisl() {
@@ -36,7 +36,7 @@ public final class bisl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f121580c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bisn.m102793b()});
+            return GeneratedMessageLite.m124022a(f121580c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bisn.m102793b()});
         } else if (i2 == 3) {
             return new bisl();
         } else {

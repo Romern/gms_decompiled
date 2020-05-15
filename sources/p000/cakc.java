@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cakc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cakc extends bxvk implements bxxd {
+public final class cakc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final cakc f174926m;
@@ -20,7 +20,7 @@ public final class cakc extends bxvk implements bxxd {
     public String f174930c = "";
 
     /* renamed from: d */
-    public bxtx f174931d = bxtx.f164797b;
+    public ByteString f174931d = ByteString.f164797b;
 
     /* renamed from: e */
     public boolean f174932e;
@@ -44,12 +44,12 @@ public final class cakc extends bxvk implements bxxd {
     public boolean f174938k;
 
     /* renamed from: l */
-    public bxtx f174939l = bxtx.f164797b;
+    public ByteString f174939l = ByteString.f164797b;
 
     static {
         cakc cakc = new cakc();
         f174926m = cakc;
-        bxvk.m124024a(cakc.class, cakc);
+        GeneratedMessageLite.m124024a(cakc.class, cakc);
     }
 
     private cakc() {
@@ -66,7 +66,7 @@ public final class cakc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174926m, "\u0001\u000b\u0000\u0001\u0001\r\u000b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ည\u0002\u0004ဇ\u0003\u0005ဈ\u0004\u0006ဈ\u0005\u0007ဇ\u0007\bဇ\b\tဈ\u0006\nဇ\t\rည\u000b", new Object[]{"a", "b", cakb.m126712b(), "c", "d", "e", "f", "g", "i", "j", "h", "k", "l"});
+            return GeneratedMessageLite.m124022a(f174926m, "\u0001\u000b\u0000\u0001\u0001\r\u000b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ည\u0002\u0004ဇ\u0003\u0005ဈ\u0004\u0006ဈ\u0005\u0007ဇ\u0007\bဇ\b\tဈ\u0006\nဇ\t\rည\u000b", new Object[]{"a", "b", cakb.m126712b(), "c", "d", "e", "f", "g", "i", "j", "h", "k", "l"});
         } else if (i2 == 3) {
             return new cakc();
         } else {

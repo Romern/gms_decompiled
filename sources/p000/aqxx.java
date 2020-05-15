@@ -20,7 +20,7 @@ final class aqxx implements arhf {
 
     /* renamed from: a */
     public final void mo48222a(byte[] bArr) {
-        this.f87059a.f87060a.mo25409a("Fully decoded packet message", new Object[0]);
+        this.f87059a.f87060a.logVerbose("Fully decoded packet message", new Object[0]);
         this.f87059a.mo48234b(bArr);
     }
 }

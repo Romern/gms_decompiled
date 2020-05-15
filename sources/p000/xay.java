@@ -34,7 +34,7 @@ public final class xay {
     private static final Charset f51834c = Charset.forName("UTF-8");
 
     /* renamed from: e */
-    private static final sek f51835e = new sek(new String[]{"AuthorizedFacetFetcher"}, (short[]) null);
+    private static final Logger f51835e = new Logger(new String[]{"AuthorizedFacetFetcher"}, (short[]) null);
 
     /* renamed from: d */
     private final xav f51836d;
@@ -207,12 +207,12 @@ public final class xay {
                                                                 IOException iOException = e3;
                                                                 i2++;
                                                                 if (i2 == 2) {
-                                                                    sek sek = f51835e;
+                                                                    Logger Logger = f51835e;
                                                                     String valueOf = String.valueOf(a);
                                                                     StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 55);
                                                                     sb.append("Cannot fetch the facet JSON array from the app_id url: ");
                                                                     sb.append(valueOf);
-                                                                    sek.mo25417e(sb.toString(), iOException, new Object[0]);
+                                                                    Logger.mo25417e(sb.toString(), iOException, new Object[0]);
                                                                     m42587a(xwj2, xwg2, xag.TYPE_APPID_VALIDATION_FAILED);
                                                                     pair = null;
                                                                     break;
@@ -306,9 +306,9 @@ public final class xay {
                                                                                 i7++;
                                                                             } catch (JSONException e4) {
                                                                                 JSONException jSONException = e4;
-                                                                                sek sek2 = f51835e;
+                                                                                Logger logger2 = f51835e;
                                                                                 String valueOf2 = String.valueOf(str);
-                                                                                sek2.mo25417e(valueOf2.length() == 0 ? new String("Cannot parse the facet JSON from the app_id url : ") : "Cannot parse the facet JSON from the app_id url : ".concat(valueOf2), jSONException, new Object[0]);
+                                                                                logger2.mo25417e(valueOf2.length() == 0 ? new String("Cannot parse the facet JSON from the app_id url : ") : "Cannot parse the facet JSON from the app_id url : ".concat(valueOf2), jSONException, new Object[0]);
                                                                                 m42587a(xwj2, xwg2, xag.TYPE_APPID_VALIDATION_FAILED);
                                                                                 xav = this.f51836d;
                                                                             }
@@ -352,17 +352,17 @@ public final class xay {
                                                                     }
                                                                 } catch (JSONException e8) {
                                                                     JSONException jSONException2 = e8;
-                                                                    sek sek3 = f51835e;
+                                                                    Logger logger3 = f51835e;
                                                                     String valueOf3 = String.valueOf(str);
-                                                                    sek3.mo25417e(valueOf3.length() == 0 ? new String("Cannot parse the facet JSON from the app_id url : ") : "Cannot parse the facet JSON from the app_id url : ".concat(valueOf3), jSONException2, new Object[0]);
+                                                                    logger3.mo25417e(valueOf3.length() == 0 ? new String("Cannot parse the facet JSON from the app_id url : ") : "Cannot parse the facet JSON from the app_id url : ".concat(valueOf3), jSONException2, new Object[0]);
                                                                     m42587a(xwj2, xwg2, xag.TYPE_APPID_VALIDATION_FAILED);
                                                                     xav = this.f51836d;
                                                                 }
                                                             } catch (IOException e9) {
                                                                 IOException iOException3 = e9;
-                                                                sek sek4 = f51835e;
+                                                                Logger logger4 = f51835e;
                                                                 String valueOf4 = String.valueOf(str);
-                                                                sek4.mo25417e(valueOf4.length() == 0 ? new String("Cannot parse the facet JSON array from the app_id url : ") : "Cannot parse the facet JSON array from the app_id url : ".concat(valueOf4), iOException3, new Object[0]);
+                                                                logger4.mo25417e(valueOf4.length() == 0 ? new String("Cannot parse the facet JSON array from the app_id url : ") : "Cannot parse the facet JSON array from the app_id url : ".concat(valueOf4), iOException3, new Object[0]);
                                                                 m42587a(xwj2, xwg2, xag.TYPE_APPID_VALIDATION_FAILED);
                                                                 xav = this.f51836d;
                                                             }

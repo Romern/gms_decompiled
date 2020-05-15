@@ -20,7 +20,7 @@ public final class bxvf extends bxvd implements bxvh, aywv {
         bzcb bzcb2 = bzcb.f169293b;
         byzo.getClass();
         if (!bzcb.f169295a.mo73666a()) {
-            bzcb.f169295a = bxvk.m124021a(bzcb.f169295a);
+            bzcb.f169295a = GeneratedMessageLite.m124021a(bzcb.f169295a);
         }
         bzcb.f169295a.add(byzo);
     }
@@ -43,7 +43,7 @@ public final class bxvf extends bxvd implements bxvh, aywv {
 
     /* renamed from: a */
     public final void mo74125a(bxuq bxuq, Object obj) {
-        Map map = bxvk.f164959aj;
+        Map map = GeneratedMessageLite.f164959aj;
         bxvj bxvj = (bxvj) bxuq;
         if (bxvj.f164955a == this.f164948a) {
             if (this.f164950c) {
@@ -78,7 +78,7 @@ public final class bxvf extends bxvd implements bxvh, aywv {
         bzcn bzcn = (bzcn) this.f164949b;
         bzcn bzcn2 = bzcn.f169375h;
         if (!bzcn.f169381e.mo73666a()) {
-            bzcn.f169381e = bxvk.m124021a(bzcn.f169381e);
+            bzcn.f169381e = GeneratedMessageLite.m124021a(bzcn.f169381e);
         }
         bxsy.m123078a(iterable, bzcn.f169381e);
     }
@@ -107,7 +107,7 @@ public final class bxvf extends bxvd implements bxvh, aywv {
         byzr byzr2 = byzr.f169150h;
         byys.getClass();
         if (!byzr.f169155d.mo73666a()) {
-            byzr.f169155d = bxvk.m124021a(byzr.f169155d);
+            byzr.f169155d = GeneratedMessageLite.m124021a(byzr.f169155d);
         }
         byzr.f169155d.add(byys);
     }
@@ -122,7 +122,7 @@ public final class bxvf extends bxvd implements bxvh, aywv {
         cagi cagi2 = cagi.f173096t;
         cagj.getClass();
         if (!cagi.f173105h.mo73666a()) {
-            cagi.f173105h = bxvk.m124021a(cagi.f173105h);
+            cagi.f173105h = GeneratedMessageLite.m124021a(cagi.f173105h);
         }
         cagi.f173105h.add(cagj);
     }
@@ -155,7 +155,7 @@ public final class bxvf extends bxvd implements bxvh, aywv {
     /* renamed from: a */
     public final boolean mo74131a(bxuq bxuq) {
         bxvg bxvg = (bxvg) this.f164949b;
-        Map map = bxvk.f164959aj;
+        Map map = GeneratedMessageLite.f164959aj;
         bxvj bxvj = (bxvj) bxuq;
         bxvg.mo74135a(bxvj);
         return bxvg.f164952m.mo73911a(bxvj.f164958d);

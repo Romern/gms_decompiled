@@ -9,7 +9,7 @@ import com.google.android.gms.fido.authenticator.autoenroll.UserPresenceBroadcas
 public final class xca {
 
     /* renamed from: a */
-    public static final sek f51907a = new sek(new String[]{"UserPresenceBroadcastReceiver"}, (short[]) null);
+    public static final Logger f51907a = new Logger(new String[]{"UserPresenceBroadcastReceiver"}, (short[]) null);
 
     /* renamed from: b */
     private final Context f51908b;

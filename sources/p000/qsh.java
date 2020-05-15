@@ -51,7 +51,7 @@ public final class qsh {
             a = 1;
         }
         if (hashSet.contains(Integer.valueOf(a - 1))) {
-            this.f42029c.mo24335a(((bokd) bxvd.mo74062i()).mo73642k()).mo24327b();
+            this.f42029c.mo24335a(((bokd) bxvd.mo74062i()).serializeToBytes()).mo24327b();
         }
     }
 

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cejj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cejj extends bxvk implements bxxd {
+public final class cejj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cejj f182771b;
@@ -16,7 +16,7 @@ public final class cejj extends bxvk implements bxxd {
     static {
         cejj cejj = new cejj();
         f182771b = cejj;
-        bxvk.m124024a(cejj.class, cejj);
+        GeneratedMessageLite.m124024a(cejj.class, cejj);
     }
 
     private cejj() {
@@ -33,7 +33,7 @@ public final class cejj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f182771b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", ceji.f182770a});
+            return GeneratedMessageLite.m124022a(f182771b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", ceji.f182770a});
         } else if (i2 == 3) {
             return new cejj();
         } else {

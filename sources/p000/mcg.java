@@ -30,7 +30,7 @@ public final class mcg {
             sb.append("Accepting ");
             sb.append(str2);
             sb.append(", whitelisted for key-value backup.");
-            lvn.mo25409a(sb.toString(), new Object[0]);
+            lvn.logVerbose(sb.toString(), new Object[0]);
             return mcf.ELIGIBLE;
         } else if (m24867a(packageInfo, ccmk.m130671c())) {
             lvn lvn2 = f33412a;
@@ -38,7 +38,7 @@ public final class mcg {
             sb2.append("Rejecting ");
             sb2.append(str2);
             sb2.append(", blacklisted for key-value backup.");
-            lvn2.mo25409a(sb2.toString(), new Object[0]);
+            lvn2.logVerbose(sb2.toString(), new Object[0]);
             return mcf.INELIGIBLE_BLACKLISTED;
         } else if (sre.m36080a(context)) {
             return mcf.INELIGIBLE_SIDEWINDER;
@@ -103,7 +103,7 @@ public final class mcg {
                         sb4.append("Rejecting ");
                         sb4.append(str2);
                         sb4.append(", app uses gcm.");
-                        lvn4.mo25409a(sb4.toString(), new Object[0]);
+                        lvn4.logVerbose(sb4.toString(), new Object[0]);
                         return mcf.INELIGIBLE_GCM;
                     }
                 }
@@ -114,7 +114,7 @@ public final class mcg {
             sb5.append("Rejecting ");
             sb5.append(str2);
             sb5.append(", targetSdkVersion too low.");
-            lvn5.mo25409a(sb5.toString(), new Object[0]);
+            lvn5.logVerbose(sb5.toString(), new Object[0]);
             return mcf.INELIGIBLE_FULL_MIN_SDK;
         } else {
             lvn lvn6 = f33412a;
@@ -189,7 +189,7 @@ public final class mcg {
                 f33412a.mo25414c("%s ineligible for restore. Reason: %s", packageInfo.packageName, mcf);
                 mbx.mo19835a(mcf, packageInfo.packageName);
             } else if (packageInfo.packageName.equals("com.android.providers.settings")) {
-                f33412a.mo25409a("Packages requested for restore contained the settings package, moving it to the end of the list.", new Object[0]);
+                f33412a.logVerbose("Packages requested for restore contained the settings package, moving it to the end of the list.", new Object[0]);
                 z = true;
             } else {
                 arrayList.add(packageInfo.packageName);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byvt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byvt extends bxvk implements bxxd {
+public final class byvt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final byvt f168503i;
@@ -37,7 +37,7 @@ public final class byvt extends bxvk implements bxxd {
     static {
         byvt byvt = new byvt();
         f168503i = byvt;
-        bxvk.m124024a(byvt.class, byvt);
+        GeneratedMessageLite.m124024a(byvt.class, byvt);
     }
 
     private byvt() {
@@ -54,7 +54,7 @@ public final class byvt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168503i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004က\u0003\u0005ဂ\u0004\u0006ဌ\u0005\u0007ဌ\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", bzak.f169217a, "h", bvja.f156300a});
+            return GeneratedMessageLite.m124022a(f168503i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004က\u0003\u0005ဂ\u0004\u0006ဌ\u0005\u0007ဌ\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", bzak.f169217a, "h", bvja.f156300a});
         } else if (i2 == 3) {
             return new byvt();
         } else {

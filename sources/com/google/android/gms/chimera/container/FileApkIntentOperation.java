@@ -310,7 +310,7 @@ public class FileApkIntentOperation extends IntentOperation {
                                                 File file3 = j2.f13073b;
                                                 dke dke = j2.f13074c;
                                                 bxvd bxvd = (bxvd) dke.mo74142c(5);
-                                                bxvd.mo73625a((bxvk) dke);
+                                                bxvd.mo73625a((GeneratedMessageLite) dke);
                                                 List<dkd> unmodifiableList = Collections.unmodifiableList(((dke) bxvd.f164949b).f13394c);
                                                 ArrayList arrayList2 = new ArrayList(unmodifiableList.size());
                                                 dgz dgz = new dgz();
@@ -354,7 +354,7 @@ public class FileApkIntentOperation extends IntentOperation {
                                                         bxvd.f164950c = false;
                                                     }
                                                     dke dke2 = dke.f13390f;
-                                                    ((dke) bxvd.f164949b).f13394c = bxvk.m124030de();
+                                                    ((dke) bxvd.f164949b).f13394c = GeneratedMessageLite.m124030de();
                                                     bxvd.mo74075k(arrayList2);
                                                 }
                                                 a9.mo8976a(f2, d2, file3, bxvd, true);
@@ -384,7 +384,7 @@ public class FileApkIntentOperation extends IntentOperation {
                         if (intExtra == 19) {
                             if (cdjh.f180979a.mo6606a().mo77751p()) {
                                 try {
-                                    bpuf bpuf = ((bpvf) bxvk.m124016a(bpvf.f139321t, byteArrayExtra, bxus.m123743b())).f139331i;
+                                    bpuf bpuf = ((bpvf) GeneratedMessageLite.m124016a(bpvf.f139321t, byteArrayExtra, bxus.m123743b())).f139331i;
                                     if (bpuf == null) {
                                         bpuf = bpuf.f139232f;
                                     }

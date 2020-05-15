@@ -16,11 +16,11 @@ public final class bwmj extends bxvg implements bxvh {
     static {
         bwmj bwmj = new bwmj();
         f160280a = bwmj;
-        bxvk.m124024a(bwmj.class, bwmj);
+        GeneratedMessageLite.m124024a(bwmj.class, bwmj);
     }
 
     private bwmj() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -38,7 +38,7 @@ public final class bwmj extends bxvg implements bxvh {
             this.f160282b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f160280a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f160280a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new bwmj();

@@ -113,7 +113,7 @@ public final class ttp extends tuv implements tut {
                     j.mo67668c(f);
                 }
                 bxvd bxvd = (bxvd) f.mo74142c(5);
-                bxvd.mo73625a((bxvk) f);
+                bxvd.mo73625a((GeneratedMessageLite) f);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

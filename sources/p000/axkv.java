@@ -40,7 +40,7 @@ public final class axkv extends axlx {
     public final void mo53158a() {
         bxvd da = btte.f150329d.mo74144da();
         btrs btrs = (btrs) btrt.f150144e.mo74144da();
-        bxtx a = bxtx.m123261a(this.f96118k);
+        ByteString a = ByteString.m123261a(this.f96118k);
         if (btrs.f164950c) {
             btrs.mo74035c();
             btrs.f164950c = false;

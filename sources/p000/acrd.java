@@ -496,7 +496,7 @@ public final class acrd extends fth implements aaai {
                                                                     try {
                                                                         z = b;
                                                                         try {
-                                                                            if (((cixm) bxvk.m124016a(cixm.f191686d, documentSection.f9546f, bxus.m123744c())).f191690c.size() > 30) {
+                                                                            if (((cixm) GeneratedMessageLite.m124016a(cixm.f191686d, documentSection.f9546f, bxus.m123744c())).f191690c.size() > 30) {
                                                                                 str = "Too many action properties declared (max: 30)";
                                                                                 Log.w("AppIndexApi", str);
                                                                                 break;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brzi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brzi extends bxvk implements bxxd {
+public final class brzi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final brzi f143740d;
@@ -22,7 +22,7 @@ public final class brzi extends bxvk implements bxxd {
     static {
         brzi brzi = new brzi();
         f143740d = brzi;
-        bxvk.m124024a(brzi.class, brzi);
+        GeneratedMessageLite.m124024a(brzi.class, brzi);
     }
 
     private brzi() {
@@ -39,7 +39,7 @@ public final class brzi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f143740d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001က\u0000\u0002ဂ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f143740d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001က\u0000\u0002ဂ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new brzi();
         } else {

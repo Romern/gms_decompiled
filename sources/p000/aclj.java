@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aclj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aclj extends bxvk implements bxxd {
+public final class aclj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final aclj f60087e;
@@ -25,7 +25,7 @@ public final class aclj extends bxvk implements bxxd {
     static {
         aclj aclj = new aclj();
         f60087e = aclj;
-        bxvk.m124024a(aclj.class, aclj);
+        GeneratedMessageLite.m124024a(aclj.class, aclj);
     }
 
     private aclj() {
@@ -42,7 +42,7 @@ public final class aclj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f60087e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", aclh.f60086a, "c", "d"});
+            return GeneratedMessageLite.m124022a(f60087e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", aclh.f60086a, "c", "d"});
         } else if (i2 == 3) {
             return new aclj();
         } else {

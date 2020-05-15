@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: camf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class camf extends bxvk implements bxxd {
+public final class camf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final camf f175264b;
@@ -11,12 +11,12 @@ public final class camf extends bxvk implements bxxd {
     private static volatile bxxk f175265c;
 
     /* renamed from: a */
-    public bxtx f175266a = bxtx.f164797b;
+    public ByteString f175266a = ByteString.f164797b;
 
     static {
         camf camf = new camf();
         f175264b = camf;
-        bxvk.m124024a(camf.class, camf);
+        GeneratedMessageLite.m124024a(camf.class, camf);
     }
 
     private camf() {
@@ -34,7 +34,7 @@ public final class camf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175264b, "\u0000\u0001\u0000\u0000\t\t\u0001\u0000\u0000\u0000\t\n", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f175264b, "\u0000\u0001\u0000\u0000\t\t\u0001\u0000\u0000\u0000\t\n", new Object[]{"a"});
         } else if (i2 == 3) {
             return new camf();
         } else {

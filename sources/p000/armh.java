@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public final class armh implements armk {
 
     /* renamed from: a */
-    public static final sek f87895a = ascp.m73787a("D2D", "Metrics", "SourceApiLogManager");
+    public static final Logger f87895a = ascp.m73787a("D2D", "Metrics", "SourceApiLogManager");
 
     /* renamed from: b */
     public final Context f87896b;
@@ -71,7 +71,7 @@ public final class armh implements armk {
     /* renamed from: a */
     public final void mo48641a() {
         if (this.f87903i.compareAndSet(false, true)) {
-            f87895a.mo25409a("Sending Source API logs with Clearcut.", new Object[0]);
+            f87895a.logVerbose("Sending Source API logs with Clearcut.", new Object[0]);
             bxvd bxvd = this.f87907m;
             boue a = this.f87905k.mo48670a();
             if (bxvd.f164950c) {
@@ -122,7 +122,7 @@ public final class armh implements armk {
                 bxvd7.mo74035c();
                 bxvd7.f164950c = false;
             }
-            ((bovf) bxvd7.f164949b).f135019h = bxvk.m124030de();
+            ((bovf) bxvd7.f164949b).f135019h = GeneratedMessageLite.m124030de();
             List asList = Arrays.asList(a2.mo48638a());
             if (bxvd7.f164950c) {
                 bxvd7.mo74035c();
@@ -130,7 +130,7 @@ public final class armh implements armk {
             }
             bovf bovf5 = (bovf) bxvd7.f164949b;
             if (!bovf5.f135019h.mo73666a()) {
-                bovf5.f135019h = bxvk.m124021a(bovf5.f135019h);
+                bovf5.f135019h = GeneratedMessageLite.m124021a(bovf5.f135019h);
             }
             bxsy.m123078a(asList, bovf5.f135019h);
             bxvd bxvd8 = this.f87909o;
@@ -190,8 +190,8 @@ public final class armh implements armk {
             bovc.f134991d = bovf9;
             bovc.f134988a |= 4;
             bovc bovc3 = (bovc) this.f87901g.mo74062i();
-            f87895a.mo25409a(bovc3.toString(), new Object[0]);
-            this.f87902h.mo24335a(bovc3.mo73642k()).mo24327b();
+            f87895a.logVerbose(bovc3.toString(), new Object[0]);
+            this.f87902h.mo24335a(bovc3.serializeToBytes()).mo24327b();
             return;
         }
         f87895a.mo25416d("Logs already sent to Clearcut. Ignoring call to log().", new Object[0]);

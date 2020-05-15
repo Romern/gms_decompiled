@@ -404,20 +404,20 @@ final class agdd extends agmg {
                                         List a = mo35657o().mo35710a(agno.f66137b, list5);
                                         if (!a.isEmpty()) {
                                             bxvd bxvd = (bxvd) agno.mo74142c(i4);
-                                            bxvd.mo73625a((bxvk) agno);
+                                            bxvd.mo73625a((GeneratedMessageLite) agno);
                                             if (bxvd.f164950c) {
                                                 bxvd.mo74035c();
                                                 bxvd.f164950c = false;
                                             }
                                             agno agno2 = agno.f66134e;
-                                            ((agno) bxvd.f164949b).f66137b = bxvk.m124029dd();
+                                            ((agno) bxvd.f164949b).f66137b = GeneratedMessageLite.m124029dd();
                                             bxvd.mo73962Y(a);
                                             List a2 = mo35657o().mo35710a(agno.f66136a, list5);
                                             if (bxvd.f164950c) {
                                                 bxvd.mo74035c();
                                                 bxvd.f164950c = false;
                                             }
-                                            ((agno) bxvd.f164949b).f66136a = bxvk.m124029dd();
+                                            ((agno) bxvd.f164949b).f66136a = GeneratedMessageLite.m124029dd();
                                             bxvd.mo73963Z(a2);
                                             for (int i5 = 0; i5 < agno.f66138c.size(); i5++) {
                                                 if (list5.contains(Integer.valueOf(((agnh) agno.f66138c.get(i5)).f66062b))) {
@@ -1062,7 +1062,7 @@ final class agdd extends agmg {
                         n7.mo35241h();
                         sdo.m34977c(str30);
                         sdo.m34959a(agno6);
-                        byte[] k = agno6.mo73642k();
+                        byte[] k = agno6.serializeToBytes();
                         ContentValues contentValues2 = new ContentValues();
                         contentValues2.put("app_id", str30);
                         String str31 = str4;

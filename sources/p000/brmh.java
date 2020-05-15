@@ -60,7 +60,7 @@ public final class brmh extends brpq implements sjr {
     private final sjn f142964d;
 
     /* renamed from: e */
-    private final sek f142965e = new sek("FirebaseAuth", new String[0]);
+    private final Logger f142965e = new Logger("FirebaseAuth", new String[0]);
 
     public brmh(String str, String str2, brps brps, sjn sjn) {
         sdo.m34977c(str);

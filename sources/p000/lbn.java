@@ -32,7 +32,7 @@ public final class lbn extends lbm {
         int i2 = 1;
         SaveInfo.Builder flags = new SaveInfo.Builder(1, new AutofillId[]{autofillId}).setFlags(1);
         boolean z = !this.f25738d.mo14344a().mo66813a();
-        byte[] k = lcf.f25782f.mo66813a() ? m18899a((MetricsContext) lcf.f25782f.mo66814b(), lcf.f25778b, z).mo73642k() : new byte[0];
+        byte[] k = lcf.f25782f.mo66813a() ? m18899a((MetricsContext) lcf.f25782f.mo66814b(), lcf.f25778b, z).serializeToBytes() : new byte[0];
         if (!z) {
             Intent a = kyu.m18809a(this.f25736b, lcf.f25778b.f11643c, lcf.f25777a, laz.CREDENTIAL, k);
             if (a != null) {

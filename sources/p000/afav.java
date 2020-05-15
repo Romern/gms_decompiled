@@ -54,12 +54,12 @@ public final class afav implements aezw {
             afbr afbr = new afbr(bxxc);
             JSONObject jSONObject = new JSONObject();
             jSONObject.put("type", afbr.f64156b - 1);
-            jSONObject.put("data", Base64.encodeToString(afbr.f64155a.mo73642k(), 10));
+            jSONObject.put("data", Base64.encodeToString(afbr.f64155a.serializeToBytes(), 10));
             byte[] bytes = jSONObject.toString().getBytes(StandardCharsets.UTF_8);
             synchronized (this.f64108e.f79825b) {
                 aezx aezx = this.f64108e.f79826c;
                 if (aezx != null && aezx.f64062c) {
-                    sek sek = TetherListenerChimeraService.f79824e;
+                    Logger Logger = TetherListenerChimeraService.f79824e;
                     if (bxxc instanceof afbm) {
                         str = "TETHER_AVAILABILITY_RESPONSE";
                         i = afbl.m52815a(((afbm) bxxc).f64147b);
@@ -84,7 +84,7 @@ public final class afav implements aezw {
                     int i2 = i - 1;
                     if (i != 0) {
                         objArr[2] = Integer.valueOf(i2);
-                        sek.mo25414c(String.format("Sending %s to device with ID %s; response code: %d", objArr), new Object[0]);
+                        Logger.mo25414c(String.format("Sending %s to device with ID %s; response code: %d", objArr), new Object[0]);
                         aezx aezx2 = this.f64108e.f79826c;
                         synchronized (aezx2.f64063d) {
                             if (aezx2.mo34697a(remoteDevice.f11138b) == null) {

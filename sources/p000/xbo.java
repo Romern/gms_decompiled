@@ -20,7 +20,7 @@ public final class xbo {
     public static final adcb f51879a = adca.m50151b(xbl.f51878a);
 
     /* renamed from: b */
-    public static final sek f51880b = new sek(new String[]{"AccountEnrollStatusStore"}, (short[]) null);
+    public static final Logger f51880b = new Logger(new String[]{"AccountEnrollStatusStore"}, (short[]) null);
 
     /* renamed from: c */
     private final xbm f51881c;
@@ -216,9 +216,9 @@ public final class xbo {
     /* JADX WARNING: Removed duplicated region for block: B:25:0x006d A[SYNTHETIC, Splitter:B:25:0x006d] */
     /* renamed from: b */
     public final synchronized void mo29618b(String str) {
-        sek sek = f51880b;
+        Logger Logger = f51880b;
         String valueOf = String.valueOf(str);
-        sek.mo25412b(valueOf.length() == 0 ? new String("Remove the FIDO key enrollment status for account ") : "Remove the FIDO key enrollment status for account ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("Remove the FIDO key enrollment status for account ") : "Remove the FIDO key enrollment status for account ".concat(valueOf), new Object[0]);
         bmxy.m108582a(str, "account cannot be null");
         SQLiteDatabase sQLiteDatabase = null;
         try {
@@ -226,11 +226,11 @@ public final class xbo {
             try {
                 sQLiteDatabase.beginTransaction();
                 int delete = sQLiteDatabase.delete("account_enrollment_status", "account = ?", new String[]{str});
-                sek sek2 = f51880b;
+                Logger logger2 = f51880b;
                 StringBuilder sb = new StringBuilder(37);
                 sb.append("Removing account affected ");
                 sb.append(delete);
-                sek2.mo25412b(sb.toString(), new Object[0]);
+                logger2.mo25412b(sb.toString(), new Object[0]);
                 sQLiteDatabase.setTransactionSuccessful();
             } catch (SQLiteCantOpenDatabaseException e) {
                 e = e;
@@ -503,12 +503,12 @@ public final class xbo {
                         contentValues.put("credential_identifier", xjx.mo29848b());
                         contentValues.put("validity", (Integer) 1);
                         if (cursor.moveToFirst()) {
-                            sek sek = f51880b;
+                            Logger Logger = f51880b;
                             StringBuilder sb = new StringBuilder(String.valueOf(str).length() + 56);
                             sb.append("The account ");
                             sb.append(str2);
                             sb.append(" is found in the database. Update the entry.");
-                            sek.mo25412b(sb.toString(), new Object[0]);
+                            Logger.mo25412b(sb.toString(), new Object[0]);
                             sQLiteDatabase = sQLiteDatabase4;
                             try {
                                 if (sQLiteDatabase.update("account_enrollment_status", contentValues, "account = ? AND key_type = ?", strArr2) != 1) {
@@ -534,12 +534,12 @@ public final class xbo {
                             }
                         } else {
                             sQLiteDatabase = sQLiteDatabase4;
-                            sek sek2 = f51880b;
+                            Logger logger2 = f51880b;
                             StringBuilder sb3 = new StringBuilder(String.valueOf(str).length() + 58);
                             sb3.append("The account ");
                             sb3.append(str2);
                             sb3.append(" is not found in the database. Add a new entry");
-                            sek2.mo25412b(sb3.toString(), new Object[0]);
+                            logger2.mo25412b(sb3.toString(), new Object[0]);
                             contentValues.put("account", str2);
                             contentValues.put("original_enroll_time_millis", xbm.m42605a().format(date2));
                             contentValues.put("key_type", ((xjz) xjx2).f52482a.name());

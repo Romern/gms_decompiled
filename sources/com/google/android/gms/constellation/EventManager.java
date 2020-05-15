@@ -354,7 +354,7 @@ public class EventManager extends IntentOperation {
                                                     if (b2.containsKey(str11)) {
                                                         cbrh cbrh = (cbrh) b2.get(str11);
                                                         bxvd bxvd = (bxvd) cbrh.mo74142c(5);
-                                                        bxvd.mo73625a((bxvk) cbrh);
+                                                        bxvd.mo73625a((GeneratedMessageLite) cbrh);
                                                         cbre = (cbre) bxvd;
                                                     } else {
                                                         cbre = null;
@@ -405,7 +405,7 @@ public class EventManager extends IntentOperation {
                                                                 cbre.f164950c = false;
                                                             }
                                                             cbrh cbrh2 = cbrh.f178114t;
-                                                            ((cbrh) cbre.f164949b).f178131p = bxvk.m124030de();
+                                                            ((cbrh) cbre.f164949b).f178131p = GeneratedMessageLite.m124030de();
                                                             szr szr = syf2.f45423e;
                                                             cbre.mo75247b(szr.m36691a(intValue));
                                                         }
@@ -415,7 +415,7 @@ public class EventManager extends IntentOperation {
                                                                 cbre.f164950c = false;
                                                             }
                                                             cbrh cbrh3 = cbrh.f178114t;
-                                                            ((cbrh) cbre.f164949b).f178134s = bxvk.m124030de();
+                                                            ((cbrh) cbre.f164949b).f178134s = GeneratedMessageLite.m124030de();
                                                             szr szr2 = syf2.f45423e;
                                                             cbre.mo75248c(szr.m36697b(intValue));
                                                         }
@@ -427,13 +427,13 @@ public class EventManager extends IntentOperation {
                                                                     cbre.f164950c = false;
                                                                 }
                                                                 cbrh cbrh4 = cbrh.f178114t;
-                                                                ((cbrh) cbre.f164949b).f178133r = bxvk.m124030de();
+                                                                ((cbrh) cbre.f164949b).f178133r = GeneratedMessageLite.m124030de();
                                                                 cbre.mo75249d((Iterable) ((Pair) a7.get(valueOf2)).first);
                                                                 if (cbre.f164950c) {
                                                                     cbre.mo74035c();
                                                                     cbre.f164950c = false;
                                                                 }
-                                                                ((cbrh) cbre.f164949b).f178132q = bxvk.m124030de();
+                                                                ((cbrh) cbre.f164949b).f178132q = GeneratedMessageLite.m124030de();
                                                                 cbre.mo75246a((Iterable) ((Pair) a7.get(valueOf2)).second);
                                                             }
                                                         }
@@ -517,7 +517,7 @@ public class EventManager extends IntentOperation {
                                                         ((cbqy) cbqw.f164949b).f178089g = cbqt2;
                                                         cbod b3 = syf.m36578b();
                                                         bxvd bxvd2 = (bxvd) b3.mo74142c(5);
-                                                        bxvd2.mo73625a((bxvk) b3);
+                                                        bxvd2.mo73625a((GeneratedMessageLite) b3);
                                                         cboc = (cboc) bxvd2;
                                                         da4 = cbon.f177839b.mo74144da();
                                                         String a8 = tes.mo26445a();
@@ -626,7 +626,7 @@ public class EventManager extends IntentOperation {
                                                     ((cbqy) cbqw.f164949b).f178089g = cbqt22;
                                                     cbod b32 = syf.m36578b();
                                                     bxvd bxvd22 = (bxvd) b32.mo74142c(5);
-                                                    bxvd22.mo73625a((bxvk) b32);
+                                                    bxvd22.mo73625a((GeneratedMessageLite) b32);
                                                     cboc = (cboc) bxvd22;
                                                     da4 = cbon.f177839b.mo74144da();
                                                     String a82 = tes.mo26445a();

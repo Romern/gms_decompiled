@@ -233,7 +233,7 @@ public final class ocx {
             }
             bpcl bpcl3 = (bpcl) bxvd.f164949b;
             if (!bpcl3.f135766F.mo73666a()) {
-                bpcl3.f135766F = bxvk.m124021a(bpcl3.f135766F);
+                bpcl3.f135766F = GeneratedMessageLite.m124021a(bpcl3.f135766F);
             }
             bxsy.m123078a(a, bpcl3.f135766F);
         }
@@ -269,7 +269,7 @@ public final class ocx {
         if (!ccvo.m131796b() || !ccvo.m131797c()) {
             bpcy bpcy2 = bpcy.DOMAIN_UNSPECIFIED;
             bxvd bxvd = (bxvd) bpcl.mo74142c(5);
-            bxvd.mo73625a((bxvk) bpcl);
+            bxvd.mo73625a((GeneratedMessageLite) bpcl);
             m28406a(bpcy2, i, bxvd, list);
             return;
         }
@@ -288,7 +288,7 @@ public final class ocx {
             bmxy.m108581a(bpcy);
         }
         bxvd bxvd2 = (bxvd) bpcl.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpcl);
+        bxvd2.mo73625a((GeneratedMessageLite) bpcl);
         m28406a(bpcy, i, bxvd2, list);
     }
 

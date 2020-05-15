@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: kbu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class kbu extends bxvk implements bxxd {
+public final class kbu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final kbu f23718f;
@@ -28,7 +28,7 @@ public final class kbu extends bxvk implements bxxd {
     static {
         kbu kbu = new kbu();
         f23718f = kbu;
-        bxvk.m124024a(kbu.class, kbu);
+        GeneratedMessageLite.m124024a(kbu.class, kbu);
     }
 
     private kbu() {
@@ -45,7 +45,7 @@ public final class kbu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f23718f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0001\u0000\u0001\u0002\u0002\u0002\u0003\t\u0004\u001b\u0005\u0007", new Object[]{"a", "b", "c", "d", kcj.class, "e"});
+            return GeneratedMessageLite.m124022a(f23718f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0001\u0000\u0001\u0002\u0002\u0002\u0003\t\u0004\u001b\u0005\u0007", new Object[]{"a", "b", "c", "d", kcj.class, "e"});
         } else if (i2 == 3) {
             return new kbu();
         } else {

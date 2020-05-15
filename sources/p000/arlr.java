@@ -35,7 +35,7 @@ final class arlr extends scj {
 
     /* renamed from: a */
     public final void mo16679a(int i, IBinder iBinder, ConnectionInfo connectionInfo) {
-        arls.f87856a.mo25409a("PostInitComplete %s - status %d", iBinder, Integer.valueOf(i));
+        arls.f87856a.logVerbose("PostInitComplete %s - status %d", iBinder, Integer.valueOf(i));
         arls arls = (arls) this.f87855b.get();
         if (arls == null) {
             arls.f87856a.mo25416d("client is null", new Object[0]);

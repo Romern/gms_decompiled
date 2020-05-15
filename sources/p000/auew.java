@@ -357,7 +357,7 @@ public final class auew extends aaab {
                             }
                         }
                     }
-                    audp.f91423a.mo24335a(bowu2.mo73642k()).mo24327b();
+                    audp.f91423a.mo24335a(bowu2.serializeToBytes()).mo24327b();
                     int a6 = bowq.m111617a(bowt9.f135178d);
                     if (a6 == 0) {
                         a6 = 1;
@@ -489,7 +489,7 @@ public final class auew extends aaab {
                         }
                         bqid bqid5 = (bqid) da5.f164949b;
                         if (!bqid5.f140788p.mo73666a()) {
-                            bqid5.f140788p = bxvk.m124021a(bqid5.f140788p);
+                            bqid5.f140788p = GeneratedMessageLite.m124021a(bqid5.f140788p);
                         }
                         bxsy.m123078a(asList, bqid5.f140788p);
                         bqid bqid6 = (bqid) da5.mo74062i();

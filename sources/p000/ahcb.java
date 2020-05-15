@@ -17,19 +17,19 @@ public final class ahcb {
 
     /* renamed from: a */
     public static ahco m55438a(Context context) {
-        sdo.m34966a(context, "Context must not be null");
+        sdo.checkIfNull(context, "Context must not be null");
         return new ahej(context);
     }
 
     /* renamed from: b */
     public static final aixg m55441b(Context context) {
-        sdo.m34966a(context, "Context must not be null");
+        sdo.checkIfNull(context, "Context must not be null");
         return new ajdi(context, null);
     }
 
     /* renamed from: c */
     public static final ajty m55442c(Context context) {
-        sdo.m34966a(context, "Context must not be null");
+        sdo.checkIfNull(context, "Context must not be null");
         return new ajty(context);
     }
 
@@ -53,15 +53,15 @@ public final class ahcb {
 
     /* renamed from: a */
     public static final ahie m55439a(Context context, ahig ahig) {
-        sdo.m34966a(context, "Context must not be null");
-        sdo.m34966a(ahig, "Options must not be null");
+        sdo.checkIfNull(context, "Context must not be null");
+        sdo.checkIfNull(ahig, "Options must not be null");
         return new aifl(context, ahig);
     }
 
     /* renamed from: a */
     public static final aixg m55440a(Context context, aixi aixi) {
-        sdo.m34966a(context, "Context must not be null");
-        sdo.m34966a(aixi, "Options must not be null");
+        sdo.checkIfNull(context, "Context must not be null");
+        sdo.checkIfNull(aixi, "Options must not be null");
         return new ajdi(context, aixi);
     }
 }

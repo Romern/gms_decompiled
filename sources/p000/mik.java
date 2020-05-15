@@ -22,7 +22,7 @@ public final class mik {
             return null;
         }
         try {
-            bzzf bzzf = (bzzf) bxvk.m124016a(bzzf.f171967d, byteArray, bxus.m123744c());
+            bzzf bzzf = (bzzf) GeneratedMessageLite.m124016a(bzzf.f171967d, byteArray, bxus.m123744c());
             if (bzzf != null) {
                 f33777a.mo25412b("APK details received", new Object[0]);
                 f33777a.mo25412b(string.length() == 0 ? new String("Package Name:") : "Package Name:".concat(string), new Object[0]);

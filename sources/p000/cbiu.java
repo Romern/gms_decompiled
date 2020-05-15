@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbiu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbiu extends bxvk implements bxxd {
+public final class cbiu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbiu f177299c;
@@ -19,7 +19,7 @@ public final class cbiu extends bxvk implements bxxd {
     static {
         cbiu cbiu = new cbiu();
         f177299c = cbiu;
-        bxvk.m124024a(cbiu.class, cbiu);
+        GeneratedMessageLite.m124024a(cbiu.class, cbiu);
     }
 
     private cbiu() {
@@ -36,7 +36,7 @@ public final class cbiu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177299c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001Ȉ\u0002\u001b", new Object[]{"a", "b", cbit.class});
+            return GeneratedMessageLite.m124022a(f177299c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001Ȉ\u0002\u001b", new Object[]{"a", "b", cbit.class});
         } else if (i2 == 3) {
             return new cbiu();
         } else {

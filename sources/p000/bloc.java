@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bloc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bloc extends bxvk implements bxxd {
+public final class bloc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bloc f127061f;
@@ -31,7 +31,7 @@ public final class bloc extends bxvk implements bxxd {
     static {
         bloc bloc = new bloc();
         f127061f = bloc;
-        bxvk.m124024a(bloc.class, bloc);
+        GeneratedMessageLite.m124024a(bloc.class, bloc);
     }
 
     private bloc() {
@@ -52,7 +52,7 @@ public final class bloc extends bxvk implements bxxd {
             this.f127068g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127061f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0001\u0001ဈ\u0000\u0002ဌ\u0001\u0004ᐉ\u0002\u0005ဉ\u0003", new Object[]{"a", "b", "c", bloa.f127060a, "d", "e"});
+            return GeneratedMessageLite.m124022a(f127061f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0001\u0001ဈ\u0000\u0002ဌ\u0001\u0004ᐉ\u0002\u0005ဉ\u0003", new Object[]{"a", "b", "c", bloa.f127060a, "d", "e"});
         } else if (i2 == 3) {
             return new bloc();
         } else {

@@ -19,7 +19,7 @@ public final class bibo extends bibc {
         bvpa bvpa = (bvpa) obj;
         bonq a = super.mo64506a(i, j, placesParams, bvpa);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bxvd da = bpru.f138903d.mo74144da();
         int i3 = this.f120152b;
         if (da.f164950c) {
@@ -47,13 +47,13 @@ public final class bibo extends bibc {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         if (bxvd3.f164950c) {
             bxvd3.mo74035c();
             bxvd3.f164950c = false;
@@ -86,7 +86,7 @@ public final class bibo extends bibc {
 
     /* JADX WARNING: Illegal instructions before constructor call */
     public bibo(sgv sgv, Context context, String str, String str2, LatLngBounds latLngBounds, int i, String str3, Collection collection, boolean z, String str4, PlacesParams placesParams) {
-        super(sgv, str, str2, str4, ((bvoz) r1.mo74062i()).mo73642k(), bvpa.f157252c, 10, 10242);
+        super(sgv, str, str2, str4, ((bvoz) r1.mo74062i()).serializeToBytes(), bvpa.f157252c, 10, 10242);
         int i2 = i;
         bxvd da = bvoz.f157244g.mo74144da();
         bvov a = bian.m101870a(context, placesParams);
@@ -106,7 +106,7 @@ public final class bibo extends bibc {
         }
         bvmw bvmw = (bvmw) da2.f164949b;
         if (!bvmw.f156820c.mo73666a()) {
-            bvmw.f156820c = bxvk.m124021a(bvmw.f156820c);
+            bvmw.f156820c = GeneratedMessageLite.m124021a(bvmw.f156820c);
         }
         bxsy.m123078a(a2, bvmw.f156820c);
         if (da2.f164950c) {

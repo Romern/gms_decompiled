@@ -22,7 +22,7 @@ import org.json.JSONObject;
 final class xei implements xes {
 
     /* renamed from: g */
-    private static final sek f52064g = new sek(new String[]{"Fido2RequestCeremonyStage"}, (short[]) null);
+    private static final Logger f52064g = new Logger(new String[]{"Fido2RequestCeremonyStage"}, (short[]) null);
 
     /* renamed from: a */
     private final Context f52065a;

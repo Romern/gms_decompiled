@@ -178,7 +178,7 @@ public final class kgx extends cazu {
                 }
                 bwej bwej = (bwej) da2.f164949b;
                 if (!bwej.f158994a.mo73666a()) {
-                    bwej.f158994a = bxvk.m124019a(bwej.f158994a);
+                    bwej.f158994a = GeneratedMessageLite.m124019a(bwej.f158994a);
                 }
                 bwej.f158994a.mo74153d(1);
                 if (da.f164950c) {
@@ -258,7 +258,7 @@ public final class kgx extends cazu {
                 awlh awlh = new awlh(context);
                 awlh.mo52187a(lra.m19561a());
                 awlh.mo52188a(account);
-                awlh.f94574a.putExtra("com.google.android.gms.wallet.firstparty.EXTRA_UNENCRYPTED_PARAMS", ((bwen) da.mo74062i()).mo73642k());
+                awlh.f94574a.putExtra("com.google.android.gms.wallet.firstparty.EXTRA_UNENCRYPTED_PARAMS", ((bwen) da.mo74062i()).serializeToBytes());
                 lra.m19565a(awlh);
                 Intent a4 = awlh.mo52186a();
                 if (a4 == null) {

@@ -104,7 +104,7 @@ public final class azpy {
                         boqd boqd2 = boqd.f134234x;
                         boqp3.getClass();
                         if (!boqd.f134256u.mo73666a()) {
-                            boqd.f134256u = bxvk.m124021a(boqd.f134256u);
+                            boqd.f134256u = GeneratedMessageLite.m124021a(boqd.f134256u);
                         }
                         boqd.f134256u.add(boqp3);
                     }

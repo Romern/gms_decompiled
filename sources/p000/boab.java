@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boab */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boab extends bxvk implements bxxd {
+public final class boab extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final boab f132441b;
@@ -19,7 +19,7 @@ public final class boab extends bxvk implements bxxd {
     static {
         boab boab = new boab();
         f132441b = boab;
-        bxvk.m124024a(boab.class, boab);
+        GeneratedMessageLite.m124024a(boab.class, boab);
     }
 
     private boab() {
@@ -36,7 +36,7 @@ public final class boab extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132441b, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0000\u0002ဈ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f132441b, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0000\u0002ဈ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new boab();
         } else {

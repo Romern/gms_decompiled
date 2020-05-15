@@ -69,7 +69,7 @@ public final class cfhj implements cfhh {
     static {
         bdyw a = new bdyw(bdyj.m91581a("com.google.android.gms.mdisync")).mo58443a();
         try {
-            f184090a = bdyx.m91608a(a, "ProfileFeature__base_get_people_request", (btcz) bxvk.m124014a(btcz.f148362g, new byte[0]), cfhi.f184089a);
+            f184090a = bdyx.m91608a(a, "ProfileFeature__base_get_people_request", (btcz) GeneratedMessageLite.m124014a(btcz.f148362g, new byte[0]), cfhi.f184089a);
             f184091b = bdyx.m91610a(a, "ProfileFeature__download_photos_when_photo_files_not_openable", true);
             f184092c = bdyx.m91610a(a, "ProfileFeature__enable_per_account_push_handling", false);
             f184093d = bdyx.m91610a(a, "ProfileFeature__enable_push_message_handler", false);

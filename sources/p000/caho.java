@@ -28,7 +28,7 @@ public final class caho extends bxvd implements bxxd {
         cahp cahp = (cahp) this.f164949b;
         cahp cahp2 = cahp.f174572m;
         if (!cahp.f174578e.mo73666a()) {
-            cahp.f174578e = bxvk.m124019a(cahp.f174578e);
+            cahp.f174578e = GeneratedMessageLite.m124019a(cahp.f174578e);
         }
         bxsy.m123078a(iterable, cahp.f174578e);
     }

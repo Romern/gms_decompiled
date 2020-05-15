@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: kde */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class kde extends bxvk implements bxxd {
+public final class kde extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final kde f23857h;
@@ -34,7 +34,7 @@ public final class kde extends bxvk implements bxxd {
     static {
         kde kde = new kde();
         f23857h = kde;
-        bxvk.m124024a(kde.class, kde);
+        GeneratedMessageLite.m124024a(kde.class, kde);
     }
 
     private kde() {
@@ -51,7 +51,7 @@ public final class kde extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f23857h, "\u0001\u0006\u0000\u0001\u0001\b\u0006\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဉ\u0004\bင\u0005", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f23857h, "\u0001\u0006\u0000\u0001\u0001\b\u0006\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဉ\u0004\bင\u0005", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
         } else if (i2 == 3) {
             return new kde();
         } else {

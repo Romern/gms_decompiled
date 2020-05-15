@@ -17,7 +17,7 @@ import java.util.Locale;
 public final class jhe extends DialogFragment implements LoaderManager.LoaderCallbacks {
 
     /* renamed from: b */
-    private static final sek f22479b = ght.m13171a("AuthManaged", "ProgressDialogFragment");
+    private static final Logger f22479b = ght.m13171a("AuthManaged", "ProgressDialogFragment");
 
     /* renamed from: a */
     protected ProgressDialog f22480a;

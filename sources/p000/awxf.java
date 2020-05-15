@@ -147,7 +147,7 @@ public final class awxf extends awne {
     /* access modifiers changed from: package-private */
     /* renamed from: c */
     public final String mo52697c(Bundle bundle) {
-        sdo.m34966a(bundle, "parameters is required");
+        sdo.checkIfNull(bundle, "parameters is required");
         String string = bundle.getString("androidPackageName");
         sdo.m34975b(!TextUtils.isEmpty(string), "packageName is required");
         spn.m35872c(this.f95226a, string);
@@ -198,7 +198,7 @@ public final class awxf extends awne {
         CreateWalletObjectsRequest createWalletObjectsRequest2 = createWalletObjectsRequest;
         Bundle bundle2 = bundle;
         awnl awnl2 = awnl;
-        sdo.m34966a(awnl2, "callbacks is required");
+        sdo.checkIfNull(awnl2, "callbacks is required");
         String c = mo52697c(bundle2);
         StringBuilder sb = new StringBuilder("CreateWalletObjects ");
         if (createWalletObjectsRequest2 == null) {
@@ -354,7 +354,7 @@ public final class awxf extends awne {
                     btro btro = (btro) da.f164949b;
                     bmve5.getClass();
                     if (!btro.f150130b.mo73666a()) {
-                        btro.f150130b = bxvk.m124021a(btro.f150130b);
+                        btro.f150130b = GeneratedMessageLite.m124021a(btro.f150130b);
                     }
                     btro.f150130b.add(bmve5);
                 } else {
@@ -378,7 +378,7 @@ public final class awxf extends awne {
                         btro btro2 = (btro) da.f164949b;
                         bmvi2.getClass();
                         if (!btro2.f150131c.mo73666a()) {
-                            btro2.f150131c = bxvk.m124021a(btro2.f150131c);
+                            btro2.f150131c = GeneratedMessageLite.m124021a(btro2.f150131c);
                         }
                         btro2.f150131c.add(bmvi2);
                     } else {
@@ -464,7 +464,7 @@ public final class awxf extends awne {
                             btro btro3 = (btro) da.f164949b;
                             bmvu7.getClass();
                             if (!btro3.f150132d.mo73666a()) {
-                                btro3.f150132d = bxvk.m124021a(btro3.f150132d);
+                                btro3.f150132d = GeneratedMessageLite.m124021a(btro3.f150132d);
                             }
                             btro3.f150132d.add(bmvu7);
                         }
@@ -524,7 +524,7 @@ public final class awxf extends awne {
         boolean z6;
         bdyx bdyx;
         awrs awrs = this.f95230e;
-        sdo.m34966a(awnl, "callbacks is required");
+        sdo.checkIfNull(awnl, "callbacks is required");
         awrs.mo52514a(bundle);
         Context context = awrs.f94932a;
         awra awra = awrs.f94933b;
@@ -607,7 +607,7 @@ public final class awxf extends awne {
         }
         bwgu a5 = awrt.m80817a(awrx.f94958b.mo52470a(awrx.f94966j.getString("androidPackageName")));
         bxvd bxvd = (bxvd) a5.mo74142c(5);
-        bxvd.mo73625a((bxvk) a5);
+        bxvd.mo73625a((GeneratedMessageLite) a5);
         awrt.m80843a((bwgu) bxvd.mo74062i(), awru);
         Bundle bundle3 = Bundle.EMPTY;
         int i6 = 10;
@@ -746,14 +746,14 @@ public final class awxf extends awne {
                                 boolean z8 = zArr2[i13];
                                 boolean[] zArr4 = zArr2;
                                 bxvd bxvd2 = (bxvd) k.mo74142c(5);
-                                bxvd2.mo73625a((bxvk) k);
+                                bxvd2.mo73625a((GeneratedMessageLite) k);
                                 int i14 = i2;
                                 bwgv bwgv = k.f159259b;
                                 if (bwgv == null) {
                                     bwgv = bwgv.f159275p;
                                 }
                                 bxvd bxvd3 = (bxvd) bwgv.mo74142c(5);
-                                bxvd3.mo73625a((bxvk) bwgv);
+                                bxvd3.mo73625a((GeneratedMessageLite) bwgv);
                                 if (bxvd3.f164950c) {
                                     bxvd3.mo74035c();
                                     bxvd3.f164950c = false;
@@ -775,7 +775,7 @@ public final class awxf extends awne {
                                 bwgv3.getClass();
                                 bwgs2.f159259b = bwgv3;
                                 bwgs2.f159258a |= 1;
-                                bArr[i12] = ((bwgs) bxvd2.mo74062i()).mo73642k();
+                                bArr[i12] = ((bwgs) bxvd2.mo74062i()).serializeToBytes();
                                 i12++;
                                 i13++;
                                 zArr2 = zArr4;
@@ -972,7 +972,7 @@ public final class awxf extends awne {
     /* renamed from: a */
     public final void mo52315a(PaymentDataRequest paymentDataRequest, Bundle bundle, awnl awnl) {
         awrs awrs = this.f95230e;
-        sdo.m34966a(awnl, "callbacks is required");
+        sdo.checkIfNull(awnl, "callbacks is required");
         awrs.mo52514a(bundle);
         awsk m = new awsj(awrs.f94932a, awrs.f94933b, awrs.f94937f, awrs.f94935d, awrs.f94936e, new awsm(), svr.m36484b(awrs.f94932a), awrs.f94938g, awrs.f94940i, bundle, paymentDataRequest).mo52493m();
         awnl.mo52333a(m.f95032c, (PaymentData) m.f95031b, m.f95030a);
@@ -981,7 +981,7 @@ public final class awxf extends awne {
     /* renamed from: a */
     public final void mo52316a(WebPaymentDataRequest webPaymentDataRequest, Bundle bundle, awnl awnl) {
         awrs awrs = this.f95230e;
-        sdo.m34966a(awnl, "callbacks is required");
+        sdo.checkIfNull(awnl, "callbacks is required");
         awrs.mo52514a(bundle);
         awsk m = new awsl(awrs.f94932a, awrs.f94933b, awrs.f94935d, awrs.f94936e, new awsm(), awrs.f94940i, bundle, webPaymentDataRequest).mo52493m();
         awnl.mo52334a(m.f95032c, (WebPaymentData) m.f95031b, m.f95030a);
@@ -990,12 +990,12 @@ public final class awxf extends awne {
     /* renamed from: a */
     public final void mo52317a(ExecuteBuyFlowRequest executeBuyFlowRequest, Bundle bundle, awnl awnl) {
         byte[] bArr;
-        bxtx bxtx;
-        bxtx bxtx2;
+        ByteString bxtx;
+        ByteString bxtx2;
         ExecuteBuyFlowRequest executeBuyFlowRequest2 = executeBuyFlowRequest;
         Bundle bundle2 = bundle;
         awnl awnl2 = awnl;
-        sdo.m34966a(awnl2, "callbacks is required");
+        sdo.checkIfNull(awnl2, "callbacks is required");
         Account account = (Account) bundle2.getParcelable("com.google.android.gms.wallet.EXTRA_BUYER_ACCOUNT");
         if (!awfx.m79881a(account)) {
             Log.e("NetworkOwService", "Google account required.");
@@ -1040,11 +1040,11 @@ public final class awxf extends awne {
                         bmag = bmag.f128442c;
                     }
                     if (bmag.f128444a == 2) {
-                        bxtx2 = (bxtx) bmag.f128445b;
+                        bxtx2 = (ByteString) bmag.f128445b;
                     } else {
                         bxtx2 = bxtx.f164797b;
                     }
-                    bundle3.putByteArray("com.google.android.gms.wallet.firstparty.EXTRA_INTEGRATOR_CALLBACK_DATA_TOKEN", bxtx2.mo73780k());
+                    bundle3.putByteArray("com.google.android.gms.wallet.firstparty.EXTRA_INTEGRATOR_CALLBACK_DATA_TOKEN", bxtx2.getKey());
                     status = status2;
                 } else {
                     status = status2;
@@ -1092,11 +1092,11 @@ public final class awxf extends awne {
                         bmag2 = bmag.f128442c;
                     }
                     if (bmag2.f128444a == 2) {
-                        bxtx = (bxtx) bmag2.f128445b;
+                        bxtx = (ByteString) bmag2.f128445b;
                     } else {
                         bxtx = bxtx.f164797b;
                     }
-                    bArr = bxtx.mo73780k();
+                    bArr = bxtx.getKey();
                 } else {
                     bArr = new byte[0];
                 }
@@ -1110,9 +1110,9 @@ public final class awxf extends awne {
     public final void mo52318a(GetBuyFlowInitializationTokenRequest getBuyFlowInitializationTokenRequest, Bundle bundle, awnl awnl) {
         blzf blzf;
         int i;
-        sdo.m34966a(awnl, "callbacks is required");
+        sdo.checkIfNull(awnl, "callbacks is required");
         Account account = (Account) bundle.getParcelable("com.google.android.gms.wallet.EXTRA_BUYER_ACCOUNT");
-        sdo.m34966a(account, "account is required");
+        sdo.checkIfNull(account, "account is required");
         int i2 = bundle.getInt("com.google.android.gms.wallet.EXTRA_ENVIRONMENT");
         awyb a = BuyFlowConfig.m94175a();
         a.mo52751b(mo52697c(bundle));
@@ -1125,7 +1125,7 @@ public final class awxf extends awne {
         byte[] bArr = getBuyFlowInitializationTokenRequest.f110159b;
         byte[] bArr2 = getBuyFlowInitializationTokenRequest.f110158a;
         Account account2 = (Account) bundle.getParcelable("com.google.android.gms.wallet.EXTRA_BUYER_ACCOUNT");
-        sdo.m34966a(account2, "account is required");
+        sdo.checkIfNull(account2, "account is required");
         this.f95228c.mo24605a(mo52697c(bundle));
         if (bArr != null) {
             blzf = (blzf) bjvp.m104733a(bArr, (bxxk) blzf.f128337k.mo74142c(7));
@@ -1154,7 +1154,7 @@ public final class awxf extends awne {
         a4.getClass();
         blxw.f128155b = a4;
         blxw.f128154a |= 1;
-        bxtx a5 = bxtx.m123261a(bArr2);
+        ByteString a5 = ByteString.m123261a(bArr2);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -1184,13 +1184,13 @@ public final class awxf extends awne {
 
     /* renamed from: a */
     public final void mo52319a(GetClientTokenRequest getClientTokenRequest, Bundle bundle, awnl awnl) {
-        sdo.m34966a(awnl, "callbacks is required");
+        sdo.checkIfNull(awnl, "callbacks is required");
         this.f95231f.mo25649a(new awwx(this.f95226a, getClientTokenRequest, bundle, awnl, this.f95227b, mo52697c(bundle), this.f95228c));
     }
 
     /* renamed from: a */
     public final void mo52320a(InitializeBuyFlowRequest initializeBuyFlowRequest, Bundle bundle, awnl awnl) {
-        sdo.m34966a(awnl, "callbacks is required");
+        sdo.checkIfNull(awnl, "callbacks is required");
         if (awfx.m79881a((Account) bundle.getParcelable("com.google.android.gms.wallet.EXTRA_BUYER_ACCOUNT"))) {
             try {
                 for (byte[] bArr : initializeBuyFlowRequest.f110165b) {
@@ -1210,12 +1210,12 @@ public final class awxf extends awne {
 
     /* renamed from: a */
     public final void mo52321a(SetUpBiometricAuthenticationKeysRequest setUpBiometricAuthenticationKeysRequest, Bundle bundle, awnl awnl) {
-        sdo.m34966a(awnl, "callbacks is required");
+        sdo.checkIfNull(awnl, "callbacks is required");
         int i = bundle.getInt("com.google.android.gms.wallet.EXTRA_ENVIRONMENT");
         String c = mo52697c(bundle);
         this.f95228c.mo24605a(c);
         Account account = (Account) bundle.getParcelable("com.google.android.gms.wallet.EXTRA_BUYER_ACCOUNT");
-        sdo.m34966a(account, "account is required");
+        sdo.checkIfNull(account, "account is required");
         awyb a = BuyFlowConfig.m94175a();
         a.mo52751b(c);
         awxz a2 = ApplicationParameters.m94173a();
@@ -1228,11 +1228,11 @@ public final class awxf extends awne {
 
     /* renamed from: a */
     public final void mo52322a(WarmUpUiProcessRequest warmUpUiProcessRequest, Bundle bundle, awnl awnl) {
-        sdo.m34966a(awnl, "callbacks is required");
+        sdo.checkIfNull(awnl, "callbacks is required");
         int i = bundle.getInt("com.google.android.gms.wallet.EXTRA_ENVIRONMENT");
         this.f95228c.mo24605a(mo52697c(bundle));
         Account account = (Account) bundle.getParcelable("com.google.android.gms.wallet.EXTRA_BUYER_ACCOUNT");
-        sdo.m34966a(account, "account is required");
+        sdo.checkIfNull(account, "account is required");
         Intent putExtra = new Intent().setClassName("com.google.android.gms", "com.google.android.gms.chimera.UiIntentOperationService").setAction("com.google.android.gms.wallet.firstparty.ACTION_WARM_UP_UI_PROCESS").putExtra("com.google.android.gms.wallet.EXTRA_ENVIRONMENT", i).putExtra("com.google.android.gms.wallet.EXTRA_BUYER_ACCOUNT", account.name);
         int i2 = Build.VERSION.SDK_INT;
         awnl.mo52338a(Status.f30107a, new WarmUpUiProcessResponse(PendingIntent.getService(this.f95226a, 0, putExtra, 1140850688)), Bundle.EMPTY);
@@ -1255,7 +1255,7 @@ public final class awxf extends awne {
         GetSaveInstrumentDetailsRequest getSaveInstrumentDetailsRequest2 = getSaveInstrumentDetailsRequest;
         Bundle bundle2 = bundle;
         awnl awnl2 = awnl;
-        sdo.m34966a(awnl2, "callbacks is required");
+        sdo.checkIfNull(awnl2, "callbacks is required");
         Account account = (Account) bundle2.getParcelable("com.google.android.gms.wallet.EXTRA_BUYER_ACCOUNT");
         if (!awfx.m79881a(account)) {
             Log.e("NetworkOwService", "Google account required.");
@@ -1480,7 +1480,7 @@ public final class awxf extends awne {
                 if (bmaq2 == null) {
                     bmaq2 = bmaq.f128479l;
                 }
-                a8.f94597a.f110187d = bmaq2.f128483c.mo73780k();
+                a8.f94597a.f110187d = bmaq2.f128483c.getKey();
             }
             Status status2 = Status.f30107a;
             getSaveInstrumentDetailsResponse = a8.mo52247a();
@@ -1516,7 +1516,7 @@ public final class awxf extends awne {
         SaveInstrumentRequest saveInstrumentRequest2 = saveInstrumentRequest;
         Bundle bundle2 = bundle;
         awnl awnl2 = awnl;
-        sdo.m34966a(awnl2, "callbacks is required");
+        sdo.checkIfNull(awnl2, "callbacks is required");
         Account account = (Account) bundle2.getParcelable("com.google.android.gms.wallet.EXTRA_BUYER_ACCOUNT");
         if (!awfx.m79881a(account)) {
             Log.e("NetworkOwService", "Google account required.");
@@ -1668,7 +1668,7 @@ public final class awxf extends awne {
                 bwlc bwlc = (bwlc) da2.f164949b;
                 bwdr3.getClass();
                 if (!bwlc.f160091d.mo73666a()) {
-                    bwlc.f160091d = bxvk.m124021a(bwlc.f160091d);
+                    bwlc.f160091d = GeneratedMessageLite.m124021a(bwlc.f160091d);
                 }
                 bwlc.f160091d.add(bwdr3);
                 i2++;
@@ -1869,7 +1869,7 @@ public final class awxf extends awne {
                 a2.mo59985b(4);
                 awri.mo52504a();
                 BuyFlowConfig buyFlowConfig = awri.f94919f;
-                byte[] k = a.f165275e.mo73780k();
+                byte[] k = a.f165275e.getKey();
                 awrq awrq = new awrq();
                 awrq.f94929a = a.f165278h;
                 awrq.f94930b = awri.f94918e;

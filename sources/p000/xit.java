@@ -9,7 +9,7 @@ import android.os.ParcelUuid;
 public final class xit {
 
     /* renamed from: a */
-    private static final sek f52377a = new sek(new String[]{"BleUtil"}, (short[]) null);
+    private static final Logger f52377a = new Logger(new String[]{"BleUtil"}, (short[]) null);
 
     /* renamed from: a */
     public static boolean m43015a(ScanResult scanResult) {

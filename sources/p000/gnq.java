@@ -14,7 +14,7 @@ final /* synthetic */ class gnq implements bmxz {
 
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
-        sek sek = gns.f18715a;
+        Logger Logger = gns.f18715a;
         return this.f18714a.contains((String) obj);
     }
 }

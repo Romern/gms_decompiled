@@ -31,7 +31,7 @@ public final class buyq extends bxvg implements bxvh {
     static {
         buyq buyq = new buyq();
         f155323f = buyq;
-        bxvk.m124024a(buyq.class, buyq);
+        GeneratedMessageLite.m124024a(buyq.class, buyq);
     }
 
     private buyq() {
@@ -52,7 +52,7 @@ public final class buyq extends bxvg implements bxvh {
             this.f155330g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f155323f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0004ဉ\u0002\u0005ဉ\u0003", new Object[]{"a", "b", buys.f155335a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f155323f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0004ဉ\u0002\u0005ဉ\u0003", new Object[]{"a", "b", buys.f155335a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new buyq();
         } else {

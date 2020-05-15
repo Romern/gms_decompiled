@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qov */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qov extends bxvk implements bxxd {
+public final class qov extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final qov f41897f;
@@ -28,7 +28,7 @@ public final class qov extends bxvk implements bxxd {
     static {
         qov qov = new qov();
         f41897f = qov;
-        bxvk.m124024a(qov.class, qov);
+        GeneratedMessageLite.m124024a(qov.class, qov);
     }
 
     private qov() {
@@ -45,7 +45,7 @@ public final class qov extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f41897f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဂ\u0001\u0004ဂ\u0002\u0005\u001b", new Object[]{"a", "b", "c", "e", "d", qou.class});
+            return GeneratedMessageLite.m124022a(f41897f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဂ\u0001\u0004ဂ\u0002\u0005\u001b", new Object[]{"a", "b", "c", "e", "d", qou.class});
         } else if (i2 == 3) {
             return new qov();
         } else {
@@ -72,7 +72,7 @@ public final class qov extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo24177a() {
         if (!this.f41902d.mo73666a()) {
-            this.f41902d = bxvk.m124021a(this.f41902d);
+            this.f41902d = GeneratedMessageLite.m124021a(this.f41902d);
         }
     }
 }

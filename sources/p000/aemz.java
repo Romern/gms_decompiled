@@ -12,7 +12,7 @@ final class aemz extends aeoo {
     public final /* bridge */ /* synthetic */ void mo11186a(rjd rjd) {
         aene aene = (aene) rjd;
         aeor aeor = new aeor(this);
-        sdo.m34966a(aeor, "callback == null");
+        sdo.checkIfNull(aeor, "callback == null");
         ((aenl) aene.mo25289B()).mo34363a(aene.f63536a, aeor);
     }
 }

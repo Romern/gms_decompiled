@@ -35,7 +35,7 @@ public final class isx {
     public final isn f21634c;
 
     /* renamed from: d */
-    private final sek f21635d = new sek(new String[]{"OracleUtils"}, (byte[]) null);
+    private final Logger f21635d = new Logger(new String[]{"OracleUtils"}, (byte[]) null);
 
     public isx(isv isv, ipr ipr, isn isn) {
         this.f21632a = isv;
@@ -116,13 +116,13 @@ public final class isx {
     /* renamed from: a */
     private static final PlainText m16067a(byte[] bArr, Payload payload, bqmb bqmb, String str) {
         SecretKey e = ehv.m10475e(bArr);
-        bytd a = bysw.m125311a((byti) bxvk.m124014a(byti.f167671d, payload.f10548d), e, byss.HMAC_SHA256, e, m16065a(bqmb));
+        bytd a = bysw.m125311a((byti) GeneratedMessageLite.m124014a(byti.f167671d, payload.f10548d), e, byss.HMAC_SHA256, e, m16065a(bqmb));
         Account account = new Account(str, "com.google");
         bytc bytc = a.f167661b;
         if (bytc == null) {
             bytc = bytc.f167647i;
         }
-        return new PlainText(bytc.mo73642k(), a.f167662c.mo73780k(), account);
+        return new PlainText(bytc.serializeToBytes(), a.f167662c.getKey(), account);
     }
 
     /* renamed from: a */
@@ -245,16 +245,16 @@ public final class isx {
     /* renamed from: a */
     public final PlainText mo13324a(PrivateKey privateKey, Account account, byte[] bArr) {
         try {
-            byti byti = (byti) bxvk.m124014a(byti.f167671d, bArr);
+            byti byti = (byti) GeneratedMessageLite.m124014a(byti.f167671d, bArr);
             try {
-                SecretKey a = ehv.m10463a(privateKey, bysu.m125293a((bytb) bxvk.m124007a(bytb.f167639f, bysw.m125309a(byti).f167653e)));
+                SecretKey a = ehv.m10463a(privateKey, bysu.m125293a((bytb) GeneratedMessageLite.m124007a(bytb.f167639f, bysw.m125309a(byti).f167653e)));
                 try {
                     bytd a2 = bysw.m125311a(byti, a, byss.HMAC_SHA256, a, bysr.AES_256_CBC);
                     bytc bytc = a2.f167661b;
                     if (bytc == null) {
                         bytc = bytc.f167647i;
                     }
-                    return new PlainText(bytc.mo73642k(), a2.f167662c.mo73780k(), account);
+                    return new PlainText(bytc.serializeToBytes(), a2.f167662c.getKey(), account);
                 } catch (InvalidKeyException | NoSuchAlgorithmException | SignatureException e) {
                     this.f21634c.f21613b = 7;
                     throw new iqs(e);
@@ -291,7 +291,7 @@ public final class isx {
                         }
                         try {
                             byti a2 = bysv.mo74498a(d, m16068b(b.f21639d), a, m16065a(ita.f21651b), payload.f10548d);
-                            return new SignCryptedBlob(a2.f167674b.mo73780k(), a2.mo73642k());
+                            return new SignCryptedBlob(a2.f167674b.getKey(), a2.serializeToBytes());
                         } catch (ehu | InvalidKeyException | NoSuchAlgorithmException e) {
                             this.f21634c.f21613b = 6;
                             throw new iqs(e);
@@ -320,10 +320,10 @@ public final class isx {
         try {
             SecretKey a = ehv.m10463a(b.getPrivate(), publicKey);
             bysv bysv = new bysv();
-            bysv.mo74500a(bysu.m125290a(b.getPublic()).mo73642k());
+            bysv.mo74500a(bysu.m125290a(b.getPublic()).serializeToBytes());
             try {
                 byti a2 = bysv.mo74498a(a, byss.HMAC_SHA256, a, bysr.AES_256_CBC, bArr);
-                return new SignCryptedBlob(a2.f167674b.mo73780k(), a2.mo73642k());
+                return new SignCryptedBlob(a2.f167674b.getKey(), a2.serializeToBytes());
             } catch (InvalidKeyException | NoSuchAlgorithmException e) {
                 this.f21634c.f21613b = 6;
                 throw new iqs(e);
@@ -352,7 +352,7 @@ public final class isx {
                         bysv.f167622a = bArr2;
                     }
                     try {
-                        return new SignedBlob(bysv.mo74499a(d, m16068b(b.f21639d), payload.f10548d).mo73642k());
+                        return new SignedBlob(bysv.mo74499a(d, m16068b(b.f21639d), payload.f10548d).serializeToBytes());
                     } catch (InvalidKeyException | NoSuchAlgorithmException e) {
                         this.f21634c.f21613b = 8;
                         throw new iqs(e);

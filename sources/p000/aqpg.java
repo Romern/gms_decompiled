@@ -26,7 +26,7 @@ public final class aqpg extends aqoe implements aaai {
     static final bnhe f86477a;
 
     /* renamed from: p */
-    private static final sek f86478p = aqom.m71875b("SignInService");
+    private static final Logger f86478p = aqom.m71875b("SignInService");
 
     /* renamed from: b */
     public final zzx f86479b;
@@ -157,9 +157,9 @@ public final class aqpg extends aqoe implements aaai {
         if (cgmd.m146192b()) {
             adbp.m50129a(aaag2, new aqpf(this, qws));
         }
-        sek sek = f86478p;
+        Logger Logger = f86478p;
         String valueOf = String.valueOf(this.f86489l);
-        sek.mo25412b(valueOf.length() == 0 ? new String("Log Session ID: ") : "Log Session ID: ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("Log Session ID: ") : "Log Session ID: ".concat(valueOf), new Object[0]);
     }
 
     @Deprecated
@@ -224,7 +224,7 @@ public final class aqpg extends aqoe implements aaai {
         aqpc aqpc = aqpc.f86466a;
         String str = this.f86480c;
         aqon aqon = aqpc.f86468c;
-        aqon.f86414a.mo25409a("putAccount(package_name=%s, session_id=%d)", str, Integer.valueOf(i));
+        aqon.f86414a.logVerbose("putAccount(package_name=%s, session_id=%d)", str, Integer.valueOf(i));
         aqon.f86416c.put(str, account);
         aqoc.mo47988a(Status.f30107a);
     }

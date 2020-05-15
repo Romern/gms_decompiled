@@ -924,7 +924,7 @@ public class RemindersChimeraProvider extends sgo {
                 strArr = new String[]{uri.getLastPathSegment()};
                 str = "_id=?";
             }
-            sdo.m34966a((Object) str, (Object) "Cannot delete reminders with null selection");
+            sdo.checkIfNull((Object) str, (Object) "Cannot delete reminders with null selection");
             return this.f107214j.delete("reminders", str, strArr);
         } else if (match == 300 || match == 301) {
             if (match == 301) {

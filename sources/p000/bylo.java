@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bylo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bylo extends bxvk implements bxxd {
+public final class bylo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bylo f166896f;
@@ -28,7 +28,7 @@ public final class bylo extends bxvk implements bxxd {
     static {
         bylo bylo = new bylo();
         f166896f = bylo;
-        bxvk.m124024a(bylo.class, bylo);
+        GeneratedMessageLite.m124024a(bylo.class, bylo);
     }
 
     private bylo() {
@@ -45,7 +45,7 @@ public final class bylo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166896f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ခ\u0000\u0002ခ\u0001\u0003ခ\u0002\u0004ခ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f166896f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ခ\u0000\u0002ခ\u0001\u0003ခ\u0002\u0004ခ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bylo();
         } else {

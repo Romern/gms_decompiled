@@ -35,7 +35,7 @@ final class ahtx extends buqn {
         ahyz a = ahst.mo37033a(str);
         if (a != null) {
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             long a2 = ((sqv) ahgz.m55754a(ahst.f67963e, sqv.class)).mo20505a();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

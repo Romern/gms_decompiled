@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bofp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bofp extends bxvk implements bxxd {
+public final class bofp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bofp f132931c;
@@ -19,7 +19,7 @@ public final class bofp extends bxvk implements bxxd {
     static {
         bofp bofp = new bofp();
         f132931c = bofp;
-        bxvk.m124024a(bofp.class, bofp);
+        GeneratedMessageLite.m124024a(bofp.class, bofp);
     }
 
     private bofp() {
@@ -36,7 +36,7 @@ public final class bofp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132931c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bofo.f132930a});
+            return GeneratedMessageLite.m124022a(f132931c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bofo.f132930a});
         } else if (i2 == 3) {
             return new bofp();
         } else {

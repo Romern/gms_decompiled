@@ -17,7 +17,7 @@ public final class jme {
     public static final /* synthetic */ int f22813a = 0;
 
     /* renamed from: b */
-    private static final sek f22814b = jsy.m17256a("KeyAgreementPerformer");
+    private static final Logger f22814b = jsy.m17256a("KeyAgreementPerformer");
 
     /* renamed from: a */
     public static final byte[] m16917a(Context context, byte[] bArr) {

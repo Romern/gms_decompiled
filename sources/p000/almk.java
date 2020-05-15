@@ -293,7 +293,7 @@ public final class almk {
         }
         amnu amnu7 = (amnu) ammr2.f164949b;
         if (!amnu7.f75557p.mo73666a()) {
-            amnu7.f75557p = bxvk.m124019a(amnu7.f75557p);
+            amnu7.f75557p = GeneratedMessageLite.m124019a(amnu7.f75557p);
         }
         bxsy.m123078a(b2, amnu7.f75557p);
         if (amnm2 != null) {
@@ -507,7 +507,7 @@ public final class almk {
             }
             amnu amnu10 = (amnu) ammr2.f164949b;
             if (!amnu10.f75553l.mo73666a()) {
-                amnu10.f75553l = bxvk.m124021a(amnu10.f75553l);
+                amnu10.f75553l = GeneratedMessageLite.m124021a(amnu10.f75553l);
             }
             bxsy.m123078a(asList, amnu10.f75553l);
         }
@@ -606,7 +606,7 @@ public final class almk {
                     }
                     amlx amlx4 = (amlx) da.f164949b;
                     if (!amlx4.f75234f.mo73666a()) {
-                        amlx4.f75234f = bxvk.m124021a(amlx4.f75234f);
+                        amlx4.f75234f = GeneratedMessageLite.m124021a(amlx4.f75234f);
                     }
                     bxsy.m123078a(asList, amlx4.f75234f);
                 }
@@ -835,7 +835,7 @@ public final class almk {
             amoh amoh2 = amoh.f75593x;
             amme2.getClass();
             if (!amoh.f75604j.mo73666a()) {
-                amoh.f75604j = bxvk.m124021a(amoh.f75604j);
+                amoh.f75604j = GeneratedMessageLite.m124021a(amoh.f75604j);
             }
             amoh.f75604j.add(amme2);
         }
@@ -873,7 +873,7 @@ public final class almk {
                     }
                     amoh amoh3 = (amoh) da.f164949b;
                     if (!amoh3.f75605k.mo73666a()) {
-                        amoh3.f75605k = bxvk.m124021a(amoh3.f75605k);
+                        amoh3.f75605k = GeneratedMessageLite.m124021a(amoh3.f75605k);
                     }
                     bxsy.m123078a(asList, amoh3.f75605k);
                 }

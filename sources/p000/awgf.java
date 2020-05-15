@@ -7,7 +7,7 @@ import android.app.Application;
 public final class awgf extends C1261p {
 
     /* renamed from: d */
-    public bxtx f94293d;
+    public ByteString f94293d;
 
     /* renamed from: e */
     public awge f94294e;

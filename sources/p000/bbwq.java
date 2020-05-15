@@ -411,7 +411,7 @@ public final class bbwq implements bbpk, bbpl, bbpu, bbqx {
                                                             while (a5.hasNext()) {
                                                                 String str = (String) a5.next();
                                                                 try {
-                                                                    jSONObject.put(str, ((bxye) bxvk.m124007a(bxye.f165087b, ((bxte) bxvk.m124007a(bxte.f164763c, (bxtx) bctr.mo57369i().get(str))).f164766b)).f165089a);
+                                                                    jSONObject.put(str, ((bxye) GeneratedMessageLite.m124007a(bxye.f165087b, ((bxte) GeneratedMessageLite.m124007a(bxte.f164763c, (ByteString) bctr.mo57369i().get(str))).f164766b)).f165089a);
                                                                 } catch (bxwf | IllegalArgumentException e2) {
                                                                 }
                                                             }
@@ -665,7 +665,7 @@ public final class bbwq implements bbpk, bbpl, bbpu, bbqx {
                             if (b == 0) {
                                 bbwq = this;
                                 str = str5;
-                                bmxv = bmxv.m108566b(bcqa.m89618a(bxtx.f164797b));
+                                bmxv = bmxv.m108566b(bcqa.m89618a(ByteString.f164797b));
                             } else if (b == 1) {
                                 bbwq = this;
                                 str = str5;
@@ -836,7 +836,7 @@ public final class bbwq implements bbpk, bbpl, bbpu, bbqx {
                             }
                             "type.googleapis.com/google.protobuf.StringValue".getClass();
                             ((bxte) da.f164949b).f164765a = "type.googleapis.com/google.protobuf.StringValue";
-                            bxtx aL = bxye.m124404a(jSONObject4.getString(next)).mo73639aL();
+                            ByteString aL = bxye.m124404a(jSONObject4.getString(next)).mo73639aL();
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;

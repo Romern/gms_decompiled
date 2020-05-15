@@ -74,7 +74,7 @@ public final class aist {
         }
         bvgp bvgp = (bvgp) da3.f164949b;
         if (!bvgp.f156030a.mo73666a()) {
-            bvgp.f156030a = bxvk.m124021a(bvgp.f156030a);
+            bvgp.f156030a = GeneratedMessageLite.m124021a(bvgp.f156030a);
         }
         bxsy.m123078a(arrayList, bvgp.f156030a);
         if (da2.f164950c) {

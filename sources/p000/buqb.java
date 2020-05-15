@@ -192,7 +192,7 @@ public class buqb {
     public final void mo72975a(bywk bywk) {
         byvm a = m120220a((String) null, (String) null, 7);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -216,7 +216,7 @@ public class buqb {
     public final void mo72976a(String str, String str2, bywm bywm) {
         byvm a = m120220a(str, str2, 6);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

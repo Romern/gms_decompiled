@@ -177,7 +177,7 @@ public final class wyw extends sbm {
         }
         abeh abeh11 = (abeh) da.mo74062i();
         bxvd bxvd = (bxvd) abeh11.mo74142c(5);
-        bxvd.mo73625a((bxvk) abeh11);
+        bxvd.mo73625a((GeneratedMessageLite) abeh11);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

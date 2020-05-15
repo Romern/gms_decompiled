@@ -130,7 +130,7 @@ final /* synthetic */ class wqy implements auca {
         bssm2.getClass();
         bsqw2.f146702f = bssm2;
         bsqw2.f146697a |= 8;
-        ggp.mo11800a(((bsqw) bsqv.mo74062i()).mo73642k());
+        ggp.mo11800a(((bsqw) bsqv.mo74062i()).serializeToBytes());
         ggp.f18145d = wrd.f51161a;
         return a.mo11796a(ggp.mo11799a());
     }

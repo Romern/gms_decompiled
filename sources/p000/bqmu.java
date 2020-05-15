@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqmu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqmu extends bxvk implements bxxd {
+public final class bqmu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bqmu f141262d;
@@ -11,18 +11,18 @@ public final class bqmu extends bxvk implements bxxd {
     private static volatile bxxk f141263e;
 
     /* renamed from: a */
-    public bxtx f141264a = bxtx.f164797b;
+    public ByteString f141264a = ByteString.f164797b;
 
     /* renamed from: b */
-    public bxtx f141265b = bxtx.f164797b;
+    public ByteString f141265b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f141266c = bxtx.f164797b;
+    public ByteString f141266c = ByteString.f164797b;
 
     static {
         bqmu bqmu = new bqmu();
         f141262d = bqmu;
-        bxvk.m124024a(bqmu.class, bqmu);
+        GeneratedMessageLite.m124024a(bqmu.class, bqmu);
     }
 
     private bqmu() {
@@ -39,7 +39,7 @@ public final class bqmu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f141262d, "\u0000\u0003\u0000\u0000\u0002\u0004\u0003\u0000\u0000\u0000\u0002\n\u0003\n\u0004\n", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f141262d, "\u0000\u0003\u0000\u0000\u0002\u0004\u0003\u0000\u0000\u0000\u0002\n\u0003\n\u0004\n", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bqmu();
         } else {

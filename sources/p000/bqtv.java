@@ -25,12 +25,12 @@ final class bqtv extends bqnq {
         if (bqsz == null) {
             bqsz = bqsz.f141607e;
         }
-        BigInteger bigInteger = new BigInteger(1, bqsz.f141611c.mo73780k());
+        BigInteger bigInteger = new BigInteger(1, bqsz.f141611c.getKey());
         bqsz bqsz2 = bqsy2.f141600b;
         if (bqsz2 == null) {
             bqsz2 = bqsz.f141607e;
         }
-        RSAPrivateCrtKey rSAPrivateCrtKey = (RSAPrivateCrtKey) keyFactory.generatePrivate(new RSAPrivateCrtKeySpec(bigInteger, new BigInteger(1, bqsz2.f141612d.mo73780k()), new BigInteger(1, bqsy2.f141601c.mo73780k()), new BigInteger(1, bqsy2.f141602d.mo73780k()), new BigInteger(1, bqsy2.f141603e.mo73780k()), new BigInteger(1, bqsy2.f141604f.mo73780k()), new BigInteger(1, bqsy2.f141605g.mo73780k()), new BigInteger(1, bqsy2.f141606h.mo73780k())));
+        RSAPrivateCrtKey rSAPrivateCrtKey = (RSAPrivateCrtKey) keyFactory.generatePrivate(new RSAPrivateCrtKeySpec(bigInteger, new BigInteger(1, bqsz2.f141612d.getKey()), new BigInteger(1, bqsy2.f141601c.getKey()), new BigInteger(1, bqsy2.f141602d.getKey()), new BigInteger(1, bqsy2.f141603e.getKey()), new BigInteger(1, bqsy2.f141604f.getKey()), new BigInteger(1, bqsy2.f141605g.getKey()), new BigInteger(1, bqsy2.f141606h.getKey())));
         bqsz bqsz3 = bqsy2.f141600b;
         if (bqsz3 == null) {
             bqsz3 = bqsz.f141607e;
@@ -53,12 +53,12 @@ final class bqtv extends bqnq {
         if (bqsz4 == null) {
             bqsz4 = bqsz.f141607e;
         }
-        BigInteger bigInteger2 = new BigInteger(1, bqsz4.f141611c.mo73780k());
+        BigInteger bigInteger2 = new BigInteger(1, bqsz4.f141611c.getKey());
         bqsz bqsz5 = bqsy2.f141600b;
         if (bqsz5 == null) {
             bqsz5 = bqsz.f141607e;
         }
-        RSAPublicKey rSAPublicKey = (RSAPublicKey) keyFactory.generatePublic(new RSAPublicKeySpec(bigInteger2, new BigInteger(1, bqsz5.f141612d.mo73780k())));
+        RSAPublicKey rSAPublicKey = (RSAPublicKey) keyFactory.generatePublic(new RSAPublicKeySpec(bigInteger2, new BigInteger(1, bqsz5.f141612d.getKey())));
         int b3 = bqry.m113304b(bqsx.f141594a);
         if (b3 == 0) {
             b3 = 1;

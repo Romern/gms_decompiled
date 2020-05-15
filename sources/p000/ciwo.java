@@ -34,7 +34,7 @@ public final class ciwo {
         this.f191602a = new ciwq();
         this.f191603b = new LinkedList();
         this.f191604c = false;
-        ciwv ciwv = (ciwv) bxvk.m124014a(ciwv.f191616d, bArr);
+        ciwv ciwv = (ciwv) GeneratedMessageLite.m124014a(ciwv.f191616d, bArr);
         cixb cixb = ciwv.f191619b;
         this.f191602a = new ciwq(cixb == null ? cixb.f191646m : cixb);
         this.f191604c = false;

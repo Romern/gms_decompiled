@@ -18,7 +18,7 @@ import java.security.NoSuchAlgorithmException;
 public final class xxs extends xhl implements xzo {
 
     /* renamed from: g */
-    public static final sek f53345g = new sek(new String[]{"U2fApiImpl"}, (short[]) null);
+    public static final Logger f53345g = new Logger(new String[]{"U2fApiImpl"}, (short[]) null);
 
     /* renamed from: b */
     public Context f53346b;
@@ -62,9 +62,9 @@ public final class xxs extends xhl implements xzo {
             try {
                 mo30237a(xwj, new xbc(xhl.m42944a(uri)));
             } catch (URISyntaxException e) {
-                sek sek = f53345g;
+                Logger Logger = f53345g;
                 String valueOf = String.valueOf(uri);
-                sek.mo25418e(valueOf.length() == 0 ? new String("Bad url ") : "Bad url ".concat(valueOf), new Object[0]);
+                Logger.mo25418e(valueOf.length() == 0 ? new String("Bad url ") : "Bad url ".concat(valueOf), new Object[0]);
                 this.f53350f.mo30184a(xwj, e);
                 mo30235a(xwj, ErrorCode.BAD_REQUEST);
             }
@@ -87,9 +87,9 @@ public final class xxs extends xhl implements xzo {
             try {
                 mo30237a(xwj, new xbc(xhl.m42944a(uri)));
             } catch (URISyntaxException e) {
-                sek sek = f53345g;
+                Logger Logger = f53345g;
                 String valueOf = String.valueOf(uri);
-                sek.mo25418e(valueOf.length() == 0 ? new String("Bad url ") : "Bad url ".concat(valueOf), new Object[0]);
+                Logger.mo25418e(valueOf.length() == 0 ? new String("Bad url ") : "Bad url ".concat(valueOf), new Object[0]);
                 this.f53350f.mo30184a(xwj, e);
                 mo30235a(xwj, ErrorCode.BAD_REQUEST);
             }

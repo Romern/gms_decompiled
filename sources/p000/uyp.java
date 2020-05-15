@@ -21,7 +21,7 @@ public final class uyp {
 
     /* renamed from: a */
     public final void mo28112a(CustomPropertyKey customPropertyKey, String str) {
-        sdo.m34966a(customPropertyKey, "key");
+        sdo.checkIfNull(customPropertyKey, "key");
         this.f48720a.put(customPropertyKey, new CustomProperty(customPropertyKey, str));
     }
 
@@ -36,7 +36,7 @@ public final class uyp {
 
     /* renamed from: a */
     public final void mo28114a(CustomProperty customProperty) {
-        sdo.m34966a(customProperty, "property");
+        sdo.checkIfNull(customProperty, "property");
         this.f48720a.put(customProperty.f31068a, customProperty);
     }
 }

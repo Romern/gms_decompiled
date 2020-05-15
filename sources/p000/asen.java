@@ -220,7 +220,7 @@ public abstract class asen extends asem {
                     calx = (calx) calu.mo74062i();
                 }
             } else {
-                bxtx a = bxtx.m123261a(b);
+                ByteString a = ByteString.m123261a(b);
                 if (calu.f164950c) {
                     calu.mo74035c();
                     calu.f164950c = false;

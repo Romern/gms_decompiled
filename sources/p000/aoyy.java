@@ -27,7 +27,7 @@ final class aoyy implements Callable {
     public aoyy(aoza aoza, btfi btfi, aoyz aoyz) {
         this.f83870a = aoza;
         bxvd bxvd = (bxvd) btfi.mo74142c(5);
-        bxvd.mo73625a((bxvk) btfi);
+        bxvd.mo73625a((GeneratedMessageLite) btfi);
         this.f83871b = (btfh) bxvd;
         this.f83872c = aoyz;
     }
@@ -130,7 +130,7 @@ final class aoyy implements Callable {
                                 }
                                 throw th;
                             }
-                            bxtx a = bxtx.m123261a(bArr);
+                            ByteString a = ByteString.m123261a(bArr);
                             if (btfh.f164950c) {
                                 btfh.mo74035c();
                                 btfh.f164950c = false;
@@ -140,7 +140,7 @@ final class aoyy implements Callable {
                             ((btfi) btfh.f164949b).f148674q = a;
                         } else {
                             bArr = aoza.f83897d;
-                            bxtx a2 = bxtx.m123261a(bArr);
+                            ByteString a2 = ByteString.m123261a(bArr);
                             if (btfh.f164950c) {
                             }
                             btfi btfi2 = btfi.f148652E;
@@ -154,7 +154,7 @@ final class aoyy implements Callable {
                             if (assetFileDescriptor != null) {
                                 assetFileDescriptor.close();
                             }
-                            bxtx a22 = bxtx.m123261a(bArr);
+                            ByteString a22 = ByteString.m123261a(bArr);
                             if (btfh.f164950c) {
                             }
                             btfi btfi22 = btfi.f148652E;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpku */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpku extends bxvk implements bxxd {
+public final class bpku extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpku f138014c;
@@ -19,7 +19,7 @@ public final class bpku extends bxvk implements bxxd {
     static {
         bpku bpku = new bpku();
         f138014c = bpku;
-        bxvk.m124024a(bpku.class, bpku);
+        GeneratedMessageLite.m124024a(bpku.class, bpku);
     }
 
     private bpku() {
@@ -36,7 +36,7 @@ public final class bpku extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138014c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bpkt.f138013a});
+            return GeneratedMessageLite.m124022a(f138014c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bpkt.f138013a});
         } else if (i2 == 3) {
             return new bpku();
         } else {

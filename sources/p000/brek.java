@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brek */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brek extends bxvk implements bxxd {
+public final class brek extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final brek f142665e;
@@ -28,7 +28,7 @@ public final class brek extends bxvk implements bxxd {
     static {
         brek brek = new brek();
         f142665e = brek;
-        bxvk.m124024a(brek.class, brek);
+        GeneratedMessageLite.m124024a(brek.class, brek);
     }
 
     private brek() {
@@ -49,7 +49,7 @@ public final class brek extends bxvk implements bxxd {
             this.f142671f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f142665e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ဉ\u0000\u0002ဈ\u0001\u0003ᐉ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f142665e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ဉ\u0000\u0002ဈ\u0001\u0003ᐉ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new brek();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btcr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btcr extends bxvk implements bxxd {
+public final class btcr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btcr f148306b;
@@ -19,7 +19,7 @@ public final class btcr extends bxvk implements bxxd {
     static {
         btcr btcr = new btcr();
         f148306b = btcr;
-        bxvk.m124024a(btcr.class, btcr);
+        GeneratedMessageLite.m124024a(btcr.class, btcr);
     }
 
     private btcr() {
@@ -40,7 +40,7 @@ public final class btcr extends bxvk implements bxxd {
             this.f148309c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f148306b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0001\u0001Љ", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f148306b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0001\u0001Љ", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btcr();
         } else {

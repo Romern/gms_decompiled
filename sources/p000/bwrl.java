@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwrl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwrl extends bxvk implements bxxd {
+public final class bwrl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bwrl f160776a;
@@ -13,7 +13,7 @@ public final class bwrl extends bxvk implements bxxd {
     static {
         bwrl bwrl = new bwrl();
         f160776a = bwrl;
-        bxvk.m124024a(bwrl.class, bwrl);
+        GeneratedMessageLite.m124024a(bwrl.class, bwrl);
     }
 
     private bwrl() {
@@ -30,7 +30,7 @@ public final class bwrl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f160776a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f160776a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bwrl();

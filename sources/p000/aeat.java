@@ -117,7 +117,7 @@ public final class aeat {
     private final void m51533a(String str, boolean z) {
         List<ResolveInfo> list;
         Intent intent;
-        sdo.m34966a((Object) str, (Object) "GmsTaskChimeraService must not be null.");
+        sdo.checkIfNull((Object) str, (Object) "GmsTaskChimeraService must not be null.");
         PackageManager packageManager = this.f63009a.getPackageManager();
         if (packageManager == null) {
             list = bngx.m109376e();

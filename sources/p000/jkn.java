@@ -36,7 +36,7 @@ public final class jkn {
             }
             bsnj bsnj = (bsnj) da.f164949b;
             if (!bsnj.f146257a.mo73666a()) {
-                bsnj.f146257a = bxvk.m124019a(bsnj.f146257a);
+                bsnj.f146257a = GeneratedMessageLite.m124019a(bsnj.f146257a);
             }
             for (bsni bsni : a) {
                 bsnj.f146257a.mo74153d(bsni.mo3214a());
@@ -57,7 +57,7 @@ public final class jkn {
             }
             bsnj bsnj2 = (bsnj) da.f164949b;
             if (!bsnj2.f146258b.mo73666a()) {
-                bsnj2.f146258b = bxvk.m124019a(bsnj2.f146258b);
+                bsnj2.f146258b = GeneratedMessageLite.m124019a(bsnj2.f146258b);
             }
             int size2 = arrayList.size();
             for (int i3 = 0; i3 < size2; i3++) {
@@ -71,7 +71,7 @@ public final class jkn {
                 da2.f164950c = false;
             }
             ((bsnn) da2.f164949b).f146306a = bsnm.mo3214a();
-            bxtx aL = bsnj3.mo73639aL();
+            ByteString aL = bsnj3.mo73639aL();
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -94,7 +94,7 @@ public final class jkn {
             } else {
                 str = "ForceRegistration";
             }
-            return ios.mo13178a(i, a3, str, account, bsnn.mo73642k());
+            return ios.mo13178a(i, a3, str, account, bsnn.serializeToBytes());
         }
         throw new jkm("Should not enroll if v2 enrollment from proximity is disabled");
     }

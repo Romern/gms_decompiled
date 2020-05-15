@@ -84,7 +84,7 @@ public final class anag extends anai {
             btdp btdp2 = (btdp) da.f164949b;
             btdo.getClass();
             if (!btdp2.f148429d.mo73666a()) {
-                btdp2.f148429d = bxvk.m124019a(btdp2.f148429d);
+                btdp2.f148429d = GeneratedMessageLite.m124019a(btdp2.f148429d);
             }
             btdp2.f148429d.mo74153d(btdo.mo3214a());
         }

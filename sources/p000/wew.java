@@ -18,7 +18,7 @@ final class wew extends wfr {
     public final void mo29069a(Status status, GetActivityControlsSettingsResult getActivityControlsSettingsResult) {
         if (status.mo17710c()) {
             try {
-                rpc.m34202a(status, (bxpe) bxvk.m124014a(bxpe.f164247d, getActivityControlsSettingsResult.f31272a), this.f50599a);
+                rpc.m34202a(status, (bxpe) GeneratedMessageLite.m124014a(bxpe.f164247d, getActivityControlsSettingsResult.f31272a), this.f50599a);
             } catch (bxwf e) {
                 this.f50599a.mo50390a((Exception) e);
             }

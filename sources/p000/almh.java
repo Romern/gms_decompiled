@@ -277,7 +277,7 @@ public final class almh {
                     }
                     amlq amlq2 = (amlq) da.f164949b;
                     if (!amlq2.f75208d.mo73666a()) {
-                        amlq2.f75208d = bxvk.m124021a(amlq2.f75208d);
+                        amlq2.f75208d = GeneratedMessageLite.m124021a(amlq2.f75208d);
                     }
                     bxsy.m123078a(asList, amlq2.f75208d);
                 }
@@ -487,7 +487,7 @@ public final class almh {
                 }
                 amlt amlt = (amlt) da6.f164949b;
                 if (!amlt.f75219a.mo73666a()) {
-                    amlt.f75219a = bxvk.m124019a(amlt.f75219a);
+                    amlt.f75219a = GeneratedMessageLite.m124019a(amlt.f75219a);
                 }
                 int size = arrayList.size();
                 while (i3 < size) {

@@ -30,7 +30,7 @@ final /* synthetic */ class bfpb implements aubw {
             bpmc.f138219g = 8;
             bpmc.f138213a |= 16;
             if (!bpmc.f138224l.mo73666a()) {
-                bpmc.f138224l = bxvk.m124021a(bpmc.f138224l);
+                bpmc.f138224l = GeneratedMessageLite.m124021a(bpmc.f138224l);
             }
             bxsy.m123078a(list, bpmc.f138224l);
             bfpc.mo62082a((bpmc) da.mo74062i());

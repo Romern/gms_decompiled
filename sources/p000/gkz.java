@@ -17,7 +17,7 @@ import java.util.Set;
 public final class gkz {
 
     /* renamed from: d */
-    private static final sek f18446d = ght.m13171a("Change", "AccountsChange");
+    private static final Logger f18446d = ght.m13171a("Change", "AccountsChange");
 
     /* renamed from: e */
     private static final String[] f18447e = {"com.google", "com.google.work", "cn.google"};
@@ -64,7 +64,7 @@ public final class gkz {
                     throw th;
                 }
             }
-            imb imb = (imb) bxvk.m124016a(imb.f21338b, a, bxus.m123744c());
+            imb imb = (imb) GeneratedMessageLite.m124016a(imb.f21338b, a, bxus.m123744c());
             map = new C1223np(imb.f21340a.size());
             for (ima ima : imb.f21340a) {
                 ilz ilz = ima.f21335b;
@@ -84,7 +84,7 @@ public final class gkz {
             map = Collections.emptyMap();
             gkv.mo12000a(map);
         }
-        sdo.m34966a(strArr, "accountTypes null");
+        sdo.checkIfNull(strArr, "accountTypes null");
         int length = strArr.length;
         if (length > 0) {
             z = true;

@@ -56,7 +56,7 @@ public final class yfu {
     /* renamed from: e */
     public final byte[] mo30438e() {
         bmxy.m108588a((this.f53736a.f172381a & 8) != 0);
-        return this.f53736a.f172388h.mo73780k();
+        return this.f53736a.f172388h.getKey();
     }
 
     public final boolean equals(Object obj) {

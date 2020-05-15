@@ -299,7 +299,7 @@ public final class axze extends srp {
                                             try {
                                                 byte[] a2 = srz.m36174a(file2);
                                                 file2.delete();
-                                                for (ayec ayec : ((ayeb) bxvk.m124014a(ayeb.f97275b, a2)).f97277a) {
+                                                for (ayec ayec : ((ayeb) GeneratedMessageLite.m124014a(ayeb.f97275b, a2)).f97277a) {
                                                     hashSet8.add(Pair.create(axue.m83239a(ayec.f97282b, ayec.f97283c), substring2));
                                                     hashSet7.add(substring2);
                                                 }
@@ -406,7 +406,7 @@ public final class axze extends srp {
                 while (query2.moveToNext()) {
                     hashSet = hashSet12;
                     str10 = str26;
-                    ayez ayez = (ayez) bxvk.m124014a(ayez.f97415i, query2.getBlob(columnIndex));
+                    ayez ayez = (ayez) GeneratedMessageLite.m124014a(ayez.f97415i, query2.getBlob(columnIndex));
                     Uri parse = Uri.parse(ayez.f97419c);
                     long longValue = ((Long) hashMap13.get(axue.m83239a(ayez.f97417a, ayez.f97418b))).longValue();
                     Iterator it2 = ayez.f97424h.iterator();
@@ -434,7 +434,7 @@ public final class axze extends srp {
                     String str28 = str14;
                     contentValues3.put(str28, parse.getPath());
                     int i12 = columnIndex;
-                    contentValues3.put("data", ayez.f97420d.mo73780k());
+                    contentValues3.put("data", ayez.f97420d.getKey());
                     hashSet12 = hashSet;
                     String str29 = str17;
                     contentValues3.put(str29, Long.valueOf(ayez.f97421e));

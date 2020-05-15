@@ -122,7 +122,7 @@ public abstract class bxuc {
     public abstract String mo73802k();
 
     /* renamed from: l */
-    public abstract bxtx mo73803l();
+    public abstract ByteString mo73803l();
 
     /* renamed from: m */
     public abstract byte[] mo73804m();

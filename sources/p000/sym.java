@@ -19,7 +19,7 @@ import java.util.UUID;
 public final class sym extends aaab {
 
     /* renamed from: a */
-    public static final sek f45439a = tea.m36798a("api_verify_phone_operation");
+    public static final Logger f45439a = tea.m36798a("api_verify_phone_operation");
 
     /* renamed from: b */
     public static final EnumMap f45440b;

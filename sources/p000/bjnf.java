@@ -64,7 +64,7 @@ final class bjnf extends bjhs {
         bwrx.f160819c = i;
         ArrayList arrayList = this.f123001e;
         if (!bwrx.f160818b.mo73666a()) {
-            bwrx.f160818b = bxvk.m124021a(bwrx.f160818b);
+            bwrx.f160818b = GeneratedMessageLite.m124021a(bwrx.f160818b);
         }
         bxsy.m123078a(arrayList, bwrx.f160818b);
         return (bwrx) da.mo74062i();

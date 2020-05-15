@@ -9,7 +9,7 @@ import android.os.Looper;
 public class xub {
 
     /* renamed from: m */
-    public static final sek f53108m = new sek(new String[]{"CtapBleClientConnection"}, (short[]) null);
+    public static final Logger f53108m = new Logger(new String[]{"CtapBleClientConnection"}, (short[]) null);
 
     /* renamed from: a */
     private final xtz f53109a = new xtz(this);

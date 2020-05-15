@@ -219,7 +219,7 @@ public final class ajvh {
                 bvfe bvfe = (bvfe) da.f164949b;
                 bvgc2.getClass();
                 if (!bvfe.f155853a.mo73666a()) {
-                    bvfe.f155853a = bxvk.m124021a(bvfe.f155853a);
+                    bvfe.f155853a = GeneratedMessageLite.m124021a(bvfe.f155853a);
                 }
                 bvfe.f155853a.add(bvgc2);
             } else if (attachment.mo44385c()) {
@@ -270,7 +270,7 @@ public final class ajvh {
                 bvfe bvfe2 = (bvfe) da.f164949b;
                 bvfk2.getClass();
                 if (!bvfe2.f155854b.mo73666a()) {
-                    bvfe2.f155854b = bxvk.m124021a(bvfe2.f155854b);
+                    bvfe2.f155854b = GeneratedMessageLite.m124021a(bvfe2.f155854b);
                 }
                 bvfe2.f155854b.add(bvfk2);
             } else {

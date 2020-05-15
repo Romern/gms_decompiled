@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caeh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caeh extends bxvk implements bxxd {
+public final class caeh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final caeh f172821b;
@@ -19,7 +19,7 @@ public final class caeh extends bxvk implements bxxd {
     static {
         caeh caeh = new caeh();
         f172821b = caeh;
-        bxvk.m124024a(caeh.class, caeh);
+        GeneratedMessageLite.m124024a(caeh.class, caeh);
     }
 
     private caeh() {
@@ -36,7 +36,7 @@ public final class caeh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172821b, "\u0001\u0001\u0000\u0001\u0003\u0003\u0001\u0000\u0000\u0000\u0003ဉ\u0002", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f172821b, "\u0001\u0001\u0000\u0001\u0003\u0003\u0001\u0000\u0000\u0000\u0003ဉ\u0002", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new caeh();
         } else {

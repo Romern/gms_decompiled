@@ -66,13 +66,13 @@ public class MobileDataPlanModuleInitIntentOperation extends qlf {
             for (String str2 : agpk.m54726a().mo35840b()) {
                 if (!TextUtils.isEmpty(str2) && (d = agpk.m54726a().mo35844d(str2)) != null) {
                     bxvd bxvd = (bxvd) d.mo74142c(5);
-                    bxvd.mo73625a((bxvk) d);
+                    bxvd.mo73625a((GeneratedMessageLite) d);
                     btar btar = (btar) bxvd;
                     for (int i3 = 0; i3 < ((btas) btar.f164949b).f148046a.size(); i3++) {
                         btaq a = btar.mo70732a(i3);
                         if (a != null) {
                             bxvd bxvd2 = (bxvd) a.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) a);
+                            bxvd2.mo73625a((GeneratedMessageLite) a);
                             if (bxvd2.f164950c) {
                                 bxvd2.mo74035c();
                                 bxvd2.f164950c = false;
@@ -144,7 +144,7 @@ public class MobileDataPlanModuleInitIntentOperation extends qlf {
         booa booa2 = booa.f133882e;
         if (cfmq.m140236g()) {
             bxvd bxvd3 = (bxvd) booa2.mo74142c(5);
-            bxvd3.mo73625a((bxvk) booa2);
+            bxvd3.mo73625a((GeneratedMessageLite) booa2);
             if ((i & 4) != 0) {
                 z = true;
             } else {

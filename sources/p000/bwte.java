@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwte */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwte extends bxvk implements bxxd {
+public final class bwte extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bwte f160944b;
@@ -22,10 +22,10 @@ public final class bwte extends bxvk implements bxxd {
     static {
         bwte bwte = new bwte();
         f160944b = bwte;
-        bxvk.m124024a(bwte.class, bwte);
+        GeneratedMessageLite.m124024a(bwte.class, bwte);
         bwny bwny = bwny.f160414k;
         bwte bwte2 = f160944b;
-        f160945c = bxvk.m124006a(bwny, bwte2, bwte2, 217440216, bxzf.MESSAGE);
+        f160945c = GeneratedMessageLite.m124006a(bwny, bwte2, bwte2, 217440216, bxzf.MESSAGE);
     }
 
     private bwte() {
@@ -42,7 +42,7 @@ public final class bwte extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f160944b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"d", "a"});
+            return GeneratedMessageLite.m124022a(f160944b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"d", "a"});
         } else if (i2 == 3) {
             return new bwte();
         } else {

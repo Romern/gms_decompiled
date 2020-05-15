@@ -213,7 +213,7 @@ public final class asfc extends asen {
                             try {
                                 calx a = mo49099a(context, new GZIPInputStream(new FileInputStream(fileStreamPath3)), j4, j5, qxq);
                                 bxvd bxvd = (bxvd) a.mo74142c(5);
-                                bxvd.mo73625a((bxvk) a);
+                                bxvd.mo73625a((GeneratedMessageLite) a);
                                 calu = (calu) bxvd;
                                 bxvd da = calt.f175176c.mo74144da();
                                 if (da.f164950c) {

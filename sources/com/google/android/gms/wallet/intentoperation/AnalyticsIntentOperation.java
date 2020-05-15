@@ -37,7 +37,7 @@ public class AnalyticsIntentOperation extends IntentOperation {
         }
         bpil bpil = (bpil) da.f164949b;
         if (!bpil.f137779a.mo73666a()) {
-            bpil.f137779a = bxvk.m124021a(bpil.f137779a);
+            bpil.f137779a = GeneratedMessageLite.m124021a(bpil.f137779a);
         }
         bxsy.m123078a(a, bpil.f137779a);
         awqc.m80662a(context, walletAnalyticsEvent);
@@ -179,7 +179,7 @@ public class AnalyticsIntentOperation extends IntentOperation {
                         } else if (TextUtils.isEmpty(awqu.f94876k.f137854h)) {
                             bpje bpje = awqu.f94876k;
                             bxvd bxvd = (bxvd) bpje.mo74142c(5);
-                            bxvd.mo73625a((bxvk) bpje);
+                            bxvd.mo73625a((GeneratedMessageLite) bpje);
                             sdo.m34969a(str2, (Object) "transactionKey must not be null");
                             String string2 = awqe2.f94843a.getString(str2, null);
                             if (string2 == null) {

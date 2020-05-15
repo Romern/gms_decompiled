@@ -131,7 +131,7 @@ public final class axar extends awcc implements View.OnClickListener, bjwm, bkea
             } else {
                 bmmp2 = bmmp.f130032e;
             }
-            intent.putExtra("dependencyGraphActionToken", bmmp2.f130037d.mo73780k());
+            intent.putExtra("dependencyGraphActionToken", bmmp2.f130037d.getKey());
             this.f94160a.setResult(-1, intent);
             this.f94160a.finish();
         }

@@ -31,12 +31,12 @@ public final class ybt extends sji {
         }
         xxb a = xxb.m43593a(xws);
         StateUpdate stateUpdate = this.f53572d;
-        sek sek = xxb.f53322c;
+        Logger Logger = xxb.f53322c;
         String valueOf = String.valueOf(stateUpdate.f31875e);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 32);
         sb.append("updateTransaction is called for ");
         sb.append(valueOf);
-        sek.mo25414c(sb.toString(), new Object[0]);
+        Logger.mo25414c(sb.toString(), new Object[0]);
         if (a.f53325b) {
             a.f53324a.mo29750a(stateUpdate);
             if (stateUpdate.equals(StateUpdate.f31874d)) {

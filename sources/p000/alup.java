@@ -20,7 +20,7 @@ final class alup implements alua {
         this.f74320b = str;
         int size = list.size();
         for (int i = 0; i < size; i++) {
-            this.f74319a.add(bxtx.m123258a(String.valueOf((String) list.get(i)).concat("\n")));
+            this.f74319a.add(ByteString.m123258a(String.valueOf((String) list.get(i)).concat("\n")));
         }
     }
 
@@ -30,7 +30,7 @@ final class alup implements alua {
         int size = list.size();
         int i = 0;
         for (int i2 = 0; i2 < size; i2++) {
-            i += ((bxtx) list.get(i2)).mo73744a();
+            i += ((ByteString) list.get(i2)).mo73744a();
         }
         return i;
     }
@@ -48,7 +48,7 @@ final class alup implements alua {
         int i2 = 0;
         int i3 = 0;
         while (i2 < size) {
-            bxtx bxtx = (bxtx) list.get(i2);
+            ByteString bxtx = (ByteString) list.get(i2);
             if (i != Integer.MAX_VALUE && i < bxtx.mo73744a() + i3) {
                 break;
             }

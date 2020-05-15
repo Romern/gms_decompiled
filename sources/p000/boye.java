@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boye */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boye extends bxvk implements bxxd {
+public final class boye extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final boye f135302m;
@@ -49,7 +49,7 @@ public final class boye extends bxvk implements bxxd {
     static {
         boye boye = new boye();
         f135302m = boye;
-        bxvk.m124024a(boye.class, boye);
+        GeneratedMessageLite.m124024a(boye.class, boye);
     }
 
     private boye() {
@@ -66,7 +66,7 @@ public final class boye extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135302m, "\u0001\u000b\u0000\u0001\u0001\u000b\u000b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0004ဌ\u0003\u0005ဈ\u0004\u0006ဌ\u0005\u0007ဌ\u0006\bဌ\u0007\tဌ\b\nဌ\t\u000bဌ\n", new Object[]{"a", "b", boyc.f135300a, "c", boya.f135298a, "d", boxw.f135294a, "e", boxv.f135293a, "f", "g", boxx.f135295a, "h", boxy.f135296a, "i", boxz.f135297a, "j", boyb.f135299a, "k", boxu.f135292a, "l", boyd.f135301a});
+            return GeneratedMessageLite.m124022a(f135302m, "\u0001\u000b\u0000\u0001\u0001\u000b\u000b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0004ဌ\u0003\u0005ဈ\u0004\u0006ဌ\u0005\u0007ဌ\u0006\bဌ\u0007\tဌ\b\nဌ\t\u000bဌ\n", new Object[]{"a", "b", boyc.f135300a, "c", boya.f135298a, "d", boxw.f135294a, "e", boxv.f135293a, "f", "g", boxx.f135295a, "h", boxy.f135296a, "i", boxz.f135297a, "j", boyb.f135299a, "k", boxu.f135292a, "l", boyd.f135301a});
         } else if (i2 == 3) {
             return new boye();
         } else {

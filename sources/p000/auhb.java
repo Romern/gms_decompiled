@@ -24,7 +24,7 @@ public final class auhb extends aaab {
     /* renamed from: a */
     public final void mo6502a(Context context) {
         try {
-            auez auez = (auez) bxvk.m124016a(auez.f91620d, this.f91804b, bxus.m123743b());
+            auez auez = (auez) GeneratedMessageLite.m124016a(auez.f91620d, this.f91804b, bxus.m123743b());
             bqga.m112781a(auhp.m77075a(context).mo60777a(new augz(auez), snp.m35704b(10)), new auha(this), bqfb.INSTANCE);
         } catch (bxwf e) {
             throw new aaaj(39000, null, null, e);

@@ -38,7 +38,7 @@ public final /* synthetic */ class yrp implements Callable {
         }
         cabz cabz = (cabz) da2.f164949b;
         if (!cabz.f172498a.mo73666a()) {
-            cabz.f172498a = bxvk.m124021a(cabz.f172498a);
+            cabz.f172498a = GeneratedMessageLite.m124021a(cabz.f172498a);
         }
         bxsy.m123078a(iterable, cabz.f172498a);
         if (da.f164950c) {

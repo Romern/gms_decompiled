@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bovz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bovz extends bxvk implements bxxd {
+public final class bovz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bovz f135078d;
@@ -22,7 +22,7 @@ public final class bovz extends bxvk implements bxxd {
     static {
         bovz bovz = new bovz();
         f135078d = bovz;
-        bxvk.m124024a(bovz.class, bovz);
+        GeneratedMessageLite.m124024a(bovz.class, bovz);
     }
 
     private bovz() {
@@ -39,7 +39,7 @@ public final class bovz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135078d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bovx.f135076a, "c", bovy.f135077a});
+            return GeneratedMessageLite.m124022a(f135078d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bovx.f135076a, "c", bovy.f135077a});
         } else if (i2 == 3) {
             return new bovz();
         } else {

@@ -15,7 +15,7 @@ final /* synthetic */ class xfs implements bmxz {
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
         ProtocolVersion protocolVersion = this.f52142a;
-        bxtx bxtx = xft.f52144d;
+        ByteString bxtx = xft.f52144d;
         return ((xfq) obj).f52134a.equals(protocolVersion);
     }
 }

@@ -351,9 +351,9 @@ public final class azdl {
 
     /* renamed from: c */
     public final void mo54756c(cblx cblx) {
-        if (cblx != null && !cblx.f177577a.equals(bxtx.f164797b)) {
+        if (cblx != null && !cblx.f177577a.equals(ByteString.f164797b)) {
             SharedPreferences.Editor edit = this.f99088a.edit();
-            edit.putString("user_register_response_auth_token", Base64.encodeToString(cblx.f177577a.mo73780k(), 2));
+            edit.putString("user_register_response_auth_token", Base64.encodeToString(cblx.f177577a.getKey(), 2));
             edit.apply();
             return;
         }
@@ -453,9 +453,9 @@ public final class azdl {
 
     /* renamed from: b */
     public final void mo54751b(cblx cblx) {
-        if (cblx != null && !cblx.f177577a.equals(bxtx.f164797b)) {
+        if (cblx != null && !cblx.f177577a.equals(ByteString.f164797b)) {
             SharedPreferences.Editor edit = this.f99088a.edit();
-            edit.putString("anonymous_registration_auth_token", Base64.encodeToString(cblx.f177577a.mo73780k(), 2));
+            edit.putString("anonymous_registration_auth_token", Base64.encodeToString(cblx.f177577a.getKey(), 2));
             edit.putLong("anonymous_registration_auth_expiration_timestamp_ms", System.currentTimeMillis() + TimeUnit.MICROSECONDS.toMillis(cblx.f177578b));
             edit.apply();
             return;
@@ -527,9 +527,9 @@ public final class azdl {
     @Deprecated
     /* renamed from: a */
     public final void mo54741a(cblx cblx) {
-        if (cblx != null && !cblx.f177577a.equals(bxtx.f164797b)) {
+        if (cblx != null && !cblx.f177577a.equals(ByteString.f164797b)) {
             SharedPreferences.Editor edit = this.f99088a.edit();
-            edit.putString("tachyon_auth_token", Base64.encodeToString(cblx.f177577a.mo73780k(), 2));
+            edit.putString("tachyon_auth_token", Base64.encodeToString(cblx.f177577a.getKey(), 2));
             edit.putLong("tachyon_auth_expiration_timestamp_ms", System.currentTimeMillis() + TimeUnit.MICROSECONDS.toMillis(cblx.f177578b));
             edit.apply();
             return;

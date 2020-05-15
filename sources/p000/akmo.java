@@ -18,7 +18,7 @@ final /* synthetic */ class akmo implements bmxj {
         }
         cafg a = akmp.m60021a(cafg);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         caff caff = (caff) bxvd;
         caff.mo74637a(0, cafg.f172901e.mo74151b(0));
         int i = size - 1;

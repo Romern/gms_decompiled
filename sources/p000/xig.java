@@ -14,7 +14,7 @@ import java.util.UUID;
 public final class xig {
 
     /* renamed from: h */
-    public static final sek f52339h = new sek(new String[]{"BleConnectionManager"}, (short[]) null);
+    public static final Logger f52339h = new Logger(new String[]{"BleConnectionManager"}, (short[]) null);
 
     /* renamed from: a */
     public final BluetoothDevice f52340a;

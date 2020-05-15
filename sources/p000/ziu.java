@@ -39,7 +39,7 @@ public final class ziu implements yqf {
         String string = this.f55162b.getString("last-step-count", null);
         if (string != null) {
             try {
-                cadn = (cadn) bxvk.m124016a(cadn.f172699j, Base64.decode(string, 0), bxus.m123744c());
+                cadn = (cadn) GeneratedMessageLite.m124016a(cadn.f172699j, Base64.decode(string, 0), bxus.m123744c());
             } catch (bxwf e) {
             }
         }
@@ -58,7 +58,7 @@ public final class ziu implements yqf {
                 return null;
             }
         } while (!this.f55163c.compareAndSet(cadn2, cadn));
-        this.f55162b.edit().putString("last-step-count", Base64.encodeToString(cadn.mo73642k(), 0)).apply();
+        this.f55162b.edit().putString("last-step-count", Base64.encodeToString(cadn.serializeToBytes(), 0)).apply();
         return cadn2;
     }
 

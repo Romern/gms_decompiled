@@ -50,7 +50,7 @@ public class NativeIndex {
     /* renamed from: b */
     private static final abuh m66682b(byte[] bArr) {
         try {
-            return (abuh) bxvk.m124016a(abuh.f58387q, bArr, bxus.m123744c());
+            return (abuh) GeneratedMessageLite.m124016a(abuh.f58387q, bArr, bxus.m123744c());
         } catch (bxwf e) {
             absg.m48189a(e, "Failed parsing query response");
             return null;
@@ -151,7 +151,7 @@ public class NativeIndex {
     /* renamed from: d */
     public final boml mo43408d() {
         try {
-            return (boml) bxvk.m124016a(boml.f133668d, nativeGetCompactStatus(this.f79071b), bxus.m123744c());
+            return (boml) GeneratedMessageLite.m124016a(boml.f133668d, nativeGetCompactStatus(this.f79071b), bxus.m123744c());
         } catch (bxwf e) {
             absg.m48189a(e, "Failed parsing compact status");
             return null;
@@ -185,7 +185,7 @@ public class NativeIndex {
             return null;
         }
         try {
-            return (abuw) bxvk.m124016a(abuw.f58491b, nativeGetUsageStats, bxus.m123744c());
+            return (abuw) GeneratedMessageLite.m124016a(abuw.f58491b, nativeGetUsageStats, bxus.m123744c());
         } catch (bxwf e) {
             absg.m48189a(e, "Failed parsing usage stats");
             return null;
@@ -219,7 +219,7 @@ public class NativeIndex {
     /* renamed from: b */
     public final bpxk mo43405b(long j, byte[] bArr, aclb aclb, absr absr, abtj abtj) {
         try {
-            return (bpxk) bxvk.m124016a(bpxk.f139724d, nativePatch(this.f79071b, j, bArr, aclb.mo73642k(), absr.mo73642k(), abtj.mo73642k()), bxus.m123744c());
+            return (bpxk) GeneratedMessageLite.m124016a(bpxk.f139724d, nativePatch(this.f79071b, j, bArr, aclb.mo73642k(), absr.mo73642k(), abtj.mo73642k()), bxus.m123744c());
         } catch (bxwf e) {
             absg.m48189a(e, "Failed to parse native index document stats.");
             return null;
@@ -281,7 +281,7 @@ public class NativeIndex {
     /* renamed from: a */
     public final abta mo43392a(byte[] bArr) {
         try {
-            return (abta) bxvk.m124016a(abta.f58189d, bArr, bxus.m123744c());
+            return (abta) GeneratedMessageLite.m124016a(abta.f58189d, bArr, bxus.m123744c());
         } catch (bxwf e) {
             absg.m48189a(e, "Failed parsing document store status");
             return null;
@@ -295,7 +295,7 @@ public class NativeIndex {
             return null;
         }
         try {
-            return (abtk) bxvk.m124016a(abtk.f58246d, nativeInit, bxus.m123744c());
+            return (abtk) GeneratedMessageLite.m124016a(abtk.f58246d, nativeInit, bxus.m123744c());
         } catch (bxwf e) {
             absg.m48189a(e, "Failed parsing init status");
             return null;
@@ -331,7 +331,7 @@ public class NativeIndex {
             iArr3[i2] = sparseIntArray2.valueAt(i2);
         }
         try {
-            return (bomn) bxvk.m124016a(bomn.f133673d, nativeCompact(this.f79071b, d, i, abtj.mo73642k(), jArr, iArr, iArr2, iArr3), bxus.m123744c());
+            return (bomn) GeneratedMessageLite.m124016a(bomn.f133673d, nativeCompact(this.f79071b, d, i, abtj.mo73642k(), jArr, iArr, iArr2, iArr3), bxus.m123744c());
         } catch (bxwf e) {
             absg.m48189a(e, "Failed parsing compaction stats");
             bxvd da = bomn.f133673d.mo74144da();
@@ -347,7 +347,7 @@ public class NativeIndex {
     /* renamed from: a */
     public final bpxk mo43397a(long j, abqe abqe, abtj abtj) {
         try {
-            return (bpxk) bxvk.m124016a(bpxk.f139724d, nativeIndexDocument(this.f79071b, j, abqe.mo73642k(), abtj.mo73642k()), bxus.m123744c());
+            return (bpxk) GeneratedMessageLite.m124016a(bpxk.f139724d, nativeIndexDocument(this.f79071b, j, abqe.mo73642k(), abtj.mo73642k()), bxus.m123744c());
         } catch (bxwf e) {
             absg.m48189a(e, "Failed to parse native index document stats.");
             return null;
@@ -357,7 +357,7 @@ public class NativeIndex {
     /* renamed from: a */
     public final bpxk mo43398a(long j, byte[] bArr, aclb aclb, absr absr, abtj abtj) {
         try {
-            return (bpxk) bxvk.m124016a(bpxk.f139724d, nativeIndexThing(this.f79071b, j, bArr, aclb.mo73642k(), absr.mo73642k(), abtj.mo73642k()), bxus.m123744c());
+            return (bpxk) GeneratedMessageLite.m124016a(bpxk.f139724d, nativeIndexThing(this.f79071b, j, bArr, aclb.mo73642k(), absr.mo73642k(), abtj.mo73642k()), bxus.m123744c());
         } catch (bxwf e) {
             absg.m48189a(e, "Failed to parse native index document stats.");
             return null;

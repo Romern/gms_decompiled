@@ -46,7 +46,7 @@ public final class xsx implements bqfp {
             return;
         }
         xsz xsz2 = this.f53009a.f31848a;
-        sek sek = xsz.f53015k;
+        Logger Logger = xsz.f53015k;
         if (!xsz2.f53021f.compareAndSet(xsy.SCANNING, xsy.SCAN_COMPLETED)) {
             xsz.f53015k.mo25414c("Ignore the current session since another session is running.", new Object[0]);
             xsz xsz3 = this.f53009a.f31848a;
@@ -141,9 +141,9 @@ public final class xsx implements bqfp {
     public final void mo6481a(Throwable th) {
         if (th instanceof iot) {
             iot iot = (iot) th;
-            sek sek = xsz.f53015k;
+            Logger Logger = xsz.f53015k;
             String valueOf = String.valueOf(iov.m15809b(iot.mo24655a()));
-            sek.mo25417e(valueOf.length() == 0 ? new String("Error using v2 credentials: ") : "Error using v2 credentials: ".concat(valueOf), iot, new Object[0]);
+            Logger.mo25417e(valueOf.length() == 0 ? new String("Error using v2 credentials: ") : "Error using v2 credentials: ".concat(valueOf), iot, new Object[0]);
             return;
         }
         xsz.f53015k.mo25417e("Error when creating CableAuthenticationData", th, new Object[0]);

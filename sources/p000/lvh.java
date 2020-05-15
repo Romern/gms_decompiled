@@ -87,7 +87,7 @@ public final /* synthetic */ class lvh implements Runnable {
             clientContext.mo17806d(i);
             clientContext.mo17798a("social_client_app_id", "80");
             if (lvm.f33050a.mo19637a(2)) {
-                lvm.f33050a.mo25409a("getPersonPhotoEncoded request = %s clientContext = %s", btde, clientContext);
+                lvm.f33050a.logVerbose("getPersonPhotoEncoded request = %s clientContext = %s", btde, clientContext);
             }
             lvl lvl = lvm.f33051b;
             if (lvl.f33048b == null) {
@@ -103,9 +103,9 @@ public final /* synthetic */ class lvh implements Runnable {
                 }
                 objArr[0] = a;
                 objArr[1] = Integer.valueOf(btdd.f148383b.mo73744a());
-                lvn.mo25409a("Got photo with format=%s size=%d", objArr);
+                lvn.logVerbose("Got photo with format=%s size=%d", objArr);
             }
-            bArr = btdd.f148383b.mo73780k();
+            bArr = btdd.f148383b.getKey();
         } catch (chuw e) {
             if (e.f189236a.f189233s.equals(chus.NOT_FOUND)) {
                 lvm.f33050a.mo25414c("Profile image was not found for account %s", account.name);

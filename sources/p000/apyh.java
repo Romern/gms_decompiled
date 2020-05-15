@@ -165,7 +165,7 @@ public final class apyh extends aaab {
             } else {
                 Status status3 = Status.f30107a;
                 bxvd da = apya.f85097k.mo74144da();
-                bxtx a3 = bxtx.m123261a(this.f85136c);
+                ByteString a3 = ByteString.m123261a(this.f85136c);
                 boolean z = false;
                 if (da.f164950c) {
                     da.mo74035c();
@@ -195,7 +195,7 @@ public final class apyh extends aaab {
                 if (a4 != null) {
                     byte[] bArr = a4.f84912a;
                     if (bArr != null) {
-                        bxtx a5 = bxtx.m123261a(bArr);
+                        ByteString a5 = ByteString.m123261a(bArr);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -210,7 +210,7 @@ public final class apyh extends aaab {
                         int length = bArr2.length;
                         int i3 = 0;
                         while (i3 < length) {
-                            bxtx a6 = bxtx.m123261a(a4.f84913b[i3]);
+                            ByteString a6 = ByteString.m123261a(a4.f84913b[i3]);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = z;
@@ -218,7 +218,7 @@ public final class apyh extends aaab {
                             apya apya5 = (apya) da.f164949b;
                             a6.getClass();
                             if (!apya5.f85102d.mo73666a()) {
-                                apya5.f85102d = bxvk.m124021a(apya5.f85102d);
+                                apya5.f85102d = GeneratedMessageLite.m124021a(apya5.f85102d);
                             }
                             apya5.f85102d.add(a6);
                             i3++;
@@ -688,7 +688,7 @@ public final class apyh extends aaab {
                             }
                             byte[] bArr3 = apyz3.f85207c;
                             if (bArr3 != null) {
-                                bxtx a10 = bxtx.m123261a(bArr3);
+                                ByteString a10 = ByteString.m123261a(bArr3);
                                 if (da4.f164950c) {
                                     da4.mo74035c();
                                     da4.f164950c = false;
@@ -706,7 +706,7 @@ public final class apyh extends aaab {
                             apyf apyf3 = (apyf) da4.mo74062i();
                             apyf3.getClass();
                             if (!apya9.f85105g.mo73666a()) {
-                                apya9.f85105g = bxvk.m124021a(apya9.f85105g);
+                                apya9.f85105g = GeneratedMessageLite.m124021a(apya9.f85105g);
                             }
                             apya9.f85105g.add(apyf3);
                         }
@@ -723,7 +723,7 @@ public final class apyh extends aaab {
                 }
                 bxvd da322222 = apyb.f85109d.mo74144da();
                 if (apya != null) {
-                    bxtx aL = apya.mo73639aL();
+                    ByteString aL = apya.mo73639aL();
                     if (da322222.f164950c) {
                         da322222.mo74035c();
                         da322222.f164950c = false;
@@ -736,7 +736,7 @@ public final class apyh extends aaab {
                 apyg apyg222222 = new apyg();
                 apyg222222.f85131a = 0;
                 apyb = (apyb) da322222.f164949b;
-                if ((apyb.f85111a & 1) != 0 || (a = apuh.m71024a(apyb.f85112b.mo73780k())) == null) {
+                if ((apyb.f85111a & 1) != 0 || (a = apuh.m71024a(apyb.f85112b.getKey())) == null) {
                     status2 = Status.f30109c;
                     attestationData = null;
                 } else {
@@ -810,7 +810,7 @@ public final class apyh extends aaab {
                                                         byteArrayOutputStream.write(bArr4, 0, read);
                                                     }
                                                 }
-                                                apyc = (apyc) bxvk.m124016a(apyc.f85114c, byteArrayOutputStream.toByteArray(), bxus.m123744c());
+                                                apyc = (apyc) GeneratedMessageLite.m124016a(apyc.f85114c, byteArrayOutputStream.toByteArray(), bxus.m123744c());
                                                 if (inputStream != null) {
                                                     try {
                                                         inputStream.close();

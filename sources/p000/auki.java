@@ -21,13 +21,13 @@ final class auki {
         byte[] bArr;
         cixp j = cgzf.f188102a.mo6606a().mo84801j();
         if (j != null) {
-            bArr = j.mo73642k();
+            bArr = j.serializeToBytes();
         } else {
             bArr = null;
         }
         if (bArr != null) {
             try {
-                cixp cixp = (cixp) bxvk.m124016a(cixp.f191704b, bArr, bxus.m123744c());
+                cixp cixp = (cixp) GeneratedMessageLite.m124016a(cixp.f191704b, bArr, bxus.m123744c());
                 SparseArray sparseArray = this.f91977a;
                 if (sparseArray == null) {
                     this.f91977a = new SparseArray(64);

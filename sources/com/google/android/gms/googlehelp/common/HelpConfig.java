@@ -812,12 +812,12 @@ public class HelpConfig extends AbstractSafeParcelable implements ReflectedParce
         bzra bzra = null;
         if (bundle5 != null && bundle5.containsKey("EXTRA_ESCALATION_OPTIONS")) {
             try {
-                bzqp = (bzqp) bxvk.m124016a(bzqp.f171047j, bundle5.getByteArray("EXTRA_ESCALATION_OPTIONS"), bxus.m123744c());
+                bzqp = (bzqp) GeneratedMessageLite.m124016a(bzqp.f171047j, bundle5.getByteArray("EXTRA_ESCALATION_OPTIONS"), bxus.m123744c());
             } catch (bxwf e) {
             }
             this.f78835j = bzqp;
             if (bundle6 != null && bundle6.containsKey("EXTRA_REALTIME_SUPPORT_STATUS")) {
-                bzra = (bzra) bxvk.m124016a(bzra.f171097c, bundle6.getByteArray("EXTRA_REALTIME_SUPPORT_STATUS"), bxus.m123744c());
+                bzra = (bzra) GeneratedMessageLite.m124016a(bzra.f171097c, bundle6.getByteArray("EXTRA_REALTIME_SUPPORT_STATUS"), bxus.m123744c());
             }
             this.f78836k = bzra;
             this.f78837l = i;
@@ -860,7 +860,7 @@ public class HelpConfig extends AbstractSafeParcelable implements ReflectedParce
         bzqp = null;
         this.f78835j = bzqp;
         try {
-            bzra = (bzra) bxvk.m124016a(bzra.f171097c, bundle6.getByteArray("EXTRA_REALTIME_SUPPORT_STATUS"), bxus.m123744c());
+            bzra = (bzra) GeneratedMessageLite.m124016a(bzra.f171097c, bundle6.getByteArray("EXTRA_REALTIME_SUPPORT_STATUS"), bxus.m123744c());
         } catch (bxwf e2) {
         }
         this.f78836k = bzra;

@@ -5,7 +5,7 @@ package p000;
 final class bcfv {
 
     /* renamed from: a */
-    public bxtx f104090a;
+    public ByteString f104090a;
 
     /* renamed from: b */
     public Integer f104091b;

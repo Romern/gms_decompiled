@@ -11,6 +11,6 @@ final /* synthetic */ class cddz implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (cahl) bxvk.m124014a(cahl.f174556d, bArr);
+        return (cahl) GeneratedMessageLite.m124014a(cahl.f174556d, bArr);
     }
 }

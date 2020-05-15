@@ -69,7 +69,7 @@ final class buwb implements bvbr {
                             buwc3.f155128h = buwc3.f155127g;
                         } else if (i4 == 1) {
                             srn srn2 = bvcm.f155598a;
-                            buwc3.f155128h = new bvcz(buwc3.f155127g, buwc3.f155125e.f155395c.mo73780k());
+                            buwc3.f155128h = new bvcz(buwc3.f155127g, buwc3.f155125e.f155395c.getKey());
                         } else if (i4 == 2) {
                             srn srn3 = bvcm.f155598a;
                             buwc3.f155128h = new bvcy(buwc3.f155127g);
@@ -163,7 +163,7 @@ final class buwb implements bvbr {
                                     buzl4.f155402d = e4;
                                     buzl4.f155399a |= 4;
                                     bxvd da4 = buzq.f155418c.mo74144da();
-                                    bxtx a = bxtx.m123261a(b2);
+                                    ByteString a = ByteString.m123261a(b2);
                                     if (da4.f164950c) {
                                         da4.mo74035c();
                                         da4.f164950c = false;

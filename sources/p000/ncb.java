@@ -66,9 +66,9 @@ public final class ncb {
             int a2 = mcv.m24887a(mct.f33448b);
             if (a2 != 0 && a2 == 2) {
                 try {
-                    this.f35226c.init(2, this.f35225b, new GCMParameterSpec(128, mct.f33450d.mo73780k(), 0, 12));
+                    this.f35226c.init(2, this.f35225b, new GCMParameterSpec(128, mct.f33450d.getKey(), 0, 12));
                     try {
-                        byte[] doFinal = this.f35226c.doFinal(mct.f33450d.mo73780k(), 12, mct.f33450d.mo73744a() - 12);
+                        byte[] doFinal = this.f35226c.doFinal(mct.f33450d.getKey(), 12, mct.f33450d.mo73744a() - 12);
                         bxvd da = mcq.f33439d.mo74144da();
                         da.mo73635b(doFinal, bxus.m123744c());
                         return (mcq) da.mo74062i();
@@ -135,7 +135,7 @@ public final class ncb {
         byte[] bArr = new byte[((int) ((randomAccessFile.length() - 8) - readLong))];
         randomAccessFile.readFully(bArr);
         try {
-            mct mct = (mct) bxvk.m124016a(mct.f33445f, bArr, bxus.m123744c());
+            mct mct = (mct) GeneratedMessageLite.m124016a(mct.f33445f, bArr, bxus.m123744c());
             mcq a2 = m25908a(mct);
             int a3 = mcs.m24884a(mct.f33449c);
             if (a3 == 0 || a3 == 1 || ((a = mcs.m24884a(mct.f33449c)) != 0 && a == 2)) {
@@ -218,7 +218,7 @@ public final class ncb {
                     throw new ncv(sb2.toString());
                 }
             }
-            if (!Arrays.equals(ncf.mo20427a(), a2.f33443c.mo73780k())) {
+            if (!Arrays.equals(ncf.mo20427a(), a2.f33443c.getKey())) {
                 this.f35227d.mo19838b(15, 4);
                 throw new ncs("Checksums did not match");
             }

@@ -9,7 +9,7 @@ import java.util.List;
 public final class jij {
 
     /* renamed from: a */
-    private static final sek f22554a = jsy.m17256a("BeaconSeedConverter");
+    private static final Logger f22554a = jsy.m17256a("BeaconSeedConverter");
 
     /* renamed from: a */
     public static List m16758a(List list) {
@@ -21,7 +21,7 @@ public final class jij {
             try {
                 byte[] c = sqd.m35971c(jrh.mo7822b());
                 bxvd da = jto.f23186d.mo74144da();
-                bxtx a = bxtx.m123261a(c);
+                ByteString a = ByteString.m123261a(c);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -68,7 +68,7 @@ public final class jij {
         jrg.f23129d.add(4);
         jrg.f23127b = jto.f23190c;
         jrg.f23129d.add(3);
-        jrg.f23126a = sqd.m35972d(jto.f23188a.mo73780k());
+        jrg.f23126a = sqd.m35972d(jto.f23188a.getKey());
         jrg.f23129d.add(2);
         return new BeaconSeedEntity(jrg.f23129d, jrg.f23126a, jrg.f23127b, jrg.f23128c);
     }

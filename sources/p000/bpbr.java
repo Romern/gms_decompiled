@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpbr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpbr extends bxvk implements bxxd {
+public final class bpbr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bpbr f135616f;
@@ -28,7 +28,7 @@ public final class bpbr extends bxvk implements bxxd {
     static {
         bpbr bpbr = new bpbr();
         f135616f = bpbr;
-        bxvk.m124024a(bpbr.class, bpbr);
+        GeneratedMessageLite.m124024a(bpbr.class, bpbr);
     }
 
     private bpbr() {
@@ -45,7 +45,7 @@ public final class bpbr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135616f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003ဇ\u0002\u0005ဈ\u0004", new Object[]{"a", "b", "c", bpbs.f135623a, "d", "e"});
+            return GeneratedMessageLite.m124022a(f135616f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003ဇ\u0002\u0005ဈ\u0004", new Object[]{"a", "b", "c", bpbs.f135623a, "d", "e"});
         } else if (i2 == 3) {
             return new bpbr();
         } else {

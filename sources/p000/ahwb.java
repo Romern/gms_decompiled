@@ -118,7 +118,7 @@ public final class ahwb {
                     b.f68205e = false;
                     ((bnsl) ahsd.f67925a.mo68390d()).mo68425a("RetroactivePairManager: Start retroactive pairing attempt#%d for device (%s, %s)", Integer.valueOf(b.f68204d), bluetoothDevice, str);
                     bxvd bxvd = (bxvd) a.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a);
+                    bxvd.mo73625a((GeneratedMessageLite) a);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -128,7 +128,7 @@ public final class ahwb {
                     aiaa.f68513a |= 4;
                     aiaa.f68517e = str;
                     aiaa aiaa2 = (aiaa) bxvd.mo74062i();
-                    Intent putExtra = DiscoveryChimeraService.m67336a(this.f68206a).setAction("com.google.android.gms.nearby.discovery:ACTION_MAGIC_PAIR").putExtra("com.google.android.gms.nearby.discovery.EXTRA_DISCOVERY_ITEM", aiaa2.mo73642k()).putExtra("com.google.android.gms.nearby.discovery.EXTRA_RETROACTIVE_PAIR", true);
+                    Intent putExtra = DiscoveryChimeraService.m67336a(this.f68206a).setAction("com.google.android.gms.nearby.discovery:ACTION_MAGIC_PAIR").putExtra("com.google.android.gms.nearby.discovery.EXTRA_DISCOVERY_ITEM", aiaa2.serializeToBytes()).putExtra("com.google.android.gms.nearby.discovery.EXTRA_RETROACTIVE_PAIR", true);
                     if ((aiaa2.f68513a & 8) != 0) {
                         putExtra.putExtra("com.google.android.gms.nearby.discovery:EXTRA_COMPANION_APP", ahvd.m56709a(aiaa2));
                     }

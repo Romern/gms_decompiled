@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpqa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpqa extends bxvk implements bxxd {
+public final class bpqa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bpqa f138688d;
@@ -28,7 +28,7 @@ public final class bpqa extends bxvk implements bxxd {
     static {
         bpqa bpqa = new bpqa();
         f138688d = bpqa;
-        bxvk.m124024a(bpqa.class, bpqa);
+        GeneratedMessageLite.m124024a(bpqa.class, bpqa);
     }
 
     private bpqa() {
@@ -49,7 +49,7 @@ public final class bpqa extends bxvk implements bxxd {
             this.f138694f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f138688d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ဈ\u0000\u0002ᐉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", "e", "c"});
+            return GeneratedMessageLite.m124022a(f138688d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ဈ\u0000\u0002ᐉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", "e", "c"});
         } else if (i2 == 3) {
             return new bpqa();
         } else {

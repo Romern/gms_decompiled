@@ -74,7 +74,7 @@ final /* synthetic */ class bakm implements Callable {
             }
             bpyd bpyd = (bpyd) da3.f164949b;
             if (!bpyd.f139831a.mo73666a()) {
-                bpyd.f139831a = bxvk.m124021a(bpyd.f139831a);
+                bpyd.f139831a = GeneratedMessageLite.m124021a(bpyd.f139831a);
             }
             bxsy.m123078a(collection, bpyd.f139831a);
             if (da2.f164950c) {
@@ -85,7 +85,7 @@ final /* synthetic */ class bakm implements Callable {
             bpyd bpyd2 = (bpyd) da3.mo74062i();
             bpyd2.getClass();
             if (!bpye.f139834a.mo73666a()) {
-                bpye.f139834a = bxvk.m124021a(bpye.f139834a);
+                bpye.f139834a = GeneratedMessageLite.m124021a(bpye.f139834a);
             }
             bpye.f139834a.add(bpyd2);
         }

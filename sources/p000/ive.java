@@ -10,7 +10,7 @@ public final class ive {
     public static final bnhe f21856a;
 
     /* renamed from: c */
-    public static final sek f21857c = new sek(new String[]{"EventIncomingMessage"}, (char[]) null);
+    public static final Logger f21857c = new Logger(new String[]{"EventIncomingMessage"}, (char[]) null);
 
     /* renamed from: b */
     public final int f21858b;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mpc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mpc extends bxvk implements bxxd {
+public final class mpc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final mpc f34104e;
@@ -25,7 +25,7 @@ public final class mpc extends bxvk implements bxxd {
     static {
         mpc mpc = new mpc();
         f34104e = mpc;
-        bxvk.m124024a(mpc.class, mpc);
+        GeneratedMessageLite.m124024a(mpc.class, mpc);
     }
 
     private mpc() {
@@ -42,7 +42,7 @@ public final class mpc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34104e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဂ\u0000\u0003ဇ\u0001", new Object[]{"a", "b", mpb.class, "c", "d"});
+            return GeneratedMessageLite.m124022a(f34104e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဂ\u0000\u0003ဇ\u0001", new Object[]{"a", "b", mpb.class, "c", "d"});
         } else if (i2 == 3) {
             return new mpc();
         } else {

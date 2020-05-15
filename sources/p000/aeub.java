@@ -45,7 +45,7 @@ public class aeub {
     public final bxxc mo34565a(bxxc bxxc, bxxc bxxc2, String str) {
         if (!this.f63813d) {
             this.f63813d = true;
-            return (bxxc) this.f63814e.mo25513a(this.f63810a, 1, str.toLowerCase(Locale.US), bxxc.mo73642k(), bxxc2);
+            return (bxxc) this.f63814e.mo25513a(this.f63810a, 1, str.toLowerCase(Locale.US), bxxc.serializeToBytes(), bxxc2);
         }
         throw new IllegalStateException("Can not call execute on Operation more than once.");
     }
@@ -67,13 +67,13 @@ public class aeub {
         bzmz.f170686a |= 2;
         bzly a2 = aexx.m52667a(shareTarget);
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         bzlr bzlr = ((bzly) bxvd.f164949b).f170592b;
         if (bzlr == null) {
             bzlr = bzlr.f170559j;
         }
         bxvd bxvd2 = (bxvd) bzlr.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bzlr);
+        bxvd2.mo73625a((GeneratedMessageLite) bzlr);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;
@@ -99,7 +99,7 @@ public class aeub {
         bzly bzly3 = (bzly) bxvd.mo74062i();
         bzly3.getClass();
         if (!bzmz2.f170687b.mo73666a()) {
-            bzmz2.f170687b = bxvk.m124021a(bzmz2.f170687b);
+            bzmz2.f170687b = GeneratedMessageLite.m124021a(bzmz2.f170687b);
         }
         bzmz2.f170687b.add(bzly3);
         try {

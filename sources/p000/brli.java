@@ -21,7 +21,7 @@ import java.util.List;
 public final class brli implements Handler.Callback {
 
     /* renamed from: a */
-    public static final sek f142910a = new sek("FirebaseAuth", "PhoneVerificationSession");
+    public static final Logger f142910a = new Logger("FirebaseAuth", "PhoneVerificationSession");
 
     /* renamed from: b */
     public final snr f142911b;
@@ -221,12 +221,12 @@ public final class brli implements Handler.Callback {
             }
             this.f142917h = 4;
         } else if (i != 3) {
-            sek sek = f142910a;
+            Logger Logger = f142910a;
             int i4 = message2.what;
             StringBuilder sb = new StringBuilder(31);
             sb.append("Unknown message id: ");
             sb.append(i4);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
             return false;
         } else {
             Integer num = (Integer) message2.obj;

@@ -35,7 +35,7 @@ public abstract class bctn {
                 h.mo57526a(jSONObject.getInt("OVERLAY_EXPIRETIME_STAMP"));
             }
             if (jSONObject.has("display_icon")) {
-                h.mo57529a(bxtx.m123261a(bbqu.m88423a(jSONObject.optString("display_icon"))));
+                h.mo57529a(ByteString.m123261a(bbqu.m88423a(jSONObject.optString("display_icon"))));
             }
             return bmxv.m108566b(h.mo57525a());
         } catch (JSONException e) {
@@ -102,7 +102,7 @@ public abstract class bctn {
             }
             jSONObject.put("OVERLAY_STYLE", mo57391g());
             if (mo57385b().mo66813a()) {
-                jSONObject.putOpt("display_icon", bbqu.m88426d(((bxtx) mo57385b().mo66814b()).mo73780k()));
+                jSONObject.putOpt("display_icon", bbqu.m88426d(((ByteString) mo57385b().mo66814b()).getKey()));
             }
             return bmxv.m108566b(jSONObject);
         } catch (JSONException e) {

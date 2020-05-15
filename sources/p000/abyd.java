@@ -27,7 +27,7 @@ public final class abyd {
             } else if (!caed.f172805e.isEmpty()) {
                 bundle.putStringArray(str, (String[]) caed.f172805e.toArray(new String[0]));
             } else if (caed.f172807g.mo73744a() > 0) {
-                bundle.putByteArray(str, caed.f172807g.mo73780k());
+                bundle.putByteArray(str, caed.f172807g.getKey());
             } else if (!caed.f172806f.isEmpty()) {
                 Thing[] thingArr = new Thing[caed.f172806f.size()];
                 for (int i2 = 0; i2 < caed.f172806f.size(); i2++) {
@@ -111,7 +111,7 @@ public final class abyd {
                 }
                 caeb caeb5 = (caeb) da.f164949b;
                 if (!caeb5.f172797e.mo73666a()) {
-                    caeb5.f172797e = bxvk.m124021a(caeb5.f172797e);
+                    caeb5.f172797e = GeneratedMessageLite.m124021a(caeb5.f172797e);
                 }
                 bxsy.m123078a(a, caeb5.f172797e);
             }
@@ -122,7 +122,7 @@ public final class abyd {
             }
             caeb caeb6 = (caeb) da.f164949b;
             if (!caeb6.f172798f.mo73666a()) {
-                caeb6.f172798f = bxvk.m124021a(caeb6.f172798f);
+                caeb6.f172798f = GeneratedMessageLite.m124021a(caeb6.f172798f);
             }
             bxsy.m123078a(a2, caeb6.f172798f);
             caeb = (caeb) da.mo74062i();
@@ -215,7 +215,7 @@ public final class abyd {
                 caed5.mo74629f();
                 bxsy.m123078a(asList, caed5.f172805e);
             } else if (obj instanceof byte[]) {
-                bxtx a = bxtx.m123261a((byte[]) obj);
+                ByteString a = ByteString.m123261a((byte[]) obj);
                 if (caec.f164950c) {
                     caec.mo74035c();
                     caec.f164950c = false;
@@ -239,6 +239,6 @@ public final class abyd {
 
     /* renamed from: a */
     public static byte[] m48529a(Thing thing) {
-        return m48530b(thing).mo73642k();
+        return m48530b(thing).serializeToBytes();
     }
 }

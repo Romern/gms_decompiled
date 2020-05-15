@@ -14,7 +14,7 @@ final class lzj implements bqfp {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ void mo6480a(Object obj) {
         Void voidR = (Void) obj;
-        this.f33275a.f33276a.mo25409a("App updates successfully paused", new Object[0]);
+        this.f33275a.f33276a.logVerbose("App updates successfully paused", new Object[0]);
     }
 
     /* renamed from: a */

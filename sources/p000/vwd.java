@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: vwd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class vwd extends bxvk implements bxxd {
+public final class vwd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final vwd f50122g;
@@ -31,7 +31,7 @@ public final class vwd extends bxvk implements bxxd {
     static {
         vwd vwd = new vwd();
         f50122g = vwd;
-        bxvk.m124024a(vwd.class, vwd);
+        GeneratedMessageLite.m124024a(vwd.class, vwd);
     }
 
     private vwd() {
@@ -48,7 +48,7 @@ public final class vwd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f50122g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဋ\u0003\u0005ဇ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f50122g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဋ\u0003\u0005ဇ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new vwd();
         } else {

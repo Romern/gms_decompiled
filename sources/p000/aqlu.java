@@ -15,7 +15,7 @@ public final /* synthetic */ class aqlu implements bmzi {
     /* renamed from: a */
     public final Object mo6606a() {
         aqky aqky = this.f86347a;
-        sek sek = ConsentChimeraActivity.f107656b;
+        Logger Logger = ConsentChimeraActivity.f107656b;
         return aqky.f86319b;
     }
 }

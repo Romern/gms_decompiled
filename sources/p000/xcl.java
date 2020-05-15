@@ -57,7 +57,7 @@ public final class xcl {
                     if (bnim2.containsKey(xcm.f51934a)) {
                         if (((bypx) bnim2.get(xcm.f51934a)).mo74446e().f167358a == 1) {
                             if (bnim2.containsKey(xcm.f51935b) && bnim2.containsKey(xcm.f51936c)) {
-                                pair = Pair.create(((bypx) bnim2.get(xcm.f51935b)).mo74445d().f167357a.mo73780k(), ((bypx) bnim2.get(xcm.f51936c)).mo74445d().f167357a.mo73780k());
+                                pair = Pair.create(((bypx) bnim2.get(xcm.f51935b)).mo74445d().f167357a.getKey(), ((bypx) bnim2.get(xcm.f51936c)).mo74445d().f167357a.getKey());
                             } else {
                                 xcm.f51938e.mo25418e("Missing key material in cable keys decoding", new Object[0]);
                                 pair = null;

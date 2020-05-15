@@ -14,7 +14,7 @@ import com.google.android.gms.common.api.Status;
 public final class iak extends hyt implements aaai {
 
     /* renamed from: a */
-    private static final sek f20634a = new sek("SmsRetrieverStub");
+    private static final Logger f20634a = new Logger("SmsRetrieverStub");
 
     /* renamed from: b */
     private static final ibh f20635b = new ibh();

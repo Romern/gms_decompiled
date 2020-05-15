@@ -51,7 +51,7 @@ public final class aicl extends buqn {
             byte[] bArr = this.f68687b;
             if (bArr != null) {
                 try {
-                    ahsu = new ahsu(this.f68692g.f68708e, (aiaa) bxvk.m124016a(aiaa.f68501K, bArr, bxus.m123744c()));
+                    ahsu = new ahsu(this.f68692g.f68708e, (aiaa) GeneratedMessageLite.m124016a(aiaa.f68501K, bArr, bxus.m123744c()));
                 } catch (bxwf e) {
                     bnsl bnsl = (bnsl) ahsd.f67925a.mo68388c();
                     bnsl.mo68437a(e);

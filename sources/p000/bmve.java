@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmve */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmve extends bxvk implements bxxd {
+public final class bmve extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bmve f131025f;
@@ -28,7 +28,7 @@ public final class bmve extends bxvk implements bxxd {
     static {
         bmve bmve = new bmve();
         f131025f = bmve;
-        bxvk.m124024a(bmve.class, bmve);
+        GeneratedMessageLite.m124024a(bmve.class, bmve);
     }
 
     private bmve() {
@@ -46,7 +46,7 @@ public final class bmve extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f131025f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဉ\u0004", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f131025f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဉ\u0004", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bmve();
         } else {

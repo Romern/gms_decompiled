@@ -220,7 +220,7 @@ public final class rca extends aaab {
     /* JADX WARNING: Removed duplicated region for block: B:73:0x01ce  */
     /* JADX WARNING: Removed duplicated region for block: B:93:0x023a  */
     /* renamed from: a */
-    public final bxtx mo24455a(Context context, byte[] bArr, int[] iArr, int[] iArr2, String[] strArr, int[] iArr3, byte[][] bArr2, ExperimentTokens[] experimentTokensArr, boolean z, String str, boolean z2, String str2, String str3, anfg anfg) {
+    public final ByteString mo24455a(Context context, byte[] bArr, int[] iArr, int[] iArr2, String[] strArr, int[] iArr3, byte[][] bArr2, ExperimentTokens[] experimentTokensArr, boolean z, String str, boolean z2, String str2, String str3, anfg anfg) {
         ArrayList arrayList;
         List list;
         ExperimentTokens experimentTokens;
@@ -265,7 +265,7 @@ public final class rca extends aaab {
             }
             cagi cagi3 = (cagi) bxvf.f164949b;
             if (!cagi3.f173111o.mo73666a()) {
-                cagi3.f173111o = bxvk.m124019a(cagi3.f173111o);
+                cagi3.f173111o = GeneratedMessageLite.m124019a(cagi3.f173111o);
             }
             bxsy.m123078a(b, cagi3.f173111o);
         }
@@ -408,12 +408,12 @@ public final class rca extends aaab {
                 }
                 cagi cagi5 = (cagi) bxvf.f164949b;
                 if (!cagi5.f173112p.mo73666a()) {
-                    cagi5.f173112p = bxvk.m124019a(cagi5.f173112p);
+                    cagi5.f173112p = GeneratedMessageLite.m124019a(cagi5.f173112p);
                 }
                 bxsy.m123078a(b2, cagi5.f173112p);
             }
         }
-        return bxtx.m123261a(bArr).mo73770a(((cagi) bxvf.mo74062i()).mo73639aL());
+        return ByteString.m123261a(bArr).mo73770a(((cagi) bxvf.mo74062i()).mo73639aL());
     }
 
     /* access modifiers changed from: package-private */
@@ -499,7 +499,7 @@ public final class rca extends aaab {
         }
         caik caik3 = (caik) da.mo74062i();
         bxvd bxvd = (bxvd) caik3.mo74142c(5);
-        bxvd.mo73625a((bxvk) caik3);
+        bxvd.mo73625a((GeneratedMessageLite) caik3);
         if (!aytw.m84813a(context) && !((caik) bxvd.f164949b).f174722j && (b = aooo.m66219b(context)) != null && (str = b.f83468a) != null) {
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -524,7 +524,7 @@ public final class rca extends aaab {
         boci a2 = soy.m35781a(context);
         cafx cafx = (cafx) rbu.f42595b.mo6606a();
         bxvd bxvd2 = (bxvd) cafx.mo74142c(5);
-        bxvd2.mo73625a((bxvk) cafx);
+        bxvd2.mo73625a((GeneratedMessageLite) cafx);
         bxvf bxvf = (bxvf) bxvd2;
         if (!z3) {
             if (bxvf.f164950c) {
@@ -745,7 +745,7 @@ public final class rca extends aaab {
         int[] iArr2;
         int[] iArr3;
         rdp rdp2;
-        bxtx a2;
+        ByteString a2;
         Map map;
         boolean z;
         FileOutputStream fileOutputStream;
@@ -852,7 +852,7 @@ public final class rca extends aaab {
             caim.f174737a |= 1;
             byte[] bArr2 = logEventParcelable.f30031b;
             if (bArr2 != null) {
-                bxtx a4 = bxtx.m123261a(bArr2);
+                ByteString a4 = ByteString.m123261a(bArr2);
                 if (da3.f164950c) {
                     da3.mo74035c();
                     da3.f164950c = false;
@@ -871,7 +871,7 @@ public final class rca extends aaab {
                 }
                 caim caim3 = (caim) da3.f164949b;
                 if (!caim3.f174741e.mo73666a()) {
-                    caim3.f174741e = bxvk.m124021a(caim3.f174741e);
+                    caim3.f174741e = GeneratedMessageLite.m124021a(caim3.f174741e);
                 }
                 bxsy.m123078a(asList, caim3.f174741e);
             }
@@ -884,7 +884,7 @@ public final class rca extends aaab {
                 }
                 caim caim4 = (caim) da3.f164949b;
                 if (!caim4.f174740d.mo73666a()) {
-                    caim4.f174740d = bxvk.m124019a(caim4.f174740d);
+                    caim4.f174740d = GeneratedMessageLite.m124019a(caim4.f174740d);
                 }
                 bxsy.m123078a(b5, caim4.f174740d);
             }
@@ -897,7 +897,7 @@ public final class rca extends aaab {
                 }
                 caim caim5 = (caim) da3.f164949b;
                 if (!caim5.f174742f.mo73666a()) {
-                    caim5.f174742f = bxvk.m124019a(caim5.f174742f);
+                    caim5.f174742f = GeneratedMessageLite.m124019a(caim5.f174742f);
                 }
                 bxsy.m123078a(b6, caim5.f174742f);
             }
@@ -910,7 +910,7 @@ public final class rca extends aaab {
                 }
                 caim caim6 = (caim) da3.f164949b;
                 if (!caim6.f174743g.mo73666a()) {
-                    caim6.f174743g = bxvk.m124021a(caim6.f174743g);
+                    caim6.f174743g = GeneratedMessageLite.m124021a(caim6.f174743g);
                 }
                 bxsy.m123078a(a5, caim6.f174743g);
             }
@@ -931,7 +931,7 @@ public final class rca extends aaab {
                 }
                 caim caim8 = (caim) da3.f164949b;
                 if (!caim8.f174745i.mo73666a()) {
-                    caim8.f174745i = bxvk.m124021a(caim8.f174745i);
+                    caim8.f174745i = GeneratedMessageLite.m124021a(caim8.f174745i);
                 }
                 bxsy.m123078a(a6, caim8.f174745i);
             }
@@ -944,7 +944,7 @@ public final class rca extends aaab {
                 }
                 caim caim9 = (caim) da3.f164949b;
                 if (!caim9.f174746j.mo73666a()) {
-                    caim9.f174746j = bxvk.m124019a(caim9.f174746j);
+                    caim9.f174746j = GeneratedMessageLite.m124019a(caim9.f174746j);
                 }
                 bxsy.m123078a(b7, caim9.f174746j);
             }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmsx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmsx extends bxvk implements bxxd {
+public final class bmsx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final bmsx f130780i;
@@ -11,33 +11,33 @@ public final class bmsx extends bxvk implements bxxd {
     private static volatile bxxk f130781j;
 
     /* renamed from: a */
-    public bxtx f130782a = bxtx.f164797b;
+    public ByteString f130782a = ByteString.f164797b;
 
     /* renamed from: b */
-    public bxtx f130783b = bxtx.f164797b;
+    public ByteString f130783b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f130784c = bxtx.f164797b;
+    public ByteString f130784c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f130785d = bxtx.f164797b;
+    public ByteString f130785d = ByteString.f164797b;
 
     /* renamed from: e */
-    public bxtx f130786e = bxtx.f164797b;
+    public ByteString f130786e = ByteString.f164797b;
 
     /* renamed from: f */
-    public bxtx f130787f = bxtx.f164797b;
+    public ByteString f130787f = ByteString.f164797b;
 
     /* renamed from: g */
-    public bxtx f130788g = bxtx.f164797b;
+    public ByteString f130788g = ByteString.f164797b;
 
     /* renamed from: h */
-    public bxtx f130789h = bxtx.f164797b;
+    public ByteString f130789h = ByteString.f164797b;
 
     static {
         bmsx bmsx = new bmsx();
         f130780i = bmsx;
-        bxvk.m124024a(bmsx.class, bmsx);
+        GeneratedMessageLite.m124024a(bmsx.class, bmsx);
     }
 
     private bmsx() {
@@ -54,7 +54,7 @@ public final class bmsx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130780i, "\u0000\b\u0000\u0000\u0001\b\b\u0000\u0000\u0000\u0001\n\u0002\n\u0003\n\u0004\n\u0005\n\u0006\n\u0007\n\b\n", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f130780i, "\u0000\b\u0000\u0000\u0001\b\b\u0000\u0000\u0000\u0001\n\u0002\n\u0003\n\u0004\n\u0005\n\u0006\n\u0007\n\b\n", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new bmsx();
         } else {

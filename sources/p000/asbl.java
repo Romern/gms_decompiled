@@ -38,7 +38,7 @@ final class asbl implements Runnable {
         try {
             asbn asbn = this.f88671c;
             String str = this.f88669a;
-            long a = spn.m35843a(asbn.f88673b);
+            long a = spn.getAndroidId(asbn.f88673b);
             Context context = asbn.f88673b;
             sdo.m34959a(context);
             String str2 = null;
@@ -183,9 +183,9 @@ final class asbl implements Runnable {
                                     asbo.f88676b.put(substring, substring2);
                                 }
                             }
-                            sek sek = asbq.f88679a;
+                            Logger Logger = asbq.f88679a;
                             String valueOf = String.valueOf(trim);
-                            sek.mo25412b(valueOf.length() == 0 ? new String("unexpected string in WPA Supplicant file: ") : "unexpected string in WPA Supplicant file: ".concat(valueOf), new Object[0]);
+                            Logger.mo25412b(valueOf.length() == 0 ? new String("unexpected string in WPA Supplicant file: ") : "unexpected string in WPA Supplicant file: ".concat(valueOf), new Object[0]);
                         }
                     } else {
                         asbo = new asbo();

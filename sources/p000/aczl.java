@@ -24,7 +24,7 @@ import java.util.Set;
 public final class aczl extends C0053bl implements aczm {
 
     /* renamed from: a */
-    public static final sek f61150a = new sek("CommonAccount", "AccountPickerViewModel");
+    public static final Logger f61150a = new Logger("CommonAccount", "AccountPickerViewModel");
 
     /* renamed from: k */
     private static final allq f61151k;
@@ -284,7 +284,7 @@ public final class aczl extends C0053bl implements aczm {
                 }
                 f61150a.mo25412b("Unable to find added account, pretending the request was canceled", new Object[0]);
             }
-            f61150a.mo25409a("Canceled", new Object[0]);
+            f61150a.logVerbose("Canceled", new Object[0]);
             this.f61157i.mo2453l(new aczk(0, null));
         } else if (mo33277c().isEmpty()) {
             this.f61157i.mo2453l(new aczk(0, null));

@@ -19,7 +19,7 @@ public final class bamw implements bamq {
     private final bams f101305b;
 
     /* renamed from: c */
-    private final bxtx f101306c;
+    private final ByteString f101306c;
 
     /* renamed from: d */
     private final byte[] f101307d;
@@ -33,11 +33,11 @@ public final class bamw implements bamq {
     /* renamed from: g */
     private final bamj f101310g;
 
-    public bamw(bxtx bxtx, bamx bamx, bams bams, babr babr, bamj bamj) {
+    public bamw(ByteString bxtx, bamx bamx, bams bams, babr babr, bamj bamj) {
         this.f101304a = bamx;
         this.f101305b = bams;
         this.f101306c = bxtx;
-        this.f101307d = bamx.m87175a(bxtx).mo73780k();
+        this.f101307d = bamx.m87175a(bxtx).getKey();
         this.f101308e = babr;
         this.f101310g = bamj;
         synchronized (bamx.f101317b) {
@@ -79,7 +79,7 @@ public final class bamw implements bamq {
     public final void close() {
         bmxy.m108601b(!this.f101309f, "Storage is closed");
         bamx bamx = this.f101304a;
-        bxtx bxtx = this.f101306c;
+        ByteString bxtx = this.f101306c;
         synchronized (bamx.f101317b) {
             bamx.f101316a.remove(bxtx);
         }
@@ -109,7 +109,7 @@ public final class bamw implements bamq {
     }
 
     /* renamed from: b */
-    public final /* bridge */ /* synthetic */ Collection mo55775b(banx banx, bxtx bxtx) {
+    public final /* bridge */ /* synthetic */ Collection mo55775b(banx banx, ByteString bxtx) {
         LevelDb.Iterator it;
         if (this.f101308e.mo32671C()) {
             ArrayList arrayList = new ArrayList();
@@ -143,7 +143,7 @@ public final class bamw implements bamq {
     }
 
     /* renamed from: a */
-    private final byte[] m87159a(bxtx bxtx) {
+    private final byte[] m87159a(ByteString bxtx) {
         byte[] bArr = new byte[(this.f101306c.mo73744a() + bxtx.mo73744a())];
         this.f101306c.mo73771a(bArr, 0);
         bxtx.mo73771a(bArr, this.f101306c.mo73744a());
@@ -167,8 +167,8 @@ public final class bamw implements bamq {
     }
 
     /* renamed from: a */
-    public final bxtx mo55767a(banx banx, bxtx bxtx) {
-        byte[] a = mo55774a(banx, bxtx.mo73780k());
+    public final ByteString mo55767a(banx banx, ByteString bxtx) {
+        byte[] a = mo55774a(banx, bxtx.getKey());
         if (a != null) {
             return bxtx.m123261a(a);
         }
@@ -235,8 +235,8 @@ public final class bamw implements bamq {
     }
 
     /* renamed from: b */
-    public final void mo55776b(bany bany, bxtx bxtx, bxtx bxtx2) {
-        mo55777b(bany, bxtx.mo73780k(), bxtx2 != null ? bxtx2.mo73780k() : null);
+    public final void mo55776b(bany bany, ByteString bxtx, ByteString bxtx2) {
+        mo55777b(bany, bxtx.getKey(), bxtx2 != null ? bxtx2.getKey() : null);
     }
 
     /* renamed from: b */
@@ -279,7 +279,7 @@ public final class bamw implements bamq {
     }
 
     /* renamed from: a */
-    public final void mo55769a(banx banx, bxtx bxtx, bamp bamp) {
+    public final void mo55769a(banx banx, ByteString bxtx, bamp bamp) {
         m87161b(banx);
         bmxy.m108601b(!this.f101309f, "Storage is closed");
         bmxy.m108581a(bxtx);
@@ -310,7 +310,7 @@ public final class bamw implements bamq {
     }
 
     /* renamed from: a */
-    public final void mo55770a(bany bany, bxtx bxtx) {
+    public final void mo55770a(bany bany, ByteString bxtx) {
         bmxy.m108601b(!this.f101309f, "Storage is closed");
         bmxy.m108581a(bxtx);
         m87158a(bany);
@@ -325,8 +325,8 @@ public final class bamw implements bamq {
     }
 
     /* renamed from: a */
-    public final void mo55771a(bany bany, bxtx bxtx, bxtx bxtx2) {
-        mo55772a(bany, bxtx.mo73780k(), bxtx2.mo73780k());
+    public final void mo55771a(bany bany, ByteString bxtx, ByteString bxtx2) {
+        mo55772a(bany, bxtx.getKey(), bxtx2.getKey());
     }
 
     /* renamed from: a */
@@ -353,7 +353,7 @@ public final class bamw implements bamq {
         bmxy.m108601b(!this.f101309f, "Storage is closed");
         try {
             it = this.f101305b.mo55788e().iterator();
-            it.seek(this.f101306c.mo73780k());
+            it.seek(this.f101306c.getKey());
             if (it.isValid() && bqcv.f140491b.compare(it.key(), this.f101307d) < 0) {
                 z = false;
             }

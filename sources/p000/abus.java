@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abus */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abus extends bxvk implements bxxd {
+public final class abus extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final abus f58460b;
@@ -16,7 +16,7 @@ public final class abus extends bxvk implements bxxd {
     static {
         abus abus = new abus();
         f58460b = abus;
-        bxvk.m124024a(abus.class, abus);
+        GeneratedMessageLite.m124024a(abus.class, abus);
     }
 
     private abus() {
@@ -33,7 +33,7 @@ public final class abus extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58460b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u001b", new Object[]{"a", abur.class});
+            return GeneratedMessageLite.m124022a(f58460b, "\u0001\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0001\u0000\u0002\u001b", new Object[]{"a", abur.class});
         } else if (i2 == 3) {
             return new abus();
         } else {

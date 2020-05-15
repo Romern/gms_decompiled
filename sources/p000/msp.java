@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: msp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class msp extends bxvk implements bxxd {
+public final class msp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final msp f34574e;
@@ -25,7 +25,7 @@ public final class msp extends bxvk implements bxxd {
     static {
         msp msp = new msp();
         f34574e = msp;
-        bxvk.m124024a(msp.class, msp);
+        GeneratedMessageLite.m124024a(msp.class, msp);
     }
 
     private msp() {
@@ -42,7 +42,7 @@ public final class msp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34574e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", mso.f34573a, "c", "d", mqi.f34230a});
+            return GeneratedMessageLite.m124022a(f34574e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", mso.f34573a, "c", "d", mqi.f34230a});
         } else if (i2 == 3) {
             return new msp();
         } else {

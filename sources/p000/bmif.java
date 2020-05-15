@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmif */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmif extends bxvk implements bxxd {
+public final class bmif extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final bmif f129564j;
@@ -17,7 +17,7 @@ public final class bmif extends bxvk implements bxxd {
     public String f129567b = "";
 
     /* renamed from: c */
-    public bxtx f129568c = bxtx.f164797b;
+    public ByteString f129568c = ByteString.f164797b;
 
     /* renamed from: d */
     public int f129569d;
@@ -40,7 +40,7 @@ public final class bmif extends bxvk implements bxxd {
     static {
         bmif bmif = new bmif();
         f129564j = bmif;
-        bxvk.m124024a(bmif.class, bmif);
+        GeneratedMessageLite.m124024a(bmif.class, bmif);
     }
 
     private bmif() {
@@ -57,7 +57,7 @@ public final class bmif extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f129564j, "\u0001\b\u0000\u0001\u0001\t\b\u0000\u0000\u0000\u0001င\u0002\u0002င\u0003\u0003ဈ\u0004\u0005ဉ\u0005\u0006ဈ\u0007\u0007ဈ\u0006\bဈ\u0000\tည\u0001", new Object[]{"a", "d", "e", "f", "g", "i", "h", "b", "c"});
+            return GeneratedMessageLite.m124022a(f129564j, "\u0001\b\u0000\u0001\u0001\t\b\u0000\u0000\u0000\u0001င\u0002\u0002င\u0003\u0003ဈ\u0004\u0005ဉ\u0005\u0006ဈ\u0007\u0007ဈ\u0006\bဈ\u0000\tည\u0001", new Object[]{"a", "d", "e", "f", "g", "i", "h", "b", "c"});
         } else if (i2 == 3) {
             return new bmif();
         } else {

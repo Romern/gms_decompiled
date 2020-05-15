@@ -50,7 +50,7 @@ public final class oiz extends ojh {
     /* renamed from: a */
     public final void mo22085a(int i, ByteBuffer byteBuffer) {
         if (i == 32769) {
-            bitd bitd = (bitd) bxvk.m124012a(bitd.f121631a, byteBuffer);
+            bitd bitd = (bitd) GeneratedMessageLite.m124012a(bitd.f121631a, byteBuffer);
             oiy oiy = this.f37735b;
             synchronized (((nma) oiy).f36001b) {
                 for (nlz nlz : ((nma) oiy).f36001b) {
@@ -66,7 +66,7 @@ public final class oiz extends ojh {
                 }
             }
         } else if (i == 32770) {
-            bite bite = (bite) bxvk.m124012a(bite.f121633a, byteBuffer);
+            bite bite = (bite) GeneratedMessageLite.m124012a(bite.f121633a, byteBuffer);
             oiy oiy2 = this.f37735b;
             synchronized (((nma) oiy2).f36001b) {
                 for (nlz nlz2 : ((nma) oiy2).f36001b) {

@@ -17,7 +17,7 @@ import java.util.UUID;
 public final class xjl {
 
     /* renamed from: a */
-    private static final sek f52425a = new sek(new String[]{"CableAdvertiserUtil"}, (short[]) null);
+    private static final Logger f52425a = new Logger(new String[]{"CableAdvertiserUtil"}, (short[]) null);
 
     /* renamed from: a */
     public static BluetoothLeScanner m43047a() {
@@ -83,11 +83,11 @@ public final class xjl {
     private static byte[] m43052a(byte[] bArr) {
         int length = bArr.length;
         if (length < 18) {
-            sek sek = f52425a;
+            Logger Logger = f52425a;
             StringBuilder sb = new StringBuilder(35);
             sb.append("Service data too short: ");
             sb.append(length);
-            sek.mo25418e(sb.toString(), new Object[0]);
+            Logger.mo25418e(sb.toString(), new Object[0]);
             return null;
         } else if (bArr[0] != 32) {
             return null;
@@ -95,12 +95,12 @@ public final class xjl {
             if (bArr[1] == 1) {
                 return Arrays.copyOfRange(bArr, 2, 18);
             }
-            sek sek2 = f52425a;
+            Logger logger2 = f52425a;
             byte b = bArr[0];
             StringBuilder sb2 = new StringBuilder(33);
             sb2.append("Unexpected protocol version: ");
             sb2.append((int) b);
-            sek2.mo25418e(sb2.toString(), new Object[0]);
+            logger2.mo25418e(sb2.toString(), new Object[0]);
             return null;
         }
     }

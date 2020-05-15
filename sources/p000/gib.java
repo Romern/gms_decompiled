@@ -22,7 +22,7 @@ public final class gib {
     public final void mo11901a(bsoa bsoa) {
         if (bsoa != null) {
             Bundle bundle = new Bundle();
-            bundle.putByteArray("keyTokenRequestOptionsWrapperBundle", bsoa.mo73642k());
+            bundle.putByteArray("keyTokenRequestOptionsWrapperBundle", bsoa.serializeToBytes());
             this.f18283a.putBundle("keyTokenRequestOptionsAuthExtrasBundle", bundle);
         }
     }

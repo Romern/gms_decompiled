@@ -313,7 +313,7 @@ public final class qoo extends qmh {
                 bpuj3.getClass();
                 bpvf.f139339q = bpuj3;
                 bpvf.f139323a |= 1024;
-                FileApkIntentOperation.m22393a(context, 23, ((bpvf) da.mo74062i()).mo73642k());
+                FileApkIntentOperation.m22393a(context, 23, ((bpvf) da.mo74062i()).serializeToBytes());
                 int a2 = this.f41885f.mo10288a(string, string2);
                 StringBuilder sb = new StringBuilder(string.length() + 27 + string2.length());
                 sb.append("Module ");

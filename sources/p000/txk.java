@@ -153,15 +153,15 @@ public abstract class txk implements txp {
     }
 
     protected txk(txr txr, uih uih, AppIdentity appIdentity, tyq tyq, uaw uaw) {
-        sdo.m34966a(txr, "type must not be null");
+        sdo.checkIfNull(txr, "type must not be null");
         this.f46914a = txr;
-        sdo.m34966a(uih, "account must not be null");
+        sdo.checkIfNull(uih, "account must not be null");
         this.f46915b = uih;
-        sdo.m34966a(appIdentity, "app identity must not be null");
+        sdo.checkIfNull(appIdentity, "app identity must not be null");
         this.f46916c = appIdentity;
-        sdo.m34966a(tyq, "enforcement mode must not be null");
+        sdo.checkIfNull(tyq, "enforcement mode must not be null");
         this.f46918f = tyq;
-        sdo.m34966a(uaw, "execution context must not be null");
+        sdo.checkIfNull(uaw, "execution context must not be null");
         this.f46917d = uaw;
     }
 
@@ -239,7 +239,7 @@ public abstract class txk implements txp {
             mo26880a(txv, d.mo27262a(vpu.f49755b));
             if (mo26898g()) {
                 uhn uhn = vpu.f49757d;
-                sdo.m34966a(mo26913s(), "Must have entry spec after apply locally");
+                sdo.checkIfNull(mo26913s(), "Must have entry spec after apply locally");
                 try {
                     ujp d2 = uhn.mo27432d(mo26913s().f47941a);
                     if (d2 != null) {

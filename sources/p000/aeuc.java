@@ -113,7 +113,7 @@ public final class aeuc extends aeub {
                 bzlx bzlx = (bzlx) bxwc.get(i);
                 Context context = this.f63812c;
                 bxvd bxvd = (bxvd) bzlx.mo74142c(i3);
-                bxvd.mo73625a((bxvk) bzlx);
+                bxvd.mo73625a((GeneratedMessageLite) bzlx);
                 LocationShare a3 = aexx.m52668a(context, bxvd, bzln);
                 if (a3 != null) {
                     arrayList.add(a3);

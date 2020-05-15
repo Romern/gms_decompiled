@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: afbm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class afbm extends bxvk implements bxxd {
+public final class afbm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final afbm f64144d;
@@ -22,7 +22,7 @@ public final class afbm extends bxvk implements bxxd {
     static {
         afbm afbm = new afbm();
         f64144d = afbm;
-        bxvk.m124024a(afbm.class, afbm);
+        GeneratedMessageLite.m124024a(afbm.class, afbm);
     }
 
     private afbm() {
@@ -39,7 +39,7 @@ public final class afbm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f64144d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", afbk.f64143a, "c"});
+            return GeneratedMessageLite.m124022a(f64144d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", afbk.f64143a, "c"});
         } else if (i2 == 3) {
             return new afbm();
         } else {

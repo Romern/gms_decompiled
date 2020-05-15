@@ -10,7 +10,7 @@ import java.util.UUID;
 public final class jiy {
 
     /* renamed from: a */
-    public static final sek f22588a = jsy.m17256a("BleBackgroundScanner");
+    public static final Logger f22588a = jsy.m17256a("BleBackgroundScanner");
 
     /* renamed from: b */
     public static final ParcelUuid f22589b = new ParcelUuid(UUID.fromString("0000fe50-0000-1000-8000-00805f9b34fb"));

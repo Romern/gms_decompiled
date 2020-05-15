@@ -11,7 +11,7 @@ public final class amye extends amyd {
     /* renamed from: a */
     public final byte[] mo41557a() {
         amig.m62939a();
-        return cfvk.f185780a.mo6606a().mo83032i().mo73642k();
+        return cfvk.f185780a.mo6606a().mo83032i().serializeToBytes();
     }
 
     /* access modifiers changed from: protected */

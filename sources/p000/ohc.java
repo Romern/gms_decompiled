@@ -188,7 +188,7 @@ public final class ohc extends ojh implements ohb {
         bxvd da = bivc.f121939g.mo74144da();
         byte[] bArr = this.f37609c;
         if (bArr != null) {
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -200,7 +200,7 @@ public final class ohc extends ojh implements ohb {
         }
         byte[] bArr2 = this.f37610d;
         if (bArr2 != null) {
-            bxtx a2 = bxtx.m123261a(bArr2);
+            ByteString a2 = ByteString.m123261a(bArr2);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -212,7 +212,7 @@ public final class ohc extends ojh implements ohb {
         }
         byte[] bArr3 = this.f37611e;
         if (bArr3 != null) {
-            bxtx a3 = bxtx.m123261a(bArr3);
+            ByteString a3 = ByteString.m123261a(bArr3);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -435,7 +435,7 @@ public final class ohc extends ojh implements ohb {
             ofd.m28611a(this.f37622u, "com.google.android.gms.car.VERSION_NEGOTIATION", ofa.FAILED);
             m28721a(true, bpdn.PROTOCOL_INCOMPATIBLE_VERSION, bpdo.BAD_VERSION, "Bad version");
         } else if (i == 6) {
-            bivd bivd = (bivd) bxvk.m124012a(bivd.f121947o, byteBuffer);
+            bivd bivd = (bivd) GeneratedMessageLite.m124012a(bivd.f121947o, byteBuffer);
             if (ccql.m131269d()) {
                 ofd.m28611a(this.f37622u, "com.google.android.gms.car.SDP_NEGOTIATION", ofa.COMPLETED);
             }
@@ -449,7 +449,7 @@ public final class ohc extends ojh implements ohb {
             }
             new adzt(Looper.getMainLooper()).post(new ogd(ogs, bivd, i2, i3));
         } else if (i == 19) {
-            biop biop = (biop) bxvk.m124012a(biop.f121083c, byteBuffer);
+            biop biop = (biop) GeneratedMessageLite.m124012a(biop.f121083c, byteBuffer);
             biou a = biou.m102677a(biop.f121085a);
             if (a == null) {
                 a = biou.AUDIO_FOCUS_STATE_INVALID;
@@ -467,7 +467,7 @@ public final class ohc extends ojh implements ohb {
                 this.f37616j.add(Pair.create(a, Boolean.valueOf(z2)));
             }
         } else if (i == 24) {
-            boolean z3 = ((bipl) bxvk.m124012a(bipl.f121177b, byteBuffer)).f121179a;
+            boolean z3 = ((bipl) GeneratedMessageLite.m124012a(bipl.f121177b, byteBuffer)).f121179a;
             Boolean valueOf = Boolean.valueOf(z3);
             ogx ogx = this.f37615i;
             if (ogx != null) {
@@ -478,7 +478,7 @@ public final class ohc extends ojh implements ohb {
                 this.f37614h.add(valueOf);
             }
         } else if (i == 26) {
-            bive bive = (bive) bxvk.m124012a(bive.f121965c, byteBuffer);
+            bive bive = (bive) GeneratedMessageLite.m124012a(bive.f121965c, byteBuffer);
             ogs ogs2 = this.f37618l;
             bivb bivb = bive.f121968b;
             if (bivb == null) {
@@ -511,7 +511,7 @@ public final class ohc extends ojh implements ohb {
                 m28721a(false, bpdn.PROTOCOL_AUTH_FAILED, bpdo.AUTH_FAILED, "Auth failed");
             }
         } else if (i == 4) {
-            bisf a3 = bisf.m102781a(((biox) bxvk.m124012a(biox.f121113b, byteBuffer)).f121115a);
+            bisf a3 = bisf.m102781a(((biox) GeneratedMessageLite.m124012a(biox.f121113b, byteBuffer)).f121115a);
             if (a3 != bisf.STATUS_SUCCESS) {
                 bnsi b4 = f37607a.mo68387b();
                 b4.mo68432a("ohc", "a", 461, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -539,11 +539,11 @@ public final class ohc extends ojh implements ohb {
                 ohq.mo21285a(this, oka.f37830b, oka.f37831c, oka.f37832d);
             }
         } else if (i == 11) {
-            this.f37619r.mo22139a((bitp) bxvk.m124012a(bitp.f121689e, byteBuffer));
+            this.f37619r.mo22139a((bitp) GeneratedMessageLite.m124012a(bitp.f121689e, byteBuffer));
         } else if (i != 12) {
             switch (i) {
                 case 14:
-                    int i6 = ((bisk) bxvk.m124012a(bisk.f121575b, byteBuffer)).f121577a;
+                    int i6 = ((bisk) GeneratedMessageLite.m124012a(bisk.f121575b, byteBuffer)).f121577a;
                     bisn bisn = bisn.NAV_FOCUS_NATIVE;
                     bisn a4 = bisn.m102792a(i6);
                     if (a4 == null) {
@@ -563,14 +563,14 @@ public final class ohc extends ojh implements ohb {
                     return;
                 case 15:
                     ogz ogz = this.f37621t;
-                    bipi a5 = bipi.m102695a(((bipj) bxvk.m124012a(bipj.f121170c, byteBuffer)).f121173b);
+                    bipi a5 = bipi.m102695a(((bipj) GeneratedMessageLite.m124012a(bipj.f121170c, byteBuffer)).f121173b);
                     if (a5 == null) {
                         a5 = bipi.USER_SELECTION;
                     }
                     ogz.mo22094b(a5);
                     return;
                 case 16:
-                    bipk bipk = (bipk) bxvk.m124012a(bipk.f121175a, byteBuffer);
+                    bipk bipk = (bipk) GeneratedMessageLite.m124012a(bipk.f121175a, byteBuffer);
                     this.f37621t.mo22095c();
                     return;
                 default:
@@ -580,7 +580,7 @@ public final class ohc extends ojh implements ohb {
                     return;
             }
         } else {
-            this.f37619r.mo21235a((bitq) bxvk.m124012a(bitq.f121696d, byteBuffer));
+            this.f37619r.mo21235a((bitq) GeneratedMessageLite.m124012a(bitq.f121696d, byteBuffer));
         }
     }
 

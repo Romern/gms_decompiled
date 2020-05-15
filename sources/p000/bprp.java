@@ -44,7 +44,7 @@ public final class bprp extends bxvd implements bxxd {
         bprq bprq2 = bprq.f138883e;
         str.getClass();
         if (!bprq.f138887c.mo73666a()) {
-            bprq.f138887c = bxvk.m124021a(bprq.f138887c);
+            bprq.f138887c = GeneratedMessageLite.m124021a(bprq.f138887c);
         }
         bprq.f138887c.add(str);
     }

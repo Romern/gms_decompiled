@@ -36,9 +36,9 @@ public final class aeqg {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.Object, java.lang.Object):void */
     public aeqg(Account account, String str, long j) {
-        sdo.m34966a(account, "account");
+        sdo.checkIfNull(account, "account");
         this.f63623a = account;
-        sdo.m34966a((Object) str, (Object) "reason");
+        sdo.checkIfNull((Object) str, (Object) "reason");
         this.f63624b = str;
         this.f63625c = j;
     }

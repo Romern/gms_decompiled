@@ -38,7 +38,7 @@ final /* synthetic */ class bbed implements bqeh {
             return bqga.m112777a((Throwable) a.mo55987a());
         }
         bxvd bxvd = (bxvd) bavu.mo74142c(5);
-        bxvd.mo73625a((bxvk) bavu);
+        bxvd.mo73625a((GeneratedMessageLite) bavu);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

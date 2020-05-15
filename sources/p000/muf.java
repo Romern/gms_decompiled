@@ -16,15 +16,15 @@ final class muf extends BackupManagerMonitor {
     }
 
     public final void onEvent(Bundle bundle) {
-        mug.f34754a.mo25409a("Backup monitor event", new Object[0]);
+        mug.f34754a.logVerbose("Backup monitor event", new Object[0]);
         muc muc = this.f34753a.f34756c;
         if (!ccli.f179330a.mo6606a().mo76271d()) {
-            muc.f34740a.mo25409a("Backup manager monitor logs disabled, not logging", new Object[0]);
+            muc.f34740a.logVerbose("Backup manager monitor logs disabled, not logging", new Object[0]);
             return;
         }
         msz a = lyu.m24686a(bundle);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd == null) {
             muc.f34740a.mo25418e("Error logging monitor event", new Object[0]);
             return;

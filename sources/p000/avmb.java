@@ -11,7 +11,7 @@ import java.lang.reflect.InvocationTargetException;
 public final class avmb {
 
     /* renamed from: c */
-    private static final sek f93367c = avpq.m79016c("SystemUpdatePolicyCompat");
+    private static final Logger f93367c = avpq.m79016c("SystemUpdatePolicyCompat");
 
     /* renamed from: d */
     private static final avmb f93368d = new avmb(0, Long.MAX_VALUE);

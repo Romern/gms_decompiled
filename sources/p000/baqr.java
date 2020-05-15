@@ -7,12 +7,12 @@ import java.util.Arrays;
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
 public final class baqr {
     /* renamed from: a */
-    public static long m87409a(bxtx bxtx) {
+    public static long m87409a(ByteString bxtx) {
         return bxtx.mo73760e().getLong();
     }
 
     /* renamed from: b */
-    public static Long m87413b(bxtx bxtx) {
+    public static Long m87413b(ByteString bxtx) {
         if (bxtx != null) {
             return Long.valueOf(m87409a(bxtx));
         }
@@ -20,15 +20,15 @@ public final class baqr {
     }
 
     /* renamed from: a */
-    public static long m87410a(bxtx bxtx, long j) {
+    public static long m87410a(ByteString bxtx, long j) {
         return bxtx != null ? m87409a(bxtx) : j;
     }
 
     /* renamed from: a */
-    public static bxtx m87411a(long j) {
+    public static ByteString m87411a(long j) {
         ByteBuffer putLong = ByteBuffer.allocate(8).putLong(j);
         putLong.flip();
-        return bxtx.m123263b(putLong);
+        return ByteString.m123263b(putLong);
     }
 
     /* renamed from: a */

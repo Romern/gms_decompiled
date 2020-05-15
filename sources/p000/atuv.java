@@ -58,7 +58,7 @@ public final class atuv extends atvb {
             bundle.putBoolean("data_warm_welcome_required", !TextUtils.equals("true", asiu.m74180a("seen_warm_welcome", this.f90985d, this.f90944a.f89125c)));
             btjq btjq = this.f90947h;
             if (btjq != null) {
-                bundle.putByteArray("data_orchestration_verify_token", btjq.f149166c.mo73780k());
+                bundle.putByteArray("data_orchestration_verify_token", btjq.f149166c.getKey());
             }
             if (TextUtils.isEmpty(this.f90945b)) {
                 return bundle;
@@ -90,7 +90,7 @@ public final class atuv extends atvb {
                 message = Message.obtain((Handler) null, this.f90988g);
                 btnf btnf = this.f90987f;
                 if (btnf != null) {
-                    bArr = btnf.mo73642k();
+                    bArr = btnf.serializeToBytes();
                 }
                 bundle = new Bundle();
                 bundle.putByteArray("tap_and_pay_api_error", bArr);

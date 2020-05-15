@@ -162,7 +162,7 @@ public class SourceLogManager implements Parcelable {
         for (int i = 0; i < size; i++) {
             byte[] bArr = (byte[]) arrayList.get(i);
             try {
-                this.f108006d.add((bovw) bxvk.m124016a(bovw.f135063l, bArr, bxus.m123744c()));
+                this.f108006d.add((bovw) GeneratedMessageLite.m124016a(bovw.f135063l, bArr, bxus.m123744c()));
             } catch (bxwf e) {
                 f108003a.mo25417e("Failed to unparcel mEventQueue with %s", e, new Object[0]);
             }

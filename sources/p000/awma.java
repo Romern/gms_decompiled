@@ -547,7 +547,7 @@ public final class awma extends awzg implements View.OnClickListener, bkio, bjem
                 bwjn bwjn3 = (bwjn) da.f164949b;
                 c.getClass();
                 if (!bwjn3.f159836f.mo73666a()) {
-                    bwjn3.f159836f = bxvk.m124021a(bwjn3.f159836f);
+                    bwjn3.f159836f = GeneratedMessageLite.m124021a(bwjn3.f159836f);
                 }
                 bwjn3.f159836f.add(c);
             }
@@ -571,11 +571,11 @@ public final class awma extends awzg implements View.OnClickListener, bkio, bjem
         }
         bwjn bwjn5 = (bwjn) da.f164949b;
         if (!bwjn5.f159834d.mo73666a()) {
-            bwjn5.f159834d = bxvk.m124021a(bwjn5.f159834d);
+            bwjn5.f159834d = GeneratedMessageLite.m124021a(bwjn5.f159834d);
         }
         bxsy.m123078a(asList, bwjn5.f159834d);
         if (bArr != null) {
-            bxtx a4 = bxtx.m123261a(bArr);
+            ByteString a4 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -684,7 +684,7 @@ public final class awma extends awzg implements View.OnClickListener, bkio, bjem
             } else {
                 bmmp2 = bmmp.f130032e;
             }
-            mo52895f((bwjn) mo52885b(Bundle.EMPTY, bmmp2.f130037d.mo73780k(), (List) null));
+            mo52895f((bwjn) mo52885b(Bundle.EMPTY, bmmp2.f130037d.getKey(), (List) null));
             return;
         }
         mo52817Q();

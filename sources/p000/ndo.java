@@ -37,7 +37,7 @@ public final class ndo {
                 a.f164950c = false;
             }
             lth lth = lth.f32914q;
-            ((lth) a.f164949b).f32926k = bxvk.m124030de();
+            ((lth) a.f164949b).f32926k = GeneratedMessageLite.m124030de();
             for (String str3 : strArr) {
                 bxvd da = lsz.f32870k.mo74144da();
                 if (da.f164950c) {
@@ -111,18 +111,18 @@ public final class ndo {
                             z2 = a3 == 3;
                         }
                         bmxy.m108589a(z2, "We only support WRAPPED_AES_256_GCM");
-                        bxtx bxtx = lss.f32854b;
+                        ByteString bxtx = lss.f32854b;
                         bxus b = bxus.m123743b();
                         mde mde2 = mde.f33472f;
                         try {
                             bxuc h = bxtx.mo73764h();
-                            bxvk bxvk = (bxvk) mde2.mo74142c(4);
-                            bxxv a4 = bxxm.f165037a.mo74228a(bxvk);
-                            a4.mo74220a(bxvk, bxud.m123454a(h), b);
-                            a4.mo74225d(bxvk);
+                            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) mde2.mo74142c(4);
+                            bxxv a4 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                            a4.mo74220a(GeneratedMessageLite, bxud.m123454a(h), b);
+                            a4.mo74225d(GeneratedMessageLite);
                             h.mo73787a(0);
-                            bxvk.m124027b(bxvk);
-                            mde = (mde) bxvk;
+                            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                            mde = (mde) GeneratedMessageLite;
                         } catch (IOException e) {
                             if (!(e.getCause() instanceof bxwf)) {
                                 throw new bxwf(e.getMessage());
@@ -178,7 +178,7 @@ public final class ndo {
                                     String str4 = ltr.f32985b;
                                     if (!str4.startsWith("_tmp_")) {
                                         if ((ltr.f32984a & 2) != 0) {
-                                            hashMap.put(str4, ltr.f32986c.mo73780k());
+                                            hashMap.put(str4, ltr.f32986c.getKey());
                                         } else {
                                             hashMap.put(str4, null);
                                         }

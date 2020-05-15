@@ -81,7 +81,7 @@ public final class asfy extends asen {
                                     Integer num = (Integer) asfz.f88885e.first;
                                     borf borf2 = (borf) asfz.f88885e.second;
                                     bxvd bxvd = (bxvd) borf2.mo74142c(5);
-                                    bxvd.mo73625a((bxvk) borf2);
+                                    bxvd.mo73625a((GeneratedMessageLite) borf2);
                                     long a = asga.f88888b.mo49147a(Long.parseLong(asgb4.mo49145b("duration")));
                                     if (bxvd.f164950c) {
                                         bxvd.mo74035c();
@@ -222,7 +222,7 @@ public final class asfy extends asen {
                                 }
                                 borf borf5 = (borf) da2.f164949b;
                                 if (!borf5.f134401b.mo73666a()) {
-                                    borf5.f134401b = bxvk.m124021a(borf5.f134401b);
+                                    borf5.f134401b = GeneratedMessageLite.m124021a(borf5.f134401b);
                                 }
                                 bxsy.m123078a(asList, borf5.f134401b);
                                 String b6 = asgb3.mo49145b("set");
@@ -359,7 +359,7 @@ public final class asfy extends asen {
                                             bore bore32 = (bore) da4.mo74062i();
                                             bore32.getClass();
                                             if (borf.f134402c.mo73666a()) {
-                                                borf.f134402c = bxvk.m124021a(borf.f134402c);
+                                                borf.f134402c = GeneratedMessageLite.m124021a(borf.f134402c);
                                             }
                                             borf.f134402c.add(bore32);
                                             i++;
@@ -419,7 +419,7 @@ public final class asfy extends asen {
                 bork bork2 = (bork) da5.f164949b;
                 borg.getClass();
                 if (!bork2.f134424b.mo73666a()) {
-                    bork2.f134424b = bxvk.m124021a(bork2.f134424b);
+                    bork2.f134424b = GeneratedMessageLite.m124021a(bork2.f134424b);
                 }
                 bork2.f134424b.add(borg);
             }
@@ -433,7 +433,7 @@ public final class asfy extends asen {
                 bork bork3 = (bork) da5.f164949b;
                 borg2.getClass();
                 if (!bork3.f134425c.mo73666a()) {
-                    bork3.f134425c = bxvk.m124021a(bork3.f134425c);
+                    bork3.f134425c = GeneratedMessageLite.m124021a(bork3.f134425c);
                 }
                 bork3.f134425c.add(borg2);
             }

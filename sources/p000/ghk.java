@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ghk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ghk extends bxvk implements bxxd {
+public final class ghk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final ghk f18253f;
@@ -28,7 +28,7 @@ public final class ghk extends bxvk implements bxxd {
     static {
         ghk ghk = new ghk();
         f18253f = ghk;
-        bxvk.m124024a(ghk.class, ghk);
+        GeneratedMessageLite.m124024a(ghk.class, ghk);
     }
 
     private ghk() {
@@ -45,7 +45,7 @@ public final class ghk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f18253f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002စ\u0001\u0003ဈ\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f18253f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002စ\u0001\u0003ဈ\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new ghk();
         } else {

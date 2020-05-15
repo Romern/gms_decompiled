@@ -21,7 +21,7 @@ public final /* synthetic */ class bbcc implements bqeh {
         Void voidR = (Void) obj;
         bbav bbav = bbch.f102317d;
         bxvd bxvd = (bxvd) bavr.mo74142c(5);
-        bxvd.mo73625a((bxvk) bavr);
+        bxvd.mo73625a((GeneratedMessageLite) bavr);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

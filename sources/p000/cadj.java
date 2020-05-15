@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cadj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cadj extends bxvk implements bxxd {
+public final class cadj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final cadj f172680i;
@@ -37,7 +37,7 @@ public final class cadj extends bxvk implements bxxd {
     static {
         cadj cadj = new cadj();
         f172680i = cadj;
-        bxvk.m124024a(cadj.class, cadj);
+        GeneratedMessageLite.m124024a(cadj.class, cadj);
     }
 
     private cadj() {
@@ -54,7 +54,7 @@ public final class cadj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172680i, "\u0001\u0007\u0000\u0001\u0001\b\u0007\u0000\u0001\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0004ဉ\u0003\u0005င\u0004\u0006\u001b\u0007ဌ\u0005\bဇ\u0006", new Object[]{"a", "b", "c", "d", "e", "f", cadp.class, "g", cadl.m126502b(), "h"});
+            return GeneratedMessageLite.m124022a(f172680i, "\u0001\u0007\u0000\u0001\u0001\b\u0007\u0000\u0001\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0004ဉ\u0003\u0005င\u0004\u0006\u001b\u0007ဌ\u0005\bဇ\u0006", new Object[]{"a", "b", "c", "d", "e", "f", cadp.class, "g", cadl.m126502b(), "h"});
         } else if (i2 == 3) {
             return new cadj();
         } else {
@@ -81,7 +81,7 @@ public final class cadj extends bxvk implements bxxd {
     /* renamed from: c */
     public final void mo74611c() {
         if (!this.f172687f.mo73666a()) {
-            this.f172687f = bxvk.m124021a(this.f172687f);
+            this.f172687f = GeneratedMessageLite.m124021a(this.f172687f);
         }
     }
 }

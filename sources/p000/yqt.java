@@ -76,7 +76,7 @@ public final class yqt extends yqr {
         } else if (yyk.m45020a(cadn, this.f54439e, this.f54437c)) {
             cadn a = yyk.m45010a(mo30664c());
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             cadm cadm = (cadm) bxvd;
             long a2 = bqcx.m112609a(yyk.m45024c(cadn, this.f54439e, this.f54437c));
             if (a2 > 2147483647L) {

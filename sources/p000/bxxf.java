@@ -64,7 +64,7 @@ final class bxxf implements bxxv {
         this.f165020d = objArr;
         this.f165021e = i;
         this.f165022f = i2;
-        this.f165025i = bxxc instanceof bxvk;
+        this.f165025i = bxxc instanceof GeneratedMessageLite;
         this.f165026j = z;
         boolean z2 = false;
         if (bxut != null && (bxxc instanceof bxvg)) {
@@ -419,11 +419,11 @@ final class bxxf implements bxxv {
                         break;
                     } else {
                         Object object = unsafe.getObject(obj, i8);
-                        if (!(object instanceof bxtx)) {
+                        if (!(object instanceof ByteString)) {
                             i2 += bxuk.m123639b(d, (String) object);
                             break;
                         } else {
-                            i2 += bxuk.m123642c(d, (bxtx) object);
+                            i2 += bxuk.m123642c(d, (ByteString) object);
                             break;
                         }
                     }
@@ -438,7 +438,7 @@ final class bxxf implements bxxv {
                     if ((i3 & i) == 0) {
                         break;
                     } else {
-                        i2 += bxuk.m123642c(d, (bxtx) unsafe.getObject(obj, i8));
+                        i2 += bxuk.m123642c(d, (ByteString) unsafe.getObject(obj, i8));
                         break;
                     }
                 case 11:
@@ -720,11 +720,11 @@ final class bxxf implements bxxv {
                         break;
                     } else {
                         Object object2 = unsafe.getObject(obj, i8);
-                        if (!(object2 instanceof bxtx)) {
+                        if (!(object2 instanceof ByteString)) {
                             i2 += bxuk.m123639b(d, (String) object2);
                             break;
                         } else {
-                            i2 += bxuk.m123642c(d, (bxtx) object2);
+                            i2 += bxuk.m123642c(d, (ByteString) object2);
                             break;
                         }
                     }
@@ -739,7 +739,7 @@ final class bxxf implements bxxv {
                     if (!m124187a(obj, d, i5)) {
                         break;
                     } else {
-                        i2 += bxuk.m123642c(d, (bxtx) unsafe.getObject(obj, i8));
+                        i2 += bxuk.m123642c(d, (ByteString) unsafe.getObject(obj, i8));
                         break;
                     }
                 case 62:
@@ -883,11 +883,11 @@ final class bxxf implements bxxv {
                         break;
                     } else {
                         Object f = bxyx.m124518f(obj, i3);
-                        if (!(f instanceof bxtx)) {
+                        if (!(f instanceof ByteString)) {
                             i += bxuk.m123639b(d, (String) f);
                             break;
                         } else {
-                            i += bxuk.m123642c(d, (bxtx) f);
+                            i += bxuk.m123642c(d, (ByteString) f);
                             break;
                         }
                     }
@@ -902,7 +902,7 @@ final class bxxf implements bxxv {
                     if (!m124186a(obj, i2)) {
                         break;
                     } else {
-                        i += bxuk.m123642c(d, (bxtx) bxyx.m124518f(obj, i3));
+                        i += bxuk.m123642c(d, (ByteString) bxyx.m124518f(obj, i3));
                         break;
                     }
                 case 11:
@@ -1184,11 +1184,11 @@ final class bxxf implements bxxv {
                         break;
                     } else {
                         Object f3 = bxyx.m124518f(obj, i3);
-                        if (!(f3 instanceof bxtx)) {
+                        if (!(f3 instanceof ByteString)) {
                             i += bxuk.m123639b(d, (String) f3);
                             break;
                         } else {
-                            i += bxuk.m123642c(d, (bxtx) f3);
+                            i += bxuk.m123642c(d, (ByteString) f3);
                             break;
                         }
                     }
@@ -1203,7 +1203,7 @@ final class bxxf implements bxxv {
                     if (!m124187a(obj, d, i2)) {
                         break;
                     } else {
-                        i += bxuk.m123642c(d, (bxtx) bxyx.m124518f(obj, i3));
+                        i += bxuk.m123642c(d, (ByteString) bxyx.m124518f(obj, i3));
                         break;
                     }
                 case 62:
@@ -1273,13 +1273,13 @@ final class bxxf implements bxxv {
 
     /* renamed from: c */
     static bxyo m124200c(Object obj) {
-        bxvk bxvk = (bxvk) obj;
-        bxyo bxyo = bxvk.f164960ah;
+        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) obj;
+        bxyo bxyo = GeneratedMessageLite.f164960ah;
         if (bxyo != bxyo.f165102a) {
             return bxyo;
         }
         bxyo a = bxyo.m124424a();
-        bxvk.f164960ah = a;
+        GeneratedMessageLite.f164960ah = a;
         return a;
     }
 
@@ -1544,7 +1544,7 @@ final class bxxf implements bxxv {
                             if ((i2 & i5) == 0) {
                                 break;
                             } else {
-                                bxul2.mo73878a(d, (bxtx) unsafe.getObject(obj2, i8));
+                                bxul2.mo73878a(d, (ByteString) unsafe.getObject(obj2, i8));
                                 break;
                             }
                         case 11:
@@ -1769,7 +1769,7 @@ final class bxxf implements bxxv {
                             if (!m124187a(obj2, d, i)) {
                                 break;
                             } else {
-                                bxul2.mo73878a(d, (bxtx) unsafe.getObject(obj2, i8));
+                                bxul2.mo73878a(d, (ByteString) unsafe.getObject(obj2, i8));
                                 break;
                             }
                         case 62:
@@ -2154,10 +2154,10 @@ final class bxxf implements bxxv {
                         throw bxwf.m124089b();
                     } else if (i32 <= bArr2.length - a17) {
                         if (i32 != 0) {
-                            bxwc.add(bxtx.m123262a(bArr2, a17, i32));
+                            bxwc.add(ByteString.m123262a(bArr2, a17, i32));
                             a17 += i32;
                         } else {
-                            bxwc.add(bxtx.f164797b);
+                            bxwc.add(ByteString.f164797b);
                         }
                         while (i8 < i11) {
                             int a18 = bxtg.m123141a(bArr2, i8, bxtf2);
@@ -2171,10 +2171,10 @@ final class bxxf implements bxxv {
                             } else if (i33 > bArr2.length - i8) {
                                 throw bxwf.m124088a();
                             } else if (i33 != 0) {
-                                bxwc.add(bxtx.m123262a(bArr2, i8, i33));
+                                bxwc.add(ByteString.m123262a(bArr2, i8, i33));
                                 i8 += i33;
                             } else {
-                                bxwc.add(bxtx.f164797b);
+                                bxwc.add(ByteString.f164797b);
                             }
                         }
                         return i8;
@@ -2190,8 +2190,8 @@ final class bxxf implements bxxv {
                 } else if (i13 == 0) {
                     i9 = bxtg.m123134a(i3, bArr, i, i2, bxwc, bxtf);
                 }
-                bxvk bxvk = (bxvk) obj2;
-                bxyo bxyo = bxvk.f164960ah;
+                GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) obj2;
+                bxyo bxyo = GeneratedMessageLite.f164960ah;
                 if (bxyo == bxyo.f165102a) {
                     bxyo = null;
                 }
@@ -2199,7 +2199,7 @@ final class bxxf implements bxxv {
                 if (bxyo2 == null) {
                     return i9;
                 }
-                bxvk.f164960ah = bxyo2;
+                GeneratedMessageLite.f164960ah = bxyo2;
                 return i9;
             case 33:
             case 47:
@@ -3838,7 +3838,7 @@ final class bxxf implements bxxv {
                     if (obj2 == null) {
                         obj2 = bxyo.m124424a();
                     }
-                    bxts e = bxtx.m123269e(bxwv.m124133a(a, entry.getKey(), entry.getValue()));
+                    bxts e = ByteString.m123269e(bxwv.m124133a(a, entry.getKey(), entry.getValue()));
                     try {
                         bxwv.m124135a(e.f164787a, a, entry.getKey(), entry.getValue());
                         ((bxyo) obj2).mo74283a(bxzh.m124562a(d, 2), e.mo73749a());
@@ -3886,7 +3886,7 @@ final class bxxf implements bxxv {
         if (obj instanceof String) {
             bxul.mo73881a(i, (String) obj);
         } else {
-            bxul.mo73878a(i, (bxtx) obj);
+            bxul.mo73878a(i, (ByteString) obj);
         }
     }
 
@@ -3960,14 +3960,14 @@ final class bxxf implements bxxv {
                 if (f2 instanceof String) {
                     return !((String) f2).isEmpty();
                 }
-                if (f2 instanceof bxtx) {
-                    return !bxtx.f164797b.equals(f2);
+                if (f2 instanceof ByteString) {
+                    return !ByteString.f164797b.equals(f2);
                 }
                 throw new IllegalArgumentException();
             case 9:
                 return bxyx.m124518f(obj, i2) != null;
             case 10:
-                return !bxtx.f164797b.equals(bxyx.m124518f(obj, i2));
+                return !ByteString.f164797b.equals(bxyx.m124518f(obj, i2));
             case 11:
                 return bxyx.m124494a(obj, i2) != 0;
             case 12:
@@ -5164,7 +5164,7 @@ final class bxxf implements bxxv {
 
     /* renamed from: a */
     public final Object mo74218a() {
-        return ((bxvk) this.f165023g).mo74142c(4);
+        return ((GeneratedMessageLite) this.f165023g).mo74142c(4);
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
@@ -5277,7 +5277,7 @@ final class bxxf implements bxxv {
                                 if (!m124186a(obj, i)) {
                                     break;
                                 } else {
-                                    bxul.mo73878a(d, (bxtx) bxyx.m124518f(obj, m124214i(e)));
+                                    bxul.mo73878a(d, (ByteString) bxyx.m124518f(obj, m124214i(e)));
                                     break;
                                 }
                             case 11:
@@ -5502,7 +5502,7 @@ final class bxxf implements bxxv {
                                 if (!m124187a(obj, d, i)) {
                                     break;
                                 } else {
-                                    bxul.mo73878a(d, (bxtx) bxyx.m124518f(obj, m124214i(e)));
+                                    bxul.mo73878a(d, (ByteString) bxyx.m124518f(obj, m124214i(e)));
                                     break;
                                 }
                             case 62:

@@ -26,17 +26,17 @@ final class ades implements adex {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ bxxc mo33395a() {
         adff a = this.f61518c.f61522d.mo33416a();
-        byte[] k = a.f61547a.mo73642k();
+        byte[] k = a.f61547a.serializeToBytes();
         if (k.length != 0 || !cepl.f183185a.mo6606a().mo79545p()) {
             bxvd da = btis.f149029f.mo74144da();
-            bxtx a2 = bxtx.m123261a(k);
+            ByteString a2 = ByteString.m123261a(k);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
             }
             a2.getClass();
             ((btis) da.f164949b).f149034d = a2;
-            long a3 = spn.m35843a(this.f61518c.f61520b);
+            long a3 = spn.getAndroidId(this.f61518c.f61520b);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

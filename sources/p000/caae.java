@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caae */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caae extends bxvk implements caaf {
+public final class caae extends GeneratedMessageLite implements caaf {
 
     /* renamed from: i */
     public static final caae f172323i;
@@ -37,7 +37,7 @@ public final class caae extends bxvk implements caaf {
     static {
         caae caae = new caae();
         f172323i = caae;
-        bxvk.m124024a(caae.class, caae);
+        GeneratedMessageLite.m124024a(caae.class, caae);
     }
 
     private caae() {
@@ -55,7 +55,7 @@ public final class caae extends bxvk implements caaf {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172323i, "\u0001\u0007\u0000\u0001\u0001\t\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0004ဈ\u0001\u0005ဈ\u0002\u0006ဌ\u0003\u0007ဉ\u0004\bဉ\u0005\tဉ\u0006", new Object[]{"a", "b", "c", "d", "e", caad.m126391b(), "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f172323i, "\u0001\u0007\u0000\u0001\u0001\t\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0004ဈ\u0001\u0005ဈ\u0002\u0006ဌ\u0003\u0007ဉ\u0004\bဉ\u0005\tဉ\u0006", new Object[]{"a", "b", "c", "d", "e", caad.m126391b(), "f", "g", "h"});
         } else if (i2 == 3) {
             return new caae();
         } else {

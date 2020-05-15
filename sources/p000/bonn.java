@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bonn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bonn extends bxvk implements bxxd {
+public final class bonn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bonn f133826e;
@@ -25,7 +25,7 @@ public final class bonn extends bxvk implements bxxd {
     static {
         bonn bonn = new bonn();
         f133826e = bonn;
-        bxvk.m124024a(bonn.class, bonn);
+        GeneratedMessageLite.m124024a(bonn.class, bonn);
     }
 
     private bonn() {
@@ -42,7 +42,7 @@ public final class bonn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133826e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001\u001b\u0003ဇ\u0000\u0004ဇ\u0001", new Object[]{"a", "b", bonl.class, "c", "d"});
+            return GeneratedMessageLite.m124022a(f133826e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001\u001b\u0003ဇ\u0000\u0004ဇ\u0001", new Object[]{"a", "b", bonl.class, "c", "d"});
         } else if (i2 == 3) {
             return new bonn();
         } else {

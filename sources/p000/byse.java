@@ -185,7 +185,7 @@ public final class byse {
     /* renamed from: b */
     private final PublicKey m125249b(byte[] bArr) {
         try {
-            return bysu.m125293a((bytb) bxvk.m124014a(bytb.f167639f, bArr));
+            return bysu.m125293a((bytb) GeneratedMessageLite.m124014a(bytb.f167639f, bArr));
         } catch (bxwf | InvalidKeySpecException e) {
             String valueOf = String.valueOf(e.getMessage());
             m125242a((int) ErrorInfo.TYPE_SDU_FAILED, valueOf.length() == 0 ? new String("Cannot parse public key: ") : "Cannot parse public key: ".concat(valueOf));
@@ -326,7 +326,7 @@ public final class byse {
         bysh bysh;
         if ((bysp.f167590a & 2) != 0) {
             try {
-                bysh = (bysh) bxvk.m124007a(bysh.f167565d, bysp.f167592c);
+                bysh = (bysh) GeneratedMessageLite.m124007a(bysh.f167565d, bysp.f167592c);
             } catch (bxwf e) {
                 m125246a("Cannot parse alert message", e);
                 bysh = null;
@@ -396,7 +396,7 @@ public final class byse {
         if (bArr == null || bArr.length == 0) {
             m125251c("Cannot send empty message data for non-alert messages");
         }
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -405,7 +405,7 @@ public final class byse {
         a.getClass();
         bysp2.f167590a |= 2;
         bysp2.f167592c = a;
-        return ((bysp) da.mo74062i()).mo73642k();
+        return ((bysp) da.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: a */
@@ -427,7 +427,7 @@ public final class byse {
             throw null;
         } else if (i2 == 1) {
             try {
-                bysp = (bysp) bxvk.m124014a(bysp.f167588d, bArr3);
+                bysp = (bysp) GeneratedMessageLite.m124014a(bysp.f167588d, bArr3);
             } catch (bxwf e) {
                 String valueOf = String.valueOf(e.getMessage());
                 m125242a(1, valueOf.length() == 0 ? new String("Can't parse message 2 ") : "Can't parse message 2 ".concat(valueOf));
@@ -449,7 +449,7 @@ public final class byse {
                 m125242a(4, "Expected message data, but didn't find it");
             }
             try {
-                bysq = (bysq) bxvk.m124007a(bysq.f167593f, bysp.f167592c);
+                bysq = (bysq) GeneratedMessageLite.m124007a(bysq.f167593f, bysp.f167592c);
             } catch (bxwf e2) {
                 m125242a(4, "Can't parse message data into ServerInit");
                 bysq = null;
@@ -463,7 +463,7 @@ public final class byse {
             if ((bysq.f167595a & 2) == 0) {
                 m125242a(101, "ServerInit missing random");
             }
-            if (bysq.f167597c.mo73780k().length != 32) {
+            if (bysq.f167597c.getKey().length != 32) {
                 m125242a(101, "ServerInit has incorrect nonce length");
             }
             if ((bysq.f167595a & 4) == 0) {
@@ -494,12 +494,12 @@ public final class byse {
             if ((bysq.f167595a & 8) == 0) {
                 m125242a((int) ErrorInfo.TYPE_SDU_FAILED, "No public key found in ServerInit");
             }
-            this.f167557d = m125249b(bysq.f167599e.mo73780k());
+            this.f167557d = m125249b(bysq.f167599e.getKey());
             this.f167561h = bArr3;
             this.f167563j = 3;
         } else if (i2 == 3) {
             try {
-                bysp2 = (bysp) bxvk.m124014a(bysp.f167588d, bArr3);
+                bysp2 = (bysp) GeneratedMessageLite.m124014a(bysp.f167588d, bArr3);
             } catch (bxwf e3) {
                 String valueOf2 = String.valueOf(e3.getMessage());
                 m125242a(1, valueOf2.length() == 0 ? new String("Can't parse message 1 ") : "Can't parse message 1 ".concat(valueOf2));
@@ -512,7 +512,7 @@ public final class byse {
                 m125242a(4, "Expected message data, but didn't find it");
             }
             try {
-                bysk = (bysk) bxvk.m124007a(bysk.f167579f, bysp2.f167592c);
+                bysk = (bysk) GeneratedMessageLite.m124007a(bysk.f167579f, bysp2.f167592c);
             } catch (bxwf e4) {
                 m125242a(4, "Can't parse message data into ClientInit");
             }
@@ -525,7 +525,7 @@ public final class byse {
             if ((bysk.f167581a & 2) == 0) {
                 m125242a(101, "ClientInit missing random");
             }
-            if (bysk.f167583c.mo73780k().length != 32) {
+            if (bysk.f167583c.getKey().length != 32) {
                 m125242a(101, "ClientInit has incorrect nonce length");
             }
             bxwc bxwc = bysk.f167584d;
@@ -544,7 +544,7 @@ public final class byse {
                     a5 = 1;
                 }
                 if (a5 == this.f167555b.f167553b) {
-                    this.f167559f = bysj.f167578c.mo73780k();
+                    this.f167559f = bysj.f167578c.getKey();
                 }
             }
             if (this.f167559f == null) {
@@ -563,7 +563,7 @@ public final class byse {
             m125250b(sb.toString());
         } else {
             try {
-                bysp3 = (bysp) bxvk.m124014a(bysp.f167588d, bArr3);
+                bysp3 = (bysp) GeneratedMessageLite.m124014a(bysp.f167588d, bArr3);
             } catch (bxwf e5) {
                 m125246a("Can't parse message 3", e5);
                 bysp3 = null;
@@ -590,7 +590,7 @@ public final class byse {
                     m125245a("Expected message data, but didn't find it");
                 }
                 try {
-                    bysi = (bysi) bxvk.m124007a(bysi.f167570c, bysp3.f167592c);
+                    bysi = (bysi) GeneratedMessageLite.m124007a(bysi.f167570c, bysp3.f167592c);
                 } catch (bxwf e6) {
                     m125244a(e6);
                 }
@@ -598,7 +598,7 @@ public final class byse {
                     m125245a("No public key found in ClientFinished");
                 }
                 try {
-                    this.f167557d = m125249b(bysi.f167573b.mo73780k());
+                    this.f167557d = m125249b(bysi.f167573b.getKey());
                 } catch (bysb e7) {
                     m125244a(e7);
                 }
@@ -625,7 +625,7 @@ public final class byse {
             bysk bysk = (bysk) da.f164949b;
             bysk.f167581a |= 1;
             bysk.f167582b = 1;
-            bxtx a = bxtx.m123261a(m125253e());
+            ByteString a = ByteString.m123261a(m125253e());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -639,9 +639,9 @@ public final class byse {
             bysk2.f167581a = 4 | i3;
             bysk2.f167585e = "AES_256_CBC-HMAC_SHA256";
             if (!this.f167554a.containsKey(bysc.P256_SHA512)) {
-                byte[] k = bysu.m125290a(this.f167556c.getPublic()).mo73642k();
+                byte[] k = bysu.m125290a(this.f167556c.getPublic()).serializeToBytes();
                 bxvd da2 = bysi.f167570c.mo74144da();
-                bxtx a2 = bxtx.m123261a(k);
+                ByteString a2 = ByteString.m123261a(k);
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -650,7 +650,7 @@ public final class byse {
                 a2.getClass();
                 bysi.f167572a |= 1;
                 bysi.f167573b = a2;
-                this.f167554a.put(bysc.P256_SHA512, m125247a(5, ((bysi) da2.mo74062i()).mo73642k()));
+                this.f167554a.put(bysc.P256_SHA512, m125247a(5, ((bysi) da2.mo74062i()).serializeToBytes()));
                 bysi bysi2 = (bysi) da2.mo74062i();
             }
             bxvd da3 = bysj.f167574d.mo74144da();
@@ -661,7 +661,7 @@ public final class byse {
             bysj bysj = (bysj) da3.f164949b;
             bysj.f167577b = 100;
             bysj.f167576a |= 1;
-            bxtx a3 = bxtx.m123261a(m125252c((byte[]) this.f167554a.get(bysc.P256_SHA512)));
+            ByteString a3 = ByteString.m123261a(m125252c((byte[]) this.f167554a.get(bysc.P256_SHA512)));
             if (da3.f164950c) {
                 da3.mo74035c();
                 da3.f164950c = false;
@@ -678,10 +678,10 @@ public final class byse {
             bysk bysk3 = (bysk) da.f164949b;
             bysj3.getClass();
             if (!bysk3.f167584d.mo73666a()) {
-                bysk3.f167584d = bxvk.m124021a(bysk3.f167584d);
+                bysk3.f167584d = GeneratedMessageLite.m124021a(bysk3.f167584d);
             }
             bysk3.f167584d.add(bysj3);
-            byte[] a4 = m125247a(3, ((bysk) da.mo74062i()).mo73642k());
+            byte[] a4 = m125247a(3, ((bysk) da.mo74062i()).serializeToBytes());
             this.f167560g = a4;
             this.f167563j = 2;
             return a4;
@@ -712,7 +712,7 @@ public final class byse {
             bysq bysq = (bysq) da4.f164949b;
             bysq.f167595a |= 1;
             bysq.f167596b = 1;
-            bxtx a6 = bxtx.m123261a(m125253e());
+            ByteString a6 = ByteString.m123261a(m125253e());
             if (da4.f164950c) {
                 da4.mo74035c();
                 da4.f164950c = false;
@@ -727,7 +727,7 @@ public final class byse {
             if (i5 != 0) {
                 bysq2.f167598d = i6;
                 bysq2.f167595a = i4 | 4;
-                bxtx aL = bysu.m125290a(this.f167556c.getPublic()).mo73639aL();
+                ByteString aL = bysu.m125290a(this.f167556c.getPublic()).mo73639aL();
                 if (da4.f164950c) {
                     da4.mo74035c();
                     da4.f164950c = false;
@@ -736,7 +736,7 @@ public final class byse {
                 aL.getClass();
                 bysq3.f167595a |= 8;
                 bysq3.f167599e = aL;
-                byte[] a7 = m125247a(4, ((bysq) da4.mo74062i()).mo73642k());
+                byte[] a7 = m125247a(4, ((bysq) da4.mo74062i()).serializeToBytes());
                 this.f167561h = a7;
                 this.f167563j = 6;
                 return a7;

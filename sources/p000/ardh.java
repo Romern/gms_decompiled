@@ -25,12 +25,12 @@ final class ardh implements Runnable {
             aucb2.mo50380a(new sty(ardn.f87077f), new ardf(ardn));
         }
         if (asbu.m73761a(ardn.f87453q)) {
-            ardn.f87438h.mo25409a("Starting account transfer (3p mfm)", new Object[0]);
+            ardn.f87438h.logVerbose("Starting account transfer (3p mfm)", new Object[0]);
             ardn.f87458v = ardn.f87450n.mo48204a(ardn.f87445i, ardn.f87446j, ardn.f87461y, ardn.f87454r.booleanValue(), ardn.f87453q.f107836i);
             ardn.f87458v.mo48334a();
             return;
         }
-        ardn.f87438h.mo25409a("Starting account transfer", new Object[0]);
+        ardn.f87438h.logVerbose("Starting account transfer", new Object[0]);
         ardn.f87457u = ardn.f87450n.mo48205a(ardn.f87445i, ardn.f87446j, ardn.f87461y, ardn.f87455s, ardn.f87454r.booleanValue(), ardn.f87448l.f107816h);
         ardn.f87457u.mo48344a();
     }

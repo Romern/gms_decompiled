@@ -261,8 +261,8 @@ public final class avvl {
         for (Map.Entry entry2 : hashMap.entrySet()) {
             calo calo3 = (calo) map.get(entry2.getKey());
             bngx a32 = bngx.m109368a((Collection) entry2.getValue());
-            sdo.m34966a(calo3, "Account Consents proto cannot be null");
-            b.mo51611a(new ConsentInformation.AccountConsentInformation((String) entry2.getKey(), calo3.mo73642k(), a32));
+            sdo.checkIfNull(calo3, "Account Consents proto cannot be null");
+            b.mo51611a(new ConsentInformation.AccountConsentInformation((String) entry2.getKey(), calo3.serializeToBytes(), a32));
         }
         try {
             avup.mo51616a(Status.f30107a, !hashMap.isEmpty(), b.mo51610a());
@@ -360,7 +360,7 @@ public final class avvl {
         List<Account> d = soz.m35801d(context2, context.getPackageName());
         if (!d.isEmpty()) {
             bxvd bxvd = (bxvd) calo7.mo74142c(5);
-            bxvd.mo73625a((bxvk) calo7);
+            bxvd.mo73625a((GeneratedMessageLite) calo7);
             boolean a = chdt.f188503a.mo6606a().mo85152a();
             for (Account account : d) {
                 if (!a) {

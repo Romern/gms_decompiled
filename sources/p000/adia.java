@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adia */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adia extends bxvk implements bxxd {
+public final class adia extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final adia f61759b;
@@ -16,7 +16,7 @@ public final class adia extends bxvk implements bxxd {
     static {
         adia adia = new adia();
         f61759b = adia;
-        bxvk.m124024a(adia.class, adia);
+        GeneratedMessageLite.m124024a(adia.class, adia);
     }
 
     private adia() {
@@ -33,7 +33,7 @@ public final class adia extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61759b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0002", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f61759b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0002", new Object[]{"a"});
         } else if (i2 == 3) {
             return new adia();
         } else {

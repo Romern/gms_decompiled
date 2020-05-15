@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bitq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bitq extends bxvk implements bxxd {
+public final class bitq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bitq f121696d;
@@ -17,7 +17,7 @@ public final class bitq extends bxvk implements bxxd {
     public long f121699b;
 
     /* renamed from: c */
-    public bxtx f121700c = bxtx.f164797b;
+    public ByteString f121700c = ByteString.f164797b;
 
     /* renamed from: e */
     private byte f121701e = 2;
@@ -25,7 +25,7 @@ public final class bitq extends bxvk implements bxxd {
     static {
         bitq bitq = new bitq();
         f121696d = bitq;
-        bxvk.m124024a(bitq.class, bitq);
+        GeneratedMessageLite.m124024a(bitq.class, bitq);
     }
 
     private bitq() {
@@ -46,7 +46,7 @@ public final class bitq extends bxvk implements bxxd {
             this.f121701e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121696d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᔂ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f121696d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᔂ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bitq();
         } else {

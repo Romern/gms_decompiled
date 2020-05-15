@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byzo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byzo extends bxvk implements bxxd {
+public final class byzo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byzo f169137c;
@@ -19,7 +19,7 @@ public final class byzo extends bxvk implements bxxd {
     static {
         byzo byzo = new byzo();
         f169137c = byzo;
-        bxvk.m124024a(byzo.class, byzo);
+        GeneratedMessageLite.m124024a(byzo.class, byzo);
     }
 
     private byzo() {
@@ -36,7 +36,7 @@ public final class byzo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f169137c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bzbu.m125628b()});
+            return GeneratedMessageLite.m124022a(f169137c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bzbu.m125628b()});
         } else if (i2 == 3) {
             return new byzo();
         } else {

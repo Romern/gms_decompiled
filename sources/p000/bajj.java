@@ -35,9 +35,9 @@ final /* synthetic */ class bajj implements bmxj {
             } else {
                 byhi = byhi.f166451f;
             }
-            bxtx a2 = bair.m86940a(badq.mo55650b());
+            ByteString a2 = bair.m86940a(badq.mo55650b());
             bmxy.m108589a(a2.equals(byhi.f166455c), "Can't compute diff between footprints with different secondary ids!");
-            byte[] b = VcDiffEncoderDecoder.m66818b(badq.mo55649a(), byhi.f166456d.mo73780k());
+            byte[] b = VcDiffEncoderDecoder.m66818b(badq.mo55649a(), byhi.f166456d.getKey());
             bxvd da2 = byhj.f166458h.mo74144da();
             long longValue = badq.mo55651c().longValue();
             if (da2.f164950c) {
@@ -59,7 +59,7 @@ final /* synthetic */ class bajj implements bmxj {
             byhh.getClass();
             byhj2.f166466g = byhh;
             byhj2.f166460a |= 32;
-            bxtx a3 = bxtx.m123261a(b);
+            ByteString a3 = ByteString.m123261a(b);
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -68,7 +68,7 @@ final /* synthetic */ class bajj implements bmxj {
             a3.getClass();
             byhj3.f166460a |= 8;
             byhj3.f166464e = a3;
-            bxtx a4 = bafi.m86739a(byhi);
+            ByteString a4 = bafi.m86739a(byhi);
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;

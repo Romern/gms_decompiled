@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blde */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blde extends bxvk implements bxxd {
+public final class blde extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final blde f126049d;
@@ -25,7 +25,7 @@ public final class blde extends bxvk implements bxxd {
     static {
         blde blde = new blde();
         f126049d = blde;
-        bxvk.m124024a(blde.class, blde);
+        GeneratedMessageLite.m124024a(blde.class, blde);
     }
 
     private blde() {
@@ -46,7 +46,7 @@ public final class blde extends bxvk implements bxxd {
             this.f126054e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f126049d, "\u0001\u0002\u0000\u0001\u0005\u0006\u0002\u0000\u0000\u0001\u0005ဈ\u0004\u0006ᐉ\u0005", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f126049d, "\u0001\u0002\u0000\u0001\u0005\u0006\u0002\u0000\u0000\u0001\u0005ဈ\u0004\u0006ᐉ\u0005", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new blde();
         } else {

@@ -67,7 +67,7 @@ final class aiby extends buqn {
         }
         if (aiaa != null) {
             bxvd bxvd = (bxvd) aiaa.mo74142c(5);
-            bxvd.mo73625a((bxvk) aiaa);
+            bxvd.mo73625a((GeneratedMessageLite) aiaa);
             if (cfoj.m141569s()) {
                 if (buqx.m120262c(this.f68648c) != null) {
                     srn srn = ahsd.f67925a;
@@ -110,8 +110,8 @@ final class aiby extends buqn {
             byte[] b = bnzi.m110902d().mo68722a(bqce.m112562a(byteArrayExtra, aynj.m84359a(this.f68648c))).mo68740b();
             burs e = burt.m120312e();
             e.mo73048a((aiaa) bxvd.mo74062i());
-            e.mo73049a(bxtx.m123261a(byteArrayExtra));
-            e.mo73051b(bxtx.m123261a(b));
+            e.mo73049a(ByteString.m123261a(byteArrayExtra));
+            e.mo73051b(ByteString.m123261a(b));
             e.mo73050a(this.f68647b);
             burt a2 = e.mo73047a();
             if (cfoj.m141575y() && this.f68649d) {
@@ -131,7 +131,7 @@ final class aiby extends buqn {
             str2.getClass();
             ahyz.f68427a |= 1;
             ahyz.f68428b = str2;
-            bxtx a3 = bxtx.m123261a(byteArrayExtra);
+            ByteString a3 = ByteString.m123261a(byteArrayExtra);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

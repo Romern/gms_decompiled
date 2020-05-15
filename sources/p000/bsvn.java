@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsvn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsvn extends bxvk implements bxxd {
+public final class bsvn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final bsvn f147304i;
@@ -37,7 +37,7 @@ public final class bsvn extends bxvk implements bxxd {
     static {
         bsvn bsvn = new bsvn();
         f147304i = bsvn;
-        bxvk.m124024a(bsvn.class, bsvn);
+        GeneratedMessageLite.m124024a(bsvn.class, bsvn);
     }
 
     private bsvn() {
@@ -54,7 +54,7 @@ public final class bsvn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147304i, "\u0001\u0007\u0000\u0001\u0001\u000b\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0003\u0004ဈ\u0004\tဈ\u0005\nဈ\u0006\u000bဈ\u0002", new Object[]{"a", "b", "c", "e", "f", "g", "h", "d"});
+            return GeneratedMessageLite.m124022a(f147304i, "\u0001\u0007\u0000\u0001\u0001\u000b\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0003\u0004ဈ\u0004\tဈ\u0005\nဈ\u0006\u000bဈ\u0002", new Object[]{"a", "b", "c", "e", "f", "g", "h", "d"});
         } else if (i2 == 3) {
             return new bsvn();
         } else {

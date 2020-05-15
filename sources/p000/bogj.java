@@ -29,7 +29,7 @@ public final class bogj extends bxvd implements bxxd {
         bohi bohi = (bohi) this.f164949b;
         bohi bohi2 = bohi.f133070z;
         if (!bohi.f133081k.mo73666a()) {
-            bohi.f133081k = bxvk.m124021a(bohi.f133081k);
+            bohi.f133081k = GeneratedMessageLite.m124021a(bohi.f133081k);
         }
         bxsy.m123078a(iterable, bohi.f133081k);
     }

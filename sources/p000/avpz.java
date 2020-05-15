@@ -25,7 +25,7 @@ import java.util.concurrent.TimeoutException;
 public final class avpz {
 
     /* renamed from: d */
-    private static final sek f93741d = avpq.m79020g("FileDownloader");
+    private static final Logger f93741d = avpq.m79020g("FileDownloader");
 
     /* renamed from: e */
     private static final long f93742e = TimeUnit.SECONDS.toMillis(1);

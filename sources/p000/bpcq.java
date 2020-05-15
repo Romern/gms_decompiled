@@ -16,7 +16,7 @@ public final class bpcq extends bxvd implements bxxd {
         bpcv bpcv = (bpcv) this.f164949b;
         bpcv bpcv2 = bpcv.f135867i;
         if (!bpcv.f135873e.mo73666a()) {
-            bpcv.f135873e = bxvk.m124021a(bpcv.f135873e);
+            bpcv.f135873e = GeneratedMessageLite.m124021a(bpcv.f135873e);
         }
         bxsy.m123078a(iterable, bpcv.f135873e);
     }

@@ -31,7 +31,7 @@ final class mhz extends mit {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ bxxc mo20039a(byte[] bArr) {
-        return (mpi) bxvk.m124016a(mpi.f34148c, bArr, bxus.m123744c());
+        return (mpi) GeneratedMessageLite.m124016a(mpi.f34148c, bArr, bxus.m123744c());
     }
 
     /* access modifiers changed from: protected */

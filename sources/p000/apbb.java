@@ -44,7 +44,7 @@ public final class apbb implements Runnable {
             } else {
                 bzdh a = apak.m69965a(((apba) aozz).f83966a);
                 bxvd bxvd = (bxvd) a.mo74142c(5);
-                bxvd.mo73625a((bxvk) a);
+                bxvd.mo73625a((GeneratedMessageLite) a);
                 bzdb = (bzdb) bxvd;
                 if (bzdb.f164950c) {
                     bzdb.mo74035c();
@@ -60,7 +60,7 @@ public final class apbb implements Runnable {
                 bzdh2.f169469a = i2 | 4096;
                 bzdh2.f169480l = false;
             }
-            if (aozz.m69930a(((bzdh) bzdb.mo74062i()).mo73642k(), apal.f84030a, ((apba) aozz).f84082e)) {
+            if (aozz.m69930a(((bzdh) bzdb.mo74062i()).serializeToBytes(), apal.f84030a, ((apba) aozz).f84082e)) {
                 this.f84084b.edit().putLong("romanesco-contacts-logger-full-upload-timestamp", 0).apply();
             }
         } catch (Exception e) {

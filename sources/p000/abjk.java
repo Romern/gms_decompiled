@@ -19,7 +19,7 @@ public final /* synthetic */ class abjk implements bmxj {
         bsmh bsmh = this.f57579b;
         bsmk bsmk = (bsmk) obj;
         bxvd bxvd = (bxvd) bsmk.mo74142c(5);
-        bxvd.mo73625a((bxvk) bsmk);
+        bxvd.mo73625a((GeneratedMessageLite) bsmk);
         str.getClass();
         bsmh.getClass();
         if (bxvd.f164950c) {

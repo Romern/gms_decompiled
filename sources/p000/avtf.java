@@ -7,7 +7,7 @@ import java.util.Map;
 public final class avtf extends avti {
 
     /* renamed from: c */
-    private static final sek f93883c = avpq.m79021h("EntrySetKey");
+    private static final Logger f93883c = avpq.m79021h("EntrySetKey");
 
     public avtf(String str) {
         super(str, avte.m79305a(new avtc[0]));

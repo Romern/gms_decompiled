@@ -103,7 +103,7 @@ public final class gaa extends dck implements IInterface {
                     }
                 }
                 int readInt2 = parcel.readInt();
-                sdo.m34966a(fzz, "Must provide a valid callback object");
+                sdo.checkIfNull(fzz, "Must provide a valid callback object");
                 sdo.m34972a(m12843a(readInt2), "State key is out of bounds: %d is not between 0 and %d", Integer.valueOf(readInt2), 4);
                 if (cbwf.m128761b()) {
                     try {
@@ -125,7 +125,7 @@ public final class gaa extends dck implements IInterface {
                         fzz = new fzz(readStrongBinder3);
                     }
                 }
-                sdo.m34966a(fzz, "Must provide a valid callback object");
+                sdo.checkIfNull(fzz, "Must provide a valid callback object");
                 if (cbwf.m128761b()) {
                     try {
                         fzz.mo11573a(DataHolder.m22539b(3));
@@ -149,9 +149,9 @@ public final class gaa extends dck implements IInterface {
                 int readInt3 = parcel.readInt();
                 String readString = parcel.readString();
                 byte[] createByteArray2 = parcel.createByteArray();
-                sdo.m34966a(fzz, "Must provide a valid callback object");
+                sdo.checkIfNull(fzz, "Must provide a valid callback object");
                 sdo.m34972a(m12843a(readInt3), "State key is out of bounds: %d is not between 0 and %d", Integer.valueOf(readInt3), 4);
-                sdo.m34966a((Object) readString, (Object) "Must provide a non-null resolved version");
+                sdo.checkIfNull((Object) readString, (Object) "Must provide a non-null resolved version");
                 if (createByteArray2 != null) {
                     int length2 = createByteArray2.length;
                     if (length2 <= 262144) {
@@ -182,7 +182,7 @@ public final class gaa extends dck implements IInterface {
                     }
                 }
                 int readInt4 = parcel.readInt();
-                sdo.m34966a(fzz, "Must provide a valid callback object");
+                sdo.checkIfNull(fzz, "Must provide a valid callback object");
                 sdo.m34972a(m12843a(readInt4), "State key is out of bounds: %d is not between 0 and %d", Integer.valueOf(readInt4), 4);
                 if (cbwf.m128761b()) {
                     try {
@@ -227,7 +227,7 @@ public final class gaa extends dck implements IInterface {
                     }
                 }
                 if (Process.myUid() == Binder.getCallingUid()) {
-                    sdo.m34966a(fzz, "Must provide a valid callback object");
+                    sdo.checkIfNull(fzz, "Must provide a valid callback object");
                     if (cbwf.m128761b()) {
                         try {
                             fzz.mo11571a(0);

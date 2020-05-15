@@ -34,9 +34,9 @@ final /* synthetic */ class hcr implements Callable {
                     String a = ghx.m13173a(browserResolutionCookie.f9921c, Boolean.valueOf(browserResolutionCookie.f9924f));
                     i = length;
                     String a2 = ghx.m13174a(browserResolutionCookie.f9919a, browserResolutionCookie.f9920b, browserResolutionCookie.f9921c, browserResolutionCookie.f9922d, Boolean.valueOf(browserResolutionCookie.f9925g), Boolean.valueOf(browserResolutionCookie.f9924f), Long.valueOf(browserResolutionCookie.f9923e));
-                    sek sek = hdf.f19494a;
+                    Logger Logger = hdf.f19494a;
                     String valueOf = String.valueOf(a);
-                    sek.mo25412b(valueOf.length() == 0 ? new String("Setting browser resolution cookie for url: ") : "Setting browser resolution cookie for url: ".concat(valueOf), new Object[0]);
+                    Logger.mo25412b(valueOf.length() == 0 ? new String("Setting browser resolution cookie for url: ") : "Setting browser resolution cookie for url: ".concat(valueOf), new Object[0]);
                     hdf.f19517w.setCookie(a, a2);
                     i2++;
                     length = i;

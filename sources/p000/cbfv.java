@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbfv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbfv extends bxvk implements bxxd {
+public final class cbfv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbfv f176976b;
@@ -16,7 +16,7 @@ public final class cbfv extends bxvk implements bxxd {
     static {
         cbfv cbfv = new cbfv();
         f176976b = cbfv;
-        bxvk.m124024a(cbfv.class, cbfv);
+        GeneratedMessageLite.m124024a(cbfv.class, cbfv);
     }
 
     private cbfv() {
@@ -33,7 +33,7 @@ public final class cbfv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176976b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cbfz.class});
+            return GeneratedMessageLite.m124022a(f176976b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cbfz.class});
         } else if (i2 == 3) {
             return new cbfv();
         } else {

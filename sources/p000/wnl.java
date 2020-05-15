@@ -54,7 +54,7 @@ public final class wnl extends whz {
             a.getClass();
             brar.f142178b = a;
             brar.f142177a |= 1;
-            bxtx a2 = bxtx.m123261a(bArr);
+            ByteString a2 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byry */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byry extends bxvk implements bxxd {
+public final class byry extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final byry f167524e;
@@ -25,7 +25,7 @@ public final class byry extends bxvk implements bxxd {
     static {
         byry byry = new byry();
         f167524e = byry;
-        bxvk.m124024a(byry.class, byry);
+        GeneratedMessageLite.m124024a(byry.class, byry);
     }
 
     private byry() {
@@ -42,7 +42,7 @@ public final class byry extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167524e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003င\u0002", new Object[]{"a", "b", "c", byrt.f167516a, "d"});
+            return GeneratedMessageLite.m124022a(f167524e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003င\u0002", new Object[]{"a", "b", "c", byrt.f167516a, "d"});
         } else if (i2 == 3) {
             return new byry();
         } else {

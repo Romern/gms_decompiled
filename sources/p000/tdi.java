@@ -10,7 +10,7 @@ import java.lang.ref.WeakReference;
 public final class tdi {
 
     /* renamed from: a */
-    public static final sek f45692a = tea.m36798a("connectivity_manager");
+    public static final Logger f45692a = tea.m36798a("connectivity_manager");
 
     /* renamed from: c */
     private static WeakReference f45693c = new WeakReference(null);

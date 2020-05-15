@@ -99,7 +99,7 @@ public final class aovh extends aovg {
                 blpc blpc4 = (blpc) da2.mo74062i();
                 blpc4.getClass();
                 if (!blpd.f127204c.mo73666a()) {
-                    blpd.f127204c = bxvk.m124021a(blpd.f127204c);
+                    blpd.f127204c = GeneratedMessageLite.m124021a(blpd.f127204c);
                 }
                 blpd.f127204c.add(blpc4);
             }

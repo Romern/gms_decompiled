@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cejl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cejl extends bxvk implements bxxd {
+public final class cejl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cejl f182782d;
@@ -25,7 +25,7 @@ public final class cejl extends bxvk implements bxxd {
     static {
         cejl cejl = new cejl();
         f182782d = cejl;
-        bxvk.m124024a(cejl.class, cejl);
+        GeneratedMessageLite.m124024a(cejl.class, cejl);
     }
 
     private cejl() {
@@ -42,7 +42,7 @@ public final class cejl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f182782d, "\u0001\u0007\u0001\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0002ျ\u0000\u0003ွ\u0000\u0004့\u0000\u0005ဵ\u0000\u0006်\u0000\u0007ဳ\u0000", new Object[]{"b", "a", "e", "c"});
+            return GeneratedMessageLite.m124022a(f182782d, "\u0001\u0007\u0001\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ဈ\u0000\u0002ျ\u0000\u0003ွ\u0000\u0004့\u0000\u0005ဵ\u0000\u0006်\u0000\u0007ဳ\u0000", new Object[]{"b", "a", "e", "c"});
         } else if (i2 == 3) {
             return new cejl();
         } else {

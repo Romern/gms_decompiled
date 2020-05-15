@@ -53,7 +53,7 @@ public abstract class bfxk {
             bfxq bfxq2 = (bfxq) bxvd.mo74062i();
             bfxq2.getClass();
             if (!bfxr.f115612a.mo73666a()) {
-                bfxr.f115612a = bxvk.m124021a(bfxr.f115612a);
+                bfxr.f115612a = GeneratedMessageLite.m124021a(bfxr.f115612a);
             }
             bfxr.f115612a.add(bfxq2);
         }

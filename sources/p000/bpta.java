@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpta */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpta extends bxvk implements bxxd {
+public final class bpta extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bpta f139073e;
@@ -25,7 +25,7 @@ public final class bpta extends bxvk implements bxxd {
     static {
         bpta bpta = new bpta();
         f139073e = bpta;
-        bxvk.m124024a(bpta.class, bpta);
+        GeneratedMessageLite.m124024a(bpta.class, bpta);
     }
 
     private bpta() {
@@ -42,7 +42,7 @@ public final class bpta extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139073e, "\u0001\u0004\u0001\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001စ\u0000\u0002်\u0000\u0003ဵ\u0000\u0004း\u0000", new Object[]{"c", "b", "a", "d"});
+            return GeneratedMessageLite.m124022a(f139073e, "\u0001\u0004\u0001\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001စ\u0000\u0002်\u0000\u0003ဵ\u0000\u0004း\u0000", new Object[]{"c", "b", "a", "d"});
         } else if (i2 == 3) {
             return new bpta();
         } else {

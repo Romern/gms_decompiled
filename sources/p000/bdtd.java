@@ -107,12 +107,12 @@ final class bdtd implements bqeg {
             bxpf bxpf3 = (bxpf) da3.mo74062i();
             bxpf3.getClass();
             if (!bxpg2.f164264e.mo73666a()) {
-                bxpg2.f164264e = bxvk.m124021a(bxpg2.f164264e);
+                bxpg2.f164264e = GeneratedMessageLite.m124021a(bxpg2.f164264e);
             }
             bxpg2.f164264e.add(bxpf3);
             bmxv bmxv = a.f106418a;
             if (bmxv.mo66813a()) {
-                bxtx bxtx = (bxtx) bmxv.mo66814b();
+                ByteString bxtx = (ByteString) bmxv.mo66814b();
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -129,7 +129,7 @@ final class bdtd implements bqeg {
             }
             bxpg bxpg4 = (bxpg) da.f164949b;
             if (!bxpg4.f164263d.mo73666a()) {
-                bxpg4.f164263d = bxvk.m124021a(bxpg4.f164263d);
+                bxpg4.f164263d = GeneratedMessageLite.m124021a(bxpg4.f164263d);
             }
             bxsy.m123078a(bngx, bxpg4.f164263d);
             bxqc a2 = bdti.m91409a(((bdrr) this.f106402f).f106325b);

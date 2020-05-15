@@ -185,7 +185,7 @@ public final class avms {
             bngx = e3;
         }
         if (avmb.m78775a(avnf.f93501f, d3.f109472n).f93369a != 0) {
-            avnf.f93496b.mo25409a("OTA is managed by policy. No need to show the notification.", new Object[0]);
+            avnf.f93496b.logVerbose("OTA is managed by policy. No need to show the notification.", new Object[0]);
             avnf.mo51428a();
         } else if (!d3.f109476r.f109420a) {
             long j = Long.MAX_VALUE;
@@ -298,7 +298,7 @@ public final class avms {
                     long parseLong = Long.parseLong(matcher.group(1));
                     long longValue = ((Long) bnjd.m109591c((Iterable) bngx, (Object) 0L)).longValue() + parseLong;
                     if (longValue > currentTimeMillis) {
-                        avnf.f93496b.mo25409a("The notification shouldn't be shown or cancelled right now for status 0x%03X at the current moment (%d ms) for update received at %d. Earliest re-notify time is %d. ", Integer.valueOf(d3.f109461c), Long.valueOf(currentTimeMillis), Long.valueOf(d3.f109472n), Long.valueOf(longValue));
+                        avnf.f93496b.logVerbose("The notification shouldn't be shown or cancelled right now for status 0x%03X at the current moment (%d ms) for update received at %d. Earliest re-notify time is %d. ", Integer.valueOf(d3.f109461c), Long.valueOf(currentTimeMillis), Long.valueOf(d3.f109472n), Long.valueOf(longValue));
                         avnf.mo51429a(longValue);
                         return;
                     }
@@ -342,11 +342,11 @@ public final class avms {
                 avng.f93505a.mo25445a("com.google.android.gms.update.control.NotificationControl", 1, a2);
                 return;
             }
-            avnf.f93496b.mo25409a("The notification shouldn't be shown for status 0x%03X at the current moment (%d ms) for update received at %d ms. Earliest show notify time is %d ms.", Integer.valueOf(d3.f109461c), Long.valueOf(System.currentTimeMillis()), Long.valueOf(d3.f109472n), Long.valueOf(j));
+            avnf.f93496b.logVerbose("The notification shouldn't be shown for status 0x%03X at the current moment (%d ms) for update received at %d ms. Earliest show notify time is %d ms.", Integer.valueOf(d3.f109461c), Long.valueOf(System.currentTimeMillis()), Long.valueOf(d3.f109472n), Long.valueOf(j));
             avnf.mo51428a();
             avnf.mo51429a(j);
         } else {
-            avnf.f93496b.mo25409a("The activity is running. No need to show the notification.", new Object[0]);
+            avnf.f93496b.logVerbose("The activity is running. No need to show the notification.", new Object[0]);
             avnf.mo51428a();
         }
     }

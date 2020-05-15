@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: birg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class birg extends bxvk implements bxxd {
+public final class birg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bxvu f121408e = new bird();
@@ -37,7 +37,7 @@ public final class birg extends bxvk implements bxxd {
     static {
         birg birg = new birg();
         f121409g = birg;
-        bxvk.m124024a(birg.class, birg);
+        GeneratedMessageLite.m124024a(birg.class, birg);
     }
 
     private birg() {
@@ -58,7 +58,7 @@ public final class birg extends bxvk implements bxxd {
             this.f121417i = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121409g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0004\u0002\u0001'\u0002Л\u0003Л\u0004\u001e\u0005ဋ\u0000", new Object[]{"h", "a", "b", birf.class, "c", bire.class, "d", biqh.m102725b(), "f"});
+            return GeneratedMessageLite.m124022a(f121409g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0004\u0002\u0001'\u0002Л\u0003Л\u0004\u001e\u0005ဋ\u0000", new Object[]{"h", "a", "b", birf.class, "c", bire.class, "d", biqh.m102725b(), "f"});
         } else if (i2 == 3) {
             return new birg();
         } else {

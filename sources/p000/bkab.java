@@ -37,7 +37,7 @@ public final class bkab {
                 bkaf.f123750N = bkaf.m105040a(bkaf.mo65710c());
                 btwp btwp2 = bkaf.f123750N;
                 bxvd bxvd = (bxvd) btwp2.mo74142c(5);
-                bxvd.mo73625a((bxvk) btwp2);
+                bxvd.mo73625a((GeneratedMessageLite) btwp2);
                 btwo btwo = (btwo) bxvd;
                 if (btwo.f164950c) {
                     btwo.mo74035c();
@@ -56,7 +56,7 @@ public final class bkab {
             } else if (btwp.f152740k.isEmpty() && (a2.equalsIgnoreCase(bkaf.f123750N.f152731b) || TextUtils.isEmpty(bkaf.f123750N.f152731b))) {
                 btwp btwp5 = bkaf.f123750N;
                 bxvd bxvd2 = (bxvd) btwp5.mo74142c(5);
-                bxvd2.mo73625a((bxvk) btwp5);
+                bxvd2.mo73625a((GeneratedMessageLite) btwp5);
                 btwo btwo2 = (btwo) bxvd2;
                 if (btwo2.f164950c) {
                     btwo2.mo74035c();

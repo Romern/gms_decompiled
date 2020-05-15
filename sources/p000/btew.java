@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btew */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btew extends bxvk implements bxxd {
+public final class btew extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btew f148584b;
@@ -19,7 +19,7 @@ public final class btew extends bxvk implements bxxd {
     static {
         btew btew = new btew();
         f148584b = btew;
-        bxvk.m124024a(btew.class, btew);
+        GeneratedMessageLite.m124024a(btew.class, btew);
     }
 
     private btew() {
@@ -41,7 +41,7 @@ public final class btew extends bxvk implements bxxd {
             this.f148587c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f148584b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0001\u0001Љ", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f148584b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0001\u0001Љ", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btew();
         } else {

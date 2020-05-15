@@ -60,9 +60,9 @@ public final class ajat {
         srn srn = ahfq.f67120a;
         try {
             bxvd bxvd = (bxvd) byyg.mo74142c(5);
-            bxvd.mo73625a((bxvk) byyg);
+            bxvd.mo73625a((GeneratedMessageLite) byyg);
             bxvf bxvf = (bxvf) bxvd;
-            bxvf.mo73635b(byyg2.mo73642k(), bxus.m123744c());
+            bxvf.mo73635b(byyg2.serializeToBytes(), bxus.m123744c());
             return (byyg) bxvf.mo74062i();
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) ahfq.f67120a.mo68387b();
@@ -99,7 +99,7 @@ public final class ajat {
     /* JADX WARNING: Code restructure failed: missing block: B:9:0x001e, code lost:
         r1 = p000.buqf.m120233b();
         r2 = (p000.bxvd) r1.mo74142c(5);
-        r2.mo73625a((p000.bxvk) r1);
+        r2.mo73625a((p000.GeneratedMessageLite) r1);
         r2 = (p000.bxvf) r2;
      */
     /* renamed from: c */
@@ -222,14 +222,14 @@ public final class ajat {
         int size;
         byyg b = buqf.m120233b();
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         bxvf bxvf = (bxvf) bxvd;
         try {
-            bxvf.mo73635b(this.f70274b.mo73642k(), bxus.m123744c());
+            bxvf.mo73635b(this.f70274b.serializeToBytes(), bxus.m123744c());
             try {
-                bxvf.mo73635b(this.f70275c.mo73642k(), bxus.m123744c());
-                bxvf.mo73635b(this.f70277e.mo73642k(), bxus.m123744c());
-                bxvf.mo73635b(this.f70276d.mo73642k(), bxus.m123744c());
+                bxvf.mo73635b(this.f70275c.serializeToBytes(), bxus.m123744c());
+                bxvf.mo73635b(this.f70277e.serializeToBytes(), bxus.m123744c());
+                bxvf.mo73635b(this.f70276d.serializeToBytes(), bxus.m123744c());
             } catch (bxwf e) {
                 e = e;
             }
@@ -257,7 +257,7 @@ public final class ajat {
                 byxy = byxy.f168842f;
             }
             bxvd bxvd2 = (bxvd) byxy.mo74142c(5);
-            bxvd2.mo73625a((bxvk) byxy);
+            bxvd2.mo73625a((GeneratedMessageLite) byxy);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
@@ -271,7 +271,7 @@ public final class ajat {
                 byya2 = byya.f168860j;
             }
             bxvd bxvd3 = (bxvd) byya2.mo74142c(5);
-            bxvd3.mo73625a((bxvk) byya2);
+            bxvd3.mo73625a((GeneratedMessageLite) byya2);
             bxvf bxvf2 = (bxvf) bxvd3;
             if (bxvf2.f164950c) {
                 bxvf2.mo74035c();
@@ -315,7 +315,7 @@ public final class ajat {
             byte[] c = sqd.m35971c(str2);
             byyg b = buqf.m120233b();
             bxvd bxvd = (bxvd) b.mo74142c(5);
-            bxvd.mo73625a((bxvk) b);
+            bxvd.mo73625a((GeneratedMessageLite) b);
             bxvf bxvf = (bxvf) bxvd;
             bxvf.mo73635b(c, bxus.m123744c());
             return (byyg) bxvf.mo74062i();
@@ -332,7 +332,7 @@ public final class ajat {
             byte[] a = sqd.m35966a(str2);
             byyg b = buqf.m120233b();
             bxvd bxvd = (bxvd) b.mo74142c(5);
-            bxvd.mo73625a((bxvk) b);
+            bxvd.mo73625a((GeneratedMessageLite) b);
             bxvf bxvf = (bxvf) bxvd;
             bxvf.mo73635b(a, bxus.m123744c());
             return (byyg) bxvf.mo74062i();
@@ -482,7 +482,7 @@ public final class ajat {
 
     /* renamed from: a */
     public final void mo38415a(String str, byyg byyg) {
-        String d = sqd.m35972d(byyg.mo73642k());
+        String d = sqd.m35972d(byyg.serializeToBytes());
         SharedPreferences sharedPreferences = this.f70281i;
         if (sharedPreferences != null) {
             SharedPreferences.Editor edit = sharedPreferences.edit();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byir */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byir extends bxvk implements bxxd {
+public final class byir extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final byir f166595b;
@@ -16,7 +16,7 @@ public final class byir extends bxvk implements bxxd {
     static {
         byir byir = new byir();
         f166595b = byir;
-        bxvk.m124024a(byir.class, byir);
+        GeneratedMessageLite.m124024a(byir.class, byir);
     }
 
     private byir() {
@@ -33,7 +33,7 @@ public final class byir extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166595b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", byit.class});
+            return GeneratedMessageLite.m124022a(f166595b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", byit.class});
         } else if (i2 == 3) {
             return new byir();
         } else {
@@ -60,7 +60,7 @@ public final class byir extends bxvk implements bxxd {
     /* renamed from: c */
     public final void mo74384c() {
         if (!this.f166597a.mo73666a()) {
-            this.f166597a = bxvk.m124021a(this.f166597a);
+            this.f166597a = GeneratedMessageLite.m124021a(this.f166597a);
         }
     }
 }

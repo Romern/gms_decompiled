@@ -42,7 +42,7 @@ public final class bcka {
         ByteBuffer allocate = ByteBuffer.allocate(16);
         allocate.putLong(uuid.getMostSignificantBits());
         allocate.putLong(uuid.getLeastSignificantBits());
-        bxtx a2 = bxtx.m123261a(allocate.array());
+        ByteString a2 = ByteString.m123261a(allocate.array());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -55,7 +55,7 @@ public final class bcka {
     /* renamed from: a */
     public static bxvd m89176a(Context context, byte[] bArr, UUID uuid) {
         bxvd a = m89175a(context, uuid);
-        bxtx a2 = bxtx.m123261a(bArr);
+        ByteString a2 = ByteString.m123261a(bArr);
         if (a.f164950c) {
             a.mo74035c();
             a.f164950c = false;

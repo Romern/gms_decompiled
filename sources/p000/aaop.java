@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aaop */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aaop extends bxvk implements bxxd {
+public final class aaop extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final aaop f28711a;
@@ -13,7 +13,7 @@ public final class aaop extends bxvk implements bxxd {
     static {
         aaop aaop = new aaop();
         f28711a = aaop;
-        bxvk.m124024a(aaop.class, aaop);
+        GeneratedMessageLite.m124024a(aaop.class, aaop);
     }
 
     private aaop() {
@@ -30,7 +30,7 @@ public final class aaop extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28711a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f28711a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new aaop();

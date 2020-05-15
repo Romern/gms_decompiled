@@ -203,7 +203,7 @@ public final class anaf extends anai {
         ((btep) da.f164949b).f148545d = bteh;
         btdy c = amwt.m63568c();
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         btdw btdw = (btdw) bxvd;
         if (Boolean.valueOf(cfvk.f185780a.mo6606a().mo83003bd()).booleanValue()) {
             if (btdw.f164950c) {
@@ -211,7 +211,7 @@ public final class anaf extends anai {
                 btdw.f164950c = false;
             }
             btdy btdy = btdy.f148473d;
-            ((btdy) btdw.f164949b).f148477c = bxvk.m124028dc();
+            ((btdy) btdw.f164949b).f148477c = GeneratedMessageLite.m124028dc();
             btdw.mo70749a(btdx.CORE_ID);
         }
         if (da.f164950c) {

@@ -93,8 +93,8 @@ public final class pfv extends rjx implements pep {
 
     public pfv(Context context, pek pek) {
         super(context, f39048F, pek, rjw.f43159a);
-        sdo.m34966a(context, "context cannot be null");
-        sdo.m34966a(pek, "CastOptions cannot be null");
+        sdo.checkIfNull(context, "context cannot be null");
+        sdo.checkIfNull(pek, "CastOptions cannot be null");
         this.f39070t = pek.f38967b;
         this.f39067q = pek.f38966a;
         this.f39068r = new HashMap();
@@ -225,7 +225,7 @@ public final class pfv extends rjx implements pep {
     /* renamed from: a */
     public final void mo23019a(ptt ptt) {
         rob rob = mo24714a(ptt, "castDeviceControllerListenerKey").f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         mo24698a(rob);
     }
 

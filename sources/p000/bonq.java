@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bonq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bonq extends bxvk implements bxxd {
+public final class bonq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: p */
     public static final bonq f133833p;
@@ -61,7 +61,7 @@ public final class bonq extends bxvk implements bxxd {
     static {
         bonq bonq = new bonq();
         f133833p = bonq;
-        bxvk.m124024a(bonq.class, bonq);
+        GeneratedMessageLite.m124024a(bonq.class, bonq);
     }
 
     private bonq() {
@@ -82,7 +82,7 @@ public final class bonq extends bxvk implements bxxd {
             this.f133850q = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f133833p, "\u0001\u000e\u0000\u0001\u0001\u0010\u000e\u0000\u0000\u0002\u0001ဌ\u0000\u0002ᐉ\u0001\u0003ᐉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\tဉ\b\nဉ\t\u000bဉ\n\rဉ\f\u000fဉ\u000e\u0010ဉ\u000f", new Object[]{"a", "b", bono.f133832a, "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o"});
+            return GeneratedMessageLite.m124022a(f133833p, "\u0001\u000e\u0000\u0001\u0001\u0010\u000e\u0000\u0000\u0002\u0001ဌ\u0000\u0002ᐉ\u0001\u0003ᐉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\tဉ\b\nဉ\t\u000bဉ\n\rဉ\f\u000fဉ\u000e\u0010ဉ\u000f", new Object[]{"a", "b", bono.f133832a, "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o"});
         } else if (i2 == 3) {
             return new bonq();
         } else {

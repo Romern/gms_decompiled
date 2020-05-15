@@ -638,7 +638,7 @@ public final class avgm {
             avfh avfh = (avfh) this.f93144g.apply(account2);
             if (avfh.mo51192a()) {
                 bxvd bxvd = (bxvd) bxqf.mo74142c(5);
-                bxvd.mo73625a((bxvk) bxqf);
+                bxvd.mo73625a((GeneratedMessageLite) bxqf);
                 bxok a = m78460a(avfh, account2);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();

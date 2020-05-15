@@ -45,7 +45,7 @@ public final class azqh {
             return cbbl;
         }
         bxvd bxvd = (bxvd) cbbl.mo74142c(5);
-        bxvd.mo73625a((bxvk) cbbl);
+        bxvd.mo73625a((GeneratedMessageLite) cbbl);
         "lighter_system_key".getClass();
         if (bxvd.f164950c) {
             bxvd.mo74035c();

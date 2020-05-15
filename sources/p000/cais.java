@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cais */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cais extends bxvk implements bxxd {
+public final class cais extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cais f174765c;
@@ -19,7 +19,7 @@ public final class cais extends bxvk implements bxxd {
     static {
         cais cais = new cais();
         f174765c = cais;
-        bxvk.m124024a(cais.class, cais);
+        GeneratedMessageLite.m124024a(cais.class, cais);
     }
 
     private cais() {
@@ -36,7 +36,7 @@ public final class cais extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174765c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f174765c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cais();
         } else {

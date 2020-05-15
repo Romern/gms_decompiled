@@ -28,10 +28,10 @@ public final class baik implements Callable {
     private final String f100995f;
 
     /* renamed from: g */
-    private final bxtx f100996g;
+    private final ByteString f100996g;
 
     /* renamed from: h */
-    private final bxtx f100997h;
+    private final ByteString f100997h;
 
     public baik(cayo cayo, bafj bafj, String str, Account account, int i, int i2, byte[] bArr, byte[] bArr2) {
         this.f100990a = bafj;
@@ -40,15 +40,15 @@ public final class baik implements Callable {
         this.f100993d = i2;
         this.f100994e = cayo;
         this.f100995f = str;
-        this.f100996g = bArr != null ? bxtx.m123261a(bArr) : null;
-        this.f100997h = bxtx.m123261a(bArr2);
+        this.f100996g = bArr != null ? ByteString.m123261a(bArr) : null;
+        this.f100997h = ByteString.m123261a(bArr2);
     }
 
     /* JADX WARNING: Removed duplicated region for block: B:31:0x00c8  */
     /* renamed from: a */
     public final void mo55711a() {
         bany b;
-        ((achw) this.f100994e.mo16713a()).mo25409a("Writing %d bytes of data to Footprints %s/%s.", Integer.valueOf(this.f100997h.mo73744a()), Integer.valueOf(this.f100992c), Integer.valueOf(this.f100993d));
+        ((achw) this.f100994e.mo16713a()).logVerbose("Writing %d bytes of data to Footprints %s/%s.", Integer.valueOf(this.f100997h.mo73744a()), Integer.valueOf(this.f100992c), Integer.valueOf(this.f100993d));
         bafl bafl = null;
         try {
             bafl = this.f100990a.mo55662a(this.f100991b, this.f100992c, this.f100993d);

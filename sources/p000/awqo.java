@@ -119,7 +119,7 @@ public final class awqo extends awqu {
         int i;
         bphe bphe = (bphe) bjvz.mo65576a((bxxk) bphe.f137630n.mo74142c(7), bphe.f137630n);
         bxvd bxvd = (bxvd) bphe.mo74142c(5);
-        bxvd.mo73625a((bxvk) bphe);
+        bxvd.mo73625a((GeneratedMessageLite) bphe);
         this.f94867i = bxvd;
         String a = bjvz.mo65577a();
         if (a != null) {
@@ -153,7 +153,7 @@ public final class awqo extends awqu {
         bphe bphe = (bphe) bxvd2.f164949b;
         bphe bphe2 = bphe.f137630n;
         if (!bphe.f137635d.mo73666a()) {
-            bphe.f137635d = bxvk.m124021a(bphe.f137635d);
+            bphe.f137635d = GeneratedMessageLite.m124021a(bphe.f137635d);
         }
         bxsy.m123078a(arrayList, bphe.f137635d);
         bxvd bxvd3 = this.f94867i;
@@ -164,7 +164,7 @@ public final class awqo extends awqu {
         }
         bphe bphe3 = (bphe) bxvd3.f164949b;
         if (!bphe3.f137643l.mo73666a()) {
-            bphe3.f137643l = bxvk.m124021a(bphe3.f137643l);
+            bphe3.f137643l = GeneratedMessageLite.m124021a(bphe3.f137643l);
         }
         bxsy.m123078a(arrayList2, bphe3.f137643l);
         bxvd bxvd4 = this.f94867i;
@@ -175,7 +175,7 @@ public final class awqo extends awqu {
         }
         bphe bphe4 = (bphe) bxvd4.f164949b;
         if (!bphe4.f137636e.mo73666a()) {
-            bphe4.f137636e = bxvk.m124021a(bphe4.f137636e);
+            bphe4.f137636e = GeneratedMessageLite.m124021a(bphe4.f137636e);
         }
         bxsy.m123078a(arrayList3, bphe4.f137636e);
         bxvd bxvd5 = this.f94867i;
@@ -186,7 +186,7 @@ public final class awqo extends awqu {
         }
         bphe bphe5 = (bphe) bxvd5.f164949b;
         if (!bphe5.f137642k.mo73666a()) {
-            bphe5.f137642k = bxvk.m124021a(bphe5.f137642k);
+            bphe5.f137642k = GeneratedMessageLite.m124021a(bphe5.f137642k);
         }
         bxsy.m123078a(arrayList4, bphe5.f137642k);
         bxvd bxvd6 = this.f94867i;
@@ -197,7 +197,7 @@ public final class awqo extends awqu {
         }
         bphe bphe6 = (bphe) bxvd6.f164949b;
         if (!bphe6.f137644m.mo73666a()) {
-            bphe6.f137644m = bxvk.m124021a(bphe6.f137644m);
+            bphe6.f137644m = GeneratedMessageLite.m124021a(bphe6.f137644m);
         }
         bxsy.m123078a(arrayList5, bphe6.f137644m);
         bxvd bxvd7 = this.f94867i;

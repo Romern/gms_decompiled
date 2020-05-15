@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: dmb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class dmb extends bxvk implements bxxd {
+public final class dmb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final dmb f13483f;
@@ -28,7 +28,7 @@ public final class dmb extends bxvk implements bxxd {
     static {
         dmb dmb = new dmb();
         f13483f = dmb;
-        bxvk.m124024a(dmb.class, dmb);
+        GeneratedMessageLite.m124024a(dmb.class, dmb);
     }
 
     private dmb() {
@@ -45,7 +45,7 @@ public final class dmb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f13483f, "\u0001\u0004\u0000\u0001\u0001d\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002dင\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f13483f, "\u0001\u0004\u0000\u0001\u0001d\u0004\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002dင\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new dmb();
         } else {

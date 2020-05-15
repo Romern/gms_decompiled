@@ -89,7 +89,7 @@ public class PlatformStatsCollectorChimeraService extends aeah {
                         String string = sharedPreferences.getString(str, "");
                         if (!string.isEmpty()) {
                             try {
-                                aset aset = new aset(substring, (calk) bxvk.m124016a(calk.f175135l, Base64.decode(string, 0), bxus.m123744c()));
+                                aset aset = new aset(substring, (calk) GeneratedMessageLite.m124016a(calk.f175135l, Base64.decode(string, 0), bxus.m123744c()));
                                 if (aset.f88787h != 0) {
                                     concurrentHashMap.put(substring, aset);
                                 }
@@ -207,7 +207,7 @@ public class PlatformStatsCollectorChimeraService extends aeah {
                                         edit.apply();
                                         this.f108281b.remove(substring);
                                     } else if (!sharedPreferences3.getString(":unifiedTaskConfig", "").equals(string)) {
-                                        calk calk = (calk) bxvk.m124016a(calk.f175135l, Base64.decode(string, i2), bxus.m123744c());
+                                        calk calk = (calk) GeneratedMessageLite.m124016a(calk.f175135l, Base64.decode(string, i2), bxus.m123744c());
                                         qxq qxq3 = this.f108283d;
                                         String valueOf3 = String.valueOf(substring);
                                         qxq3.mo24383c(valueOf3.length() == 0 ? new String("CollectionConfigParseEnablePostV16") : "CollectionConfigParseEnablePostV16".concat(valueOf3)).mo24359a();

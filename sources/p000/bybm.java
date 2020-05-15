@@ -18,7 +18,7 @@ public final class bybm extends bxvd implements bxxd {
         bybn bybn2 = bybn.f165523b;
         bybo.getClass();
         if (!bybn.f165525a.mo73666a()) {
-            bybn.f165525a = bxvk.m124021a(bybn.f165525a);
+            bybn.f165525a = GeneratedMessageLite.m124021a(bybn.f165525a);
         }
         bybn.f165525a.add(bybo);
     }

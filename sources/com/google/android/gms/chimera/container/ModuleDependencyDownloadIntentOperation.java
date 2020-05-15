@@ -37,7 +37,7 @@ public class ModuleDependencyDownloadIntentOperation extends IntentOperation {
             byte[] byteArrayExtra = intent.getByteArrayExtra("request_bytes");
             if (byteArrayExtra != null) {
                 try {
-                    aylu aylu = (aylu) bxvk.m124016a(aylu.f97932c, byteArrayExtra, bxus.m123743b());
+                    aylu aylu = (aylu) GeneratedMessageLite.m124016a(aylu.f97932c, byteArrayExtra, bxus.m123743b());
                     if (!aylu.f97934a.isEmpty()) {
                         String str = aylu.f97934a;
                         ModuleManager moduleManager = ModuleManager.get(this);

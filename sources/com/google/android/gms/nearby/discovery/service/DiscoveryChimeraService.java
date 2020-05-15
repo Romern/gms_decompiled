@@ -259,7 +259,7 @@ public class DiscoveryChimeraService extends Service implements ahha, aicq {
             befa befa = new befa(Collections.singletonList((behy) this.f80530a.mo36473a(behy.class)));
             Uri parse = Uri.parse(((MddFile) fileGroupResponse.f79963c.get(0)).f79970b);
             try {
-                ahyu ahyu = (ahyu) bxvk.m124016a(ahyu.f68386b, (byte[]) befa.mo60643a(parse, behp.m95056a(), new beer[0]), bxus.m123744c());
+                ahyu ahyu = (ahyu) GeneratedMessageLite.m124016a(ahyu.f68386b, (byte[]) befa.mo60643a(parse, behp.m95056a(), new beer[0]), bxus.m123744c());
                 srn srn = ahsd.f67925a;
                 ahyu.f68388a.size();
                 ahxa ahxa = (ahxa) this.f80530a.mo36473a(ahxa.class);

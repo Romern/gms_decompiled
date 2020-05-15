@@ -73,7 +73,7 @@ public final class dfz extends dhc {
                 if (din == null) {
                     din f = super.mo8914f();
                     bxvd bxvd = (bxvd) f.mo74142c(5);
-                    bxvd.mo73625a((bxvk) f);
+                    bxvd.mo73625a((GeneratedMessageLite) f);
                     long d = mo8912d();
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();

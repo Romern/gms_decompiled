@@ -52,7 +52,7 @@ public final class lra {
         awlg awlg = new awlg(context);
         awlg.mo52187a(m19561a());
         awlg.mo52188a(account);
-        awlg.f94574a.putExtra("com.google.android.gms.wallet.firstparty.EXTRA_UNENCRYPTED_PARAMS", ((bwem) da.mo74062i()).mo73642k());
+        awlg.f94574a.putExtra("com.google.android.gms.wallet.firstparty.EXTRA_UNENCRYPTED_PARAMS", ((bwem) da.mo74062i()).serializeToBytes());
         m19565a(awlg);
         return awlg.mo52186a();
     }

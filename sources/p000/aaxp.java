@@ -75,7 +75,7 @@ public final class aaxp extends aayk {
                 return null;
             }
             try {
-                return (abdo) bxvk.m124016a(abdo.f57109b, k.f56844c, bxus.m123744c());
+                return (abdo) GeneratedMessageLite.m124016a(abdo.f57109b, k.f56844c, bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("gH_ListConvoEventsCReq", "Parsing ListChatConversationEventsRequest failed!", e);
                 return null;

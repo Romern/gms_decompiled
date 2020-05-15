@@ -17,7 +17,7 @@ public final class bgop extends bxvd implements bxxd {
         bgoq bgoq2 = bgoq.f116946f;
         bgov.getClass();
         if (!bgoq.f116949b.mo73666a()) {
-            bgoq.f116949b = bxvk.m124021a(bgoq.f116949b);
+            bgoq.f116949b = GeneratedMessageLite.m124021a(bgoq.f116949b);
         }
         bgoq.f116949b.add(bgov);
     }

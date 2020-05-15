@@ -17,7 +17,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public final class ifd {
 
     /* renamed from: a */
-    public static final sek f20845a = new sek("AuthZenEventHandler");
+    public static final Logger f20845a = new Logger("AuthZenEventHandler");
 
     /* renamed from: b */
     private static final Lock f20846b = new ReentrantLock();
@@ -36,7 +36,7 @@ public final class ifd {
         ife ife = new ife(context, ikj);
         iff iff = new iff();
         ifg ifg = new ifg(context, ikj);
-        sek sek = ikn.f21218a;
+        Logger Logger = ikn.f21218a;
         sdo.m34959a(ikj);
         sdo.m34959a(a);
         this.f20847c = a;
@@ -87,9 +87,9 @@ public final class ifd {
     /* renamed from: a */
     public final void mo12958a(Context context, Intent intent) {
         Intent intent2;
-        sek sek = f20845a;
+        Logger Logger = f20845a;
         String valueOf = String.valueOf(intent.getAction());
-        sek.mo25414c(valueOf.length() == 0 ? new String("Handling event: ") : "Handling event: ".concat(valueOf), new Object[0]);
+        Logger.mo25414c(valueOf.length() == 0 ? new String("Handling event: ") : "Handling event: ".concat(valueOf), new Object[0]);
         f20846b.lock();
         int intExtra = intent.getIntExtra("flags", 0);
         boolean z = (intExtra & 2) > 0;
@@ -113,7 +113,7 @@ public final class ifd {
                 } else if ("AUTHZEN_PROXIMITY_CHALLENGE_EXPIRED".equals(action)) {
                     String stringExtra = intent.getStringExtra("account");
                     byte[] byteArrayExtra = intent.getByteArrayExtra("encryption_key_handle");
-                    bypc bypc = (bypc) bxvk.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request"));
+                    bypc bypc = (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request"));
                     bypb bypb = bypc.f167310d;
                     if (bypb == null) {
                         bypb = bypb.f167289p;
@@ -124,20 +124,20 @@ public final class ifd {
                     }
                 } else if ("AUTHZEN_NOTIFICATION_EXPIRED".equals(action)) {
                     bypc a = ijt.m15553a(intent);
-                    ikj.m15597a(a.f167308b.mo73780k(), 11, context);
+                    ikj.m15597a(a.f167308b.getKey(), 11, context);
                     ikl.m15607a(context).mo13098a(ikl.m15608a(a));
                     iff.m15364a(context, intent, byoo.EXPIRED);
                 } else if ("AUTHZEN_NOTIFICATION_DISMISSED".equals(action)) {
-                    ikj.m15597a(ijt.m15553a(intent).f167308b.mo73780k(), 12, context);
+                    ikj.m15597a(ijt.m15553a(intent).f167308b.getKey(), 12, context);
                     iff.m15364a(context, intent, byoo.DISMISSED);
                 } else if (!"com.google.android.gms.auth.authzen.TEST_UI".equals(action)) {
-                    sek sek2 = f20845a;
+                    Logger logger2 = f20845a;
                     String valueOf2 = String.valueOf(action);
-                    sek2.mo25418e(valueOf2.length() == 0 ? new String("unknown action: ") : "unknown action: ".concat(valueOf2), new Object[0]);
+                    logger2.mo25418e(valueOf2.length() == 0 ? new String("unknown action: ") : "unknown action: ".concat(valueOf2), new Object[0]);
                 } else if (((Boolean) igt.f20960j.mo58455c()).booleanValue()) {
                     String stringExtra2 = intent.getStringExtra("account");
                     try {
-                        bypc bypc2 = (bypc) bxvk.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request"));
+                        bypc bypc2 = (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request"));
                         bypb bypb2 = bypc2.f167310d;
                         if (bypb2 == null) {
                             bypb2 = bypb.f167289p;
@@ -147,12 +147,12 @@ public final class ifd {
                             a2 = 1;
                         }
                         if (a2 - 1 != 1) {
-                            sek sek3 = ikn.f21218a;
+                            Logger logger3 = ikn.f21218a;
                             String valueOf3 = String.valueOf(byoj.m125029b(a2));
                             StringBuilder sb = new StringBuilder(String.valueOf(valueOf3).length() + 21);
                             sb.append("Unknown prompt type: ");
                             sb.append(valueOf3);
-                            sek3.mo25416d(sb.toString(), new Object[0]);
+                            logger3.mo25416d(sb.toString(), new Object[0]);
                         } else {
                             bypb bypb3 = bypc2.f167310d;
                             if (bypb3 == null) {

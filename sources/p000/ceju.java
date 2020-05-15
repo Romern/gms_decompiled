@@ -26,7 +26,7 @@ public final class ceju implements cejs {
     static {
         bdyw a = new bdyw(bdyj.m91581a("com.google.android.gms.growth")).mo58443a();
         try {
-            f182806a = bdyx.m91608a(a, "Notifications__log_notification_block_state_channels", (bydj) bxvk.m124014a(bydj.f165795b, new byte[]{10, 56, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 46, 103, 114, 111, 119, 116, 104, 46, 110, 111, 116, 105, 102, 105, 99, 97, 116, 105, 111, 110, 115, 46, 103, 111, 111, 103, 108, 101, 95, 103, 117, 105, 100, 101}), cejt.f182805a);
+            f182806a = bdyx.m91608a(a, "Notifications__log_notification_block_state_channels", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[]{10, 56, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 46, 103, 114, 111, 119, 116, 104, 46, 110, 111, 116, 105, 102, 105, 99, 97, 116, 105, 111, 110, 115, 46, 103, 111, 111, 103, 108, 101, 95, 103, 117, 105, 100, 101}), cejt.f182805a);
             f182807b = bdyx.m91610a(a, "Notifications__read_gmscore_notification_payload_from_any_proto", false);
             f182808c = bdyx.m91610a(a, "Notifications__wait_for_dsuw_to_dismiss", false);
         } catch (bxwf e) {

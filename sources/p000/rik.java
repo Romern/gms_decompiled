@@ -317,7 +317,7 @@ public final class rik {
             bpvf2.f139330h = true;
         }
         if (i == 1) {
-            m33640a(context, "system_health", ((bpvf) da.mo74062i()).mo73642k());
+            m33640a(context, "system_health", ((bpvf) da.mo74062i()).serializeToBytes());
             return;
         }
         if (i2 >= 0) {
@@ -329,7 +329,7 @@ public final class rik {
             bpvf3.f139323a |= 32;
             bpvf3.f139332j = i2;
         }
-        qwo a2 = sfa.m35133a().mo25463b(context).mo24335a(((bpvf) da.mo74062i()).mo73642k());
+        qwo a2 = sfa.m35133a().mo25463b(context).mo24335a(((bpvf) da.mo74062i()).serializeToBytes());
         cagz cagz = cagz.DEFAULT;
         if (soz.m35800c(context) && (i == 8 || i == 10)) {
             cagz = cagz.FAST_IF_RADIO_AWAKE;

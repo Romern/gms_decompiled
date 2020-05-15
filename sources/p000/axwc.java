@@ -15,6 +15,6 @@ final class axwc implements bmzi {
 
     /* renamed from: b */
     public final Long mo6606a() {
-        return Long.valueOf(spn.m35843a(this.f96544a));
+        return Long.valueOf(spn.getAndroidId(this.f96544a));
     }
 }

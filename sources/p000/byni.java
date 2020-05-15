@@ -29,7 +29,7 @@ final class byni implements Runnable {
         botv botv = (botv) da.f164949b;
         botw.getClass();
         if (!botv.f134881a.mo73666a()) {
-            botv.f134881a = bxvk.m124021a(botv.f134881a);
+            botv.f134881a = GeneratedMessageLite.m124021a(botv.f134881a);
         }
         botv.f134881a.add(botw);
         botv botv2 = (botv) da.mo74062i();

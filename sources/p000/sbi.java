@@ -16,9 +16,9 @@ public abstract class sbi implements Thread.UncaughtExceptionHandler {
 
     protected sbi(Context context) {
         sba sba = new sba();
-        sdo.m34966a(context, "Context cannot be null.");
+        sdo.checkIfNull(context, "Context cannot be null.");
         this.f43992a = context;
-        sdo.m34966a(sba, "exceptionHandlerUtils cannot be null.");
+        sdo.checkIfNull(sba, "exceptionHandlerUtils cannot be null.");
     }
 
     /* renamed from: a */

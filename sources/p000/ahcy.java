@@ -102,7 +102,7 @@ public abstract class ahcy {
         bval.f155490b = buzo;
         bval.f155489a |= 1;
         bxvd da2 = buzq.f155418c.mo74144da();
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;

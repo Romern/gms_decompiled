@@ -545,7 +545,7 @@ public final class bgxg {
                 bgvv bgvv = (bgvv) da.f164949b;
                 bgvg10.getClass();
                 if (!bgvv.f117755b.mo73666a()) {
-                    bgvv.f117755b = bxvk.m124021a(bgvv.f117755b);
+                    bgvv.f117755b = GeneratedMessageLite.m124021a(bgvv.f117755b);
                 }
                 bgvv.f117755b.add(bgvg10);
                 size = i9;
@@ -562,7 +562,7 @@ public final class bgxg {
             a3.getClass();
             bgvv2.f117756c = a3;
             bgvv2.f117754a |= 2;
-            SharedPreferences.Editor putString = bgyh.f118032a.edit().putString("reportingConfig", Base64.encodeToString(((bgvv) da.mo74062i()).mo73642k(), 2));
+            SharedPreferences.Editor putString = bgyh.f118032a.edit().putString("reportingConfig", Base64.encodeToString(((bgvv) da.mo74062i()).serializeToBytes(), 2));
             arrayList = new ArrayList();
             Iterator it = reportingConfig2.f150914a.iterator();
             while (true) {

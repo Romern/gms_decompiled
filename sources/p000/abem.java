@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abem */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abem extends bxvk implements bxxd {
+public final class abem extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final abem f57255c;
@@ -19,7 +19,7 @@ public final class abem extends bxvk implements bxxd {
     static {
         abem abem = new abem();
         f57255c = abem;
-        bxvk.m124024a(abem.class, abem);
+        GeneratedMessageLite.m124024a(abem.class, abem);
     }
 
     private abem() {
@@ -36,7 +36,7 @@ public final class abem extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57255c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u001b", new Object[]{"a", abee.class, "b", abee.class});
+            return GeneratedMessageLite.m124022a(f57255c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u001b", new Object[]{"a", abee.class, "b", abee.class});
         } else if (i2 == 3) {
             return new abem();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btcw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btcw extends bxvk implements bxxd {
+public final class btcw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btcw f148359b;
@@ -16,7 +16,7 @@ public final class btcw extends bxvk implements bxxd {
     static {
         btcw btcw = new btcw();
         f148359b = btcw;
-        bxvk.m124024a(btcw.class, btcw);
+        GeneratedMessageLite.m124024a(btcw.class, btcw);
     }
 
     private btcw() {
@@ -33,7 +33,7 @@ public final class btcw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148359b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", btez.class});
+            return GeneratedMessageLite.m124022a(f148359b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", btez.class});
         } else if (i2 == 3) {
             return new btcw();
         } else {

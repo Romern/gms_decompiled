@@ -112,7 +112,7 @@ public final class bass implements basb {
         byhn3.getClass();
         bygz.f166413b = byhn3;
         bygz.f166412a = 2;
-        return new bata(str2, account, ((bygz) da.mo74062i()).mo73642k());
+        return new bata(str2, account, ((bygz) da.mo74062i()).serializeToBytes());
     }
 
     /* renamed from: a */
@@ -142,7 +142,7 @@ public final class bass implements basb {
                     afmt.f64402a = false;
                 }
                 rob rob = afmp.f64396d.mo24714a(b, "registerLatestFootprintListener").f43429b;
-                sdo.m34966a(rob, "Key must not be null");
+                sdo.checkIfNull(rob, "Key must not be null");
                 aucb = afmp.f64396d.mo24698a(rob);
             }
         }
@@ -169,7 +169,7 @@ public final class bass implements basb {
             afmj.f64378a = true;
             rod a2 = afmp.f64396d.mo24714a(b, "registerLatestFootprintListener");
             rob rob = a2.f43429b;
-            sdo.m34966a(rob, "Key must not be null");
+            sdo.checkIfNull(rob, "Key must not be null");
             aucf aucf = new aucf();
             afmp.mo34966a(new afmk(aucf, new afls(afmp, a2, afmj, b, a, rob, aucf)));
             auck = aucf.f91388a;
@@ -184,7 +184,7 @@ public final class bass implements basb {
         basz basz = this.f101677g;
         bxvf bxvf = (bxvf) bygn.f166357a.mo74144da();
         bxvf.mo74125a(basz.f101689a, bxxc);
-        byte[] k = ((bygn) bxvf.mo74062i()).mo73642k();
+        byte[] k = ((bygn) bxvf.mo74062i()).serializeToBytes();
         aucf aucf = new aucf();
         afmp.mo34966a(new afmk(aucf, new aflr(afmp, bArr, k, aucf)));
         return basw.m87505a(executor, aucf.f91388a);

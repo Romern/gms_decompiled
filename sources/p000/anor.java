@@ -62,8 +62,8 @@ public final class anor extends aonl {
         anpb anpb2 = this.f77322a;
         int i2 = anpb.f77340E;
         Audience audience = anpb2.f77367l.f77451a;
-        sdo.m34966a(audience, "Audience must not be null.");
-        sdo.m34966a(c, "Audience member must not be null.");
+        sdo.checkIfNull(audience, "Audience must not be null.");
+        sdo.checkIfNull(c, "Audience member must not be null.");
         return anpb.mo42040a(c, str, string, str2, str3, string2, audience.f30287b.contains(c), C0126R.C0128layout.plus_audience_selection_list_person, view, z, false, c.f30298h.getBoolean("checkboxEnabled", true));
     }
 }

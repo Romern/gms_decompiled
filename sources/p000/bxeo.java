@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxeo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxeo extends bxvk implements bxxd {
+public final class bxeo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bxeo f163115a;
@@ -13,7 +13,7 @@ public final class bxeo extends bxvk implements bxxd {
     static {
         bxeo bxeo = new bxeo();
         f163115a = bxeo;
-        bxvk.m124024a(bxeo.class, bxeo);
+        GeneratedMessageLite.m124024a(bxeo.class, bxeo);
     }
 
     private bxeo() {
@@ -30,7 +30,7 @@ public final class bxeo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f163115a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f163115a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bxeo();

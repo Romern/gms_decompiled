@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: calx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class calx extends bxvk implements bxxd {
+public final class calx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: v */
     public static final calx f175201v;
@@ -68,7 +68,7 @@ public final class calx extends bxvk implements bxxd {
     public bork f175221s;
 
     /* renamed from: t */
-    public bxtx f175222t = bxtx.f164797b;
+    public ByteString f175222t = ByteString.f164797b;
 
     /* renamed from: u */
     public boolean f175223u;
@@ -79,7 +79,7 @@ public final class calx extends bxvk implements bxxd {
     static {
         calx calx = new calx();
         f175201v = calx;
-        bxvk.m124024a(calx.class, calx);
+        GeneratedMessageLite.m124024a(calx.class, calx);
     }
 
     private calx() {
@@ -100,7 +100,7 @@ public final class calx extends bxvk implements bxxd {
             this.f175224w = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f175201v, "\u0001\u001b\u0001\u0001\u0001\u001f\u001b\u0000\u0003\u0001\u0001ဂ\u0000\u0002ဂ\u0001\u0003ဈ\u0003\u0006\u001b\u0007\u001b\bင\u0005\tြ\u0000\nြ\u0000\u000bြ\u0000\fြ\u0000\rြ\u0000\u000eြ\u0000\u000fြ\u0000\u0010ဉ\u0011\u0011ဇ\u0012\u0012ဉ\u0002\u0013ဇ\u0013\u0014ဇ\u0014\u0015ဇ\u0015\u0016င\u0006\u0017\u0016\u0018ဇ\u0016\u0019ဉ\u0017\u001aည\u0018\u001bြ\u0000\u001eᐼ\u0000\u001fဇ\u001a", new Object[]{"c", "b", "a", "d", "e", "g", "h", calw.class, "i", calv.class, "j", calz.class, calp.class, calq.class, bomk.class, cals.class, caly.class, boku.class, "l", "m", "f", "n", "o", "p", "k", "q", "r", "s", "t", calr.class, bybn.class, "u"});
+            return GeneratedMessageLite.m124022a(f175201v, "\u0001\u001b\u0001\u0001\u0001\u001f\u001b\u0000\u0003\u0001\u0001ဂ\u0000\u0002ဂ\u0001\u0003ဈ\u0003\u0006\u001b\u0007\u001b\bင\u0005\tြ\u0000\nြ\u0000\u000bြ\u0000\fြ\u0000\rြ\u0000\u000eြ\u0000\u000fြ\u0000\u0010ဉ\u0011\u0011ဇ\u0012\u0012ဉ\u0002\u0013ဇ\u0013\u0014ဇ\u0014\u0015ဇ\u0015\u0016င\u0006\u0017\u0016\u0018ဇ\u0016\u0019ဉ\u0017\u001aည\u0018\u001bြ\u0000\u001eᐼ\u0000\u001fဇ\u001a", new Object[]{"c", "b", "a", "d", "e", "g", "h", calw.class, "i", calv.class, "j", calz.class, calp.class, calq.class, bomk.class, cals.class, caly.class, boku.class, "l", "m", "f", "n", "o", "p", "k", "q", "r", "s", "t", calr.class, bybn.class, "u"});
         } else if (i2 == 3) {
             return new calx();
         } else {
@@ -127,7 +127,7 @@ public final class calx extends bxvk implements bxxd {
     /* renamed from: c */
     public final void mo74662c() {
         if (!this.f175211i.mo73666a()) {
-            this.f175211i = bxvk.m124021a(this.f175211i);
+            this.f175211i = GeneratedMessageLite.m124021a(this.f175211i);
         }
     }
 }

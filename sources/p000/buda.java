@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buda */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buda extends bxvk implements bxxd {
+public final class buda extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final buda f153440b;
@@ -19,7 +19,7 @@ public final class buda extends bxvk implements bxxd {
     static {
         buda buda = new buda();
         f153440b = buda;
-        bxvk.m124024a(buda.class, buda);
+        GeneratedMessageLite.m124024a(buda.class, buda);
     }
 
     private buda() {
@@ -36,7 +36,7 @@ public final class buda extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153440b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f153440b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new buda();
         } else {

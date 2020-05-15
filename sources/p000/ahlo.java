@@ -60,7 +60,7 @@ final /* synthetic */ class ahlo implements Runnable {
                 ahkv.mo36727k(str);
             }
             if ((buud.f154934a & 2) != 0) {
-                bArr = buud.f154936c.mo73780k();
+                bArr = buud.f154936c.getKey();
             } else {
                 bArr = null;
             }

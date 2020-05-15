@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: botv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class botv extends bxvk implements bxxd {
+public final class botv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final botv f134879b;
@@ -16,7 +16,7 @@ public final class botv extends bxvk implements bxxd {
     static {
         botv botv = new botv();
         f134879b = botv;
-        bxvk.m124024a(botv.class, botv);
+        GeneratedMessageLite.m124024a(botv.class, botv);
     }
 
     private botv() {
@@ -33,7 +33,7 @@ public final class botv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134879b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", botw.class});
+            return GeneratedMessageLite.m124022a(f134879b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", botw.class});
         } else if (i2 == 3) {
             return new botv();
         } else {

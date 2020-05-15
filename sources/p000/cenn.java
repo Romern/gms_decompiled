@@ -11,6 +11,6 @@ final /* synthetic */ class cenn implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (absm) bxvk.m124014a(absm.f58115b, bArr);
+        return (absm) GeneratedMessageLite.m124014a(absm.f58115b, bArr);
     }
 }

@@ -7,7 +7,7 @@ import java.util.Collection;
 public final class hyl implements hzr {
 
     /* renamed from: a */
-    public static final sek f20571a = new sek("ContainsStringMatcher");
+    public static final Logger f20571a = new Logger("ContainsStringMatcher");
 
     /* renamed from: b */
     public final bnic f20572b;

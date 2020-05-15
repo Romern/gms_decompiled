@@ -15,7 +15,7 @@ public final class jde {
     public static final boolean f22216b;
 
     /* renamed from: c */
-    private static final sek f22217c = jdh.m16547a("AndroidSdkChecker");
+    private static final Logger f22217c = jdh.m16547a("AndroidSdkChecker");
 
     static {
         boolean z = true;

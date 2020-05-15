@@ -75,7 +75,7 @@ public final class bexa {
                 try {
                     if (btuv.f150642b > this.f112876h) {
                         bxvd bxvd2 = (bxvd) btuv.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) btuv);
+                        bxvd2.mo73625a((GeneratedMessageLite) btuv);
                         if (bxvd2.f164950c) {
                             bxvd2.mo74035c();
                             bxvd2.f164950c = false;
@@ -88,7 +88,7 @@ public final class bexa {
                 } catch (IOException e) {
                     btuv2 = btuv;
                     bxvd = (bxvd) btuv2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) btuv2);
+                    bxvd.mo73625a((GeneratedMessageLite) btuv2);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -107,7 +107,7 @@ public final class bexa {
                 }
             } catch (IOException e2) {
                 bxvd = (bxvd) btuv2.mo74142c(5);
-                bxvd.mo73625a((bxvk) btuv2);
+                bxvd.mo73625a((GeneratedMessageLite) btuv2);
                 if (bxvd.f164950c) {
                 }
                 btuv btuv42 = (btuv) bxvd.f164949b;

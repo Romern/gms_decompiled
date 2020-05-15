@@ -204,7 +204,7 @@ public final class yyk {
     public static cadn m45012a(caae caae, long j, TimeUnit timeUnit, double d) {
         cadn a = m45014a(caae, j, timeUnit, yyp.m45046a(d));
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         cadm cadm = (cadm) bxvd;
         long nanos = timeUnit.toNanos(j);
         if (cadm.f164950c) {
@@ -279,7 +279,7 @@ public final class yyk {
         cadm.mo74614a(asList);
         cadn cadn3 = (cadn) cadm.mo74062i();
         bxvd bxvd = (bxvd) cadn3.mo74142c(5);
-        bxvd.mo73625a((bxvk) cadn3);
+        bxvd.mo73625a((GeneratedMessageLite) cadn3);
         cadm cadm2 = (cadm) bxvd;
         if (j != 0) {
             long nanos2 = timeUnit.toNanos(j);

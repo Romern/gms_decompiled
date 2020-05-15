@@ -36,7 +36,7 @@ final class awed extends awei {
             if (byteArrayExtra2 != null) {
                 bjhm bjhm = this.f94198b;
                 bxvd da = bwzf.f161591f.mo74144da();
-                bxtx a = bxtx.m123261a(byteArrayExtra2);
+                ByteString a = ByteString.m123261a(byteArrayExtra2);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

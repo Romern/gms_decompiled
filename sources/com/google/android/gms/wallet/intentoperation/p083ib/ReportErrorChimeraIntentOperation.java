@@ -34,7 +34,7 @@ public class ReportErrorChimeraIntentOperation extends IntentOperation {
     /* renamed from: a */
     public static void m94035a(BuyFlowConfig buyFlowConfig, String str, int i, int i2, int i3, Context context) {
         if (i2 != 7 && ((Boolean) awip.f94486f.mo58455c()).booleanValue()) {
-            sdo.m34966a(buyFlowConfig, "buyFlowConfig is required");
+            sdo.checkIfNull(buyFlowConfig, "buyFlowConfig is required");
             Intent startIntent = IntentOperation.getStartIntent(context, ReportErrorChimeraIntentOperation.class, "com.google.android.gms.wallet.ib.REPORT_ERROR");
             sef.m35071a(buyFlowConfig, startIntent, "com.google.android.gms.wallet.buyFlowConfig");
             startIntent.putExtra("com.google.android.gms.wallet.service.ib.ReportErrorChimeraIntentOperation.googleTransactionId", str);

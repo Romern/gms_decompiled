@@ -14,7 +14,7 @@ import java.util.Set;
 public final class jnj {
 
     /* renamed from: a */
-    public static final sek f22876a = jsy.m17256a("RemoteDeviceRegistry");
+    public static final Logger f22876a = jsy.m17256a("RemoteDeviceRegistry");
 
     /* renamed from: f */
     private static jnj f22877f;

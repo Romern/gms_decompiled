@@ -42,7 +42,7 @@ public final /* synthetic */ class aqsd implements View.OnClickListener {
         bzir bzir = (bzir) da2.f164949b;
         bzio.getClass();
         if (!bzir.f170228a.mo73666a()) {
-            bzir.f170228a = bxvk.m124021a(bzir.f170228a);
+            bzir.f170228a = GeneratedMessageLite.m124021a(bzir.f170228a);
         }
         bzir.f170228a.add(bzio);
         if (da.f164950c) {

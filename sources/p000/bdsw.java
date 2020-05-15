@@ -73,7 +73,7 @@ final /* synthetic */ class bdsw implements bqeh {
             int size = bxwc.size();
             int i3 = 0;
             while (i3 < size) {
-                bxtx bxtx = (bxtx) bxwc.get(i3);
+                ByteString bxtx = (ByteString) bxwc.get(i3);
                 if (bxtx.mo73744a() != 16) {
                     Log.w("DeletionsDownloader", "Ignored UUID with invalid length");
                     bmxv3 = bmxv;

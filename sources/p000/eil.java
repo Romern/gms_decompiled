@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: eil */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class eil extends bxvk implements bxxd {
+public final class eil extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final eil f15050i;
@@ -37,7 +37,7 @@ public final class eil extends bxvk implements bxxd {
     static {
         eil eil = new eil();
         f15050i = eil;
-        bxvk.m124024a(eil.class, eil);
+        GeneratedMessageLite.m124024a(eil.class, eil);
     }
 
     private eil() {
@@ -55,7 +55,7 @@ public final class eil extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f15050i, "\u0000\b\u0000\u0000\u0003\u0011\b\u0000\u0000\u0000\u0003\u0004\u0004Ȉ\u0005Ȉ\u0006Ȉ\bȈ\tȈ\rȈ\u0011Ȉ", new Object[]{"a", "b", "c", "f", "d", "e", "g", "h"});
+            return GeneratedMessageLite.m124022a(f15050i, "\u0000\b\u0000\u0000\u0003\u0011\b\u0000\u0000\u0000\u0003\u0004\u0004Ȉ\u0005Ȉ\u0006Ȉ\bȈ\tȈ\rȈ\u0011Ȉ", new Object[]{"a", "b", "c", "f", "d", "e", "g", "h"});
         } else if (i2 == 3) {
             return new eil();
         } else {

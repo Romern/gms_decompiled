@@ -109,7 +109,7 @@ public final class mmg implements mmh {
                             bssv bssv3 = (bssv) da2.f164949b;
                             bstf.getClass();
                             if (!bssv3.f146923a.mo73666a()) {
-                                bssv3.f146923a = bxvk.m124021a(bssv3.f146923a);
+                                bssv3.f146923a = GeneratedMessageLite.m124021a(bssv3.f146923a);
                             }
                             bssv3.f146923a.add(bstf);
                         }
@@ -158,7 +158,7 @@ public final class mmg implements mmh {
             }
             moy moy = (moy) da5.f164949b;
             if (!moy.f34091a.mo73666a()) {
-                moy.f34091a = bxvk.m124021a(moy.f34091a);
+                moy.f34091a = GeneratedMessageLite.m124021a(moy.f34091a);
             }
             bxsy.m123078a(arrayList, moy.f34091a);
             moy moy2 = (moy) da5.mo74062i();

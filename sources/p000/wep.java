@@ -20,6 +20,6 @@ public final /* synthetic */ class wep implements roo {
     public final void mo6476a(Object obj, Object obj2) {
         bxqf bxqf = this.f50593a;
         FacsCacheCallOptions facsCacheCallOptions = this.f50594b;
-        ((wfv) ((wfo) obj).mo25289B()).mo29092a(new wev((aucf) obj2), bxqf.mo73642k(), facsCacheCallOptions);
+        ((wfv) ((wfo) obj).mo25289B()).mo29092a(new wev((aucf) obj2), bxqf.serializeToBytes(), facsCacheCallOptions);
     }
 }

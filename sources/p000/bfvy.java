@@ -192,7 +192,7 @@ public final class bfvy {
         sb.append("/");
         sb.append(j3);
         sb.toString();
-        this.f115471l.mo24335a(((bonq) da3.mo74062i()).mo73642k()).mo24327b();
+        this.f115471l.mo24335a(((bonq) da3.mo74062i()).serializeToBytes()).mo24327b();
     }
 
     /* JADX WARNING: Removed duplicated region for block: B:116:? A[ORIG_RETURN, RETURN, SYNTHETIC] */
@@ -398,7 +398,7 @@ public final class bfvy {
                 this.f115461b = 0;
                 this.f115464e = 0;
                 this.f115463d = 0;
-                this.f115471l.mo24335a(((bonq) da3.mo74062i()).mo73642k()).mo24327b();
+                this.f115471l.mo24335a(((bonq) da3.mo74062i()).serializeToBytes()).mo24327b();
                 this.f115468i = currentTimeMillis;
                 this.f115472m.edit().putLong("LastClearcutErrorStats", this.f115468i).apply();
             }

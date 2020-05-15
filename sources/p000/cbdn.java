@@ -16,7 +16,7 @@ public final class cbdn extends bxvd implements bxxd {
         cbdo cbdo = (cbdo) this.f164949b;
         cbdo cbdo2 = cbdo.f176763b;
         if (!cbdo.f176765a.mo73666a()) {
-            cbdo.f176765a = bxvk.m124020a(cbdo.f176765a);
+            cbdo.f176765a = GeneratedMessageLite.m124020a(cbdo.f176765a);
         }
         bxsy.m123078a(iterable, cbdo.f176765a);
     }

@@ -7,7 +7,7 @@ import android.content.Context;
 public final class izq {
 
     /* renamed from: a */
-    public static final sek f22006a = jdh.m16547a("DeleteVaultsController");
+    public static final Logger f22006a = jdh.m16547a("DeleteVaultsController");
 
     /* renamed from: b */
     public final Context f22007b;

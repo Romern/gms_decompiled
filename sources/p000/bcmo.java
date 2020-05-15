@@ -100,7 +100,7 @@ public final class bcmo implements bcnl {
         bmxv bmxv2;
         cbdk cbdk;
         int i;
-        bxtx bxtx;
+        ByteString bxtx;
         byea byea = (byea) obj;
         bchp l = bchq.m89041l();
         cbdv cbdv = byea.f165884a;
@@ -152,11 +152,11 @@ public final class bcmo implements bcnl {
                 cbdt3 = cbdt.f176788d;
             }
             if (cbdt3.f176790a == 1) {
-                bxtx = (bxtx) cbdt3.f176791b;
+                bxtx = (ByteString) cbdt3.f176791b;
             } else {
                 bxtx = bxtx.f164797b;
             }
-            l.mo56893a(bxtx.mo73780k());
+            l.mo56893a(bxtx.getKey());
         } else {
             cbdv cbdv7 = byea.f165884a;
             if (cbdv7 == null) {
@@ -201,7 +201,7 @@ public final class bcmo implements bcnl {
         }
         Map unmodifiableMap = Collections.unmodifiableMap(cbdv10.f176799d);
         for (String str3 : unmodifiableMap.keySet()) {
-            hashMap.put(str3, ((bxte) unmodifiableMap.get(str3)).mo73642k());
+            hashMap.put(str3, ((bxte) unmodifiableMap.get(str3)).serializeToBytes());
         }
         l.mo56892a(hashMap);
         bngs j = bngx.m109377j();
@@ -298,7 +298,7 @@ public final class bcmo implements bcnl {
                     d2.mo57496a(cbdy2.f176811a);
                     d2.mo57495a((bcov) a6.mo66814b());
                     if (!cbdy2.f176813c.mo73779j()) {
-                        d2.mo57497a(cbdy2.f176813c.mo73780k());
+                        d2.mo57497a(cbdy2.f176813c.getKey());
                     }
                     bmxv2 = bmxv.m108566b(d2.mo57494a());
                 } else {
@@ -334,18 +334,18 @@ public final class bcmo implements bcnl {
                         if (bxte == null) {
                             bxte = bxte.f164763c;
                         }
-                        bxtx bxtx2 = bxte.f164766b;
+                        ByteString bxtx2 = bxte.f164766b;
                         bxus c2 = bxus.m123744c();
                         cbgf cbgf = cbgf.f177024b;
                         try {
                             bxuc h = bxtx2.mo73764h();
-                            bxvk bxvk = (bxvk) cbgf.mo74142c(4);
-                            bxxv a10 = bxxm.f165037a.mo74228a(bxvk);
-                            a10.mo74220a(bxvk, bxud.m123454a(h), c2);
-                            a10.mo74225d(bxvk);
+                            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) cbgf.mo74142c(4);
+                            bxxv a10 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                            a10.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c2);
+                            a10.mo74225d(GeneratedMessageLite);
                             h.mo73787a(0);
-                            bxvk.m124027b(bxvk);
-                            bcuo a11 = bcly.m89263a(bcoh, context3, (cbgf) bxvk, "RICH_TEXT_ACCESSORY_VIEW", a8);
+                            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                            bcuo a11 = bcly.m89263a(bcoh, context3, (cbgf) GeneratedMessageLite, "RICH_TEXT_ACCESSORY_VIEW", a8);
                             bcup c3 = bcuq.m90048c();
                             c3.mo57570a(a11);
                             bmxv = bmxv.m108566b(c3.mo57569a());

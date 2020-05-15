@@ -42,8 +42,8 @@ public final class actb {
     }
 
     /* renamed from: c */
-    public final bxtx mo33069c(String str) {
+    public final ByteString mo33069c(String str) {
         abqd abqd = (abqd) this.f60717b.get(str);
-        return abqd == null ? bxtx.f164797b : abqd.f57947c;
+        return abqd == null ? ByteString.f164797b : abqd.f57947c;
     }
 }

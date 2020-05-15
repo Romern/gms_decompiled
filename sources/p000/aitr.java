@@ -37,7 +37,7 @@ final /* synthetic */ class aitr implements Runnable {
         try {
             bvgz a = aiug.mo38048a(aivg.f69867c, 2);
             if ((a.f156061a & 64) != 0) {
-                byte[] k = a.f156065e.mo73780k();
+                byte[] k = a.f156065e.getKey();
                 aivg.f69865a.f69912d = k;
                 Arrays.toString(k);
             }
@@ -67,7 +67,7 @@ final /* synthetic */ class aitr implements Runnable {
             new soa(9, new aitz(aiug, aivg, b, a3)).start();
             try {
                 bxvd da = bvgz.f156059f.mo74144da();
-                bxtx a4 = bxtx.m123261a(aiug.f69778a.mo38105d());
+                ByteString a4 = ByteString.m123261a(aiug.f69778a.mo38105d());
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

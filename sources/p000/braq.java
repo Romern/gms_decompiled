@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: braq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class braq extends bxvk implements bxxd {
+public final class braq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final braq f142171c;
@@ -19,7 +19,7 @@ public final class braq extends bxvk implements bxxd {
     static {
         braq braq = new braq();
         f142171c = braq;
-        bxvk.m124024a(braq.class, braq);
+        GeneratedMessageLite.m124024a(braq.class, braq);
     }
 
     private braq() {
@@ -36,7 +36,7 @@ public final class braq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142171c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f142171c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new braq();
         } else {

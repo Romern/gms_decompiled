@@ -76,7 +76,7 @@ public final class bqqe {
                             } else {
                                 bqns b = bqnt.mo69309b();
                                 bqqi bqqi2 = this.f141369g;
-                                if (!bqqi2.f141373a.putString(bqqi2.f141374b, bqvz.m113507a(b.f141318a.mo73642k())).commit()) {
+                                if (!bqqi2.f141373a.putString(bqqi2.f141374b, bqvz.m113507a(b.f141318a.serializeToBytes())).commit()) {
                                     throw new IOException("Failed to write to SharedPreferences");
                                 }
                             }
@@ -116,11 +116,11 @@ public final class bqqe {
             try {
                 bqnu bqnu = this.f141364b;
                 bqng bqng = this.f141366d;
-                bqrx bqrx = (bqrx) bxvk.m124016a(bqrx.f141492c, ((bqqh) bqnu).mo69326b(), bxus.m123743b());
+                bqrx bqrx = (bqrx) GeneratedMessageLite.m124016a(bqrx.f141492c, ((bqqh) bqnu).mo69326b(), bxus.m123743b());
                 if (bqrx == null || bqrx.f141494a.mo73744a() == 0) {
                     throw new GeneralSecurityException("empty keyset");
                 }
-                bqsj bqsj = (bqsj) bxvk.m124016a(bqsj.f141531c, bqng.mo69282b(bqrx.f141494a.mo73780k(), new byte[0]), bxus.m123743b());
+                bqsj bqsj = (bqsj) GeneratedMessageLite.m124016a(bqsj.f141531c, bqng.mo69282b(bqrx.f141494a.getKey(), new byte[0]), bxus.m123743b());
                 bqns.m113056b(bqsj);
                 return bqnt.m113061a(new bqns(bqsj));
             } catch (bxwf e) {
@@ -133,13 +133,13 @@ public final class bqqe {
                 if (valueOf.length() != 0) {
                 }
                 Log.i(str2, str);
-                bqns a = bqns.m113055a((bqsj) bxvk.m124016a(bqsj.f141531c, ((bqqh) this.f141364b).mo69326b(), bxus.m123743b()));
+                bqns a = bqns.m113055a((bqsj) GeneratedMessageLite.m124016a(bqsj.f141531c, ((bqqh) this.f141364b).mo69326b(), bxus.m123743b()));
                 if (m113235c()) {
                 }
                 return bqnt.m113061a(a);
             }
         }
-        bqns a2 = bqns.m113055a((bqsj) bxvk.m124016a(bqsj.f141531c, ((bqqh) this.f141364b).mo69326b(), bxus.m123743b()));
+        bqns a2 = bqns.m113055a((bqsj) GeneratedMessageLite.m124016a(bqsj.f141531c, ((bqqh) this.f141364b).mo69326b(), bxus.m123743b()));
         if (m113235c()) {
             a2.mo69306a(this.f141369g, this.f141366d);
         }

@@ -27,7 +27,7 @@ final class mue extends BackupObserver {
     public final void onResult(String str, int i) {
         mqn mqn;
         if (!"@pm@".equals(str)) {
-            mug.f34754a.mo25409a("Backup done for %s, success: %d", str, Integer.valueOf(i));
+            mug.f34754a.logVerbose("Backup done for %s, success: %d", str, Integer.valueOf(i));
             muc muc = this.f34752b.f34756c;
             if (i == -1005) {
                 mqn = mqn.ERROR_TRANSPORT_QUOTA_EXCEEDED;
@@ -55,7 +55,7 @@ final class mue extends BackupObserver {
             } else {
                 mqn = mqn.ERROR_TRANSPORT_PACKAGE_REJECTED;
             }
-            muc.f34740a.mo25409a("Logging backup result for package: %s, backupObserverResult: %s", str, mqn);
+            muc.f34740a.logVerbose("Logging backup result for package: %s, backupObserverResult: %s", str, mqn);
             mub a = muc.mo20243a(str);
             a.f34738a = mqn;
             muc.f34741b.put(str, a);

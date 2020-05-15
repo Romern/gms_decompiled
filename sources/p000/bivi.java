@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bivi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bivi extends bxvk implements bxxd {
+public final class bivi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bivi f121988d;
@@ -28,7 +28,7 @@ public final class bivi extends bxvk implements bxxd {
     static {
         bivi bivi = new bivi();
         f121988d = bivi;
-        bxvk.m124024a(bivi.class, bivi);
+        GeneratedMessageLite.m124024a(bivi.class, bivi);
     }
 
     private bivi() {
@@ -49,7 +49,7 @@ public final class bivi extends bxvk implements bxxd {
             this.f121994f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121988d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔄ\u0001\u0003င\u0002", new Object[]{"e", "a", biub.f121765a, "b", "c"});
+            return GeneratedMessageLite.m124022a(f121988d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔄ\u0001\u0003င\u0002", new Object[]{"e", "a", biub.f121765a, "b", "c"});
         } else if (i2 == 3) {
             return new bivi();
         } else {

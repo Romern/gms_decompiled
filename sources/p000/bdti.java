@@ -91,7 +91,7 @@ public final class bdti implements bdry {
     }
 
     /* renamed from: a */
-    public final bqgg mo58337a(bxtx bxtx) {
+    public final bqgg mo58337a(ByteString bxtx) {
         return bqdx.m112674a(bdrg.m91328a(((bbnn) this.f106411e.mo6606a()).mo56236a(bdrw.CHANGE_NOTIFICATION), "DeletionsDownloader"), new bdsj(this, bxtx), this.f106415i);
     }
 }

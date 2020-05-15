@@ -16,7 +16,7 @@ public final class blcd extends bxvg implements bxvh {
     static {
         blcd blcd = new blcd();
         f125907a = blcd;
-        bxvk.m124024a(blcd.class, blcd);
+        GeneratedMessageLite.m124024a(blcd.class, blcd);
     }
 
     private blcd() {
@@ -37,7 +37,7 @@ public final class blcd extends bxvg implements bxvh {
             this.f125909b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f125907a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f125907a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new blcd();

@@ -13,7 +13,7 @@ import java.util.Arrays;
 public final class aryq {
 
     /* renamed from: d */
-    private static final sek f88476d = ascp.m73787a("DiscoveryChimeraActivity");
+    private static final Logger f88476d = ascp.m73787a("DiscoveryChimeraActivity");
 
     /* renamed from: a */
     public final ConnectionRequest f88477a;

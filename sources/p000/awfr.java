@@ -108,7 +108,7 @@ public final class awfr {
                 if (certificateChain != null) {
                     bxvd da2 = bmco.f128726b.mo74144da();
                     for (Certificate certificate : certificateChain) {
-                        bxtx a2 = bxtx.m123261a(certificate.getEncoded());
+                        ByteString a2 = ByteString.m123261a(certificate.getEncoded());
                         if (da2.f164950c) {
                             da2.mo74035c();
                             da2.f164950c = false;
@@ -116,7 +116,7 @@ public final class awfr {
                         bmco bmco = (bmco) da2.f164949b;
                         a2.getClass();
                         if (!bmco.f128728a.mo73666a()) {
-                            bmco.f128728a = bxvk.m124021a(bmco.f128728a);
+                            bmco.f128728a = GeneratedMessageLite.m124021a(bmco.f128728a);
                         }
                         bmco.f128728a.add(a2);
                     }

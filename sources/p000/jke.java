@@ -21,7 +21,7 @@ import org.json.JSONObject;
 public final class jke implements jnt, bluw {
 
     /* renamed from: a */
-    public static final sek f22679a = jsy.m17256a("BleSecureChannel");
+    public static final Logger f22679a = jsy.m17256a("BleSecureChannel");
 
     /* renamed from: b */
     public final String f22680b;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsmi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsmi extends bxvk implements bxxd {
+public final class bsmi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bsmi f145031c;
@@ -14,12 +14,12 @@ public final class bsmi extends bxvk implements bxxd {
     public int f145033a;
 
     /* renamed from: b */
-    public bxtx f145034b = bxtx.f164797b;
+    public ByteString f145034b = ByteString.f164797b;
 
     static {
         bsmi bsmi = new bsmi();
         f145031c = bsmi;
-        bxvk.m124024a(bsmi.class, bsmi);
+        GeneratedMessageLite.m124024a(bsmi.class, bsmi);
     }
 
     private bsmi() {
@@ -36,7 +36,7 @@ public final class bsmi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f145031c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f145031c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bsmi();
         } else {

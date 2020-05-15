@@ -225,7 +225,7 @@ public final class abva extends acpn {
                                                             absv2.f58174c = nativeGetCorpusDocumentsSize;
                                                             absv absv3 = (absv) da2.mo74062i();
                                                             bxvd bxvd = (bxvd) f.mo74142c(5);
-                                                            bxvd.mo73625a((bxvk) f);
+                                                            bxvd.mo73625a((GeneratedMessageLite) f);
                                                             if (bxvd.f164950c) {
                                                                 bxvd.mo74035c();
                                                                 bxvd.f164950c = false;
@@ -290,7 +290,7 @@ public final class abva extends acpn {
                                             acxf = acsx;
                                         }
                                         bxvd bxvd2 = (bxvd) a3.mo74142c(5);
-                                        bxvd2.mo73625a((bxvk) a3);
+                                        bxvd2.mo73625a((GeneratedMessageLite) a3);
                                         int i2 = a5.f58137b;
                                         if (bxvd2.f164950c) {
                                             bxvd2.mo74035c();
@@ -367,7 +367,7 @@ public final class abva extends acpn {
                                                     abuu abuu = acxq2.f61046a;
                                                     if (str2 != null) {
                                                         bxvd bxvd3 = (bxvd) abuu.mo74142c(5);
-                                                        bxvd3.mo73625a((bxvk) abuu);
+                                                        bxvd3.mo73625a((GeneratedMessageLite) abuu);
                                                         if (bxvd3.f164950c) {
                                                             bxvd3.mo74035c();
                                                             bxvd3.f164950c = false;
@@ -387,7 +387,7 @@ public final class abva extends acpn {
                                                             abqe5 = abqe.f57949g;
                                                         }
                                                         bxvd bxvd4 = (bxvd) abqe5.mo74142c(5);
-                                                        bxvd4.mo73625a((bxvk) abqe5);
+                                                        bxvd4.mo73625a((GeneratedMessageLite) abqe5);
                                                         if (bxvd4.f164950c) {
                                                             bxvd4.mo74035c();
                                                             bxvd4.f164950c = false;
@@ -480,18 +480,18 @@ public final class abva extends acpn {
                                         }
                                         if (".private:action".equals(abqo2.f57988m)) {
                                             try {
-                                                bxtx bxtx = abqd2.f57947c;
+                                                ByteString bxtx = abqd2.f57947c;
                                                 bxus c2 = bxus.m123744c();
                                                 cixm cixm = cixm.f191686d;
                                                 try {
                                                     bxuc h = bxtx.mo73764h();
-                                                    bxvk bxvk = (bxvk) cixm.mo74142c(4);
-                                                    bxxv a15 = bxxm.f165037a.mo74228a(bxvk);
-                                                    a15.mo74220a(bxvk, bxud.m123454a(h), c2);
-                                                    a15.mo74225d(bxvk);
+                                                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) cixm.mo74142c(4);
+                                                    bxxv a15 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                                                    a15.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c2);
+                                                    a15.mo74225d(GeneratedMessageLite);
                                                     h.mo73787a(0);
-                                                    bxvk.m124027b(bxvk);
-                                                    str = ((cixm) bxvk).f191689b;
+                                                    GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                                                    str = ((cixm) GeneratedMessageLite).f191689b;
                                                     break;
                                                 } catch (IOException e6) {
                                                     IOException iOException = e6;
@@ -567,12 +567,12 @@ public final class abva extends acpn {
                                         absg.m48192b("Cannot update counters for non-existent key: %s", acak2.mo32584b());
                                     } else if (acxd.mo33188a()) {
                                         bxvd bxvd5 = (bxvd) a16.mo74142c(5);
-                                        bxvd5.mo73625a((bxvk) a16);
+                                        bxvd5.mo73625a((GeneratedMessageLite) a16);
                                         if (bxvd5.f164950c) {
                                             bxvd5.mo74035c();
                                             bxvd5.f164950c = false;
                                         }
-                                        ((absy) bxvd5.f164949b).f58179b = bxvk.m124030de();
+                                        ((absy) bxvd5.f164949b).f58179b = GeneratedMessageLite.m124030de();
                                         bxvd5.mo73950M(acxd.mo33186a(a16.f58179b));
                                         bxvd5.mo74062i();
                                         abzm2.mo32539b(acak2, (absy) bxvd5.mo74062i());

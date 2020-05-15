@@ -132,7 +132,7 @@ public final class asgz {
             String valueOf = String.valueOf(calv.f175183b);
             if (cagz.m126622a(m74108a(sharedPreferences, valueOf.length() == 0 ? new String("clearcut_dropbox_upload_qos_tier_") : "clearcut_dropbox_upload_qos_tier_".concat(valueOf), 0, qxq)) == cagz.FAST_IF_RADIO_AWAKE) {
                 int i2 = Build.VERSION.SDK_INT;
-                String str = new String(calv.f175184c.mo73780k());
+                String str = new String(calv.f175184c.getKey());
                 if (cguq.m147091b()) {
                     String valueOf2 = String.valueOf(calv.f175183b);
                     if (m74110a(sharedPreferences, valueOf2.length() == 0 ? new String("clearcut_dropbox_background_allowed_") : "clearcut_dropbox_background_allowed_".concat(valueOf2), qxq)) {
@@ -229,7 +229,7 @@ public final class asgz {
                             bArr = Arrays.copyOf(bArr, i);
                         }
                         inputStream.close();
-                        bxtx a2 = bxtx.m123261a(bArr);
+                        ByteString a2 = ByteString.m123261a(bArr);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -240,10 +240,10 @@ public final class asgz {
                         calv2.f175184c = a2;
                         String valueOf5 = String.valueOf(tag);
                         if (m74110a(sharedPreferences2, valueOf5.length() == 0 ? new String("clearcut_dropbox_upload_strip_logcat_") : "clearcut_dropbox_upload_strip_logcat_".concat(valueOf5), qxq2)) {
-                            String str4 = new String(((calv) da.f164949b).f175184c.mo73780k());
+                            String str4 = new String(((calv) da.f164949b).f175184c.getKey());
                             Matcher matcher = compile.matcher(str4);
                             if (matcher.find()) {
-                                bxtx a3 = bxtx.m123261a(str4.substring(0, matcher.start()).getBytes());
+                                ByteString a3 = ByteString.m123261a(str4.substring(0, matcher.start()).getBytes());
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;
@@ -259,7 +259,7 @@ public final class asgz {
                         }
                         if (f88960d.contains(tag)) {
                             try {
-                                Matcher matcher2 = f88959c.matcher(new String(((calv) da.f164949b).f175184c.mo73780k()));
+                                Matcher matcher2 = f88959c.matcher(new String(((calv) da.f164949b).f175184c.getKey()));
                                 if (matcher2.find()) {
                                     String group = matcher2.group(1);
                                     if (da.f164950c) {

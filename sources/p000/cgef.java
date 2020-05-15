@@ -104,7 +104,7 @@ public final class cgef implements cged {
         f186654q = bdyx.m91607a(b, "sync_retry_delay_seconds", 3600L);
         f186655r = bdyx.m91607a(b, "vacuum_change_count_mod", 1000L);
         try {
-            f186656s = bdyx.m91608a(b, "whitelisted_apps_for_flag_overrides", (bydj) bxvk.m124014a(bydj.f165795b, new byte[]{10, 29, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 112, 108, 97, 121, 46, 103, 97, 109, 101, 115}), cgee.f186637a);
+            f186656s = bdyx.m91608a(b, "whitelisted_apps_for_flag_overrides", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[]{10, 29, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 112, 108, 97, 121, 46, 103, 97, 109, 101, 115}), cgee.f186637a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"whitelisted_apps_for_flag_overrides\"");
         }

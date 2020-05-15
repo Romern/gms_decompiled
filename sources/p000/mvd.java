@@ -53,7 +53,7 @@ public final class mvd {
         mqk.f34284a |= 64;
         mqk mqk3 = (mqk) a.mo74062i();
         if (ccmz.m130716d()) {
-            qwo a2 = this.f34798a.mo24335a(mqk3.mo73642k());
+            qwo a2 = this.f34798a.mo24335a(mqk3.serializeToBytes());
             a2.mo24328b(5);
             a2.mo24327b();
         }

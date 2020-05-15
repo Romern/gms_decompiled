@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvtc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvtc extends bxvk implements bxxd {
+public final class bvtc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvtc f157556a;
@@ -13,7 +13,7 @@ public final class bvtc extends bxvk implements bxxd {
     static {
         bvtc bvtc = new bvtc();
         f157556a = bvtc;
-        bxvk.m124024a(bvtc.class, bvtc);
+        GeneratedMessageLite.m124024a(bvtc.class, bvtc);
     }
 
     private bvtc() {
@@ -30,7 +30,7 @@ public final class bvtc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157556a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f157556a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvtc();

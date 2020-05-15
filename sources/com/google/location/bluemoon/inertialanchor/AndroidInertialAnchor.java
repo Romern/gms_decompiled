@@ -267,7 +267,7 @@ public class AndroidInertialAnchor extends InertialAnchorBase {
             try {
                 byte[] debugLog = this.f191728g.getDebugLog(mo86647e());
                 if (debugLog != null) {
-                    btvt btvt = (btvt) bxvk.m124014a(btvt.f152640a, debugLog);
+                    btvt btvt = (btvt) GeneratedMessageLite.m124014a(btvt.f152640a, debugLog);
                     printWriter.println("IA_LOG: OK");
                     printWriter.println(boan.f132470d.mo68794a(debugLog));
                 } else {

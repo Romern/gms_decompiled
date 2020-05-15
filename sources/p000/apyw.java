@@ -23,7 +23,7 @@ public final class apyw {
         }
         aqdw aqdw = (aqdw) f85197a.get(str);
         if (aqdw.f85811c == j) {
-            return aqdw.f85810b.mo73780k();
+            return aqdw.f85810b.getKey();
         }
         f85197a.remove(str);
         return null;

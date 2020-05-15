@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amqr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amqr extends bxvk implements bxxd {
+public final class amqr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final amqr f75772d;
@@ -14,7 +14,7 @@ public final class amqr extends bxvk implements bxxd {
     public int f75774a;
 
     /* renamed from: b */
-    public bxtx f75775b = bxtx.f164797b;
+    public ByteString f75775b = ByteString.f164797b;
 
     /* renamed from: c */
     public long f75776c;
@@ -22,7 +22,7 @@ public final class amqr extends bxvk implements bxxd {
     static {
         amqr amqr = new amqr();
         f75772d = amqr;
-        bxvk.m124024a(amqr.class, amqr);
+        GeneratedMessageLite.m124024a(amqr.class, amqr);
     }
 
     private amqr() {
@@ -39,7 +39,7 @@ public final class amqr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75772d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ည\u0000\u0002ဂ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f75772d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ည\u0000\u0002ဂ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new amqr();
         } else {

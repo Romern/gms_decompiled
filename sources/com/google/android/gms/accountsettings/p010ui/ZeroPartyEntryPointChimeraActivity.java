@@ -56,7 +56,7 @@ public class ZeroPartyEntryPointChimeraActivity extends ffm {
         bsxn j = super.mo6348j();
         if (m5019v()) {
             bxvd bxvd = (bxvd) j.mo74142c(5);
-            bxvd.mo73625a((bxvk) j);
+            bxvd.mo73625a((GeneratedMessageLite) j);
             bsxl bsxl = (bsxl) bxvd;
             if (bsxl.f164950c) {
                 bsxl.mo74035c();
@@ -72,7 +72,7 @@ public class ZeroPartyEntryPointChimeraActivity extends ffm {
             return j;
         } else {
             bxvd bxvd2 = (bxvd) j.mo74142c(5);
-            bxvd2.mo73625a((bxvk) j);
+            bxvd2.mo73625a((GeneratedMessageLite) j);
             bsxl bsxl2 = (bsxl) bxvd2;
             if (bsxl2.f164950c) {
                 bsxl2.mo74035c();

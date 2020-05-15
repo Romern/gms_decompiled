@@ -158,7 +158,7 @@ public final class bbav {
         bpwz.f139599d = str2;
         bbaz bbaz = this.f102247d;
         bxvd bxvd = (bxvd) bavr.mo74142c(5);
-        bxvd.mo73625a((bxvk) bavr);
+        bxvd.mo73625a((GeneratedMessageLite) bavr);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -192,7 +192,7 @@ public final class bbav {
     /* renamed from: a */
     public final bqgg mo56048a(bavr bavr, boolean z) {
         bxvd bxvd = (bxvd) bavr.mo74142c(5);
-        bxvd.mo73625a((bxvk) bavr);
+        bxvd.mo73625a((GeneratedMessageLite) bavr);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

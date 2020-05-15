@@ -21,7 +21,7 @@ public final class aenv extends aeme {
         aeoa aeoa = (aeoa) rjd;
         aemf aemf = new aemf((aeme) this);
         PendingIntent pendingIntent = this.f63540a;
-        sdo.m34966a(aemf, "callback == null");
+        sdo.checkIfNull(aemf, "callback == null");
         ((aeni) aeoa.mo25289B()).mo34356a(aeoa.f63545a, pendingIntent, aemf);
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brcf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brcf extends bxvk implements bxxd {
+public final class brcf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bxvu f142355f = new brce();
@@ -37,7 +37,7 @@ public final class brcf extends bxvk implements bxxd {
     static {
         brcf brcf = new brcf();
         f142356i = brcf;
-        bxvk.m124024a(brcf.class, brcf);
+        GeneratedMessageLite.m124024a(brcf.class, brcf);
     }
 
     private brcf() {
@@ -54,7 +54,7 @@ public final class brcf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142356i, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0002\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004\u001e\u0005\u001b\u0006ဉ\u0003", new Object[]{"a", "b", "c", "d", "e", brcm.m113876b(), "g", bree.class, "h"});
+            return GeneratedMessageLite.m124022a(f142356i, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0002\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004\u001e\u0005\u001b\u0006ဉ\u0003", new Object[]{"a", "b", "c", "d", "e", brcm.m113876b(), "g", bree.class, "h"});
         } else if (i2 == 3) {
             return new brcf();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bowy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bowy extends bxvk implements bxxd {
+public final class bowy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bowy f135207c;
@@ -19,7 +19,7 @@ public final class bowy extends bxvk implements bxxd {
     static {
         bowy bowy = new bowy();
         f135207c = bowy;
-        bxvk.m124024a(bowy.class, bowy);
+        GeneratedMessageLite.m124024a(bowy.class, bowy);
     }
 
     private bowy() {
@@ -36,7 +36,7 @@ public final class bowy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135207c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f135207c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bowy();
         } else {

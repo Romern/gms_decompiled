@@ -105,7 +105,7 @@ public final class bdqs implements bdqj {
         }
         try {
             bdqr bdqr = this.f106280d;
-            byte[] k = cios.mo73642k();
+            byte[] k = cios.serializeToBytes();
             synchronized (bdqr.f106276a) {
                 bdqr.f106276a.mo73867c(k);
                 bdqr.f106276a.mo73851c();

@@ -476,7 +476,7 @@ public final class amve extends amva {
                         da.mo74035c();
                         da.f164950c = false;
                     }
-                    ((amnm) da.f164949b).f75519g = bxvk.m124030de();
+                    ((amnm) da.f164949b).f75519g = GeneratedMessageLite.m124030de();
                     List asList = Arrays.asList((amnl[]) anbh.f76543c.values().toArray(new amnl[anbh.f76543c.size()]));
                     if (da.f164950c) {
                         da.mo74035c();
@@ -484,7 +484,7 @@ public final class amve extends amva {
                     }
                     amnm amnm = (amnm) da.f164949b;
                     if (!amnm.f75519g.mo73666a()) {
-                        amnm.f75519g = bxvk.m124021a(amnm.f75519g);
+                        amnm.f75519g = GeneratedMessageLite.m124021a(amnm.f75519g);
                     }
                     bxsy.m123078a(asList, amnm.f75519g);
                 }
@@ -531,7 +531,7 @@ public final class amve extends amva {
                         }
                         amnk amnk2 = (amnk) ammx.f164949b;
                         if (!amnk2.f75495f.mo73666a()) {
-                            amnk2.f75495f = bxvk.m124021a(amnk2.f75495f);
+                            amnk2.f75495f = GeneratedMessageLite.m124021a(amnk2.f75495f);
                         }
                         bxsy.m123078a(list, amnk2.f75495f);
                     }
@@ -543,7 +543,7 @@ public final class amve extends amva {
                         }
                         amnk amnk3 = (amnk) ammx.f164949b;
                         if (!amnk3.f75496g.mo73666a()) {
-                            amnk3.f75496g = bxvk.m124021a(amnk3.f75496g);
+                            amnk3.f75496g = GeneratedMessageLite.m124021a(amnk3.f75496g);
                         }
                         bxsy.m123078a(list2, amnk3.f75496g);
                     }
@@ -727,7 +727,7 @@ public final class amve extends amva {
                     }
                     amnc amnc4 = (amnc) da3.f164949b;
                     if (!amnc4.f75432i.mo73666a()) {
-                        amnc4.f75432i = bxvk.m124021a(amnc4.f75432i);
+                        amnc4.f75432i = GeneratedMessageLite.m124021a(amnc4.f75432i);
                     }
                     bxsy.m123078a(a6, amnc4.f75432i);
                 }
@@ -1850,7 +1850,7 @@ public final class amve extends amva {
                                 amdk.m62658a("FSA2_PeopleSyncState", "@resetToFullSync = %d", objArr3);
                                 amvh a7 = amwl.f76191a.mo41492a();
                                 bxvd bxvd = (bxvd) a7.mo74142c(5);
-                                bxvd.mo73625a((bxvk) a7);
+                                bxvd.mo73625a((GeneratedMessageLite) a7);
                                 if (bxvd.f164950c) {
                                     bxvd.mo74035c();
                                     bxvd.f164950c = r4;

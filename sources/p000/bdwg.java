@@ -5,7 +5,7 @@ package p000;
 final class bdwg extends bdxr {
 
     /* renamed from: a */
-    private final bxtx f106522a;
+    private final ByteString f106522a;
 
     /* renamed from: b */
     private final long f106523b;
@@ -13,14 +13,14 @@ final class bdwg extends bdxr {
     /* renamed from: c */
     private final Long f106524c;
 
-    public bdwg(bxtx bxtx, long j, Long l) {
+    public bdwg(ByteString bxtx, long j, Long l) {
         this.f106522a = bxtx;
         this.f106523b = j;
         this.f106524c = l;
     }
 
     /* renamed from: a */
-    public final bxtx mo58404a() {
+    public final ByteString mo58404a() {
         return this.f106522a;
     }
 

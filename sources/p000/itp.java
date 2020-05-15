@@ -10,7 +10,7 @@ import com.google.android.gms.common.api.Status;
 public final class itp extends aaab {
 
     /* renamed from: d */
-    private static final sek f21697d = new sek(new String[]{"GetKeyHandleOperation"}, (byte[]) null);
+    private static final Logger f21697d = new Logger(new String[]{"GetKeyHandleOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final irq f21698a;

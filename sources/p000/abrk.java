@@ -48,7 +48,7 @@ public final class abrk extends acpn {
                                 absr = absr.f58134s;
                             }
                             bxvd bxvd = (bxvd) absr.mo74142c(5);
-                            bxvd.mo73625a((bxvk) absr);
+                            bxvd.mo73625a((GeneratedMessageLite) absr);
                             absr absr2 = ((abss) c.mo32560c()).f58157b;
                             if (absr2 == null) {
                                 absr2 = absr.f58134s;
@@ -75,7 +75,7 @@ public final class abrk extends acpn {
                                         bxvd.mo74035c();
                                         bxvd.f164950c = false;
                                     }
-                                    ((absr) bxvd.f164949b).f58146k = bxvk.m124030de();
+                                    ((absr) bxvd.f164949b).f58146k = GeneratedMessageLite.m124030de();
                                     if (b2 != null) {
                                         bxvd.mo73949L(b2);
                                     }

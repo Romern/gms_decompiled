@@ -11,7 +11,7 @@ import org.chromium.net.ExperimentalCronetEngine;
 public final class ffy implements bmzi {
 
     /* renamed from: a */
-    private static final sek f16483a = ffw.m11631a("CronetEngineSupplier");
+    private static final Logger f16483a = ffw.m11631a("CronetEngineSupplier");
 
     /* renamed from: c */
     private static final bmzi f16484c = bmzn.m108681a((bmzi) new ffy());

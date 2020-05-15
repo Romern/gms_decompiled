@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btek */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btek extends bxvk implements bxxd {
+public final class btek extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final btek f148526d;
@@ -26,7 +26,7 @@ public final class btek extends bxvk implements bxxd {
     static {
         btek btek = new btek();
         f148526d = btek;
-        bxvk.m124024a(btek.class, btek);
+        GeneratedMessageLite.m124024a(btek.class, btek);
     }
 
     private btek() {
@@ -43,7 +43,7 @@ public final class btek extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148526d, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0001\u0000\u0001\t\u0002Ț\u0003\u0004\u0004Ȉ", new Object[]{"a", "b", "e", "c"});
+            return GeneratedMessageLite.m124022a(f148526d, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0001\u0000\u0001\t\u0002Ț\u0003\u0004\u0004Ȉ", new Object[]{"a", "b", "e", "c"});
         } else if (i2 == 3) {
             return new btek();
         } else {

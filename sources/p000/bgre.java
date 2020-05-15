@@ -10,7 +10,7 @@ final /* synthetic */ class bgre implements bgqj {
     }
 
     /* renamed from: a */
-    public final String mo63100a(String str, bxtx bxtx) {
+    public final String mo63100a(String str, ByteString bxtx) {
         srn srn = bgrw.f117381a;
         return "";
     }

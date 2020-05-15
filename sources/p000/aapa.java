@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aapa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aapa extends bxvk implements bxxd {
+public final class aapa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final aapa f28723i;
@@ -37,7 +37,7 @@ public final class aapa extends bxvk implements bxxd {
     static {
         aapa aapa = new aapa();
         f28723i = aapa;
-        bxvk.m124024a(aapa.class, aapa);
+        GeneratedMessageLite.m124024a(aapa.class, aapa);
     }
 
     private aapa() {
@@ -54,7 +54,7 @@ public final class aapa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28723i, "\u0001\u0007\u0000\u0001\u0004\n\u0007\u0000\u0001\u0000\u0004\u001a\u0005ဌ\u0003\u0006ဌ\u0004\u0007ဌ\u0005\bဌ\u0006\tဌ\u0007\nဌ\b", new Object[]{"a", "b", "c", aaoy.f28722a, "d", aaou.f28720a, "e", aaoy.f28722a, "f", aaou.f28720a, "g", aaow.f28721a, "h", aaow.f28721a});
+            return GeneratedMessageLite.m124022a(f28723i, "\u0001\u0007\u0000\u0001\u0004\n\u0007\u0000\u0001\u0000\u0004\u001a\u0005ဌ\u0003\u0006ဌ\u0004\u0007ဌ\u0005\bဌ\u0006\tဌ\u0007\nဌ\b", new Object[]{"a", "b", "c", aaoy.f28722a, "d", aaou.f28720a, "e", aaoy.f28722a, "f", aaou.f28720a, "g", aaow.f28721a, "h", aaow.f28721a});
         } else if (i2 == 3) {
             return new aapa();
         } else {

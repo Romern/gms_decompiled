@@ -15,7 +15,7 @@ public final class aenc {
     /* renamed from: a */
     public static final rke m52183a(rkb rkb, LatLngBounds latLngBounds, int i, String str, PlaceFilter placeFilter) {
         boolean z;
-        sdo.m34966a(latLngBounds, "bounds == null");
+        sdo.checkIfNull(latLngBounds, "bounds == null");
         if (i > 0) {
             z = true;
         } else {

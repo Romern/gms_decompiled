@@ -140,7 +140,7 @@ public final class bgta implements bgtk {
                     }
                     bgdv bgdv = (bgdv) da.f164949b;
                     if (!bgdv.f116184a.mo73666a()) {
-                        bgdv.f116184a = bxvk.m124020a(bgdv.f116184a);
+                        bgdv.f116184a = GeneratedMessageLite.m124020a(bgdv.f116184a);
                     }
                     bgdv.f116184a.mo74161a(j);
                 }

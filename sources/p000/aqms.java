@@ -13,7 +13,7 @@ public final /* synthetic */ class aqms implements DialogInterface.OnClickListen
     }
 
     public final void onClick(DialogInterface dialogInterface, int i) {
-        sek sek = SignInChimeraActivity.f107676b;
+        Logger Logger = SignInChimeraActivity.f107676b;
         dialogInterface.cancel();
     }
 }

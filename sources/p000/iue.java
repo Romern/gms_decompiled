@@ -83,7 +83,7 @@ public final class iue extends aaab {
                     bqlc bqlc = (bqlc) da2.f164949b;
                     bqlb2.getClass();
                     if (!bqlc.f141080b.mo73666a()) {
-                        bqlc.f141080b = bxvk.m124021a(bqlc.f141080b);
+                        bqlc.f141080b = GeneratedMessageLite.m124021a(bqlc.f141080b);
                     }
                     bqlc.f141080b.add(bqlb2);
                 }
@@ -102,7 +102,7 @@ public final class iue extends aaab {
                 bqkz bqkz = (bqkz) da4.f164949b;
                 bqlc2.getClass();
                 if (!bqkz.f141069b.mo73666a()) {
-                    bqkz.f141069b = bxvk.m124021a(bqkz.f141069b);
+                    bqkz.f141069b = GeneratedMessageLite.m124021a(bqkz.f141069b);
                 }
                 bqkz.f141069b.add(bqlc2);
                 bqkz bqkz2 = (bqkz) da4.mo74062i();

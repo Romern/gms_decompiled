@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bko */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bko extends bxvk implements bxxd {
+public final class bko extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final bko f5002h;
@@ -34,7 +34,7 @@ public final class bko extends bxvk implements bxxd {
     static {
         bko bko = new bko();
         f5002h = bko;
-        bxvk.m124024a(bko.class, bko);
+        GeneratedMessageLite.m124024a(bko.class, bko);
     }
 
     private bko() {
@@ -52,7 +52,7 @@ public final class bko extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f5002h, "\u0001\u0006\u0000\u0001\u0001e\u0006\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0004ဂ\u0004\fဂ\u0002dဉ\reဇ\u000e", new Object[]{"a", "b", "c", "e", "d", "f", "g"});
+            return GeneratedMessageLite.m124022a(f5002h, "\u0001\u0006\u0000\u0001\u0001e\u0006\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0004ဂ\u0004\fဂ\u0002dဉ\reဇ\u000e", new Object[]{"a", "b", "c", "e", "d", "f", "g"});
         } else if (i2 == 3) {
             return new bko();
         } else {

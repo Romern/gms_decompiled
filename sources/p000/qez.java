@@ -13,7 +13,7 @@ import com.google.android.gms.checkin.eventlog.EventLogChimeraService;
 public final class qez {
 
     /* renamed from: a */
-    public static final sek f41099a = qgn.m32143a("CheckinOperation");
+    public static final Logger f41099a = qgn.m32143a("CheckinOperation");
 
     /* renamed from: b */
     public final Context f41100b;

@@ -4,7 +4,7 @@ import com.google.autofill.detection.p098ml.AndroidInputTypeSignal;
 
 /* renamed from: blqj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blqj extends bxvk implements bxxd {
+public final class blqj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final blqj f127345f;
@@ -33,7 +33,7 @@ public final class blqj extends bxvk implements bxxd {
     static {
         blqj blqj = new blqj();
         f127345f = blqj;
-        bxvk.m124024a(blqj.class, blqj);
+        GeneratedMessageLite.m124024a(blqj.class, blqj);
     }
 
     private blqj() {
@@ -57,7 +57,7 @@ public final class blqj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127345f, "\u0001\u0005\u0000\u0001\u0001\u000e\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0005ဇ\u000e\f\u001b\rဉ\u0014\u000eဉ\u0017", new Object[]{"a", "b", "g", "c", blou.class, "d", "e"});
+            return GeneratedMessageLite.m124022a(f127345f, "\u0001\u0005\u0000\u0001\u0001\u000e\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0005ဇ\u000e\f\u001b\rဉ\u0014\u000eဉ\u0017", new Object[]{"a", "b", "g", "c", blou.class, "d", "e"});
         } else if (i2 == 3) {
             return new blqj();
         } else {

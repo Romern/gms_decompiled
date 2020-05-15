@@ -52,9 +52,9 @@ final /* synthetic */ class aceq implements bqeh {
                     z = false;
                 }
                 bxvd bxvd = (bxvd) bonk.mo74142c(5);
-                bxvd.mo73625a((bxvk) bonk);
+                bxvd.mo73625a((GeneratedMessageLite) bonk);
                 bonj bonj = (bonj) bxvd;
-                bxtx a2 = bxtx.m123261a(acen.f59660e);
+                ByteString a2 = ByteString.m123261a(acen.f59660e);
                 if (bonj.f164950c) {
                     bonj.mo74035c();
                     bonj.f164950c = false;

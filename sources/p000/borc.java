@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: borc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class borc extends bxvk implements bxxd {
+public final class borc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final borc f134378e;
@@ -25,7 +25,7 @@ public final class borc extends bxvk implements bxxd {
     static {
         borc borc = new borc();
         f134378e = borc;
-        bxvk.m124024a(borc.class, borc);
+        GeneratedMessageLite.m124024a(borc.class, borc);
     }
 
     private borc() {
@@ -42,7 +42,7 @@ public final class borc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134378e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", caer.f172850a});
+            return GeneratedMessageLite.m124022a(f134378e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", caer.f172850a});
         } else if (i2 == 3) {
             return new borc();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btnm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btnm extends bxvk implements bxxd {
+public final class btnm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final btnm f149652f;
@@ -28,7 +28,7 @@ public final class btnm extends bxvk implements bxxd {
     static {
         btnm btnm = new btnm();
         f149652f = btnm;
-        bxvk.m124024a(btnm.class, btnm);
+        GeneratedMessageLite.m124024a(btnm.class, btnm);
     }
 
     private btnm() {
@@ -45,7 +45,7 @@ public final class btnm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149652f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004\f\u0005Ȉ", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f149652f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004\f\u0005Ȉ", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new btnm();
         } else {

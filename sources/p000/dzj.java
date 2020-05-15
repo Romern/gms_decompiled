@@ -32,7 +32,7 @@ public final class dzj extends dyg {
         }
         bxku bxku = (bxku) da.f164949b;
         if (!bxku.f163797a.mo73666a()) {
-            bxku.f163797a = bxvk.m124021a(bxku.f163797a);
+            bxku.f163797a = GeneratedMessageLite.m124021a(bxku.f163797a);
         }
         bxsy.m123078a(asList, bxku.f163797a);
         this.f14481k = (bxku) da.mo74062i();

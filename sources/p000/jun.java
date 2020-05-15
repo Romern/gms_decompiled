@@ -17,7 +17,7 @@ public final class jun extends Thread {
         while (true) {
             try {
                 jup jup = this.f23234a;
-                sek sek = jup.f23237a;
+                Logger Logger = jup.f23237a;
                 byte[] bArr = new byte[jup.f23238b.readInt()];
                 this.f23234a.f23238b.readFully(bArr);
                 this.f23234a.f23241e.mo14095a(bArr);

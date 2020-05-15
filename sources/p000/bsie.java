@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsie */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsie extends bxvk implements bxxd {
+public final class bsie extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: K */
     public static final bsie f144666K;
@@ -121,7 +121,7 @@ public final class bsie extends bxvk implements bxxd {
     static {
         bsie bsie = new bsie();
         f144666K = bsie;
-        bxvk.m124024a(bsie.class, bsie);
+        GeneratedMessageLite.m124024a(bsie.class, bsie);
     }
 
     private bsie() {
@@ -138,7 +138,7 @@ public final class bsie extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f144666K, "\u0000$\u0000\u0000\u0001$$\u0000\u0000\u0000\u0001\u0007\u0002\u0007\u0003\u0007\u0004\u0007\u0005\u0007\u0006\u0007\u0007\u0007\b\u0007\t\u0007\n\u0007\u000b\u0007\f\u0007\r\u0007\u000e\u0007\u000f\u0007\u0010\u0007\u0011\u0007\u0012\u0007\u0013\u0007\u0014\u0007\u0015\u0007\u0016\u0007\u0017\u0007\u0018\u0007\u0019\u0007\u001a\u0007\u001b\u0007\u001c\u0007\u001d\u0007\u001e\u0007\u001f\u0007 \u0007!\u0007\"\u0007#\u0007$\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"});
+            return GeneratedMessageLite.m124022a(f144666K, "\u0000$\u0000\u0000\u0001$$\u0000\u0000\u0000\u0001\u0007\u0002\u0007\u0003\u0007\u0004\u0007\u0005\u0007\u0006\u0007\u0007\u0007\b\u0007\t\u0007\n\u0007\u000b\u0007\f\u0007\r\u0007\u000e\u0007\u000f\u0007\u0010\u0007\u0011\u0007\u0012\u0007\u0013\u0007\u0014\u0007\u0015\u0007\u0016\u0007\u0017\u0007\u0018\u0007\u0019\u0007\u001a\u0007\u001b\u0007\u001c\u0007\u001d\u0007\u001e\u0007\u001f\u0007 \u0007!\u0007\"\u0007#\u0007$\u0007", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"});
         } else if (i2 == 3) {
             return new bsie();
         } else {

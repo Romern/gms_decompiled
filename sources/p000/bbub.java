@@ -301,7 +301,7 @@ public final class bbub {
                     byte[] bArr = (byte[]) bcsp.mo57325i().get("Lighter");
                     if (bArr != null) {
                         try {
-                            cbdp cbdp = (cbdp) bxvk.m124007a(cbdp.f176766e, ((bxte) bxvk.m124014a(bxte.f164763c, bArr)).f164766b);
+                            cbdp cbdp = (cbdp) GeneratedMessageLite.m124007a(cbdp.f176766e, ((bxte) GeneratedMessageLite.m124014a(bxte.f164763c, bArr)).f164766b);
                             HashSet hashSet = new HashSet();
                             for (cbds cbds : cbdp.f176771d) {
                                 hashSet.add(bclk.m89246a(cbds));

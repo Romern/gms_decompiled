@@ -54,7 +54,7 @@ public final class jxk extends jxi {
             String uuid = UUID.randomUUID().toString();
             ixl ixl = this.f23451d;
             TokenRequest tokenRequest = new TokenRequest(this.f23448a, gnv.m13529ab());
-            tokenRequest.f10714j = new AppDescription(ilq.f21309d, ilq.f21311f, uuid, uuid);
+            tokenRequest.f10714j = new AppDescription(ilq.packageName, ilq.appUid, uuid, uuid);
             TokenResponse a2 = ixl.mo13425a(tokenRequest);
             if (!(a2 == null || a2.mo7647b() != izj.SUCCESS || (tokenData = a2.f10746w) == null)) {
                 str = this.f23451d.mo13427a(tokenData.f9944b);

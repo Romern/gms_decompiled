@@ -9,7 +9,7 @@ import android.os.SystemClock;
 public final class aopf {
 
     /* renamed from: a */
-    private static final sek f78638a = aope.m66267a("RetryScheduler");
+    private static final Logger f78638a = aope.m66267a("RetryScheduler");
 
     /* renamed from: b */
     private final Context f78639b;
@@ -33,10 +33,10 @@ public final class aopf {
             skc.mo25675a("RcsBindingRetry", 2, elapsedRealtime + j, PendingIntent.getService(context, 0, aopd.m66266a(context).putExtra("attempt", i), 134217728), str);
             return;
         }
-        sek sek = f78638a;
+        Logger Logger = f78638a;
         StringBuilder sb = new StringBuilder(55);
         sb.append("Binding retry attempt out of allowed range: ");
         sb.append(i);
-        sek.mo25416d(sb.toString(), new Object[0]);
+        Logger.mo25416d(sb.toString(), new Object[0]);
     }
 }

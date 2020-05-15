@@ -100,7 +100,7 @@ public final class axba extends bkdx implements View.OnFocusChangeListener {
     public final View mo51901a(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
         bkbi bkbi;
         bxvd bxvd;
-        bxvk bxvk;
+        GeneratedMessageLite GeneratedMessageLite;
         int i = 0;
         View inflate = layoutInflater.inflate((int) C0126R.C0128layout.wallet_fragment_expiration_date_form, (ViewGroup) null, false);
         this.f95608g = inflate;
@@ -120,7 +120,7 @@ public final class axba extends bkdx implements View.OnFocusChangeListener {
             bmie bmie = (bmie) this.f124069w;
             bmqf a = awfx.m79879a(activity, bmie.f129556i, bmie.f129557j, bmie.f129558k, bmie.f129559l);
             bxvd bxvd2 = (bxvd) a.mo74142c(5);
-            bxvd2.mo73625a((bxvk) a);
+            bxvd2.mo73625a((GeneratedMessageLite) a);
             long l = mo65985l(5);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
@@ -224,11 +224,11 @@ public final class axba extends bkdx implements View.OnFocusChangeListener {
             ArrayList arrayList = this.f95613l;
             DateEditText dateEditText4 = this.f95603b;
             if (bxvd != null) {
-                bxvk = bxvd.mo74062i();
+                GeneratedMessageLite = bxvd.mo74062i();
             } else {
-                bxvk = null;
+                GeneratedMessageLite = null;
             }
-            arrayList.add(new bkde(0, dateEditText4, bxvk));
+            arrayList.add(new bkde(0, dateEditText4, GeneratedMessageLite));
         }
         if (t) {
             this.f95613l.add(new bkde(0, this.f95604c, null));

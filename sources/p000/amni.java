@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amni */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amni extends bxvk implements bxxd {
+public final class amni extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final amni f75479d;
@@ -22,7 +22,7 @@ public final class amni extends bxvk implements bxxd {
     static {
         amni amni = new amni();
         f75479d = amni;
-        bxvk.m124024a(amni.class, amni);
+        GeneratedMessageLite.m124024a(amni.class, amni);
     }
 
     private amni() {
@@ -39,7 +39,7 @@ public final class amni extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75479d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f75479d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new amni();
         } else {

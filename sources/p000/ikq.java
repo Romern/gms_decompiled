@@ -36,7 +36,7 @@ public final class ikq extends ikz implements View.OnClickListener {
     public static final String f21230f = String.valueOf(f21225a).concat("_cancel_button_text");
 
     /* renamed from: g */
-    public static final sek f21231g = new sek("PinValidationFragment");
+    public static final Logger f21231g = new Logger("PinValidationFragment");
 
     /* renamed from: h */
     private ijt f21232h;

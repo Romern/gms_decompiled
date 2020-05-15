@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvui */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvui extends bxvk implements bxxd {
+public final class bvui extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bvui f157693d;
@@ -22,7 +22,7 @@ public final class bvui extends bxvk implements bxxd {
     static {
         bvui bvui = new bvui();
         f157693d = bvui;
-        bxvk.m124024a(bvui.class, bvui);
+        GeneratedMessageLite.m124024a(bvui.class, bvui);
     }
 
     private bvui() {
@@ -39,7 +39,7 @@ public final class bvui extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157693d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0017\u0002ဉ\u0000", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f157693d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u0017\u0002ဉ\u0000", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bvui();
         } else {

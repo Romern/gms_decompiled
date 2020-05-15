@@ -64,7 +64,7 @@ public final class axdd extends awzg {
             a.getClass();
             bwld.f160095b = a;
             bwld.f160094a = 1 | bwld.f160094a;
-            bxtx a2 = bxtx.m123261a(this.f95830f);
+            ByteString a2 = ByteString.m123261a(this.f95830f);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -309,7 +309,7 @@ public final class axdd extends awzg {
                 bwlg bwlg = (bwlg) da.f164949b;
                 bmed.getClass();
                 if (!bwlg.f160120b.mo73666a()) {
-                    bwlg.f160120b = bxvk.m124021a(bwlg.f160120b);
+                    bwlg.f160120b = GeneratedMessageLite.m124021a(bwlg.f160120b);
                 }
                 bwlg.f160120b.add(bmed);
             }
@@ -324,12 +324,12 @@ public final class axdd extends awzg {
                 bwlg bwlg2 = (bwlg) da.f164949b;
                 bmog.getClass();
                 if (!bwlg2.f160121c.mo73666a()) {
-                    bwlg2.f160121c = bxvk.m124021a(bwlg2.f160121c);
+                    bwlg2.f160121c = GeneratedMessageLite.m124021a(bwlg2.f160121c);
                 }
                 bwlg2.f160121c.add(bmog);
             }
         }
-        bxtx a2 = bxtx.m123261a(bArr);
+        ByteString a2 = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -363,7 +363,7 @@ public final class axdd extends awzg {
         if (((Integer) this.f95374R.mo15534a(j)).intValue() == 6) {
             bwlf bwlf = (bwlf) this.f95397aj;
             bxvd bxvd = (bxvd) bwlf.mo74142c(5);
-            bxvd.mo73625a((bxvk) bwlf);
+            bxvd.mo73625a((GeneratedMessageLite) bwlf);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -372,7 +372,7 @@ public final class axdd extends awzg {
             bwlf bwlf3 = bwlf.f160106i;
             bxxc.getClass();
             if (!bwlf2.f160110c.mo73666a()) {
-                bwlf2.f160110c = bxvk.m124021a(bwlf2.f160110c);
+                bwlf2.f160110c = GeneratedMessageLite.m124021a(bwlf2.f160110c);
             }
             bwlf2.f160110c.set(intValue, bxxc);
             this.f95397aj = bxvd.mo74062i();
@@ -423,7 +423,7 @@ public final class axdd extends awzg {
         } else {
             bmmp = bmmp.f130032e;
         }
-        byte[] k = bmmp.f130037d.mo73780k();
+        byte[] k = bmmp.f130037d.getKey();
         Bundle bundle = new Bundle();
         bjvp.m104737a(bundle, "EventListener.EXTRA_TRIGGER_VALUE_REFERENCES", list);
         if (bmmv.f130056b == 4) {

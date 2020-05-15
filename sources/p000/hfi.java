@@ -9,7 +9,7 @@ import com.google.android.gms.auth.api.identity.SavePasswordRequest;
 public final class hfi extends hvx implements aaai {
 
     /* renamed from: a */
-    public static final sek f19649a = ght.m13172b("CredentialSavingServiceImpl");
+    public static final Logger f19649a = ght.m13172b("CredentialSavingServiceImpl");
 
     /* renamed from: b */
     private final Context f19650b;

@@ -532,7 +532,7 @@ public final class bfrq extends bfow implements bfrb, sth, bhbp {
                         da7.mo74035c();
                         da7.f164950c = false;
                     }
-                    ((bplq) da7.f164949b).f138137h = bxvk.m124030de();
+                    ((bplq) da7.f164949b).f138137h = GeneratedMessageLite.m124030de();
                     int i25 = 0;
                     for (int i26 = 0; i26 < min; i26++) {
                         bxvd da8 = bpkf.f137938j.mo74144da();
@@ -619,7 +619,7 @@ public final class bfrq extends bfow implements bfrb, sth, bhbp {
                         bpkf bpkf6 = (bpkf) da8.mo74062i();
                         bpkf6.getClass();
                         if (!bplq3.f138137h.mo73666a()) {
-                            bplq3.f138137h = bxvk.m124021a(bplq3.f138137h);
+                            bplq3.f138137h = GeneratedMessageLite.m124021a(bplq3.f138137h);
                         }
                         bplq3.f138137h.add(bpkf6);
                     }

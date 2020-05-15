@@ -12,7 +12,7 @@ import java.util.Locale;
 public final class xax {
 
     /* renamed from: b */
-    public static final sek f51830b = new sek(new String[]{"AppIdCacheDbHelper"}, (short[]) null);
+    public static final Logger f51830b = new Logger(new String[]{"AppIdCacheDbHelper"}, (short[]) null);
 
     /* renamed from: a */
     public final xaw f51831a;
@@ -61,9 +61,9 @@ public final class xax {
 
     /* renamed from: a */
     public final synchronized void mo29593a(String str, long j) {
-        sek sek = f51830b;
+        Logger Logger = f51830b;
         Long valueOf = Long.valueOf(j);
-        sek.mo25412b("setCacheExpiry(%s, %d)", str, valueOf);
+        Logger.mo25412b("setCacheExpiry(%s, %d)", str, valueOf);
         try {
             SQLiteStatement compileStatement = this.f51831a.getWritableDatabase().compileStatement("INSERT OR REPLACE INTO appid_expiry VALUES (?,?)");
             try {

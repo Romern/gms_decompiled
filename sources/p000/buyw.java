@@ -37,7 +37,7 @@ public final class buyw extends bxvg implements bxvh {
     static {
         buyw buyw = new buyw();
         f155343h = buyw;
-        bxvk.m124024a(buyw.class, buyw);
+        GeneratedMessageLite.m124024a(buyw.class, buyw);
     }
 
     private buyw() {
@@ -58,7 +58,7 @@ public final class buyw extends bxvg implements bxvh {
             this.f155352i = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f155343h, "\u0001\u0006\u0000\u0001\u0001\b\u0006\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဌ\u0002\u0004င\u0003\u0007ဌ\u0004\bဌ\u0005", new Object[]{"a", "b", "c", "d", buyv.m120789b(), "e", "f", buzc.f155371a, "g", bzak.f169217a});
+            return GeneratedMessageLite.m124022a(f155343h, "\u0001\u0006\u0000\u0001\u0001\b\u0006\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဌ\u0002\u0004င\u0003\u0007ဌ\u0004\bဌ\u0005", new Object[]{"a", "b", "c", "d", buyv.m120789b(), "e", "f", buzc.f155371a, "g", bzak.f169217a});
         } else if (i2 == 3) {
             return new buyw();
         } else {

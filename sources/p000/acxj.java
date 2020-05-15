@@ -19,7 +19,7 @@ public final class acxj {
     public final File f61015d;
 
     public acxj(File file, Class cls, bxxk bxxk) {
-        sdo.m34966a(cls, "Must specify non-null message type class");
+        sdo.checkIfNull(cls, "Must specify non-null message type class");
         this.f61015d = file;
         this.f61014c = file.getName();
         this.f61012a = cls;

@@ -96,7 +96,7 @@ public final class InitConfigOperation extends IntentOperation {
         byte[] byteArrayExtra = intent.getByteArrayExtra("chimera.URGENTLY_REQUESTED_FEATURES");
         if (byteArrayExtra != null) {
             try {
-                bngx = bngx.m109368a((Collection) ((dje) bxvk.m124016a(dje.f13319b, byteArrayExtra, bxus.m123743b())).f13321a);
+                bngx = bngx.m109368a((Collection) ((dje) GeneratedMessageLite.m124016a(dje.f13319b, byteArrayExtra, bxus.m123743b())).f13321a);
             } catch (bxwf e2) {
                 String valueOf = String.valueOf(e2);
                 StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 39);

@@ -28,7 +28,7 @@ final /* synthetic */ class akez implements Runnable {
         for (int i = 0; i < size; i++) {
             ajnq ajnq = (ajnq) bxwc.get(i);
             bxvd da = ajhl.f70656i.mo74144da();
-            bxtx bxtx = ajnq.f71000c;
+            ByteString bxtx = ajnq.f71000c;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -38,7 +38,7 @@ final /* synthetic */ class akez implements Runnable {
             int i2 = ajhl.f70658a | 2;
             ajhl.f70658a = i2;
             ajhl.f70660c = bxtx;
-            bxtx bxtx2 = ajnq.f70999b;
+            ByteString bxtx2 = ajnq.f70999b;
             bxtx2.getClass();
             int i3 = i2 | 1;
             ajhl.f70658a = i3;
@@ -51,17 +51,17 @@ final /* synthetic */ class akez implements Runnable {
             int i5 = i4 | 8;
             ajhl.f70658a = i5;
             ajhl.f70662e = j2;
-            bxtx bxtx3 = ajnq.f71001d;
+            ByteString bxtx3 = ajnq.f71001d;
             bxtx3.getClass();
             int i6 = i5 | 4;
             ajhl.f70658a = i6;
             ajhl.f70661d = bxtx3;
-            bxtx bxtx4 = ajnq.f71004g;
+            ByteString bxtx4 = ajnq.f71004g;
             bxtx4.getClass();
             int i7 = i6 | 32;
             ajhl.f70658a = i7;
             ajhl.f70664g = bxtx4;
-            bxtx bxtx5 = ajnq.f71005h;
+            ByteString bxtx5 = ajnq.f71005h;
             bxtx5.getClass();
             ajhl.f70658a = i7 | 64;
             ajhl.f70665h = bxtx5;

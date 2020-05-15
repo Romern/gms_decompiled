@@ -41,14 +41,14 @@ public final class dxz {
             }
             bxmm bxmm2 = (bxmm) arrayList.get(0);
             bxvd bxvd = (bxvd) bxmm2.mo74142c(5);
-            bxvd.mo73625a((bxvk) bxmm2);
+            bxvd.mo73625a((GeneratedMessageLite) bxmm2);
             bxml bxml = (bxml) bxvd;
             if (bxml.f164950c) {
                 bxml.mo74035c();
                 bxml.f164950c = false;
             }
             bxvu bxvu = bxmm.f163945o;
-            ((bxmm) bxml.f164949b).f163964r = bxvk.m124030de();
+            ((bxmm) bxml.f164949b).f163964r = GeneratedMessageLite.m124030de();
             bxml.mo73590a(Arrays.asList(strArr));
             arrayList.set(0, (bxmm) bxml.mo74062i());
         }

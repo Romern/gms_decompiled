@@ -143,7 +143,7 @@ public final class ajaf {
 
     /* renamed from: a */
     public static void m58316a(WriteBatch writeBatch, ajae ajae, bgfc bgfc) {
-        writeBatch.put(ajae.mo38353a(), bgfc.mo73642k());
+        writeBatch.put(ajae.mo38353a(), bgfc.serializeToBytes());
     }
 
     /* renamed from: b */
@@ -161,7 +161,7 @@ public final class ajaf {
         bgfc a = mo38357a(ajae);
         bgfc a2 = mo38358a(collection);
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -249,7 +249,7 @@ public final class ajaf {
             try {
                 byte[] bArr = this.f70226d.get(ajae.mo38353a());
                 if (bArr != null) {
-                    bgfc bgfc = (bgfc) bxvk.m124016a(bgfc.f116334f, bArr, bxus.m123744c());
+                    bgfc bgfc = (bgfc) GeneratedMessageLite.m124016a(bgfc.f116334f, bArr, bxus.m123744c());
                     if ((bgfc.f116340e && cfop.f185115a.mo6606a().mo82207K()) || bgfc.f116337b + TimeUnit.MINUTES.toMillis((long) this.f70230h.mo38427m().f168870i) >= this.f70229g.mo20505a()) {
                         return bgfc;
                     }
@@ -288,7 +288,7 @@ public final class ajaf {
         bgfc.f116336a |= 1;
         bgfc.f116337b = a;
         if (!bgfc.f116338c.mo73666a()) {
-            bgfc.f116338c = bxvk.m124021a(bgfc.f116338c);
+            bgfc.f116338c = GeneratedMessageLite.m124021a(bgfc.f116338c);
         }
         bxsy.m123078a(collection, bgfc.f116338c);
         return (bgfc) da.mo74062i();

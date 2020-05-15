@@ -83,7 +83,7 @@ public final class amwm {
         amvh amvh = amvh.f76004g;
         if (b != null) {
             try {
-                amvh = (amvh) bxvk.m124016a(amvh.f76004g, b, bxus.m123744c());
+                amvh = (amvh) GeneratedMessageLite.m124016a(amvh.f76004g, b, bxus.m123744c());
             } catch (bxwf e) {
                 this.f76194a = true;
                 Log.e("FSA2_SyncState", "error when parsing blob to proto", e);

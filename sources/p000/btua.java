@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btua */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btua extends bxvk implements bxxd {
+public final class btua extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final btua f150424m;
@@ -52,7 +52,7 @@ public final class btua extends bxvk implements bxxd {
     static {
         btua btua = new btua();
         f150424m = btua;
-        bxvk.m124024a(btua.class, btua);
+        GeneratedMessageLite.m124024a(btua.class, btua);
     }
 
     private btua() {
@@ -73,7 +73,7 @@ public final class btua extends bxvk implements bxxd {
             this.f150438n = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f150424m, "\u0001\u000b\u0000\u0001\u0001\u000b\u000b\u0000\u0001\u0001\u0001ဈ\u0000\u0002ဉ\u0001\u0003ᐉ\u0002\u0004ဉ\u0003\u0005ဈ\u0004\u0006ဌ\u0005\u0007ဌ\u0006\b\u001e\tဉ\u0007\nဉ\b\u000bဉ\t", new Object[]{"a", "b", "c", "d", "e", "f", "g", btty.f150422a, "h", bttz.f150423a, "i", btrr.m117076b(), "j", "k", "l"});
+            return GeneratedMessageLite.m124022a(f150424m, "\u0001\u000b\u0000\u0001\u0001\u000b\u000b\u0000\u0001\u0001\u0001ဈ\u0000\u0002ဉ\u0001\u0003ᐉ\u0002\u0004ဉ\u0003\u0005ဈ\u0004\u0006ဌ\u0005\u0007ဌ\u0006\b\u001e\tဉ\u0007\nဉ\b\u000bဉ\t", new Object[]{"a", "b", "c", "d", "e", "f", "g", btty.f150422a, "h", bttz.f150423a, "i", btrr.m117076b(), "j", "k", "l"});
         } else if (i2 == 3) {
             return new btua();
         } else {

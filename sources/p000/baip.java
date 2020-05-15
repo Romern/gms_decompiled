@@ -13,6 +13,6 @@ final /* synthetic */ class baip implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        return this.f101009a.get((bxtx) obj);
+        return this.f101009a.get((ByteString) obj);
     }
 }

@@ -179,7 +179,7 @@ public final class adjg implements adje {
         } else {
             byte[] bArr = new byte[0];
             if (adiq2 != null && adiq2.f61834b.equals(c2.name)) {
-                bArr = adiq2.f61835c.mo73780k();
+                bArr = adiq2.f61835c.getKey();
             }
             Set a3 = m50605a(mo33576g());
             adjf adjf = new adjf(this.f61886i.mo33393a(bArr, c2, camh, a3));
@@ -196,12 +196,12 @@ public final class adjg implements adje {
                 objArr[0] = Integer.valueOf(i);
                 adfs.mo33423a("Domain filter response size: %s", objArr);
                 adfg adfg = this.f61892o;
-                bxtx bxtx = btih.f148966a;
+                ByteString bxtx = btih.f148966a;
                 sdo.m34959a(bxtx);
                 adff a4 = adfg.mo33416a();
                 camf camf = a4.f61547a;
                 bxvd bxvd = (bxvd) camf.mo74142c(5);
-                bxvd.mo73625a((bxvk) camf);
+                bxvd.mo73625a((GeneratedMessageLite) camf);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -287,10 +287,10 @@ public final class adjg implements adje {
                         }
                         bxwc bxwc5 = btih.f148967b;
                         if (bxwc5.isEmpty()) {
-                            m50609a(c2, a2, btih.f148966a.mo73780k());
+                            m50609a(c2, a2, btih.f148966a.getKey());
                             z3 = false;
                         } else {
-                            adiq a6 = m50602a(c2, btih.f148966a.mo73780k());
+                            adiq a6 = m50602a(c2, btih.f148966a.getKey());
                             Map unmodifiableMap3 = Collections.unmodifiableMap(btih.f148968c);
                             m50608a(a6, bxwc5, m50606a(unmodifiableMap3), unmodifiableMap3);
                             mo33573a(a3, 5);
@@ -307,7 +307,7 @@ public final class adjg implements adje {
                                 try {
                                     bxwc<bthy> bxwc6 = btih.f148967b;
                                     bxwc<bthy> bxwc7 = btih.f148971f;
-                                    bxwc<bxtx> bxwc8 = btih.f148972g;
+                                    bxwc<ByteString> bxwc8 = btih.f148972g;
                                     bxvt bxvt = btih.f148975j;
                                     bxvt bxvt2 = btih.f148976k;
                                     bxvt bxvt3 = btih.f148977l;
@@ -320,7 +320,7 @@ public final class adjg implements adje {
                                         arrayList2.add(bthy4.f148919a.mo73781l());
                                     }
                                     ArrayList arrayList3 = new ArrayList();
-                                    for (bxtx bxtx2 : bxwc8) {
+                                    for (ByteString bxtx2 : bxwc8) {
                                         arrayList3.add(bxtx2.mo73781l());
                                     }
                                     Iterator it = this.f61893p.iterator();
@@ -405,13 +405,13 @@ public final class adjg implements adje {
                         if (cepc.m137701b()) {
                             f61878d.mo33423a("Saving incremental filter for %s", c2.name);
                         }
-                        mo33572a(bmxv.m108566b(m50602a(c2, btih.f148966a.mo73780k())), btih.f148971f, btih.f148972g, m50606a(Collections.unmodifiableMap(btih.f148973h)), Collections.unmodifiableMap(btih.f148973h), btih.f148974i);
+                        mo33572a(bmxv.m108566b(m50602a(c2, btih.f148966a.getKey())), btih.f148971f, btih.f148972g, m50606a(Collections.unmodifiableMap(btih.f148973h)), Collections.unmodifiableMap(btih.f148973h), btih.f148974i);
                         mo33575f();
                         try {
                             a2.mo33409a("DomainFilter.IncrementalChanges");
                             try {
                                 bxwc<bthy> bxwc10 = btih.f148971f;
-                                bxwc<bxtx> bxwc11 = btih.f148972g;
+                                bxwc<ByteString> bxwc11 = btih.f148972g;
                                 bxvt bxvt5 = btih.f148976k;
                                 bxvt bxvt6 = btih.f148977l;
                                 ArrayList arrayList5 = new ArrayList();
@@ -419,7 +419,7 @@ public final class adjg implements adje {
                                     arrayList5.add(bthy6.f148919a.mo73781l());
                                 }
                                 ArrayList arrayList6 = new ArrayList();
-                                for (bxtx bxtx3 : bxwc11) {
+                                for (ByteString bxtx3 : bxwc11) {
                                     arrayList6.add(bxtx3.mo73781l());
                                 }
                                 Iterator it3 = this.f61893p.iterator();
@@ -485,7 +485,7 @@ public final class adjg implements adje {
                 } else {
                     f61878d.mo33423a("No changes in domain filter", new Object[0]);
                     try {
-                        this.f61888k.mo33512a(f61876b, m50602a(c2, btih.f148966a.mo73780k()).mo73642k());
+                        this.f61888k.mo33512a(f61876b, m50602a(c2, btih.f148966a.getKey()).serializeToBytes());
                     } catch (IOException e8) {
                         adfu.m50331a(this.f61884g, "Error while updating last update information", e8, f61878d);
                     }
@@ -514,7 +514,7 @@ public final class adjg implements adje {
     /* renamed from: b */
     private final void m50613b(adix adix) {
         try {
-            this.f61888k.mo33512a(f61877c, adix.mo73642k());
+            this.f61888k.mo33512a(f61877c, adix.serializeToBytes());
         } catch (IOException e) {
             adfu.m50331a(this.f61884g, "Error while updating IntentFilter Fetch information", e, f61878d);
         }
@@ -557,7 +557,7 @@ public final class adjg implements adje {
             }
             if (bArr != null) {
                 try {
-                    return (adiq) bxvk.m124016a(adiq.f61831d, bArr, bxus.m123743b());
+                    return (adiq) GeneratedMessageLite.m124016a(adiq.f61831d, bArr, bxus.m123743b());
                 } catch (bxwf e2) {
                     adfu.m50331a(this.f61884g, "Error parsing last update info", e2, f61878d);
                     return null;
@@ -573,7 +573,7 @@ public final class adjg implements adje {
         synchronized (this.f61883e) {
             adix g = mo33576g();
             bxvd bxvd = (bxvd) g.mo74142c(5);
-            bxvd.mo73625a((bxvk) g);
+            bxvd.mo73625a((GeneratedMessageLite) g);
             Set a = m50605a(g);
             for (Integer num : Collections.unmodifiableMap(g.f61852a).keySet()) {
                 Integer valueOf = Integer.valueOf(num.intValue());
@@ -607,7 +607,7 @@ public final class adjg implements adje {
             return adix.f61850c;
         }
         try {
-            return (adix) bxvk.m124016a(adix.f61850c, bArr, bxus.m123743b());
+            return (adix) GeneratedMessageLite.m124016a(adix.f61850c, bArr, bxus.m123743b());
         } catch (bxwf e2) {
             adfu.m50331a(this.f61884g, "Error parsing Intent filter fetch info.", e2, f61878d);
             return adix.f61850c;
@@ -714,10 +714,10 @@ public final class adjg implements adje {
         String str;
         int i2;
         boolean z;
-        bxtx bxtx;
-        bxtx bxtx2;
-        bxtx bxtx3;
-        bxtx bxtx4;
+        ByteString bxtx;
+        ByteString bxtx2;
+        ByteString bxtx3;
+        ByteString bxtx4;
         bthy bthy2 = bthy;
         bxvd da = adip.f61826d.mo74144da();
         bxwc bxwc = bthy2.f148920b;
@@ -749,7 +749,7 @@ public final class adjg implements adje {
                     adis.f61839b = Boolean.valueOf(z);
                 } else if (i5 == 1) {
                     if (i4 == 2) {
-                        bxtx = (bxtx) bthz.f148926b;
+                        bxtx = (ByteString) bthz.f148926b;
                     } else {
                         bxtx = bxtx.f164797b;
                     }
@@ -763,7 +763,7 @@ public final class adjg implements adje {
                     adis2.f61839b = bxtx;
                 } else if (i5 == 2) {
                     if (i4 == 3) {
-                        bxtx2 = (bxtx) bthz.f148926b;
+                        bxtx2 = (ByteString) bthz.f148926b;
                     } else {
                         bxtx2 = bxtx.f164797b;
                     }
@@ -777,7 +777,7 @@ public final class adjg implements adje {
                     adis3.f61839b = bxtx2;
                 } else if (i5 == 3) {
                     if (i4 == 4) {
-                        bxtx3 = (bxtx) bthz.f148926b;
+                        bxtx3 = (ByteString) bthz.f148926b;
                     } else {
                         bxtx3 = bxtx.f164797b;
                     }
@@ -791,7 +791,7 @@ public final class adjg implements adje {
                     adis4.f61839b = bxtx3;
                 } else if (i5 == 4) {
                     if (i4 == 5) {
-                        bxtx4 = (bxtx) bthz.f148926b;
+                        bxtx4 = (ByteString) bthz.f148926b;
                     } else {
                         bxtx4 = bxtx.f164797b;
                     }
@@ -813,7 +813,7 @@ public final class adjg implements adje {
                 adis6.f61840c = i6;
                 bxvt bxvt = bthz.f148928d;
                 if (!adis6.f61841d.mo73666a()) {
-                    adis6.f61841d = bxvk.m124019a(adis6.f61841d);
+                    adis6.f61841d = GeneratedMessageLite.m124019a(adis6.f61841d);
                 }
                 bxsy.m123078a(bxvt, adis6.f61841d);
                 arrayList.add((adis) da2.mo74062i());
@@ -915,7 +915,7 @@ public final class adjg implements adje {
         }
         adip adip3 = (adip) da.f164949b;
         if (!adip3.f61830c.mo73666a()) {
-            adip3.f61830c = bxvk.m124021a(adip3.f61830c);
+            adip3.f61830c = GeneratedMessageLite.m124021a(adip3.f61830c);
         }
         bxsy.m123078a(arrayList3, adip3.f61830c);
         return (adip) da.mo74062i();
@@ -937,7 +937,7 @@ public final class adjg implements adje {
         }
         str.getClass();
         ((adiq) da.f164949b).f61834b = str;
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -988,18 +988,18 @@ public final class adjg implements adje {
         int a;
         C1225nr nrVar = new C1225nr();
         for (Map.Entry entry : map.entrySet()) {
-            bxtx bxtx = (bxtx) entry.getValue();
+            ByteString bxtx = (ByteString) entry.getValue();
             bxus b = bxus.m123743b();
             btin btin = btin.f148993b;
             try {
                 bxuc h = bxtx.mo73764h();
-                bxvk bxvk = (bxvk) btin.mo74142c(4);
-                bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                a2.mo74220a(bxvk, bxud.m123454a(h), b);
-                a2.mo74225d(bxvk);
+                GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) btin.mo74142c(4);
+                bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                a2.mo74220a(GeneratedMessageLite, bxud.m123454a(h), b);
+                a2.mo74225d(GeneratedMessageLite);
                 h.mo73787a(0);
-                bxvk.m124027b(bxvk);
-                btin btin2 = (btin) bxvk;
+                GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                btin btin2 = (btin) GeneratedMessageLite;
                 int a3 = btim.m116815a(btin2.f148995a);
                 if ((a3 == 0 || a3 != 2) && ((a = btim.m116815a(btin2.f148995a)) == 0 || a != 3)) {
                     nrVar.add((String) entry.getKey());
@@ -1080,7 +1080,7 @@ public final class adjg implements adje {
                                 } else if (!c.mo33507e() || m50612a(c.mo33502a())) {
                                     if (i4 < list.size()) {
                                         bthy = (bthy) list.get(i4);
-                                        bArr = bthy.f148919a.mo73780k();
+                                        bArr = bthy.f148919a.getKey();
                                         i3 = !c.mo33507e() ? 1 : bqcv.f140491b.compare(c.mo33502a(), bArr);
                                     } else {
                                         i3 = -1;
@@ -1092,14 +1092,14 @@ public final class adjg implements adje {
                                         i++;
                                         c.mo33506d();
                                     } else if (i3 != 0) {
-                                        create.put(bArr, m50601a(bthy, set2).mo73642k());
+                                        create.put(bArr, m50601a(bthy, set2).serializeToBytes());
                                         i2++;
                                         i4++;
                                         if (bthy2 == null) {
                                             bthy2 = bthy;
                                         }
                                     } else {
-                                        create.put(bArr, m50601a(bthy, set2).mo73642k());
+                                        create.put(bArr, m50601a(bthy, set2).serializeToBytes());
                                         i2++;
                                         i4++;
                                         c.mo33506d();
@@ -1121,7 +1121,7 @@ public final class adjg implements adje {
                             }
                         }
                         m50610a(map, create);
-                        create.put(f61876b, adiq.mo73642k());
+                        create.put(f61876b, adiq.serializeToBytes());
                         this.f61888k.mo33510a(create);
                         if (cepo.f183226a.mo6606a().mo79563g()) {
                             if (bthy2 == null) {
@@ -1186,7 +1186,7 @@ public final class adjg implements adje {
     private static void m50610a(Map map, WriteBatch writeBatch) {
         for (Map.Entry entry : map.entrySet()) {
             String valueOf = String.valueOf((String) entry.getKey());
-            writeBatch.put((valueOf.length() == 0 ? new String("pkgMetadata:") : "pkgMetadata:".concat(valueOf)).getBytes(adfh.f61554b), ((bxtx) entry.getValue()).mo73780k());
+            writeBatch.put((valueOf.length() == 0 ? new String("pkgMetadata:") : "pkgMetadata:".concat(valueOf)).getBytes(adfh.f61554b), ((ByteString) entry.getValue()).getKey());
         }
     }
 
@@ -1198,12 +1198,12 @@ public final class adjg implements adje {
         adfc adfc4;
         adfc adfc5;
         try {
-            byte[] a = this.f61888k.mo33514a(bthy.f148919a.mo73780k());
+            byte[] a = this.f61888k.mo33514a(bthy.f148919a.getKey());
             if (a != null) {
                 if (a.length != 0) {
                     try {
                         bxus b = bxus.m123743b();
-                        if (m50601a(bthy, set).equals((adip) bxvk.m124016a(adip.f61826d, a, b))) {
+                        if (m50601a(bthy, set).equals((adip) GeneratedMessageLite.m124016a(adip.f61826d, a, b))) {
                             f61878d.mo33423a("Verified entry after DomainFilter sync", new Object[0]);
                             if (!z) {
                                 adfc5 = this.f61900w;
@@ -1395,7 +1395,7 @@ public final class adjg implements adje {
                 return 4;
             }
             bxvd bxvd = (bxvd) g.mo74142c(5);
-            bxvd.mo73625a((bxvk) g);
+            bxvd.mo73625a((GeneratedMessageLite) g);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -1421,7 +1421,7 @@ public final class adjg implements adje {
             byte[] a = this.f61888k.mo33514a(str.getBytes(adfh.f61554b));
             if (a != null) {
                 try {
-                    return (adip) bxvk.m124016a(adip.f61826d, a, bxus.m123743b());
+                    return (adip) GeneratedMessageLite.m124016a(adip.f61826d, a, bxus.m123743b());
                 } catch (bxwf e) {
                     adfu.m50331a(this.f61884g, String.format("Couldn't parse result for %s", str), e, f61878d);
                     return null;
@@ -1446,10 +1446,10 @@ public final class adjg implements adje {
         String str3;
         String str4;
         String str5;
-        bxtx bxtx;
-        bxtx bxtx2;
-        bxtx bxtx3;
-        bxtx bxtx4;
+        ByteString bxtx;
+        ByteString bxtx2;
+        ByteString bxtx3;
+        ByteString bxtx4;
         if (!m50616h()) {
             return m50615c("Datastore not initialized");
         }
@@ -1507,7 +1507,7 @@ public final class adjg implements adje {
                         String host = parse.getHost();
                         if (adir.m50551a(adis.f61838a) == 3) {
                             if (adis.f61838a == i7) {
-                                bxtx4 = (bxtx) adis.f61839b;
+                                bxtx4 = (ByteString) adis.f61839b;
                             } else {
                                 bxtx4 = bxtx.f164797b;
                             }
@@ -1517,7 +1517,7 @@ public final class adjg implements adje {
                         }
                         if (adir.m50551a(adis.f61838a) == 4) {
                             if (adis.f61838a == 3) {
-                                bxtx3 = (bxtx) adis.f61839b;
+                                bxtx3 = (ByteString) adis.f61839b;
                             } else {
                                 bxtx3 = bxtx.f164797b;
                             }
@@ -1527,7 +1527,7 @@ public final class adjg implements adje {
                         }
                         if (adir.m50551a(adis.f61838a) == 5) {
                             if (adis.f61838a == 4) {
-                                bxtx2 = (bxtx) adis.f61839b;
+                                bxtx2 = (ByteString) adis.f61839b;
                             } else {
                                 bxtx2 = bxtx.f164797b;
                             }
@@ -1537,7 +1537,7 @@ public final class adjg implements adje {
                         }
                         if (adir.m50551a(adis.f61838a) == 6) {
                             if (adis.f61838a == 5) {
-                                bxtx = (bxtx) adis.f61839b;
+                                bxtx = (ByteString) adis.f61839b;
                             } else {
                                 bxtx = bxtx.f164797b;
                             }
@@ -1594,12 +1594,12 @@ public final class adjg implements adje {
                 create = WriteBatch.create();
                 Iterator it = list2.iterator();
                 while (it.hasNext()) {
-                    create.delete(((bxtx) it.next()).mo73780k());
+                    create.delete(((ByteString) it.next()).getKey());
                 }
                 Iterator it2 = list.iterator();
                 while (it2.hasNext()) {
                     bthy bthy = (bthy) it2.next();
-                    create.put(bthy.f148919a.mo73780k(), m50601a(bthy, set).mo73642k());
+                    create.put(bthy.f148919a.getKey(), m50601a(bthy, set).serializeToBytes());
                 }
                 Iterator it3 = list3.iterator();
                 while (it3.hasNext()) {
@@ -1608,7 +1608,7 @@ public final class adjg implements adje {
                 }
                 m50610a(map, create);
                 if (bmxv.mo66813a()) {
-                    create.put(f61876b, ((adiq) bmxv.mo66814b()).mo73642k());
+                    create.put(f61876b, ((adiq) bmxv.mo66814b()).serializeToBytes());
                 }
                 this.f61888k.mo33510a(create);
                 if (cepo.f183226a.mo6606a().mo79564h()) {
@@ -1697,7 +1697,7 @@ public final class adjg implements adje {
                 byte[] a = c.mo33502a();
                 String str4 = new String(a);
                 if (m50612a(a)) {
-                    for (adiy adiy : ((adip) bxvk.m124016a(adip.f61826d, c.mo33503b(), bxus.m123743b())).f61829b) {
+                    for (adiy adiy : ((adip) GeneratedMessageLite.m124016a(adip.f61826d, c.mo33503b(), bxus.m123743b())).f61829b) {
                         if (!nrVar.contains(adiy.f61856a) && this.f61885h.mo33539g(adiy.f61856a)) {
                             nrVar.add(adiy.f61856a);
                         }
@@ -1770,7 +1770,7 @@ public final class adjg implements adje {
         synchronized (this.f61883e) {
             adix g = mo33576g();
             bxvd bxvd = (bxvd) g.mo74142c(5);
-            bxvd.mo73625a((bxvk) g);
+            bxvd.mo73625a((GeneratedMessageLite) g);
             Iterator it = collection.iterator();
             while (it.hasNext()) {
                 int intValue = ((Integer) it.next()).intValue();
@@ -1781,7 +1781,7 @@ public final class adjg implements adje {
                     if (bxww2.containsKey(valueOf)) {
                         adio adio = (adio) bxww2.get(valueOf);
                         bxvd bxvd2 = (bxvd) adio.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) adio);
+                        bxvd2.mo73625a((GeneratedMessageLite) adio);
                         if (bxvd2.f164950c) {
                             bxvd2.mo74035c();
                             bxvd2.f164950c = false;
@@ -1803,7 +1803,7 @@ public final class adjg implements adje {
         synchronized (this.f61883e) {
             adix g = mo33576g();
             bxvd bxvd = (bxvd) g.mo74142c(5);
-            bxvd.mo73625a((bxvk) g);
+            bxvd.mo73625a((GeneratedMessageLite) g);
             long currentTimeMillis = System.currentTimeMillis();
             bxvd da = adio.f61822c.mo74144da();
             if (da.f164950c) {
@@ -1817,7 +1817,7 @@ public final class adjg implements adje {
                 int intValue = ((Integer) it.next()).intValue();
                 adio a = bxvd.mo73964a(intValue, adio);
                 bxvd bxvd2 = (bxvd) a.mo74142c(5);
-                bxvd2.mo73625a((bxvk) a);
+                bxvd2.mo73625a((GeneratedMessageLite) a);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
@@ -1831,7 +1831,7 @@ public final class adjg implements adje {
                 if (Collections.unmodifiableMap(((adix) bxvd.f164949b).f61852a).containsKey(Integer.valueOf(intValue2))) {
                     adio a2 = bxvd.mo73964a(intValue2, adio);
                     bxvd bxvd3 = (bxvd) a2.mo74142c(5);
-                    bxvd3.mo73625a((bxvk) a2);
+                    bxvd3.mo73625a((GeneratedMessageLite) a2);
                     if (bxvd3.f164950c) {
                         bxvd3.mo74035c();
                         bxvd3.f164950c = false;

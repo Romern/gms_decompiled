@@ -7,9 +7,9 @@ final /* synthetic */ class bdsj implements bqeh {
     private final bdti f106360a;
 
     /* renamed from: b */
-    private final bxtx f106361b;
+    private final ByteString f106361b;
 
-    public bdsj(bdti bdti, bxtx bxtx) {
+    public bdsj(bdti bdti, ByteString bxtx) {
         this.f106360a = bdti;
         this.f106361b = bxtx;
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmcl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmcl extends bxvk implements bxxd {
+public final class bmcl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bmcl f128709d;
@@ -14,15 +14,15 @@ public final class bmcl extends bxvk implements bxxd {
     public int f128711a;
 
     /* renamed from: b */
-    public bxtx f128712b = bxtx.f164797b;
+    public ByteString f128712b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f128713c = bxtx.f164797b;
+    public ByteString f128713c = ByteString.f164797b;
 
     static {
         bmcl bmcl = new bmcl();
         f128709d = bmcl;
-        bxvk.m124024a(bmcl.class, bmcl);
+        GeneratedMessageLite.m124024a(bmcl.class, bmcl);
     }
 
     private bmcl() {
@@ -39,7 +39,7 @@ public final class bmcl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128709d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f128709d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bmcl();
         } else {

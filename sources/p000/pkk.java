@@ -503,7 +503,7 @@ public final class pkk implements pky {
                                                                 a.f164950c = false;
                                                             }
                                                             bpsz bpsz = bpsz.f139036I;
-                                                            ((bpsz) a.f164949b).f139039B = bxvk.m124030de();
+                                                            ((bpsz) a.f164949b).f139039B = GeneratedMessageLite.m124030de();
                                                             if (a.f164950c) {
                                                                 a.mo74035c();
                                                                 a.f164950c = false;
@@ -511,7 +511,7 @@ public final class pkk implements pky {
                                                             bpsz bpsz2 = (bpsz) a.f164949b;
                                                             bpsw2.getClass();
                                                             if (!bpsz2.f139039B.mo73666a()) {
-                                                                bpsz2.f139039B = bxvk.m124021a(bpsz2.f139039B);
+                                                                bpsz2.f139039B = GeneratedMessageLite.m124021a(bpsz2.f139039B);
                                                             }
                                                             bpsz2.f139039B.add(bpsw2);
                                                             if (a.f164950c) {
@@ -613,12 +613,12 @@ public final class pkk implements pky {
                         this.f39476q.f39518a = l.intValue();
                         bxuc bxuc = this.f39475p;
                         bxus c = bxus.m123744c();
-                        bxvk bxvk = (bxvk) blsx.f127637k.mo74142c(4);
-                        bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                        a2.mo74220a(bxvk, bxud.m123454a(bxuc), c);
-                        a2.mo74225d(bxvk);
-                        bxvk.m124027b(bxvk);
-                        this.f39467h.execute(new pkh(this, (blsx) bxvk));
+                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) blsx.f127637k.mo74142c(4);
+                        bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                        a2.mo74220a(GeneratedMessageLite, bxud.m123454a(bxuc), c);
+                        a2.mo74225d(GeneratedMessageLite);
+                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                        this.f39467h.execute(new pkh(this, (blsx) GeneratedMessageLite));
                     } else {
                         throw new IOException(String.format(Locale.ROOT, "invalid message size (%d) received.", l));
                     }

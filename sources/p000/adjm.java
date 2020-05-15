@@ -102,10 +102,10 @@ public final class adjm implements adjl {
         }
         adit adit = (adit) da.f164949b;
         if (!adit.f61844a.mo73666a()) {
-            adit.f61844a = bxvk.m124021a(adit.f61844a);
+            adit.f61844a = GeneratedMessageLite.m124021a(adit.f61844a);
         }
         bxsy.m123078a(collection, adit.f61844a);
-        writeBatch.put(bArr, ((adit) da.mo74062i()).mo73642k());
+        writeBatch.put(bArr, ((adit) da.mo74062i()).serializeToBytes());
     }
 
     /* renamed from: b */
@@ -140,7 +140,7 @@ public final class adjm implements adjl {
     /* renamed from: a */
     public final Set mo33588a(byte[] bArr) {
         try {
-            return new C1225nr(((adit) bxvk.m124016a(adit.f61842b, bArr, bxus.m123743b())).f61844a);
+            return new C1225nr(((adit) GeneratedMessageLite.m124016a(adit.f61842b, bArr, bxus.m123743b())).f61844a);
         } catch (bxwf e) {
             this.f61925i.mo33425a(e, "Failed to parse the domain list!", new Object[0]);
             return bnon.f131923a;

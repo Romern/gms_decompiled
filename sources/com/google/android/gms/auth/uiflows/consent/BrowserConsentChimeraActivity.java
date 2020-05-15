@@ -105,7 +105,7 @@ public class BrowserConsentChimeraActivity extends jxx implements jxq {
         }
         Intent intent = new Intent();
         try {
-            if (((bsnx) bxvk.m124016a(bsnx.f146342b, sqd.m35971c(str), bxus.m123744c())).f146344a) {
+            if (((bsnx) GeneratedMessageLite.m124016a(bsnx.f146342b, sqd.m35971c(str), bxus.m123744c())).f146344a) {
                 f11490a.mo25412b("Consent granted.", new Object[0]);
                 intent.putExtra(ConsentResult.f10615a, new ConsentResult(izj.SUCCESS, iyb.GRANTED, str));
                 mo7874a(-1, intent);

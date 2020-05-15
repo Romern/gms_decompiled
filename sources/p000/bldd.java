@@ -16,7 +16,7 @@ public final class bldd extends bxvg implements bxvh {
     static {
         bldd bldd = new bldd();
         f126046a = bldd;
-        bxvk.m124024a(bldd.class, bldd);
+        GeneratedMessageLite.m124024a(bldd.class, bldd);
     }
 
     private bldd() {
@@ -37,7 +37,7 @@ public final class bldd extends bxvg implements bxvh {
             this.f126048b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f126046a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f126046a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new bldd();

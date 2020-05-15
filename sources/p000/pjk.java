@@ -165,9 +165,9 @@ public final class pjk {
             int a = pjj.f39351a.mo73744a() - pjj.f39353c;
             int min = Math.min(this.f39363g, a);
             int i8 = a - min;
-            bxtx bxtx = pjj.f39351a;
+            ByteString bxtx = pjj.f39351a;
             int i9 = pjj.f39353c;
-            bxtx a2 = bxtx.mo73754a(i9, i9 + min);
+            ByteString a2 = bxtx.mo73754a(i9, i9 + min);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -190,7 +190,7 @@ public final class pjk {
             }
             return new pji((blsx) da.mo74062i(), pjj.f39356f, pjj.f39351a.mo73744a());
         } else if (z2) {
-            bxtx bxtx2 = pjj.f39351a;
+            ByteString bxtx2 = pjj.f39351a;
             bxtx2.getClass();
             blsx.f127639a = i7 | 64;
             blsx.f127646h = bxtx2;
@@ -258,7 +258,7 @@ public final class pjk {
                 blsx2.f127644f = 0;
                 blsx2.f127639a = i5 | 16;
             } else if (obj instanceof byte[]) {
-                bxtx a = bxtx.m123261a((byte[]) obj);
+                ByteString a = ByteString.m123261a((byte[]) obj);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -299,7 +299,7 @@ public final class pjk {
         if (mo23270a(str2) || TextUtils.isEmpty(str2)) {
             z = false;
         } else {
-            m30561a(new pjj(bxtx.m123258a(str), false, str3, this.f39359c, j), str2);
+            m30561a(new pjj(ByteString.m123258a(str), false, str3, this.f39359c, j), str2);
             z = true;
         }
         return z;
@@ -311,7 +311,7 @@ public final class pjk {
         if (mo23270a(str) || TextUtils.isEmpty(str)) {
             z = false;
         } else {
-            m30561a(new pjj(bxtx.m123261a(bArr), true, str2, this.f39359c, j), str);
+            m30561a(new pjj(ByteString.m123261a(bArr), true, str2, this.f39359c, j), str);
             z = true;
         }
         return z;

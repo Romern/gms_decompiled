@@ -27,7 +27,7 @@ public final /* synthetic */ class mef implements Runnable {
         D2dSourceChimeraService d2dSourceChimeraService = mfx.f33611a;
         lvn lvn = D2dSourceChimeraService.f29027a;
         mgj mgj = d2dSourceChimeraService.f29029c;
-        mgj.f33623a.mo25409a("Registering callbacks.", new Object[0]);
+        mgj.f33623a.logVerbose("Registering callbacks.", new Object[0]);
         mgj.f33638p.mo19908a(mgb, str);
         mgj.mo19985b();
     }

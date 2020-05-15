@@ -408,7 +408,7 @@ public final class ajej {
                             }
                             byzf byzf = byzf.f169070b;
                             bxvd bxvd = (bxvd) byzf.mo74142c(5);
-                            bxvd.mo73625a((bxvk) byzf);
+                            bxvd.mo73625a((GeneratedMessageLite) byzf);
                             bxvf bxvf5 = (bxvf) bxvd;
                             if (bxvf5.f164950c) {
                                 bxvf5.mo74035c();
@@ -546,7 +546,7 @@ public final class ajej {
                             if (!sdg.m34949a(a8.f70238h, byys)) {
                                 byte[] bArr = a8.f70239i;
                                 if (bArr != null) {
-                                    bxtx a9 = bxtx.m123261a(bArr);
+                                    ByteString a9 = ByteString.m123261a(bArr);
                                     if (da.f164950c) {
                                         da.mo74035c();
                                         da.f164950c = false;
@@ -651,7 +651,7 @@ public final class ajej {
                             bzab.f169211b = str46;
                             byte[] bArr2 = ajag.f70239i;
                             if (bArr2 != null) {
-                                bxtx a12 = bxtx.m123261a(bArr2);
+                                ByteString a12 = ByteString.m123261a(bArr2);
                                 if (da2.f164950c) {
                                     da2.mo74035c();
                                     da2.f164950c = false;
@@ -855,7 +855,7 @@ public final class ajej {
                                             if (byzs8.f169164c == Long.MAX_VALUE) {
                                                 int i8 = i7 + 1;
                                                 bxvd bxvd2 = (bxvd) byzs8.mo74142c(5);
-                                                bxvd2.mo73625a((bxvk) byzs8);
+                                                bxvd2.mo73625a((GeneratedMessageLite) byzs8);
                                                 bxvf bxvf7 = (bxvf) bxvd2;
                                                 ArrayList arrayList23 = arrayList14;
                                                 ArrayList arrayList24 = arrayList22;

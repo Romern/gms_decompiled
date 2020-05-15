@@ -143,7 +143,7 @@ public final class oxi implements Runnable {
                                     allocate.order(ByteOrder.BIG_ENDIAN);
                                     byte[] bArr = new byte[allocate.getInt()];
                                     SetupFsm$InstallingAppsState.m22213a(inputStream2, bArr);
-                                    Iterator it = ((dmj) bxvk.m124014a(dmj.f13537b, bArr)).f13539a.iterator();
+                                    Iterator it = ((dmj) GeneratedMessageLite.m124014a(dmj.f13537b, bArr)).f13539a.iterator();
                                     while (true) {
                                         if (it.hasNext()) {
                                             dmn dmn = (dmn) it.next();

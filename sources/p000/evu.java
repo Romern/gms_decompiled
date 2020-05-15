@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 public final class evu extends evn {
 
     /* renamed from: c */
-    private static final sek f15902c = ffw.m11631a("IntentLauncher");
+    private static final Logger f15902c = ffw.m11631a("IntentLauncher");
 
     /* renamed from: d */
     private static final Pattern f15903d = Pattern.compile("^((\\d+\\.)*\\d+).*");
@@ -107,14 +107,14 @@ public final class evu extends evn {
                 bsuo5 = bsuo.f147154j;
             }
             if (!a.mo24610b(bsuo5.f147157b)) {
-                sek sek = f15902c;
+                Logger Logger = f15902c;
                 Object[] objArr = new Object[1];
                 bsuo bsuo6 = bsup2.f147169c;
                 if (bsuo6 == null) {
                     bsuo6 = bsuo.f147154j;
                 }
                 objArr[0] = bsuo6.f147157b;
-                sek.mo25418e("Signature check failed for %s", objArr);
+                Logger.mo25418e("Signature check failed for %s", objArr);
                 return null;
             }
         }

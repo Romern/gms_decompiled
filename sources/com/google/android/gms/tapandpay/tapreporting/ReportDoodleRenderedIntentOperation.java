@@ -15,7 +15,7 @@ public class ReportDoodleRenderedIntentOperation extends asjx {
         AccountInfo accountInfo = (AccountInfo) intent.getParcelableExtra("accountName");
         if (accountInfo != null && intent.hasExtra("doodle_rendered_info")) {
             try {
-                btpj btpj = (btpj) bxvk.m124016a(btpj.f149850c, intent.getByteArrayExtra("doodle_rendered_info"), bxus.m123744c());
+                btpj btpj = (btpj) GeneratedMessageLite.m124016a(btpj.f149850c, intent.getByteArrayExtra("doodle_rendered_info"), bxus.m123744c());
                 String b = askc.m74272b();
                 try {
                     atoo.m76235a(new askf(accountInfo, b, this), btpj);

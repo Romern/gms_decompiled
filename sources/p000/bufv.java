@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bufv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bufv extends bxvk implements bxxd {
+public final class bufv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final bufv f153745i;
@@ -37,7 +37,7 @@ public final class bufv extends bxvk implements bxxd {
     static {
         bufv bufv = new bufv();
         f153745i = bufv;
-        bxvk.m124024a(bufv.class, bufv);
+        GeneratedMessageLite.m124024a(bufv.class, bufv);
     }
 
     private bufv() {
@@ -54,7 +54,7 @@ public final class bufv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153745i, "\u0001\u0007\u0000\u0001\u0001\n\u0007\u0000\u0000\u0000\u0001ခ\u0000\u0002ခ\u0001\u0006င\u0005\u0007ခ\u0006\bဃ\u0007\tခ\b\nင\t", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f153745i, "\u0001\u0007\u0000\u0001\u0001\n\u0007\u0000\u0000\u0000\u0001ခ\u0000\u0002ခ\u0001\u0006င\u0005\u0007ခ\u0006\bဃ\u0007\tခ\b\nင\t", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new bufv();
         } else {

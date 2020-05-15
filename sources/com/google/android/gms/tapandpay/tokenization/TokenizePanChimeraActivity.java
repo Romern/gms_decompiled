@@ -193,7 +193,7 @@ public class TokenizePanChimeraActivity extends atex implements auat, auas, axou
             this.f108906c.f90828T = getIntent().getIntExtra("save_to_platform_state", 0);
             if (getIntent().hasExtra("token_provisioning_data")) {
                 try {
-                    this.f108906c.f90835aa = (bmuw) bxvk.m124016a(bmuw.f130975l, getIntent().getByteArrayExtra("token_provisioning_data"), bxus.m123744c());
+                    this.f108906c.f90835aa = (bmuw) GeneratedMessageLite.m124016a(bmuw.f130975l, getIntent().getByteArrayExtra("token_provisioning_data"), bxus.m123744c());
                 } catch (bxwf e) {
                     bnsl bnsl = (bnsl) f108905b.mo68388c();
                     bnsl.mo68437a(e);
@@ -273,7 +273,7 @@ public class TokenizePanChimeraActivity extends atex implements auat, auas, axou
             byte[] bArr = this.f108906c.f90820L;
             if (bArr != null) {
                 try {
-                    bmum bmum = (bmum) bxvk.m124016a(bmum.f130943d, bArr, bxus.m123744c());
+                    bmum bmum = (bmum) GeneratedMessageLite.m124016a(bmum.f130943d, bArr, bxus.m123744c());
                     if ((1 & bmum.f130945a) != 0) {
                         bmuj bmuj = bmum.f130946b;
                         if (bmuj == null) {

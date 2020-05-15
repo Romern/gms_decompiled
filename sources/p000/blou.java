@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blou */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blou extends bxvk implements bxxd {
+public final class blou extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final blou f127145c;
@@ -19,7 +19,7 @@ public final class blou extends bxvk implements bxxd {
     static {
         blou blou = new blou();
         f127145c = blou;
-        bxvk.m124024a(blou.class, blou);
+        GeneratedMessageLite.m124024a(blou.class, blou);
     }
 
     private blou() {
@@ -36,7 +36,7 @@ public final class blou extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127145c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f127145c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new blou();
         } else {

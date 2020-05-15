@@ -15,7 +15,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public final class teg {
 
     /* renamed from: a */
-    public static final sek f45738a = tea.m36798a("flash_call_receiver");
+    public static final Logger f45738a = tea.m36798a("flash_call_receiver");
 
     /* renamed from: f */
     private static final bnhe f45739f;

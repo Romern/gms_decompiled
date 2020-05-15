@@ -32,7 +32,7 @@ public class GetClientTokenEvent extends AnalyticsSessionStartEndEvent implement
 
     public GetClientTokenEvent(BuyFlowConfig buyFlowConfig, bpic bpic) {
         this.f110015m = awnm.m80359a();
-        sdo.m34966a(buyFlowConfig, "BuyFlowConfig cannot be null!");
+        sdo.checkIfNull(buyFlowConfig, "BuyFlowConfig cannot be null!");
         this.f109940c = buyFlowConfig;
         this.f109941d = bpic;
         mo59779a(buyFlowConfig);

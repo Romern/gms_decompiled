@@ -13,7 +13,7 @@ final /* synthetic */ class hqd implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = hql.f20228a;
+        Logger Logger = hql.f20228a;
         bngs j = bngx.m109377j();
         bnre i = bnny.m109908a(hdv.m14230a(hqf.f20222a)).mo67377a().mo67379b(((bnht) bnnm.m109864a((bngx) obj, hqe.f20221a)).f131642b.entrySet()).listIterator();
         while (i.hasNext()) {

@@ -34,7 +34,7 @@ final class attv implements atfd {
 
     public final /* bridge */ /* synthetic */ void onResponse(Object obj) {
         btjg btjg = (btjg) obj;
-        this.f90887b.f90813E = btjg.f149112b.mo73780k();
+        this.f90887b.f90813E = btjg.f149112b.getKey();
         byte[] bArr = this.f90887b.f90813E;
         if (bArr == null || bArr.length <= 0) {
             srn srn = attw.f90890a;
@@ -46,7 +46,7 @@ final class attv implements atfd {
         btjq[] btjqArr = (btjq[]) btjg.f149111a.toArray(new btjq[0]);
         byte[] bArr2 = this.f90888c;
         boolean z = btjg.f149113c;
-        byte[] k = btjg.f149114d.mo73780k();
+        byte[] k = btjg.f149114d.getKey();
         if ((z || btjqArr.length > 0) && !atsy.mo50163a()) {
             Intent putExtra = new Intent().setClassName(attw2.f90898f, "com.google.android.gms.tapandpay.settings.SelectUntokenizedCardActivity").putExtra("extra_account_info", atsy.f90857t).putExtra("EXTRA_USE_SUW_UI", atsy.f90824P);
             bnha h = bnhe.m109414h();
@@ -54,10 +54,10 @@ final class attv implements atfd {
             btjq[] btjqArr2 = new btjq[length];
             for (int i = 0; i < btjqArr.length; i++) {
                 btjq btjq = btjqArr[i];
-                h.mo67695b(btjq.f149164a, btjq.f149166c.mo73780k());
+                h.mo67695b(btjq.f149164a, btjq.f149166c.getKey());
                 bxvd bxvd = (bxvd) btjq.mo74142c(5);
-                bxvd.mo73625a((bxvk) btjq);
-                bxtx bxtx = bxtx.f164797b;
+                bxvd.mo73625a((GeneratedMessageLite) btjq);
+                ByteString bxtx = bxtx.f164797b;
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -70,7 +70,7 @@ final class attv implements atfd {
             atsy.f90818J = h.mo67618b();
             ArrayList arrayList = new ArrayList();
             for (int i2 = 0; i2 < length; i2++) {
-                arrayList.add(btjqArr2[i2].mo73642k());
+                arrayList.add(btjqArr2[i2].serializeToBytes());
             }
             putExtra.putExtra("extra_card_list", arrayList);
             putExtra.putExtra("extra_should_show_customer_selector", z);

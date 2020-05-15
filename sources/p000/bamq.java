@@ -10,19 +10,19 @@ public interface bamq extends Closeable {
     bane mo55766a();
 
     /* renamed from: a */
-    bxtx mo55767a(banx banx, bxtx bxtx);
+    ByteString mo55767a(banx banx, ByteString bxtx);
 
     /* renamed from: a */
     Collection mo55768a(banx banx, byte[] bArr, byte[] bArr2);
 
     /* renamed from: a */
-    void mo55769a(banx banx, bxtx bxtx, bamp bamp);
+    void mo55769a(banx banx, ByteString bxtx, bamp bamp);
 
     /* renamed from: a */
-    void mo55770a(bany bany, bxtx bxtx);
+    void mo55770a(bany bany, ByteString bxtx);
 
     /* renamed from: a */
-    void mo55771a(bany bany, bxtx bxtx, bxtx bxtx2);
+    void mo55771a(bany bany, ByteString bxtx, ByteString bxtx2);
 
     /* renamed from: a */
     void mo55772a(bany bany, byte[] bArr, byte[] bArr2);
@@ -34,10 +34,10 @@ public interface bamq extends Closeable {
     byte[] mo55774a(banx banx, byte[] bArr);
 
     /* renamed from: b */
-    Collection mo55775b(banx banx, bxtx bxtx);
+    Collection mo55775b(banx banx, ByteString bxtx);
 
     /* renamed from: b */
-    void mo55776b(bany bany, bxtx bxtx, bxtx bxtx2);
+    void mo55776b(bany bany, ByteString bxtx, ByteString bxtx2);
 
     /* renamed from: b */
     void mo55777b(bany bany, byte[] bArr, byte[] bArr2);

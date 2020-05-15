@@ -17,7 +17,7 @@ public final class bydb extends bxvd implements bxxd {
         bydc bydc2 = bydc.f165756b;
         str.getClass();
         if (!bydc.f165758a.mo73666a()) {
-            bydc.f165758a = bxvk.m124021a(bydc.f165758a);
+            bydc.f165758a = GeneratedMessageLite.m124021a(bydc.f165758a);
         }
         bydc.f165758a.add(str);
     }

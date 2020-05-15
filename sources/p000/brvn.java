@@ -19,7 +19,7 @@ public final class brvn implements brxe {
     static final chtn f143458b = bryw.m114907a(brty.f143368b);
 
     /* renamed from: c */
-    static final byte[] f143459c = brty.f143367a.mo73642k();
+    static final byte[] f143459c = brty.f143367a.serializeToBytes();
 
     /* renamed from: d */
     public static final chqn f143460d = chqn.m149405a("ClientInterceptorCacheDirective", brtz.DEFAULT_CACHE_OK_IF_VALID);

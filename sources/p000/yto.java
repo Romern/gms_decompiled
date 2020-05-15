@@ -54,7 +54,7 @@ final /* synthetic */ class yto implements Runnable {
                 if (currentTimeMillis - j <= TimeUnit.DAYS.toMillis(1)) {
                     if (((long) i) < cdza.f181994a.mo6606a().mo78532g()) {
                         try {
-                            ytr = (ytr) bxvk.m124016a(ytr.f54614b, Base64.decode(string, 0), bxus.m123743b());
+                            ytr = (ytr) GeneratedMessageLite.m124016a(ytr.f54614b, Base64.decode(string, 0), bxus.m123743b());
                         } catch (bxwf e) {
                             ytr = ytr.f54614b;
                         }
@@ -65,7 +65,7 @@ final /* synthetic */ class yto implements Runnable {
                             String valueOf5 = String.valueOf(str3);
                             String str6 = valueOf5.length() == 0 ? new String("events-") : "events-".concat(valueOf5);
                             bxvd bxvd = (bxvd) ytr.mo74142c(5);
-                            bxvd.mo73625a((bxvk) ytr);
+                            bxvd.mo73625a((GeneratedMessageLite) ytr);
                             bxvd.mo73998a(bpgr);
                             putInt.putString(str6, ytl.m44780a((ytr) bxvd.mo74062i())).apply();
                             ytq a2 = ytp.mo30767a(context);

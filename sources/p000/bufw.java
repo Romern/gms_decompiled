@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bufw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bufw extends bxvk implements bxxd {
+public final class bufw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bufw f153755a;
@@ -13,7 +13,7 @@ public final class bufw extends bxvk implements bxxd {
     static {
         bufw bufw = new bufw();
         f153755a = bufw;
-        bxvk.m124024a(bufw.class, bufw);
+        GeneratedMessageLite.m124024a(bufw.class, bufw);
     }
 
     private bufw() {
@@ -30,7 +30,7 @@ public final class bufw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153755a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f153755a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bufw();

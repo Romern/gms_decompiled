@@ -24,7 +24,7 @@ public final class acds implements acjh {
     /* renamed from: a */
     public final void mo32708a() {
         try {
-            this.f59607c.f100379h = (bygw) bxvk.m124014a(bygw.f166398b, this.f59606b);
+            this.f59607c.f100379h = (bygw) GeneratedMessageLite.m124014a(bygw.f166398b, this.f59606b);
             this.f59605a.mo11797a(Status.f30107a);
         } catch (bxwf e) {
             this.f59605a.mo11797a(ackq.m49339a(getClass().getSimpleName(), "Serialized ChannelConfigList cannot be parsed."));

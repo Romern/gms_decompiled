@@ -109,7 +109,7 @@ final /* synthetic */ class atkp implements View.OnClickListener {
         }
         str4.getClass();
         ((btiy) da7.f164949b).f149056a = str4;
-        bxtx a2 = bxtx.m123261a(cardInfo.f108341b);
+        ByteString a2 = ByteString.m123261a(cardInfo.f108341b);
         if (da7.f164950c) {
             da7.mo74035c();
             da7.f164950c = false;
@@ -123,7 +123,7 @@ final /* synthetic */ class atkp implements View.OnClickListener {
         btiy btiy = (btiy) da7.mo74062i();
         btiy.getClass();
         ((btpf) da6.f164949b).f149842a = btiy;
-        bxtx a3 = bxtx.m123261a(a);
+        ByteString a3 = ByteString.m123261a(a);
         if (da6.f164950c) {
             da6.mo74035c();
             da6.f164950c = false;

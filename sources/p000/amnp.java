@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amnp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amnp extends bxvk implements bxxd {
+public final class amnp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final amnp f75526f;
@@ -28,7 +28,7 @@ public final class amnp extends bxvk implements bxxd {
     static {
         amnp amnp = new amnp();
         f75526f = amnp;
-        bxvk.m124024a(amnp.class, amnp);
+        GeneratedMessageLite.m124024a(amnp.class, amnp);
     }
 
     private amnp() {
@@ -45,7 +45,7 @@ public final class amnp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75526f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003င\u0002\u0004ဈ\u0003", new Object[]{"a", "b", amjv.f75016a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f75526f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003င\u0002\u0004ဈ\u0003", new Object[]{"a", "b", amjv.f75016a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new amnp();
         } else {

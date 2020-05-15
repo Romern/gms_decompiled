@@ -107,7 +107,7 @@ public final class avax extends avau {
                 bxrt.f164601a |= 2;
                 bxrt.f164603c = a2;
                 bxvd da2 = bsqx.f146703c.mo74144da();
-                bxtx a3 = bxtx.m123261a(ggj.m13107a());
+                ByteString a3 = ByteString.m123261a(ggj.m13107a());
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -116,7 +116,7 @@ public final class avax extends avau {
                 a3.getClass();
                 bsqx.f146705a |= 1;
                 bsqx.f146706b = a3;
-                String encodeToString = Base64.encodeToString(((bsqx) da2.mo74062i()).mo73642k(), 10);
+                String encodeToString = Base64.encodeToString(((bsqx) da2.mo74062i()).serializeToBytes(), 10);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -137,7 +137,7 @@ public final class avax extends avau {
                 bxrz.f164641a |= 2;
                 bxrz.f164643c = str;
                 if (!bxrz.f164645e.mo73666a()) {
-                    bxrz.f164645e = bxvk.m124019a(bxrz.f164645e);
+                    bxrz.f164645e = GeneratedMessageLite.m124019a(bxrz.f164645e);
                 }
                 bxsy.m123078a(unmodifiableList, bxrz.f164645e);
                 boolean isEmpty = unmodifiableList.isEmpty();

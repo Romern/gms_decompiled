@@ -309,10 +309,10 @@ public final class aptw extends bjdm {
         if (!z) {
             mo47610a(new Status(12004), (HarmfulAppsInfo) null);
         } else {
-            aptu aptu = (aptu) bxvk.m124014a(aptu.f84877e, bArr);
+            aptu aptu = (aptu) GeneratedMessageLite.m124014a(aptu.f84877e, bArr);
             ArrayList arrayList = new ArrayList();
             for (aptt aptt : aptu.f84879a) {
-                arrayList.add(new HarmfulAppsData(aptt.f84873a, aptt.f84874b.mo73780k(), m70995a(aptt.f84875c)));
+                arrayList.add(new HarmfulAppsData(aptt.f84873a, aptt.f84874b.getKey(), m70995a(aptt.f84875c)));
             }
             long j = aptu.f84880b;
             HarmfulAppsData[] harmfulAppsDataArr = (HarmfulAppsData[]) arrayList.toArray(new HarmfulAppsData[0]);

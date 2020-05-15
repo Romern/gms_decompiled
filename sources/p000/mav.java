@@ -96,7 +96,7 @@ final /* synthetic */ class mav implements aubg {
         ggp ggp = new ggp();
         ggp.f18143b = 15;
         ggp.f18142a = 2;
-        ggp.mo11800a(((bsqw) bsqv.mo74062i()).mo73642k());
+        ggp.mo11800a(((bsqw) bsqv.mo74062i()).serializeToBytes());
         if (account != null) {
             ggp.f18144c = account.name;
         }

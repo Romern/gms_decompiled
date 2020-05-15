@@ -151,7 +151,7 @@ public final class bhxl implements biae, bhxo, bhzq {
         String str = userLocationNearbyAlertRequest.f109594c.f109590c;
         bpqk c = bhqq.m101365c(8, bhxn.mo64392a());
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bxvd da = bpqv.f138790h.mo74144da();
         if (i == 1) {
             i3 = 2;

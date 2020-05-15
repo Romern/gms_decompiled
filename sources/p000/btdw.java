@@ -17,7 +17,7 @@ public final class btdw extends bxvd implements bxxd {
         btdy btdy2 = btdy.f148473d;
         btdx.getClass();
         if (!btdy.f148477c.mo73666a()) {
-            btdy.f148477c = bxvk.m124019a(btdy.f148477c);
+            btdy.f148477c = GeneratedMessageLite.m124019a(btdy.f148477c);
         }
         btdy.f148477c.mo74153d(btdx.mo3214a());
     }

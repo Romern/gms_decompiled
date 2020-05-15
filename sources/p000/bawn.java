@@ -53,7 +53,7 @@ final /* synthetic */ class bawn implements bqeg {
             }
         }
         if (bauc.f101751c.mo66813a()) {
-            bmxv = bmxv.m108566b((bavn) bxvk.m124016a(bavn.f101895f, ((baul) bauc.f101751c.mo66814b()).mo73642k(), bxus.m123743b()));
+            bmxv = bmxv.m108566b((bavn) GeneratedMessageLite.m124016a(bavn.f101895f, ((baul) bauc.f101751c.mo66814b()).serializeToBytes(), bxus.m123743b()));
         } else {
             bmxv = bmvz.f131120a;
         }

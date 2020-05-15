@@ -43,7 +43,7 @@ public final class rpy extends sbi {
                     File file2 = new File(file, str);
                     try {
                         ClassLoader classLoader = getClass().getClassLoader();
-                        sdo.m34966a(classLoader, "Couldn't get classLoader. Using bootstrap class loader?");
+                        sdo.checkIfNull(classLoader, "Couldn't get classLoader. Using bootstrap class loader?");
                         Class<?> loadClass = classLoader.loadClass("com.android.internal.util.XmlUtils");
                         Method method = loadClass.getMethod("readMapXml", InputStream.class);
                         bufferedInputStream = new BufferedInputStream(new FileInputStream(file2));

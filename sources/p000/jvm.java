@@ -12,7 +12,7 @@ import com.google.android.gms.auth.uiflows.addaccount.CheckinReceiver;
 public final class jvm extends Loader implements jvn {
 
     /* renamed from: a */
-    private static final sek f23369a = ght.m13171a("CheckinLoader");
+    private static final Logger f23369a = ght.m13171a("CheckinLoader");
 
     /* renamed from: b */
     private boolean f23370b;
@@ -44,7 +44,7 @@ public final class jvm extends Loader implements jvn {
     public final void onStartLoading() {
         if (!this.f23370b) {
             this.f23370b = true;
-            if (spn.m35843a(getContext()) != 0) {
+            if (spn.getAndroidId(getContext()) != 0) {
                 f23369a.mo25412b("Checkin already completed.", new Object[0]);
                 mo14152a(true);
                 return;

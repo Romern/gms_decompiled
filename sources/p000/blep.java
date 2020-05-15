@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blep */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blep extends bxvk implements bxxd {
+public final class blep extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final blep f126239e;
@@ -25,7 +25,7 @@ public final class blep extends bxvk implements bxxd {
     static {
         blep blep = new blep();
         f126239e = blep;
-        bxvk.m124024a(blep.class, blep);
+        GeneratedMessageLite.m124024a(blep.class, blep);
     }
 
     private blep() {
@@ -42,7 +42,7 @@ public final class blep extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f126239e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဈ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f126239e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဈ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new blep();
         } else {

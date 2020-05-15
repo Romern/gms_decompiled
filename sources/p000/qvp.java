@@ -7,7 +7,7 @@ import java.util.List;
 public final class qvp {
 
     /* renamed from: a */
-    public static final sek f42249a = qqu.m32672c("EntityManager");
+    public static final Logger f42249a = qqu.m32672c("EntityManager");
 
     /* renamed from: b */
     public static final imo f42250b = new qvo();

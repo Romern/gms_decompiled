@@ -15,7 +15,7 @@ public final class atck implements Parcelable.Creator {
         byte[] bArr = new byte[parcel.readInt()];
         parcel.readByteArray(bArr);
         try {
-            btli btli = (btli) bxvk.m124016a(btli.f149372c, bArr, bxus.m123744c());
+            btli btli = (btli) GeneratedMessageLite.m124016a(btli.f149372c, bArr, bxus.m123744c());
             byte[] bArr2 = new byte[parcel.readInt()];
             parcel.readByteArray(bArr2);
             return new CryptoParameters(btli, bArr2);

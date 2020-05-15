@@ -11,15 +11,15 @@ public final class xfq {
     public final ProtocolVersion f52134a;
 
     /* renamed from: b */
-    public final bxtx f52135b;
+    public final ByteString f52135b;
 
     /* renamed from: c */
-    public final bxtx f52136c;
+    public final ByteString f52136c;
 
     /* renamed from: d */
     public final bmxv f52137d;
 
-    public xfq(ProtocolVersion protocolVersion, bxtx bxtx, bxtx bxtx2, bmxv bmxv) {
+    public xfq(ProtocolVersion protocolVersion, ByteString bxtx, ByteString bxtx2, bmxv bmxv) {
         boolean z;
         bmxy.m108581a(protocolVersion);
         this.f52134a = protocolVersion;
@@ -68,8 +68,8 @@ public final class xfq {
     public final String toString() {
         bmxt a = bmxu.m108563a(this);
         a.mo66885a("protocolVersion", this.f52134a);
-        a.mo66885a("application", boan.f132472f.mo68794a(this.f52135b.mo73780k()));
-        a.mo66885a("challenge", boan.f132472f.mo68794a(this.f52136c.mo73780k()));
+        a.mo66885a("application", boan.f132472f.mo68794a(this.f52135b.getKey()));
+        a.mo66885a("challenge", boan.f132472f.mo68794a(this.f52136c.getKey()));
         if (this.f52137d.mo66813a()) {
             a.mo66885a("clientData", this.f52137d.mo66814b());
         }

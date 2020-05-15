@@ -18,7 +18,7 @@ public final class bonx extends bxvd implements bxxd {
         bony bony = (bony) this.f164949b;
         bony bony2 = bony.f133869c;
         if (!bony.f133872b.mo73666a()) {
-            bony.f133872b = bxvk.m124019a(bony.f133872b);
+            bony.f133872b = GeneratedMessageLite.m124019a(bony.f133872b);
         }
         Iterator it = iterable.iterator();
         while (it.hasNext()) {

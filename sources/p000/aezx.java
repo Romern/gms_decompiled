@@ -32,7 +32,7 @@ import org.json.JSONObject;
 public final class aezx implements jmk {
 
     /* renamed from: f */
-    public static final sek f64058f = new sek(new String[]{"ProximityAuthWrapper"}, (int[]) null);
+    public static final Logger f64058f = new Logger(new String[]{"ProximityAuthWrapper"}, (int[]) null);
 
     /* renamed from: g */
     private static final C1245ok f64059g = new C1245ok();
@@ -218,7 +218,7 @@ public final class aezx implements jmk {
                 f64058f.mo25418e("Can't update connection status. deviceId: %s, oldStatus: %s, newStatus: %s", jkr.m16853a(str), ConnectionInfo.m6759a(i), ConnectionInfo.m6759a(i2));
             } else {
                 aezw aezw = this.f64065h;
-                sek sek = TetherListenerChimeraService.f79824e;
+                Logger Logger = TetherListenerChimeraService.f79824e;
                 StringBuilder sb = new StringBuilder(63);
                 sb.append("onConnectionStatusChanged... old: ");
                 sb.append(i);
@@ -265,7 +265,7 @@ public final class aezx implements jmk {
                 RemoteDevice a2 = mo34697a(str);
                 if (a2 != null) {
                     aezw aezw = this.f64065h;
-                    sek sek = TetherListenerChimeraService.f79824e;
+                    Logger Logger = TetherListenerChimeraService.f79824e;
                     new Object[1][0] = a2.mo7784a();
                     try {
                         JSONObject jSONObject = new JSONObject(new String(bArr));
@@ -303,7 +303,7 @@ public final class aezx implements jmk {
                         if (i != 0) {
                             switch (i5) {
                                 case 1:
-                                    bxxc = (afbj) bxvk.m124016a(afbj.f64141a, decode, bxus.m123744c());
+                                    bxxc = (afbj) GeneratedMessageLite.m124016a(afbj.f64141a, decode, bxus.m123744c());
                                     afbr afbr = new afbr(bxxc);
                                     rpr b = rpr.m34216b();
                                     i2 = afbr.f64156b - 1;
@@ -326,11 +326,11 @@ public final class aezx implements jmk {
                                                     ((afav) aezw).mo34720a(a2, (afbi) da.mo74062i());
                                                     break;
                                                 } else {
-                                                    sek sek2 = TetherListenerChimeraService.f79824e;
+                                                    Logger logger2 = TetherListenerChimeraService.f79824e;
                                                     StringBuilder sb = new StringBuilder(42);
                                                     sb.append("Received unknown message type: ");
                                                     sb.append(afbr.f64156b - 1);
-                                                    sek2.mo25414c(sb.toString(), new Object[0]);
+                                                    logger2.mo25414c(sb.toString(), new Object[0]);
                                                     break;
                                                 }
                                             } else {
@@ -505,7 +505,7 @@ public final class aezx implements jmk {
                                     }
                                     break;
                                 case 2:
-                                    bxxc = (afbm) bxvk.m124016a(afbm.f64144d, decode, bxus.m123744c());
+                                    bxxc = (afbm) GeneratedMessageLite.m124016a(afbm.f64144d, decode, bxus.m123744c());
                                     afbr afbr2 = new afbr(bxxc);
                                     rpr b2 = rpr.m34216b();
                                     i2 = afbr2.f64156b - 1;
@@ -513,7 +513,7 @@ public final class aezx implements jmk {
                                     }
                                     break;
                                 case 3:
-                                    bxxc = (afbb) bxvk.m124016a(afbb.f64114a, decode, bxus.m123744c());
+                                    bxxc = (afbb) GeneratedMessageLite.m124016a(afbb.f64114a, decode, bxus.m123744c());
                                     afbr afbr22 = new afbr(bxxc);
                                     rpr b22 = rpr.m34216b();
                                     i2 = afbr22.f64156b - 1;
@@ -521,7 +521,7 @@ public final class aezx implements jmk {
                                     }
                                     break;
                                 case 4:
-                                    bxxc = (afbe) bxvk.m124016a(afbe.f64117f, decode, bxus.m123744c());
+                                    bxxc = (afbe) GeneratedMessageLite.m124016a(afbe.f64117f, decode, bxus.m123744c());
                                     afbr afbr222 = new afbr(bxxc);
                                     rpr b222 = rpr.m34216b();
                                     i2 = afbr222.f64156b - 1;
@@ -529,7 +529,7 @@ public final class aezx implements jmk {
                                     }
                                     break;
                                 case 5:
-                                    bxxc = (afbg) bxvk.m124016a(afbg.f64133a, decode, bxus.m123744c());
+                                    bxxc = (afbg) GeneratedMessageLite.m124016a(afbg.f64133a, decode, bxus.m123744c());
                                     afbr afbr2222 = new afbr(bxxc);
                                     rpr b2222 = rpr.m34216b();
                                     i2 = afbr2222.f64156b - 1;
@@ -537,7 +537,7 @@ public final class aezx implements jmk {
                                     }
                                     break;
                                 case 6:
-                                    bxxc = (afbh) bxvk.m124016a(afbh.f64135a, decode, bxus.m123744c());
+                                    bxxc = (afbh) GeneratedMessageLite.m124016a(afbh.f64135a, decode, bxus.m123744c());
                                     afbr afbr22222 = new afbr(bxxc);
                                     rpr b22222 = rpr.m34216b();
                                     i2 = afbr22222.f64156b - 1;
@@ -545,7 +545,7 @@ public final class aezx implements jmk {
                                     }
                                     break;
                                 case 7:
-                                    bxxc = (afbi) bxvk.m124016a(afbi.f64137c, decode, bxus.m123744c());
+                                    bxxc = (afbi) GeneratedMessageLite.m124016a(afbi.f64137c, decode, bxus.m123744c());
                                     afbr afbr222222 = new afbr(bxxc);
                                     rpr b222222 = rpr.m34216b();
                                     i2 = afbr222222.f64156b - 1;

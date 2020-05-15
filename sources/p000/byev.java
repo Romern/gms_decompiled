@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byev */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byev extends bxvk implements bxxd {
+public final class byev extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: w */
     public static final byev f165940w;
@@ -79,7 +79,7 @@ public final class byev extends bxvk implements bxxd {
     static {
         byev byev = new byev();
         f165940w = byev;
-        bxvk.m124024a(byev.class, byev);
+        GeneratedMessageLite.m124024a(byev.class, byev);
     }
 
     private byev() {
@@ -96,7 +96,7 @@ public final class byev extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165940w, "\u0001\u0015\u0000\u0001\u0002\u0016\u0015\u0000\u0001\u0000\u0002င\u0000\u0003င\u0001\u0004င\u0003\u0005င\u0005\u0006င\u0006\u0007က\u0007\bဉ\b\tဈ\t\nခ\u0012\u000b\u001b\fင\u0002\rင\u0004\u000eဌ\n\u000fဌ\u000b\u0010ဌ\f\u0011ခ\r\u0012ခ\u000e\u0013ဌ\u000f\u0014ခ\u0010\u0015ဌ\u0011\u0016င\u0013", new Object[]{"a", "b", "c", "e", "g", "h", "i", "j", "k", "u", "l", byek.class, "d", "f", "m", byet.f165938a, "n", byer.f165936a, "o", byes.f165937a, "p", "q", "r", byeq.f165935a, "s", "t", byeu.f165939a, "v"});
+            return GeneratedMessageLite.m124022a(f165940w, "\u0001\u0015\u0000\u0001\u0002\u0016\u0015\u0000\u0001\u0000\u0002င\u0000\u0003င\u0001\u0004င\u0003\u0005င\u0005\u0006င\u0006\u0007က\u0007\bဉ\b\tဈ\t\nခ\u0012\u000b\u001b\fင\u0002\rင\u0004\u000eဌ\n\u000fဌ\u000b\u0010ဌ\f\u0011ခ\r\u0012ခ\u000e\u0013ဌ\u000f\u0014ခ\u0010\u0015ဌ\u0011\u0016င\u0013", new Object[]{"a", "b", "c", "e", "g", "h", "i", "j", "k", "u", "l", byek.class, "d", "f", "m", byet.f165938a, "n", byer.f165936a, "o", byes.f165937a, "p", "q", "r", byeq.f165935a, "s", "t", byeu.f165939a, "v"});
         } else if (i2 == 3) {
             return new byev();
         } else {

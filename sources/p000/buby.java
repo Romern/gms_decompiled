@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buby */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buby extends bxvk implements bxxd {
+public final class buby extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final buby f153299h;
@@ -34,7 +34,7 @@ public final class buby extends bxvk implements bxxd {
     static {
         buby buby = new buby();
         f153299h = buby;
-        bxvk.m124024a(buby.class, buby);
+        GeneratedMessageLite.m124024a(buby.class, buby);
     }
 
     private buby() {
@@ -51,7 +51,7 @@ public final class buby extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153299h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0002\u0000\u0001ဃ\u0000\u0002\u001b\u0003\u001b\u0004ဌ\u0001\u0005ဉ\u0002\u0006ဉ\u0003", new Object[]{"a", "b", "c", bucc.class, "d", buca.class, "e", bubx.m119310b(), "f", "g"});
+            return GeneratedMessageLite.m124022a(f153299h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0002\u0000\u0001ဃ\u0000\u0002\u001b\u0003\u001b\u0004ဌ\u0001\u0005ဉ\u0002\u0006ဉ\u0003", new Object[]{"a", "b", "c", bucc.class, "d", buca.class, "e", bubx.m119310b(), "f", "g"});
         } else if (i2 == 3) {
             return new buby();
         } else {

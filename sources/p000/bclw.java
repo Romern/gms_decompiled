@@ -170,7 +170,7 @@ final /* synthetic */ class bclw implements bmxj {
                 }
                 cbgj cbgj = (cbgj) da11.f164949b;
                 if (!cbgj.f177042a.mo73666a()) {
-                    cbgj.f177042a = bxvk.m124021a(cbgj.f177042a);
+                    cbgj.f177042a = GeneratedMessageLite.m124021a(cbgj.f177042a);
                 }
                 bxsy.m123078a(a3, cbgj.f177042a);
                 if (da10.f164950c) {

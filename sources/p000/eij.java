@@ -210,7 +210,7 @@ public final class eij implements ejs {
                     eid eid = c.f15102a;
                     bxvd da5 = eio.f15067h.mo74144da();
                     if (eid.equals(eid.m10480a("proto"))) {
-                        bxtx a3 = bxtx.m123261a(c.f15103b);
+                        ByteString a3 = ByteString.m123261a(c.f15103b);
                         if (da5.f164950c) {
                             da5.mo74035c();
                             da5.f164950c = z;
@@ -220,7 +220,7 @@ public final class eij implements ejs {
                         eio.f15069a = i2;
                         eio.f15070b = a3;
                     } else if (eid.equals(eid.m10480a("json"))) {
-                        bxtx a4 = bxtx.m123261a(c.f15103b);
+                        ByteString a4 = ByteString.m123261a(c.f15103b);
                         if (da5.f164950c) {
                             da5.mo74035c();
                             da5.f164950c = z;
@@ -292,7 +292,7 @@ public final class eij implements ejs {
                     eio eio3 = (eio) da5.mo74062i();
                     eio3.getClass();
                     if (!eip3.f15083f.mo73666a()) {
-                        eip3.f15083f = bxvk.m124021a(eip3.f15083f);
+                        eip3.f15083f = GeneratedMessageLite.m124021a(eip3.f15083f);
                     }
                     eip3.f15083f.add(eio3);
                     z = false;
@@ -306,7 +306,7 @@ public final class eij implements ejs {
                 eip eip4 = (eip) da2.mo74062i();
                 eip4.getClass();
                 if (!eim.f15062a.mo73666a()) {
-                    eim.f15062a = bxvk.m124021a(eim.f15062a);
+                    eim.f15062a = GeneratedMessageLite.m124021a(eim.f15062a);
                 }
                 eim.f15062a.add(eip4);
                 z2 = false;
@@ -376,7 +376,7 @@ public final class eij implements ejs {
                                             } else {
                                                 inputStream = new GZIPInputStream(httpURLConnection.getInputStream());
                                             }
-                                            eii2 = new eii(BaseMfiEventCallback.TYPE_UNKNOWN_ERROR, null, ((eiq) bxvk.m124010a(eiq.f15085b, inputStream)).f15087a);
+                                            eii2 = new eii(BaseMfiEventCallback.TYPE_UNKNOWN_ERROR, null, ((eiq) GeneratedMessageLite.m124010a(eiq.f15085b, inputStream)).f15087a);
                                             inputStream.close();
                                         } else {
                                             eii2 = new eii(responseCode, null, 0);

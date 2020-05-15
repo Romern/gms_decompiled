@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bylg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bylg extends bxvk implements bxxd {
+public final class bylg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bylg f166825e;
@@ -28,7 +28,7 @@ public final class bylg extends bxvk implements bxxd {
     static {
         bylg bylg = new bylg();
         f166825e = bylg;
-        bxvk.m124024a(bylg.class, bylg);
+        GeneratedMessageLite.m124024a(bylg.class, bylg);
     }
 
     private bylg() {
@@ -45,7 +45,7 @@ public final class bylg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166825e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဇ\u0001\u0003ဌ\u0002\u0004ဇ\u0003", new Object[]{"f", "a", byle.f166824a, "b", "c", bylc.f166823a, "d"});
+            return GeneratedMessageLite.m124022a(f166825e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဇ\u0001\u0003ဌ\u0002\u0004ဇ\u0003", new Object[]{"f", "a", byle.f166824a, "b", "c", bylc.f166823a, "d"});
         } else if (i2 == 3) {
             return new bylg();
         } else {

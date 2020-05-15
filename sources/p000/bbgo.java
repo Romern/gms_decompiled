@@ -15,6 +15,6 @@ final /* synthetic */ class bbgo implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        return (bbfz) this.f102598a.getOrDefault((bxtx) obj, this.f102599b);
+        return (bbfz) this.f102598a.getOrDefault((ByteString) obj, this.f102599b);
     }
 }

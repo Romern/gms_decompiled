@@ -77,9 +77,9 @@ public class rjx implements rkc, izm, alhr, artq {
     public final rjk f43171z;
 
     public rjx(Activity activity, rjo rjo, rjk rjk, rjw rjw) {
-        sdo.m34966a(activity, "Null activity is not permitted.");
-        sdo.m34966a(rjo, "Api must not be null.");
-        sdo.m34966a(rjw, "Settings must not be null; use Settings.DEFAULT_SETTINGS instead.");
+        sdo.checkIfNull(activity, "Null activity is not permitted.");
+        sdo.checkIfNull(rjo, "Api must not be null.");
+        sdo.checkIfNull(rjw, "Settings must not be null; use Settings.DEFAULT_SETTINGS instead.");
         this.f43168w = activity.getApplicationContext();
         this.f43169x = m33692a(activity);
         this.f43170y = rjo;
@@ -551,7 +551,7 @@ public class rjx implements rkc, izm, alhr, artq {
 
     /* renamed from: a */
     public static void m33694a(Channel channel) {
-        sdo.m34966a(channel, "channel must not be null");
+        sdo.checkIfNull(channel, "channel must not be null");
     }
 
     /* renamed from: c */
@@ -576,9 +576,9 @@ public class rjx implements rkc, izm, alhr, artq {
     }
 
     public rjx(Context context, rjo rjo, rjk rjk, rjw rjw) {
-        sdo.m34966a(context, "Null context is not permitted.");
-        sdo.m34966a(rjo, "Api must not be null.");
-        sdo.m34966a(rjw, "Settings must not be null; use Settings.DEFAULT_SETTINGS instead.");
+        sdo.checkIfNull(context, "Null context is not permitted.");
+        sdo.checkIfNull(rjo, "Api must not be null.");
+        sdo.checkIfNull(rjw, "Settings must not be null; use Settings.DEFAULT_SETTINGS instead.");
         this.f43168w = context.getApplicationContext();
         this.f43169x = m33692a(context);
         this.f43170y = rjo;
@@ -729,9 +729,9 @@ public class rjx implements rkc, izm, alhr, artq {
     }
 
     public rjx(com.google.android.chimera.Activity activity, rjo rjo, rjw rjw) {
-        sdo.m34966a(activity, "Null chimeraActivity is not permitted.");
-        sdo.m34966a(rjo, "Api must not be null.");
-        sdo.m34966a(rjw, "Settings must not be null; use Settings.DEFAULT_SETTINGS instead.");
+        sdo.checkIfNull(activity, "Null chimeraActivity is not permitted.");
+        sdo.checkIfNull(rjo, "Api must not be null.");
+        sdo.checkIfNull(rjw, "Settings must not be null; use Settings.DEFAULT_SETTINGS instead.");
         this.f43168w = activity.getApplicationContext();
         this.f43169x = m33692a((Object) activity);
         this.f43170y = rjo;
@@ -873,7 +873,7 @@ public class rjx implements rkc, izm, alhr, artq {
 
     /* renamed from: a */
     public final aucb mo24698a(rob rob) {
-        sdo.m34966a(rob, "Listener key cannot be null.");
+        sdo.checkIfNull(rob, "Listener key cannot be null.");
         rnm rnm = this.f43166E;
         aucf aucf = new aucf();
         rkw rkw = new rkw(rob, aucf);
@@ -887,8 +887,8 @@ public class rjx implements rkc, izm, alhr, artq {
     public final aucb mo24699a(roh roh, rpf rpf) {
         sdo.m34959a(roh);
         sdo.m34959a(rpf);
-        sdo.m34966a(roh.mo24969a(), "Listener has already been released.");
-        sdo.m34966a(rpf.f43482b, "Listener has already been released.");
+        sdo.checkIfNull(roh.mo24969a(), "Listener has already been released.");
+        sdo.checkIfNull(rpf.f43482b, "Listener has already been released.");
         sdo.m34975b(roh.mo24969a().equals(rpf.f43482b), "Listener registration and unregistration methods must be constructed with the same ListenerHolder.");
         return this.f43166E.mo24945a(this, roh, rpf, rju.f43156a);
     }
@@ -896,8 +896,8 @@ public class rjx implements rkc, izm, alhr, artq {
     /* renamed from: a */
     public final aucb mo24700a(ron ron) {
         sdo.m34959a(ron);
-        sdo.m34966a(ron.f43448a.mo24969a(), "Listener has already been released.");
-        sdo.m34966a(ron.f43449b.f43482b, "Listener has already been released.");
+        sdo.checkIfNull(ron.f43448a.mo24969a(), "Listener has already been released.");
+        sdo.checkIfNull(ron.f43449b.f43482b, "Listener has already been released.");
         return this.f43166E.mo24945a(this, ron.f43448a, ron.f43449b, ron.f43450c);
     }
 
@@ -1038,7 +1038,7 @@ public class rjx implements rkc, izm, alhr, artq {
     public final void mo24720a(asin asin) {
         rod a = mo24714a(asin, "tapAndPayDataChangedListener");
         rob rob = a.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         mo24699a(new asiq(a, a), new asir(rob));
     }
 

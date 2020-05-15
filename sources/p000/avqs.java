@@ -14,7 +14,7 @@ public final /* synthetic */ class avqs implements bmxz {
 
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
-        sek sek = SystemUpdateChimeraActivity.f109513a;
+        Logger Logger = SystemUpdateChimeraActivity.f109513a;
         return ((Message) obj).what == 3;
     }
 }

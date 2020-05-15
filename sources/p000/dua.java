@@ -79,7 +79,7 @@ public final class dua {
                     dwj a2 = dwj.m9630a();
                     String str = bxby.f162755b;
                     String str2 = bxby.f162756c;
-                    byte[] k = bxby.f162757d.mo73780k();
+                    byte[] k = bxby.f162757d.getKey();
                     bxvd da2 = bxdf.f163018j.mo74144da();
                     if (da2.f164950c) {
                         da2.mo74035c();
@@ -109,7 +109,7 @@ public final class dua {
                         bxdf4.f163025f = str2;
                     }
                     if (k != null && k.length > 0) {
-                        bxtx a3 = bxtx.m123261a(k);
+                        ByteString a3 = ByteString.m123261a(k);
                         if (da2.f164950c) {
                             da2.mo74035c();
                             da2.f164950c = false;

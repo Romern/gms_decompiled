@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qml */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qml extends bxvk implements bxxd {
+public final class qml extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final qml f41710b;
@@ -16,7 +16,7 @@ public final class qml extends bxvk implements bxxd {
     static {
         qml qml = new qml();
         f41710b = qml;
-        bxvk.m124024a(qml.class, qml);
+        GeneratedMessageLite.m124024a(qml.class, qml);
     }
 
     private qml() {
@@ -33,7 +33,7 @@ public final class qml extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f41710b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", qmk.class});
+            return GeneratedMessageLite.m124022a(f41710b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", qmk.class});
         } else if (i2 == 3) {
             return new qml();
         } else {

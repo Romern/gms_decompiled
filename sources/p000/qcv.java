@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qcv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qcv extends bxvk implements bxxd {
+public final class qcv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final qcv f40941d;
@@ -25,7 +25,7 @@ public final class qcv extends bxvk implements bxxd {
     static {
         qcv qcv = new qcv();
         f40941d = qcv;
-        bxvk.m124024a(qcv.class, qcv);
+        GeneratedMessageLite.m124024a(qcv.class, qcv);
     }
 
     private qcv() {
@@ -46,7 +46,7 @@ public final class qcv extends bxvk implements bxxd {
             this.f40946e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f40941d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0001\u0001ဉ\u0000\u0002Л", new Object[]{"a", "b", "c", bpsu.class});
+            return GeneratedMessageLite.m124022a(f40941d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0001\u0001ဉ\u0000\u0002Л", new Object[]{"a", "b", "c", bpsu.class});
         } else if (i2 == 3) {
             return new qcv();
         } else {

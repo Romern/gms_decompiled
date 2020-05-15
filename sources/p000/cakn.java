@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cakn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cakn extends bxvk implements bxxd {
+public final class cakn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cakn f175021b;
@@ -19,7 +19,7 @@ public final class cakn extends bxvk implements bxxd {
     static {
         cakn cakn = new cakn();
         f175021b = cakn;
-        bxvk.m124024a(cakn.class, cakn);
+        GeneratedMessageLite.m124024a(cakn.class, cakn);
     }
 
     private cakn() {
@@ -37,7 +37,7 @@ public final class cakn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175021b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f175021b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new cakn();
         } else {

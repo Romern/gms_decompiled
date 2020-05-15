@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adiv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adiv extends bxvk implements bxxd {
+public final class adiv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final adiv f61845c;
@@ -19,7 +19,7 @@ public final class adiv extends bxvk implements bxxd {
     static {
         adiv adiv = new adiv();
         f61845c = adiv;
-        bxvk.m124024a(adiv.class, adiv);
+        GeneratedMessageLite.m124024a(adiv.class, adiv);
     }
 
     private adiv() {
@@ -36,7 +36,7 @@ public final class adiv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61845c, "\u0000\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001?\u0000\u0002Ȼ\u0000", new Object[]{"b", "a"});
+            return GeneratedMessageLite.m124022a(f61845c, "\u0000\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001?\u0000\u0002Ȼ\u0000", new Object[]{"b", "a"});
         } else if (i2 == 3) {
             return new adiv();
         } else {

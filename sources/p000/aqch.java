@@ -17,7 +17,7 @@ public final class aqch extends bxvd implements bxxd {
         aqci aqci2 = aqci.f85653e;
         aqcf.getClass();
         if (!aqci.f85658d.mo73666a()) {
-            aqci.f85658d = bxvk.m124019a(aqci.f85658d);
+            aqci.f85658d = GeneratedMessageLite.m124019a(aqci.f85658d);
         }
         aqci.f85658d.mo74153d(aqcf.f85648d);
     }

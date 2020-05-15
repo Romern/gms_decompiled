@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btis */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btis extends bxvk implements bxxd {
+public final class btis extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final btis f149029f;
@@ -20,7 +20,7 @@ public final class btis extends bxvk implements bxxd {
     public long f149033c;
 
     /* renamed from: d */
-    public bxtx f149034d = bxtx.f164797b;
+    public ByteString f149034d = ByteString.f164797b;
 
     /* renamed from: e */
     public btio f149035e;
@@ -28,7 +28,7 @@ public final class btis extends bxvk implements bxxd {
     static {
         btis btis = new btis();
         f149029f = btis;
-        bxvk.m124024a(btis.class, btis);
+        GeneratedMessageLite.m124024a(btis.class, btis);
     }
 
     private btis() {
@@ -45,7 +45,7 @@ public final class btis extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149029f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\t\u0002\t\u0003\n\u0004\u0002\u0005\t", new Object[]{"a", "b", "d", "c", "e"});
+            return GeneratedMessageLite.m124022a(f149029f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\t\u0002\t\u0003\n\u0004\u0002\u0005\t", new Object[]{"a", "b", "d", "c", "e"});
         } else if (i2 == 3) {
             return new btis();
         } else {

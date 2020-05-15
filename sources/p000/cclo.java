@@ -23,7 +23,7 @@ public final class cclo implements cclm {
     static {
         bdyw bdyw = new bdyw(bdyj.m91581a("com.google.android.gms.backup"));
         try {
-            f179362a = bdyx.m91608a(bdyw, "EagerBackupV24__backup_now_allowed_calling_packages", (bydj) bxvk.m124014a(bydj.f165795b, new byte[]{10, 22, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 10, 41, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 97, 112, 112, 115, 46, 115, 117, 98, 115, 99, 114, 105, 112, 116, 105, 111, 110, 115, 46, 114, 101, 100}), ccln.f179361a);
+            f179362a = bdyx.m91608a(bdyw, "EagerBackupV24__backup_now_allowed_calling_packages", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[]{10, 22, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 10, 41, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 97, 112, 112, 115, 46, 115, 117, 98, 115, 99, 114, 105, 112, 116, 105, 111, 110, 115, 46, 114, 101, 100}), ccln.f179361a);
             f179363b = bdyx.m91610a(bdyw, "EagerBackupV24__backup_now_enable_whitelisted_1p", true);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"EagerBackupV24__backup_now_allowed_calling_packages\"");

@@ -32,7 +32,7 @@ public final class qrm extends qrj {
             if (qui == null) {
                 qui = qui.f42142d;
             }
-            return (qun) bxvk.m124016a(qun.f42164n, qqy.mo24213a(qui), bxus.m123744c());
+            return (qun) GeneratedMessageLite.m124016a(qun.f42164n, qqy.mo24213a(qui), bxus.m123744c());
         } catch (bxwf e) {
             throw new qrp(769, "Invalid proto bytes.", e);
         } catch (qqx e2) {
@@ -45,7 +45,7 @@ public final class qrm extends qrj {
     public final /* bridge */ /* synthetic */ bxxc mo24223c(bxxc bxxc) {
         qun qun = (qun) bxxc;
         bxvd bxvd = (bxvd) qun.mo74142c(5);
-        bxvd.mo73625a((bxvk) qun);
+        bxvd.mo73625a((GeneratedMessageLite) qun);
         Uri parse = Uri.parse(((qun) bxvd.f164949b).f42168c);
         String a = qqt.m32667a(((qun) bxvd.f164949b).f42168c);
         if (bxvd.f164950c) {
@@ -77,7 +77,7 @@ public final class qrm extends qrj {
         if (qqt.m32668b(qun.f42168c)) {
             URI create = URI.create(qun.f42168c);
             bxvd bxvd = (bxvd) qun.mo74142c(5);
-            bxvd.mo73625a((bxvk) qun);
+            bxvd.mo73625a((GeneratedMessageLite) qun);
             String scheme = create.getScheme();
             String authority = create.getAuthority();
             StringBuilder sb = new StringBuilder(String.valueOf(scheme).length() + 3 + String.valueOf(authority).length());
@@ -111,7 +111,7 @@ public final class qrm extends qrj {
             qun4.f42167b = sb4;
             hashSet.add(m32722a((qun) bxvd.mo74062i()));
             bxvd bxvd2 = (bxvd) qun.mo74142c(5);
-            bxvd2.mo73625a((bxvk) qun);
+            bxvd2.mo73625a((GeneratedMessageLite) qun);
             String scheme3 = create.getScheme();
             String authority3 = create.getAuthority();
             StringBuilder sb5 = new StringBuilder(String.valueOf(scheme3).length() + 4 + String.valueOf(authority3).length());
@@ -145,7 +145,7 @@ public final class qrm extends qrj {
             qun6.f42167b = sb8;
             hashSet.add(m32722a((qun) bxvd2.mo74062i()));
             bxvd bxvd3 = (bxvd) qun.mo74142c(5);
-            bxvd3.mo73625a((bxvk) qun);
+            bxvd3.mo73625a((GeneratedMessageLite) qun);
             String scheme5 = create.getScheme();
             String authority5 = create.getAuthority();
             StringBuilder sb9 = new StringBuilder(String.valueOf(scheme5).length() + 3 + String.valueOf(authority5).length());
@@ -251,7 +251,7 @@ public final class qrm extends qrj {
         bsub.getClass();
         bsua.f147100e = bsub;
         try {
-            qui a2 = ((qqy) bmxv.mo66814b()).mo24212a(qun.mo73642k());
+            qui a2 = ((qqy) bmxv.mo66814b()).mo24212a(qun.serializeToBytes());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

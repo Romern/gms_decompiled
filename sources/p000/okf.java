@@ -133,7 +133,7 @@ public final class okf extends oik {
     /* renamed from: a */
     public final void mo22085a(int i, ByteBuffer byteBuffer) {
         if (i == 32776) {
-            biwj biwj = (biwj) bxvk.m124013a(biwj.f122103c, byteBuffer, bxus.m123744c());
+            biwj biwj = (biwj) GeneratedMessageLite.m124013a(biwj.f122103c, byteBuffer, bxus.m123744c());
             if (this.f37847i == null) {
                 this.f37848j = biwj;
             } else {

@@ -96,7 +96,7 @@ public final class ahsi extends buqb {
                     bywl bywl4 = bywl.f168591u;
                     a.getClass();
                     if (!bywl3.f168597e.mo73666a()) {
-                        bywl3.f168597e = bxvk.m124021a(bywl3.f168597e);
+                        bywl3.f168597e = GeneratedMessageLite.m124021a(bywl3.f168597e);
                     }
                     bywl3.f168597e.add(a);
                 }
@@ -149,13 +149,13 @@ public final class ahsi extends buqb {
         bywl10.f168593a |= 2048;
         bywl bywl11 = (bywl) b.mo74062i();
         bxvd bxvd = (bxvd) bywl11.mo74142c(5);
-        bxvd.mo73625a((bxvk) bywl11);
+        bxvd.mo73625a((GeneratedMessageLite) bywl11);
         if (list != null && !list.isEmpty()) {
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
-            ((bywl) bxvd.f164949b).f168596d = bxvk.m124030de();
+            ((bywl) bxvd.f164949b).f168596d = GeneratedMessageLite.m124030de();
             for (int i4 = 0; i4 < list.size(); i4++) {
                 byvp a4 = mo37010a((ahsu) list.get(i4));
                 if (bxvd.f164950c) {
@@ -165,7 +165,7 @@ public final class ahsi extends buqb {
                 bywl bywl12 = (bywl) bxvd.f164949b;
                 a4.getClass();
                 if (!bywl12.f168596d.mo73666a()) {
-                    bywl12.f168596d = bxvk.m124021a(bywl12.f168596d);
+                    bywl12.f168596d = GeneratedMessageLite.m124021a(bywl12.f168596d);
                 }
                 bywl12.f168596d.add(a4);
             }
@@ -693,7 +693,7 @@ public final class ahsi extends buqb {
         }
         byvm a = buqb.m120220a((String) null, (String) null, 9);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

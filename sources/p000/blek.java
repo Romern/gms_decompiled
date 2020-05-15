@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blek */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blek extends bxvk implements bxxd {
+public final class blek extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final blek f126216e;
@@ -25,7 +25,7 @@ public final class blek extends bxvk implements bxxd {
     static {
         blek blek = new blek();
         f126216e = blek;
-        bxvk.m124024a(blek.class, blek);
+        GeneratedMessageLite.m124024a(blek.class, blek);
     }
 
     private blek() {
@@ -42,7 +42,7 @@ public final class blek extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f126216e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", blei.f126215a});
+            return GeneratedMessageLite.m124022a(f126216e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", blei.f126215a});
         } else if (i2 == 3) {
             return new blek();
         } else {

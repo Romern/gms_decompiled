@@ -10,7 +10,7 @@ import java.util.UUID;
 public final class xuv extends aaab {
 
     /* renamed from: b */
-    public static final sek f53189b = new sek(new String[]{"RegisterZeroPartyOperation"}, (short[]) null);
+    public static final Logger f53189b = new Logger(new String[]{"RegisterZeroPartyOperation"}, (short[]) null);
 
     /* renamed from: a */
     public final xok f53190a;

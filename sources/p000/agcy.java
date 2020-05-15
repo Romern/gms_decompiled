@@ -120,7 +120,7 @@ final class agcy {
                     }
                     agnp agnp2 = (agnp) da4.f164949b;
                     if (!agnp2.f66144c.mo73666a()) {
-                        agnp2.f66144c = bxvk.m124020a(agnp2.f66144c);
+                        agnp2.f66144c = GeneratedMessageLite.m124020a(agnp2.f66144c);
                     }
                     bxsy.m123078a(list2, agnp2.f66144c);
                 }

@@ -17,7 +17,7 @@ public final class blwr extends bxvd implements bxxd {
         bxvu bxvu = blxa.f127988L;
         blwt.getClass();
         if (!blxa.f128005P.mo73666a()) {
-            blxa.f128005P = bxvk.m124019a(blxa.f128005P);
+            blxa.f128005P = GeneratedMessageLite.m124019a(blxa.f128005P);
         }
         blxa.f128005P.mo74153d(blwt.f127975d);
     }
@@ -32,7 +32,7 @@ public final class blwr extends bxvd implements bxxd {
         bxvu bxvu = blxa.f127988L;
         blwy.getClass();
         if (!blxa.f128030x.mo73666a()) {
-            blxa.f128030x = bxvk.m124019a(blxa.f128030x);
+            blxa.f128030x = GeneratedMessageLite.m124019a(blxa.f128030x);
         }
         blxa.f128030x.mo74153d(blwy.f127986g);
     }

@@ -83,7 +83,7 @@ public final class awgp {
             summaryExpanderWrapper.f152311g = bkfk;
             if (!((Boolean) awim.f94475a.mo58455c()).booleanValue()) {
                 bxvd bxvd = (bxvd) bmlv.mo74142c(5);
-                bxvd.mo73625a((bxvk) bmlv);
+                bxvd.mo73625a((GeneratedMessageLite) bmlv);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

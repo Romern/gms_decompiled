@@ -16,7 +16,7 @@ public final class btfh extends bxvd implements bxxd {
         btfi btfi = (btfi) this.f164949b;
         btfi btfi2 = btfi.f148652E;
         if (!btfi.f148661d.mo73666a()) {
-            btfi.f148661d = bxvk.m124021a(btfi.f148661d);
+            btfi.f148661d = GeneratedMessageLite.m124021a(btfi.f148661d);
         }
         bxsy.m123078a(iterable, btfi.f148661d);
     }
@@ -30,7 +30,7 @@ public final class btfh extends bxvd implements bxxd {
         btfi btfi = (btfi) this.f164949b;
         btfi btfi2 = btfi.f148652E;
         if (!btfi.f148656C.mo73666a()) {
-            btfi.f148656C = bxvk.m124020a(btfi.f148656C);
+            btfi.f148656C = GeneratedMessageLite.m124020a(btfi.f148656C);
         }
         bxsy.m123078a(iterable, btfi.f148656C);
     }
@@ -44,7 +44,7 @@ public final class btfh extends bxvd implements bxxd {
         btfi btfi = (btfi) this.f164949b;
         btfi btfi2 = btfi.f148652E;
         if (!btfi.f148679v.mo73666a()) {
-            btfi.f148679v = bxvk.m124021a(btfi.f148679v);
+            btfi.f148679v = GeneratedMessageLite.m124021a(btfi.f148679v);
         }
         bxsy.m123078a(iterable, btfi.f148679v);
     }
@@ -58,7 +58,7 @@ public final class btfh extends bxvd implements bxxd {
         btfi btfi = (btfi) this.f164949b;
         btfi btfi2 = btfi.f148652E;
         if (!btfi.f148662e.mo73666a()) {
-            btfi.f148662e = bxvk.m124021a(btfi.f148662e);
+            btfi.f148662e = GeneratedMessageLite.m124021a(btfi.f148662e);
         }
         bxsy.m123078a(iterable, btfi.f148662e);
     }
@@ -72,7 +72,7 @@ public final class btfh extends bxvd implements bxxd {
         btfi btfi = (btfi) this.f164949b;
         btfi btfi2 = btfi.f148652E;
         if (!btfi.f148663f.mo73666a()) {
-            btfi.f148663f = bxvk.m124021a(btfi.f148663f);
+            btfi.f148663f = GeneratedMessageLite.m124021a(btfi.f148663f);
         }
         bxsy.m123078a(iterable, btfi.f148663f);
     }
@@ -86,7 +86,7 @@ public final class btfh extends bxvd implements bxxd {
         btfi btfi = (btfi) this.f164949b;
         btfi btfi2 = btfi.f148652E;
         if (!btfi.f148680w.mo73666a()) {
-            btfi.f148680w = bxvk.m124021a(btfi.f148680w);
+            btfi.f148680w = GeneratedMessageLite.m124021a(btfi.f148680w);
         }
         bxsy.m123078a(iterable, btfi.f148680w);
     }
@@ -100,7 +100,7 @@ public final class btfh extends bxvd implements bxxd {
         btfi btfi = (btfi) this.f164949b;
         btfi btfi2 = btfi.f148652E;
         if (!btfi.f148677t.mo73666a()) {
-            btfi.f148677t = bxvk.m124021a(btfi.f148677t);
+            btfi.f148677t = GeneratedMessageLite.m124021a(btfi.f148677t);
         }
         bxsy.m123078a(iterable, btfi.f148677t);
     }

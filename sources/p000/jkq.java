@@ -11,7 +11,7 @@ import java.util.List;
 public final class jkq {
 
     /* renamed from: a */
-    private static final sek f22716a = jsy.m17256a("DeviceConverter");
+    private static final Logger f22716a = jsy.m17256a("DeviceConverter");
 
     /* renamed from: a */
     public static SyncedCryptauthDevice m16849a(DeviceMetadata deviceMetadata) {
@@ -41,8 +41,8 @@ public final class jkq {
         byte[] bArr = deviceMetadata.f10526c;
         if (bArr != null) {
             try {
-                jtp jtp = (jtp) bxvk.m124014a(jtp.f23191d, bArr);
-                jqx.f23091a = jtp.f23193a.mo73780k();
+                jtp jtp = (jtp) GeneratedMessageLite.m124014a(jtp.f23191d, bArr);
+                jqx.f23091a = jtp.f23193a.getKey();
                 jqx.mo14007a(jij.m16760b(jtp.f23195c));
             } catch (bxwf e) {
                 f22716a.mo25415d("Invalid device metadata", e, new Object[0]);

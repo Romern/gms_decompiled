@@ -18,7 +18,7 @@ final class lwl extends bzsu {
 
     /* renamed from: a */
     public final void mo19707a(bzsq bzsq) {
-        lwm.f33118a.mo25409a("Progress: uploaded %d bytes", Long.valueOf(bzsq.mo74571d()));
+        lwm.f33118a.logVerbose("Progress: uploaded %d bytes", Long.valueOf(bzsq.mo74571d()));
     }
 
     /* renamed from: a */

@@ -28,7 +28,7 @@ public final class jxr extends jwx implements LoaderManager.LoaderCallbacks, jxs
     public static final imr f23472f = imr.m15727a("cookies");
 
     /* renamed from: h */
-    private static final sek f23473h = ght.m13171a("BrowserConsentFragment");
+    private static final Logger f23473h = ght.m13171a("BrowserConsentFragment");
 
     /* renamed from: g */
     public jxq f23474g;
@@ -84,9 +84,9 @@ public final class jxr extends jwx implements LoaderManager.LoaderCallbacks, jxs
             } else {
                 String a2 = ghx.m13173a(browserResolutionCookie.f9921c, Boolean.valueOf(browserResolutionCookie.f9924f));
                 String a3 = ghx.m13174a(browserResolutionCookie.f9919a, browserResolutionCookie.f9920b, browserResolutionCookie.f9921c, browserResolutionCookie.f9922d, Boolean.valueOf(browserResolutionCookie.f9925g), Boolean.valueOf(browserResolutionCookie.f9924f), Long.valueOf(browserResolutionCookie.f9923e));
-                sek sek = f23473h;
+                Logger Logger = f23473h;
                 String valueOf = String.valueOf(a2);
-                sek.mo25412b(valueOf.length() == 0 ? new String("Setting browser resolution cookie for url: ") : "Setting browser resolution cookie for url: ".concat(valueOf), new Object[0]);
+                Logger.mo25412b(valueOf.length() == 0 ? new String("Setting browser resolution cookie for url: ") : "Setting browser resolution cookie for url: ".concat(valueOf), new Object[0]);
                 instance.setCookie(a2, a3);
             }
         }
@@ -136,24 +136,24 @@ public final class jxr extends jwx implements LoaderManager.LoaderCallbacks, jxs
     public final /* bridge */ /* synthetic */ void onLoadFinished(Loader loader, Object obj) {
         CustomWebView customWebView;
         if (((Boolean) obj).booleanValue()) {
-            sek sek = f23473h;
+            Logger Logger = f23473h;
             String valueOf = String.valueOf(this.f23478l);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 33);
             sb.append("Updated credentials for account: ");
             sb.append(valueOf);
-            sek.mo25414c(sb.toString(), new Object[0]);
+            Logger.mo25414c(sb.toString(), new Object[0]);
             if (gnv.m13512V() && (customWebView = this.f23425c) != null) {
                 m17478b(customWebView, this.f23479m);
             }
             mo14197a(this.f23479m);
             return;
         }
-        sek sek2 = f23473h;
+        Logger logger2 = f23473h;
         String valueOf2 = String.valueOf(this.f23478l);
         StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf2).length() + 39);
         sb2.append("Failed to get login token for account: ");
         sb2.append(valueOf2);
-        sek2.mo25416d(sb2.toString(), new Object[0]);
+        logger2.mo25416d(sb2.toString(), new Object[0]);
         this.f23474g.mo7860c();
     }
 

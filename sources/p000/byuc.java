@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byuc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byuc extends bxvk implements bxxd {
+public final class byuc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byuc f167758c;
@@ -19,7 +19,7 @@ public final class byuc extends bxvk implements bxxd {
     static {
         byuc byuc = new byuc();
         f167758c = byuc;
-        bxvk.m124024a(byuc.class, byuc);
+        GeneratedMessageLite.m124024a(byuc.class, byuc);
     }
 
     private byuc() {
@@ -36,7 +36,7 @@ public final class byuc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167758c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u001b", new Object[]{"a", byts.class, "b", byty.class});
+            return GeneratedMessageLite.m124022a(f167758c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u001b", new Object[]{"a", byts.class, "b", byty.class});
         } else if (i2 == 3) {
             return new byuc();
         } else {

@@ -56,14 +56,14 @@ final /* synthetic */ class bbat implements bqeh {
                 }
                 if (j > bavn3.f101900d) {
                     bxvd bxvd = (bxvd) bavd.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bavd);
+                    bxvd.mo73625a((GeneratedMessageLite) bavd);
                     bavc bavc = (bavc) bxvd;
                     bavn bavn4 = bavd.f101879i;
                     if (bavn4 == null) {
                         bavn4 = bavn.f101895f;
                     }
                     bxvd bxvd2 = (bxvd) bavn4.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) bavn4);
+                    bxvd2.mo73625a((GeneratedMessageLite) bavn4);
                     if (bxvd2.f164950c) {
                         bxvd2.mo74035c();
                         bxvd2.f164950c = false;

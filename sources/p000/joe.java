@@ -50,9 +50,9 @@ public final class joe extends aaab {
             Role role = this.f22928c;
             jsm jsm = this.f22929d;
             FirstPartyDeviceRegistrationChimeraService firstPartyDeviceRegistrationChimeraService = a.f22969a;
-            sek sek = FirstPartyDeviceRegistrationChimeraService.f11168a;
+            Logger Logger = FirstPartyDeviceRegistrationChimeraService.f11168a;
             String valueOf = String.valueOf(role.f11146b);
-            sek.mo25412b(valueOf.length() == 0 ? new String("Adding callback for ") : "Adding callback for ".concat(valueOf), new Object[0]);
+            Logger.mo25412b(valueOf.length() == 0 ? new String("Adding callback for ") : "Adding callback for ".concat(valueOf), new Object[0]);
             if (firstPartyDeviceRegistrationChimeraService.f11169b.f22991b.mo13908b(str2, role.mo7789a())) {
                 synchronized (firstPartyDeviceRegistrationChimeraService.f11170c) {
                     joh joh = firstPartyDeviceRegistrationChimeraService.f11171d;

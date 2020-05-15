@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvsg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvsg extends bxvk implements bxxd {
+public final class bvsg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvsg f157486a;
@@ -13,7 +13,7 @@ public final class bvsg extends bxvk implements bxxd {
     static {
         bvsg bvsg = new bvsg();
         f157486a = bvsg;
-        bxvk.m124024a(bvsg.class, bvsg);
+        GeneratedMessageLite.m124024a(bvsg.class, bvsg);
     }
 
     private bvsg() {
@@ -30,7 +30,7 @@ public final class bvsg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157486a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f157486a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvsg();

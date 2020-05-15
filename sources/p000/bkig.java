@@ -130,7 +130,7 @@ public class bkig extends bkdx {
         int i2 = bmdk.f128819a | 1;
         bmdk.f128819a = i2;
         bmdk.f128820b = str2;
-        bxtx bxtx = r.f128836d;
+        ByteString bxtx = r.f128836d;
         bxtx.getClass();
         bmdk.f128819a = i2 | 2;
         bmdk.f128821c = bxtx;

@@ -17,7 +17,7 @@ public final class bavc extends bxvd implements bxxd {
         bavd bavd2 = bavd.f101869m;
         bauy.getClass();
         if (!bavd.f101880j.mo73666a()) {
-            bavd.f101880j = bxvk.m124021a(bavd.f101880j);
+            bavd.f101880j = GeneratedMessageLite.m124021a(bavd.f101880j);
         }
         bavd.f101880j.add(bauy);
     }

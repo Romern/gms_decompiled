@@ -135,7 +135,7 @@ public class apmq extends aplq {
             } else {
                 String string2 = ((Bundle) this.f84708n).getString("output_folder_for_dump", "");
                 if (!string2.isEmpty()) {
-                    if (!NativeIndex.nativeCopyIndexToDirectory(this.f84734a.f58078n.f79071b, string2, abzu.m48730a().mo73642k())) {
+                    if (!NativeIndex.nativeCopyIndexToDirectory(this.f84734a.f58078n.f79071b, string2, abzu.m48730a().serializeToBytes())) {
                         String valueOf = String.valueOf(string2);
                         bundle.putString("debug", valueOf.length() == 0 ? new String("Failed copying over index to: ") : "Failed copying over index to: ".concat(valueOf));
                         str = null;
@@ -246,7 +246,7 @@ public class apmq extends aplq {
             if (b2 != null) {
                 int i2 = ((Bundle) this.f84708n).getInt("query_record_index");
                 try {
-                    bundle.putByteArray("query_record", ((abtt) b2.get(i2)).mo73642k());
+                    bundle.putByteArray("query_record", ((abtt) b2.get(i2)).serializeToBytes());
                 } catch (IndexOutOfBoundsException e2) {
                     StringBuilder sb = new StringBuilder(38);
                     sb.append("Record not found for index ");

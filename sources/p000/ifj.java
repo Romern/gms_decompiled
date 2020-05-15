@@ -23,7 +23,7 @@ public final class ifj {
     /* renamed from: a */
     public static final ifi m15367a(Context context, byte[] bArr, byte[] bArr2) {
         PlainText plainText = (PlainText) m15368a(inl.m15759a(context).mo24701a((rpa) new ior("authzen", bArr2, new Payload(null, null, bArr))));
-        int a = byrx.m125235a(((byrv) bxvk.m124007a(byrv.f167517d, ((bytc) bxvk.m124014a(bytc.f167647i, plainText.f10550b)).f167655g)).f167520b);
+        int a = byrx.m125235a(((byrv) GeneratedMessageLite.m124007a(byrv.f167517d, ((bytc) GeneratedMessageLite.m124014a(bytc.f167647i, plainText.f10550b)).f167655g)).f167520b);
         if (a == 0) {
             a = 1;
         }
@@ -51,7 +51,7 @@ public final class ifj {
             byrv.f167520b = i2;
             byrv.f167519a |= 1;
             byrv.m125232a(byrv);
-            return ((SignCryptedBlob) m15368a(a.mo13184a("PublicKey", "authzen", account, new Payload(null, ((byrv) da.mo74062i()).mo73642k(), bArr)))).f10555c;
+            return ((SignCryptedBlob) m15368a(a.mo13184a("PublicKey", "authzen", account, new Payload(null, ((byrv) da.mo74062i()).serializeToBytes(), bArr)))).f10555c;
         }
         throw null;
     }

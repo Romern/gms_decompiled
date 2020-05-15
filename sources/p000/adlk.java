@@ -41,7 +41,7 @@ public final class adlk extends sji {
             adli.mo33632a();
             byte[] a = adli.f62108d.mo33514a(str.getBytes(adli.f62106b));
             if (a != null) {
-                adii adii = (adii) bxvk.m124016a(adii.f61801b, a, bxus.m123743b());
+                adii adii = (adii) GeneratedMessageLite.m124016a(adii.f61801b, a, bxus.m123743b());
                 Signature[] signatureArr = adli.f62107c.getPackageInfo(str, 64).signatures;
                 for (byte[] bArr : bxzj.f165164a.mo66860a((Iterable) adii.f61803a)) {
                     int length = signatureArr.length;

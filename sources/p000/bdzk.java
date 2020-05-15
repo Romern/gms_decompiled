@@ -47,7 +47,7 @@ final /* synthetic */ class bdzk implements bmzi {
         StrictMode.ThreadPolicy allowThreadDiskReads = StrictMode.allowThreadDiskReads();
         try {
             FileInputStream fileInputStream = new FileInputStream(bdzo.mo58467b());
-            beaf = (beaf) bxvk.m124010a(beaf.f106724g, fileInputStream);
+            beaf = (beaf) GeneratedMessageLite.m124010a(beaf.f106724g, fileInputStream);
             fileInputStream.close();
         } catch (IOException e) {
         } catch (Throwable th) {

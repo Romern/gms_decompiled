@@ -105,7 +105,7 @@ public final class auai {
                     bundle.putString(str, atzo.f91273e);
                     break;
                 case 6:
-                    bundle.putByteArray(str, atzo.f91274f.mo73780k());
+                    bundle.putByteArray(str, atzo.f91274f.getKey());
                     break;
                 case 7:
                     atyp atyp2 = atzo.f91275g;
@@ -213,9 +213,9 @@ public final class auai {
     }
 
     /* renamed from: b */
-    private static bxtx m76652b(byte[] bArr) {
+    private static ByteString m76652b(byte[] bArr) {
         if (bArr != null) {
-            return bxtx.m123261a(bArr);
+            return ByteString.m123261a(bArr);
         }
         return null;
     }
@@ -238,7 +238,7 @@ public final class auai {
     /* renamed from: a */
     public static Bundle m76641a(byte[] bArr) {
         try {
-            return m76639a((atyp) bxvk.m124016a(atyp.f91140b, bArr, bxus.m123744c()));
+            return m76639a((atyp) GeneratedMessageLite.m124016a(atyp.f91140b, bArr, bxus.m123744c()));
         } catch (bxwf e) {
             throw new RuntimeException(e);
         }
@@ -297,7 +297,7 @@ public final class auai {
             str2.getClass();
             ((atyr) da.f164949b).f91152a = str2;
         }
-        bxtx b = m76652b(cardInfo.f108341b);
+        ByteString b = m76652b(cardInfo.f108341b);
         if (b != null) {
             if (da.f164950c) {
                 da.mo74035c();
@@ -567,7 +567,7 @@ public final class auai {
             str25.getClass();
             ((atyr) da.f164949b).f91165n = str25;
         }
-        bxtx b5 = m76652b(cardInfo.f108354o);
+        ByteString b5 = m76652b(cardInfo.f108354o);
         if (b5 != null) {
             if (da.f164950c) {
                 da.mo74035c();
@@ -602,7 +602,7 @@ public final class auai {
                 }
                 byte[] bArr = badgeInfo.f108328b;
                 if (bArr != null) {
-                    bxtx a3 = bxtx.m123261a(bArr);
+                    ByteString a3 = ByteString.m123261a(bArr);
                     if (da3.f164950c) {
                         da3.mo74035c();
                         da3.f164950c = false;
@@ -655,7 +655,7 @@ public final class auai {
         }
         atyr atyr3 = (atyr) da.f164949b;
         if (!atyr3.f91169r.mo73666a()) {
-            atyr3.f91169r = bxvk.m124021a(atyr3.f91169r);
+            atyr3.f91169r = GeneratedMessageLite.m124021a(atyr3.f91169r);
         }
         bxsy.m123078a(arrayList, atyr3.f91169r);
         boolean z = cardInfo.f108364y;
@@ -814,7 +814,7 @@ public final class auai {
                     da.f164950c = false;
                 }
                 ((atzo) da.f164949b).f91269a = atzn6.mo3214a();
-                bxtx a = bxtx.m123261a((byte[]) obj);
+                ByteString a = ByteString.m123261a((byte[]) obj);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -849,7 +849,7 @@ public final class auai {
                 }
                 atzo atzo = (atzo) da.f164949b;
                 if (!atzo.f91277i.mo73666a()) {
-                    atzo.f91277i = bxvk.m124021a(atzo.f91277i);
+                    atzo.f91277i = GeneratedMessageLite.m124021a(atzo.f91277i);
                 }
                 bxsy.m123078a(a3, atzo.f91277i);
             } else {
@@ -1097,7 +1097,7 @@ public final class auai {
                             }
                             atzo atzo2 = (atzo) da.f164949b;
                             if (!atzo2.f91282n.mo73666a()) {
-                                atzo2.f91282n = bxvk.m124021a(atzo2.f91282n);
+                                atzo2.f91282n = GeneratedMessageLite.m124021a(atzo2.f91282n);
                             }
                             bxsy.m123078a(a7, atzo2.f91282n);
                         }
@@ -1260,14 +1260,14 @@ public final class auai {
                 bundle.remove("data");
             }
         }
-        return m76651b(bundle).mo73642k();
+        return m76651b(bundle).serializeToBytes();
     }
 
     /* renamed from: a */
-    private static byte[] m76650a(bxtx bxtx) {
+    private static byte[] m76650a(ByteString bxtx) {
         if (bxtx == null || bxtx.mo73779j()) {
             return null;
         }
-        return bxtx.mo73780k();
+        return bxtx.getKey();
     }
 }

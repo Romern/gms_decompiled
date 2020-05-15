@@ -113,7 +113,7 @@ final class aixq extends buqn {
             if (buzq == null) {
                 buzq = buzq.f155418c;
             }
-            ahfv a5 = aiyu.m58240a(nek.m26028a(buzq.f155421b.mo73780k()));
+            ahfv a5 = aiyu.m58240a(nek.m26028a(buzq.f155421b.getKey()));
             if (a5 != null) {
                 ajgp.mo38311a(a5, aixs.m58132a(bzbu.BLE_ADVERTISING_PACKET, a5));
             }
@@ -123,12 +123,12 @@ final class aixq extends buqn {
             if (buzu == null) {
                 buzu = buzu.f155430c;
             }
-            String a6 = bvau.m120845a(buzu.f155433b.mo73780k());
+            String a6 = bvau.m120845a(buzu.f155433b.getKey());
             buzq buzq2 = buyw3.f155346b;
             if (buzq2 == null) {
                 buzq2 = buzq.f155418c;
             }
-            aizv a7 = aizv.m58305a(buzq2.f155421b.mo73780k());
+            aizv a7 = aizv.m58305a(buzq2.f155421b.getKey());
             ajai.f70251l.mo72984b();
             ajag ajag4 = (ajag) ajai.f70246g.get(a6);
             if (ajag4 == null) {
@@ -150,7 +150,7 @@ final class aixq extends buqn {
                 if (buzq3 == null) {
                     buzq3 = buzq.f155418c;
                 }
-                nek a8 = nek.m26028a(buzq3.f155421b.mo73780k());
+                nek a8 = nek.m26028a(buzq3.f155421b.getKey());
                 ney a9 = ajai.f70242c.mo20560a(a8);
                 if (ahfo.m55646a(ajai.f70243d) && a9 == null) {
                     a9 = ahfo.m55650b(a8.mo20526a(ahfo.f67117a)) ? ajai.f70240a : null;
@@ -513,7 +513,7 @@ final class aixq extends buqn {
             if (buzu2 == null) {
                 buzu2 = buzu.f155430c;
             }
-            String a17 = bvau.m120845a(buzu2.f155433b.mo73780k());
+            String a17 = bvau.m120845a(buzu2.f155433b.getKey());
             ajai2.f70251l.mo72984b();
             aizz aizz3 = ajai2.f70241b.f70196a;
             aizz3.f70205a.remove(a17);

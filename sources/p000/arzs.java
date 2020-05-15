@@ -12,7 +12,7 @@ final /* synthetic */ class arzs implements DialogInterface.OnClickListener {
     }
 
     public final void onClick(DialogInterface dialogInterface, int i) {
-        sek sek = arzy.f88554a;
+        Logger Logger = arzy.f88554a;
         dialogInterface.dismiss();
     }
 }

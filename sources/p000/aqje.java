@@ -13,7 +13,7 @@ import java.util.zip.CRC32;
 public final class aqje {
 
     /* renamed from: c */
-    private static final sek f86193c = new sek("SetupServices", "AuditedText");
+    private static final Logger f86193c = new Logger("SetupServices", "AuditedText");
 
     /* renamed from: a */
     public final CharSequence f86194a;
@@ -76,7 +76,7 @@ public final class aqje {
         }
         bssa bssa = (bssa) da.f164949b;
         if (!bssa.f146825c.mo73666a()) {
-            bssa.f146825c = bxvk.m124021a(bssa.f146825c);
+            bssa.f146825c = GeneratedMessageLite.m124021a(bssa.f146825c);
         }
         bxsy.m123078a(list, bssa.f146825c);
         try {
@@ -91,13 +91,13 @@ public final class aqje {
             bssa2.f146823a |= 1;
             bssa2.f146824b = value;
         } catch (UnsupportedEncodingException e) {
-            sek sek = f86193c;
+            Logger Logger = f86193c;
             String valueOf = String.valueOf(this.f86194a);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 19);
             sb.append("Unable to decode \"");
             sb.append(valueOf);
             sb.append("\"");
-            sek.mo25417e(sb.toString(), e, new Object[0]);
+            Logger.mo25417e(sb.toString(), e, new Object[0]);
         }
         return (bssa) da.mo74062i();
     }

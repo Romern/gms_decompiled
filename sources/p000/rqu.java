@@ -8,7 +8,7 @@ import javax.net.ssl.SSLSocketFactory;
 final class rqu {
 
     /* renamed from: a */
-    public static final sek f43532a = new sek("Auth", "ReflectiveChannelBinder");
+    public static final Logger f43532a = new Logger("Auth", "ReflectiveChannelBinder");
 
     /* renamed from: b */
     public final SSLSocketFactory f43533b;

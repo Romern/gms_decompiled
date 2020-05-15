@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmly */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmly extends bxvk implements bxxd {
+public final class bmly extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmly f129989c;
@@ -19,7 +19,7 @@ public final class bmly extends bxvk implements bxxd {
     static {
         bmly bmly = new bmly();
         f129989c = bmly;
-        bxvk.m124024a(bmly.class, bmly);
+        GeneratedMessageLite.m124024a(bmly.class, bmly);
     }
 
     private bmly() {
@@ -37,7 +37,7 @@ public final class bmly extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f129989c, "\u0001\u0002\u0000\u0000\u0003\u0004\u0002\u0000\u0002\u0000\u0003\u001b\u0004\u001b", new Object[]{"a", bmne.class, "b", bmmv.class});
+            return GeneratedMessageLite.m124022a(f129989c, "\u0001\u0002\u0000\u0000\u0003\u0004\u0002\u0000\u0002\u0000\u0003\u001b\u0004\u001b", new Object[]{"a", bmne.class, "b", bmmv.class});
         } else if (i2 == 3) {
             return new bmly();
         } else {

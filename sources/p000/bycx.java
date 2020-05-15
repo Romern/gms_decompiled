@@ -21,7 +21,7 @@ public final class bycx extends bxvd implements bxxd {
         bycy bycy = (bycy) this.f164949b;
         bycy bycy2 = bycy.f165733j;
         if (!bycy.f165743i.mo73666a()) {
-            bycy.f165743i = bxvk.m124021a(bycy.f165743i);
+            bycy.f165743i = GeneratedMessageLite.m124021a(bycy.f165743i);
         }
         bxsy.m123078a(iterable, bycy.f165743i);
     }

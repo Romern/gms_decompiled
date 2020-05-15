@@ -32,7 +32,7 @@ final class bhuw implements bhvr {
         long j2 = elapsedRealtime - j;
         bpnx b = bicx.m101968b();
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -101,7 +101,7 @@ final class bhuw implements bhvr {
         }
         bpnx b = bicx.m101968b();
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

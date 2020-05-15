@@ -84,7 +84,7 @@ public final class bjne extends bjhy implements bjqi, bjgi {
                             bwrw bwrw = (bwrw) da.f164949b;
                             bwrv4.getClass();
                             if (!bwrw.f160813a.mo73666a()) {
-                                bwrw.f160813a = bxvk.m124021a(bwrw.f160813a);
+                                bwrw.f160813a = GeneratedMessageLite.m124021a(bwrw.f160813a);
                             }
                             bwrw.f160813a.add(bwrv4);
                             i = i5 + 1;

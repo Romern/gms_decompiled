@@ -146,7 +146,7 @@ public final class bian {
                 bvla bvla2 = (bvla) da2.f164949b;
                 b2.getClass();
                 if (!bvla2.f156503c.mo73666a()) {
-                    bvla2.f156503c = bxvk.m124021a(bvla2.f156503c);
+                    bvla2.f156503c = GeneratedMessageLite.m124021a(bvla2.f156503c);
                 }
                 bvla2.f156503c.add(b2);
             }
@@ -187,7 +187,7 @@ public final class bian {
         bvli.f156543b = a;
         bvli.f156542a |= 1;
         if (!bvli.f156544c.mo73666a()) {
-            bvli.f156544c = bxvk.m124021a(bvli.f156544c);
+            bvli.f156544c = GeneratedMessageLite.m124021a(bvli.f156544c);
         }
         bxsy.m123078a(list, bvli.f156544c);
         bvme a2 = m101869a(latLngBounds);
@@ -218,7 +218,7 @@ public final class bian {
         bvlm.f156567b = a;
         bvlm.f156566a |= 1;
         if (!bvlm.f156568c.mo73666a()) {
-            bvlm.f156568c = bxvk.m124021a(bvlm.f156568c);
+            bvlm.f156568c = GeneratedMessageLite.m124021a(bvlm.f156568c);
         }
         bxsy.m123078a(list, bvlm.f156568c);
         if (da.f164950c) {
@@ -263,7 +263,7 @@ public final class bian {
             }
             bvlx bvlx3 = (bvlx) da.f164949b;
             if (!bvlx3.f156619e.mo73666a()) {
-                bvlx3.f156619e = bxvk.m124021a(bvlx3.f156619e);
+                bvlx3.f156619e = GeneratedMessageLite.m124021a(bvlx3.f156619e);
             }
             bxsy.m123078a(a3, bvlx3.f156619e);
         }

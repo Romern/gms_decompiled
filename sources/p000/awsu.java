@@ -45,7 +45,7 @@ public final class awsu implements awpl {
                 }
                 if (byaf.f165246b) {
                     bxvd bxvd = (bxvd) a2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a2);
+                    bxvd.mo73625a((GeneratedMessageLite) a2);
                     if (mo52542a(account, b, (byae) bxvd, 4) == 2) {
                         i = 2;
                     }
@@ -113,7 +113,7 @@ public final class awsu implements awpl {
                 if (bwki == null) {
                     bwki = bwki.f159970e;
                 }
-                bxtx bxtx = bwki.f159975d;
+                ByteString bxtx = bwki.f159975d;
                 if (da3.f164950c) {
                     da3.mo74035c();
                     da3.f164950c = false;
@@ -130,7 +130,7 @@ public final class awsu implements awpl {
             if (byaf == null) {
                 byaf = byaf.f165243d;
             }
-            bxtx bxtx2 = byaf.f165247c;
+            ByteString bxtx2 = byaf.f165247c;
             if (da3.f164950c) {
                 da3.mo74035c();
                 da3.f164950c = false;
@@ -147,7 +147,7 @@ public final class awsu implements awpl {
                 bpjd3 = bpjd.f137839e;
             }
             bxvd bxvd = (bxvd) bpjd3.mo74142c(5);
-            bxvd.mo73625a((bxvk) bpjd3);
+            bxvd.mo73625a((GeneratedMessageLite) bpjd3);
             int c = a4.mo60050c();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -194,7 +194,7 @@ public final class awsu implements awpl {
                             byaf2 = byaf.f165243d;
                         }
                         bxvd bxvd2 = (bxvd) byaf2.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) byaf2);
+                        bxvd2.mo73625a((GeneratedMessageLite) byaf2);
                         if (bxvd2.f164950c) {
                             bxvd2.mo74035c();
                             bxvd2.f164950c = false;
@@ -221,7 +221,7 @@ public final class awsu implements awpl {
                 bpjd6 = bpjd.f137839e;
             }
             bxvd bxvd3 = (bxvd) bpjd6.mo74142c(5);
-            bxvd3.mo73625a((bxvk) bpjd6);
+            bxvd3.mo73625a((GeneratedMessageLite) bpjd6);
             if (i3 != 0) {
                 i5 = 5;
             }

@@ -40,7 +40,7 @@ public final class bbfh {
 
     /* renamed from: a */
     public static String m87931a(bxxc bxxc) {
-        return Base64.encodeToString(bxxc.mo73642k(), 3);
+        return Base64.encodeToString(bxxc.serializeToBytes(), 3);
     }
 
     /* renamed from: a */

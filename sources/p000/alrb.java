@@ -44,7 +44,7 @@ public final class alrb implements Runnable {
     /* JADX WARN: Type inference failed for: r9v17, assign insn: PHI: (r9v17 ?) = (r9v16 ?), (r9v21 ?) binds: [B:94:0x0293, B:123:0x036d] */
     /* JADX WARN: Type inference failed for: r9v21, types: [bzcv], assign insn: 0x036b: MOVE  (r9v21 ? I:?[OBJECT, ARRAY]) = (r16v3 bzcv) */
     /* JADX WARN: Type inference failed for: r9v27, assign insn: PHI: (r9v27 ?) = (r9v16 ?), (r9v16 ?), (r9v34 ?) binds: [B:221:0x0293, B:222:0x0293, B:223:0x0293] */
-    /* JADX WARN: Type inference failed for: r9v34, types: [java.lang.Object, bzdq], assign insn: 0x02f6: CHECK_CAST  (r9v34 ? I:bzdq) = (bzdq) (r9v33 bxvk) */
+    /* JADX WARN: Type inference failed for: r9v34, types: [java.lang.Object, bzdq], assign insn: 0x02f6: CHECK_CAST  (r9v34 ? I:bzdq) = (bzdq) (r9v33 GeneratedMessageLite) */
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
      method: alqv.a(boolean, boolean, bzcv):void
      arg types: [boolean, int, bzcv]
@@ -105,7 +105,7 @@ public final class alrb implements Runnable {
                 b.f74109b.size();
                 bzcx a = ((alqv) alqq).mo40663a(b.f74108a, b.f74109b, alqx);
                 bxvd bxvd = (bxvd) a.mo74142c(5);
-                bxvd.mo73625a((bxvk) a);
+                bxvd.mo73625a((GeneratedMessageLite) a);
                 bzcv bzcv3 = (bzcv) bxvd;
                 if (bzcv3 != null) {
                     bmxv a2 = ((alqv) alqq).f74111b.mo41295a();
@@ -164,7 +164,7 @@ public final class alrb implements Runnable {
                                         bzdh = bzdh.f169466A;
                                     }
                                     bxvd bxvd2 = (bxvd) bzdh.mo74142c(5);
-                                    bxvd2.mo73625a((bxvk) bzdh);
+                                    bxvd2.mo73625a((GeneratedMessageLite) bzdh);
                                     bzdb bzdb = (bzdb) bxvd2;
                                     if (bmvz.mo66813a()) {
                                         boolean z8 = !str2.equals(bmvz.mo66814b());
@@ -200,7 +200,7 @@ public final class alrb implements Runnable {
                                         z5 = ((alqv) alqq).mo40664a(alqx, bzcx4, str2);
                                     } else {
                                         try {
-                                            alqq.m61525a(alqx, bzcx4.mo73642k(), str2, ((alqv) alqq).f74137g);
+                                            alqq.m61525a(alqx, bzcx4.serializeToBytes(), str2, ((alqv) alqq).f74137g);
                                             z5 = true;
                                         } catch (IllegalArgumentException e2) {
                                             almk.m61263a().mo40522a("ContactsLogger.contact_list_serialize_failure");
@@ -248,7 +248,7 @@ public final class alrb implements Runnable {
                                                         Long valueOf = Long.valueOf(j);
                                                         bzdq bzdq2 = (bzdq) hashMap.get(valueOf);
                                                         bxvd bxvd3 = (bxvd) bzdq2.mo74142c(5);
-                                                        bxvd3.mo73625a((bxvk) bzdq2);
+                                                        bxvd3.mo73625a((GeneratedMessageLite) bzdq2);
                                                         if (bxvd3.f164950c) {
                                                             bxvd3.mo74035c();
                                                             bxvd3.f164950c = false;
@@ -279,7 +279,7 @@ public final class alrb implements Runnable {
                                         int i3 = 0;
                                         for (bzcu bzcu2 : ((bzcx) bzcv4.mo74062i()).f169432b) {
                                             bxvd bxvd4 = (bxvd) bzcu2.mo74142c(5);
-                                            bxvd4.mo73625a((bxvk) bzcu2);
+                                            bxvd4.mo73625a((GeneratedMessageLite) bzcu2);
                                             bzcs bzcs = (bzcs) bxvd4;
                                             int i4 = 0;
                                             for (bzdq bzdq5 : bzcu2.f169420k) {

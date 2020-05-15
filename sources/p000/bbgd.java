@@ -30,7 +30,7 @@ final /* synthetic */ class bbgd implements Callable {
         while (i.hasNext()) {
             bbhf bbhf = (bbhf) i.next();
             bbfz bbfz = (bbfz) bbhf.mo56139b();
-            been b = bbgf.mo56132a().mo60619b(bbgf.m87983a((bxtx) bbhf.mo56138a()));
+            been b = bbgf.mo56132a().mo60619b(bbgf.m87983a((ByteString) bbhf.mo56138a()));
             try {
                 dataOutputStream = new DataOutputStream(new FileOutputStream(b.mo60610a(0)));
                 dataOutputStream.writeLong(System.currentTimeMillis());
@@ -42,7 +42,7 @@ final /* synthetic */ class bbgd implements Callable {
                     dataOutputStream.close();
                     fileOutputStream = new FileOutputStream(b.mo60610a(1));
                     if (bbfz.mo56111a().mo66813a()) {
-                        ((bxtx) bbfz.mo56111a().mo66814b()).mo73757a(fileOutputStream);
+                        ((ByteString) bbfz.mo56111a().mo66814b()).mo73757a(fileOutputStream);
                     }
                     fileOutputStream.close();
                     b.f111429b.mo60618a(b, true);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adib */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adib extends bxvk implements bxxd {
+public final class adib extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final adib f61762h;
@@ -26,7 +26,7 @@ public final class adib extends bxvk implements bxxd {
     public int f61768e;
 
     /* renamed from: f */
-    public bxtx f61769f = bxtx.f164797b;
+    public ByteString f61769f = ByteString.f164797b;
 
     /* renamed from: g */
     public boolean f61770g;
@@ -34,7 +34,7 @@ public final class adib extends bxvk implements bxxd {
     static {
         adib adib = new adib();
         f61762h = adib;
-        bxvk.m124024a(adib.class, adib);
+        GeneratedMessageLite.m124024a(adib.class, adib);
     }
 
     private adib() {
@@ -51,7 +51,7 @@ public final class adib extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61762h, "\u0000\u0007\u0000\u0000\u0001\b\u0007\u0000\u0002\u0000\u0001Ȉ\u0003Ȉ\u0004Ț\u0005\u0004\u0006\n\u0007'\b\u0007", new Object[]{"a", "b", "c", "e", "f", "d", "g"});
+            return GeneratedMessageLite.m124022a(f61762h, "\u0000\u0007\u0000\u0000\u0001\b\u0007\u0000\u0002\u0000\u0001Ȉ\u0003Ȉ\u0004Ț\u0005\u0004\u0006\n\u0007'\b\u0007", new Object[]{"a", "b", "c", "e", "f", "d", "g"});
         } else if (i2 == 3) {
             return new adib();
         } else {

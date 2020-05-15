@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: canj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class canj extends bxvk implements bxxd {
+public final class canj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final canj f175368f;
@@ -28,7 +28,7 @@ public final class canj extends bxvk implements bxxd {
     static {
         canj canj = new canj();
         f175368f = canj;
-        bxvk.m124024a(canj.class, canj);
+        GeneratedMessageLite.m124024a(canj.class, canj);
     }
 
     private canj() {
@@ -45,7 +45,7 @@ public final class canj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175368f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0004ဂ\u0003", new Object[]{"a", "b", canh.f175367a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f175368f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0004ဂ\u0003", new Object[]{"a", "b", canh.f175367a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new canj();
         } else {

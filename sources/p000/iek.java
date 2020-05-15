@@ -32,8 +32,8 @@ public final class iek extends dck implements iel {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
-    public final String mo12953a(String str) {
-        sdo.m34966a((Object) str, (Object) "Package name cannot be null!");
+    public final String getSpatulaHeader(String packageName) {
+        sdo.checkIfNull((Object) packageName, (Object) "Package name cannot be null!");
         this.f20796a.mo13127a(Binder.getCallingUid());
         String str2 = null;
         if (!gnv.m13498H()) {
@@ -41,49 +41,42 @@ public final class iek extends dck implements iel {
             return null;
         }
         iem iem = this.f20797b;
-        sdo.m34966a((Object) str, (Object) "Package name cannot be null!");
+        sdo.checkIfNull((Object) packageName, (Object) "Package name cannot be null!");
         if (!gnv.m13498H()) {
-            iem.f20798a.mo25409a("DeviceKey is turned off", new Object[0]);
+            p000.iem.log.logVerbose("DeviceKey is turned off");
         } else {
             synchronized (iem.f20803e) {
-                bzxb a = iem.f20802d.mo12957a();
-                if (a == null) {
-                    iem.mo12955a();
-                    a = iem.f20802d.mo12957a();
+                bzxb deviceKey = iem.f20802d.getDeviceKeyFromFile();
+                if (deviceKey == null) {
+                    iem.createAndWriteDeviceKey();
+                    deviceKey = iem.f20802d.getDeviceKeyFromFile();
                 }
-                if (a != null) {
-                    if ((a.f171718a & 8) != 0) {
-                        if (a.f171721d.mo73744a() != 0) {
+                if (deviceKey != null && (deviceKey.f171718a & 8) != 0 && deviceKey.f171721d.mo73744a() != 0) {
+                    try {
+                        byte[] sha1sum = spn.getSHA1OfPackage(iem.packageInfo.context, packageName);
+                        if (sha1sum == null) {
+                            p000.iem.log.mo25418e("Unable to get package certificate hash.");
+                            return null;
                         }
-                    }
-                    iem.f20798a.mo25418e("Invalid device key.", new Object[0]);
-                }
-                try {
-                    byte[] f = spn.m35888f(iem.f20801c.f21306a, str);
-                    if (f == null) {
-                        iem.f20798a.mo25418e("Unable to get package certificate hash.", new Object[0]);
-                    } else {
                         bxvd da = bklr.f124834d.mo74144da();
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
                         }
                         bklr bklr = (bklr) da.f164949b;
-                        str.getClass();
                         bklr.f124836a |= 1;
-                        bklr.f124837b = str;
-                        String encodeToString = Base64.encodeToString(f, 2);
+                        bklr.packageName = packageName;
+                        String base64PackageHash = Base64.encodeToString(sha1sum, 2);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
                         }
                         bklr bklr2 = (bklr) da.f164949b;
-                        encodeToString.getClass();
                         bklr2.f124836a |= 2;
-                        bklr2.f124838c = encodeToString;
+                        bklr2.packageCertHash = base64PackageHash;
                         bxvd da2 = bkls.f124839g.mo74144da();
-                        if (a != null) {
-                            long j = a.f171720c;
+                        if (deviceKey != null) {
+                            long j = deviceKey.f171720c;
                             if (da2.f164950c) {
                                 da2.mo74035c();
                                 da2.f164950c = false;
@@ -92,36 +85,34 @@ public final class iek extends dck implements iel {
                             int i = bkls.f124841a | 4;
                             bkls.f124841a = i;
                             bkls.f124844d = j;
-                            long j2 = a.f171719b;
+                            long j2 = deviceKey.f171719b;
                             int i2 = i | 8;
                             bkls.f124841a = i2;
                             bkls.f124845e = j2;
-                            bxtx bxtx = a.f171722e;
-                            bxtx.getClass();
+                            ByteString bxtx = deviceKey.f171722e;
                             bkls.f124841a = i2 | 16;
                             bkls.f124846f = bxtx;
                             try {
-                                String valueOf = String.valueOf(str);
-                                String valueOf2 = String.valueOf(((bklr) da.f164949b).f124838c);
-                                bxtx a2 = bxtx.m123261a(iem.mo12956a(a, valueOf2.length() == 0 ? new String(valueOf) : valueOf.concat(valueOf2)));
+                                String valueOf = String.valueOf(packageName);
+                                String valueOf2 = String.valueOf(((bklr) da.f164949b).packageCertHash);
+                                ByteString a2 = ByteString.m123261a(iem.getHMACSHA256ofString(deviceKey, valueOf2.length() == 0 ? new String(valueOf) : valueOf.concat(valueOf2)));
                                 if (da2.f164950c) {
                                     da2.mo74035c();
                                     da2.f164950c = false;
                                 }
                                 bkls bkls2 = (bkls) da2.f164949b;
-                                a2.getClass();
                                 bkls2.f124841a |= 2;
                                 bkls2.f124843c = a2;
                             } catch (IOException | IllegalArgumentException e) {
-                                sek sek = iem.f20798a;
+                                Logger Logger = iem.log;
                                 String valueOf3 = String.valueOf(e);
                                 StringBuilder sb = new StringBuilder(String.valueOf(valueOf3).length() + 40);
                                 sb.append("Error while creating spatula signature: ");
                                 sb.append(valueOf3);
-                                sek.mo25418e(sb.toString(), new Object[0]);
+                                Logger.mo25418e(sb.toString(), new Object[0]);
                             }
                         } else {
-                            long a3 = spn.m35843a(iem.f20801c.f21306a);
+                            long a3 = spn.getAndroidId(iem.packageInfo.context);
                             if (da2.f164950c) {
                                 da2.mo74035c();
                                 da2.f164950c = false;
@@ -132,17 +123,21 @@ public final class iek extends dck implements iel {
                         }
                         bkls bkls4 = (bkls) da2.f164949b;
                         bklr bklr3 = (bklr) da.mo74062i();
-                        bklr3.getClass();
                         bkls4.f124842b = bklr3;
                         bkls4.f124841a |= 1;
-                        str2 = Base64.encodeToString(((bkls) da2.mo74062i()).mo73642k(), 2);
+                        str2 = Base64.encodeToString(((bkls) da2.mo74062i()).serializeToBytes(), 2);
+
+                        return str2;
+                    } catch (PackageManager.NameNotFoundException e2) {
+                        p000.iem.log.mo25417e("Invalid package name!", e2);
+                        return null;
                     }
-                } catch (PackageManager.NameNotFoundException e2) {
-                    iem.f20798a.mo25417e("Invalid package name!", e2, new Object[0]);
+                } else {
+                    p000.iem.log.mo25418e("Invalid device key.");
+                    return null;
                 }
             }
         }
-        return str2;
     }
 
     public iek(ilw ilw, iem iem) {
@@ -155,7 +150,7 @@ public final class iek extends dck implements iel {
     public final boolean mo12954a() {
         this.f20796a.mo13127a(Binder.getCallingUid());
         if (gnv.m13498H()) {
-            return this.f20797b.mo12955a();
+            return this.f20797b.createAndWriteDeviceKey();
         }
         AppCertChimeraService.f10369a.mo25409a("DeviceKey is turned off", new Object[0]);
         return false;
@@ -170,7 +165,7 @@ public final class iek extends dck implements iel {
         } else if (i != 2) {
             return false;
         } else {
-            String a2 = mo12953a(parcel.readString());
+            String a2 = getSpatulaHeader(parcel.readString());
             parcel2.writeNoException();
             parcel2.writeString(a2);
         }

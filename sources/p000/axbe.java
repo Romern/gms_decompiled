@@ -849,7 +849,7 @@ public final class axbe extends bkdx implements View.OnClickListener, View.OnFoc
     public final View mo51901a(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
         String str;
         bxvd bxvd;
-        bxvk bxvk;
+        GeneratedMessageLite GeneratedMessageLite;
         String str2;
         View inflate = layoutInflater.inflate((int) C0126R.C0128layout.wallet_fragment_credit_card_info, viewGroup, false);
         this.f95654a = inflate;
@@ -966,7 +966,7 @@ public final class axbe extends bkdx implements View.OnClickListener, View.OnFoc
         bmhy bmhy3 = (bmhy) this.f124069w;
         bmqf a = awfx.m79879a(activity, bmhy3.f129514j, bmhy3.f129515k, bmhy3.f129516l, bmhy3.f129517m);
         bxvd bxvd2 = (bxvd) a.mo74142c(5);
-        bxvd2.mo73625a((bxvk) a);
+        bxvd2.mo73625a((GeneratedMessageLite) a);
         long l = mo65985l(7);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
@@ -1012,11 +1012,11 @@ public final class axbe extends bkdx implements View.OnClickListener, View.OnFoc
         ArrayList arrayList = this.f95643K;
         DateEditText dateEditText3 = this.f95658e;
         if (bxvd != null) {
-            bxvk = bxvd.mo74062i();
+            GeneratedMessageLite = bxvd.mo74062i();
         } else {
-            bxvk = null;
+            GeneratedMessageLite = null;
         }
-        arrayList.add(new bkde(0, dateEditText3, bxvk));
+        arrayList.add(new bkde(0, dateEditText3, GeneratedMessageLite));
         FormEditText formEditText = (FormEditText) this.f95654a.findViewById(C0126R.C0129id.cvc);
         this.f95657d = formEditText;
         formEditText.mo71919a(mo65980at());

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bipp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bipp extends bxvk implements bxxd {
+public final class bipp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bipp f121194d;
@@ -25,7 +25,7 @@ public final class bipp extends bxvk implements bxxd {
     static {
         bipp bipp = new bipp();
         f121194d = bipp;
-        bxvk.m124024a(bipp.class, bipp);
+        GeneratedMessageLite.m124024a(bipp.class, bipp);
     }
 
     private bipp() {
@@ -46,7 +46,7 @@ public final class bipp extends bxvk implements bxxd {
             this.f121199e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121194d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔏ\u0000\u0002ᔄ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f121194d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔏ\u0000\u0002ᔄ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bipp();
         } else {

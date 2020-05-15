@@ -11,6 +11,6 @@ final /* synthetic */ class cfms implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (bydi) bxvk.m124014a(bydi.f165792b, bArr);
+        return (bydi) GeneratedMessageLite.m124014a(bydi.f165792b, bArr);
     }
 }

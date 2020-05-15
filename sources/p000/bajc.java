@@ -93,7 +93,7 @@ public final class bajc extends cazu {
                         byhi = byhi.f166451f;
                     }
                     baiv.m86943a(byhi);
-                    byhi.f166456d.mo73780k();
+                    byhi.f166456d.getKey();
                     bafh.mo55656d();
                 } else if (i2 == 3) {
                     if (bygu.f166385b == 4) {
@@ -123,7 +123,7 @@ public final class bajc extends cazu {
                         byho = byho.f166484c;
                     }
                     if ((byho.f166486a & 1) != 0) {
-                        bxtx.m123258a(byho.f166487b).mo73780k();
+                        ByteString.m123258a(byho.f166487b).getKey();
                     }
                     bafh.mo55655c();
                 }
@@ -144,7 +144,7 @@ public final class bajc extends cazu {
             }
             byjo byjo = (byjo) da2.f164949b;
             if (!byjo.f166681a.mo73666a()) {
-                byjo.f166681a = bxvk.m124021a(byjo.f166681a);
+                byjo.f166681a = GeneratedMessageLite.m124021a(byjo.f166681a);
             }
             bxsy.m123078a(bngx, byjo.f166681a);
             if (da.f164950c) {
@@ -165,7 +165,7 @@ public final class bajc extends cazu {
             } else {
                 byhn = byhn.f166478e;
             }
-            ((achw) b.mo16713a()).mo25409a("Downloaded %d changes to the local %s/%s footprints storage.", Integer.valueOf(bxwc.size()), Integer.valueOf(byhn.f166481b), Integer.valueOf(byhn.f166482c));
+            ((achw) b.mo16713a()).logVerbose("Downloaded %d changes to the local %s/%s footprints storage.", Integer.valueOf(bxwc.size()), Integer.valueOf(byhn.f166481b), Integer.valueOf(byhn.f166482c));
             bara.mo55899b((long) byid.f166549a.size());
             int i3 = byid.f164961ai;
             if (i3 == -1) {

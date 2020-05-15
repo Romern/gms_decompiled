@@ -57,7 +57,7 @@ public final class bibr {
         }
         bvtn bvtn = (bvtn) da.f164949b;
         if (!bvtn.f157588b.mo73666a()) {
-            bvtn.f157588b = bxvk.m124021a(bvtn.f157588b);
+            bvtn.f157588b = GeneratedMessageLite.m124021a(bvtn.f157588b);
         }
         bxsy.m123078a(list, bvtn.f157588b);
         bvtx a = m101922a(latLngBounds);
@@ -251,7 +251,7 @@ public final class bibr {
                                 }
                                 bvts bvts2 = (bvts) da.f164949b;
                                 if (!bvts2.f157616d.mo73666a()) {
-                                    bvts2.f157616d = bxvk.m124021a(bvts2.f157616d);
+                                    bvts2.f157616d = GeneratedMessageLite.m124021a(bvts2.f157616d);
                                 }
                                 bxsy.m123078a(arrayList, bvts2.f157616d);
                             }

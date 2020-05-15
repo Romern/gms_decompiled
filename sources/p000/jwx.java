@@ -17,7 +17,7 @@ import java.net.URISyntaxException;
 public abstract class jwx extends jxb {
 
     /* renamed from: a */
-    public static final sek f23423a = ght.m13171a("BrowserAuthFragment");
+    public static final Logger f23423a = ght.m13171a("BrowserAuthFragment");
 
     /* renamed from: b */
     jym f23424b;

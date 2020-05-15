@@ -81,7 +81,7 @@ final /* synthetic */ class bbez implements Callable {
             bpxv bpxv = (bpxv) da.f164949b;
             bpwz4.getClass();
             if (!bpxv.f139790b.mo73666a()) {
-                bpxv.f139790b = bxvk.m124021a(bpxv.f139790b);
+                bpxv.f139790b = GeneratedMessageLite.m124021a(bpxv.f139790b);
             }
             bpxv.f139790b.add(bpwz4);
             bbfb bbfb = (bbfb) map.get(str);
@@ -92,7 +92,7 @@ final /* synthetic */ class bbez implements Callable {
             }
             bpxv bpxv2 = (bpxv) da.f164949b;
             if (!bpxv2.f139791c.mo73666a()) {
-                bpxv2.f139791c = bxvk.m124020a(bpxv2.f139791c);
+                bpxv2.f139791c = GeneratedMessageLite.m124020a(bpxv2.f139791c);
             }
             bpxv2.f139791c.mo74161a(j);
             long j2 = bbfb.f102529b;
@@ -102,7 +102,7 @@ final /* synthetic */ class bbez implements Callable {
             }
             bpxv bpxv3 = (bpxv) da.f164949b;
             if (!bpxv3.f139792d.mo73666a()) {
-                bpxv3.f139792d = bxvk.m124020a(bpxv3.f139792d);
+                bpxv3.f139792d = GeneratedMessageLite.m124020a(bpxv3.f139792d);
             }
             bpxv3.f139792d.mo74161a(j2);
         }

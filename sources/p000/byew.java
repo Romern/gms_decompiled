@@ -235,7 +235,7 @@ public final class byew extends bxvd implements bxxd {
         byex byex2 = byex.f165964y;
         byfc.getClass();
         if (!byex.f165986u.mo73666a()) {
-            byex.f165986u = bxvk.m124019a(byex.f165986u);
+            byex.f165986u = GeneratedMessageLite.m124019a(byex.f165986u);
         }
         byex.f165986u.mo74153d(byfc.f166005k);
     }
@@ -250,7 +250,7 @@ public final class byew extends bxvd implements bxxd {
         byex byex2 = byex.f165964y;
         byfd.getClass();
         if (!byex.f165989x.mo73666a()) {
-            byex.f165989x = bxvk.m124021a(byex.f165989x);
+            byex.f165989x = GeneratedMessageLite.m124021a(byex.f165989x);
         }
         byex.f165989x.add(byfd);
     }

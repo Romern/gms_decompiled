@@ -43,7 +43,7 @@ class ndr {
             mqk mqk3 = mqk.f34276G;
             mqk2.f34284a |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_IME_MULTI_LINE;
             mqk2.f34304u = g;
-            qwo a = new qws(context, "ANDROID_BACKUP", null).mo24335a(((mqk) bxvd.mo74062i()).mo73642k());
+            qwo a = new qws(context, "ANDROID_BACKUP", null).mo24335a(((mqk) bxvd.mo74062i()).serializeToBytes());
             a.mo24328b(mqj.f34275R);
             a.mo24323a((long) this.f35358a);
             a.mo24327b();

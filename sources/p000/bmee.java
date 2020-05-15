@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmee */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmee extends bxvk implements bxxd {
+public final class bmee extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bmee f128922e;
@@ -28,7 +28,7 @@ public final class bmee extends bxvk implements bxxd {
     static {
         bmee bmee = new bmee();
         f128922e = bmee;
-        bxvk.m124024a(bmee.class, bmee);
+        GeneratedMessageLite.m124024a(bmee.class, bmee);
     }
 
     private bmee() {
@@ -49,7 +49,7 @@ public final class bmee extends bxvk implements bxxd {
             this.f128928f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f128922e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0001\u0001ဉ\u0000\u0002Л\u0003ဉ\u0001", new Object[]{"a", "b", "c", bmdx.class, "d"});
+            return GeneratedMessageLite.m124022a(f128922e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0001\u0001ဉ\u0000\u0002Л\u0003ဉ\u0001", new Object[]{"a", "b", "c", bmdx.class, "d"});
         } else if (i2 == 3) {
             return new bmee();
         } else {

@@ -18,7 +18,7 @@ public final class bauh extends bxvd implements bxxd {
         baui baui2 = baui.f101771e;
         baug.getClass();
         if (!baui.f101776d.mo73666a()) {
-            baui.f101776d = bxvk.m124021a(baui.f101776d);
+            baui.f101776d = GeneratedMessageLite.m124021a(baui.f101776d);
         }
         baui.f101776d.add(baug);
     }

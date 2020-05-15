@@ -10,12 +10,12 @@ public final class rnw {
     public final Object f43417a;
 
     public rnw(Activity activity) {
-        sdo.m34966a(activity, "Activity must not be null");
+        sdo.checkIfNull(activity, "Activity must not be null");
         this.f43417a = activity;
     }
 
     public rnw(com.google.android.chimera.Activity activity) {
-        sdo.m34966a(activity, "Activity must not be null");
+        sdo.checkIfNull(activity, "Activity must not be null");
         this.f43417a = activity;
     }
 }

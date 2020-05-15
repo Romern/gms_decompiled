@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbmg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbmg extends bxvk implements bxxd {
+public final class cbmg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbmg f177616d;
@@ -22,11 +22,11 @@ public final class cbmg extends bxvk implements bxxd {
     static {
         cbmg cbmg = new cbmg();
         f177616d = cbmg;
-        bxvk.m124024a(cbmg.class, cbmg);
+        GeneratedMessageLite.m124024a(cbmg.class, cbmg);
     }
 
     private cbmg() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -40,7 +40,7 @@ public final class cbmg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177616d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\u0002\u0003\u0004", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f177616d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\u0002\u0003\u0004", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cbmg();
         } else {

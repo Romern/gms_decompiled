@@ -30,10 +30,10 @@ final /* synthetic */ class bbgc implements Callable {
         int i;
         Throwable th2;
         bbgf bbgf = this.f102579a;
-        Iterable<bxtx> iterable = this.f102580b;
+        Iterable<ByteString> iterable = this.f102580b;
         beeq a = bbgf.mo56132a();
         bbfv b = bbfw.m87969b();
-        for (bxtx bxtx : iterable) {
+        for (ByteString bxtx : iterable) {
             String a2 = bbgf.m87983a(bxtx);
             beep a3 = a.mo60616a(a2);
             if (a3 == null) {

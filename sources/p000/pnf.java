@@ -76,7 +76,7 @@ public final class pnf implements pkx {
     public boolean f39805q;
 
     /* renamed from: r */
-    public bxtx f39806r;
+    public ByteString f39806r;
 
     /* renamed from: s */
     public byte[] f39807s;
@@ -110,13 +110,13 @@ public final class pnf implements pkx {
     }
 
     /* renamed from: a */
-    private static bxtx m30888a() {
+    private static ByteString m30888a() {
         pes pes = pes.f38974a;
         long currentTimeMillis = System.currentTimeMillis();
         ByteBuffer allocate = ByteBuffer.allocate(64);
         allocate.putLong(currentTimeMillis);
         allocate.flip();
-        return bxtx.m123263b(allocate);
+        return ByteString.m123263b(allocate);
     }
 
     /* renamed from: b */
@@ -222,7 +222,7 @@ public final class pnf implements pkx {
                             this.f39806r = m30888a();
                             bxvd da = blsk.f127596e.mo74144da();
                             bxvd da2 = blsf.f127574d.mo74144da();
-                            bxtx bxtx = this.f39806r;
+                            ByteString bxtx = this.f39806r;
                             if (da2.f164950c) {
                                 da2.mo74035c();
                                 da2.f164950c = false;
@@ -243,7 +243,7 @@ public final class pnf implements pkx {
                             blsf2.getClass();
                             blsk.f127599b = blsf2;
                             blsk.f127598a |= 1;
-                            if (m30889a(str4, ((blsk) da.mo74062i()).mo73642k())) {
+                            if (m30889a(str4, ((blsk) da.mo74062i()).serializeToBytes())) {
                                 this.f39811w++;
                                 return;
                             }
@@ -310,7 +310,7 @@ public final class pnf implements pkx {
         } else if (obj instanceof byte[]) {
             blsx.f127644f = 1;
             blsx.f127639a = i4 | 16;
-            bxtx a = bxtx.m123261a((byte[]) obj);
+            ByteString a = ByteString.m123261a((byte[]) obj);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -413,10 +413,10 @@ public final class pnf implements pkx {
             String str4 = null;
             ArrayList arrayList4 = null;
             if (a2 != 0 && a2 == 2) {
-                bxtx bxtx = blsx2.f127646h;
+                ByteString bxtx = blsx2.f127646h;
                 if (pku.f39527a.equals(str3)) {
                     try {
-                        blsk blsk = (blsk) bxvk.m124016a(blsk.f127596e, bxtx.mo73780k(), bxus.m123744c());
+                        blsk blsk = (blsk) GeneratedMessageLite.m124016a(blsk.f127596e, bxtx.getKey(), bxus.m123744c());
                         if ((blsk.f127598a & 2) == 0) {
                             this.f39790b.mo23677d("No response in auth message", new Object[0]);
                         } else {
@@ -424,8 +424,8 @@ public final class pnf implements pkx {
                             if (blsj == null) {
                                 blsj = blsj.f127585i;
                             }
-                            bxtx bxtx2 = this.f39806r;
-                            if (bxtx2 != null && pku.m30744a(blsj, bxtx2.mo73780k(), this.f39807s, null, this.f39790b) == 0) {
+                            ByteString bxtx2 = this.f39806r;
+                            if (bxtx2 != null && pku.m30744a(blsj, bxtx2.getKey(), this.f39807s, null, this.f39790b) == 0) {
                                 String a3 = pku.m30745a(blsj);
                                 if (a3 == null) {
                                     this.f39790b.mo23677d("Invalid algorithm", new Object[0]);
@@ -437,7 +437,7 @@ public final class pnf implements pkx {
                                         this.f39790b.mo23677d("The response has null nonce", new Object[0]);
                                     } else if ((i3 & 1) != 0) {
                                         bxvd da = bsib.f144654f.mo74144da();
-                                        bxtx bxtx3 = blsj.f127592f;
+                                        ByteString bxtx3 = blsj.f127592f;
                                         if (da.f164950c) {
                                             da.mo74035c();
                                             da.f164950c = false;
@@ -446,7 +446,7 @@ public final class pnf implements pkx {
                                         bxtx3.getClass();
                                         bsib2.f144656a |= 1;
                                         bsib2.f144657b = bxtx3;
-                                        bxtx a4 = bxtx.m123261a(this.f39807s);
+                                        ByteString a4 = bxtx.m123261a(this.f39807s);
                                         if (da.f164950c) {
                                             da.mo74035c();
                                             da.f164950c = false;
@@ -456,7 +456,7 @@ public final class pnf implements pkx {
                                         int i4 = bsib3.f144656a | 2;
                                         bsib3.f144656a = i4;
                                         bsib3.f144658c = a4;
-                                        bxtx bxtx4 = blsj.f127588b;
+                                        ByteString bxtx4 = blsj.f127588b;
                                         bxtx4.getClass();
                                         int i5 = i4 | 8;
                                         bsib3.f144656a = i5;
@@ -479,7 +479,7 @@ public final class pnf implements pkx {
                     if (bsib == null) {
                         this.f39790b.mo23677d("Failed to parse RAT from response, generating placeholder RAT", new Object[0]);
                         bxvd da2 = bsib.f144654f.mo74144da();
-                        bxtx a5 = m30888a();
+                        ByteString a5 = m30888a();
                         if (da2.f164950c) {
                             da2.mo74035c();
                             da2.f164950c = false;

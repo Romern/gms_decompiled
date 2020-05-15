@@ -17,7 +17,7 @@ public final class bttn extends bxvd implements bxxd {
         btto btto2 = btto.f150366f;
         bttr.getClass();
         if (!btto.f150372e.mo73666a()) {
-            btto.f150372e = bxvk.m124019a(btto.f150372e);
+            btto.f150372e = GeneratedMessageLite.m124019a(btto.f150372e);
         }
         btto.f150372e.mo74153d(bttr.f150389d);
     }

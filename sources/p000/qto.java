@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 public final class qto {
 
     /* renamed from: a */
-    public static final sek f42105a = qqu.m32671b("SQLiteUtils");
+    public static final Logger f42105a = qqu.m32671b("SQLiteUtils");
 
     /* renamed from: a */
     public static void m32871a(SQLiteDatabase sQLiteDatabase, String str, ContentValues contentValues) {

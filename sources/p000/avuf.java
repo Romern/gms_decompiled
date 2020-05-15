@@ -36,9 +36,9 @@ public final /* synthetic */ class avuf implements roo {
         String str2 = this.f93920c;
         avvi avvi = (avvi) obj;
         avty avty = (avty) rjx.f43171z;
-        sdo.m34966a(avty, "canLog must be called by a client that has api options.");
+        sdo.checkIfNull(avty, "canLog must be called by a client that has api options.");
         ConsentInformation consentInformation = avty.f93907a;
-        sdo.m34966a(consentInformation, "canLog must be called by a client that has UsageReportingOptions.consentInformation set (Almost always by a prior call to canLog).");
+        sdo.checkIfNull(consentInformation, "canLog must be called by a client that has UsageReportingOptions.consentInformation set (Almost always by a prior call to canLog).");
         avvi.mo51638a(str, bArr, str2, null, 0, rjx.f43168w, consentInformation, (aucf) obj2);
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ammo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ammo extends bxvk implements bxxd {
+public final class ammo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: J */
     public static final ammo f75321J;
@@ -118,7 +118,7 @@ public final class ammo extends bxvk implements bxxd {
     static {
         ammo ammo = new ammo();
         f75321J = ammo;
-        bxvk.m124024a(ammo.class, ammo);
+        GeneratedMessageLite.m124024a(ammo.class, ammo);
     }
 
     private ammo() {
@@ -135,7 +135,7 @@ public final class ammo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75321J, "\u0001!\u0000\u0002\u00015!\u0000\u0000\u0000\u0001ဉ\u0000\u000eင\u0011\u000fင\u0012\u0010င\u0013\u0011ဇ\u0016\u0012င\u001c\u0013င\u001d\u0014င\u001e\u001cဂ/\u001dဇ\u0017\u001eဇ\u0018\u001fဇ\u000f ဇ\u001b!ဇ \"င!#င\"$င$%င%&င''င((င\u0014)င#*င&,ဇ\u0001-င\u0002.ဇ\u0019/င\u001a0ဇ\u00151ဂ02ဂ13ဂ24ဌ35ဌ4", new Object[]{"a", "b", "c", "g", "h", "i", "l", "r", "s", "t", "D", "m", "n", "f", "q", "u", "v", "w", "y", "z", "B", "C", "j", "x", "A", "d", "e", "o", "p", "k", "E", "F", "G", "H", amjy.f75043a, "I", amjy.f75043a});
+            return GeneratedMessageLite.m124022a(f75321J, "\u0001!\u0000\u0002\u00015!\u0000\u0000\u0000\u0001ဉ\u0000\u000eင\u0011\u000fင\u0012\u0010င\u0013\u0011ဇ\u0016\u0012င\u001c\u0013င\u001d\u0014င\u001e\u001cဂ/\u001dဇ\u0017\u001eဇ\u0018\u001fဇ\u000f ဇ\u001b!ဇ \"င!#င\"$င$%င%&င''င((င\u0014)င#*င&,ဇ\u0001-င\u0002.ဇ\u0019/င\u001a0ဇ\u00151ဂ02ဂ13ဂ24ဌ35ဌ4", new Object[]{"a", "b", "c", "g", "h", "i", "l", "r", "s", "t", "D", "m", "n", "f", "q", "u", "v", "w", "y", "z", "B", "C", "j", "x", "A", "d", "e", "o", "p", "k", "E", "F", "G", "H", amjy.f75043a, "I", amjy.f75043a});
         } else if (i2 == 3) {
             return new ammo();
         } else {

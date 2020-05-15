@@ -14,6 +14,6 @@ public enum bxzg {
     MESSAGE;
 
     static {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 }

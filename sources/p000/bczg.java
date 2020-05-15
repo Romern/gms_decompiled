@@ -11,7 +11,7 @@ public final class bczg {
     private bcwp f105174b;
 
     /* renamed from: c */
-    private bxtx f105175c;
+    private ByteString f105175c;
 
     /* renamed from: d */
     private Integer f105176d;
@@ -74,7 +74,7 @@ public final class bczg {
 
     /* renamed from: a */
     public final void mo57785a(byte[] bArr) {
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (a != null) {
             this.f105175c = a;
             return;

@@ -11,7 +11,7 @@ import com.google.android.gms.common.api.Status;
 public final class xcu extends aaab {
 
     /* renamed from: d */
-    private static final sek f51968d = new sek(new String[]{"IncrementAndGetCounterOperation"}, (short[]) null);
+    private static final Logger f51968d = new Logger(new String[]{"IncrementAndGetCounterOperation"}, (short[]) null);
 
     /* renamed from: a */
     private final xcm f51969a = ((xcm) xcm.f51937d.mo33309a());
@@ -36,9 +36,9 @@ public final class xcu extends aaab {
             String str = this.f51971c;
             bmxy.m108582a(str, "keyStorageIdentifier cannot be null");
             bmxy.m108589a(!str.trim().isEmpty(), "keyStorageIdentifier cannot be empty");
-            sek sek = f51968d;
+            Logger Logger = f51968d;
             String valueOf = String.valueOf(str);
-            sek.mo25412b(valueOf.length() == 0 ? new String("incrementAndGetCounter with keyStorageIdentifier ") : "incrementAndGetCounter with keyStorageIdentifier ".concat(valueOf), new Object[0]);
+            Logger.mo25412b(valueOf.length() == 0 ? new String("incrementAndGetCounter with keyStorageIdentifier ") : "incrementAndGetCounter with keyStorageIdentifier ".concat(valueOf), new Object[0]);
             xcm xcm = this.f51969a;
             bmxy.m108582a(str, "identifier cannot be null");
             xcm.f51938e.mo25412b("Incrementing the counter of the registered key", new Object[0]);

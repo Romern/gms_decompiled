@@ -25,7 +25,7 @@ final class bvdp implements bvbr {
             if (buzq == null) {
                 buzq = buzq.f155418c;
             }
-            bvbw.mo73142a(buzq.f155421b.mo73780k());
+            bvbw.mo73142a(buzq.f155421b.getKey());
         } catch (IOException e) {
             throw new RuntimeException("Error sending payload.", e);
         }

@@ -26,7 +26,7 @@ public final class agpt {
     public final void mo35894a(bxzx bxzx) {
         byte[] bArr;
         if (bxzx != null) {
-            bArr = bxzx.mo73642k();
+            bArr = bxzx.serializeToBytes();
         } else {
             bArr = null;
         }

@@ -11,7 +11,7 @@ import java.net.URL;
 public final class icn implements Runnable {
 
     /* renamed from: a */
-    private static final sek f20742a = new sek("RevokeAccessOperation", new String[0]);
+    private static final Logger f20742a = new Logger("RevokeAccessOperation", new String[0]);
 
     /* renamed from: b */
     private final String f20743b;
@@ -28,7 +28,7 @@ public final class icn implements Runnable {
     public static rke m15234a(String str) {
         if (str == null) {
             Status status = new Status(4);
-            sdo.m34966a(status, "Result must not be null");
+            sdo.checkIfNull(status, "Result must not be null");
             sdo.m34975b(!status.mo17710c(), "Status code must not be SUCCESS");
             rkf rkf = new rkf(status);
             rkf.mo17716a(status);
@@ -54,31 +54,31 @@ public final class icn implements Runnable {
                 status = Status.f30107a;
             }
             try {
-                sek sek = f20742a;
+                Logger Logger = f20742a;
                 StringBuilder sb = new StringBuilder(26);
                 sb.append("Response Code: ");
                 sb.append(responseCode);
-                sek.mo25412b(sb.toString(), new Object[0]);
+                Logger.mo25412b(sb.toString(), new Object[0]);
             } catch (IOException e) {
                 e = e;
             } catch (Exception e2) {
                 e = e2;
-                sek sek2 = f20742a;
+                Logger logger2 = f20742a;
                 String valueOf = String.valueOf(e.toString());
-                sek2.mo25418e(valueOf.length() != 0 ? new String("Exception when revoking access: ") : "Exception when revoking access: ".concat(valueOf), new Object[0]);
+                logger2.mo25418e(valueOf.length() != 0 ? new String("Exception when revoking access: ") : "Exception when revoking access: ".concat(valueOf), new Object[0]);
                 this.f20744c.mo17716a(status);
             }
         } catch (IOException e3) {
             e = e3;
-            sek sek3 = f20742a;
+            Logger logger3 = f20742a;
             String valueOf2 = String.valueOf(e.toString());
-            sek3.mo25418e(valueOf2.length() == 0 ? new String("IOException when revoking access: ") : "IOException when revoking access: ".concat(valueOf2), new Object[0]);
+            logger3.mo25418e(valueOf2.length() == 0 ? new String("IOException when revoking access: ") : "IOException when revoking access: ".concat(valueOf2), new Object[0]);
             this.f20744c.mo17716a(status);
         } catch (Exception e4) {
             e = e4;
-            sek sek22 = f20742a;
+            Logger logger22 = f20742a;
             String valueOf3 = String.valueOf(e.toString());
-            sek22.mo25418e(valueOf3.length() != 0 ? new String("Exception when revoking access: ") : "Exception when revoking access: ".concat(valueOf3), new Object[0]);
+            logger22.mo25418e(valueOf3.length() != 0 ? new String("Exception when revoking access: ") : "Exception when revoking access: ".concat(valueOf3), new Object[0]);
             this.f20744c.mo17716a(status);
         }
         this.f20744c.mo17716a(status);

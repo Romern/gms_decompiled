@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 public final class arzy extends Fragment implements arzj {
 
     /* renamed from: a */
-    public static final sek f88554a = ascp.m73787a("Setup", "UI", "SelectAccountFragment");
+    public static final Logger f88554a = ascp.m73787a("Setup", "UI", "SelectAccountFragment");
 
     /* renamed from: b */
     public arzw f88555b;
@@ -98,9 +98,9 @@ public final class arzy extends Fragment implements arzj {
         int count = this.f88571r.getCount();
         for (int i = 0; i < this.f88558e.size(); i++) {
             Account account = (Account) this.f88558e.get(i);
-            sek sek = f88554a;
+            Logger Logger = f88554a;
             String valueOf = String.valueOf(account.name);
-            sek.mo25412b(valueOf.length() == 0 ? new String("Display account ") : "Display account ".concat(valueOf), new Object[0]);
+            Logger.mo25412b(valueOf.length() == 0 ? new String("Display account ") : "Display account ".concat(valueOf), new Object[0]);
             if (count > 0) {
                 arzv = (arzv) this.f88571r.getItem(i);
             } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cina */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cina extends bxvk implements bxxd {
+public final class cina extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: A */
     private static volatile bxxk f190883A;
@@ -88,7 +88,7 @@ public final class cina extends bxvk implements bxxd {
     static {
         cina cina = new cina();
         f190884z = cina;
-        bxvk.m124024a(cina.class, cina);
+        GeneratedMessageLite.m124024a(cina.class, cina);
     }
 
     private cina() {
@@ -105,7 +105,7 @@ public final class cina extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f190884z, "\u0001\u0018\u0000\u0001\u0001\u0018\u0018\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0007\bင\b\tင\t\nင\n\u000bင\u000b\fင\f\rင\r\u000eင\u000e\u000fင\u000f\u0010င\u0010\u0011င\u0011\u0012င\u0012\u0013င\u0006\u0014ဂ\u0013\u0015ဂ\u0014\u0016ဂ\u0015\u0017ဂ\u0016\u0018ဂ\u0017", new Object[]{"a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "h", "u", "v", "w", "x", "y"});
+            return GeneratedMessageLite.m124022a(f190884z, "\u0001\u0018\u0000\u0001\u0001\u0018\u0018\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0007\bင\b\tင\t\nင\n\u000bင\u000b\fင\f\rင\r\u000eင\u000e\u000fင\u000f\u0010င\u0010\u0011င\u0011\u0012င\u0012\u0013င\u0006\u0014ဂ\u0013\u0015ဂ\u0014\u0016ဂ\u0015\u0017ဂ\u0016\u0018ဂ\u0017", new Object[]{"a", "b", "c", "d", "e", "f", "g", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "h", "u", "v", "w", "x", "y"});
         } else if (i2 == 3) {
             return new cina();
         } else {

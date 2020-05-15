@@ -45,13 +45,13 @@ public class SecondScreenIntentOperation extends IntentOperation {
         this.f10500a = intent.getStringExtra("account");
         this.f10502c = intent.getByteArrayExtra("encryption_key_handle");
         try {
-            bypc bypc = (bypc) bxvk.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request"));
+            bypc bypc = (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request"));
             this.f10501b = bypc;
             bypb bypb = bypc.f167310d;
             if (bypb == null) {
                 bypb = bypb.f167289p;
             }
-            bzxo bzxo = (bzxo) bxvk.m124014a(bzxo.f171782h, bypb.f167304o.mo73780k());
+            bzxo bzxo = (bzxo) GeneratedMessageLite.m124014a(bzxo.f171782h, bypb.f167304o.mo73780k());
             this.f10503d = bzxo;
             String str = bzxo.f171788e;
             Account account = new Account(this.f10500a, "com.google");
@@ -94,7 +94,7 @@ public class SecondScreenIntentOperation extends IntentOperation {
     /* renamed from: a */
     public static void m6536a(Context context, Intent intent, byoo byoo) {
         try {
-            m6537a(context, intent.getStringExtra("account"), intent.getByteArrayExtra("encryption_key_handle"), (bypc) bxvk.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request")), byoo);
+            m6537a(context, intent.getStringExtra("account"), intent.getByteArrayExtra("encryption_key_handle"), (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request")), byoo);
         } catch (bxwf e) {
             f10499e.mo25417e("Unable to parse TxRequest", e, new Object[0]);
         }

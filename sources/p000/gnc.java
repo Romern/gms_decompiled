@@ -16,7 +16,7 @@ import org.apache.http.client.methods.HttpGet;
 public final class gnc {
 
     /* renamed from: a */
-    public static final sek f18659a = ght.m13171a("AddAccountOperation");
+    public static final Logger f18659a = ght.m13171a("AddAccountOperation");
 
     /* renamed from: b */
     public final Context f18660b;

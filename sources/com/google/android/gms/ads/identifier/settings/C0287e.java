@@ -290,7 +290,7 @@ public final class C0287e {
                                         bqkp bqkp4 = (bqkp) da.f164949b;
                                         a4.getClass();
                                         if (!bqkp4.f141027d.mo73666a()) {
-                                            bqkp4.f141027d = bxvk.m124021a(bqkp4.f141027d);
+                                            bqkp4.f141027d = GeneratedMessageLite.m124021a(bqkp4.f141027d);
                                         }
                                         bqkp4.f141027d.add(a4);
                                     }

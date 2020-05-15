@@ -22,7 +22,7 @@ public final class atpd implements atfd {
         btkx btkx;
         AccountSetupChimeraActivity accountSetupChimeraActivity = this.f90626a;
         accountSetupChimeraActivity.f108755g = null;
-        byte[] k = btla.f149337c.mo73780k();
+        byte[] k = btla.f149337c.getKey();
         srn srn = AccountSetupChimeraActivity.f108750b;
         accountSetupChimeraActivity.f108753e = k;
         if (btky.m116882a(btla.f149335a) == 3) {
@@ -84,7 +84,7 @@ public final class atpd implements atfd {
         btla btla = (btla) obj;
         AccountSetupChimeraActivity accountSetupChimeraActivity = this.f90626a;
         accountSetupChimeraActivity.f108755g = null;
-        byte[] k = btla.f149337c.mo73780k();
+        byte[] k = btla.f149337c.getKey();
         srn srn = AccountSetupChimeraActivity.f108750b;
         accountSetupChimeraActivity.f108753e = k;
         if (btky.m116882a(btla.f149335a) == 3) {

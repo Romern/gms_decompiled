@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public final class armn implements armm {
 
     /* renamed from: a */
-    public static final sek f87910a = ascp.m73787a("D2D", "Metrics", "TargetApiLogManager");
+    public static final Logger f87910a = ascp.m73787a("D2D", "Metrics", "TargetApiLogManager");
 
     /* renamed from: b */
     public final Context f87911b;
@@ -75,7 +75,7 @@ public final class armn implements armm {
     /* renamed from: a */
     public final void mo48657a() {
         if (this.f87912c.compareAndSet(false, true)) {
-            f87910a.mo25409a("Sending Target API logs with Clearcut.", new Object[0]);
+            f87910a.logVerbose("Sending Target API logs with Clearcut.", new Object[0]);
             this.f87916g.mo48672a();
             armf b = this.f87915f.mo48640b();
             bxvd da = bowf.f135112j.mo74144da();
@@ -138,7 +138,7 @@ public final class armn implements armm {
             }
             bowf bowf4 = (bowf) da.f164949b;
             if (!bowf4.f135121h.mo73666a()) {
-                bowf4.f135121h = bxvk.m124021a(bowf4.f135121h);
+                bowf4.f135121h = GeneratedMessageLite.m124021a(bowf4.f135121h);
             }
             bxsy.m123078a(asList, bowf4.f135121h);
             bxvd bxvd6 = b.f87890a;
@@ -191,8 +191,8 @@ public final class armn implements armm {
             bovc.f134992e = bowf9;
             bovc.f134988a |= 8;
             bovc bovc3 = (bovc) this.f87922m.mo74062i();
-            f87910a.mo25409a(bovc3.toString(), new Object[0]);
-            this.f87924o.mo24335a(bovc3.mo73642k()).mo24327b();
+            f87910a.logVerbose(bovc3.toString(), new Object[0]);
+            this.f87924o.mo24335a(bovc3.serializeToBytes()).mo24327b();
             return;
         }
         f87910a.mo25416d("Logs already sent to Clearcut. Ignoring call to log().", new Object[0]);

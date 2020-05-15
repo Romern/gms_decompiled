@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpfx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpfx extends bxvk implements bxxd {
+public final class bpfx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bpfx f137459a;
@@ -13,7 +13,7 @@ public final class bpfx extends bxvk implements bxxd {
     static {
         bpfx bpfx = new bpfx();
         f137459a = bpfx;
-        bxvk.m124024a(bpfx.class, bpfx);
+        GeneratedMessageLite.m124024a(bpfx.class, bpfx);
     }
 
     private bpfx() {
@@ -30,7 +30,7 @@ public final class bpfx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f137459a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f137459a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bpfx();

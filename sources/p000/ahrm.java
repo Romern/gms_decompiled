@@ -29,7 +29,7 @@ public final class ahrm implements ahll, ahos {
             butw = butw.f154888d;
         }
         try {
-            InetAddress byAddress = InetAddress.getByAddress(butw.f154891b.mo73780k());
+            InetAddress byAddress = InetAddress.getByAddress(butw.f154891b.getKey());
             srn srn = ahkm.f67363a;
             ahov ahov = this.f67884a;
             int i = butw.f154892c;
@@ -87,7 +87,7 @@ public final class ahrm implements ahll, ahos {
             byte[] address = c.mo37556a().getAddress();
             int b = c.mo37557b();
             bxvd da = butw.f154888d.mo74144da();
-            bxtx a = bxtx.m123261a(address);
+            ByteString a = ByteString.m123261a(address);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

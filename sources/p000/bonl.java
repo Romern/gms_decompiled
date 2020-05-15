@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bonl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bonl extends bxvk implements bxxd {
+public final class bonl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bonl f133822c;
@@ -14,12 +14,12 @@ public final class bonl extends bxvk implements bxxd {
     public int f133824a;
 
     /* renamed from: b */
-    public bxtx f133825b = bxtx.f164797b;
+    public ByteString f133825b = ByteString.f164797b;
 
     static {
         bonl bonl = new bonl();
         f133822c = bonl;
-        bxvk.m124024a(bonl.class, bonl);
+        GeneratedMessageLite.m124024a(bonl.class, bonl);
     }
 
     private bonl() {
@@ -36,7 +36,7 @@ public final class bonl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133822c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f133822c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ည\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bonl();
         } else {

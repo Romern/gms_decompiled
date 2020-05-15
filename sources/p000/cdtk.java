@@ -11,6 +11,6 @@ final /* synthetic */ class cdtk implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (cdtn) bxvk.m124014a(cdtn.f181706e, bArr);
+        return (cdtn) GeneratedMessageLite.m124014a(cdtn.f181706e, bArr);
     }
 }

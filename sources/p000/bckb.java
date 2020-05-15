@@ -6,7 +6,7 @@ final class bckb implements chtk {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo26261a(byte[] bArr) {
         try {
-            return (cbms) bxvk.m124014a(cbms.f177673b, bArr);
+            return (cbms) GeneratedMessageLite.m124014a(cbms.f177673b, bArr);
         } catch (bxwf e) {
             bbos.m88292b("RpcErrorUtils", "Error parsing TachyonError", e);
             return cbms.f177673b;
@@ -15,6 +15,6 @@ final class bckb implements chtk {
 
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ byte[] mo26262a(Object obj) {
-        return ((cbms) obj).mo73642k();
+        return ((cbms) obj).serializeToBytes();
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biqi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biqi extends bxvk implements bxxd {
+public final class biqi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final biqi f121282e;
@@ -25,7 +25,7 @@ public final class biqi extends bxvk implements bxxd {
     static {
         biqi biqi = new biqi();
         f121282e = biqi;
-        bxvk.m124024a(biqi.class, biqi);
+        GeneratedMessageLite.m124024a(biqi.class, biqi);
     }
 
     private biqi() {
@@ -42,7 +42,7 @@ public final class biqi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f121282e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003ဇ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f121282e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003ဇ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new biqi();
         } else {

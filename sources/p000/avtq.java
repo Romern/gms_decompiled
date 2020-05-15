@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutionException;
 public final class avtq extends AsyncTaskLoader {
 
     /* renamed from: a */
-    private static final sek f93897a = avpq.m79014a("RequestConfigUpdateLoader");
+    private static final Logger f93897a = avpq.m79014a("RequestConfigUpdateLoader");
 
     /* renamed from: b */
     private final boolean f93898b = true;

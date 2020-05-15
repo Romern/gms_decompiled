@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buem */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buem extends bxvk implements bxxd {
+public final class buem extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final buem f153608f;
@@ -31,7 +31,7 @@ public final class buem extends bxvk implements bxxd {
     static {
         buem buem = new buem();
         f153608f = buem;
-        bxvk.m124024a(buem.class, buem);
+        GeneratedMessageLite.m124024a(buem.class, buem);
     }
 
     private buem() {
@@ -48,7 +48,7 @@ public final class buem extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153608f, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဃ\u0000\u0002ခ\u0001\u0003ခ\u0002\u0004ခ\u0003\u0005ဃ\u0004", new Object[]{"g", "a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f153608f, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဃ\u0000\u0002ခ\u0001\u0003ခ\u0002\u0004ခ\u0003\u0005ဃ\u0004", new Object[]{"g", "a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new buem();
         } else {

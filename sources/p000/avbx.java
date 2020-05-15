@@ -80,7 +80,7 @@ public final class avbx extends avau {
             sb2.append(a3);
             sb2.append("/consent?alt=proto");
             sb.append(sb2.toString());
-            bxsv bxsv = (bxsv) sgv.mo25513a(clientContext, 2, sb.toString(), bxsu3.mo73642k(), bxsv.f164751e);
+            bxsv bxsv = (bxsv) sgv.mo25513a(clientContext, 2, sb.toString(), bxsu3.serializeToBytes(), bxsv.f164751e);
             avap.mo51120a("WriteConsent", (String) null);
             bxrf bxrf = bxsv.f164754b;
             if (bxrf == null) {
@@ -111,7 +111,7 @@ public final class avbx extends avau {
                 }
             }
             mo51131a(0);
-            this.f92883d.mo51164d(Status.f30107a, bxsv.mo73642k());
+            this.f92883d.mo51164d(Status.f30107a, bxsv.serializeToBytes());
             avfg avfg = new avfg(avfv.m78451a(this.f92882c).mo51196a(this.f92886g, snp.m35702a(10)), this.f92889j);
             auzj a5 = avfg.mo51188a();
             if (a5 != null && (a5.f92829a & 1) != 0) {
@@ -127,7 +127,7 @@ public final class avbx extends avau {
                     bxpd bxpd2 = (bxpd) sparseArray.get(bxse.f164671a);
                     if (bxpd2 != null) {
                         bxvd bxvd = (bxvd) bxpd2.mo74142c(5);
-                        bxvd.mo73625a((bxvk) bxpd2);
+                        bxvd.mo73625a((GeneratedMessageLite) bxpd2);
                         int a6 = bxsn.m123069a(bxse.f164672b);
                         if (a6 == 0) {
                             a6 = 1;
@@ -177,7 +177,7 @@ public final class avbx extends avau {
                     bxpe bxpe3 = (bxpe) da2.f164949b;
                     bxpd6.getClass();
                     if (!bxpe3.f164250b.mo73666a()) {
-                        bxpe3.f164250b = bxvk.m124021a(bxpe3.f164250b);
+                        bxpe3.f164250b = GeneratedMessageLite.m124021a(bxpe3.f164250b);
                     }
                     bxpe3.f164250b.add(bxpd6);
                 }

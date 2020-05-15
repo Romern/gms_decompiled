@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boqs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boqs extends bxvk implements bxxd {
+public final class boqs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final boqs f134312e;
@@ -25,7 +25,7 @@ public final class boqs extends bxvk implements bxxd {
     static {
         boqs boqs = new boqs();
         f134312e = boqs;
-        bxvk.m124024a(boqs.class, boqs);
+        GeneratedMessageLite.m124024a(boqs.class, boqs);
     }
 
     private boqs() {
@@ -42,7 +42,7 @@ public final class boqs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134312e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f134312e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new boqs();
         } else {

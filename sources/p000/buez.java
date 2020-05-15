@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buez */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buez extends bxvk implements bxxd {
+public final class buez extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buez f153671d;
@@ -25,7 +25,7 @@ public final class buez extends bxvk implements bxxd {
     static {
         buez buez = new buez();
         f153671d = buez;
-        bxvk.m124024a(buez.class, buez);
+        GeneratedMessageLite.m124024a(buez.class, buez);
     }
 
     private buez() {
@@ -42,7 +42,7 @@ public final class buez extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153671d, "\u0001\u0003\u0000\u0001\u0002\u0005\u0003\u0000\u0002\u0000\u0002ဋ\u0001\u0003\u001b\u0005\u001b", new Object[]{"e", "a", "b", buev.class, "c", buev.class});
+            return GeneratedMessageLite.m124022a(f153671d, "\u0001\u0003\u0000\u0001\u0002\u0005\u0003\u0000\u0002\u0000\u0002ဋ\u0001\u0003\u001b\u0005\u001b", new Object[]{"e", "a", "b", buev.class, "c", buev.class});
         } else if (i2 == 3) {
             return new buez();
         } else {

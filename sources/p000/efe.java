@@ -14,7 +14,7 @@ public final class efe {
     public static ContextData m10295a(doh doh, bxkw bxkw, tka tka) {
         bxiq bxiq;
         if (VcDiffDecoder.f79290a) {
-            byte[] k = bxkw.f163807c.mo73780k();
+            byte[] k = bxkw.f163807c.getKey();
             if (k != null && k.length > 0) {
                 bxik bxik = bxkw.f163806b;
                 if (bxik == null) {
@@ -92,12 +92,12 @@ public final class efe {
                     bxuc a8 = bxuc.m123419a(bArr);
                     bxvd bxvd = tip.f46141a;
                     bxus c = bxus.m123744c();
-                    bxvk bxvk = (bxvk) bxcf.f162779a.mo74142c(4);
-                    bxxv a9 = bxxm.f165037a.mo74228a(bxvk);
-                    a9.mo74220a(bxvk, bxud.m123454a(a8), c);
-                    a9.mo74225d(bxvk);
-                    bxvk.m124027b(bxvk);
-                    bxcf bxcf = (bxcf) bxvk;
+                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bxcf.f162779a.mo74142c(4);
+                    bxxv a9 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                    a9.mo74220a(GeneratedMessageLite, bxud.m123454a(a8), c);
+                    a9.mo74225d(GeneratedMessageLite);
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                    bxcf bxcf = (bxcf) GeneratedMessageLite;
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;

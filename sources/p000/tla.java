@@ -90,7 +90,7 @@ public final class tla {
                 bxec.f163085f = j;
                 if (collection3 != null) {
                     if (!bxec.f163083d.mo73666a()) {
-                        bxec.f163083d = bxvk.m124019a(bxec.f163083d);
+                        bxec.f163083d = GeneratedMessageLite.m124019a(bxec.f163083d);
                     }
                     bxsy.m123078a(collection3, bxec.f163083d);
                 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brcp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brcp extends bxvk implements bxxd {
+public final class brcp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final brcp f142406g;
@@ -31,7 +31,7 @@ public final class brcp extends bxvk implements bxxd {
     static {
         brcp brcp = new brcp();
         f142406g = brcp;
-        bxvk.m124024a(brcp.class, brcp);
+        GeneratedMessageLite.m124024a(brcp.class, brcp);
     }
 
     private brcp() {
@@ -48,7 +48,7 @@ public final class brcp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142406g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001b\u0003ဉ\u0001\u0004ဈ\u0002\u0006ဉ\u0004", new Object[]{"a", "b", "c", bree.class, "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f142406g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001b\u0003ဉ\u0001\u0004ဈ\u0002\u0006ဉ\u0004", new Object[]{"a", "b", "c", bree.class, "d", "e", "f"});
         } else if (i2 == 3) {
             return new brcp();
         } else {

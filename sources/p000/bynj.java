@@ -29,7 +29,7 @@ final class bynj implements Runnable {
         botu botu = (botu) da.f164949b;
         bott.getClass();
         if (!botu.f134878a.mo73666a()) {
-            botu.f134878a = bxvk.m124021a(botu.f134878a);
+            botu.f134878a = GeneratedMessageLite.m124021a(botu.f134878a);
         }
         botu.f134878a.add(bott);
         botu botu2 = (botu) da.mo74062i();

@@ -19,7 +19,7 @@ final /* synthetic */ class akwf implements Runnable {
     public final void run() {
         WebView webView = this.f72991a;
         String str = this.f72992b;
-        sek sek = akwg.f72993b;
+        Logger Logger = akwg.f72993b;
         webView.evaluateJavascript(str, null);
     }
 }

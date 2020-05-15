@@ -328,7 +328,7 @@ public final class aamc {
         }
         ContentValues contentValues = new ContentValues();
         contentValues.put("rmq_id", Long.valueOf(j));
-        contentValues.put("data", blmp.mo73642k());
+        contentValues.put("data", blmp.serializeToBytes());
         contentValues.put("type", (Byte) (byte) 8);
         long insert = b.insert("outgoingRmqMessages", null, contentValues);
         synchronized (this.f28441d) {

@@ -150,7 +150,7 @@ public class SnetLaunchChimeraIntentService extends IntentOperation {
                                     aqbb aqbb4 = (aqbb) da3.mo74062i();
                                     aqbb4.getClass();
                                     if (!aqaz2.f85520d.mo73666a()) {
-                                        aqaz2.f85520d = bxvk.m124021a(aqaz2.f85520d);
+                                        aqaz2.f85520d = GeneratedMessageLite.m124021a(aqaz2.f85520d);
                                     }
                                     aqaz2.f85520d.add(aqbb4);
                                 }
@@ -163,7 +163,7 @@ public class SnetLaunchChimeraIntentService extends IntentOperation {
                             aqaz aqaz3 = (aqaz) da2.mo74062i();
                             aqaz3.getClass();
                             if (!aqba.f85523a.mo73666a()) {
-                                aqba.f85523a = bxvk.m124021a(aqba.f85523a);
+                                aqba.f85523a = GeneratedMessageLite.m124021a(aqba.f85523a);
                             }
                             aqba.f85523a.add(aqaz3);
                             bxvd bxvd = aqdu.f85803q;
@@ -284,7 +284,7 @@ public class SnetLaunchChimeraIntentService extends IntentOperation {
                         }
                         aqaw aqaw13 = (aqaw) bxvd11.f164949b;
                         if (!aqaw13.f85505g.mo73666a()) {
-                            aqaw13.f85505g = bxvk.m124021a(aqaw13.f85505g);
+                            aqaw13.f85505g = GeneratedMessageLite.m124021a(aqaw13.f85505g);
                         }
                         bxsy.m123078a(list, aqaw13.f85505g);
                         aqdu.f85795k.clear();

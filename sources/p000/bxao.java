@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxao */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxao extends bxvk implements bxxd {
+public final class bxao extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bxao f161729a;
@@ -16,10 +16,10 @@ public final class bxao extends bxvk implements bxxd {
     static {
         bxao bxao = new bxao();
         f161729a = bxao;
-        bxvk.m124024a(bxao.class, bxao);
+        GeneratedMessageLite.m124024a(bxao.class, bxao);
         bwny bwny = bwny.f160414k;
         bxao bxao2 = f161729a;
-        f161730b = bxvk.m124006a(bwny, bxao2, bxao2, 220794719, bxzf.MESSAGE);
+        f161730b = GeneratedMessageLite.m124006a(bwny, bxao2, bxao2, 220794719, bxzf.MESSAGE);
     }
 
     private bxao() {
@@ -37,7 +37,7 @@ public final class bxao extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f161729a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f161729a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bxao();

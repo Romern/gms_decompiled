@@ -115,7 +115,7 @@ final class axvx {
     private final axyi m83331a(byte[] bArr, boolean z, long j) {
         int i;
         bxvd da = ayel.f97321e.mo74144da();
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -156,7 +156,7 @@ final class axvx {
         ayel ayel3 = (ayel) da.mo74062i();
         ayen i5 = mo53652i();
         bxvd bxvd = (bxvd) i5.mo74142c(5);
-        bxvd.mo73625a((bxvk) i5);
+        bxvd.mo73625a((GeneratedMessageLite) i5);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -321,7 +321,7 @@ final class axvx {
         ayei.f97308h = i;
         ayen i7 = mo53652i();
         bxvd bxvd = (bxvd) i7.mo74142c(5);
-        bxvd.mo73625a((bxvk) i7);
+        bxvd.mo73625a((GeneratedMessageLite) i7);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -447,7 +447,7 @@ final class axvx {
         ayei ayei2 = (ayei) da.mo74062i();
         ayen i4 = mo53652i();
         bxvd bxvd = (bxvd) i4.mo74142c(5);
-        bxvd.mo73625a((bxvk) i4);
+        bxvd.mo73625a((GeneratedMessageLite) i4);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

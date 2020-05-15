@@ -161,7 +161,7 @@ public final class axig extends axlx {
         btto.f150371d = str6;
         if (b != null) {
             bxvd da7 = btse.f150191c.mo74144da();
-            bxtx a = bxtx.m123261a(b);
+            ByteString a = ByteString.m123261a(b);
             if (da7.f164950c) {
                 da7.mo74035c();
                 da7.f164950c = false;
@@ -187,7 +187,7 @@ public final class axig extends axlx {
             }
             btto btto3 = (btto) bttn.f164949b;
             if (!btto3.f150370c.mo73666a()) {
-                btto3.f150370c = bxvk.m124021a(btto3.f150370c);
+                btto3.f150370c = GeneratedMessageLite.m124021a(btto3.f150370c);
             }
             bxsy.m123078a(arrayList, btto3.f150370c);
         }
@@ -275,7 +275,7 @@ public final class axig extends axlx {
                             if (btrz4 == null) {
                                 btrz4 = btrz.f150167e;
                             }
-                            bArr = btrz4.f150171c.mo73780k();
+                            bArr = btrz4.f150171c.getKey();
                         } else {
                             bArr = null;
                         }
@@ -288,7 +288,7 @@ public final class axig extends axlx {
                             if (btrz6 == null) {
                                 btrz6 = btrz.f150167e;
                             }
-                            bArr2 = btrz6.f150172d.mo73780k();
+                            bArr2 = btrz6.f150172d.getKey();
                         } else {
                             bArr2 = null;
                         }
@@ -300,7 +300,7 @@ public final class axig extends axlx {
                 int size2 = bxwc2.size();
                 for (int i6 = 0; i6 < size2; i6++) {
                     btsd btsd = (btsd) bxwc2.get(i6);
-                    arrayList3.add(new InstrumentCreationToken(btsd.f150188c.mo73780k(), btsd.f150186a, btsd.f150187b, btsd.f150189d.mo73780k()));
+                    arrayList3.add(new InstrumentCreationToken(btsd.f150188c.getKey(), btsd.f150186a, btsd.f150187b, btsd.f150189d.getKey()));
                 }
                 String str9 = bttp.f150382h;
                 if (TextUtils.isEmpty(str9) && (bttp.f150375a & 16) != 0) {
@@ -320,7 +320,7 @@ public final class axig extends axlx {
                             bngx = bngx.m109376e();
                         }
                         if (TextUtils.isEmpty(str)) {
-                            mo53236a(new axil(arrayList2, arrayList3, a3, bngx, str, bttp.f150380f.mo73780k()));
+                            mo53236a(new axil(arrayList2, arrayList3, a3, bngx, str, bttp.f150380f.getKey()));
                             return;
                         } else {
                             mo53234a(16510);

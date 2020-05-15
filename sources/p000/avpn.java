@@ -11,7 +11,7 @@ import java.util.Deque;
 public final class avpn extends UpdateEngineCallback {
 
     /* renamed from: a */
-    public static final sek f93712a = avpq.m79018e("UpdateEngineDelegate");
+    public static final Logger f93712a = avpq.m79018e("UpdateEngineDelegate");
 
     /* renamed from: b */
     public static final avsz f93713b = new avpm();

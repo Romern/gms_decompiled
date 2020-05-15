@@ -33,7 +33,7 @@ public final class DecodedTokensProtoHelper {
             bzwo bzwo2 = (bzwo) da2.mo74062i();
             bzwo2.getClass();
             if (!bzwp.f171664a.mo73666a()) {
-                bzwp.f171664a = bxvk.m124021a(bzwp.f171664a);
+                bzwp.f171664a = GeneratedMessageLite.m124021a(bzwp.f171664a);
             }
             bzwp.f171664a.add(bzwo2);
         }

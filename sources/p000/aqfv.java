@@ -74,7 +74,7 @@ public final class aqfv {
         apzg.f85237c = z2;
         byte[] bArr = aqed.f85848b;
         if (bArr != null) {
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -96,7 +96,7 @@ public final class aqfv {
             for (int i = 0; i < length; i++) {
                 byte[] bArr3 = aqed.f85849c[i];
                 if (bArr3 != null) {
-                    bxtx a2 = bxtx.m123261a(bArr3);
+                    ByteString a2 = ByteString.m123261a(bArr3);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -104,7 +104,7 @@ public final class aqfv {
                     apzg apzg4 = (apzg) da.f164949b;
                     a2.getClass();
                     if (!apzg4.f85239e.mo73666a()) {
-                        apzg4.f85239e = bxvk.m124021a(apzg4.f85239e);
+                        apzg4.f85239e = GeneratedMessageLite.m124021a(apzg4.f85239e);
                     }
                     apzg4.f85239e.add(a2);
                 }
@@ -144,7 +144,7 @@ public final class aqfv {
                         apzg apzg7 = (apzg) da.f164949b;
                         str2.getClass();
                         if (!apzg7.f85241g.mo73666a()) {
-                            apzg7.f85241g = bxvk.m124021a(apzg7.f85241g);
+                            apzg7.f85241g = GeneratedMessageLite.m124021a(apzg7.f85241g);
                         }
                         apzg7.f85241g.add(str2);
                     }
@@ -161,7 +161,7 @@ public final class aqfv {
                         apzg apzg8 = (apzg) da.f164949b;
                         str3.getClass();
                         if (!apzg8.f85242h.mo73666a()) {
-                            apzg8.f85242h = bxvk.m124021a(apzg8.f85242h);
+                            apzg8.f85242h = GeneratedMessageLite.m124021a(apzg8.f85242h);
                         }
                         apzg8.f85242h.add(str3);
                     }
@@ -212,7 +212,7 @@ public final class aqfv {
                     aqah aqah3 = (aqah) da2.mo74062i();
                     aqah3.getClass();
                     if (!apzg9.f85243i.mo73666a()) {
-                        apzg9.f85243i = bxvk.m124021a(apzg9.f85243i);
+                        apzg9.f85243i = GeneratedMessageLite.m124021a(apzg9.f85243i);
                     }
                     apzg9.f85243i.add(aqah3);
                 }
@@ -222,7 +222,7 @@ public final class aqfv {
     }
 
     /* renamed from: a */
-    public final bxvd mo47842a(bxtx bxtx) {
+    public final bxvd mo47842a(ByteString bxtx) {
         if (this.f86014h.containsKey(bxtx)) {
             return (bxvd) this.f86014h.get(bxtx);
         }
@@ -471,7 +471,7 @@ public final class aqfv {
         }
         aqaq aqaq18 = (aqaq) aqap17.f164949b;
         if (!aqaq18.f85447g.mo73666a()) {
-            aqaq18.f85447g = bxvk.m124021a(aqaq18.f85447g);
+            aqaq18.f85447g = GeneratedMessageLite.m124021a(aqaq18.f85447g);
         }
         bxsy.m123078a(list, aqaq18.f85447g);
         for (bxvd bxvd : this.f86014h.values()) {
@@ -484,14 +484,14 @@ public final class aqfv {
             apze apze = (apze) bxvd.mo74062i();
             apze.getClass();
             if (!aqaq19.f85428C.mo73666a()) {
-                aqaq19.f85428C = bxvk.m124021a(aqaq19.f85428C);
+                aqaq19.f85428C = GeneratedMessageLite.m124021a(aqaq19.f85428C);
             }
             aqaq19.f85428C.add(apze);
         }
         this.f86012f = (aqaq) this.f86009a.mo74062i();
         if (this.f86010b.f85935b.mo47807b("clearcut_idle_logging_enabled")) {
             qws a5 = qws.m33019a(this.f86015i, "ANDROID_SNET_IDLE");
-            byte[] k = this.f86012f.mo73642k();
+            byte[] k = this.f86012f.serializeToBytes();
             if (cgkt.m145941m()) {
                 int length = k.length;
                 if (length <= 4096) {
@@ -549,7 +549,7 @@ public final class aqfv {
                         apzl apzl = (apzl) da.f164949b;
                         a.getClass();
                         if (!apzl.f85269a.mo73666a()) {
-                            apzl.f85269a = bxvk.m124021a(apzl.f85269a);
+                            apzl.f85269a = GeneratedMessageLite.m124021a(apzl.f85269a);
                         }
                         apzl.f85269a.add(a);
                     }
@@ -585,7 +585,7 @@ public final class aqfv {
                         apzl apzl2 = (apzl) da.f164949b;
                         apzk3.getClass();
                         if (!apzl2.f85270b.mo73666a()) {
-                            apzl2.f85270b = bxvk.m124021a(apzl2.f85270b);
+                            apzl2.f85270b = GeneratedMessageLite.m124021a(apzl2.f85270b);
                         }
                         apzl2.f85270b.add(apzk3);
                     }
@@ -601,7 +601,7 @@ public final class aqfv {
                     aqaq aqaq2 = aqaq.f85424P;
                     apzl3.getClass();
                     if (!aqaq.f85433H.mo73666a()) {
-                        aqaq.f85433H = bxvk.m124021a(aqaq.f85433H);
+                        aqaq.f85433H = GeneratedMessageLite.m124021a(aqaq.f85433H);
                     }
                     aqaq.f85433H.add(apzl3);
                 }

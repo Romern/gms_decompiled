@@ -29,7 +29,7 @@ public final class bfoc {
             if (f114541b == null) {
                 SecureRandom secureRandom = new SecureRandom();
                 bfob a = bfob.m97393a(context, secureRandom);
-                long a2 = spn.m35843a(context);
+                long a2 = spn.getAndroidId(context);
                 if (a2 != 0) {
                     f114541b = new bfoc(new bfoe(a, new bfod(secureRandom, Long.toString(a2))));
                 } else {
@@ -92,7 +92,7 @@ public final class bfoc {
                 byte[] a2 = boav.m111020a(fileInputStream2);
                 bfoe bfoe = this.f114542a;
                 byte[] bArr = bfoe.f114546b.mo62032b(a2);
-                buil = (buil) bxvk.m124014a(buil.f153949d, bArr);
+                buil = (buil) GeneratedMessageLite.m124014a(buil.f153949d, bArr);
                 try {
                     fileInputStream2.close();
                 } catch (IOException e) {
@@ -158,11 +158,11 @@ public final class bfoc {
         buil.f153951a |= 1;
         buil.f153952b = currentTimeMillis;
         if (!buil.f153953c.mo73666a()) {
-            buil.f153953c = bxvk.m124021a(buil.f153953c);
+            buil.f153953c = GeneratedMessageLite.m124021a(buil.f153953c);
         }
         bxsy.m123078a(list, buil.f153953c);
         bfoe bfoe = this.f114542a;
-        byte[] k = ((buil) da.mo74062i()).mo73642k();
+        byte[] k = ((buil) da.mo74062i()).serializeToBytes();
         if (!bfoe.f114547c) {
             bArr = bfoe.f114545a.mo62027a(k);
         } else {

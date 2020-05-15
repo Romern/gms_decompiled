@@ -28,7 +28,7 @@ public final class arip extends dck implements ariq {
     public arip(arar arar) {
         this();
         this.f87783b = new arjn(this, Looper.getMainLooper());
-        sdo.m34966a(arar, "listener cannot be null.");
+        sdo.checkIfNull(arar, "listener cannot be null.");
         this.f87782a = arar;
     }
 

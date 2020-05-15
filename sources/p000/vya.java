@@ -101,7 +101,7 @@ public final class vya {
     /* access modifiers changed from: package-private */
     /* renamed from: a */
     public final vyi mo28949a(vvt vvt, abpc abpc) {
-        vvu vvu = (vvu) bxvk.m124007a(vvu.f50069c, vwg.m41487a(this.f50218c, vvt.mo73639aL(), abpc));
+        vvu vvu = (vvu) GeneratedMessageLite.m124007a(vvu.f50069c, vwg.m41487a(this.f50218c, vvt.mo73639aL(), abpc));
         vyn vyn = this.f50217b;
         vvz vvz = vvt.f50054b;
         if (vvz == null) {

@@ -8,7 +8,7 @@ import android.content.Context;
 public final class jgl extends rrj {
 
     /* renamed from: a */
-    private static final sek f22424a = ght.m13171a("AuthManaged", "FetchManagingAppInfoLoader");
+    private static final Logger f22424a = ght.m13171a("AuthManaged", "FetchManagingAppInfoLoader");
 
     /* renamed from: b */
     private final jhm f22425b;

@@ -591,7 +591,7 @@ public final class azcv {
         azdl.m85412a(this.f99016a).mo54746a(civt2.f191540a.mo86595a());
         azdl.m85412a(this.f99016a).mo54749b(1);
         azcm a = azcm.m85300a(this.f99016a);
-        byte[] k = cblx2.f177577a.mo73780k();
+        byte[] k = cblx2.f177577a.getKey();
         byte[] a2 = civt2.f191540a.mo86595a();
         byte[] bArr3 = civt2.f191541b.f191538a;
         int[] a3 = bqcn.m112584a(list2);
@@ -609,7 +609,7 @@ public final class azcv {
             contentValues.put("auth_token_expiration_timestamp_ms", Long.valueOf(j));
             contentValues.put("last_token_refresh_timestamp_us", Long.valueOf(micros));
             if (afiv != null) {
-                contentValues.put("deletion_policy", afiv.mo73642k());
+                contentValues.put("deletion_policy", afiv.serializeToBytes());
             }
             a.f98996b.beginTransaction();
             try {

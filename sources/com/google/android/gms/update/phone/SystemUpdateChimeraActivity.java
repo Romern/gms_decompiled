@@ -305,7 +305,7 @@ public class SystemUpdateChimeraActivity extends FragmentActivity implements Loa
         avki avki = this.f109526n;
         rod a = roe.m34172a(avki, g.f43163B, avkj.class.getSimpleName());
         rob rob = a.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         g.mo24699a(new avlc(a, avki), new avld(rob, avki));
         mo51540g().mo51341a().mo50373a(this);
         if (getIntent().getBooleanExtra("triggered_by_notification", false)) {

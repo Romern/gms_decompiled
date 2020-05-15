@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byfi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byfi extends bxvk implements bxxd {
+public final class byfi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final byfi f166018g;
@@ -31,7 +31,7 @@ public final class byfi extends bxvk implements bxxd {
     static {
         byfi byfi = new byfi();
         f166018g = byfi;
-        bxvk.m124024a(byfi.class, byfi);
+        GeneratedMessageLite.m124024a(byfi.class, byfi);
     }
 
     private byfi() {
@@ -48,7 +48,7 @@ public final class byfi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166018g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001b\u0003ခ\u0001\u0004ဌ\u0002\u0005ဌ\u0003", new Object[]{"a", "b", "c", byff.class, "d", "e", byfg.f166016a, "f", byfh.f166017a});
+            return GeneratedMessageLite.m124022a(f166018g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0001\u0000\u0001ဉ\u0000\u0002\u001b\u0003ခ\u0001\u0004ဌ\u0002\u0005ဌ\u0003", new Object[]{"a", "b", "c", byff.class, "d", "e", byfg.f166016a, "f", byfh.f166017a});
         } else if (i2 == 3) {
             return new byfi();
         } else {

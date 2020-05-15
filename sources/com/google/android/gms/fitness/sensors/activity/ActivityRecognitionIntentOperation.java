@@ -371,7 +371,7 @@ public class ActivityRecognitionIntentOperation extends IntentOperation {
         cacx.f172642b = cacw2;
         cacx.f172641a = 1;
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         cadm cadm = (cadm) bxvd;
         bxtx aL = ((cacx) da.mo74062i()).mo73639aL();
         if (cadm.f164950c) {

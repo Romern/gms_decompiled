@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwya */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwya extends bxvk implements bxxd {
+public final class bwya extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bwya f161433d;
@@ -22,7 +22,7 @@ public final class bwya extends bxvk implements bxxd {
     static {
         bwya bwya = new bwya();
         f161433d = bwya;
-        bxvk.m124024a(bwya.class, bwya);
+        GeneratedMessageLite.m124024a(bwya.class, bwya);
     }
 
     private bwya() {
@@ -39,7 +39,7 @@ public final class bwya extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f161433d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ခ\u0001", new Object[]{"a", "b", bwxz.f161432a, "c"});
+            return GeneratedMessageLite.m124022a(f161433d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ခ\u0001", new Object[]{"a", "b", bwxz.f161432a, "c"});
         } else if (i2 == 3) {
             return new bwya();
         } else {

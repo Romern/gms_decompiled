@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutorService;
 public final class hms implements hky, hkz {
 
     /* renamed from: a */
-    public static final sek f20041a = ght.m13172b("ChromeSyncCredentialProvider");
+    public static final Logger f20041a = ght.m13172b("ChromeSyncCredentialProvider");
 
     /* renamed from: b */
     public final hmc f20042b;

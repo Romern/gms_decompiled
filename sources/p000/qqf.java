@@ -11,7 +11,7 @@ public final class qqf {
 
     /* renamed from: a */
     public final qqg mo24204a() {
-        sdo.m34966a(this.f41945a, "A valid account is required.");
+        sdo.checkIfNull(this.f41945a, "A valid account is required.");
         return new qqg(this);
     }
 }

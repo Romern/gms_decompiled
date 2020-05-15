@@ -100,7 +100,7 @@ public final class PlaceEntity extends AbstractSafeParcelable implements Reflect
         if (parcelable == null) {
             return null;
         }
-        sdo.m34966a(context, "context must not be null");
+        sdo.checkIfNull(context, "context must not be null");
         try {
             return (PlaceEntity) parcelable;
         } catch (ClassCastException e) {

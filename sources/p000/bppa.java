@@ -17,7 +17,7 @@ public final class bppa extends bxvd implements bxxd {
         bppb bppb2 = bppb.f138595d;
         bpoz.getClass();
         if (!bppb.f138598b.mo73666a()) {
-            bppb.f138598b = bxvk.m124019a(bppb.f138598b);
+            bppb.f138598b = GeneratedMessageLite.m124019a(bppb.f138598b);
         }
         bppb.f138598b.mo74153d(bpoz.f138594g);
     }

@@ -25,7 +25,7 @@ public final class C0612aj {
         Looper looper;
         synchronized (this.f8926d) {
             if (this.f8925c != 0) {
-                sdo.m34966a(this.f8924b, "Invalid state: mHandlerThread should already been initialized.");
+                sdo.checkIfNull(this.f8924b, "Invalid state: mHandlerThread should already been initialized.");
             } else if (this.f8924b == null) {
                 HandlerThread handlerThread = new HandlerThread("LooperProvider");
                 this.f8924b = handlerThread;

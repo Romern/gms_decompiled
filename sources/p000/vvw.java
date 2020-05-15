@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: vvw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class vvw extends bxvk implements bxxd {
+public final class vvw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final vvw f50079j;
@@ -14,13 +14,13 @@ public final class vvw extends bxvk implements bxxd {
     public int f50081a;
 
     /* renamed from: b */
-    public bxtx f50082b = bxtx.f164797b;
+    public ByteString f50082b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f50083c = bxtx.f164797b;
+    public ByteString f50083c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f50084d = bxtx.f164797b;
+    public ByteString f50084d = ByteString.f164797b;
 
     /* renamed from: e */
     public int f50085e;
@@ -35,7 +35,7 @@ public final class vvw extends bxvk implements bxxd {
     public int f50088h;
 
     /* renamed from: i */
-    public bxtx f50089i = bxtx.f164797b;
+    public ByteString f50089i = ByteString.f164797b;
 
     /* renamed from: k */
     private String f50090k = "";
@@ -43,7 +43,7 @@ public final class vvw extends bxvk implements bxxd {
     static {
         vvw vvw = new vvw();
         f50079j = vvw;
-        bxvk.m124024a(vvw.class, vvw);
+        GeneratedMessageLite.m124024a(vvw.class, vvw);
     }
 
     private vvw() {
@@ -60,7 +60,7 @@ public final class vvw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f50079j, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0000\u0000\u0001ည\u0000\u0002ဈ\u0001\u0003ည\u0002\u0004ဋ\u0004\u0005ည\u0003\u0006ဇ\u0005\u0007ဋ\u0006\bဋ\u0007\tည\b", new Object[]{"a", "b", "k", "c", "e", "d", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f50079j, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0000\u0000\u0001ည\u0000\u0002ဈ\u0001\u0003ည\u0002\u0004ဋ\u0004\u0005ည\u0003\u0006ဇ\u0005\u0007ဋ\u0006\bဋ\u0007\tည\b", new Object[]{"a", "b", "k", "c", "e", "d", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new vvw();
         } else {

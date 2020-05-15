@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqcr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqcr extends bxvk implements bxxd {
+public final class aqcr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final aqcr f85693e;
@@ -25,7 +25,7 @@ public final class aqcr extends bxvk implements bxxd {
     static {
         aqcr aqcr = new aqcr();
         f85693e = aqcr;
-        bxvk.m124024a(aqcr.class, aqcr);
+        GeneratedMessageLite.m124024a(aqcr.class, aqcr);
     }
 
     private aqcr() {
@@ -42,7 +42,7 @@ public final class aqcr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85693e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဉ\u0000\u0003ဉ\u0001", new Object[]{"a", "b", aqdc.class, "c", "d"});
+            return GeneratedMessageLite.m124022a(f85693e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002ဉ\u0000\u0003ဉ\u0001", new Object[]{"a", "b", aqdc.class, "c", "d"});
         } else if (i2 == 3) {
             return new aqcr();
         } else {

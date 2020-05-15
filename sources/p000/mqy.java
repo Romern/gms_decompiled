@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mqy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mqy extends bxvk implements bxxd {
+public final class mqy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final mqy f34367f;
@@ -28,7 +28,7 @@ public final class mqy extends bxvk implements bxxd {
     static {
         mqy mqy = new mqy();
         f34367f = mqy;
-        bxvk.m124024a(mqy.class, mqy);
+        GeneratedMessageLite.m124024a(mqy.class, mqy);
     }
 
     private mqy() {
@@ -45,7 +45,7 @@ public final class mqy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34367f, "\u0001\u0004\u0000\u0001\u0001\u0007\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဌ\u0002\u0007ဉ\u0006", new Object[]{"a", "b", "c", "d", mqx.f34366a, "e"});
+            return GeneratedMessageLite.m124022a(f34367f, "\u0001\u0004\u0000\u0001\u0001\u0007\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဌ\u0002\u0007ဉ\u0006", new Object[]{"a", "b", "c", "d", mqx.f34366a, "e"});
         } else if (i2 == 3) {
             return new mqy();
         } else {

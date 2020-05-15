@@ -20,7 +20,7 @@ import com.google.android.gms.smartdevice.d2d.data.ProgressEvent;
 public final class aray extends aqxz {
 
     /* renamed from: d */
-    public static final sek f87241d = ascp.m73787a("D2D", "SourceDeviceBootstrapController");
+    public static final Logger f87241d = ascp.m73787a("D2D", "SourceDeviceBootstrapController");
 
     /* renamed from: e */
     public final armh f87242e;
@@ -116,7 +116,7 @@ public final class aray extends aqxz {
         long j = (long) bootstrapOptions.f107846s;
         long s = cgqs.f187523a.mo6606a().mo84333s();
         if (R > 0 && j < s) {
-            f87241d.mo25409a("Waiting %dms before sending completion.", Long.valueOf(R));
+            f87241d.logVerbose("Waiting %dms before sending completion.", Long.valueOf(R));
             try {
                 Thread.sleep(R);
             } catch (InterruptedException e) {
@@ -129,7 +129,7 @@ public final class aray extends aqxz {
 
     /* renamed from: e */
     public final void mo48239e() {
-        f87241d.mo25409a("cleanup()", new Object[0]);
+        f87241d.logVerbose("cleanup()", new Object[0]);
         super.mo48239e();
         if (this.f87246i != null) {
             this.f87246i = null;
@@ -152,7 +152,7 @@ public final class aray extends aqxz {
     public final void mo48356a(BootstrapConfigurations bootstrapConfigurations, int i) {
         boolean z;
         aucb aucb;
-        sdo.m34966a(bootstrapConfigurations, "bootstrapConfigurations cannot be null.");
+        sdo.checkIfNull(bootstrapConfigurations, "bootstrapConfigurations cannot be null.");
         this.f87244g = bootstrapConfigurations;
         f87241d.mo25412b("Starting bootstrap", new Object[0]);
         boolean a = asbu.m73761a(this.f87252o);
@@ -174,7 +174,7 @@ public final class aray extends aqxz {
             bootstrapConfigurations.mo59032a(0);
         }
         this.f87242e.mo48650c(m72360f());
-        long a2 = spn.m35843a(this.f87248k);
+        long a2 = spn.getAndroidId(this.f87248k);
         rfi rfi = rfi.f42868a;
         bootstrapConfigurations.mo59035a(new DeviceDetails(a2, rfy.m33553j(this.f87248k)));
         araa b = this.f87252o.mo59048b();
@@ -197,7 +197,7 @@ public final class aray extends aqxz {
         boolean c2 = cgps.m146491c();
         boolean d = cgps.m146492d();
         if (cgqf.m146562c()) {
-            f87241d.mo25409a("createWorkProfileTask: targetSupport=%s, supportsWorkProfileSetup=%s, workProfileFallback=%s", Boolean.valueOf(a4), Boolean.valueOf(c2), Boolean.valueOf(d));
+            f87241d.logVerbose("createWorkProfileTask: targetSupport=%s, supportsWorkProfileSetup=%s, workProfileFallback=%s", Boolean.valueOf(a4), Boolean.valueOf(c2), Boolean.valueOf(d));
         }
         if (d) {
             if (this.f87253p.mo48623c() == 4) {
@@ -263,10 +263,10 @@ public final class aray extends aqxz {
     public final void mo48229a(MessagePayload messagePayload) {
         aral aral;
         aran aran;
-        f87241d.mo25409a("Processing MessagePayload.", new Object[0]);
+        f87241d.logVerbose("Processing MessagePayload.", new Object[0]);
         DisplayText displayText = messagePayload.f107979f;
         if (displayText != null) {
-            f87241d.mo25409a("Processing DisplayText", new Object[0]);
+            f87241d.logVerbose("Processing DisplayText", new Object[0]);
             sdo.m34959a(displayText);
             String str = displayText.f107972b;
             if (!TextUtils.isEmpty(str)) {
@@ -275,7 +275,7 @@ public final class aray extends aqxz {
         }
         BootstrapOptions bootstrapOptions = messagePayload.f107977d;
         if (bootstrapOptions != null) {
-            f87241d.mo25409a("Processing BootstrapOptions.", new Object[0]);
+            f87241d.logVerbose("Processing BootstrapOptions.", new Object[0]);
             sdo.m34959a(bootstrapOptions);
             this.f87252o = bootstrapOptions;
             if (!ascn.m73781a(bootstrapOptions.f107839l)) {
@@ -297,7 +297,7 @@ public final class aray extends aqxz {
         }
         ProgressEvent progressEvent = messagePayload.f107981h;
         if (progressEvent != null) {
-            f87241d.mo25409a("Processing ProgressEvent", new Object[0]);
+            f87241d.logVerbose("Processing ProgressEvent", new Object[0]);
             this.f87062c.mo48226a(new BootstrapProgressResult(progressEvent.f107993b, new Bundle()));
         }
         AccountTransferPayload accountTransferPayload = messagePayload.f107984k;

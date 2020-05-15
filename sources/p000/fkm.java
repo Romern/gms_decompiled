@@ -68,7 +68,7 @@ public final class fkm {
       sdo.a(boolean, java.lang.Object):void */
     protected fkm(fkn fkn) {
         Context context = fkn.f16800a;
-        sdo.m34966a(context, "Application context can't be null");
+        sdo.checkIfNull(context, "Application context can't be null");
         Context context2 = fkn.f16801b;
         sdo.m34959a(context2);
         this.f16785a = context;
@@ -238,7 +238,7 @@ public final class fkm {
 
     /* renamed from: a */
     public static final void m11884a(fkj fkj) {
-        sdo.m34966a(fkj, "Analytics service not created/initialized");
+        sdo.checkIfNull(fkj, "Analytics service not created/initialized");
         sdo.m34975b(fkj.mo10953s(), "Analytics service not initialized");
     }
 

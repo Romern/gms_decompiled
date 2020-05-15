@@ -44,7 +44,7 @@ final /* synthetic */ class bdkf implements Runnable {
         String str3 = this.f105793f;
         bdgf bdgf = (bdgf) bdkg.f105796c.mo6445a();
         bxvd bxvd = (bxvd) cios.mo74142c(5);
-        bxvd.mo73625a((bxvk) cios);
+        bxvd.mo73625a((GeneratedMessageLite) cios);
         bxvd da = cioe.f191045g.mo74144da();
         int i = bdgf.f105582i;
         if (da.f164950c) {
@@ -131,7 +131,7 @@ final /* synthetic */ class bdkf implements Runnable {
                     cioc = cioc.f191040c;
                 }
                 bxvd bxvd2 = (bxvd) cioc.mo74142c(5);
-                bxvd2.mo73625a((bxvk) cioc);
+                bxvd2.mo73625a((GeneratedMessageLite) cioc);
                 if (!((cioc) bxvd2.f164949b).f191043b.isEmpty()) {
                     String str7 = str + "::" + ((cioc) bxvd2.f164949b).f191043b;
                     if (bxvd2.f164950c) {
@@ -164,7 +164,7 @@ final /* synthetic */ class bdkf implements Runnable {
             }
             cios cios5 = (cios) bxvd.mo74062i();
             bxvd bxvd3 = (bxvd) cios5.mo74142c(5);
-            bxvd3.mo73625a((bxvk) cios5);
+            bxvd3.mo73625a((GeneratedMessageLite) cios5);
             if (!z) {
                 if (str2 == null) {
                     if (bxvd3.f164950c) {

@@ -71,12 +71,12 @@ public final /* synthetic */ class jbj implements Runnable {
                     if (i2 == 0) {
                         i2 = 1;
                     }
-                    sek sek = KeyRecoveryIntentOperation.f10913a;
+                    Logger Logger = KeyRecoveryIntentOperation.f10913a;
                     Object[] objArr = new Object[1];
                     if (i2 != 1) {
                         int i3 = i2 - 2;
                         objArr[0] = Integer.toString(i3);
-                        sek.mo25414c("OpenVault result %s", objArr);
+                        Logger.mo25414c("OpenVault result %s", objArr);
                         if (i2 == 3) {
                             jbi.mo13561b();
                         }

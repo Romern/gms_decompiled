@@ -332,7 +332,7 @@ public final class aimk {
     /* renamed from: a */
     public final synchronized void mo37673a(IceCandidate iceCandidate) {
         if (m57461j()) {
-            this.f69181g.mo37989a(this.f69179e, this.f69176b, aist.m57871a(this.f69184j, Arrays.asList(iceCandidate)).mo73642k());
+            this.f69181g.mo37989a(this.f69179e, this.f69176b, aist.m57871a(this.f69184j, Arrays.asList(iceCandidate)).serializeToBytes());
             return;
         }
         this.f69187m.add(iceCandidate);
@@ -352,7 +352,7 @@ public final class aimk {
         IceCandidate iceCandidate;
         if (this.f69175a != null) {
             try {
-                bvgv bvgv = (bvgv) bxvk.m124016a(bvgv.f156046f, bArr, bxus.m123744c());
+                bvgv bvgv = (bvgv) GeneratedMessageLite.m124016a(bvgv.f156046f, bArr, bxus.m123744c());
                 if ((bvgv.f156048a & 1) != 0) {
                     if (bvgv.f156049b == 6 && this.f69176b == null) {
                         bvgr bvgr = bvgv.f156051d;
@@ -424,7 +424,7 @@ public final class aimk {
                                     bvgq2.getClass();
                                     bvgv4.f156050c = bvgq2;
                                     bvgv4.f156049b = 3;
-                                    if (!aith.mo37987a(aiss, ((bvgv) da.mo74062i()).mo73642k())) {
+                                    if (!aith.mo37987a(aiss, ((bvgv) da.mo74062i()).serializeToBytes())) {
                                         String valueOf = String.valueOf(this.f69176b);
                                         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 25);
                                         sb.append("Unable to send offer to ");
@@ -435,7 +435,7 @@ public final class aimk {
                                     }
                                     this.f69186l = null;
                                     if (!this.f69187m.isEmpty()) {
-                                        this.f69181g.mo37989a(this.f69179e, this.f69176b, aist.m57871a(this.f69184j, this.f69187m).mo73642k());
+                                        this.f69181g.mo37989a(this.f69179e, this.f69176b, aist.m57871a(this.f69184j, this.f69187m).serializeToBytes());
                                         this.f69187m.clear();
                                     }
                                 } else {
@@ -501,7 +501,7 @@ public final class aimk {
                                     bvgn2.getClass();
                                     bvgv7.f156050c = bvgn2;
                                     bvgv7.f156049b = 4;
-                                    if (!aith2.mo37987a(aiss3, ((bvgv) da4.mo74062i()).mo73642k())) {
+                                    if (!aith2.mo37987a(aiss3, ((bvgv) da4.mo74062i()).serializeToBytes())) {
                                         m57457a("Failed to send answer to peer.");
                                     }
                                 }
@@ -612,7 +612,7 @@ public final class aimk {
                     bvgs.getClass();
                     bvgv3.f156050c = bvgs;
                     bvgv3.f156049b = 6;
-                    if (!aith.mo37987a(aiss2, ((bvgv) da.mo74062i()).mo73642k())) {
+                    if (!aith.mo37987a(aiss2, ((bvgv) da.mo74062i()).serializeToBytes())) {
                         String valueOf = String.valueOf(this.f69176b);
                         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 39);
                         sb.append("Could not send signaling poke to peer ");

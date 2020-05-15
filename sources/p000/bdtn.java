@@ -74,7 +74,7 @@ public final class bdtn implements bdtj {
                 m91419a();
                 query = this.f106424c.query("continuation_token", new String[]{"token"}, null, null, null, null, null);
                 if (query.moveToNext()) {
-                    bmxv = bmxv.m108566b(bxtx.m123261a(query.getBlob(0)));
+                    bmxv = bmxv.m108566b(ByteString.m123261a(query.getBlob(0)));
                 } else {
                     bmxv = bmvz.f131120a;
                 }
@@ -87,7 +87,7 @@ public final class bdtn implements bdtj {
                     query2 = this.f106424c.query("push_payloads", new String[]{"id", "payload"}, null, null, null, null, "id");
                     while (query2.moveToNext()) {
                         j3 = Math.max(j3, query2.getLong(0));
-                        j2.mo67668c(bxtx.m123261a(query2.getBlob(1)));
+                        j2.mo67668c(ByteString.m123261a(query2.getBlob(1)));
                     }
                     if (query2 != null) {
                         query2.close();
@@ -117,13 +117,13 @@ public final class bdtn implements bdtj {
     }
 
     /* renamed from: a */
-    public final void mo58349a(bxtx bxtx) {
+    public final void mo58349a(ByteString bxtx) {
         bmxy.m108600b(this.f106424c.isOpen());
         try {
             this.f106424c.beginTransaction();
             ContentValues contentValues = new ContentValues(2);
             contentValues.put("timestamp_millis", Long.valueOf(System.currentTimeMillis()));
-            contentValues.put("payload", bxtx.mo73780k());
+            contentValues.put("payload", bxtx.getKey());
             mo58354a(this.f106424c.insertOrThrow("push_payloads", null, contentValues) - ((long) this.f106425d));
             m91419a();
             this.f106424c.setTransactionSuccessful();

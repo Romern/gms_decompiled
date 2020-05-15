@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: zzv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class zzv extends bxvk implements bxxd {
+public final class zzv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final zzv f56346b;
@@ -16,7 +16,7 @@ public final class zzv extends bxvk implements bxxd {
     static {
         zzv zzv = new zzv();
         f56346b = zzv;
-        bxvk.m124024a(zzv.class, zzv);
+        GeneratedMessageLite.m124024a(zzv.class, zzv);
     }
 
     private zzv() {
@@ -33,7 +33,7 @@ public final class zzv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f56346b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", zzu.class});
+            return GeneratedMessageLite.m124022a(f56346b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", zzu.class});
         } else if (i2 == 3) {
             return new zzv();
         } else {

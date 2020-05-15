@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public final class xzi extends xzb {
 
     /* renamed from: f */
-    public static final sek f53449f = new sek(new String[]{"StringStoreKeyHandleCache"}, (short[]) null);
+    public static final Logger f53449f = new Logger(new String[]{"StringStoreKeyHandleCache"}, (short[]) null);
 
     /* renamed from: b */
     public final xwj f53450b;

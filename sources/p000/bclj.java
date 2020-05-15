@@ -8,7 +8,7 @@ public final class bclj {
         bcsy f = bcsz.m89872f();
         f.mo57491b(cbdr.f176778b);
         f.mo57492c(cbdr.f176779c);
-        f.mo57490a(cbdr.f176777a.mo73780k());
+        f.mo57490a(cbdr.f176777a.getKey());
         f.mo57489a(cbdr.f176781e);
         bzrt bzrt = cbdr.f176780d;
         if (bzrt != null) {
@@ -20,7 +20,7 @@ public final class bclj {
     /* renamed from: a */
     public static cbdr m89243a(bcsz bcsz) {
         bxvd da = cbdr.f176775f.mo74144da();
-        bxtx a = bxtx.m123261a(bcsz.mo57340a());
+        ByteString a = ByteString.m123261a(bcsz.mo57340a());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

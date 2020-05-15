@@ -46,7 +46,7 @@ public final class qox {
                 bxvd.f164950c = false;
             }
             qov qov = qov.f41897f;
-            ((qov) bxvd.f164949b).f41902d = bxvk.m124030de();
+            ((qov) bxvd.f164949b).f41902d = GeneratedMessageLite.m124030de();
             bxvd.mo73943F(unmodifiableList.subList(0, 10));
         }
     }
@@ -136,7 +136,7 @@ public final class qox {
         while (true) {
             C1245ok okVar = this.f41905a;
             if (i >= okVar.f26809h) {
-                return ((qor) da.mo74062i()).mo73642k();
+                return ((qor) da.mo74062i()).serializeToBytes();
             }
             qov qov = (qov) okVar.mo15621c(i);
             if (da.f164950c) {

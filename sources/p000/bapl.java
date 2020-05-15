@@ -477,7 +477,7 @@ public final class bapl implements Closeable, baqf {
                                     arrayList.add(bqdx.m112673a(bqdf.m112620a(bqgg, Exception.class, bapi2, bqfb.INSTANCE), new bapj(bapk3, j, z4, a5, l2, z2, z5), bqfb.INSTANCE));
                                     bapk2 = bapk3;
                                     try {
-                                        ((achw) bapk2.f101495k.f101499a.mo16713a()).mo25409a("Sync started", new Object[0]);
+                                        ((achw) bapk2.f101495k.f101499a.mo16713a()).logVerbose("Sync started", new Object[0]);
                                         l = null;
                                         i = 1;
                                     } catch (Exception e4) {
@@ -531,7 +531,7 @@ public final class bapl implements Closeable, baqf {
                                 bapi = new bapi(bapk5, elapsedRealtime, z9, a5, l2, z2, z5);
                                 arrayList.add(bqdx.m112673a(bqdf.m112620a(bqgg, Exception.class, bapi22, bqfb.INSTANCE), new bapj(bapk3, j, z4, a5, l2, z2, z5), bqfb.INSTANCE));
                                 bapk2 = bapk3;
-                                ((achw) bapk2.f101495k.f101499a.mo16713a()).mo25409a("Sync started", new Object[0]);
+                                ((achw) bapk2.f101495k.f101499a.mo16713a()).logVerbose("Sync started", new Object[0]);
                                 l = null;
                                 i = 1;
                             } catch (Exception e6) {

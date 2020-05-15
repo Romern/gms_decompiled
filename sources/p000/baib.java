@@ -54,7 +54,7 @@ public final class baib implements Callable {
     /* renamed from: a */
     public final List call() {
         banx a;
-        ((achw) this.f100935f.mo16713a()).mo25409a("Reading latest footprint from %s/%s.", Integer.valueOf(this.f100932c), Integer.valueOf(this.f100933d));
+        ((achw) this.f100935f.mo16713a()).logVerbose("Reading latest footprint from %s/%s.", Integer.valueOf(this.f100932c), Integer.valueOf(this.f100933d));
         bafl bafl = null;
         try {
             bafl = this.f100930a.mo55662a(this.f100931b, this.f100932c, this.f100933d);

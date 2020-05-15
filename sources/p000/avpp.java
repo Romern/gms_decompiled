@@ -11,7 +11,7 @@ public final class avpp {
     public static final avto f93721a = new avto("logging.clearcut_event_logger.current_execution_id", "");
 
     /* renamed from: c */
-    private static final sek f93722c = new sek("SystemUpdate", "Logging", "ClearcutEventLogger");
+    private static final Logger f93722c = new Logger("SystemUpdate", "Logging", "ClearcutEventLogger");
 
     /* renamed from: d */
     private static final bnic f93723d = bnic.m109490a("com.google.android.gms", "com.google.android.gms.update");

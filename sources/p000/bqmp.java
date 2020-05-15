@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqmp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqmp extends bxvk implements bxxd {
+public final class bqmp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bqmp f141246b;
@@ -16,7 +16,7 @@ public final class bqmp extends bxvk implements bxxd {
     static {
         bqmp bqmp = new bqmp();
         f141246b = bqmp;
-        bxvk.m124024a(bqmp.class, bqmp);
+        GeneratedMessageLite.m124024a(bqmp.class, bqmp);
     }
 
     private bqmp() {
@@ -33,7 +33,7 @@ public final class bqmp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f141246b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bqmx.class});
+            return GeneratedMessageLite.m124022a(f141246b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bqmx.class});
         } else if (i2 == 3) {
             return new bqmp();
         } else {

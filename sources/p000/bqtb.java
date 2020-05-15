@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqtb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqtb extends bxvk implements bxxd {
+public final class bqtb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bqtb f141617a;
@@ -13,7 +13,7 @@ public final class bqtb extends bxvk implements bxxd {
     static {
         bqtb bqtb = new bqtb();
         f141617a = bqtb;
-        bxvk.m124024a(bqtb.class, bqtb);
+        GeneratedMessageLite.m124024a(bqtb.class, bqtb);
     }
 
     private bqtb() {
@@ -30,7 +30,7 @@ public final class bqtb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f141617a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f141617a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bqtb();

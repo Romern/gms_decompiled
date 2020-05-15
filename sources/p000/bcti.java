@@ -16,5 +16,5 @@ public abstract class bcti {
     public abstract String mo57192d();
 
     /* renamed from: e */
-    public abstract bxtx mo57196e();
+    public abstract ByteString mo57196e();
 }

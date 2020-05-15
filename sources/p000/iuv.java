@@ -14,7 +14,7 @@ import org.json.JSONObject;
 public final class iuv implements iva {
 
     /* renamed from: j */
-    public static final sek f21824j = new sek(new String[]{"ConnectionHandler"}, (char[]) null);
+    public static final Logger f21824j = new Logger(new String[]{"ConnectionHandler"}, (char[]) null);
 
     /* renamed from: a */
     public final iuy f21825a;

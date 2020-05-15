@@ -3,7 +3,7 @@ package p000;
 @Deprecated
 /* renamed from: bqsg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqsg extends bxvk implements bxxd {
+public final class bqsg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bqsg f141519e;
@@ -26,7 +26,7 @@ public final class bqsg extends bxvk implements bxxd {
     static {
         bqsg bqsg = new bqsg();
         f141519e = bqsg;
-        bxvk.m124024a(bqsg.class, bqsg);
+        GeneratedMessageLite.m124024a(bqsg.class, bqsg);
     }
 
     private bqsg() {
@@ -43,7 +43,7 @@ public final class bqsg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f141519e, "\u0000\u0004\u0000\u0000\u0001\u0005\u0004\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0004\u0007\u0005Ȉ", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f141519e, "\u0000\u0004\u0000\u0000\u0001\u0005\u0004\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0004\u0007\u0005Ȉ", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bqsg();
         } else {

@@ -57,7 +57,7 @@ public final class ixl implements iws {
 
     /* renamed from: a */
     public final TokenResponse mo13425a(TokenRequest tokenRequest) {
-        sdo.m34966a(tokenRequest, "TokenRequest cannot be null!");
+        sdo.checkIfNull(tokenRequest, "TokenRequest cannot be null!");
         Bundle b = tokenRequest.mo7640b();
         b.putLong("gads_service_connection_start_time_millis", SystemClock.elapsedRealtime());
         tokenRequest.mo7638a(b);

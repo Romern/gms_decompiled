@@ -288,7 +288,7 @@ public final class cfmy implements cfmw {
         f184450R = bdyx.m91610a(bdyw, "MDP__is_purchase_enabled", true);
         f184451S = bdyx.m91607a(bdyw, "MDP__low_data_notification_time_out_millis", 86400000L);
         try {
-            f184452T = bdyx.m91608a(bdyw, "MDP__mcc_mnc_list_supported_by_assistant", (bydj) bxvk.m124014a(bydj.f165795b, new byte[]{10, 5, 53, 49, 48, 48, 49, 10, 5, 53, 49, 48, 50, 49, 10, 5, 52, 50, 55, 48, 49, 10, 5, 51, 52, 53, 48, 48, 10, 5, 57, 56, 55, 57, 57, 10, 5, 57, 56, 55, 54, 53}), cfmx.f184432a);
+            f184452T = bdyx.m91608a(bdyw, "MDP__mcc_mnc_list_supported_by_assistant", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[]{10, 5, 53, 49, 48, 48, 49, 10, 5, 53, 49, 48, 50, 49, 10, 5, 52, 50, 55, 48, 49, 10, 5, 51, 52, 53, 48, 48, 10, 5, 57, 56, 55, 57, 57, 10, 5, 57, 56, 55, 54, 53}), cfmx.f184432a);
             f184453U = bdyx.m91610a(bdyw, "MDP__notification_improvement_v21", true);
             f184454V = bdyx.m91610a(bdyw, "MDP__periodic_update_on", false);
             f184455W = bdyx.m91609a(bdyw, "MDP__service_host", "mobiledataplan-pa.googleapis.com");

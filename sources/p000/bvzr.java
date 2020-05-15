@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvzr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvzr extends bxvk implements bxxd {
+public final class bvzr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: E */
     public static final bvzr f158545E;
@@ -103,7 +103,7 @@ public final class bvzr extends bxvk implements bxxd {
     static {
         bvzr bvzr = new bvzr();
         f158545E = bvzr;
-        bxvk.m124024a(bvzr.class, bvzr);
+        GeneratedMessageLite.m124024a(bvzr.class, bvzr);
     }
 
     private bvzr() {
@@ -120,7 +120,7 @@ public final class bvzr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f158545E, "\u0001\u001d\u0000\u0001\u0001\u001d\u001d\u0000\u0000\u0000\u0001ဋ\u0000\u0002ဋ\u0001\u0003ဋ\u0002\u0004ဋ\u0003\u0005ဋ\u0004\u0006ဋ\u0005\u0007ဋ\u0006\bဋ\u0007\tဋ\b\nဋ\t\u000bဋ\n\fဋ\u000b\rဋ\f\u000eဋ\r\u000fဋ\u000e\u0010ဋ\u000f\u0011ဋ\u0010\u0012ဋ\u0011\u0013ဋ\u0012\u0014ဋ\u0013\u0015ဋ\u0014\u0016ဋ\u0015\u0017ဋ\u0016\u0018ဋ\u0017\u0019ဋ\u0018\u001aခ\u0019\u001bဋ\u001a\u001cဋ\u001b\u001dဋ\u001c", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D"});
+            return GeneratedMessageLite.m124022a(f158545E, "\u0001\u001d\u0000\u0001\u0001\u001d\u001d\u0000\u0000\u0000\u0001ဋ\u0000\u0002ဋ\u0001\u0003ဋ\u0002\u0004ဋ\u0003\u0005ဋ\u0004\u0006ဋ\u0005\u0007ဋ\u0006\bဋ\u0007\tဋ\b\nဋ\t\u000bဋ\n\fဋ\u000b\rဋ\f\u000eဋ\r\u000fဋ\u000e\u0010ဋ\u000f\u0011ဋ\u0010\u0012ဋ\u0011\u0013ဋ\u0012\u0014ဋ\u0013\u0015ဋ\u0014\u0016ဋ\u0015\u0017ဋ\u0016\u0018ဋ\u0017\u0019ဋ\u0018\u001aခ\u0019\u001bဋ\u001a\u001cဋ\u001b\u001dဋ\u001c", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D"});
         } else if (i2 == 3) {
             return new bvzr();
         } else {

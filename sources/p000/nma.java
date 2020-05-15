@@ -479,7 +479,7 @@ public final class nma extends nry implements oiy, ojn {
         bisv.f121604c = a2;
         bisv.f121602a = i8 | 2;
         if (bArr != null) {
-            bxtx a3 = bxtx.m123261a(bArr);
+            ByteString a3 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

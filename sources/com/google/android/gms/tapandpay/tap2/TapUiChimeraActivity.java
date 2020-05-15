@@ -513,7 +513,7 @@ public class TapUiChimeraActivity extends atex {
                 if (intent.hasExtra("tapDoodle")) {
                     byte[] byteArrayExtra = intent.getByteArrayExtra("tapDoodle");
                     try {
-                        btpm btpm = (btpm) bxvk.m124016a(btpm.f149860e, byteArrayExtra, bxus.m123744c());
+                        btpm btpm = (btpm) GeneratedMessageLite.m124016a(btpm.f149860e, byteArrayExtra, bxus.m123744c());
                         this.f108731x.setTag(btpm.f149862a);
                         if (!btpm.f149865d.isEmpty()) {
                             this.f108731x.setTag(C0126R.C0129id.lottie_animation_is_set, Boolean.TRUE);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvpu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvpu extends bxvk implements bxxd {
+public final class bvpu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvpu f157345a;
@@ -13,7 +13,7 @@ public final class bvpu extends bxvk implements bxxd {
     static {
         bvpu bvpu = new bvpu();
         f157345a = bvpu;
-        bxvk.m124024a(bvpu.class, bvpu);
+        GeneratedMessageLite.m124024a(bvpu.class, bvpu);
     }
 
     private bvpu() {
@@ -30,7 +30,7 @@ public final class bvpu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157345a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f157345a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvpu();

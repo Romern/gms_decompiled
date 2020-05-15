@@ -74,7 +74,7 @@ public final class beqo {
             db >>>= 7;
         }
         bufferedOutputStream.write(db);
-        bufferedOutputStream.write(bxxc.mo73642k());
+        bufferedOutputStream.write(bxxc.serializeToBytes());
         bufferedOutputStream.flush();
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bstu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bstu extends bxvk implements bxxd {
+public final class bstu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bstu f147059c;
@@ -14,12 +14,12 @@ public final class bstu extends bxvk implements bxxd {
     public bxwc f147061a = bxxn.f165040b;
 
     /* renamed from: b */
-    public bxtx f147062b = bxtx.f164797b;
+    public ByteString f147062b = ByteString.f164797b;
 
     static {
         bstu bstu = new bstu();
         f147059c = bstu;
-        bxvk.m124024a(bstu.class, bstu);
+        GeneratedMessageLite.m124024a(bstu.class, bstu);
     }
 
     private bstu() {
@@ -36,7 +36,7 @@ public final class bstu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147059c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002\n", new Object[]{"a", bsua.class, "b"});
+            return GeneratedMessageLite.m124022a(f147059c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002\n", new Object[]{"a", bsua.class, "b"});
         } else if (i2 == 3) {
             return new bstu();
         } else {

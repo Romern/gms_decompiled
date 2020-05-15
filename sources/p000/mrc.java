@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mrc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mrc extends bxvk implements bxxd {
+public final class mrc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final mrc f34385c;
@@ -19,7 +19,7 @@ public final class mrc extends bxvk implements bxxd {
     static {
         mrc mrc = new mrc();
         f34385c = mrc;
-        bxvk.m124024a(mrc.class, mrc);
+        GeneratedMessageLite.m124024a(mrc.class, mrc);
     }
 
     private mrc() {
@@ -36,7 +36,7 @@ public final class mrc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34385c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mrb.f34384a});
+            return GeneratedMessageLite.m124022a(f34385c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mrb.f34384a});
         } else if (i2 == 3) {
             return new mrc();
         } else {

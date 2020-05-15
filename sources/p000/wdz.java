@@ -8,7 +8,7 @@ import com.google.android.chimera.config.ModuleManager;
 final class wdz extends ModuleManager.FeatureRequestProgressListener {
 
     /* renamed from: a */
-    private static final sek f50568a = weh.m41831a("FeatureRequestListener");
+    private static final Logger f50568a = weh.m41831a("FeatureRequestListener");
 
     /* renamed from: b */
     private final wee f50569b;
@@ -75,7 +75,7 @@ final class wdz extends ModuleManager.FeatureRequestProgressListener {
             cimf3.getClass();
             cimg2.f190715f = cimf3;
             cimg2.f190710a |= 64;
-            this.f50570c.mo24335a(((cimg) da.mo74062i()).mo73642k()).mo24327b();
+            this.f50570c.mo24335a(((cimg) da.mo74062i()).serializeToBytes()).mo24327b();
         }
     }
 
@@ -94,11 +94,11 @@ final class wdz extends ModuleManager.FeatureRequestProgressListener {
                 f50568a.mo25414c("Module request timeout.", new Object[0]);
                 m41823a(3);
             } else if (i != 0) {
-                sek sek = f50568a;
+                Logger Logger = f50568a;
                 StringBuilder sb = new StringBuilder(51);
                 sb.append("Module download/install failed. Result: ");
                 sb.append(i);
-                sek.mo25418e(sb.toString(), new Object[0]);
+                Logger.mo25418e(sb.toString(), new Object[0]);
                 m41823a(4);
             } else {
                 f50568a.mo25414c("Module download success.", new Object[0]);

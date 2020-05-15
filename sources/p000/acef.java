@@ -45,7 +45,7 @@ public final class acef implements acjh {
             try {
                 b = a.mo55696c().mo55799b();
                 for (MdhFootprint mdhFootprint : this.f59637e) {
-                    a.mo55689a(b, bxtx.m123261a(mdhFootprint.f79987a), mdhFootprint.f79989c);
+                    a.mo55689a(b, ByteString.m123261a(mdhFootprint.f79987a), mdhFootprint.f79989c);
                 }
                 b.mo55796b();
                 b.close();

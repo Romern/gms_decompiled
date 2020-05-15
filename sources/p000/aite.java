@@ -10,12 +10,12 @@ final /* synthetic */ class aite implements Runnable {
     private final aiss f69682b;
 
     /* renamed from: c */
-    private final bxtx f69683c;
+    private final ByteString f69683c;
 
     /* renamed from: d */
     private final byte[] f69684d;
 
-    public aite(aitg aitg, aiss aiss, bxtx bxtx, byte[] bArr) {
+    public aite(aitg aitg, aiss aiss, ByteString bxtx, byte[] bArr) {
         this.f69681a = aitg;
         this.f69682b = aiss;
         this.f69683c = bxtx;

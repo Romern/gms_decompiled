@@ -18,7 +18,7 @@ public final class atxo {
     public static bxxc m76511b(Message message, String str, bxxc bxxc) {
         byte[] byteArray = message.getData().getByteArray(str);
         if (byteArray != null) {
-            return (bxxc) ((bxxk) ((bxvk) bxxc).mo74142c(7)).mo73657a(byteArray);
+            return (bxxc) ((bxxk) ((GeneratedMessageLite) bxxc).mo74142c(7)).mo73657a(byteArray);
         }
         return null;
     }

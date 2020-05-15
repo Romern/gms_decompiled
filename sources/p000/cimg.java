@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cimg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cimg extends bxvk implements bxxd {
+public final class cimg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final cimg f190708g;
@@ -31,7 +31,7 @@ public final class cimg extends bxvk implements bxxd {
     static {
         cimg cimg = new cimg();
         f190708g = cimg;
-        bxvk.m124024a(cimg.class, cimg);
+        GeneratedMessageLite.m124024a(cimg.class, cimg);
     }
 
     private cimg() {
@@ -48,7 +48,7 @@ public final class cimg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f190708g, "\u0001\u0005\u0000\u0001\u0001\u0007\u0005\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0005ဉ\u0004\u0007ဉ\u0006", new Object[]{"a", "b", cime.f190702a, "c", cima.f190698a, "d", cimb.f190699a, "e", "f"});
+            return GeneratedMessageLite.m124022a(f190708g, "\u0001\u0005\u0000\u0001\u0001\u0007\u0005\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0005ဉ\u0004\u0007ဉ\u0006", new Object[]{"a", "b", cime.f190702a, "c", cima.f190698a, "d", cimb.f190699a, "e", "f"});
         } else if (i2 == 3) {
             return new cimg();
         } else {

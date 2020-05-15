@@ -26,7 +26,7 @@ public final class aptm {
     /* renamed from: a */
     public static void m70976a(Context context) {
         Context context2;
-        sdo.m34966a(context, "Context must not be null");
+        sdo.checkIfNull(context, "Context must not be null");
         rfy.m33555l(context);
         try {
             context2 = waq.m41676a(context, waq.f50355c, "providerinstaller").f50364e;
@@ -88,8 +88,8 @@ public final class aptm {
 
     /* renamed from: a */
     public static void m70977a(Context context, aptl aptl) {
-        sdo.m34966a(context, "Context must not be null");
-        sdo.m34966a(aptl, "Listener must not be null");
+        sdo.checkIfNull(context, "Context must not be null");
+        sdo.checkIfNull(aptl, "Listener must not be null");
         sdo.m34967a("Must be called on the UI thread");
         new aptk(context, aptl).execute(new Void[0]);
     }

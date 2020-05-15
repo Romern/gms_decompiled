@@ -15,7 +15,7 @@ public final class aazk implements aazl {
     public final void mo31937a() {
         aazn aazn = this.f56891a;
         aasm aasm = ((aasg) aazn.f56893b.peek()).f56426a;
-        sdo.m34966a(aasm, "Cannot call printPopularArticles when there is no leafContent.");
+        sdo.checkIfNull(aasm, "Cannot call printPopularArticles when there is no leafContent.");
         aazo.m47331a(aazn.f56894c, aasm.f56496f, aazn.f56892a);
     }
 }

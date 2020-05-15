@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbrh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbrh extends bxvk implements bxxd {
+public final class cbrh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: t */
     public static final cbrh f178114t;
@@ -70,7 +70,7 @@ public final class cbrh extends bxvk implements bxxd {
     static {
         cbrh cbrh = new cbrh();
         f178114t = cbrh;
-        bxvk.m124024a(cbrh.class, cbrh);
+        GeneratedMessageLite.m124024a(cbrh.class, cbrh);
     }
 
     private cbrh() {
@@ -87,7 +87,7 @@ public final class cbrh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f178114t, "\u0000\u0013\u0000\u0000\u0001\u0015\u0013\u0000\u0004\u0000\u0001\f\u0002Ȉ\u0003\t\u0004\t\u0005\f\u0006\f\u0007\f\b\u0004\t\u0004\u000b\f\f\f\r\f\u000fȈ\u0010\f\u0011\u001b\u0012\u001b\u0013\u001b\u0014\u001b\u0015\u0007", new Object[]{"b", "c", "d", "e", "f", "g", "h", "k", "l", "i", "j", "a", "n", "o", "p", cbox.class, "q", cbov.class, "r", cbpa.class, "s", cbpb.class, "m"});
+            return GeneratedMessageLite.m124022a(f178114t, "\u0000\u0013\u0000\u0000\u0001\u0015\u0013\u0000\u0004\u0000\u0001\f\u0002Ȉ\u0003\t\u0004\t\u0005\f\u0006\f\u0007\f\b\u0004\t\u0004\u000b\f\f\f\r\f\u000fȈ\u0010\f\u0011\u001b\u0012\u001b\u0013\u001b\u0014\u001b\u0015\u0007", new Object[]{"b", "c", "d", "e", "f", "g", "h", "k", "l", "i", "j", "a", "n", "o", "p", cbox.class, "q", cbov.class, "r", cbpa.class, "s", cbpb.class, "m"});
         } else if (i2 == 3) {
             return new cbrh();
         } else {

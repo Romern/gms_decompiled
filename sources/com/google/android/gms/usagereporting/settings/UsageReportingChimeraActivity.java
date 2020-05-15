@@ -179,7 +179,7 @@ public class UsageReportingChimeraActivity extends deu implements View.OnClickLi
         if (!this.f109547e && (avub = this.f109548f) != null) {
             rjx rjx = this.f109549g;
             rob rob = roe.m34172a(avub, rjx.f43163B, avub.class.getSimpleName()).f43429b;
-            sdo.m34966a(rob, "Key must not be null");
+            sdo.checkIfNull(rob, "Key must not be null");
             rjx.mo24698a(rob);
         }
         super.onStop();

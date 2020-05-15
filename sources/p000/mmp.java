@@ -40,7 +40,7 @@ public final class mmp implements mmh {
         try {
             return this.f34021c.openInputStream(m25347a(Integer.parseInt(mph.f34146d)));
         } catch (FileNotFoundException e) {
-            f34020b.mo25409a("Unable to open stream for item %s", mph.f34146d);
+            f34020b.logVerbose("Unable to open stream for item %s", mph.f34146d);
             String valueOf = String.valueOf(mph.f34146d);
             throw new mmq(valueOf.length() == 0 ? new String("Unable to find stream for mms partId=") : "Unable to find stream for mms partId=".concat(valueOf), e);
         }
@@ -49,7 +49,7 @@ public final class mmp implements mmh {
     /* renamed from: a */
     public final List mo20163a() {
         ParcelFileDescriptor openFileDescriptor;
-        f34020b.mo25409a("Indexing MMS attachments", new Object[0]);
+        f34020b.logVerbose("Indexing MMS attachments", new Object[0]);
         ArrayList arrayList = new ArrayList();
         Cursor query = this.f34021c.query(Telephony.Mms.CONTENT_URI.buildUpon().appendPath("part").build(), f34019a, null, null, "_id ASC");
         if (query != null) {
@@ -60,7 +60,7 @@ public final class mmp implements mmh {
                     String string2 = query.getString(query.getColumnIndex("cl"));
                     if (mad.m24755a(string)) {
                         if (string2 == null) {
-                            f34020b.mo25409a("Content locations is empty for partId = %d", Integer.valueOf(i));
+                            f34020b.logVerbose("Content locations is empty for partId = %d", Integer.valueOf(i));
                         } else {
                             int count = query.getCount();
                             bxvd da = mph.f34141f.mo74144da();
@@ -104,7 +104,7 @@ public final class mmp implements mmh {
                                     }
                                     j = statSize;
                                 } catch (FileNotFoundException e) {
-                                    f34020b.mo25409a("Unable to open file descriptor for item %d", Integer.valueOf(i));
+                                    f34020b.logVerbose("Unable to open file descriptor for item %d", Integer.valueOf(i));
                                 } catch (IOException e2) {
                                     f34020b.mo25408a("Error while getting size of partId=%d", e2, Integer.valueOf(i));
                                 } catch (Throwable th) {

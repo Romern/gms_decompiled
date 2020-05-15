@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: calo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class calo extends bxvk implements bxxd {
+public final class calo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: l */
     public static final calo f175155l;
@@ -46,7 +46,7 @@ public final class calo extends bxvk implements bxxd {
     static {
         calo calo = new calo();
         f175155l = calo;
-        bxvk.m124024a(calo.class, calo);
+        GeneratedMessageLite.m124024a(calo.class, calo);
     }
 
     private calo() {
@@ -63,7 +63,7 @@ public final class calo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175155l, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0002\u0003ဌ\u0003\u0004ဌ\u0004\u0005ဌ\u0005\u0006ဌ\u0006\u0007ဌ\u0007\bဌ\b\tဌ\t\nဌ\u0001", new Object[]{"a", "b", calm.f175154a, "d", calm.f175154a, "e", calm.f175154a, "f", calm.f175154a, "g", calm.f175154a, "h", calm.f175154a, "i", calm.f175154a, "j", calm.f175154a, "k", calm.f175154a, "c", calm.f175154a});
+            return GeneratedMessageLite.m124022a(f175155l, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0002\u0003ဌ\u0003\u0004ဌ\u0004\u0005ဌ\u0005\u0006ဌ\u0006\u0007ဌ\u0007\bဌ\b\tဌ\t\nဌ\u0001", new Object[]{"a", "b", calm.f175154a, "d", calm.f175154a, "e", calm.f175154a, "f", calm.f175154a, "g", calm.f175154a, "h", calm.f175154a, "i", calm.f175154a, "j", calm.f175154a, "k", calm.f175154a, "c", calm.f175154a});
         } else if (i2 == 3) {
             return new calo();
         } else {

@@ -17,7 +17,7 @@ public final class cboc extends bxvd implements bxxd {
         cbod cbod2 = cbod.f177801d;
         cbob.getClass();
         if (!cbod.f177803a.mo73666a()) {
-            cbod.f177803a = bxvk.m124019a(cbod.f177803a);
+            cbod.f177803a = GeneratedMessageLite.m124019a(cbod.f177803a);
         }
         cbod.f177803a.mo74153d(cbob.mo3214a());
     }

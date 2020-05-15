@@ -35,7 +35,7 @@ public final class aska {
             while (query.moveToNext()) {
                 try {
                     byte[] blob = query.getBlob(query.getColumnIndex("proto"));
-                    arrayList.add((btpn) bxvk.m124016a(btpn.f149866e, blob, bxus.m123744c()));
+                    arrayList.add((btpn) GeneratedMessageLite.m124016a(btpn.f149866e, blob, bxus.m123744c()));
                 } catch (bxwf e) {
                     bnsl bnsl = (bnsl) f89107a.mo68388c();
                     bnsl.mo68437a(e);
@@ -73,7 +73,7 @@ public final class aska {
                 contentValues.put("doodle_group_id", ((btpn) list.get(i)).f149868a);
                 contentValues.put("environment", str2);
                 contentValues.put("account_id", str);
-                contentValues.put("proto", ((btpn) list.get(i)).mo73642k());
+                contentValues.put("proto", ((btpn) list.get(i)).serializeToBytes());
                 contentValues.put("priority", Integer.valueOf(i));
                 if (a.insert("TapDoodleGroups", null, contentValues) == -1) {
                     bnsl bnsl = (bnsl) f89107a.mo68387b();

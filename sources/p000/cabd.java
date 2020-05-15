@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cabd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cabd extends bxvk implements bxxd {
+public final class cabd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cabd f172424b;
@@ -19,7 +19,7 @@ public final class cabd extends bxvk implements bxxd {
     static {
         cabd cabd = new cabd();
         f172424b = cabd;
-        bxvk.m124024a(cabd.class, cabd);
+        GeneratedMessageLite.m124024a(cabd.class, cabd);
     }
 
     private cabd() {
@@ -40,7 +40,7 @@ public final class cabd extends bxvk implements bxxd {
             this.f172427c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f172424b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", cabc.class});
+            return GeneratedMessageLite.m124022a(f172424b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", cabc.class});
         } else if (i2 == 3) {
             return new cabd();
         } else {

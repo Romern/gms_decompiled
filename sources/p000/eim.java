@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: eim */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class eim extends bxvk implements bxxd {
+public final class eim extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final eim f15060b;
@@ -16,7 +16,7 @@ public final class eim extends bxvk implements bxxd {
     static {
         eim eim = new eim();
         f15060b = eim;
-        bxvk.m124024a(eim.class, eim);
+        GeneratedMessageLite.m124024a(eim.class, eim);
     }
 
     private eim() {
@@ -33,7 +33,7 @@ public final class eim extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f15060b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", eip.class});
+            return GeneratedMessageLite.m124022a(f15060b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", eip.class});
         } else if (i2 == 3) {
             return new eim();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmmq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmmq extends bxvk implements bxxd {
+public final class bmmq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmmq f130039c;
@@ -19,7 +19,7 @@ public final class bmmq extends bxvk implements bxxd {
     static {
         bmmq bmmq = new bmmq();
         f130039c = bmmq;
-        bxvk.m124024a(bmmq.class, bmmq);
+        GeneratedMessageLite.m124024a(bmmq.class, bmmq);
     }
 
     private bmmq() {
@@ -36,7 +36,7 @@ public final class bmmq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130039c, "\u0001\u0003\u0001\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000\u0003ဵ\u0000", new Object[]{"b", "a", bmqk.class, bmog.class});
+            return GeneratedMessageLite.m124022a(f130039c, "\u0001\u0003\u0001\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000\u0003ဵ\u0000", new Object[]{"b", "a", bmqk.class, bmog.class});
         } else if (i2 == 3) {
             return new bmmq();
         } else {

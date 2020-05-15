@@ -13,7 +13,7 @@ import com.google.android.gms.common.internal.ClientContext;
 public final class jod {
 
     /* renamed from: b */
-    private static final sek f22923b = jsy.m17256a("DeviceSyncRequester");
+    private static final Logger f22923b = jsy.m17256a("DeviceSyncRequester");
 
     /* renamed from: a */
     public final jrm f22924a;

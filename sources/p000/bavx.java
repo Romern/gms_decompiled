@@ -24,7 +24,7 @@ final /* synthetic */ class bavx implements bqeg {
         baui baui = baub.f101747a;
         if ((baui.f101773a & 2) == 0) {
             bxvd bxvd = (bxvd) baui.mo74142c(5);
-            bxvd.mo73625a((bxvk) baui);
+            bxvd.mo73625a((GeneratedMessageLite) baui);
             bauh bauh = (bauh) bxvd;
             String packageName = bawq.f101992a.getPackageName();
             if (bauh.f164950c) {

@@ -12,13 +12,13 @@ public final class bysv {
     public byte[] f167622a = null;
 
     /* renamed from: b */
-    private bxtx f167623b = null;
+    private ByteString f167623b = null;
 
     /* renamed from: c */
-    private bxtx f167624c = null;
+    private ByteString f167624c = null;
 
     /* renamed from: d */
-    private bxtx f167625d = null;
+    private ByteString f167625d = null;
 
     /* renamed from: e */
     private final SecureRandom f167626e = new SecureRandom();
@@ -41,21 +41,21 @@ public final class bysv {
                 bytc.f167651c = i3;
                 int i4 = i2 | 2;
                 bytc.f167649a = i4;
-                bxtx bxtx = this.f167624c;
+                ByteString bxtx = this.f167624c;
                 if (bxtx != null) {
                     bxtx.getClass();
                     i4 |= 4;
                     bytc.f167649a = i4;
                     bytc.f167652d = bxtx;
                 }
-                bxtx bxtx2 = this.f167625d;
+                ByteString bxtx2 = this.f167625d;
                 if (bxtx2 != null) {
                     bxtx2.getClass();
                     i4 |= 8;
                     bytc.f167649a = i4;
                     bytc.f167653e = bxtx2;
                 }
-                bxtx bxtx3 = this.f167623b;
+                ByteString bxtx3 = this.f167623b;
                 if (bxtx3 != null) {
                     bxtx3.getClass();
                     i4 |= 32;
@@ -69,7 +69,7 @@ public final class bysv {
                     bytc.f167656h = length;
                 }
                 if (bArr != null) {
-                    bxtx a = bxtx.m123261a(bArr);
+                    ByteString a = bxtx.m123261a(bArr);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -88,19 +88,19 @@ public final class bysv {
 
     /* renamed from: b */
     public final void mo74501b(byte[] bArr) {
-        this.f167623b = bxtx.m123261a(bArr);
+        this.f167623b = ByteString.m123261a(bArr);
     }
 
     /* renamed from: c */
     public final void mo74502c(byte[] bArr) {
-        this.f167624c = bxtx.m123261a(bArr);
+        this.f167624c = ByteString.m123261a(bArr);
     }
 
     /* renamed from: a */
     private final byti m125301a(Key key, byss byss, byte[] bArr, byte[] bArr2) {
         byte[] a = byst.m125279a(byss, key, this.f167626e, byst.m125288b(bArr, bArr2));
         bxvd da = byti.f167671d.mo74144da();
-        bxtx a2 = bxtx.m123261a(bArr);
+        ByteString a2 = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -109,7 +109,7 @@ public final class bysv {
         a2.getClass();
         byti.f167673a |= 1;
         byti.f167674b = a2;
-        bxtx a3 = bxtx.m123261a(a);
+        ByteString a3 = ByteString.m123261a(a);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -129,7 +129,7 @@ public final class bysv {
     /* renamed from: a */
     private static final byte[] m125303a(byte[] bArr, byte[] bArr2) {
         bxvd da = bytf.f167664d.mo74144da();
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -138,7 +138,7 @@ public final class bysv {
         a.getClass();
         bytf.f167666a |= 1;
         bytf.f167667b = a;
-        bxtx a2 = bxtx.m123261a(bArr2);
+        ByteString a2 = ByteString.m123261a(bArr2);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -147,7 +147,7 @@ public final class bysv {
         a2.getClass();
         bytf2.f167666a |= 2;
         bytf2.f167668c = a2;
-        return ((bytf) da.mo74062i()).mo73642k();
+        return ((bytf) da.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: a */
@@ -165,7 +165,7 @@ public final class bysv {
             throw new IllegalStateException("Must set a verificationKeyId when using public key signature with encryption");
         } else {
             byte[] a = byst.m125278a(bysr, this.f167626e);
-            byte[] k = m125300a(byss, bysr, a).mo73642k();
+            byte[] k = m125300a(byss, bysr, a).serializeToBytes();
             if (m125302a(key, byss, key2)) {
                 bArr = byst.m125288b(byst.m125285a(byst.m125288b(k, this.f167622a)), bArr);
             } else {
@@ -180,7 +180,7 @@ public final class bysv {
         if (key == null || byss == null || bArr == null) {
             throw null;
         } else if (this.f167625d == null) {
-            return m125301a(key, byss, m125303a(m125300a(byss, bysr.NONE, (byte[]) null).mo73642k(), bArr), this.f167622a);
+            return m125301a(key, byss, m125303a(m125300a(byss, bysr.NONE, (byte[]) null).serializeToBytes(), bArr), this.f167622a);
         } else {
             throw new IllegalStateException("Cannot set decryptionKeyId for a cleartext message");
         }
@@ -188,6 +188,6 @@ public final class bysv {
 
     /* renamed from: a */
     public final void mo74500a(byte[] bArr) {
-        this.f167625d = bxtx.m123261a(bArr);
+        this.f167625d = ByteString.m123261a(bArr);
     }
 }

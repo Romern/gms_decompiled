@@ -28,7 +28,7 @@ public final class aovv extends aovg {
         bxvd da = blqn.f127372g.mo74144da();
         blrj a = aoww.m69746a(this.f83703h);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         blox blox = ((blrj) bxvd.f164949b).f127459b;
         if (blox == null) {
             blox = blox.f127160d;

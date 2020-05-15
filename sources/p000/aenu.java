@@ -21,7 +21,7 @@ final class aenu extends aeme {
         aeoa aeoa = (aeoa) rjd;
         aemf aemf = new aemf((aeme) this);
         PendingIntent pendingIntent = this.f63539a;
-        sdo.m34966a(aemf, "callback == null");
+        sdo.checkIfNull(aemf, "callback == null");
         ((aeni) aeoa.mo25289B()).mo34359b(aeoa.f63545a, pendingIntent, aemf);
     }
 }

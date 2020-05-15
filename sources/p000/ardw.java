@@ -23,7 +23,7 @@ public final class ardw implements Runnable {
     public final void run() {
         ardy ardy = this.f87477b.f107935a;
         Bundle extras = this.f87476a.getExtras();
-        sek sek = ardy.f87480a;
+        Logger Logger = ardy.f87480a;
         ardy.f87483d.mo48458a(extras.getString("restoreAccount"), extras.getString("restoreToken"));
         ResultReceiver resultReceiver = (ResultReceiver) extras.getParcelable("resultReceiver");
         if (resultReceiver == null) {

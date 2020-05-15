@@ -118,7 +118,7 @@ public final /* synthetic */ class ampy implements Callable {
         bted2.getClass();
         ((btde) da.f164949b).f148388c = bted2;
         try {
-            bArr = ampm.mo41250a(a, (btde) da.mo74062i()).f148383b.mo73780k();
+            bArr = ampm.mo41250a(a, (btde) da.mo74062i()).f148383b.getKey();
         } catch (gid e) {
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

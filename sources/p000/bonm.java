@@ -16,7 +16,7 @@ public final class bonm extends bxvd implements bxxd {
         bonn bonn = (bonn) this.f164949b;
         bonn bonn2 = bonn.f133826e;
         if (!bonn.f133829b.mo73666a()) {
-            bonn.f133829b = bxvk.m124021a(bonn.f133829b);
+            bonn.f133829b = GeneratedMessageLite.m124021a(bonn.f133829b);
         }
         bxsy.m123078a(iterable, bonn.f133829b);
     }

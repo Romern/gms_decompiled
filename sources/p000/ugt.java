@@ -56,7 +56,7 @@ public final class ugt {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.Object, java.lang.Object):void */
     private ugt(String str, uey uey, boolean z, DriveId driveId, long j, String str2, uhn uhn, uff uff, long j2, ukp ukp, String str3, Integer num, uyy uyy) {
-        sdo.m34966a((Object) str, (Object) "Null metadata json provided in upload request.");
+        sdo.checkIfNull((Object) str, (Object) "Null metadata json provided in upload request.");
         this.f47563b = str;
         this.f47562a = uey;
         this.f47564c = z;
@@ -69,7 +69,7 @@ public final class ugt {
         this.f47574m = ukp;
         this.f47567f = str3;
         this.f47569h = num;
-        sdo.m34966a(uyy, "Null MIME type provided in upload request.");
+        sdo.checkIfNull(uyy, "Null MIME type provided in upload request.");
         this.f47572k = uyy;
     }
 

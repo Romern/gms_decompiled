@@ -16,7 +16,7 @@ public final class btej extends bxvd implements bxxd {
         btek btek = (btek) this.f164949b;
         btek btek2 = btek.f148526d;
         if (!btek.f148529b.mo73666a()) {
-            btek.f148529b = bxvk.m124021a(btek.f148529b);
+            btek.f148529b = GeneratedMessageLite.m124021a(btek.f148529b);
         }
         bxsy.m123078a(iterable, btek.f148529b);
     }

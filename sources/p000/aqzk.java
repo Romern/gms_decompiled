@@ -8,7 +8,7 @@ import com.android.volley.RetryPolicy;
 public final class aqzk extends aqzf {
 
     /* renamed from: b */
-    public static final sek f87154b = ascp.m73787a("D2D", "D2DClientImpl");
+    public static final Logger f87154b = ascp.m73787a("D2D", "D2DClientImpl");
 
     /* renamed from: c */
     public final RetryPolicy f87155c;

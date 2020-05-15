@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmes */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmes extends bxvk implements bxxd {
+public final class bmes extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bmes f129008g;
@@ -23,7 +23,7 @@ public final class bmes extends bxvk implements bxxd {
     public long f129013d;
 
     /* renamed from: e */
-    public bxtx f129014e = bxtx.f164797b;
+    public ByteString f129014e = ByteString.f164797b;
 
     /* renamed from: f */
     public boolean f129015f;
@@ -34,7 +34,7 @@ public final class bmes extends bxvk implements bxxd {
     static {
         bmes bmes = new bmes();
         f129008g = bmes;
-        bxvk.m124024a(bmes.class, bmes);
+        GeneratedMessageLite.m124024a(bmes.class, bmes);
     }
 
     private bmes() {
@@ -51,7 +51,7 @@ public final class bmes extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f129008g, "\u0001\u0006\u0000\u0001\u0001\u0007\u0006\u0000\u0001\u0000\u0001ဈ\u0001\u0002\u001b\u0003ဂ\u0000\u0005ဂ\u0003\u0006ည\u0004\u0007ဇ\u0005", new Object[]{"h", "b", "c", bmnr.class, "a", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f129008g, "\u0001\u0006\u0000\u0001\u0001\u0007\u0006\u0000\u0001\u0000\u0001ဈ\u0001\u0002\u001b\u0003ဂ\u0000\u0005ဂ\u0003\u0006ည\u0004\u0007ဇ\u0005", new Object[]{"h", "b", "c", bmnr.class, "a", "d", "e", "f"});
         } else if (i2 == 3) {
             return new bmes();
         } else {

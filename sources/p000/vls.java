@@ -32,7 +32,7 @@ final class vls implements DialogInterface.OnClickListener {
         String obj = vlx.f49478b.getText().toString();
         ProgressDialog show = ProgressDialog.show(vlk.m40825a(vlx.getActivity()), "", vlx.getString(C0126R.string.drive_creating_folder), true);
         txc txc = new txc();
-        sdo.m34966a((Object) obj, (Object) "Title cannot be null.");
+        sdo.checkIfNull((Object) obj, (Object) "Title cannot be null.");
         txc.f46904a.mo18273b(uzm.f48741Q, obj);
         sdo.m34959a((Object) "application/vnd.google-apps.folder");
         txc.f46904a.mo18273b(uzm.f48738N, "application/vnd.google-apps.folder");

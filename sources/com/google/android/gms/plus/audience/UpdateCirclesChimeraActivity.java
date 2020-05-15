@@ -305,7 +305,7 @@ public final class UpdateCirclesChimeraActivity extends CircleSelectionChimeraAc
     public final void mo42073a(Bundle bundle) {
         AudienceMember c = rqa.m34228c(getIntent());
         this.f82324C = c;
-        sdo.m34966a(c, "Update person ID must not be null.");
+        sdo.checkIfNull(c, "Update person ID must not be null.");
         if (bundle != null) {
             this.f82325D = bundle.getBoolean("hasLoggedCircleLoad", false);
             this.f82330y = (AddToCircleConsentData) bundle.getParcelable("addToCircleConsentData");

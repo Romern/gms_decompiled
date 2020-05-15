@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bycw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bycw extends bxvk implements bxxd {
+public final class bycw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final bycw f165723i;
@@ -14,30 +14,30 @@ public final class bycw extends bxvk implements bxxd {
     public int f165725a;
 
     /* renamed from: b */
-    public bxtx f165726b = bxtx.f164797b;
+    public ByteString f165726b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f165727c = bxtx.f164797b;
+    public ByteString f165727c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f165728d = bxtx.f164797b;
+    public ByteString f165728d = ByteString.f164797b;
 
     /* renamed from: e */
-    public bxtx f165729e = bxtx.f164797b;
+    public ByteString f165729e = ByteString.f164797b;
 
     /* renamed from: f */
-    public bxtx f165730f = bxtx.f164797b;
+    public ByteString f165730f = ByteString.f164797b;
 
     /* renamed from: g */
-    public bxtx f165731g = bxtx.f164797b;
+    public ByteString f165731g = ByteString.f164797b;
 
     /* renamed from: h */
-    public bxtx f165732h = bxtx.f164797b;
+    public ByteString f165732h = ByteString.f164797b;
 
     static {
         bycw bycw = new bycw();
         f165723i = bycw;
-        bxvk.m124024a(bycw.class, bycw);
+        GeneratedMessageLite.m124024a(bycw.class, bycw);
     }
 
     private bycw() {
@@ -54,7 +54,7 @@ public final class bycw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165723i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ည\u0003\u0005ည\u0004\u0006ည\u0005\u0007ည\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f165723i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ည\u0003\u0005ည\u0004\u0006ည\u0005\u0007ည\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new bycw();
         } else {

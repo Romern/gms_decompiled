@@ -136,7 +136,7 @@ public final class aufz extends ContentObservable {
         if (context.getFileStreamPath("thunderbird_mock_configs").exists()) {
             try {
                 openFileInput = context.openFileInput("thunderbird_mock_configs");
-                aufg aufg = (aufg) bxvk.m124014a(aufg.f91674b, boav.m111020a(openFileInput));
+                aufg aufg = (aufg) GeneratedMessageLite.m124014a(aufg.f91674b, boav.m111020a(openFileInput));
                 HashMap hashMap = new HashMap(aufg.f91676a.size());
                 Iterator it = aufg.f91676a.iterator();
                 while (true) {
@@ -191,10 +191,10 @@ public final class aufz extends ContentObservable {
             }
             aufg aufg = (aufg) da.f164949b;
             if (!aufg.f91676a.mo73666a()) {
-                aufg.f91676a = bxvk.m124021a(aufg.f91676a);
+                aufg.f91676a = GeneratedMessageLite.m124021a(aufg.f91676a);
             }
             bxsy.m123078a(a, aufg.f91676a);
-            openFileOutput.write(((aufg) da.mo74062i()).mo73642k());
+            openFileOutput.write(((aufg) da.mo74062i()).serializeToBytes());
             if (openFileOutput != null) {
                 openFileOutput.close();
                 return;

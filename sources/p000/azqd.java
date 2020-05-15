@@ -136,7 +136,7 @@ final /* synthetic */ class azqd implements Runnable {
         }
         str2.getClass();
         ((cbkj) da4.f164949b).f177409c = str2;
-        bxtx aL = ((cbff) da.mo74062i()).mo73639aL();
+        ByteString aL = ((cbff) da.mo74062i()).mo73639aL();
         if (da4.f164950c) {
             da4.mo74035c();
             da4.f164950c = false;
@@ -149,6 +149,6 @@ final /* synthetic */ class azqd implements Runnable {
             da4.f164950c = false;
         }
         ((cbkj) da4.f164949b).f177412f = micros2;
-        azbj.m85193a(azqf.f99879a).mo54564d().mo56320a(bcoh, Base64.encode(((cbkj) da4.mo74062i()).mo73642k(), 8));
+        azbj.m85193a(azqf.f99879a).mo54564d().mo56320a(bcoh, Base64.encode(((cbkj) da4.mo74062i()).serializeToBytes(), 8));
     }
 }

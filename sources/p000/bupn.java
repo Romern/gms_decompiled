@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bupn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bupn extends bxvk implements bxxd {
+public final class bupn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bupn f154656b;
@@ -16,7 +16,7 @@ public final class bupn extends bxvk implements bxxd {
     static {
         bupn bupn = new bupn();
         f154656b = bupn;
-        bxvk.m124024a(bupn.class, bupn);
+        GeneratedMessageLite.m124024a(bupn.class, bupn);
     }
 
     private bupn() {
@@ -33,7 +33,7 @@ public final class bupn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154656b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f154656b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bupn();
         } else {

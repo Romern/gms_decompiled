@@ -30,8 +30,8 @@ public class UdcSettingsListChimeraActivity extends deu {
                         String str = null;
                         AccountData accountData = null;
                         if (acxw.m49972a(this, intent2)) {
-                            sdo.m34966a(this, "Context must not be null.");
-                            sdo.m34966a(intent2, "Intent must not be null.");
+                            sdo.checkIfNull(this, "Context must not be null.");
+                            sdo.checkIfNull(intent2, "Intent must not be null.");
                             if (acxw.m49972a(this, intent2)) {
                                 accountData = (AccountData) sef.m35067a(intent2, "com.google.android.gms.accounts.ACCOUNT_DATA", AccountData.CREATOR);
                             }

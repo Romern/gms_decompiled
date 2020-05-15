@@ -119,7 +119,7 @@ public final class enf extends dck implements IInterface {
                                 qnt.m32527a(this.f15321a, i5);
                                 byte[] bArr = (byte[]) qnt.f41798a.mo58455c();
                                 if (bArr.length != 0) {
-                                    qml = (qml) bxvk.m124016a(qml.f41710b, bArr, bxus.m123743b());
+                                    qml = (qml) GeneratedMessageLite.m124016a(qml.f41710b, bArr, bxus.m123743b());
                                 } else {
                                     qml = qml.f41710b;
                                 }
@@ -277,7 +277,7 @@ public final class enf extends dck implements IInterface {
             return null;
         }
         try {
-            aylu aylu = (aylu) bxvk.m124016a(aylu.f97932c, bArr, bxus.m123743b());
+            aylu aylu = (aylu) GeneratedMessageLite.m124016a(aylu.f97932c, bArr, bxus.m123743b());
             if (aylu.f97934a.isEmpty() || (!this.f15322b.contains(aylu.f97934a) && !this.f15322b.contains("*"))) {
                 return SynchronizedUpdateBoundService.m22416a(7);
             }
@@ -312,7 +312,7 @@ public final class enf extends dck implements IInterface {
                 aylv aylv = (aylv) da.f164949b;
                 aylv.f97940b = 3;
                 aylv.f97939a |= 1;
-                return ((aylv) da.mo74062i()).mo73642k();
+                return ((aylv) da.mo74062i()).serializeToBytes();
             } else {
                 Context context = this.f15321a;
                 context.startService(ModuleDependencyDownloadIntentOperation.m22406a(context, bArr));

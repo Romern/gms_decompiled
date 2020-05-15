@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buzt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buzt extends bxvk implements bxxd {
+public final class buzt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final buzt f155423f;
@@ -28,7 +28,7 @@ public final class buzt extends bxvk implements bxxd {
     static {
         buzt buzt = new buzt();
         f155423f = buzt;
-        bxvk.m124024a(buzt.class, buzt);
+        GeneratedMessageLite.m124024a(buzt.class, buzt);
     }
 
     private buzt() {
@@ -45,7 +45,7 @@ public final class buzt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155423f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0005ဉ\u0004", new Object[]{"a", "b", buzy.f155447a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f155423f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0005ဉ\u0004", new Object[]{"a", "b", buzy.f155447a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new buzt();
         } else {

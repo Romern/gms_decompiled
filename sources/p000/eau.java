@@ -141,7 +141,7 @@ public final class eau extends dyd {
             }
             bxkg bxkg = (bxkg) da.f164949b;
             if (!bxkg.f163727a.mo73666a()) {
-                bxkg.f163727a = bxvk.m124019a(bxkg.f163727a);
+                bxkg.f163727a = GeneratedMessageLite.m124019a(bxkg.f163727a);
             }
             int size = list.size();
             for (int i = 0; i < size; i++) {

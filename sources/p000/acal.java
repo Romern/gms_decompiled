@@ -115,7 +115,7 @@ public final class acal {
             aclc2.f60078i = acld;
             bxwc bxwc = abqo.f57985j;
             if (!aclc2.f60080k.mo73666a()) {
-                aclc2.f60080k = bxvk.m124021a(aclc2.f60080k);
+                aclc2.f60080k = GeneratedMessageLite.m124021a(aclc2.f60080k);
             }
             bxsy.m123078a(bxwc, aclc2.f60080k);
             abql a4 = abql.m48076a(abqo.f57980d);
@@ -141,14 +141,14 @@ public final class acal {
             aclb aclb3 = (aclb) da.f164949b;
             aclc3.getClass();
             if (!aclb3.f60066g.mo73666a()) {
-                aclb3.f60066g = bxvk.m124021a(aclb3.f60066g);
+                aclb3.f60066g = GeneratedMessageLite.m124021a(aclb3.f60066g);
             }
             aclb3.f60066g.add(aclc3);
             i4++;
         }
         aclb aclb4 = (aclb) da.mo74062i();
         bxvd bxvd = (bxvd) aclb4.mo74142c(5);
-        bxvd.mo73625a((bxvk) aclb4);
+        bxvd.mo73625a((GeneratedMessageLite) aclb4);
         absy absy = abss2.f58158c;
         if (absy == null) {
             absy = absy.f58176h;

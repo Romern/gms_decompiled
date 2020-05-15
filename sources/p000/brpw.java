@@ -86,7 +86,7 @@ public final class brpw {
 
     /* renamed from: a */
     public final aucb mo69775a(brpy brpy, brpk brpk, String str, String str2, String str3) {
-        return m114444a(this.f143143c, this.f143141a, mo69776a(mo69777a(str, str2), brpy.mo69786a().mo73642k(), str3), brpk.mo69763a()).mo50382b(new brlv(brpk));
+        return m114444a(this.f143143c, this.f143141a, mo69776a(mo69777a(str, str2), brpy.mo69786a().serializeToBytes(), str3), brpk.mo69763a()).mo50382b(new brlv(brpk));
     }
 
     /* renamed from: a */

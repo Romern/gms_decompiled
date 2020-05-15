@@ -64,7 +64,7 @@ public final class bdqq implements bdqj {
         cagz cagz;
         int i = bdgs.f105600b;
         bxvd bxvd = (bxvd) cios.mo74142c(5);
-        bxvd.mo73625a((bxvk) cios);
+        bxvd.mo73625a((GeneratedMessageLite) cios);
         m91305a(f106268a, bxvd);
         cios cios2 = (cios) bxvd.f164949b;
         if ((cios2.f191115a & 512) != 0) {
@@ -82,14 +82,14 @@ public final class bdqq implements bdqj {
                     cimk = cimk.f190730k;
                 }
                 bxvd bxvd2 = (bxvd) cimk.mo74142c(5);
-                bxvd2.mo73625a((bxvk) cimk);
+                bxvd2.mo73625a((GeneratedMessageLite) cimk);
                 m91305a(f106269b, bxvd2);
                 ciml ciml3 = ((cios) bxvd.f164949b).f191124j;
                 if (ciml3 == null) {
                     ciml3 = ciml.f190743c;
                 }
                 bxvd bxvd3 = (bxvd) ciml3.mo74142c(5);
-                bxvd3.mo73625a((bxvk) ciml3);
+                bxvd3.mo73625a((GeneratedMessageLite) ciml3);
                 if (bxvd3.f164950c) {
                     bxvd3.mo74035c();
                     bxvd3.f164950c = false;
@@ -123,19 +123,19 @@ public final class bdqq implements bdqj {
                     ciom2 = ciom.f191083k;
                 }
                 bxvd bxvd4 = (bxvd) ciom2.mo74142c(5);
-                bxvd4.mo73625a((bxvk) ciom2);
+                bxvd4.mo73625a((GeneratedMessageLite) ciom2);
                 ciok ciok = (ciok) bxvd4;
                 for (int i2 = 0; i2 < ((ciom) ciok.f164949b).f191094j.size(); i2++) {
                     ciol ciol = (ciol) ((ciom) ciok.f164949b).f191094j.get(i2);
                     bxvd bxvd5 = (bxvd) ciol.mo74142c(5);
-                    bxvd5.mo73625a((bxvk) ciol);
+                    bxvd5.mo73625a((GeneratedMessageLite) ciol);
                     if (!TextUtils.isEmpty(((ciol) bxvd5.f164949b).f191080b)) {
                         if (bxvd5.f164950c) {
                             bxvd5.mo74035c();
                             bxvd5.f164950c = false;
                         }
                         ciol ciol2 = ciol.f191077e;
-                        ((ciol) bxvd5.f164949b).f191081c = bxvk.m124029dd();
+                        ((ciol) bxvd5.f164949b).f191081c = GeneratedMessageLite.m124029dd();
                         for (String str : m91306a(((ciol) bxvd5.f164949b).f191080b)) {
                             long longValue = bdfm.m90702a(str).longValue();
                             if (bxvd5.f164950c) {
@@ -144,7 +144,7 @@ public final class bdqq implements bdqj {
                             }
                             ciol ciol3 = (ciol) bxvd5.f164949b;
                             if (!ciol3.f191081c.mo73666a()) {
-                                ciol3.f191081c = bxvk.m124020a(ciol3.f191081c);
+                                ciol3.f191081c = GeneratedMessageLite.m124020a(ciol3.f191081c);
                             }
                             ciol3.f191081c.mo74161a(longValue);
                         }
@@ -191,18 +191,18 @@ public final class bdqq implements bdqj {
                     cinm2 = cinm.f190968b;
                 }
                 bxvd bxvd6 = (bxvd) cinm2.mo74142c(5);
-                bxvd6.mo73625a((bxvk) cinm2);
+                bxvd6.mo73625a((GeneratedMessageLite) cinm2);
                 for (int i3 = 0; i3 < ((cinm) bxvd6.f164949b).f190970a.size(); i3++) {
                     cinl cinl = (cinl) ((cinm) bxvd6.f164949b).f190970a.get(i3);
                     bxvd bxvd7 = (bxvd) cinl.mo74142c(5);
-                    bxvd7.mo73625a((bxvk) cinl);
+                    bxvd7.mo73625a((GeneratedMessageLite) cinl);
                     if (!TextUtils.isEmpty(((cinl) bxvd7.f164949b).f190963s)) {
                         if (bxvd7.f164950c) {
                             bxvd7.mo74035c();
                             bxvd7.f164950c = false;
                         }
                         cinl cinl2 = cinl.f190943w;
-                        ((cinl) bxvd7.f164949b).f190964t = bxvk.m124029dd();
+                        ((cinl) bxvd7.f164949b).f190964t = GeneratedMessageLite.m124029dd();
                         String[] a = m91306a(((cinl) bxvd7.f164949b).f190963s);
                         int length = a.length;
                         long[] jArr = new long[length];
@@ -217,7 +217,7 @@ public final class bdqq implements bdqj {
                             }
                             cinl cinl3 = (cinl) bxvd7.f164949b;
                             if (!cinl3.f190964t.mo73666a()) {
-                                cinl3.f190964t = bxvk.m124020a(cinl3.f190964t);
+                                cinl3.f190964t = GeneratedMessageLite.m124020a(cinl3.f190964t);
                             }
                             cinl3.f190964t.mo74161a(j);
                         }
@@ -264,11 +264,11 @@ public final class bdqq implements bdqj {
                     cinu2 = cinu.f190982h;
                 }
                 bxvd bxvd8 = (bxvd) cinu2.mo74142c(5);
-                bxvd8.mo73625a((bxvk) cinu2);
+                bxvd8.mo73625a((GeneratedMessageLite) cinu2);
                 for (int i6 = 0; i6 < ((cinu) bxvd8.f164949b).f190987d.size(); i6++) {
                     cinx cinx = (cinx) ((cinu) bxvd8.f164949b).f190987d.get(i6);
                     bxvd bxvd9 = (bxvd) cinx.mo74142c(5);
-                    bxvd9.mo73625a((bxvk) cinx);
+                    bxvd9.mo73625a((GeneratedMessageLite) cinx);
                     m91305a(f106270c, bxvd9);
                     if (bxvd8.f164950c) {
                         bxvd8.mo74035c();
@@ -293,7 +293,7 @@ public final class bdqq implements bdqj {
             }
         }
         cios cios14 = (cios) bxvd.mo74062i();
-        byte[] k = cios14.mo73642k();
+        byte[] k = cios14.serializeToBytes();
         if (cdmr.m134059b()) {
             int i7 = cios14.f191115a;
             if ((i7 & PSKKeyManager.MAX_KEY_LENGTH_BYTES) == 0 && (i7 & 4096) == 0 && (i7 & AndroidInputTypeSignal.TYPE_TEXT_FLAG_IME_MULTI_LINE) == 0) {

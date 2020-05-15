@@ -88,7 +88,7 @@ public final class avbw extends avas {
             d3.mo68432a("avbw", "d", 93, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             d3.mo68420a("Operation '%s' performing upload...", this.f27820m);
             try {
-                bArr = ((bxqg) m78149a(this.f92865d.mo34085d(aval.SYNC_ID_CUSTOM_CACHE, this.f92863b.f30213c).mo34066a(new avbv(this), 1, this.f92866e))).mo73642k();
+                bArr = ((bxqg) m78149a(this.f92865d.mo34085d(aval.SYNC_ID_CUSTOM_CACHE, this.f92863b.f30213c).mo34066a(new avbv(this), 1, this.f92866e))).serializeToBytes();
             } catch (gid e) {
                 throw new aaaj(35001, "Auth error when uploading settings!", null, e);
             } catch (chuw | chux e2) {

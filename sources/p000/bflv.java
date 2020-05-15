@@ -61,7 +61,7 @@ public final class bflv extends ContextHubClientCallback {
                         short s = length >= i3 ? ByteBuffer.wrap(messageBody, i2, 2).order(ByteOrder.LITTLE_ENDIAN).getShort() : -1;
                         if (s > 0 && length >= (i = i3 + s)) {
                             try {
-                                bpna = (bpna) bxvk.m124012a(bpna.f138380a, ByteBuffer.wrap(messageBody, i3, s));
+                                bpna = (bpna) GeneratedMessageLite.m124012a(bpna.f138380a, ByteBuffer.wrap(messageBody, i3, s));
                             } catch (bxwf e) {
                                 bpna = null;
                             }

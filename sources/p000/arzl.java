@@ -21,7 +21,7 @@ import java.util.List;
 public final class arzl extends Fragment {
 
     /* renamed from: a */
-    public static final sek f88526a = ascp.m73787a("D2D", "UI", "QRCodeFragment");
+    public static final Logger f88526a = ascp.m73787a("D2D", "UI", "QRCodeFragment");
 
     /* renamed from: b */
     public String f88527b;

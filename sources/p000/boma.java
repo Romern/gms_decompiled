@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boma */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boma extends bxvk implements bxxd {
+public final class boma extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final boma f133613b;
@@ -16,7 +16,7 @@ public final class boma extends bxvk implements bxxd {
     static {
         boma boma = new boma();
         f133613b = boma;
-        bxvk.m124024a(boma.class, boma);
+        GeneratedMessageLite.m124024a(boma.class, boma);
     }
 
     private boma() {
@@ -33,7 +33,7 @@ public final class boma extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133613b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0004", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f133613b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0004", new Object[]{"a"});
         } else if (i2 == 3) {
             return new boma();
         } else {

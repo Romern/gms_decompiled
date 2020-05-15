@@ -486,7 +486,7 @@ public class apsl extends aplq {
                             }
                             abud = (abud) da2.f164949b;
                             if (abud.f58370t.mo73666a()) {
-                                abud.f58370t = bxvk.m124021a(abud.f58370t);
+                                abud.f58370t = GeneratedMessageLite.m124021a(abud.f58370t);
                             }
                             bxsy.m123078a(arrayList10, abud.f58370t);
                             list = querySpecification3.f9615b;
@@ -576,7 +576,7 @@ public class apsl extends aplq {
                                             if (abue.f58374a.size() != 0) {
                                                 bundleArr3[i].putIntArray(str3, bqcn.m112584a(abue.f58374a));
                                             }
-                                            bundleArr4[i].putByteArray(str3, abue.f58375b.mo73780k());
+                                            bundleArr4[i].putByteArray(str3, abue.f58375b.getKey());
                                             byte[] a10 = fsh.m12245a(abue);
                                             if (a10 == null) {
                                                 z15 = z16;
@@ -644,13 +644,13 @@ public class apsl extends aplq {
                                     } else {
                                         iArr = null;
                                     }
-                                    byte[] k = !abud2.f58356f ? a.f58395g.mo73780k() : null;
+                                    byte[] k = !abud2.f58356f ? a.f58395g.getKey() : null;
                                     if ((a.f58389a & 16) == 0) {
                                         abui abui = a.f58396h;
                                         if (abui == null) {
                                             abui = abui.f58405a;
                                         }
-                                        bArr = abui.mo73642k();
+                                        bArr = abui.serializeToBytes();
                                     } else {
                                         bArr = null;
                                     }
@@ -677,7 +677,7 @@ public class apsl extends aplq {
                                             } else {
                                                 bundleArr = bundleArr5;
                                             }
-                                            SearchResults searchResults2 = new SearchResults(i4, iArr3, strArr3, iArr, k, bundleArr2, bundleArr3, bundleArr4, bArr, dArr, bundle4, a.f58393e, jArr3, jArr2, bundleArr, bqcn.m112584a(a.f58403o), a.f58404p.mo73780k(), z2);
+                                            SearchResults searchResults2 = new SearchResults(i4, iArr3, strArr3, iArr, k, bundleArr2, bundleArr3, bundleArr4, bArr, dArr, bundle4, a.f58393e, jArr3, jArr2, bundleArr, bqcn.m112584a(a.f58403o), a.f58404p.getKey(), z2);
                                             acxl acxl2 = acxl;
                                             acxl2.mo33206a(searchResults2.f9672i);
                                             queryCall$Request3 = queryCall$Request9;
@@ -726,7 +726,7 @@ public class apsl extends aplq {
                                             if (abrv2.f58090z.mo33199a()) {
                                                 acxk acxk = abrv2.f58090z;
                                                 bxvd da7 = abtr.f58296d.mo74144da();
-                                                bxtx a12 = bxtx.m123261a(acxk.m49938a(queryCall$Request3));
+                                                ByteString a12 = ByteString.m123261a(acxk.m49938a(queryCall$Request3));
                                                 if (da7.f164950c) {
                                                     da7.mo74035c();
                                                     da7.f164950c = false;
@@ -735,7 +735,7 @@ public class apsl extends aplq {
                                                 a12.getClass();
                                                 abtr.f58298a |= 1;
                                                 abtr.f58299b = a12;
-                                                bxtx a13 = bxtx.m123261a(acxk.m49938a(searchResults2));
+                                                ByteString a13 = ByteString.m123261a(acxk.m49938a(searchResults2));
                                                 if (da7.f164950c) {
                                                     da7.mo74035c();
                                                     da7.f164950c = false;
@@ -775,7 +775,7 @@ public class apsl extends aplq {
                                     long[] jArr32 = jArr;
                                     if (!z3) {
                                     }
-                                    SearchResults searchResults22 = new SearchResults(i4, iArr3, strArr3, iArr, k, bundleArr2, bundleArr3, bundleArr4, bArr, dArr, bundle4, a.f58393e, jArr32, jArr2, bundleArr, bqcn.m112584a(a.f58403o), a.f58404p.mo73780k(), z2);
+                                    SearchResults searchResults22 = new SearchResults(i4, iArr3, strArr3, iArr, k, bundleArr2, bundleArr3, bundleArr4, bArr, dArr, bundle4, a.f58393e, jArr32, jArr2, bundleArr, bqcn.m112584a(a.f58403o), a.f58404p.getKey(), z2);
                                     acxl acxl22 = acxl;
                                     acxl22.mo33206a(searchResults22.f9672i);
                                     queryCall$Request3 = queryCall$Request9;
@@ -861,7 +861,7 @@ public class apsl extends aplq {
                             long[] jArr322 = jArr;
                             if (!z3) {
                             }
-                            SearchResults searchResults222 = new SearchResults(i4, iArr32, strArr32, iArr, k, bundleArr22, bundleArr32, bundleArr42, bArr, dArr, bundle42, a.f58393e, jArr322, jArr2, bundleArr, bqcn.m112584a(a.f58403o), a.f58404p.mo73780k(), z2);
+                            SearchResults searchResults222 = new SearchResults(i4, iArr32, strArr32, iArr, k, bundleArr22, bundleArr32, bundleArr42, bArr, dArr, bundle42, a.f58393e, jArr322, jArr2, bundleArr, bqcn.m112584a(a.f58403o), a.f58404p.getKey(), z2);
                             acxl acxl222 = acxl;
                             acxl222.mo33206a(searchResults222.f9672i);
                             queryCall$Request3 = queryCall$Request92;

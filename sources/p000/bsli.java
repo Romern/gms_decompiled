@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsli */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsli extends bxvk implements bxxd {
+public final class bsli extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bsli f144923d;
@@ -22,7 +22,7 @@ public final class bsli extends bxvk implements bxxd {
     static {
         bsli bsli = new bsli();
         f144923d = bsli;
-        bxvk.m124024a(bsli.class, bsli);
+        GeneratedMessageLite.m124024a(bsli.class, bsli);
     }
 
     private bsli() {
@@ -39,7 +39,7 @@ public final class bsli extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f144923d, "\u0001\u0002\u0000\u0001\u0002\u0004\u0002\u0000\u0000\u0000\u0002ဌ\u0000\u0004ဈ\u0002", new Object[]{"a", "b", bsll.f144929a, "c"});
+            return GeneratedMessageLite.m124022a(f144923d, "\u0001\u0002\u0000\u0001\u0002\u0004\u0002\u0000\u0000\u0000\u0002ဌ\u0000\u0004ဈ\u0002", new Object[]{"a", "b", bsll.f144929a, "c"});
         } else if (i2 == 3) {
             return new bsli();
         } else {

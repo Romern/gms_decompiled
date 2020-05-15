@@ -30,7 +30,7 @@ public final class akvr implements akww {
 
     @JavascriptInterface
     public String getAndroidId() {
-        long a = spn.m35843a(this.f72970a);
+        long a = spn.getAndroidId(this.f72970a);
         if (a != 0) {
             return Long.toHexString(a);
         }

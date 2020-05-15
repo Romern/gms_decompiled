@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btnu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btnu extends bxvk implements bxxd {
+public final class btnu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btnu f149686b;
@@ -16,7 +16,7 @@ public final class btnu extends bxvk implements bxxd {
     static {
         btnu btnu = new btnu();
         f149686b = btnu;
-        bxvk.m124024a(btnu.class, btnu);
+        GeneratedMessageLite.m124024a(btnu.class, btnu);
     }
 
     private btnu() {
@@ -33,7 +33,7 @@ public final class btnu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149686b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", btpn.class});
+            return GeneratedMessageLite.m124022a(f149686b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", btpn.class});
         } else if (i2 == 3) {
             return new btnu();
         } else {

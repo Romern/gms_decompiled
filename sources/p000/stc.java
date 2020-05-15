@@ -11,13 +11,13 @@ import java.util.Set;
 public final class stc {
     /* renamed from: a */
     public static Set m36281a(Collection collection) {
-        sdo.m34966a(collection, "scopeStrings can't be null.");
+        sdo.checkIfNull(collection, "scopeStrings can't be null.");
         return m36282a((String[]) collection.toArray(new String[collection.size()]));
     }
 
     /* renamed from: a */
     public static Set m36282a(String... strArr) {
-        sdo.m34966a(strArr, "scopeStrings can't be null.");
+        sdo.checkIfNull(strArr, "scopeStrings can't be null.");
         int length = strArr.length;
         HashSet hashSet = new HashSet(length);
         for (String str : strArr) {
@@ -30,13 +30,13 @@ public final class stc {
 
     /* renamed from: a */
     public static String[] m36283a(Set set) {
-        sdo.m34966a(set, "scopes can't be null.");
+        sdo.checkIfNull(set, "scopes can't be null.");
         return m36284a((Scope[]) set.toArray(new Scope[set.size()]));
     }
 
     /* renamed from: a */
     public static String[] m36284a(Scope[] scopeArr) {
-        sdo.m34966a(scopeArr, "scopes can't be null.");
+        sdo.checkIfNull(scopeArr, "scopes can't be null.");
         String[] strArr = new String[scopeArr.length];
         for (int i = 0; i < scopeArr.length; i++) {
             strArr[i] = scopeArr[i].f30106b;

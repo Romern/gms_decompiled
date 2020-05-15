@@ -28,7 +28,7 @@ public final class aqzy {
     public static final /* synthetic */ int f87183b = 0;
 
     /* renamed from: c */
-    private static final sek f87184c = ascp.m73787a("D2D", "EsimController");
+    private static final Logger f87184c = ascp.m73787a("D2D", "EsimController");
 
     /* renamed from: a */
     public final SharedPreferences f87185a;
@@ -139,12 +139,12 @@ public final class aqzy {
             }
             this.f87185a.edit().putString("esimActivationPayload", jSONArray.toString()).apply();
         } catch (JSONException e) {
-            sek sek = f87184c;
+            Logger Logger = f87184c;
             String valueOf = String.valueOf(arrayList);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 32);
             sb.append("Invalid esimActivationPayloads: ");
             sb.append(valueOf);
-            sek.mo25418e(sb.toString(), new Object[0]);
+            Logger.mo25418e(sb.toString(), new Object[0]);
         }
     }
 }

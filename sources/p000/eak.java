@@ -32,7 +32,7 @@ final class eak extends dwu {
         bxiv bxiv = (bxiv) obj;
         try {
             new Object[1][0] = this.f14544a.f14389e;
-            bxwc<bxtx> bxwc = bxiv.f163577c;
+            bxwc<ByteString> bxwc = bxiv.f163577c;
             if (!bxwc.isEmpty()) {
                 WriteBatchImpl b = tjj.m37080b();
                 ContextData contextData = this.f14544a.f14546j;
@@ -44,8 +44,8 @@ final class eak extends dwu {
                     str = null;
                 }
                 boolean z = false;
-                for (bxtx bxtx : bxwc) {
-                    ContextData contextData2 = new ContextData(bxtx.mo73780k());
+                for (ByteString bxtx : bxwc) {
+                    ContextData contextData2 = new ContextData(bxtx.getKey());
                     if (contextData2.mo18015e() != null) {
                         int g = contextData2.mo18018g();
                         eal eal2 = this.f14544a;

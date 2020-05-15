@@ -112,7 +112,7 @@ public class ContextFenceStub extends AwarenessFence implements tkp {
     private final void m22865i() {
         if (this.f30628a == null) {
             try {
-                this.f30628a = (bxcm) bxvk.m124016a(bxcm.f162813z, this.f30629b, bxus.m123744c());
+                this.f30628a = (bxcm) GeneratedMessageLite.m124016a(bxcm.f162813z, this.f30629b, bxus.m123744c());
                 this.f30629b = null;
             } catch (bxwf e) {
                 dst.m9254a("ContextFenceStub", "Could not deserialize context fence bytes.", e);
@@ -223,7 +223,7 @@ public class ContextFenceStub extends AwarenessFence implements tkp {
                     if (bxeh != null) {
                         bxcm bxcm2 = contextFenceStub.f30628a;
                         bxvd bxvd = (bxvd) bxcm2.mo74142c(5);
-                        bxvd.mo73625a((bxvk) bxcm2);
+                        bxvd.mo73625a((GeneratedMessageLite) bxcm2);
                         bxcj bxcj = (bxcj) bxvd;
                         if (bxcj.f164950c) {
                             bxcj.mo74035c();
@@ -239,7 +239,7 @@ public class ContextFenceStub extends AwarenessFence implements tkp {
                     } else {
                         bxcm bxcm4 = contextFenceStub.f30628a;
                         bxvd bxvd2 = (bxvd) bxcm4.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) bxcm4);
+                        bxvd2.mo73625a((GeneratedMessageLite) bxcm4);
                         bxcj bxcj2 = (bxcj) bxvd2;
                         if (bxcj2.f164950c) {
                             bxcj2.mo74035c();
@@ -264,14 +264,14 @@ public class ContextFenceStub extends AwarenessFence implements tkp {
                 }
                 bxcm bxcm6 = this.f30628a;
                 bxvd bxvd3 = (bxvd) bxcm6.mo74142c(5);
-                bxvd3.mo73625a((bxvk) bxcm6);
+                bxvd3.mo73625a((GeneratedMessageLite) bxcm6);
                 bxcj bxcj3 = (bxcj) bxvd3;
                 if (bxcj3.f164950c) {
                     bxcj3.mo74035c();
                     bxcj3.f164950c = false;
                 }
                 bxvu bxvu3 = bxcm.f162812v;
-                ((bxcm) bxcj3.f164949b).f162816c = bxvk.m124030de();
+                ((bxcm) bxcj3.f164949b).f162816c = GeneratedMessageLite.m124030de();
                 bxcj3.mo73563a(arrayList);
                 this.f30628a = (bxcm) bxcj3.mo74062i();
                 this.f30630c = null;

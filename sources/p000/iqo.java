@@ -11,7 +11,7 @@ import java.util.List;
 public final class iqo {
 
     /* renamed from: a */
-    private static final sek f21574a = new sek(new String[]{"ShareGroupPrivateKeyController"}, (byte[]) null);
+    private static final Logger f21574a = new Logger(new String[]{"ShareGroupPrivateKeyController"}, (byte[]) null);
 
     /* renamed from: b */
     private final isq f21575b;
@@ -82,9 +82,9 @@ public final class iqo {
                 while (i2 < size) {
                     bqld bqld = (bqld) list.get(i2);
                     try {
-                        SignCryptedBlob a4 = this.f21580g.mo13326a(ehv.m10473c(bqld.f141086d.mo73780k()), ehv.m10464a(a2.f15027d));
+                        SignCryptedBlob a4 = this.f21580g.mo13326a(ehv.m10473c(bqld.f141086d.getKey()), ehv.m10464a(a2.f15027d));
                         bxvd da3 = bqlh.f141092e.mo74144da();
-                        bxtx a5 = bxtx.m123261a(a4.f10555c);
+                        ByteString a5 = ByteString.m123261a(a4.f10555c);
                         if (da3.f164950c) {
                             da3.mo74035c();
                             da3.f164950c = false;
@@ -106,7 +106,7 @@ public final class iqo {
                         bqlj bqlj = (bqlj) da2.f164949b;
                         bqlh2.getClass();
                         if (!bqlj.f141107b.mo73666a()) {
-                            bqlj.f141107b = bxvk.m124021a(bqlj.f141107b);
+                            bqlj.f141107b = GeneratedMessageLite.m124021a(bqlj.f141107b);
                         }
                         bqlj.f141107b.add(bqlh2);
                         i2++;

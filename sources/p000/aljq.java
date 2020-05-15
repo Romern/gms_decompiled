@@ -42,14 +42,14 @@ public final class aljq {
     /* renamed from: a */
     private final void m61093a(bwac bwac) {
         bxvd bxvd = (bxvd) bwac.mo74142c(5);
-        bxvd.mo73625a((bxvk) bwac);
+        bxvd.mo73625a((GeneratedMessageLite) bwac);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
         }
         bwac bwac2 = bwac.f158609d;
         ((bwac) bxvd.f164949b).f158611a = 3;
-        this.f73573a.mo24335a(((bwac) bxvd.mo74062i()).mo73642k()).mo24327b();
+        this.f73573a.mo24335a(((bwac) bxvd.mo74062i()).serializeToBytes()).mo24327b();
     }
 
     /* JADX INFO: Can't fix incorrect switch cases order, some code will duplicate */

@@ -25,9 +25,9 @@ final /* synthetic */ class mzu implements Callable {
             if (!nab.f35102i.booleanValue()) {
                 nab.mo20368a("lastKvBackupPassTimeMs");
                 i = nab.mo20372b();
-                sek sek = nab.f35075a;
+                Logger Logger = nab.f35075a;
                 String valueOf = String.valueOf(nab.f35097d);
-                sek.mo25414c(valueOf.length() == 0 ? new String("Backup finished for ") : "Backup finished for ".concat(valueOf), new Object[0]);
+                Logger.mo25414c(valueOf.length() == 0 ? new String("Backup finished for ") : "Backup finished for ".concat(valueOf), new Object[0]);
             } else {
                 nab.mo20368a("lastFullBackupPassTimeMs");
                 mzb mzb = nab.f35103j;
@@ -38,9 +38,9 @@ final /* synthetic */ class mzu implements Callable {
                 }
                 nab.f35103j = null;
                 nab.f35102i = false;
-                sek sek2 = nab.f35075a;
+                Logger logger2 = nab.f35075a;
                 String valueOf2 = String.valueOf(nab.f35097d);
-                sek2.mo25414c(valueOf2.length() == 0 ? new String("Backup finished for ") : "Backup finished for ".concat(valueOf2), new Object[0]);
+                logger2.mo25414c(valueOf2.length() == 0 ? new String("Backup finished for ") : "Backup finished for ".concat(valueOf2), new Object[0]);
             }
             TrafficStats.clearThreadStatsTag();
             TrafficStats.clearThreadStatsUid();
@@ -50,9 +50,9 @@ final /* synthetic */ class mzu implements Callable {
             nab.f35117x.mo19821a(3);
             return Integer.valueOf(i);
         } catch (Throwable th) {
-            sek sek3 = nab.f35075a;
+            Logger logger3 = nab.f35075a;
             String valueOf3 = String.valueOf(nab.f35097d);
-            sek3.mo25414c(valueOf3.length() == 0 ? new String("Backup finished for ") : "Backup finished for ".concat(valueOf3), new Object[0]);
+            logger3.mo25414c(valueOf3.length() == 0 ? new String("Backup finished for ") : "Backup finished for ".concat(valueOf3), new Object[0]);
             TrafficStats.clearThreadStatsTag();
             TrafficStats.clearThreadStatsUid();
             nab.f35095b = -1;

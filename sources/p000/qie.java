@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 final class qie {
 
     /* renamed from: a */
-    private static final sek f41456a = qgn.m32143a("ConnectivityPropertiesModule");
+    private static final Logger f41456a = qgn.m32143a("ConnectivityPropertiesModule");
 
     /* renamed from: b */
     private static final Pattern f41457b = Pattern.compile("^([0-9]{0,15})$");
@@ -90,10 +90,10 @@ final class qie {
             f41456a.mo25414c("Unknown state of subscriptions on the device", new Object[0]);
             bmxv = bmvz.f131120a;
         } else if (activeSubscriptionInfoList.isEmpty()) {
-            f41456a.mo25409a("No Subscription records found on the device", new Object[0]);
+            f41456a.logVerbose("No Subscription records found on the device", new Object[0]);
             bmxv = bmxv.m108566b(bngx.m109376e());
         } else {
-            f41456a.mo25409a("Reading the Subscription data for each Subscription.", new Object[0]);
+            f41456a.logVerbose("Reading the Subscription data for each Subscription.", new Object[0]);
             int i2 = Build.VERSION.SDK_INT;
             int i3 = Build.VERSION.SDK_INT;
             int defaultVoiceSubscriptionId = SubscriptionManager.getDefaultVoiceSubscriptionId();
@@ -180,7 +180,7 @@ final class qie {
                 }
                 bmxv a2 = m32204a(c2, (int) cdci.m132548n());
                 if (a2.mo66813a()) {
-                    bxtx bxtx = (bxtx) a2.mo66814b();
+                    ByteString bxtx = (ByteString) a2.mo66814b();
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -270,7 +270,7 @@ final class qie {
         }
         bmxv a4 = m32204a(bmxv.m108567c(subscriberId), (int) cdci.m132548n());
         if (a4.mo66813a()) {
-            bxtx bxtx2 = (bxtx) a4.mo66814b();
+            ByteString bxtx2 = (ByteString) a4.mo66814b();
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -340,7 +340,7 @@ final class qie {
 
     /* renamed from: a */
     private static bmxv m32204a(bmxv bmxv, int i) {
-        return bmxv.mo66813a() ? bmxv.m108566b(bxtx.m123261a(azoh.m85915a((String) bmxv.mo66814b(), i))) : bmvz.f131120a;
+        return bmxv.mo66813a() ? bmxv.m108566b(ByteString.m123261a(azoh.m85915a((String) bmxv.mo66814b(), i))) : bmvz.f131120a;
     }
 
     /* renamed from: a */

@@ -1504,6 +1504,6 @@ public final class abxs {
 
     /* renamed from: a */
     public final void mo32422a(abvh abvh) {
-        this.f58696a.mo73625a((bxvk) abvh);
+        this.f58696a.mo73625a((GeneratedMessageLite) abvh);
     }
 }

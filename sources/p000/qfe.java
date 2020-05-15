@@ -14,7 +14,7 @@ public final class qfe {
     public static final qgc f41114a = new qfd();
 
     /* renamed from: f */
-    private static final sek f41115f = qgn.m32143a("ExecutionManager");
+    private static final Logger f41115f = qgn.m32143a("ExecutionManager");
 
     /* renamed from: b */
     public final Context f41116b;

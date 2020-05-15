@@ -268,7 +268,7 @@ public abstract class aniu {
             if (bqzm3 == null) {
                 bqzm3 = bqzm.f142060d;
             }
-            for (byte b : bqzm3.f142064c.mo73780k()) {
+            for (byte b : bqzm3.f142064c.getKey()) {
                 i3 = (i3 * 31) + b;
             }
             i = (i * 17) ^ i3;
@@ -303,7 +303,7 @@ public abstract class aniu {
                 bqzm bqzm = (bqzm) da.f164949b;
                 bqzm.f142062a |= 1;
                 bqzm.f142063b = j2;
-                bxtx a = bxtx.m123261a(query.getBlob(1));
+                ByteString a = ByteString.m123261a(query.getBlob(1));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -646,7 +646,7 @@ public abstract class aniu {
         Cursor query = sQLiteDatabase.query("ExperimentTokens", strArr, "packageName = ? AND user = ? AND version = ? AND isCommitted = 0", strArr2, null, null, null);
         try {
             if (query.moveToFirst() && (blob = query.getBlob(0)) != null) {
-                bxtx a = bxtx.m123261a(blob);
+                ByteString a = ByteString.m123261a(blob);
                 if (bqyr.f164950c) {
                     bqyr.mo74035c();
                     bqyr.f164950c = false;
@@ -753,7 +753,7 @@ public abstract class aniu {
                 if (bqzf == null) {
                     bqzf = bqzf.f142036b;
                 }
-                sQLiteStatement.bindBlob(12, bqzf.f142038a.mo73780k());
+                sQLiteStatement.bindBlob(12, bqzf.f142038a.getKey());
             }
             String str3 = bqzi.f142043a;
             sQLiteStatement.execute();
@@ -1008,7 +1008,7 @@ public abstract class aniu {
                         }
                         ContentValues contentValues3 = new ContentValues();
                         contentValues3.put(str11, str8);
-                        contentValues3.put("bytesTag", bqze6.f142031b.mo73780k());
+                        contentValues3.put("bytesTag", bqze6.f142031b.getKey());
                         HashMap hashMap = new HashMap();
                         query2 = writableDatabase.query("RequestTags", new String[]{str11, "bytesTag"}, null, null, null, null, null);
                         while (query2.moveToNext()) {
@@ -1018,7 +1018,7 @@ public abstract class aniu {
                         l2 = l;
                         if (hashMap.containsKey(str8)) {
                             str = "serverToken";
-                            if (!Arrays.equals((byte[]) hashMap.get(str8), bqze6.f142031b.mo73780k())) {
+                            if (!Arrays.equals((byte[]) hashMap.get(str8), bqze6.f142031b.getKey())) {
                                 writableDatabase.update("RequestTags", contentValues3, "user = ?", new String[]{str8});
                             } else {
                                 if (query2 != null) {
@@ -1126,10 +1126,10 @@ public abstract class aniu {
                                                                 String str16 = "";
                                                                 long j7 = bqze6.f142033d;
                                                                 j3 = cgem.f186663a.mo6606a().mo83553j();
-                                                                if ((bqyt.f141983a & 8) != 0 || bqyt.f141989g.mo73780k().length <= 0) {
+                                                                if ((bqyt.f141983a & 8) != 0 || bqyt.f141989g.getKey().length <= 0) {
                                                                     bArr = null;
                                                                 } else {
-                                                                    bArr = bqyt.f141989g.mo73780k();
+                                                                    bArr = bqyt.f141989g.getKey();
                                                                 }
                                                                 if (j3) {
                                                                     z5 = z4;
@@ -1148,7 +1148,7 @@ public abstract class aniu {
                                                                     if (query.moveToFirst()) {
                                                                         l4 = valueOf3;
                                                                         str4 = str11;
-                                                                        if (Arrays.equals(bqyt.f141986d.mo73780k(), query.getBlob(0))) {
+                                                                        if (Arrays.equals(bqyt.f141986d.getKey(), query.getBlob(0))) {
                                                                             String str19 = bqyt.f141987e;
                                                                             String string = query.getString(1);
                                                                             if (str19 == null) {
@@ -1244,7 +1244,7 @@ public abstract class aniu {
                                                                     num3 = num;
                                                                     contentValues5.put("isCommitted", num3);
                                                                     str5 = str13;
-                                                                    contentValues5.put(str3, bqyt.f141986d.mo73780k());
+                                                                    contentValues5.put(str3, bqyt.f141986d.getKey());
                                                                     str3 = str3;
                                                                     str6 = str18;
                                                                     contentValues5.put(str6, bqyt.f141987e);
@@ -1279,7 +1279,7 @@ public abstract class aniu {
                                                                             contentValues6.put("toPackageName", str15);
                                                                             contentValues6.put("toVersion", Long.valueOf(j6));
                                                                             contentValues6.put("isCommitted", num3);
-                                                                            contentValues6.put("token", bqza.f142010b.mo73780k());
+                                                                            contentValues6.put("token", bqza.f142010b.getKey());
                                                                             int a6 = bqyz.m113783a(bqza.f142011c);
                                                                             if (a6 == 0) {
                                                                                 a6 = 1;
@@ -2106,7 +2106,7 @@ public abstract class aniu {
                                             }
                                             ContentValues contentValues3 = new ContentValues();
                                             contentValues3.put("user", str5);
-                                            contentValues3.put("bytesTag", bqze6.f142031b.mo73780k());
+                                            contentValues3.put("bytesTag", bqze6.f142031b.getKey());
                                             HashMap hashMap = new HashMap();
                                             query2 = writableDatabase.query("RequestTags", new String[]{"user", "bytesTag"}, null, null, null, null, null);
                                             while (query2.moveToNext()) {
@@ -2114,7 +2114,7 @@ public abstract class aniu {
                                             }
                                             if (!hashMap.containsKey(str5)) {
                                                 writableDatabase.insert("RequestTags", null, contentValues3);
-                                            } else if (!Arrays.equals((byte[]) hashMap.get(str5), bqze6.f142031b.mo73780k())) {
+                                            } else if (!Arrays.equals((byte[]) hashMap.get(str5), bqze6.f142031b.getKey())) {
                                                 writableDatabase.update("RequestTags", contentValues3, "user = ?", new String[]{str5});
                                             } else {
                                                 if (query2 != null) {
@@ -2232,8 +2232,8 @@ public abstract class aniu {
                                                                 long j7 = bqze6.f142033d;
                                                                 j2 = cgem.f186663a.mo6606a().mo83553j();
                                                                 if ((bqyt.f141983a & 8) != 0) {
-                                                                    if (bqyt.f141989g.mo73780k().length > 0) {
-                                                                        bArr = bqyt.f141989g.mo73780k();
+                                                                    if (bqyt.f141989g.getKey().length > 0) {
+                                                                        bArr = bqyt.f141989g.getKey();
                                                                         if (j2) {
                                                                             bqze2 = bqze6;
                                                                             try {
@@ -2260,7 +2260,7 @@ public abstract class aniu {
                                                                                     if (query.moveToFirst()) {
                                                                                         hashSet3 = hashSet4;
                                                                                         z7 = z5;
-                                                                                        if (Arrays.equals(bqyt.f141986d.mo73780k(), query.getBlob(0))) {
+                                                                                        if (Arrays.equals(bqyt.f141986d.getKey(), query.getBlob(0))) {
                                                                                             String str12 = bqyt.f141987e;
                                                                                             String string = query.getString(1);
                                                                                             if (str12 == null) {
@@ -2339,7 +2339,7 @@ public abstract class aniu {
                                                                                     contentValues5.put("version", valueOf2);
                                                                                     contentValues5.put("user", a8);
                                                                                     contentValues5.put("isCommitted", (Integer) 0);
-                                                                                    contentValues5.put("experimentToken", bqyt.f141986d.mo73780k());
+                                                                                    contentValues5.put("experimentToken", bqyt.f141986d.getKey());
                                                                                     contentValues5.put("serverToken", bqyt.f141987e);
                                                                                     contentValues5.put("configHash", Integer.toString(i4));
                                                                                     contentValues5.put("servingVersion", Long.valueOf(j7));
@@ -2373,7 +2373,7 @@ public abstract class aniu {
                                                                                             contentValues6.put("toPackageName", str11);
                                                                                             contentValues6.put("toVersion", Long.valueOf(j6));
                                                                                             contentValues6.put("isCommitted", (Integer) 0);
-                                                                                            contentValues6.put("token", bqza.f142010b.mo73780k());
+                                                                                            contentValues6.put("token", bqza.f142010b.getKey());
                                                                                             int a11 = bqyz.m113783a(bqza.f142011c);
                                                                                             if (a11 == 0) {
                                                                                                 a11 = 1;
@@ -3016,7 +3016,7 @@ public abstract class aniu {
                 if (bqzm7 == null) {
                     bqzm7 = bqzm.f142060d;
                 }
-                byte[] k = bqzm7.f142064c.mo73780k();
+                byte[] k = bqzm7.f142064c.getKey();
                 if (k == null) {
                     i = i11;
                     bxwc = bxwc8;
@@ -3115,7 +3115,7 @@ public abstract class aniu {
                                     if (bqzf == null) {
                                         bqzf = bqzf.f142036b;
                                     }
-                                    sQLiteStatement2.bindBlob(12, bqzf.f142038a.mo73780k());
+                                    sQLiteStatement2.bindBlob(12, bqzf.f142038a.getKey());
                                 }
                                 String str12 = bqzi2.f142043a;
                                 sQLiteStatement.execute();
@@ -3448,7 +3448,7 @@ public abstract class aniu {
                                 }
                                 byte[] bArr4 = blob2 != null ? blob2 : bArr3;
                                 if (bArr4 != null) {
-                                    bxtx a3 = bxtx.m123261a(bArr4);
+                                    ByteString a3 = ByteString.m123261a(bArr4);
                                     if (bqyr.f164950c) {
                                         bqyr.mo74035c();
                                         bqyr.f164950c = false;
@@ -3512,7 +3512,7 @@ public abstract class aniu {
                     }
                     bqzd = (bqzd) da.f164949b;
                     if (!bqzd.f142022c.mo73666a()) {
-                        bqzd.f142022c = bxvk.m124021a(bqzd.f142022c);
+                        bqzd.f142022c = GeneratedMessageLite.m124021a(bqzd.f142022c);
                     }
                     bxsy.m123078a(list2, bqzd.f142022c);
                     if (cgem.m144896k()) {
@@ -3528,7 +3528,7 @@ public abstract class aniu {
                             bArr2 = query3.getBlob(0);
                         }
                         query3.close();
-                        bxtx a4 = bxtx.m123261a(bArr2);
+                        ByteString a4 = ByteString.m123261a(bArr2);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -3543,7 +3543,7 @@ public abstract class aniu {
                         bArr = f76968g;
                     }
                     query.close();
-                    bxtx a5 = bxtx.m123261a(bArr);
+                    ByteString a5 = ByteString.m123261a(bArr);
                     bxvd bxvd5 = bxvd2;
                     if (bxvd5.f164950c) {
                         bxvd5.mo74035c();
@@ -3631,7 +3631,7 @@ public abstract class aniu {
                                 blob3 = blob4;
                             }
                             if (blob3 != null) {
-                                bxtx a7 = bxtx.m123261a(blob3);
+                                ByteString a7 = ByteString.m123261a(blob3);
                                 if (bqyr2.f164950c) {
                                     bqyr2.mo74035c();
                                     bqyr2.f164950c = false;

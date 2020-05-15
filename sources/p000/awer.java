@@ -151,7 +151,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
     /* renamed from: a */
     public static awer m79720a(byte[] bArr, byte[] bArr2, BuyFlowConfig buyFlowConfig, String str, byte[] bArr3, LogContext logContext) {
         blym blym;
-        sdo.m34966a(bArr, "initializeResponseToken must not be null");
+        sdo.checkIfNull(bArr, "initializeResponseToken must not be null");
         sdo.m34969a(str, (Object) "analyticsSessionId must be valid");
         awer awer = new awer();
         blxx blxx = (blxx) bjvp.m104733a(bArr, (bxxk) blxx.f128159j.mo74142c(7));
@@ -163,8 +163,8 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         } else {
             blym = null;
         }
-        sdo.m34966a(buyFlowConfig, "buyFlowConfig must not be null");
-        sdo.m34966a(buyFlowConfig.f110418b.f110407b, "account must be set in buyFlowConfig");
+        sdo.checkIfNull(buyFlowConfig, "buyFlowConfig must not be null");
+        sdo.checkIfNull(buyFlowConfig.f110418b.f110407b, "account must be set in buyFlowConfig");
         sdo.m34969a(str, (Object) "analyticsSessionId must be valid");
         Bundle a = bkbr.m105273a((int) C0126R.style.WalletEmptyStyle, logContext);
         bjvp.m104736a(a, "pageProto", blym);
@@ -306,14 +306,14 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
                 bwip bwip2 = (bwip) da.mo74062i();
                 blym blym2 = (blym) this.f95397aj;
                 bxvd bxvd = (bxvd) blym2.mo74142c(5);
-                bxvd.mo73625a((bxvk) blym2);
+                bxvd.mo73625a((GeneratedMessageLite) blym2);
                 blyj blyj = (blyj) bxvd;
                 bwio bwio4 = ((blym) this.f95397aj).f128217A;
                 if (bwio4 == null) {
                     bwio4 = bwio.f159659d;
                 }
                 bxvd bxvd2 = (bxvd) bwio4.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bwio4);
+                bxvd2.mo73625a((GeneratedMessageLite) bwio4);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
@@ -560,7 +560,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         mo52808n(false);
         mo52063c(true);
         bxvd da = blxw.f128152f.mo74144da();
-        bmaj a = awfx.m79878a(this.f94233f.f165220b.mo73780k());
+        bmaj a = awfx.m79878a(this.f94233f.f165220b.getKey());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -571,7 +571,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         blxw.f128154a = 1 | blxw.f128154a;
         byte[] bArr = this.f94231d;
         if (bArr != null) {
-            bxtx a2 = bxtx.m123261a(bArr);
+            ByteString a2 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -612,19 +612,19 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
     /* renamed from: H */
     public final BuyFlowResult mo52036H() {
         byte[] bArr;
-        bxtx bxtx;
+        ByteString bxtx;
         bmag bmag = this.f95398ak.f110456e;
         awet a = BuyFlowResult.m93847a();
-        a.mo52083a(this.f94233f.mo73642k());
+        a.mo52083a(this.f94233f.serializeToBytes());
         if (bmag == null) {
             bArr = f94220a;
         } else {
             if (bmag.f128444a == 2) {
-                bxtx = (bxtx) bmag.f128445b;
+                bxtx = (ByteString) bmag.f128445b;
             } else {
                 bxtx = bxtx.f164797b;
             }
-            bArr = bxtx.mo73780k();
+            bArr = bxtx.getKey();
         }
         a.mo52084b(bArr);
         a.mo52082a(m79728aE());
@@ -914,7 +914,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
             if (pageDetails == null || this.f94233f == null) {
                 if (pageDetails != null) {
                     bxvd da = byaa.f165217d.mo74144da();
-                    bxtx bxtx = this.f95399al.f110465n.f128483c;
+                    ByteString bxtx = this.f95399al.f110465n.f128483c;
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -927,7 +927,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
                 } else if (this.f94233f == null) {
                     this.f94233f = byaa.f165217d;
                 }
-            } else if (!Arrays.equals(pageDetails.f110465n.f128483c.mo73780k(), this.f94233f.f165220b.mo73780k())) {
+            } else if (!Arrays.equals(pageDetails.f110465n.f128483c.mo73780k(), this.f94233f.f165220b.getKey())) {
                 throw new IllegalStateException("Invalid buy flow state token.");
             }
             OrchestrationViewEvent.m93828c(getActivity(), this.f95359C, this.f94223aN);
@@ -1155,7 +1155,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         bmlz h = mo51924h();
         if (h != null) {
             bxvd bxvd = (bxvd) blym.mo74142c(5);
-            bxvd.mo73625a((bxvk) blym);
+            bxvd.mo73625a((GeneratedMessageLite) blym);
             blyj blyj = (blyj) bxvd;
             if (blyj.f164950c) {
                 blyj.mo74035c();
@@ -1169,7 +1169,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
             return (blym) blyj.mo74062i();
         }
         bxvd bxvd2 = (bxvd) blym.mo74142c(5);
-        bxvd2.mo73625a((bxvk) blym);
+        bxvd2.mo73625a((GeneratedMessageLite) blym);
         blyj blyj2 = (blyj) bxvd2;
         if (blyj2.f164950c) {
             blyj2.mo74035c();
@@ -1509,7 +1509,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
     public final /* bridge */ /* synthetic */ Object mo51914b(Object obj) {
         blyn blyn = (blyn) obj;
         bxvd da = blyq.f128291f.mo74144da();
-        bmaj a = awfx.m79878a(this.f94233f.f165220b.mo73780k());
+        bmaj a = awfx.m79878a(this.f94233f.f165220b.getKey());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -1740,14 +1740,14 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
                     bwip bwip2 = (bwip) da.mo74062i();
                     blym blym6 = (blym) this.f95397aj;
                     bxvd bxvd2 = (bxvd) blym6.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) blym6);
+                    bxvd2.mo73625a((GeneratedMessageLite) blym6);
                     blyj = (blyj) bxvd2;
                     bwio4 = ((blym) this.f95397aj).f128217A;
                     if (bwio4 == null) {
                         bwio4 = bwio.f159659d;
                     }
                     bxvd = (bxvd) bwio4.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bwio4);
+                    bxvd.mo73625a((GeneratedMessageLite) bwio4);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -2277,13 +2277,13 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
             bwip bwip22 = (bwip) da.mo74062i();
             blym blym62 = (blym) this.f95397aj;
             bxvd bxvd22 = (bxvd) blym62.mo74142c(5);
-            bxvd22.mo73625a((bxvk) blym62);
+            bxvd22.mo73625a((GeneratedMessageLite) blym62);
             blyj = (blyj) bxvd22;
             bwio4 = ((blym) this.f95397aj).f128217A;
             if (bwio4 == null) {
             }
             bxvd = (bxvd) bwio4.mo74142c(5);
-            bxvd.mo73625a((bxvk) bwio4);
+            bxvd.mo73625a((GeneratedMessageLite) bwio4);
             if (bxvd.f164950c) {
             }
             bwio bwio52 = (bwio) bxvd.f164949b;
@@ -2565,7 +2565,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
                 blyn blyn7 = (blyn) da.f164949b;
                 m2.getClass();
                 if (!blyn7.f128267e.mo73666a()) {
-                    blyn7.f128267e = bxvk.m124021a(blyn7.f128267e);
+                    blyn7.f128267e = GeneratedMessageLite.m124021a(blyn7.f128267e);
                 }
                 blyn7.f128267e.add(m2);
             }
@@ -2639,7 +2639,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         }
         blym blym = (blym) this.f95397aj;
         if ((blym.f128235a & 4) != 0) {
-            bxtx bxtx = blym.f128238d;
+            ByteString bxtx = blym.f128238d;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -2652,7 +2652,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         if (bArr == null) {
             bArr = f94220a;
         }
-        bxtx a7 = bxtx.m123261a(bArr);
+        ByteString a7 = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -2831,7 +2831,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         if (((Integer) this.f95374R.mo15534a(j)).intValue() == 6) {
             blym blym = (blym) this.f95397aj;
             bxvd bxvd = (bxvd) blym.mo74142c(5);
-            bxvd.mo73625a((bxvk) blym);
+            bxvd.mo73625a((GeneratedMessageLite) blym);
             blyj blyj = (blyj) bxvd;
             if (blyj.f164950c) {
                 blyj.mo74035c();
@@ -2890,8 +2890,8 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         bmag bmag;
         bmar bmar;
         bwgz a;
-        bxtx bxtx;
-        bxtx bxtx2;
+        ByteString bxtx;
+        ByteString bxtx2;
         blyr blyr2 = blyr;
         this.f94233f = byaa;
         if (blyr2.f128309j) {
@@ -2904,7 +2904,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
             }
             if (a2 == bwgz.UNKNOWN_FLOW_INSTRUCTION) {
                 bxvd bxvd = (bxvd) blyr2.mo74142c(5);
-                bxvd.mo73625a((bxvk) blyr2);
+                bxvd.mo73625a((GeneratedMessageLite) blyr2);
                 bwgz bwgz = bwgz.COMPLETE_FLOW_IMMEDIATELY;
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
@@ -2924,11 +2924,11 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
                 bmag2 = bmag.f128442c;
             }
             if (bmag2.f128444a == 2) {
-                bxtx2 = (bxtx) bmag2.f128445b;
+                bxtx2 = (ByteString) bmag2.f128445b;
             } else {
                 bxtx2 = bxtx.f164797b;
             }
-            bArr = bxtx2.mo73780k();
+            bArr = bxtx2.getKey();
         }
         byte[] bArr2 = new byte[0];
         if ((blyr2.f128300a & 8192) != 0) {
@@ -2937,18 +2937,18 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
                 bmag3 = bmag.f128442c;
             }
             if (bmag3.f128444a == 2) {
-                bxtx = (bxtx) bmag3.f128445b;
+                bxtx = (ByteString) bmag3.f128445b;
             } else {
                 bxtx = bxtx.f164797b;
             }
-            bArr2 = bxtx.mo73780k();
+            bArr2 = bxtx.getKey();
         }
         awet a3 = BuyFlowResult.m93847a();
         String str = blyr2.f128311l;
         BuyFlowResult buyFlowResult = a3.f94248a;
         buyFlowResult.f110018c = str;
         buyFlowResult.f110017b = blyr2.f128312m;
-        a3.mo52083a(this.f94233f.mo73642k());
+        a3.mo52083a(this.f94233f.serializeToBytes());
         a3.mo52084b(bArr);
         a3.f94248a.f110022g = bArr2;
         a3.mo52082a(m79728aE());
@@ -3029,7 +3029,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
     public final void mo52050a(bmaf bmaf, Bundle bundle, byte[] bArr) {
         mo52808n(false);
         bxvd da = blyo.f128277e.mo74144da();
-        bmaj a = awfx.m79878a(this.f94233f.f165220b.mo73780k());
+        bmaj a = awfx.m79878a(this.f94233f.f165220b.getKey());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -3116,8 +3116,8 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         buyFlowFragment$BuyFlowPageDetails.f110454c = bwgz;
         byaa byaa = this.f94233f;
         bxvd bxvd = (bxvd) byaa.mo74142c(5);
-        bxvd.mo73625a((bxvk) byaa);
-        bxtx bxtx = bmaq2.f128483c;
+        bxvd.mo73625a((GeneratedMessageLite) byaa);
+        ByteString bxtx = bmaq2.f128483c;
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -3139,7 +3139,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         bmmp bmmp4;
         bmmf bmmf;
         bmmf bmmf2;
-        bxtx bxtx;
+        ByteString bxtx;
         bmme bmme;
         bwdm cl;
         int a = bmmb.m108166a(bmmv.f130058d);
@@ -3172,7 +3172,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
             } else {
                 bmmp2 = bmmp.f130032e;
             }
-            byte[] k = bmmp2.f130037d.mo73780k();
+            byte[] k = bmmp2.f130037d.getKey();
             if (bmmv.f130056b == 4) {
                 bmmp3 = (bmmp) bmmv.f130057c;
             } else {
@@ -3185,7 +3185,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
             } else {
                 bmmp4 = bmmp.f130032e;
             }
-            byte[] k2 = bmmp4.f130037d.mo73780k();
+            byte[] k2 = bmmp4.f130037d.getKey();
             Bundle bundle = new Bundle();
             bjvp.m104737a(bundle, "EventListener.EXTRA_TRIGGER_VALUE_REFERENCES", list);
             mo52050a((bmaf) null, bundle, k2);
@@ -3274,7 +3274,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
                         }
                         bwdp bwdp5 = (bwdp) da.f164949b;
                         if (!bwdp5.f158913b.mo73666a()) {
-                            bwdp5.f158913b = bxvk.m124021a(bwdp5.f158913b);
+                            bwdp5.f158913b = GeneratedMessageLite.m124021a(bwdp5.f158913b);
                         }
                         bxsy.m123078a(arrayList, bwdp5.f158913b);
                         bwdp bwdp6 = (bwdp) da.mo74062i();
@@ -3325,14 +3325,14 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
                     bmag = bmag.f128442c;
                 }
                 if (bmag.f128444a == 2) {
-                    bxtx = (bxtx) bmag.f128445b;
+                    bxtx = (ByteString) bmag.f128445b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
-                a4.mo52084b(bxtx.mo73780k());
+                a4.mo52084b(bxtx.getKey());
             }
             a4.mo52082a(m79728aE());
-            a4.mo52083a(this.f94233f.mo73642k());
+            a4.mo52083a(this.f94233f.serializeToBytes());
             this.f95398ak.f110466o = a4.f94248a;
             mo52873af();
         }
@@ -3347,7 +3347,7 @@ public final class awer extends awzg implements View.OnClickListener, ViewTreeOb
         blzf blzf = this.f94232e;
         if (blzf != null) {
             bxvd bxvd = (bxvd) blzf.mo74142c(5);
-            bxvd.mo73625a((bxvk) blzf);
+            bxvd.mo73625a((GeneratedMessageLite) blzf);
             blze blze = (blze) bxvd;
             if (blze.f164950c) {
                 blze.mo74035c();

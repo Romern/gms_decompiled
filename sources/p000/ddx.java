@@ -135,7 +135,7 @@ public final class ddx extends dck implements ddy {
     /* renamed from: a */
     private final void m8217a(boet boet) {
         Random random = new Random();
-        long a = spn.m35843a(this.f12959b);
+        long a = spn.getAndroidId(this.f12959b);
         if (a != 0) {
             random.setSeed(a);
         }
@@ -357,7 +357,7 @@ public final class ddx extends dck implements ddy {
                 str2 = b.f10845c;
             }
             bxvd bxvd = (bxvd) bsoa.mo74142c(5);
-            bxvd.mo73625a((bxvk) bsoa);
+            bxvd.mo73625a((GeneratedMessageLite) bsoa);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -542,7 +542,7 @@ public final class ddx extends dck implements ddy {
                 }
                 ilo ilo = (ilo) ilo.f21297a.mo13145b();
                 ilq ilq = this.f12966i;
-                AppDescription a4 = ilo.mo13121a(ilq.f21311f, callingUid, string, i, ilq);
+                AppDescription a4 = ilo.mo13121a(ilq.appUid, callingUid, string, i, ilq);
                 boolean b3 = rfz.m33557a(this.f12959b).mo24608b(Binder.getCallingUid());
                 if (!"^^_account_id_^^".equals(str3)) {
                     z2 = false;
@@ -1188,9 +1188,9 @@ public final class ddx extends dck implements ddy {
                 return bundle3;
             }
             bundle3.putString("Error", tokenResponse.mo7647b().f22000ac);
-            sek sek = ChimeraGetToken.f9926a;
+            Logger Logger = ChimeraGetToken.f9926a;
             String valueOf = String.valueOf(tokenResponse.mo7647b().f22000ac);
-            sek.mo25416d(valueOf.length() == 0 ? new String("GetToken failed with status code: ") : "GetToken failed with status code: ".concat(valueOf), new Object[0]);
+            Logger.mo25416d(valueOf.length() == 0 ? new String("GetToken failed with status code: ") : "GetToken failed with status code: ".concat(valueOf), new Object[0]);
             if (izj.m16367a(tokenResponse.mo7647b())) {
                 AccountAuthenticatorResponse accountAuthenticatorResponse = (AccountAuthenticatorResponse) bundle2.getParcelable("accountManagerResponse");
                 String string = bundle2.getString("request_visible_actions");
@@ -1374,7 +1374,7 @@ public final class ddx extends dck implements ddy {
                         boet boet2 = boet.f132836q;
                         str3.getClass();
                         if (!boet.f132851n.mo73666a()) {
-                            boet.f132851n = bxvk.m124021a(boet.f132851n);
+                            boet.f132851n = GeneratedMessageLite.m124021a(boet.f132851n);
                         }
                         boet.f132851n.add(str3);
                     }
@@ -1387,7 +1387,7 @@ public final class ddx extends dck implements ddy {
                     boet boet4 = boet.f132836q;
                     str3.getClass();
                     if (!boet3.f132850m.mo73666a()) {
-                        boet3.f132850m = bxvk.m124021a(boet3.f132850m);
+                        boet3.f132850m = GeneratedMessageLite.m124021a(boet3.f132850m);
                     }
                     boet3.f132850m.add(str3);
                 } else {
@@ -1483,13 +1483,13 @@ public final class ddx extends dck implements ddy {
                             bundle = gsg.mo12164a(readString, rfz.m33557a(this.f12959b).mo24608b(callingUid));
                         }
                     }
-                    sek sek = ChimeraGetToken.f9926a;
+                    Logger Logger = ChimeraGetToken.f9926a;
                     StringBuilder sb = new StringBuilder(String.valueOf(readString).length() + 44);
                     sb.append("Package ");
                     sb.append(readString);
                     sb.append(" does not belong to (uid=");
                     sb.append(callingUid);
-                    sek.mo25416d(sb.toString(), new Object[0]);
+                    Logger.mo25416d(sb.toString(), new Object[0]);
                     bundle = gsh.m13824a();
                 }
                 parcel2.writeNoException();

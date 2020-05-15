@@ -99,11 +99,11 @@ public final class bifv implements bieq {
         boolean z = false;
         sdo.m34975b(str.length() <= 50, "Request ID cannotexceed length of 50");
         aemo.f63524a = str;
-        sdo.m34966a(placefencingFilter, "Filter cannot be null.");
+        sdo.checkIfNull(placefencingFilter, "Filter cannot be null.");
         aemo.f63525b = placefencingFilter;
         aemo.f63526c = 1;
-        sdo.m34966a((Object) aemo.f63524a, (Object) "Request ID may not be null, did you forget to call PlacefencingRequest.Builder.setRequestId(String)?");
-        sdo.m34966a(aemo.f63525b, "Filter may not be null, did you forget to call PlacefencingRequest.Builder.setPlacefencingFilter(PlacefencingFilter)?");
+        sdo.checkIfNull((Object) aemo.f63524a, (Object) "Request ID may not be null, did you forget to call PlacefencingRequest.Builder.setRequestId(String)?");
+        sdo.checkIfNull(aemo.f63525b, "Filter may not be null, did you forget to call PlacefencingRequest.Builder.setPlacefencingFilter(PlacefencingFilter)?");
         if (aemo.f63526c != 0) {
             z = true;
         }

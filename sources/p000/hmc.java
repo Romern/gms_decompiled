@@ -10,7 +10,7 @@ import java.util.Set;
 public final class hmc {
 
     /* renamed from: a */
-    public static final sek f20015a = ght.m13172b("ChromeSyncApiHelper");
+    public static final Logger f20015a = ght.m13172b("ChromeSyncApiHelper");
 
     /* renamed from: b */
     public final Intent f20016b;

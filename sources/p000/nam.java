@@ -17,11 +17,11 @@ public final class nam {
     /* renamed from: a */
     public final void mo20411a(mqk mqk, mqj mqj) {
         if (!ccls.m130535n()) {
-            f35141a.mo25409a("Logging is disabled.", new Object[0]);
+            f35141a.logVerbose("Logging is disabled.", new Object[0]);
             return;
         }
-        f35141a.mo25409a("Logging to Clearcut eventCode: %s, event: %s", mqj, mqk);
-        qwo a = this.f35142b.mo24335a(mqk.mo73642k());
+        f35141a.logVerbose("Logging to Clearcut eventCode: %s, event: %s", mqj, mqk);
+        qwo a = this.f35142b.mo24335a(mqk.serializeToBytes());
         a.mo24328b(mqj.f34275R);
         a.mo24327b();
     }

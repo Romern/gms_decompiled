@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bled */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bled extends bxvk implements bxxd {
+public final class bled extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bled f126176f;
@@ -28,7 +28,7 @@ public final class bled extends bxvk implements bxxd {
     static {
         bled bled = new bled();
         f126176f = bled;
-        bxvk.m124024a(bled.class, bled);
+        GeneratedMessageLite.m124024a(bled.class, bled);
     }
 
     private bled() {
@@ -45,7 +45,7 @@ public final class bled extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f126176f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0004", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f126176f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဈ\u0004", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bled();
         } else {

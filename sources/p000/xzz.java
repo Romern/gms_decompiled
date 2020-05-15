@@ -9,7 +9,7 @@ import java.util.Set;
 public final class xzz {
 
     /* renamed from: c */
-    public static final sek f53506c = new sek(new String[]{"ViewController"}, (short[]) null);
+    public static final Logger f53506c = new Logger(new String[]{"ViewController"}, (short[]) null);
 
     /* renamed from: a */
     public ViewOptions f53507a;
@@ -67,7 +67,7 @@ public final class xzz {
     public final void mo30295a(int i, ViewOptions viewOptions) {
         int i2;
         if (this.f53508b == 0 || xyz.m43670a(i) > xyz.m43670a(this.f53508b)) {
-            sek sek = f53506c;
+            Logger Logger = f53506c;
             Locale locale = Locale.US;
             Object[] objArr = new Object[3];
             objArr[0] = viewOptions;
@@ -79,7 +79,7 @@ public final class xzz {
                 i2 = -1;
             }
             objArr[2] = Integer.valueOf(i2);
-            sek.mo25414c(String.format(locale, "Accepting proposed view %s: outranks current (%d > %d)", objArr), new Object[0]);
+            Logger.mo25414c(String.format(locale, "Accepting proposed view %s: outranks current (%d > %d)", objArr), new Object[0]);
             mo30296b(i, viewOptions);
         } else if (i == 3) {
             f53506c.mo25414c(String.format("Accepting proposed view %s: comes from explicit user action", viewOptions), new Object[0]);

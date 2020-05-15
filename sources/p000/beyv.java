@@ -175,7 +175,7 @@ public final class beyv {
         qws2.mo24337a(cagz.UNMETERED_OR_DAILY);
         int blueskyRaytracingCalculationRadiusMeters = (int) cesw.f183411a.mo6606a().blueskyRaytracingCalculationRadiusMeters();
         try {
-            String l = Long.toString(spn.m35843a(context));
+            String l = Long.toString(spn.getAndroidId(context));
             bfbv bfbv = new bfbv(new bfag(new beyf(context2)), String.valueOf(context.getCacheDir().getPath()).concat("/bluesky"), (int) cesw.f183411a.mo6606a().blueskyTileDiskCacheSize(), l, new bfby(l), new beyg(qws2), bezz);
             ArrayList<Pair> arrayList = new ArrayList();
             Path path = Paths.get(bfbv.f113344c, new String[0]);
@@ -1005,7 +1005,7 @@ public final class beyv {
             bezb bezb = (bezb) bxvd.f164949b;
             bezb bezb2 = bezb.f113104h;
             if (!bezb.f113111f.mo73666a()) {
-                bezb.f113111f = bxvk.m124021a(bezb.f113111f);
+                bezb.f113111f = GeneratedMessageLite.m124021a(bezb.f113111f);
             }
             bxsy.m123078a(arrayList2, bezb.f113111f);
             Location location5 = beyv.f113054q;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bion */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bion extends bxvk implements bxxd {
+public final class bion extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bion f121069d;
@@ -28,7 +28,7 @@ public final class bion extends bxvk implements bxxd {
     static {
         bion bion = new bion();
         f121069d = bion;
-        bxvk.m124024a(bion.class, bion);
+        GeneratedMessageLite.m124024a(bion.class, bion);
     }
 
     private bion() {
@@ -49,7 +49,7 @@ public final class bion extends bxvk implements bxxd {
             this.f121075f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121069d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0002\u0001ဌ\u0000\u0002ᔄ\u0001\u0003ᐉ\u0002", new Object[]{"e", "a", bisf.m102782b(), "b", "c"});
+            return GeneratedMessageLite.m124022a(f121069d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0002\u0001ဌ\u0000\u0002ᔄ\u0001\u0003ᐉ\u0002", new Object[]{"e", "a", bisf.m102782b(), "b", "c"});
         } else if (i2 == 3) {
             return new bion();
         } else {

@@ -159,7 +159,7 @@ public final class ajbn {
                 bxvf.f164950c = false;
             }
             byzr byzr = byzr.f169150h;
-            ((byzr) bxvf.f164949b).f169153b = bxvk.m124030de();
+            ((byzr) bxvf.f164949b).f169153b = GeneratedMessageLite.m124030de();
             bxvf.mo74129a(a2);
             if (((byzr) bxvf.f164949b).f169153b.size() == 0) {
                 set = Collections.emptySet();
@@ -252,7 +252,7 @@ public final class ajbn {
                         bxvf.mo74035c();
                         bxvf.f164950c = false;
                     }
-                    ((byzr) bxvf.f164949b).f169153b = bxvk.m124030de();
+                    ((byzr) bxvf.f164949b).f169153b = GeneratedMessageLite.m124030de();
                     bxvf.mo74129a(hashSet2);
                 }
                 set = hashSet;
@@ -399,7 +399,7 @@ public final class ajbn {
                             byzr = (byzr) bxvf.mo74062i();
                         }
                         bxvd bxvd = (bxvd) byzr.mo74142c(5);
-                        bxvd.mo73625a((bxvk) byzr);
+                        bxvd.mo73625a((GeneratedMessageLite) byzr);
                         bxvf bxvf2 = (bxvf) bxvd;
                         if (!Collections.unmodifiableList(((byzr) bxvf2.f164949b).f169153b).contains(str)) {
                             bxvf2.mo74130a(str);
@@ -410,13 +410,13 @@ public final class ajbn {
                         byzr byzr3 = (byzr) b.mo36459a(a5);
                         if (byzr3 != null) {
                             bxvd bxvd2 = (bxvd) byzr3.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) byzr3);
+                            bxvd2.mo73625a((GeneratedMessageLite) byzr3);
                             bxvf bxvf3 = (bxvf) bxvd2;
                             if (bxvf3.f164950c) {
                                 bxvf3.mo74035c();
                                 bxvf3.f164950c = false;
                             }
-                            ((byzr) bxvf3.f164949b).f169153b = bxvk.m124030de();
+                            ((byzr) bxvf3.f164949b).f169153b = GeneratedMessageLite.m124030de();
                             bxwc bxwc = byzr3.f169153b;
                             int size = bxwc.size();
                             for (int i = 0; i < size; i++) {
@@ -535,10 +535,10 @@ public final class ajbn {
                     if (byze2 == null) {
                         byze2 = byze.f169064e;
                     }
-                    byzi byzi = (byzi) bxvk.m124007a(byzi.f169083x, byze2.f169068c);
+                    byzi byzi = (byzi) GeneratedMessageLite.m124007a(byzi.f169083x, byze2.f169068c);
                     int i = 5;
                     bxvd bxvd = (bxvd) byzi.mo74142c(5);
-                    bxvd.mo73625a((bxvk) byzi);
+                    bxvd.mo73625a((GeneratedMessageLite) byzi);
                     bzbk a = bzbk.m125615a(((byzi) ((bxvf) bxvd).f164949b).f169086b);
                     if (a == null) {
                         a = bzbk.NEARBY_TYPE_UNKNOWN;
@@ -554,10 +554,10 @@ public final class ajbn {
                                     if (byze3 == null) {
                                         byze3 = byze.f169064e;
                                     }
-                                    bxvf.mo73635b(byze3.f169068c.mo73780k(), bxus.m123744c());
-                                    byzr byzr2 = (byzr) bxvk.m124014a(byzr.f169150h, byzr.mo73642k());
+                                    bxvf.mo73635b(byze3.f169068c.getKey(), bxus.m123744c());
+                                    byzr byzr2 = (byzr) GeneratedMessageLite.m124014a(byzr.f169150h, byzr.serializeToBytes());
                                     bxvd bxvd2 = (bxvd) byzr2.mo74142c(i);
-                                    bxvd2.mo73625a((bxvk) byzr2);
+                                    bxvd2.mo73625a((GeneratedMessageLite) byzr2);
                                     bxvf bxvf2 = (bxvf) bxvd2;
                                     String str2 = ((byzi) bxvf.f164949b).f169087c;
                                     String str3 = ajag.f70232b;
@@ -597,15 +597,15 @@ public final class ajbn {
                                         bxvf2.mo74035c();
                                         bxvf2.f164950c = false;
                                     }
-                                    ((byzr) bxvf2.f164949b).f169155d = bxvk.m124030de();
+                                    ((byzr) bxvf2.f164949b).f169155d = GeneratedMessageLite.m124030de();
                                     bxvf2.mo74127a(ajag.mo38379i());
                                     byze byze4 = ((byzr) bxvf2.f164949b).f169154c;
                                     if (byze4 == null) {
                                         byze4 = byze.f169064e;
                                     }
                                     bxvd bxvd3 = (bxvd) byze4.mo74142c(5);
-                                    bxvd3.mo73625a((bxvk) byze4);
-                                    bxtx aL = ((byzi) bxvf.mo74062i()).mo73639aL();
+                                    bxvd3.mo73625a((GeneratedMessageLite) byze4);
+                                    ByteString aL = ((byzi) bxvf.mo74062i()).mo73639aL();
                                     if (bxvd3.f164950c) {
                                         bxvd3.mo74035c();
                                         bxvd3.f164950c = false;
@@ -811,9 +811,9 @@ public final class ajbn {
                     if (byze2 == null) {
                         byze2 = byze.f169064e;
                     }
-                    byzi byzi = (byzi) bxvk.m124007a(byzi.f169083x, byze2.f169068c);
+                    byzi byzi = (byzi) GeneratedMessageLite.m124007a(byzi.f169083x, byze2.f169068c);
                     bxvd bxvd = (bxvd) byzi.mo74142c(i3);
-                    bxvd.mo73625a((bxvk) byzi);
+                    bxvd.mo73625a((GeneratedMessageLite) byzi);
                     bzbk a = bzbk.m125615a(((byzi) ((bxvf) bxvd).f164949b).f169086b);
                     if (a == null) {
                         a = bzbk.NEARBY_TYPE_UNKNOWN;
@@ -828,10 +828,10 @@ public final class ajbn {
                                 if (byze3 == null) {
                                     byze3 = byze.f169064e;
                                 }
-                                bxvf.mo73635b(byze3.f169068c.mo73780k(), bxus.m123744c());
-                                byzr byzr3 = (byzr) bxvk.m124014a(byzr.f169150h, byzr2.mo73642k());
+                                bxvf.mo73635b(byze3.f169068c.getKey(), bxus.m123744c());
+                                byzr byzr3 = (byzr) GeneratedMessageLite.m124014a(byzr.f169150h, byzr2.serializeToBytes());
                                 bxvd bxvd2 = (bxvd) byzr3.mo74142c(i3);
-                                bxvd2.mo73625a((bxvk) byzr3);
+                                bxvd2.mo73625a((GeneratedMessageLite) byzr3);
                                 bxvf bxvf2 = (bxvf) bxvd2;
                                 String str3 = ((byzi) bxvf.f164949b).f169087c;
                                 String str4 = ajag.f70232b;
@@ -883,15 +883,15 @@ public final class ajbn {
                                         bxvf2.mo74035c();
                                         bxvf2.f164950c = false;
                                     }
-                                    ((byzr) bxvf2.f164949b).f169155d = bxvk.m124030de();
+                                    ((byzr) bxvf2.f164949b).f169155d = GeneratedMessageLite.m124030de();
                                     bxvf2.mo74127a(ajag.mo38379i());
                                     byze byze4 = ((byzr) bxvf2.f164949b).f169154c;
                                     if (byze4 == null) {
                                         byze4 = byze.f169064e;
                                     }
                                     bxvd bxvd3 = (bxvd) byze4.mo74142c(5);
-                                    bxvd3.mo73625a((bxvk) byze4);
-                                    bxtx aL = ((byzi) bxvf.mo74062i()).mo73639aL();
+                                    bxvd3.mo73625a((GeneratedMessageLite) byze4);
+                                    ByteString aL = ((byzi) bxvf.mo74062i()).mo73639aL();
                                     if (bxvd3.f164950c) {
                                         bxvd3.mo74035c();
                                         bxvd3.f164950c = false;
@@ -952,7 +952,7 @@ public final class ajbn {
         while (i < length3) {
             byzr byzr6 = byzrArr2[i];
             bxvd bxvd4 = (bxvd) byzr6.mo74142c(5);
-            bxvd4.mo73625a((bxvk) byzr6);
+            bxvd4.mo73625a((GeneratedMessageLite) byzr6);
             m58447a(clientAppIdentifier2, (bxvf) bxvd4);
             byze byze7 = byzr6.f169154c;
             if (byze7 == null) {

@@ -18,7 +18,7 @@ public final class beae extends bxvd implements bxxd {
         beaf beaf2 = beaf.f106724g;
         beag.getClass();
         if (!beaf.f106731f.mo73666a()) {
-            beaf.f106731f = bxvk.m124021a(beaf.f106731f);
+            beaf.f106731f = GeneratedMessageLite.m124021a(beaf.f106731f);
         }
         beaf.f106731f.add(beag);
     }

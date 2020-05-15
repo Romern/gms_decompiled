@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cakw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cakw extends bxvk implements bxxd {
+public final class cakw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cakw f175072d;
@@ -22,7 +22,7 @@ public final class cakw extends bxvk implements bxxd {
     static {
         cakw cakw = new cakw();
         f175072d = cakw;
-        bxvk.m124024a(cakw.class, cakw);
+        GeneratedMessageLite.m124024a(cakw.class, cakw);
     }
 
     private cakw() {
@@ -39,7 +39,7 @@ public final class cakw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175072d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", calc.m126746b(), "c"});
+            return GeneratedMessageLite.m124022a(f175072d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", calc.m126746b(), "c"});
         } else if (i2 == 3) {
             return new cakw();
         } else {

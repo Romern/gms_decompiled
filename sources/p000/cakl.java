@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cakl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cakl extends bxvk implements bxxd {
+public final class cakl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: l */
     public static final cakl f175006l;
@@ -46,7 +46,7 @@ public final class cakl extends bxvk implements bxxd {
     static {
         cakl cakl = new cakl();
         f175006l = cakl;
-        bxvk.m124024a(cakl.class, cakl);
+        GeneratedMessageLite.m124024a(cakl.class, cakl);
     }
 
     private cakl() {
@@ -63,7 +63,7 @@ public final class cakl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175006l, "\u0001\n\u0000\u0001\u0001\f\n\u0000\u0000\u0000\u0001စ\u0000\u0002င\u0001\u0004ဈ\u0004\u0005ဉ\u0005\u0006ဌ\u0006\u0007ဌ\u0007\bင\u0002\tင\b\nဈ\t\fဇ\u000b", new Object[]{"a", "b", "c", "e", "f", "g", cakk.m126725b(), "h", cakk.m126725b(), "d", "i", "j", "k"});
+            return GeneratedMessageLite.m124022a(f175006l, "\u0001\n\u0000\u0001\u0001\f\n\u0000\u0000\u0000\u0001စ\u0000\u0002င\u0001\u0004ဈ\u0004\u0005ဉ\u0005\u0006ဌ\u0006\u0007ဌ\u0007\bင\u0002\tင\b\nဈ\t\fဇ\u000b", new Object[]{"a", "b", "c", "e", "f", "g", cakk.m126725b(), "h", cakk.m126725b(), "d", "i", "j", "k"});
         } else if (i2 == 3) {
             return new cakl();
         } else {

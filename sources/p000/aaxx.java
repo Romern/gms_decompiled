@@ -133,7 +133,7 @@ public final class aaxx implements Closeable {
                                 contentValues.put("title", aasm.f56496f);
                                 contentValues.put("snippet", aasm.mo31735r());
                                 contentValues.put("url", aasm.f56497g);
-                                contentValues.put("setting_action_definition", aasm.mo31740v().mo73642k());
+                                contentValues.put("setting_action_definition", aasm.mo31740v().serializeToBytes());
                             } else if (i != 22) {
                                 switch (i) {
                                     case 14:
@@ -545,7 +545,7 @@ public final class aaxx implements Closeable {
                                 }
                             } else if (i8 == 12) {
                                 String str8 = string3;
-                                aasm a5 = aasm.m46881a(string4, string5, (bzpb) bxvk.m124016a(bzpb.f170891d, cursor.getBlob(cursor.getColumnIndex("setting_action_definition")), bxus.m123744c()), string6);
+                                aasm a5 = aasm.m46881a(string4, string5, (bzpb) GeneratedMessageLite.m124016a(bzpb.f170891d, cursor.getBlob(cursor.getColumnIndex("setting_action_definition")), bxus.m123744c()), string6);
                                 if (m47206e()) {
                                     a5.f56493c = string2;
                                     a5.f56494d = str8;

@@ -22,7 +22,7 @@ import java.security.spec.ECPoint;
 public final class xgv extends xhb {
 
     /* renamed from: e */
-    public static final sek f52227e = new sek(new String[]{"InternalTransportController"}, (short[]) null);
+    public static final Logger f52227e = new Logger(new String[]{"InternalTransportController"}, (short[]) null);
 
     /* renamed from: f */
     private static final byte[] f52228f = {0};

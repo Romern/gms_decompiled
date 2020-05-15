@@ -23,7 +23,7 @@ import java.util.Locale;
 public final class iti {
 
     /* renamed from: e */
-    private static final sek f21684e = new sek(new String[]{"ClientAppMetadataHelper"}, (byte[]) null);
+    private static final Logger f21684e = new Logger(new String[]{"ClientAppMetadataHelper"}, (byte[]) null);
 
     /* renamed from: a */
     private final Context f21685a;
@@ -214,7 +214,7 @@ public final class iti {
                     bxvd da2 = bsnk.f146259f.mo74144da();
                     a = aaks.m21407a(this.f21685a);
                     if (a == null) {
-                        bxtx a6 = bxtx.m123258a(a);
+                        ByteString a6 = ByteString.m123258a(a);
                         if (da2.f164950c) {
                             da2.mo74035c();
                             da2.f164950c = false;
@@ -249,7 +249,7 @@ public final class iti {
                         bsnl bsnl4 = (bsnl) da.f164949b;
                         bsnk2.getClass();
                         if (!bsnl4.f146270a.mo73666a()) {
-                            bsnl4.f146270a = bxvk.m124021a(bsnl4.f146270a);
+                            bsnl4.f146270a = GeneratedMessageLite.m124021a(bsnl4.f146270a);
                         }
                         bsnl4.f146270a.add(bsnk2);
                         boolean c = m16098c();
@@ -301,7 +301,7 @@ public final class iti {
                                 byte[] bArr = (byte[]) list.get(i10);
                                 if (bArr != null && bArr.length > 0) {
                                     try {
-                                        bsnn bsnn = (bsnn) bxvk.m124014a(bsnn.f146304c, bArr);
+                                        bsnn bsnn = (bsnn) GeneratedMessageLite.m124014a(bsnn.f146304c, bArr);
                                         if (da.f164950c) {
                                             da.mo74035c();
                                             da.f164950c = false;
@@ -309,7 +309,7 @@ public final class iti {
                                         bsnl bsnl5 = (bsnl) da.f164949b;
                                         bsnn.getClass();
                                         if (!bsnl5.f146291v.mo73666a()) {
-                                            bsnl5.f146291v = bxvk.m124021a(bsnl5.f146291v);
+                                            bsnl5.f146291v = GeneratedMessageLite.m124021a(bsnl5.f146291v);
                                         }
                                         bsnl5.f146291v.add(bsnn);
                                     } catch (bxwf e) {
@@ -379,6 +379,6 @@ public final class iti {
     /* access modifiers changed from: package-private */
     /* renamed from: a */
     public final Long mo13337a() {
-        return Long.valueOf(spn.m35843a(this.f21685a));
+        return Long.valueOf(spn.getAndroidId(this.f21685a));
     }
 }

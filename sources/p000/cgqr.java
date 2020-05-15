@@ -23,7 +23,7 @@ public final class cgqr implements cgqp {
         bdyx.m91610a(bdyw, "use_fake_post_setup_helper_in_debug_build", false);
         bdyx.m91610a(bdyw, "verify_post_setup_caller", false);
         try {
-            bdyx.m91608a(bdyw, "whitelist_third_party_clients", (bydj) bxvk.m124014a(bydj.f165795b, new byte[0]), cgqq.f187521a);
+            bdyx.m91608a(bdyw, "whitelist_third_party_clients", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[0]), cgqq.f187521a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"whitelist_third_party_clients\"");
         }

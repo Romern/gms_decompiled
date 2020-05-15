@@ -104,7 +104,7 @@ public final class azbx {
                     bxvd da = cbav.f176502d.mo74144da();
                     cbax cbax = cbax.f176512b;
                     bxvd bxvd = (bxvd) cbax.mo74142c(5);
-                    bxvd.mo73625a((bxvk) cbax);
+                    bxvd.mo73625a((GeneratedMessageLite) cbax);
                     if (cbil2.f177259a == 3) {
                         cbmh = (cbmh) cbil2.f177260b;
                     } else {
@@ -157,7 +157,7 @@ public final class azbx {
                         cbaw cbaw2 = (cbaw) da2.mo74062i();
                         cbaw2.getClass();
                         if (!cbax2.f176514a.mo73666a()) {
-                            cbax2.f176514a = bxvk.m124021a(cbax2.f176514a);
+                            cbax2.f176514a = GeneratedMessageLite.m124021a(cbax2.f176514a);
                         }
                         cbax2.f176514a.set(i6, cbaw2);
                         i5++;
@@ -183,7 +183,7 @@ public final class azbx {
                     try {
                         aytp c = mo54586c();
                         String localEntityId = a2.toString();
-                        byte[] k = cbav.mo73642k();
+                        byte[] k = cbav.serializeToBytes();
                         if (localEntityId == null) {
                             bqgg = null;
                         } else if (c.f98459b.mo54425b(new civo(localEntityId))) {
@@ -224,7 +224,7 @@ public final class azbx {
                                         if (cixa4 == null) {
                                             cixa4 = cixa.f191640e;
                                         }
-                                        ciwp ciwp = new ciwp(cixh, i10, civq.m151054b(cixa4.f191645d.mo73780k()));
+                                        ciwp ciwp = new ciwp(cixh, i10, civq.m151054b(cixa4.f191645d.getKey()));
                                         ciwc = new ciwb(b2, ciwq.f191608a.f191658k, ciwp.f191605a, ciwp.f191606b, ciwp.f191607c, ciwq.mo86615d(), ciwc);
                                     } catch (civg e2) {
                                         throw new AssertionError(e2);
@@ -232,7 +232,7 @@ public final class azbx {
                                 }
                                 ciwh a4 = e.mo86604a();
                                 bxvd da3 = ciwx.f191621d.mo74144da();
-                                bxtx a5 = bxtx.m123261a(a4.f191590a);
+                                ByteString a5 = ByteString.m123261a(a4.f191590a);
                                 if (da3.f164950c) {
                                     da3.mo74035c();
                                     da3.f164950c = false;
@@ -251,7 +251,7 @@ public final class azbx {
                                     ciwz = ciwz.f191633f;
                                 }
                                 bxvd bxvd2 = (bxvd) ciwz.mo74142c(5);
-                                bxvd2.mo73625a((bxvk) ciwz);
+                                bxvd2.mo73625a((GeneratedMessageLite) ciwz);
                                 if (bxvd2.f164950c) {
                                     bxvd2.mo74035c();
                                     bxvd2.f164950c = false;
@@ -263,7 +263,7 @@ public final class azbx {
                                 ciwz ciwz3 = (ciwz) bxvd2.mo74062i();
                                 cixb cixb2 = ciwq.f191608a;
                                 bxvd bxvd3 = (bxvd) cixb2.mo74142c(5);
-                                bxvd3.mo73625a((bxvk) cixb2);
+                                bxvd3.mo73625a((GeneratedMessageLite) cixb2);
                                 ciww ciww = (ciww) bxvd3;
                                 if (ciww.f164950c) {
                                     ciww.mo74035c();
@@ -288,7 +288,7 @@ public final class azbx {
                         }
                         bxvd da4 = cbil.f177257h.mo74144da();
                         bxvd da5 = cbmp.f177663b.mo74144da();
-                        bxtx a6 = bxtx.m123261a(aytj.f98448a);
+                        ByteString a6 = ByteString.m123261a(aytj.f98448a);
                         if (da5.f164950c) {
                             da5.mo74035c();
                             da5.f164950c = false;
@@ -344,7 +344,7 @@ public final class azbx {
         r3 = r10.f191582a.f191526a;
         r9 = r2.f191608a;
         r12 = (p000.bxvd) r9.mo74142c(5);
-        r12.mo73625a((p000.bxvk) r9);
+        r12.mo73625a((p000.GeneratedMessageLite) r9);
         r12 = (p000.ciww) r12;
         r3 = p000.bxtx.m123261a(r3.mo86588a());
      */
@@ -387,7 +387,7 @@ public final class azbx {
         r2 = r4.f191602a;
         r3 = r2.f191608a;
         r10 = (p000.bxvd) r3.mo74142c(5);
-        r10.mo73625a((p000.bxvk) r3);
+        r10.mo73625a((p000.GeneratedMessageLite) r3);
         r10 = (p000.ciww) r10;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:111:0x033d, code lost:
@@ -406,7 +406,7 @@ public final class azbx {
         r3 = r7.f191548b;
         r9 = r2.f191608a;
         r11 = (p000.bxvd) r9.mo74142c(5);
-        r11.mo73625a((p000.bxvk) r9);
+        r11.mo73625a((p000.GeneratedMessageLite) r9);
         r11 = (p000.ciww) r11;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:115:0x036f, code lost:
@@ -425,7 +425,7 @@ public final class azbx {
         r3 = r7.f191553g.mo86595a();
         r9 = r2.f191608a;
         r11 = (p000.bxvd) r9.mo74142c(5);
-        r11.mo73625a((p000.bxvk) r9);
+        r11.mo73625a((p000.GeneratedMessageLite) r9);
         r11 = (p000.ciww) r11;
         r3 = p000.bxtx.m123261a(r3);
      */
@@ -515,7 +515,7 @@ public final class azbx {
     /* JADX WARNING: Code restructure failed: missing block: B:93:?, code lost:
         r3 = r2.f191608a;
         r11 = (p000.bxvd) r3.mo74142c(5);
-        r11.mo73625a((p000.bxvk) r3);
+        r11.mo73625a((p000.GeneratedMessageLite) r3);
         r11 = (p000.ciww) r11;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:94:0x0206, code lost:
@@ -534,7 +534,7 @@ public final class azbx {
         r3 = r10.f191586e;
         r9 = r2.f191608a;
         r12 = (p000.bxvd) r9.mo74142c(5);
-        r12.mo73625a((p000.bxvk) r9);
+        r12.mo73625a((p000.GeneratedMessageLite) r9);
         r12 = (p000.ciww) r12;
         r3 = p000.bxtx.m123261a(r3.mo86588a());
      */
@@ -576,7 +576,7 @@ public final class azbx {
                                 } else {
                                     cbmp = cbmp.f177663b;
                                 }
-                                byte[] k = cbmp.f177665a.mo73780k();
+                                byte[] k = cbmp.f177665a.getKey();
                                 int b2 = cbik.m127888b(cbil2.f177261c);
                                 if (b2 != 0) {
                                     if (b2 == 12) {
@@ -773,10 +773,10 @@ public final class azbx {
                                                 str7.getClass();
                                                 ((cbih) da3.f164949b).f177249f = str7;
                                             }
-                                            if (!azpi.m86080b(cbat.f176493e.mo73780k())) {
+                                            if (!azpi.m86080b(cbat.f176493e.getKey())) {
                                                 bxvd da4 = cbio.f177277c.mo74144da();
                                                 bxvd da5 = cbhy.f177214d.mo74144da();
-                                                bxtx bxtx = cbat.f176493e;
+                                                ByteString bxtx = cbat.f176493e;
                                                 if (da5.f164950c) {
                                                     da5.mo74035c();
                                                     da5.f164950c = false;
@@ -830,7 +830,7 @@ public final class azbx {
                                                 cbin2.f177272a = 2;
                                                 cbin2.f177273b = str8;
                                             } else {
-                                                bxtx bxtx2 = cbau.f176498b;
+                                                ByteString bxtx2 = cbau.f176498b;
                                                 if (da6.f164950c) {
                                                     da6.mo74035c();
                                                     da6.f164950c = false;
@@ -855,7 +855,7 @@ public final class azbx {
                                                     if (cbba == null) {
                                                         cbba = cbba.f176520d;
                                                     }
-                                                    bxtx bxtx3 = cbba.f176522a;
+                                                    ByteString bxtx3 = cbba.f176522a;
                                                     if (da8.f164950c) {
                                                         da8.mo74035c();
                                                         da8.f164950c = false;
@@ -866,7 +866,7 @@ public final class azbx {
                                                     if (cbba2 == null) {
                                                         cbba2 = cbba.f176520d;
                                                     }
-                                                    bxtx bxtx4 = cbba2.f176523b;
+                                                    ByteString bxtx4 = cbba2.f176523b;
                                                     if (da8.f164950c) {
                                                         da8.mo74035c();
                                                         da8.f164950c = false;
@@ -906,7 +906,7 @@ public final class azbx {
                                             if (!cbau.f176497a.mo73779j()) {
                                                 bxvd da9 = cbio.f177277c.mo74144da();
                                                 bxvd da10 = cbhy.f177214d.mo74144da();
-                                                bxtx bxtx5 = cbau.f176497a;
+                                                ByteString bxtx5 = cbau.f176497a;
                                                 if (da10.f164950c) {
                                                     da10.mo74035c();
                                                     da10.f164950c = false;
@@ -1002,7 +1002,7 @@ public final class azbx {
                 ContentValues contentValues = new ContentValues();
                 contentValues.put("key_type", (Integer) 0);
                 contentValues.put("key_id", Integer.valueOf(b));
-                contentValues.put("key_record", ciwm.f191601a.mo73642k());
+                contentValues.put("key_record", ciwm.f191601a.serializeToBytes());
                 contentValues.put("timestamp", Long.valueOf(System.currentTimeMillis()));
                 ayti.f98447a.insertWithOnConflict("crypto_pre_keys", null, contentValues, 5);
                 bxvd da2 = cbmj.f177631d.mo74144da();
@@ -1011,7 +1011,7 @@ public final class azbx {
                     da2.f164950c = false;
                 }
                 ((cbmj) da2.f164949b).f177633a = b;
-                bxtx a = bxtx.m123261a(ciwm.mo86607a().f191540a.mo86595a());
+                ByteString a = ByteString.m123261a(ciwm.mo86607a().f191540a.mo86595a());
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -1026,7 +1026,7 @@ public final class azbx {
             }
             cbnr cbnr = (cbnr) da.f164949b;
             if (!cbnr.f177753b.mo73666a()) {
-                cbnr.f177753b = bxvk.m124021a(cbnr.f177753b);
+                cbnr.f177753b = GeneratedMessageLite.m124021a(cbnr.f177753b);
             }
             bxsy.m123078a(arrayList, cbnr.f177753b);
             aytp c2 = mo54586c();
@@ -1040,7 +1040,7 @@ public final class azbx {
                 ContentValues contentValues2 = new ContentValues();
                 contentValues2.put("key_type", (Integer) 1);
                 contentValues2.put("key_id", Integer.valueOf(a2));
-                contentValues2.put("key_record", ciws.f191609a.mo73642k());
+                contentValues2.put("key_record", ciws.f191609a.serializeToBytes());
                 contentValues2.put("timestamp", Long.valueOf(System.currentTimeMillis()));
                 ayti2.f98447a.insertWithOnConflict("crypto_pre_keys", null, contentValues2, 5);
                 bxvd da3 = cbmj.f177631d.mo74144da();
@@ -1049,14 +1049,14 @@ public final class azbx {
                     da3.f164950c = false;
                 }
                 ((cbmj) da3.f164949b).f177633a = a2;
-                bxtx a5 = bxtx.m123261a(ciws.mo86618a().f191540a.mo86595a());
+                ByteString a5 = ByteString.m123261a(ciws.mo86618a().f191540a.mo86595a());
                 if (da3.f164950c) {
                     da3.mo74035c();
                     da3.f164950c = false;
                 }
                 a5.getClass();
                 ((cbmj) da3.f164949b).f177634b = a5;
-                bxtx a6 = bxtx.m123261a(ciws.f191609a.f191666e.mo73780k());
+                ByteString a6 = ByteString.m123261a(ciws.f191609a.f191666e.getKey());
                 if (da3.f164950c) {
                     da3.mo74035c();
                     da3.f164950c = false;
@@ -1075,7 +1075,7 @@ public final class azbx {
             cbnr cbnr2 = (cbnr) da.f164949b;
             cbmj.getClass();
             if (!cbnr2.f177754c.mo73666a()) {
-                cbnr2.f177754c = bxvk.m124021a(cbnr2.f177754c);
+                cbnr2.f177754c = GeneratedMessageLite.m124021a(cbnr2.f177754c);
             }
             cbnr2.f177754c.add(cbmj);
             if (da.f164950c) {

@@ -77,9 +77,9 @@ public final class dae {
                 bxvd da = C0158i.f7564e.mo74144da();
                 int size = b.size();
                 for (int i = 0; i < size; i++) {
-                    da.mo74029b(bxtx.m123261a(m8083a((byte[]) b.get(i), false)));
+                    da.mo74029b(ByteString.m123261a(m8083a((byte[]) b.get(i), false)));
                 }
-                bxtx a = bxtx.m123261a(m8082a(bArr));
+                ByteString a = ByteString.m123261a(m8082a(bArr));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -93,7 +93,7 @@ public final class dae {
         } else if (dcb.f12782a != null) {
             byte[] a2 = dcb.f12782a.mo69285a(bArr, new byte[0]);
             bxvd da2 = C0158i.f7564e.mo74144da();
-            da2.mo74029b(bxtx.m123261a(a2));
+            da2.mo74029b(ByteString.m123261a(a2));
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -129,7 +129,7 @@ public final class dae {
         byte[] bArr;
         bxvd da = C0153d.f7544d.mo74144da();
         try {
-            bxtx a = bxtx.m123261a(str.length() < 3 ? str.getBytes("ISO-8859-1") : dab.m8077a(str, true));
+            ByteString a = ByteString.m123261a(str.length() < 3 ? str.getBytes("ISO-8859-1") : dab.m8077a(str, true));
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -143,7 +143,7 @@ public final class dae {
             } else {
                 bArr = dab.m8077a(m8086c(str2.getBytes("ISO-8859-1")), true);
             }
-            bxtx a2 = bxtx.m123261a(bArr);
+            ByteString a2 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

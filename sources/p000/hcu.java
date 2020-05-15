@@ -12,7 +12,7 @@ final /* synthetic */ class hcu implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = hdf.f19494a;
+        Logger Logger = hdf.f19494a;
         return ((Scope) obj).f30106b;
     }
 }

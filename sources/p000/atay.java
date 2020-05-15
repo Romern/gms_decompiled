@@ -46,7 +46,7 @@ public final class atay {
                 return atax.m75350a(5);
             }
             if (bmum != null) {
-                bArr = bmum.mo73642k();
+                bArr = bmum.serializeToBytes();
             } else {
                 bArr = null;
             }

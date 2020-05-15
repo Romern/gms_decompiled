@@ -200,7 +200,7 @@ public final class lul extends dck implements lum {
                 }
                 btem a = this.f33000b.mo47025a();
                 bxvd bxvd = (bxvd) a.mo74142c(5);
-                bxvd.mo73625a((bxvk) a);
+                bxvd.mo73625a((GeneratedMessageLite) a);
                 btel btel = (btel) bxvd;
                 bxvd da2 = btfb.f148607b.mo74144da();
                 String b = bmwg.LOWER_UNDERSCORE.mo66826b(bmwg.UPPER_CAMEL, Build.MANUFACTURER.toLowerCase());
@@ -232,11 +232,11 @@ public final class lul extends dck implements lum {
                             btel.mo74035c();
                             btel.f164950c = false;
                         }
-                        ((btem) btel.f164949b).f148534a = bxvk.m124030de();
+                        ((btem) btel.f164949b).f148534a = GeneratedMessageLite.m124030de();
                         btel.mo70754a(subList);
                     }
                 }
-                byte[] k = ((btem) btel.mo74062i()).mo73642k();
+                byte[] k = ((btem) btel.mo74062i()).serializeToBytes();
                 int length = k.length;
                 parcelableBackupDataOutput.mo17212a(lsu.m24355a("contacts_backup_key_q", length, k));
                 if (cgjy.f187097a.mo6606a().mo83937a()) {

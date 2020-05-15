@@ -17,7 +17,7 @@ public final /* synthetic */ class jcd implements bmxj {
         jbb jbb = (jbb) obj;
         imn imn = jcf.f22150a;
         bxvd bxvd = (bxvd) jbb.mo74142c(5);
-        bxvd.mo73625a((bxvk) jbb);
+        bxvd.mo73625a((GeneratedMessageLite) jbb);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

@@ -21,7 +21,7 @@ import java.util.Map;
 final class qdw implements Runnable {
 
     /* renamed from: a */
-    private static final sek f41053a = qgn.m32143a("ClearcutEventLogUploadRunnable");
+    private static final Logger f41053a = qgn.m32143a("ClearcutEventLogUploadRunnable");
 
     /* renamed from: b */
     private final DropBoxManager f41054b;
@@ -216,9 +216,9 @@ final class qdw implements Runnable {
                                         j2 = Long.parseLong(str5);
                                     } catch (NumberFormatException e) {
                                         NumberFormatException numberFormatException = e;
-                                        sek sek = f41053a;
+                                        Logger Logger = f41053a;
                                         String valueOf = String.valueOf((String) arrayList3.get(0));
-                                        sek.mo25417e(valueOf.length() == 0 ? new String("Can't parse event_log timestamp: ") : "Can't parse event_log timestamp: ".concat(valueOf), numberFormatException, new Object[0]);
+                                        Logger.mo25417e(valueOf.length() == 0 ? new String("Can't parse event_log timestamp: ") : "Can't parse event_log timestamp: ".concat(valueOf), numberFormatException, new Object[0]);
                                         bufferedReader2 = bufferedReader;
                                         j2 = -1;
                                     }
@@ -529,7 +529,7 @@ final class qdw implements Runnable {
                                         int min = Math.min(196608 - byteArrayOutputStream222.size(), read);
                                         byteArrayOutputStream222.write(bArr222, 0, min);
                                         if (min < read) {
-                                            sek sek2 = f41053a;
+                                            Logger logger2 = f41053a;
                                             String tag3 = nextEntry.getTag();
                                             z3 = z;
                                             StringBuilder sb3 = new StringBuilder(String.valueOf(tag3).length() + 49);
@@ -538,7 +538,7 @@ final class qdw implements Runnable {
                                             sb3.append(" entry to ");
                                             sb3.append(196608);
                                             sb3.append(" bytes for upload");
-                                            sek2.mo25416d(sb3.toString(), new Object[0]);
+                                            logger2.mo25416d(sb3.toString(), new Object[0]);
                                             if ((nextEntry.getFlags() & 2) != 0) {
                                                 byteArrayOutputStream222.write("\n=== TRUNCATED FOR UPLOAD ===\n".getBytes());
                                             }
@@ -725,7 +725,7 @@ final class qdw implements Runnable {
                     }
                     if (c == 1) {
                         bxvd bxvd = (bxvd) qhk.mo74142c(5);
-                        bxvd.mo73625a((bxvk) qhk);
+                        bxvd.mo73625a((GeneratedMessageLite) qhk);
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;
@@ -791,11 +791,11 @@ final class qdw implements Runnable {
             qgl.mo24043a((qhk) list.get(i2));
         }
         if (size > 0 && cdbz.m132512b()) {
-            sek sek = f41053a;
+            Logger Logger = f41053a;
             StringBuilder sb = new StringBuilder(40);
             sb.append("Clearcut log lines: ");
             sb.append(size);
-            sek.mo25412b(sb.toString(), new Object[0]);
+            Logger.mo25412b(sb.toString(), new Object[0]);
             bxvd da2 = qhk.f41362e.mo74144da();
             if (da2.f164950c) {
                 da2.mo74035c();

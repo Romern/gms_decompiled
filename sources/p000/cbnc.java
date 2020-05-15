@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbnc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbnc extends bxvk implements bxxd {
+public final class cbnc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbnc f177716b;
@@ -16,7 +16,7 @@ public final class cbnc extends bxvk implements bxxd {
     static {
         cbnc cbnc = new cbnc();
         f177716b = cbnc;
-        bxvk.m124024a(cbnc.class, cbnc);
+        GeneratedMessageLite.m124024a(cbnc.class, cbnc);
     }
 
     private cbnc() {
@@ -33,7 +33,7 @@ public final class cbnc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177716b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f177716b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\t", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cbnc();
         } else {

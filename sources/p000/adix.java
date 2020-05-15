@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adix */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adix extends bxvk implements bxxd {
+public final class adix extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final adix f61850c;
@@ -19,7 +19,7 @@ public final class adix extends bxvk implements bxxd {
     static {
         adix adix = new adix();
         f61850c = adix;
-        bxvk.m124024a(adix.class, adix);
+        GeneratedMessageLite.m124024a(adix.class, adix);
     }
 
     private adix() {
@@ -45,7 +45,7 @@ public final class adix extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61850c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u00012\u0002\u0002", new Object[]{"a", adiw.f61849a, "b"});
+            return GeneratedMessageLite.m124022a(f61850c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u00012\u0002\u0002", new Object[]{"a", adiw.f61849a, "b"});
         } else if (i2 == 3) {
             return new adix();
         } else {

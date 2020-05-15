@@ -111,7 +111,7 @@ public abstract class avhz extends Fragment implements sur {
         if (arrayList != null) {
             int size = arrayList.size();
             for (int i = 0; i < size; i++) {
-                bxtx a = bxtx.m123261a((byte[]) arrayList.get(i));
+                ByteString a = ByteString.m123261a((byte[]) arrayList.get(i));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -119,7 +119,7 @@ public abstract class avhz extends Fragment implements sur {
                 bxso bxso = (bxso) da.f164949b;
                 a.getClass();
                 if (!bxso.f164716a.mo73666a()) {
-                    bxso.f164716a = bxvk.m124021a(bxso.f164716a);
+                    bxso.f164716a = GeneratedMessageLite.m124021a(bxso.f164716a);
                 }
                 bxso.f164716a.add(a);
             }
@@ -154,7 +154,7 @@ public abstract class avhz extends Fragment implements sur {
         avih.f93228a = new ArrayList();
         Bundle arguments = getArguments();
         bxru bxru = (bxru) avih.m78571a(arguments, "UdcConsentConfig", (bxxk) bxru.f164610n.mo74142c(7));
-        sdo.m34966a(bxru, "Fragment requires consent configuration");
+        sdo.checkIfNull(bxru, "Fragment requires consent configuration");
         ConsentFlowConfig consentFlowConfig = (ConsentFlowConfig) arguments.getParcelable("UdcConsentFlowConfig");
         Context context = layoutInflater.getContext();
         int i = consentFlowConfig.f109334d;

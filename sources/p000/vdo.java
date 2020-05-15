@@ -75,7 +75,7 @@ final class vdo implements vcx {
 
     /* renamed from: c */
     public final void mo28333c() {
-        sdo.m34966a((bkzn) this.f49088a.mo74062i(), "Builder can only be used once.");
+        sdo.checkIfNull((bkzn) this.f49088a.mo74062i(), "Builder can only be used once.");
     }
 
     /* renamed from: a */
@@ -198,14 +198,14 @@ final class vdo implements vcx {
             bxvd.f164950c = false;
         }
         bkzn bkzn = bkzn.f125624f;
-        ((bkzn) bxvd.f164949b).f125630e = bxvk.m124030de();
+        ((bkzn) bxvd.f164949b).f125630e = GeneratedMessageLite.m124030de();
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
         }
         bkzn bkzn2 = (bkzn) bxvd.f164949b;
         if (!bkzn2.f125630e.mo73666a()) {
-            bkzn2.f125630e = bxvk.m124021a(bkzn2.f125630e);
+            bkzn2.f125630e = GeneratedMessageLite.m124021a(bkzn2.f125630e);
         }
         bxsy.m123078a(list, bkzn2.f125630e);
         this.f49090d = true;

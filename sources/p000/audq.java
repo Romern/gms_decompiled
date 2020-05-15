@@ -165,7 +165,7 @@ public final class audq {
         }
         bolj a3 = m76831a(context, bowt2.f135192r);
         bxvd bxvd = (bxvd) a3.mo74142c(5);
-        bxvd.mo73625a((bxvk) a3);
+        bxvd.mo73625a((GeneratedMessageLite) a3);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -188,7 +188,7 @@ public final class audq {
     public static void m76833a(Context context, bolp bolp) {
         bolj a = m76831a(context, "");
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -327,7 +327,7 @@ public final class audq {
         boli boli7 = (boli) da.mo74062i();
         bolj a = m76831a(context, str);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

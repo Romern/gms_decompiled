@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mqr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mqr extends bxvk implements bxxd {
+public final class mqr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final mqr f34342c;
@@ -19,7 +19,7 @@ public final class mqr extends bxvk implements bxxd {
     static {
         mqr mqr = new mqr();
         f34342c = mqr;
-        bxvk.m124024a(mqr.class, mqr);
+        GeneratedMessageLite.m124024a(mqr.class, mqr);
     }
 
     private mqr() {
@@ -36,7 +36,7 @@ public final class mqr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34342c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mqq.f34341a});
+            return GeneratedMessageLite.m124022a(f34342c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mqq.f34341a});
         } else if (i2 == 3) {
             return new mqr();
         } else {

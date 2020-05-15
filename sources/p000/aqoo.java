@@ -21,7 +21,7 @@ import java.util.Set;
 public final class aqoo extends aaab {
 
     /* renamed from: a */
-    private static final sek f86417a = aqom.m71875b("AuthAccountOperation");
+    private static final Logger f86417a = aqom.m71875b("AuthAccountOperation");
 
     /* renamed from: b */
     private static final bnic f86418b = bnic.m109490a((Object) 8, (Object) 7);
@@ -79,7 +79,7 @@ public final class aqoo extends aaab {
             }
         }
         aqpm a3 = this.f86419c.mo48034a(a2.mo33282a());
-        f86417a.mo25409a("Access token request result: %d.", Integer.valueOf(a3.f86511a));
+        f86417a.logVerbose("Access token request result: %d.", Integer.valueOf(a3.f86511a));
         if (a3.mo48035a()) {
             if (((TokenData) a3.f86513c.mo66814b()).f9947e) {
                 ClientContext b = m71880b();
@@ -158,7 +158,7 @@ public final class aqoo extends aaab {
                 }
             }
             aqpm a3 = this.f86419c.mo48034a(a2.mo33282a());
-            f86417a.mo25409a("Server auth code request (prompt=%s) result: %d.", str, Integer.valueOf(a3.f86511a));
+            f86417a.logVerbose("Server auth code request (prompt=%s) result: %d.", str, Integer.valueOf(a3.f86511a));
             if (!a3.mo48035a()) {
                 m71879a(a3.f86511a, a3.f86512b);
                 return;
@@ -196,7 +196,7 @@ public final class aqoo extends aaab {
                 a6.mo33290b(this.f86420d.mo48025f());
             }
             aqpm a7 = this.f86419c.mo48034a(a6.mo33282a());
-            f86417a.mo25409a("ID token request result: %d.", Integer.valueOf(a7.f86511a));
+            f86417a.logVerbose("ID token request result: %d.", Integer.valueOf(a7.f86511a));
             if (!a7.mo48035a()) {
                 m71879a(a7.f86511a, a7.f86512b);
                 return;

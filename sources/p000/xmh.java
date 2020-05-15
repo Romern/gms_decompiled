@@ -22,7 +22,7 @@ public final class xmh {
     static final byte[] f52735a = {6, -48, -15};
 
     /* renamed from: g */
-    private static final sek f52736g = new sek(new String[]{"HidFidoDevice"}, (short[]) null);
+    private static final Logger f52736g = new Logger(new String[]{"HidFidoDevice"}, (short[]) null);
 
     /* renamed from: b */
     public final UsbDevice f52737b;
@@ -127,13 +127,13 @@ public final class xmh {
                                         i3 = i4 + 1;
                                         bArr = bArr2;
                                     } else {
-                                        sek sek = f52736g;
+                                        Logger Logger = f52736g;
                                         int deviceId = usbDevice.getDeviceId();
                                         StringBuilder sb = new StringBuilder(48);
                                         sb.append("Device (");
                                         sb.append(deviceId);
                                         sb.append(") has a valid FIDO descriptor");
-                                        sek.mo25414c(sb.toString(), new Object[0]);
+                                        Logger.mo25414c(sb.toString(), new Object[0]);
                                         xmh xmh = new xmh(usbDevice2, usbManager2, ((Integer) entry.getKey()).intValue());
                                         openDevice.releaseInterface((UsbInterface) entry.getValue());
                                         openDevice.close();

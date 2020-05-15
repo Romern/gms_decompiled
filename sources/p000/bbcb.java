@@ -240,14 +240,14 @@ final /* synthetic */ class bbcb implements bqeh {
                                         i7++;
                                         if (a6 == 2) {
                                             bxvd bxvd = (bxvd) bavd.mo74142c(5);
-                                            bxvd.mo73625a((bxvk) bavd);
+                                            bxvd.mo73625a((GeneratedMessageLite) bavd);
                                             bavc bavc = (bavc) bxvd;
                                             if (bavc.f164950c) {
                                                 bavc.mo74035c();
                                                 bavc.f164950c = false;
                                             }
                                             bavd bavd2 = bavd.f101869m;
-                                            ((bavd) bavc.f164949b).f101880j = bxvk.m124030de();
+                                            ((bavd) bavc.f164949b).f101880j = GeneratedMessageLite.m124030de();
                                             bxwc bxwc6 = bavd.f101880j;
                                             int size4 = bxwc6.size();
                                             for (int i8 = 0; i8 < size4; i8++) {
@@ -258,7 +258,7 @@ final /* synthetic */ class bbcb implements bqeh {
                                                 }
                                                 if (a7 - 1 != 0) {
                                                     bxvd bxvd2 = (bxvd) bauy2.mo74142c(5);
-                                                    bxvd2.mo73625a((bxvk) bauy2);
+                                                    bxvd2.mo73625a((GeneratedMessageLite) bauy2);
                                                     String str4 = bauy2.f101851c;
                                                     MessageDigest a8 = bbeh.m87881a("SHA1");
                                                     if (a8 != null) {

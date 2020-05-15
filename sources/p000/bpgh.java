@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpgh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpgh extends bxvk implements bxxd {
+public final class bpgh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpgh f137489c;
@@ -19,7 +19,7 @@ public final class bpgh extends bxvk implements bxxd {
     static {
         bpgh bpgh = new bpgh();
         f137489c = bpgh;
-        bxvk.m124024a(bpgh.class, bpgh);
+        GeneratedMessageLite.m124024a(bpgh.class, bpgh);
     }
 
     private bpgh() {
@@ -36,7 +36,7 @@ public final class bpgh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f137489c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bzzv.m126374b()});
+            return GeneratedMessageLite.m124022a(f137489c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bzzv.m126374b()});
         } else if (i2 == 3) {
             return new bpgh();
         } else {

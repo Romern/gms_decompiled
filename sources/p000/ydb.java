@@ -15,7 +15,7 @@ import java.util.List;
 public final class ydb extends yct implements View.OnClickListener {
 
     /* renamed from: a */
-    private static final sek f53644a = new sek(new String[]{"TransportSelectionFragment"}, (short[]) null);
+    private static final Logger f53644a = new Logger(new String[]{"TransportSelectionFragment"}, (short[]) null);
 
     /* renamed from: a */
     public static ydb m43831a(ViewOptions viewOptions, boolean z) {

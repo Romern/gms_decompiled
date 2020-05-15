@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvov */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvov extends bxvk implements bxxd {
+public final class bvov extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bvov f157222g;
@@ -31,7 +31,7 @@ public final class bvov extends bxvk implements bxxd {
     static {
         bvov bvov = new bvov();
         f157222g = bvov;
-        bxvk.m124024a(bvov.class, bvov);
+        GeneratedMessageLite.m124024a(bvov.class, bvov);
     }
 
     private bvov() {
@@ -48,7 +48,7 @@ public final class bvov extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157222g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဉ\u0003\u0006င\u0005", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f157222g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဉ\u0003\u0006င\u0005", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new bvov();
         } else {

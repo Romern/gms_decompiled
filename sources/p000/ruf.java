@@ -74,7 +74,7 @@ public final class ruf extends SQLiteOpenHelper implements AutoCloseable {
     }
 
     public final void onCreate(SQLiteDatabase sQLiteDatabase) {
-        sdo.m34966a(sQLiteDatabase, "db cannot be null");
+        sdo.checkIfNull(sQLiteDatabase, "db cannot be null");
         Log.i("DeviceDrDatabaseHelper", "Creating databases!");
         List e = m34471e();
         for (int i = 0; i < e.size(); i++) {
@@ -83,7 +83,7 @@ public final class ruf extends SQLiteOpenHelper implements AutoCloseable {
     }
 
     public final void onDowngrade(SQLiteDatabase sQLiteDatabase, int i, int i2) {
-        sdo.m34966a(sQLiteDatabase, "db cannot be null");
+        sdo.checkIfNull(sQLiteDatabase, "db cannot be null");
         StringBuilder sb = new StringBuilder(65);
         sb.append("Downgrade database: oldVersion=");
         sb.append(i);
@@ -97,7 +97,7 @@ public final class ruf extends SQLiteOpenHelper implements AutoCloseable {
     }
 
     public final void onUpgrade(SQLiteDatabase sQLiteDatabase, int i, int i2) {
-        sdo.m34966a(sQLiteDatabase, "db cannot be null");
+        sdo.checkIfNull(sQLiteDatabase, "db cannot be null");
         StringBuilder sb = new StringBuilder(63);
         sb.append("Upgrade database: oldVersion=");
         sb.append(i);

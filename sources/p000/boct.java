@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boct */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boct extends bxvk implements bxxd {
+public final class boct extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: I */
     public static final boct f132600I;
@@ -115,7 +115,7 @@ public final class boct extends bxvk implements bxxd {
     static {
         boct boct = new boct();
         f132600I = boct;
-        bxvk.m124024a(boct.class, boct);
+        GeneratedMessageLite.m124024a(boct.class, boct);
     }
 
     private boct() {
@@ -132,7 +132,7 @@ public final class boct extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132600I, "\u0001 \u0000\u0002\u00010 \u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\nဉ\b\u000bဉ\t\u000fဉ\r\u0010ဉ\u000e\u0011ဉ\u000f\u0012ဉ\u0010\u0013ဉ\u0011\u0014ဉ\u0012\u0015ဉ\u0013\u0016ဉ\u0014\u0017ဉ\u0015\u0018ဉ\u0016\u001dဉ\u001b\"ဉ #ဉ!&ဉ$'ဉ%*ဉ(+ဉ),ဉ*-ဉ+.ဉ,/ဉ-0ဉ.", new Object[]{"a", "b", "c", bocs.f132599a, "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H"});
+            return GeneratedMessageLite.m124022a(f132600I, "\u0001 \u0000\u0002\u00010 \u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\nဉ\b\u000bဉ\t\u000fဉ\r\u0010ဉ\u000e\u0011ဉ\u000f\u0012ဉ\u0010\u0013ဉ\u0011\u0014ဉ\u0012\u0015ဉ\u0013\u0016ဉ\u0014\u0017ဉ\u0015\u0018ဉ\u0016\u001dဉ\u001b\"ဉ #ဉ!&ဉ$'ဉ%*ဉ(+ဉ),ဉ*-ဉ+.ဉ,/ဉ-0ဉ.", new Object[]{"a", "b", "c", bocs.f132599a, "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H"});
         } else if (i2 == 3) {
             return new boct();
         } else {

@@ -49,7 +49,7 @@ public final class ikg {
         String str2;
         try {
             JSONObject jSONObject = new JSONObject(str);
-            bypc bypc = (bypc) bxvk.m124014a(bypc.f167305k, sqd.m35966a(jSONObject.getString("txrequest")));
+            bypc bypc = (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, sqd.m35966a(jSONObject.getString("txrequest")));
             long j = jSONObject.getLong("expiration");
             long j2 = jSONObject.getLong("reception_elapsed");
             long j3 = jSONObject.getLong("reception_wall");
@@ -71,7 +71,7 @@ public final class ikg {
     public final String toString() {
         try {
             JSONObject jSONObject = new JSONObject();
-            jSONObject.put("txrequest", sqd.m35968b(this.f21184a.mo73642k()));
+            jSONObject.put("txrequest", sqd.m35968b(this.f21184a.serializeToBytes()));
             jSONObject.put("expiration", this.f21187d);
             jSONObject.put("reception_elapsed", this.f21188e);
             jSONObject.put("reception_wall", this.f21189f);

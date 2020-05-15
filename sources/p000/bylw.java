@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bylw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bylw extends bxvk implements bxxd {
+public final class bylw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bylw f166952e;
@@ -20,7 +20,7 @@ public final class bylw extends bxvk implements bxxd {
     public String f166956c = "";
 
     /* renamed from: d */
-    public bxtx f166957d = bxtx.f164797b;
+    public ByteString f166957d = ByteString.f164797b;
 
     /* renamed from: f */
     private byte f166958f = 2;
@@ -28,7 +28,7 @@ public final class bylw extends bxvk implements bxxd {
     static {
         bylw bylw = new bylw();
         f166952e = bylw;
-        bxvk.m124024a(bylw.class, bylw);
+        GeneratedMessageLite.m124024a(bylw.class, bylw);
     }
 
     private bylw() {
@@ -49,7 +49,7 @@ public final class bylw extends bxvk implements bxxd {
             this.f166958f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f166952e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ဈ\u0001\u0003ည\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f166952e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ဈ\u0001\u0003ည\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bylw();
         } else {

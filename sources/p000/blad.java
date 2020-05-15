@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blad */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blad extends bxvk implements bxxd {
+public final class blad extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final blad f125740a;
@@ -22,7 +22,7 @@ public final class blad extends bxvk implements bxxd {
     static {
         blad blad = new blad();
         f125740a = blad;
-        bxvk.m124024a(blad.class, blad);
+        GeneratedMessageLite.m124024a(blad.class, blad);
     }
 
     private blad() {
@@ -43,7 +43,7 @@ public final class blad extends bxvk implements bxxd {
             this.f125744d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f125740a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"b", "c", blfz.f126416a});
+            return GeneratedMessageLite.m124022a(f125740a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"b", "c", blfz.f126416a});
         } else if (i2 == 3) {
             return new blad();
         } else {

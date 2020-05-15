@@ -141,7 +141,7 @@ public abstract class bjhy extends bjhu implements bjhr {
         super.mo65102a(bwog, bwog2);
         bjhs bjhs = this.f122754m;
         bxuq bxuq = bjhs.f122744a;
-        Map map = bxvk.f164959aj;
+        Map map = GeneratedMessageLite.f164959aj;
         bxvj bxvj = (bxvj) bxuq;
         bwog2.mo74135a(bxvj);
         if (!bwog2.f164952m.mo73911a(bxvj.f164958d)) {

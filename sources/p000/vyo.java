@@ -27,7 +27,7 @@ public final class vyo {
 
     /* renamed from: b */
     public String mo28966b() {
-        return String.valueOf(spn.m35843a(this.f50243a));
+        return String.valueOf(spn.getAndroidId(this.f50243a));
     }
 
     /* renamed from: c */
@@ -51,6 +51,6 @@ public final class vyo {
         } else if (i == 0) {
             a.mo28971a((Integer) null);
         }
-        a.f50245a.mo28979a(((vwc) a.f50246b.mo74062i()).mo73642k());
+        a.f50245a.mo28979a(((vwc) a.f50246b.mo74062i()).serializeToBytes());
     }
 }

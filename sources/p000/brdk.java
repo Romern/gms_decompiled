@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brdk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brdk extends bxvk implements bxxd {
+public final class brdk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: l */
     public static final brdk f142515l;
@@ -49,7 +49,7 @@ public final class brdk extends bxvk implements bxxd {
     static {
         brdk brdk = new brdk();
         f142515l = brdk;
-        bxvk.m124024a(brdk.class, brdk);
+        GeneratedMessageLite.m124024a(brdk.class, brdk);
     }
 
     private brdk() {
@@ -70,7 +70,7 @@ public final class brdk extends bxvk implements bxxd {
             this.f142528m = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f142515l, "\u0001\n\u0000\u0001\u0001\u000b\n\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဌ\u0003\u0005ဂ\u0004\u0007ဈ\u0006\bဈ\u0007\tဌ\b\nဌ\t\u000bဈ\n", new Object[]{"a", "b", "c", "d", "e", brcm.m113876b(), "f", "g", "h", "i", brdi.f142514a, "j", brdh.f142513a, "k"});
+            return GeneratedMessageLite.m124022a(f142515l, "\u0001\n\u0000\u0001\u0001\u000b\n\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဌ\u0003\u0005ဂ\u0004\u0007ဈ\u0006\bဈ\u0007\tဌ\b\nဌ\t\u000bဈ\n", new Object[]{"a", "b", "c", "d", "e", brcm.m113876b(), "f", "g", "h", "i", brdi.f142514a, "j", brdh.f142513a, "k"});
         } else if (i2 == 3) {
             return new brdk();
         } else {

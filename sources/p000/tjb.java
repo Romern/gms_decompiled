@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: tjb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class tjb extends bxvk implements bxxd {
+public final class tjb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final tjb f46179c;
@@ -19,7 +19,7 @@ public final class tjb extends bxvk implements bxxd {
     static {
         tjb tjb = new tjb();
         f46179c = tjb;
-        bxvk.m124024a(tjb.class, tjb);
+        GeneratedMessageLite.m124024a(tjb.class, tjb);
     }
 
     private tjb() {
@@ -36,7 +36,7 @@ public final class tjb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f46179c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u0016", new Object[]{"a", tja.class, "b"});
+            return GeneratedMessageLite.m124022a(f46179c, "\u0001\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0002\u0000\u0001\u001b\u0002\u0016", new Object[]{"a", tja.class, "b"});
         } else if (i2 == 3) {
             return new tjb();
         } else {

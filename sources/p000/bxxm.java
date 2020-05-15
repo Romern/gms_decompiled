@@ -40,12 +40,12 @@ public final class bxxm {
             bxxw.m124352a(cls);
             bxwz b = bxwt.f165007a.mo73931b(cls);
             if (b.mo74213a()) {
-                if (bxvk.class.isAssignableFrom(cls)) {
+                if (GeneratedMessageLite.class.isAssignableFrom(cls)) {
                     bxxv = bxxg.m124227a(bxxw.f165069c, bxuu.f164876a, b.mo74214b());
                 } else {
                     bxxv = bxxg.m124227a(bxxw.f165067a, bxuu.m123753a(), b.mo74214b());
                 }
-            } else if (bxvk.class.isAssignableFrom(cls)) {
+            } else if (GeneratedMessageLite.class.isAssignableFrom(cls)) {
                 if (bxwt.m124132a(b)) {
                     bxxv = bxxf.m124176a(b, bxxj.f165036b, bxwp.f165001b, bxxw.f165069c, bxuu.f164876a, bxwy.f165016b);
                 } else {

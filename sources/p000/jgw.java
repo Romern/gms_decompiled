@@ -22,7 +22,7 @@ import java.security.MessageDigest;
 public final class jgw extends Loader implements jgv {
 
     /* renamed from: a */
-    public static final sek f22448a = ght.m13171a("AuthManaged", "ManagingAppInstallLoader");
+    public static final Logger f22448a = ght.m13171a("AuthManaged", "ManagingAppInstallLoader");
 
     /* renamed from: b */
     public Intent f22449b;

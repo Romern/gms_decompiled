@@ -17,7 +17,7 @@ public final class byys extends bxvg implements bxvh {
     public int f169005b;
 
     /* renamed from: c */
-    public bxtx f169006c = bxtx.f164797b;
+    public ByteString f169006c = ByteString.f164797b;
 
     /* renamed from: e */
     private byte f169007e = 2;
@@ -25,7 +25,7 @@ public final class byys extends bxvg implements bxvh {
     static {
         byys byys = new byys();
         f169002d = byys;
-        bxvk.m124024a(byys.class, byys);
+        GeneratedMessageLite.m124024a(byys.class, byys);
     }
 
     private byys() {
@@ -46,7 +46,7 @@ public final class byys extends bxvg implements bxvh {
             this.f169007e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f169002d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ည\u0001", new Object[]{"a", "b", bzai.f169216a, "c"});
+            return GeneratedMessageLite.m124022a(f169002d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ည\u0001", new Object[]{"a", "b", bzai.f169216a, "c"});
         } else if (i2 == 3) {
             return new byys();
         } else {

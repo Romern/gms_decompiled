@@ -49,7 +49,7 @@ public final class aaxu extends aayk {
                 return null;
             }
             try {
-                return (abdz) bxvk.m124016a(abdz.f57159a, k.f56844c, bxus.m123744c());
+                return (abdz) GeneratedMessageLite.m124016a(abdz.f57159a, k.f56844c, bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("gH_UpdateTypingStatCReq", "Parsing UpdateTypingStatusRequest failed!", e);
                 return null;

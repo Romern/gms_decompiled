@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amsc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amsc extends bxvk implements bxxd {
+public final class amsc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final amsc f75836c;
@@ -19,7 +19,7 @@ public final class amsc extends bxvk implements bxxd {
     static {
         amsc amsc = new amsc();
         f75836c = amsc;
-        bxvk.m124024a(amsc.class, amsc);
+        GeneratedMessageLite.m124024a(amsc.class, amsc);
     }
 
     private amsc() {
@@ -36,7 +36,7 @@ public final class amsc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75836c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဂ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f75836c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဂ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new amsc();
         } else {

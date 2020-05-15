@@ -22,7 +22,7 @@ import java.util.concurrent.Future;
 public final class xyr implements xhq, xiq, xyw, xim {
 
     /* renamed from: l */
-    public static final sek f53375l = new sek(new String[]{"BleSKRequestController"}, (short[]) null);
+    public static final Logger f53375l = new Logger(new String[]{"BleSKRequestController"}, (short[]) null);
 
     /* renamed from: a */
     public final xwj f53376a;
@@ -262,13 +262,13 @@ public final class xyr implements xhq, xiq, xyw, xim {
     /* renamed from: a */
     public final void mo29723a(int i, BluetoothDevice bluetoothDevice) {
         if (this.f53386k != 3) {
-            sek sek = f53375l;
+            Logger Logger = f53375l;
             Object[] objArr = new Object[1];
             int i2 = this.f53386k;
             String a = xyq.m43651a(i2);
             if (i2 != 0) {
                 objArr[0] = a;
-                sek.mo25414c("onBleDeviceBondStateChanged: mCurrentState: %s is not BONDING", objArr);
+                Logger.mo25414c("onBleDeviceBondStateChanged: mCurrentState: %s is not BONDING", objArr);
                 return;
             }
             throw null;
@@ -344,13 +344,13 @@ public final class xyr implements xhq, xiq, xyw, xim {
                         this.f53379d.mo30295a(3, new BleViewOptions(false));
                         return;
                     }
-                    sek sek = f53375l;
+                    Logger Logger = f53375l;
                     Object[] objArr = new Object[1];
                     int i = this.f53386k;
                     String a = xyq.m43651a(i);
                     if (i != 0) {
                         objArr[0] = a;
-                        sek.mo25414c("Requested pairing another security key when mState isn't INIT or SELECTING (is %s)", objArr);
+                        Logger.mo25414c("Requested pairing another security key when mState isn't INIT or SELECTING (is %s)", objArr);
                         return;
                     }
                     throw null;
@@ -377,13 +377,13 @@ public final class xyr implements xhq, xiq, xyw, xim {
                     }
                 }
             } else {
-                sek sek2 = f53375l;
+                Logger logger2 = f53375l;
                 Object[] objArr2 = new Object[1];
                 int i2 = this.f53386k;
                 String a3 = xyq.m43651a(i2);
                 if (i2 != 0) {
                     objArr2[0] = a3;
-                    sek2.mo25414c("Requested enabling Bluetooth when mState isn't INIT (is %s)", objArr2);
+                    logger2.mo25414c("Requested enabling Bluetooth when mState isn't INIT (is %s)", objArr2);
                     return;
                 }
                 throw null;
@@ -391,13 +391,13 @@ public final class xyr implements xhq, xiq, xyw, xim {
         } else if (ordinal != 7) {
             this.f53379d.mo30295a(3, viewOptions);
         } else if (this.f53386k != 2) {
-            sek sek3 = f53375l;
+            Logger logger3 = f53375l;
             Object[] objArr3 = new Object[1];
             int i3 = this.f53386k;
             String a4 = xyq.m43651a(i3);
             if (i3 != 0) {
                 objArr3[0] = a4;
-                sek3.mo25414c("Requested pairing retry when mState isn't SELECTING (is %s)", objArr3);
+                logger3.mo25414c("Requested pairing retry when mState isn't SELECTING (is %s)", objArr3);
                 return;
             }
             throw null;
@@ -413,13 +413,13 @@ public final class xyr implements xhq, xiq, xyw, xim {
     /* renamed from: a */
     public final void mo30273a(String str, boolean z) {
         if (this.f53386k != 2) {
-            sek sek = f53375l;
+            Logger Logger = f53375l;
             Object[] objArr = new Object[1];
             int i = this.f53386k;
             String a = xyq.m43651a(i);
             if (i != 0) {
                 objArr[0] = a;
-                sek.mo25414c("onUserSelectedBleDevice: mCurrentState: %s is not SELECTING", objArr);
+                Logger.mo25414c("onUserSelectedBleDevice: mCurrentState: %s is not SELECTING", objArr);
                 return;
             }
             throw null;
@@ -427,9 +427,9 @@ public final class xyr implements xhq, xiq, xyw, xim {
         this.f53385j = false;
         BluetoothDevice a2 = this.f53392r.mo29821a(str);
         if (a2 == null) {
-            sek sek2 = f53375l;
+            Logger logger2 = f53375l;
             String valueOf = String.valueOf(str);
-            sek2.mo25414c(valueOf.length() == 0 ? new String("User selected device not found in list. Device: ") : "User selected device not found in list. Device: ".concat(valueOf), new Object[0]);
+            logger2.mo25414c(valueOf.length() == 0 ? new String("User selected device not found in list. Device: ") : "User selected device not found in list. Device: ".concat(valueOf), new Object[0]);
             this.f53392r.mo29824b();
             m43653b(2);
             return;

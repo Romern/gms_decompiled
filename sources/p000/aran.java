@@ -24,7 +24,7 @@ import java.util.concurrent.ExecutionException;
 final class aran {
 
     /* renamed from: a */
-    private static final sek f87216a = ascp.m73787a("D2D", "SourceAccountTransferController");
+    private static final Logger f87216a = ascp.m73787a("D2D", "SourceAccountTransferController");
 
     /* renamed from: b */
     private final Context f87217b;
@@ -69,7 +69,7 @@ final class aran {
     /* renamed from: a */
     public final void mo48344a() {
         int i;
-        f87216a.mo25409a("Sending BootstrapInfos.", new Object[0]);
+        f87216a.logVerbose("Sending BootstrapInfos.", new Object[0]);
         armh armh = this.f87218c;
         armh.mo48651d(2);
         int a = arpz.m73287a(this.f87223h);
@@ -127,7 +127,7 @@ final class aran {
     /* renamed from: a */
     public final void mo48345a(AccountBootstrapPayload accountBootstrapPayload) {
         if (accountBootstrapPayload.f107958c != null) {
-            f87216a.mo25409a("Processing Challenges using connectionless client", new Object[0]);
+            f87216a.logVerbose("Processing Challenges using connectionless client", new Object[0]);
             sdo.m34959a(accountBootstrapPayload);
             ArrayList arrayList = accountBootstrapPayload.f107958c;
             sdo.m34959a(arrayList);
@@ -148,7 +148,7 @@ final class aran {
                         bove.f135004a |= 4;
                         bove.f135007d = true;
                     }
-                    f87216a.mo25409a("Sending ExchangeAssertionsForUserCredentialsRequest.", new Object[0]);
+                    f87216a.logVerbose("Sending ExchangeAssertionsForUserCredentialsRequest.", new Object[0]);
                     AccountBootstrapPayload accountBootstrapPayload2 = new AccountBootstrapPayload();
                     accountBootstrapPayload2.f107959d = exchangeAssertionsForUserCredentialsRequest;
                     accountBootstrapPayload2.f107956a.add(4);
@@ -165,7 +165,7 @@ final class aran {
             }
         }
         if (accountBootstrapPayload.f107960e != null) {
-            f87216a.mo25409a("Processing UserCredentials.", new Object[0]);
+            f87216a.logVerbose("Processing UserCredentials.", new Object[0]);
             sdo.m34959a(accountBootstrapPayload);
             ArrayList arrayList2 = accountBootstrapPayload.f107960e;
             sdo.m34959a(arrayList2);
@@ -184,15 +184,15 @@ final class aran {
             String string = bundle.getString("name");
             String string2 = bundle.getString("sessionCheckpoint");
             if (TextUtils.isEmpty(string2)) {
-                sek sek = f87216a;
+                Logger Logger = f87216a;
                 String valueOf = String.valueOf(string);
-                sek.mo25412b(valueOf.length() == 0 ? new String("Session checkpoint is empty: ") : "Session checkpoint is empty: ".concat(valueOf), new Object[0]);
+                Logger.mo25412b(valueOf.length() == 0 ? new String("Session checkpoint is empty: ") : "Session checkpoint is empty: ".concat(valueOf), new Object[0]);
             } else {
                 arrayList2.add(new SessionCheckpoint(string, string2));
             }
         }
         ExchangeSessionCheckpointsForUserCredentialsRequest exchangeSessionCheckpointsForUserCredentialsRequest = new ExchangeSessionCheckpointsForUserCredentialsRequest(arrayList2);
-        f87216a.mo25409a("Sending ExchangeSessionCheckpointsForUserCredentialsRequest.", new Object[0]);
+        f87216a.logVerbose("Sending ExchangeSessionCheckpointsForUserCredentialsRequest.", new Object[0]);
         AccountBootstrapPayload accountBootstrapPayload = new AccountBootstrapPayload();
         accountBootstrapPayload.f107961f = exchangeSessionCheckpointsForUserCredentialsRequest;
         accountBootstrapPayload.f107956a.add(6);

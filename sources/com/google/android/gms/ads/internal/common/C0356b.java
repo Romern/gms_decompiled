@@ -11,13 +11,13 @@ public final class C0356b {
     public final Context f8165a;
 
     public C0356b(Context context) {
-        sdo.m34966a(context, "Context can not be null");
+        sdo.checkIfNull(context, "Context can not be null");
         this.f8165a = context;
     }
 
     /* renamed from: a */
     public final boolean mo6597a(Intent intent) {
-        sdo.m34966a(intent, "Intent can not be null");
+        sdo.checkIfNull(intent, "Intent can not be null");
         return !this.f8165a.getPackageManager().queryIntentActivities(intent, 0).isEmpty();
     }
 }

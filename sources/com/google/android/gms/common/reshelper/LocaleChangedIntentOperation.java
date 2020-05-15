@@ -120,7 +120,7 @@ public class LocaleChangedIntentOperation extends IntentOperation {
                     } else if (c == 1 && (byteArrayExtra = intent.getByteArrayExtra("proto")) != null) {
                         bxvd da2 = bpvf.f139321t.mo74144da();
                         try {
-                            bpve bpve4 = (bpve) bxvk.m124016a(bpve.f139314f, byteArrayExtra, bxus.m123744c());
+                            bpve bpve4 = (bpve) GeneratedMessageLite.m124016a(bpve.f139314f, byteArrayExtra, bxus.m123744c());
                             if (da2.f164950c) {
                                 da2.mo74035c();
                                 da2.f164950c = false;

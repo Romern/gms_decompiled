@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmbr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmbr extends bxvk implements bxxd {
+public final class bmbr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: A */
     public static final bxvu f128570A = new bmbf();
@@ -44,7 +44,7 @@ public final class bmbr extends bxvk implements bxxd {
     public long f128582J;
 
     /* renamed from: K */
-    public bxtx f128583K = bxtx.f164797b;
+    public ByteString f128583K = ByteString.f164797b;
 
     /* renamed from: a */
     public int f128584a;
@@ -59,7 +59,7 @@ public final class bmbr extends bxvk implements bxxd {
     public long f128587d;
 
     /* renamed from: e */
-    public bxtx f128588e = bxtx.f164797b;
+    public ByteString f128588e = ByteString.f164797b;
 
     /* renamed from: f */
     public String f128589f = "";
@@ -124,7 +124,7 @@ public final class bmbr extends bxvk implements bxxd {
     static {
         bmbr bmbr = new bmbr();
         f128572L = bmbr;
-        bxvk.m124024a(bmbr.class, bmbr);
+        GeneratedMessageLite.m124024a(bmbr.class, bmbr);
     }
 
     private bmbr() {
@@ -141,7 +141,7 @@ public final class bmbr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128572L, "\u0001!\u0000\u0001\u00048!\u0000\b\u0000\u0004\u001a\u0005ဇ\u0010\u0006ဈ\u0001\u0007ဉ\u0005\t\u001a\nဈ\u0011\u000bဈ\u000e\f\u001e\rဈ\u0004\u000e\u001e\u000fဈ\u0006\u0014ဌ\u0012\u0015\u001b\u0016ဈ\b\u0019ဂ\u0002\u001aည\u0003\u001dဉ\u0000\u001e,\u001fဂ\u0015 င\t\"ဇ\u0013#ဈ\u0014$ဌ\r&ဂ\u0016(ဂ\u000b*ဈ\u000f.ဂ\f/ဂ\n1ဂ\u00172\u001b3ဇ\u00077\u001b8ည\u0018", new Object[]{"a", "r", "u", "c", "g", "t", "w", "q", "x", bmbm.m107870b(), "f", "z", bmbm.m107870b(), "h", "C", bmbo.f128564a, "i", bmbz.class, "k", "d", "e", "b", "F", bmbi.m107864b(), "H", "l", "D", "E", "p", bmbj.f128544a, "I", "n", "s", "o", "m", "J", "B", bmbq.class, "j", "v", bmqf.class, "K"});
+            return GeneratedMessageLite.m124022a(f128572L, "\u0001!\u0000\u0001\u00048!\u0000\b\u0000\u0004\u001a\u0005ဇ\u0010\u0006ဈ\u0001\u0007ဉ\u0005\t\u001a\nဈ\u0011\u000bဈ\u000e\f\u001e\rဈ\u0004\u000e\u001e\u000fဈ\u0006\u0014ဌ\u0012\u0015\u001b\u0016ဈ\b\u0019ဂ\u0002\u001aည\u0003\u001dဉ\u0000\u001e,\u001fဂ\u0015 င\t\"ဇ\u0013#ဈ\u0014$ဌ\r&ဂ\u0016(ဂ\u000b*ဈ\u000f.ဂ\f/ဂ\n1ဂ\u00172\u001b3ဇ\u00077\u001b8ည\u0018", new Object[]{"a", "r", "u", "c", "g", "t", "w", "q", "x", bmbm.m107870b(), "f", "z", bmbm.m107870b(), "h", "C", bmbo.f128564a, "i", bmbz.class, "k", "d", "e", "b", "F", bmbi.m107864b(), "H", "l", "D", "E", "p", bmbj.f128544a, "I", "n", "s", "o", "m", "J", "B", bmbq.class, "j", "v", bmqf.class, "K"});
         } else if (i2 == 3) {
             return new bmbr();
         } else {

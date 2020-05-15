@@ -37,7 +37,7 @@ public final class byzr extends bxvg implements bxvh {
     static {
         byzr byzr = new byzr();
         f169150h = byzr;
-        bxvk.m124024a(byzr.class, byzr);
+        GeneratedMessageLite.m124024a(byzr.class, byzr);
     }
 
     private byzr() {
@@ -58,7 +58,7 @@ public final class byzr extends bxvg implements bxvh {
             this.f169159i = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f169150h, "\u0001\u0006\u0000\u0001\u0001\t\u0006\u0000\u0003\u0001\u0001\u001a\u0002ဉ\u0000\u0006Л\u0007ဈ\u0002\b\u001a\tဉ\u0003", new Object[]{"a", "b", "c", "d", byys.class, "f", "e", "g"});
+            return GeneratedMessageLite.m124022a(f169150h, "\u0001\u0006\u0000\u0001\u0001\t\u0006\u0000\u0003\u0001\u0001\u001a\u0002ဉ\u0000\u0006Л\u0007ဈ\u0002\b\u001a\tဉ\u0003", new Object[]{"a", "b", "c", "d", byys.class, "f", "e", "g"});
         } else if (i2 == 3) {
             return new byzr();
         } else {
@@ -85,7 +85,7 @@ public final class byzr extends bxvg implements bxvh {
     /* renamed from: e */
     public final void mo74514e() {
         if (!this.f169153b.mo73666a()) {
-            this.f169153b = bxvk.m124021a(this.f169153b);
+            this.f169153b = GeneratedMessageLite.m124021a(this.f169153b);
         }
     }
 }

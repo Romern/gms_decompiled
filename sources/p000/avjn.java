@@ -125,12 +125,12 @@ public final class avjn {
 
     /* renamed from: a */
     public final void mo51294a(bspq bspq) {
-        this.f93274b.mo24335a(bspq.mo73642k()).mo24327b();
+        this.f93274b.mo24335a(bspq.serializeToBytes()).mo24327b();
     }
 
     /* renamed from: a */
     public final void mo51295a(bspq bspq, int i) {
-        qwo a = this.f93274b.mo24335a(bspq.mo73642k());
+        qwo a = this.f93274b.mo24335a(bspq.serializeToBytes());
         a.mo24323a((long) i);
         a.mo24327b();
     }

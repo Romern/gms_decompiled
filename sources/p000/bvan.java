@@ -25,7 +25,7 @@ public final class bvan extends bxvg implements bxvh {
     static {
         bvan bvan = new bvan();
         f155497d = bvan;
-        bxvk.m124024a(bvan.class, bvan);
+        GeneratedMessageLite.m124024a(bvan.class, bvan);
     }
 
     private bvan() {
@@ -46,7 +46,7 @@ public final class bvan extends bxvg implements bxvh {
             this.f155502e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f155497d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0000\u0001\u0001ဌ\u0000\u0003ᐉ\u0001", new Object[]{"a", "b", bvao.f155503a, "c"});
+            return GeneratedMessageLite.m124022a(f155497d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0000\u0001\u0001ဌ\u0000\u0003ᐉ\u0001", new Object[]{"a", "b", bvao.f155503a, "c"});
         } else if (i2 == 3) {
             return new bvan();
         } else {

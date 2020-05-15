@@ -110,7 +110,7 @@ public final class aahx extends dck implements aahy {
                 dci dci3 = (dci) da.mo74062i();
                 da2 = dch.f12805e.mo74144da();
                 if (bArr2 == null) {
-                    bxtx a3 = bxtx.m123261a(bArr2);
+                    ByteString a3 = ByteString.m123261a(bArr2);
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -124,7 +124,7 @@ public final class aahx extends dck implements aahy {
                     i = 2;
                 }
                 if (bArr == null) {
-                    bxtx a4 = bxtx.m123261a(bArr);
+                    ByteString a4 = ByteString.m123261a(bArr);
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -145,7 +145,7 @@ public final class aahx extends dck implements aahy {
                 dci3.getClass();
                 dch3.f12808b = dci3;
                 dch3.f12807a |= 1;
-                return new ProgramResponse(((dch) da2.mo74062i()).mo73639aL().mo73780k(), i4);
+                return new ProgramResponse(((dch) da2.mo74062i()).mo73639aL().getKey(), i4);
             }
         }
         bArr = null;
@@ -182,7 +182,7 @@ public final class aahx extends dck implements aahy {
         dci32.getClass();
         dch32.f12808b = dci32;
         dch32.f12807a |= 1;
-        return new ProgramResponse(((dch) da2.mo74062i()).mo73639aL().mo73780k(), i42);
+        return new ProgramResponse(((dch) da2.mo74062i()).mo73639aL().getKey(), i42);
     }
 
     /* renamed from: a */
@@ -195,7 +195,7 @@ public final class aahx extends dck implements aahy {
             GassEventParcel gassEventParcel = (GassEventParcel) dcl.m8163a(parcel, GassEventParcel.CREATOR);
             if (cebd.m135899c() && this.f28151a != null) {
                 try {
-                    aahq aahq = (aahq) bxvk.m124014a(aahq.f28146a, gassEventParcel.f32753b);
+                    aahq aahq = (aahq) GeneratedMessageLite.m124014a(aahq.f28146a, gassEventParcel.f32753b);
                     aagr aagr = this.f28151a;
                     bxvd da = aahp.f28142c.mo74144da();
                     if (da.f164950c) {
@@ -206,7 +206,7 @@ public final class aahx extends dck implements aahy {
                     aahq.getClass();
                     aahp.f28145b = aahq;
                     aahp.f28144a |= 2;
-                    qwo a2 = aagr.f28089a.mo24335a(((aahp) da.mo74062i()).mo73642k());
+                    qwo a2 = aagr.f28089a.mo24335a(((aahp) da.mo74062i()).serializeToBytes());
                     a2.mo24328b(2);
                     a2.mo24327b();
                 } catch (bxwf e) {

@@ -52,7 +52,7 @@ import java.util.concurrent.TimeUnit;
 public final class gkd extends AbstractAccountAuthenticator {
 
     /* renamed from: a */
-    public static final sek f18373a = new sek("GLSActivity", "GmsAccountAuthenticatorImpl");
+    public static final Logger f18373a = new Logger("GLSActivity", "GmsAccountAuthenticatorImpl");
 
     /* renamed from: c */
     public static final Semaphore f18374c = new Semaphore(0);
@@ -135,7 +135,7 @@ public final class gkd extends AbstractAccountAuthenticator {
     private final AppDescription m13319a() {
         ilq ilq = new ilq(this.f18376d);
         String uuid = UUID.randomUUID().toString();
-        return new AppDescription(ilq.f21309d, ilq.f21311f, uuid, uuid);
+        return new AppDescription(ilq.packageName, ilq.appUid, uuid, uuid);
     }
 
     public final Bundle addAccount(AccountAuthenticatorResponse accountAuthenticatorResponse, String str, String str2, String[] strArr, Bundle bundle) {
@@ -266,7 +266,7 @@ public final class gkd extends AbstractAccountAuthenticator {
     }
 
     public final Bundle addAccountFromCredentials(AccountAuthenticatorResponse accountAuthenticatorResponse, Account account, Bundle bundle) {
-        f18373a.mo25414c("addAccountFromCredentials: %s", sek.m35081a(account));
+        f18373a.mo25414c("addAccountFromCredentials: %s", Logger.m35081a(account));
         this.f18383k.mo13119a();
         if (((Boolean) ((ixl) this.f18379g).mo13426a(new iwz(account.name, bundle))).booleanValue()) {
             f18373a.mo25412b("addAccountFromCredentials: account add successful", new Object[0]);
@@ -284,7 +284,7 @@ public final class gkd extends AbstractAccountAuthenticator {
     public final Bundle confirmCredentials(AccountAuthenticatorResponse accountAuthenticatorResponse, Account account, Bundle bundle) {
         String str;
         boolean z = true;
-        f18373a.mo25414c("confirmCredentials invoked for account: %s", sek.m35081a(account));
+        f18373a.mo25414c("confirmCredentials invoked for account: %s", Logger.m35081a(account));
         if (bundle == null || !bundle.containsKey("password")) {
             ConfirmCredentialsWorkflowRequest confirmCredentialsWorkflowRequest = new ConfirmCredentialsWorkflowRequest();
             confirmCredentialsWorkflowRequest.f10775f = accountAuthenticatorResponse;
@@ -336,7 +336,7 @@ public final class gkd extends AbstractAccountAuthenticator {
     }
 
     public final Bundle getAccountCredentialsForCloning(AccountAuthenticatorResponse accountAuthenticatorResponse, Account account) {
-        f18373a.mo25414c("getAccountCredentialsForCloning, account: %s", sek.m35081a(account));
+        f18373a.mo25414c("getAccountCredentialsForCloning, account: %s", Logger.m35081a(account));
         Bundle bundle = (Bundle) ((ixl) this.f18379g).mo13426a(new iwy(account.name));
         if (bundle == null) {
             f18373a.mo25418e("getAccountCredentialsForCloning: Bundle was null", new Object[0]);
@@ -454,7 +454,7 @@ public final class gkd extends AbstractAccountAuthenticator {
         Bundle b;
         sdo.m34969a(str, (Object) "authTokenType cannot be empty.");
         sdo.m34975b(bundle != null && !bundle.isEmpty(), "loginOptions cannot be null or empty.");
-        sdo.m34966a(account, "Account cannot be null.");
+        sdo.checkIfNull(account, "Account cannot be null.");
         sdo.m34969a(account.name, (Object) "Account name cannot be empty");
         if (sqc.m35963b(gik.f18295c, account.type)) {
             Context context = this.f18376d;
@@ -479,19 +479,19 @@ public final class gkd extends AbstractAccountAuthenticator {
                         gjz a3 = gjz.m13308a();
                         if (izj.m16367a(c)) {
                             a3.mo11959a(this.f18376d, (Intent) a.getParcelable("userRecoveryIntent"));
-                            sek sek = f18373a;
+                            Logger Logger = f18373a;
                             String valueOf = String.valueOf(string);
-                            sek.mo25416d(valueOf.length() == 0 ? new String("Recoverable error: ") : "Recoverable error: ".concat(valueOf), new Object[0]);
+                            Logger.mo25416d(valueOf.length() == 0 ? new String("Recoverable error: ") : "Recoverable error: ".concat(valueOf), new Object[0]);
                         } else if (izj.m16368b(c)) {
                             a3.mo11955a(3, string);
-                            sek sek2 = f18373a;
+                            Logger logger2 = f18373a;
                             String valueOf2 = String.valueOf(string);
-                            sek2.mo25416d(valueOf2.length() == 0 ? new String("Retryable error: ") : "Retryable error: ".concat(valueOf2), new Object[0]);
+                            logger2.mo25416d(valueOf2.length() == 0 ? new String("Retryable error: ") : "Retryable error: ".concat(valueOf2), new Object[0]);
                         } else {
                             a3.mo11955a(5, string);
-                            sek sek3 = f18373a;
+                            Logger logger3 = f18373a;
                             String valueOf3 = String.valueOf(string);
-                            sek3.mo25416d(valueOf3.length() == 0 ? new String("Invalid response error: ") : "Invalid response error: ".concat(valueOf3), new Object[0]);
+                            logger3.mo25416d(valueOf3.length() == 0 ? new String("Invalid response error: ") : "Invalid response error: ".concat(valueOf3), new Object[0]);
                         }
                         return a3.mo11962b();
                     }
@@ -508,7 +508,7 @@ public final class gkd extends AbstractAccountAuthenticator {
                     Bundle a5 = this.f18385m.mo8546a(account, str, bundle);
                     TokenData a6 = TokenData.m6261a(a5, "tokenDetails");
                     if (a6 != null) {
-                        sdo.m34966a(a6, "null tokenData is not expected here as it should have triggered exceptions above.");
+                        sdo.checkIfNull(a6, "null tokenData is not expected here as it should have triggered exceptions above.");
                         gjz a7 = gjz.m13308a();
                         a7.mo11956a(account);
                         a7.mo11960a(a6);
@@ -617,7 +617,7 @@ public final class gkd extends AbstractAccountAuthenticator {
             }
             if (cbzc.f178579a.mo6606a().mo75626b()) {
                 Random random = new Random();
-                long a = spn.m35843a(this.f18376d);
+                long a = spn.getAndroidId(this.f18376d);
                 if (a != 0) {
                     random.setSeed(a);
                 }
@@ -751,7 +751,7 @@ public final class gkd extends AbstractAccountAuthenticator {
     }
 
     public final Bundle updateCredentials(AccountAuthenticatorResponse accountAuthenticatorResponse, Account account, String str, Bundle bundle) {
-        f18373a.mo25414c("updateCredentials invoked for account: %s", sek.m35081a(account));
+        f18373a.mo25414c("updateCredentials invoked for account: %s", Logger.m35081a(account));
         UpdateCredentialsWorkflowRequest updateCredentialsWorkflowRequest = new UpdateCredentialsWorkflowRequest();
         updateCredentialsWorkflowRequest.mo7671a(account);
         updateCredentialsWorkflowRequest.mo7672a(bundle);

@@ -12,7 +12,7 @@ final /* synthetic */ class bajx implements bmxj {
     public final Object apply(Object obj) {
         byja byja = (byja) obj;
         bxvd da = byit.f166599d.mo74144da();
-        bxtx bxtx = byja.f166627b;
+        ByteString bxtx = byja.f166627b;
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

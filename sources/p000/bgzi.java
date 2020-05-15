@@ -646,7 +646,7 @@ public final class bgzi {
         try {
             bxvd da = bvwj.f157938h.mo74144da();
             if (apiExperimentTokens.mo71517d() != null) {
-                bxtx a = bxtx.m123261a(Base64.decode(apiExperimentTokens.mo71517d(), 10));
+                ByteString a = ByteString.m123261a(Base64.decode(apiExperimentTokens.mo71517d(), 10));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -661,7 +661,7 @@ public final class bgzi {
                 while (it.hasNext()) {
                     String str = (String) it.next();
                     if (str != null) {
-                        bxtx a2 = bxtx.m123261a(Base64.decode(str, 10));
+                        ByteString a2 = ByteString.m123261a(Base64.decode(str, 10));
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -669,7 +669,7 @@ public final class bgzi {
                         bvwj bvwj2 = (bvwj) da.f164949b;
                         a2.getClass();
                         if (!bvwj2.f157942c.mo73666a()) {
-                            bvwj2.f157942c = bxvk.m124021a(bvwj2.f157942c);
+                            bvwj2.f157942c = GeneratedMessageLite.m124021a(bvwj2.f157942c);
                         }
                         bvwj2.f157942c.add(a2);
                     }
@@ -680,7 +680,7 @@ public final class bgzi {
                 while (it2.hasNext()) {
                     String str2 = (String) it2.next();
                     if (str2 != null) {
-                        bxtx a3 = bxtx.m123261a(Base64.decode(str2, 10));
+                        ByteString a3 = ByteString.m123261a(Base64.decode(str2, 10));
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -688,7 +688,7 @@ public final class bgzi {
                         bvwj bvwj3 = (bvwj) da.f164949b;
                         a3.getClass();
                         if (!bvwj3.f157943d.mo73666a()) {
-                            bvwj3.f157943d = bxvk.m124021a(bvwj3.f157943d);
+                            bvwj3.f157943d = GeneratedMessageLite.m124021a(bvwj3.f157943d);
                         }
                         bvwj3.f157943d.add(a3);
                     }
@@ -699,7 +699,7 @@ public final class bgzi {
                 while (it3.hasNext()) {
                     String str3 = (String) it3.next();
                     if (str3 != null) {
-                        bxtx a4 = bxtx.m123261a(Base64.decode(str3, 10));
+                        ByteString a4 = ByteString.m123261a(Base64.decode(str3, 10));
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -707,7 +707,7 @@ public final class bgzi {
                         bvwj bvwj4 = (bvwj) da.f164949b;
                         a4.getClass();
                         if (!bvwj4.f157944e.mo73666a()) {
-                            bvwj4.f157944e = bxvk.m124021a(bvwj4.f157944e);
+                            bvwj4.f157944e = GeneratedMessageLite.m124021a(bvwj4.f157944e);
                         }
                         bvwj4.f157944e.add(a4);
                     }
@@ -718,7 +718,7 @@ public final class bgzi {
                 while (it4.hasNext()) {
                     String str4 = (String) it4.next();
                     if (str4 != null) {
-                        bxtx a5 = bxtx.m123261a(Base64.decode(str4, 10));
+                        ByteString a5 = ByteString.m123261a(Base64.decode(str4, 10));
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -726,7 +726,7 @@ public final class bgzi {
                         bvwj bvwj5 = (bvwj) da.f164949b;
                         a5.getClass();
                         if (!bvwj5.f157945f.mo73666a()) {
-                            bvwj5.f157945f = bxvk.m124021a(bvwj5.f157945f);
+                            bvwj5.f157945f = GeneratedMessageLite.m124021a(bvwj5.f157945f);
                         }
                         bvwj5.f157945f.add(a5);
                     }
@@ -737,7 +737,7 @@ public final class bgzi {
                 while (it5.hasNext()) {
                     String str5 = (String) it5.next();
                     if (str5 != null) {
-                        bxtx a6 = bxtx.m123261a(Base64.decode(str5, 10));
+                        ByteString a6 = ByteString.m123261a(Base64.decode(str5, 10));
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -745,7 +745,7 @@ public final class bgzi {
                         bvwj bvwj6 = (bvwj) da.f164949b;
                         a6.getClass();
                         if (!bvwj6.f157946g.mo73666a()) {
-                            bvwj6.f157946g = bxvk.m124021a(bvwj6.f157946g);
+                            bvwj6.f157946g = GeneratedMessageLite.m124021a(bvwj6.f157946g);
                         }
                         bvwj6.f157946g.add(a6);
                     }
@@ -1594,7 +1594,7 @@ public final class bgzi {
                         bvva3.f157777c = c7;
                     }
                     if (locationHistorianBatchData.mo71687b() != null) {
-                        bxtx a7 = bxtx.m123261a(Base64.decode(locationHistorianBatchData.mo71687b(), 11));
+                        ByteString a7 = ByteString.m123261a(Base64.decode(locationHistorianBatchData.mo71687b(), 11));
                         if (da4.f164950c) {
                             da4.mo74035c();
                             da4.f164950c = false;
@@ -2251,7 +2251,7 @@ public final class bgzi {
                 bvxr3.f158092d = c;
             }
             if (apiUserData.mo71597b() != null) {
-                bxtx a = bxtx.m123261a(Base64.decode(apiUserData.mo71597b(), 11));
+                ByteString a = ByteString.m123261a(Base64.decode(apiUserData.mo71597b(), 11));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

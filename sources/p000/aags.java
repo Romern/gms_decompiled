@@ -145,7 +145,7 @@ public final class aags {
                     aaiq.f28216a |= 1;
                     aaiq.f28217b = str3;
                 }
-                aagu.m21242a(context2, aagu.m21240a(2, ((aaiq) da2.mo74062i()).mo73642k()));
+                aagu.m21242a(context2, aagu.m21240a(2, ((aaiq) da2.mo74062i()).serializeToBytes()));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -241,7 +241,7 @@ public final class aags {
                     int i4 = 2 | i3;
                     hVar.f7560a = i4;
                     hVar.f7562c = str9;
-                    bxtx bxtx = a2.f28199e;
+                    ByteString bxtx = a2.f28199e;
                     bxtx.getClass();
                     hVar.f7560a = i4 | 4;
                     hVar.f7563d = bxtx;

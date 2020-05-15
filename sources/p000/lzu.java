@@ -114,12 +114,12 @@ public final class lzu {
                     } else if (httpURLConnection.getInputStream() != null) {
                         bxuc a2 = bxuc.m123416a(httpURLConnection.getInputStream());
                         bxus c = bxus.m123744c();
-                        bxvk bxvk = (bxvk) ltq.f32971i.mo74142c(4);
-                        bxxv a3 = bxxm.f165037a.mo74228a(bxvk);
-                        a3.mo74220a(bxvk, bxud.m123454a(a2), c);
-                        a3.mo74225d(bxvk);
-                        bxvk.m124027b(bxvk);
-                        ltq ltq = (ltq) bxvk;
+                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) ltq.f32971i.mo74142c(4);
+                        bxxv a3 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                        a3.mo74220a(GeneratedMessageLite, bxud.m123454a(a2), c);
+                        a3.mo74225d(GeneratedMessageLite);
+                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                        ltq ltq = (ltq) GeneratedMessageLite;
                         if ((ltq.f32973a & 8) != 0) {
                             lzz lzz = this.f33302d;
                             String str3 = ltq.f32976d;
@@ -209,7 +209,7 @@ public final class lzu {
             lth.f32916a |= 1024;
             lth.f32924i = str;
         }
-        byte[] k = ((lth) bxvd.mo74062i()).mo73642k();
+        byte[] k = ((lth) bxvd.mo74062i()).serializeToBytes();
         int i = 1;
         f33300b.mo25412b("sending request: %d bytes", Integer.valueOf(k.length));
         lzx a2 = lzx.m24742a(bxvd);

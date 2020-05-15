@@ -19,7 +19,7 @@ final class xwl extends xwh implements xwn {
     public static final /* synthetic */ int f53298d = 0;
 
     /* renamed from: g */
-    private static final sek f53299g = new sek(new String[]{"ClearCutFido2EventLogger"}, (short[]) null);
+    private static final Logger f53299g = new Logger(new String[]{"ClearCutFido2EventLogger"}, (short[]) null);
 
     /* renamed from: e */
     private final xws f53300e;
@@ -45,7 +45,7 @@ final class xwl extends xwh implements xwn {
         xab.f51680b = i;
         byte[] bArr = xwj.f53296b;
         if (bArr != null) {
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -98,7 +98,7 @@ final class xwl extends xwh implements xwn {
                 }
                 wzw wzw = (wzw) da2.f164949b;
                 if (!wzw.f51657a.mo73666a()) {
-                    wzw.f51657a = bxvk.m124019a(wzw.f51657a);
+                    wzw.f51657a = GeneratedMessageLite.m124019a(wzw.f51657a);
                 }
                 for (xan xan : a) {
                     wzw.f51657a.mo74153d(xan.f51798g);
@@ -111,7 +111,7 @@ final class xwl extends xwh implements xwn {
                 wzx wzx2 = (wzx) da.f164949b;
                 wzw2.getClass();
                 if (!wzx2.f51662c.mo73666a()) {
-                    wzx2.f51662c = bxvk.m124021a(wzx2.f51662c);
+                    wzx2.f51662c = GeneratedMessageLite.m124021a(wzx2.f51662c);
                 }
                 wzx2.f51662c.add(wzw2);
             }
@@ -277,9 +277,9 @@ final class xwl extends xwh implements xwn {
             i = -1;
         }
         if (i < 0) {
-            sek sek = f53299g;
+            Logger Logger = f53299g;
             String valueOf = String.valueOf(boan.f132472f.mo68794a(bArr));
-            sek.mo25418e(valueOf.length() == 0 ? new String("Unexpected CredentialID in AuthenticatorAssertionResponse:") : "Unexpected CredentialID in AuthenticatorAssertionResponse:".concat(valueOf), new Object[0]);
+            Logger.mo25418e(valueOf.length() == 0 ? new String("Unexpected CredentialID in AuthenticatorAssertionResponse:") : "Unexpected CredentialID in AuthenticatorAssertionResponse:".concat(valueOf), new Object[0]);
             return;
         }
         m43512a(xwj, xpj, Integer.valueOf(i));
@@ -497,7 +497,7 @@ final class xwl extends xwh implements xwn {
         bmxy.m108581a(xwj);
         bmxy.m108581a(xkg);
         bxvd da = wzp.f51623c.mo74144da();
-        bxtx a = bxtx.m123261a(new byte[]{xkg.f52499a.f52553Z});
+        ByteString a = ByteString.m123261a(new byte[]{xkg.f52499a.f52553Z});
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

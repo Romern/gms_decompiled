@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpus */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpus extends bxvk implements bxxd {
+public final class bpus extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bpus f139278e;
@@ -25,7 +25,7 @@ public final class bpus extends bxvk implements bxxd {
     static {
         bpus bpus = new bpus();
         f139278e = bpus;
-        bxvk.m124024a(bpus.class, bpus);
+        GeneratedMessageLite.m124024a(bpus.class, bpus);
     }
 
     private bpus() {
@@ -42,7 +42,7 @@ public final class bpus extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139278e, "\u0001\u0003\u0000\u0001\u0001\u0005\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0005ဉ\u0004", new Object[]{"a", "b", "c", bpuq.f139277a, "d"});
+            return GeneratedMessageLite.m124022a(f139278e, "\u0001\u0003\u0000\u0001\u0001\u0005\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0005ဉ\u0004", new Object[]{"a", "b", "c", bpuq.f139277a, "d"});
         } else if (i2 == 3) {
             return new bpus();
         } else {

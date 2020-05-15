@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boey */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boey extends bxvk implements bxxd {
+public final class boey extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final boey f132867d;
@@ -22,7 +22,7 @@ public final class boey extends bxvk implements bxxd {
     static {
         boey boey = new boey();
         f132867d = boey;
-        bxvk.m124024a(boey.class, boey);
+        GeneratedMessageLite.m124024a(boey.class, boey);
     }
 
     private boey() {
@@ -39,7 +39,7 @@ public final class boey extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132867d, "\u0001\u0002\u0000\u0001\u0002\u0004\u0002\u0000\u0000\u0000\u0002ဌ\u0001\u0004ဉ\u0003", new Object[]{"a", "b", boew.f132860a, "c"});
+            return GeneratedMessageLite.m124022a(f132867d, "\u0001\u0002\u0000\u0001\u0002\u0004\u0002\u0000\u0000\u0000\u0002ဌ\u0001\u0004ဉ\u0003", new Object[]{"a", "b", boew.f132860a, "c"});
         } else if (i2 == 3) {
             return new boey();
         } else {

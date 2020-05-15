@@ -18,7 +18,7 @@ public final class btlj extends bxvd implements bxxd {
         btll btll = (btll) this.f164949b;
         btll btll2 = btll.f149376k;
         if (!btll.f149386i.mo73666a()) {
-            btll.f149386i = bxvk.m124019a(btll.f149386i);
+            btll.f149386i = GeneratedMessageLite.m124019a(btll.f149386i);
         }
         int size = r6.size();
         for (int i = 0; i < size; i++) {
@@ -37,7 +37,7 @@ public final class btlj extends bxvd implements bxxd {
         btll btll = (btll) this.f164949b;
         btll btll2 = btll.f149376k;
         if (!btll.f149385h.mo73666a()) {
-            btll.f149385h = bxvk.m124019a(btll.f149385h);
+            btll.f149385h = GeneratedMessageLite.m124019a(btll.f149385h);
         }
         int size = r6.size();
         for (int i = 0; i < size; i++) {

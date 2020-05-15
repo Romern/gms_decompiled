@@ -12,7 +12,7 @@ import java.security.NoSuchAlgorithmException;
 public final class arfd implements arfa {
 
     /* renamed from: a */
-    public static final sek f87557a = ascp.m73787a("D2D", "TargetDeviceConnectorNearbyConnections");
+    public static final Logger f87557a = ascp.m73787a("D2D", "TargetDeviceConnectorNearbyConnections");
 
     /* renamed from: b */
     public final arpx f87558b;
@@ -128,7 +128,7 @@ public final class arfd implements arfa {
             arhn arhn = this.f87573q;
             if (arhn != null) {
                 this.f87561e.mo36526a(str, ahiq.m55840a(arhn.mo48551a()));
-                f87557a.mo25409a("Sent encrypted auth token", new Object[0]);
+                f87557a.logVerbose("Sent encrypted auth token", new Object[0]);
                 this.f87569m = true;
             }
         } catch (GeneralSecurityException e) {
@@ -143,7 +143,7 @@ public final class arfd implements arfa {
             arhn arhn = this.f87573q;
             if (arhn != null) {
                 arhn.mo48550a(bArr);
-                f87557a.mo25409a("Verified auth token", new Object[0]);
+                f87557a.logVerbose("Verified auth token", new Object[0]);
             }
             armu armu = this.f87567k;
             if (armu != null) {

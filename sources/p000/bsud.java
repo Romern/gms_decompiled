@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsud */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsud extends bxvk implements bxxd {
+public final class bsud extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bsud f147106f;
@@ -17,7 +17,7 @@ public final class bsud extends bxvk implements bxxd {
     public String f147109b = "";
 
     /* renamed from: c */
-    public bxtx f147110c = bxtx.f164797b;
+    public ByteString f147110c = ByteString.f164797b;
 
     /* renamed from: d */
     public String f147111d = "";
@@ -28,7 +28,7 @@ public final class bsud extends bxvk implements bxxd {
     static {
         bsud bsud = new bsud();
         f147106f = bsud;
-        bxvk.m124024a(bsud.class, bsud);
+        GeneratedMessageLite.m124024a(bsud.class, bsud);
     }
 
     private bsud() {
@@ -45,7 +45,7 @@ public final class bsud extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147106f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003\n\u0004Ȉ\u0005Ȉ", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f147106f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003\n\u0004Ȉ\u0005Ȉ", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bsud();
         } else {

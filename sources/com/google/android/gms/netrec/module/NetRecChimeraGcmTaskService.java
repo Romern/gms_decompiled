@@ -36,7 +36,7 @@ public class NetRecChimeraGcmTaskService extends aeah {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public static void m67642a(aeat aeat, aeca aeca) {
-        sdo.m34966a((Object) "Task must be created with getPeriodicTaskBuilder or getOneOffTaskBuilder", (Object) aeca.f63120m.getString("taskName"));
+        sdo.checkIfNull((Object) "Task must be created with getPeriodicTaskBuilder or getOneOffTaskBuilder", (Object) aeca.f63120m.getString("taskName"));
         aeat.mo33984a(aeca);
     }
 

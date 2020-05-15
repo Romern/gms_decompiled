@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btql */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btql extends bxvk implements bxxd {
+public final class btql extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final btql f149970i;
@@ -37,7 +37,7 @@ public final class btql extends bxvk implements bxxd {
     static {
         btql btql = new btql();
         f149970i = btql;
-        bxvk.m124024a(btql.class, btql);
+        GeneratedMessageLite.m124024a(btql.class, btql);
     }
 
     private btql() {
@@ -54,7 +54,7 @@ public final class btql extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149970i, "\u0000\b\u0000\u0000\u0001\b\b\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004\u0004\u0005Ȉ\u0006Ȉ\u0007\u0004\bȈ", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f149970i, "\u0000\b\u0000\u0000\u0001\b\b\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004\u0004\u0005Ȉ\u0006Ȉ\u0007\u0004\bȈ", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new btql();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bumz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bumz extends bxvk implements bxxd {
+public final class bumz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bumz f154283e;
@@ -25,7 +25,7 @@ public final class bumz extends bxvk implements bxxd {
     static {
         bumz bumz = new bumz();
         f154283e = bumz;
-        bxvk.m124024a(bumz.class, bumz);
+        GeneratedMessageLite.m124024a(bumz.class, bumz);
     }
 
     private bumz() {
@@ -42,7 +42,7 @@ public final class bumz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154283e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003င\u0002", new Object[]{"a", "b", bumx.f154282a, "c", bumv.f154281a, "d"});
+            return GeneratedMessageLite.m124022a(f154283e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003င\u0002", new Object[]{"a", "b", bumx.f154282a, "c", bumv.f154281a, "d"});
         } else if (i2 == 3) {
             return new bumz();
         } else {

@@ -19,7 +19,7 @@ public final class bjvp {
         int i = 0;
         while (it.hasNext()) {
             bxxc bxxc = (bxxc) it.next();
-            bundle.putByteArray(Integer.toString(i), bxxc != null ? bxxc.mo73642k() : null);
+            bundle.putByteArray(Integer.toString(i), bxxc != null ? bxxc.serializeToBytes() : null);
             i++;
         }
         return bundle;
@@ -93,7 +93,7 @@ public final class bjvp {
         try {
             return (bxxc) bxxk.mo73662b(bArr, bxus.m123744c());
         } catch (bxwf e) {
-            String valueOf = String.valueOf(((bxxc) bxxk.mo73653a(bxtx.f164797b)).getClass().getName());
+            String valueOf = String.valueOf(((bxxc) bxxk.mo73653a(ByteString.f164797b)).getClass().getName());
             throw new RuntimeException(valueOf.length() == 0 ? new String("Failed to parse a known parcelable proto ") : "Failed to parse a known parcelable proto ".concat(valueOf));
         } catch (bxwf e2) {
             throw new AssertionError(e2);
@@ -103,7 +103,7 @@ public final class bjvp {
     /* renamed from: a */
     public static String m104734a(bxxc bxxc) {
         if (bxxc != null) {
-            return Base64.encodeToString(bxxc.mo73642k(), 0);
+            return Base64.encodeToString(bxxc.serializeToBytes(), 0);
         }
         return null;
     }
@@ -111,7 +111,7 @@ public final class bjvp {
     /* renamed from: a */
     public static void m104735a(Intent intent, String str, bxxc bxxc) {
         if (bxxc != null) {
-            intent.putExtra(str, bxxc.mo73642k());
+            intent.putExtra(str, bxxc.serializeToBytes());
         } else {
             intent.putExtra(str, (byte[]) null);
         }
@@ -120,7 +120,7 @@ public final class bjvp {
     /* renamed from: a */
     public static void m104736a(Bundle bundle, String str, bxxc bxxc) {
         if (bxxc != null) {
-            bundle.putByteArray(str, bxxc.mo73642k());
+            bundle.putByteArray(str, bxxc.serializeToBytes());
         } else {
             bundle.putByteArray(str, null);
         }
@@ -135,7 +135,7 @@ public final class bjvp {
 
     /* renamed from: a */
     public static void m104738a(bxxc bxxc, Parcel parcel) {
-        parcel.writeByteArray(bxxc != null ? bxxc.mo73642k() : null);
+        parcel.writeByteArray(bxxc != null ? bxxc.serializeToBytes() : null);
     }
 
     /* renamed from: a */

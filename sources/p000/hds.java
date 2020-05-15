@@ -9,7 +9,7 @@ import android.net.Uri;
 public final class hds {
 
     /* renamed from: a */
-    private static final sek f19547a = ght.m13172b("AppIdentityUtils");
+    private static final Logger f19547a = ght.m13172b("AppIdentityUtils");
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
      method: sdo.a(java.lang.String, java.lang.Object):void

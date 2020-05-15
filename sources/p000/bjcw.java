@@ -109,7 +109,7 @@ public final class bjcw {
                     byfi byfi2 = (byfi) da.f164949b;
                     byff4.getClass();
                     if (!byfi2.f166022c.mo73666a()) {
-                        byfi2.f166022c = bxvk.m124021a(byfi2.f166022c);
+                        byfi2.f166022c = GeneratedMessageLite.m124021a(byfi2.f166022c);
                     }
                     byfi2.f166022c.add(byff4);
                 }

@@ -23,7 +23,7 @@ final class qiv {
     public static final File f41485a = new File("/system/etc/security/otacerts.zip");
 
     /* renamed from: b */
-    public static final sek f41486b = qgn.m32143a("DevicePropertiesModule");
+    public static final Logger f41486b = qgn.m32143a("DevicePropertiesModule");
 
     /* renamed from: a */
     static long m32232a(Context context) {

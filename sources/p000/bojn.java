@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bojn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bojn extends bxvk implements bxxd {
+public final class bojn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bojn f133305d;
@@ -22,7 +22,7 @@ public final class bojn extends bxvk implements bxxd {
     static {
         bojn bojn = new bojn();
         f133305d = bojn;
-        bxvk.m124024a(bojn.class, bojn);
+        GeneratedMessageLite.m124024a(bojn.class, bojn);
     }
 
     private bojn() {
@@ -39,7 +39,7 @@ public final class bojn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133305d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001", new Object[]{"a", "b", bojm.f133304a, "c"});
+            return GeneratedMessageLite.m124022a(f133305d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001", new Object[]{"a", "b", bojm.f133304a, "c"});
         } else if (i2 == 3) {
             return new bojn();
         } else {

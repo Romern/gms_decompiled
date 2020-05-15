@@ -1750,7 +1750,7 @@ final class agdl extends agmg {
         sdo.m34959a(agni);
         sdo.m34977c(str);
         sdo.m34959a(l);
-        byte[] k = agni.mo73642k();
+        byte[] k = agni.serializeToBytes();
         mo35497E().f65572k.mo35437a("Saving complex main event, appId, data size", mo35541y().mo35422a(str), Integer.valueOf(k.length));
         ContentValues contentValues = new ContentValues();
         contentValues.put("app_id", str);
@@ -1796,7 +1796,7 @@ final class agdl extends agmg {
             mo35657o().mo35716b(da2, agdq.f65329f.mo44008a(str));
             da.mo74100q(da2);
         }
-        byte[] k = ((agni) da.mo74062i()).mo73642k();
+        byte[] k = ((agni) da.mo74062i()).serializeToBytes();
         ContentValues contentValues = new ContentValues();
         contentValues.put("app_id", agdq.f65324a);
         contentValues.put("name", agdq.f65325b);

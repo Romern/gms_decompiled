@@ -35,7 +35,7 @@ public final class cagi extends bxvg implements bxvh {
     public bxwc f173105h = bxxn.f165040b;
 
     /* renamed from: i */
-    public bxtx f173106i;
+    public ByteString f173106i;
 
     /* renamed from: j */
     public long f173107j;
@@ -44,7 +44,7 @@ public final class cagi extends bxvg implements bxvh {
     public bqyq f173108k;
 
     /* renamed from: l */
-    public bxtx f173109l;
+    public ByteString f173109l;
 
     /* renamed from: n */
     public int f173110n;
@@ -70,11 +70,11 @@ public final class cagi extends bxvg implements bxvh {
     static {
         cagi cagi = new cagi();
         f173096t = cagi;
-        bxvk.m124024a(cagi.class, cagi);
+        GeneratedMessageLite.m124024a(cagi.class, cagi);
     }
 
     private cagi() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
         this.f173106i = bxtx.f164797b;
         this.f173107j = 180000;
         this.f173109l = bxtx.f164797b;
@@ -97,7 +97,7 @@ public final class cagi extends bxvg implements bxvh {
             this.f173116u = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f173096t, "\u0001\u0011\u0000\u0001\u0001\u001b\u0011\u0000\u0003\u0000\u0001ဂ\u0000\u0002ဈ\u0003\u0003\u001b\u0006ည\n\u000bင\u0004\fဂ\u0006\u000fတ\u0010\u0010ဉ\u0011\u0011ဂ\u0001\u0012ည\u0012\u0013ဌ\u0014\u0014\u0016\u0016ဂ\u0015\u0017ဉ\u0016\u0019ဇ\u0017\u001aဈ\u0005\u001b'", new Object[]{"a", "b", "d", "h", cagj.class, "i", "e", "g", "j", "k", "c", "l", "n", cagg.f173095a, "o", "q", "r", "s", "f", "p"});
+            return GeneratedMessageLite.m124022a(f173096t, "\u0001\u0011\u0000\u0001\u0001\u001b\u0011\u0000\u0003\u0000\u0001ဂ\u0000\u0002ဈ\u0003\u0003\u001b\u0006ည\n\u000bင\u0004\fဂ\u0006\u000fတ\u0010\u0010ဉ\u0011\u0011ဂ\u0001\u0012ည\u0012\u0013ဌ\u0014\u0014\u0016\u0016ဂ\u0015\u0017ဉ\u0016\u0019ဇ\u0017\u001aဈ\u0005\u001b'", new Object[]{"a", "b", "d", "h", cagj.class, "i", "e", "g", "j", "k", "c", "l", "n", cagg.f173095a, "o", "q", "r", "s", "f", "p"});
         } else if (i2 == 3) {
             return new cagi();
         } else {

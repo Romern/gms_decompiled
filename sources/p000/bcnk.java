@@ -83,7 +83,7 @@ public final class bcnk implements bcnl {
         }
         ((cbfl) da3.f164949b).f176933a = i - 2;
         ((cbfl) da3.f164949b).f176934b = bcha.f104155d;
-        bxtx aL = ((cbfl) da3.mo74062i()).mo73639aL();
+        ByteString aL = ((cbfl) da3.mo74062i()).mo73639aL();
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;

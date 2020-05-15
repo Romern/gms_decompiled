@@ -150,7 +150,7 @@ public class bkjo extends bkdx implements bkeb {
             if (bmdn3 == null) {
                 bmdn3 = bmdn.f128831k;
             }
-            bxtx bxtx = bmdn3.f128836d;
+            ByteString bxtx = bmdn3.f128836d;
             if (bmku.f164950c) {
                 bmku.mo74035c();
                 bmku.f164950c = false;

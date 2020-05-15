@@ -4,7 +4,7 @@ import com.google.android.gms.org.conscrypt.PSKKeyManager;
 
 /* renamed from: aqdy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqdy extends bxvk implements bxxd {
+public final class aqdy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final aqdy f85813k;
@@ -19,7 +19,7 @@ public final class aqdy extends bxvk implements bxxd {
     public String f85816b = "";
 
     /* renamed from: c */
-    public bxtx f85817c = bxtx.f164797b;
+    public ByteString f85817c = ByteString.f164797b;
 
     /* renamed from: d */
     public int f85818d;
@@ -48,7 +48,7 @@ public final class aqdy extends bxvk implements bxxd {
     static {
         aqdy aqdy = new aqdy();
         f85813k = aqdy;
-        bxvk.m124024a(aqdy.class, aqdy);
+        GeneratedMessageLite.m124024a(aqdy.class, aqdy);
     }
 
     private aqdy() {
@@ -71,7 +71,7 @@ public final class aqdy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85813k, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0000\u0000\u0001ဈ\u0000\u0002ည\u0001\u0003ဌ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\bဇ\u0007\tဇ\b\nဇ\t", new Object[]{"a", "b", "c", "d", aqdx.f85812a, "e", "f", "g", "h", "i", "l", "j"});
+            return GeneratedMessageLite.m124022a(f85813k, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0000\u0000\u0001ဈ\u0000\u0002ည\u0001\u0003ဌ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\bဇ\u0007\tဇ\b\nဇ\t", new Object[]{"a", "b", "c", "d", aqdx.f85812a, "e", "f", "g", "h", "i", "l", "j"});
         } else if (i2 == 3) {
             return new aqdy();
         } else {

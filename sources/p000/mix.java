@@ -51,7 +51,7 @@ final class mix implements Runnable {
                     this.f33807e.execute(new miw(this, e));
                     inputStream = this.f33806d;
                 } else {
-                    f33803c.mo25409a("Interrupted, shutting down", new Object[0]);
+                    f33803c.logVerbose("Interrupted, shutting down", new Object[0]);
                     inputStream = this.f33806d;
                 }
             } catch (Throwable th) {

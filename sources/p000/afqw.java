@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: afqw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class afqw extends bxvk implements bxxd {
+public final class afqw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final afqw f64582b;
@@ -16,7 +16,7 @@ public final class afqw extends bxvk implements bxxd {
     static {
         afqw afqw = new afqw();
         f64582b = afqw;
-        bxvk.m124024a(afqw.class, afqw);
+        GeneratedMessageLite.m124024a(afqw.class, afqw);
     }
 
     private afqw() {
@@ -33,7 +33,7 @@ public final class afqw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f64582b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", afqv.f64581a});
+            return GeneratedMessageLite.m124022a(f64582b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", afqv.f64581a});
         } else if (i2 == 3) {
             return new afqw();
         } else {

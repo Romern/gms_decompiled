@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: vvy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class vvy extends bxvk implements bxxd {
+public final class vvy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final vvy f50097b;
@@ -16,7 +16,7 @@ public final class vvy extends bxvk implements bxxd {
     static {
         vvy vvy = new vvy();
         f50097b = vvy;
-        bxvk.m124024a(vvy.class, vvy);
+        GeneratedMessageLite.m124024a(vvy.class, vvy);
     }
 
     private vvy() {
@@ -33,7 +33,7 @@ public final class vvy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f50097b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", vvx.class});
+            return GeneratedMessageLite.m124022a(f50097b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", vvx.class});
         } else if (i2 == 3) {
             return new vvy();
         } else {
@@ -60,7 +60,7 @@ public final class vvy extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo28908a() {
         if (!this.f50099a.mo73666a()) {
-            this.f50099a = bxvk.m124021a(this.f50099a);
+            this.f50099a = GeneratedMessageLite.m124021a(this.f50099a);
         }
     }
 }

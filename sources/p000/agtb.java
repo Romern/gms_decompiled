@@ -496,7 +496,7 @@ public final class agtb {
                     boon boon = (boon) da.mo74062i();
                     boot a11 = c.mo35978a(17, i5 != 6 ? str8 : "Error", "MDP_PeriodicService");
                     bxvd = (bxvd) a11.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a11);
+                    bxvd.mo73625a((GeneratedMessageLite) a11);
                     long longValue2 = valueOf2.longValue();
                     if (bxvd.f164950c) {
                     }
@@ -566,7 +566,7 @@ public final class agtb {
                     boon boon2 = (boon) da.mo74062i();
                     boot a112 = c2.mo35978a(17, i5 != 6 ? str82 : "Error", "MDP_PeriodicService");
                     bxvd = (bxvd) a112.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a112);
+                    bxvd.mo73625a((GeneratedMessageLite) a112);
                     long longValue22 = valueOf22.longValue();
                     if (bxvd.f164950c) {
                     }
@@ -636,7 +636,7 @@ public final class agtb {
                     boon boon22 = (boon) da.mo74062i();
                     boot a1122 = c22.mo35978a(17, i5 != 6 ? str822 : "Error", "MDP_PeriodicService");
                     bxvd = (bxvd) a1122.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a1122);
+                    bxvd.mo73625a((GeneratedMessageLite) a1122);
                     long longValue222 = valueOf222.longValue();
                     if (bxvd.f164950c) {
                     }
@@ -708,7 +708,7 @@ public final class agtb {
                 boon boon222 = (boon) da.mo74062i();
                 boot a11222 = c222.mo35978a(17, i5 != 6 ? str8222 : "Error", "MDP_PeriodicService");
                 bxvd = (bxvd) a11222.mo74142c(5);
-                bxvd.mo73625a((bxvk) a11222);
+                bxvd.mo73625a((GeneratedMessageLite) a11222);
                 long longValue2222 = valueOf2222.longValue();
                 if (bxvd.f164950c) {
                 }
@@ -779,7 +779,7 @@ public final class agtb {
                 boon boon2222 = (boon) da.mo74062i();
                 boot a112222 = c2222.mo35978a(17, i5 != 6 ? str82222 : "Error", "MDP_PeriodicService");
                 bxvd = (bxvd) a112222.mo74142c(5);
-                bxvd.mo73625a((bxvk) a112222);
+                bxvd.mo73625a((GeneratedMessageLite) a112222);
                 long longValue22222 = valueOf22222.longValue();
                 if (bxvd.f164950c) {
                 }
@@ -850,7 +850,7 @@ public final class agtb {
                 boon boon22222 = (boon) da.mo74062i();
                 boot a1122222 = c22222.mo35978a(17, i5 != 6 ? str822222 : "Error", "MDP_PeriodicService");
                 bxvd = (bxvd) a1122222.mo74142c(5);
-                bxvd.mo73625a((bxvk) a1122222);
+                bxvd.mo73625a((GeneratedMessageLite) a1122222);
                 long longValue222222 = valueOf222222.longValue();
                 if (bxvd.f164950c) {
                 }
@@ -1017,7 +1017,7 @@ public final class agtb {
                 boon boon3 = (boon) da2.mo74062i();
                 boot a17 = c3.mo35978a(17, str14, "MDP_PeriodicService");
                 bxvd bxvd2 = (bxvd) a17.mo74142c(5);
-                bxvd2.mo73625a((bxvk) a17);
+                bxvd2.mo73625a((GeneratedMessageLite) a17);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
@@ -1085,7 +1085,7 @@ public final class agtb {
             boon boon222222 = (boon) da.mo74062i();
             boot a11222222 = c222222.mo35978a(17, i5 != 6 ? str8222222 : "Error", "MDP_PeriodicService");
             bxvd = (bxvd) a11222222.mo74142c(5);
-            bxvd.mo73625a((bxvk) a11222222);
+            bxvd.mo73625a((GeneratedMessageLite) a11222222);
             long longValue2222222 = valueOf2222222.longValue();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

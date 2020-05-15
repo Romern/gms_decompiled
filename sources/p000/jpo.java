@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public final class jpo implements jkg {
 
     /* renamed from: a */
-    public static final sek f22990a = jsy.m17256a("FirstPartyRegistry");
+    public static final Logger f22990a = jsy.m17256a("FirstPartyRegistry");
 
     /* renamed from: b */
     public final jnj f22991b = jnj.m16961a();

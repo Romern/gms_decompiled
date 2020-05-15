@@ -61,9 +61,9 @@ public final class ceri implements cerf {
         f183381e = bdyx.m91609a(a, "LanguageSettingsFeedback__language_settings_source_id_prefix", "client:");
         f183382f = bdyx.m91607a(a, "LanguageSettingsFeedback__max_time_without_upload_sec", 1209600L);
         try {
-            f183383g = bdyx.m91608a(a, "LanguageSettingsFeedback__settings_cleanup_policy", (bylh) bxvk.m124014a(bylh.f166832d, new byte[]{10, 28, 18, 26, 10, 10, 8, 3, 16, 1, 40, 3, 48, 1, 80, 2, 18, 12, 10, 4, 8, Byte.MIN_VALUE, -93, 5, 18, 4, 8, -32, -22, 4}), cerg.f183375a);
+            f183383g = bdyx.m91608a(a, "LanguageSettingsFeedback__settings_cleanup_policy", (bylh) GeneratedMessageLite.m124014a(bylh.f166832d, new byte[]{10, 28, 18, 26, 10, 10, 8, 3, 16, 1, 40, 3, 48, 1, 80, 2, 18, 12, 10, 4, 8, Byte.MIN_VALUE, -93, 5, 18, 4, 8, -32, -22, 4}), cerg.f183375a);
             try {
-                f183384h = bdyx.m91608a(a, "LanguageSettingsFeedback__settings_upload_sync_policy", (bylh) bxvk.m124014a(bylh.f166832d, new byte[]{10, 54, 10, 22, 10, 12, 8, 1, 16, 1, 40, 3, 48, 1, 72, 2, 80, 2, 18, 6, 10, 0, 18, 2, 8, 1, 18, 28, 10, 12, 8, 1, 16, 1, 40, 3, 48, 1, 72, 2, 80, 2, 18, 12, 10, 4, 8, Byte.MIN_VALUE, -93, 5, 18, 4, 8, -32, -22, 4}), cerh.f183376a);
+                f183384h = bdyx.m91608a(a, "LanguageSettingsFeedback__settings_upload_sync_policy", (bylh) GeneratedMessageLite.m124014a(bylh.f166832d, new byte[]{10, 54, 10, 22, 10, 12, 8, 1, 16, 1, 40, 3, 48, 1, 72, 2, 80, 2, 18, 6, 10, 0, 18, 2, 8, 1, 18, 28, 10, 12, 8, 1, 16, 1, 40, 3, 48, 1, 72, 2, 80, 2, 18, 12, 10, 4, 8, Byte.MIN_VALUE, -93, 5, 18, 4, 8, -32, -22, 4}), cerh.f183376a);
                 bdyx.m91607a(a, "LanguageSettingsFeedback__udc_timeout_millis", 500L);
             } catch (bxwf e) {
                 throw new AssertionError("Could not parse proto flag \"LanguageSettingsFeedback__settings_upload_sync_policy\"");

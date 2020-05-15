@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: birc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class birc extends bxvk implements bxxd {
+public final class birc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final birc f121379g;
@@ -37,7 +37,7 @@ public final class birc extends bxvk implements bxxd {
     static {
         birc birc = new birc();
         f121379g = birc;
-        bxvk.m124024a(birc.class, birc);
+        GeneratedMessageLite.m124024a(birc.class, birc);
     }
 
     private birc() {
@@ -58,7 +58,7 @@ public final class birc extends bxvk implements bxxd {
             this.f121388i = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121379g, "\u0001\u0006\u0000\u0001\u0001\u0007\u0006\u0000\u0000\u0006\u0001ᔃ\u0000\u0003ᐉ\u0002\u0004ᐉ\u0003\u0005ᐉ\u0004\u0006ᐉ\u0005\u0007ᐉ\u0006", new Object[]{"a", "h", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f121379g, "\u0001\u0006\u0000\u0001\u0001\u0007\u0006\u0000\u0000\u0006\u0001ᔃ\u0000\u0003ᐉ\u0002\u0004ᐉ\u0003\u0005ᐉ\u0004\u0006ᐉ\u0005\u0007ᐉ\u0006", new Object[]{"a", "h", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new birc();
         } else {

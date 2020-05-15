@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bssl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bssl extends bxvk implements bxxd {
+public final class bssl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bssl f146873c;
@@ -19,7 +19,7 @@ public final class bssl extends bxvk implements bxxd {
     static {
         bssl bssl = new bssl();
         f146873c = bssl;
-        bxvk.m124024a(bssl.class, bssl);
+        GeneratedMessageLite.m124024a(bssl.class, bssl);
     }
 
     private bssl() {
@@ -36,7 +36,7 @@ public final class bssl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f146873c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bssj.f146872a});
+            return GeneratedMessageLite.m124022a(f146873c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", bssj.f146872a});
         } else if (i2 == 3) {
             return new bssl();
         } else {

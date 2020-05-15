@@ -318,7 +318,7 @@ public final class bjdk {
         } else {
             arrayList = f122554b;
         }
-        sdo.m34966a(arrayList, "PlaceHierarchy must not be null");
+        sdo.checkIfNull(arrayList, "PlaceHierarchy must not be null");
         avwd.f94010d = arrayList;
         bhub bhub = bhqz.f119363e;
         if (bhub != null) {
@@ -338,25 +338,25 @@ public final class bjdk {
                 for (bhqh bhqh3 : list3) {
                     r12.add(m103239a(bhqh3));
                 }
-                sdo.m34966a((Object) r12, "PlaceEstimates must not be null");
+                sdo.checkIfNull((Object) r12, "PlaceEstimates must not be null");
                 avwd.f94011e = r12;
                 sdo.m34975b(avwd.f94013g, "State not set");
                 if (avwd.f94008b <= 0) {
                     z3 = false;
                 }
                 sdo.m34975b(z3, "Invalid timestamp");
-                sdo.m34966a(avwd.f94009c, "Transit estimate must not be null");
+                sdo.checkIfNull(avwd.f94009c, "Transit estimate must not be null");
                 return new SemanticLocation(avwd.f94007a, avwd.f94008b, avwd.f94009c, avwd.f94010d, avwd.f94011e, avwd.f94012f);
             }
         }
         r12 = f122554b;
-        sdo.m34966a((Object) r12, "PlaceEstimates must not be null");
+        sdo.checkIfNull((Object) r12, "PlaceEstimates must not be null");
         avwd.f94011e = r12;
         sdo.m34975b(avwd.f94013g, "State not set");
         if (avwd.f94008b <= 0) {
         }
         sdo.m34975b(z3, "Invalid timestamp");
-        sdo.m34966a(avwd.f94009c, "Transit estimate must not be null");
+        sdo.checkIfNull(avwd.f94009c, "Transit estimate must not be null");
         return new SemanticLocation(avwd.f94007a, avwd.f94008b, avwd.f94009c, avwd.f94010d, avwd.f94011e, avwd.f94012f);
     }
 }

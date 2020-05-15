@@ -28,7 +28,7 @@ public final class cbxr implements cbxp {
         bdyx.m91609a(a, "CarSignInFlow__magic_wand_url", "https://accounts.google.com/embedded/seconddevice/androidauto");
         bdyx.m91610a(a, "CarSignInFlow__no_fast_pair_instructions_on_single_ble_advertiser", true);
         try {
-            f178524a = bdyx.m91608a(a, "CarSignInFlow__no_history_for_minute_maid", (bqzq) bxvk.m124014a(bqzq.f142077c, new byte[]{10, 2, 8, 0, 18, 2, 8, 1}), cbxq.f178523a);
+            f178524a = bdyx.m91608a(a, "CarSignInFlow__no_history_for_minute_maid", (bqzq) GeneratedMessageLite.m124014a(bqzq.f142077c, new byte[]{10, 2, 8, 0, 18, 2, 8, 1}), cbxq.f178523a);
             bdyx.m91610a(a, "CarSignInFlow__only_allow_one_account", true);
             bdyx.m91610a(a, "CarSignInFlow__pass_setup_wizard_state_to_signed_in_activity", true);
             bdyx.m91610a(a, "CarSignInFlow__pre_generate_deeplink_pairing_code", true);

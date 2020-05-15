@@ -50,7 +50,7 @@ public final class mno {
             mqk mqk3 = (mqk) a.f164949b;
             mqk3.f34284a |= AndroidInputTypeSignal.TYPE_TEXT_FLAG_IME_MULTI_LINE;
             mqk3.f34304u = g;
-            qwo a2 = this.f34043a.mo24335a(((mqk) a.mo74062i()).mo73642k());
+            qwo a2 = this.f34043a.mo24335a(((mqk) a.mo74062i()).serializeToBytes());
             a2.mo24328b(mqj.f34275R);
             a2.mo24327b();
         }

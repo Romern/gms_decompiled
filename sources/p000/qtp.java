@@ -8,10 +8,10 @@ public final class qtp {
     public String f42106a;
 
     /* renamed from: b */
-    public bxtx f42107b;
+    public ByteString f42107b;
 
     /* renamed from: c */
-    public bxtx f42108c;
+    public ByteString f42108c;
 
     /* renamed from: d */
     public boolean f42109d;
@@ -25,8 +25,8 @@ public final class qtp {
     public qtp() {
         this.f42111f = -1;
         this.f42106a = "";
-        this.f42107b = bxtx.f164797b;
-        this.f42108c = bxtx.f164797b;
+        this.f42107b = ByteString.f164797b;
+        this.f42108c = ByteString.f164797b;
         this.f42109d = false;
         this.f42110e = false;
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btmr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btmr extends bxvk implements bxxd {
+public final class btmr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: n */
     public static final btmr f149528n;
@@ -52,7 +52,7 @@ public final class btmr extends bxvk implements bxxd {
     static {
         btmr btmr = new btmr();
         f149528n = btmr;
-        bxvk.m124024a(btmr.class, btmr);
+        GeneratedMessageLite.m124024a(btmr.class, btmr);
     }
 
     private btmr() {
@@ -69,7 +69,7 @@ public final class btmr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149528n, "\u0000\r\u0000\u0000\u0001\r\r\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005Ȉ\u0006\f\u0007Ȉ\bȈ\tȈ\nȈ\u000b\f\f\t\r\f", new Object[]{"a", "b", "c", "d", "f", "g", "h", "i", "j", "k", "l", "m", "e"});
+            return GeneratedMessageLite.m124022a(f149528n, "\u0000\r\u0000\u0000\u0001\r\r\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȉ\u0004Ȉ\u0005Ȉ\u0006\f\u0007Ȉ\bȈ\tȈ\nȈ\u000b\f\f\t\r\f", new Object[]{"a", "b", "c", "d", "f", "g", "h", "i", "j", "k", "l", "m", "e"});
         } else if (i2 == 3) {
             return new btmr();
         } else {

@@ -5,8 +5,8 @@ package p000;
 public final class ayzu {
 
     /* renamed from: a */
-    public static final bxvj f98816a = bxvk.m124006a(aywu.f98650f, ayyp.f98751c, ayyp.f98751c, 200000028, bxzf.MESSAGE);
+    public static final bxvj f98816a = GeneratedMessageLite.m124006a(aywu.f98650f, ayyp.f98751c, ayyp.f98751c, 200000028, bxzf.MESSAGE);
 
     /* renamed from: b */
-    public static final bxvj f98817b = bxvk.m124006a(aywt.f98644d, ayyx.f98774b, ayyx.f98774b, 100000003, bxzf.MESSAGE);
+    public static final bxvj f98817b = GeneratedMessageLite.m124006a(aywt.f98644d, ayyx.f98774b, ayyx.f98774b, 100000003, bxzf.MESSAGE);
 }

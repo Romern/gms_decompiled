@@ -42,7 +42,7 @@ public final class bezq implements cijl {
             if (!fileGroupResponse.f79963c.isEmpty()) {
                 InputStream inputStream = (InputStream) befa.mo60643a(Uri.parse(((MddFile) fileGroupResponse.f79963c.get(0)).f79970b), behs.m95063a(), new beer[0]);
                 try {
-                    bezs bezs = (bezs) bxvk.m124011a(bezs.f113185b, inputStream, bxus.m123743b());
+                    bezs bezs = (bezs) GeneratedMessageLite.m124011a(bezs.f113185b, inputStream, bxus.m123743b());
                     int size = bezs.f113187a.size();
                     ArrayList arrayList = new ArrayList(size);
                     for (int i = 0; i < size; i++) {

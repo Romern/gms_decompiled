@@ -24,7 +24,7 @@ import java.util.List;
 public final class ardn extends aqyf implements arqe {
 
     /* renamed from: h */
-    public static final sek f87438h = ascp.m73787a("D2D", "SourceDirectTransferController");
+    public static final Logger f87438h = ascp.m73787a("D2D", "SourceDirectTransferController");
 
     /* renamed from: A */
     private final asck f87439A;
@@ -180,7 +180,7 @@ public final class ardn extends aqyf implements arqe {
     /* renamed from: d */
     public final void mo48257d() {
         ardk ardk = this.f87441C;
-        f87438h.mo25409a("Encryption negotiation has completed.", new Object[0]);
+        f87438h.logVerbose("Encryption negotiation has completed.", new Object[0]);
         ardk.f87426a = true;
         ardk.mo48430b();
     }
@@ -243,11 +243,11 @@ public final class ardn extends aqyf implements arqe {
 
     /* renamed from: a */
     public final void mo48435a(int i, Bundle bundle) {
-        sek sek = f87438h;
+        Logger Logger = f87438h;
         StringBuilder sb = new StringBuilder(28);
         sb.append("onReceiveResult: ");
         sb.append(i);
-        sek.mo25409a(sb.toString(), new Object[0]);
+        Logger.logVerbose(sb.toString(), new Object[0]);
         switch (i) {
             case 1001:
                 this.f87451o.mo48747a(m72244a(bundle, "resultReceiver"));
@@ -305,7 +305,7 @@ public final class ardn extends aqyf implements arqe {
         this.f87452p.mo48434d();
         mo48245a(arhq, false);
         this.f87462z.mo49040a(this);
-        f87438h.mo25409a("startEncryptionNegotiation", new Object[0]);
+        f87438h.logVerbose("startEncryptionNegotiation", new Object[0]);
     }
 
     /* access modifiers changed from: protected */
@@ -345,7 +345,7 @@ public final class ardn extends aqyf implements arqe {
             boolean c = cgps.m146491c();
             boolean d = cgps.m146492d();
             if (cgqf.m146562c()) {
-                f87438h.mo25409a("createWorkProfileTask: targetSupport=%s, supportsWorkProfileSetup=%s, workProfileFallback=%s", Boolean.valueOf(a), Boolean.valueOf(c), Boolean.valueOf(d));
+                f87438h.logVerbose("createWorkProfileTask: targetSupport=%s, supportsWorkProfileSetup=%s, workProfileFallback=%s", Boolean.valueOf(a), Boolean.valueOf(c), Boolean.valueOf(d));
             }
             if (d) {
                 d = this.f87442D.mo48623c() == 4;
@@ -369,7 +369,7 @@ public final class ardn extends aqyf implements arqe {
             this.f87460x = aucb2;
             araa.mo48319a(2, new arlt(this.f87445i).mo48618a());
             BootstrapConfigurations bootstrapConfigurations = this.f87448l;
-            long a2 = spn.m35843a(this.f87445i);
+            long a2 = spn.getAndroidId(this.f87445i);
             rfi rfi = rfi.f42868a;
             bootstrapConfigurations.mo59035a(new DeviceDetails(a2, rfy.m33553j(this.f87445i)));
             this.f87448l.mo59034a(araa);
@@ -420,7 +420,7 @@ public final class ardn extends aqyf implements arqe {
                 mo48255c(this.f87453q.f107844q);
             }
             ardk ardk = this.f87441C;
-            f87438h.mo25409a("Received bootstrap options from target device.", new Object[0]);
+            f87438h.logVerbose("Received bootstrap options from target device.", new Object[0]);
             ardk.f87427b = true;
             ardk.mo48430b();
             this.f87452p.mo48432b();
@@ -432,7 +432,7 @@ public final class ardn extends aqyf implements arqe {
                 z4 = true;
             }
             PendingIntent a5 = SourceDirectTransferChimeraActivity.m92738a(this.f87445i, this.f87440B, this.f87448l, bootstrapOptions3, asbu.m73761a(bootstrapOptions3), z4);
-            f87438h.mo25409a("Sending pending intent to listener", new Object[0]);
+            f87438h.logVerbose("Sending pending intent to listener", new Object[0]);
             this.f87449m.mo48307a(a5);
             z = true;
         } else {

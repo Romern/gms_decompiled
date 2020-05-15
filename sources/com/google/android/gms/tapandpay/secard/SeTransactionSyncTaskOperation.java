@@ -219,7 +219,7 @@ public class SeTransactionSyncTaskOperation implements aspm {
                                         }
                                         btqh btqh = (btqh) da3.f164949b;
                                         if (!btqh.f149955c.mo73666a()) {
-                                            btqh.f149955c = bxvk.m124021a(btqh.f149955c);
+                                            btqh.f149955c = GeneratedMessageLite.m124021a(btqh.f149955c);
                                         }
                                         bxsy.m123078a(arrayList, btqh.f149955c);
                                         btiy btiy = atgu3.f90324a.f149123a;

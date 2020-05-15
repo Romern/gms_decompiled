@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzhk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzhk extends bxvk implements bxxd {
+public final class bzhk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final bzhk f170059o;
@@ -58,7 +58,7 @@ public final class bzhk extends bxvk implements bxxd {
     static {
         bzhk bzhk = new bzhk();
         f170059o = bzhk;
-        bxvk.m124024a(bzhk.class, bzhk);
+        GeneratedMessageLite.m124024a(bzhk.class, bzhk);
     }
 
     private bzhk() {
@@ -79,7 +79,7 @@ public final class bzhk extends bxvk implements bxxd {
             this.f170075p = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f170059o, "\u0001\r\u0000\u0001\u0002\u0014\r\u0000\u0000\u0001\u0002ဉ\u0000\u0003ဉ\u0001\u0004ဉ\u0002\u0005ဉ\u0003\u0006ဉ\u0004\tᐉ\u0007\nဉ\b\fဉ\n\u0010ဉ\u000e\u0011ဉ\u000f\u0012ဉ\u0010\u0013ဉ\u0011\u0014ဉ\u0012", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"});
+            return GeneratedMessageLite.m124022a(f170059o, "\u0001\r\u0000\u0001\u0002\u0014\r\u0000\u0000\u0001\u0002ဉ\u0000\u0003ဉ\u0001\u0004ဉ\u0002\u0005ဉ\u0003\u0006ဉ\u0004\tᐉ\u0007\nဉ\b\fဉ\n\u0010ဉ\u000e\u0011ဉ\u000f\u0012ဉ\u0010\u0013ဉ\u0011\u0014ဉ\u0012", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"});
         } else if (i2 == 3) {
             return new bzhk();
         } else {

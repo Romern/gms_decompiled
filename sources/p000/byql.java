@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byql */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byql extends bxvk implements bxxd {
+public final class byql extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byql f167388c;
@@ -22,11 +22,11 @@ public final class byql extends bxvk implements bxxd {
     static {
         byql byql = new byql();
         f167388c = byql;
-        bxvk.m124024a(byql.class, byql);
+        GeneratedMessageLite.m124024a(byql.class, byql);
     }
 
     private byql() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -44,7 +44,7 @@ public final class byql extends bxvk implements bxxd {
             this.f167392d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f167388c, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0001\u0002ᐉ\u0001", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f167388c, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0001\u0002ᐉ\u0001", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new byql();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: absy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class absy extends bxvk implements bxxd {
+public final class absy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final absy f58176h;
@@ -34,7 +34,7 @@ public final class absy extends bxvk implements bxxd {
     static {
         absy absy = new absy();
         f58176h = absy;
-        bxvk.m124024a(absy.class, absy);
+        GeneratedMessageLite.m124024a(absy.class, absy);
     }
 
     private absy() {
@@ -51,7 +51,7 @@ public final class absy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58176h, "\u0001\u0006\u0000\u0001\u0003\b\u0006\u0000\u0001\u0000\u0003\u001b\u0004ဌ\u0002\u0005ဇ\u0003\u0006င\u0004\u0007ဉ\u0005\bဈ\u0006", new Object[]{"a", "b", absu.class, "c", absw.f58175a, "d", "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f58176h, "\u0001\u0006\u0000\u0001\u0003\b\u0006\u0000\u0001\u0000\u0003\u001b\u0004ဌ\u0002\u0005ဇ\u0003\u0006င\u0004\u0007ဉ\u0005\bဈ\u0006", new Object[]{"a", "b", absu.class, "c", absw.f58175a, "d", "e", "f", "g"});
         } else if (i2 == 3) {
             return new absy();
         } else {

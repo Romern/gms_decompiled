@@ -14,7 +14,7 @@ final /* synthetic */ class rcg implements bmxj {
         String str = this.f42638a;
         cahh cahh = (cahh) obj;
         bxvd bxvd = (bxvd) cahh.mo74142c(5);
-        bxvd.mo73625a((bxvk) cahh);
+        bxvd.mo73625a((GeneratedMessageLite) cahh);
         str.getClass();
         if (bxvd.f164950c) {
             bxvd.mo74035c();

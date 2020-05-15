@@ -88,7 +88,7 @@ public final class bdua implements bdto, bdtq {
         long b = this.f106449c.mo54418b();
         bdul bdul = this.f106447a;
         bxvd bxvd = (bxvd) bxqf.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxqf);
+        bxvd.mo73625a((GeneratedMessageLite) bxqf);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

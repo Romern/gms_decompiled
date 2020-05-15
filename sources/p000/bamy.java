@@ -103,7 +103,7 @@ public final class bamy implements cayy {
                 z4 = false;
             }
             bmxy.m108601b(z4, "only one root factory instance allowed");
-            bams.f101294h = new bamx(null, bams.f101288b, bams, bxtx.f164797b, bxtx.f164797b, new bane(bams.f101288b, bams, bams.f101289c, bams.f101290d, bams.f101295i), bams.f101289c, bams.f101290d, bams.f101295i);
+            bams.f101294h = new bamx(null, bams.f101288b, bams, ByteString.f164797b, ByteString.f164797b, new bane(bams.f101288b, bams, bams.f101289c, bams.f101290d, bams.f101295i), bams.f101289c, bams.f101290d, bams.f101295i);
             bamx = bams.f101294h;
         }
         cazf.m127593a(bamx, "Cannot return null from a non-@Nullable @Provides method");

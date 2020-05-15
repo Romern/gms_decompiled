@@ -78,7 +78,7 @@ public final class bebq {
         this.f106875a = bebq.f106875a;
         bkxq bkxq = (bkxq) bebq.f106876b.mo74062i();
         bxvd bxvd = (bxvd) bkxq.mo74142c(5);
-        bxvd.mo73625a((bxvk) bkxq);
+        bxvd.mo73625a((GeneratedMessageLite) bkxq);
         this.f106876b = bxvd;
     }
 

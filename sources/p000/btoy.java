@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btoy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btoy extends bxvk implements bxxd {
+public final class btoy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btoy f149818a;
@@ -13,7 +13,7 @@ public final class btoy extends bxvk implements bxxd {
     static {
         btoy btoy = new btoy();
         f149818a = btoy;
-        bxvk.m124024a(btoy.class, btoy);
+        GeneratedMessageLite.m124024a(btoy.class, btoy);
     }
 
     private btoy() {
@@ -30,7 +30,7 @@ public final class btoy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149818a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f149818a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btoy();

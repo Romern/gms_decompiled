@@ -71,7 +71,7 @@ public class TapAndPayAidRegistrationTaskOperation implements aspm {
                     boyj.f135324d = 1;
                     boyj.f135321a = i5 | 4;
                     if (!boyj.f135325e.mo73666a()) {
-                        boyj.f135325e = bxvk.m124021a(boyj.f135325e);
+                        boyj.f135325e = GeneratedMessageLite.m124021a(boyj.f135325e);
                     }
                     bxsy.m123078a(bngx, boyj.f135325e);
                     if (da.f164950c) {
@@ -80,7 +80,7 @@ public class TapAndPayAidRegistrationTaskOperation implements aspm {
                     }
                     boyj boyj2 = (boyj) da.f164949b;
                     if (!boyj2.f135326f.mo73666a()) {
-                        boyj2.f135326f = bxvk.m124021a(boyj2.f135326f);
+                        boyj2.f135326f = GeneratedMessageLite.m124021a(boyj2.f135326f);
                     }
                     bxsy.m123078a(a, boyj2.f135326f);
                     if (da.f164950c) {
@@ -89,7 +89,7 @@ public class TapAndPayAidRegistrationTaskOperation implements aspm {
                     }
                     boyj boyj3 = (boyj) da.f164949b;
                     if (!boyj3.f135327g.mo73666a()) {
-                        boyj3.f135327g = bxvk.m124021a(boyj3.f135327g);
+                        boyj3.f135327g = GeneratedMessageLite.m124021a(boyj3.f135327g);
                     }
                     bxsy.m123078a(a2, boyj3.f135327g);
                     if (da.f164950c) {

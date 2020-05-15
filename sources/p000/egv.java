@@ -86,7 +86,7 @@ public final class egv {
                 }
                 tns tns2 = (tns) da2.f164949b;
                 if (!tns2.f46344c.mo73666a()) {
-                    tns2.f46344c = bxvk.m124019a(tns2.f46344c);
+                    tns2.f46344c = GeneratedMessageLite.m124019a(tns2.f46344c);
                 }
                 tns2.f46344c.mo74153d(i3);
             }
@@ -162,7 +162,7 @@ public final class egv {
             tns tns11 = (tns) da2.mo74062i();
             tns11.getClass();
             if (!tnt3.f46358d.mo73666a()) {
-                tnt3.f46358d = bxvk.m124021a(tnt3.f46358d);
+                tnt3.f46358d = GeneratedMessageLite.m124021a(tnt3.f46358d);
             }
             tnt3.f46358d.add(tns11);
         }
@@ -236,7 +236,7 @@ public final class egv {
                     tnr tnr7 = (tnr) da3.mo74062i();
                     tnr7.getClass();
                     if (!tnt4.f46359e.mo73666a()) {
-                        tnt4.f46359e = bxvk.m124021a(tnt4.f46359e);
+                        tnt4.f46359e = GeneratedMessageLite.m124021a(tnt4.f46359e);
                     }
                     tnt4.f46359e.add(tnr7);
                 }
@@ -250,7 +250,7 @@ public final class egv {
             }
             tnt tnt5 = (tnt) da.f164949b;
             if (!tnt5.f46360f.mo73666a()) {
-                tnt5.f46360f = bxvk.m124021a(tnt5.f46360f);
+                tnt5.f46360f = GeneratedMessageLite.m124021a(tnt5.f46360f);
             }
             bxsy.m123078a(arrayList3, tnt5.f46360f);
         }

@@ -37,7 +37,7 @@ public final class dxl extends dxd {
         bxju.f163683a |= 1;
         Set set = this.f14361f;
         if (!bxju.f163685c.mo73666a()) {
-            bxju.f163685c = bxvk.m124021a(bxju.f163685c);
+            bxju.f163685c = GeneratedMessageLite.m124021a(bxju.f163685c);
         }
         bxsy.m123078a(set, bxju.f163685c);
         bxju bxju2 = (bxju) da.mo74062i();

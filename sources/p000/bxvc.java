@@ -12,31 +12,31 @@ final class bxvc implements bxxa {
 
     /* renamed from: a */
     public final boolean mo73930a(Class cls) {
-        return bxvk.class.isAssignableFrom(cls);
+        return GeneratedMessageLite.class.isAssignableFrom(cls);
     }
 
     /* renamed from: b */
     public final bxwz mo73931b(Class cls) {
-        if (!bxvk.class.isAssignableFrom(cls)) {
+        if (!GeneratedMessageLite.class.isAssignableFrom(cls)) {
             String valueOf = String.valueOf(cls.getName());
             throw new IllegalArgumentException(valueOf.length() == 0 ? new String("Unsupported message type: ") : "Unsupported message type: ".concat(valueOf));
         }
         try {
-            Class asSubclass = cls.asSubclass(bxvk.class);
-            bxvk bxvk = (bxvk) bxvk.f164959aj.get(asSubclass);
-            if (bxvk == null) {
+            Class asSubclass = cls.asSubclass(GeneratedMessageLite.class);
+            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) GeneratedMessageLite.f164959aj.get(asSubclass);
+            if (GeneratedMessageLite == null) {
                 Class.forName(asSubclass.getName(), true, asSubclass.getClassLoader());
-                bxvk = (bxvk) bxvk.f164959aj.get(asSubclass);
+                GeneratedMessageLite = (GeneratedMessageLite) GeneratedMessageLite.f164959aj.get(asSubclass);
             }
-            if (bxvk == null) {
-                bxvk = (bxvk) ((bxvk) bxyx.m124496a(asSubclass)).mo74142c(6);
-                if (bxvk != null) {
-                    bxvk.f164959aj.put(asSubclass, bxvk);
+            if (GeneratedMessageLite == null) {
+                GeneratedMessageLite = (GeneratedMessageLite) ((GeneratedMessageLite) bxyx.m124496a(asSubclass)).mo74142c(6);
+                if (GeneratedMessageLite != null) {
+                    GeneratedMessageLite.f164959aj.put(asSubclass, GeneratedMessageLite);
                 } else {
                     throw new IllegalStateException();
                 }
             }
-            return (bxwz) bxvk.mo74142c(3);
+            return (bxwz) GeneratedMessageLite.mo74142c(3);
         } catch (ClassNotFoundException e) {
             throw new IllegalStateException("Class initialization cannot fail.", e);
         } catch (Exception e2) {

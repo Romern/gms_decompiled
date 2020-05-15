@@ -434,7 +434,7 @@ public final class zne extends zmd {
         }
         bpgc bpgc = (bpgc) da2.f164949b;
         if (!bpgc.f137473a.mo73666a()) {
-            bpgc.f137473a = bxvk.m124019a(bpgc.f137473a);
+            bpgc.f137473a = GeneratedMessageLite.m124019a(bpgc.f137473a);
         }
         for (bzzv bzzv : hashSet) {
             bpgc.f137473a.mo74153d(bzzv.f172235aH);
@@ -688,7 +688,7 @@ public final class zne extends zmd {
         }
         bpgf bpgf = (bpgf) da2.f164949b;
         if (!bpgf.f137485a.mo73666a()) {
-            bpgf.f137485a = bxvk.m124019a(bpgf.f137485a);
+            bpgf.f137485a = GeneratedMessageLite.m124019a(bpgf.f137485a);
         }
         for (bzzv bzzv : hashSet) {
             bpgf.f137485a.mo74153d(bzzv.f172235aH);

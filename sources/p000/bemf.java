@@ -24,13 +24,13 @@ final /* synthetic */ class bemf implements benr {
             bbhf bbhf = (bbhf) a.get(i);
             if (((bbfz) bbhf.mo56139b()).mo56113c() != 3) {
                 ContentValues contentValues = new ContentValues(5);
-                contentValues.put("key_data", ((bxtx) bbhf.mo56138a()).mo73780k());
+                contentValues.put("key_data", ((ByteString) bbhf.mo56138a()).getKey());
                 int c = ((bbfz) bbhf.mo56139b()).mo56113c();
                 if (c != 0) {
                     contentValues.put("value_state_data", Integer.valueOf(c - 2));
-                    bxtx bxtx = (bxtx) ((bbfz) bbhf.mo56139b()).mo56111a().mo66815c();
+                    ByteString bxtx = (ByteString) ((bbfz) bbhf.mo56139b()).mo56111a().mo66815c();
                     if (bxtx != null) {
-                        bArr = bxtx.mo73780k();
+                        bArr = bxtx.getKey();
                     } else {
                         bArr = null;
                     }

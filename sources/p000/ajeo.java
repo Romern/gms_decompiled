@@ -122,14 +122,14 @@ final class ajeo implements ajeu {
                         i3 = 5;
                     }
                     bxvd bxvd = (bxvd) byzr.mo74142c(i3);
-                    bxvd.mo73625a((bxvk) byzr);
+                    bxvd.mo73625a((GeneratedMessageLite) byzr);
                     bxvf bxvf = (bxvf) bxvd;
                     if (bxvf.f164950c) {
                         bxvf.mo74035c();
                         bxvf.f164950c = false;
                     }
                     byzr byzr2 = byzr.f169150h;
-                    ((byzr) bxvf.f164949b).f169153b = bxvk.m124030de();
+                    ((byzr) bxvf.f164949b).f169153b = GeneratedMessageLite.m124030de();
                     bxvf.mo74129a(nrVar);
                     bngs.mo67668c((byzr) bxvf.mo74062i());
                 }
@@ -222,7 +222,7 @@ final class ajeo implements ajeu {
                     byzn byzn = byznArr[i9];
                     int i11 = i10 + 1;
                     bxvd bxvd2 = (bxvd) byzn.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) byzn);
+                    bxvd2.mo73625a((GeneratedMessageLite) byzn);
                     HashSet hashSet3 = hashSet2;
                     int i12 = size2;
                     long j = byzn.f169136d + elapsedRealtime;

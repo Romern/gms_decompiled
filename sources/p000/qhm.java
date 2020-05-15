@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qhm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qhm extends bxvk implements bxxd {
+public final class qhm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final qhm f41375g;
@@ -34,7 +34,7 @@ public final class qhm extends bxvk implements bxxd {
     static {
         qhm qhm = new qhm();
         f41375g = qhm;
-        bxvk.m124024a(qhm.class, qhm);
+        GeneratedMessageLite.m124024a(qhm.class, qhm);
     }
 
     private qhm() {
@@ -55,7 +55,7 @@ public final class qhm extends bxvk implements bxxd {
             this.f41383h = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f41375g, "\u0001\u0005\u0000\u0001\u0001\b\u0005\u0000\u0001\u0002\u0001ᔈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0005б\bဈ\u0004", new Object[]{"a", "b", "c", "d", "e", qhl.class, "f"});
+            return GeneratedMessageLite.m124022a(f41375g, "\u0001\u0005\u0000\u0001\u0001\b\u0005\u0000\u0001\u0002\u0001ᔈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0005б\bဈ\u0004", new Object[]{"a", "b", "c", "d", "e", qhl.class, "f"});
         } else if (i2 == 3) {
             return new qhm();
         } else {

@@ -53,7 +53,7 @@ public final class avez extends wga implements aaai {
         d.mo68432a("avez", "a", 134, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
         d.mo68405a("Received 'updateActivityControlsSettingsInternal' request...");
         try {
-            this.f93059a.mo16658a(new avbu(wfy, this.f93061c, this.f93060b, this.f93062d, this.f93063e, facsInternalSyncCallOptions, (bxqf) bxvk.m124016a(bxqf.f164373f, bArr, bxus.m123743b())));
+            this.f93059a.mo16658a(new avbu(wfy, this.f93061c, this.f93060b, this.f93062d, this.f93063e, facsInternalSyncCallOptions, (bxqf) GeneratedMessageLite.m124016a(bxqf.f164373f, bArr, bxus.m123743b())));
             bnsi d2 = FacsInternalSyncApiChimeraService.f109381a.mo68390d();
             d2.mo68432a("avez", "a", (int) MfiClientException.TYPE_MFICLIENT_REMOTE_ACCESS_FAILED, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             d2.mo68405a("Operation 'updateActivityControlsSettingsInternal' dispatched!");

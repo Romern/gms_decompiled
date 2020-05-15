@@ -30,7 +30,7 @@ final /* synthetic */ class hbb implements Callable {
         jef jef = this.f19396b;
         String str2 = this.f19397c;
         try {
-            byte[] bArr = (byte[]) sdo.m34959a(spn.m35888f(hbc.f19398a, str2));
+            byte[] bArr = (byte[]) sdo.m34959a(spn.getSHA1OfPackage(hbc.f19398a, str2));
             bxvd da = bydu.f165857c.mo74144da();
             if (da.f164950c) {
                 da.mo74035c();

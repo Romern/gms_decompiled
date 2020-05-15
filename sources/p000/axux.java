@@ -62,7 +62,7 @@ final class axux extends axvn {
                                 axvx.f96525m = ByteBuffer.allocate(AndroidInputTypeSignal.TYPE_TEXT_FLAG_AUTO_COMPLETE);
                             }
                             axvx.f96525m.clear();
-                            axvx.f96525m.put(ayel.f97325c.mo73780k());
+                            axvx.f96525m.put(ayel.f97325c.getKey());
                             axvx.f96525m.flip();
                             if (ayel.f97326d) {
                                 axvx.f96526n = true;

@@ -111,7 +111,7 @@ public final class myw implements myt {
             while (this.f34974d.get() == 0) {
                 try {
                     if (ccnu.m130914b()) {
-                        f34971a.mo25409a("Waiting for backup uploading to complete.", new Object[0]);
+                        f34971a.logVerbose("Waiting for backup uploading to complete.", new Object[0]);
                     }
                     this.f34975e.wait();
                 } catch (InterruptedException e) {
@@ -163,7 +163,7 @@ public final class myw implements myt {
             try {
                 myq.f34955e.set(false);
                 myq.f34958h.signalAll();
-                myq.f34950a.mo25409a("[FINISH] signal no more data.", new Object[0]);
+                myq.f34950a.logVerbose("[FINISH] signal no more data.", new Object[0]);
                 srz.m36171a((Closeable) myq.f34952b);
                 myq.f34957g.unlock();
                 m25785g();
@@ -258,12 +258,12 @@ public final class myw implements myt {
             sb.append("[PUSH] Push ");
             sb.append(i);
             sb.append(" bytes into pipe.");
-            lvn.mo25409a(sb.toString(), new Object[0]);
+            lvn.logVerbose(sb.toString(), new Object[0]);
             myq.f34953c += j;
-            myq.f34950a.mo25409a("[PUSH] signal data available.", new Object[0]);
+            myq.f34950a.logVerbose("[PUSH] signal data available.", new Object[0]);
             myq.f34958h.signalAll();
             while (myq.f34954d != myq.f34953c && !myq.f34956f.get()) {
-                myq.f34950a.mo25409a("[PUSH] Wait for data been processed.", new Object[0]);
+                myq.f34950a.logVerbose("[PUSH] Wait for data been processed.", new Object[0]);
                 myq.f34959i.await();
             }
             if (myq.f34956f.get()) {

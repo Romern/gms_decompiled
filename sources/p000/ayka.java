@@ -144,7 +144,7 @@ public final class ayka {
         bky bky3 = bky.f5051v;
         bkx2.getClass();
         if (!bky2.f5068p.mo73666a()) {
-            bky2.f5068p = bxvk.m124021a(bky2.f5068p);
+            bky2.f5068p = GeneratedMessageLite.m124021a(bky2.f5068p);
         }
         bky2.f5068p.add(bkx2);
     }
@@ -198,7 +198,7 @@ public final class ayka {
                     aykc2 = aykc;
                 } else {
                     try {
-                        bky bky = (bky) bxvk.m124016a(bky.f5051v, decode, bxus.m123744c());
+                        bky bky = (bky) GeneratedMessageLite.m124016a(bky.f5051v, decode, bxus.m123744c());
                         int i6 = Build.VERSION.SDK_INT;
                         if (chnv.m149212b()) {
                             bxwc bxwc2 = bky.f5061i;
@@ -427,7 +427,7 @@ public final class ayka {
                                 bky bky3 = (bky) bxvd2.f164949b;
                                 bkl.getClass();
                                 if (!bky3.f5056d.mo73666a()) {
-                                    bky3.f5056d = bxvk.m124021a(bky3.f5056d);
+                                    bky3.f5056d = GeneratedMessageLite.m124021a(bky3.f5056d);
                                 }
                                 bky3.f5056d.add(bkl);
                                 if (!chnv.m149212b()) {
@@ -506,7 +506,7 @@ public final class ayka {
                                 bky bky5 = (bky) bxvd3.f164949b;
                                 bki.getClass();
                                 if (!bky5.f5057e.mo73666a()) {
-                                    bky5.f5057e = bxvk.m124021a(bky5.f5057e);
+                                    bky5.f5057e = GeneratedMessageLite.m124021a(bky5.f5057e);
                                 }
                                 bky5.f5057e.add(bki);
                                 if (!chnv.m149212b()) {
@@ -573,7 +573,7 @@ public final class ayka {
                                 bky bky6 = (bky) bxvd4.f164949b;
                                 bkj.getClass();
                                 if (!bky6.f5060h.mo73666a()) {
-                                    bky6.f5060h = bxvk.m124021a(bky6.f5060h);
+                                    bky6.f5060h = GeneratedMessageLite.m124021a(bky6.f5060h);
                                 }
                                 bky6.f5060h.add(bkj);
                                 if (!chnv.m149212b()) {
@@ -640,7 +640,7 @@ public final class ayka {
                                 bky bky7 = (bky) bxvd5.f164949b;
                                 blc.getClass();
                                 if (!bky7.f5058f.mo73666a()) {
-                                    bky7.f5058f = bxvk.m124021a(bky7.f5058f);
+                                    bky7.f5058f = GeneratedMessageLite.m124021a(bky7.f5058f);
                                 }
                                 bky7.f5058f.add(blc);
                                 if (!chnv.m149212b()) {
@@ -707,7 +707,7 @@ public final class ayka {
                                 bky bky8 = (bky) bxvd6.f164949b;
                                 bko.getClass();
                                 if (!bky8.f5059g.mo73666a()) {
-                                    bky8.f5059g = bxvk.m124021a(bky8.f5059g);
+                                    bky8.f5059g = GeneratedMessageLite.m124021a(bky8.f5059g);
                                 }
                                 bky8.f5059g.add(bko);
                                 if (!chnv.m149212b()) {
@@ -778,7 +778,7 @@ public final class ayka {
                         map3 = map4;
                     } else {
                         try {
-                            for (bkd bkd2 : ((bky) bxvk.m124016a(bky.f5051v, decode2, bxus.m123744c())).f5063k) {
+                            for (bkd bkd2 : ((bky) GeneratedMessageLite.m124016a(bky.f5051v, decode2, bxus.m123744c())).f5063k) {
                                 long j7 = bkd2.f4952b;
                                 for (Long l : aykd.f97837p.mo67316o()) {
                                     if (!aykd.f97831j.mo67309b(l, Long.valueOf(bkd2.f4951a)) && aykd.f97837p.mo67309b(l, Long.valueOf(j7)) && !aykd.f97823b.contains(Long.valueOf(bkd2.f4952b)) && !aykd.f97824c.contains(Long.valueOf(bkd2.f4951a))) {
@@ -807,7 +807,7 @@ public final class ayka {
                     bky bky9 = (bky) bxvd7.f164949b;
                     bky bky10 = bky.f5051v;
                     if (!bky9.f5067o.mo73666a()) {
-                        bky9.f5067o = bxvk.m124020a(bky9.f5067o);
+                        bky9.f5067o = GeneratedMessageLite.m124020a(bky9.f5067o);
                     }
                     bky9.f5067o.mo74161a(longValue);
                 }
@@ -825,7 +825,7 @@ public final class ayka {
             bky bky11 = (bky) bxvd8.f164949b;
             bky bky12 = bky.f5051v;
             if (!bky11.f5066n.mo73666a()) {
-                bky11.f5066n = bxvk.m124021a(bky11.f5066n);
+                bky11.f5066n = GeneratedMessageLite.m124021a(bky11.f5066n);
             }
             bxsy.m123078a(simpleStringSplitter, bky11.f5066n);
             if (chpw.f188958a.mo6606a().mo85504g()) {
@@ -849,7 +849,7 @@ public final class ayka {
                 }
                 bky bky14 = (bky) bxvd8.f164949b;
                 if (!bky14.f5072t.mo73666a()) {
-                    bky14.f5072t = bxvk.m124021a(bky14.f5072t);
+                    bky14.f5072t = GeneratedMessageLite.m124021a(bky14.f5072t);
                 }
                 bxsy.m123078a(simpleStringSplitter2, bky14.f5072t);
                 bxwc bxwc9 = chpp.f188949a.mo6606a().mo85493b().f5037a;
@@ -859,7 +859,7 @@ public final class ayka {
                 }
                 bky bky15 = (bky) bxvd8.f164949b;
                 if (!bky15.f5073u.mo73666a()) {
-                    bky15.f5073u = bxvk.m124021a(bky15.f5073u);
+                    bky15.f5073u = GeneratedMessageLite.m124021a(bky15.f5073u);
                 }
                 bxsy.m123078a(bxwc9, bky15.f5073u);
             }
@@ -897,7 +897,7 @@ public final class ayka {
         for (Map.Entry entry : map.entrySet()) {
             if (entry.getValue() != null) {
                 try {
-                    statsManager.addConfig(((Long) entry.getKey()).longValue(), ((bky) entry.getValue()).mo73642k());
+                    statsManager.addConfig(((Long) entry.getKey()).longValue(), ((bky) entry.getValue()).serializeToBytes());
                     int i = Build.VERSION.SDK_INT;
                     aykk.m84167a(statsManager, ((Long) entry.getKey()).longValue(), context);
                 } catch (IllegalArgumentException e) {

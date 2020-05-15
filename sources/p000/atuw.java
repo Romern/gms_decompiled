@@ -176,7 +176,7 @@ public final class atuw extends atvb {
                             btiy = btiy.f149054c;
                         }
                         try {
-                            bmtc = (bmtc) bxvk.m124016a(bmtc.f130813c, boan.f132470d.mo68796b(atdm.m75640a(askf, btiy, atgu.f90329f, atgu.f90330g, jSONObject2).f149346a), bxus.m123744c());
+                            bmtc = (bmtc) GeneratedMessageLite.m124016a(bmtc.f130813c, boan.f132470d.mo68796b(atdm.m75640a(askf, btiy, atgu.f90329f, atgu.f90330g, jSONObject2).f149346a), bxus.m123744c());
                         } catch (bxwf e2) {
                             bxwf bxwf = e2;
                             bnsl bnsl2 = (bnsl) f90948h.mo68388c();
@@ -230,7 +230,7 @@ public final class atuw extends atvb {
                                 if (atgu2 != null) {
                                     btjk btjk = atgu2.f90324a;
                                     bxvd bxvd = (bxvd) btjk.mo74142c(5);
-                                    bxvd.mo73625a((bxvk) btjk);
+                                    bxvd.mo73625a((GeneratedMessageLite) btjk);
                                     if (bxvd.f164950c) {
                                         bxvd.mo74035c();
                                         bxvd.f164950c = false;
@@ -240,7 +240,7 @@ public final class atuw extends atvb {
                                     ((btjk) bxvd.f164949b).f149147y = str4;
                                     atgu2.f90324a = (btjk) bxvd.mo74062i();
                                     ContentValues contentValues = new ContentValues();
-                                    contentValues.put("card", atgu2.f90324a.mo73642k());
+                                    contentValues.put("card", atgu2.f90324a.serializeToBytes());
                                     contentValues.put("bundle_id", str6);
                                     contentValues.put("pending_state", (Integer) 4);
                                     f.update("SePaymentCards", contentValues, "account_id=? AND environment=? AND client_token_id=?", new String[]{atgn.mo49961i(), atgn.mo49962j(), str5});
@@ -358,7 +358,7 @@ public final class atuw extends atvb {
     /* renamed from: a */
     private final bmtc m76420a(String str) {
         try {
-            return (bmtc) bxvk.m124016a(bmtc.f130813c, boan.f132470d.mo68796b(str), bxus.m123744c());
+            return (bmtc) GeneratedMessageLite.m124016a(bmtc.f130813c, boan.f132470d.mo68796b(str), bxus.m123744c());
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) f90948h.mo68388c();
             bnsl.mo68437a(e);
@@ -481,7 +481,7 @@ public final class atuw extends atvb {
                                 btiy = btiy.f149054c;
                             }
                             try {
-                                bmtc = (bmtc) bxvk.m124016a(bmtc.f130813c, boan.f132470d.mo68796b(atdm.m75640a(askf, btiy, atgu.f90329f, atgu.f90330g, jSONObject2).f149346a), bxus.m123744c());
+                                bmtc = (bmtc) GeneratedMessageLite.m124016a(bmtc.f130813c, boan.f132470d.mo68796b(atdm.m75640a(askf, btiy, atgu.f90329f, atgu.f90330g, jSONObject2).f149346a), bxus.m123744c());
                             } catch (bxwf e2) {
                                 bxwf bxwf = e2;
                                 bnsl bnsl2 = (bnsl) f90948h.mo68388c();
@@ -535,7 +535,7 @@ public final class atuw extends atvb {
                                     if (atgu2 != null) {
                                         btjk btjk = atgu2.f90324a;
                                         bxvd bxvd = (bxvd) btjk.mo74142c(5);
-                                        bxvd.mo73625a((bxvk) btjk);
+                                        bxvd.mo73625a((GeneratedMessageLite) btjk);
                                         if (bxvd.f164950c) {
                                             bxvd.mo74035c();
                                             bxvd.f164950c = false;
@@ -545,7 +545,7 @@ public final class atuw extends atvb {
                                         ((btjk) bxvd.f164949b).f149147y = str4;
                                         atgu2.f90324a = (btjk) bxvd.mo74062i();
                                         ContentValues contentValues = new ContentValues();
-                                        contentValues.put("card", atgu2.f90324a.mo73642k());
+                                        contentValues.put("card", atgu2.f90324a.serializeToBytes());
                                         contentValues.put("bundle_id", str6);
                                         contentValues.put("pending_state", (Integer) 4);
                                         f.update("SePaymentCards", contentValues, "account_id=? AND environment=? AND client_token_id=?", new String[]{atgn.mo49961i(), atgn.mo49962j(), str5});

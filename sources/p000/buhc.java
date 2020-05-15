@@ -132,7 +132,7 @@ public final class buhc extends buha implements bugo, bugr {
 
     /* renamed from: a */
     public final bugu mo72640a(int i, int i2, bxxc bxxc) {
-        return mo72641a(i, i2, bxxc != null ? bxxc.mo73642k() : null);
+        return mo72641a(i, i2, bxxc != null ? bxxc.serializeToBytes() : null);
     }
 
     /* renamed from: b */

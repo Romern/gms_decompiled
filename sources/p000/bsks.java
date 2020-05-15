@@ -40,7 +40,7 @@ public final class bsks implements bsla {
                     bxvd = (bxvd) hashMap.get(bytw.f167728b);
                 } else {
                     bxvd = (bxvd) bytw.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bytw);
+                    bxvd.mo73625a((GeneratedMessageLite) bytw);
                 }
                 if ((((bytw) bxvd.f164949b).f167727a & 2) == 0) {
                     z = (bytw.f167727a & 2) != 0;

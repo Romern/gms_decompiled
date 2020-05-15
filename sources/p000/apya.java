@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: apya */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class apya extends bxvk implements bxxd {
+public final class apya extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final apya f85097k;
@@ -14,7 +14,7 @@ public final class apya extends bxvk implements bxxd {
     public int f85099a;
 
     /* renamed from: b */
-    public bxtx f85100b = bxtx.f164797b;
+    public ByteString f85100b = ByteString.f164797b;
 
     /* renamed from: c */
     public String f85101c = "";
@@ -23,7 +23,7 @@ public final class apya extends bxvk implements bxxd {
     public bxwc f85102d = bxxn.f165040b;
 
     /* renamed from: e */
-    public bxtx f85103e = bxtx.f164797b;
+    public ByteString f85103e = ByteString.f164797b;
 
     /* renamed from: f */
     public int f85104f;
@@ -43,7 +43,7 @@ public final class apya extends bxvk implements bxxd {
     static {
         apya apya = new apya();
         f85097k = apya;
-        bxvk.m124024a(apya.class, apya);
+        GeneratedMessageLite.m124024a(apya.class, apya);
     }
 
     private apya() {
@@ -60,7 +60,7 @@ public final class apya extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85097k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0002\u0000\u0001ည\u0000\u0002ဈ\u0001\u0003\u001c\u0004ည\u0002\u0005င\u0003\u0006\u001b\u0007ဉ\u0004\bဃ\u0005\tဇ\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", apyf.class, "h", "i", "j"});
+            return GeneratedMessageLite.m124022a(f85097k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0002\u0000\u0001ည\u0000\u0002ဈ\u0001\u0003\u001c\u0004ည\u0002\u0005င\u0003\u0006\u001b\u0007ဉ\u0004\bဃ\u0005\tဇ\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", apyf.class, "h", "i", "j"});
         } else if (i2 == 3) {
             return new apya();
         } else {

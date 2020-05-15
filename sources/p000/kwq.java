@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: kwq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class kwq extends bxvk implements bxxd {
+public final class kwq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: l */
     public static final kwq f25305l;
@@ -46,7 +46,7 @@ public final class kwq extends bxvk implements bxxd {
     static {
         kwq kwq = new kwq();
         f25305l = kwq;
-        bxvk.m124024a(kwq.class, kwq);
+        GeneratedMessageLite.m124024a(kwq.class, kwq);
     }
 
     private kwq() {
@@ -64,7 +64,7 @@ public final class kwq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25305l, "\u0000\u000b\u0000\u0000\u0001\r\u000b\u0000\u0000\u0000\u0001\t\u0002\u0007\u0003\u0004\u0004\u0002\u0005\u0007\u0006\u0004\u0007\f\b\u0007\t\u0007\n\t\r\t", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"});
+            return GeneratedMessageLite.m124022a(f25305l, "\u0000\u000b\u0000\u0000\u0001\r\u000b\u0000\u0000\u0000\u0001\t\u0002\u0007\u0003\u0004\u0004\u0002\u0005\u0007\u0006\u0004\u0007\f\b\u0007\t\u0007\n\t\r\t", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"});
         } else if (i2 == 3) {
             return new kwq();
         } else {

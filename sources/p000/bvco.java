@@ -17,7 +17,7 @@ final class bvco implements bvat {
     public final /* bridge */ /* synthetic */ void mo36284a(bxxc bxxc) {
         buzl buzl = (buzl) bxxc;
         bxvd bxvd = (bxvd) buzl.mo74142c(5);
-        bxvd.mo73625a((bxvk) buzl);
+        bxvd.mo73625a((GeneratedMessageLite) buzl);
         bvaa d = this.f155600a.mo73288d();
         if (bxvd.f164950c) {
             bxvd.mo74035c();

@@ -404,7 +404,7 @@ public final class aghy extends agkr {
     public final boolean mo35305a() {
         InputStream open;
         Context n = this.f65930j.mo35690n();
-        sdo.m34966a(n, "Context passed for initialization is null");
+        sdo.checkIfNull(n, "Context passed for initialization is null");
         try {
             open = n.getAssets().open("public_keys/public-keyset-prod.json");
             mo35431a(open);

@@ -5,5 +5,5 @@ package p000;
 public final class ikn {
 
     /* renamed from: a */
-    public static final sek f21218a = new sek("UiTestManager");
+    public static final Logger f21218a = new Logger("UiTestManager");
 }

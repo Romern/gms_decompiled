@@ -73,12 +73,12 @@ final class aqeb {
             for (String str : o) {
                 File a3 = aqfy.m71553a(str, this.f85840a);
                 if (!(a3 == null || (a = aqfy.m71560a(a3)) == null)) {
-                    hashMap.put(str, bxtx.m123261a(a));
+                    hashMap.put(str, ByteString.m123261a(a));
                 }
             }
             bndu r = bndu.m109109r();
             for (String str2 : a2.mo67316o()) {
-                bxtx bxtx = (bxtx) hashMap.get(str2);
+                ByteString bxtx = (ByteString) hashMap.get(str2);
                 if (bxtx != null) {
                     r.mo67308a((Object) bxtx, (Iterable) a2.mo67124a(str2));
                 }
@@ -86,7 +86,7 @@ final class aqeb {
             aqfv aqfv = this.f85841b;
             aqfv.mo47843a();
             if (!r.mo67314m()) {
-                for (bxtx bxtx2 : r.mo67316o()) {
+                for (ByteString bxtx2 : r.mo67316o()) {
                     List<aqdz> a4 = r.mo67124a(bxtx2);
                     bxvd a5 = aqfv.mo47842a(bxtx2);
                     for (aqdz aqdz : a4) {
@@ -149,7 +149,7 @@ final class aqeb {
                         apze apze2 = apze.f85221e;
                         apzh6.getClass();
                         if (!apze.f85225c.mo73666a()) {
-                            apze.f85225c = bxvk.m124021a(apze.f85225c);
+                            apze.f85225c = GeneratedMessageLite.m124021a(apze.f85225c);
                         }
                         apze.f85225c.add(apzh6);
                     }

@@ -16,7 +16,7 @@ public abstract class bxta implements bxxh {
     }
 
     /* renamed from: aL */
-    public final bxtx mo73639aL() {
+    public final ByteString mo73639aL() {
         throw null;
     }
 
@@ -45,7 +45,7 @@ public abstract class bxta implements bxxh {
     }
 
     /* renamed from: k */
-    public final byte[] mo73642k() {
+    public final byte[] serializeToBytes() {
         throw null;
     }
 }

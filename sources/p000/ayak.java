@@ -92,7 +92,7 @@ public final class ayak implements axyu {
         int i = ayfa.f97438j;
         int i2 = ayfa.f97430b;
         String str4 = ayfa.f97431c;
-        bxtx bxtx = ayfa.f97435g;
+        ByteString bxtx = ayfa.f97435g;
         String str5 = ayfa.f97434f;
         if ((ayfa.f97429a & PSKKeyManager.MAX_KEY_LENGTH_BYTES) != 0) {
             ayen = ayfa.f97437i;
@@ -134,7 +134,7 @@ public final class ayak implements axyu {
         }
         if (ayfa.f97436h.isEmpty()) {
             bxvd = (bxvd) ayfa.mo74142c(5);
-            bxvd.mo73625a((bxvk) ayfa);
+            bxvd.mo73625a((GeneratedMessageLite) ayfa);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -150,7 +150,7 @@ public final class ayak implements axyu {
         if (m83694b(ayfa.f97433e)) {
             if (bxvd == null) {
                 bxvd = (bxvd) ayfa.mo74142c(5);
-                bxvd.mo73625a((bxvk) ayfa);
+                bxvd.mo73625a((GeneratedMessageLite) ayfa);
             }
             String str2 = this.f96930k.mo53808b().f96814a;
             if (bxvd.f164950c) {
@@ -251,7 +251,7 @@ public final class ayak implements axyu {
             int i7 = ayfa2.f97430b;
             axue a = axue.m83239a(ayfa2.f97431c, ayfa2.f97432d);
             String str3 = ayfa2.f97434f;
-            byte[] k = ayfa2.f97435g.mo73780k();
+            byte[] k = ayfa2.f97435g.getKey();
             String str4 = ayfa2.f97436h;
             if ((ayfa2.f97429a & PSKKeyManager.MAX_KEY_LENGTH_BYTES) != 0) {
                 ayen ayen2 = ayfa2.f97437i;

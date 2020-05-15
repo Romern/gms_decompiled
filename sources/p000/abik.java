@@ -17,7 +17,7 @@ public final class abik implements abij {
 
     /* renamed from: a */
     private final void m47770a(String str, int i, bspz bspz) {
-        qwo a = this.f57537a.mo24335a(bspz.mo73642k());
+        qwo a = this.f57537a.mo24335a(bspz.serializeToBytes());
         a.mo24330c(str);
         a.mo24328b(i - 1);
         a.mo24327b();

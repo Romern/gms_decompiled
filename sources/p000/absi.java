@@ -80,7 +80,7 @@ public final class absi {
             abpl.f57870c = str3;
             da3.mo73972a((abpl) da4.mo74062i());
         }
-        return sharedPreferences.edit().putString(str, Base64.encodeToString(((abpm) da3.mo74062i()).mo73642k(), 3)).commit();
+        return sharedPreferences.edit().putString(str, Base64.encodeToString(((abpm) da3.mo74062i()).serializeToBytes(), 3)).commit();
     }
 
     /* access modifiers changed from: package-private */

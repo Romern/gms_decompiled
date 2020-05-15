@@ -22,7 +22,7 @@ public final class aelg extends aemc {
         aene aene = (aene) rjd;
         aenn aenn = new aenn(this);
         String str = this.f63489a;
-        sdo.m34966a(aenn, "callback cannot be null");
+        sdo.checkIfNull(aenn, "callback cannot be null");
         ((aenl) aene.mo25289B()).mo34369a(str, aene.f63536a, aenn);
     }
 

@@ -76,7 +76,7 @@ public final class agmp extends agmg {
         agnk3.f66082d = 0;
         agnk3.f66079a = i & -17;
         agnk3.f66083e = 0.0d;
-        agnk3.f66084f = bxvk.m124030de();
+        agnk3.f66084f = GeneratedMessageLite.m124030de();
         if (obj instanceof String) {
             String str = (String) obj;
             if (bxvd.f164950c) {

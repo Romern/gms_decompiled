@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmsu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmsu extends bxvk implements bxxd {
+public final class bmsu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bmsu f130749f;
@@ -11,24 +11,24 @@ public final class bmsu extends bxvk implements bxxd {
     private static volatile bxxk f130750g;
 
     /* renamed from: a */
-    public bxtx f130751a = bxtx.f164797b;
+    public ByteString f130751a = ByteString.f164797b;
 
     /* renamed from: b */
-    public bxtx f130752b = bxtx.f164797b;
+    public ByteString f130752b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f130753c = bxtx.f164797b;
+    public ByteString f130753c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f130754d = bxtx.f164797b;
+    public ByteString f130754d = ByteString.f164797b;
 
     /* renamed from: e */
-    public bxtx f130755e = bxtx.f164797b;
+    public ByteString f130755e = ByteString.f164797b;
 
     static {
         bmsu bmsu = new bmsu();
         f130749f = bmsu;
-        bxvk.m124024a(bmsu.class, bmsu);
+        GeneratedMessageLite.m124024a(bmsu.class, bmsu);
     }
 
     private bmsu() {
@@ -45,7 +45,7 @@ public final class bmsu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130749f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\n\u0002\n\u0003\n\u0004\n\u0005\n", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f130749f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\n\u0002\n\u0003\n\u0004\n\u0005\n", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bmsu();
         } else {

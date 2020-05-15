@@ -396,7 +396,7 @@ public class AutocompleteChimeraActivity extends deu {
                 bpqf bpqf6 = (bpqf) da.mo74062i();
                 bpqk c = bhqq.m101365c(10, placesParams);
                 bxvd bxvd = (bxvd) c.mo74142c(5);
-                bxvd.mo73625a((bxvk) c);
+                bxvd.mo73625a((GeneratedMessageLite) c);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

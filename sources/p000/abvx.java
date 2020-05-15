@@ -101,7 +101,7 @@ public final class abvx implements abvy {
     public final void mo32374a(abqq abqq) {
         boolean z;
         abvw abvw = this.f58584a;
-        byte[] k = abqq.mo73642k();
+        byte[] k = abqq.serializeToBytes();
         CRC32 crc32 = new CRC32();
         crc32.update(k);
         long value = crc32.getValue();
@@ -146,7 +146,7 @@ public final class abvx implements abvy {
         if (this.f58594k.compareAndSet(false, true)) {
             bpws a = acxi.m49935a(this.f58586c);
             bxvd bxvd2 = (bxvd) a.mo74142c(5);
-            bxvd2.mo73625a((bxvk) a);
+            bxvd2.mo73625a((GeneratedMessageLite) a);
             if (((bpws) bxvd2.f164949b).f139566g) {
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();

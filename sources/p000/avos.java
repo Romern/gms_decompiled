@@ -10,7 +10,7 @@ import java.io.RandomAccessFile;
 public final class avos implements avpv {
 
     /* renamed from: a */
-    private static final sek f93669a = avpq.m79018e("DefaultFileProvider");
+    private static final Logger f93669a = avpq.m79018e("DefaultFileProvider");
 
     /* renamed from: b */
     private final Context f93670b;

@@ -25,7 +25,7 @@ public final class bhqv implements bial {
         }
         bvmm bvmm = (bvmm) da.f164949b;
         if (!bvmm.f156760a.mo73666a()) {
-            bvmm.f156760a = bxvk.m124021a(bvmm.f156760a);
+            bvmm.f156760a = GeneratedMessageLite.m124021a(bvmm.f156760a);
         }
         bxsy.m123078a(bxwc, bvmm.f156760a);
         bxwc bxwc2 = bvuh.f157691b;
@@ -35,7 +35,7 @@ public final class bhqv implements bial {
         }
         bvmm bvmm2 = (bvmm) da.f164949b;
         if (!bvmm2.f156761b.mo73666a()) {
-            bvmm2.f156761b = bxvk.m124021a(bvmm2.f156761b);
+            bvmm2.f156761b = GeneratedMessageLite.m124021a(bvmm2.f156761b);
         }
         bxsy.m123078a(bxwc2, bvmm2.f156761b);
         bxwc bxwc3 = bvuh.f157692c;
@@ -45,7 +45,7 @@ public final class bhqv implements bial {
         }
         bvmm bvmm3 = (bvmm) da.f164949b;
         if (!bvmm3.f156762c.mo73666a()) {
-            bvmm3.f156762c = bxvk.m124021a(bvmm3.f156762c);
+            bvmm3.f156762c = GeneratedMessageLite.m124021a(bvmm3.f156762c);
         }
         bxsy.m123078a(bxwc3, bvmm3.f156762c);
         bhvr.mo64331a((bvmm) da.mo74062i());

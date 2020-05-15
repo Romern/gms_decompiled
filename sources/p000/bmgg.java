@@ -16,7 +16,7 @@ public final class bmgg extends bxvd implements bxxd {
         bmgh bmgh = (bmgh) this.f164949b;
         bmgh bmgh2 = bmgh.f129239d;
         if (!bmgh.f129243c.mo73666a()) {
-            bmgh.f129243c = bxvk.m124020a(bmgh.f129243c);
+            bmgh.f129243c = GeneratedMessageLite.m124020a(bmgh.f129243c);
         }
         bmgh.f129243c.mo74161a(j);
     }

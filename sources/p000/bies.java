@@ -544,7 +544,7 @@ public final class bies implements bieq {
             int currentTimeMillis = (int) (System.currentTimeMillis() - j);
             bpqk c = bhqq.m101365c(6, placesParams);
             bxvd bxvd = (bxvd) c.mo74142c(5);
-            bxvd.mo73625a((bxvk) c);
+            bxvd.mo73625a((GeneratedMessageLite) c);
             bxvd da = bpqs.f138781e.mo74144da();
             bppt a = bhqq.m101348a(placeFilter.f79477e, placeFilter.f79474b);
             if (da.f164950c) {
@@ -573,14 +573,14 @@ public final class bies implements bieq {
             bpqk.f138734a |= 1024;
             bpqk bpqk3 = (bpqk) bxvd.mo74062i();
             bxvd bxvd2 = (bxvd) bpqk3.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bpqk3);
+            bxvd2.mo73625a((GeneratedMessageLite) bpqk3);
             if (!z) {
                 bpqs bpqs3 = ((bpqk) bxvd2.f164949b).f138746m;
                 if (bpqs3 == null) {
                     bpqs3 = bpqs.f138781e;
                 }
                 bxvd bxvd3 = (bxvd) bpqs3.mo74142c(5);
-                bxvd3.mo73625a((bxvk) bpqs3);
+                bxvd3.mo73625a((GeneratedMessageLite) bpqs3);
                 if (bxvd3.f164950c) {
                     bxvd3.mo74035c();
                     bxvd3.f164950c = false;

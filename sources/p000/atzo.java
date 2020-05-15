@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: atzo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class atzo extends bxvk implements bxxd {
+public final class atzo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final atzo f91267o;
@@ -26,7 +26,7 @@ public final class atzo extends bxvk implements bxxd {
     public String f91273e = "";
 
     /* renamed from: f */
-    public bxtx f91274f = bxtx.f164797b;
+    public ByteString f91274f = ByteString.f164797b;
 
     /* renamed from: g */
     public atyp f91275g;
@@ -55,7 +55,7 @@ public final class atzo extends bxvk implements bxxd {
     static {
         atzo atzo = new atzo();
         f91267o = atzo;
-        bxvk.m124024a(atzo.class, atzo);
+        GeneratedMessageLite.m124024a(atzo.class, atzo);
     }
 
     private atzo() {
@@ -72,7 +72,7 @@ public final class atzo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f91267o, "\u0000\u000e\u0000\u0000\u0001\u000e\u000e\u0000\u0002\u0000\u0001\f\u0002\u0007\u0003\u0004\u0004\u0002\u0005Ȉ\u0006\t\u0007\u001b\b\n\t\t\n\t\u000b\t\f\t\r\t\u000e\u001c", new Object[]{"a", "b", "c", "d", "e", "h", "i", atyr.class, "f", "g", "j", "k", "l", "m", "n"});
+            return GeneratedMessageLite.m124022a(f91267o, "\u0000\u000e\u0000\u0000\u0001\u000e\u000e\u0000\u0002\u0000\u0001\f\u0002\u0007\u0003\u0004\u0004\u0002\u0005Ȉ\u0006\t\u0007\u001b\b\n\t\t\n\t\u000b\t\f\t\r\t\u000e\u001c", new Object[]{"a", "b", "c", "d", "e", "h", "i", atyr.class, "f", "g", "j", "k", "l", "m", "n"});
         } else if (i2 == 3) {
             return new atzo();
         } else {

@@ -20,7 +20,7 @@ public final class joo {
     public static final /* synthetic */ int f22939a = 0;
 
     /* renamed from: b */
-    private static final sek f22940b = jsy.m17256a("CryptauthDevicesSyncUpdater");
+    private static final Logger f22940b = jsy.m17256a("CryptauthDevicesSyncUpdater");
 
     /* renamed from: c */
     private final Context f22941c;

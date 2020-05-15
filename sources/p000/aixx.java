@@ -5,7 +5,7 @@ package p000;
 public final class aixx {
 
     /* renamed from: a */
-    public bxtx f70039a;
+    public ByteString f70039a;
 
     /* renamed from: b */
     public Integer f70040b;

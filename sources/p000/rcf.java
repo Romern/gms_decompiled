@@ -16,7 +16,7 @@ final /* synthetic */ class rcf implements bmxj {
         Map map = this.f42637a;
         cahh cahh = (cahh) obj;
         bxvd bxvd = (bxvd) cahh.mo74142c(5);
-        bxvd.mo73625a((bxvk) cahh);
+        bxvd.mo73625a((GeneratedMessageLite) cahh);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

@@ -187,7 +187,7 @@ public final class uaj {
     public final synchronized ubd mo27000a() {
         ubd ubd;
         ubd = this.f47033r;
-        sdo.m34966a(ubd, "PendingActionManager is not initialized");
+        sdo.checkIfNull(ubd, "PendingActionManager is not initialized");
         return ubd;
     }
 }

@@ -22,7 +22,7 @@ import java.util.UUID;
 final class jvi extends AsyncTask {
 
     /* renamed from: a */
-    private static final sek f23351a = ght.m13171a("AddAccountTask");
+    private static final Logger f23351a = ght.m13171a("AddAccountTask");
 
     /* renamed from: b */
     private final Context f23352b;
@@ -88,7 +88,7 @@ final class jvi extends AsyncTask {
         accountCredentials.f10829c = this.f23358h;
         accountSignInRequest.f10596f = accountCredentials;
         ilq ilq = this.f23353c;
-        accountSignInRequest.f10592b = new AppDescription(ilq.f21309d, ilq.f21311f, uuid, uuid);
+        accountSignInRequest.f10592b = new AppDescription(ilq.packageName, ilq.appUid, uuid, uuid);
         TokenResponse a = this.f23355e.mo13418a(accountSignInRequest);
         if (a != null) {
             account = a.f10744u;
@@ -100,14 +100,14 @@ final class jvi extends AsyncTask {
                 ixl ixl = this.f23355e;
                 TokenRequest tokenRequest = new TokenRequest(account, gnv.m13529ab());
                 ilq ilq2 = this.f23353c;
-                tokenRequest.f10714j = new AppDescription(ilq2.f21309d, ilq2.f21311f, uuid, uuid);
+                tokenRequest.f10714j = new AppDescription(ilq2.packageName, ilq2.appUid, uuid, uuid);
                 TokenResponse a2 = ixl.mo13425a(tokenRequest);
                 if (a2.mo7647b() == izj.SUCCESS && (tokenData = a2.f10746w) != null) {
                     str = this.f23355e.mo13427a(tokenData.f9944b);
                     String str2 = a.f10745v;
-                    sek sek = f23351a;
+                    Logger Logger = f23351a;
                     String valueOf = String.valueOf(str2);
-                    sek.mo25414c(valueOf.length() != 0 ? new String("DmStatus=") : "DmStatus=".concat(valueOf), new Object[0]);
+                    Logger.mo25414c(valueOf.length() != 0 ? new String("DmStatus=") : "DmStatus=".concat(valueOf), new Object[0]);
                     boolean f = soz.m35808f(this.f23352b, account.name);
                     if (this.f23361k) {
                         String str3 = account.name;
@@ -161,9 +161,9 @@ final class jvi extends AsyncTask {
             }
             str = null;
             String str22 = a.f10745v;
-            sek sek2 = f23351a;
+            Logger logger2 = f23351a;
             String valueOf2 = String.valueOf(str22);
-            sek2.mo25414c(valueOf2.length() != 0 ? new String("DmStatus=") : "DmStatus=".concat(valueOf2), new Object[0]);
+            logger2.mo25414c(valueOf2.length() != 0 ? new String("DmStatus=") : "DmStatus=".concat(valueOf2), new Object[0]);
             boolean f2 = soz.m35808f(this.f23352b, account.name);
             if (this.f23361k) {
             }
@@ -176,7 +176,7 @@ final class jvi extends AsyncTask {
             f23351a.mo25414c("Added account successfully.", new Object[0]);
             return new jvh(0, account, intent, str22, f2, str, 0);
         }
-        sek sek3 = f23351a;
+        Logger logger3 = f23351a;
         Object[] objArr2 = new Object[1];
         if (a == null) {
             obj = "[no response]";
@@ -184,7 +184,7 @@ final class jvi extends AsyncTask {
             obj = a.mo7647b();
         }
         objArr2[0] = obj;
-        sek3.mo25416d("Failed to sign in %s", objArr2);
+        logger3.mo25416d("Failed to sign in %s", objArr2);
         return new jvh(1, null, null, null, false, null, 0);
     }
 

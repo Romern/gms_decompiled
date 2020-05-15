@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btaf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btaf extends bxvk implements bxxd {
+public final class btaf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final btaf f147952j;
@@ -40,7 +40,7 @@ public final class btaf extends bxvk implements bxxd {
     static {
         btaf btaf = new btaf();
         f147952j = btaf;
-        bxvk.m124024a(btaf.class, btaf);
+        GeneratedMessageLite.m124024a(btaf.class, btaf);
     }
 
     private btaf() {
@@ -57,7 +57,7 @@ public final class btaf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147952j, "\u0000\t\u0000\u0000\u0001\u0010\t\u0000\u0000\u0000\u0001Ȉ\u0003Ȉ\u0004Ȉ\u0005\u0007\u0007\u0002\fȈ\rȈ\u000f\u0002\u0010\u0004", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f147952j, "\u0000\t\u0000\u0000\u0001\u0010\t\u0000\u0000\u0000\u0001Ȉ\u0003Ȉ\u0004Ȉ\u0005\u0007\u0007\u0002\fȈ\rȈ\u000f\u0002\u0010\u0004", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new btaf();
         } else {

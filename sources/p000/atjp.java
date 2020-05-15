@@ -23,11 +23,11 @@ final class atjp extends atki {
         atau atau = new atau(context);
         byte[] bArr = ((LocalNotification) this.f90410b).f108410a;
         try {
-            btqg btqg = (btqg) bxvk.m124016a(btqg.f149933q, bArr, bxus.m123744c());
+            btqg btqg = (btqg) GeneratedMessageLite.m124016a(btqg.f149933q, bArr, bxus.m123744c());
             if (btqg.f149935a > 0) {
                 Context context2 = atau.f89974b;
                 Bundle bundle = new Bundle();
-                bundle.putByteArray("localNotification", btqg.mo73642k());
+                bundle.putByteArray("localNotification", btqg.serializeToBytes());
                 aeat a = aeat.m51532a(context2);
                 aebi aebi = new aebi();
                 long j = (long) btqg.f149935a;

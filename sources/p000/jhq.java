@@ -91,7 +91,7 @@ public final class jhq {
             boct2.f132617h = bocw5;
             boct2.f132610a |= 32;
             if (((double) new Random().nextFloat()) >= gnv.m13576u()) {
-                new qws(this.f22500b, "ANDROID_AUTH", null).mo24335a(((boct) da2.mo74062i()).mo73642k()).mo24327b();
+                new qws(this.f22500b, "ANDROID_AUTH", null).mo24335a(((boct) da2.mo74062i()).serializeToBytes()).mo24327b();
             }
             Binder.restoreCallingIdentity(clearCallingIdentity);
             shr.m35312a();

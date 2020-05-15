@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abuv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abuv extends bxvk implements bxxd {
+public final class abuv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final abuv f58483f;
@@ -31,7 +31,7 @@ public final class abuv extends bxvk implements bxxd {
     static {
         abuv abuv = new abuv();
         f58483f = abuv;
-        bxvk.m124024a(abuv.class, abuv);
+        GeneratedMessageLite.m124024a(abuv.class, abuv);
     }
 
     private abuv() {
@@ -48,7 +48,7 @@ public final class abuv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58483f, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0000\u0000\u0001င\u0000\u0003ဋ\u0001\u0004ဋ\u0002\u0005ဃ\u0003\u0006ဃ\u0004", new Object[]{"g", "a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f58483f, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0000\u0000\u0001င\u0000\u0003ဋ\u0001\u0004ဋ\u0002\u0005ဃ\u0003\u0006ဃ\u0004", new Object[]{"g", "a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new abuv();
         } else {

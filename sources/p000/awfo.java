@@ -85,7 +85,7 @@ public final class awfo {
         C1225nr nrVar2 = nrVar;
         int i = 5;
         bxvd bxvd = (bxvd) bmgn2.mo74142c(5);
-        bxvd.mo73625a((bxvk) bmgn2);
+        bxvd.mo73625a((GeneratedMessageLite) bmgn2);
         bmgm bmgm = (bmgm) bxvd;
         int i2 = 0;
         if (bmgm.f164950c) {
@@ -93,7 +93,7 @@ public final class awfo {
             bmgm.f164950c = false;
         }
         bmgn bmgn3 = bmgn.f129273o;
-        ((bmgn) bmgm.f164949b).f129278d = bxvk.m124030de();
+        ((bmgn) bmgm.f164949b).f129278d = GeneratedMessageLite.m124030de();
         bxwc bxwc2 = bmgn2.f129278d;
         int size = bxwc2.size();
         ArrayList arrayList = new ArrayList(size);
@@ -101,7 +101,7 @@ public final class awfo {
         while (i3 < size) {
             bmgk bmgk = (bmgk) bxwc2.get(i3);
             bxvd bxvd2 = (bxvd) bmgk.mo74142c(i);
-            bxvd2.mo73625a((bxvk) bmgk);
+            bxvd2.mo73625a((GeneratedMessageLite) bmgk);
             bmfy bmfy = ((bmgk) bxvd2.f164949b).f129262p;
             if (bmfy == null) {
                 bmfy = bmfy.f129189l;
@@ -182,7 +182,7 @@ public final class awfo {
                         if (longValue < blwj.f127948b) {
                             bmgk6.f129259m = 1;
                             bmgk6.f129247a = i6 | 1024;
-                            bmgk6.f129252f = bxvk.m124030de();
+                            bmgk6.f129252f = GeneratedMessageLite.m124030de();
                             String str3 = bmfz.f129204a;
                             if (bxvd2.f164950c) {
                                 bxvd2.mo74035c();
@@ -191,7 +191,7 @@ public final class awfo {
                             bmgk bmgk8 = (bmgk) bxvd2.f164949b;
                             str3.getClass();
                             if (!bmgk8.f129252f.mo73666a()) {
-                                bmgk8.f129252f = bxvk.m124021a(bmgk8.f129252f);
+                                bmgk8.f129252f = GeneratedMessageLite.m124021a(bmgk8.f129252f);
                             }
                             bmgk8.f129252f.add(str3);
                         }
@@ -227,7 +227,7 @@ public final class awfo {
             bmgm.mo74035c();
             bmgm.f164950c = false;
         }
-        ((bmgn) bmgm.f164949b).f129279e = bxvk.m124030de();
+        ((bmgn) bmgm.f164949b).f129279e = GeneratedMessageLite.m124030de();
         bmgn bmgn5 = bmgn;
         bxwc bxwc3 = bmgn5.f129279e;
         int size3 = bxwc3.size();
@@ -235,7 +235,7 @@ public final class awfo {
         for (int i8 = 0; i8 < size3; i8++) {
             bmgd bmgd = (bmgd) bxwc3.get(i8);
             bxvd bxvd4 = (bxvd) bmgd.mo74142c(5);
-            bxvd4.mo73625a((bxvk) bmgd);
+            bxvd4.mo73625a((GeneratedMessageLite) bmgd);
             bmfy bmfy2 = ((bmgd) bxvd4.f164949b).f129222h;
             if (bmfy2 == null) {
                 bmfy2 = bmfy.f129189l;

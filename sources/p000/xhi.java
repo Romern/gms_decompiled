@@ -12,7 +12,7 @@ import org.json.JSONException;
 public final class xhi {
 
     /* renamed from: d */
-    private static final sek f52295d = new sek(new String[]{"ViewSelector"}, (short[]) null);
+    private static final Logger f52295d = new Logger(new String[]{"ViewSelector"}, (short[]) null);
 
     /* renamed from: a */
     public ViewOptions f52296a;
@@ -48,7 +48,7 @@ public final class xhi {
     public final bmxv mo29745a(int i, ViewOptions viewOptions) {
         int i2;
         if (this.f52297b == 0 || xhh.m42940a(i) > xhh.m42940a(this.f52297b)) {
-            sek sek = f52295d;
+            Logger Logger = f52295d;
             Locale locale = Locale.US;
             Object[] objArr = new Object[3];
             objArr[0] = viewOptions;
@@ -60,7 +60,7 @@ public final class xhi {
                 i2 = -1;
             }
             objArr[2] = Integer.valueOf(i2);
-            sek.mo25414c(String.format(locale, "Accepting proposed view %s: outranks current (%d > %d)", objArr), new Object[0]);
+            Logger.mo25414c(String.format(locale, "Accepting proposed view %s: outranks current (%d > %d)", objArr), new Object[0]);
             this.f52297b = i;
             ViewOptions a = m42941a(viewOptions);
             this.f52296a = a;

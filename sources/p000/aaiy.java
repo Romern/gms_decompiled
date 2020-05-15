@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aaiy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aaiy extends bxvk implements bxxd {
+public final class aaiy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final aaiy f28242c;
@@ -19,7 +19,7 @@ public final class aaiy extends bxvk implements bxxd {
     static {
         aaiy aaiy = new aaiy();
         f28242c = aaiy;
-        bxvk.m124024a(aaiy.class, aaiy);
+        GeneratedMessageLite.m124024a(aaiy.class, aaiy);
     }
 
     private aaiy() {
@@ -36,7 +36,7 @@ public final class aaiy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28242c, "\u0001\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001ြ\u0000", new Object[]{"b", "a", aaix.class});
+            return GeneratedMessageLite.m124022a(f28242c, "\u0001\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001ြ\u0000", new Object[]{"b", "a", aaix.class});
         } else if (i2 == 3) {
             return new aaiy();
         } else {

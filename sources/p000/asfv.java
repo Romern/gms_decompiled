@@ -129,7 +129,7 @@ public final class asfv extends asft {
                                 String string = sharedPreferences.getString(String.valueOf(str7).concat("_collection_config"), "");
                                 if (string.length() >= 5) {
                                     try {
-                                        calk calk = (calk) bxvk.m124016a(calk.f175135l, Base64.decode(string, 0), bxus.m123744c());
+                                        calk calk = (calk) GeneratedMessageLite.m124016a(calk.f175135l, Base64.decode(string, 0), bxus.m123744c());
                                         qxq qxq = f88860c;
                                         String valueOf = String.valueOf(str7);
                                         qxq.mo24383c(valueOf.length() == 0 ? new String("CollectionConfigParseEnablePostV16") : "CollectionConfigParseEnablePostV16".concat(valueOf)).mo24359a();

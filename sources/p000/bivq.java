@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bivq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bivq extends bxvk implements bxxd {
+public final class bivq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bivq f122029d;
@@ -28,7 +28,7 @@ public final class bivq extends bxvk implements bxxd {
     static {
         bivq bivq = new bivq();
         f122029d = bivq;
-        bxvk.m124024a(bivq.class, bivq);
+        GeneratedMessageLite.m124024a(bivq.class, bivq);
     }
 
     private bivq() {
@@ -49,7 +49,7 @@ public final class bivq extends bxvk implements bxxd {
             this.f122035f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f122029d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0003\u0001ᔋ\u0000\u0002ᔋ\u0001\u0003ᔋ\u0002", new Object[]{"e", "a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f122029d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0003\u0001ᔋ\u0000\u0002ᔋ\u0001\u0003ᔋ\u0002", new Object[]{"e", "a", "b", "c"});
         } else if (i2 == 3) {
             return new bivq();
         } else {

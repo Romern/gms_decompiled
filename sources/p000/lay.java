@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lay */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lay extends bxvk implements bxxd {
+public final class lay extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: r */
     public static final lay f25638r;
@@ -64,7 +64,7 @@ public final class lay extends bxvk implements bxxd {
     static {
         lay lay = new lay();
         f25638r = lay;
-        bxvk.m124024a(lay.class, lay);
+        GeneratedMessageLite.m124024a(lay.class, lay);
     }
 
     private lay() {
@@ -81,7 +81,7 @@ public final class lay extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25638r, "\u0000\u0011\u0000\u0000\u0001\u0015\u0011\u0000\u0000\u0000\u0001\t\u0002\t\u0005\t\u0006\t\u0007\t\b\t\t\t\n\t\u000b\t\f\t\r\t\u000e\t\u000f\t\u0011\t\u0013\t\u0014\t\u0015\t", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q"});
+            return GeneratedMessageLite.m124022a(f25638r, "\u0000\u0011\u0000\u0000\u0001\u0015\u0011\u0000\u0000\u0000\u0001\t\u0002\t\u0005\t\u0006\t\u0007\t\b\t\t\t\n\t\u000b\t\f\t\r\t\u000e\t\u000f\t\u0011\t\u0013\t\u0014\t\u0015\t", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q"});
         } else if (i2 == 3) {
             return new lay();
         } else {

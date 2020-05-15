@@ -91,7 +91,7 @@ public class ModuleInitializer extends qlf {
                 bsqd bsqd3 = (bsqd) da.f164949b;
                 bsqb4.getClass();
                 if (!bsqd3.f146626d.mo73666a()) {
-                    bsqd3.f146626d = bxvk.m124021a(bsqd3.f146626d);
+                    bsqd3.f146626d = GeneratedMessageLite.m124021a(bsqd3.f146626d);
                 }
                 bsqd3.f146626d.add(bsqb4);
             }

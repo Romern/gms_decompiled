@@ -28,7 +28,7 @@ import javax.net.ssl.X509TrustManager;
 final class qce {
 
     /* renamed from: c */
-    private static final sek f40919c = qgn.m32143a("AuthdNetTimeProvider");
+    private static final Logger f40919c = qgn.m32143a("AuthdNetTimeProvider");
 
     /* renamed from: a */
     public int f40920a;
@@ -79,7 +79,7 @@ final class qce {
                 qhj.getClass();
                 qhg.f41349l = qhj;
                 qhg.f41338a = i | 2048;
-                sek sek = f40919c;
+                Logger Logger = f40919c;
                 Object[] objArr = new Object[2];
                 int a = qhi.m32172a(qhj.f41357b);
                 if (a == 0) {
@@ -87,7 +87,7 @@ final class qce {
                 }
                 objArr[0] = Integer.valueOf(a - 1);
                 objArr[1] = Integer.valueOf(qhj.f41358c);
-                sek.mo25414c("Checkin reason type: %d attempt count: %d.", objArr);
+                Logger.mo25414c("Checkin reason type: %d attempt count: %d.", objArr);
             }
             bxvd da2 = qgu.f41220A.mo74144da();
             if (da2.f164950c) {

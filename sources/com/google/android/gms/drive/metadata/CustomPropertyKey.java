@@ -29,7 +29,7 @@ public class CustomPropertyKey extends AbstractSafeParcelable {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.Object, java.lang.Object):void */
     public CustomPropertyKey(String str, int i) {
-        sdo.m34966a((Object) str, (Object) "key");
+        sdo.checkIfNull((Object) str, (Object) "key");
         sdo.m34975b(f31063c.matcher(str).matches(), "key name characters must be alphanumeric or one of .!@$%^&*()-_/");
         boolean z = true;
         if (!(i == 0 || i == 1)) {

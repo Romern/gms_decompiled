@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aclb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aclb extends bxvk implements bxxd {
+public final class aclb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final aclb f60058i;
@@ -37,7 +37,7 @@ public final class aclb extends bxvk implements bxxd {
     static {
         aclb aclb = new aclb();
         f60058i = aclb;
-        bxvk.m124024a(aclb.class, aclb);
+        GeneratedMessageLite.m124024a(aclb.class, aclb);
     }
 
     private aclb() {
@@ -54,7 +54,7 @@ public final class aclb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f60058i, "\u0000\b\u0000\u0000\u0001\u000f\b\u0000\u0001\u0000\u0001\t\u0002\u0004\u0004Ȉ\u0005Ȉ\t\u001b\u000b\f\u000e\u0003\u000f\u000b", new Object[]{"a", "b", "e", "f", "g", aclc.class, "d", "c", "h"});
+            return GeneratedMessageLite.m124022a(f60058i, "\u0000\b\u0000\u0000\u0001\u000f\b\u0000\u0001\u0000\u0001\t\u0002\u0004\u0004Ȉ\u0005Ȉ\t\u001b\u000b\f\u000e\u0003\u000f\u000b", new Object[]{"a", "b", "e", "f", "g", aclc.class, "d", "c", "h"});
         } else if (i2 == 3) {
             return new aclb();
         } else {

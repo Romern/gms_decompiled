@@ -425,7 +425,7 @@ public final class awsl extends awrb {
                 blzq = blzq.f128364p;
             }
             bxvd bxvd2 = (bxvd) blzq.mo74142c(5);
-            bxvd2.mo73625a((bxvk) blzq);
+            bxvd2.mo73625a((GeneratedMessageLite) blzq);
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
                 bxvd2.f164950c = false;
@@ -496,7 +496,7 @@ public final class awsl extends awrb {
                     blzq4 = blzq.f128364p;
                 }
                 bxvd bxvd4 = (bxvd) blzq4.mo74142c(5);
-                bxvd4.mo73625a((bxvk) blzq4);
+                bxvd4.mo73625a((GeneratedMessageLite) blzq4);
                 String str4 = webPaymentDataRequest.f109911c;
                 if (bxvd4.f164950c) {
                     bxvd4.mo74035c();

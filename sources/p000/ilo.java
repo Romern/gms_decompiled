@@ -12,7 +12,7 @@ public final class ilo {
     public static final imo f21297a = new iln();
 
     /* renamed from: b */
-    private static final sek f21298b = new sek("GLSActivity", "ClientIdentityHelper");
+    private static final Logger f21298b = new Logger("GLSActivity", "ClientIdentityHelper");
 
     /* JADX WARNING: Removed duplicated region for block: B:18:0x0066  */
     /* JADX WARNING: Removed duplicated region for block: B:24:0x008d  */

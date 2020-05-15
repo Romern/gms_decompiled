@@ -25,7 +25,7 @@ public abstract class xwh implements xwg {
     private static ModuleManager f53276e;
 
     /* renamed from: f */
-    private static final sek f53277f = new sek(new String[]{"EventLogger"}, (short[]) null);
+    private static final Logger f53277f = new Logger(new String[]{"EventLogger"}, (short[]) null);
 
     /* renamed from: a */
     protected final qws f53278a;
@@ -126,7 +126,7 @@ public abstract class xwh implements xwg {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final void mo30187a(xab xab) {
-        this.f53278a.mo24335a(xab.mo73642k()).mo24327b();
+        this.f53278a.mo24335a(xab.serializeToBytes()).mo24327b();
     }
 
     /* renamed from: a */

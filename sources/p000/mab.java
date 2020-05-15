@@ -16,11 +16,11 @@ public final class mab {
     /* renamed from: a */
     public static void m24748a(Context context, Throwable th, double d) {
         if (!cckt.f179251a.mo6606a().mo76200h()) {
-            f33322b.mo25409a("Disabled", new Object[0]);
+            f33322b.logVerbose("Disabled", new Object[0]);
         } else if (f33321a.nextDouble() >= d) {
-            f33322b.mo25409a("Not sampled", new Object[0]);
+            f33322b.logVerbose("Not sampled", new Object[0]);
         } else {
-            f33322b.mo25409a("Sending silent feedback", new Object[0]);
+            f33322b.logVerbose("Sending silent feedback", new Object[0]);
             wwv wwv = new wwv(th);
             wwv.f51512j = "com.google.android.gms.backup";
             wwv.f51499d = "com.google.android.gms.backup.SILENT_FEEDBACK";

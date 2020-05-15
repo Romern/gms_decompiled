@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blyr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blyr extends bxvk implements bxxd {
+public final class blyr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: p */
     public static final blyr f128298p;
@@ -61,7 +61,7 @@ public final class blyr extends bxvk implements bxxd {
     static {
         blyr blyr = new blyr();
         f128298p = blyr;
-        bxvk.m124024a(blyr.class, blyr);
+        GeneratedMessageLite.m124024a(blyr.class, blyr);
     }
 
     private blyr() {
@@ -82,7 +82,7 @@ public final class blyr extends bxvk implements bxxd {
             this.f128315q = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f128298p, "\u0001\u000e\u0000\u0001\u0001\u0014\u000e\u0000\u0001\u0003\u0001ဉ\u0000\u0002ဉ\u0001\u0004ᐉ\u0005\u0005ဉ\f\u0006ဈ\u000b\bဇ\u0003\tဇ\b\nဌ\t\u000bᐉ\u0006\fဉ\u0002\rဈ\n\u0010Л\u0013ဉ\r\u0014ဉ\u0007", new Object[]{"a", "b", "c", "f", "n", "m", "e", "j", "k", bwgz.m121953b(), "h", "d", "l", "g", blym.class, "o", "i"});
+            return GeneratedMessageLite.m124022a(f128298p, "\u0001\u000e\u0000\u0001\u0001\u0014\u000e\u0000\u0001\u0003\u0001ဉ\u0000\u0002ဉ\u0001\u0004ᐉ\u0005\u0005ဉ\f\u0006ဈ\u000b\bဇ\u0003\tဇ\b\nဌ\t\u000bᐉ\u0006\fဉ\u0002\rဈ\n\u0010Л\u0013ဉ\r\u0014ဉ\u0007", new Object[]{"a", "b", "c", "f", "n", "m", "e", "j", "k", bwgz.m121953b(), "h", "d", "l", "g", blym.class, "o", "i"});
         } else if (i2 == 3) {
             return new blyr();
         } else {

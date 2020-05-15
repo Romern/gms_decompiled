@@ -84,7 +84,7 @@ public final class xxl extends xxj {
         Long l;
         byte[] bArr2;
         bmxv bmxv;
-        bxtx bxtx;
+        ByteString bxtx;
         String str4;
         PublicKeyCredentialRequestOptions publicKeyCredentialRequestOptions;
         MessageDigest messageDigest2 = messageDigest;

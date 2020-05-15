@@ -17,7 +17,7 @@ public final class bvtu extends bxvd implements bxxd {
         bvtv bvtv2 = bvtv.f157621d;
         bvuc.getClass();
         if (!bvtv.f157625c.mo73666a()) {
-            bvtv.f157625c = bxvk.m124019a(bvtv.f157625c);
+            bvtv.f157625c = GeneratedMessageLite.m124019a(bvtv.f157625c);
         }
         bvtv.f157625c.mo74153d(bvuc.f157653f);
     }

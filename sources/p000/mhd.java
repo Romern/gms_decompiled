@@ -436,7 +436,7 @@ public final class mhd implements mhe {
                                             break;
                                         }
                                         int intValue2 = ((Integer) arrayList2.remove(arrayList.size() - 1)).intValue();
-                                        f33695o.mo25409a("Batch doesn't fit in memory after new part added, new size: %d, removing %d", Long.valueOf(j3), Integer.valueOf(intValue2));
+                                        f33695o.logVerbose("Batch doesn't fit in memory after new part added, new size: %d, removing %d", Long.valueOf(j3), Integer.valueOf(intValue2));
                                         mhc mhc2 = (mhc) sparseArray.get(intValue2);
                                         sparseArray.remove(intValue2);
                                         if (intValue2 == i4) {
@@ -758,7 +758,7 @@ public final class mhd implements mhe {
                     if (!str.endsWith("_sms_backup")) {
                         jsonWriter.beginArray();
                         if (this.f33706t > 0) {
-                            f33695o.mo25409a("Batching queries for MMS bodies with batch size %d", Integer.valueOf(this.f33706t));
+                            f33695o.logVerbose("Batching queries for MMS bodies with batch size %d", Integer.valueOf(this.f33706t));
                             int position = cursor.getPosition();
                             ArrayList arrayList = new ArrayList();
                             int i2 = 0;
@@ -778,7 +778,7 @@ public final class mhd implements mhe {
                             SparseArray a2 = m25100a(arrayList);
                             if (this.f33705s) {
                                 while (a2 == null && this.f33706t > 0) {
-                                    f33695o.mo25409a("Looks like query was too big (batch size: %d), trying to decrease by 1", Integer.valueOf(arrayList.size()));
+                                    f33695o.logVerbose("Looks like query was too big (batch size: %d), trying to decrease by 1", Integer.valueOf(arrayList.size()));
                                     arrayList.remove(arrayList.size() - 1);
                                     this.f33706t = arrayList.size();
                                     a2 = m25100a(arrayList);
@@ -795,7 +795,7 @@ public final class mhd implements mhe {
                                     }
                                 }
                             }
-                            f33695o.mo25409a("Couldn't batch queries, falling back to separate queries", new Object[0]);
+                            f33695o.logVerbose("Couldn't batch queries, falling back to separate queries", new Object[0]);
                             cursor.moveToPosition(position);
                             i = m25097a(cursor, jsonWriter);
                         } else {

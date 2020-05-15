@@ -371,7 +371,7 @@ final /* synthetic */ class agrp implements Runnable {
                                         } else {
                                             btas d2 = agpk.m54726a().mo35844d(i24);
                                             bxvd bxvd2 = (bxvd) d2.mo74142c(5);
-                                            bxvd2.mo73625a((bxvk) d2);
+                                            bxvd2.mo73625a((GeneratedMessageLite) d2);
                                             btar = (btar) bxvd2;
                                         }
                                         int i25 = 0;
@@ -392,7 +392,7 @@ final /* synthetic */ class agrp implements Runnable {
                                         if (i25 != -1) {
                                             btaq a12 = btar.mo70732a(i25);
                                             bxvd bxvd3 = (bxvd) a12.mo74142c(5);
-                                            bxvd3.mo73625a((bxvk) a12);
+                                            bxvd3.mo73625a((GeneratedMessageLite) a12);
                                             btaq a13 = agrq.m55003a(bxvd3, j7);
                                             if (btar.f164950c) {
                                                 btar.mo74035c();
@@ -406,7 +406,7 @@ final /* synthetic */ class agrp implements Runnable {
                                         } else {
                                             btaq btaq2 = btaq.f148036g;
                                             bxvd bxvd4 = (bxvd) btaq2.mo74142c(5);
-                                            bxvd4.mo73625a((bxvk) btaq2);
+                                            bxvd4.mo73625a((GeneratedMessageLite) btaq2);
                                             if (bxvd4.f164950c) {
                                                 bxvd4.mo74035c();
                                                 bxvd4.f164950c = false;
@@ -460,7 +460,7 @@ final /* synthetic */ class agrp implements Runnable {
             if (b10.mo35898d() != null) {
                 bxzy d3 = b10.mo35898d();
                 bxvd = (bxvd) d3.mo74142c(5);
-                bxvd.mo73625a((bxvk) d3);
+                bxvd.mo73625a((GeneratedMessageLite) d3);
             } else {
                 bxvd = bxzy.f165208b.mo74144da();
             }
@@ -475,7 +475,7 @@ final /* synthetic */ class agrp implements Runnable {
             agpt e = b10.mo35899e();
             bxzy bxzy2 = (bxzy) bxvd.mo74062i();
             if (bxzy2 != null) {
-                bArr = bxzy2.mo73642k();
+                bArr = bxzy2.serializeToBytes();
             } else {
                 bArr = null;
             }

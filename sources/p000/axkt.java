@@ -230,7 +230,7 @@ public final class axkt extends axlx {
             }
             bttw bttw5 = (bttw) da4.f164949b;
             if (!bttw5.f150408h.mo73666a()) {
-                bttw5.f150408h = bxvk.m124019a(bttw5.f150408h);
+                bttw5.f150408h = GeneratedMessageLite.m124019a(bttw5.f150408h);
             }
             for (btrr btrr : asList) {
                 bttw5.f150408h.mo74153d(btrr.f150143g);
@@ -249,7 +249,7 @@ public final class axkt extends axlx {
                 }
                 byte[] bArr = this.f96097n;
                 if (bArr != null) {
-                    bxtx a3 = bxtx.m123261a(bArr);
+                    ByteString a3 = ByteString.m123261a(bArr);
                     if (da7.f164950c) {
                         da7.mo74035c();
                         da7.f164950c = false;
@@ -372,7 +372,7 @@ public final class axkt extends axlx {
             }
             btst btst5 = (btst) da8.f164949b;
             if (!btst5.f150272g.mo73666a()) {
-                btst5.f150272g = bxvk.m124019a(btst5.f150272g);
+                btst5.f150272g = GeneratedMessageLite.m124019a(btst5.f150272g);
             }
             for (btrr btrr2 : asList2) {
                 btst5.f150272g.mo74153d(btrr2.f150143g);
@@ -398,7 +398,7 @@ public final class axkt extends axlx {
                 }
                 byte[] bArr2 = this.f96097n;
                 if (bArr2 != null) {
-                    bxtx a6 = bxtx.m123261a(bArr2);
+                    ByteString a6 = ByteString.m123261a(bArr2);
                     if (da11.f164950c) {
                         da11.mo74035c();
                         da11.f164950c = false;

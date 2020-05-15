@@ -19,8 +19,8 @@ public final class bbgf implements bbgj {
     }
 
     /* renamed from: a */
-    public static String m87983a(bxtx bxtx) {
-        return !bxtx.mo73779j() ? boan.f132472f.mo68794a(bxtx.mo73780k()).toLowerCase() : "_";
+    public static String m87983a(ByteString bxtx) {
+        return !bxtx.mo73779j() ? boan.f132472f.mo68794a(bxtx.getKey()).toLowerCase() : "_";
     }
 
     /* renamed from: a */

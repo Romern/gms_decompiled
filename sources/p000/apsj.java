@@ -82,7 +82,7 @@ public class apsj extends aplq {
                                 byte[] nativeSuggest = NativeIndex.nativeSuggest(nativeIndex.f79071b, NativeIndex.m66681a(querySuggestCall$Request3.f107487a), iArr, querySuggestCall$Request3.f107490d);
                                 if (nativeSuggest != null) {
                                     try {
-                                        abun = (abun) bxvk.m124014a(abun.f58432c, nativeSuggest);
+                                        abun = (abun) GeneratedMessageLite.m124014a(abun.f58432c, nativeSuggest);
                                     } catch (bxwf e) {
                                         absg.m48189a(e, "Failed parsing suggestions");
                                         abun = abun.f58432c;
@@ -128,7 +128,7 @@ public class apsj extends aplq {
                                 if (this.f84817a.f58090z.mo33199a()) {
                                     acxk acxk = this.f84817a.f58090z;
                                     bxvd da = abts.f58301d.mo74144da();
-                                    bxtx a3 = bxtx.m123261a(acxk.m49938a((QuerySuggestCall$Request) this.f84708n));
+                                    ByteString a3 = ByteString.m123261a(acxk.m49938a((QuerySuggestCall$Request) this.f84708n));
                                     if (da.f164950c) {
                                         da.mo74035c();
                                         da.f164950c = false;
@@ -137,7 +137,7 @@ public class apsj extends aplq {
                                     a3.getClass();
                                     abts.f58303a = 1 | abts.f58303a;
                                     abts.f58304b = a3;
-                                    bxtx a4 = bxtx.m123261a(acxk.m49938a(suggestionResults));
+                                    ByteString a4 = ByteString.m123261a(acxk.m49938a(suggestionResults));
                                     if (da.f164950c) {
                                         da.mo74035c();
                                         da.f164950c = false;

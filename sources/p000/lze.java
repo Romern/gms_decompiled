@@ -88,7 +88,7 @@ final class lze implements Callable {
             } else {
                 bstc bstc = this.f33237c;
                 bxvd bxvd = (bxvd) bstc.mo74142c(5);
-                bxvd.mo73625a((bxvk) bstc);
+                bxvd.mo73625a((GeneratedMessageLite) bstc);
                 Cursor cursor = null;
                 AssetFileDescriptor assetFileDescriptor2 = null;
                 cursor = null;
@@ -121,7 +121,7 @@ final class lze implements Callable {
                                 }
                                 throw th;
                             }
-                            bxtx a = bxtx.m123261a(bArr);
+                            ByteString a = ByteString.m123261a(bArr);
                             if (bxvd.f164950c) {
                                 bxvd.mo74035c();
                                 bxvd.f164950c = false;
@@ -131,7 +131,7 @@ final class lze implements Callable {
                             ((bstc) bxvd.f164949b).f146983m = a;
                         } else {
                             bArr = lzg.f33251f;
-                            bxtx a2 = bxtx.m123261a(bArr);
+                            ByteString a2 = ByteString.m123261a(bArr);
                             if (bxvd.f164950c) {
                             }
                             bstc bstc22 = bstc.f146969u;
@@ -145,7 +145,7 @@ final class lze implements Callable {
                             if (assetFileDescriptor != null) {
                                 assetFileDescriptor.close();
                             }
-                            bxtx a22 = bxtx.m123261a(bArr);
+                            ByteString a22 = ByteString.m123261a(bArr);
                             if (bxvd.f164950c) {
                             }
                             bstc bstc222 = bstc.f146969u;

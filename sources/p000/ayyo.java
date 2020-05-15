@@ -33,8 +33,8 @@ public final class ayyo {
             }
             if (ayyl != null) {
                 int intValue = num.intValue();
-                bxvj a = this.f98750b.mo73903a((bxvg) ((bxvk) bxvg.mo74142c(6)), intValue);
-                Map map = bxvk.f164959aj;
+                bxvj a = this.f98750b.mo73903a((bxvg) ((GeneratedMessageLite) bxvg.mo74142c(6)), intValue);
+                Map map = GeneratedMessageLite.f164959aj;
                 bxvg.mo74135a(a);
                 Object b = bxvg.f164952m.mo73913b(a.f164958d);
                 if (b == null) {

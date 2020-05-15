@@ -105,7 +105,7 @@ public final class pku extends ptb {
         blsj blsj2 = blsj;
         CastDevice castDevice2 = castDevice;
         ptx ptx2 = ptx;
-        byte[] k = blsj2.f127592f.mo73780k();
+        byte[] k = blsj2.f127592f.getKey();
         if (k == null || k.length == 0) {
             z = true;
         } else {
@@ -115,10 +115,10 @@ public final class pku extends ptb {
             ArrayList arrayList = new ArrayList();
             try {
                 if (blsj2.f127589c.mo73744a() != 0) {
-                    arrayList.add(pkv.m30753a(blsj2.f127589c.mo73780k()));
+                    arrayList.add(pkv.m30753a(blsj2.f127589c.getKey()));
                 }
-                for (bxtx bxtx : blsj2.f127590d) {
-                    arrayList.add(pkv.m30753a(bxtx.mo73780k()));
+                for (ByteString bxtx : blsj2.f127590d) {
+                    arrayList.add(pkv.m30753a(bxtx.getKey()));
                 }
                 if (arrayList.isEmpty()) {
                     return 2;
@@ -139,7 +139,7 @@ public final class pku extends ptb {
                         a.f40077b = true;
                         pra.m31050a(pkt);
                         a.f40076a = pkt;
-                        pqx a2 = a.mo23565a().mo23571a(blsj2.f127594h.mo73780k(), seconds);
+                        pqx a2 = a.mo23565a().mo23571a(blsj2.f127594h.getKey(), seconds);
                         if (a2 == null) {
                             return 8;
                         }
@@ -154,7 +154,7 @@ public final class pku extends ptb {
                             instance.initVerify(publicKey);
                             instance.update(k);
                             instance.update(bArr2);
-                            if (!instance.verify(blsj2.f127588b.mo73780k())) {
+                            if (!instance.verify(blsj2.f127588b.getKey())) {
                                 return 5;
                             }
                             if (castDevice2 != null && castDevice2.mo17496a(1)) {
@@ -324,7 +324,7 @@ public final class pku extends ptb {
     public final void mo23348a(byte[] bArr) {
         byte[] bArr2;
         try {
-            blsk blsk = (blsk) bxvk.m124016a(blsk.f127596e, bArr, bxus.m123744c());
+            blsk blsk = (blsk) GeneratedMessageLite.m124016a(blsk.f127596e, bArr, bxus.m123744c());
             if (bArr.length <= 4096) {
                 try {
                     this.f40173s.mo23670a("Received a protobuf: %s", blsk.toString());

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qor */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qor extends bxvk implements bxxd {
+public final class qor extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final qor f41889b;
@@ -16,7 +16,7 @@ public final class qor extends bxvk implements bxxd {
     static {
         qor qor = new qor();
         f41889b = qor;
-        bxvk.m124024a(qor.class, qor);
+        GeneratedMessageLite.m124024a(qor.class, qor);
     }
 
     private qor() {
@@ -33,7 +33,7 @@ public final class qor extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f41889b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", qov.class});
+            return GeneratedMessageLite.m124022a(f41889b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", qov.class});
         } else if (i2 == 3) {
             return new qor();
         } else {
@@ -60,7 +60,7 @@ public final class qor extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo24176a() {
         if (!this.f41891a.mo73666a()) {
-            this.f41891a = bxvk.m124021a(this.f41891a);
+            this.f41891a = GeneratedMessageLite.m124021a(this.f41891a);
         }
     }
 }

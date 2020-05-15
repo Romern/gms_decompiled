@@ -283,7 +283,7 @@ final class asic {
                                 bpwd bpwd2 = bpwd.f139463b;
                                 bpwc4.getClass();
                                 if (bpwd.f139465a.mo73666a()) {
-                                    bpwd.f139465a = bxvk.m124021a(bpwd.f139465a);
+                                    bpwd.f139465a = GeneratedMessageLite.m124021a(bpwd.f139465a);
                                 }
                                 bpwd.f139465a.add(bpwc4);
                             } else {

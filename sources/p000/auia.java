@@ -110,7 +110,7 @@ public abstract class auia extends ContentProvider {
                             if (build.getLastPathSegment() != null) {
                                 m77091a(bundle2, mo50548a(build, (bxxc) this.f91865f.mo60776a().get()));
                             } else {
-                                bundle2.putByteArray("value", ((bxxc) this.f91865f.mo60776a().get()).mo73642k());
+                                bundle2.putByteArray("value", ((bxxc) this.f91865f.mo60776a().get()).serializeToBytes());
                             }
                         } else if (c == 1 || c == 2) {
                             bmxy.m108588a(bundle != null);

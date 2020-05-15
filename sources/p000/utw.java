@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: utw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class utw extends bxvk implements bxxd {
+public final class utw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final utw f48643g;
@@ -34,7 +34,7 @@ public final class utw extends bxvk implements bxxd {
     static {
         utw utw = new utw();
         f48643g = utw;
-        bxvk.m124024a(utw.class, utw);
+        GeneratedMessageLite.m124024a(utw.class, utw);
     }
 
     private utw() {
@@ -55,7 +55,7 @@ public final class utw extends bxvk implements bxxd {
             this.f48651h = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f48643g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0004\u0001ᔄ\u0000\u0002ᔈ\u0001\u0003ᔐ\u0002\u0004ᔐ\u0003\u0005င\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f48643g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0004\u0001ᔄ\u0000\u0002ᔈ\u0001\u0003ᔐ\u0002\u0004ᔐ\u0003\u0005င\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new utw();
         } else {

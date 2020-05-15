@@ -34,6 +34,6 @@ public final /* synthetic */ class ggj {
         bsnb3.getClass();
         bsna.f146217b = bsnb3;
         bsna.f146216a |= 1;
-        return ((bsna) da.mo74062i()).mo73642k();
+        return ((bsna) da.mo74062i()).serializeToBytes();
     }
 }

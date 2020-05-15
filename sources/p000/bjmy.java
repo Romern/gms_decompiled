@@ -151,12 +151,12 @@ public final class bjmy extends bjhy implements bjhe, bjhd {
         bwrc bwrc;
         byte[] bArr;
         byte[] bArr2;
-        bxtx bxtx;
-        bxtx bxtx2;
-        bxtx bxtx3;
+        ByteString bxtx;
+        ByteString bxtx2;
+        ByteString bxtx3;
         bwrg bwrg;
         bwqz bwqz;
-        bxtx bxtx4;
+        ByteString bxtx4;
         bwqy bwqy;
         bwrm bwrm;
         bwoq bwoq2 = bwoq;
@@ -176,7 +176,7 @@ public final class bjmy extends bjhy implements bjhe, bjhd {
             if (a == 0) {
                 a = 1;
             }
-            bxtx bxtx5 = null;
+            ByteString bxtx5 = null;
             int i3 = 3;
             switch (a - 1) {
                 case 0:
@@ -262,7 +262,7 @@ public final class bjmy extends bjhy implements bjhe, bjhd {
                             bwzg bwzg2 = (bwzg) da.f164949b;
                             bwog2.getClass();
                             if (!bwzg2.f161603c.mo73666a()) {
-                                bwzg2.f161603c = bxvk.m124021a(bwzg2.f161603c);
+                                bwzg2.f161603c = GeneratedMessageLite.m124021a(bwzg2.f161603c);
                             }
                             bwzg2.f161603c.add(bwog2);
                         }
@@ -282,7 +282,7 @@ public final class bjmy extends bjhy implements bjhe, bjhd {
                         bjhm bjhm = (bjhm) bjgw.f122698a.f122692a.f122731h;
                         bjfh bjfh = bjhm.f122740f;
                         WidgetConfig widgetConfig = bjhm.f122735a.f122724a;
-                        byte[] k = ((bwzg) da.mo74062i()).mo73642k();
+                        byte[] k = ((bwzg) da.mo74062i()).serializeToBytes();
                         bwmj = bjhm.f122738d.f160272a;
                         if (bwmj != null) {
                             bwmj2 = bwmj.f160280a;
@@ -358,7 +358,7 @@ public final class bjmy extends bjhy implements bjhe, bjhd {
                     bjhm bjhm2 = (bjhm) bjgw2.f122698a.f122692a.f122731h;
                     bjfh bjfh2 = bjhm2.f122740f;
                     WidgetConfig widgetConfig2 = bjhm2.f122735a.f122724a;
-                    byte[] k2 = ((bwzg) da.mo74062i()).mo73642k();
+                    byte[] k2 = ((bwzg) da.mo74062i()).serializeToBytes();
                     bwmj = bjhm2.f122738d.f160272a;
                     if (bwmj != null) {
                     }
@@ -395,20 +395,20 @@ public final class bjmy extends bjhy implements bjhe, bjhd {
                         if (i10 != 0) {
                             if (i11 == 0) {
                                 if (i9 == 1) {
-                                    bxtx2 = (bxtx) bwmd.f160247b;
+                                    bxtx2 = (ByteString) bwmd.f160247b;
                                 } else {
                                     bxtx2 = bxtx.f164797b;
                                 }
-                                bArr = bxtx2.mo73780k();
+                                bArr = bxtx2.getKey();
                             } else if (i11 != 1) {
                                 bArr = new byte[0];
                             } else {
                                 if (i9 == 2) {
-                                    bxtx3 = (bxtx) bwmd.f160247b;
+                                    bxtx3 = (ByteString) bwmd.f160247b;
                                 } else {
                                     bxtx3 = bxtx.f164797b;
                                 }
-                                bArr = bxtx3.mo73780k();
+                                bArr = bxtx3.getKey();
                             }
                             widgetResult.f151770a = bArr;
                             bwmc bwmc = bwrc.f160751d;
@@ -429,11 +429,11 @@ public final class bjmy extends bjhy implements bjhe, bjhd {
                                     bArr2 = new byte[0];
                                 } else {
                                     if (i12 == 1) {
-                                        bxtx = (bxtx) bwmc.f160242b;
+                                        bxtx = (ByteString) bwmc.f160242b;
                                     } else {
                                         bxtx = bxtx.f164797b;
                                     }
-                                    bArr2 = bxtx.mo73780k();
+                                    bArr2 = bxtx.getKey();
                                 }
                                 widgetResult.f151771b = bArr2;
                                 bjhm bjhm3 = (bjhm) bjhh;
@@ -482,18 +482,18 @@ public final class bjmy extends bjhy implements bjhe, bjhd {
                     if (i14 != 1) {
                         bjhl bjhl = ((bjhm) bjhh2).f122736b;
                         if (i14 == 2) {
-                            bxtx4 = (bxtx) bwqz.f160744b;
+                            bxtx4 = (ByteString) bwqz.f160744b;
                         } else {
                             bxtx4 = bxtx.f164797b;
                         }
-                        byte[] k3 = bxtx4.mo73780k();
+                        byte[] k3 = bxtx4.getKey();
                         Intent intent = new Intent();
                         intent.putExtra("com.google.android.gms.wallet.firstparty.EXTRA_INITIALIZE_TOKEN", k3);
                         ((awef) bjhl).mo52012a(intent);
                         return;
                     }
                     bjhl bjhl2 = ((bjhm) bjhh2).f122736b;
-                    byte[] k4 = ((bxtx) bwqz.f160744b).mo73780k();
+                    byte[] k4 = ((ByteString) bwqz.f160744b).getKey();
                     Intent intent2 = new Intent();
                     intent2.putExtra("com.google.android.gms.wallet.firstparty.EXTRA_PARAMS", k4);
                     ((awef) bjhl2).mo52012a(intent2);

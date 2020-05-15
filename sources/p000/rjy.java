@@ -185,7 +185,7 @@ public final class rjy {
             }
             int i = this.f43181j;
             rka rka = this.f43182k;
-            sdo.m34966a(rmx, "GoogleApiClient instance cannot be null");
+            sdo.checkIfNull(rmx, "GoogleApiClient instance cannot be null");
             if (rlb.f43208a.indexOfKey(i) >= 0) {
                 z3 = false;
             }
@@ -229,7 +229,7 @@ public final class rjy {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final void mo24774a(Handler handler) {
-        sdo.m34966a((Object) handler, (Object) "Handler must not be null");
+        sdo.checkIfNull((Object) handler, (Object) "Handler must not be null");
         this.f43183l = handler.getLooper();
     }
 
@@ -249,7 +249,7 @@ public final class rjy {
 
     /* renamed from: a */
     public final void mo24777a(Scope scope) {
-        sdo.m34966a(scope, "Scope must not be null");
+        sdo.checkIfNull(scope, "Scope must not be null");
         this.f43175d.add(scope);
     }
 
@@ -260,15 +260,15 @@ public final class rjy {
 
     public rjy(Context context, rjz rjz, rka rka) {
         this(context);
-        sdo.m34966a(rjz, "Must provide a connected listener");
+        sdo.checkIfNull(rjz, "Must provide a connected listener");
         this.f43185n.add(rjz);
-        sdo.m34966a(rka, "Must provide a connection failed listener");
+        sdo.checkIfNull(rka, "Must provide a connection failed listener");
         this.f43186o.add(rka);
     }
 
     /* renamed from: a */
     public final void mo24779a(rjo rjo) {
-        sdo.m34966a(rjo, "Api must not be null");
+        sdo.checkIfNull(rjo, "Api must not be null");
         this.f43179h.put(rjo, null);
         List a = rjo.f43150b.mo12172a(null);
         this.f43176e.addAll(a);
@@ -277,8 +277,8 @@ public final class rjy {
 
     /* renamed from: a */
     public final void mo24780a(rjo rjo, rjh rjh) {
-        sdo.m34966a(rjo, "Api must not be null");
-        sdo.m34966a(rjh, "Null options are not permitted for this Api");
+        sdo.checkIfNull(rjo, "Api must not be null");
+        sdo.checkIfNull(rjh, "Null options are not permitted for this Api");
         this.f43179h.put(rjo, rjh);
         List a = rjo.f43150b.mo12172a(rjh);
         this.f43176e.addAll(a);
@@ -287,13 +287,13 @@ public final class rjy {
 
     /* renamed from: a */
     public final void mo24781a(rjz rjz) {
-        sdo.m34966a(rjz, "Listener must not be null");
+        sdo.checkIfNull(rjz, "Listener must not be null");
         this.f43185n.add(rjz);
     }
 
     /* renamed from: a */
     public final void mo24782a(rka rka) {
-        sdo.m34966a(rka, "Listener must not be null");
+        sdo.checkIfNull(rka, "Listener must not be null");
         this.f43186o.add(rka);
     }
 

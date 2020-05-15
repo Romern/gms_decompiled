@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvri */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvri extends bxvk implements bxxd {
+public final class bvri extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bvri f157438a;
@@ -13,7 +13,7 @@ public final class bvri extends bxvk implements bxxd {
     static {
         bvri bvri = new bvri();
         f157438a = bvri;
-        bxvk.m124024a(bvri.class, bvri);
+        GeneratedMessageLite.m124024a(bvri.class, bvri);
     }
 
     private bvri() {
@@ -30,7 +30,7 @@ public final class bvri extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157438a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f157438a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bvri();

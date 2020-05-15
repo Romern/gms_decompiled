@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpza */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpza extends bxvk implements bxxd {
+public final class bpza extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bpza f139971f;
@@ -28,7 +28,7 @@ public final class bpza extends bxvk implements bxxd {
     static {
         bpza bpza = new bpza();
         f139971f = bpza;
-        bxvk.m124024a(bpza.class, bpza);
+        GeneratedMessageLite.m124024a(bpza.class, bpza);
     }
 
     private bpza() {
@@ -45,7 +45,7 @@ public final class bpza extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139971f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0003\u001b\u0004ဂ\u0000", new Object[]{"a", "b", bpyy.class, "c", bpyx.class, "d", bpyw.class, "e"});
+            return GeneratedMessageLite.m124022a(f139971f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0003\u0000\u0001\u001b\u0002\u001b\u0003\u001b\u0004ဂ\u0000", new Object[]{"a", "b", bpyy.class, "c", bpyx.class, "d", bpyw.class, "e"});
         } else if (i2 == 3) {
             return new bpza();
         } else {

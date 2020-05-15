@@ -352,7 +352,7 @@ public final class aiya extends buqb {
             bywe bywe = (bywe) da2.f164949b;
             byxb3.getClass();
             if (!bywe.f168563b.mo73666a()) {
-                bywe.f168563b = bxvk.m124021a(bywe.f168563b);
+                bywe.f168563b = GeneratedMessageLite.m124021a(bywe.f168563b);
             }
             bywe.f168563b.add(byxb3);
         }

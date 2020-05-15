@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aaix */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aaix extends bxvk implements bxxd {
+public final class aaix extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final aaix f28235f;
@@ -28,7 +28,7 @@ public final class aaix extends bxvk implements bxxd {
     static {
         aaix aaix = new aaix();
         f28235f = aaix;
-        bxvk.m124024a(aaix.class, aaix);
+        GeneratedMessageLite.m124024a(aaix.class, aaix);
     }
 
     private aaix() {
@@ -45,7 +45,7 @@ public final class aaix extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28235f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004ဌ\u0003", new Object[]{"a", "b", "c", "d", "e", aaiv.f28234a});
+            return GeneratedMessageLite.m124022a(f28235f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004ဌ\u0003", new Object[]{"a", "b", "c", "d", "e", aaiv.f28234a});
         } else if (i2 == 3) {
             return new aaix();
         } else {

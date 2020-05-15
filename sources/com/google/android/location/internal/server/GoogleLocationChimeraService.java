@@ -217,7 +217,7 @@ public class GoogleLocationChimeraService extends Service {
                         sb5.append(length);
                         sb5.toString();
                         try {
-                            bufk bufk = (bufk) bxvk.m124014a(bufk.f153709c, byteArrayExtra);
+                            bufk bufk = (bufk) GeneratedMessageLite.m124014a(bufk.f153709c, byteArrayExtra);
                             int size2 = bufk.f153711a.size();
                             int size3 = bufk.f153712b.size();
                             StringBuilder sb6 = new StringBuilder(59);
@@ -264,7 +264,7 @@ public class GoogleLocationChimeraService extends Service {
                     ArrayList arrayList = new ArrayList();
                     if (byteArrayExtra2 != null) {
                         try {
-                            for (bucu bucu : ((bucw) bxvk.m124014a(bucw.f153415b, byteArrayExtra2)).f153417a) {
+                            for (bucu bucu : ((bucw) GeneratedMessageLite.m124014a(bucw.f153415b, byteArrayExtra2)).f153417a) {
                                 if (buct.m119339a(bucu.f153411a) == i3) {
                                     if (bucu.f153411a == i2) {
                                         budt = (budt) bucu.f153412b;
@@ -547,7 +547,7 @@ public class GoogleLocationChimeraService extends Service {
             bufo bufo2 = (bufo) da2.mo74062i();
             bufo2.getClass();
             if (!bufm2.f153719d.mo73666a()) {
-                bufm2.f153719d = bxvk.m124021a(bufm2.f153719d);
+                bufm2.f153719d = GeneratedMessageLite.m124021a(bufm2.f153719d);
             }
             bufm2.f153719d.add(bufo2);
         }
@@ -582,7 +582,7 @@ public class GoogleLocationChimeraService extends Service {
             bufi bufi2 = (bufi) da3.mo74062i();
             bufi2.getClass();
             if (!bufm3.f153720e.mo73666a()) {
-                bufm3.f153720e = bxvk.m124021a(bufm3.f153720e);
+                bufm3.f153720e = GeneratedMessageLite.m124021a(bufm3.f153720e);
             }
             bufm3.f153720e.add(bufi2);
         }

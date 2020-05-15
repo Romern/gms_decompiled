@@ -11,7 +11,7 @@ import java.util.concurrent.TimeoutException;
 public final class xed {
 
     /* renamed from: c */
-    private static final sek f52057c = new sek(new String[]{"SafetyAttestation"}, (short[]) null);
+    private static final Logger f52057c = new Logger(new String[]{"SafetyAttestation"}, (short[]) null);
 
     /* renamed from: a */
     private final Context f52058a;

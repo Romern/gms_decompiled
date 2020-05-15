@@ -16,7 +16,7 @@ public final class bwdy extends bxvd implements bxxd {
         bwef bwef = (bwef) this.f164949b;
         bwef bwef2 = bwef.f158969g;
         if (!bwef.f158972b.mo73666a()) {
-            bwef.f158972b = bxvk.m124021a(bwef.f158972b);
+            bwef.f158972b = GeneratedMessageLite.m124021a(bwef.f158972b);
         }
         bxsy.m123078a(iterable, bwef.f158972b);
     }

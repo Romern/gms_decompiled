@@ -17,7 +17,7 @@ public class CustomProperty extends AbstractSafeParcelable {
     public final String f31069b;
 
     public CustomProperty(CustomPropertyKey customPropertyKey, String str) {
-        sdo.m34966a(customPropertyKey, "key");
+        sdo.checkIfNull(customPropertyKey, "key");
         this.f31068a = customPropertyKey;
         this.f31069b = str;
     }

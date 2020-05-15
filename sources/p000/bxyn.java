@@ -5,7 +5,7 @@ package p000;
 final class bxyn {
     /* renamed from: a */
     static bxyo m124416a(Object obj) {
-        return ((bxvk) obj).f164960ah;
+        return ((GeneratedMessageLite) obj).f164960ah;
     }
 
     /* renamed from: c */
@@ -27,7 +27,7 @@ final class bxyn {
     /* access modifiers changed from: package-private */
     /* renamed from: a */
     public static void m124419a(Object obj, bxyo bxyo) {
-        ((bxvk) obj).f164960ah = bxyo;
+        ((GeneratedMessageLite) obj).f164960ah = bxyo;
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead

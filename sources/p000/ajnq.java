@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ajnq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ajnq extends bxvk implements bxxd {
+public final class ajnq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final ajnq f70996i;
@@ -14,13 +14,13 @@ public final class ajnq extends bxvk implements bxxd {
     public int f70998a;
 
     /* renamed from: b */
-    public bxtx f70999b = bxtx.f164797b;
+    public ByteString f70999b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f71000c = bxtx.f164797b;
+    public ByteString f71000c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f71001d = bxtx.f164797b;
+    public ByteString f71001d = ByteString.f164797b;
 
     /* renamed from: e */
     public long f71002e;
@@ -29,15 +29,15 @@ public final class ajnq extends bxvk implements bxxd {
     public long f71003f;
 
     /* renamed from: g */
-    public bxtx f71004g = bxtx.f164797b;
+    public ByteString f71004g = ByteString.f164797b;
 
     /* renamed from: h */
-    public bxtx f71005h = bxtx.f164797b;
+    public ByteString f71005h = ByteString.f164797b;
 
     static {
         ajnq ajnq = new ajnq();
         f70996i = ajnq;
-        bxvk.m124024a(ajnq.class, ajnq);
+        GeneratedMessageLite.m124024a(ajnq.class, ajnq);
     }
 
     private ajnq() {
@@ -54,7 +54,7 @@ public final class ajnq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f70996i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ဂ\u0003\u0005ဂ\u0004\u0006ည\u0005\u0007ည\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
+            return GeneratedMessageLite.m124022a(f70996i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0000\u0000\u0001ည\u0000\u0002ည\u0001\u0003ည\u0002\u0004ဂ\u0003\u0005ဂ\u0004\u0006ည\u0005\u0007ည\u0006", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h"});
         } else if (i2 == 3) {
             return new ajnq();
         } else {

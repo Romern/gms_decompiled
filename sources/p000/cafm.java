@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cafm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cafm extends bxvk implements bxxd {
+public final class cafm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cafm f172927b;
@@ -16,7 +16,7 @@ public final class cafm extends bxvk implements bxxd {
     static {
         cafm cafm = new cafm();
         f172927b = cafm;
-        bxvk.m124024a(cafm.class, cafm);
+        GeneratedMessageLite.m124024a(cafm.class, cafm);
     }
 
     private cafm() {
@@ -33,7 +33,7 @@ public final class cafm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172927b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cafl.class});
+            return GeneratedMessageLite.m124022a(f172927b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cafl.class});
         } else if (i2 == 3) {
             return new cafm();
         } else {

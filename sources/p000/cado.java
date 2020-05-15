@@ -29,7 +29,7 @@ public final class cado extends bxvd implements cadq {
         cadp cadp = (cadp) this.f164949b;
         cadp cadp2 = cadp.f172710f;
         if (!cadp.f172715d.mo73666a()) {
-            cadp.f172715d = bxvk.m124021a(cadp.f172715d);
+            cadp.f172715d = GeneratedMessageLite.m124021a(cadp.f172715d);
         }
         bxsy.m123078a(iterable, cadp.f172715d);
     }

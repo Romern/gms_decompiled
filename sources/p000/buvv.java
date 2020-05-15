@@ -25,7 +25,7 @@ final class buvv implements bvda {
             buzi = buzi.f155382d;
         }
         String str = buzi.f155385b;
-        byte[] k = this.f155098b.f155102c.f155421b.mo73780k();
+        byte[] k = this.f155098b.f155102c.f155421b.getKey();
         String valueOf = String.valueOf(str);
         String valueOf2 = String.valueOf(new ahfv(k).mo36407a());
         String str2 = valueOf2.length() == 0 ? new String(valueOf) : valueOf.concat(valueOf2);

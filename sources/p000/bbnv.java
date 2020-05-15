@@ -70,7 +70,7 @@ public final class bbnv {
     /* renamed from: a */
     public static bbns m88247a(bbns bbns) {
         bxvd bxvd = (bxvd) bbns.mo74142c(5);
-        bxvd.mo73625a((bxvk) bbns);
+        bxvd.mo73625a((GeneratedMessageLite) bbns);
         long j = bbns.f102972c + 1;
         if (bxvd.f164950c) {
             bxvd.mo74035c();
@@ -105,7 +105,7 @@ public final class bbnv {
     /* renamed from: a */
     public static bbnt m88249a(bbnt bbnt, long j) {
         bxvd bxvd = (bxvd) bbnt.mo74142c(5);
-        bxvd.mo73625a((bxvk) bbnt);
+        bxvd.mo73625a((GeneratedMessageLite) bbnt);
         bbnt bbnt2 = (bbnt) bxvd.f164949b;
         if ((bbnt2.f102977a & 2) == 0 || bbnt2.f102979c > j) {
             if (bxvd.f164950c) {

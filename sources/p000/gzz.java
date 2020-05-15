@@ -12,7 +12,7 @@ import java.util.List;
 public final class gzz extends C1261p {
 
     /* renamed from: d */
-    public static final sek f19315d = ght.m13172b("AssistedSignInViewModel");
+    public static final Logger f19315d = ght.m13172b("AssistedSignInViewModel");
 
     /* renamed from: e */
     public final BeginSignInRequest f19316e;

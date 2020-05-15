@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bydl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bydl extends bxvk implements bxxd {
+public final class bydl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bydl f165798a;
@@ -22,11 +22,11 @@ public final class bydl extends bxvk implements bxxd {
     static {
         bydl bydl = new bydl();
         f165798a = bydl;
-        bxvk.m124024a(bydl.class, bydl);
+        GeneratedMessageLite.m124024a(bydl.class, bydl);
     }
 
     private bydl() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -44,7 +44,7 @@ public final class bydl extends bxvk implements bxxd {
             this.f165802d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f165798a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔈ\u0000", new Object[]{"b", "c"});
+            return GeneratedMessageLite.m124022a(f165798a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔈ\u0000", new Object[]{"b", "c"});
         } else if (i2 == 3) {
             return new bydl();
         } else {

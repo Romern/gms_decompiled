@@ -8,7 +8,7 @@ import com.google.android.gms.auth.firstparty.shared.AccountCredentials;
 public final class gnm {
 
     /* renamed from: a */
-    public static final sek f18706a = ght.m13171a("ValidateAccountCredentialsOperation");
+    public static final Logger f18706a = ght.m13171a("ValidateAccountCredentialsOperation");
 
     /* renamed from: b */
     public final Context f18707b;

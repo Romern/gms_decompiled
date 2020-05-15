@@ -103,7 +103,7 @@ public final class qnd extends dez {
             byte[] a3 = dft.m8323a(a);
             if (a3 != null) {
                 try {
-                    qmo = (qmo) bxvk.m124016a(qmo.f41724g, a3, bxus.m123743b());
+                    qmo = (qmo) GeneratedMessageLite.m124016a(qmo.f41724g, a3, bxus.m123743b());
                 } catch (bxwf e2) {
                     String valueOf2 = String.valueOf(e2.getMessage());
                     Log.e("ModuleSetMgr", valueOf2.length() == 0 ? new String("Failed to read modulesets file: ") : "Failed to read modulesets file: ".concat(valueOf2));
@@ -273,12 +273,12 @@ public final class qnd extends dez {
                             }
                             int i6 = 5;
                             bxvd bxvd = (bxvd) qmk2.mo74142c(5);
-                            bxvd.mo73625a((bxvk) qmk2);
+                            bxvd.mo73625a((GeneratedMessageLite) qmk2);
                             if (bxvd.f164950c) {
                                 bxvd.mo74035c();
                                 bxvd.f164950c = z3;
                             }
-                            ((qmk) bxvd.f164949b).f41708b = bxvk.m124030de();
+                            ((qmk) bxvd.f164949b).f41708b = GeneratedMessageLite.m124030de();
                             qmk qmk3 = qmm.f41716b;
                             if (qmk3 == null) {
                                 qmk3 = qmk.f41705d;
@@ -288,7 +288,7 @@ public final class qnd extends dez {
                             for (int i7 = z3; i7 < size3; i7++) {
                                 qmt qmt = (qmt) bxwc2.get(i7);
                                 bxvd bxvd2 = (bxvd) qmt.mo74142c(i6);
-                                bxvd2.mo73625a((bxvk) qmt);
+                                bxvd2.mo73625a((GeneratedMessageLite) qmt);
                                 int a4 = qmq.m32457a(((qmt) bxvd2.f164949b).f41740e);
                                 if (a4 == 0) {
                                     i3 = size;
@@ -591,7 +591,7 @@ public final class qnd extends dez {
                             try {
                                 dke k = a.mo8993k();
                                 bxvd bxvd = (bxvd) k.mo74142c(5);
-                                bxvd.mo73625a((bxvk) k);
+                                bxvd.mo73625a((GeneratedMessageLite) k);
                                 bxvd bxvd2 = bxvd;
                                 a.mo8978a(bxvd, d2, new dfz(a.f12990a), (Set) null, b);
                                 String builder = new Uri.Builder().scheme("download").appendPath(dhs.f13182a).appendPath(dhs.f13183b).toString();
@@ -665,7 +665,7 @@ public final class qnd extends dez {
     /* access modifiers changed from: package-private */
     /* renamed from: a */
     public final boolean mo24123a(qmo qmo) {
-        byte[] k = qmo.mo73642k();
+        byte[] k = qmo.serializeToBytes();
         File file = new File(this.f12991b, "pending_modulesets.pb");
         File a = m32468a(this.f12991b);
         new File(this.f12991b, "current_modulesets.pb").delete();

@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public final class avmd {
 
     /* renamed from: a */
-    public static final sek f93376a = avpq.m79016c("Ui");
+    public static final Logger f93376a = avpq.m79016c("Ui");
 
     /* renamed from: b */
     public static final Pattern f93377b = Pattern.compile(String.format(Locale.US, "^%d$", 0));

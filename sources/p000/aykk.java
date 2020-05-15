@@ -462,7 +462,7 @@ public final class aykk {
         try {
             aucu.m76783a(k, chpz.m149326c(), TimeUnit.MILLISECONDS);
             if (k.mo50384b() && k.mo50386d() != null && ((Boolean) k.mo50386d()).booleanValue()) {
-                a.mo24695a(chpz.m149325b(), ((byms) bxvd.mo74062i()).mo73642k(), m84161a(), cagz.f174516f);
+                a.mo24695a(chpz.m149325b(), ((byms) bxvd.mo74062i()).serializeToBytes(), m84161a(), cagz.f174516f);
             }
         } catch (ExecutionException | TimeoutException e) {
         } catch (InterruptedException e2) {
@@ -472,16 +472,16 @@ public final class aykk {
 
     /* renamed from: a */
     private static void m84169a(bxvd bxvd, boolean z, int i) {
-        bxtx bxtx;
+        ByteString bxtx;
         SharedPreferences d = m84183d(rpr.m34216b());
         try {
-            bli bli = (bli) bxvk.m124014a(bli.f5101b, Base64.decode(d.getString("log_metadata", ""), 0));
+            bli bli = (bli) GeneratedMessageLite.m124014a(bli.f5101b, Base64.decode(d.getString("log_metadata", ""), 0));
             bxvd bxvd2 = (bxvd) bli.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bli);
+            bxvd2.mo73625a((GeneratedMessageLite) bli);
             bxvd da = blh.f5093g.mo74144da();
             byms byms = (byms) bxvd.f164949b;
             if (byms.f167068b == 1) {
-                bxtx = (bxtx) byms.f167069c;
+                bxtx = (ByteString) byms.f167069c;
             } else {
                 bxtx = bxtx.f164797b;
             }
@@ -535,7 +535,7 @@ public final class aykk {
                 bli3.f5103a.remove(l);
             }
             bli bli4 = (bli) bxvd2.mo74062i();
-            d.edit().putString("log_metadata", Base64.encodeToString(bli4.mo73642k(), 0)).apply();
+            d.edit().putString("log_metadata", Base64.encodeToString(bli4.serializeToBytes(), 0)).apply();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -598,7 +598,7 @@ public final class aykk {
                 bymq4.getClass();
                 byms.f167070d = bymq4;
                 byms.f167067a |= 64;
-                qwo a2 = qws.mo24335a(((byms) bxvd.mo74062i()).mo73642k());
+                qwo a2 = qws.mo24335a(((byms) bxvd.mo74062i()).serializeToBytes());
                 a2.f42322f = cagz;
                 a2.mo24327b();
                 return;
@@ -629,7 +629,7 @@ public final class aykk {
                 bymq6.getClass();
                 byms3.f167070d = bymq6;
                 byms3.f167067a |= 64;
-                qwo a3 = qws.mo24335a(((byms) bxvd.mo74062i()).mo73642k());
+                qwo a3 = qws.mo24335a(((byms) bxvd.mo74062i()).serializeToBytes());
                 a3.f42322f = cagz;
                 m84170a(qws, a3, qxq);
                 a3.mo24327b();
@@ -663,16 +663,16 @@ public final class aykk {
                 bymq8.getClass();
                 byms5.f167070d = bymq8;
                 byms5.f167067a |= 64;
-                qwo a4 = qws.mo24335a(((byms) bxvd.mo74062i()).mo73642k());
+                qwo a4 = qws.mo24335a(((byms) bxvd.mo74062i()).serializeToBytes());
                 a4.mo24330c((String) arrayList.get(i));
                 a4.f42322f = cagz;
                 m84170a(qws, a4, qxq);
                 a4.mo24327b();
             }
         } else if (m84176a(qws.f42340g, qxq)) {
-            rjx.mo24696a(qws.f42340g, ((byms) bxvd.mo74062i()).mo73642k(), m84178a(qxq), cagz.f174516f);
+            rjx.mo24696a(qws.f42340g, ((byms) bxvd.mo74062i()).serializeToBytes(), m84178a(qxq), cagz.f174516f);
         } else {
-            rjx.mo24695a(qws.f42340g, ((byms) bxvd.mo74062i()).mo73642k(), m84161a(), cagz.f174516f);
+            rjx.mo24695a(qws.f42340g, ((byms) bxvd.mo74062i()).serializeToBytes(), m84161a(), cagz.f174516f);
         }
     }
 

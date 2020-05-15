@@ -12,7 +12,7 @@ import java.security.SignatureException;
 final class ifg {
 
     /* renamed from: c */
-    private static final sek f20854c = new sek("AuthZenRpcEventHandler");
+    private static final Logger f20854c = new Logger("AuthZenRpcEventHandler");
 
     /* renamed from: a */
     private final ikj f20855a;
@@ -36,10 +36,10 @@ final class ifg {
                 if (a.f167530a.ordinal() == 5) {
                     Bundle extras = intent.getExtras();
                     try {
-                        bypc bypc = (bypc) bxvk.m124014a(bypc.f167305k, extras.getByteArray("txRequest"));
-                        byph byph = (byph) bxvk.m124014a(byph.f167342b, a.f167531b);
-                        ikj.m15597a(bypc.f167308b.mo73780k(), 24, context);
-                        if (this.f20855a.mo13090a(bypc.f167308b.mo73780k()) != null) {
+                        bypc bypc = (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, extras.getByteArray("txRequest"));
+                        byph byph = (byph) GeneratedMessageLite.m124014a(byph.f167342b, a.f167531b);
+                        ikj.m15597a(bypc.f167308b.getKey(), 24, context);
+                        if (this.f20855a.mo13090a(bypc.f167308b.getKey()) != null) {
                             if (byph == null || byph.f167344a.size() != 1) {
                                 z = false;
                             } else {
@@ -48,7 +48,7 @@ final class ifg {
                             if (z) {
                                 f20854c.mo25414c("Server trigger was activated", new Object[0]);
                             }
-                            f20854c.mo25414c("Showing prompt for TxSync response (transaction id=%s)", ikj.m15598b(bypc.f167308b.mo73780k()));
+                            f20854c.mo25414c("Showing prompt for TxSync response (transaction id=%s)", ikj.m15598b(bypc.f167308b.getKey()));
                             this.f20855a.mo13091a(context, bypc, extras.getString("account"), extras.getByteArray("keyHandle"), z);
                         }
                     } catch (bxwf e) {

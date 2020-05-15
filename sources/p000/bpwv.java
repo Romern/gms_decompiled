@@ -18,7 +18,7 @@ public final class bpwv extends bxvd implements bxxd {
         bpww bpww2 = bpww.f139580b;
         bpyl.getClass();
         if (!bpww.f139582a.mo73666a()) {
-            bpww.f139582a = bxvk.m124021a(bpww.f139582a);
+            bpww.f139582a = GeneratedMessageLite.m124021a(bpww.f139582a);
         }
         bpww.f139582a.add(bpyl);
     }

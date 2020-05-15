@@ -283,7 +283,7 @@ public final class axaj extends bkdx implements bjwp {
                 int i7 = i5 | 4;
                 bmqu.f130432a = i7;
                 bmqu.f130435d = i6;
-                bxtx bxtx = bmfb.f129059g;
+                ByteString bxtx = bmfb.f129059g;
                 bxtx.getClass();
                 bmqu.f130432a = i7 | 8;
                 bmqu.f130436e = bxtx;

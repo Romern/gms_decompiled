@@ -14,7 +14,7 @@ public final /* synthetic */ class aqmm implements bmxz {
 
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
-        sek sek = SignInChimeraActivity.f107676b;
+        Logger Logger = SignInChimeraActivity.f107676b;
         return this.f86367a.equalsIgnoreCase((String) obj);
     }
 }

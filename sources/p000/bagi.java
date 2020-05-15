@@ -53,7 +53,7 @@ public final class bagi extends cazu {
         } else {
             byhn = byhn.f166478e;
         }
-        ((achw) b.mo16713a()).mo25409a("Changes download skipped for the local %s/%s InternalFootprintsLatestOnlySyncVariant.", Integer.valueOf(byhn.f166481b), Integer.valueOf(byhn.f166482c));
+        ((achw) b.mo16713a()).logVerbose("Changes download skipped for the local %s/%s InternalFootprintsLatestOnlySyncVariant.", Integer.valueOf(byhn.f166481b), Integer.valueOf(byhn.f166482c));
         bara.mo55899b(0);
         bara.mo55897a(0, 0);
         return bqga.m112775a((Object) null);

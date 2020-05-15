@@ -13,6 +13,6 @@ public final /* synthetic */ class akyz implements View.OnClickListener {
     }
 
     public void onClick(View view) {
-        sek sek = OctarineWebviewChimeraActivity.f81375e;
+        Logger Logger = OctarineWebviewChimeraActivity.f81375e;
     }
 }

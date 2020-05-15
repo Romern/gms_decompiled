@@ -5,7 +5,7 @@ package p000;
 public final class xji {
 
     /* renamed from: e */
-    public static final sek f52411e = new sek(new String[]{"BleGattNotificationHandler"}, (short[]) null);
+    public static final Logger f52411e = new Logger(new String[]{"BleGattNotificationHandler"}, (short[]) null);
 
     /* renamed from: a */
     public int f52412a = bqcn.m112578a(cdvb.f181794a.mo6606a().mo78362b());

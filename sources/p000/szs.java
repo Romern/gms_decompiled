@@ -15,7 +15,7 @@ final /* synthetic */ class szs implements Runnable {
 
     public final void run() {
         ApiConsentChimeraActivity apiConsentChimeraActivity = this.f45530a.f45531a;
-        sek sek = ApiConsentChimeraActivity.f30509a;
+        Logger Logger = ApiConsentChimeraActivity.f30509a;
         if (!apiConsentChimeraActivity.f30522n) {
             apiConsentChimeraActivity.f30524p.schedule(new szv(apiConsentChimeraActivity), 200);
             apiConsentChimeraActivity.f30523o = true;

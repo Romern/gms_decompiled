@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: beag */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class beag extends bxvk implements bxxd {
+public final class beag extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final beag f106732e;
@@ -25,7 +25,7 @@ public final class beag extends bxvk implements bxxd {
     static {
         beag beag = new beag();
         f106732e = beag;
-        bxvk.m124024a(beag.class, beag);
+        GeneratedMessageLite.m124024a(beag.class, beag);
     }
 
     private beag() {
@@ -42,7 +42,7 @@ public final class beag extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f106732e, "\u0001\u0006\u0001\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဵ\u0000\u0003်\u0000\u0004ဳ\u0000\u0005ျ\u0000\u0006ွ\u0000", new Object[]{"c", "b", "a", "d"});
+            return GeneratedMessageLite.m124022a(f106732e, "\u0001\u0006\u0001\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဵ\u0000\u0003်\u0000\u0004ဳ\u0000\u0005ျ\u0000\u0006ွ\u0000", new Object[]{"c", "b", "a", "d"});
         } else if (i2 == 3) {
             return new beag();
         } else {

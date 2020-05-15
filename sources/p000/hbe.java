@@ -9,7 +9,7 @@ import com.google.android.gms.auth.api.identity.AuthorizationRequest;
 public final class hbe extends hvr implements aaai {
 
     /* renamed from: a */
-    public static final sek f19400a = ght.m13172b("AuthorizationServiceImpl");
+    public static final Logger f19400a = ght.m13172b("AuthorizationServiceImpl");
 
     /* renamed from: b */
     private final Context f19401b;

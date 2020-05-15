@@ -682,7 +682,7 @@ public class SelectVerificationMethodChimeraActivity extends atex implements asi
             byte[] byteArray = bundle.getByteArray("selected_activation_method");
             if (byteArray != null) {
                 try {
-                    this.f108866g = (btjx) bxvk.m124016a(btjx.f149192h, byteArray, bxus.m123744c());
+                    this.f108866g = (btjx) GeneratedMessageLite.m124016a(btjx.f149192h, byteArray, bxus.m123744c());
                 } catch (bxwf e) {
                     bnsl bnsl2 = (bnsl) f108854b.mo68388c();
                     bnsl2.mo68437a(e);

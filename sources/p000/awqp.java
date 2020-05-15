@@ -28,7 +28,7 @@ public final class awqp extends awqu {
         }
         bpjo bpjo = this.f94868a;
         bxvd bxvd = (bxvd) bpjo.mo74142c(5);
-        bxvd.mo73625a((bxvk) bpjo);
+        bxvd.mo73625a((GeneratedMessageLite) bpjo);
         OwWalletFragmentButtonClickedEvent owWalletFragmentButtonClickedEvent = (OwWalletFragmentButtonClickedEvent) walletAnalyticsEvent;
         mo52467a(owWalletFragmentButtonClickedEvent.f110000c, context);
         ApplicationParameters applicationParameters = owWalletFragmentButtonClickedEvent.f110000c.f110418b;

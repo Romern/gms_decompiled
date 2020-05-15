@@ -35,9 +35,9 @@ final class jzz extends AsyncTask {
         String str;
         String str2 = (String) obj;
         if (!isCancelled()) {
-            sek sek = kaa.f23599d;
+            Logger Logger = kaa.f23599d;
             String valueOf = String.valueOf(str2);
-            sek.mo25412b(valueOf.length() == 0 ? new String("DeviceDataVersionInfo = ") : "DeviceDataVersionInfo = ".concat(valueOf), new Object[0]);
+            Logger.mo25412b(valueOf.length() == 0 ? new String("DeviceDataVersionInfo = ") : "DeviceDataVersionInfo = ".concat(valueOf), new Object[0]);
             if (str2 != null) {
                 StringBuilder sb = new StringBuilder(str2.length() + 2);
                 sb.append('\'');

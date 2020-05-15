@@ -14,7 +14,7 @@ import com.google.android.gms.auth.firstparty.dataservice.ReauthSettingsRequest;
 public final class gla extends smx {
 
     /* renamed from: a */
-    private static final sek f18452a = ght.m13171a("CredentialStateSyncAdapter");
+    private static final Logger f18452a = ght.m13171a("CredentialStateSyncAdapter");
 
     /* renamed from: b */
     private final glv f18453b;
@@ -50,9 +50,9 @@ public final class gla extends smx {
         bofx.f132952a |= 1;
         new glf(getContext()).mo12006a(f18452a, (bofx) da.mo74062i());
         if (bundle != null && bundle.getBoolean("initialize", false)) {
-            sek sek = f18452a;
+            Logger Logger = f18452a;
             String valueOf = String.valueOf(account.name);
-            sek.mo25412b(valueOf.length() == 0 ? new String("Initializing CredentialStateSyncAdapter for account ") : "Initializing CredentialStateSyncAdapter for account ".concat(valueOf), new Object[0]);
+            Logger.mo25412b(valueOf.length() == 0 ? new String("Initializing CredentialStateSyncAdapter for account ") : "Initializing CredentialStateSyncAdapter for account ".concat(valueOf), new Object[0]);
             ContentResolver.setIsSyncable(account, str, 1);
             ContentResolver.setSyncAutomatically(account, str, true);
         }

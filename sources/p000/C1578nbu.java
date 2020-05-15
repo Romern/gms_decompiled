@@ -26,7 +26,7 @@ public final class C1578nbu {
         str.getClass();
         mcw.f33455a = 1 | mcw.f33455a;
         mcw.f33456b = str;
-        bxtx a = bxtx.m123261a(nbw.f35217a);
+        ByteString a = ByteString.m123261a(nbw.f35217a);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

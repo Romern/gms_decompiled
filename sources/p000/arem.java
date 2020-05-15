@@ -25,7 +25,7 @@ import java.util.concurrent.ScheduledFuture;
 public final class arem extends aqxz {
 
     /* renamed from: d */
-    public static final sek f87517d = ascp.m73787a("D2D", "TargetDeviceBootstrapController");
+    public static final Logger f87517d = ascp.m73787a("D2D", "TargetDeviceBootstrapController");
 
     /* renamed from: e */
     public final Context f87518e;
@@ -146,9 +146,9 @@ public final class arem extends aqxz {
             while (!this.f87528o.isEmpty()) {
                 if (!this.f87522i) {
                     arel arel = (arel) this.f87528o.poll();
-                    sek sek = f87517d;
+                    Logger Logger = f87517d;
                     String valueOf = String.valueOf(arel.getClass().getSimpleName());
-                    sek.mo25409a(valueOf.length() == 0 ? new String("Processing item from Request queue: ") : "Processing item from Request queue: ".concat(valueOf), new Object[0]);
+                    Logger.logVerbose(valueOf.length() == 0 ? new String("Processing item from Request queue: ") : "Processing item from Request queue: ".concat(valueOf), new Object[0]);
                     arel.mo48472a();
                 } else {
                     f87517d.mo25414c("Bootstrap paused.", new Object[0]);
@@ -175,8 +175,8 @@ public final class arem extends aqxz {
     /* renamed from: a */
     public final void mo48229a(MessagePayload messagePayload) {
         int i;
-        f87517d.mo25409a("Processing MessagePayload.", new Object[0]);
-        sdo.m34966a(messagePayload, "payload cannot be null.");
+        f87517d.logVerbose("Processing MessagePayload.", new Object[0]);
+        sdo.checkIfNull(messagePayload, "payload cannot be null.");
         ArrayList arrayList = new ArrayList();
         DisplayText displayText = messagePayload.f107979f;
         if (displayText != null) {
@@ -225,7 +225,7 @@ public final class arem extends aqxz {
         }
         WorkProfilePayload workProfilePayload = messagePayload.f107986m;
         if (workProfilePayload != null) {
-            f87517d.mo25412b("Persisting work profile %s", sek.m35081a(workProfilePayload.f107996b));
+            f87517d.mo25412b("Persisting work profile %s", Logger.m35081a(workProfilePayload.f107996b));
             this.f87526m = false;
             this.f87532s.mo48621a(workProfilePayload);
             this.f87529p.mo48668e(workProfilePayload.mo59107b());
@@ -251,9 +251,9 @@ public final class arem extends aqxz {
         if (arrayList.size() == 0) {
             f87517d.mo25414c("MessagePayload did not yield any Requests.", new Object[0]);
             if (Log.isLoggable(f87517d.f44092a, 2)) {
-                sek sek = f87517d;
+                Logger Logger = f87517d;
                 String valueOf = String.valueOf(messagePayload.toString());
-                sek.mo25414c(valueOf.length() == 0 ? new String("MessagePayload: ") : "MessagePayload: ".concat(valueOf), new Object[0]);
+                Logger.mo25414c(valueOf.length() == 0 ? new String("MessagePayload: ") : "MessagePayload: ".concat(valueOf), new Object[0]);
             }
         }
         if (messagePayload.f107982i) {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bort */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bort extends bxvk implements bxxd {
+public final class bort extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final bort f134503m;
@@ -49,7 +49,7 @@ public final class bort extends bxvk implements bxxd {
     static {
         bort bort = new bort();
         f134503m = bort;
-        bxvk.m124024a(bort.class, bort);
+        GeneratedMessageLite.m124024a(bort.class, bort);
     }
 
     private bort() {
@@ -66,7 +66,7 @@ public final class bort extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134503m, "\u0001\u000b\u0000\u0001\u0001\r\u000b\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဇ\u0003\u0005ဇ\u0005\u0006ဇ\u0006\u0007ဉ\u0007\tဆ\t\nဇ\n\u000bင\u0004\fဈ\u0002\rင\u000b", new Object[]{"a", "b", "c", "e", "g", "h", "i", "j", "k", "f", "d", "l"});
+            return GeneratedMessageLite.m124022a(f134503m, "\u0001\u000b\u0000\u0001\u0001\r\u000b\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဇ\u0003\u0005ဇ\u0005\u0006ဇ\u0006\u0007ဉ\u0007\tဆ\t\nဇ\n\u000bင\u0004\fဈ\u0002\rင\u000b", new Object[]{"a", "b", "c", "e", "g", "h", "i", "j", "k", "f", "d", "l"});
         } else if (i2 == 3) {
             return new bort();
         } else {

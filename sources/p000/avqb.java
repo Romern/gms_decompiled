@@ -25,7 +25,7 @@ final class avqb extends ConnectivityManager.NetworkCallback {
     public final void onAvailable(Network network) {
         synchronized (this.f93764c) {
             avqd avqd = this.f93763b;
-            sek sek = avqd.f93765a;
+            Logger Logger = avqd.f93765a;
             avqa a = avqa.m79037a(network, avqd.f93766b);
             synchronized (avqd.f93767c) {
                 if (!avqd.f93769e.mo66813a()) {

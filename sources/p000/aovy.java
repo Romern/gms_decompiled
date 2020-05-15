@@ -99,7 +99,7 @@ public final class aovy extends aovg {
             }
             blrh blrh = (blrh) da4.f164949b;
             if (!blrh.f127452a.mo73666a()) {
-                blrh.f127452a = bxvk.m124021a(blrh.f127452a);
+                blrh.f127452a = GeneratedMessageLite.m124021a(blrh.f127452a);
             }
             bxsy.m123078a(arrayList2, blrh.f127452a);
             arrayList.add(mo46934a(11, (blrh) da4.mo74062i()));

@@ -48,7 +48,7 @@ public final class wgy {
         brak brak = (brak) da3.f164949b;
         a.getClass();
         if (!brak.f142157d.mo73666a()) {
-            brak.f142157d = bxvk.m124021a(brak.f142157d);
+            brak.f142157d = GeneratedMessageLite.m124021a(brak.f142157d);
         }
         brak.f142157d.add(a);
         String b = cdsw.m134869b();

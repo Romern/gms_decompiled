@@ -23,14 +23,14 @@ public final class tag extends WebViewClient {
     public final void onPageFinished(WebView webView, String str) {
         super.onPageFinished(webView, str);
         ApiConsentChimeraActivity apiConsentChimeraActivity = this.f45548a;
-        sek sek = ApiConsentChimeraActivity.f30509a;
+        Logger Logger = ApiConsentChimeraActivity.f30509a;
         apiConsentChimeraActivity.f30514f.countDown();
     }
 
     public final void onReceivedError(WebView webView, WebResourceRequest webResourceRequest, WebResourceError webResourceError) {
         super.onReceivedError(webView, webResourceRequest, webResourceError);
         ApiConsentChimeraActivity apiConsentChimeraActivity = this.f45548a;
-        sek sek = ApiConsentChimeraActivity.f30509a;
+        Logger Logger = ApiConsentChimeraActivity.f30509a;
         apiConsentChimeraActivity.f30512d = 8;
         apiConsentChimeraActivity.finish();
     }

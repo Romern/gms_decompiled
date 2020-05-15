@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abek */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abek extends bxvk implements bxxd {
+public final class abek extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final abek f57241g;
@@ -31,7 +31,7 @@ public final class abek extends bxvk implements bxxd {
     static {
         abek abek = new abek();
         f57241g = abek;
-        bxvk.m124024a(abek.class, abek);
+        GeneratedMessageLite.m124024a(abek.class, abek);
     }
 
     private abek() {
@@ -48,7 +48,7 @@ public final class abek extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57241g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဂ\u0001\u0003ဇ\u0002\u0004ဈ\u0003\u0005ဈ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f57241g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဂ\u0001\u0003ဇ\u0002\u0004ဈ\u0003\u0005ဈ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new abek();
         } else {

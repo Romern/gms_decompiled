@@ -30,7 +30,7 @@ public final class bcxm implements bcle {
         }
         if (!a.equals(cbei.RICH_CARD) || cbff.f176896c != 107) {
             bbos.m88294d("RichCardMsgConv", "Attempted to convert non-rich card LighterMessage");
-            return bcqa.m89618a(bxtx.f164797b);
+            return bcqa.m89618a(ByteString.f164797b);
         }
         bctg c = bcth.m89920c();
         if (cbff.f176896c == 107) {
@@ -222,7 +222,7 @@ public final class bcxm implements bcle {
                     }
                     cbfu cbfu = (cbfu) da4.f164949b;
                     if (!cbfu.f176975a.mo73666a()) {
-                        cbfu.f176975a = bxvk.m124021a(cbfu.f176975a);
+                        cbfu.f176975a = GeneratedMessageLite.m124021a(cbfu.f176975a);
                     }
                     bxsy.m123078a(a2, cbfu.f176975a);
                     cbfu cbfu2 = (cbfu) da4.mo74062i();

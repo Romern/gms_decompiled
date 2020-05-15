@@ -39,7 +39,7 @@ final /* synthetic */ class gxx implements C0038ax {
         }
         bomv bomv = (bomv) da2.f164949b;
         if (!bomv.f133726a.mo73666a()) {
-            bomv.f133726a = bxvk.m124021a(bomv.f133726a);
+            bomv.f133726a = GeneratedMessageLite.m124021a(bomv.f133726a);
         }
         bxsy.m123078a(b, bomv.f133726a);
         if (da.f164950c) {

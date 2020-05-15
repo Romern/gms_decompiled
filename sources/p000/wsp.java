@@ -71,7 +71,7 @@ public final class wsp extends abh {
         }
         wso.f201a.setClickable(cfoj.m141543X());
         try {
-            aiaa aiaa = (aiaa) bxvk.m124016a(aiaa.f68501K, ((ahza) this.f51258d.get(i)).f68445c.mo73780k(), bxus.m123744c());
+            aiaa aiaa = (aiaa) GeneratedMessageLite.m124016a(aiaa.f68501K, ((ahza) this.f51258d.get(i)).f68445c.getKey(), bxus.m123744c());
             wso.mo29358a(aiaa.f68520h);
             wso.mo29357a(wsm.m42216a(aiaa));
         } catch (bxwf e) {
@@ -100,7 +100,7 @@ public final class wsp extends abh {
         }
         wso.f201a.setClickable(cfoj.m141543X());
         try {
-            aiaa aiaa = (aiaa) bxvk.m124016a(aiaa.f68501K, ((ahza) this.f51258d.get(i)).f68445c.mo73780k(), bxus.m123744c());
+            aiaa aiaa = (aiaa) GeneratedMessageLite.m124016a(aiaa.f68501K, ((ahza) this.f51258d.get(i)).f68445c.getKey(), bxus.m123744c());
             wso.mo29358a(aiaa.f68520h);
             wso.mo29357a(wsm.m42216a(aiaa));
         } catch (bxwf e) {

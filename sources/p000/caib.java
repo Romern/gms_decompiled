@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caib */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caib extends bxvk implements bxxd {
+public final class caib extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final caib f174620d;
@@ -22,7 +22,7 @@ public final class caib extends bxvk implements bxxd {
     static {
         caib caib = new caib();
         f174620d = caib;
-        bxvk.m124024a(caib.class, caib);
+        GeneratedMessageLite.m124024a(caib.class, caib);
     }
 
     private caib() {
@@ -40,7 +40,7 @@ public final class caib extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174620d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", caia.f174619a});
+            return GeneratedMessageLite.m124022a(f174620d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", caia.f174619a});
         } else if (i2 == 3) {
             return new caib();
         } else {

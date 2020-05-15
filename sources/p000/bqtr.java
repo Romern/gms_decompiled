@@ -23,7 +23,7 @@ final class bqtr extends bqnp {
             bqst = bqst.f141568b;
         }
         KeyPairGenerator keyPairGenerator = (KeyPairGenerator) bqvo.f141694f.mo69341a("RSA");
-        keyPairGenerator.initialize(new RSAKeyGenParameterSpec(bqss.f141566b, new BigInteger(1, bqss.f141567c.mo73780k())));
+        keyPairGenerator.initialize(new RSAKeyGenParameterSpec(bqss.f141566b, new BigInteger(1, bqss.f141567c.getKey())));
         KeyPair generateKeyPair = keyPairGenerator.generateKeyPair();
         RSAPublicKey rSAPublicKey = (RSAPublicKey) generateKeyPair.getPublic();
         RSAPrivateCrtKey rSAPrivateCrtKey = (RSAPrivateCrtKey) generateKeyPair.getPrivate();
@@ -36,14 +36,14 @@ final class bqtr extends bqnp {
         bqsv.f141583a = 0;
         bqst.getClass();
         bqsv.f141584b = bqst;
-        bxtx a = bxtx.m123261a(rSAPublicKey.getPublicExponent().toByteArray());
+        ByteString a = ByteString.m123261a(rSAPublicKey.getPublicExponent().toByteArray());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
         }
         a.getClass();
         ((bqsv) da.f164949b).f141586d = a;
-        bxtx a2 = bxtx.m123261a(rSAPublicKey.getModulus().toByteArray());
+        ByteString a2 = ByteString.m123261a(rSAPublicKey.getModulus().toByteArray());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -60,42 +60,42 @@ final class bqtr extends bqnp {
         bqsu.f141573a = 0;
         bqsv2.getClass();
         bqsu.f141574b = bqsv2;
-        bxtx a3 = bxtx.m123261a(rSAPrivateCrtKey.getPrivateExponent().toByteArray());
+        ByteString a3 = ByteString.m123261a(rSAPrivateCrtKey.getPrivateExponent().toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
         }
         a3.getClass();
         ((bqsu) da2.f164949b).f141575c = a3;
-        bxtx a4 = bxtx.m123261a(rSAPrivateCrtKey.getPrimeP().toByteArray());
+        ByteString a4 = ByteString.m123261a(rSAPrivateCrtKey.getPrimeP().toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
         }
         a4.getClass();
         ((bqsu) da2.f164949b).f141576d = a4;
-        bxtx a5 = bxtx.m123261a(rSAPrivateCrtKey.getPrimeQ().toByteArray());
+        ByteString a5 = ByteString.m123261a(rSAPrivateCrtKey.getPrimeQ().toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
         }
         a5.getClass();
         ((bqsu) da2.f164949b).f141577e = a5;
-        bxtx a6 = bxtx.m123261a(rSAPrivateCrtKey.getPrimeExponentP().toByteArray());
+        ByteString a6 = ByteString.m123261a(rSAPrivateCrtKey.getPrimeExponentP().toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
         }
         a6.getClass();
         ((bqsu) da2.f164949b).f141578f = a6;
-        bxtx a7 = bxtx.m123261a(rSAPrivateCrtKey.getPrimeExponentQ().toByteArray());
+        ByteString a7 = ByteString.m123261a(rSAPrivateCrtKey.getPrimeExponentQ().toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
         }
         a7.getClass();
         ((bqsu) da2.f164949b).f141579g = a7;
-        bxtx a8 = bxtx.m123261a(rSAPrivateCrtKey.getCrtCoefficient().toByteArray());
+        ByteString a8 = ByteString.m123261a(rSAPrivateCrtKey.getCrtCoefficient().toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -106,18 +106,18 @@ final class bqtr extends bqnp {
     }
 
     /* renamed from: a */
-    public final /* bridge */ /* synthetic */ bxxc mo69293a(bxtx bxtx) {
+    public final /* bridge */ /* synthetic */ bxxc mo69293a(ByteString bxtx) {
         bxus b = bxus.m123743b();
         bqss bqss = bqss.f141563d;
         try {
             bxuc h = bxtx.mo73764h();
-            bxvk bxvk = (bxvk) bqss.mo74142c(4);
-            bxxv a = bxxm.f165037a.mo74228a(bxvk);
-            a.mo74220a(bxvk, bxud.m123454a(h), b);
-            a.mo74225d(bxvk);
+            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bqss.mo74142c(4);
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+            a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), b);
+            a.mo74225d(GeneratedMessageLite);
             h.mo73787a(0);
-            bxvk.m124027b(bxvk);
-            return (bqss) bxvk;
+            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+            return (bqss) GeneratedMessageLite;
         } catch (IOException e) {
             if (!(e.getCause() instanceof bxwf)) {
                 throw new bxwf(e.getMessage());

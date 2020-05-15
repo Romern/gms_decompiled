@@ -109,7 +109,7 @@ public final class acye {
             SecretKey secretKey3 = acxy.f61066b;
             if (secretKey3 == null) {
                 SecretKey a = m49987a(secureRandom);
-                sdo.m34966a(a, "Message key must not be null.");
+                sdo.checkIfNull(a, "Message key must not be null.");
                 acxy.f61066b = a;
                 acxy.mo33228a("messageKey", a);
                 secretKey = a;
@@ -122,7 +122,7 @@ public final class acye {
             SecretKey secretKey4 = acxy.f61065a;
             if (secretKey4 == null) {
                 SecretKey a2 = m49987a(secureRandom);
-                sdo.m34966a(a2, "MAC key must not be null.");
+                sdo.checkIfNull(a2, "MAC key must not be null.");
                 acxy.f61065a = a2;
                 acxy.mo33228a("macKey", a2);
                 secretKey2 = a2;

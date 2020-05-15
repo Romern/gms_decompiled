@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blsj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blsj extends bxvk implements bxxd {
+public final class blsj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final blsj f127585i;
@@ -14,10 +14,10 @@ public final class blsj extends bxvk implements bxxd {
     public int f127587a;
 
     /* renamed from: b */
-    public bxtx f127588b = bxtx.f164797b;
+    public ByteString f127588b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f127589c = bxtx.f164797b;
+    public ByteString f127589c = ByteString.f164797b;
 
     /* renamed from: d */
     public bxwc f127590d = bxxn.f165040b;
@@ -26,13 +26,13 @@ public final class blsj extends bxvk implements bxxd {
     public int f127591e = 1;
 
     /* renamed from: f */
-    public bxtx f127592f = bxtx.f164797b;
+    public ByteString f127592f = ByteString.f164797b;
 
     /* renamed from: g */
     public int f127593g;
 
     /* renamed from: h */
-    public bxtx f127594h = bxtx.f164797b;
+    public ByteString f127594h = ByteString.f164797b;
 
     /* renamed from: j */
     private byte f127595j = 2;
@@ -40,7 +40,7 @@ public final class blsj extends bxvk implements bxxd {
     static {
         blsj blsj = new blsj();
         f127585i = blsj;
-        bxvk.m124024a(blsj.class, blsj);
+        GeneratedMessageLite.m124024a(blsj.class, blsj);
     }
 
     private blsj() {
@@ -61,7 +61,7 @@ public final class blsj extends bxvk implements bxxd {
             this.f127595j = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127585i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0001\u0002\u0001ᔊ\u0000\u0002ᔊ\u0001\u0003\u001c\u0004ဌ\u0002\u0005ည\u0003\u0006ဌ\u0004\u0007ည\u0005", new Object[]{"a", "b", "c", "d", "e", blsn.f127604a, "f", "g", blsl.f127603a, "h"});
+            return GeneratedMessageLite.m124022a(f127585i, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0001\u0002\u0001ᔊ\u0000\u0002ᔊ\u0001\u0003\u001c\u0004ဌ\u0002\u0005ည\u0003\u0006ဌ\u0004\u0007ည\u0005", new Object[]{"a", "b", "c", "d", "e", blsn.f127604a, "f", "g", blsl.f127603a, "h"});
         } else if (i2 == 3) {
             return new blsj();
         } else {

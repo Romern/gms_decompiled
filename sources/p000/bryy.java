@@ -144,7 +144,7 @@ public final class bryy {
                 brzd brzd2 = (brzd) da.f164949b;
                 brzh3.getClass();
                 if (!brzd2.f143724e.mo73666a()) {
-                    brzd2.f143724e = bxvk.m124021a(brzd2.f143724e);
+                    brzd2.f143724e = GeneratedMessageLite.m124021a(brzd2.f143724e);
                 }
                 brzd2.f143724e.add(brzh3);
             }

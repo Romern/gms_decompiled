@@ -45,7 +45,7 @@ public final class yxa {
     /* renamed from: a */
     public final void mo30820a(Goal.MetricObjective metricObjective) {
         sdo.m34971a(this.f54722e == 0, (Object) "Objective already set.");
-        sdo.m34966a(metricObjective, "Attempting to use a null objective");
+        sdo.checkIfNull(metricObjective, "Attempting to use a null objective");
         this.f54722e = 1;
         this.f54723f = metricObjective;
     }

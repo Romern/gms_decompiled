@@ -17,7 +17,7 @@ public final class bvah extends bxvd implements bxxd {
         bvai bvai2 = bvai.f155480d;
         bvae.getClass();
         if (!bvai.f155484c.mo73666a()) {
-            bvai.f155484c = bxvk.m124021a(bvai.f155484c);
+            bvai.f155484c = GeneratedMessageLite.m124021a(bvai.f155484c);
         }
         bvai.f155484c.add(bvae);
     }

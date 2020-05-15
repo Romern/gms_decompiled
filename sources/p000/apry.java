@@ -83,7 +83,7 @@ public class apry extends aplq {
             }
             abtp abtp = (abtp) da.f164949b;
             if (!abtp.f58290c.mo73666a()) {
-                abtp.f58290c = bxvk.m124021a(abtp.f58290c);
+                abtp.f58290c = GeneratedMessageLite.m124021a(abtp.f58290c);
             }
             bxsy.m123078a(asList, abtp.f58290c);
             bxvd da2 = abud.f58349v.mo74144da();
@@ -174,7 +174,7 @@ public class apry extends aplq {
                         abud.getClass();
                         abtp2.f58289b = abud;
                         abtp2.f58288a |= 1;
-                        int[] nativeGetPhraseAffinityScores = NativeIndex.nativeGetPhraseAffinityScores(this.f84806a.f58078n.f79071b, ((abtp) da.mo74062i()).mo73642k());
+                        int[] nativeGetPhraseAffinityScores = NativeIndex.nativeGetPhraseAffinityScores(this.f84806a.f58078n.f79071b, ((abtp) da.mo74062i()).serializeToBytes());
                         CorpusId[] corpusIdArr = new CorpusId[length3];
                         while (i < phraseAffinityCorpusSpecArr2.length) {
                             corpusIdArr[i] = phraseAffinityCorpusSpecArr2[i].f9608a;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmaw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmaw extends bxvk implements bxxd {
+public final class bmaw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bmaw f128509f;
@@ -28,7 +28,7 @@ public final class bmaw extends bxvk implements bxxd {
     static {
         bmaw bmaw = new bmaw();
         f128509f = bmaw;
-        bxvk.m124024a(bmaw.class, bmaw);
+        GeneratedMessageLite.m124024a(bmaw.class, bmaw);
     }
 
     private bmaw() {
@@ -45,7 +45,7 @@ public final class bmaw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128509f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဈ\u0002\u0003ဉ\u0003\u0004ဈ\u0001", new Object[]{"a", "b", "d", "e", "c"});
+            return GeneratedMessageLite.m124022a(f128509f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဈ\u0002\u0003ဉ\u0003\u0004ဈ\u0001", new Object[]{"a", "b", "d", "e", "c"});
         } else if (i2 == 3) {
             return new bmaw();
         } else {

@@ -10,7 +10,7 @@ import java.util.Map;
 public final class glq {
 
     /* renamed from: a */
-    public static final sek f18566a = new sek("DroidGuard", "DroidGuardUtil");
+    public static final Logger f18566a = new Logger("DroidGuard", "DroidGuardUtil");
 
     /* renamed from: b */
     public static final Map f18567b = new HashMap();
@@ -28,8 +28,8 @@ public final class glq {
 
     /* renamed from: a */
     public static final String m13398a(Context context, String str, String str2) {
-        if (!gnv.m13504N()) {
-            f18566a.mo25409a("DroidGuard is turned off", new Object[0]);
+        if (!gnv.isDroidGuardEnabled()) {
+            f18566a.logVerbose("DroidGuard is turned off", new Object[0]);
             return null;
         }
         glq glq = new glq(context);
@@ -38,10 +38,10 @@ public final class glq {
 
     /* renamed from: a */
     public static String m13399a(Context context, String str, Map map) {
-        if (gnv.m13504N()) {
+        if (gnv.isDroidGuardEnabled()) {
             return new glq(context).mo12021a(str, map);
         }
-        f18566a.mo25409a("DroidGuard is turned off", new Object[0]);
+        f18566a.logVerbose("DroidGuard is turned off", new Object[0]);
         return null;
     }
 
@@ -57,18 +57,18 @@ public final class glq {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final String mo12021a(String str, Map map) {
-        sdo.m34966a(this.f18568c, "context cannot be null!");
-        sdo.m34966a((Object) str, (Object) "flowName cannot be null!");
-        sdo.m34966a(map, "args cannot be null!");
-        if (!gnv.m13504N()) {
-            f18566a.mo25409a("DroidGuard is turned off", new Object[0]);
+        sdo.checkIfNull(this.f18568c, "context cannot be null!");
+        sdo.checkIfNull((Object) str, (Object) "flowName cannot be null!");
+        sdo.checkIfNull(map, "args cannot be null!");
+        if (!gnv.isDroidGuardEnabled()) {
+            f18566a.logVerbose("DroidGuard is turned off", new Object[0]);
             return null;
         }
         try {
             String a = this.f18569d.mo28903a(str, map, (DroidGuardResultsRequest) null);
             String format = String.format("DroidGuard results.length:%s, flow:%s", Integer.valueOf(a.length()), str);
             if (!gnv.m13567l()) {
-                f18566a.mo25409a(format, new Object[0]);
+                f18566a.logVerbose(format, new Object[0]);
             } else {
                 f18566a.mo25416d(format, new Object[0]);
             }
@@ -88,7 +88,7 @@ public final class glq {
         }
         hashMap.put("dg_androidId", ryv.m34679a(this.f18568c));
         hashMap.put("dg_gmsCoreVersion", Integer.toString(ilq.f21310e));
-        hashMap.put("dg_package", ilq.f21309d);
+        hashMap.put("dg_package", ilq.packageName);
         return hashMap;
     }
 }

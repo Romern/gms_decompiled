@@ -166,7 +166,7 @@ public final class agtk extends aaab {
         if (mdpUpsellOfferRequest4 != null) {
             boot a4 = a3.mo35978a(6, "GTAF_Server", str3);
             bxvd bxvd = (bxvd) a4.mo74142c(5);
-            bxvd.mo73625a((bxvk) a4);
+            bxvd.mo73625a((GeneratedMessageLite) a4);
             if (cfmq.m140238i()) {
                 agrl.m54945a(bxvd, mdpUpsellOfferRequest4.f80219b);
             }
@@ -322,7 +322,7 @@ public final class agtk extends aaab {
                                     bszu.mo70729a(str10, (String) obj2);
                                 }
                             }
-                            String encodeToString = Base64.encodeToString(((bszw) bszu.mo74062i()).mo73642k(), 10);
+                            String encodeToString = Base64.encodeToString(((bszw) bszu.mo74062i()).serializeToBytes(), 10);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;

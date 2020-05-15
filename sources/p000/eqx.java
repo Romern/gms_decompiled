@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 public final class eqx {
 
     /* renamed from: a */
-    public final sek f15540a;
+    public final Logger f15540a;
 
     /* renamed from: b */
     public final ffk f15541b;
@@ -31,7 +31,7 @@ public final class eqx {
     public eqx(Context context, ffk ffk, ExecutorService executorService, erg erg, eor eor) {
         equ equ = new equ(context);
         ffv a = ffv.m11622a(context, ffk);
-        sek a2 = ffw.m11631a("RemoteResourceProducer");
+        Logger a2 = ffw.m11631a("RemoteResourceProducer");
         this.f15541b = ffk;
         this.f15542c = executorService;
         this.f15543d = erg;

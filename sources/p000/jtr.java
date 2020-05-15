@@ -20,7 +20,7 @@ import java.util.Map;
 final class jtr implements jtt {
 
     /* renamed from: a */
-    private static final sek f23197a = jsy.m17256a("ExternalDeviceInfoDB");
+    private static final Logger f23197a = jsy.m17256a("ExternalDeviceInfoDB");
 
     /* renamed from: b */
     private static LevelDb f23198b;

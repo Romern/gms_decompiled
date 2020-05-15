@@ -15,7 +15,7 @@ public final class avqw extends DialogFragment {
     public final void mo51517a(int i) {
         Activity activity = getActivity();
         if (activity instanceof SystemUpdateChimeraActivity) {
-            sek sek = SystemUpdateChimeraActivity.f109513a;
+            Logger Logger = SystemUpdateChimeraActivity.f109513a;
             ((SystemUpdateChimeraActivity) activity).mo59678a(i);
         }
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bioy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bioy extends bxvk implements bxxd {
+public final class bioy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bioy f121118e;
@@ -28,7 +28,7 @@ public final class bioy extends bxvk implements bxxd {
     static {
         bioy bioy = new bioy();
         f121118e = bioy;
-        bxvk.m124024a(bioy.class, bioy);
+        GeneratedMessageLite.m124024a(bioy.class, bioy);
     }
 
     private bioy() {
@@ -49,7 +49,7 @@ public final class bioy extends bxvk implements bxxd {
             this.f121124f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121118e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ᔋ\u0000\u0002ဋ\u0001\u0003ဇ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f121118e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ᔋ\u0000\u0002ဋ\u0001\u0003ဇ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bioy();
         } else {

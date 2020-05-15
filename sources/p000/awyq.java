@@ -313,10 +313,10 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
             bxwc bxwc = this.f95293J.f128683d;
             int size = bxwc.size();
             for (int i = 0; i < size; i++) {
-                arrayList.add(new PublicKeyCredentialDescriptor("public-key", ((bsnu) bxwc.get(i)).f146339a.mo73780k(), null));
+                arrayList.add(new PublicKeyCredentialDescriptor("public-key", ((bsnu) bxwc.get(i)).f146339a.getKey(), null));
             }
             xqc xqc = new xqc();
-            xqc.mo30032a(this.f95293J.f128682c.mo73780k());
+            xqc.mo30032a(this.f95293J.f128682c.getKey());
             xqc.mo30031a(this.f95293J.f128685f);
             xqc.f52905a = Double.valueOf((double) this.f95293J.f128684e);
             xqc.f52906b = arrayList;
@@ -389,7 +389,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
         if (bmdn == null) {
             bmdn = bmdn.f128831k;
         }
-        bxtx bxtx = bmdn.f128836d;
+        ByteString bxtx = bmdn.f128836d;
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -408,7 +408,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
         if (bmdn == null) {
             bmdn = bmdn.f128831k;
         }
-        bxtx bxtx = bmdn.f128836d;
+        ByteString bxtx = bmdn.f128836d;
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -427,7 +427,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
         if (bmdn == null) {
             bmdn = bmdn.f128831k;
         }
-        bxtx bxtx = bmdn.f128836d;
+        ByteString bxtx = bmdn.f128836d;
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -670,7 +670,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
                 if (bmdn == null) {
                     bmdn = bmdn.f128831k;
                 }
-                bxtx bxtx = bmdn.f128836d;
+                ByteString bxtx = bmdn.f128836d;
                 if (da7.f164950c) {
                     da7.mo74035c();
                     da7.f164950c = false;
@@ -680,7 +680,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
                 bmcj3.f128694a |= 4;
                 bmcj3.f128697d = bxtx;
                 bxvd da8 = bsnt.f146330f.mo74144da();
-                bxtx a4 = bxtx.m123261a(a3.f31721c);
+                ByteString a4 = bxtx.m123261a(a3.f31721c);
                 if (da8.f164950c) {
                     da8.mo74035c();
                     da8.f164950c = false;
@@ -689,7 +689,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
                 a4.getClass();
                 bsnt.f146332a = 2 | bsnt.f146332a;
                 bsnt.f146334c = a4;
-                bxtx a5 = bxtx.m123261a(a3.f31719a);
+                ByteString a5 = bxtx.m123261a(a3.f31719a);
                 if (da8.f164950c) {
                     da8.mo74035c();
                     da8.f164950c = false;
@@ -698,7 +698,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
                 a5.getClass();
                 bsnt2.f146332a |= 1;
                 bsnt2.f146333b = a5;
-                bxtx a6 = bxtx.m123261a(a3.f31722d);
+                ByteString a6 = bxtx.m123261a(a3.f31722d);
                 if (da8.f164950c) {
                     da8.mo74035c();
                     da8.f164950c = false;
@@ -707,7 +707,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
                 a6.getClass();
                 bsnt3.f146332a |= 8;
                 bsnt3.f146336e = a6;
-                bxtx a7 = bxtx.m123261a(a3.f31720b);
+                ByteString a7 = bxtx.m123261a(a3.f31720b);
                 if (da8.f164950c) {
                     da8.mo74035c();
                     da8.f164950c = false;
@@ -935,7 +935,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
                 if (bmct == null) {
                     bmct = bmct.f128745b;
                 }
-                awyp.mo52053a(new SetUpBiometricAuthenticationKeysRequest(bmct.mo73642k()));
+                awyp.mo52053a(new SetUpBiometricAuthenticationKeysRequest(bmct.serializeToBytes()));
                 return;
             }
         }
@@ -1304,7 +1304,7 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
     }
 
     /* renamed from: a */
-    public final void mo52119a(int i, bxtx bxtx) {
+    public final void mo52119a(int i, ByteString bxtx) {
         bmcc bmcc;
         if (bxtx == null) {
             bmcw c = m81551c(i);
@@ -1483,12 +1483,12 @@ public final class awyq extends bkdx implements View.OnClickListener, awyu, awzd
             }
             awgf awgf = this.f95290G;
             awfr awfr = this.f95289F;
-            byte[] k = bxtx.m123258a(c.f128760a).mo73780k();
+            byte[] k = ByteString.m123258a(c.f128760a).getKey();
             awgf.f94296g = true;
             spn.m35857a(new awgd(awgf, awgf.f26825a, awfr, k, signature2, i), new Void[0]);
             return;
         }
-        mo52119a(i, (bxtx) null);
+        mo52119a(i, (ByteString) null);
     }
 
     /* access modifiers changed from: package-private */

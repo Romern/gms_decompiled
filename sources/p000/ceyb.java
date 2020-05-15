@@ -11,6 +11,6 @@ final /* synthetic */ class ceyb implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (btvy) bxvk.m124014a(btvy.f152660f, bArr);
+        return (btvy) GeneratedMessageLite.m124014a(btvy.f152660f, bArr);
     }
 }

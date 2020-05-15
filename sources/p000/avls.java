@@ -17,7 +17,7 @@ import java.util.Locale;
 public final class avls {
 
     /* renamed from: a */
-    private static final sek f93327a = avpq.m79016c("Device");
+    private static final Logger f93327a = avpq.m79016c("Device");
 
     /* renamed from: a */
     public static boolean m78732a() {

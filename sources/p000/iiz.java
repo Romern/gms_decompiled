@@ -15,7 +15,7 @@ import java.util.List;
 public final class iiz {
 
     /* renamed from: b */
-    public static final sek f21079b = new sek("PermitStore");
+    public static final Logger f21079b = new Logger("PermitStore");
 
     /* renamed from: a */
     public final iiw f21080a;
@@ -139,7 +139,7 @@ public final class iiz {
 
     /* renamed from: c */
     public final void mo13055c(String str) {
-        f21079b.mo25414c("Removing permit with permitId: %s...", sek.m35081a(str));
+        f21079b.mo25414c("Removing permit with permitId: %s...", Logger.m35081a(str));
         m15499a(this.f21080a.mo13052a(), str);
     }
 

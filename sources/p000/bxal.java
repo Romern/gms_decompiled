@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxal */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxal extends bxvk implements bxxd {
+public final class bxal extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bxal f161712c;
@@ -25,10 +25,10 @@ public final class bxal extends bxvk implements bxxd {
     static {
         bxal bxal = new bxal();
         f161712c = bxal;
-        bxvk.m124024a(bxal.class, bxal);
+        GeneratedMessageLite.m124024a(bxal.class, bxal);
         bwxl bwxl = bwxl.f161383i;
         bxal bxal2 = f161712c;
-        f161713d = bxvk.m124006a(bwxl, bxal2, bxal2, 255478364, bxzf.MESSAGE);
+        f161713d = GeneratedMessageLite.m124006a(bwxl, bxal2, bxal2, 255478364, bxzf.MESSAGE);
     }
 
     private bxal() {
@@ -45,7 +45,7 @@ public final class bxal extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f161712c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"e", "a", "b"});
+            return GeneratedMessageLite.m124022a(f161712c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"e", "a", "b"});
         } else if (i2 == 3) {
             return new bxal();
         } else {

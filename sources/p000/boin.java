@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boin */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boin extends bxvk implements bxxd {
+public final class boin extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final boin f133196c;
@@ -19,7 +19,7 @@ public final class boin extends bxvk implements bxxd {
     static {
         boin boin = new boin();
         f133196c = boin;
-        bxvk.m124024a(boin.class, boin);
+        GeneratedMessageLite.m124024a(boin.class, boin);
     }
 
     private boin() {
@@ -36,7 +36,7 @@ public final class boin extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133196c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f133196c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new boin();
         } else {

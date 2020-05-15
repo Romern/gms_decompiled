@@ -5,5 +5,5 @@ package p000;
 public final class dcr {
 
     /* renamed from: a */
-    public static final bxvj f12876a = bxvk.m124006a(dcp.f12868a, dcs.f12877a, dcs.f12877a, 217902173, bxzf.MESSAGE);
+    public static final bxvj f12876a = GeneratedMessageLite.m124006a(dcp.f12868a, dcs.f12877a, dcs.f12877a, 217902173, bxzf.MESSAGE);
 }

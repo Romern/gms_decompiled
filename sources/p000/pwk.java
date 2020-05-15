@@ -18,7 +18,7 @@ public final class pwk extends ptb {
     /* renamed from: a */
     public final void mo23348a(byte[] bArr) {
         try {
-            blsd blsd = (blsd) bxvk.m124016a(blsd.f127565c, bArr, bxus.m123744c());
+            blsd blsd = (blsd) GeneratedMessageLite.m124016a(blsd.f127565c, bArr, bxus.m123744c());
             int a = blsc.m107519a(blsd.f127568b);
             int i = 0;
             if (a != 0) {

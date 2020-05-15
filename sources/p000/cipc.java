@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cipc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cipc extends bxvk implements bxxd {
+public final class cipc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final cipc f191180e;
@@ -25,7 +25,7 @@ public final class cipc extends bxvk implements bxxd {
     static {
         cipc cipc = new cipc();
         f191180e = cipc;
-        bxvk.m124024a(cipc.class, cipc);
+        GeneratedMessageLite.m124024a(cipc.class, cipc);
     }
 
     private cipc() {
@@ -42,7 +42,7 @@ public final class cipc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191180e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\t\u0002\t\u0003\t\u0004\t", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f191180e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\t\u0002\t\u0003\t\u0004\t", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new cipc();
         } else {

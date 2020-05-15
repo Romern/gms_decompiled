@@ -166,7 +166,7 @@ public final class UpdateActionOnlyChimeraActivity extends FragmentActivity impl
                 this.f82320k = stringExtra;
                 this.f82321l = intent.getIntExtra("EXTRA_START_VIEW_TYPE_NUM", 0);
                 sdo.m34969a(this.f82312c, (Object) "Account name must not be empty.");
-                sdo.m34966a(this.f82316g, "Update person must not be null.");
+                sdo.checkIfNull(this.f82316g, "Update person must not be null.");
                 sdo.m34969a(this.f82319j, (Object) "Target circleId must not be null.");
                 rjy rjy = new rjy(this, this, this);
                 rjo rjo = allr.f73629a;

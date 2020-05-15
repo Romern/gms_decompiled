@@ -27,7 +27,7 @@ public final class aitg implements aith {
     private aitl f69690d;
 
     /* renamed from: e */
-    private bxtx f69691e;
+    private ByteString f69691e;
 
     public aitg(aitc aitc, aiss aiss, String str) {
         this.f69687a = aitc;
@@ -36,7 +36,7 @@ public final class aitg implements aith {
     }
 
     /* renamed from: b */
-    private static cbmo m57898b(bxtx bxtx) {
+    private static cbmo m57898b(ByteString bxtx) {
         bxvd da = cbmo.f177654h.mo74144da();
         String uuid = UUID.randomUUID().toString();
         if (da.f164950c) {
@@ -105,7 +105,7 @@ public final class aitg implements aith {
             aiss aiss = this.f69688b;
             String str = this.f69689c;
             bxvd da = cbla.f177461f.mo74144da();
-            cbmo b = m57898b(bxtx.f164797b);
+            cbmo b = m57898b(ByteString.f164797b);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -219,7 +219,7 @@ public final class aitg implements aith {
             aitc aitc = this.f69687a;
             aitj aitj = aitc.f69678e;
             ClientContext clientContext = aitc.f69674a;
-            bxtx bxtx = this.f69691e;
+            ByteString bxtx = this.f69691e;
             bxvd da = cbkd.f177393c.mo74144da();
             cbmo b = m57898b(bxtx);
             if (da.f164950c) {
@@ -284,7 +284,7 @@ public final class aitg implements aith {
             try {
                 aitl aitl = this.f69690d;
                 ClientContext clientContext = this.f69687a.f69674a;
-                bxtx bxtx = this.f69691e;
+                ByteString bxtx = this.f69691e;
                 bxvd da = cbkr.f177440b.mo74144da();
                 cbmo b = m57898b(bxtx);
                 if (da.f164950c) {
@@ -317,7 +317,7 @@ public final class aitg implements aith {
     }
 
     /* renamed from: a */
-    public final boolean mo37995a(aiss aiss, bxtx bxtx, byte[] bArr) {
+    public final boolean mo37995a(aiss aiss, ByteString bxtx, byte[] bArr) {
         try {
             aitc aitc = this.f69687a;
             aiti aiti = aitc.f69676c;
@@ -340,7 +340,7 @@ public final class aitg implements aith {
             uuid.getClass();
             cbkj.f177409c = uuid;
             cbkj.f177410d = cbki.m127937a(6);
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = bxtx.m123261a(bArr);
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -409,7 +409,7 @@ public final class aitg implements aith {
     }
 
     /* renamed from: a */
-    public final boolean mo37996a(bxtx bxtx) {
+    public final boolean mo37996a(ByteString bxtx) {
         try {
             aitc aitc = this.f69687a;
             aitk aitk = aitc.f69675b;

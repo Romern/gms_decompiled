@@ -69,7 +69,7 @@ final /* synthetic */ class abqw implements Runnable {
                             }
                             abst abst2 = (abst) da.f164949b;
                             if (!abst2.f58164d.mo73666a()) {
-                                abst2.f58164d = bxvk.m124021a(abst2.f58164d);
+                                abst2.f58164d = GeneratedMessageLite.m124021a(abst2.f58164d);
                             }
                             bxsy.m123078a(bxwc, abst2.f58164d);
                             absy absy3 = abss.f58158c;

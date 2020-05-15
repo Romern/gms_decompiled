@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzes */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzes extends bxvk implements bxxd {
+public final class bzes extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bzes f169712e;
@@ -28,10 +28,10 @@ public final class bzes extends bxvk implements bxxd {
     static {
         bzes bzes = new bzes();
         f169712e = bzes;
-        bxvk.m124024a(bzes.class, bzes);
+        GeneratedMessageLite.m124024a(bzes.class, bzes);
         blcc blcc = blcc.f125904a;
         bzes bzes2 = f169712e;
-        f169713f = bxvk.m124006a(blcc, bzes2, bzes2, 84453462, bxzf.MESSAGE);
+        f169713f = GeneratedMessageLite.m124006a(blcc, bzes2, bzes2, 84453462, bxzf.MESSAGE);
     }
 
     private bzes() {
@@ -48,7 +48,7 @@ public final class bzes extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f169712e, "\u0001\u0003\u0000\u0001\u0001\u0005\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0004ဉ\u0002\u0005ဉ\u0003", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f169712e, "\u0001\u0003\u0000\u0001\u0001\u0005\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0004ဉ\u0002\u0005ဉ\u0003", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bzes();
         } else {

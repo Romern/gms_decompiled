@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bywg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bywg extends bxvk implements bxxd {
+public final class bywg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bywg f168570c;
@@ -19,7 +19,7 @@ public final class bywg extends bxvk implements bxxd {
     static {
         bywg bywg = new bywg();
         f168570c = bywg;
-        bxvk.m124024a(bywg.class, bywg);
+        GeneratedMessageLite.m124024a(bywg.class, bywg);
     }
 
     private bywg() {
@@ -36,7 +36,7 @@ public final class bywg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168570c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f168570c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bywg();
         } else {

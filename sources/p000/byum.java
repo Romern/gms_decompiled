@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byum */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byum extends bxvk implements bxxd {
+public final class byum extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final byum f168308d;
@@ -22,7 +22,7 @@ public final class byum extends bxvk implements bxxd {
     static {
         byum byum = new byum();
         f168308d = byum;
-        bxvk.m124024a(byum.class, byum);
+        GeneratedMessageLite.m124024a(byum.class, byum);
     }
 
     private byum() {
@@ -39,7 +39,7 @@ public final class byum extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168308d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001က\u0000\u0002က\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f168308d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001က\u0000\u0002က\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new byum();
         } else {

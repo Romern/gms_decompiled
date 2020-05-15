@@ -18,7 +18,7 @@ public final class argz {
     static final long f87711a = TimeUnit.MINUTES.toMillis(10);
 
     /* renamed from: b */
-    public static final sek f87712b = ascp.m73787a("D2D", "EnrollmentChecker");
+    public static final Logger f87712b = ascp.m73787a("D2D", "EnrollmentChecker");
 
     /* renamed from: d */
     private static volatile argz f87713d;
@@ -87,7 +87,7 @@ public final class argz {
     /* renamed from: b */
     public final synchronized void mo48531b(List list) {
         cgqd.m146558c();
-        f87712b.mo25409a("Enrolling accounts", new Object[0]);
+        f87712b.logVerbose("Enrolling accounts", new Object[0]);
         CountDownLatch countDownLatch = new CountDownLatch(list.size());
         long currentTimeMillis = System.currentTimeMillis();
         Iterator it = list.iterator();
@@ -139,7 +139,7 @@ public final class argz {
         if (currentTimeMillis - this.f87715e <= f87711a) {
             return false;
         }
-        f87712b.mo25409a("Enrolling accounts", new Object[0]);
+        f87712b.logVerbose("Enrolling accounts", new Object[0]);
         CountDownLatch countDownLatch = new CountDownLatch(list.size());
         Iterator it = list.iterator();
         while (it.hasNext()) {

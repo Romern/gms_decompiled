@@ -114,7 +114,7 @@ public final class PaymentData extends AbstractSafeParcelable {
     /* renamed from: a */
     public static PaymentData m93792a(String str) {
         awbh a = m93791a();
-        sdo.m34966a((Object) str, (Object) "paymentDataJson cannot be null!");
+        sdo.checkIfNull((Object) str, (Object) "paymentDataJson cannot be null!");
         PaymentData paymentData = a.f94145a;
         paymentData.f109882g = str;
         return paymentData;

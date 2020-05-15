@@ -88,7 +88,7 @@ public final class avcc {
         }
         bxsr bxsr = (bxsr) da.f164949b;
         if (!bxsr.f164727a.mo73666a()) {
-            bxsr.f164727a = bxvk.m124019a(bxsr.f164727a);
+            bxsr.f164727a = GeneratedMessageLite.m124019a(bxsr.f164727a);
         }
         bxsy.m123078a(set, bxsr.f164727a);
         return (bxsr) da.mo74062i();

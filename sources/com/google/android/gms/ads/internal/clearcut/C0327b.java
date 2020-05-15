@@ -38,7 +38,7 @@ public final class C0327b {
             bxvd.f164950c = false;
         }
         C0332g gVar = C0332g.f8102e;
-        ((C0332g) bxvd.f164949b).f8106c = bxvk.m124029dd();
+        ((C0332g) bxvd.f164949b).f8106c = GeneratedMessageLite.m124029dd();
         List<String> b = C0371o.m5341b();
         ArrayList arrayList = new ArrayList();
         for (String str : b) {
@@ -55,7 +55,7 @@ public final class C0327b {
         }
         C0332g gVar2 = (C0332g) bxvd.f164949b;
         if (!gVar2.f8106c.mo73666a()) {
-            gVar2.f8106c = bxvk.m124020a(gVar2.f8106c);
+            gVar2.f8106c = GeneratedMessageLite.m124020a(gVar2.f8106c);
         }
         bxsy.m123078a(arrayList, gVar2.f8106c);
         C0330e a = this.f8091a.mo6570a(((C0332g) this.f8093c.mo74062i()).mo73642k());

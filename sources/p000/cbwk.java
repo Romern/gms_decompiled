@@ -11,6 +11,6 @@ final /* synthetic */ class cbwk implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (ggx) bxvk.m124014a(ggx.f18150b, bArr);
+        return (ggx) GeneratedMessageLite.m124014a(ggx.f18150b, bArr);
     }
 }

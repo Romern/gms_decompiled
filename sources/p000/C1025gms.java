@@ -12,7 +12,7 @@ final class C1025gms implements gmt {
             return null;
         }
         try {
-            return (bsne) bxvk.m124016a(bsne.f146234a, sqd.m35971c(str.substring(7)), bxus.m123744c());
+            return (bsne) GeneratedMessageLite.m124016a(bsne.f146234a, sqd.m35971c(str.substring(7)), bxus.m123744c());
         } catch (bxwf e) {
             return null;
         }

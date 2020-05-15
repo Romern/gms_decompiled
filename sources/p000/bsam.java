@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsam */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsam extends bxvk implements bxxd {
+public final class bsam extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bsam f143872d;
@@ -17,7 +17,7 @@ public final class bsam extends bxvk implements bxxd {
     public bxwc f143875b = bxxn.f165040b;
 
     /* renamed from: c */
-    public bxtx f143876c = bxtx.f164797b;
+    public ByteString f143876c = ByteString.f164797b;
 
     /* renamed from: e */
     private byte f143877e = 2;
@@ -25,7 +25,7 @@ public final class bsam extends bxvk implements bxxd {
     static {
         bsam bsam = new bsam();
         f143872d = bsam;
-        bxvk.m124024a(bsam.class, bsam);
+        GeneratedMessageLite.m124024a(bsam.class, bsam);
     }
 
     private bsam() {
@@ -46,7 +46,7 @@ public final class bsam extends bxvk implements bxxd {
             this.f143877e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f143872d, "\u0001\u0002\u0000\u0001\u0001\u0005\u0002\u0000\u0001\u0001\u0001Л\u0005ည\u0000", new Object[]{"a", "b", bsan.class, "c"});
+            return GeneratedMessageLite.m124022a(f143872d, "\u0001\u0002\u0000\u0001\u0001\u0005\u0002\u0000\u0001\u0001\u0001Л\u0005ည\u0000", new Object[]{"a", "b", bsan.class, "c"});
         } else if (i2 == 3) {
             return new bsam();
         } else {

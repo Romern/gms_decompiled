@@ -54,7 +54,7 @@ public final class orn {
         }
         bpcl a = this.f38280a.mo22539a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         return bxvd;
     }
 
@@ -257,7 +257,7 @@ public final class orn {
         bpcs2.f135846l = i13;
         if (list != null) {
             if (!bpcs2.f135847m.mo73666a()) {
-                bpcs2.f135847m = bxvk.m124019a(bpcs2.f135847m);
+                bpcs2.f135847m = GeneratedMessageLite.m124019a(bpcs2.f135847m);
             }
             bxsy.m123078a(list, bpcs2.f135847m);
         }
@@ -268,7 +268,7 @@ public final class orn {
             }
             bpcs bpcs3 = (bpcs) da.f164949b;
             if (!bpcs3.f135848n.mo73666a()) {
-                bpcs3.f135848n = bxvk.m124019a(bpcs3.f135848n);
+                bpcs3.f135848n = GeneratedMessageLite.m124019a(bpcs3.f135848n);
             }
             bxsy.m123078a(list2, bpcs3.f135848n);
         }
@@ -279,7 +279,7 @@ public final class orn {
             }
             bpcs bpcs4 = (bpcs) da.f164949b;
             if (!bpcs4.f135849o.mo73666a()) {
-                bpcs4.f135849o = bxvk.m124019a(bpcs4.f135849o);
+                bpcs4.f135849o = GeneratedMessageLite.m124019a(bpcs4.f135849o);
             }
             bxsy.m123078a(list3, bpcs4.f135849o);
         }
@@ -309,13 +309,13 @@ public final class orn {
     /* renamed from: a */
     public final void mo22545a(bpcl bpcl, int i) {
         bxvd bxvd = (bxvd) bpcl.mo74142c(5);
-        bxvd.mo73625a((bxvk) bpcl);
+        bxvd.mo73625a((GeneratedMessageLite) bpcl);
         mo22547a(bxvd, i);
     }
 
     /* renamed from: a */
     public final void mo22546a(bpdn bpdn, bpdo bpdo) {
-        sdo.m34966a(bpdn, "errorCode is necessary");
+        sdo.checkIfNull(bpdn, "errorCode is necessary");
         bxvd da = bpdp.f136352f.mo74144da();
         int i = bpdn.f136282v;
         if (da.f164950c) {

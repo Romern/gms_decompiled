@@ -141,10 +141,10 @@ public final class aqhk extends aqiv {
             bsrg = bsrg.f146749m;
         }
         bxvd bxvd = (bxvd) bsrg.mo74142c(5);
-        bxvd.mo73625a((bxvk) bsrg);
+        bxvd.mo73625a((GeneratedMessageLite) bsrg);
         bsqi bsqi = this.f86118i;
         bxvd bxvd2 = (bxvd) bsqi.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bsqi);
+        bxvd2.mo73625a((GeneratedMessageLite) bsqi);
         this.f86116d.mo47920e();
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
@@ -226,7 +226,7 @@ public final class aqhk extends aqiv {
             bsrf2 = bsrf.f146744d;
         }
         bxvd bxvd3 = (bxvd) bsrf2.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bsrf2);
+        bxvd3.mo73625a((GeneratedMessageLite) bsrf2);
         if (bxvd3.f164950c) {
             bxvd3.mo74035c();
             bxvd3.f164950c = false;
@@ -254,7 +254,7 @@ public final class aqhk extends aqiv {
         if (this.f86117e.mo58959k() != null) {
             bsqi bsqi = this.f86118i;
             bxvd bxvd = (bxvd) bsqi.mo74142c(5);
-            bxvd.mo73625a((bxvk) bsqi);
+            bxvd.mo73625a((GeneratedMessageLite) bsqi);
             bxvd da = bssl.f146873c.mo74144da();
             if (!z) {
                 i = 3;

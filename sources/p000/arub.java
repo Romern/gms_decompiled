@@ -77,7 +77,7 @@ final class arub implements Runnable {
             }
             bsaa bsaa = (bsaa) da2.f164949b;
             if (!bsaa.f143821b.mo73666a()) {
-                bsaa.f143821b = bxvk.m124021a(bsaa.f143821b);
+                bsaa.f143821b = GeneratedMessageLite.m124021a(bsaa.f143821b);
             }
             bxsy.m123078a(asList, bsaa.f143821b);
             if (da2.f164950c) {

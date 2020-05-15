@@ -99,7 +99,7 @@ public final class aeuf extends aeub {
             bznf.f170702a = i2 | 4;
         }
         if (!bznf.f170704c.mo73666a()) {
-            bznf.f170704c = bxvk.m124021a(bznf.f170704c);
+            bznf.f170704c = GeneratedMessageLite.m124021a(bznf.f170704c);
         }
         bxsy.m123078a(list, bznf.f170704c);
         bznd.mo74550a(aexx.m52666a(sharingCondition));
@@ -146,7 +146,7 @@ public final class aeuf extends aeub {
             bzlx bzlx = (bzlx) bxwc.get(i3);
             Context context2 = this.f63812c;
             bxvd bxvd = (bxvd) bzlx.mo74142c(5);
-            bxvd.mo73625a((bxvk) bzlx);
+            bxvd.mo73625a((GeneratedMessageLite) bzlx);
             LocationShare a3 = aexx.m52668a(context2, bxvd, null);
             if (a3 != null) {
                 arrayList.add(a3);

@@ -14,7 +14,7 @@ public final class atdm implements atcl {
         }
         btiy.getClass();
         ((btlb) da.f164949b).f149340a = btiy;
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -43,7 +43,7 @@ public final class atdm implements atcl {
         btjr.f149172c = btjw;
         btiy.getClass();
         btjr.f149170a = btiy;
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

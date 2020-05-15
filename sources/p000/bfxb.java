@@ -134,7 +134,7 @@ public final class bfxb {
                     }
                     bfxs bfxs = (bfxs) da.f164949b;
                     if (!bfxs.f115617c.mo73666a()) {
-                        bfxs.f115617c = bxvk.m124019a(bfxs.f115617c);
+                        bfxs.f115617c = GeneratedMessageLite.m124019a(bfxs.f115617c);
                     }
                     bfxs.f115617c.mo74153d(i2);
                     i2++;
@@ -153,7 +153,7 @@ public final class bfxb {
                         bfxs bfxs2 = (bfxs) da.f164949b;
                         a.getClass();
                         if (!bfxs2.f115615a.mo73666a()) {
-                            bfxs2.f115615a = bxvk.m124021a(bfxs2.f115615a);
+                            bfxs2.f115615a = GeneratedMessageLite.m124021a(bfxs2.f115615a);
                         }
                         bfxs2.f115615a.add(a);
                     }
@@ -165,17 +165,17 @@ public final class bfxb {
                 }
                 bfyj.getClass();
                 ((bfxs) da.f164949b).f115616b = bfyj;
-                bxvk g = da.mo74062i();
+                GeneratedMessageLite g = da.mo74062i();
                 printWriter.printf("### %s START ###%n", "GeofencerDumpsysLogMessage");
                 try {
-                    printWriter.println(boan.f132470d.mo68784a(bfcj.f113387a, 120).mo68794a(g.mo73642k()));
+                    printWriter.println(boan.f132470d.mo68784a(bfcj.f113387a, 120).mo68794a(g.serializeToBytes()));
                 } catch (RuntimeException e) {
                     printWriter.printf("ERROR: %s%n", e.getMessage());
                 }
                 printWriter.printf("### %s END ###%n", "GeofencerDumpsysLogMessage");
                 this.f115570a.clear();
                 bfyi bfyi = this.f115571b;
-                bfyi.f164949b = (bxvk) bfyi.f164949b.mo74142c(4);
+                bfyi.f164949b = (GeneratedMessageLite) bfyi.f164949b.mo74142c(4);
             }
         } else if (this.f115572c != null) {
             long currentTimeMillis2 = System.currentTimeMillis();

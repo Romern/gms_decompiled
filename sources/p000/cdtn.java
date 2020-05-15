@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cdtn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cdtn extends bxvk implements bxxd {
+public final class cdtn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final cdtn f181706e;
@@ -25,7 +25,7 @@ public final class cdtn extends bxvk implements bxxd {
     static {
         cdtn cdtn = new cdtn();
         f181706e = cdtn;
-        bxvk.m124024a(cdtn.class, cdtn);
+        GeneratedMessageLite.m124024a(cdtn.class, cdtn);
     }
 
     private cdtn() {
@@ -42,7 +42,7 @@ public final class cdtn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f181706e, "\u0001\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0004\u0000\u0001\u001a\u0002\u001b\u0003\u001a\u0004\u001a", new Object[]{"a", "b", cdtm.class, "c", "d"});
+            return GeneratedMessageLite.m124022a(f181706e, "\u0001\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0004\u0000\u0001\u001a\u0002\u001b\u0003\u001a\u0004\u001a", new Object[]{"a", "b", cdtm.class, "c", "d"});
         } else if (i2 == 3) {
             return new cdtn();
         } else {

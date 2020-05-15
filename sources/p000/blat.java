@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blat */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blat extends bxvk implements bxxd {
+public final class blat extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final blat f125793a;
@@ -22,7 +22,7 @@ public final class blat extends bxvk implements bxxd {
     static {
         blat blat = new blat();
         f125793a = blat;
-        bxvk.m124024a(blat.class, blat);
+        GeneratedMessageLite.m124024a(blat.class, blat);
     }
 
     private blat() {
@@ -43,7 +43,7 @@ public final class blat extends bxvk implements bxxd {
             this.f125797d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f125793a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"b", "c"});
+            return GeneratedMessageLite.m124022a(f125793a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᐉ\u0000", new Object[]{"b", "c"});
         } else if (i2 == 3) {
             return new blat();
         } else {

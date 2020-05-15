@@ -79,7 +79,7 @@ public final class nbd {
         bmxy.m108581a(bxxc);
         File c = m25880c(str);
         try {
-            bobi.m111040a(bxxc.mo73642k(), c);
+            bobi.m111040a(bxxc.serializeToBytes(), c);
         } catch (IOException e) {
             f35171a.mo25418e("Exception occurred when saving the listing for %s, deleting saved listing.", str, e);
             c.delete();

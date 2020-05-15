@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmro */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmro extends bxvk implements bxxd {
+public final class bmro extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmro f130553c;
@@ -19,7 +19,7 @@ public final class bmro extends bxvk implements bxxd {
     static {
         bmro bmro = new bmro();
         f130553c = bmro;
-        bxvk.m124024a(bmro.class, bmro);
+        GeneratedMessageLite.m124024a(bmro.class, bmro);
     }
 
     private bmro() {
@@ -36,7 +36,7 @@ public final class bmro extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130553c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f130553c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bmro();
         } else {

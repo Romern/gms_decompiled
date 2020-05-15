@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mth */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mth extends bxvk implements bxxd {
+public final class mth extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final mth f34664e;
@@ -25,7 +25,7 @@ public final class mth extends bxvk implements bxxd {
     static {
         mth mth = new mth();
         f34664e = mth;
-        bxvk.m124024a(mth.class, mth);
+        GeneratedMessageLite.m124024a(mth.class, mth);
     }
 
     private mth() {
@@ -42,7 +42,7 @@ public final class mth extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34664e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", mtf.m25602b(), "c", mtg.f34663a, "d"});
+            return GeneratedMessageLite.m124022a(f34664e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", mtf.m25602b(), "c", mtg.f34663a, "d"});
         } else if (i2 == 3) {
             return new mth();
         } else {

@@ -215,7 +215,7 @@ public final class abfn extends aayk {
                 bzpk bzpk8 = (bzpk) da.f164949b;
                 a3.getClass();
                 if (!bzpk8.f170923f.mo73666a()) {
-                    bzpk8.f170923f = bxvk.m124021a(bzpk8.f170923f);
+                    bzpk8.f170923f = GeneratedMessageLite.m124021a(bzpk8.f170923f);
                 }
                 bzpk8.f170923f.add(a3);
             }
@@ -234,13 +234,13 @@ public final class abfn extends aayk {
         ArrayList arrayList = new ArrayList();
         if (this.f57348l != null) {
             bxvd bxvd = (bxvd) j.mo74142c(5);
-            bxvd.mo73625a((bxvk) j);
+            bxvd.mo73625a((GeneratedMessageLite) j);
             abet abet2 = j.f57267d;
             if (abet2 == null) {
                 abet2 = abet.f57292q;
             }
             bxvd bxvd2 = (bxvd) abet2.mo74142c(5);
-            bxvd2.mo73625a((bxvk) abet2);
+            bxvd2.mo73625a((GeneratedMessageLite) abet2);
             String str5 = this.f57348l;
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
@@ -312,10 +312,10 @@ public final class abfn extends aayk {
         }
         bzpk bzpk11 = (bzpk) da.f164949b;
         if (!bzpk11.f170922e.mo73666a()) {
-            bzpk11.f170922e = bxvk.m124021a(bzpk11.f170922e);
+            bzpk11.f170922e = GeneratedMessageLite.m124021a(bzpk11.f170922e);
         }
         bxsy.m123078a(arrayList, bzpk11.f170922e);
-        return ((bzpk) da.mo74062i()).mo73642k();
+        return ((bzpk) da.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: a */

@@ -37,7 +37,7 @@ final /* synthetic */ class ajib implements aubg {
         bxqf bxqf = (bxqf) da.f164949b;
         bxqe2.getClass();
         if (!bxqf.f164376b.mo73666a()) {
-            bxqf.f164376b = bxvk.m124021a(bxqf.f164376b);
+            bxqf.f164376b = GeneratedMessageLite.m124021a(bxqf.f164376b);
         }
         bxqf.f164376b.add(bxqe2);
         return ahhf.m55772a(a.mo58360a((bxqf) da.mo74062i()), cfov.m142058k()).mo50382b(new ajvs(a)).mo50363a(new ajvt(ajvw));

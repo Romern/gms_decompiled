@@ -9,7 +9,7 @@ import org.json.JSONObject;
 public final class kaf implements yas {
 
     /* renamed from: a */
-    private static final sek f23653a = ght.m13171a("MinuteMaid", "ViewPresenter");
+    private static final Logger f23653a = ght.m13171a("MinuteMaid", "ViewPresenter");
 
     /* renamed from: b */
     private final kaa f23654b;
@@ -25,12 +25,12 @@ public final class kaf implements yas {
 
     /* renamed from: a */
     public final void mo14326a(ViewOptions viewOptions) {
-        sek sek = f23653a;
+        Logger Logger = f23653a;
         String valueOf = String.valueOf(viewOptions.mo18855c());
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 18);
         sb.append("viewSelected(...) ");
         sb.append(valueOf);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         try {
             JSONObject jSONObject = new JSONObject();
             jSONObject.put("type", "select_view");

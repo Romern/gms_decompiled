@@ -321,7 +321,7 @@ public final class bgxt extends bgxs implements aesf {
                                     }
                                     bgvr bgvr8 = (bgvr) da2.mo74062i();
                                     bxvd bxvd = (bxvd) bgvr8.mo74142c(5);
-                                    bxvd.mo73625a((bxvk) bgvr8);
+                                    bxvd.mo73625a((GeneratedMessageLite) bgvr8);
                                     a2.mo63163a(a3, bxvd, location6);
                                     if (!chcj.f188326a.mo6606a().mo84992f()) {
                                         if (aeim.m51897c(location6)) {
@@ -409,7 +409,7 @@ public final class bgxt extends bgxs implements aesf {
                             } else {
                                 bgvr bgvr14 = (bgvr) arrayList4.remove(arrayList4.size() - 1);
                                 bxvd bxvd2 = (bxvd) bgvr14.mo74142c(5);
-                                bxvd2.mo73625a((bxvk) bgvr14);
+                                bxvd2.mo73625a((GeneratedMessageLite) bgvr14);
                                 bgvj a8 = bgzf.m100440a(a2.f117527c.f118156b);
                                 if (chcj.f188326a.mo6606a().mo84994h()) {
                                     if (!(a8 == null || (a8.f117662a & 1) == 0)) {
@@ -485,7 +485,7 @@ public final class bgxt extends bgxs implements aesf {
                                                             sb4.toString();
                                                             bxvd da3 = bgvl.f117677g.mo74144da();
                                                             bxvd bxvd3 = (bxvd) bgvr19.mo74142c(5);
-                                                            bxvd3.mo73625a((bxvk) bgvr19);
+                                                            bxvd3.mo73625a((GeneratedMessageLite) bgvr19);
                                                             if (bxvd3.f164950c) {
                                                                 bxvd3.mo74035c();
                                                                 bxvd3.f164950c = false;
@@ -935,7 +935,7 @@ public final class bgxt extends bgxs implements aesf {
                                                     sb10.toString();
                                                     bxvd da9 = bgvm.f117686g.mo74144da();
                                                     bxvd bxvd4 = (bxvd) bgvr25.mo74142c(5);
-                                                    bxvd4.mo73625a((bxvk) bgvr25);
+                                                    bxvd4.mo73625a((GeneratedMessageLite) bgvr25);
                                                     if (bxvd4.f164950c) {
                                                         bxvd4.mo74035c();
                                                         bxvd4.f164950c = false;
@@ -1610,14 +1610,14 @@ public final class bgxt extends bgxs implements aesf {
                         return;
                     }
                     try {
-                        sdo.m34966a(sendDataRequest.f79609b, "no data");
+                        sdo.checkIfNull(sendDataRequest.f79609b, "no data");
                         sdo.m34969a(sendDataRequest.f79608a, (Object) "no data type");
                         sdo.m34975b(sendDataRequest.f79608a.length() < 128, "data type too long");
                         ApiUserData apiUserData = new ApiUserData(sqd.m35972d(sendDataRequest.f79609b), sendDataRequest.f79608a, Long.valueOf(System.currentTimeMillis()));
                         if (!chcp.m148194c() || !chcp.m148195d()) {
                             bvxr = null;
                         } else {
-                            sdo.m34966a(sendDataRequest.f79609b, "no data");
+                            sdo.checkIfNull(sendDataRequest.f79609b, "no data");
                             sdo.m34969a(sendDataRequest.f79608a, (Object) "no data type");
                             if (sendDataRequest.f79608a.length() < 128) {
                                 z = true;
@@ -1625,7 +1625,7 @@ public final class bgxt extends bgxs implements aesf {
                                 z = false;
                             }
                             sdo.m34975b(z, "data type too long");
-                            bxtx a7 = bxtx.m123261a(sendDataRequest.f79609b);
+                            ByteString a7 = ByteString.m123261a(sendDataRequest.f79609b);
                             String str5 = sendDataRequest.f79608a;
                             long currentTimeMillis2 = System.currentTimeMillis();
                             bxvd da5 = bvxr.f158087f.mo74144da();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmsa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmsa extends bxvk implements bxxd {
+public final class bmsa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bmsa f130632f;
@@ -31,7 +31,7 @@ public final class bmsa extends bxvk implements bxxd {
     static {
         bmsa bmsa = new bmsa();
         f130632f = bmsa;
-        bxvk.m124024a(bmsa.class, bmsa);
+        GeneratedMessageLite.m124024a(bmsa.class, bmsa);
     }
 
     private bmsa() {
@@ -52,7 +52,7 @@ public final class bmsa extends bxvk implements bxxd {
             this.f130639g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f130632f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0001\u0001ဉ\u0000\u0002ဉ\u0001\u0003ᐉ\u0004\u0004ဉ\u0002", new Object[]{"a", "b", "c", "e", "d"});
+            return GeneratedMessageLite.m124022a(f130632f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0001\u0001ဉ\u0000\u0002ဉ\u0001\u0003ᐉ\u0004\u0004ဉ\u0002", new Object[]{"a", "b", "c", "e", "d"});
         } else if (i2 == 3) {
             return new bmsa();
         } else {

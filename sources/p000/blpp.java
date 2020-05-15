@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blpp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blpp extends bxvk implements bxxd {
+public final class blpp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final blpp f127268c;
@@ -22,7 +22,7 @@ public final class blpp extends bxvk implements bxxd {
     static {
         blpp blpp = new blpp();
         f127268c = blpp;
-        bxvk.m124024a(blpp.class, blpp);
+        GeneratedMessageLite.m124024a(blpp.class, blpp);
     }
 
     private blpp() {
@@ -39,7 +39,7 @@ public final class blpp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127268c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f127268c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new blpp();
         } else {

@@ -8,7 +8,7 @@ import android.os.Handler;
 public final class arls {
 
     /* renamed from: a */
-    public static final sek f87856a = ascp.m73787a("AccountsCrossUserClient");
+    public static final Logger f87856a = ascp.m73787a("AccountsCrossUserClient");
 
     /* renamed from: b */
     public final Context f87857b;

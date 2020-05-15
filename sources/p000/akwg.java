@@ -17,7 +17,7 @@ import org.json.JSONObject;
 public final class akwg implements akww {
 
     /* renamed from: b */
-    public static final sek f72993b = akzt.m60725a("OctarineAppPermissionsBridge");
+    public static final Logger f72993b = akzt.m60725a("OctarineAppPermissionsBridge");
 
     /* renamed from: a */
     public final List f72994a = bmyx.m108640a(',').mo66917a().mo66920b().mo66925c((CharSequence) cfqw.f185476a.mo6606a().mo82538b());

@@ -37,7 +37,7 @@ public final class abxk extends abxc {
         abxt abxt2 = abxt;
         String str3 = "type_indexapi";
         String str4 = "incarnation_indexapi";
-        sdo.m34966a(this.f58683a, "execute called without validateInput");
+        sdo.checkIfNull(this.f58683a, "execute called without validateInput");
         Map map = this.f58683a;
         sdo.m34970a(sQLiteDatabase.inTransaction());
         String str5 = abyy2.f58780f;
@@ -185,7 +185,7 @@ public final class abxk extends abxc {
     /* renamed from: a */
     public final void mo32405a(abrv abrv, abyy abyy, abvx abvx) {
         abxl.m48465a(abrv, "update");
-        sdo.m34966a(this.f58683a, "execute called without validateInput");
+        sdo.checkIfNull(this.f58683a, "execute called without validateInput");
         if (cemw.m137394b()) {
             abwr.m48408a(this.f58683a);
         }

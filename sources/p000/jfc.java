@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: jfc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class jfc extends bxvk implements bxxd {
+public final class jfc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final jfc f22341e;
@@ -28,7 +28,7 @@ public final class jfc extends bxvk implements bxxd {
     static {
         jfc jfc = new jfc();
         f22341e = jfc;
-        bxvk.m124024a(jfc.class, jfc);
+        GeneratedMessageLite.m124024a(jfc.class, jfc);
     }
 
     private jfc() {
@@ -45,7 +45,7 @@ public final class jfc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f22341e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003ဈ\u0002\u0004\u001b", new Object[]{"f", "a", "b", jfa.f22340a, "c", "d", jeu.class});
+            return GeneratedMessageLite.m124022a(f22341e, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003ဈ\u0002\u0004\u001b", new Object[]{"f", "a", "b", jfa.f22340a, "c", "d", jeu.class});
         } else if (i2 == 3) {
             return new jfc();
         } else {

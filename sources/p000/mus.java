@@ -17,7 +17,7 @@ public final /* synthetic */ class mus implements View.OnClickListener {
         SetBackupAccountFlowChimeraActivity setBackupAccountFlowChimeraActivity = this.f34783a;
         bsqh bsqh = setBackupAccountFlowChimeraActivity.f29081b;
         bxvd bxvd = (bxvd) bsqh.mo74142c(5);
-        bxvd.mo73625a((bxvk) bsqh);
+        bxvd.mo73625a((GeneratedMessageLite) bsqh);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

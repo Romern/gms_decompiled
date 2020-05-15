@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpul */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpul extends bxvk implements bxxd {
+public final class bpul extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpul f139253c;
@@ -19,7 +19,7 @@ public final class bpul extends bxvk implements bxxd {
     static {
         bpul bpul = new bpul();
         f139253c = bpul;
-        bxvk.m124024a(bpul.class, bpul);
+        GeneratedMessageLite.m124024a(bpul.class, bpul);
     }
 
     private bpul() {
@@ -36,7 +36,7 @@ public final class bpul extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139253c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f139253c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bpul();
         } else {

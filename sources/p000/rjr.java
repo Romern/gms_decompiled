@@ -13,7 +13,7 @@ public final class rjr implements rkk {
     public final boolean f43155b;
 
     public rjr(Status status, boolean z) {
-        sdo.m34966a(status, "Status must not be null");
+        sdo.checkIfNull(status, "Status must not be null");
         this.f43154a = status;
         this.f43155b = z;
     }

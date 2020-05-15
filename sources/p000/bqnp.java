@@ -12,7 +12,7 @@ public abstract class bqnp {
     }
 
     /* renamed from: a */
-    public abstract bxxc mo69293a(bxtx bxtx);
+    public abstract bxxc mo69293a(ByteString bxtx);
 
     /* renamed from: a */
     public abstract void mo69294a(bxxc bxxc);

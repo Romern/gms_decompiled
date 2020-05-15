@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buud */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buud extends bxvk implements bxxd {
+public final class buud extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buud f154932d;
@@ -17,12 +17,12 @@ public final class buud extends bxvk implements bxxd {
     public int f154935b;
 
     /* renamed from: c */
-    public bxtx f154936c = bxtx.f164797b;
+    public ByteString f154936c = ByteString.f164797b;
 
     static {
         buud buud = new buud();
         f154932d = buud;
-        bxvk.m124024a(buud.class, buud);
+        GeneratedMessageLite.m124024a(buud.class, buud);
     }
 
     private buud() {
@@ -39,7 +39,7 @@ public final class buud extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154932d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f154932d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new buud();
         } else {

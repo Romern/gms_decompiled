@@ -20,7 +20,7 @@ public final class igk {
     /* renamed from: a */
     public static byte[] m15412a(byte[] bArr) {
         if (bArr != null) {
-            byte[] k = bysw.m125309a((byti) bxvk.m124014a(byti.f167671d, bArr)).f167652d.mo73780k();
+            byte[] k = bysw.m125309a((byti) GeneratedMessageLite.m124014a(byti.f167671d, bArr)).f167652d.getKey();
             if (k.length != 0) {
                 return k;
             }

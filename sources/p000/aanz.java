@@ -26,8 +26,8 @@ public final class aanz extends aany {
 
     /* access modifiers changed from: protected */
     /* renamed from: c */
-    public final /* bridge */ /* synthetic */ bmxv mo17165c(bxvk bxvk) {
-        aajw aajw = (aajw) bxvk;
+    public final /* bridge */ /* synthetic */ bmxv mo17165c(GeneratedMessageLite GeneratedMessageLite) {
+        aajw aajw = (aajw) GeneratedMessageLite;
         if (aajw == null) {
             Log.w("GCM", "Provided package info is null.");
         } else if ((aajw.f28322a & 2) != 0) {
@@ -45,7 +45,7 @@ public final class aanz extends aany {
 
     /* access modifiers changed from: protected */
     /* renamed from: c */
-    public final /* bridge */ /* synthetic */ bxvk mo17166c(byte[] bArr) {
-        return (aajw) bxvk.m124014a(aajw.f28320h, bArr);
+    public final /* bridge */ /* synthetic */ GeneratedMessageLite mo17166c(byte[] bArr) {
+        return (aajw) GeneratedMessageLite.m124014a(aajw.f28320h, bArr);
     }
 }

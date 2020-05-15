@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzle */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzle extends bxvk implements bxxd {
+public final class bzle extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bzle f170513c;
@@ -19,7 +19,7 @@ public final class bzle extends bxvk implements bxxd {
     static {
         bzle bzle = new bzle();
         f170513c = bzle;
-        bxvk.m124024a(bzle.class, bzle);
+        GeneratedMessageLite.m124024a(bzle.class, bzle);
     }
 
     private bzle() {
@@ -37,7 +37,7 @@ public final class bzle extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f170513c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f170513c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bzle();
         } else {

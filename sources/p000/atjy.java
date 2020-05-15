@@ -219,7 +219,7 @@ final class atjy extends atki {
                                                 throw th;
                                             }
                                         } else if (i8 == 2 && (bArr = walletCardIntentExtra.f108648d) != null) {
-                                            bxtx a6 = bxtx.m123261a(bArr);
+                                            ByteString a6 = ByteString.m123261a(bArr);
                                             if (da3.f164950c) {
                                                 da3.mo74035c();
                                                 da3.f164950c = false;
@@ -266,7 +266,7 @@ final class atjy extends atki {
                                     }
                                     ates ates2 = (ates) da2.f164949b;
                                     if (!ates2.f90201d.mo73666a()) {
-                                        ates2.f90201d = bxvk.m124021a(ates2.f90201d);
+                                        ates2.f90201d = GeneratedMessageLite.m124021a(ates2.f90201d);
                                     }
                                     bxsy.m123078a(arrayList6, ates2.f90201d);
                                     arrayList5.add((ates) da2.mo74062i());
@@ -297,7 +297,7 @@ final class atjy extends atki {
                                 }
                                 atet atet = (atet) da.f164949b;
                                 if (!atet.f90205b.mo73666a()) {
-                                    atet.f90205b = bxvk.m124021a(atet.f90205b);
+                                    atet.f90205b = GeneratedMessageLite.m124021a(atet.f90205b);
                                 }
                                 bxsy.m123078a(arrayList5, atet.f90205b);
                                 CardIconMessage[] cardIconMessageArr = quickAccessWalletCard3.f108632e;
@@ -323,7 +323,7 @@ final class atjy extends atki {
                                         }
                                         atef atef = (atef) da4.f164949b;
                                         if (!atef.f90182a.mo73666a()) {
-                                            atef.f90182a = bxvk.m124019a(atef.f90182a);
+                                            atef.f90182a = GeneratedMessageLite.m124019a(atef.f90182a);
                                         }
                                         int size = arrayList8.size();
                                         int i14 = 0;
@@ -357,10 +357,10 @@ final class atjy extends atki {
                                 }
                                 atet atet2 = (atet) da.f164949b;
                                 if (!atet2.f90206c.mo73666a()) {
-                                    atet2.f90206c = bxvk.m124021a(atet2.f90206c);
+                                    atet2.f90206c = GeneratedMessageLite.m124021a(atet2.f90206c);
                                 }
                                 bxsy.m123078a(bngx, atet2.f90206c);
-                                contentValues.put("wallet_card", ((atet) da.mo74062i()).mo73642k());
+                                contentValues.put("wallet_card", ((atet) da.mo74062i()).serializeToBytes());
                                 sQLiteDatabase3 = sQLiteDatabase2;
                                 bmxy.m108601b(sQLiteDatabase3.insert("QuickAccessWalletCards ", null, contentValues) != -1, "wallet card insert failed");
                                 i2 = i11 + 1;

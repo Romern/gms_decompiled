@@ -82,7 +82,7 @@ public class WarmWelcomeChimeraActivity extends atex implements atxf, atxh {
                 bmuj bmuj = null;
                 if (byteArrayExtra != null) {
                     try {
-                        bmum = (bmum) bxvk.m124016a(bmum.f130943d, byteArrayExtra, bxus.m123744c());
+                        bmum = (bmum) GeneratedMessageLite.m124016a(bmum.f130943d, byteArrayExtra, bxus.m123744c());
                     } catch (bxwf e) {
                         bnsl bnsl = (bnsl) f108965d.mo68388c();
                         bnsl.mo68437a(e);

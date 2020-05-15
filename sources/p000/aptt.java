@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aptt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aptt extends bxvk implements bxxd {
+public final class aptt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final aptt f84871d;
@@ -14,7 +14,7 @@ public final class aptt extends bxvk implements bxxd {
     public String f84873a = "";
 
     /* renamed from: b */
-    public bxtx f84874b = bxtx.f164797b;
+    public ByteString f84874b = ByteString.f164797b;
 
     /* renamed from: c */
     public String f84875c = "";
@@ -25,7 +25,7 @@ public final class aptt extends bxvk implements bxxd {
     static {
         aptt aptt = new aptt();
         f84871d = aptt;
-        bxvk.m124024a(aptt.class, aptt);
+        GeneratedMessageLite.m124024a(aptt.class, aptt);
     }
 
     private aptt() {
@@ -42,7 +42,7 @@ public final class aptt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f84871d, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0003ည\u0002\u0004ဈ\u0003", new Object[]{"e", "a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f84871d, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0003ည\u0002\u0004ဈ\u0003", new Object[]{"e", "a", "b", "c"});
         } else if (i2 == 3) {
             return new aptt();
         } else {

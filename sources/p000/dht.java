@@ -295,7 +295,7 @@ public abstract class dht {
         allocate.order(ByteOrder.BIG_ENDIAN);
         byte[] bArr = new byte[allocate.getInt()];
         m8529a(inputStream, bArr);
-        return (dmj) bxvk.m124016a(dmj.f13537b, bArr, bxus.m123743b());
+        return (dmj) GeneratedMessageLite.m124016a(dmj.f13537b, bArr, bxus.m123743b());
     }
 
     /* renamed from: a */

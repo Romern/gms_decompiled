@@ -21,7 +21,7 @@ public final class rtg {
     /* renamed from: a */
     public static final void m34395a(Account account, String str, Bundle bundle) {
         for (String str2 : bundle.keySet()) {
-            sdo.m34966a(bundle.get(str2), "Null values are not allowed in extras");
+            sdo.checkIfNull(bundle.get(str2), "Null values are not allowed in extras");
         }
         ContentResolver.removePeriodicSync(account, str, bundle);
     }
@@ -29,7 +29,7 @@ public final class rtg {
     /* renamed from: a */
     public static final void m34396a(Account account, String str, Bundle bundle, long j) {
         for (String str2 : bundle.keySet()) {
-            sdo.m34966a(bundle.get(str2), "Null values are not allowed in extras");
+            sdo.checkIfNull(bundle.get(str2), "Null values are not allowed in extras");
         }
         ContentResolver.addPeriodicSync(account, str, bundle, j);
     }

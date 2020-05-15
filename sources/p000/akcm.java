@@ -76,13 +76,13 @@ public final class akcm {
             z = true;
         }
         ajid.f70693h = Boolean.valueOf(z);
-        sdo.m34966a(ajid.f70686a, "Contact's id must not be null.");
+        sdo.checkIfNull(ajid.f70686a, "Contact's id must not be null.");
         sdo.m34975b(!TextUtils.isEmpty(ajid.f70687b), "Contact's lookupKey must not be null or empty.");
         sdo.m34975b(!TextUtils.isEmpty(ajid.f70688c), "Contact's displayName must not be null or empty.");
-        sdo.m34966a(ajid.f70691f, "Contact's contactInfo must not be null or empty.");
-        sdo.m34966a(ajid.f70690e, "Contact's isSelected must not be null.");
-        sdo.m34966a(ajid.f70692g, "Contact's isReachable must not be null.");
-        sdo.m34966a(ajid.f70693h, "Contact's isRecommended must not be null.");
+        sdo.checkIfNull(ajid.f70691f, "Contact's contactInfo must not be null or empty.");
+        sdo.checkIfNull(ajid.f70690e, "Contact's isSelected must not be null.");
+        sdo.checkIfNull(ajid.f70692g, "Contact's isReachable must not be null.");
+        sdo.checkIfNull(ajid.f70693h, "Contact's isRecommended must not be null.");
         return new Contact(ajid.f70686a.longValue(), ajid.f70687b, ajid.f70688c, ajid.f70689d, ajid.f70690e.booleanValue(), ajid.f70691f, ajid.f70692g.booleanValue(), ajid.f70693h.booleanValue());
     }
 

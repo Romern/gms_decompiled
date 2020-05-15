@@ -93,7 +93,7 @@ final class bdxi implements bqeg {
                 bxoz bxoz2 = (bxoz) da2.mo74062i();
                 bxoz2.getClass();
                 if (!bxpa2.f164224d.mo73666a()) {
-                    bxpa2.f164224d = bxvk.m124021a(bxpa2.f164224d);
+                    bxpa2.f164224d = GeneratedMessageLite.m124021a(bxpa2.f164224d);
                 }
                 bxpa2.f164224d.add(bxoz2);
             }

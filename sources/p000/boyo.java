@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boyo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boyo extends bxvk implements bxxd {
+public final class boyo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final boyo f135332d;
@@ -22,7 +22,7 @@ public final class boyo extends bxvk implements bxxd {
     static {
         boyo boyo = new boyo();
         f135332d = boyo;
-        bxvk.m124024a(boyo.class, boyo);
+        GeneratedMessageLite.m124024a(boyo.class, boyo);
     }
 
     private boyo() {
@@ -39,7 +39,7 @@ public final class boyo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135332d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", boyn.f135331a, "c", boym.f135330a});
+            return GeneratedMessageLite.m124022a(f135332d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", boyn.f135331a, "c", boym.f135330a});
         } else if (i2 == 3) {
             return new boyo();
         } else {

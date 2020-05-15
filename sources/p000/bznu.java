@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bznu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bznu extends bxvk implements bxxd {
+public final class bznu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bznu f170763a;
@@ -13,7 +13,7 @@ public final class bznu extends bxvk implements bxxd {
     static {
         bznu bznu = new bznu();
         f170763a = bznu;
-        bxvk.m124024a(bznu.class, bznu);
+        GeneratedMessageLite.m124024a(bznu.class, bznu);
     }
 
     private bznu() {
@@ -30,7 +30,7 @@ public final class bznu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f170763a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f170763a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bznu();

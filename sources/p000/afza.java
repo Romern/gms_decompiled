@@ -70,14 +70,14 @@ public final class afza extends dck implements IInterface {
             RequestFuture newFuture = RequestFuture.newFuture();
             RequestQueue a = afyu.m53684a();
             bxvd da = cajx.f174890e.mo74144da();
-            long a2 = spn.m35843a(rpr.m34216b());
+            long a2 = spn.getAndroidId(rpr.m34216b());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
             }
             cajx cajx = (cajx) da.f164949b;
             if (!cajx.f174893b.mo73666a()) {
-                cajx.f174893b = bxvk.m124020a(cajx.f174893b);
+                cajx.f174893b = GeneratedMessageLite.m124020a(cajx.f174893b);
             }
             cajx.f174893b.mo74161a(a2);
             if (da.f164950c) {

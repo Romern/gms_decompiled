@@ -175,7 +175,7 @@ final class pod {
                 if (blob != null) {
                     try {
                         if (blob.length != 0) {
-                            pnm.f39855l = (bsib) bxvk.m124016a(bsib.f144654f, blob, bxus.m123744c());
+                            pnm.f39855l = (bsib) GeneratedMessageLite.m124016a(bsib.f144654f, blob, bxus.m123744c());
                         }
                     } catch (bxwf e2) {
                         f39902a.mo23677d("Stored relay access token is invalid", e2);
@@ -290,7 +290,7 @@ final class pod {
         }
         bsib bsib = pnm.f39855l;
         if (bsib != null) {
-            contentValues.put("relay_access_token", bsib.mo73642k());
+            contentValues.put("relay_access_token", bsib.serializeToBytes());
         }
         return contentValues;
     }

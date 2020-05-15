@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpwg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpwg extends bxvk implements bxxd {
+public final class bpwg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: r */
     public static final bpwg f139467r;
@@ -64,7 +64,7 @@ public final class bpwg extends bxvk implements bxxd {
     static {
         bpwg bpwg = new bpwg();
         f139467r = bpwg;
-        bxvk.m124024a(bpwg.class, bpwg);
+        GeneratedMessageLite.m124024a(bpwg.class, bpwg);
     }
 
     private bpwg() {
@@ -82,7 +82,7 @@ public final class bpwg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139467r, "\u0001\u0010\u0000\u0001\u0001\u0011\u0010\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001\u0003ဇ\u0002\u0004င\u0004\u0005င\u0005\u0006င\u0007\u0007င\u000b\bဇ\u000e\nင\t\u000bဇ\r\fင\n\rင\u0006\u000eင\b\u000fဇ\u0003\u0010င\f\u0011ဇ\u000f", new Object[]{"a", "b", "c", bpwe.f139466a, "d", "f", "g", "i", "m", "p", "k", "o", "l", "h", "j", "e", "n", "q"});
+            return GeneratedMessageLite.m124022a(f139467r, "\u0001\u0010\u0000\u0001\u0001\u0011\u0010\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001\u0003ဇ\u0002\u0004င\u0004\u0005င\u0005\u0006င\u0007\u0007င\u000b\bဇ\u000e\nင\t\u000bဇ\r\fင\n\rင\u0006\u000eင\b\u000fဇ\u0003\u0010င\f\u0011ဇ\u000f", new Object[]{"a", "b", "c", bpwe.f139466a, "d", "f", "g", "i", "m", "p", "k", "o", "l", "h", "j", "e", "n", "q"});
         } else if (i2 == 3) {
             return new bpwg();
         } else {

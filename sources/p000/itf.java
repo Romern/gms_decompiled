@@ -13,7 +13,7 @@ public final class itf {
     public final ipo f21681b;
 
     /* renamed from: c */
-    public final sek f21682c = new sek(new String[]{"EnrollmentSpecialCases"}, (byte[]) null);
+    public final Logger f21682c = new Logger(new String[]{"EnrollmentSpecialCases"}, (byte[]) null);
 
     public itf(String str, Context context) {
         ipo ipo = new ipo(context);

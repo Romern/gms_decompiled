@@ -50,7 +50,7 @@ public final class azot {
         String a = m85961a(context, telephonyManager);
         bxvd da = cbmr.f177669c.mo74144da();
         if (d != null) {
-            bxtx a2 = bxtx.m123261a(d);
+            ByteString a2 = ByteString.m123261a(d);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -231,10 +231,10 @@ public final class azot {
                     TelephonyManager createForSubscriptionId = telephonyManager.createForSubscriptionId(subscriptionInfo.getSubscriptionId());
                     cbmr c = m85970c(context, createForSubscriptionId);
                     bxvd bxvd = (bxvd) c.mo74142c(5);
-                    bxvd.mo73625a((bxvk) c);
+                    bxvd.mo73625a((GeneratedMessageLite) c);
                     cbmr a = m85960a(bxvd, m85973e(context, createForSubscriptionId), str, str2);
                     bxvd bxvd2 = (bxvd) a.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) a);
+                    bxvd2.mo73625a((GeneratedMessageLite) a);
                     if (!((cbmr) bxvd2.f164949b).f177672b.mo73779j() || !((cbmr) bxvd2.f164949b).f177671a.isEmpty()) {
                         arrayList.add((cbmr) bxvd2.mo74062i());
                     }
@@ -242,10 +242,10 @@ public final class azot {
             } else {
                 cbmr c2 = m85970c(context, telephonyManager);
                 bxvd bxvd3 = (bxvd) c2.mo74142c(5);
-                bxvd3.mo73625a((bxvk) c2);
+                bxvd3.mo73625a((GeneratedMessageLite) c2);
                 cbmr a2 = m85960a(bxvd3, m85973e(context, telephonyManager), str, str2);
                 bxvd bxvd4 = (bxvd) a2.mo74142c(5);
-                bxvd4.mo73625a((bxvk) a2);
+                bxvd4.mo73625a((GeneratedMessageLite) a2);
                 if (!((cbmr) bxvd4.f164949b).f177672b.mo73779j() || !((cbmr) bxvd4.f164949b).f177671a.isEmpty()) {
                     arrayList.add((cbmr) bxvd4.mo74062i());
                 }

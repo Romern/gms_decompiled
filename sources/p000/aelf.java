@@ -37,7 +37,7 @@ public final class aelf extends aemc {
         int i = this.f63486b;
         int i2 = this.f63487c;
         int i3 = this.f63488m;
-        sdo.m34966a(aenn, "callback cannot be null");
+        sdo.checkIfNull(aenn, "callback cannot be null");
         ((aenl) aene.mo25289B()).mo34368a(str, i, i2, i3, aene.f63536a, aenn);
     }
 

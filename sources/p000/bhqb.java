@@ -173,7 +173,7 @@ public final class bhqb implements bhqa {
                 if (bArr != null) {
                     bxuc a = bxuc.m123419a(bArr);
                     if (a.mo73798g() + cggp.m145341b() >= j) {
-                        PlaceEntity a2 = bian.m101872a((bvmv) bxvk.m124008a(bvmv.f156798q, a));
+                        PlaceEntity a2 = bian.m101872a((bvmv) GeneratedMessageLite.m124008a(bvmv.f156798q, a));
                         this.f119300i++;
                         return a2;
                     }
@@ -322,7 +322,7 @@ public final class bhqb implements bhqa {
                         bvmv bvmv2 = (bvmv) da.f164949b;
                         a.getClass();
                         if (!bvmv2.f156802c.mo73666a()) {
-                            bvmv2.f156802c = bxvk.m124021a(bvmv2.f156802c);
+                            bvmv2.f156802c = GeneratedMessageLite.m124021a(bvmv2.f156802c);
                         }
                         bvmv2.f156802c.add(a);
                     }
@@ -351,7 +351,7 @@ public final class bhqb implements bhqa {
                     }
                     bvmv bvmv4 = (bvmv) da.f164949b;
                     if (!bvmv4.f156807h.mo73666a()) {
-                        bvmv4.f156807h = bxvk.m124021a(bvmv4.f156807h);
+                        bvmv4.f156807h = GeneratedMessageLite.m124021a(bvmv4.f156807h);
                     }
                     bxsy.m123078a(list, bvmv4.f156807h);
                     bxvd da2 = bvmx.f156821d.mo74144da();
@@ -412,7 +412,7 @@ public final class bhqb implements bhqa {
                             }
                             bvoh bvoh = (bvoh) da3.f164949b;
                             if (!bvoh.f157038a.mo73666a()) {
-                                bvoh.f157038a = bxvk.m124021a(bvoh.f157038a);
+                                bvoh.f157038a = GeneratedMessageLite.m124021a(bvoh.f157038a);
                             }
                             bxsy.m123078a(b, bvoh.f157038a);
                         }
@@ -502,7 +502,7 @@ public final class bhqb implements bhqa {
                                         }
                                         bvom bvom2 = (bvom) da4.f164949b;
                                         if (!bvom2.f157056c.mo73666a()) {
-                                            bvom2.f157056c = bxvk.m124021a(bvom2.f157056c);
+                                            bvom2.f157056c = GeneratedMessageLite.m124021a(bvom2.f157056c);
                                         }
                                         bxsy.m123078a(b2, bvom2.f157056c);
                                         bvom bvom3 = (bvom) da4.mo74062i();
@@ -513,7 +513,7 @@ public final class bhqb implements bhqa {
                                         bvoh bvoh2 = (bvoh) da3.f164949b;
                                         bvom3.getClass();
                                         if (!bvoh2.f157039b.mo73666a()) {
-                                            bvoh2.f157039b = bxvk.m124021a(bvoh2.f157039b);
+                                            bvoh2.f157039b = GeneratedMessageLite.m124021a(bvoh2.f157039b);
                                         }
                                         bvoh2.f157039b.add(bvom3);
                                         size = i14;

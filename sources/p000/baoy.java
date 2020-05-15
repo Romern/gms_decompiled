@@ -9,28 +9,28 @@ import java.util.Map;
 public final class baoy implements baqc {
 
     /* renamed from: a */
-    private static final bxtx f101448a = bxtx.m123259a("bc", bmwy.f131158c);
+    private static final ByteString f101448a = ByteString.m123259a("bc", bmwy.f131158c);
 
     /* renamed from: b */
-    private static final bxtx f101449b = bxtx.m123259a("rdc", bmwy.f131158c);
+    private static final ByteString f101449b = ByteString.m123259a("rdc", bmwy.f131158c);
 
     /* renamed from: c */
-    private static final bxtx f101450c = bxtx.m123259a("dc", bmwy.f131158c);
+    private static final ByteString f101450c = ByteString.m123259a("dc", bmwy.f131158c);
 
     /* renamed from: d */
-    private static final bxtx f101451d = bxtx.m123259a("scdrc", bmwy.f131158c);
+    private static final ByteString f101451d = ByteString.m123259a("scdrc", bmwy.f131158c);
 
     /* renamed from: e */
-    private static final bxtx f101452e = bxtx.m123259a("scdc", bmwy.f131158c);
+    private static final ByteString f101452e = ByteString.m123259a("scdc", bmwy.f131158c);
 
     /* renamed from: f */
-    private static final bxtx f101453f = bxtx.m123259a("scts", bmwy.f131158c);
+    private static final ByteString f101453f = ByteString.m123259a("scts", bmwy.f131158c);
 
     /* renamed from: g */
-    private static final bxtx f101454g = bxtx.m123258a("cpnts");
+    private static final ByteString f101454g = ByteString.m123258a("cpnts");
 
     /* renamed from: h */
-    private static final bxtx f101455h = bxtx.m123258a("npnts");
+    private static final ByteString f101455h = ByteString.m123258a("npnts");
 
     /* renamed from: i */
     private static final bnhe f101456i;
@@ -43,21 +43,21 @@ public final class baoy implements baqc {
 
     static {
         bnha h = bnhe.m109414h();
-        h.mo67695b(bqao.SYNC_TRIGGER_UNKNOWN, bxtx.m123258a("ustdc"));
-        h.mo67695b(bqao.SYNC_TRIGGER_MANUAL, bxtx.m123258a("mstdc"));
-        h.mo67695b(bqao.SYNC_TRIGGER_TIMER, bxtx.m123258a("tstdc"));
-        h.mo67695b(bqao.SYNC_TRIGGER_SUBSCRIPTION, bxtx.m123258a("sstdc"));
-        h.mo67695b(bqao.SYNC_TRIGGER_PUSH_NOTIFICATION, bxtx.m123258a("pnstdc"));
-        h.mo67695b(bqao.SYNC_TRIGGER_READ, bxtx.m123258a("rstdc"));
-        h.mo67695b(bqao.SYNC_TRIGGER_WRITE, bxtx.m123258a("wstdc"));
+        h.mo67695b(bqao.SYNC_TRIGGER_UNKNOWN, ByteString.m123258a("ustdc"));
+        h.mo67695b(bqao.SYNC_TRIGGER_MANUAL, ByteString.m123258a("mstdc"));
+        h.mo67695b(bqao.SYNC_TRIGGER_TIMER, ByteString.m123258a("tstdc"));
+        h.mo67695b(bqao.SYNC_TRIGGER_SUBSCRIPTION, ByteString.m123258a("sstdc"));
+        h.mo67695b(bqao.SYNC_TRIGGER_PUSH_NOTIFICATION, ByteString.m123258a("pnstdc"));
+        h.mo67695b(bqao.SYNC_TRIGGER_READ, ByteString.m123258a("rstdc"));
+        h.mo67695b(bqao.SYNC_TRIGGER_WRITE, ByteString.m123258a("wstdc"));
         f101456i = bnmt.m109791a(h.mo67618b());
         bnha bnha = new bnha();
         bnrd a = f101456i.entrySet().iterator();
         while (a.hasNext()) {
             Map.Entry entry = (Map.Entry) a.next();
             bqao bqao = (bqao) entry.getKey();
-            String valueOf = String.valueOf(((bxtx) entry.getValue()).mo73781l());
-            bnha.mo67695b(bqao, bxtx.m123258a(valueOf.length() == 0 ? new String("sc") : "sc".concat(valueOf)));
+            String valueOf = String.valueOf(((ByteString) entry.getValue()).mo73781l());
+            bnha.mo67695b(bqao, ByteString.m123258a(valueOf.length() == 0 ? new String("sc") : "sc".concat(valueOf)));
         }
         f101457j = bnha.mo67618b();
     }
@@ -73,7 +73,7 @@ public final class baoy implements baqc {
       MutableMD:(java.lang.Enum, java.lang.Object):java.lang.Object
       MutableMD:(java.lang.Object, java.lang.Object):java.lang.Object */
     /* renamed from: a */
-    private final baqa m87303a(bxtx bxtx, bxtx bxtx2, Map map) {
+    private final baqa m87303a(ByteString bxtx, ByteString bxtx2, Map map) {
         banx a;
         try {
             a = this.f101458k.mo55766a().mo55798a();
@@ -82,7 +82,7 @@ public final class baoy implements baqc {
             bmxy.m108581a(bqao.class);
             EnumMap enumMap = new EnumMap(bqao.class);
             for (Map.Entry entry : map.entrySet()) {
-                enumMap.put((Object) ((bqao) entry.getKey()), (Object) Long.valueOf(baqr.m87410a(this.f101458k.mo55767a(a, (bxtx) entry.getValue()), 0)));
+                enumMap.put((Object) ((bqao) entry.getKey()), (Object) Long.valueOf(baqr.m87410a(this.f101458k.mo55767a(a, (ByteString) entry.getValue()), 0)));
             }
             bapz e = baqa.m87370e();
             e.mo55882a(a2);
@@ -148,7 +148,7 @@ public final class baoy implements baqc {
         bany b;
         try {
             b = this.f101458k.mo55766a().mo55799b();
-            this.f101458k.mo55776b(b, bxtx.f164797b, (bxtx) null);
+            this.f101458k.mo55776b(b, ByteString.f164797b, (ByteString) null);
             b.mo55796b();
             b.close();
             return;
@@ -161,7 +161,7 @@ public final class baoy implements baqc {
     }
 
     /* renamed from: a */
-    private final Long m87304a(bxtx bxtx) {
+    private final Long m87304a(ByteString bxtx) {
         banx a;
         try {
             a = this.f101458k.mo55766a().mo55798a();
@@ -220,13 +220,13 @@ public final class baoy implements baqc {
             this.f101458k.mo55771a(b, f101450c, baqr.m87411a(0));
             bnrd a = f101456i.values().iterator();
             while (a.hasNext()) {
-                this.f101458k.mo55771a(b, (bxtx) a.next(), baqr.m87411a(0));
+                this.f101458k.mo55771a(b, (ByteString) a.next(), baqr.m87411a(0));
             }
             this.f101458k.mo55771a(b, f101451d, baqr.m87411a(0));
             this.f101458k.mo55771a(b, f101452e, baqr.m87411a(0));
             bnrd a2 = f101457j.values().iterator();
             while (a2.hasNext()) {
-                this.f101458k.mo55771a(b, (bxtx) a2.next(), baqr.m87411a(0));
+                this.f101458k.mo55771a(b, (ByteString) a2.next(), baqr.m87411a(0));
             }
             this.f101458k.mo55771a(b, f101453f, baqr.m87411a(j2));
             this.f101458k.mo55770a(b, f101454g);
@@ -262,7 +262,7 @@ public final class baoy implements baqc {
                 Map.Entry entry = (Map.Entry) a.next();
                 bqao bqao = (bqao) entry.getKey();
                 long longValue = ((Long) entry.getValue()).longValue();
-                bxtx bxtx = (bxtx) f101457j.get(bqao);
+                ByteString bxtx = (ByteString) f101457j.get(bqao);
                 bmxy.m108587a(bxtx, "Unsupported sync trigger %s!", bqao);
                 this.f101458k.mo55771a(b, bxtx, baqr.m87411a(longValue));
             }
@@ -295,7 +295,7 @@ public final class baoy implements baqc {
                 Map.Entry entry = (Map.Entry) a.next();
                 bqao bqao = (bqao) entry.getKey();
                 long longValue = ((Long) entry.getValue()).longValue();
-                bxtx bxtx = (bxtx) f101456i.get(bqao);
+                ByteString bxtx = (ByteString) f101456i.get(bqao);
                 bmxy.m108587a(bxtx, "Unsupported sync trigger %s!", bqao);
                 this.f101458k.mo55771a(b, bxtx, baqr.m87411a(longValue));
             }

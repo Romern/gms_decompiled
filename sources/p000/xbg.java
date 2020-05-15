@@ -19,7 +19,7 @@ import org.json.JSONObject;
 public final class xbg {
 
     /* renamed from: c */
-    private static final sek f51869c = new sek(new String[]{"IncomingRequestRpIdValidator"}, (short[]) null);
+    private static final Logger f51869c = new Logger(new String[]{"IncomingRequestRpIdValidator"}, (short[]) null);
 
     /* renamed from: a */
     private final Context f51870a;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bprq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bprq extends bxvk implements bxxd {
+public final class bprq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bprq f138883e;
@@ -25,7 +25,7 @@ public final class bprq extends bxvk implements bxxd {
     static {
         bprq bprq = new bprq();
         f138883e = bprq;
-        bxvk.m124024a(bprq.class, bprq);
+        GeneratedMessageLite.m124024a(bprq.class, bprq);
     }
 
     private bprq() {
@@ -42,7 +42,7 @@ public final class bprq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138883e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0002\u0000\u0001င\u0000\u0002\u001a\u0003\u001b", new Object[]{"a", "b", "c", "d", bprr.class});
+            return GeneratedMessageLite.m124022a(f138883e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0002\u0000\u0001င\u0000\u0002\u001a\u0003\u001b", new Object[]{"a", "b", "c", "d", bprr.class});
         } else if (i2 == 3) {
             return new bprq();
         } else {
@@ -69,7 +69,7 @@ public final class bprq extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo68977a() {
         if (!this.f138888d.mo73666a()) {
-            this.f138888d = bxvk.m124021a(this.f138888d);
+            this.f138888d = GeneratedMessageLite.m124021a(this.f138888d);
         }
     }
 }

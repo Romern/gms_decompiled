@@ -34,8 +34,8 @@ public final class roe {
       sdo.a(java.lang.String, java.lang.Object):void */
     /* renamed from: a */
     public static rob m34171a(Object obj, String str) {
-        sdo.m34966a(obj, "Listener must not be null");
-        sdo.m34966a((Object) str, (Object) "Listener type must not be null");
+        sdo.checkIfNull(obj, "Listener must not be null");
+        sdo.checkIfNull((Object) str, (Object) "Listener type must not be null");
         sdo.m34969a(str, (Object) "Listener type must not be empty");
         return new rob(obj, str);
     }
@@ -52,9 +52,9 @@ public final class roe {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public static rod m34172a(Object obj, Looper looper, String str) {
-        sdo.m34966a(obj, "Listener must not be null");
-        sdo.m34966a(looper, "Looper must not be null");
-        sdo.m34966a((Object) str, (Object) "Listener type must not be null");
+        sdo.checkIfNull(obj, "Listener must not be null");
+        sdo.checkIfNull(looper, "Looper must not be null");
+        sdo.checkIfNull((Object) str, (Object) "Listener type must not be null");
         return new rod(looper, obj, str);
     }
 }

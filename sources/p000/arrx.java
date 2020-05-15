@@ -19,11 +19,11 @@ public final class arrx extends BluetoothGattCallback {
     }
 
     public final void onCharacteristicRead(BluetoothGatt bluetoothGatt, BluetoothGattCharacteristic bluetoothGattCharacteristic, int i) {
-        sek sek = FastPairNotificationIntentOperation.f108064a;
+        Logger Logger = FastPairNotificationIntentOperation.f108064a;
         StringBuilder sb = new StringBuilder(35);
         sb.append("onCharacteristicRead(): ");
         sb.append(i);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         if (i == 0 && bluetoothGattCharacteristic.getUuid().equals(arrv.f88189b)) {
             this.f88206a.f108066c.mo50391a(new String(bluetoothGattCharacteristic.getValue(), arrv.f88191d));
         }
@@ -34,29 +34,29 @@ public final class arrx extends BluetoothGattCallback {
             FastPairNotificationIntentOperation.f108064a.mo25412b("Disconnected from GATT server.", new Object[0]);
             this.f88206a.f108066c.mo50392b((Exception) new ExecutionException(new Exception("Disconnected from Gatt server.")));
         } else if (i2 != 2) {
-            sek sek = FastPairNotificationIntentOperation.f108064a;
+            Logger Logger = FastPairNotificationIntentOperation.f108064a;
             StringBuilder sb = new StringBuilder(29);
             sb.append("connection state: ");
             sb.append(i2);
-            sek.mo25412b(sb.toString(), new Object[0]);
+            Logger.mo25412b(sb.toString(), new Object[0]);
         } else {
             boolean discoverServices = bluetoothGatt.discoverServices();
-            sek sek2 = FastPairNotificationIntentOperation.f108064a;
+            Logger logger2 = FastPairNotificationIntentOperation.f108064a;
             StringBuilder sb2 = new StringBuilder(27);
             sb2.append("Discovering services: ");
             sb2.append(discoverServices);
-            sek2.mo25412b(sb2.toString(), new Object[0]);
+            logger2.mo25412b(sb2.toString(), new Object[0]);
         }
     }
 
     public final void onServicesDiscovered(BluetoothGatt bluetoothGatt, int i) {
         BluetoothGattCharacteristic characteristic;
         if (i != 0) {
-            sek sek = FastPairNotificationIntentOperation.f108064a;
+            Logger Logger = FastPairNotificationIntentOperation.f108064a;
             StringBuilder sb = new StringBuilder(42);
             sb.append("onServicesDiscovered received: ");
             sb.append(i);
-            sek.mo25416d(sb.toString(), new Object[0]);
+            Logger.mo25416d(sb.toString(), new Object[0]);
             return;
         }
         FastPairNotificationIntentOperation.f108064a.mo25412b("onServicesDiscovered()", new Object[0]);

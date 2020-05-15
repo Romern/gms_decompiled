@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmag */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmag extends bxvk implements bxxd {
+public final class bmag extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmag f128442c;
@@ -19,7 +19,7 @@ public final class bmag extends bxvk implements bxxd {
     static {
         bmag bmag = new bmag();
         f128442c = bmag;
-        bxvk.m124024a(bmag.class, bmag);
+        GeneratedMessageLite.m124024a(bmag.class, bmag);
     }
 
     private bmag() {
@@ -36,7 +36,7 @@ public final class bmag extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128442c, "\u0001\u0001\u0001\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002ွ\u0000", new Object[]{"b", "a"});
+            return GeneratedMessageLite.m124022a(f128442c, "\u0001\u0001\u0001\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002ွ\u0000", new Object[]{"b", "a"});
         } else if (i2 == 3) {
             return new bmag();
         } else {

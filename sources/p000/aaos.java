@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aaos */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aaos extends bxvk implements bxxd {
+public final class aaos extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final aaos f28714d;
@@ -22,7 +22,7 @@ public final class aaos extends bxvk implements bxxd {
     static {
         aaos aaos = new aaos();
         f28714d = aaos;
-        bxvk.m124024a(aaos.class, aaos);
+        GeneratedMessageLite.m124024a(aaos.class, aaos);
     }
 
     private aaos() {
@@ -39,7 +39,7 @@ public final class aaos extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28714d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", aaoq.f28713a, "c"});
+            return GeneratedMessageLite.m124022a(f28714d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", aaoq.f28713a, "c"});
         } else if (i2 == 3) {
             return new aaos();
         } else {

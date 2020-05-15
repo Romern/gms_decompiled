@@ -16,7 +16,7 @@ public final class avsu extends bxvd implements bxxd {
         avsv avsv = (avsv) this.f164949b;
         avsv avsv2 = avsv.f93858g;
         if (!avsv.f93864e.mo73666a()) {
-            avsv.f93864e = bxvk.m124020a(avsv.f93864e);
+            avsv.f93864e = GeneratedMessageLite.m124020a(avsv.f93864e);
         }
         avsv.f93864e.mo74161a(j);
     }

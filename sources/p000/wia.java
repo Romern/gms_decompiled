@@ -75,7 +75,7 @@ public final class wia {
     /* renamed from: a */
     private final void m41957a(ddc ddc) {
         String str;
-        qwo a = this.f50698a.mo24335a(ddc.mo73642k());
+        qwo a = this.f50698a.mo24335a(ddc.serializeToBytes());
         if (this.f50698a.f42342i == null && (str = this.f50699b) != null) {
             a.mo24330c(str);
         }

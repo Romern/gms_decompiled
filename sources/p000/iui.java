@@ -10,7 +10,7 @@ import com.google.android.gms.common.api.Status;
 public final class iui extends aaab {
 
     /* renamed from: e */
-    private static final sek f21794e = new sek(new String[]{"VerifyDecryptOperation"}, (byte[]) null);
+    private static final Logger f21794e = new Logger(new String[]{"VerifyDecryptOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final isl f21795a;

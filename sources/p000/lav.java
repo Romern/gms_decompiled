@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lav */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lav extends bxvk implements bxxd {
+public final class lav extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final lav f25623e;
@@ -25,7 +25,7 @@ public final class lav extends bxvk implements bxxd {
     static {
         lav lav = new lav();
         f25623e = lav;
-        bxvk.m124024a(lav.class, lav);
+        GeneratedMessageLite.m124024a(lav.class, lav);
     }
 
     private lav() {
@@ -42,7 +42,7 @@ public final class lav extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25623e, "\u0000\u0004\u0000\u0000\u0003\u0006\u0004\u0000\u0000\u0000\u0003\t\u0004\t\u0005\f\u0006\u0007", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f25623e, "\u0000\u0004\u0000\u0000\u0003\u0006\u0004\u0000\u0000\u0000\u0003\t\u0004\t\u0005\f\u0006\u0007", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new lav();
         } else {

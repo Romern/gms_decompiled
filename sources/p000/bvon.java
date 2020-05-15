@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvon */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvon extends bxvk implements bxxd {
+public final class bvon extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bvon f157057d;
@@ -22,7 +22,7 @@ public final class bvon extends bxvk implements bxxd {
     static {
         bvon bvon = new bvon();
         f157057d = bvon;
-        bxvk.m124024a(bvon.class, bvon);
+        GeneratedMessageLite.m124024a(bvon.class, bvon);
     }
 
     private bvon() {
@@ -39,7 +39,7 @@ public final class bvon extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157057d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f157057d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bvon();
         } else {

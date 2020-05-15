@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: jia */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class jia extends bxvk implements bxxd {
+public final class jia extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final jia f22529d;
@@ -25,7 +25,7 @@ public final class jia extends bxvk implements bxxd {
     static {
         jia jia = new jia();
         f22529d = jia;
-        bxvk.m124024a(jia.class, jia);
+        GeneratedMessageLite.m124024a(jia.class, jia);
     }
 
     private jia() {
@@ -42,7 +42,7 @@ public final class jia extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f22529d, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0002\u0000\u0001ဌ\u0000\u0002\u001b\u0004\u001b", new Object[]{"e", "a", jhy.f22526a, "b", jht.class, "c", jhx.class});
+            return GeneratedMessageLite.m124022a(f22529d, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0002\u0000\u0001ဌ\u0000\u0002\u001b\u0004\u001b", new Object[]{"e", "a", jhy.f22526a, "b", jht.class, "c", jhx.class});
         } else if (i2 == 3) {
             return new jia();
         } else {

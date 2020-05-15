@@ -27,7 +27,7 @@ public final class syz {
     private static WeakReference f45461a = new WeakReference(null);
 
     /* renamed from: b */
-    private static final sek f45462b = tea.m36798a("auth_util");
+    private static final Logger f45462b = tea.m36798a("auth_util");
 
     /* renamed from: c */
     private final tds f45463c;

@@ -23,7 +23,7 @@ import java.util.concurrent.Executor;
 public final class jju {
 
     /* renamed from: a */
-    public static final sek f22638a = jsy.m17256a("BleForegroundAdvertiser");
+    public static final Logger f22638a = jsy.m17256a("BleForegroundAdvertiser");
 
     /* renamed from: b */
     static final ParcelUuid f22639b = new ParcelUuid(UUID.fromString("0000fe50-0000-1000-8000-00805f9b34fb"));

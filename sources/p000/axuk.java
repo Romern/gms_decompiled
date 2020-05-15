@@ -101,7 +101,7 @@ public final class axuk implements ayjm {
                 ayec ayec2 = (ayec) da3.mo74062i();
                 ayec2.getClass();
                 if (!ayeb.f97277a.mo73666a()) {
-                    ayeb.f97277a = bxvk.m124021a(ayeb.f97277a);
+                    ayeb.f97277a = GeneratedMessageLite.m124021a(ayeb.f97277a);
                 }
                 ayeb.f97277a.add(ayec2);
             }

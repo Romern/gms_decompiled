@@ -78,7 +78,7 @@ public final class adqo {
             }
             bomb bomb2 = (bomb) da.f164949b;
             if (!bomb2.f133621d.mo73666a()) {
-                bomb2.f133621d = bxvk.m124021a(bomb2.f133621d);
+                bomb2.f133621d = GeneratedMessageLite.m124021a(bomb2.f133621d);
             }
             bxsy.m123078a(arrayList, bomb2.f133621d);
         } else {

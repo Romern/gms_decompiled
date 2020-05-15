@@ -16,7 +16,7 @@ public final /* synthetic */ class gzg implements bmxz {
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
         hek hek = this.f19290a;
-        sek sek = gzz.f19315d;
+        Logger Logger = gzz.f19315d;
         return TextUtils.equals(((InternalSignInCredentialWrapper) obj).f10233g.f10248a, hek.f19602b);
     }
 }

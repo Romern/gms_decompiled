@@ -532,7 +532,7 @@ public final class C0728a implements C0907a {
                                                         z2 = true;
                                                     }
                                                 } else {
-                                                    bqkk = (bqkk) bxvk.m124011a(bqkk.f140995d, httpsURLConnection.getInputStream(), bxus.m123744c());
+                                                    bqkk = (bqkk) GeneratedMessageLite.m124011a(bqkk.f140995d, httpsURLConnection.getInputStream(), bxus.m123744c());
                                                     stp.m36307a(httpsURLConnection);
                                                     shr.m35312a();
                                                     if (bqkk == null) {

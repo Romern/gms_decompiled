@@ -27,7 +27,7 @@ public final class aenx extends aeme {
         aemf aemf = new aemf((aeme) this);
         PlaceRequest placeRequest = this.f63543a;
         PendingIntent pendingIntent = this.f63544b;
-        sdo.m34966a(aemf, "callback == null");
+        sdo.checkIfNull(aemf, "callback == null");
         ((aeni) aeoa.mo25289B()).mo34352a(placeRequest, aeoa.f63545a, pendingIntent, aemf);
     }
 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btiv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btiv extends bxvk implements bxxd {
+public final class btiv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final btiv f149041b;
@@ -16,7 +16,7 @@ public final class btiv extends bxvk implements bxxd {
     static {
         btiv btiv = new btiv();
         f149041b = btiv;
-        bxvk.m124024a(btiv.class, btiv);
+        GeneratedMessageLite.m124024a(btiv.class, btiv);
     }
 
     private btiv() {
@@ -33,7 +33,7 @@ public final class btiv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149041b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002\u0007", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f149041b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002\u0007", new Object[]{"a"});
         } else if (i2 == 3) {
             return new btiv();
         } else {

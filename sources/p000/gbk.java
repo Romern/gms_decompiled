@@ -12,7 +12,7 @@ import com.google.android.gms.common.api.Status;
 public final class gbk extends gbt implements aaai {
 
     /* renamed from: a */
-    private static final sek f17831a = tea.m36798a("asterism-api-stub");
+    private static final Logger f17831a = tea.m36798a("asterism-api-stub");
 
     /* renamed from: b */
     private final Context f17832b;

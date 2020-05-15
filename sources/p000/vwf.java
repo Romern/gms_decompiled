@@ -119,7 +119,7 @@ public final class vwf implements vxt {
                 vwd vwd6 = (vwd) da3.mo74062i();
                 vwd6.getClass();
                 if (!vvx3.f50096d.mo73666a()) {
-                    vvx3.f50096d = bxvk.m124021a(vvx3.f50096d);
+                    vvx3.f50096d = GeneratedMessageLite.m124021a(vvx3.f50096d);
                 }
                 vvx3.f50096d.add(vwd6);
             }
@@ -144,7 +144,7 @@ public final class vwf implements vxt {
     /* renamed from: a */
     public final synchronized void mo28911a(Throwable th) {
         if (this.f50131b != null) {
-            this.f50131b.mo24335a(m41484b(th).mo73642k()).mo24327b();
+            this.f50131b.mo24335a(m41484b(th).serializeToBytes()).mo24327b();
             return;
         }
         Log.e("DG", "ErrorReporter not initialized");

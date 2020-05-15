@@ -13,7 +13,7 @@ import com.google.android.gms.smartdevice.notification.SerializableNotification;
 public final class arsd {
 
     /* renamed from: a */
-    public static final sek f88223a = ascp.m73787a("Notification", "PersistentNotificationManager");
+    public static final Logger f88223a = ascp.m73787a("Notification", "PersistentNotificationManager");
 
     /* renamed from: b */
     private final sex f88224b;
@@ -64,26 +64,26 @@ public final class arsd {
 
     /* renamed from: a */
     public final void mo48787a(String str, int i, SerializableNotification serializableNotification) {
-        sek sek = f88223a;
+        Logger Logger = f88223a;
         Integer valueOf = Integer.valueOf(i);
-        sek.mo25409a("doNotify(tag=%s, id=%s)", str, valueOf);
+        Logger.logVerbose("doNotify(tag=%s, id=%s)", str, valueOf);
         rpr b = rpr.m34216b();
         m73369a().edit().putString(m73371a(str, i), serializableNotification.mo59140a()).commit();
         if (serializableNotification.f108086c > 0) {
             PendingIntent pendingIntent = IntentOperation.getPendingIntent(b, PersistentNotificationDelayIntentOperation.class, PersistentNotificationDelayIntentOperation.m92792a(b, str, i, serializableNotification), 0, 134217728);
             if (pendingIntent != null) {
-                f88223a.mo25409a("Setting timer to launch notification in %d ms", Long.valueOf(serializableNotification.f108086c));
+                f88223a.logVerbose("Setting timer to launch notification in %d ms", Long.valueOf(serializableNotification.f108086c));
                 m73372a("PersistentNotificationManager", pendingIntent, serializableNotification.f108084a + serializableNotification.f108086c);
             } else {
                 f88223a.mo25416d("Unable to set timer to launch notification.", new Object[0]);
             }
         } else {
-            f88223a.mo25409a("Showing notification (tag=%s, id=%s)", str, valueOf);
+            f88223a.logVerbose("Showing notification (tag=%s, id=%s)", str, valueOf);
             this.f88224b.mo25445a(str, i, serializableNotification.mo59139a(b));
         }
         if (serializableNotification.f108085b > 0) {
             PendingIntent broadcast = PendingIntent.getBroadcast(b, 0, PersistentNotificationCancellationBroadcastChimeraReceiver.m92791a(b, str, i), 134217728);
-            f88223a.mo25409a("Setting timer to cancel notification in %d ms", Long.valueOf(serializableNotification.f108085b));
+            f88223a.logVerbose("Setting timer to cancel notification in %d ms", Long.valueOf(serializableNotification.f108085b));
             m73372a("PersistentNotificationManager.CANCELATION", broadcast, serializableNotification.f108084a + serializableNotification.f108086c + serializableNotification.f108085b);
         }
     }

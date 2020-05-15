@@ -11,15 +11,15 @@ public final class xfr {
     public final KeyHandle f52138a;
 
     /* renamed from: b */
-    public final bxtx f52139b;
+    public final ByteString f52139b;
 
     /* renamed from: c */
-    public final bxtx f52140c;
+    public final ByteString f52140c;
 
     /* renamed from: d */
     public final bmxv f52141d;
 
-    public xfr(KeyHandle keyHandle, bxtx bxtx, bxtx bxtx2, bmxv bmxv) {
+    public xfr(KeyHandle keyHandle, ByteString bxtx, ByteString bxtx2, bmxv bmxv) {
         bmxy.m108581a(keyHandle);
         this.f52138a = keyHandle;
         bmxy.m108581a(bxtx);
@@ -51,8 +51,8 @@ public final class xfr {
     public final String toString() {
         bmxt a = bmxu.m108563a(this);
         a.mo66885a("keyHandle", this.f52138a);
-        a.mo66885a("application", boan.f132472f.mo68794a(this.f52139b.mo73780k()));
-        a.mo66885a("challenge", boan.f132472f.mo68794a(this.f52140c.mo73780k()));
+        a.mo66885a("application", boan.f132472f.mo68794a(this.f52139b.getKey()));
+        a.mo66885a("challenge", boan.f132472f.mo68794a(this.f52140c.getKey()));
         if (this.f52141d.mo66813a()) {
             a.mo66885a("clientData", this.f52141d.mo66814b());
         }

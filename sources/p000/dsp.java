@@ -368,7 +368,7 @@ public final class dsp extends drx {
                 bxgw bxgw = (bxgw) da.f164949b;
                 a2.getClass();
                 if (!bxgw.f163319a.mo73666a()) {
-                    bxgw.f163319a = bxvk.m124021a(bxgw.f163319a);
+                    bxgw.f163319a = GeneratedMessageLite.m124021a(bxgw.f163319a);
                 }
                 bxgw.f163319a.add(a2);
             }

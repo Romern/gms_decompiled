@@ -25,7 +25,7 @@ public final class abfh extends aayk {
                 return null;
             }
             try {
-                return (abeg) bxvk.m124016a(abeg.f57189e, k.f56844c, bxus.m123744c());
+                return (abeg) GeneratedMessageLite.m124016a(abeg.f57189e, k.f56844c, bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("gH_ConfigsCronetRequest", "Parsing GetConfigurationsResponse failed!", e);
                 return null;
@@ -77,7 +77,7 @@ public final class abfh extends aayk {
                         abem abem = (abem) da.f164949b;
                         abee.getClass();
                         if (!abem.f57258b.mo73666a()) {
-                            abem.f57258b = bxvk.m124021a(abem.f57258b);
+                            abem.f57258b = GeneratedMessageLite.m124021a(abem.f57258b);
                         }
                         abem.f57258b.add(abee);
                     } else {

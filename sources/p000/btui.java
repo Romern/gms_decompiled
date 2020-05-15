@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btui */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btui extends bxvk implements bxxd {
+public final class btui extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btui f150491c;
@@ -19,7 +19,7 @@ public final class btui extends bxvk implements bxxd {
     static {
         btui btui = new btui();
         f150491c = btui;
-        bxvk.m124024a(btui.class, btui);
+        GeneratedMessageLite.m124024a(btui.class, btui);
     }
 
     private btui() {
@@ -36,7 +36,7 @@ public final class btui extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150491c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", btur.m117164b()});
+            return GeneratedMessageLite.m124022a(f150491c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", btur.m117164b()});
         } else if (i2 == 3) {
             return new btui();
         } else {

@@ -16,7 +16,7 @@ public final class cbre extends bxvd implements bxxd {
         cbrh cbrh = (cbrh) this.f164949b;
         cbrh cbrh2 = cbrh.f178114t;
         if (!cbrh.f178132q.mo73666a()) {
-            cbrh.f178132q = bxvk.m124021a(cbrh.f178132q);
+            cbrh.f178132q = GeneratedMessageLite.m124021a(cbrh.f178132q);
         }
         bxsy.m123078a(iterable, cbrh.f178132q);
     }
@@ -30,7 +30,7 @@ public final class cbre extends bxvd implements bxxd {
         cbrh cbrh = (cbrh) this.f164949b;
         cbrh cbrh2 = cbrh.f178114t;
         if (!cbrh.f178131p.mo73666a()) {
-            cbrh.f178131p = bxvk.m124021a(cbrh.f178131p);
+            cbrh.f178131p = GeneratedMessageLite.m124021a(cbrh.f178131p);
         }
         bxsy.m123078a(iterable, cbrh.f178131p);
     }
@@ -44,7 +44,7 @@ public final class cbre extends bxvd implements bxxd {
         cbrh cbrh = (cbrh) this.f164949b;
         cbrh cbrh2 = cbrh.f178114t;
         if (!cbrh.f178134s.mo73666a()) {
-            cbrh.f178134s = bxvk.m124021a(cbrh.f178134s);
+            cbrh.f178134s = GeneratedMessageLite.m124021a(cbrh.f178134s);
         }
         bxsy.m123078a(iterable, cbrh.f178134s);
     }
@@ -58,7 +58,7 @@ public final class cbre extends bxvd implements bxxd {
         cbrh cbrh = (cbrh) this.f164949b;
         cbrh cbrh2 = cbrh.f178114t;
         if (!cbrh.f178133r.mo73666a()) {
-            cbrh.f178133r = bxvk.m124021a(cbrh.f178133r);
+            cbrh.f178133r = GeneratedMessageLite.m124021a(cbrh.f178133r);
         }
         bxsy.m123078a(iterable, cbrh.f178133r);
     }

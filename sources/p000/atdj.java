@@ -17,22 +17,22 @@ final class atdj implements caou {
 
     /* renamed from: a */
     public final byte[] mo49408a() {
-        return this.f90119a ? this.f90120b.f130798b.mo73780k() : this.f90120b.f130802f.mo73780k();
+        return this.f90119a ? this.f90120b.f130798b.getKey() : this.f90120b.f130802f.getKey();
     }
 
     /* renamed from: b */
     public final byte[] mo49409b() {
-        return this.f90120b.f130800d.mo73780k();
+        return this.f90120b.f130800d.getKey();
     }
 
     /* renamed from: c */
     public final byte[] mo49410c() {
-        return this.f90120b.f130799c.mo73780k();
+        return this.f90120b.f130799c.getKey();
     }
 
     /* renamed from: d */
     public final byte[] mo49411d() {
-        return this.f90119a ? this.f90120b.f130797a.mo73780k() : this.f90120b.f130801e.mo73780k();
+        return this.f90119a ? this.f90120b.f130797a.getKey() : this.f90120b.f130801e.getKey();
     }
 
     /* renamed from: e */

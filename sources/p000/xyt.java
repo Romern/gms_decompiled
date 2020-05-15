@@ -21,7 +21,7 @@ final /* synthetic */ class xyt implements Runnable {
         xyv xyv = this.f53399a;
         ResponseData responseData = this.f53400b;
         xyw xyw = xyv.f53402a;
-        sek sek = xyr.f53375l;
+        Logger Logger = xyr.f53375l;
         Object[] objArr = new Object[2];
         objArr[0] = responseData;
         xyr xyr = (xyr) xyw;
@@ -29,7 +29,7 @@ final /* synthetic */ class xyt implements Runnable {
         String a = xyq.m43651a(i);
         if (i != 0) {
             objArr[1] = a;
-            sek.mo25414c("onRequestProcessed, result: %s, mCurrentState: %s", objArr);
+            Logger.mo25414c("onRequestProcessed, result: %s, mCurrentState: %s", objArr);
             xyr.f53377b.mo30061a(Transport.BLUETOOTH_LOW_ENERGY, responseData);
             return;
         }

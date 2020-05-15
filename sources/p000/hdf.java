@@ -22,7 +22,7 @@ import java.util.Set;
 public final class hdf extends adcf {
 
     /* renamed from: a */
-    public static final sek f19494a = ght.m13172b("AuthorizationControllerFragment");
+    public static final Logger f19494a = ght.m13172b("AuthorizationControllerFragment");
 
     /* renamed from: A */
     private bnic f19495A;

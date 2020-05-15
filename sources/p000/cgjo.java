@@ -59,9 +59,9 @@ public final class cgjo implements cgjl {
         f187082h = bdyx.m91610a(bdyw, "GrpcContactsUploader__schedule_periodic_sync_on_settings_changed", true);
         f187083i = bdyx.m91610a(bdyw, "GrpcContactsUploader__spe_change_oneoff_batch_sync_to_incremental", false);
         try {
-            f187084j = bdyx.m91608a(bdyw, "GrpcContactsUploader__upload_contacts_batch_sync_policy", (bylh) bxvk.m124014a(bylh.f166832d, new byte[]{10, 81, 10, 79, 10, 66, 8, 1, 16, 1, 40, 2, 48, 1, 66, 56, 10, 6, 8, 2, 18, 2, 8, 3, 10, 6, 8, 3, 18, 2, 8, 3, 10, 6, 8, 4, 18, 2, 8, 3, 10, 6, 8, 5, 18, 2, 8, 3, 10, 6, 8, 6, 18, 2, 8, 3, 10, 6, 8, 10, 18, 2, 8, 3, 10, 6, 8, 9, 18, 2, 8, 3, 18, 9, 10, 2, 8, 60, 18, 3, 8, -40, 4}), cgjm.f187073a);
+            f187084j = bdyx.m91608a(bdyw, "GrpcContactsUploader__upload_contacts_batch_sync_policy", (bylh) GeneratedMessageLite.m124014a(bylh.f166832d, new byte[]{10, 81, 10, 79, 10, 66, 8, 1, 16, 1, 40, 2, 48, 1, 66, 56, 10, 6, 8, 2, 18, 2, 8, 3, 10, 6, 8, 3, 18, 2, 8, 3, 10, 6, 8, 4, 18, 2, 8, 3, 10, 6, 8, 5, 18, 2, 8, 3, 10, 6, 8, 6, 18, 2, 8, 3, 10, 6, 8, 10, 18, 2, 8, 3, 10, 6, 8, 9, 18, 2, 8, 3, 18, 9, 10, 2, 8, 60, 18, 3, 8, -40, 4}), cgjm.f187073a);
             try {
-                f187085k = bdyx.m91608a(bdyw, "GrpcContactsUploader__upload_contacts_incremental_sync_policy", (bylh) bxvk.m124014a(bylh.f166832d, new byte[]{10, 81, 10, 79, 10, 66, 8, 1, 16, 1, 40, 2, 48, 1, 66, 56, 10, 6, 8, 2, 18, 2, 8, 3, 10, 6, 8, 3, 18, 2, 8, 3, 10, 6, 8, 4, 18, 2, 8, 3, 10, 6, 8, 5, 18, 2, 8, 3, 10, 6, 8, 6, 18, 2, 8, 3, 10, 6, 8, 10, 18, 2, 8, 3, 10, 6, 8, 9, 18, 2, 8, 3, 18, 9, 10, 2, 8, 60, 18, 3, 8, -40, 4}), cgjn.f187074a);
+                f187085k = bdyx.m91608a(bdyw, "GrpcContactsUploader__upload_contacts_incremental_sync_policy", (bylh) GeneratedMessageLite.m124014a(bylh.f166832d, new byte[]{10, 81, 10, 79, 10, 66, 8, 1, 16, 1, 40, 2, 48, 1, 66, 56, 10, 6, 8, 2, 18, 2, 8, 3, 10, 6, 8, 3, 18, 2, 8, 3, 10, 6, 8, 4, 18, 2, 8, 3, 10, 6, 8, 5, 18, 2, 8, 3, 10, 6, 8, 6, 18, 2, 8, 3, 10, 6, 8, 10, 18, 2, 8, 3, 10, 6, 8, 9, 18, 2, 8, 3, 18, 9, 10, 2, 8, 60, 18, 3, 8, -40, 4}), cgjn.f187074a);
             } catch (bxwf e) {
                 throw new AssertionError("Could not parse proto flag \"GrpcContactsUploader__upload_contacts_incremental_sync_policy\"");
             }

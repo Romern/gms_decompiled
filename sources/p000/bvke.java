@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvke */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvke extends bxvk implements bxxd {
+public final class bvke extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final bvke f156393j;
@@ -11,13 +11,13 @@ public final class bvke extends bxvk implements bxxd {
     private static volatile bxxk f156394k;
 
     /* renamed from: a */
-    public bxtx f156395a = bxtx.f164797b;
+    public ByteString f156395a = ByteString.f164797b;
 
     /* renamed from: b */
-    public bxtx f156396b = bxtx.f164797b;
+    public ByteString f156396b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f156397c = bxtx.f164797b;
+    public ByteString f156397c = ByteString.f164797b;
 
     /* renamed from: d */
     public bxyk f156398d;
@@ -29,18 +29,18 @@ public final class bvke extends bxvk implements bxxd {
     public boolean f156400f;
 
     /* renamed from: g */
-    public bxtx f156401g = bxtx.f164797b;
+    public ByteString f156401g = ByteString.f164797b;
 
     /* renamed from: h */
-    public bxtx f156402h = bxtx.f164797b;
+    public ByteString f156402h = ByteString.f164797b;
 
     /* renamed from: i */
-    public bxtx f156403i = bxtx.f164797b;
+    public ByteString f156403i = ByteString.f164797b;
 
     static {
         bvke bvke = new bvke();
         f156393j = bvke;
-        bxvk.m124024a(bvke.class, bvke);
+        GeneratedMessageLite.m124024a(bvke.class, bvke);
     }
 
     private bvke() {
@@ -57,7 +57,7 @@ public final class bvke extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f156393j, "\u0000\t\u0000\u0000\u0001\t\t\u0000\u0000\u0000\u0001\n\u0002\n\u0003\n\u0004\t\u0005\t\u0006\u0007\u0007\n\b\n\t\n", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f156393j, "\u0000\t\u0000\u0000\u0001\t\t\u0000\u0000\u0000\u0001\n\u0002\n\u0003\n\u0004\t\u0005\t\u0006\u0007\u0007\n\b\n\t\n", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new bvke();
         } else {

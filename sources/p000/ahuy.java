@@ -49,7 +49,7 @@ public final class ahuy {
         try {
             ayqi a = ahvg.m56719a();
             ((bnsl) ahsd.f67925a.mo68390d()).mo68405a("FastPair: writeAliasNameToProvider create connection");
-            z = new aypk(context, str, a.mo54224a(), new ahts(ahti)).mo54195a(ahyz.f68429c.mo73780k(), buqx.m120261b(ahyz.f68428b));
+            z = new aypk(context, str, a.mo54224a(), new ahts(ahti)).mo54195a(ahyz.f68429c.getKey(), buqx.m120261b(ahyz.f68428b));
             try {
                 ahti.mo37121a(f.mo37111a());
             } catch (BluetoothException | PairingException | InterruptedException | GeneralSecurityException | ExecutionException | TimeoutException e2) {

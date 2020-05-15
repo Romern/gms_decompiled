@@ -12,7 +12,7 @@ public final class qvk {
     public static final imo f42238a = new qvj();
 
     /* renamed from: c */
-    private static final sek f42239c = qqu.m32672c("BroadcastManager");
+    private static final Logger f42239c = qqu.m32672c("BroadcastManager");
 
     /* renamed from: b */
     public final Context f42240b;

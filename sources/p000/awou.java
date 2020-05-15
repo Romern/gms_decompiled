@@ -720,7 +720,7 @@ public final class awou implements awpb {
         sb.append(bxxc.getClass().getSimpleName());
         sb.append(":");
         try {
-            sb.append(new String(bxxc.mo73642k(), "UTF-8"));
+            sb.append(new String(bxxc.serializeToBytes(), "UTF-8"));
             return mo52426a(sb.toString());
         } catch (UnsupportedEncodingException e) {
             throw new IllegalStateException("UTF-8 not supported", e);

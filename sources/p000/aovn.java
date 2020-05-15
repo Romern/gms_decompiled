@@ -37,7 +37,7 @@ public final class aovn extends aovg {
         bxvd da = blpo.f127258h.mo74144da();
         blrj a = aoww.m69746a(this.f83687h);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         blrj blrj = (blrj) bxvd.f164949b;
         if ((blrj.f127458a & 4) != 0) {
             blrn blrn = blrj.f127461d;

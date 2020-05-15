@@ -79,7 +79,7 @@ final class buvq extends nej {
     public final void mo20523a(String str) {
         bvat bvat = this.f155072a.f155087f;
         bxvd da = buzu.f155430c.mo74144da();
-        bxtx a = bxtx.m123261a(bvau.m120846a(str));
+        ByteString a = ByteString.m123261a(bvau.m120846a(str));
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

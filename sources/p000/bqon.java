@@ -48,7 +48,7 @@ public final class bqon {
         }
         ((bqre) da.f164949b).f141428a = i;
         bxvd da2 = bqsf.f141514d.mo74144da();
-        bxtx aL = ((bqre) da.mo74062i()).mo73639aL();
+        ByteString aL = ((bqre) da.mo74062i()).mo73639aL();
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -89,7 +89,7 @@ public final class bqon {
         bqrc.getClass();
         ((bqrb) da.f164949b).f141417a = bqrc;
         bxvd da3 = bqsf.f141514d.mo74144da();
-        bxtx aL = ((bqrb) da.mo74062i()).mo73639aL();
+        ByteString aL = ((bqrb) da.mo74062i()).mo73639aL();
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;
@@ -160,7 +160,7 @@ public final class bqon {
         bqsa2.getClass();
         bqqw.f141397b = bqsa2;
         bxvd da6 = bqsf.f141514d.mo74144da();
-        bxtx aL = ((bqqw) da5.mo74062i()).mo73639aL();
+        ByteString aL = ((bqqw) da5.mo74062i()).mo73639aL();
         if (da6.f164950c) {
             da6.mo74035c();
             da6.f164950c = false;

@@ -238,7 +238,7 @@ public final class auck extends aucb {
 
     /* renamed from: a */
     public final void mo50397a(Exception exc) {
-        sdo.m34966a(exc, "Exception must not be null");
+        sdo.checkIfNull(exc, "Exception must not be null");
         synchronized (this.f91393a) {
             m76733g();
             this.f91395c = true;

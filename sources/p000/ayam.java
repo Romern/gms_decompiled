@@ -23,12 +23,12 @@ public final class ayam {
     /* renamed from: a */
     public static byte[] m83700a(ayfa ayfa) {
         if ((ayfa.f97429a & PSKKeyManager.MAX_KEY_LENGTH_BYTES) == 0) {
-            return ayfa.f97435g.mo73780k();
+            return ayfa.f97435g.getKey();
         }
         ayen ayen = ayfa.f97437i;
         if (ayen == null) {
             ayen = ayen.f97331g;
         }
-        return ayen.mo73642k();
+        return ayen.serializeToBytes();
     }
 }

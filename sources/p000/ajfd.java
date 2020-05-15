@@ -567,7 +567,7 @@ public abstract class ajfd implements ajet {
             ClientContext clientContext = new ClientContext(i2, (Account) null, (Account) null, str, str);
             this.f70507k.mo38571a(a2.mo38542a(this.f70500d), this.f70509m, a2.mo25519a(a2.f44453i, clientContext));
             String str5 = this.f70500d;
-            byte[] k = this.f70509m.mo73642k();
+            byte[] k = this.f70509m.serializeToBytes();
             bxxc bxxc = this.f70510n;
             ajfc ajfc = this.f70498b;
             a2.mo25522a(clientContext, str5, k, bxxc, ajfc, ajfc);

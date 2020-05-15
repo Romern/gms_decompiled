@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: dci */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class dci extends bxvk implements bxxd {
+public final class dci extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final dci f12811g;
@@ -31,7 +31,7 @@ public final class dci extends bxvk implements bxxd {
     static {
         dci dci = new dci();
         f12811g = dci;
-        bxvk.m124024a(dci.class, dci);
+        GeneratedMessageLite.m124024a(dci.class, dci);
     }
 
     private dci() {
@@ -48,7 +48,7 @@ public final class dci extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f12811g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဃ\u0002\u0004ဃ\u0003\u0005ဃ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f12811g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဃ\u0002\u0004ဃ\u0003\u0005ဃ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new dci();
         } else {

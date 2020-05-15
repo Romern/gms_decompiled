@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: auff */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class auff extends bxvk implements bxxd {
+public final class auff extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: C */
     public static final auff f91640C;
@@ -109,7 +109,7 @@ public final class auff extends bxvk implements bxxd {
     static {
         auff auff = new auff();
         f91640C = auff;
-        bxvk.m124024a(auff.class, auff);
+        GeneratedMessageLite.m124024a(auff.class, auff);
     }
 
     private auff() {
@@ -130,7 +130,7 @@ public final class auff extends bxvk implements bxxd {
             this.f91647G = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f91640C, "\u0001\u001e\u0000\u0001\u0001\u001e\u001e\u0000\u0012\u0002\u0001ဈ\u0000\u0002င\t\u0003င\u0001\u0004\u001a\u0005\u001a\u0006\u001a\u0007\u001a\b\u001a\t\u001a\n\u001a\u000b\u001a\f\u001a\r\u001a\u000e\u001a\u000fဇ\u0005\u0010%\u0011ဂ\u0006\u0012\u001b\u0013\u001a\u0014\u001a\u0015\u001a\u0016\u001a\u0017\u001a\u0018ᐉ\u0002\u0019ဇ\u000b\u001aᐉ\b\u001bဉ\n\u001cဉ\u0007\u001dခ\u0003\u001eဇ\u0004", new Object[]{"a", "b", "D", "c", "d", "u", "v", "w", "x", "y", "z", "A", "B", "j", "k", "o", "p", "q", "r", aufk.class, "e", "f", "g", "h", "i", "l", "F", "t", "E", "s", "m", "n"});
+            return GeneratedMessageLite.m124022a(f91640C, "\u0001\u001e\u0000\u0001\u0001\u001e\u001e\u0000\u0012\u0002\u0001ဈ\u0000\u0002င\t\u0003င\u0001\u0004\u001a\u0005\u001a\u0006\u001a\u0007\u001a\b\u001a\t\u001a\n\u001a\u000b\u001a\f\u001a\r\u001a\u000e\u001a\u000fဇ\u0005\u0010%\u0011ဂ\u0006\u0012\u001b\u0013\u001a\u0014\u001a\u0015\u001a\u0016\u001a\u0017\u001a\u0018ᐉ\u0002\u0019ဇ\u000b\u001aᐉ\b\u001bဉ\n\u001cဉ\u0007\u001dခ\u0003\u001eဇ\u0004", new Object[]{"a", "b", "D", "c", "d", "u", "v", "w", "x", "y", "z", "A", "B", "j", "k", "o", "p", "q", "r", aufk.class, "e", "f", "g", "h", "i", "l", "F", "t", "E", "s", "m", "n"});
         } else if (i2 == 3) {
             return new auff();
         } else {

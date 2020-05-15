@@ -27,7 +27,7 @@ final class awoj implements Runnable {
         bwjw.f159884a |= 1;
         byte[] bArr = awom.f94735h;
         if (bArr != null) {
-            bxtx a2 = bxtx.m123261a(bArr);
+            ByteString a2 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -39,7 +39,7 @@ final class awoj implements Runnable {
         } else {
             byte[] bArr2 = awom.f94736i;
             if (bArr2 != null) {
-                bxtx a3 = bxtx.m123261a(bArr2);
+                ByteString a3 = ByteString.m123261a(bArr2);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

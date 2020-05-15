@@ -5,5 +5,5 @@ package p000;
 public final class ayxg {
 
     /* renamed from: a */
-    public static final bxvj f98679a = bxvk.m124006a(aywu.f98650f, ayxf.f98675c, ayxf.f98675c, 100000004, bxzf.MESSAGE);
+    public static final bxvj f98679a = GeneratedMessageLite.m124006a(aywu.f98650f, ayxf.f98675c, ayxf.f98675c, 100000004, bxzf.MESSAGE);
 }

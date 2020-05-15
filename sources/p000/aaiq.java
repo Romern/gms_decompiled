@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aaiq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aaiq extends bxvk implements bxxd {
+public final class aaiq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final aaiq f28214c;
@@ -19,7 +19,7 @@ public final class aaiq extends bxvk implements bxxd {
     static {
         aaiq aaiq = new aaiq();
         f28214c = aaiq;
-        bxvk.m124024a(aaiq.class, aaiq);
+        GeneratedMessageLite.m124024a(aaiq.class, aaiq);
     }
 
     private aaiq() {
@@ -36,7 +36,7 @@ public final class aaiq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28214c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f28214c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new aaiq();
         } else {

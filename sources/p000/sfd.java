@@ -46,7 +46,7 @@ public final class sfd {
     }
 
     public sfd(Audience audience) {
-        sdo.m34966a(audience, "Audience must not be null.");
+        sdo.checkIfNull(audience, "Audience must not be null.");
         this.f44111c = audience.f30287b;
         this.f44112d = audience.f30288c;
         this.f44110b = audience.f30290e;
@@ -54,7 +54,7 @@ public final class sfd {
 
     /* renamed from: a */
     public final void mo25467a(Collection collection) {
-        sdo.m34966a(collection, "Audience members must not be null.");
+        sdo.checkIfNull(collection, "Audience members must not be null.");
         this.f44111c = Collections.unmodifiableList(new ArrayList(collection));
     }
 }

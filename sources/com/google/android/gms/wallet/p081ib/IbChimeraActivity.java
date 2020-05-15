@@ -149,8 +149,8 @@ public class IbChimeraActivity extends awce implements awhd, awgr, bjfg, aweq, a
 
     /* renamed from: a */
     public static Intent m93947a(BuyFlowConfig buyFlowConfig, byte[] bArr, byte[] bArr2, IbBuyFlowInput ibBuyFlowInput, IbMerchantParameters ibMerchantParameters, String str) {
-        sdo.m34966a(buyFlowConfig, "buyFlowConfig is required");
-        sdo.m34966a(ibBuyFlowInput, "buyFlowInput is required");
+        sdo.checkIfNull(buyFlowConfig, "buyFlowConfig is required");
+        sdo.checkIfNull(ibBuyFlowInput, "buyFlowInput is required");
         Bundle bundle = new Bundle();
         bundle.putParcelable("com.google.android.gms.wallet.buyFlowConfig", buyFlowConfig);
         if (bArr != null && bArr.length > 0) {
@@ -308,7 +308,7 @@ public class IbChimeraActivity extends awce implements awhd, awgr, bjfg, aweq, a
         }
         this.f110208l.setClassLoader(IbChimeraActivity.class.getClassLoader());
         Bundle bundle2 = (Bundle) this.f110208l.getParcelable("com.google.android.gms.wallet.firstparty.EXTRA_ACTIVITY_PARAMETERS");
-        sdo.m34966a(bundle2, "activityParams is required");
+        sdo.checkIfNull(bundle2, "activityParams is required");
         if (bundle != null) {
             this.f110205i = (BuyFlowConfig) bundle.getParcelable("buyFlowConfig");
             this.f110206j = (IbBuyFlowInput) bundle.getParcelable("buyFlowInput");
@@ -318,8 +318,8 @@ public class IbChimeraActivity extends awce implements awhd, awgr, bjfg, aweq, a
             this.f110220x = 2;
             this.f110206j = (IbBuyFlowInput) bundle2.getParcelable("com.google.android.gms.wallet.ib.IbActivity.buyFlowInputFactory");
         }
-        sdo.m34966a(this.f110205i, "buyFlowConfig is required");
-        sdo.m34966a(this.f110206j, "buyFlowInput is required");
+        sdo.checkIfNull(this.f110205i, "buyFlowConfig is required");
+        sdo.checkIfNull(this.f110206j, "buyFlowInput is required");
         this.f110203A = (IbMerchantParameters) bundle2.getParcelable("com.google.android.gms.wallet.ib.IbActivity.merchantParameters");
         this.f110210n = bundle2.getString("apiCallAnalyticsSessionId");
         mo51862a(bundle, awij.f94456d, 4, bpis.FLOW_TYPE_BUYFLOW);

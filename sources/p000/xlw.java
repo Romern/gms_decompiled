@@ -11,7 +11,7 @@ import org.json.JSONObject;
 public final class xlw implements xhm {
 
     /* renamed from: g */
-    private static final sek f52703g = new sek(new String[]{"CollectedClientData"}, (short[]) null);
+    private static final Logger f52703g = new Logger(new String[]{"CollectedClientData"}, (short[]) null);
 
     /* renamed from: a */
     private final xlv f52704a;

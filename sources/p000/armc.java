@@ -111,7 +111,7 @@ public final class armc {
             bxvd5.mo74035c();
             bxvd5.f164950c = false;
         }
-        ((boeb) bxvd5.f164949b).f132769j = bxvk.m124028dc();
+        ((boeb) bxvd5.f164949b).f132769j = GeneratedMessageLite.m124028dc();
         List list = this.f87879b;
         if (bxvd5.f164950c) {
             bxvd5.mo74035c();
@@ -119,7 +119,7 @@ public final class armc {
         }
         boeb boeb6 = (boeb) bxvd5.f164949b;
         if (!boeb6.f132769j.mo73666a()) {
-            boeb6.f132769j = bxvk.m124019a(boeb6.f132769j);
+            boeb6.f132769j = GeneratedMessageLite.m124019a(boeb6.f132769j);
         }
         bxsy.m123078a(list, boeb6.f132769j);
         bxvd bxvd6 = this.f87880c;
@@ -181,7 +181,7 @@ public final class armc {
         boeb12.getClass();
         boct.f132618i = boeb12;
         boct.f132610a = i2 | 64;
-        new qws(context, "ANDROID_AUTH", null).mo24335a(((boct) da.mo74062i()).mo73642k()).mo24327b();
+        new qws(context, "ANDROID_AUTH", null).mo24335a(((boct) da.mo74062i()).serializeToBytes()).mo24327b();
         this.f87881d = true;
         return boeb12;
     }

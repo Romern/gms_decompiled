@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: kwn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class kwn extends bxvk implements bxxd {
+public final class kwn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final kwn f25290e;
@@ -25,7 +25,7 @@ public final class kwn extends bxvk implements bxxd {
     static {
         kwn kwn = new kwn();
         f25290e = kwn;
-        bxvk.m124024a(kwn.class, kwn);
+        GeneratedMessageLite.m124024a(kwn.class, kwn);
     }
 
     private kwn() {
@@ -42,7 +42,7 @@ public final class kwn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25290e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\f\u0002\u0007\u0003\u0007\u0004\u0007", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f25290e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\f\u0002\u0007\u0003\u0007\u0004\u0007", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new kwn();
         } else {

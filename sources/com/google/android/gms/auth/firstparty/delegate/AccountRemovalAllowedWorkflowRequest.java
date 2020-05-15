@@ -20,9 +20,9 @@ public class AccountRemovalAllowedWorkflowRequest extends AbstractSafeParcelable
     public boolean f10769c;
 
     public AccountRemovalAllowedWorkflowRequest(AccountAuthenticatorResponse accountAuthenticatorResponse, Account account, boolean z) {
-        sdo.m34966a(account, "account cannot be null");
+        sdo.checkIfNull(account, "account cannot be null");
         this.f10768b = account;
-        sdo.m34966a(accountAuthenticatorResponse, "amResponse cannot be null");
+        sdo.checkIfNull(accountAuthenticatorResponse, "amResponse cannot be null");
         this.f10767a = accountAuthenticatorResponse;
         this.f10769c = z;
     }

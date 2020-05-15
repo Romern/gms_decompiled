@@ -167,7 +167,7 @@ public final class aaoh {
                         Bundle bundle = null;
                         if (bArr != null) {
                             try {
-                                blmp blmp = (blmp) bxvk.m124014a(blmp.f126864r, bArr);
+                                blmp blmp = (blmp) GeneratedMessageLite.m124014a(blmp.f126864r, bArr);
                                 bundle = new Bundle();
                                 for (blmi blmi : blmp.f126872g) {
                                     bundle.putString(blmi.f126845b, blmi.f126846c);

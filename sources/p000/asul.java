@@ -88,7 +88,7 @@ public final class asul extends asum {
             }
             btoo btoo = (btoo) da2.f164949b;
             if (!btoo.f149783a.mo73666a()) {
-                btoo.f149783a = bxvk.m124019a(btoo.f149783a);
+                btoo.f149783a = GeneratedMessageLite.m124019a(btoo.f149783a);
             }
             btoo.f149783a.mo74153d(hashCode);
             if (da.f164950c) {
@@ -119,7 +119,7 @@ public final class asul extends asum {
                 int size = list.size();
                 for (int i3 = 0; i3 < size; i3++) {
                     asqt asqt = (asqt) list.get(i3);
-                    arrayList.add(bxtx.m123261a(asqt.f89400a));
+                    arrayList.add(ByteString.m123261a(asqt.f89400a));
                     astf astf = asqt.f89401b;
                     if (astf.mo49461a() == null || astf.mo49461a().length <= 0) {
                         bArr = astf.mo49462b();
@@ -136,7 +136,7 @@ public final class asul extends asum {
                         }
                     }
                     if (bArr != null) {
-                        arrayList.add(bxtx.m123261a(bArr));
+                        arrayList.add(ByteString.m123261a(bArr));
                     }
                 }
                 if (da.f164950c) {
@@ -145,7 +145,7 @@ public final class asul extends asum {
                 }
                 btoq btoq = (btoq) da.f164949b;
                 if (!btoq.f149794f.mo73666a()) {
-                    btoq.f149794f = bxvk.m124021a(btoq.f149794f);
+                    btoq.f149794f = GeneratedMessageLite.m124021a(btoq.f149794f);
                 }
                 bxsy.m123078a(arrayList, btoq.f149794f);
                 bxvd da4 = btop.f149784b.mo74144da();
@@ -168,7 +168,7 @@ public final class asul extends asum {
                     da.f164950c = false;
                 }
                 ((btoq) da.f164949b).f149791c = b;
-                Intent putExtra = new Intent("com.google.android.gms.tapandpay.COLLECT_FIELD_TEST_INFO").putExtra("account_id_extra", asqw.f89440d).putExtra("field_test_auto_info_extra", ((btoq) da.mo74062i()).mo73642k());
+                Intent putExtra = new Intent("com.google.android.gms.tapandpay.COLLECT_FIELD_TEST_INFO").putExtra("account_id_extra", asqw.f89440d).putExtra("field_test_auto_info_extra", ((btoq) da.mo74062i()).serializeToBytes());
                 atxn.m76508c(context, putExtra);
                 atxn.m76509d(context, putExtra);
                 return;

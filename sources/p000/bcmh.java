@@ -43,7 +43,7 @@ public final class bcmh implements bcnl {
         }
         cbdd cbdd = (cbdd) da.f164949b;
         if (!cbdd.f176721b.mo73666a()) {
-            cbdd.f176721b = bxvk.m124021a(cbdd.f176721b);
+            cbdd.f176721b = GeneratedMessageLite.m124021a(cbdd.f176721b);
         }
         bxsy.m123078a(a, cbdd.f176721b);
         long j = this.f104476c;

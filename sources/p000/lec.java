@@ -67,7 +67,7 @@ final /* synthetic */ class lec implements bmzi {
         lba.getClass();
         lah.f25543c = lba;
         if (!lah.f25544d.mo73666a()) {
-            lah.f25544d = bxvk.m124021a(lah.f25544d);
+            lah.f25544d = GeneratedMessageLite.m124021a(lah.f25544d);
         }
         bxsy.m123078a(collection, lah.f25544d);
         return (lah) da.mo74062i();

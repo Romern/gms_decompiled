@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: acqi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class acqi extends bxvk implements bxxd {
+public final class acqi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: q */
     public static final acqi f60472q;
@@ -61,7 +61,7 @@ public final class acqi extends bxvk implements bxxd {
     static {
         acqi acqi = new acqi();
         f60472q = acqi;
-        bxvk.m124024a(acqi.class, acqi);
+        GeneratedMessageLite.m124024a(acqi.class, acqi);
     }
 
     private acqi() {
@@ -78,7 +78,7 @@ public final class acqi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f60472q, "\u0001\u000f\u0000\u0001\u0001\u0015\u000f\u0000\u0001\u0000\u0001ဂ\u0000\u0002ဈ\u0001\u0003င\u0004\u0004ဌ\u0005\u0005ဈ\b\u0006ဈ\n\u0007ဈ\u000b\bဈ\r\u000bဈ\u0006\f\u001b\rဈ\u0002\u000fဈ\f\u0010င\u000f\u0014ဈ\t\u0015ဌ\u0010", new Object[]{"a", "b", "c", "e", "f", acqe.f60470a, "h", "j", "k", "m", "g", "n", cixk.class, "d", "l", "o", "i", "p", acqg.f60471a});
+            return GeneratedMessageLite.m124022a(f60472q, "\u0001\u000f\u0000\u0001\u0001\u0015\u000f\u0000\u0001\u0000\u0001ဂ\u0000\u0002ဈ\u0001\u0003င\u0004\u0004ဌ\u0005\u0005ဈ\b\u0006ဈ\n\u0007ဈ\u000b\bဈ\r\u000bဈ\u0006\f\u001b\rဈ\u0002\u000fဈ\f\u0010င\u000f\u0014ဈ\t\u0015ဌ\u0010", new Object[]{"a", "b", "c", "e", "f", acqe.f60470a, "h", "j", "k", "m", "g", "n", cixk.class, "d", "l", "o", "i", "p", acqg.f60471a});
         } else if (i2 == 3) {
             return new acqi();
         } else {

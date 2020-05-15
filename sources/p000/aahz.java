@@ -101,7 +101,7 @@ public final class aahz implements aage {
             C0158i iVar = (C0158i) da.f164949b;
             iVar.f7569d = 4;
             iVar.f7566a = 4 | iVar.f7566a;
-            da.mo74029b(bxtx.m123261a(a4));
+            da.mo74029b(ByteString.m123261a(a4));
             str = Base64.encodeToString(((C0158i) da.mo74062i()).mo73642k(), 11);
         }
         return str;

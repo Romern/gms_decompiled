@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bweg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bweg extends bxvk implements bxxd {
+public final class bweg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bweg f158977a;
@@ -13,7 +13,7 @@ public final class bweg extends bxvk implements bxxd {
     static {
         bweg bweg = new bweg();
         f158977a = bweg;
-        bxvk.m124024a(bweg.class, bweg);
+        GeneratedMessageLite.m124024a(bweg.class, bweg);
     }
 
     private bweg() {
@@ -30,7 +30,7 @@ public final class bweg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f158977a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f158977a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bweg();

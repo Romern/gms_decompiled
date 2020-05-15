@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bral */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bral extends bxvk implements bxxd {
+public final class bral extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bral f142158c;
@@ -19,7 +19,7 @@ public final class bral extends bxvk implements bxxd {
     static {
         bral bral = new bral();
         f142158c = bral;
-        bxvk.m124024a(bral.class, bral);
+        GeneratedMessageLite.m124024a(bral.class, bral);
     }
 
     private bral() {
@@ -36,7 +36,7 @@ public final class bral extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142158c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f142158c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bral();
         } else {

@@ -11,7 +11,7 @@ import java.lang.ref.WeakReference;
 public final class syc {
 
     /* renamed from: a */
-    public static final sek f45414a = tea.m36798a("sync_scheduler");
+    public static final Logger f45414a = tea.m36798a("sync_scheduler");
 
     /* renamed from: c */
     private static final bngx f45415c = bngx.m109358a(3600000L, 7200000L, 14400000L);

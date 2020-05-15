@@ -7,7 +7,7 @@ import android.content.Context;
 public final class armd {
 
     /* renamed from: c */
-    private static final sek f87883c = ascp.m73787a("D2D", "Metrics", "PostSetupLogManager");
+    private static final Logger f87883c = ascp.m73787a("D2D", "Metrics", "PostSetupLogManager");
 
     /* renamed from: a */
     public final armp f87884a;
@@ -36,7 +36,7 @@ public final class armd {
 
     /* renamed from: a */
     public final void mo48633a() {
-        f87883c.mo25409a("Sending logs with Clearcut.", new Object[0]);
+        f87883c.logVerbose("Sending logs with Clearcut.", new Object[0]);
         bxvd bxvd = this.f87888f;
         bxvd bxvd2 = this.f87889g;
         if (bxvd.f164950c) {
@@ -72,8 +72,8 @@ public final class armd {
         bova4.getClass();
         bovc.f134995h = bova4;
         bovc.f134988a |= 64;
-        f87883c.mo25409a(this.f87886d.toString(), new Object[0]);
-        this.f87885b.mo24335a(((bovc) this.f87886d.mo74062i()).mo73642k()).mo24327b();
+        f87883c.logVerbose(this.f87886d.toString(), new Object[0]);
+        this.f87885b.mo24335a(((bovc) this.f87886d.mo74062i()).serializeToBytes()).mo24327b();
     }
 
     /* renamed from: a */

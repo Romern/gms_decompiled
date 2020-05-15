@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public final class avop extends avnj {
 
     /* renamed from: e */
-    private static final sek f93653e = avpq.m79018e("StreamingDownloadAction");
+    private static final Logger f93653e = avpq.m79018e("StreamingDownloadAction");
 
     /* renamed from: f */
     private static final avtg f93654f = new avtg("downloaded_files", 0);
@@ -149,7 +149,7 @@ public final class avop extends avnj {
                                 while (intValue < size) {
                                     avly avly = (avly) a.get(intValue);
                                     if (f93656h.contains(avly.f93350a)) {
-                                        sek sek = f93653e;
+                                        Logger Logger = f93653e;
                                         String str2 = avly.f93350a;
                                         StringBuilder sb = new StringBuilder(String.valueOf(str2).length() + 37);
                                         sb.append(intValue + 1);
@@ -157,7 +157,7 @@ public final class avop extends avnj {
                                         sb.append(size);
                                         sb.append(": Downloading ");
                                         sb.append(str2);
-                                        sek.mo25412b(sb.toString(), new Object[0]);
+                                        Logger.mo25412b(sb.toString(), new Object[0]);
                                         avox a2 = avox.m78972a(this.f93657i, avly.f93350a, avlt.m78750c());
                                         avqa avqa = (avqa) this.f93661m.mo51494a().mo66815c();
                                         if (avqa != null) {

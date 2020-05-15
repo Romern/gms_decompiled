@@ -12,6 +12,6 @@ final /* synthetic */ class atal implements qwq {
 
     /* renamed from: a */
     public final byte[] mo14930a() {
-        return this.f89954a.mo73642k();
+        return this.f89954a.serializeToBytes();
     }
 }

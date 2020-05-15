@@ -74,7 +74,7 @@ public final class amwt extends amwr {
         }
         btcu btcu = (btcu) da.f164949b;
         if (!btcu.f148355a.mo73666a()) {
-            btcu.f148355a = bxvk.m124019a(btcu.f148355a);
+            btcu.f148355a = GeneratedMessageLite.m124019a(btcu.f148355a);
         }
         for (btct btct : asList) {
             btcu.f148355a.mo74153d(btct.mo3214a());
@@ -200,7 +200,7 @@ public final class amwt extends amwr {
             btev btev2 = (btev) da.f164949b;
             str.getClass();
             if (!btev2.f148581f.mo73666a()) {
-                btev2.f148581f = bxvk.m124021a(btev2.f148581f);
+                btev2.f148581f = GeneratedMessageLite.m124021a(btev2.f148581f);
             }
             btev2.f148581f.add(str);
         }
@@ -276,7 +276,7 @@ public final class amwt extends amwr {
         }
         btby btby = (btby) da.f164949b;
         if (!btby.f148234a.mo73666a()) {
-            btby.f148234a = bxvk.m124021a(btby.f148234a);
+            btby.f148234a = GeneratedMessageLite.m124021a(btby.f148234a);
         }
         bxsy.m123078a(asList, btby.f148234a);
         btcz b = mo41507b(null);
@@ -382,7 +382,7 @@ public final class amwt extends amwr {
             }
             btck btck = (btck) da.f164949b;
             if (!btck.f148282a.mo73666a()) {
-                btck.f148282a = bxvk.m124021a(btck.f148282a);
+                btck.f148282a = GeneratedMessageLite.m124021a(btck.f148282a);
             }
             bxsy.m123078a(list, btck.f148282a);
             btea btea = this.f76218f;

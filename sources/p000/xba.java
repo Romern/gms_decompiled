@@ -5,5 +5,5 @@ package p000;
 public final class xba {
 
     /* renamed from: a */
-    public static final sek f51852a = new sek(new String[]{"DigitalAssetsAssociationChecker"}, (short[]) null);
+    public static final Logger f51852a = new Logger(new String[]{"DigitalAssetsAssociationChecker"}, (short[]) null);
 }

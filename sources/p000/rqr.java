@@ -24,7 +24,7 @@ final class rqr {
     public static final Lock f43525a = new ReentrantLock();
 
     /* renamed from: b */
-    public static final sek f43526b = new sek("GLSUser", "BindingKeyManager");
+    public static final Logger f43526b = new Logger("GLSUser", "BindingKeyManager");
 
     /* renamed from: c */
     public static volatile rqr f43527c;
@@ -55,7 +55,7 @@ final class rqr {
         } else {
             z = true;
         }
-        f43526b.mo25409a("Successfully pubKey? %s [ %s ]", Boolean.valueOf(z), b);
+        f43526b.logVerbose("Successfully pubKey? %s [ %s ]", Boolean.valueOf(z), b);
         if (z) {
             f43528d.mo13140a();
             return;
@@ -85,7 +85,7 @@ final class rqr {
                         instance3.init(2, privateKey);
                         KeyPair keyPair = new KeyPair(generatePublic, instance2.generatePrivate(new PKCS8EncodedKeySpec(instance3.doFinal(a4))));
                         m34273a(keyPair, "channel_binding_manager");
-                        f43526b.mo25409a("Successfully transitioned wrapped keys.", new Object[0]);
+                        f43526b.logVerbose("Successfully transitioned wrapped keys.", new Object[0]);
                         f43528d.mo13143b("wrapped_private_channel_key_b64");
                         f43528d.mo13143b("public_channel_key_b64");
                         f43528d.mo13143b("wrapped_private_channel_key_format_b64");
@@ -120,7 +120,7 @@ final class rqr {
             a = m34272a("channel_binding_manager");
             iml = f43528d;
         } catch (Exception e3) {
-            f43526b.mo25409a("We have a borked keystore. Deleting old keys/creating new keys.", new Object[0]);
+            f43526b.logVerbose("We have a borked keystore. Deleting old keys/creating new keys.", new Object[0]);
             a = m34272a("channel_binding_manager");
             iml = f43528d;
         } catch (Throwable th) {

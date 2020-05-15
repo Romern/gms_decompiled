@@ -200,7 +200,7 @@ public final class awqs extends awqu {
         super(bjvz);
         bpjl bpjl = (bpjl) bjvz.mo65576a((bxxk) bpjl.f137879m.mo74142c(7), bpjl.f137879m);
         bxvd bxvd = (bxvd) bpjl.mo74142c(5);
-        bxvd.mo73625a((bxvk) bpjl);
+        bxvd.mo73625a((GeneratedMessageLite) bpjl);
         this.f94873b = bxvd;
         this.f94872a = bjvz.mo65579b();
     }

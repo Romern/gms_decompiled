@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btdm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btdm extends bxvk implements bxxd {
+public final class btdm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final btdm f148406e;
@@ -25,7 +25,7 @@ public final class btdm extends bxvk implements bxxd {
     static {
         btdm btdm = new btdm();
         f148406e = btdm;
-        bxvk.m124024a(btdm.class, btdm);
+        GeneratedMessageLite.m124024a(btdm.class, btdm);
     }
 
     private btdm() {
@@ -43,7 +43,7 @@ public final class btdm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148406e, "\u0000\u0004\u0000\u0000\u0001\t\u0004\u0000\u0000\u0000\u0001Ȉ\u0004\f\u0005\u0004\t\t", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f148406e, "\u0000\u0004\u0000\u0000\u0001\t\u0004\u0000\u0000\u0000\u0001Ȉ\u0004\f\u0005\u0004\t\t", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new btdm();
         } else {

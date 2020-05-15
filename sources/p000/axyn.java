@@ -56,7 +56,7 @@ public final class axyn implements axyk {
                         axym.f96779c = m83572a(axym.f96781e.f96782a, ayet2.f97369b);
                         axym.f96780d = new FileOutputStream(axym.f96779c);
                     }
-                    axym.f96778b.update(ayet2.f97371d.mo73780k());
+                    axym.f96778b.update(ayet2.f97371d.getKey());
                     ayet2.f97371d.mo73757a(axym.f96780d);
                     if (!ayet2.f97370c) {
                         axzx axzx = new axzx(axym.f96777a, null, false);
@@ -97,7 +97,7 @@ public final class axyn implements axyk {
         } else if (!ayev.f97390m) {
             return new axzx(ayev, null);
         } else {
-            String a = axxv.m83495a(ayev.mo73642k());
+            String a = axxv.m83495a(ayev.serializeToBytes());
             synchronized (this.f96783b) {
                 m83573a(a);
                 this.f96783b.put(a, new axym(this, ayev));

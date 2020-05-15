@@ -9,7 +9,7 @@ import android.graphics.drawable.Drawable;
 public final class imx {
 
     /* renamed from: a */
-    private static final sek f21369a = ght.m13171a("PackageManagerHelper");
+    private static final Logger f21369a = ght.m13171a("PackageManagerHelper");
 
     /* renamed from: b */
     private final Context f21370b;

@@ -83,7 +83,7 @@ public final class ajdi extends aixg {
         ajcv ajcv = new ajcv(a);
         ajdc ajdc = new ajdc(this, a, ajcu);
         rob rob = a.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         return mo24699a(ajdc, new ajdd(this, rob, ajcv));
     }
 

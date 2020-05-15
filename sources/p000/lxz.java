@@ -17,7 +17,7 @@ final class lxz extends lyr {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo19743a(InputStream inputStream) {
-        return (bzob) bxvk.m124010a(bzob.f170788d, inputStream);
+        return (bzob) GeneratedMessageLite.m124010a(bzob.f170788d, inputStream);
     }
 
     /* access modifiers changed from: protected */

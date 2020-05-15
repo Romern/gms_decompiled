@@ -265,7 +265,7 @@ public final class bgds extends bgdr {
                     btzh btzh3 = (btzh) da3.mo74062i();
                     btzh3.getClass();
                     if (!btzg3.f153111d.mo73666a()) {
-                        btzg3.f153111d = bxvk.m124021a(btzg3.f153111d);
+                        btzg3.f153111d = GeneratedMessageLite.m124021a(btzg3.f153111d);
                     }
                     btzg3.f153111d.add(btzh3);
                     bfnn2 = bfnn3;

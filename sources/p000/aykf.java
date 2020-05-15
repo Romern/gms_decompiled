@@ -136,7 +136,7 @@ public final class aykf {
                                         i2 += a2.f97866c;
                                     }
                                     if (i2 != 0) {
-                                        bxtx a3 = bxtx.m123261a(aykn.mo54060a(0, i2));
+                                        ByteString a3 = ByteString.m123261a(aykn.mo54060a(0, i2));
                                         aykq.mo54070d();
                                         boolean a4 = m84156a(aykn);
                                         int i3 = i + 1;
@@ -153,7 +153,7 @@ public final class aykf {
                                             a5.mo73846b(3, randomUUID.getMostSignificantBits());
                                             a5.mo73856d(4, i4);
                                             a5.mo73836a(5, z);
-                                            bxtx a6 = bxtx.m123262a(bArr, 0, a5.mo73842b()).mo73770a(a3);
+                                            ByteString a6 = ByteString.m123262a(bArr, 0, a5.mo73842b()).mo73770a(a3);
                                             bxvd da = byms.f167065g.mo74144da();
                                             if (da.f164950c) {
                                                 da.mo74035c();

@@ -4,7 +4,7 @@ import com.felicanetworks.mfc.mfi.MfiClientException;
 
 /* renamed from: byxw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byxw extends bxvk implements bxxd {
+public final class byxw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final byxw f168824a;
@@ -27,7 +27,7 @@ public final class byxw extends bxvk implements bxxd {
     static {
         byxw byxw = new byxw();
         f168824a = byxw;
-        bxvk.m124024a(byxw.class, byxw);
+        GeneratedMessageLite.m124024a(byxw.class, byxw);
     }
 
     private byxw() {
@@ -62,7 +62,7 @@ public final class byxw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168824a, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003က\u0002", new Object[]{"b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f168824a, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003က\u0002", new Object[]{"b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new byxw();
         } else {

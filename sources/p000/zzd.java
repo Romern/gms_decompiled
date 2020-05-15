@@ -38,7 +38,7 @@ public final class zzd {
             }
             bArr = bArr2;
         }
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

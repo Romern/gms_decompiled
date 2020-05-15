@@ -129,7 +129,7 @@ public final class aekl extends aejc {
     public final void mo34258b(rob rob, aejv aejv) {
         aeki aeki = this.f63471b;
         aeki.f63468e.mo34195a();
-        sdo.m34966a(rob, "Invalid null listener key");
+        sdo.checkIfNull(rob, "Invalid null listener key");
         synchronized (aeki.f63467d) {
             aehs aehs = (aehs) aeki.f63467d.remove(rob);
             if (aehs != null) {
@@ -156,18 +156,18 @@ public final class aekl extends aejc {
     /* renamed from: a */
     public final void mo34251a(ActivityRecognitionRequest activityRecognitionRequest, PendingIntent pendingIntent, rlf rlf) {
         mo25288A();
-        sdo.m34966a(activityRecognitionRequest, "ActivityRecognitionRequest can't be null.");
-        sdo.m34966a(pendingIntent, "PendingIntent must be specified.");
-        sdo.m34966a(rlf, "ResultHolder not provided.");
+        sdo.checkIfNull(activityRecognitionRequest, "ActivityRecognitionRequest can't be null.");
+        sdo.checkIfNull(pendingIntent, "PendingIntent must be specified.");
+        sdo.checkIfNull(rlf, "ResultHolder not provided.");
         ((aekb) mo25289B()).mo34218a(activityRecognitionRequest, pendingIntent, new ros(rlf));
     }
 
     /* renamed from: a */
     public final void mo34252a(GeofencingRequest geofencingRequest, PendingIntent pendingIntent, rlf rlf) {
         mo25288A();
-        sdo.m34966a(geofencingRequest, "geofencingRequest can't be null.");
-        sdo.m34966a(pendingIntent, "PendingIntent must be specified.");
-        sdo.m34966a(rlf, "ResultHolder not provided.");
+        sdo.checkIfNull(geofencingRequest, "geofencingRequest can't be null.");
+        sdo.checkIfNull(pendingIntent, "PendingIntent must be specified.");
+        sdo.checkIfNull(rlf, "ResultHolder not provided.");
         ((aekb) mo25289B()).mo34220a(geofencingRequest, pendingIntent, new aekj(rlf));
     }
 
@@ -224,7 +224,7 @@ public final class aekl extends aejc {
     public final void mo34256a(rob rob, aejv aejv) {
         aeki aeki = this.f63471b;
         aeki.f63468e.mo34195a();
-        sdo.m34966a(rob, "Invalid null listener key");
+        sdo.checkIfNull(rob, "Invalid null listener key");
         synchronized (aeki.f63465b) {
             aehv aehv = (aehv) aeki.f63465b.remove(rob);
             if (aehv != null) {

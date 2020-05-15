@@ -45,7 +45,7 @@ public final class aboi {
         }
         boss boss2 = (boss) da.f164949b;
         if (!boss2.f134654c.mo73666a()) {
-            boss2.f134654c = bxvk.m124019a(boss2.f134654c);
+            boss2.f134654c = GeneratedMessageLite.m124019a(boss2.f134654c);
         }
         bxsy.m123078a(b, boss2.f134654c);
         if (cele.f182890a.mo6606a().mo79263a()) {

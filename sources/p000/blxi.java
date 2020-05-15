@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blxi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blxi extends bxvk implements bxxd {
+public final class blxi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final blxi f128068c;
@@ -22,7 +22,7 @@ public final class blxi extends bxvk implements bxxd {
     static {
         blxi blxi = new blxi();
         f128068c = blxi;
-        bxvk.m124024a(blxi.class, blxi);
+        GeneratedMessageLite.m124024a(blxi.class, blxi);
     }
 
     private blxi() {
@@ -39,7 +39,7 @@ public final class blxi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128068c, "\u0001\u0002\u0000\u0001\u0001\u0004\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0004ဉ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f128068c, "\u0001\u0002\u0000\u0001\u0001\u0004\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0004ဉ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new blxi();
         } else {

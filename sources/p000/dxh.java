@@ -62,7 +62,7 @@ public final class dxh extends dxd {
             bxjx bxjx2 = (bxjx) da2.mo74062i();
             bxjx2.getClass();
             if (!bxjf2.f163630c.mo73666a()) {
-                bxjf2.f163630c = bxvk.m124021a(bxjf2.f163630c);
+                bxjf2.f163630c = GeneratedMessageLite.m124021a(bxjf2.f163630c);
             }
             bxjf2.f163630c.add(bxjx2);
         }

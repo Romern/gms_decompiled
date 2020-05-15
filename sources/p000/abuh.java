@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abuh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abuh extends bxvk implements bxxd {
+public final class abuh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: q */
     public static final abuh f58387q;
@@ -29,7 +29,7 @@ public final class abuh extends bxvk implements bxxd {
     public bxvt f58394f = bxvm.f164965b;
 
     /* renamed from: g */
-    public bxtx f58395g = bxtx.f164797b;
+    public ByteString f58395g = ByteString.f164797b;
 
     /* renamed from: h */
     public abui f58396h;
@@ -56,12 +56,12 @@ public final class abuh extends bxvk implements bxxd {
     public bxvt f58403o = bxvm.f164965b;
 
     /* renamed from: p */
-    public bxtx f58404p = bxtx.f164797b;
+    public ByteString f58404p = ByteString.f164797b;
 
     static {
         abuh abuh = new abuh();
         f58387q = abuh;
-        bxvk.m124024a(abuh.class, abuh);
+        GeneratedMessageLite.m124024a(abuh.class, abuh);
     }
 
     private abuh() {
@@ -78,7 +78,7 @@ public final class abuh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58387q, "\u0001\u000f\u0000\u0001\u0002\u0016\u000f\u0000\u0007\u0000\u0002ဋ\u0001\u0003'\u0004\u001b\u0005ဋ\u0002\u0006'\u0007ည\u0003\tဉ\u0004\n#\u000b'\f'\u000fဈ\u0007\u0010'\u0011ည\b\u0015ဉ\u0005\u0016ဌ\u0006", new Object[]{"a", "b", "c", "d", abug.class, "e", "f", "g", "h", "i", "j", "k", "n", "o", "p", "l", "m", bqax.f140196a});
+            return GeneratedMessageLite.m124022a(f58387q, "\u0001\u000f\u0000\u0001\u0002\u0016\u000f\u0000\u0007\u0000\u0002ဋ\u0001\u0003'\u0004\u001b\u0005ဋ\u0002\u0006'\u0007ည\u0003\tဉ\u0004\n#\u000b'\f'\u000fဈ\u0007\u0010'\u0011ည\b\u0015ဉ\u0005\u0016ဌ\u0006", new Object[]{"a", "b", "c", "d", abug.class, "e", "f", "g", "h", "i", "j", "k", "n", "o", "p", "l", "m", bqax.f140196a});
         } else if (i2 == 3) {
             return new abuh();
         } else {

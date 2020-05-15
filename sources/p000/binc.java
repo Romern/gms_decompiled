@@ -97,7 +97,7 @@ public final class binc {
             }
             bpqk a = bhqq.m101351a(4, str, i, this.f120968c, this.f120969d, 0);
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             bxvd bxvd2 = this.f120966a;
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

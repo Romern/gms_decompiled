@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bybn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bybn extends bxvk implements bxxd {
+public final class bybn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bybn f165523b;
@@ -19,7 +19,7 @@ public final class bybn extends bxvk implements bxxd {
     static {
         bybn bybn = new bybn();
         f165523b = bybn;
-        bxvk.m124024a(bybn.class, bybn);
+        GeneratedMessageLite.m124024a(bybn.class, bybn);
     }
 
     private bybn() {
@@ -40,7 +40,7 @@ public final class bybn extends bxvk implements bxxd {
             this.f165526c = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f165523b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", bybo.class});
+            return GeneratedMessageLite.m124022a(f165523b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0001\u0001Л", new Object[]{"a", bybo.class});
         } else if (i2 == 3) {
             return new bybn();
         } else {

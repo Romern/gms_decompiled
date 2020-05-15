@@ -37,15 +37,15 @@ public final class iub extends aaab {
             try {
                 List a2 = a.mo13231a(str, account);
                 if (a2 == null) {
-                    sek sek = iqd.f21546b;
+                    Logger Logger = iqd.f21546b;
                     String valueOf = String.valueOf(str);
-                    sek.mo25416d(valueOf.length() == 0 ? new String("No device metadata packets for key ") : "No device metadata packets for key ".concat(valueOf), new Object[0]);
+                    Logger.mo25416d(valueOf.length() == 0 ? new String("No device metadata packets for key ") : "No device metadata packets for key ".concat(valueOf), new Object[0]);
                 } else {
                     List b = a.mo13236b(str, account);
                     if (b == null) {
-                        sek sek2 = iqd.f21546b;
+                        Logger logger2 = iqd.f21546b;
                         String valueOf2 = String.valueOf(str);
-                        sek2.mo25416d(valueOf2.length() == 0 ? new String("No device feature statuses for key ") : "No device feature statuses for key ".concat(valueOf2), new Object[0]);
+                        logger2.mo25416d(valueOf2.length() == 0 ? new String("No device feature statuses for key ") : "No device feature statuses for key ".concat(valueOf2), new Object[0]);
                     } else {
                         a.close();
                         list = iqd.mo13257a(str, account, a2, b);

@@ -210,7 +210,7 @@ public class HeterodyneSyncTaskChimeraService extends aeah {
                             caid caid2 = (caid) da.f164949b;
                             cahr3.getClass();
                             if (!caid2.f174633f.mo73666a()) {
-                                caid2.f174633f = bxvk.m124021a(caid2.f174633f);
+                                caid2.f174633f = GeneratedMessageLite.m124021a(caid2.f174633f);
                             }
                             caid2.f174633f.add(cahr3);
                             z2 = false;

@@ -39,7 +39,7 @@ public final class itd {
     public final ipz f21666i;
 
     /* renamed from: j */
-    public final sek f21667j = new sek(new String[]{"EnrollKeyName"}, (byte[]) null);
+    public final Logger f21667j = new Logger(new String[]{"EnrollKeyName"}, (byte[]) null);
 
     /* renamed from: k */
     private final Context f21668k;
@@ -161,7 +161,7 @@ public final class itd {
                 ehd.mo10139a(list);
                 ehd.mo10138a(this.f21661d.name);
                 ehd.mo10141b("com.google.android.gms");
-                ehd.f14912c = this.f21673p.mo13336a(list2).mo73642k();
+                ehd.f14912c = this.f21673p.mo13336a(list2).serializeToBytes();
                 ehd.mo10137a(itc);
                 ehd.mo10136a(new ipo(this.f21668k));
                 ehd.f14913d = this.f21670m;
@@ -201,12 +201,12 @@ public final class itd {
                             ipm = new ipm(this.f21668k);
                             byte[] bArr2 = this.f21670m;
                             byte[] bArr3 = this.f21671n;
-                            sek sek = this.f21667j;
+                            Logger Logger = this.f21667j;
                             if (ipm.f21512b != null) {
                                 ipm.f21512b = new xed(ipm.f21511a);
                             }
-                            ehd.f14919j = new ipn(bArr2, bArr3, ipm.f21512b, ipm.f21511a, sek);
-                            ehd.f14918i = new sek(new String[]{"EnrollCryptauthFramework"}, (byte[]) null);
+                            ehd.f14919j = new ipn(bArr2, bArr3, ipm.f21512b, ipm.f21511a, Logger);
+                            ehd.f14918i = new Logger(new String[]{"EnrollCryptauthFramework"}, (byte[]) null);
                             a = itg.m16096a(ehd.mo10134a());
                             a2.f21625b = a.f14968a.f14966p;
                             a2.mo13321a(2, SystemClock.elapsedRealtime() - elapsedRealtime);
@@ -226,11 +226,11 @@ public final class itd {
                 ipm = new ipm(this.f21668k);
                 byte[] bArr22 = this.f21670m;
                 byte[] bArr32 = this.f21671n;
-                sek sek2 = this.f21667j;
+                Logger logger2 = this.f21667j;
                 if (ipm.f21512b != null) {
                 }
-                ehd.f14919j = new ipn(bArr22, bArr32, ipm.f21512b, ipm.f21511a, sek2);
-                ehd.f14918i = new sek(new String[]{"EnrollCryptauthFramework"}, (byte[]) null);
+                ehd.f14919j = new ipn(bArr22, bArr32, ipm.f21512b, ipm.f21511a, logger2);
+                ehd.f14918i = new Logger(new String[]{"EnrollCryptauthFramework"}, (byte[]) null);
                 a = itg.m16096a(ehd.mo10134a());
                 a2.f21625b = a.f14968a.f14966p;
                 a2.mo13321a(2, SystemClock.elapsedRealtime() - elapsedRealtime);

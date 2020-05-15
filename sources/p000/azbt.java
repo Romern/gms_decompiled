@@ -40,7 +40,7 @@ public final class azbt implements bbpn {
         } else {
             azfo a2 = azfo.m85593a(this.f98922a);
             chuw chuw = new chuw(chuv.f189223j);
-            bcoh.mo57059c().mo73780k();
+            bcoh.mo57059c().getKey();
             byte[] a3 = bqce.m112561a(((bcoz) a.mo66814b()).mo57131a());
             ContactId.ContactType c = e.mo60494c();
             ContactId.ContactType contactType = ContactId.ContactType.UNKNOWN;

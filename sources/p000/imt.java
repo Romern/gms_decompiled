@@ -10,7 +10,7 @@ import java.util.UUID;
 public final class imt {
     /* renamed from: a */
     public static Intent m15732a(PendingIntent pendingIntent) {
-        sdo.m34966a(pendingIntent, "The target cannot be null!");
+        sdo.checkIfNull(pendingIntent, "The target cannot be null!");
         Intent intent = new Intent("com.google.android.gms.ui.UNPACKING_REDIRECT").setPackage("com.google.android.gms");
         String valueOf = String.valueOf(UUID.randomUUID());
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 52);

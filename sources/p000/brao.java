@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brao */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brao extends bxvk implements bxxd {
+public final class brao extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final brao f142163b;
@@ -19,7 +19,7 @@ public final class brao extends bxvk implements bxxd {
     static {
         brao brao = new brao();
         f142163b = brao;
-        bxvk.m124024a(brao.class, brao);
+        GeneratedMessageLite.m124024a(brao.class, brao);
     }
 
     private brao() {
@@ -36,7 +36,7 @@ public final class brao extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142163b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"c", "a", bram.f142162a});
+            return GeneratedMessageLite.m124022a(f142163b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"c", "a", bram.f142162a});
         } else if (i2 == 3) {
             return new brao();
         } else {

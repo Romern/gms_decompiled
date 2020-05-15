@@ -29,7 +29,7 @@ public final class azfn {
         }
         cbmo a2 = m85575a(bArr);
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         if (localEntityId != null) {
             cbma b = localEntityId.mo60371b();
             if (b != null) {
@@ -303,7 +303,7 @@ public final class azfn {
     /* renamed from: a */
     public static cbmo m85575a(byte[] bArr) {
         bxvd da = cbmo.f177654h.mo74144da();
-        bxtx a = bArr == null ? bxtx.f164797b : bxtx.m123261a(bArr);
+        ByteString a = bArr == null ? ByteString.f164797b : ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -311,7 +311,7 @@ public final class azfn {
         a.getClass();
         ((cbmo) da.f164949b).f177659d = a;
         UUID randomUUID = UUID.randomUUID();
-        bxtx a2 = bxtx.m123261a(ByteBuffer.allocate(16).putLong(randomUUID.getMostSignificantBits()).putLong(randomUUID.getLeastSignificantBits()).array());
+        ByteString a2 = ByteString.m123261a(ByteBuffer.allocate(16).putLong(randomUUID.getMostSignificantBits()).putLong(randomUUID.getLeastSignificantBits()).array());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

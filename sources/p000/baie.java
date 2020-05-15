@@ -52,7 +52,7 @@ public final class baie implements Callable {
     /* renamed from: a */
     public final badl call() {
         bany b;
-        ((achw) this.f100952f.mo16713a()).mo25409a("Reading latest footprint from %s/%s.", Integer.valueOf(this.f100949c), Integer.valueOf(this.f100950d));
+        ((achw) this.f100952f.mo16713a()).logVerbose("Reading latest footprint from %s/%s.", Integer.valueOf(this.f100949c), Integer.valueOf(this.f100950d));
         bafl bafl = null;
         try {
             bafl = this.f100947a.mo55662a(this.f100948b, this.f100949c, this.f100950d);

@@ -112,7 +112,7 @@ public final class altz implements alub {
                 }
                 amol amol = (amol) da.f164949b;
                 if (!amol.f75628a.mo73666a()) {
-                    amol.f75628a = bxvk.m124021a(amol.f75628a);
+                    amol.f75628a = GeneratedMessageLite.m124021a(amol.f75628a);
                 }
                 bxsy.m123078a(arrayList2, amol.f75628a);
                 arrayList.add((amol) da.mo74062i());
@@ -145,7 +145,7 @@ public final class altz implements alub {
         }
         amok amok = (amok) da.f164949b;
         if (!amok.f75625a.mo73666a()) {
-            amok.f75625a = bxvk.m124021a(amok.f75625a);
+            amok.f75625a = GeneratedMessageLite.m124021a(amok.f75625a);
         }
         bxsy.m123078a(arrayList, amok.f75625a);
         amok amok2 = (amok) da.mo74062i();

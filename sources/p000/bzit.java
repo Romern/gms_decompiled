@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzit */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzit extends bxvk implements bxxd {
+public final class bzit extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bzit f170233f;
@@ -28,7 +28,7 @@ public final class bzit extends bxvk implements bxxd {
     static {
         bzit bzit = new bzit();
         f170233f = bzit;
-        bxvk.m124024a(bzit.class, bzit);
+        GeneratedMessageLite.m124024a(bzit.class, bzit);
     }
 
     private bzit() {
@@ -46,7 +46,7 @@ public final class bzit extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f170233f, "\u0001\u0004\u0000\u0001\u0002\n\u0004\u0000\u0002\u0000\u0002ဉ\u0001\u0004\u001b\u0006\u001b\nဉ\u0004", new Object[]{"a", "b", "c", bziu.class, "d", bziu.class, "e"});
+            return GeneratedMessageLite.m124022a(f170233f, "\u0001\u0004\u0000\u0001\u0002\n\u0004\u0000\u0002\u0000\u0002ဉ\u0001\u0004\u001b\u0006\u001b\nဉ\u0004", new Object[]{"a", "b", "c", bziu.class, "d", bziu.class, "e"});
         } else if (i2 == 3) {
             return new bzit();
         } else {

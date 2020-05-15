@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: kpc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class kpc extends bxvk implements bxxd {
+public final class kpc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final kpc f24718d;
@@ -22,7 +22,7 @@ public final class kpc extends bxvk implements bxxd {
     static {
         kpc kpc = new kpc();
         f24718d = kpc;
-        bxvk.m124024a(kpc.class, kpc);
+        GeneratedMessageLite.m124024a(kpc.class, kpc);
     }
 
     private kpc() {
@@ -39,7 +39,7 @@ public final class kpc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f24718d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\u0004\u0002\u0004\u0003\u0004", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f24718d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\u0004\u0002\u0004\u0003\u0004", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new kpc();
         } else {

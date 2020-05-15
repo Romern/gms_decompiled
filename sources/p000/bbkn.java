@@ -92,7 +92,7 @@ public final class bbkn implements bbko {
             return btcy;
         }
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         return (btcy) bxvd;
     }
 
@@ -156,13 +156,13 @@ public final class bbkn implements bbko {
         chtv chtv;
         if (!afsp.m53515c()) {
             bxvd = (bxvd) btet.mo74142c(5);
-            bxvd.mo73625a((bxvk) btet);
+            bxvd.mo73625a((GeneratedMessageLite) btet);
             btea btea = btet.f148564d;
             if (btea == null) {
                 btea = btea.f148482d;
             }
             bxvd bxvd2 = (bxvd) btea.mo74142c(5);
-            bxvd2.mo73625a((bxvk) btea);
+            bxvd2.mo73625a((GeneratedMessageLite) btea);
             btcb btcb = f102818b;
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();
@@ -180,7 +180,7 @@ public final class bbkn implements bbko {
             ((btet) bxvd.f164949b).f148564d = btea2;
         } else {
             bxvd = (bxvd) btet.mo74142c(5);
-            bxvd.mo73625a((bxvk) btet);
+            bxvd.mo73625a((GeneratedMessageLite) btet);
         }
         btdk btdk = this.f102819c;
         btcy a = m88131a();
@@ -219,7 +219,7 @@ public final class bbkn implements bbko {
         chtv chtv;
         btdk btdk = this.f102819c;
         bxvd bxvd = (bxvd) btev.mo74142c(5);
-        bxvd.mo73625a((bxvk) btev);
+        bxvd.mo73625a((GeneratedMessageLite) btev);
         btcy a = m88131a();
         if (bxvd.f164950c) {
             bxvd.mo74035c();

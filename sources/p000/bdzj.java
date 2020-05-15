@@ -59,7 +59,7 @@ final class bdzj {
     private final Map m91632a() {
         RandomAccessFile randomAccessFile = new RandomAccessFile(m91634b(), "r");
         try {
-            beaf beaf = (beaf) bxvk.m124012a(beaf.f106724g, randomAccessFile.getChannel().map(FileChannel.MapMode.READ_ONLY, 0, randomAccessFile.length()));
+            beaf beaf = (beaf) GeneratedMessageLite.m124012a(beaf.f106724g, randomAccessFile.getChannel().map(FileChannel.MapMode.READ_ONLY, 0, randomAccessFile.length()));
             HashMap a = bnmt.m109795a(beaf.f106731f.size() + 3);
             for (beag beag : beaf.f106731f) {
                 String str = beag.f106737d;

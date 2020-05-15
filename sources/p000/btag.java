@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btag */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btag extends bxvk implements bxxd {
+public final class btag extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final btag f147963j;
@@ -40,7 +40,7 @@ public final class btag extends bxvk implements bxxd {
     static {
         btag btag = new btag();
         f147963j = btag;
-        bxvk.m124024a(btag.class, btag);
+        GeneratedMessageLite.m124024a(btag.class, btag);
     }
 
     private btag() {
@@ -57,7 +57,7 @@ public final class btag extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147963j, "\u0000\t\u0000\u0000\u0001\u0011\t\u0000\u0001\u0000\u0001Ȉ\u0002\u001b\u0006\t\b\t\nȈ\f\t\u000f\u0002\u0010\u0004\u0011\f", new Object[]{"a", "b", bszj.class, "c", "d", "e", "f", "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f147963j, "\u0000\t\u0000\u0000\u0001\u0011\t\u0000\u0001\u0000\u0001Ȉ\u0002\u001b\u0006\t\b\t\nȈ\f\t\u000f\u0002\u0010\u0004\u0011\f", new Object[]{"a", "b", bszj.class, "c", "d", "e", "f", "g", "h", "i"});
         } else if (i2 == 3) {
             return new btag();
         } else {

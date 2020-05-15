@@ -17,7 +17,7 @@ public final class bptn extends bxvd implements bxxd {
         bpto bpto2 = bpto.f139149e;
         bptc.getClass();
         if (!bpto.f139153c.mo73666a()) {
-            bpto.f139153c = bxvk.m124021a(bpto.f139153c);
+            bpto.f139153c = GeneratedMessageLite.m124021a(bpto.f139153c);
         }
         bpto.f139153c.add(bptc);
     }

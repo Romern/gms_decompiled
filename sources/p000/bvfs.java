@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvfs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvfs extends bxvk implements bxxd {
+public final class bvfs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bvfs f155910e;
@@ -25,7 +25,7 @@ public final class bvfs extends bxvk implements bxxd {
     static {
         bvfs bvfs = new bvfs();
         f155910e = bvfs;
-        bxvk.m124024a(bvfs.class, bvfs);
+        GeneratedMessageLite.m124024a(bvfs.class, bvfs);
     }
 
     private bvfs() {
@@ -42,7 +42,7 @@ public final class bvfs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155910e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", bvjr.f156352a, "d", bvjo.f156349a});
+            return GeneratedMessageLite.m124022a(f155910e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", bvjr.f156352a, "d", bvjo.f156349a});
         } else if (i2 == 3) {
             return new bvfs();
         } else {

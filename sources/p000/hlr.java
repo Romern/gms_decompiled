@@ -15,7 +15,7 @@ final /* synthetic */ class hlr implements bmxz {
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
         Set set = this.f19991a;
-        sek sek = hmc.f20015a;
+        Logger Logger = hmc.f20015a;
         return set.contains(((quo) obj).f42182b);
     }
 }

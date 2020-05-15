@@ -28,18 +28,18 @@ final class aric extends adzt {
                 List list = (List) message.obj;
                 ((arie) aqzp).f87774c.mo48610b(((arie) aqzp).f87773b, ((arie) aqzp).f87775d);
                 aqzp aqzp2 = ((arie) aqzp).f87772a;
-                mji.f33827a.mo25409a("onCompleted", new Object[0]);
+                mji.f33827a.logVerbose("onCompleted", new Object[0]);
                 ((mji) aqzp2).f33829c.execute(new mjg((mji) aqzp2));
             } else if (i == 1) {
                 aqzp aqzp3 = ((arie) this.f87770a.f87776a).f87772a;
-                mji.f33827a.mo25409a("onShowUi", new Object[0]);
+                mji.f33827a.logVerbose("onShowUi", new Object[0]);
                 ((mji) aqzp3).f33829c.execute(new mjf((mji) aqzp3, (PendingIntent) message.obj));
             } else if (i == 2) {
                 aqzp aqzp4 = this.f87770a.f87776a;
                 int i2 = message.arg1;
                 ((arie) aqzp4).f87774c.mo48610b(((arie) aqzp4).f87773b, ((arie) aqzp4).f87775d);
                 aqzp aqzp5 = ((arie) aqzp4).f87772a;
-                mji.f33827a.mo25409a("onError %d", Integer.valueOf(i2));
+                mji.f33827a.logVerbose("onError %d", Integer.valueOf(i2));
                 ((mji) aqzp5).f33829c.execute(new mjh((mji) aqzp5, i2, (String) message.obj));
             } else {
                 int i3 = message.what;

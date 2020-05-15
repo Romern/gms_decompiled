@@ -168,7 +168,7 @@ public final class cdgy implements cdgw {
             bArr[152] = 40;
             bArr[153] = 92;
             bArr[154] = 63;
-            f180899a = bdyx.m91608a(a, "current_place_thresholds", (bxmj) bxvk.m124014a(bxmj.f163942b, bArr), cdgx.f180898a);
+            f180899a = bdyx.m91608a(a, "current_place_thresholds", (bxmj) GeneratedMessageLite.m124014a(bxmj.f163942b, bArr), cdgx.f180898a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"current_place_thresholds\"");
         }

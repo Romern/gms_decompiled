@@ -19,7 +19,7 @@ import org.json.JSONObject;
 public final class akwu implements akww {
 
     /* renamed from: a */
-    public static final sek f73020a = akzt.m60725a("OctarineFidoU2fBridge");
+    public static final Logger f73020a = akzt.m60725a("OctarineFidoU2fBridge");
 
     /* renamed from: b */
     public final xwz f73021b;

@@ -54,14 +54,14 @@ public final class baga implements bafv {
     private final bngx m86810a(banx banx, long j, long j2) {
         bngs bngs = new bngs();
         for (Pair pair : this.f100763b.mo55768a(banx, m86811a(j), m86811a(j2))) {
-            byht byht = (byht) bxvk.m124014a(byht.f166507d, (byte[]) pair.second);
-            bngs.mo67668c(badk.m86643a(byht.f166511c.mo73780k(), null, byht.f166510b));
+            byht byht = (byht) GeneratedMessageLite.m124014a(byht.f166507d, (byte[]) pair.second);
+            bngs.mo67668c(badk.m86643a(byht.f166511c.getKey(), null, byht.f166510b));
         }
         return bngs.mo67664a();
     }
 
     /* renamed from: b */
-    private final byhy m86812b(bany bany, bxtx bxtx, long j) {
+    private final byhy m86812b(bany bany, ByteString bxtx, long j) {
         bxvd da = byhy.f166528f.mo74144da();
         byhx byhx = byhx.UPDATE;
         if (da.f164950c) {
@@ -94,7 +94,7 @@ public final class baga implements bafv {
         byht.f166511c = bxtx;
         byht.f166509a = i3 | 1;
         byht.f166510b = j;
-        bamq.mo55772a(bany, a, ((byht) da2.mo74062i()).mo73642k());
+        bamq.mo55772a(bany, a, ((byht) da2.mo74062i()).serializeToBytes());
         return byhy2;
     }
 
@@ -259,7 +259,7 @@ public final class baga implements bafv {
 
     /* renamed from: b */
     public final void mo55694b(bany bany) {
-        this.f100763b.mo55776b(bany, bxtx.f164797b, (bxtx) null);
+        this.f100763b.mo55776b(bany, ByteString.f164797b, (ByteString) null);
         this.f100766e.mo55742a(bany);
         this.f100765d.mo55764b(bany).mo55760a(bany);
         this.f100764c.mo55764b(bany).mo55760a(bany);
@@ -298,16 +298,16 @@ public final class baga implements bafv {
     }
 
     /* renamed from: a */
-    public final void mo55689a(bany bany, bxtx bxtx, long j) {
+    public final void mo55689a(bany bany, ByteString bxtx, long j) {
         m86812b(bany, bxtx, j);
     }
 
     /* renamed from: a */
-    public final void mo55690a(bany bany, bxtx bxtx, long j, String str) {
+    public final void mo55690a(bany bany, ByteString bxtx, long j, String str) {
         byhy b = m86812b(bany, bxtx, j);
         banf banf = this.f100765d;
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -339,7 +339,7 @@ public final class baga implements bafv {
             sb.append(a2);
             throw new IllegalArgumentException(sb.toString());
         } else {
-            ((achw) this.f100769h.mo16713a()).mo25409a("Sync token is not set and will be initialized", new Object[0]);
+            ((achw) this.f100769h.mo16713a()).logVerbose("Sync token is not set and will be initialized", new Object[0]);
         }
     }
 }

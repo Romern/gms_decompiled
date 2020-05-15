@@ -7,7 +7,7 @@ import android.content.Context;
 public final class gng {
 
     /* renamed from: a */
-    public static final sek f18674a = ght.m13171a("GetTokenRequestHandler");
+    public static final Logger f18674a = ght.m13171a("GetTokenRequestHandler");
 
     /* renamed from: b */
     public final Context f18675b;

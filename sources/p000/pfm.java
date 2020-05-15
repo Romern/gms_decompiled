@@ -11,7 +11,7 @@ final class pfm extends rjl {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ rjm mo11610a(Context context, Looper looper, sat sat, Object obj, rjz rjz, rka rka) {
         pek pek = (pek) obj;
-        sdo.m34966a(pek, "Setting the API options is required.");
+        sdo.checkIfNull(pek, "Setting the API options is required.");
         CastDevice castDevice = pek.f38966a;
         int i = pek.f38969d;
         Bundle bundle = pek.f38968c;

@@ -27,7 +27,7 @@ public final class obi extends obg {
                 case 32775:
                     m28338a(str, j, oer.VIDEO_SINK.name(), z, birw.m102771a(b), duplicate, printWriter);
                     printWriter2.print(":{");
-                    biwm biwm = (biwm) bxvk.m124013a(biwm.f122109d, duplicate, bxus.m123744c());
+                    biwm biwm = (biwm) GeneratedMessageLite.m124013a(biwm.f122109d, duplicate, bxus.m123744c());
                     if (biwm != null) {
                         Object[] objArr = new Object[2];
                         int b2 = biwi.m102902b(biwm.f122112b);
@@ -52,7 +52,7 @@ public final class obi extends obg {
                 case 32776:
                     m28338a(str, j, oer.VIDEO_SINK.name(), z, birw.m102771a(b), duplicate, printWriter);
                     printWriter2.print(":{");
-                    biwj biwj = (biwj) bxvk.m124013a(biwj.f122103c, duplicate, bxus.m123744c());
+                    biwj biwj = (biwj) GeneratedMessageLite.m124013a(biwj.f122103c, duplicate, bxus.m123744c());
                     if (biwj != null) {
                         Object[] objArr2 = new Object[1];
                         int b3 = biwi.m102902b(biwj.f122105a);

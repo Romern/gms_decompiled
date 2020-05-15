@@ -62,7 +62,7 @@ public final class aknz {
         a2.getClass();
         blfk2.f126380b = a2;
         blfk2.f126379a |= 1;
-        if (((blfl) this.f72334a.mo25513a(a, 1, m60113a("/gmsgnotssetreadstates?alt=proto", cfqe.f185447a.mo6606a().mo82523j()), ((blfk) da.mo74062i()).mo73642k(), blfl.f126383b)).f126385a == null) {
+        if (((blfl) this.f72334a.mo25513a(a, 1, m60113a("/gmsgnotssetreadstates?alt=proto", cfqe.f185447a.mo6606a().mo82523j()), ((blfk) da.mo74062i()).serializeToBytes(), blfl.f126383b)).f126385a == null) {
             blfr blfr = blfr.f126407a;
         }
     }

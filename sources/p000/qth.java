@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteException;
 public final class qth {
 
     /* renamed from: a */
-    public static final sek f42096a = qqu.m32671b("DatabaseManager");
+    public static final Logger f42096a = qqu.m32671b("DatabaseManager");
 
     /* renamed from: b */
     private static qth f42097b;

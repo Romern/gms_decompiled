@@ -93,19 +93,19 @@ public final class mug extends aaab {
         while (it.hasNext()) {
             PackageInfo packageInfo = (PackageInfo) it.next();
             if (this.f34762i.f28978a && connectivityManager.isActiveNetworkMetered()) {
-                f34754a.mo25409a("Metered network, but wanted unmetered.", new Object[0]);
+                f34754a.logVerbose("Metered network, but wanted unmetered.", new Object[0]);
                 return 29002;
             } else if (this.f34762i.f28979b && !batteryManager.isCharging()) {
-                f34754a.mo25409a("Not charging, but require charging.", new Object[0]);
+                f34754a.logVerbose("Not charging, but require charging.", new Object[0]);
                 return 29006;
             } else if (this.f34762i.f28980c && this.f34765l.isInteractive() && !this.f34760g) {
-                f34754a.mo25409a("Not idle, but require idle.", new Object[0]);
+                f34754a.logVerbose("Not idle, but require idle.", new Object[0]);
                 return 29007;
             } else if (!this.f34762i.f28982e && this.f34765l.isPowerSaveMode() && !batteryManager.isCharging()) {
-                f34754a.mo25409a("In power saver and not charging.", new Object[0]);
+                f34754a.logVerbose("In power saver and not charging.", new Object[0]);
                 return 29008;
             } else if (m25631a(lvp, mud, packageInfo.packageName) == 29003) {
-                f34754a.mo25409a("Aborting backup.", new Object[0]);
+                f34754a.logVerbose("Aborting backup.", new Object[0]);
                 return 29003;
             }
         }
@@ -124,16 +124,16 @@ public final class mug extends aaab {
                 return 29000;
             }
             if (intValue != -1000) {
-                f34754a.mo25409a("Error in backup manager.", new Object[0]);
+                f34754a.logVerbose("Error in backup manager.", new Object[0]);
                 return 29001;
             }
-            f34754a.mo25409a("Transport error.", new Object[0]);
+            f34754a.logVerbose("Transport error.", new Object[0]);
             return 29003;
         } catch (ExecutionException e) {
             f34754a.mo25415d("ExecutionException while requesting backup.", e, new Object[0]);
             return 29001;
         } catch (TimeoutException e2) {
-            f34754a.mo25409a("Request for backup has timed out.", new Object[0]);
+            f34754a.logVerbose("Request for backup has timed out.", new Object[0]);
             return 29004;
         } catch (InterruptedException e3) {
             f34754a.mo25415d("InterruptedException while requesting backup.", e3, new Object[0]);
@@ -225,7 +225,7 @@ public final class mug extends aaab {
             }
         }
         if (this.f34762i.f28980c && this.f34765l.isInteractive()) {
-            f34754a.mo25409a("Required idle and screen is on, assuming we're dreaming", new Object[0]);
+            f34754a.logVerbose("Required idle and screen is on, assuming we're dreaming", new Object[0]);
             this.f34760g = true;
             IntentFilter intentFilter = new IntentFilter();
             intentFilter.addAction("android.intent.action.DREAMING_STOPPED");
@@ -246,7 +246,7 @@ public final class mug extends aaab {
         Collections.shuffle(arrayList);
         mud.f34747d = arrayList.size();
         mud.mo20246a();
-        f34754a.mo25409a("Waiting for any ongoing backup to finish...", new Object[0]);
+        f34754a.logVerbose("Waiting for any ongoing backup to finish...", new Object[0]);
         m25633a(context, 0);
         this.f34758e = arrayList.size();
         this.f34759f = 0;

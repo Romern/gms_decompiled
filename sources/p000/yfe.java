@@ -333,7 +333,7 @@ public abstract class yfe {
                 ArrayList arrayList5 = arrayList;
                 cadj cadj = (cadj) arrayList5.get(i7);
                 bxvd bxvd = (bxvd) cadj.mo74142c(5);
-                bxvd.mo73625a((bxvk) cadj);
+                bxvd.mo73625a((GeneratedMessageLite) cadj);
                 cadi cadi = (cadi) bxvd;
                 cadi.mo74610a((cadp) bngx.get(i7));
                 if (!ygc.f53751b) {

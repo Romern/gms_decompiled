@@ -54,7 +54,7 @@ public final class lve extends aaab {
 
     /* renamed from: a */
     private final List m24455a() {
-        f33023a.mo25409a("Waiting for the restore sets", new Object[0]);
+        f33023a.logVerbose("Waiting for the restore sets", new Object[0]);
         try {
             return (List) this.f33027e.get(ccmh.f179446a.mo6606a().mo76378g(), TimeUnit.MILLISECONDS);
         } catch (InterruptedException e) {
@@ -72,7 +72,7 @@ public final class lve extends aaab {
 
     /* renamed from: b */
     private final void m24456b() {
-        f33023a.mo25409a("Waiting for the restore to finish", new Object[0]);
+        f33023a.logVerbose("Waiting for the restore to finish", new Object[0]);
         try {
             if (!((Boolean) this.f33028f.get(ccmh.f179446a.mo6606a().mo76377f(), TimeUnit.MILLISECONDS)).booleanValue()) {
                 mo6503a(Status.f30109c);
@@ -90,7 +90,7 @@ public final class lve extends aaab {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final void mo6502a(Context context) {
-        f33023a.mo25409a("Requesting restore of a gms module %s.", this.f33030h);
+        f33023a.logVerbose("Requesting restore of a gms module %s.", this.f33030h);
         this.f33028f = bqgy.m112818c();
         this.f33027e = bqgy.m112818c();
         RestoreSession a = this.f33029g.mo19640a();
@@ -102,15 +102,15 @@ public final class lve extends aaab {
             f33023a.mo25418e("Error getting restore sets from backup manager.", new Object[0]);
             mo6503a(Status.f30109c);
         } else if (m24455a().stream().anyMatch(new lvc(this))) {
-            f33023a.mo25409a("Requesting restore of %s", Long.valueOf(this.f33025c));
+            f33023a.logVerbose("Requesting restore of %s", Long.valueOf(this.f33025c));
             int restorePackages = this.f33026d.restorePackages(this.f33025c, this.f33031i, bnic.m109489a("com.google.android.gms"));
             if (restorePackages == 0) {
-                f33023a.mo25409a("Restore is requested successfully.", new Object[0]);
+                f33023a.logVerbose("Restore is requested successfully.", new Object[0]);
                 if (!ccmh.m130653c()) {
                     this.f33024b.mo11797a(Status.f30107a);
                 }
             } else {
-                f33023a.mo25409a("Restore request failed with code %d", Integer.valueOf(restorePackages));
+                f33023a.logVerbose("Restore request failed with code %d", Integer.valueOf(restorePackages));
                 mo6503a(new Status(29031));
             }
             m24456b();

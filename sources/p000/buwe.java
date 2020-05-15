@@ -26,7 +26,7 @@ public final class buwe extends bvbj {
         if (buzv == null) {
             buzv = buzv.f155434c;
         }
-        return new buwd(new buwf(bluetoothAdapter, bvau.m120845a(buzv.f155437b.mo73780k()), f155136a));
+        return new buwd(new buwf(bluetoothAdapter, bvau.m120845a(buzv.f155437b.getKey()), f155136a));
     }
 
     /* access modifiers changed from: protected */
@@ -41,7 +41,7 @@ public final class buwe extends bvbj {
             if (buzv2 == null) {
                 buzv2 = buzv.f155434c;
             }
-            String a = bvau.m120845a(buzv2.f155437b.mo73780k());
+            String a = bvau.m120845a(buzv2.f155437b.getKey());
             Iterator it = set.iterator();
             while (it.hasNext()) {
                 buwd buwd = (buwd) it.next();

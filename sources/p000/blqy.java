@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blqy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blqy extends bxvk implements bxxd {
+public final class blqy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final blqy f127421c;
@@ -19,7 +19,7 @@ public final class blqy extends bxvk implements bxxd {
     static {
         blqy blqy = new blqy();
         f127421c = blqy;
-        bxvk.m124024a(blqy.class, blqy);
+        GeneratedMessageLite.m124024a(blqy.class, blqy);
     }
 
     private blqy() {
@@ -36,7 +36,7 @@ public final class blqy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127421c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", blqx.f127420a});
+            return GeneratedMessageLite.m124022a(f127421c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", blqx.f127420a});
         } else if (i2 == 3) {
             return new blqy();
         } else {

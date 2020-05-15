@@ -74,7 +74,7 @@ final class buvz implements bvbr {
                             buyn.f155320c = buzt3;
                             buyn.f155318a |= 2;
                             bxvd da3 = buzw.f155438d.mo74144da();
-                            bxtx a = bxtx.m123261a(bvau.m120846a(buwd.mo73169g()));
+                            ByteString a = ByteString.m123261a(bvau.m120846a(buwd.mo73169g()));
                             if (da3.f164950c) {
                                 da3.mo74035c();
                                 da3.f164950c = false;

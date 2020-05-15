@@ -188,7 +188,7 @@ public final class pic {
                     bptf bptf = (bptf) da.f164949b;
                     bpte.getClass();
                     if (!bptf.f139106a.mo73666a()) {
-                        bptf.f139106a = bxvk.m124021a(bptf.f139106a);
+                        bptf.f139106a = GeneratedMessageLite.m124021a(bptf.f139106a);
                     }
                     bptf.f139106a.add(bpte);
                 }

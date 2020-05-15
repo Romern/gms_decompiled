@@ -7,7 +7,7 @@ import com.google.android.chimera.Fragment;
 public final class evt implements evv {
 
     /* renamed from: a */
-    private static final sek f15899a = ffw.m11631a("ExternalLauncher");
+    private static final Logger f15899a = ffw.m11631a("ExternalLauncher");
 
     /* renamed from: b */
     private final bsul f15900b;

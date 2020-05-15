@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biwp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biwp extends bxvk implements bxxd {
+public final class biwp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final biwp f122115c;
@@ -19,7 +19,7 @@ public final class biwp extends bxvk implements bxxd {
     static {
         biwp biwp = new biwp();
         f122115c = biwp;
-        bxvk.m124024a(biwp.class, biwp);
+        GeneratedMessageLite.m124024a(biwp.class, biwp);
     }
 
     private biwp() {
@@ -36,7 +36,7 @@ public final class biwp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f122115c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", biwq.f122119a});
+            return GeneratedMessageLite.m124022a(f122115c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", biwq.f122119a});
         } else if (i2 == 3) {
             return new biwp();
         } else {

@@ -8,7 +8,7 @@ import com.google.android.gms.org.conscrypt.PSKKeyManager;
 final class qic {
 
     /* renamed from: a */
-    private static final sek f41444a = qgn.m32143a("AndroidCheckinProtoModule");
+    private static final Logger f41444a = qgn.m32143a("AndroidCheckinProtoModule");
 
     /* renamed from: a */
     static qhg m32199a(cayo cayo, cayo cayo2, cayo cayo3, cayo cayo4, cayo cayo5, qho qho, cayo cayo6, cayo cayo7, qhf qhf, qdu qdu, qjw qjw) {
@@ -112,7 +112,7 @@ final class qic {
             qhg8.f41338a |= 1024;
         }
         if (qjw2.mo24054a(qhg.class, 15) && (qhj = qdu2.f41046p) != null) {
-            sek sek = f41444a;
+            Logger Logger = f41444a;
             Object[] objArr = new Object[2];
             int a = qhi.m32172a(qhj.f41357b);
             if (a == 0) {
@@ -120,7 +120,7 @@ final class qic {
             }
             objArr[0] = Integer.valueOf(a - 1);
             objArr[1] = Integer.valueOf(qhj.f41358c);
-            sek.mo25414c("Checkin reason type: %d attempt count: %d.", objArr);
+            Logger.mo25414c("Checkin reason type: %d attempt count: %d.", objArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

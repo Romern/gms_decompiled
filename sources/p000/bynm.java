@@ -77,7 +77,7 @@ public final class bynm implements byne {
     /* renamed from: a */
     public final void mo74409a(boty boty) {
         acrs acrs = this.f167123d;
-        acrs.f60642a.mo24335a(boty.mo73642k()).mo24327b();
+        acrs.f60642a.mo24335a(boty.serializeToBytes()).mo24327b();
     }
 
     /* renamed from: a */

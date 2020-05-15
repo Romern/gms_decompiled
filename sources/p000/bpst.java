@@ -5,5 +5,5 @@ package p000;
 public final class bpst {
 
     /* renamed from: a */
-    public static final bxvj f139012a = bxvk.m124006a(aywu.f98650f, bpss.f139006d, bpss.f139006d, 200000022, bxzf.MESSAGE);
+    public static final bxvj f139012a = GeneratedMessageLite.m124006a(aywu.f98650f, bpss.f139006d, bpss.f139006d, 200000022, bxzf.MESSAGE);
 }

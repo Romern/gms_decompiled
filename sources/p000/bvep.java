@@ -17,7 +17,7 @@ public final class bvep extends bxvd implements bxxd {
         bxvu bxvu = bveq.f155770e;
         bvik.getClass();
         if (!bveq.f155776d.mo73666a()) {
-            bveq.f155776d = bxvk.m124019a(bveq.f155776d);
+            bveq.f155776d = GeneratedMessageLite.m124019a(bveq.f155776d);
         }
         bveq.f155776d.mo74153d(bvik.f156160d);
     }
@@ -33,7 +33,7 @@ public final class bvep extends bxvd implements bxxd {
         bxvu bxvu = bveq.f155770e;
         bvei.getClass();
         if (!bveq.f155779h.mo73666a()) {
-            bveq.f155779h = bxvk.m124021a(bveq.f155779h);
+            bveq.f155779h = GeneratedMessageLite.m124021a(bveq.f155779h);
         }
         bveq.f155779h.add(bvei);
     }
@@ -47,7 +47,7 @@ public final class bvep extends bxvd implements bxxd {
         bveq bveq = (bveq) this.f164949b;
         bxvu bxvu = bveq.f155770e;
         if (!bveq.f155780i.mo73666a()) {
-            bveq.f155780i = bxvk.m124021a(bveq.f155780i);
+            bveq.f155780i = GeneratedMessageLite.m124021a(bveq.f155780i);
         }
         bxsy.m123078a(iterable, bveq.f155780i);
     }

@@ -78,7 +78,7 @@ public final class lwb {
             } else {
                 z = b && d;
             }
-            f33095a.mo25409a("encryptBackups:%s = enableCrypto:%s && hasLockScreen:%s && supportedDevice:%s && userOptedIn:%s", Boolean.valueOf(z), Boolean.valueOf(c), Boolean.valueOf(b), true, Boolean.valueOf(d));
+            f33095a.logVerbose("encryptBackups:%s = enableCrypto:%s && hasLockScreen:%s && supportedDevice:%s && userOptedIn:%s", Boolean.valueOf(z), Boolean.valueOf(c), Boolean.valueOf(b), true, Boolean.valueOf(d));
             return z;
         } else if (!m24519c()) {
             f33095a.mo25414c("Should not encrypt backups: unsupported by SDK.", new Object[0]);
@@ -92,7 +92,7 @@ public final class lwb {
                 f33095a.mo25414c("Should not encrypt backups: user not opted in.", new Object[0]);
                 return false;
             }
-            f33095a.mo25409a("Should encrypt backups.", new Object[0]);
+            f33095a.logVerbose("Should encrypt backups.", new Object[0]);
             return true;
         }
     }

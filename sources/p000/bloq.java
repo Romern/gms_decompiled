@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bloq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bloq extends bxvk implements bxxd {
+public final class bloq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bxvu f127123b = new blop();
@@ -19,7 +19,7 @@ public final class bloq extends bxvk implements bxxd {
     static {
         bloq bloq = new bloq();
         f127124c = bloq;
-        bxvk.m124024a(bloq.class, bloq);
+        GeneratedMessageLite.m124024a(bloq.class, bloq);
     }
 
     private bloq() {
@@ -36,7 +36,7 @@ public final class bloq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127124c, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001e", new Object[]{"a", bloo.m107422b()});
+            return GeneratedMessageLite.m124022a(f127124c, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001e", new Object[]{"a", bloo.m107422b()});
         } else if (i2 == 3) {
             return new bloq();
         } else {

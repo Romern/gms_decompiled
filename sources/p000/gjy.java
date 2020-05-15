@@ -22,7 +22,7 @@ import com.google.android.gms.auth.firstparty.delegate.UpdateCredentialsWorkflow
 public final class gjy implements iyo {
 
     /* renamed from: a */
-    private static final sek f18367a = ght.m13171a("AuthDelegateWrapper");
+    private static final Logger f18367a = ght.m13171a("AuthDelegateWrapper");
 
     /* renamed from: b */
     private final Context f18368b;
@@ -124,11 +124,11 @@ public final class gjy implements iyo {
     public final PendingIntent mo11952a(gjx gjx) {
         ilq ilq = new ilq(this.f18368b);
         rex rex = new rex();
-        ResolveInfo resolveService = ilq.f21307b.resolveService(this.f18369c, 0);
+        ResolveInfo resolveService = ilq.packageManager.resolveService(this.f18369c, 0);
         if (resolveService != null) {
             if (resolveService.serviceInfo != null) {
                 if (resolveService.serviceInfo.applicationInfo != null) {
-                    if (ilq.f21307b.checkSignatures(ilq.f21311f, resolveService.serviceInfo.applicationInfo.uid) != 0) {
+                    if (ilq.packageManager.checkSignatures(ilq.appUid, resolveService.serviceInfo.applicationInfo.uid) != 0) {
                         SecurityException securityException = new SecurityException("Cannot delegate to Service with different signature.");
                         f18367a.mo25417e(securityException.getMessage(), securityException, new Object[0]);
                         throw securityException;

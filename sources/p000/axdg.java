@@ -46,7 +46,7 @@ public final class axdg extends awcd {
             OrchestrationDelegatorChimeraActivity orchestrationDelegatorChimeraActivity2 = this.f94162a;
             String str = orchestrationDelegatorChimeraActivity2.f94163b;
             LogContext logContext = orchestrationDelegatorChimeraActivity2.f94164c;
-            sdo.m34966a(byteArrayExtra, "Params must not be null.");
+            sdo.checkIfNull(byteArrayExtra, "Params must not be null.");
             axdk axdk = new axdk();
             Bundle a = awzk.m81653a(h, str, logContext);
             a.putByteArray("parameters", byteArrayExtra);

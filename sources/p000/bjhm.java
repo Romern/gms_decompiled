@@ -416,7 +416,7 @@ public final class bjhm extends bjil implements bjfg, bjhh, bjgm {
             bpsk2.f138972e = bpsg.f138957l;
             bpsk2.f138968a |= 2;
             bxvd da2 = bpsn.f138986c.mo74144da();
-            bxtx bxtx = this.f122738d.f160273b;
+            ByteString bxtx = this.f122738d.f160273b;
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -476,14 +476,14 @@ public final class bjhm extends bjil implements bjfg, bjhh, bjgm {
             }
             bwyz bwyz2 = c2.f122699b;
             bxvd bxvd = (bxvd) bwyz2.mo74142c(5);
-            bxvd.mo73625a((bxvk) bwyz2);
+            bxvd.mo73625a((GeneratedMessageLite) bwyz2);
             bwyy bwyy = (bwyy) bxvd;
             if (bwyy.f164950c) {
                 bwyy.mo74035c();
                 bwyy.f164950c = false;
             }
             bwyz bwyz3 = bwyz.f161561h;
-            ((bwyz) bwyy.f164949b).f161566d = bxvk.m124030de();
+            ((bwyz) bwyy.f164949b).f161566d = GeneratedMessageLite.m124030de();
             bwyz bwyz4 = c2.f122699b;
             bxvw bxvw = bwze.f161584d;
             bxwc bxwc = bwze.f161585e;
@@ -530,7 +530,7 @@ public final class bjhm extends bjil implements bjfg, bjhh, bjgm {
                             arrayList.add(bwny);
                         } else {
                             bxvd bxvd2 = (bxvd) bwny.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) bwny);
+                            bxvd2.mo73625a((GeneratedMessageLite) bwny);
                             bxvf bxvf = (bxvf) bxvd2;
                             bwog bwog4 = (bwog) nwVar.mo15534a(j2);
                             if (bxvf.f164950c) {
@@ -576,7 +576,7 @@ public final class bjhm extends bjil implements bjfg, bjhh, bjgm {
             a2.getClass();
             bwyz6.f161564b = a2;
             bwyz6.f161563a |= 1;
-            bwyz6.f161565c = bxvk.m124030de();
+            bwyz6.f161565c = GeneratedMessageLite.m124030de();
             bxwc bxwc4 = c2.f122699b.f161565c;
             bjgo bjgo = c2.f122698a.f122692a.f122726c;
             ArrayList arrayList2 = new ArrayList((bxwc4.size() - bwze.f161583c.size()) + bwze.f161582b.size());
@@ -594,7 +594,7 @@ public final class bjhm extends bjil implements bjfg, bjhh, bjgm {
             }
             bwyz bwyz7 = (bwyz) bwyy.f164949b;
             if (!bwyz7.f161565c.mo73666a()) {
-                bwyz7.f161565c = bxvk.m124021a(bwyz7.f161565c);
+                bwyz7.f161565c = GeneratedMessageLite.m124021a(bwyz7.f161565c);
             }
             bxsy.m123078a(arrayList2, bwyz7.f161565c);
             bxwc bxwc5 = bwze.f161588h;
@@ -604,7 +604,7 @@ public final class bjhm extends bjil implements bjfg, bjhh, bjgm {
             }
             bwyz bwyz8 = (bwyz) bwyy.f164949b;
             if (!bwyz8.f161569g.mo73666a()) {
-                bwyz8.f161569g = bxvk.m124021a(bwyz8.f161569g);
+                bwyz8.f161569g = GeneratedMessageLite.m124021a(bwyz8.f161569g);
             }
             bxsy.m123078a(bxwc5, bwyz8.f161569g);
             c2.f122699b = (bwyz) bwyy.mo74062i();
@@ -1066,7 +1066,7 @@ public final class bjhm extends bjil implements bjfg, bjhh, bjgm {
         bwzf.f161593a |= 2;
         bjfh bjfh = this.f122740f;
         WidgetConfig widgetConfig = this.f122735a.f122724a;
-        byte[] k = ((bwzf) bxvd.mo74062i()).mo73642k();
+        byte[] k = ((bwzf) bxvd.mo74062i()).serializeToBytes();
         long j = this.f122735a.f122725b;
         boolean contains = this.f122743i.contains(bpsg.EVENT_TYPE_API_REQUEST_START);
         GoogleAccountStateSnapshot googleAccountStateSnapshot = this.f122741g;

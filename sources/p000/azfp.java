@@ -31,7 +31,7 @@ public final /* synthetic */ class azfp implements Runnable {
         }
         "type.googleapis.com/google.internal.communications.instantmessaging.v1.ChatIntentApiArgs".getClass();
         ((bxte) da.f164949b).f164765a = "type.googleapis.com/google.internal.communications.instantmessaging.v1.ChatIntentApiArgs";
-        bxtx aL = d.mo73639aL();
+        ByteString aL = d.mo73639aL();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -45,7 +45,7 @@ public final /* synthetic */ class azfp implements Runnable {
         }
         if (cfgs.m139404j()) {
             bxvd bxvd = (bxvd) cbds.mo74142c(5);
-            bxvd.mo73625a((bxvk) cbds);
+            bxvd.mo73625a((GeneratedMessageLite) cbds);
             String e = cfgs.m139399e();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -77,7 +77,7 @@ public final /* synthetic */ class azfp implements Runnable {
             cbev.mo75230a(Collections.unmodifiableMap(d.f176590n));
         }
         cbev.mo75229a(cfeo.m138848E(), bxte);
-        String a = boan.f132471e.mo68783a().mo68794a(((cbex) cbev.mo74062i()).mo73642k());
+        String a = boan.f132471e.mo68783a().mo68794a(((cbex) cbev.mo74062i()).serializeToBytes());
         Intent intent2 = new Intent("com.google.business.ACTION_MESSAGE");
         intent2.putExtra("args", a);
         if (cfgs.m139387G() && intent.hasExtra("broadcast_account_conversation_id")) {

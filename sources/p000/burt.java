@@ -12,10 +12,10 @@ public abstract class burt {
     public abstract aiaa mo73010a();
 
     /* renamed from: b */
-    public abstract bxtx mo73011b();
+    public abstract ByteString mo73011b();
 
     /* renamed from: c */
-    public abstract bxtx mo73012c();
+    public abstract ByteString mo73012c();
 
     /* renamed from: d */
     public abstract String mo73013d();

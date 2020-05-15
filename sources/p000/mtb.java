@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mtb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mtb extends bxvk implements bxxd {
+public final class mtb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final mtb f34626o;
@@ -55,7 +55,7 @@ public final class mtb extends bxvk implements bxxd {
     static {
         mtb mtb = new mtb();
         f34626o = mtb;
-        bxvk.m124024a(mtb.class, mtb);
+        GeneratedMessageLite.m124024a(mtb.class, mtb);
     }
 
     private mtb() {
@@ -72,7 +72,7 @@ public final class mtb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34626o, "\u0001\r\u0000\u0001\u0001\u0011\r\u0000\u0005\u0000\u0001ဈ\u0000\u0002\u001b\u0005င\u0002\u0007\u001b\t\u001b\nဇ\u0003\u000b\u001b\fင\u0004\rဇ\u0005\u000e\u001b\u000fဉ\u0006\u0010ဉ\u0007\u0011ဇ\b", new Object[]{"a", "b", "c", mtn.class, "d", "e", mtp.class, "f", mtj.class, "g", "h", mtu.class, "i", "j", "k", mtd.class, "l", "m", "n"});
+            return GeneratedMessageLite.m124022a(f34626o, "\u0001\r\u0000\u0001\u0001\u0011\r\u0000\u0005\u0000\u0001ဈ\u0000\u0002\u001b\u0005င\u0002\u0007\u001b\t\u001b\nဇ\u0003\u000b\u001b\fင\u0004\rဇ\u0005\u000e\u001b\u000fဉ\u0006\u0010ဉ\u0007\u0011ဇ\b", new Object[]{"a", "b", "c", mtn.class, "d", "e", mtp.class, "f", mtj.class, "g", "h", mtu.class, "i", "j", "k", mtd.class, "l", "m", "n"});
         } else if (i2 == 3) {
             return new mtb();
         } else {

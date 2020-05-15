@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: qou */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class qou extends bxvk implements bxxd {
+public final class qou extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final qou f41893c;
@@ -19,7 +19,7 @@ public final class qou extends bxvk implements bxxd {
     static {
         qou qou = new qou();
         f41893c = qou;
-        bxvk.m124024a(qou.class, qou);
+        GeneratedMessageLite.m124024a(qou.class, qou);
     }
 
     private qou() {
@@ -36,7 +36,7 @@ public final class qou extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f41893c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", qos.f41892a});
+            return GeneratedMessageLite.m124022a(f41893c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", qos.f41892a});
         } else if (i2 == 3) {
             return new qou();
         } else {

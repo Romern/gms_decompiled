@@ -42,6 +42,6 @@ final class iff {
         bypd3.getClass();
         byoz.f167287c = bypd3;
         byoz.f167285a = i | 2;
-        context.startService(TransactionReplyIntentOperation.m6530a(stringExtra, byteArrayExtra, a, new byrz(bysa.TX_REPLY, ((byoz) da2.mo74062i()).mo73642k())));
+        context.startService(TransactionReplyIntentOperation.m6530a(stringExtra, byteArrayExtra, a, new byrz(bysa.TX_REPLY, ((byoz) da2.mo74062i()).serializeToBytes())));
     }
 }

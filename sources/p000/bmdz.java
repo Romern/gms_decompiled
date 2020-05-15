@@ -18,7 +18,7 @@ public final class bmdz extends bxvd implements bxxd {
         bmeb bmeb2 = bmeb.f128902g;
         bmea.getClass();
         if (!bmeb.f128906c.mo73666a()) {
-            bmeb.f128906c = bxvk.m124021a(bmeb.f128906c);
+            bmeb.f128906c = GeneratedMessageLite.m124021a(bmeb.f128906c);
         }
         bmeb.f128906c.set(i, bmea);
     }

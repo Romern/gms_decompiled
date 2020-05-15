@@ -71,7 +71,7 @@ public final class baly extends cazu {
         str3.getClass();
         byiv.f166611a = i | 8;
         byiv.f166615e = str3;
-        bxtx aL = byie.mo73639aL();
+        ByteString aL = byie.mo73639aL();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -81,7 +81,7 @@ public final class baly extends cazu {
         byiv2.f166611a |= 16;
         byiv2.f166616f = aL;
         if (!byiv2.f166617g.mo73666a()) {
-            byiv2.f166617g = bxvk.m124021a(byiv2.f166617g);
+            byiv2.f166617g = GeneratedMessageLite.m124021a(byiv2.f166617g);
         }
         bxsy.m123078a(list2, byiv2.f166617g);
         byiv byiv3 = (byiv) da.mo74062i();

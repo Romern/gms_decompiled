@@ -280,7 +280,7 @@ abstract class awrb {
                         a4.mo59986b(this.f94895h);
                         bwgu a5 = awrt.m80817a(this.f94897j.mo52470a(this.f94892e.getString("androidPackageName")));
                         bxvd bxvd = (bxvd) a5.mo74142c(5);
-                        bxvd.mo73625a((bxvk) a5);
+                        bxvd.mo73625a((GeneratedMessageLite) a5);
                         mo52477a(bxvd);
                         a4.mo59979a((bwgu) bxvd.mo74062i());
                         a4.mo59976a(length);

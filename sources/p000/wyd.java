@@ -47,7 +47,7 @@ public final class wyd extends aayk {
             aays k = wyd.mo31910k();
             if (wyd.mo31909a(k)) {
                 try {
-                    bzov bzov = (bzov) bxvk.m124016a(bzov.f170876b, k.f56844c, bxus.m123744c());
+                    bzov bzov = (bzov) GeneratedMessageLite.m124016a(bzov.f170876b, k.f56844c, bxus.m123744c());
                     HelpConfig helpConfig2 = wyd.f56831d;
                     if (bzov == null || bzov.f170878a.size() == 0) {
                         map = null;

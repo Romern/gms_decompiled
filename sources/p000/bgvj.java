@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bgvj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bgvj extends bxvk implements bxxd {
+public final class bgvj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bgvj f117660f;
@@ -28,7 +28,7 @@ public final class bgvj extends bxvk implements bxxd {
     static {
         bgvj bgvj = new bgvj();
         f117660f = bgvj;
-        bxvk.m124024a(bgvj.class, bgvj);
+        GeneratedMessageLite.m124024a(bgvj.class, bgvj);
     }
 
     private bgvj() {
@@ -45,7 +45,7 @@ public final class bgvj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f117660f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", bgvh.f117659a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f117660f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", bgvh.f117659a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new bgvj();
         } else {

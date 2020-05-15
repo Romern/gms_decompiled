@@ -8,7 +8,7 @@ import android.os.Build;
 public final class xug {
 
     /* renamed from: c */
-    public static final sek f53149c = new sek(new String[]{"PolluxNotificationManager"}, (short[]) null);
+    public static final Logger f53149c = new Logger(new String[]{"PolluxNotificationManager"}, (short[]) null);
 
     /* renamed from: a */
     public final Context f53150a;

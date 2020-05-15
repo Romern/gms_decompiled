@@ -18,7 +18,7 @@ final class mfs extends BackupManagerMonitor {
     public final void onEvent(Bundle bundle) {
         met met = this.f33601a.f33597a;
         if (!cckw.f179263a.mo6606a().mo76251p()) {
-            lys.f33210a.mo25409a("Backup manager monitor logs disabled, not logging", new Object[0]);
+            lys.f33210a.logVerbose("Backup manager monitor logs disabled, not logging", new Object[0]);
             return;
         }
         bxvd da = mtd.f34646j.mo74144da();

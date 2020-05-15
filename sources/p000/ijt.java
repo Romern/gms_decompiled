@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 public abstract class ijt extends FragmentActivity implements iko {
 
     /* renamed from: r */
-    public static final sek f21129r = new sek("BaseTransactionActivity");
+    public static final Logger f21129r = new Logger("BaseTransactionActivity");
 
     /* renamed from: a */
     private ijs f21130a;
@@ -79,7 +79,7 @@ public abstract class ijt extends FragmentActivity implements iko {
     /* renamed from: a */
     public static bypc m15553a(Intent intent) {
         try {
-            return (bypc) bxvk.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request"));
+            return (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, intent.getByteArrayExtra("tx_request"));
         } catch (bxwf e) {
             throw new RuntimeException("Unable to parse TxRequest", e);
         }
@@ -106,7 +106,7 @@ public abstract class ijt extends FragmentActivity implements iko {
         } else {
             this.f21145p = new ijr(this.f21134e, new ijo(this));
         }
-        ikj.m15597a(this.f21134e.f167308b.mo73780k(), 5, this);
+        ikj.m15597a(this.f21134e.f167308b.getKey(), 5, this);
         long j = 0;
         if (bundle2 == null) {
             this.f21138i = SystemClock.elapsedRealtime();
@@ -128,7 +128,7 @@ public abstract class ijt extends FragmentActivity implements iko {
             this.f21142m = bundle2.getBoolean("reply_sent");
             this.f21146q = ikm.m15620b(bundle2.getInt("transaction_state"));
             try {
-                this.f21135f = (bypd) bxvk.m124014a(bypd.f167317i, bundle2.getByteArray("tx_response"));
+                this.f21135f = (bypd) GeneratedMessageLite.m124014a(bypd.f167317i, bundle2.getByteArray("tx_response"));
             } catch (bxwf e) {
                 f21129r.mo25417e("Failed to parse TxResponse", e, new Object[0]);
                 this.f21135f = mo7589a();
@@ -143,9 +143,9 @@ public abstract class ijt extends FragmentActivity implements iko {
                 j = a;
             }
             PendingIntent a2 = ikl.mo13094a(longExtra);
-            ikj.m15597a(bypc.f167308b.mo73780k(), 6, ikl.f21216a);
+            ikj.m15597a(bypc.f167308b.getKey(), 6, ikl.f21216a);
             new skc(ikl.f21216a).mo25675a("AuthzenActivityAlarm", 2, longExtra + j, a2, "com.google.android.gms");
-            ikl.f21214b.mo25414c("Scheduling activity-based prompt (txId=%s) to be killed in %s seconds.", ikj.m15598b(bypc.f167308b.mo73780k()), Long.valueOf(TimeUnit.MILLISECONDS.toSeconds(j)));
+            ikl.f21214b.mo25414c("Scheduling activity-based prompt (txId=%s) to be killed in %s seconds.", ikj.m15598b(bypc.f167308b.getKey()), Long.valueOf(TimeUnit.MILLISECONDS.toSeconds(j)));
             bypb bypb = this.f21134e.f167310d;
             if (bypb == null) {
                 bypb = bypb.f167289p;
@@ -189,8 +189,8 @@ public abstract class ijt extends FragmentActivity implements iko {
             b2.mo24790a((rjz) new ijp(this));
             this.f21144o.mo24801e();
         }
-        f21129r.mo25414c("Created activity (%s) for user %s (txId=%s...)", getClass().getSimpleName(), sek.m35081a(this.f21133d), ikj.m15598b(this.f21134e.f167308b.mo73780k()));
-        startService(TransactionReplyIntentOperation.m6532a(this.f21134e.f167308b.mo73780k()));
+        f21129r.mo25414c("Created activity (%s) for user %s (txId=%s...)", getClass().getSimpleName(), Logger.m35081a(this.f21133d), ikj.m15598b(this.f21134e.f167308b.getKey()));
+        startService(TransactionReplyIntentOperation.m6532a(this.f21134e.f167308b.getKey()));
     }
 
     public void onDestroy() {
@@ -237,7 +237,7 @@ public abstract class ijt extends FragmentActivity implements iko {
         int i = this.f21146q;
         ikm.m15621c(i);
         bundle.putInt("transaction_state", i);
-        bundle.putByteArray("tx_response", this.f21135f.mo73642k());
+        bundle.putByteArray("tx_response", this.f21135f.serializeToBytes());
     }
 
     /* renamed from: a */
@@ -264,10 +264,10 @@ public abstract class ijt extends FragmentActivity implements iko {
         if ("/send-tx-response".equals(messageEventParcelable.f110947b)) {
             axos a = axos.m82822a(messageEventParcelable.f110948c);
             try {
-                bypc bypc2 = (bypc) bxvk.m124014a(bypc.f167305k, a.mo53343f("tx_request"));
-                bypd bypd = (bypd) bxvk.m124014a(bypd.f167317i, a.mo53343f("tx_response"));
+                bypc bypc2 = (bypc) GeneratedMessageLite.m124014a(bypc.f167305k, a.mo53343f("tx_request"));
+                bypd bypd = (bypd) GeneratedMessageLite.m124014a(bypd.f167317i, a.mo53343f("tx_response"));
                 if (bypc2.f167308b.equals(bypc.f167308b)) {
-                    sek sek = f21129r;
+                    Logger Logger = f21129r;
                     Object[] objArr = new Object[2];
                     objArr[0] = bypc2.f167308b;
                     byoo a2 = byoo.m125034a(bypd.f167320b);
@@ -275,7 +275,7 @@ public abstract class ijt extends FragmentActivity implements iko {
                         a2 = byoo.NO_RESPONSE_SELECTED;
                     }
                     objArr[1] = a2;
-                    sek.mo25414c("TxId %s was finalized on wear with selection %s. Dismissing the Activity", objArr);
+                    Logger.mo25414c("TxId %s was finalized on wear with selection %s. Dismissing the Activity", objArr);
                     if (ijq != null) {
                         ijq.mo13070a();
                     }
@@ -296,7 +296,7 @@ public abstract class ijt extends FragmentActivity implements iko {
     public final void mo13072a(int i, boolean z, Integer num) {
         long elapsedRealtime = SystemClock.elapsedRealtime() - this.f21138i;
         int i2 = i - 2;
-        sek sek = f21129r;
+        Logger Logger = f21129r;
         String valueOf = String.valueOf(Integer.toString(i2));
         String valueOf2 = String.valueOf(num);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 100 + String.valueOf(valueOf2).length());
@@ -308,7 +308,7 @@ public abstract class ijt extends FragmentActivity implements iko {
         sb.append(elapsedRealtime);
         sb.append(", proximitySensorResult: ");
         sb.append(valueOf2);
-        sek.mo25414c(sb.toString(), new Object[0]);
+        Logger.mo25414c(sb.toString(), new Object[0]);
         bxvd da = bypj.f167346f.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -352,7 +352,7 @@ public abstract class ijt extends FragmentActivity implements iko {
         bypj bypj3 = (bypj) da.mo74062i();
         bypj3.getClass();
         if (!bypd.f167323e.mo73666a()) {
-            bypd.f167323e = bxvk.m124021a(bypd.f167323e);
+            bypd.f167323e = GeneratedMessageLite.m124021a(bypd.f167323e);
         }
         bypd.f167323e.add(bypj3);
         this.f21135f = (bypd) a.mo74062i();
@@ -360,7 +360,7 @@ public abstract class ijt extends FragmentActivity implements iko {
 
     /* renamed from: a */
     public final void mo13073a(byoo byoo) {
-        ikj.m15597a(this.f21134e.f167308b.mo73780k(), 14, this);
+        ikj.m15597a(this.f21134e.f167308b.getKey(), 14, this);
         this.f21142m = true;
         byte[] byteArray = getIntent().getExtras().getByteArray("encryption_key_handle");
         if (byteArray != null) {
@@ -398,7 +398,7 @@ public abstract class ijt extends FragmentActivity implements iko {
             bypd3.getClass();
             byoz.f167287c = bypd3;
             byoz.f167285a = i | 2;
-            startService(TransactionReplyIntentOperation.m6530a(str, byteArray, bypc, new byrz(bysa.TX_REPLY, ((byoz) da.mo74062i()).mo73642k())));
+            startService(TransactionReplyIntentOperation.m6530a(str, byteArray, bypc, new byrz(bysa.TX_REPLY, ((byoz) da.mo74062i()).serializeToBytes())));
         }
         if (((Boolean) igt.f20955e.mo58455c()).booleanValue()) {
             rjy rjy = new rjy(this);

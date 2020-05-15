@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buov */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buov extends bxvk implements bxxd {
+public final class buov extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buov f154592d;
@@ -22,7 +22,7 @@ public final class buov extends bxvk implements bxxd {
     static {
         buov buov = new buov();
         f154592d = buov;
-        bxvk.m124024a(buov.class, buov);
+        GeneratedMessageLite.m124024a(buov.class, buov);
     }
 
     private buov() {
@@ -39,7 +39,7 @@ public final class buov extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154592d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\t\u0002\u0004\u0003\u0004", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f154592d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\t\u0002\u0004\u0003\u0004", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new buov();
         } else {

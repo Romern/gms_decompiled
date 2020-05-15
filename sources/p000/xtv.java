@@ -114,13 +114,13 @@ final class xtv implements Runnable {
                                             }
                                         }
                                     } else if (ordinal != 2) {
-                                        sek sek = xtu.f53088g;
+                                        Logger Logger = xtu.f53088g;
                                         String name = xke.name();
                                         StringBuilder sb = new StringBuilder(String.valueOf(name).length() + 34);
                                         sb.append("Commands of type ");
                                         sb.append(name);
                                         sb.append(" are unsupported.");
-                                        sek.mo25418e(sb.toString(), new Object[0]);
+                                        Logger.mo25418e(sb.toString(), new Object[0]);
                                         bqgg = xtu.mo30129a(xkj.CTAP1_ERR_INVALID_COMMAND);
                                     } else {
                                         xtu.f53093e.mo30195a(xtu.f53090b, new xko());
@@ -176,7 +176,7 @@ final class xtv implements Runnable {
                                     }
                                     bypv g = ((bypx) bnim.get(xjt.f52463e)).mo74448g();
                                     if (g.equals(bypv)) {
-                                        xjv.f52472d = ((bypx) bnim.get(xjt.f52464f)).mo74445d().f167357a.mo73780k();
+                                        xjv.f52472d = ((bypx) bnim.get(xjt.f52464f)).mo74445d().f167357a.getKey();
                                         xjv.f52475g = 2;
                                         xtn2.f53111e.mo30194a(xtn2.f53075a, xaj.TYPE_CABLE_CLIENT_HANDSHAKE_CLIENT_MAC_VALIDATED);
                                         try {
@@ -233,7 +233,7 @@ final class xtv implements Runnable {
                             xub.mo30138a(xub.mo30136a((byte) -65, new byte[]{12}, false));
                         }
                     } else {
-                        sek sek2 = xtn.f53074d;
+                        Logger logger2 = xtn.f53074d;
                         if (i2 != 1) {
                             str = i2 != 2 ? i2 != 3 ? "null" : "HANDSHAKE_SUCCESS" : "CLIENT_HANDSHAKE_MESSAGE_PROCESSED";
                         } else {
@@ -242,7 +242,7 @@ final class xtv implements Runnable {
                         StringBuilder sb3 = new StringBuilder(str.length() + 53);
                         sb3.append("Received CONTROL command in invalid handshake state: ");
                         sb3.append(str);
-                        sek2.mo25418e(sb3.toString(), new Object[0]);
+                        logger2.mo25418e(sb3.toString(), new Object[0]);
                         xub.mo30142c();
                     }
                 } else {

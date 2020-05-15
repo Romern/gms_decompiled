@@ -65,7 +65,7 @@ public final class axaq implements axan, axao, bkea {
         bwhy bwhy = (bwhy) da.f164949b;
         bwhx.getClass();
         if (!bwhy.f159605a.mo73666a()) {
-            bwhy.f159605a = bxvk.m124021a(bwhy.f159605a);
+            bwhy.f159605a = GeneratedMessageLite.m124021a(bwhy.f159605a);
         }
         bwhy.f159605a.add(bwhx);
         return (bwhy) da.mo74062i();

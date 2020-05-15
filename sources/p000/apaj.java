@@ -197,7 +197,7 @@ public final class apaj extends aozz {
     private final Map m69947a(List list) {
         int i = apaa.f83970a;
         String[] strArr = {"raw_contact_id", "contact_id", "display_name", "data1", "data3", "last_time_used", "times_used"};
-        HashMap a = bnmt.m109794a();
+        HashMap a = bnmt.getNewHashMap();
         Cursor cursor = null;
         try {
             cursor = this.f83966a.getContentResolver().query(ContactsContract.CommonDataKinds.Email.CONTENT_URI, strArr, m69945a("contact_id", list), null, null);
@@ -256,7 +256,7 @@ public final class apaj extends aozz {
             bzdh = bzdh.f169466A;
         }
         bxvd bxvd = (bxvd) bzdh.mo74142c(5);
-        bxvd.mo73625a((bxvk) bzdh);
+        bxvd.mo73625a((GeneratedMessageLite) bzdh);
         bzdb bzdb = (bzdb) bxvd;
         int b = m69954b(str, "com.google.android.gms.people");
         if (bzdb.f164950c) {
@@ -286,7 +286,7 @@ public final class apaj extends aozz {
                 bzcv.f164950c = false;
             }
             bzcx bzcx = bzcx.f169429h;
-            ((bzcx) bzcv.f164949b).f169434d = bxvk.m124029dd();
+            ((bzcx) bzcv.f164949b).f169434d = GeneratedMessageLite.m124029dd();
         }
     }
 
@@ -889,7 +889,7 @@ public final class apaj extends aozz {
         if (r2.f169406c.mo73666a() == false) goto L_0x07c5;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:317:0x07c5, code lost:
-        r2.f169406c = p000.bxvk.m124021a(r2.f169406c);
+        r2.f169406c = p000.GeneratedMessageLite.m124021a(r2.f169406c);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:318:0x07cd, code lost:
         r2.f169406c.add(r5);
@@ -1200,8 +1200,8 @@ public final class apaj extends aozz {
         boolean z;
         boolean z2;
         int i = apae.f83989b;
-        HashMap a = bnmt.m109794a();
-        HashMap a2 = bnmt.m109794a();
+        HashMap a = bnmt.getNewHashMap();
+        HashMap a2 = bnmt.getNewHashMap();
         boolean z3 = cgiq.m145573c() && cgit.m145580b();
         String str2 = "mimetype";
         if (!cgiq.m145573c()) {
@@ -1301,7 +1301,7 @@ public final class apaj extends aozz {
             bzdh = bzdh.f169466A;
         }
         bxvd bxvd = (bxvd) bzdh.mo74142c(5);
-        bxvd.mo73625a((bxvk) bzdh);
+        bxvd.mo73625a((GeneratedMessageLite) bzdh);
         bzdb bzdb = (bzdb) bxvd;
         if (cgij.f186992a.mo6606a().mo83880p()) {
             boolean a = cgkc.f187140a.mo6606a().mo83964a();
@@ -1343,7 +1343,7 @@ public final class apaj extends aozz {
             while (i < size) {
                 bzcu bzcu = (bzcu) bxwc.get(i);
                 bxvd bxvd = (bxvd) bzcu.mo74142c(5);
-                bxvd.mo73625a((bxvk) bzcu);
+                bxvd.mo73625a((GeneratedMessageLite) bzcu);
                 bzcs bzcs = (bzcs) bxvd;
                 bxwc bxwc2 = bzcu.f169420k;
                 int size2 = bxwc2.size();
@@ -1353,7 +1353,7 @@ public final class apaj extends aozz {
                     int i5 = i4 + 1;
                     bzdq bzdq = (bzdq) bxwc2.get(i3);
                     bxvd bxvd2 = (bxvd) bzdq.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) bzdq);
+                    bxvd2.mo73625a((GeneratedMessageLite) bzdq);
                     if (bxvd2.f164950c) {
                         bxvd2.mo74035c();
                         bxvd2.f164950c = false;
@@ -1390,7 +1390,7 @@ public final class apaj extends aozz {
             bzdh = bzdh.f169466A;
         }
         bxvd bxvd = (bxvd) bzdh.mo74142c(5);
-        bxvd.mo73625a((bxvk) bzdh);
+        bxvd.mo73625a((GeneratedMessageLite) bzdh);
         bzdb bzdb = (bzdb) bxvd;
         if (bzdb.f164950c) {
             bzdb.mo74035c();
@@ -1605,7 +1605,7 @@ public final class apaj extends aozz {
                     bzcs.mo74035c();
                     bzcs.f164950c = false;
                 }
-                ((bzcu) bzcs.f164949b).f169413d = bxvk.m124030de();
+                ((bzcu) bzcs.f164949b).f169413d = GeneratedMessageLite.m124030de();
                 bzcs.mo74529a(arrayList);
                 HashMap hashMap3 = new HashMap();
                 HashSet hashSet = new HashSet();
@@ -1656,7 +1656,7 @@ public final class apaj extends aozz {
                     bzcs.mo74035c();
                     bzcs.f164950c = false;
                 }
-                ((bzcu) bzcs.f164949b).f169415f = bxvk.m124030de();
+                ((bzcu) bzcs.f164949b).f169415f = GeneratedMessageLite.m124030de();
                 int size3 = arrayList2.size();
                 int i6 = 0;
                 while (i6 < size3) {
@@ -1751,7 +1751,7 @@ public final class apaj extends aozz {
                     bzcs.mo74035c();
                     bzcs.f164950c = false;
                 }
-                ((bzcu) bzcs.f164949b).f169416g = bxvk.m124030de();
+                ((bzcu) bzcs.f164949b).f169416g = GeneratedMessageLite.m124030de();
                 int size5 = arrayList4.size();
                 int i12 = 0;
                 while (i12 < size5) {
@@ -1839,7 +1839,7 @@ public final class apaj extends aozz {
                     bzcs.mo74035c();
                     bzcs.f164950c = false;
                 }
-                ((bzcu) bzcs.f164949b).f169417h = bxvk.m124030de();
+                ((bzcu) bzcs.f164949b).f169417h = GeneratedMessageLite.m124030de();
                 int size7 = arrayList5.size();
                 for (int i18 = 0; i18 < size7; i18++) {
                     btfg btfg2 = (btfg) arrayList5.get(i18);
@@ -1877,7 +1877,7 @@ public final class apaj extends aozz {
                     bzcs.mo74035c();
                     bzcs.f164950c = false;
                 }
-                ((bzcu) bzcs.f164949b).f169420k = bxvk.m124030de();
+                ((bzcu) bzcs.f164949b).f169420k = GeneratedMessageLite.m124030de();
                 for (int i20 = 0; i20 < list5.size(); i20++) {
                     btfi btfi7 = (btfi) list5.get(i20);
                     bxvd da = bzdq.f169536s.mo74144da();
@@ -2079,7 +2079,7 @@ public final class apaj extends aozz {
                         }
                         bzdq bzdq14 = (bzdq) da.f164949b;
                         if (!bzdq14.f169548k.mo73666a()) {
-                            bzdq14.f169548k = bxvk.m124020a(bzdq14.f169548k);
+                            bzdq14.f169548k = GeneratedMessageLite.m124020a(bzdq14.f169548k);
                         }
                         bxsy.m123078a(bxvw, bzdq14.f169548k);
                     }
@@ -2111,7 +2111,7 @@ public final class apaj extends aozz {
             btfe[] btfeArr7 = btfeArr;
             bzdh a2 = apak.m69965a(this.f83966a);
             bxvd bxvd = (bxvd) a2.mo74142c(5);
-            bxvd.mo73625a((bxvk) a2);
+            bxvd.mo73625a((GeneratedMessageLite) a2);
             bzdb bzdb = (bzdb) bxvd;
             if (cgij.m145552j() && btfeArr7 != null) {
                 if (bzdb.f164950c) {
@@ -2119,7 +2119,7 @@ public final class apaj extends aozz {
                     bzdb.f164950c = false;
                 }
                 bzdh bzdh = bzdh.f169466A;
-                ((bzdh) bzdb.f164949b).f169485q = bxvk.m124030de();
+                ((bzdh) bzdb.f164949b).f169485q = GeneratedMessageLite.m124030de();
                 bzdb.mo74540a(Arrays.asList(m69952a(btfeArr7)));
             }
             long j9 = ((bzdh) bzdb.f164949b).f169477i;
@@ -2153,7 +2153,7 @@ public final class apaj extends aozz {
                     int i37 = i35 + 1;
                     bzcu bzcu9 = (bzcu) bxwc7.get(i36);
                     bxvd bxvd2 = (bxvd) bzcu9.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) bzcu9);
+                    bxvd2.mo73625a((GeneratedMessageLite) bzcu9);
                     bzcs bzcs2 = (bzcs) bxvd2;
                     if (bzcs2.f164950c) {
                         bzcs2.mo74035c();
@@ -2167,7 +2167,7 @@ public final class apaj extends aozz {
             }
             bzcx bzcx2 = (bzcx) bzcv.mo74062i();
             bxvd bxvd3 = (bxvd) bzcx2.mo74142c(5);
-            bxvd3.mo73625a((bxvk) bzcx2);
+            bxvd3.mo73625a((GeneratedMessageLite) bzcx2);
             return (bzcv) bxvd3;
         } else if (b.f83949a.isEmpty() && b.f83950b.isEmpty()) {
             return null;
@@ -2176,7 +2176,7 @@ public final class apaj extends aozz {
             new Object[1][0] = Integer.valueOf(b.f83950b.size());
             bzcx a3 = mo47057a(b.f83949a, b.f83950b, apal2, b.f83953e);
             bxvd bxvd4 = (bxvd) a3.mo74142c(5);
-            bxvd4.mo73625a((bxvk) a3);
+            bxvd4.mo73625a((GeneratedMessageLite) a3);
             return (bzcv) bxvd4;
         }
     }
@@ -2405,7 +2405,7 @@ public final class apaj extends aozz {
         r12.f164950c = false;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:168:0x03be, code lost:
-        ((p000.bzcu) r12.f164949b).f169413d = p000.bxvk.m124030de();
+        ((p000.bzcu) r12.f164949b).f169413d = p000.GeneratedMessageLite.m124030de();
         r12.mo74529a(r3);
         r3 = (java.util.Map) r8.get(r11);
         r13 = m69956b(p000.bngx.m109368a((java.util.Collection) r10.f84088c));
@@ -2418,7 +2418,7 @@ public final class apaj extends aozz {
         r12.f164950c = false;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:171:0x03e6, code lost:
-        ((p000.bzcu) r12.f164949b).f169415f = p000.bxvk.m124030de();
+        ((p000.bzcu) r12.f164949b).f169415f = p000.GeneratedMessageLite.m124030de();
         r13 = r13.iterator();
      */
     /* JADX WARNING: Code restructure failed: missing block: B:173:0x03f8, code lost:
@@ -2582,7 +2582,7 @@ public final class apaj extends aozz {
         r12.f164950c = false;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:217:0x050b, code lost:
-        ((p000.bzcu) r12.f164949b).f169416g = p000.bxvk.m124030de();
+        ((p000.bzcu) r12.f164949b).f169416g = p000.GeneratedMessageLite.m124030de();
         r4 = r4.iterator();
      */
     /* JADX WARNING: Code restructure failed: missing block: B:219:0x051d, code lost:
@@ -2703,7 +2703,7 @@ public final class apaj extends aozz {
         r12.f164950c = false;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:253:0x05f7, code lost:
-        ((p000.bzcu) r12.f164949b).f169417h = p000.bxvk.m124030de();
+        ((p000.bzcu) r12.f164949b).f169417h = p000.GeneratedMessageLite.m124030de();
         r3 = r3.iterator();
      */
     /* JADX WARNING: Code restructure failed: missing block: B:255:0x0609, code lost:
@@ -2789,7 +2789,7 @@ public final class apaj extends aozz {
         r12.f164950c = false;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:282:0x068e, code lost:
-        ((p000.bzcu) r12.f164949b).f169420k = p000.bxvk.m124030de();
+        ((p000.bzcu) r12.f164949b).f169420k = p000.GeneratedMessageLite.m124030de();
         r4 = 0;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:284:0x069d, code lost:
@@ -3221,7 +3221,7 @@ public final class apaj extends aozz {
         if (r15.f169555r.mo73666a() != false) goto L_0x09d3;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:427:0x09cb, code lost:
-        r15.f169555r = p000.bxvk.m124021a(r15.f169555r);
+        r15.f169555r = p000.GeneratedMessageLite.m124021a(r15.f169555r);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:428:0x09d3, code lost:
         r15.f169555r.add(r14);
@@ -3250,7 +3250,7 @@ public final class apaj extends aozz {
     /* JADX WARNING: Code restructure failed: missing block: B:432:0x0a0a, code lost:
         r0 = p000.apak.m69965a(r1.f83966a);
         r3 = (p000.bxvd) r0.mo74142c(5);
-        r3.mo73625a((p000.bxvk) r0);
+        r3.mo73625a((p000.GeneratedMessageLite) r0);
         r3 = (p000.bzdb) r3;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:433:0x0a20, code lost:
@@ -3268,7 +3268,7 @@ public final class apaj extends aozz {
      */
     /* JADX WARNING: Code restructure failed: missing block: B:438:0x0a30, code lost:
         r4 = p000.bzdh.f169466A;
-        ((p000.bzdh) r3.f164949b).f169485q = p000.bxvk.m124030de();
+        ((p000.bzdh) r3.f164949b).f169485q = p000.GeneratedMessageLite.m124030de();
         r3.mo74540a(java.util.Arrays.asList(m69952a(r29)));
      */
     /* JADX WARNING: Code restructure failed: missing block: B:439:0x0a47, code lost:
@@ -3305,7 +3305,7 @@ public final class apaj extends aozz {
         r5.f164950c = false;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:445:0x0a8c, code lost:
-        ((p000.bzcx) r5.f164949b).f169434d = p000.bxvk.m124029dd();
+        ((p000.bzcx) r5.f164949b).f169434d = p000.GeneratedMessageLite.m124029dd();
         r5.mo74536a(r27);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:446:0x0a9f, code lost:
@@ -3332,7 +3332,7 @@ public final class apaj extends aozz {
         r6 = r4 + 1;
         r7 = (p000.bzcu) r0.get(r12);
         r8 = (p000.bxvd) r7.mo74142c(5);
-        r8.mo73625a((p000.bxvk) r7);
+        r8.mo73625a((p000.GeneratedMessageLite) r7);
         r8 = (p000.bzcs) r8;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:453:0x0ad8, code lost:
@@ -3501,7 +3501,7 @@ public final class apaj extends aozz {
         Map a3 = m69947a(a);
         int i2 = apaa.f83970a;
         String[] strArr = cgij.m145551i() ? f84018m : f84017l;
-        HashMap a4 = bnmt.m109794a();
+        HashMap a4 = bnmt.getNewHashMap();
         Cursor cursor2 = null;
         try {
             Map map2 = null;
@@ -3583,7 +3583,7 @@ public final class apaj extends aozz {
         int i = 0;
         int i2 = 0;
         for (int i3 = 0; i3 < size; i3++) {
-            byte[] k = ((bzcu) bxwc.get(i3)).mo73642k();
+            byte[] k = ((bzcu) bxwc.get(i3)).serializeToBytes();
             if (this.f84021h) {
                 this.f84023j.mo47010a();
             }
@@ -3615,7 +3615,7 @@ public final class apaj extends aozz {
             bzcu.f169410a |= 1;
             bzcu.f169411b = longValue;
             bzcu.m125663b(bzcu);
-            byte[] k2 = ((bzcu) bzcs.mo74062i()).mo73642k();
+            byte[] k2 = ((bzcu) bzcs.mo74062i()).serializeToBytes();
             if (this.f84021h) {
                 this.f84023j.mo47010a();
             }
@@ -3656,7 +3656,7 @@ public final class apaj extends aozz {
         if (bzdh == null) {
             bzdh = bzdh.f169466A;
         }
-        byte[] k3 = bzdh.mo73642k();
+        byte[] k3 = bzdh.serializeToBytes();
         if (cgij.m145549g()) {
             this.f84023j.mo47010a();
         }

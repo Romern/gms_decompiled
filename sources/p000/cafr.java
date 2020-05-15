@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cafr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cafr extends bxvk implements bxxd {
+public final class cafr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cafr f172953d;
@@ -22,7 +22,7 @@ public final class cafr extends bxvk implements bxxd {
     static {
         cafr cafr = new cafr();
         f172953d = cafr;
-        bxvk.m124024a(cafr.class, cafr);
+        GeneratedMessageLite.m124024a(cafr.class, cafr);
     }
 
     private cafr() {
@@ -39,7 +39,7 @@ public final class cafr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172953d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f172953d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cafr();
         } else {

@@ -55,7 +55,7 @@ public final class dof extends dwm implements dog {
         tjq a = dwq.m9673q().mo10053a((doh) null, 3);
         if (a != null) {
             try {
-                tng = (tng) bxvk.m124016a(tng.f46282b, a.mo26593c(), bxus.m123744c());
+                tng = (tng) GeneratedMessageLite.m124016a(tng.f46282b, a.mo26593c(), bxus.m123744c());
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) dss.f13961a.mo68387b();
                 bnsl.mo68437a(e);
@@ -95,7 +95,7 @@ public final class dof extends dwm implements dog {
             tng tng = (tng) da.f164949b;
             tnf2.getClass();
             if (!tng.f46284a.mo73666a()) {
-                tng.f46284a = bxvk.m124021a(tng.f46284a);
+                tng.f46284a = GeneratedMessageLite.m124021a(tng.f46284a);
             }
             tng.f46284a.add(tnf2);
         }
@@ -110,7 +110,7 @@ public final class dof extends dwm implements dog {
             tjq a = dwq.m9673q().mo10053a((doh) null, 3);
             if (a != null) {
                 try {
-                    tng = (tng) bxvk.m124016a(tng.f46282b, a.mo26593c(), bxus.m123744c());
+                    tng = (tng) GeneratedMessageLite.m124016a(tng.f46282b, a.mo26593c(), bxus.m123744c());
                 } catch (bxwf e) {
                     bnsl bnsl = (bnsl) dss.f13961a.mo68387b();
                     bnsl.mo68437a(e);

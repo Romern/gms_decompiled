@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caal */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caal extends bxvk implements bxxd {
+public final class caal extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final caal f172339e;
@@ -25,7 +25,7 @@ public final class caal extends bxvk implements bxxd {
     static {
         caal caal = new caal();
         f172339e = caal;
-        bxvk.m124024a(caal.class, caal);
+        GeneratedMessageLite.m124024a(caal.class, caal);
     }
 
     private caal() {
@@ -47,7 +47,7 @@ public final class caal extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172339e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဌ\u0001\u0004ဇ\u0002", new Object[]{"a", "b", "c", caaj.f172338a, "d"});
+            return GeneratedMessageLite.m124022a(f172339e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဌ\u0001\u0004ဇ\u0002", new Object[]{"a", "b", "c", caaj.f172338a, "d"});
         } else if (i2 == 3) {
             return new caal();
         } else {

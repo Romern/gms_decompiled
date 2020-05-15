@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpyf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpyf extends bxvk implements bxxd {
+public final class bpyf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bpyf f139835a;
@@ -13,7 +13,7 @@ public final class bpyf extends bxvk implements bxxd {
     static {
         bpyf bpyf = new bpyf();
         f139835a = bpyf;
-        bxvk.m124024a(bpyf.class, bpyf);
+        GeneratedMessageLite.m124024a(bpyf.class, bpyf);
     }
 
     private bpyf() {
@@ -30,7 +30,7 @@ public final class bpyf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139835a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f139835a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bpyf();

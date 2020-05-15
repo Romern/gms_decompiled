@@ -31,7 +31,7 @@ public class DocumentUploadNetworkResponseEvent extends WalletAnalyticsEvent imp
             bxvd.f164950c = false;
         }
         bpht bpht = bpht.f137702h;
-        ((bpht) bxvd.f164949b).f137709f = bxvk.m124029dd();
+        ((bpht) bxvd.f164949b).f137709f = GeneratedMessageLite.m124029dd();
         long j = this.f109938a;
         long[] copyOf = b != null ? Arrays.copyOf(b, b.length + 1) : new long[1];
         copyOf[copyOf.length - 1] = j;
@@ -42,7 +42,7 @@ public class DocumentUploadNetworkResponseEvent extends WalletAnalyticsEvent imp
         }
         bpht bpht2 = (bpht) bxvd.f164949b;
         if (!bpht2.f137709f.mo73666a()) {
-            bpht2.f137709f = bxvk.m124020a(bpht2.f137709f);
+            bpht2.f137709f = GeneratedMessageLite.m124020a(bpht2.f137709f);
         }
         bxsy.m123078a(a, bpht2.f137709f);
         int i = this.f109939b;

@@ -141,7 +141,7 @@ public final class bjst {
         }
         bwfr bwfr3 = (bwfr) da.f164949b;
         if (!bwfr3.f159120f.mo73666a()) {
-            bwfr3.f159120f = bxvk.m124020a(bwfr3.f159120f);
+            bwfr3.f159120f = GeneratedMessageLite.m124020a(bwfr3.f159120f);
         }
         bxsy.m123078a(b2, bwfr3.f159120f);
         int i = logContext.f151797e;
@@ -845,7 +845,7 @@ public final class bjst {
                     int i7 = i6 | 2;
                     bwfo2.f159092a = i7;
                     bwfo2.f159094c = j;
-                    bxtx bxtx = bmaq.f128484d;
+                    ByteString bxtx = bmaq.f128484d;
                     bxtx.getClass();
                     bwfo2.f159092a = i7 | 4;
                     bwfo2.f159095d = bxtx;
@@ -857,7 +857,7 @@ public final class bjst {
                         }
                         bwfo bwfo3 = (bwfo) da.f164949b;
                         if (!bwfo3.f159096e.mo73666a()) {
-                            bwfo3.f159096e = bxvk.m124019a(bwfo3.f159096e);
+                            bwfo3.f159096e = GeneratedMessageLite.m124019a(bwfo3.f159096e);
                         }
                         bwfo3.f159096e.mo74153d(i8);
                     }
@@ -872,7 +872,7 @@ public final class bjst {
                         }
                         bwfo bwfo4 = (bwfo) da.f164949b;
                         if (!bwfo4.f159097f.mo73666a()) {
-                            bwfo4.f159097f = bxvk.m124019a(bwfo4.f159097f);
+                            bwfo4.f159097f = GeneratedMessageLite.m124019a(bwfo4.f159097f);
                         }
                         bwfo4.f159097f.mo74153d(intValue);
                     }
@@ -1230,7 +1230,7 @@ public final class bjst {
                         bxbd.f161780a = i4 | 8;
                         bxbd.f161784e = -1;
                         if (bArr != null) {
-                            bxtx a7 = bxtx.m123261a(bArr);
+                            ByteString a7 = ByteString.m123261a(bArr);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;

@@ -12,16 +12,16 @@ import java.util.Set;
 public final class bamx implements bamr {
 
     /* renamed from: d */
-    private static final bxtx f101311d = bxtx.m123261a(new byte[]{47});
+    private static final ByteString f101311d = ByteString.m123261a(new byte[]{47});
 
     /* renamed from: e */
-    private static final bxtx f101312e = bxtx.m123261a(new byte[]{48});
+    private static final ByteString f101312e = ByteString.m123261a(new byte[]{48});
 
     /* renamed from: f */
-    private static final bxtx f101313f = bxtx.m123261a(new byte[]{58});
+    private static final ByteString f101313f = ByteString.m123261a(new byte[]{58});
 
     /* renamed from: g */
-    private static final bxtx f101314g = bxtx.m123261a(new byte[]{59});
+    private static final ByteString f101314g = ByteString.m123261a(new byte[]{59});
 
     /* renamed from: h */
     private static final banl f101315h;
@@ -30,7 +30,7 @@ public final class bamx implements bamr {
     public final Map f101316a = new HashMap();
 
     /* renamed from: b */
-    public final bxtx f101317b;
+    public final ByteString f101317b;
 
     /* renamed from: c */
     public volatile boolean f101318c;
@@ -68,11 +68,11 @@ public final class bamx implements bamr {
         f101315h = a.mo55803a();
     }
 
-    public bamx(bamx bamx, cayo cayo, bams bams, bxtx bxtx, bxtx bxtx2, bane bane, babr babr, cayo cayo2, bamj bamj) {
+    public bamx(bamx bamx, cayo cayo, bams bams, ByteString bxtx, ByteString bxtx2, bane bane, babr babr, cayo cayo2, bamj bamj) {
         this.f101319i = cayo;
         this.f101320j = bams;
         this.f101322l = bamx;
-        bxtx a = bxtx.mo73770a(f101315h.mo55805a(bxtx2)).mo73770a(f101311d);
+        ByteString a = bxtx.mo73770a(f101315h.mo55805a(bxtx2)).mo73770a(f101311d);
         this.f101317b = a;
         this.f101321k = bane;
         this.f101324n = babr;
@@ -88,7 +88,7 @@ public final class bamx implements bamr {
     }
 
     /* renamed from: a */
-    static bxtx m87175a(bxtx bxtx) {
+    static ByteString m87175a(ByteString bxtx) {
         boolean z;
         if (bxtx.mo73743a(bxtx.mo73744a() - 1) == 58) {
             z = true;
@@ -112,7 +112,7 @@ public final class bamx implements bamr {
 
     /* renamed from: b */
     public final bamr mo55781b(String str) {
-        return new bamx(this, this.f101319i, this.f101320j, this.f101317b, bxtx.m123258a(str), new bane(this.f101319i, this.f101320j, this.f101324n, this.f101325o, this.f101326p), this.f101324n, this.f101325o, this.f101326p);
+        return new bamx(this, this.f101319i, this.f101320j, this.f101317b, ByteString.m123258a(str), new bane(this.f101319i, this.f101320j, this.f101324n, this.f101325o, this.f101326p), this.f101324n, this.f101325o, this.f101326p);
     }
 
     public final void close() {
@@ -122,7 +122,7 @@ public final class bamx implements bamr {
             m87177c();
             bamx bamx = this.f101322l;
             if (bamx != null) {
-                bxtx bxtx = this.f101317b;
+                ByteString bxtx = this.f101317b;
                 synchronized (bamx.f101317b) {
                     bamx.f101323m.remove(bxtx);
                 }
@@ -150,7 +150,7 @@ public final class bamx implements bamr {
             Iterator it = set.iterator();
             int i = 0;
             while (it.hasNext()) {
-                bxtx bxtx = (bxtx) it.next();
+                ByteString bxtx = (ByteString) it.next();
                 if (i != 0) {
                     if (i >= 10) {
                         break;
@@ -165,7 +165,7 @@ public final class bamx implements bamr {
             if (i != set.size()) {
                 sb.append("...");
             }
-            ((achw) cayo.mo16713a()).mo25409a(sb.toString(), new Object[0]);
+            ((achw) cayo.mo16713a()).logVerbose(sb.toString(), new Object[0]);
         }
     }
 
@@ -177,7 +177,7 @@ public final class bamx implements bamr {
 
     /* renamed from: a */
     public final bamq mo55779a(String str) {
-        return new bamw(this.f101317b.mo73770a(f101315h.mo55805a(bxtx.m123258a(str))).mo73770a(f101313f), this, this.f101320j, this.f101324n, this.f101326p);
+        return new bamw(this.f101317b.mo73770a(f101315h.mo55805a(ByteString.m123258a(str))).mo73770a(f101313f), this, this.f101320j, this.f101324n, this.f101326p);
     }
 
     /* renamed from: a */
@@ -188,13 +188,13 @@ public final class bamx implements bamr {
             m87177c();
             try {
                 LevelDb e = this.f101320j.mo55788e();
-                byte[] k = this.f101317b.mo73780k();
-                bxtx bxtx = this.f101317b;
+                byte[] k = this.f101317b.getKey();
+                ByteString bxtx = this.f101317b;
                 if (bxtx.mo73743a(bxtx.mo73744a() - 1) != 47) {
                     z = false;
                 }
                 bmxy.m108588a(z);
-                e.deleteRange(k, bxtx.mo73754a(0, bxtx.mo73744a() - 1).mo73770a(f101312e).mo73780k());
+                e.deleteRange(k, bxtx.mo73754a(0, bxtx.mo73744a() - 1).mo73770a(f101312e).getKey());
             } catch (LevelDbException e2) {
                 if (!this.f101324n.mo32684f()) {
                     this.f101320j.mo55784a((Exception) e2);

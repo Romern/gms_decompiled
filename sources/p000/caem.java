@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caem */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caem extends bxvk implements bxxd {
+public final class caem extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final caem f172833c;
@@ -22,7 +22,7 @@ public final class caem extends bxvk implements bxxd {
     static {
         caem caem = new caem();
         f172833c = caem;
-        bxvk.m124024a(caem.class, caem);
+        GeneratedMessageLite.m124024a(caem.class, caem);
     }
 
     private caem() {
@@ -39,7 +39,7 @@ public final class caem extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172833c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f172833c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new caem();
         } else {

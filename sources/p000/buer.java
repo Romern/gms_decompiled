@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buer */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buer extends bxvk implements bxxd {
+public final class buer extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buer f153626d;
@@ -22,7 +22,7 @@ public final class buer extends bxvk implements bxxd {
     static {
         buer buer = new buer();
         f153626d = buer;
-        bxvk.m124024a(buer.class, buer);
+        GeneratedMessageLite.m124024a(buer.class, buer);
     }
 
     private buer() {
@@ -39,7 +39,7 @@ public final class buer extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153626d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", bueq.f153625a, "c"});
+            return GeneratedMessageLite.m124022a(f153626d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002င\u0001", new Object[]{"a", "b", bueq.f153625a, "c"});
         } else if (i2 == 3) {
             return new buer();
         } else {

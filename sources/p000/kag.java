@@ -11,7 +11,7 @@ import com.felicanetworks.mfc.C0126R;
 public final class kag {
 
     /* renamed from: a */
-    private static final sek f23655a = ght.m13171a("NotificationChannelUtil");
+    private static final Logger f23655a = ght.m13171a("NotificationChannelUtil");
 
     /* JADX WARNING: Removed duplicated region for block: B:14:0x002e  */
     /* JADX WARNING: Removed duplicated region for block: B:23:0x0052  */
@@ -30,9 +30,9 @@ public final class kag {
                         sex.mo25442a(notificationChannel);
                         return;
                     } else if (c != 1) {
-                        sek sek = f23655a;
+                        Logger Logger = f23655a;
                         String valueOf = String.valueOf(str);
-                        sek.mo25412b(valueOf.length() == 0 ? new String("Attempt to initialize unknown notification channel ") : "Attempt to initialize unknown notification channel ".concat(valueOf), new Object[0]);
+                        Logger.mo25412b(valueOf.length() == 0 ? new String("Attempt to initialize unknown notification channel ") : "Attempt to initialize unknown notification channel ".concat(valueOf), new Object[0]);
                         return;
                     } else {
                         sex.mo25447b(str);

@@ -320,7 +320,7 @@ public final class agpk {
         if (b.mo35897c() != null) {
             bxzx c = b.mo35897c();
             bxvd = (bxvd) c.mo74142c(5);
-            bxvd.mo73625a((bxvk) c);
+            bxvd.mo73625a((GeneratedMessageLite) c);
         } else {
             bxvd = bxzx.f165197j.mo74144da();
         }
@@ -358,7 +358,7 @@ public final class agpk {
         if (a.mo35892f() != null) {
             bxzw f = a.mo35892f();
             bxvd = (bxvd) f.mo74142c(5);
-            bxvd.mo73625a((bxvk) f);
+            bxvd.mo73625a((GeneratedMessageLite) f);
         } else {
             bxvd = bxzw.f165192d.mo74144da();
         }
@@ -386,11 +386,11 @@ public final class agpk {
         if (a2.mo35892f() != null) {
             bxzw f = a2.mo35892f();
             bxvd = (bxvd) f.mo74142c(5);
-            bxvd.mo73625a((bxvk) f);
+            bxvd.mo73625a((GeneratedMessageLite) f);
         } else {
             bxvd = bxzw.f165192d.mo74144da();
         }
-        bxtx a3 = bxtx.m123261a(sef.m35074a(consentAgreementText));
+        ByteString a3 = ByteString.m123261a(sef.m35074a(consentAgreementText));
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -462,7 +462,7 @@ public final class agpk {
         agpv agpv = new agpv();
         agpv.mo35908b(str);
         if (btas != null) {
-            bArr = btas.mo73642k();
+            bArr = btas.serializeToBytes();
         } else {
             bArr = null;
         }
@@ -501,7 +501,7 @@ public final class agpk {
         } else {
             bxzz h = a.mo35917h();
             bxvd = (bxvd) h.mo74142c(5);
-            bxvd.mo73625a((bxvk) h);
+            bxvd.mo73625a((GeneratedMessageLite) h);
         }
         if (str2 == null || str2.length() != 3 || str3 == null) {
             return false;

@@ -37,7 +37,7 @@ public final class dwz implements Runnable {
         bxds.f163060a = i | 2;
         bxds.f163062c = 3000;
         if (!bxds.f163064f.mo73666a()) {
-            bxds.f163064f = bxvk.m124019a(bxds.f163064f);
+            bxds.f163064f = GeneratedMessageLite.m124019a(bxds.f163064f);
         }
         for (bxma bxma : emptyList) {
             bxds.f163064f.mo74153d(bxma.f163918d);
@@ -52,7 +52,7 @@ public final class dwz implements Runnable {
             bxds bxds2 = (bxds) da.f164949b;
             a.getClass();
             if (!bxds2.f163063d.mo73666a()) {
-                bxds2.f163063d = bxvk.m124019a(bxds2.f163063d);
+                bxds2.f163063d = GeneratedMessageLite.m124019a(bxds2.f163063d);
             }
             bxds2.f163063d.mo74153d(a.f163912e);
         }

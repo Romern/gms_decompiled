@@ -7,7 +7,7 @@ import java.io.ByteArrayOutputStream;
 public final class xjj {
 
     /* renamed from: h */
-    private static final sek f52416h = new sek(new String[]{"CtapBleFrameAssembler"}, (short[]) null);
+    private static final Logger f52416h = new Logger(new String[]{"CtapBleFrameAssembler"}, (short[]) null);
 
     /* renamed from: a */
     public byte f52417a = 0;

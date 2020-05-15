@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cajy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cajy extends bxvk implements bxxd {
+public final class cajy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cajy f174896b;
@@ -16,7 +16,7 @@ public final class cajy extends bxvk implements bxxd {
     static {
         cajy cajy = new cajy();
         f174896b = cajy;
-        bxvk.m124024a(cajy.class, cajy);
+        GeneratedMessageLite.m124024a(cajy.class, cajy);
     }
 
     private cajy() {
@@ -33,7 +33,7 @@ public final class cajy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174896b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cakn.class});
+            return GeneratedMessageLite.m124022a(f174896b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cakn.class});
         } else if (i2 == 3) {
             return new cajy();
         } else {

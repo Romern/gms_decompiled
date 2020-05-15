@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amol */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amol extends bxvk implements bxxd {
+public final class amol extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final amol f75626b;
@@ -16,7 +16,7 @@ public final class amol extends bxvk implements bxxd {
     static {
         amol amol = new amol();
         f75626b = amol;
-        bxvk.m124024a(amol.class, amol);
+        GeneratedMessageLite.m124024a(amol.class, amol);
     }
 
     private amol() {
@@ -33,7 +33,7 @@ public final class amol extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75626b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001a", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f75626b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001a", new Object[]{"a"});
         } else if (i2 == 3) {
             return new amol();
         } else {

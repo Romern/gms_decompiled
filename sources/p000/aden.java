@@ -31,10 +31,10 @@ public final class aden implements adeo {
         btib.f148939b = "https://storage.googleapis.com/aia-test-images/ic_launcher.png";
         "12345678".getClass();
         if (!btib.f148945h.mo73666a()) {
-            btib.f148945h = bxvk.m124021a(btib.f148945h);
+            btib.f148945h = GeneratedMessageLite.m124021a(btib.f148945h);
         }
         btib.f148945h.add("12345678");
-        bxtx a = bxtx.m123261a(new byte[]{104, 100});
+        ByteString a = ByteString.m123261a(new byte[]{104, 100});
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -73,7 +73,7 @@ public final class aden implements adeo {
         camg camg = (camg) da2.mo74062i();
         camg.getClass();
         if (!btib2.f148947j.mo73666a()) {
-            btib2.f148947j = bxvk.m124021a(btib2.f148947j);
+            btib2.f148947j = GeneratedMessageLite.m124021a(btib2.f148947j);
         }
         btib2.f148947j.add(camg);
         bxvd da4 = btir.f149020h.mo74144da();
@@ -85,7 +85,7 @@ public final class aden implements adeo {
         "https://hello.samples.androidinstantapps.com/download-split".getClass();
         btir.f149023b = "https://hello.samples.androidinstantapps.com/download-split";
         btir.f149024c = 1245678;
-        bxtx a2 = bxtx.m123261a(new byte[]{1, 2, 3, 4});
+        ByteString a2 = ByteString.m123261a(new byte[]{1, 2, 3, 4});
         if (da4.f164950c) {
             da4.mo74035c();
             da4.f164950c = false;
@@ -100,7 +100,7 @@ public final class aden implements adeo {
         btir btir2 = (btir) da4.mo74062i();
         btir2.getClass();
         if (!btib3.f148940c.mo73666a()) {
-            btib3.f148940c = bxvk.m124021a(btib3.f148940c);
+            btib3.f148940c = GeneratedMessageLite.m124021a(btib3.f148940c);
         }
         btib3.f148940c.add(btir2);
         if (da.f164950c) {
@@ -114,7 +114,7 @@ public final class aden implements adeo {
     /* renamed from: a */
     public final bqgg mo33393a(byte[] bArr, Account account, camh camh, Collection collection) {
         bthx bthx = (bthx) bthy.f148917e.mo74144da();
-        bxtx a = bxtx.m123258a("com.androidinstantapps.samples.hello");
+        ByteString a = ByteString.m123258a("com.androidinstantapps.samples.hello");
         if (bthx.f164950c) {
             bthx.mo74035c();
             bthx.f164950c = false;
@@ -122,7 +122,7 @@ public final class aden implements adeo {
         a.getClass();
         ((bthy) bthx.f164949b).f148919a = a;
         bxvd da = bthz.f148923e.mo74144da();
-        bxtx a2 = bxtx.m123258a("/hello");
+        ByteString a2 = ByteString.m123258a("/hello");
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -133,7 +133,7 @@ public final class aden implements adeo {
         bthz.f148926b = a2;
         bthx.mo70818a(da);
         bxvd da2 = bthz.f148923e.mo74144da();
-        bxtx a3 = bxtx.m123258a("/feature");
+        ByteString a3 = ByteString.m123258a("/feature");
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -175,7 +175,7 @@ public final class aden implements adeo {
         btih btih = (btih) da5.f164949b;
         bthy.getClass();
         if (!btih.f148967b.mo73666a()) {
-            btih.f148967b = bxvk.m124021a(btih.f148967b);
+            btih.f148967b = GeneratedMessageLite.m124021a(btih.f148967b);
         }
         btih.f148967b.add(bthy);
         return bqga.m112775a((btih) da5.mo74062i());

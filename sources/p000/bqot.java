@@ -10,7 +10,7 @@ final class bqot extends bqnq {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo69296a(Object obj) {
         bqqx bqqx = (bqqx) obj;
-        byte[] k = bqqx.f141402c.mo73780k();
+        byte[] k = bqqx.f141402c.getKey();
         bqqz bqqz = bqqx.f141401b;
         if (bqqz == null) {
             bqqz = bqqz.f141407b;

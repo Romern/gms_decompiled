@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bupq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bupq extends bxvk implements bxxd {
+public final class bupq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bupq f154667b;
@@ -16,7 +16,7 @@ public final class bupq extends bxvk implements bxxd {
     static {
         bupq bupq = new bupq();
         f154667b = bupq;
-        bxvk.m124024a(bupq.class, bupq);
+        GeneratedMessageLite.m124024a(bupq.class, bupq);
     }
 
     private bupq() {
@@ -34,7 +34,7 @@ public final class bupq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154667b, "\u0000\u0001\u0000\u0000\u0003\u0003\u0001\u0000\u0001\u0000\u0003\u001b", new Object[]{"a", bupo.class});
+            return GeneratedMessageLite.m124022a(f154667b, "\u0000\u0001\u0000\u0000\u0003\u0003\u0001\u0000\u0001\u0000\u0003\u001b", new Object[]{"a", bupo.class});
         } else if (i2 == 3) {
             return new bupq();
         } else {

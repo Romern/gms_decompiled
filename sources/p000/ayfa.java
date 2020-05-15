@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayfa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayfa extends bxvk implements bxxd {
+public final class ayfa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final ayfa f97427k;
@@ -29,7 +29,7 @@ public final class ayfa extends bxvk implements bxxd {
     public String f97434f = "";
 
     /* renamed from: g */
-    public bxtx f97435g = bxtx.f164797b;
+    public ByteString f97435g = ByteString.f164797b;
 
     /* renamed from: h */
     public String f97436h = "";
@@ -49,7 +49,7 @@ public final class ayfa extends bxvk implements bxxd {
     static {
         ayfa ayfa = new ayfa();
         f97427k = ayfa;
-        bxvk.m124024a(ayfa.class, ayfa);
+        GeneratedMessageLite.m124024a(ayfa.class, ayfa);
     }
 
     private ayfa() {
@@ -76,7 +76,7 @@ public final class ayfa extends bxvk implements bxxd {
             this.f97440m = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f97427k, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0000\u0006\u0001ᔄ\u0000\u0002ᔈ\u0001\u0003ᔈ\u0002\u0004ᔈ\u0003\u0005ᔄ\u0004\u0006ᔈ\u0005\u0007ည\u0006\bဈ\u0007\tဉ\b\nင\t", new Object[]{"a", "b", "c", "d", "e", "l", "f", "g", "h", "i", "j"});
+            return GeneratedMessageLite.m124022a(f97427k, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0000\u0006\u0001ᔄ\u0000\u0002ᔈ\u0001\u0003ᔈ\u0002\u0004ᔈ\u0003\u0005ᔄ\u0004\u0006ᔈ\u0005\u0007ည\u0006\bဈ\u0007\tဉ\b\nင\t", new Object[]{"a", "b", "c", "d", "e", "l", "f", "g", "h", "i", "j"});
         } else if (i2 == 3) {
             return new ayfa();
         } else {

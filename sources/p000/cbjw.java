@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbjw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbjw extends bxvk implements bxxd {
+public final class cbjw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbjw f177373a;
@@ -13,7 +13,7 @@ public final class cbjw extends bxvk implements bxxd {
     static {
         cbjw cbjw = new cbjw();
         f177373a = cbjw;
-        bxvk.m124024a(cbjw.class, cbjw);
+        GeneratedMessageLite.m124024a(cbjw.class, cbjw);
     }
 
     private cbjw() {
@@ -30,7 +30,7 @@ public final class cbjw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177373a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f177373a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbjw();

@@ -25,7 +25,7 @@ final /* synthetic */ class rco implements bmxj {
         cafw cafw = (cafw) obj;
         int i = rde.f42700a;
         bxvd bxvd2 = (bxvd) cafw.mo74142c(5);
-        bxvd2.mo73625a((bxvk) cafw);
+        bxvd2.mo73625a((GeneratedMessageLite) cafw);
         int i2 = 0;
         while (i2 < ((cafw) bxvd2.f164949b).f173025a.size()) {
             cafv cafv = (cafv) ((cafw) bxvd2.f164949b).f173025a.get(i2);

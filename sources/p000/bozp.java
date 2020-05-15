@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bozp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bozp extends bxvk implements bxxd {
+public final class bozp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final bozp f135396h;
@@ -34,7 +34,7 @@ public final class bozp extends bxvk implements bxxd {
     static {
         bozp bozp = new bozp();
         f135396h = bozp;
-        bxvk.m124024a(bozp.class, bozp);
+        GeneratedMessageLite.m124024a(bozp.class, bozp);
     }
 
     private bozp() {
@@ -51,7 +51,7 @@ public final class bozp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135396h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0004ဇ\u0003\u0005ဌ\u0004\u0006ဇ\u0005", new Object[]{"a", "b", "c", bozo.f135395a, "d", bozm.f135393a, "e", "f", bozn.f135394a, "g"});
+            return GeneratedMessageLite.m124022a(f135396h, "\u0001\u0006\u0000\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0004ဇ\u0003\u0005ဌ\u0004\u0006ဇ\u0005", new Object[]{"a", "b", "c", bozo.f135395a, "d", bozm.f135393a, "e", "f", bozn.f135394a, "g"});
         } else if (i2 == 3) {
             return new bozp();
         } else {

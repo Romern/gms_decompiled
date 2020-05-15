@@ -13,8 +13,8 @@ public final class bysw {
     public static bytc m125309a(byti byti) {
         int i = 1;
         if ((byti.f167673a & 1) != 0) {
-            if ((((bytd) bxvk.m124007a(bytd.f167658d, byti.f167674b)).f167660a & 1) != 0) {
-                bytc bytc = ((bytd) bxvk.m124007a(bytd.f167658d, byti.f167674b)).f167661b;
+            if ((((bytd) GeneratedMessageLite.m124007a(bytd.f167658d, byti.f167674b)).f167660a & 1) != 0) {
+                bytc bytc = ((bytd) GeneratedMessageLite.m124007a(bytd.f167658d, byti.f167674b)).f167661b;
                 if (bytc == null) {
                     bytc = bytc.f167647i;
                 }
@@ -102,15 +102,15 @@ public final class bysw {
         if ((i2 & 1) == 0 || (i2 & 2) == 0) {
             throw new SignatureException("Signature failed verification");
         }
-        byte[] k = byti.f167675c.mo73780k();
-        byte[] k2 = byti.f167674b.mo73780k();
+        byte[] k = byti.f167675c.getKey();
+        byte[] k2 = byti.f167674b.getKey();
         if (!z) {
             k2 = byst.m125288b(k2, bArr);
         }
         boolean a = byst.m125276a(key, byss, k, k2);
         boolean z6 = false;
         try {
-            bytd = (bytd) bxvk.m124007a(bytd.f167658d, byti.f167674b);
+            bytd = (bytd) GeneratedMessageLite.m124007a(bytd.f167658d, byti.f167674b);
             try {
                 int i3 = bytd.f167660a;
                 if ((i3 & 1) == 0 || (i3 & 2) == 0) {
@@ -226,10 +226,10 @@ public final class bysw {
             }
             if ((bytc.f167649a & 16) != 0) {
                 try {
-                    byte[] a3 = byst.m125282a(key2, bysr, bytc.f167654f.mo73780k(), a2.f167662c.mo73780k());
+                    byte[] a3 = byst.m125282a(key2, bysr, bytc.f167654f.getKey(), a2.f167662c.getKey());
                     if (!a) {
                         bxvd a4 = bytd.f167658d.mo74141a(a2);
-                        bxtx a5 = bxtx.m123261a(a3);
+                        ByteString a5 = ByteString.m123261a(a3);
                         if (a4.f164950c) {
                             a4.mo74035c();
                             a4.f164950c = false;
@@ -241,13 +241,13 @@ public final class bysw {
                         return (bytd) a4.mo74062i();
                     }
                     try {
-                        byte[] a6 = byst.m125285a(byst.m125288b(((bytf) bxvk.m124007a(bytf.f167664d, byti.f167674b)).f167667b.mo73780k(), bArr));
+                        byte[] a6 = byst.m125285a(byst.m125288b(((bytf) GeneratedMessageLite.m124007a(bytf.f167664d, byti.f167674b)).f167667b.getKey(), bArr));
                         int length = a3.length;
                         if (length < 20 || !byst.m125277a(byst.m125286a(a3, 20), a6)) {
                             throw new SignatureException();
                         }
                         bxvd a7 = bytd.f167658d.mo74141a(a2);
-                        bxtx a8 = bxtx.m123262a(a3, 20, length - 20);
+                        ByteString a8 = ByteString.m123262a(a3, 20, length - 20);
                         if (a7.f164950c) {
                             a7.mo74035c();
                             a7.f164950c = false;

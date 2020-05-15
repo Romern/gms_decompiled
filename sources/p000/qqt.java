@@ -11,7 +11,7 @@ import java.util.Locale;
 public final class qqt {
 
     /* renamed from: a */
-    private static final sek f41963a = new sek("ChromeSync", "Common", "PasswordDomains");
+    private static final Logger f41963a = new Logger("ChromeSync", "Common", "PasswordDomains");
 
     /* renamed from: a */
     public static bmxv m32666a(Context context, String str) {

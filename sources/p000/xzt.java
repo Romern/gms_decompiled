@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public final class xzt implements xhq, xzu {
 
     /* renamed from: o */
-    private static final sek f53476o = new sek(new String[]{"UsbRequestController"}, (short[]) null);
+    private static final Logger f53476o = new Logger(new String[]{"UsbRequestController"}, (short[]) null);
 
     /* renamed from: a */
     public final xzq f53477a;

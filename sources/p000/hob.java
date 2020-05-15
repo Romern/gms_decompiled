@@ -12,7 +12,7 @@ final /* synthetic */ class hob implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = hoh.f20114a;
+        Logger Logger = hoh.f20114a;
         bngs j = bngx.m109377j();
         bngz a = bnnm.m109864a((bngx) obj, hoc.f20109a);
         bnrd a2 = a.mo67316o().iterator();

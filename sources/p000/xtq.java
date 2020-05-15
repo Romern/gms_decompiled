@@ -12,7 +12,7 @@ import java.util.Set;
 public final class xtq implements xto {
 
     /* renamed from: b */
-    public static final sek f53081b = new sek(new String[]{"CredentialListCableEidResolver"}, (short[]) null);
+    public static final Logger f53081b = new Logger(new String[]{"CredentialListCableEidResolver"}, (short[]) null);
 
     /* renamed from: a */
     public final Set f53082a;

@@ -173,8 +173,8 @@ public final class geq implements geb, gdc {
                     geo geo3 = geo;
                     int i4 = geo3.f18063e;
                     gdd gdd = this.f18065a;
-                    byte[] k = bzwr.f171668b.mo73780k();
-                    byte[] k2 = bzwr.f171669c.mo73780k();
+                    byte[] k = bzwr.f171668b.getKey();
+                    byte[] k2 = bzwr.f171669c.getKey();
                     int i5 = (int) bzwr.f171670d;
                     int i6 = geo3.f18061c;
                     int i7 = -1;

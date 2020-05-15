@@ -29,7 +29,7 @@ public final class avja {
         if (contextData == null) {
             return null;
         }
-        return (bxlw) bxvk.m124016a(bxlw.f163903b, contextData.mo18023k(), bxus.m123744c());
+        return (bxlw) GeneratedMessageLite.m124016a(bxlw.f163903b, contextData.mo18023k(), bxus.m123744c());
     }
 
     /* renamed from: a */

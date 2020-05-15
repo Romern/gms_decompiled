@@ -204,7 +204,7 @@ public final class aetk {
     /* renamed from: a */
     public final void mo34552a(caix caix) {
         if (f63775c && caix != null) {
-            qwo a = this.f63777d.mo24335a(caix.mo73642k());
+            qwo a = this.f63777d.mo24335a(caix.serializeToBytes());
             int a2 = caiw.m126680a(caix.f174779b);
             if (a2 == 0) {
                 a2 = 1;

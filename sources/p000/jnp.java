@@ -11,7 +11,7 @@ import java.util.Map;
 public final class jnp extends jsl implements jkg, jnh {
 
     /* renamed from: a */
-    private static final sek f22894a = jsy.m17256a("RoleDependencyManager");
+    private static final Logger f22894a = jsy.m17256a("RoleDependencyManager");
 
     /* renamed from: b */
     private static jnp f22895b;
@@ -144,12 +144,12 @@ public final class jnp extends jsl implements jkg, jnh {
                 jno.f22893c = true;
             } else if (i3 == 0) {
                 jno.f22892b--;
-                sek sek = f22894a;
+                Logger Logger = f22894a;
                 int i4 = jno.f22892b;
                 StringBuilder sb = new StringBuilder(42);
                 sb.append("Connection attempts remaining: ");
                 sb.append(i4);
-                sek.mo25412b(sb.toString(), new Object[0]);
+                Logger.mo25412b(sb.toString(), new Object[0]);
                 if (jno.f22893c || jno.f22892b == 0) {
                     f22894a.mo25412b("Unregistering all child Roles because the connection has finished or run out of retry attempts.", new Object[0]);
                     m16982a(str);

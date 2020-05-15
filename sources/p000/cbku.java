@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbku */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbku extends bxvk implements bxxd {
+public final class cbku extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbku f177447a;
@@ -13,7 +13,7 @@ public final class cbku extends bxvk implements bxxd {
     static {
         cbku cbku = new cbku();
         f177447a = cbku;
-        bxvk.m124024a(cbku.class, cbku);
+        GeneratedMessageLite.m124024a(cbku.class, cbku);
     }
 
     private cbku() {
@@ -30,7 +30,7 @@ public final class cbku extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177447a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f177447a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbku();

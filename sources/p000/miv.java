@@ -28,7 +28,7 @@ final /* synthetic */ class miv implements Runnable {
             mpq mpq = (mpq) da.f164949b;
             mpq.f34206b = mpp.f34202g;
             mpq.f34205a |= 1;
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

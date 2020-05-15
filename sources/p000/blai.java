@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blai */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blai extends bxvk implements bxxd {
+public final class blai extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final blai f125770a;
@@ -22,7 +22,7 @@ public final class blai extends bxvk implements bxxd {
     static {
         blai blai = new blai();
         f125770a = blai;
-        bxvk.m124024a(blai.class, blai);
+        GeneratedMessageLite.m124024a(blai.class, blai);
     }
 
     private blai() {
@@ -43,7 +43,7 @@ public final class blai extends bxvk implements bxxd {
             this.f125774d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f125770a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔈ\u0000", new Object[]{"b", "c"});
+            return GeneratedMessageLite.m124022a(f125770a, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔈ\u0000", new Object[]{"b", "c"});
         } else if (i2 == 3) {
             return new blai();
         } else {

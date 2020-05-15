@@ -76,7 +76,7 @@ public class OperationRequest extends AbstractSafeParcelable {
         bvax bvax;
         this.f191768a = bArr;
         try {
-            this.f191769b = (bvbb) bxvk.m124014a(bvbb.f155510j, bArr);
+            this.f191769b = (bvbb) GeneratedMessageLite.m124014a(bvbb.f155510j, bArr);
             if (iBinder != null) {
                 IInterface queryLocalInterface = iBinder.queryLocalInterface("com.google.location.nearby.direct.client.internal.INearbyDirectCallback");
                 if (queryLocalInterface instanceof bvax) {

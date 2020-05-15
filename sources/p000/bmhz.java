@@ -17,7 +17,7 @@ public final class bmhz extends bxvd implements bxxd {
         bmia bmia2 = bmia.f129522m;
         bmik.getClass();
         if (!bmia.f129533j.mo73666a()) {
-            bmia.f129533j = bxvk.m124021a(bmia.f129533j);
+            bmia.f129533j = GeneratedMessageLite.m124021a(bmia.f129533j);
         }
         bmia.f129533j.add(bmik);
     }

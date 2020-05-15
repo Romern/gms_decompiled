@@ -144,7 +144,7 @@ public final class abvw implements Closeable {
             bpys bpys2 = bpys.f139925f;
             bqba.getClass();
             if (!bpys.f139928b.mo73666a()) {
-                bpys.f139928b = bxvk.m124019a(bpys.f139928b);
+                bpys.f139928b = GeneratedMessageLite.m124019a(bpys.f139928b);
             }
             bpys.f139928b.mo74153d(bqba.mo3214a());
         }

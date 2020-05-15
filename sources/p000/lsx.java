@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: lsx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lsx extends bxvk implements bxxd {
+public final class lsx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final lsx f32860c;
@@ -19,7 +19,7 @@ public final class lsx extends bxvk implements bxxd {
     static {
         lsx lsx = new lsx();
         f32860c = lsx;
-        bxvk.m124024a(lsx.class, lsx);
+        GeneratedMessageLite.m124024a(lsx.class, lsx);
     }
 
     private lsx() {
@@ -36,7 +36,7 @@ public final class lsx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f32860c, "\u0001\u0001\u0000\u0001\u0005\u0005\u0001\u0000\u0000\u0000\u0005ဈ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f32860c, "\u0001\u0001\u0000\u0001\u0005\u0005\u0001\u0000\u0000\u0000\u0005ဈ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new lsx();
         } else {

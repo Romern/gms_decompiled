@@ -58,7 +58,7 @@ public final class ccty implements cctw {
         f179917d = bdyx.m91607a(bdyw, "GearheadCarServiceFeature__settings_migration_iteration", 0L);
         f179918e = bdyx.m91610a(bdyw, "GearheadCarServiceFeature__should_initiate_settings_migration", false);
         try {
-            f179919f = bdyx.m91608a(bdyw, "GearheadCarServiceFeature__startup_service_allowed_callers", (bydj) bxvk.m124014a(bydj.f165795b, new byte[]{10, 22, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 10, 38, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 112, 114, 111, 106, 101, 99, 116, 105, 111, 110, 46, 103, 101, 97, 114, 104, 101, 97, 100}), cctx.f179913a);
+            f179919f = bdyx.m91608a(bdyw, "GearheadCarServiceFeature__startup_service_allowed_callers", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[]{10, 22, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 10, 38, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 112, 114, 111, 106, 101, 99, 116, 105, 111, 110, 46, 103, 101, 97, 114, 104, 101, 97, 100}), cctx.f179913a);
             f179920g = bdyx.m91610a(bdyw, "GearheadCarServiceFeature__use_gearhead_for_projection", false);
             bdyx.m91610a(bdyw, "GearheadCarServiceFeature__use_settings_from_gearhead", true);
         } catch (bxwf e) {

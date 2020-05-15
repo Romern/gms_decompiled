@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: camd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class camd extends bxvk implements bxxd {
+public final class camd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: n */
     public static final camd f175245n;
@@ -52,7 +52,7 @@ public final class camd extends bxvk implements bxxd {
     static {
         camd camd = new camd();
         f175245n = camd;
-        bxvk.m124024a(camd.class, camd);
+        GeneratedMessageLite.m124024a(camd.class, camd);
     }
 
     private camd() {
@@ -69,7 +69,7 @@ public final class camd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175245n, "\u0001\f\u0000\u0001\u0001\r\f\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဂ\u0003\u0006ဈ\u0007\u0007ဈ\b\bဈ\t\tဈ\n\n\u001b\u000bင\u0006\fဈ\u0005\rဈ\u000b", new Object[]{"a", "b", "c", "d", "e", "h", "i", "j", "k", "l", camc.class, "g", "f", "m"});
+            return GeneratedMessageLite.m124022a(f175245n, "\u0001\f\u0000\u0001\u0001\r\f\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0004ဂ\u0003\u0006ဈ\u0007\u0007ဈ\b\bဈ\t\tဈ\n\n\u001b\u000bင\u0006\fဈ\u0005\rဈ\u000b", new Object[]{"a", "b", "c", "d", "e", "h", "i", "j", "k", "l", camc.class, "g", "f", "m"});
         } else if (i2 == 3) {
             return new camd();
         } else {

@@ -52,7 +52,7 @@ public final /* synthetic */ class atkt implements View.OnClickListener {
         bzuk bzuk = (bzuk) da2.mo74062i();
         bzuk.getClass();
         ((bzun) da.f164949b).f171441a = bzuk;
-        bxtx a2 = bxtx.m123261a(a);
+        ByteString a2 = ByteString.m123261a(a);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

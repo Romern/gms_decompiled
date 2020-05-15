@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 public final class ikl {
 
     /* renamed from: b */
-    public static final sek f21214b = new sek("TransactionStarter");
+    public static final Logger f21214b = new Logger("TransactionStarter");
 
     /* renamed from: c */
     private static ikl f21215c;
@@ -175,7 +175,7 @@ public final class ikl {
                 if (i2 == 2 || i2 == 3) {
                     return RingtoneManager.getDefaultUri(2);
                 }
-                sek sek = f21214b;
+                Logger Logger = f21214b;
                 int a2 = byof.m125024a(byog.f167199b);
                 if (a2 != 0) {
                     i = a2;
@@ -184,7 +184,7 @@ public final class ikl {
                 StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 20);
                 sb.append("Unknown sound type: ");
                 sb.append(valueOf);
-                sek.mo25416d(sb.toString(), new Object[0]);
+                Logger.mo25416d(sb.toString(), new Object[0]);
                 return null;
             }
         }
@@ -263,12 +263,12 @@ public final class ikl {
             return true;
         }
         if (byod != byod.AUTO) {
-            sek sek = f21214b;
+            Logger Logger = f21214b;
             String valueOf = String.valueOf(byod);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 26);
             sb.append("Unknown interaction type: ");
             sb.append(valueOf);
-            sek.mo25418e(sb.toString(), new Object[0]);
+            Logger.mo25418e(sb.toString(), new Object[0]);
             return false;
         } else if (!new igh(this.f21216a).mo12993a()) {
             return true;
@@ -297,7 +297,7 @@ public final class ikl {
             AuthzenGcmTaskChimeraService.m6428a(this.f21216a, m15608a(ijt.m15553a(intent)));
             return;
         }
-        ikj.m15597a(ijt.m15553a(intent).f167308b.mo73780k(), 13, this.f21216a);
+        ikj.m15597a(ijt.m15553a(intent).f167308b.getKey(), 13, this.f21216a);
         new skc(this.f21216a).mo25668a(m15610b(intent));
     }
 
@@ -347,7 +347,7 @@ public final class ikl {
         Intent intent3 = new Intent("AUTHZEN_REPLACE_ACTIVITY");
         intent3.setPackage("com.google.android.gms");
         intent3.putExtra("notification_tag", a);
-        intent3.putExtra("transaction_id", bypc2.f167308b.mo73780k());
+        intent3.putExtra("transaction_id", bypc2.f167308b.getKey());
         this.f21216a.sendBroadcast(intent3);
         if (!z2) {
             mo13096a(intent2, a);
@@ -384,16 +384,16 @@ public final class ikl {
                         if (a3 < 0) {
                             a3 = 0;
                         }
-                        ikj.m15597a(bypc2.f167308b.mo73780k(), 7, this.f21216a);
+                        ikj.m15597a(bypc2.f167308b.getKey(), 7, this.f21216a);
                         if (((Boolean) igt.f20947C.mo58455c()).booleanValue()) {
                             long seconds = TimeUnit.MILLISECONDS.toSeconds(a3);
                             AuthzenGcmTaskChimeraService.m6427a(this.f21216a, intent2, seconds);
-                            f21214b.mo25414c("Scheduling Gcm task to dismiss notification (txId=%s) in %s seconds", ikj.m15598b(bypc2.f167308b.mo73780k()), Long.valueOf(seconds));
+                            f21214b.mo25414c("Scheduling Gcm task to dismiss notification (txId=%s) in %s seconds", ikj.m15598b(bypc2.f167308b.getKey()), Long.valueOf(seconds));
                         } else {
                             skc skc = new skc(this.f21216a);
                             int i2 = Build.VERSION.SDK_INT;
                             skc.mo25681b("AuthzenNotificationAlarm", 2, longExtra + a3, b, "com.google.android.gms");
-                            f21214b.mo25414c("Scheduling notification-based prompt (txId=%s) to be killed in %s seconds.", ikj.m15598b(bypc2.f167308b.mo73780k()), Long.valueOf(TimeUnit.MILLISECONDS.toSeconds(a3)));
+                            f21214b.mo25414c("Scheduling notification-based prompt (txId=%s) to be killed in %s seconds.", ikj.m15598b(bypc2.f167308b.getKey()), Long.valueOf(TimeUnit.MILLISECONDS.toSeconds(a3)));
                         }
                         if (!stm.m36302d((String) igt.f20976z.mo58455c()) && (r4 = (UiModeManager) this.f21216a.getSystemService("uimode")) != null) {
                         }
@@ -403,13 +403,13 @@ public final class ikl {
                             notification = m15603a(intent2, a2, byoh);
                             i = 1;
                             this.f21217d.mo25445a(a, i, notification);
-                            ikj.m15597a(bypc2.f167308b.mo73780k(), 3, this.f21216a);
+                            ikj.m15597a(bypc2.f167308b.getKey(), 3, this.f21216a);
                         }
                         i = 1;
                         f21214b.mo25412b("Starting notification-based prompt: interaction_type=%s", byod);
                         notification = m15603a(intent2, a2, byoh);
                         this.f21217d.mo25445a(a, i, notification);
-                        ikj.m15597a(bypc2.f167308b.mo73780k(), 3, this.f21216a);
+                        ikj.m15597a(bypc2.f167308b.getKey(), 3, this.f21216a);
                     } else {
                         if (z2) {
                             bypb bypb3 = bypc2.f167310d;
@@ -437,11 +437,11 @@ public final class ikl {
                         if (b2 != null && (!z2 || !Arrays.equals(b2, m15611b(m15606a(bypc2, false))))) {
                             ((Vibrator) this.f21216a.getSystemService("vibrator")).vibrate(b2, -1);
                         }
-                        ikj.m15597a(bypc2.f167308b.mo73780k(), 4, this.f21216a);
+                        ikj.m15597a(bypc2.f167308b.getKey(), 4, this.f21216a);
                         this.f21216a.startActivity(intent2);
                     }
                     if (z2) {
-                        TransactionReplyIntentOperation.m6533b(bypc2.f167308b.mo73780k());
+                        TransactionReplyIntentOperation.m6533b(bypc2.f167308b.getKey());
                         return;
                     }
                     return;

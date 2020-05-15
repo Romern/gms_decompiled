@@ -14,9 +14,9 @@ final class ahzo extends ahzt {
     private final String f68480d;
 
     /* renamed from: e */
-    private final bxtx f68481e;
+    private final ByteString f68481e;
 
-    public ahzo(ahzs ahzs, String str, String str2, bxtx bxtx) {
+    public ahzo(ahzs ahzs, String str, String str2, ByteString bxtx) {
         this.f68478b = ahzs;
         this.f68479c = str;
         this.f68480d = str2;
@@ -39,13 +39,13 @@ final class ahzo extends ahzt {
     }
 
     /* renamed from: d */
-    public final bxtx mo37322d() {
+    public final ByteString mo37322d() {
         return this.f68481e;
     }
 
     public final boolean equals(Object obj) {
         String str;
-        bxtx bxtx;
+        ByteString bxtx;
         if (obj == this) {
             return true;
         }
@@ -67,7 +67,7 @@ final class ahzo extends ahzt {
             i = 0;
         }
         int i3 = (hashCode ^ i) * 1000003;
-        bxtx bxtx = this.f68481e;
+        ByteString bxtx = this.f68481e;
         if (bxtx != null) {
             i2 = bxtx.hashCode();
         }

@@ -31,7 +31,7 @@ public final class bgzc implements aubg {
         Context context = this.f118147a;
         bsqv bsqv = this.f118148b;
         String str = (String) aucb.mo50386d();
-        String hexString = Long.toHexString(spn.m35843a(context));
+        String hexString = Long.toHexString(spn.getAndroidId(context));
         bxvd da = bsra.f146725c.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -100,7 +100,7 @@ public final class bgzc implements aubg {
         ggp ggp = new ggp();
         ggp.f18143b = 20;
         ggp.f18142a = 2;
-        ggp.mo11800a(((bsqw) this.f118148b.mo74062i()).mo73642k());
+        ggp.mo11800a(((bsqw) this.f118148b.mo74062i()).serializeToBytes());
         byte[] bArr = this.f118149c;
         if (bArr != null) {
             ggp.f18145d = bArr;

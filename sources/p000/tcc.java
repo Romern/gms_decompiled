@@ -13,7 +13,7 @@ final /* synthetic */ class tcc implements Runnable {
     }
 
     public final void run() {
-        sek sek = ConstellationDebugChimeraActivity.f30575b;
+        Logger Logger = ConstellationDebugChimeraActivity.f30575b;
         cbqw cbqw = (cbqw) cbqy.f178081i.mo74144da();
         if (cbqw.f164950c) {
             cbqw.mo74035c();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mct */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mct extends bxvk implements bxxd {
+public final class mct extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final mct f33445f;
@@ -20,7 +20,7 @@ public final class mct extends bxvk implements bxxd {
     public int f33449c;
 
     /* renamed from: d */
-    public bxtx f33450d = bxtx.f164797b;
+    public ByteString f33450d = ByteString.f164797b;
 
     /* renamed from: e */
     public int f33451e;
@@ -28,7 +28,7 @@ public final class mct extends bxvk implements bxxd {
     static {
         mct mct = new mct();
         f33445f = mct;
-        bxvk.m124024a(mct.class, mct);
+        GeneratedMessageLite.m124024a(mct.class, mct);
     }
 
     private mct() {
@@ -45,7 +45,7 @@ public final class mct extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f33445f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ည\u0002\u0003ဌ\u0003\u0005ဌ\u0001", new Object[]{"a", "b", mcu.f33452a, "d", "e", mcm.f33425a, "c", mcr.f33444a});
+            return GeneratedMessageLite.m124022a(f33445f, "\u0001\u0004\u0000\u0001\u0001\u0005\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ည\u0002\u0003ဌ\u0003\u0005ဌ\u0001", new Object[]{"a", "b", mcu.f33452a, "d", "e", mcm.f33425a, "c", mcr.f33444a});
         } else if (i2 == 3) {
             return new mct();
         } else {

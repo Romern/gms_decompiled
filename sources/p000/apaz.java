@@ -127,7 +127,7 @@ public final class apaz {
             bzkf bzkf3 = (bzkf) da6.mo74062i();
             bzkf3.getClass();
             if (!bldq.f126115b.mo73666a()) {
-                bldq.f126115b = bxvk.m124021a(bldq.f126115b);
+                bldq.f126115b = GeneratedMessageLite.m124021a(bldq.f126115b);
             }
             bldq.f126115b.add(bzkf3);
             if (z) {
@@ -139,7 +139,7 @@ public final class apaz {
                 bldq bldq2 = (bldq) da5.f164949b;
                 bldp.getClass();
                 if (!bldq2.f126114a.mo73666a()) {
-                    bldq2.f126114a = bxvk.m124019a(bldq2.f126114a);
+                    bldq2.f126114a = GeneratedMessageLite.m124019a(bldq2.f126114a);
                 }
                 bldq2.f126114a.mo74153d(bldp.f126111c);
             }
@@ -176,7 +176,7 @@ public final class apaz {
             blfa blfa4 = (blfa) da4.mo74062i();
             blfa4.getClass();
             if (!blds2.f126125c.mo73666a()) {
-                blds2.f126125c = bxvk.m124021a(blds2.f126125c);
+                blds2.f126125c = GeneratedMessageLite.m124021a(blds2.f126125c);
             }
             blds2.f126125c.add(blfa4);
             String str4 = bzcu2.f169412c;
@@ -579,7 +579,7 @@ public final class apaz {
         blds blds3 = (blds) da2.mo74062i();
         blds3.getClass();
         if (!blew.f126294e.mo73666a()) {
-            blew.f126294e = bxvk.m124021a(blew.f126294e);
+            blew.f126294e = GeneratedMessageLite.m124021a(blew.f126294e);
         }
         blew.f126294e.add(blds3);
         blew blew2 = (blew) da12.mo74062i();
@@ -781,7 +781,7 @@ public final class apaz {
         btcp btcp = (btcp) da8.f164949b;
         btco.getClass();
         if (!btcp.f148301a.mo73666a()) {
-            btcp.f148301a = bxvk.m124019a(btcp.f148301a);
+            btcp.f148301a = GeneratedMessageLite.m124019a(btcp.f148301a);
         }
         btcp.f148301a.mo74153d(btco.mo3214a());
         if (da8.f164950c) {

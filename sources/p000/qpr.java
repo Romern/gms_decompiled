@@ -185,7 +185,7 @@ public final class qpr {
             try {
                 byte[] a = sqd.m35966a(qpo.f41921a.getString("Chimera.moduleSetJournal", ""));
                 if (a != null) {
-                    qor = (qor) bxvk.m124016a(qor.f41889b, a, bxus.m123743b());
+                    qor = (qor) GeneratedMessageLite.m124016a(qor.f41889b, a, bxus.m123743b());
                     ModuleManager.ConfigInfo currentConfig = moduleManager.getCurrentConfig();
                     Map a2 = adyi.m51411a(currentConfig.moduleSets.size());
                     for (ModuleManager.ModuleSetInfo moduleSetInfo : currentConfig.moduleSets) {

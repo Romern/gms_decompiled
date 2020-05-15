@@ -56,7 +56,7 @@ public final class qwo {
     /* renamed from: n */
     private String f42330n;
 
-    public qwo(qws qws, bxtx bxtx, qwq qwq) {
+    public qwo(qws qws, ByteString bxtx, qwq qwq) {
         this.f42327k = null;
         this.f42328l = null;
         this.f42329m = null;

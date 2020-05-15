@@ -13,7 +13,7 @@ import java.net.URL;
 public final class jgx extends rrj {
 
     /* renamed from: a */
-    private static final sek f22456a = ght.m13171a("AuthManaged", "PackageIconLoader");
+    private static final Logger f22456a = ght.m13171a("AuthManaged", "PackageIconLoader");
 
     /* renamed from: b */
     private final String f22457b;

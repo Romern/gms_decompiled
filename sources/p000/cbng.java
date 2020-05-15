@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbng */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbng extends bxvk implements bxxd {
+public final class cbng extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbng f177727a;
@@ -13,7 +13,7 @@ public final class cbng extends bxvk implements bxxd {
     static {
         cbng cbng = new cbng();
         f177727a = cbng;
-        bxvk.m124024a(cbng.class, cbng);
+        GeneratedMessageLite.m124024a(cbng.class, cbng);
     }
 
     private cbng() {
@@ -30,7 +30,7 @@ public final class cbng extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177727a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f177727a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbng();

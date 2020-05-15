@@ -9,7 +9,7 @@ import com.google.android.gms.auth.firstparty.dataservice.CheckFactoryResetPolic
 final class jvx extends AsyncTask {
 
     /* renamed from: a */
-    private static final sek f23380a = ght.m13171a("FrpUnlockTask");
+    private static final Logger f23380a = ght.m13171a("FrpUnlockTask");
 
     /* renamed from: b */
     private final jvg f23381b;

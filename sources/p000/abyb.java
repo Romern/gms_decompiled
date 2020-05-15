@@ -57,7 +57,7 @@ public final class abyb extends acpn {
         str.getClass();
         bpwy.f139592a |= 1;
         bpwy.f139593b = str;
-        this.f58722o.mo24377a(((bpwy) da.mo74062i()).mo73642k());
+        this.f58722o.mo24377a(((bpwy) da.mo74062i()).serializeToBytes());
     }
 
     /* access modifiers changed from: protected */

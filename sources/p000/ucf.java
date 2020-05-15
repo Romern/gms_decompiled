@@ -23,7 +23,7 @@ public final class ucf implements uce {
     /* renamed from: a */
     public final txg mo27232a(uey uey) {
         uin b = this.f47235b.mo27419b(uey);
-        sdo.m34966a(b, "Authorized app doesn't exist");
+        sdo.checkIfNull(b, "Authorized app doesn't exist");
         txi txi = new txi();
         txi.f46910b = b.f47710c;
         txi.f46911c = b.f47712e;

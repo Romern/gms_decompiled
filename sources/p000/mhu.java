@@ -95,7 +95,7 @@ public abstract class mhu implements mjn {
     public final mpm mo20030a(int i, String str) {
         mpm b = m25130b(mpl.ERROR);
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         bxvd da = mpn.f34188e.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -163,6 +163,6 @@ public abstract class mhu implements mjn {
         }
         objArr[0] = a;
         lvn.mo25412b("Sending packet of type: %s", objArr);
-        this.f33745d.mo20104c(mpm.mo73642k());
+        this.f33745d.mo20104c(mpm.serializeToBytes());
     }
 }

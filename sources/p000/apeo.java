@@ -86,7 +86,7 @@ public final /* synthetic */ class apeo implements bbjr {
                             btcr btcr = (btcr) a4.mo74062i();
                             btcr.getClass();
                             if (!btex.f148590a.mo73666a()) {
-                                btex.f148590a = bxvk.m124021a(btex.f148590a);
+                                btex.f148590a = GeneratedMessageLite.m124021a(btex.f148590a);
                             }
                             btex.f148590a.add(btcr);
                         }
@@ -126,7 +126,7 @@ public final /* synthetic */ class apeo implements bbjr {
                                 btcq btcq = (btcq) da3.mo74062i();
                                 btcq.getClass();
                                 if (!btci.f148276a.mo73666a()) {
-                                    btci.f148276a = bxvk.m124021a(btci.f148276a);
+                                    btci.f148276a = GeneratedMessageLite.m124021a(btci.f148276a);
                                 }
                                 btci.f148276a.add(btcq);
                             }
@@ -161,7 +161,7 @@ public final /* synthetic */ class apeo implements bbjr {
                             btcr btcr2 = (btcr) a9.mo74062i();
                             btcr2.getClass();
                             if (!btbv.f148222a.mo73666a()) {
-                                btbv.f148222a = bxvk.m124021a(btbv.f148222a);
+                                btbv.f148222a = GeneratedMessageLite.m124021a(btbv.f148222a);
                             }
                             btbv.f148222a.add(btcr2);
                         }

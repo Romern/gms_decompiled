@@ -78,7 +78,7 @@ public final class ajgk {
             bywn bywn2 = (bywn) da.mo74062i();
             byvm a = buqb.m120220a(str, (String) null, 5);
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;

@@ -65,7 +65,7 @@ public final class atva extends atvb {
         this.f90982m = atds.m75666a(askf);
         this.f90983n = new atam(askf);
         try {
-            btjx = (btjx) bxvk.m124016a(btjx.f149192h, bArr2, bxus.m123744c());
+            btjx = (btjx) GeneratedMessageLite.m124016a(btjx.f149192h, bArr2, bxus.m123744c());
         } catch (bxwf e) {
             btjx = null;
         }
@@ -88,7 +88,7 @@ public final class atva extends atvb {
     /* renamed from: b */
     private final void m76435b() {
         int i;
-        if (!this.f90982m.mo49850a(this.f90976c.f108340a, this.f90984o.f149196c.mo73780k())) {
+        if (!this.f90982m.mo49850a(this.f90976c.f108340a, this.f90984o.f149196c.getKey())) {
             i = AndroidInputTypeSignal.TYPE_TEXT_VARIATION_POSTAL_ADDRESS;
         } else {
             i = 113;
@@ -104,9 +104,9 @@ public final class atva extends atvb {
         btjx btjx = this.f90984o;
         if (btjx != null) {
             try {
-                if (!this.f90982m.mo49856b(this.f90976c.f108340a, btjx.f149196c.mo73780k())) {
+                if (!this.f90982m.mo49856b(this.f90976c.f108340a, btjx.f149196c.getKey())) {
                     atds atds = this.f90982m;
-                    asik asik = atds.mo49851b(atds.mo49861e(), this.f90976c.f108340a, this.f90984o.f149196c.mo73780k()).f89050c;
+                    asik asik = atds.mo49851b(atds.mo49861e(), this.f90976c.f108340a, this.f90984o.f149196c.getKey()).f89050c;
                     if (asik != null) {
                         if (asik.f89045a < System.currentTimeMillis()) {
                             m76435b();
@@ -122,7 +122,7 @@ public final class atva extends atvb {
                     }
                     str.getClass();
                     ((btiy) da2.f164949b).f149056a = str;
-                    bxtx a = bxtx.m123261a(this.f90976c.f108341b);
+                    ByteString a = ByteString.m123261a(this.f90976c.f108341b);
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -157,7 +157,7 @@ public final class atva extends atvb {
                     }
                     byte[] bArr = this.f90978i;
                     if (bArr != null) {
-                        bxtx a2 = bxtx.m123261a(bArr);
+                        ByteString a2 = ByteString.m123261a(bArr);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -169,16 +169,16 @@ public final class atva extends atvb {
                     if (!btmn.f149519a) {
                         atds atds2 = this.f90982m;
                         String str5 = this.f90976c.f108340a;
-                        byte[] k = this.f90984o.f149196c.mo73780k();
+                        byte[] k = this.f90984o.f149196c.getKey();
                         e = atds2.mo49861e();
                         e.beginTransaction();
                         asil b = atds2.mo49851b(e, str5, k);
                         bxvd bxvd = (bxvd) b.mo74142c(5);
-                        bxvd.mo73625a((bxvk) b);
+                        bxvd.mo73625a((GeneratedMessageLite) b);
                         asij asij = ((asil) bxvd.f164949b).f89048a;
                         if (asij != null) {
                             bxvd bxvd2 = (bxvd) asij.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) asij);
+                            bxvd2.mo73625a((GeneratedMessageLite) asij);
                             int i = ((asij) bxvd2.f164949b).f89042b + 1;
                             if (bxvd2.f164950c) {
                                 bxvd2.mo74035c();
@@ -197,7 +197,7 @@ public final class atva extends atvb {
                         }
                         e.setTransactionSuccessful();
                         e.endTransaction();
-                        if (this.f90982m.mo49856b(this.f90976c.f108340a, this.f90984o.f149196c.mo73780k())) {
+                        if (this.f90982m.mo49856b(this.f90976c.f108340a, this.f90984o.f149196c.getKey())) {
                             m76434a();
                             return null;
                         }
@@ -305,7 +305,7 @@ public final class atva extends atvb {
     /* renamed from: a */
     private final void m76434a() {
         int i;
-        if (!this.f90982m.mo49850a(this.f90976c.f108340a, this.f90984o.f149196c.mo73780k())) {
+        if (!this.f90982m.mo49850a(this.f90976c.f108340a, this.f90984o.f149196c.getKey())) {
             i = 110;
         } else {
             i = 111;
@@ -321,9 +321,9 @@ public final class atva extends atvb {
         btjx btjx = this.f90984o;
         if (btjx != null) {
             try {
-                if (!this.f90982m.mo49856b(this.f90976c.f108340a, btjx.f149196c.mo73780k())) {
+                if (!this.f90982m.mo49856b(this.f90976c.f108340a, btjx.f149196c.getKey())) {
                     atds atds = this.f90982m;
-                    asik asik = atds.mo49851b(atds.mo49861e(), this.f90976c.f108340a, this.f90984o.f149196c.mo73780k()).f89050c;
+                    asik asik = atds.mo49851b(atds.mo49861e(), this.f90976c.f108340a, this.f90984o.f149196c.getKey()).f89050c;
                     if (asik != null) {
                         if (asik.f89045a < System.currentTimeMillis()) {
                             m76435b();
@@ -339,7 +339,7 @@ public final class atva extends atvb {
                     }
                     str.getClass();
                     ((btiy) da2.f164949b).f149056a = str;
-                    bxtx a = bxtx.m123261a(this.f90976c.f108341b);
+                    ByteString a = ByteString.m123261a(this.f90976c.f108341b);
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -374,7 +374,7 @@ public final class atva extends atvb {
                     }
                     byte[] bArr = this.f90978i;
                     if (bArr != null) {
-                        bxtx a2 = bxtx.m123261a(bArr);
+                        ByteString a2 = ByteString.m123261a(bArr);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -386,16 +386,16 @@ public final class atva extends atvb {
                     if (!btmn.f149519a) {
                         atds atds2 = this.f90982m;
                         String str5 = this.f90976c.f108340a;
-                        byte[] k = this.f90984o.f149196c.mo73780k();
+                        byte[] k = this.f90984o.f149196c.getKey();
                         e = atds2.mo49861e();
                         e.beginTransaction();
                         asil b = atds2.mo49851b(e, str5, k);
                         bxvd bxvd = (bxvd) b.mo74142c(5);
-                        bxvd.mo73625a((bxvk) b);
+                        bxvd.mo73625a((GeneratedMessageLite) b);
                         asij asij = ((asil) bxvd.f164949b).f89048a;
                         if (asij != null) {
                             bxvd bxvd2 = (bxvd) asij.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) asij);
+                            bxvd2.mo73625a((GeneratedMessageLite) asij);
                             int i = ((asij) bxvd2.f164949b).f89042b + 1;
                             if (bxvd2.f164950c) {
                                 bxvd2.mo74035c();
@@ -414,7 +414,7 @@ public final class atva extends atvb {
                         }
                         e.setTransactionSuccessful();
                         e.endTransaction();
-                        if (this.f90982m.mo49856b(this.f90976c.f108340a, this.f90984o.f149196c.mo73780k())) {
+                        if (this.f90982m.mo49856b(this.f90976c.f108340a, this.f90984o.f149196c.getKey())) {
                             m76434a();
                             return null;
                         }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: botl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class botl extends bxvk implements bxxd {
+public final class botl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final botl f134788k;
@@ -43,7 +43,7 @@ public final class botl extends bxvk implements bxxd {
     static {
         botl botl = new botl();
         f134788k = botl;
-        bxvk.m124024a(botl.class, botl);
+        GeneratedMessageLite.m124024a(botl.class, botl);
     }
 
     private botl() {
@@ -61,7 +61,7 @@ public final class botl extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134788k, "\u0001\t\u0000\u0001\u0002\n\t\u0000\u0000\u0000\u0002ဇ\u0000\u0003ဇ\u0001\u0004ဂ\u0002\u0005ဂ\u0003\u0006င\u0004\u0007င\u0005\bင\u0006\tင\u0007\nင\b", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"});
+            return GeneratedMessageLite.m124022a(f134788k, "\u0001\t\u0000\u0001\u0002\n\t\u0000\u0000\u0000\u0002ဇ\u0000\u0003ဇ\u0001\u0004ဂ\u0002\u0005ဂ\u0003\u0006င\u0004\u0007င\u0005\bင\u0006\tင\u0007\nင\b", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"});
         } else if (i2 == 3) {
             return new botl();
         } else {

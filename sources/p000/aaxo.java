@@ -40,7 +40,7 @@ public final class aaxo implements Runnable {
             abcr abcr = this.f56777e;
             abdu a = aaxt.m47185a(aarp, helpConfig);
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             abdk abdk = abdk.f57097a;
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

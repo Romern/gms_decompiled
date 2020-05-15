@@ -34,7 +34,7 @@ final class aavz implements View.OnClickListener {
         int a = this.f56683d.mo31844a(this.f56681b);
         abdq abdq = (abdq) this.f56683d.f56692e.get(a);
         bxvd bxvd = (bxvd) abdq.mo74142c(5);
-        bxvd.mo73625a((bxvk) abdq);
+        bxvd.mo73625a((GeneratedMessageLite) abdq);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

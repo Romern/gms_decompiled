@@ -137,11 +137,11 @@ public final class athq {
             if (btpd3 == null) {
                 btpd3 = btpd.f149833c;
             }
-            StorageKey storageKey = new StorageKey(str2, btpd3.f149836b.mo73780k());
+            StorageKey storageKey = new StorageKey(str2, btpd3.f149836b.getKey());
             btpd btpd4 = btpc.f149832b;
             if (btpd4 != null) {
                 try {
-                    StorageKey storageKey2 = new StorageKey(btpd4.f149835a, btpd4.f149836b.mo73780k());
+                    StorageKey storageKey2 = new StorageKey(btpd4.f149835a, btpd4.f149836b.getKey());
                     srn srn = atbm.f90004a;
                     a = atbm.m75382a(askf2.f89126d);
                     a.beginTransaction();

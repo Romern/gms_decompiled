@@ -86,7 +86,7 @@ public final class bibu implements bial {
                 bvty bvty2 = (bvty) hashMap.get(bhzs.f119985a);
                 if ((bvty2.f157636a & 2) == 0) {
                     bxvd bxvd = (bxvd) bvty2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bvty2);
+                    bxvd.mo73625a((GeneratedMessageLite) bvty2);
                     bxvd da = bzrv.f171206c.mo74144da();
                     double d = bhzs.f119986b;
                     if (da.f164950c) {

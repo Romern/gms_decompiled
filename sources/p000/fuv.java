@@ -296,7 +296,7 @@ public final class fuv implements rka, rjz {
                     boir.f133213a = i3 | 4096;
                     break;
             }
-            qwo a = this.f17312d.mo24335a(((boir) da.mo74062i()).mo73642k());
+            qwo a = this.f17312d.mo24335a(((boir) da.mo74062i()).serializeToBytes());
             a.mo24328b(i2);
             a.mo24327b();
         }
@@ -371,7 +371,7 @@ public final class fuv implements rka, rjz {
             }
             bojl bojl2 = (bojl) da.f164949b;
             if (!bojl2.f133302f.mo73666a()) {
-                bojl2.f133302f = bxvk.m124021a(bojl2.f133302f);
+                bojl2.f133302f = GeneratedMessageLite.m124021a(bojl2.f133302f);
             }
             bxsy.m123078a(arrayList, bojl2.f133302f);
         }
@@ -382,7 +382,7 @@ public final class fuv implements rka, rjz {
             }
             bojl bojl3 = (bojl) da.f164949b;
             if (!bojl3.f133303g.mo73666a()) {
-                bojl3.f133303g = bxvk.m124021a(bojl3.f133303g);
+                bojl3.f133303g = GeneratedMessageLite.m124021a(bojl3.f133303g);
             }
             bxsy.m123078a(arrayList2, bojl3.f133303g);
         }

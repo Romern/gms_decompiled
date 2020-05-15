@@ -28,7 +28,7 @@ public final class tel implements teu {
     public int f45766c = 2;
 
     /* renamed from: d */
-    private final sek f45767d = tea.m36798a("mo_verifier");
+    private final Logger f45767d = tea.m36798a("mo_verifier");
 
     /* renamed from: e */
     private final cbqy f45768e;
@@ -297,30 +297,30 @@ public final class tel implements teu {
         if (a2 > 0) {
             arrayList.add(Long.valueOf(a2));
         }
-        sek sek = this.f45767d;
+        Logger Logger = this.f45767d;
         String valueOf = String.valueOf(arrayList);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 16);
         sb.append("sleep intervals ");
         sb.append(valueOf);
-        sek.mo25409a(sb.toString(), new Object[0]);
+        Logger.logVerbose(sb.toString(), new Object[0]);
         cbqy cbqy3 = null;
         int i2 = 0;
         while (i2 < arrayList.size()) {
             try {
-                sek sek2 = this.f45767d;
+                Logger logger2 = this.f45767d;
                 String valueOf2 = String.valueOf(arrayList.get(i2));
                 StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf2).length() + 9);
                 sb2.append("sleep ");
                 sb2.append(valueOf2);
                 sb2.append(" ms");
-                sek2.mo25414c(sb2.toString(), new Object[0]);
+                logger2.mo25414c(sb2.toString(), new Object[0]);
                 Thread.sleep(((Long) arrayList.get(i2)).longValue());
-                sek sek3 = this.f45767d;
+                Logger logger3 = this.f45767d;
                 StringBuilder sb3 = new StringBuilder(21);
                 sb3.append("ping ");
                 sb3.append(i2);
                 sb3.append(" time");
-                sek3.mo25409a(sb3.toString(), new Object[0]);
+                logger3.logVerbose(sb3.toString(), new Object[0]);
                 sza sza = this.f45769f;
                 tdx tdx = this.f45771h;
                 cbqy cbqy4 = this.f45768e;

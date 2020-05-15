@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btnq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btnq extends bxvk implements bxxd {
+public final class btnq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btnq f149676a;
@@ -13,7 +13,7 @@ public final class btnq extends bxvk implements bxxd {
     static {
         btnq btnq = new btnq();
         f149676a = btnq;
-        bxvk.m124024a(btnq.class, btnq);
+        GeneratedMessageLite.m124024a(btnq.class, btnq);
     }
 
     private btnq() {
@@ -30,7 +30,7 @@ public final class btnq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149676a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f149676a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btnq();

@@ -19,7 +19,7 @@ public final class bari implements bano {
 
     /* renamed from: b */
     public final void mo55812b() {
-        ((achw) this.f101604a.mo16713a()).mo25409a("Opening MDH wipeout table.", new Object[0]);
+        ((achw) this.f101604a.mo16713a()).logVerbose("Opening MDH wipeout table.", new Object[0]);
     }
 
     /* renamed from: a */
@@ -30,6 +30,6 @@ public final class bari implements bano {
 
     /* renamed from: a */
     public final void mo55811a(SQLiteDatabase sQLiteDatabase, int i, int i2) {
-        ((achw) this.f101604a.mo16713a()).mo25409a("Upgrading MDH wipeout table from %d to %d", Integer.valueOf(i), Integer.valueOf(i2));
+        ((achw) this.f101604a.mo16713a()).logVerbose("Upgrading MDH wipeout table from %d to %d", Integer.valueOf(i), Integer.valueOf(i2));
     }
 }

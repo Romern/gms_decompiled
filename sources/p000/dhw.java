@@ -160,7 +160,7 @@ public abstract class dhw extends ContentProvider {
                         List a4 = dkt.m8754a(a3, (Collection) Arrays.asList(stringArray));
                         bxvd da = djf.f13322b.mo74144da();
                         da.mo74065i(a4);
-                        bundle4.putByteArray("featuresResponseListKey", ((djf) da.mo74062i()).mo73642k());
+                        bundle4.putByteArray("featuresResponseListKey", ((djf) da.mo74062i()).serializeToBytes());
                         bundle4.putInt("featuresResult", 0);
                     }
                 }
@@ -212,7 +212,7 @@ public abstract class dhw extends ContentProvider {
             byte[] byteArray = bundle2.getByteArray("requested");
             if (byteArray != null) {
                 try {
-                    bxwc = ((dje) bxvk.m124016a(dje.f13319b, byteArray, bxus.m123743b())).f13321a;
+                    bxwc = ((dje) GeneratedMessageLite.m124016a(dje.f13319b, byteArray, bxus.m123743b())).f13321a;
                 } catch (bxwf e) {
                     Log.e("ModuleProvider", "Malformed requested features");
                     return null;

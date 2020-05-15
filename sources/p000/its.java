@@ -10,7 +10,7 @@ import com.google.android.gms.common.api.Status;
 public final class its extends aaab {
 
     /* renamed from: g */
-    private static final sek f21708g = new sek(new String[]{"HkdfOperation"}, (byte[]) null);
+    private static final Logger f21708g = new Logger(new String[]{"HkdfOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final irh f21709a;

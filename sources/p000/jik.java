@@ -29,7 +29,7 @@ public final class jik {
         jto.f23190c = j3 + j2;
         byte[] bArr = new byte[32];
         this.f22556b.nextBytes(bArr);
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

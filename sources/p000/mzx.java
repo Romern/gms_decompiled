@@ -40,7 +40,7 @@ final /* synthetic */ class mzx implements Callable {
         Intent intent = new Intent(sb.toString());
         intent.setPackage(a);
         context2.sendBroadcast(intent);
-        nab.f35075a.mo25409a("Waiting for stub launcher to be enabled", new Object[0]);
+        nab.f35075a.logVerbose("Waiting for stub launcher to be enabled", new Object[0]);
         ComponentName componentName = new ComponentName(mpv.m25497a(nab.f35110q), "com.google.android.apps.pixelmigrate.component.StubLauncherActivity");
         long nanoTime = System.nanoTime();
         long nanos = TimeUnit.MILLISECONDS.toNanos(ccnl.f179542a.mo6606a().mo76464g());
@@ -52,13 +52,13 @@ final /* synthetic */ class mzx implements Callable {
                     nab.f35075a.mo25416d("Timeout expired for waiting for stub launcher, proceeding", new Object[0]);
                     break;
                 }
-                nab.f35075a.mo25409a("Stub launcher state is %d", Integer.valueOf(componentEnabledSetting));
+                nab.f35075a.logVerbose("Stub launcher state is %d", Integer.valueOf(componentEnabledSetting));
                 Thread.sleep(c);
             } else {
                 break;
             }
         }
-        nab.f35075a.mo25409a("Stub launcher either enabled or we timed out", new Object[0]);
+        nab.f35075a.logVerbose("Stub launcher either enabled or we timed out", new Object[0]);
         return d;
     }
 }

@@ -70,7 +70,7 @@ public final class bied extends bien {
         int i = this.f120370e;
         bpqk c = bhqq.m101365c(5, this.f120388a);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bxvd da = bprb.f138816d.mo74144da();
         if (da.f164950c) {
             da.mo74035c();

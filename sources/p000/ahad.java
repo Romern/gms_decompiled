@@ -144,7 +144,7 @@ public final class ahad extends aaab {
                     bszp bszp = (bszp) da2.f164949b;
                     str6.getClass();
                     if (!bszp.f147881e.mo73666a()) {
-                        bszp.f147881e = bxvk.m124021a(bszp.f147881e);
+                        bszp.f147881e = GeneratedMessageLite.m124021a(bszp.f147881e);
                     }
                     bszp.f147881e.add(str6);
                 }

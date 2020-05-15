@@ -52,14 +52,14 @@ final class avve extends avuo {
                     C1706call call = (C1706call) da.f164949b;
                     a2.getClass();
                     if (!call.f175152c.mo73666a()) {
-                        call.f175152c = bxvk.m124019a(call.f175152c);
+                        call.f175152c = GeneratedMessageLite.m124019a(call.f175152c);
                     }
                     call.f175152c.mo74153d(a2.f167032d);
                 }
             }
         }
         try {
-            calo calo = (calo) bxvk.m124014a(calo.f175155l, accountConsentInformation.f109536b);
+            calo calo = (calo) GeneratedMessageLite.m124014a(calo.f175155l, accountConsentInformation.f109536b);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -90,7 +90,7 @@ final class avve extends avuo {
             a3.f42322f = cagz.m126622a(this.f93961d);
             a3.f42320d = this.f93958a;
             HashMap hashMap = new HashMap();
-            hashMap.put("CONSENT_INFO", Base64.encodeToString(((C1706call) da.mo74062i()).mo73642k(), 0));
+            hashMap.put("CONSENT_INFO", Base64.encodeToString(((C1706call) da.mo74062i()).serializeToBytes(), 0));
             hashMap.put("ACCOUNT_INDEX", Integer.toString(i));
             bxvf bxvf = a3.f42325i;
             if (bxvf.f164950c) {
@@ -98,7 +98,7 @@ final class avve extends avuo {
                 bxvf.f164950c = false;
             }
             cagi cagi = cagi.f173096t;
-            ((cagi) bxvf.f164949b).f173105h = bxvk.m124030de();
+            ((cagi) bxvf.f164949b).f173105h = GeneratedMessageLite.m124030de();
             for (Map.Entry entry : hashMap.entrySet()) {
                 bxvd da2 = cagj.f173117d.mo74144da();
                 String str = (String) entry.getKey();

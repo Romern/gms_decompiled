@@ -169,7 +169,7 @@ public final class qnn {
                 } else if (nrVar.contains(a3)) {
                     m32515a(okVar3, a3, da, a2);
                     bxvd bxvd = (bxvd) djc3.mo74142c(5);
-                    bxvd.mo73625a((bxvk) djc3);
+                    bxvd.mo73625a((GeneratedMessageLite) djc3);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
@@ -187,13 +187,13 @@ public final class qnn {
                 da.mo74035c();
                 da.f164950c = false;
             }
-            ((qmk) da.f164949b).f41708b = bxvk.m124030de();
+            ((qmk) da.f164949b).f41708b = GeneratedMessageLite.m124030de();
             da.mo73941E(nrVar2);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
             }
-            ((qmk) da.f164949b).f41709c = bxvk.m124030de();
+            ((qmk) da.f164949b).f41709c = GeneratedMessageLite.m124030de();
             da.mo73937C(arrayList2);
             if (!da.f164950c) {
                 i4 = 0;
@@ -202,17 +202,17 @@ public final class qnn {
                 i4 = 0;
                 da.f164950c = false;
             }
-            ((qmk) da.f164949b).f41707a = bxvk.m124030de();
+            ((qmk) da.f164949b).f41707a = GeneratedMessageLite.m124030de();
             bojy bojy = (bojy) qmk.f41707a.get(i4);
             bxvd bxvd2 = (bxvd) bojy.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bojy);
+            bxvd2.mo73625a((GeneratedMessageLite) bojy);
             bojx bojx = (bojx) bxvd2;
             if (bojx.f164950c) {
                 bojx.mo74035c();
                 bojx.f164950c = false;
             }
             bojy bojy2 = bojy.f133367g;
-            ((bojy) bojx.f164949b).f133374f = bxvk.m124030de();
+            ((bojy) bojx.f164949b).f133374f = GeneratedMessageLite.m124030de();
             da.mo73996a(bojx);
             arrayList.add(da);
             it3 = it;
@@ -295,7 +295,7 @@ public final class qnn {
                 if (z) {
                     bojy l = bxvd3.mo74077l();
                     bxvd bxvd4 = (bxvd) l.mo74142c(5);
-                    bxvd4.mo73625a((bxvk) l);
+                    bxvd4.mo73625a((GeneratedMessageLite) l);
                     bojx bojx2 = (bojx) bxvd4;
                     String str = djc5.f13310b;
                     List unmodifiableList = Collections.unmodifiableList(((bojy) bojx2.f164949b).f133374f);
@@ -311,7 +311,7 @@ public final class qnn {
                         bojx2.f164950c = false;
                     }
                     bojy bojy3 = bojy.f133367g;
-                    ((bojy) bojx2.f164949b).f133374f = bxvk.m124030de();
+                    ((bojy) bojx2.f164949b).f133374f = GeneratedMessageLite.m124030de();
                     bojx2.mo68914a(unmodifiableList.subList(z2 ? 1 : 0, binarySearch));
                     if (bojx2.f164950c) {
                         bojx2.mo74035c();

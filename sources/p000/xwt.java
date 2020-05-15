@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 public final class xwt extends srp {
 
     /* renamed from: b */
-    private static final sek f53306b = new sek(new String[]{"SQLiteDataStoreHelper"}, (short[]) null);
+    private static final Logger f53306b = new Logger(new String[]{"SQLiteDataStoreHelper"}, (short[]) null);
 
     /* renamed from: a */
     private final int f53307a;

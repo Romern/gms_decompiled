@@ -26,18 +26,18 @@ final /* synthetic */ class kzi implements bqeh {
         bmxv a = kzm.m18820a((bbfw) obj, str);
         if (a.mo66813a()) {
             try {
-                bxtx bxtx = (bxtx) ((bbfz) a.mo66814b()).mo56111a().mo66814b();
+                ByteString bxtx = (ByteString) ((bbfz) a.mo66814b()).mo56111a().mo66814b();
                 bxus c = bxus.m123744c();
                 kzd kzd = kzd.f25441b;
                 try {
                     bxuc h = bxtx.mo73764h();
-                    bxvk bxvk = (bxvk) kzd.mo74142c(4);
-                    bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                    a2.mo74220a(bxvk, bxud.m123454a(h), c);
-                    a2.mo74225d(bxvk);
+                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) kzd.mo74142c(4);
+                    bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                    a2.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                    a2.mo74225d(GeneratedMessageLite);
                     h.mo73787a(0);
-                    bxvk.m124027b(bxvk);
-                    obj2 = bmxv.m108566b((kzd) bxvk);
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                    obj2 = bmxv.m108566b((kzd) GeneratedMessageLite);
                     return bqga.m112775a(obj2);
                 } catch (IOException e) {
                     if (!(e.getCause() instanceof bxwf)) {
@@ -69,7 +69,7 @@ final /* synthetic */ class kzi implements bqeh {
             } else {
                 bbfu = bbfu.f102569c;
             }
-            return bqdx.m112673a(kzm.f25461b.mo56101a(bngx.m109356a((Object) bxtx.m123258a(str)), bbfu), new kzj(kzm, str), bqfb.INSTANCE);
+            return bqdx.m112673a(kzm.f25461b.mo56101a(bngx.m109356a((Object) ByteString.m123258a(str)), bbfu), new kzj(kzm, str), bqfb.INSTANCE);
         }
     }
 }

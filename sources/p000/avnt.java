@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public final class avnt extends avnn {
 
     /* renamed from: e */
-    public static final sek f93546e = avpq.m79018e("AbRebootAction");
+    public static final Logger f93546e = avpq.m79018e("AbRebootAction");
 
     /* renamed from: f */
     public static final avto f93547f = new avto("file_path", "");
@@ -68,7 +68,7 @@ public final class avnt extends avnn {
                 avsp avsp2 = (avsp) bmxv.mo66814b();
                 File file = new File((String) mo51433a(f93548g));
                 bxvd bxvd = (bxvd) avsp2.mo74142c(5);
-                bxvd.mo73625a((bxvk) avsp2);
+                bxvd.mo73625a((GeneratedMessageLite) avsp2);
                 avso avso = (avso) bxvd;
                 String valueOf = String.valueOf(file.getAbsolutePath());
                 String str = valueOf.length() == 0 ? new String("file://") : "file://".concat(valueOf);
@@ -84,7 +84,7 @@ public final class avnt extends avnn {
                     avsq = avsq.f93848d;
                 }
                 bxvd bxvd2 = (bxvd) avsq.mo74142c(5);
-                bxvd2.mo73625a((bxvk) avsq);
+                bxvd2.mo73625a((GeneratedMessageLite) avsq);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;

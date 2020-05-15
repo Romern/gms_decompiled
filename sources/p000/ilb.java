@@ -12,7 +12,7 @@ public final class ilb extends ila {
     private final bypc f21277b;
 
     static {
-        new sek("GenericApprovalProtoTextProvider");
+        new Logger("GenericApprovalProtoTextProvider");
     }
 
     public ilb(bypc bypc) {

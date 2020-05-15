@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: budy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class budy extends bxvk implements bxxd {
+public final class budy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final budy f153551e;
@@ -28,7 +28,7 @@ public final class budy extends bxvk implements bxxd {
     static {
         budy budy = new budy();
         f153551e = budy;
-        bxvk.m124024a(budy.class, budy);
+        GeneratedMessageLite.m124024a(budy.class, budy);
     }
 
     private budy() {
@@ -45,7 +45,7 @@ public final class budy extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153551e, "\u0001\u0004\u0000\u0001\u0001\u0010\u0004\u0000\u0000\u0000\u0001ခ\u0000\u000bခ\u0002\fခ\u0003\u0010ခ\u0001", new Object[]{"f", "a", "c", "d", "b"});
+            return GeneratedMessageLite.m124022a(f153551e, "\u0001\u0004\u0000\u0001\u0001\u0010\u0004\u0000\u0000\u0000\u0001ခ\u0000\u000bခ\u0002\fခ\u0003\u0010ခ\u0001", new Object[]{"f", "a", "c", "d", "b"});
         } else if (i2 == 3) {
             return new budy();
         } else {

@@ -34,14 +34,14 @@ public final class awqg extends awqu {
         boolean z;
         bphn bphn = this.f94849a;
         bxvd bxvd = (bxvd) bphn.mo74142c(5);
-        bxvd.mo73625a((bxvk) bphn);
+        bxvd.mo73625a((GeneratedMessageLite) bphn);
         boolean z2 = false;
         if (walletAnalyticsEvent instanceof CreditCardEntryLaunchedEvent) {
             CreditCardEntryLaunchedEvent creditCardEntryLaunchedEvent = (CreditCardEntryLaunchedEvent) walletAnalyticsEvent;
             mo52467a(creditCardEntryLaunchedEvent.f109927d, context);
             bpje bpje = this.f94876k;
             bxvd bxvd2 = (bxvd) bpje.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bpje);
+            bxvd2.mo73625a((GeneratedMessageLite) bpje);
             String str = creditCardEntryLaunchedEvent.f109926c;
             if (bxvd2.f164950c) {
                 bxvd2.mo74035c();

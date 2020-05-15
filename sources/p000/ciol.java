@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ciol */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ciol extends bxvk implements bxxd {
+public final class ciol extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final ciol f191077e;
@@ -25,7 +25,7 @@ public final class ciol extends bxvk implements bxxd {
     static {
         ciol ciol = new ciol();
         f191077e = ciol;
-        bxvk.m124024a(ciol.class, ciol);
+        GeneratedMessageLite.m124024a(ciol.class, ciol);
     }
 
     private ciol() {
@@ -42,7 +42,7 @@ public final class ciol extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191077e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဂ\u0001\u0003(", new Object[]{"a", "b", "d", "c"});
+            return GeneratedMessageLite.m124022a(f191077e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဂ\u0001\u0003(", new Object[]{"a", "b", "d", "c"});
         } else if (i2 == 3) {
             return new ciol();
         } else {

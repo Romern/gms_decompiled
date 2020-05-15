@@ -112,7 +112,7 @@ public final class ahxa extends LruCache {
         ahyw ahyw3 = (ahyw) da.f164949b;
         ahyw3.f68392a |= 2;
         ahyw3.f68394c = rssi;
-        bxtx a2 = bxtx.m123261a(scanResult.getScanRecord().getBytes());
+        ByteString a2 = ByteString.m123261a(scanResult.getScanRecord().getBytes());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -152,7 +152,7 @@ public final class ahxa extends LruCache {
         scanResult.getDevice().getAddress();
         this.f68277e.mo37015a(bvin.FAST_PAIR_DEVICE_DETECTED_WITH_BLOOM_FILTER, "0", ahhs.m55808a(scanResult.getRssi(), txPowerLevel), scanResult.getDevice().getAddress(), i);
         String address2 = scanResult.getDevice().getAddress();
-        bxtx a4 = bxtx.m123261a(serviceData);
+        ByteString a4 = ByteString.m123261a(serviceData);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -180,7 +180,7 @@ public final class ahxa extends LruCache {
         } else {
             String address2 = scanResult.getDevice().getAddress();
             bxvd bxvd = (bxvd) ahyw2.mo74142c(5);
-            bxvd.mo73625a((bxvk) ahyw2);
+            bxvd.mo73625a((GeneratedMessageLite) ahyw2);
             int rssi = scanResult.getRssi();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -330,7 +330,7 @@ public final class ahxa extends LruCache {
         if ((ahyw2.f68392a & 1) != 0 && m56812a(ahyw)) {
             srn srn = ahsd.f67925a;
             bxvd bxvd = (bxvd) ahyw2.mo74142c(5);
-            bxvd.mo73625a((bxvk) ahyw2);
+            bxvd.mo73625a((GeneratedMessageLite) ahyw2);
             long a4 = ((sqv) ahgz.m55754a(this.f68274b, sqv.class)).mo20505a();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -352,7 +352,7 @@ public final class ahxa extends LruCache {
                 int intValue = ((Integer) ahyh.f68345b.get(a5)).intValue();
                 if (!ahyh.f68344a.mo37287a(intValue)) {
                     Intent className = new Intent().setClassName(ahyh.f68346c, "com.google.android.gms.nearby.discovery.fastpair.HalfSheetActivity");
-                    className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET", ahyw4.mo73642k());
+                    className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET", ahyw4.serializeToBytes());
                     className.putExtra("com.google.android.gms.nearby.discovery.HALF_SHEET_TYPE", "DEVICE_PAIRING");
                     className.setFlags(268435456);
                     ahyh.f68344a.mo37288a(intValue, 2);
@@ -484,7 +484,7 @@ public final class ahxa extends LruCache {
             ((bnsl) ahsd.f67925a.mo68390d()).mo68420a("FastPairCache: Auto launching %s", ahyw.f68400i);
             aiaa a2 = ahvd.m56706a(ahyw);
             bxvd bxvd = (bxvd) a2.mo74142c(5);
-            bxvd.mo73625a((bxvk) a2);
+            bxvd.mo73625a((GeneratedMessageLite) a2);
             int rssi = scanResult.getRssi();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
@@ -494,7 +494,7 @@ public final class ahxa extends LruCache {
             aiaa aiaa2 = aiaa.f68501K;
             aiaa.f68513a |= 8192;
             aiaa.f68528p = rssi;
-            bxtx a3 = bxtx.m123261a(nek.m26028a(scanResult.getScanRecord().getBytes()).f35402e);
+            ByteString a3 = ByteString.m123261a(nek.m26028a(scanResult.getScanRecord().getBytes()).f35402e);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;

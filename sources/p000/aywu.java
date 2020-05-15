@@ -31,7 +31,7 @@ public final class aywu extends bxvg implements aywv {
     static {
         aywu aywu = new aywu();
         f98650f = aywu;
-        bxvk.m124024a(aywu.class, aywu);
+        GeneratedMessageLite.m124024a(aywu.class, aywu);
     }
 
     private aywu() {
@@ -52,7 +52,7 @@ public final class aywu extends bxvg implements aywv {
             this.f98657g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f98650f, "\u0001\u0004\u0000\u0001\u0002\u0006\u0004\u0000\u0001\u0001\u0002\u0016\u0004ᐉ\u0000\u0005ဌ\u0001\u0006ဂ\u0002", new Object[]{"a", "b", "c", "d", bpbz.f135694a, "e"});
+            return GeneratedMessageLite.m124022a(f98650f, "\u0001\u0004\u0000\u0001\u0002\u0006\u0004\u0000\u0001\u0001\u0002\u0016\u0004ᐉ\u0000\u0005ဌ\u0001\u0006ဂ\u0002", new Object[]{"a", "b", "c", "d", bpbz.f135694a, "e"});
         } else if (i2 == 3) {
             return new aywu();
         } else {

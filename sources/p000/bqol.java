@@ -70,7 +70,7 @@ public final class bqol {
             bqsl bqsl = (bqsl) da.f164949b;
             bqsk.getClass();
             if (!bqsl.f141544b.mo73666a()) {
-                bqsl.f141544b = bxvk.m124021a(bqsl.f141544b);
+                bqsl.f141544b = GeneratedMessageLite.m124021a(bqsl.f141544b);
             }
             bqsl.f141544b.add(bqsk);
         }

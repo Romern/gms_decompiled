@@ -30,7 +30,7 @@ final /* synthetic */ class bbvd implements Runnable {
     public final void run() {
         bmxv bmxv;
         String str;
-        bxtx bxtx;
+        ByteString bxtx;
         Bitmap decodeByteArray;
         bbwq bbwq = this.f103496a;
         bcoh bcoh = this.f103497b;
@@ -115,11 +115,11 @@ final /* synthetic */ class bbvd implements Runnable {
                         cbdt3 = cbdt.f176788d;
                     }
                     if (cbdt3.f176790a == 1) {
-                        bxtx = (bxtx) cbdt3.f176791b;
+                        bxtx = (ByteString) cbdt3.f176791b;
                     } else {
                         bxtx = bxtx.f164797b;
                     }
-                    byte[] k = bxtx.mo73780k();
+                    byte[] k = bxtx.getKey();
                     int length = k.length;
                     if (length > 0 && (decodeByteArray = BitmapFactory.decodeByteArray(k, 0, length)) != null) {
                         m2.mo57437a(decodeByteArray);

@@ -836,7 +836,7 @@ public final class qmc {
      */
     /* JADX WARNING: Code restructure failed: missing block: B:87:0x0278, code lost:
         r5 = (p000.bxvd) r2.mo74142c(5);
-        r5.mo73625a((p000.bxvk) r2);
+        r5.mo73625a((p000.GeneratedMessageLite) r2);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:88:0x0284, code lost:
         if (r5.f164950c != false) goto L_0x0287;
@@ -1049,7 +1049,7 @@ public final class qmc {
                             try {
                                 qmo d2 = a6.mo24125d();
                                 bxvd bxvd2 = (bxvd) d2.mo74142c(5);
-                                bxvd2.mo73625a((bxvk) d2);
+                                bxvd2.mo73625a((GeneratedMessageLite) d2);
                                 Iterator it3 = r14.iterator();
                                 boolean z10 = false;
                                 while (it3.hasNext()) {
@@ -1061,7 +1061,7 @@ public final class qmc {
                                         bxvd = bxvd2;
                                         qmn qmn2 = (qmn) ((qmo) bxvd.f164949b).f41728c.get(a7);
                                         bxvd bxvd3 = (bxvd) qmn2.mo74142c(5);
-                                        bxvd3.mo73625a((bxvk) qmn2);
+                                        bxvd3.mo73625a((GeneratedMessageLite) qmn2);
                                         int i10 = 0;
                                         Object obj2 = r14;
                                         while (true) {

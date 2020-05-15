@@ -32,7 +32,7 @@ final class azek implements Runnable {
                 }
                 cbjn cbjn = (cbjn) da2.f164949b;
                 if (!cbjn.f177348b.mo73666a()) {
-                    cbjn.f177348b = bxvk.m124021a(cbjn.f177348b);
+                    cbjn.f177348b = GeneratedMessageLite.m124021a(cbjn.f177348b);
                 }
                 bxsy.m123078a(list, cbjn.f177348b);
                 cbjp g = azet.mo54851g();

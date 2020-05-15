@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzio */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzio extends bxvk implements bxxd {
+public final class bzio extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bzio f170216a;
@@ -13,7 +13,7 @@ public final class bzio extends bxvk implements bxxd {
     static {
         bzio bzio = new bzio();
         f170216a = bzio;
-        bxvk.m124024a(bzio.class, bzio);
+        GeneratedMessageLite.m124024a(bzio.class, bzio);
     }
 
     private bzio() {
@@ -31,7 +31,7 @@ public final class bzio extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f170216a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f170216a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bzio();

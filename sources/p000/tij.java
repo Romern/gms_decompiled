@@ -13,6 +13,6 @@ final class tij implements qwq {
 
     /* renamed from: a */
     public final byte[] mo14930a() {
-        return this.f46073a.mo73642k();
+        return this.f46073a.serializeToBytes();
     }
 }

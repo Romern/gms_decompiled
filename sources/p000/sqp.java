@@ -13,6 +13,6 @@ public final class sqp {
 
     /* renamed from: a */
     public final byte[] mo25982a() {
-        return this.f44990a.mo73642k();
+        return this.f44990a.serializeToBytes();
     }
 }

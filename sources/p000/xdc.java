@@ -15,7 +15,7 @@ import java.util.List;
 public final class xdc extends aaab {
 
     /* renamed from: b */
-    public static final sek f51982b = new sek(new String[]{"ListKeysOperation"}, (short[]) null);
+    public static final Logger f51982b = new Logger(new String[]{"ListKeysOperation"}, (short[]) null);
 
     /* renamed from: d */
     private static final bngx f51983d = bngx.m109361a("fido:hardware_protected_uv", "fido:software_optional_uv", "fido:strongbox_protected_up", "fido:android_software_key", "fido:android_strong_auth_key", "fido:android_strongbox_key");
@@ -62,9 +62,9 @@ public final class xdc extends aaab {
         bqgg bqgg;
         bmxv bmxv;
         PublicKey publicKey;
-        sek sek = f51982b;
+        Logger Logger = f51982b;
         String valueOf = String.valueOf(this.f51986e);
-        sek.mo25412b(valueOf.length() == 0 ? new String("listKeys with rpId ") : "listKeys with rpId ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("listKeys with rpId ") : "listKeys with rpId ".concat(valueOf), new Object[0]);
         ArrayList arrayList = new ArrayList();
         try {
             for (xcl xcl : this.f51987f.mo29636b(this.f51986e)) {

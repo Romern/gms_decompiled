@@ -15,7 +15,7 @@ import com.google.android.gms.fido.u2f.api.view.ViewOptions;
 public final class ycd extends yct implements View.OnClickListener {
 
     /* renamed from: c */
-    private static final sek f53591c = new sek(new String[]{"BleEnableFragment"}, (short[]) null);
+    private static final Logger f53591c = new Logger(new String[]{"BleEnableFragment"}, (short[]) null);
 
     /* renamed from: a */
     private Boolean f53592a;

@@ -156,7 +156,7 @@ public final class ayaj implements Runnable {
                         }
                         if (ayak.m83694b(ayfa.f97433e)) {
                             bxvd bxvd = (bxvd) ayfa.mo74142c(5);
-                            bxvd.mo73625a((bxvk) ayfa);
+                            bxvd.mo73625a((GeneratedMessageLite) ayfa);
                             String str3 = ayak3.f96930k.mo53808b().f96814a;
                             if (bxvd.f164950c) {
                                 bxvd.mo74035c();
@@ -307,7 +307,7 @@ public final class ayaj implements Runnable {
             }
             byte[] byteArray2 = bundle.getByteArray("rawData");
             if (byteArray2 != null) {
-                bxtx a = bxtx.m123261a(byteArray2);
+                ByteString a = ByteString.m123261a(byteArray2);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

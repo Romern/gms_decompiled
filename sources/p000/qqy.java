@@ -40,12 +40,12 @@ public final class qqy {
     /* renamed from: a */
     public static List m32673a(qqy qqy, qui qui) {
         if (qui != null && !qui.f42145b.isEmpty()) {
-            sdo.m34966a(qui, "encryptedData cannot be null");
+            sdo.checkIfNull(qui, "encryptedData cannot be null");
             String str = qui.f42145b;
             sdo.m34969a(str, (Object) "keyName cannot be empty");
             if (qqy.f41983a.containsKey(str)) {
                 try {
-                    qul qul = (qul) bxvk.m124016a(qul.f42159b, qqy.mo24213a(qui), bxus.m123744c());
+                    qul qul = (qul) GeneratedMessageLite.m124016a(qul.f42159b, qqy.mo24213a(qui), bxus.m123744c());
                     if (qul.f42161a.size() != 0) {
                         ArrayList arrayList = new ArrayList();
                         bxwc bxwc = qul.f42161a;
@@ -66,8 +66,8 @@ public final class qqy {
 
     /* renamed from: a */
     public static qqy m32674a(qqz qqz, bstz bstz) {
-        sdo.m34966a(qqz, "cryptographerKey cannot be null");
-        sdo.m34966a(bstz, "nigoriSpecifics cannot be null");
+        sdo.checkIfNull(qqz, "cryptographerKey cannot be null");
+        sdo.checkIfNull(bstz, "nigoriSpecifics cannot be null");
         ArrayList arrayList = new ArrayList();
         arrayList.add(qqz);
         qqy qqy = new qqy(bngx.m109356a(qqz), qqz.f41985a);
@@ -100,7 +100,7 @@ public final class qqy {
 
     /* renamed from: a */
     public final qui mo24212a(byte[] bArr) {
-        sdo.m34966a(bArr, "data cannot be null");
+        sdo.checkIfNull(bArr, "data cannot be null");
         qqz a = mo24211a();
         bxvd da = qui.f42142d.mo74144da();
         String str = a.f41985a;
@@ -112,7 +112,7 @@ public final class qqy {
         str.getClass();
         qui.f42144a |= 1;
         qui.f42145b = str;
-        bxtx a2 = bxtx.m123261a(a.f41986b.mo24216a(bArr));
+        ByteString a2 = ByteString.m123261a(a.f41986b.mo24216a(bArr));
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -126,13 +126,13 @@ public final class qqy {
 
     /* renamed from: a */
     public final byte[] mo24213a(qui qui) {
-        sdo.m34966a(qui, "encryptedData cannot be null");
+        sdo.checkIfNull(qui, "encryptedData cannot be null");
         int i = qui.f42144a;
         if ((i & 1) == 0) {
             throw new qra("Missing key name.");
         } else if ((i & 2) != 0) {
             String str = qui.f42145b;
-            byte[] k = qui.f42146c.mo73780k();
+            byte[] k = qui.f42146c.getKey();
             qqz qqz = (qqz) this.f41983a.get(str);
             if (qqz != null) {
                 return qqz.f41986b.mo24217b(k);

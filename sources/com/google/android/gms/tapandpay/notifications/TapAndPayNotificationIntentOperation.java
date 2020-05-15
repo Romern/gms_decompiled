@@ -373,7 +373,7 @@ public class TapAndPayNotificationIntentOperation extends IntentOperation {
             } else {
                 try {
                     try {
-                        bldf bldf2 = (bldf) bxvk.m124016a(bldf.f126055d, Base64.decode(stringExtra, 1), bxus.m123744c());
+                        bldf bldf2 = (bldf) GeneratedMessageLite.m124016a(bldf.f126055d, Base64.decode(stringExtra, 1), bxus.m123744c());
                         String str21 = "";
                         if ((bldf2.f126057a & 1) != 0) {
                             str2 = bldf2.f126058b;
@@ -1798,7 +1798,7 @@ public class TapAndPayNotificationIntentOperation extends IntentOperation {
             int i5 = 1;
             try {
                 try {
-                    bldf bldf2 = (bldf) bxvk.m124016a(bldf.f126055d, Base64.decode(stringExtra, 1), bxus.m123744c());
+                    bldf bldf2 = (bldf) GeneratedMessageLite.m124016a(bldf.f126055d, Base64.decode(stringExtra, 1), bxus.m123744c());
                     String str11 = "";
                     String str12 = (bldf2.f126057a & 1) != 0 ? bldf2.f126058b : str11;
                     if (str12.isEmpty()) {

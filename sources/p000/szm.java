@@ -20,7 +20,7 @@ import java.util.List;
 public final class szm {
 
     /* renamed from: a */
-    public static final sek f45509a = tea.m36798a("service_state_listener");
+    public static final Logger f45509a = tea.m36798a("service_state_listener");
 
     /* renamed from: b */
     private static WeakReference f45510b = new WeakReference(null);
@@ -88,7 +88,7 @@ public final class szm {
     /* renamed from: a */
     public static final List m36650a(Context context) {
         if (!cdfn.m132940c()) {
-            f45509a.mo25409a("Service state signals disabled.", new Object[0]);
+            f45509a.logVerbose("Service state signals disabled.", new Object[0]);
             return Collections.emptyList();
         }
         List c = szn.m36664c(context);
@@ -96,7 +96,7 @@ public final class szm {
         szr.m36692a();
         while (it.hasNext()) {
             int intValue = ((Integer) it.next()).intValue();
-            szr.f45526a.mo25409a("Getting count of successful ServiceStateEvents for subscriptionId %d", Integer.valueOf(intValue));
+            szr.f45526a.logVerbose("Getting count of successful ServiceStateEvents for subscriptionId %d", Integer.valueOf(intValue));
             if (szr.m36688a(intValue, 2) >= ((long) ((int) cdfn.f180658a.mo6606a().mo77418t()))) {
                 it.remove();
             }
@@ -159,9 +159,9 @@ public final class szm {
       ClspMth{android.content.ContentValues.put(java.lang.String, java.lang.Integer):void} */
     /* renamed from: a */
     public final void mo26275a(ServiceState serviceState, int i, SignalStrength signalStrength) {
-        sek sek = f45509a;
+        Logger Logger = f45509a;
         Integer valueOf = Integer.valueOf(i);
-        sek.mo25412b("Service state changed for subId %d: %s, %s", valueOf, serviceState, signalStrength);
+        Logger.mo25412b("Service state changed for subId %d: %s, %s", valueOf, serviceState, signalStrength);
         bxvd da = cbpb.f177888i.mo74144da();
         bxyk a = tdo.m36764a(System.currentTimeMillis());
         if (da.f164950c) {
@@ -219,7 +219,7 @@ public final class szm {
         int i3 = (cbpb.f177893d == 1 || cbpb.f177894e == 1) ? 1 : 0;
         szr.m36692a();
         cbpb cbpb2 = (cbpb) da.mo74062i();
-        szr.f45526a.mo25409a("Saving a ServiceStateEvent", new Object[0]);
+        szr.f45526a.logVerbose("Saving a ServiceStateEvent", new Object[0]);
         ContentValues contentValues = new ContentValues();
         contentValues.put("subscription_id", valueOf);
         bxyk bxyk = cbpb2.f177890a;
@@ -229,7 +229,7 @@ public final class szm {
         contentValues.put("event_time", Long.valueOf(tdo.m36763a(bxyk)));
         contentValues.put("event_type", (Integer) 2);
         contentValues.put(NetworkLatencyContract.NetworkLatencyColumns.SUCCESSFUL, Integer.valueOf(i3));
-        contentValues.put("event_proto", cbpb2.mo73642k());
+        contentValues.put("event_proto", cbpb2.serializeToBytes());
         szr.m36693a(contentValues);
         if (i3 != 0) {
             f45509a.mo25412b("State IN_SERVICE for subId %d. Will stop listening.", valueOf);

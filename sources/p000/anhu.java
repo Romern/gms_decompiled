@@ -42,7 +42,7 @@ public final class anhu {
             }
         }
         if (bArr != null && bArr.length > 0) {
-            bxtx a = bxtx.m123261a(bArr);
+            ByteString a = ByteString.m123261a(bArr);
             if (braf.f164950c) {
                 braf.mo74035c();
                 braf.f164950c = false;

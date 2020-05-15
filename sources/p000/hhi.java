@@ -13,7 +13,7 @@ final /* synthetic */ class hhi implements View.OnTouchListener {
     }
 
     public final boolean onTouch(View view, MotionEvent motionEvent) {
-        sek sek = hhj.f19771a;
+        Logger Logger = hhj.f19771a;
         return true;
     }
 }

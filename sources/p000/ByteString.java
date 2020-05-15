@@ -15,13 +15,13 @@ import java.util.Locale;
 
 /* renamed from: bxtx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public abstract class bxtx implements Iterable, Serializable {
+public abstract class ByteString implements Iterable, Serializable {
 
     /* renamed from: a */
     private static final bxtq f164796a;
 
     /* renamed from: b */
-    public static final bxtx f164797b = new bxtu(bxwd.f164981b);
+    public static final ByteString f164797b = new bxtu(bxwd.f164981b);
 
     /* renamed from: c */
     public int f164798c = 0;
@@ -37,8 +37,8 @@ public abstract class bxtx implements Iterable, Serializable {
     }
 
     /* renamed from: a */
-    public static bxtx m123256a(InputStream inputStream) {
-        bxtx bxtx;
+    public static ByteString m123256a(InputStream inputStream) {
+        ByteString bxtx;
         ArrayList arrayList = new ArrayList();
         int i = PSKKeyManager.MAX_KEY_LENGTH_BYTES;
         while (true) {
@@ -65,7 +65,7 @@ public abstract class bxtx implements Iterable, Serializable {
     }
 
     /* renamed from: b */
-    public static bxtx m123263b(ByteBuffer byteBuffer) {
+    public static ByteString m123263b(ByteBuffer byteBuffer) {
         int remaining = byteBuffer.remaining();
         m123267c(0, remaining, byteBuffer.remaining());
         byte[] bArr = new byte[remaining];
@@ -128,7 +128,7 @@ public abstract class bxtx implements Iterable, Serializable {
     public abstract int mo73753a(int i, int i2, int i3);
 
     /* renamed from: a */
-    public abstract bxtx mo73754a(int i, int i2);
+    public abstract ByteString mo73754a(int i, int i2);
 
     /* access modifiers changed from: protected */
     /* renamed from: a */
@@ -200,7 +200,7 @@ public abstract class bxtx implements Iterable, Serializable {
     }
 
     /* renamed from: k */
-    public final byte[] mo73780k() {
+    public final byte[] getKey() {
         int a = mo73744a();
         if (a == 0) {
             return bxwd.f164981b;
@@ -225,17 +225,17 @@ public abstract class bxtx implements Iterable, Serializable {
     }
 
     /* renamed from: b */
-    static bxtx m123264b(byte[] bArr) {
+    static ByteString m123264b(byte[] bArr) {
         return new bxtu(bArr);
     }
 
     /* renamed from: b */
-    static bxtx m123265b(byte[] bArr, int i, int i2) {
+    static ByteString m123265b(byte[] bArr, int i, int i2) {
         return new bxtp(bArr, i, i2);
     }
 
     /* renamed from: c */
-    public final bxtx mo73775c(int i) {
+    public final ByteString mo73775c(int i) {
         return mo73754a(i, mo73744a());
     }
 
@@ -272,7 +272,7 @@ public abstract class bxtx implements Iterable, Serializable {
     /* JADX WARN: Type inference failed for: r3v0, types: [java.util.List, java.util.Collection, java.lang.Iterable], assign insn: null */
     /* JADX WARNING: Unknown variable types count: 1 */
     /* renamed from: a */
-    public static bxtx m123257a(Iterable r3) {
+    public static ByteString m123257a(Iterable r3) {
         int i;
         if (!(r3 instanceof Collection)) {
             int size = r3.size();
@@ -303,21 +303,21 @@ public abstract class bxtx implements Iterable, Serializable {
     }
 
     /* renamed from: a */
-    public static bxtx m123258a(String str) {
+    public static ByteString m123258a(String str) {
         return new bxtu(str.getBytes(bxwd.f164980a));
     }
 
     /* renamed from: a */
-    public static bxtx m123259a(String str, Charset charset) {
+    public static ByteString m123259a(String str, Charset charset) {
         return new bxtu(str.getBytes(charset));
     }
 
     /* renamed from: a */
-    private static bxtx m123260a(Iterator it, int i) {
+    private static ByteString m123260a(Iterator it, int i) {
         if (i <= 0) {
             throw new IllegalArgumentException(String.format("length (%s) must be >= 1", Integer.valueOf(i)));
         } else if (i == 1) {
-            return (bxtx) it.next();
+            return (ByteString) it.next();
         } else {
             int i2 = i >>> 1;
             return m123260a(it, i2).mo73770a(m123260a(it, i - i2));
@@ -325,18 +325,18 @@ public abstract class bxtx implements Iterable, Serializable {
     }
 
     /* renamed from: a */
-    public static bxtx m123261a(byte[] bArr) {
+    public static ByteString m123261a(byte[] bArr) {
         return m123262a(bArr, 0, bArr.length);
     }
 
     /* renamed from: a */
-    public static bxtx m123262a(byte[] bArr, int i, int i2) {
+    public static ByteString m123262a(byte[] bArr, int i, int i2) {
         m123267c(i, i + i2, bArr.length);
         return new bxtu(f164796a.mo73742a(bArr, i, i2));
     }
 
     /* renamed from: a */
-    public final bxtx mo73770a(bxtx bxtx) {
+    public final ByteString mo73770a(ByteString bxtx) {
         if (Integer.MAX_VALUE - mo73744a() >= bxtx.mo73744a()) {
             int i = bxxu.f165061h;
             if (bxtx.mo73744a() == 0) {
@@ -363,9 +363,9 @@ public abstract class bxtx implements Iterable, Serializable {
             bxxr bxxr = new bxxr();
             bxxr.mo74232a(this);
             bxxr.mo74232a(bxtx);
-            bxtx bxtx2 = (bxtx) bxxr.f165050a.pop();
+            ByteString bxtx2 = (ByteString) bxxr.f165050a.pop();
             while (!bxxr.f165050a.isEmpty()) {
-                bxtx2 = new bxxu((bxtx) bxxr.f165050a.pop(), bxtx2);
+                bxtx2 = new bxxu((ByteString) bxxr.f165050a.pop(), bxtx2);
             }
             return bxtx2;
         }

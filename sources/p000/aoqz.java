@@ -64,7 +64,7 @@ final /* synthetic */ class aoqz implements Callable {
             bymy.f167094e = bxww.mo74203a();
         }
         bymy.f167094e.putAll(map);
-        byte[] k = ((bymy) da.mo74062i()).mo73642k();
+        byte[] k = ((bymy) da.mo74062i()).serializeToBytes();
         HttpURLConnection httpURLConnection = null;
         try {
             String d = cghx.m145516d();
@@ -85,7 +85,7 @@ final /* synthetic */ class aoqz implements Callable {
                 outputStream.close();
                 int responseCode = httpURLConnection.getResponseCode();
                 if (responseCode == 200) {
-                    String str5 = ((bymz) bxvk.m124011a(bymz.f167096b, httpURLConnection.getInputStream(), bxus.m123744c())).f167098a;
+                    String str5 = ((bymz) GeneratedMessageLite.m124011a(bymz.f167096b, httpURLConnection.getInputStream(), bxus.m123744c())).f167098a;
                     stp.m36307a(httpURLConnection);
                     return str5;
                 }

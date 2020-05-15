@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public final class avot implements avpy {
 
     /* renamed from: a */
-    private static final sek f93675a = avpq.m79018e("DefaultThrottler");
+    private static final Logger f93675a = avpq.m79018e("DefaultThrottler");
 
     /* renamed from: b */
     private static final long f93676b = TimeUnit.SECONDS.toMillis(3);

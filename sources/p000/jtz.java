@@ -24,6 +24,6 @@ public final class jtz {
 
     /* renamed from: a */
     public final void mo14097a(jus jus) {
-        this.f23211a.mo14114a(this.f23212b.mo74476a(jus.mo73642k()));
+        this.f23211a.mo14114a(this.f23212b.mo74476a(jus.serializeToBytes()));
     }
 }

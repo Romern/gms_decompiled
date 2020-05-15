@@ -95,17 +95,17 @@ public final class aahg extends aahl {
                 vvu vvu = (vvu) newFuture.get();
                 if (vvu != null) {
                     aahj.f28136c.mo16858a(5007, System.currentTimeMillis() - currentTimeMillis3);
-                    bxtx bxtx = vvu.f50071a;
+                    ByteString bxtx = vvu.f50071a;
                     bxus c = bxus.m123744c();
                     vvw vvw2 = vvw.f50079j;
                     bxuc h = bxtx.mo73764h();
-                    bxvk bxvk = (bxvk) vvw2.mo74142c(4);
-                    bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                    a2.mo74220a(bxvk, bxud.m123454a(h), c);
-                    a2.mo74225d(bxvk);
+                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) vvw2.mo74142c(4);
+                    bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                    a2.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                    a2.mo74225d(GeneratedMessageLite);
                     h.mo73787a(0);
-                    bxvk.m124027b(bxvk);
-                    vvw = (vvw) bxvk;
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                    vvw = (vvw) GeneratedMessageLite;
                 } else {
                     aahj.f28136c.mo16858a(4006, System.currentTimeMillis() - currentTimeMillis3);
                 }
@@ -124,8 +124,8 @@ public final class aahg extends aahl {
         if (vvw == null) {
             i = 1;
         } else if (!vvw.f50086f) {
-            String a3 = boan.f132472f.mo68794a(vvw.f50083c.mo73780k());
-            String a4 = aaic.m21297a(vvw.f50082b.mo73780k());
+            String a3 = boan.f132472f.mo68794a(vvw.f50083c.getKey());
+            String a4 = aaic.m21297a(vvw.f50082b.getKey());
             bxvd da = dci.f12811g.mo74144da();
             if (da.f164950c) {
                 da.mo74035c();
@@ -172,28 +172,28 @@ public final class aahg extends aahl {
             dch.f12808b = dci4;
             int i5 = dch.f12807a | 1;
             dch.f12807a = i5;
-            bxtx bxtx2 = vvw4.f50084d;
+            ByteString bxtx2 = vvw4.f50084d;
             bxtx2.getClass();
             int i6 = i5 | 2;
             dch.f12807a = i6;
             dch.f12809c = bxtx2;
-            bxtx bxtx3 = vvw4.f50082b;
+            ByteString bxtx3 = vvw4.f50082b;
             bxtx3.getClass();
             dch.f12807a = i6 | 4;
             dch.f12810d = bxtx3;
             try {
-                bxtx a5 = bxtx.m123261a(new ProgramResponse(((dch) da2.mo74062i()).mo73639aL().mo73780k(), 5).f32766b);
+                ByteString a5 = ByteString.m123261a(new ProgramResponse(((dch) da2.mo74062i()).mo73639aL().getKey(), 5).f32766b);
                 bxus c2 = bxus.m123744c();
                 dch dch2 = dch.f12805e;
                 try {
                     bxuc h2 = a5.mo73764h();
-                    bxvk bxvk2 = (bxvk) dch2.mo74142c(4);
-                    bxxv a6 = bxxm.f165037a.mo74228a(bxvk2);
-                    a6.mo74220a(bxvk2, bxud.m123454a(h2), c2);
-                    a6.mo74225d(bxvk2);
+                    GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) dch2.mo74142c(4);
+                    bxxv a6 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+                    a6.mo74220a(GeneratedMessageLite2, bxud.m123454a(h2), c2);
+                    a6.mo74225d(GeneratedMessageLite2);
                     h2.mo73787a(0);
-                    bxvk.m124027b(bxvk2);
-                    if (!aaib.mo16892a((dch) bxvk2, new aahf(this))) {
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite2);
+                    if (!aaib.mo16892a((dch) GeneratedMessageLite2, new aahf(this))) {
                         this.f28127d.mo16858a(4008, System.currentTimeMillis() - currentTimeMillis);
                         return 1;
                     }

@@ -100,7 +100,7 @@ public final class ccjl implements ccjj {
         f179183q = bdyx.m91610a(bdyw, "Detection__run_processors_in_parallel_and_merge_results", false);
         f179184r = bdyx.m91610a(bdyw, "Detection__score_based_processor_multi_field_types_enabled", true);
         try {
-            f179185s = bdyx.m91608a(bdyw, "Detection__score_based_view_node_processor_proto", (kpd) bxvk.m124014a(kpd.f24723c, new byte[0]), ccjk.f179166a);
+            f179185s = bdyx.m91608a(bdyw, "Detection__score_based_view_node_processor_proto", (kpd) GeneratedMessageLite.m124014a(kpd.f24723c, new byte[0]), ccjk.f179166a);
             f179186t = bdyx.m91610a(bdyw, "Detection__unofficial_autofill_hints_support_enabled", true);
             f179187u = bdyx.m91610a(bdyw, "Detection__username_phone_post_processor_enabled", true);
         } catch (bxwf e) {

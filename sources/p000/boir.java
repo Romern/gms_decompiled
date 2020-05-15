@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boir */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boir extends bxvk implements bxxd {
+public final class boir extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final boir f133211o;
@@ -55,7 +55,7 @@ public final class boir extends bxvk implements bxxd {
     static {
         boir boir = new boir();
         f133211o = boir;
-        bxvk.m124024a(boir.class, boir);
+        GeneratedMessageLite.m124024a(boir.class, boir);
     }
 
     private boir() {
@@ -72,7 +72,7 @@ public final class boir extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133211o, "\u0001\r\u0000\u0001\u0001\r\r\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\tဉ\b\nဉ\t\u000bဉ\n\fဉ\u000b\rဉ\f", new Object[]{"a", "b", "c", boiq.f133210a, "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"});
+            return GeneratedMessageLite.m124022a(f133211o, "\u0001\r\u0000\u0001\u0001\r\r\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဌ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\tဉ\b\nဉ\t\u000bဉ\n\fဉ\u000b\rဉ\f", new Object[]{"a", "b", "c", boiq.f133210a, "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"});
         } else if (i2 == 3) {
             return new boir();
         } else {

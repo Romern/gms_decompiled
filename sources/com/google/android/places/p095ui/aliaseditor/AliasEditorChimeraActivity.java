@@ -187,7 +187,7 @@ public class AliasEditorChimeraActivity extends deu implements bijv, biis, bike,
         }
         rjo rjo = aema.f63501a;
         rkb rkb = biij.f120654a;
-        sdo.m34966a((Object) str, (Object) "alias == null");
+        sdo.checkIfNull((Object) str, (Object) "alias == null");
         if (!str.equals("Home") && !str.equals("Work")) {
             sdo.m34975b(false, "subId == null when alias is not home or work");
         }
@@ -561,7 +561,7 @@ public class AliasEditorChimeraActivity extends deu implements bijv, biis, bike,
             z = false;
         }
         sdo.m34975b(z, "placeId == null and address == null");
-        sdo.m34966a((Object) str3, (Object) "alias == null");
+        sdo.checkIfNull((Object) str3, (Object) "alias == null");
         biij.f120665l = rkb.mo24795b(new aena(aema.f63501a, rkb, str3, str, str2));
         biij.f120665l.mo9459a(new biii(biij, str, str2), cggj.m145237d(), TimeUnit.MILLISECONDS);
     }

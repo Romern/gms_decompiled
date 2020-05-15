@@ -16,7 +16,7 @@ public class NfcAdvertisingChimeraService extends HostApduService {
     /* renamed from: a */
     private static airu m67370a(airt airt) {
         try {
-            bvgm bvgm = (bvgm) bxvk.m124016a(bvgm.f156012e, airt.f69597g, bxus.m123744c());
+            bvgm bvgm = (bvgm) GeneratedMessageLite.m124016a(bvgm.f156012e, airt.f69597g, bxus.m123744c());
             String str = bvgm.f156015b;
             String str2 = bvgm.f156016c;
             byte[] k = bvgm.f156017d.mo73780k();
@@ -225,7 +225,7 @@ public class NfcAdvertisingChimeraService extends HostApduService {
         }
         if (airt != null && airt.f69591a == Byte.MIN_VALUE && airt.f69592b == 1) {
             try {
-                bvgm bvgm = (bvgm) bxvk.m124016a(bvgm.f156012e, airt.f69597g, bxus.m123744c());
+                bvgm bvgm = (bvgm) GeneratedMessageLite.m124016a(bvgm.f156012e, airt.f69597g, bxus.m123744c());
                 String str = bvgm.f156015b;
                 String str2 = bvgm.f156016c;
                 byte[] k = bvgm.f156017d.mo73780k();

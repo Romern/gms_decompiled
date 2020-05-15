@@ -44,7 +44,7 @@ final /* synthetic */ class bayk implements bqeh {
                 bauz = bauz.f101860g;
             }
             bxvd bxvd = (bxvd) bauz.mo74142c(5);
-            bxvd.mo73625a((bxvk) bauz);
+            bxvd.mo73625a((GeneratedMessageLite) bauz);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -54,7 +54,7 @@ final /* synthetic */ class bayk implements bqeh {
             bauz2.f101865d = a;
             bauz bauz3 = (bauz) bxvd.mo74062i();
             bxvd bxvd2 = (bxvd) bavd.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bavd);
+            bxvd2.mo73625a((GeneratedMessageLite) bavd);
             bavc bavc = (bavc) bxvd2;
             if (bavc.f164950c) {
                 bavc.mo74035c();
@@ -67,7 +67,7 @@ final /* synthetic */ class bayk implements bqeh {
             bavd2.f101871a |= 1;
             bavd bavd4 = (bavd) bavc.mo74062i();
             bxvd bxvd3 = (bxvd) bavr.mo74142c(5);
-            bxvd3.mo73625a((bxvk) bavr);
+            bxvd3.mo73625a((GeneratedMessageLite) bavr);
             if (bxvd3.f164950c) {
                 bxvd3.mo74035c();
                 bxvd3.f164950c = false;

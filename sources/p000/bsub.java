@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsub */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsub extends bxvk implements bxxd {
+public final class bsub extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bsub f147101b;
@@ -16,7 +16,7 @@ public final class bsub extends bxvk implements bxxd {
     static {
         bsub bsub = new bsub();
         f147101b = bsub;
-        bxvk.m124024a(bsub.class, bsub);
+        GeneratedMessageLite.m124024a(bsub.class, bsub);
     }
 
     private bsub() {
@@ -33,7 +33,7 @@ public final class bsub extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f147101b, "\u0000\u0001\u0000\u0000\u0003\u0003\u0001\u0000\u0000\u0000\u0003Ȉ", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f147101b, "\u0000\u0001\u0000\u0000\u0003\u0003\u0001\u0000\u0000\u0000\u0003Ȉ", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bsub();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: akyp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class akyp extends bxvk implements bxxd {
+public final class akyp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final akyp f73128g;
@@ -31,7 +31,7 @@ public final class akyp extends bxvk implements bxxd {
     static {
         akyp akyp = new akyp();
         f73128g = akyp;
-        bxvk.m124024a(akyp.class, akyp);
+        GeneratedMessageLite.m124024a(akyp.class, akyp);
     }
 
     private akyp() {
@@ -48,7 +48,7 @@ public final class akyp extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f73128g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003\u0004\u0004\u0004\u0005\u0004\u0006Ȉ", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f73128g, "\u0000\u0006\u0000\u0000\u0001\u0006\u0006\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003\u0004\u0004\u0004\u0005\u0004\u0006Ȉ", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new akyp();
         } else {

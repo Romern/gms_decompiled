@@ -11,7 +11,7 @@ import java.util.concurrent.ExecutorService;
 public final class jnc {
 
     /* renamed from: a */
-    public static final sek f22855a = jsy.m17256a("RemoteBeaconSeedFetcher");
+    public static final Logger f22855a = jsy.m17256a("RemoteBeaconSeedFetcher");
 
     /* renamed from: b */
     public static WeakReference f22856b;

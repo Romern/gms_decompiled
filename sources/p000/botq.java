@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: botq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class botq extends bxvk implements bxxd {
+public final class botq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final botq f134857e;
@@ -25,7 +25,7 @@ public final class botq extends bxvk implements bxxd {
     static {
         botq botq = new botq();
         f134857e = botq;
-        bxvk.m124024a(botq.class, botq);
+        GeneratedMessageLite.m124024a(botq.class, botq);
     }
 
     private botq() {
@@ -42,7 +42,7 @@ public final class botq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134857e, "\u0001\u0006\u0001\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဌ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000\u0005ြ\u0000\u0006ြ\u0000", new Object[]{"c", "b", "a", "d", both.f134780a, botg.class, botc.class, botp.class, bota.class, bosz.class});
+            return GeneratedMessageLite.m124022a(f134857e, "\u0001\u0006\u0001\u0001\u0001\u0006\u0006\u0000\u0000\u0000\u0001ဌ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000\u0005ြ\u0000\u0006ြ\u0000", new Object[]{"c", "b", "a", "d", both.f134780a, botg.class, botc.class, botp.class, bota.class, bosz.class});
         } else if (i2 == 3) {
             return new botq();
         } else {

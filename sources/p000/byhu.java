@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byhu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byhu extends bxvk implements bxxd {
+public final class byhu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byhu f166512c;
@@ -19,11 +19,11 @@ public final class byhu extends bxvk implements bxxd {
     static {
         byhu byhu = new byhu();
         f166512c = byhu;
-        bxvk.m124024a(byhu.class, byhu);
+        GeneratedMessageLite.m124024a(byhu.class, byhu);
     }
 
     private byhu() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
         bxxn bxxn = bxxn.f165040b;
     }
 
@@ -38,7 +38,7 @@ public final class byhu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166512c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဂ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f166512c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဂ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new byhu();
         } else {

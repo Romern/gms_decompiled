@@ -1206,7 +1206,7 @@ public final class alpn {
         if (r14.f148682y.mo73666a() != false) goto L_0x0a55;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:535:0x0a4d, code lost:
-        r14.f148682y = p000.bxvk.m124021a(r14.f148682y);
+        r14.f148682y = p000.GeneratedMessageLite.m124021a(r14.f148682y);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:536:0x0a55, code lost:
         p000.bxsy.m123078a(r5, r14.f148682y);

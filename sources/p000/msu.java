@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: msu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class msu extends bxvk implements bxxd {
+public final class msu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final msu f34592c;
@@ -19,7 +19,7 @@ public final class msu extends bxvk implements bxxd {
     static {
         msu msu = new msu();
         f34592c = msu;
-        bxvk.m124024a(msu.class, msu);
+        GeneratedMessageLite.m124024a(msu.class, msu);
     }
 
     private msu() {
@@ -36,7 +36,7 @@ public final class msu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34592c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mst.f34591a});
+            return GeneratedMessageLite.m124022a(f34592c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", mst.f34591a});
         } else if (i2 == 3) {
             return new msu();
         } else {

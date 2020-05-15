@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btuc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btuc extends bxvk implements bxxd {
+public final class btuc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btuc f150450c;
@@ -19,7 +19,7 @@ public final class btuc extends bxvk implements bxxd {
     static {
         btuc btuc = new btuc();
         f150450c = btuc;
-        bxvk.m124024a(btuc.class, btuc);
+        GeneratedMessageLite.m124024a(btuc.class, btuc);
     }
 
     private btuc() {
@@ -36,7 +36,7 @@ public final class btuc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150450c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f150450c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new btuc();
         } else {

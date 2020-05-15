@@ -22,7 +22,7 @@ public final class avoj extends avnn {
     public static final avto f93623e = new avto("file_path", "");
 
     /* renamed from: f */
-    private static final sek f93624f = avpq.m79018e("NonStreamingProcessPackageAction");
+    private static final Logger f93624f = avpq.m79018e("NonStreamingProcessPackageAction");
 
     /* renamed from: g */
     private final Context f93625g;

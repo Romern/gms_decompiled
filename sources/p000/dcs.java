@@ -16,7 +16,7 @@ public final class dcs extends bxvg implements bxvh {
     static {
         dcs dcs = new dcs();
         f12877a = dcs;
-        bxvk.m124024a(dcs.class, dcs);
+        GeneratedMessageLite.m124024a(dcs.class, dcs);
     }
 
     private dcs() {
@@ -37,7 +37,7 @@ public final class dcs extends bxvg implements bxvh {
             this.f12879b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f12877a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f12877a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new dcs();

@@ -21,7 +21,7 @@ public final class avmn {
     public static final avsz f93396b = new avmm();
 
     /* renamed from: e */
-    private static final sek f93397e = avpq.m79017d("ConfigUpdateControl");
+    private static final Logger f93397e = avpq.m79017d("ConfigUpdateControl");
 
     /* renamed from: f */
     private static final avtj f93398f = new avtj("control.config_update.last_config_request_properties", cafi.f172907e);
@@ -345,9 +345,9 @@ public final class avmn {
     public final chuv mo51384a(cafi cafi) {
         aney a = anef.m64089a(this.f93407m);
         try {
-            aucu.m76782a(a.mo41761a("com.google.android.gms.update", cafi.mo73642k()));
+            aucu.m76782a(a.mo41761a("com.google.android.gms.update", cafi.serializeToBytes()));
             f93397e.mo25412b("Set phenotype request property: %s.", cafi);
-            Configurations configurations = (Configurations) aucu.m76782a(a.mo41758a("com.google.android.gms.update", 201515033, new String[]{"ANDROID_OTA"}, cafi.mo73642k(), ""));
+            Configurations configurations = (Configurations) aucu.m76782a(a.mo41758a("com.google.android.gms.update", 201515033, new String[]{"ANDROID_OTA"}, cafi.serializeToBytes(), ""));
             f93397e.mo25412b("Received new Phenotype snapshot: %s", configurations.f82074a);
             aucu.m76782a(a.mo41759a("com.google.android.gms.update", ""));
             f93397e.mo25412b("Committed to latest snapshot: %s", configurations.f82074a);

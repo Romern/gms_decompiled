@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bavo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bavo extends bxvk implements bxxd {
+public final class bavo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bavo f101902c;
@@ -22,7 +22,7 @@ public final class bavo extends bxvk implements bxxd {
     static {
         bavo bavo = new bavo();
         f101902c = bavo;
-        bxvk.m124024a(bavo.class, bavo);
+        GeneratedMessageLite.m124024a(bavo.class, bavo);
     }
 
     private bavo() {
@@ -39,7 +39,7 @@ public final class bavo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f101902c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f101902c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new bavo();
         } else {

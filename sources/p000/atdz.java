@@ -34,7 +34,7 @@ public final class atdz {
     public static atdt m75701a(Cursor cursor) {
         boolean z;
         try {
-            btjk btjk = (btjk) bxvk.m124016a(btjk.f149119C, cursor.getBlob(3), bxus.m123744c());
+            btjk btjk = (btjk) GeneratedMessageLite.m124016a(btjk.f149119C, cursor.getBlob(3), bxus.m123744c());
             if (cursor.getInt(4) == 1) {
                 z = true;
             } else {

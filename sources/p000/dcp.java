@@ -16,7 +16,7 @@ public final class dcp extends bxvg implements bxvh {
     static {
         dcp dcp = new dcp();
         f12868a = dcp;
-        bxvk.m124024a(dcp.class, dcp);
+        GeneratedMessageLite.m124024a(dcp.class, dcp);
     }
 
     private dcp() {
@@ -37,7 +37,7 @@ public final class dcp extends bxvg implements bxvh {
             this.f12870b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f12868a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f12868a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new dcp();

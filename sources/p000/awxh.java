@@ -36,7 +36,7 @@ final class awxh implements srl {
         awgj awgj = this.f95238e.f95240b;
         String str = this.f95234a;
         bjev bjev = this.f95235b;
-        byte[] k = this.f95236c.mo73642k();
+        byte[] k = this.f95236c.serializeToBytes();
         if (this.f95237d == 3) {
             ArrayList arrayList2 = new ArrayList();
             arrayList2.add(awxi.f95239a);

@@ -55,7 +55,7 @@ public final class sbw {
       sdo.a(java.lang.Object, java.lang.Object):void */
     public sbw(String str, String str2) {
         boolean z;
-        sdo.m34966a((Object) str, (Object) "log tag cannot be null");
+        sdo.checkIfNull((Object) str, (Object) "log tag cannot be null");
         if (str.length() <= 23) {
             z = true;
         } else {

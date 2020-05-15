@@ -17,7 +17,7 @@ public final class bsvf extends bxvd implements bxxd {
         bsvg bsvg2 = bsvg.f147248b;
         bsxn.getClass();
         if (!bsvg.f147250a.mo73666a()) {
-            bsvg.f147250a = bxvk.m124021a(bsvg.f147250a);
+            bsvg.f147250a = GeneratedMessageLite.m124021a(bsvg.f147250a);
         }
         bsvg.f147250a.add(bsxn);
     }

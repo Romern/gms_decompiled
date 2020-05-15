@@ -108,7 +108,7 @@ public final class swq implements Runnable {
                     }
                     gZIPInputStream = new GZIPInputStream(a.getInputStream());
                     try {
-                        sxi sxi = (sxi) bxvk.m124011a(sxi.f45356d, gZIPInputStream, bxus.m123744c());
+                        sxi sxi = (sxi) GeneratedMessageLite.m124011a(sxi.f45356d, gZIPInputStream, bxus.m123744c());
                         boax.m111029a((InputStream) gZIPInputStream);
                         shr.m35312a();
                         return sxi;
@@ -356,7 +356,7 @@ public final class swq implements Runnable {
                 sxl sxl2 = (sxl) da2.f164949b;
                 sxk3.getClass();
                 if (!sxl2.f45378e.mo73666a()) {
-                    sxl2.f45378e = bxvk.m124021a(sxl2.f45378e);
+                    sxl2.f45378e = GeneratedMessageLite.m124021a(sxl2.f45378e);
                 }
                 sxl2.f45378e.add(sxk3);
             }
@@ -391,7 +391,7 @@ public final class swq implements Runnable {
                 sxl sxl3 = (sxl) da2.f164949b;
                 sxk6.getClass();
                 if (!sxl3.f45379f.mo73666a()) {
-                    sxl3.f45379f = bxvk.m124021a(sxl3.f45379f);
+                    sxl3.f45379f = GeneratedMessageLite.m124021a(sxl3.f45379f);
                 }
                 sxl3.f45379f.add(sxk6);
             }
@@ -408,7 +408,7 @@ public final class swq implements Runnable {
                 sxl sxl4 = (sxl) da2.f164949b;
                 str12.getClass();
                 if (!sxl4.f45384k.mo73666a()) {
-                    sxl4.f45384k = bxvk.m124021a(sxl4.f45384k);
+                    sxl4.f45384k = GeneratedMessageLite.m124021a(sxl4.f45384k);
                 }
                 sxl4.f45384k.add(str12);
             }
@@ -472,7 +472,7 @@ public final class swq implements Runnable {
                 sxl sxl8 = (sxl) da2.f164949b;
                 sxk8.getClass();
                 if (!sxl8.f45386m.mo73666a()) {
-                    sxl8.f45386m = bxvk.m124021a(sxl8.f45386m);
+                    sxl8.f45386m = GeneratedMessageLite.m124021a(sxl8.f45386m);
                 }
                 sxl8.f45386m.add(sxk8);
             }
@@ -502,7 +502,7 @@ public final class swq implements Runnable {
         sxl sxl10 = (sxl) da2.mo74062i();
         sxl10.getClass();
         if (!sxf8.f45343c.mo73666a()) {
-            sxf8.f45343c = bxvk.m124021a(sxf8.f45343c);
+            sxf8.f45343c = GeneratedMessageLite.m124021a(sxf8.f45343c);
         }
         sxf8.f45343c.add(sxl10);
         sxf sxf9 = (sxf) da.mo74062i();
@@ -563,7 +563,7 @@ public final class swq implements Runnable {
             int i22 = 0;
             for (int size3 = bxwc.size(); i22 < size3; size3 = size3) {
                 sxj sxj = (sxj) bxwc.get(i22);
-                hashMap.put(sxj.f45364a, sxj.f45365b.mo73780k());
+                hashMap.put(sxj.f45364a, sxj.f45365b.getKey());
                 i22++;
                 bxwc = bxwc;
             }
@@ -632,7 +632,7 @@ public final class swq implements Runnable {
                             int i28 = 0;
                             while (i28 < size7) {
                                 sxj sxj2 = (sxj) bxwc7.get(i28);
-                                treeMap.put(sxj2.f45364a, sxj2.f45365b.mo73780k());
+                                treeMap.put(sxj2.f45364a, sxj2.f45365b.getKey());
                                 i28++;
                                 bxwc7 = bxwc7;
                             }

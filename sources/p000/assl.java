@@ -281,7 +281,7 @@ public final class assl implements asqs {
         String str;
         String format = String.format(Locale.US, "%04d", Integer.valueOf(this.f89587d.f165773c));
         String substring = format.substring(format.length() - 4);
-        byte[] k = this.f89587d.f165776f.mo73780k();
+        byte[] k = this.f89587d.f165776f.getKey();
         String format2 = String.format("%s%s", substring, "000000000001");
         SecretKeySpec secretKeySpec = new SecretKeySpec(k, "DESede");
         Cipher instance = Cipher.getInstance("DESede/CBC/NoPadding");
@@ -542,7 +542,7 @@ public final class assl implements asqs {
             this.f89597t = asrb.mo49400a(40706);
             this.f89598u = asrb.mo49400a(24362);
             assu[] assuArr = new assu[10];
-            assuArr[0] = asta.m74733a(40742, assm.m74694a(ByteBuffer.allocate(65).put(this.f89597t).put(asrb.mo49400a(40707)).put(asrb.mo49400a(40730)).put(asrb.mo49400a(149)).put(this.f89598u).put(asrb.mo49400a(MfiClientException.TYPE_MFICLIENT_NOT_STARTED)).put(asrb.mo49400a(MfiClientException.TYPE_NO_ACCOUNT_INFO)).put(this.f89589f).put(bArr2).put(bqct.m112602a((short) this.f89587d.f165773c)).put(bArr).array(), this.f89587d.f165776f.mo73780k()));
+            assuArr[0] = asta.m74733a(40742, assm.m74694a(ByteBuffer.allocate(65).put(this.f89597t).put(asrb.mo49400a(40707)).put(asrb.mo49400a(40730)).put(asrb.mo49400a(149)).put(this.f89598u).put(asrb.mo49400a(MfiClientException.TYPE_MFICLIENT_NOT_STARTED)).put(asrb.mo49400a(MfiClientException.TYPE_NO_ACCOUNT_INFO)).put(this.f89589f).put(bArr2).put(bqct.m112602a((short) this.f89587d.f165773c)).put(bArr).array(), this.f89587d.f165776f.getKey()));
             assuArr[1] = asta.m74733a(130, bArr2);
             assuArr[2] = asta.m74733a(148, bArr3);
             bmtm bmtm = m74676l().f130891i;

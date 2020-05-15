@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsil */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsil extends bxvk implements bxxd {
+public final class bsil extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bsil f144727c;
@@ -25,7 +25,7 @@ public final class bsil extends bxvk implements bxxd {
     static {
         bsil bsil = new bsil();
         f144727c = bsil;
-        bxvk.m124024a(bsil.class, bsil);
+        GeneratedMessageLite.m124024a(bsil.class, bsil);
     }
 
     private bsil() {
@@ -46,7 +46,7 @@ public final class bsil extends bxvk implements bxxd {
             this.f144732e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f144727c, "\u0000\u0003\u0000\u0000\u0002\u000b\u0003\u0001\u0002\u0001\u0002Л\u0003\u001b\u000b2", new Object[]{"a", bsio.class, "b", bsif.class, "d", bsik.f144726a});
+            return GeneratedMessageLite.m124022a(f144727c, "\u0000\u0003\u0000\u0000\u0002\u000b\u0003\u0001\u0002\u0001\u0002Л\u0003\u001b\u000b2", new Object[]{"a", bsio.class, "b", bsif.class, "d", bsik.f144726a});
         } else if (i2 == 3) {
             return new bsil();
         } else {

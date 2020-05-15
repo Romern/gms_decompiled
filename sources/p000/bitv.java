@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bitv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bitv extends bxvk implements bxxd {
+public final class bitv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bitv f121725a;
@@ -13,7 +13,7 @@ public final class bitv extends bxvk implements bxxd {
     static {
         bitv bitv = new bitv();
         f121725a = bitv;
-        bxvk.m124024a(bitv.class, bitv);
+        GeneratedMessageLite.m124024a(bitv.class, bitv);
     }
 
     private bitv() {
@@ -30,7 +30,7 @@ public final class bitv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f121725a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f121725a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bitv();

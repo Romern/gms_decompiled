@@ -5,5 +5,5 @@ package p000;
 public final class artn {
 
     /* renamed from: a */
-    public static final sek f88281a = ascp.m73787a("service", "SmartDeviceIntentHandlers");
+    public static final Logger f88281a = ascp.m73787a("service", "SmartDeviceIntentHandlers");
 }

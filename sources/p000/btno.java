@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btno */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btno extends bxvk implements bxxd {
+public final class btno extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btno f149668a;
@@ -13,7 +13,7 @@ public final class btno extends bxvk implements bxxd {
     static {
         btno btno = new btno();
         f149668a = btno;
-        bxvk.m124024a(btno.class, btno);
+        GeneratedMessageLite.m124024a(btno.class, btno);
     }
 
     private btno() {
@@ -30,7 +30,7 @@ public final class btno extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149668a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f149668a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btno();

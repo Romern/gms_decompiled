@@ -4,7 +4,7 @@ package p000;
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
 public abstract class aixy {
     /* renamed from: a */
-    public abstract bxtx mo38150a();
+    public abstract ByteString mo38150a();
 
     /* renamed from: b */
     public abstract int mo38151b();

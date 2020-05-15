@@ -227,7 +227,7 @@ public class TapAndPayHomeChimeraActivity extends atex implements auat, atxi, al
             rjx b = rjx.m33697b((Activity) this);
             rod a = b.mo24714a(this.f108681h, "tapAndPayDataChangedListener");
             rob rob = a.f43429b;
-            sdo.m34966a(rob, "Key must not be null");
+            sdo.checkIfNull(rob, "Key must not be null");
             b.mo24699a(new asnd(a, a), new asne(rob));
             rjx b2 = rjx.m33697b((Activity) this);
             android.app.Activity containerActivity = getContainerActivity();

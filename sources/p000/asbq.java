@@ -5,5 +5,5 @@ package p000;
 public final class asbq {
 
     /* renamed from: a */
-    public static final sek f88679a = new sek("D2D", "WpaSupplicantParser");
+    public static final Logger f88679a = new Logger("D2D", "WpaSupplicantParser");
 }

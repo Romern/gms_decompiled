@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boon */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boon extends bxvk implements bxxd {
+public final class boon extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final boon f133951i;
@@ -37,7 +37,7 @@ public final class boon extends bxvk implements bxxd {
     static {
         boon boon = new boon();
         f133951i = boon;
-        bxvk.m124024a(boon.class, boon);
+        GeneratedMessageLite.m124024a(boon.class, boon);
     }
 
     private boon() {
@@ -54,7 +54,7 @@ public final class boon extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133951i, "\u0000\b\u0000\u0000\u0001\b\b\u0000\u0000\u0000\u0001\f\u0002\f\u0003\u0002\u0004\u0002\u0005\t\u0006\t\u0007\t\b\t", new Object[]{"a", "b", "d", "e", "f", "g", "c", "h"});
+            return GeneratedMessageLite.m124022a(f133951i, "\u0000\b\u0000\u0000\u0001\b\b\u0000\u0000\u0000\u0001\f\u0002\f\u0003\u0002\u0004\u0002\u0005\t\u0006\t\u0007\t\b\t", new Object[]{"a", "b", "d", "e", "f", "g", "c", "h"});
         } else if (i2 == 3) {
             return new boon();
         } else {

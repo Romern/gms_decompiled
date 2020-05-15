@@ -10,7 +10,7 @@ import android.os.ParcelUuid;
 public final class xgn {
 
     /* renamed from: c */
-    private static final sek f52214c = new sek(new String[]{"BluetoothPairingStateProvider"}, (short[]) null);
+    private static final Logger f52214c = new Logger(new String[]{"BluetoothPairingStateProvider"}, (short[]) null);
 
     /* renamed from: a */
     private final BluetoothAdapter f52215a = BluetoothAdapter.getDefaultAdapter();

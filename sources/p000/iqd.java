@@ -17,7 +17,7 @@ public final class iqd {
     public final ipw f21545a;
 
     /* renamed from: b */
-    public final sek f21546b = new sek(new String[]{"DeviceMetadataFetcher"}, (byte[]) null);
+    public final Logger f21546b = new Logger(new String[]{"DeviceMetadataFetcher"}, (byte[]) null);
 
     /* renamed from: c */
     private final ipq f21547c;
@@ -42,14 +42,14 @@ public final class iqd {
         }
         ehx a = this.f21547c.mo10153a(str, account.name);
         if (a == null) {
-            sek sek = this.f21546b;
+            Logger Logger = this.f21546b;
             String valueOf = String.valueOf(str);
-            sek.mo25416d(valueOf.length() == 0 ? new String("Couldn't retrieve group key: ") : "Couldn't retrieve group key: ".concat(valueOf), new Object[0]);
+            Logger.mo25416d(valueOf.length() == 0 ? new String("Couldn't retrieve group key: ") : "Couldn't retrieve group key: ".concat(valueOf), new Object[0]);
             return new ArrayList();
         } else if (a.f15027d == null) {
-            sek sek2 = this.f21546b;
+            Logger logger2 = this.f21546b;
             String valueOf2 = String.valueOf(str);
-            sek2.mo25418e(valueOf2.length() == 0 ? new String("Retrieved group key doesn't have a private key: ") : "Retrieved group key doesn't have a private key: ".concat(valueOf2), new Object[0]);
+            logger2.mo25418e(valueOf2.length() == 0 ? new String("Retrieved group key doesn't have a private key: ") : "Retrieved group key doesn't have a private key: ".concat(valueOf2), new Object[0]);
             return new ArrayList();
         } else {
             Iterator it2 = list2.iterator();
@@ -58,9 +58,9 @@ public final class iqd {
                 String str2 = bqlc.f141079a;
                 bqld bqld2 = (bqld) hashMap.get(str2);
                 if (bqld2 == null) {
-                    sek sek3 = this.f21546b;
+                    Logger logger3 = this.f21546b;
                     String valueOf3 = String.valueOf(str2);
-                    sek3.mo25416d(valueOf3.length() == 0 ? new String("Missing device metadata packet for associated feature status ") : "Missing device metadata packet for associated feature status ".concat(valueOf3), new Object[0]);
+                    logger3.mo25416d(valueOf3.length() == 0 ? new String("Missing device metadata packet for associated feature status ") : "Missing device metadata packet for associated feature status ".concat(valueOf3), new Object[0]);
                 } else {
                     ArrayList arrayList2 = new ArrayList();
                     bxwc bxwc = bqlc.f141080b;
@@ -70,7 +70,7 @@ public final class iqd {
                         arrayList2.add(new DeviceFeatureStatus(bqlb.f141074a, bqlb.f141075b));
                     }
                     try {
-                        arrayList.add(new DeviceMetadata(1, str2, this.f21548d.mo13324a(a.f15027d, account, bqld2.f141084b.mo73780k()).f10551c, bqld2.f141087e, arrayList2, account.name));
+                        arrayList.add(new DeviceMetadata(1, str2, this.f21548d.mo13324a(a.f15027d, account, bqld2.f141084b.getKey()).f10551c, bqld2.f141087e, arrayList2, account.name));
                     } catch (iqs e) {
                         this.f21546b.mo25417e("Couldn't decrypt device metadata", e, new Object[0]);
                     }

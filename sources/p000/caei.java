@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caei */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caei extends bxvk implements bxxd {
+public final class caei extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final caei f172825d;
@@ -17,12 +17,12 @@ public final class caei extends bxvk implements bxxd {
     public int f172828b;
 
     /* renamed from: c */
-    public bxtx f172829c = bxtx.f164797b;
+    public ByteString f172829c = ByteString.f164797b;
 
     static {
         caei caei = new caei();
         f172825d = caei;
-        bxvk.m124024a(caei.class, caei);
+        GeneratedMessageLite.m124024a(caei.class, caei);
     }
 
     private caei() {
@@ -39,7 +39,7 @@ public final class caei extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172825d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\u0004\u0003\n", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f172825d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001Ȉ\u0002\u0004\u0003\n", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new caei();
         } else {

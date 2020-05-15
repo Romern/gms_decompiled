@@ -22,7 +22,7 @@ public final class bzbz extends bxvg implements bxvh {
     static {
         bzbz bzbz = new bzbz();
         f169283c = bzbz;
-        bxvk.m124024a(bzbz.class, bzbz);
+        GeneratedMessageLite.m124024a(bzbz.class, bzbz);
     }
 
     private bzbz() {
@@ -43,7 +43,7 @@ public final class bzbz extends bxvg implements bxvh {
             this.f169287d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f169283c, "\u0001\u0001\u0000\u0001\t\t\u0001\u0000\u0000\u0001\tᐉ\u0002", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f169283c, "\u0001\u0001\u0000\u0001\t\t\u0001\u0000\u0000\u0001\tᐉ\u0002", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bzbz();
         } else {

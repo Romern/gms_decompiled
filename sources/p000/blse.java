@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blse */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blse extends bxvk implements bxxd {
+public final class blse extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final blse f127570b;
@@ -19,11 +19,11 @@ public final class blse extends bxvk implements bxxd {
     static {
         blse blse = new blse();
         f127570b = blse;
-        bxvk.m124024a(blse.class, blse);
+        GeneratedMessageLite.m124024a(blse.class, blse);
     }
 
     private blse() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -37,7 +37,7 @@ public final class blse extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f127570b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဃ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f127570b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဃ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new blse();
         } else {

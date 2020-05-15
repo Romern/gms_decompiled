@@ -12,7 +12,7 @@ import java.util.Date;
 public final class xco extends aaab {
 
     /* renamed from: e */
-    private static final sek f51941e = new sek(new String[]{"AddUsageOperation"}, (short[]) null);
+    private static final Logger f51941e = new Logger(new String[]{"AddUsageOperation"}, (short[]) null);
 
     /* renamed from: a */
     private final xcm f51942a = ((xcm) xcm.f51937d.mo33309a());
@@ -42,9 +42,9 @@ public final class xco extends aaab {
             long j = this.f51945d;
             bmxy.m108582a(str, "keyStorageIdentifier cannot be null");
             bmxy.m108589a(!str.trim().isEmpty(), "keyStorageIdentifier cannot be empty");
-            sek sek = f51941e;
+            Logger Logger = f51941e;
             String valueOf = String.valueOf(str);
-            sek.mo25412b(valueOf.length() == 0 ? new String("addUsage with keyStorageIdentifier ") : "addUsage with keyStorageIdentifier ".concat(valueOf), new Object[0]);
+            Logger.mo25412b(valueOf.length() == 0 ? new String("addUsage with keyStorageIdentifier ") : "addUsage with keyStorageIdentifier ".concat(valueOf), new Object[0]);
             xcm xcm = this.f51942a;
             Date date = new Date(j);
             bmxy.m108582a(str, "identifier cannot be null");

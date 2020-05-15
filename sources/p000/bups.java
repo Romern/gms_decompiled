@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bups */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bups extends bxvk implements bxxd {
+public final class bups extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bups f154672a;
@@ -13,7 +13,7 @@ public final class bups extends bxvk implements bxxd {
     static {
         bups bups = new bups();
         f154672a = bups;
-        bxvk.m124024a(bups.class, bups);
+        GeneratedMessageLite.m124024a(bups.class, bups);
     }
 
     private bups() {
@@ -30,7 +30,7 @@ public final class bups extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154672a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f154672a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bups();

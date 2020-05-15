@@ -31,8 +31,8 @@ public final class bxwl extends bxtc implements RandomAccess, bxwm {
         if (obj instanceof String) {
             return (String) obj;
         }
-        if (obj instanceof bxtx) {
-            return ((bxtx) obj).mo73781l();
+        if (obj instanceof ByteString) {
+            return ((ByteString) obj).mo73781l();
         }
         return bxwd.m124086b((byte[]) obj);
     }
@@ -114,8 +114,8 @@ public final class bxwl extends bxtc implements RandomAccess, bxwm {
         if (obj instanceof String) {
             return (String) obj;
         }
-        if (obj instanceof bxtx) {
-            bxtx bxtx = (bxtx) obj;
+        if (obj instanceof ByteString) {
+            ByteString bxtx = (ByteString) obj;
             String l = bxtx.mo73781l();
             if (bxtx.mo73762f()) {
                 this.f164998c.set(i, l);
@@ -135,7 +135,7 @@ public final class bxwl extends bxtc implements RandomAccess, bxwm {
     }
 
     /* renamed from: a */
-    public final void mo74189a(bxtx bxtx) {
+    public final void mo74189a(ByteString bxtx) {
         mo73672c();
         this.f164998c.add(bxtx);
         this.modCount++;

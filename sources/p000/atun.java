@@ -93,7 +93,7 @@ public final class atun extends atvb {
         try {
             byte[] byteArray2 = bundle.getByteArray("data_push_tokenize_params");
             if (byteArray2 != null) {
-                this.f90915p = (btlv) bxvk.m124016a(btlv.f149435f, byteArray2, bxus.m123744c());
+                this.f90915p = (btlv) GeneratedMessageLite.m124016a(btlv.f149435f, byteArray2, bxus.m123744c());
             }
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) f90904a.mo68388c();
@@ -158,7 +158,7 @@ public final class atun extends atvb {
         try {
             byte[] byteArray2 = bundle.getByteArray("data_push_tokenize_params");
             if (byteArray2 != null) {
-                this.f90915p = (btlv) bxvk.m124016a(btlv.f149435f, byteArray2, bxus.m123744c());
+                this.f90915p = (btlv) GeneratedMessageLite.m124016a(btlv.f149435f, byteArray2, bxus.m123744c());
             }
         } catch (bxwf e) {
             bnsl bnsl = (bnsl) f90904a.mo68388c();
@@ -592,7 +592,7 @@ public final class atun extends atvb {
                     byte[] bArr = this.f90912m;
                     if (bArr != null) {
                         if (bArr.length != 0) {
-                            bxtx a3 = bxtx.m123261a(bArr);
+                            ByteString a3 = ByteString.m123261a(bArr);
                             if (btkb.f164950c) {
                                 btkb.mo74035c();
                                 btkb.f164950c = false;
@@ -612,7 +612,7 @@ public final class atun extends atvb {
                     }
                     byte[] bArr2 = this.f90916q;
                     if (!(bArr2 == null || bArr2.length == 0)) {
-                        bxtx a4 = bxtx.m123261a(bArr2);
+                        ByteString a4 = ByteString.m123261a(bArr2);
                         if (btkb.f164950c) {
                             btkb.mo74035c();
                             btkb.f164950c = false;
@@ -697,7 +697,7 @@ public final class atun extends atvb {
                     }
                     btlv3.getClass();
                     ((btkc) btkb.f164949b).f149230k = btlv3;
-                    bxtx a7 = bxtx.m123261a(this.f90914o.f108572c);
+                    ByteString a7 = ByteString.m123261a(this.f90914o.f108572c);
                     if (btkb.f164950c) {
                         btkb.mo74035c();
                         btkb.f164950c = false;
@@ -706,7 +706,7 @@ public final class atun extends atvb {
                     ((btkc) btkb.f164949b).f149229j = a7;
                     byte[] bArr3 = this.f90912m;
                     if (!(bArr3 == null || bArr3.length == 0)) {
-                        bxtx a8 = bxtx.m123261a(bArr3);
+                        ByteString a8 = ByteString.m123261a(bArr3);
                         if (btkb.f164950c) {
                             btkb.mo74035c();
                             btkb.f164950c = false;
@@ -718,7 +718,7 @@ public final class atun extends atvb {
                     byte[] bArr4 = this.f90912m;
                     if (bArr4 != null) {
                         if (bArr4.length != 0) {
-                            bxtx a9 = bxtx.m123261a(bArr4);
+                            ByteString a9 = ByteString.m123261a(bArr4);
                             if (btkb.f164950c) {
                                 btkb.mo74035c();
                                 btkb.f164950c = false;
@@ -794,7 +794,7 @@ public final class atun extends atvb {
                 message = Message.obtain((Handler) null, this.f90988g);
                 btnf btnf = this.f90987f;
                 if (btnf != null) {
-                    bArr = btnf.mo73642k();
+                    bArr = btnf.serializeToBytes();
                 }
                 bundle.putByteArray("tap_and_pay_api_error", bArr);
                 bundle.putByteArray("data_recovery_token", this.f90913n);
@@ -803,7 +803,7 @@ public final class atun extends atvb {
             }
         } else {
             Message obtain = Message.obtain((Handler) null, 1001);
-            bundle.putByteArray("data_response", btkd.mo73642k());
+            bundle.putByteArray("data_response", btkd.serializeToBytes());
             message = obtain;
         }
         message.setData(bundle);

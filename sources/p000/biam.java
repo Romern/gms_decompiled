@@ -127,7 +127,7 @@ public final class biam {
         a.getClass();
         bvlq.f156588b = a;
         bvlq.f156587a |= 1;
-        bvlr bvlr = (bvlr) sgv.mo25517a(str, ((bvlq) da.mo74062i()).mo73642k(), bvlr.f156589b, this.f120055c, this.f120056d, cggs.m145360c(), 10268);
+        bvlr bvlr = (bvlr) sgv.mo25517a(str, ((bvlq) da.mo74062i()).serializeToBytes(), bvlr.f156589b, this.f120055c, this.f120056d, cggs.m145360c(), 10268);
         Context context2 = this.f120053a;
         if (bvlr == null) {
             return aemj.m52157b(13);

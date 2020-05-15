@@ -81,12 +81,12 @@ public final class jhm {
         cilz.f190692a = i2 | 2;
         cilz cilz2 = (cilz) da.mo74062i();
         if (ccgz.m129649c()) {
-            qwo a2 = this.f22495a.mo24335a(cilz2.mo73642k());
+            qwo a2 = this.f22495a.mo24335a(cilz2.serializeToBytes());
             a2.mo24328b(i3);
             a2.mo24327b();
             return;
         }
-        this.f22495a.mo24335a(cilz2.mo73642k()).mo24327b();
+        this.f22495a.mo24335a(cilz2.serializeToBytes()).mo24327b();
     }
 
     /* renamed from: a */
@@ -114,7 +114,7 @@ public final class jhm {
         str.getClass();
         cilz.f190692a = i4 | 16;
         cilz.f190697f = str;
-        qwo a2 = this.f22495a.mo24335a(((cilz) da.mo74062i()).mo73642k());
+        qwo a2 = this.f22495a.mo24335a(((cilz) da.mo74062i()).serializeToBytes());
         a2.mo24328b(i3);
         a2.mo24327b();
     }
@@ -141,11 +141,11 @@ public final class jhm {
         cilz.f190692a = i4 | 4;
         cilz cilz2 = (cilz) da.mo74062i();
         if (ccgz.m129649c()) {
-            qwo a2 = this.f22495a.mo24335a(cilz2.mo73642k());
+            qwo a2 = this.f22495a.mo24335a(cilz2.serializeToBytes());
             a2.mo24328b(i3);
             a2.mo24327b();
             return;
         }
-        this.f22495a.mo24335a(cilz2.mo73642k()).mo24327b();
+        this.f22495a.mo24335a(cilz2.serializeToBytes()).mo24327b();
     }
 }

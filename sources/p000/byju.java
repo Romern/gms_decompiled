@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byju */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byju extends bxvk implements bxxd {
+public final class byju extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final byju f166700a;
@@ -13,7 +13,7 @@ public final class byju extends bxvk implements bxxd {
     static {
         byju byju = new byju();
         f166700a = byju;
-        bxvk.m124024a(byju.class, byju);
+        GeneratedMessageLite.m124024a(byju.class, byju);
     }
 
     private byju() {
@@ -30,7 +30,7 @@ public final class byju extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166700a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f166700a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new byju();

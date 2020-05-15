@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bogw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bogw extends bxvk implements bxxd {
+public final class bogw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bogw f133033d;
@@ -22,7 +22,7 @@ public final class bogw extends bxvk implements bxxd {
     static {
         bogw bogw = new bogw();
         f133033d = bogw;
-        bxvk.m124024a(bogw.class, bogw);
+        GeneratedMessageLite.m124024a(bogw.class, bogw);
     }
 
     private bogw() {
@@ -39,7 +39,7 @@ public final class bogw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133033d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bogu.f133032a, "c", bogy.f133043a});
+            return GeneratedMessageLite.m124022a(f133033d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", bogu.f133032a, "c", bogy.f133043a});
         } else if (i2 == 3) {
             return new bogw();
         } else {

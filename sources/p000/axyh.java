@@ -37,9 +37,9 @@ final class axyh implements Runnable {
                     axue axue = axvz.f96540b;
                     String str = axvz.f96539a;
                     ayen ayen = ((aybg) obj).f97025b;
-                    sdo.m34966a(axue, "appKey was null");
-                    sdo.m34966a((Object) str, (Object) "target was null");
-                    sdo.m34966a(ayen, "channelRequest was null");
+                    sdo.checkIfNull(axue, "appKey was null");
+                    sdo.checkIfNull((Object) str, (Object) "target was null");
+                    sdo.checkIfNull(ayen, "channelRequest was null");
                     ayai.mo53831a(axue, str, false, "", null, ayen);
                     axyi.f96771h.f96773a.mo53762a(axyi.f96766c, axyi.f96765b);
                     z = false;

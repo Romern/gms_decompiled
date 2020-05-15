@@ -21,7 +21,7 @@ public final class banl {
     }
 
     /* renamed from: a */
-    public final bxtx mo55805a(bxtx bxtx) {
+    public final ByteString mo55805a(ByteString bxtx) {
         bxtr i = bxtx.iterator();
         int i2 = 0;
         int i3 = 0;

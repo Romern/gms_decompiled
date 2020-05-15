@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ifb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ifb extends bxvk implements bxxd {
+public final class ifb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final ifb f20840b;
@@ -19,7 +19,7 @@ public final class ifb extends bxvk implements bxxd {
     static {
         ifb ifb = new ifb();
         f20840b = ifb;
-        bxvk.m124024a(ifb.class, ifb);
+        GeneratedMessageLite.m124024a(ifb.class, ifb);
     }
 
     private ifb() {
@@ -36,7 +36,7 @@ public final class ifb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f20840b, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0002\u0000\u0000\u00012\u00022", new Object[]{"a", iez.f20838a, "c", ifa.f20839a});
+            return GeneratedMessageLite.m124022a(f20840b, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0002\u0000\u0000\u00012\u00022", new Object[]{"a", iez.f20838a, "c", ifa.f20839a});
         } else if (i2 == 3) {
             return new ifb();
         } else {

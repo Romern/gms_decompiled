@@ -28,7 +28,7 @@ public final class cgwg implements cgwe {
         f187845a = bdyx.m91609a(bdyw, "DynamicAidRegistration__dynamic_registration_mode", "REGISTRATION_MODE_DISABLED");
         f187846b = bdyx.m91610a(bdyw, "DynamicAidRegistration__enable_dynamic_aid_registration", false);
         try {
-            f187847c = bdyx.m91608a(bdyw, "test_aids", (bydj) bxvk.m124014a(bydj.f165795b, new byte[0]), cgwf.f187844a);
+            f187847c = bdyx.m91608a(bdyw, "test_aids", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[0]), cgwf.f187844a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"test_aids\"");
         }

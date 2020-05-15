@@ -15,7 +15,7 @@ import java.util.List;
 public final class syk extends syu implements aaai {
 
     /* renamed from: a */
-    private static final sek f45434a = tea.m36798a("api-stub");
+    private static final Logger f45434a = tea.m36798a("api-stub");
 
     /* renamed from: b */
     private final Context f45435b;

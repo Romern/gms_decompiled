@@ -2,7 +2,7 @@ package com.google.android.gms.ads.cache;
 
 /* renamed from: com.google.android.gms.ads.cache.m */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class C0214m extends bxvk implements bxxd {
+public final class C0214m extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final C0214m f7892d;
@@ -22,7 +22,7 @@ public final class C0214m extends bxvk implements bxxd {
     static {
         C0214m mVar = new C0214m();
         f7892d = mVar;
-        bxvk.m124024a(C0214m.class, mVar);
+        GeneratedMessageLite.m124024a(C0214m.class, mVar);
     }
 
     private C0214m() {
@@ -39,7 +39,7 @@ public final class C0214m extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f7892d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f7892d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new C0214m();
         } else {

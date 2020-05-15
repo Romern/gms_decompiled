@@ -364,7 +364,7 @@ public final class bgar extends aeka {
         try {
             bfyw bfyw = bgaq.f115917d;
             bgad bgad = new bgad(aejy);
-            sdo.m34966a((Object) str, (Object) "Package name not specified.");
+            sdo.checkIfNull((Object) str, (Object) "Package name not specified.");
             bfyw.f115741a.mo62511a(bgae.m98381a(str, bgad));
         } catch (RuntimeException e) {
             Log.e("GLMSImpl", "original removeAllGeofences() exception (before parcelling)", e);
@@ -629,8 +629,8 @@ public final class bgar extends aeka {
                         z = true;
                     }
                     sdo.m34975b(z, "Invalid GeofencingRequest request.");
-                    sdo.m34966a(pendingIntent, "PendingIntent not specified.");
-                    sdo.m34966a((Object) str, (Object) "Package name not specified.");
+                    sdo.checkIfNull(pendingIntent, "PendingIntent not specified.");
+                    sdo.checkIfNull((Object) str, (Object) "Package name not specified.");
                     bfzt bfzt = bfyw.f115741a;
                     synchronized (bfzt.f115806k) {
                         if (Log.isLoggable("GeofencerStateMachine", 4)) {
@@ -748,7 +748,7 @@ public final class bgar extends aeka {
                 if (list != null) {
                     if (list.size() > 0) {
                         sdo.m34975b(z, "Invalid GeofencingRequest request.");
-                        sdo.m34966a((Object) str2, (Object) "Package name not specified.");
+                        sdo.checkIfNull((Object) str2, (Object) "Package name not specified.");
                         pendingIntent = removeGeofencingRequest.f79379b;
                         if (pendingIntent == null) {
                             bgae = new bgae(2, str2, bgad, removeGeofencingRequest);
@@ -760,7 +760,7 @@ public final class bgar extends aeka {
                 }
                 if (removeGeofencingRequest.f79379b != null) {
                     sdo.m34975b(z, "Invalid GeofencingRequest request.");
-                    sdo.m34966a((Object) str2, (Object) "Package name not specified.");
+                    sdo.checkIfNull((Object) str2, (Object) "Package name not specified.");
                     pendingIntent = removeGeofencingRequest.f79379b;
                     if (pendingIntent == null) {
                     }
@@ -769,7 +769,7 @@ public final class bgar extends aeka {
             }
             z = false;
             sdo.m34975b(z, "Invalid GeofencingRequest request.");
-            sdo.m34966a((Object) str2, (Object) "Package name not specified.");
+            sdo.checkIfNull((Object) str2, (Object) "Package name not specified.");
             pendingIntent = removeGeofencingRequest.f79379b;
             if (pendingIntent == null) {
             }
@@ -866,7 +866,7 @@ public final class bgar extends aeka {
                                 bpla2.f138052c = 0;
                                 bpla bpla3 = (bpla) da.mo74062i();
                                 bxvd bxvd = (bxvd) bpla3.mo74142c(5);
-                                bxvd.mo73625a((bxvk) bpla3);
+                                bxvd.mo73625a((GeneratedMessageLite) bpla3);
                                 map.put(str4, bxvd);
                             }
                             long elapsedRealtime = SystemClock.elapsedRealtime();
@@ -1043,7 +1043,7 @@ public final class bgar extends aeka {
     /* renamed from: a */
     public final void mo34233a(String[] strArr, aejy aejy, String str) {
         List asList = Arrays.asList(strArr);
-        sdo.m34966a(asList, "geofence can't be null.");
+        sdo.checkIfNull(asList, "geofence can't be null.");
         sdo.m34975b(!asList.isEmpty(), "Geofences must contains at least one id.");
         mo34225a(new RemoveGeofencingRequest(asList, null, ""), aejy);
     }

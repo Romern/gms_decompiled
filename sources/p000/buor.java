@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buor */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buor extends bxvk implements bxxd {
+public final class buor extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buor f154576d;
@@ -11,10 +11,10 @@ public final class buor extends bxvk implements bxxd {
     private static volatile bxxk f154577e;
 
     /* renamed from: a */
-    public bxtx f154578a = bxtx.f164797b;
+    public ByteString f154578a = ByteString.f164797b;
 
     /* renamed from: b */
-    public bxtx f154579b = bxtx.f164797b;
+    public ByteString f154579b = ByteString.f164797b;
 
     /* renamed from: c */
     public String f154580c = "";
@@ -22,7 +22,7 @@ public final class buor extends bxvk implements bxxd {
     static {
         buor buor = new buor();
         f154576d = buor;
-        bxvk.m124024a(buor.class, buor);
+        GeneratedMessageLite.m124024a(buor.class, buor);
     }
 
     private buor() {
@@ -39,7 +39,7 @@ public final class buor extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154576d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\n\u0002\n\u0003Ȉ", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f154576d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001\n\u0002\n\u0003Ȉ", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new buor();
         } else {

@@ -11,6 +11,6 @@ final /* synthetic */ class abzs implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (abpp) bxvk.m124014a(abpp.f57880b, bArr);
+        return (abpp) GeneratedMessageLite.m124014a(abpp.f57880b, bArr);
     }
 }

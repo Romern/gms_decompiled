@@ -49,7 +49,7 @@ final /* synthetic */ class aitt implements Runnable {
         }
         try {
             bxvd da = bvgz.f156059f.mo74144da();
-            bxtx a = bxtx.m123261a(aiug.f69778a.mo38105d());
+            ByteString a = ByteString.m123261a(aiug.f69778a.mo38105d());
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

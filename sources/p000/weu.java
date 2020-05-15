@@ -18,7 +18,7 @@ final class weu extends wfr {
     public final void mo29067a(Status status, ForceSettingsCacheRefreshResult forceSettingsCacheRefreshResult) {
         if (status.mo17710c()) {
             try {
-                rpc.m34202a(status, (bxpe) bxvk.m124014a(bxpe.f164247d, forceSettingsCacheRefreshResult.f31271a), this.f50597a);
+                rpc.m34202a(status, (bxpe) GeneratedMessageLite.m124014a(bxpe.f164247d, forceSettingsCacheRefreshResult.f31271a), this.f50597a);
             } catch (bxwf e) {
                 this.f50597a.mo50390a((Exception) e);
             }

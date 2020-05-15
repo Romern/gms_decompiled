@@ -49,7 +49,7 @@ public final class akkn extends akko {
         if (intExtra == 11 || intExtra == 13) {
             boqx a = aknf.m60072a(50);
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             bxvd da = borc.f134378e.mo74144da();
             if (da.f164950c) {
                 da.mo74035c();
@@ -79,7 +79,7 @@ public final class akkn extends akko {
             if (intExtra == 1 || intExtra == 3) {
                 boqx a = aknf.m60072a(49);
                 bxvd bxvd = (bxvd) a.mo74142c(5);
-                bxvd.mo73625a((bxvk) a);
+                bxvd.mo73625a((GeneratedMessageLite) a);
                 bxvd da = borc.f134378e.mo74144da();
                 if (da.f164950c) {
                     da.mo74035c();
@@ -190,7 +190,7 @@ public final class akkn extends akko {
             }
             boqx a = aknf.m60072a(48);
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             bxvd da = borc.f134378e.mo74144da();
             switch (akne.f72298a[detailedState.ordinal()]) {
                 case 1:

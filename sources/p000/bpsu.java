@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpsu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpsu extends bxvk implements bxxd {
+public final class bpsu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bpsu f139013e;
@@ -28,7 +28,7 @@ public final class bpsu extends bxvk implements bxxd {
     static {
         bpsu bpsu = new bpsu();
         f139013e = bpsu;
-        bxvk.m124024a(bpsu.class, bpsu);
+        GeneratedMessageLite.m124024a(bpsu.class, bpsu);
     }
 
     private bpsu() {
@@ -49,7 +49,7 @@ public final class bpsu extends bxvk implements bxxd {
             this.f139019f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f139013e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ဈ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f139013e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ဈ\u0001\u0003ဂ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bpsu();
         } else {

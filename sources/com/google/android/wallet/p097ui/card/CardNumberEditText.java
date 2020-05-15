@@ -111,7 +111,7 @@ public class CardNumberEditText extends FormEditText implements View.OnClickList
         bmnm bmnm2 = (bmnm) da2.mo74062i();
         bmnm2.getClass();
         if (!bmnn.f130135b.mo73666a()) {
-            bmnn.f130135b = bxvk.m124021a(bmnn.f130135b);
+            bmnn.f130135b = GeneratedMessageLite.m124021a(bmnn.f130135b);
         }
         bmnn.f130135b.add(bmnm2);
         if (da.f164950c) {

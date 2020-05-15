@@ -75,7 +75,7 @@ public final class uht extends ugx implements uhl {
     public final ujp mo27379b(uih uih, String str) {
         uhq a = this.f47663d.mo27490a(uih);
         sdo.m34959a(a);
-        sdo.m34966a((Object) str, (Object) "Can't create a DriveIdMapping for a local entry in TransactionDriveModel");
+        sdo.checkIfNull((Object) str, (Object) "Can't create a DriveIdMapping for a local entry in TransactionDriveModel");
         sdo.m34971a(!a.mo27488a(str), (Object) "Can't create a DriveIdMapping that's already in the cache");
         ujp b = super.mo27379b(uih, str);
         a.mo27487a(b);
@@ -228,7 +228,7 @@ public final class uht extends ugx implements uhl {
     public final ujx mo27370a(uih uih, String str, String str2) {
         uhq a = this.f47663d.mo27490a(uih);
         sdo.m34959a(a);
-        sdo.m34966a((Object) str2, (Object) "Can't create a local entry in TransactionDriveModel");
+        sdo.checkIfNull((Object) str2, (Object) "Can't create a local entry in TransactionDriveModel");
         sdo.m34971a(!a.f47656b.mo27492a(str2), (Object) "Can't create an entry that's already in the cache");
         ujx a2 = super.mo27370a(uih, str, str2);
         a.f47656b.mo27491a(a2);

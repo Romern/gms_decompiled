@@ -47,6 +47,6 @@ public final class amvk {
     /* renamed from: a */
     public final void mo41384a(amsd amsd) {
         sdo.m34973b((String) null);
-        this.f76021b.edit().putString("backup_and_sync", Base64.encodeToString(amsd.mo73642k(), 0)).apply();
+        this.f76021b.edit().putString("backup_and_sync", Base64.encodeToString(amsd.serializeToBytes(), 0)).apply();
     }
 }

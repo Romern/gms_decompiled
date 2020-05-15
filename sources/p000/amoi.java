@@ -16,7 +16,7 @@ public final class amoi extends bxvd implements bxxd {
         amoj amoj = (amoj) this.f164949b;
         amoj amoj2 = amoj.f75618d;
         if (!amoj.f75622c.mo73666a()) {
-            amoj.f75622c = bxvk.m124021a(amoj.f75622c);
+            amoj.f75622c = GeneratedMessageLite.m124021a(amoj.f75622c);
         }
         bxsy.m123078a(iterable, amoj.f75622c);
     }

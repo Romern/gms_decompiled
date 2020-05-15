@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btcc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btcc extends bxvk implements bxxd {
+public final class btcc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final btcc f148250d;
@@ -22,7 +22,7 @@ public final class btcc extends bxvk implements bxxd {
     static {
         btcc btcc = new btcc();
         f148250d = btcc;
-        bxvk.m124024a(btcc.class, btcc);
+        GeneratedMessageLite.m124024a(btcc.class, btcc);
     }
 
     private btcc() {
@@ -39,7 +39,7 @@ public final class btcc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148250d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002\t\u0003\t", new Object[]{"a", bzks.class, "b", "c"});
+            return GeneratedMessageLite.m124022a(f148250d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001b\u0002\t\u0003\t", new Object[]{"a", bzks.class, "b", "c"});
         } else if (i2 == 3) {
             return new btcc();
         } else {

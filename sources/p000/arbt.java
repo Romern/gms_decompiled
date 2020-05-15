@@ -12,7 +12,7 @@ import com.google.android.gms.smartdevice.d2d.D2DDevice;
 abstract class arbt {
 
     /* renamed from: a */
-    public static final sek f87315a = ascp.m73787a("D2D", arbt.class.getSimpleName());
+    public static final Logger f87315a = ascp.m73787a("D2D", arbt.class.getSimpleName());
 
     /* renamed from: b */
     protected final arai f87316b;
@@ -159,7 +159,7 @@ abstract class arbt {
 
     /* renamed from: c */
     public final void mo48382c() {
-        f87315a.mo25409a("cleanup()", new Object[0]);
+        f87315a.logVerbose("cleanup()", new Object[0]);
         arbb arbb = this.f87320f;
         aras aras = (aras) arbb;
         int i = aras.f87233c;
@@ -180,10 +180,10 @@ abstract class arbt {
     /* access modifiers changed from: protected */
     /* renamed from: d */
     public final void mo48383d() {
-        f87315a.mo25409a("resetState()", new Object[0]);
+        f87315a.logVerbose("resetState()", new Object[0]);
         this.f87321g = null;
         mo48385f();
-        f87315a.mo25409a("resetTargetDevice()", new Object[0]);
+        f87315a.logVerbose("resetTargetDevice()", new Object[0]);
         this.f87324j = null;
         mo48384e();
         mo48377a();
@@ -191,7 +191,7 @@ abstract class arbt {
 
     /* renamed from: e */
     public final void mo48384e() {
-        f87315a.mo25409a("resetBluetoothController()", new Object[0]);
+        f87315a.logVerbose("resetBluetoothController()", new Object[0]);
         this.f87318d.mo49052b();
     }
 }

@@ -10,7 +10,7 @@ import com.google.android.gms.fido.u2f.api.StateUpdate;
 public final class xxa {
 
     /* renamed from: c */
-    public static final sek f53319c = new sek(new String[]{"BrowserU2fApiHelper"}, (short[]) null);
+    public static final Logger f53319c = new Logger(new String[]{"BrowserU2fApiHelper"}, (short[]) null);
 
     /* renamed from: a */
     public final xxs f53320a;
@@ -30,12 +30,12 @@ public final class xxa {
 
     /* renamed from: a */
     public final void mo30209a(StateUpdate stateUpdate) {
-        sek sek = f53319c;
+        Logger Logger = f53319c;
         String valueOf = String.valueOf(stateUpdate.f31875e);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 32);
         sb.append("updateTransaction is called for ");
         sb.append(valueOf);
-        sek.mo25414c(sb.toString(), new Object[0]);
+        Logger.mo25414c(sb.toString(), new Object[0]);
         if (this.f53321b) {
             this.f53320a.mo29750a(stateUpdate);
             if (stateUpdate.equals(StateUpdate.f31871a)) {

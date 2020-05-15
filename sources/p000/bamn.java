@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public final class bamn implements banf {
 
     /* renamed from: a */
-    public static final bxtx f101273a = bxtx.f164797b;
+    public static final ByteString f101273a = ByteString.f164797b;
 
     /* renamed from: e */
     private static final AtomicLong f101274e = new AtomicLong(0);
@@ -42,7 +42,7 @@ public final class bamn implements banf {
     }
 
     /* renamed from: a */
-    static bxtx m87110a(bxtx bxtx) {
+    static ByteString m87110a(ByteString bxtx) {
         ByteBuffer allocate = ByteBuffer.allocate(bxtx.mo73744a() + 1);
         bxtx.mo73758a(allocate);
         allocate.put((byte) 0);
@@ -62,18 +62,18 @@ public final class bamn implements banf {
     /* renamed from: a */
     public final bamm mo55761a(banx banx, long j) {
         bamm bamm;
-        bxtx bxtx;
+        ByteString bxtx;
         if (this.f101279g.mo32671C()) {
             baml baml = new baml(this, j);
             this.f101277d.mo55769a(banx, f101273a, baml);
             bngx a = baml.f101265a.mo67664a();
-            bxtx bxtx2 = baml.f101266b;
+            ByteString bxtx2 = baml.f101266b;
             bamm = new bamm(this, a, bxtx2 != null ? m87110a(bxtx2) : f101273a);
         } else {
             Collection b = this.f101277d.mo55775b(banx, f101273a);
             bngs j2 = bngx.m109377j();
             Iterator it = b.iterator();
-            bxtx bxtx3 = null;
+            ByteString bxtx3 = null;
             long j3 = j;
             while (true) {
                 if (!it.hasNext()) {
@@ -81,17 +81,17 @@ public final class bamn implements banf {
                 }
                 Pair pair = (Pair) it.next();
                 try {
-                    bxxc bxxc = (bxxc) this.f101276c.mo73653a((bxtx) pair.second);
+                    bxxc bxxc = (bxxc) this.f101276c.mo73653a((ByteString) pair.second);
                     if (j3 < ((long) bxxc.mo74145db())) {
                         ((achw) this.f101275b.mo16713a()).mo25414c("Size limit(%d) exceeded, stopping adding rest of changes.", Long.valueOf(j));
                         break;
                     }
                     j3 -= (long) bxxc.mo74145db();
-                    bxtx3 = (bxtx) pair.first;
+                    bxtx3 = (ByteString) pair.first;
                     j2.mo67668c(bxxc);
                 } catch (bxwf e) {
                     ((achw) this.f101275b.mo16713a()).mo25418e("Skipping unparsable Change proto:", new Object[0]);
-                    bxtx3 = (bxtx) pair.first;
+                    bxtx3 = (ByteString) pair.first;
                 }
             }
             bngx a2 = j2.mo67664a();
@@ -109,7 +109,7 @@ public final class bamn implements banf {
     public final void mo55762a(bany bany, bxxc bxxc) {
         bmxy.m108581a(bxxc);
         int i = Build.VERSION.SDK_INT;
-        this.f101277d.mo55771a(bany, bxtx.m123261a(ByteBuffer.allocate(24).putLong((long) this.f101278f).putLong(SystemClock.elapsedRealtimeNanos()).putLong(f101274e.getAndIncrement()).array()), bxxc.mo73639aL());
+        this.f101277d.mo55771a(bany, ByteString.m123261a(ByteBuffer.allocate(24).putLong((long) this.f101278f).putLong(SystemClock.elapsedRealtimeNanos()).putLong(f101274e.getAndIncrement()).array()), bxxc.mo73639aL());
     }
 
     /* renamed from: a */

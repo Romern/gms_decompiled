@@ -108,7 +108,7 @@ public final class bcbk {
                 h.mo57527a(bcov);
             }
             if (hashMap.containsKey("display_icon")) {
-                h.mo57529a((bxtx) hashMap.get("display_icon"));
+                h.mo57529a((ByteString) hashMap.get("display_icon"));
             }
             if (hashMap.containsKey("display_text")) {
                 h.mo57530a((String) hashMap.get("display_text"));

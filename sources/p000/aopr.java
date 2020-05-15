@@ -46,7 +46,7 @@ final /* synthetic */ class aopr implements Callable {
         bymw2.getClass();
         bymu.f167078b = bymw2;
         bymu.f167077a = 2;
-        byte[] k = ((bymu) da.mo74062i()).mo73642k();
+        byte[] k = ((bymu) da.mo74062i()).serializeToBytes();
         HttpURLConnection httpURLConnection = null;
         try {
             String d = cghx.m145516d();
@@ -67,7 +67,7 @@ final /* synthetic */ class aopr implements Callable {
                 outputStream.close();
                 int responseCode = httpURLConnection.getResponseCode();
                 if (responseCode == 200) {
-                    bymv bymv = (bymv) bxvk.m124011a(bymv.f167079c, httpURLConnection.getInputStream(), bxus.m123744c());
+                    bymv bymv = (bymv) GeneratedMessageLite.m124011a(bymv.f167079c, httpURLConnection.getInputStream(), bxus.m123744c());
                     stp.m36307a(httpURLConnection);
                     return bymv;
                 }

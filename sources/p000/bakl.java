@@ -35,9 +35,9 @@ final /* synthetic */ class bakl implements bqeh {
         try {
             byte[] decode = Base64.decode(str, 0);
             bngs j = bngx.m109377j();
-            for (byim byim : ((byin) bxvk.m124014a(byin.f166582b, decode)).f166584a) {
+            for (byim byim : ((byin) GeneratedMessageLite.m124014a(byin.f166582b, decode)).f166584a) {
                 if (baki.f101126a.equals(byim.f166577b)) {
-                    byie byie = (byie) bxvk.m124007a(byie.f166554c, byim.f166578c);
+                    byie byie = (byie) GeneratedMessageLite.m124007a(byie.f166554c, byim.f166578c);
                     bakd bakd = baki.f101127b;
                     int i = byie.f166556a;
                     int i2 = i != 0 ? i != 1 ? i != 2 ? 0 : 2 : 1 : 3;

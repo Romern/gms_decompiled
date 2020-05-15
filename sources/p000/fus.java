@@ -242,12 +242,12 @@ public final class fus extends sji {
                                 bzfm2 = bzfm.f169831c;
                             }
                             bxvd bxvd = (bxvd) bzfm2.mo74142c(5);
-                            bxvd.mo73625a((bxvk) bzfm2);
+                            bxvd.mo73625a((GeneratedMessageLite) bzfm2);
                             if (bxvd.f164950c) {
                                 bxvd.mo74035c();
                                 bxvd.f164950c = false;
                             }
-                            ((bzfm) bxvd.f164949b).f169834b = bxvk.m124030de();
+                            ((bzfm) bxvd.f164949b).f169834b = GeneratedMessageLite.m124030de();
                             bzfm bzfm3 = bzft.f169870b;
                             if (bzfm3 == null) {
                                 bzfm3 = bzfm.f169831c;
@@ -264,13 +264,13 @@ public final class fus extends sji {
                                     bzfm bzfm4 = (bzfm) bxvd.f164949b;
                                     bzfn.getClass();
                                     if (!bzfm4.f169834b.mo73666a()) {
-                                        bzfm4.f169834b = bxvk.m124021a(bzfm4.f169834b);
+                                        bzfm4.f169834b = GeneratedMessageLite.m124021a(bzfm4.f169834b);
                                     }
                                     bzfm4.f169834b.add(bzfn);
                                 }
                             }
                             bxvd bxvd2 = (bxvd) bzft.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) bzft);
+                            bxvd2.mo73625a((GeneratedMessageLite) bzft);
                             if (!bxvd2.f164950c) {
                                 i3 = 0;
                             } else {

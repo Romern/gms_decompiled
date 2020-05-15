@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bybb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bybb extends bxvk implements bxxd {
+public final class bybb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bybb f165373d;
@@ -22,7 +22,7 @@ public final class bybb extends bxvk implements bxxd {
     static {
         bybb bybb = new bybb();
         f165373d = bybb;
-        bxvk.m124024a(bybb.class, bybb);
+        GeneratedMessageLite.m124024a(bybb.class, bybb);
     }
 
     private bybb() {
@@ -39,7 +39,7 @@ public final class bybb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165373d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f165373d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new bybb();
         } else {

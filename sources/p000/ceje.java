@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ceje */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ceje extends bxvk implements bxxd {
+public final class ceje extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final ceje f182754c;
@@ -22,7 +22,7 @@ public final class ceje extends bxvk implements bxxd {
     static {
         ceje ceje = new ceje();
         f182754c = ceje;
-        bxvk.m124024a(ceje.class, ceje);
+        GeneratedMessageLite.m124024a(ceje.class, ceje);
     }
 
     private ceje() {
@@ -39,7 +39,7 @@ public final class ceje extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f182754c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002င\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f182754c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002င\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new ceje();
         } else {

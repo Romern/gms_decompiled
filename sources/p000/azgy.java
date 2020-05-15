@@ -45,7 +45,7 @@ public final class azgy extends azgx {
                 cbma3 = cbma.f177591f;
             }
             aznz a = aznz.m85890a(cbma2, cbma3);
-            if (a != null || (b = cbki.m127938b(cbkj.f177410d)) == 0 || b != 15 || (cbij = (cbij) azol.m85935a((bxxk) cbij.f177251e.mo74142c(7), cbkj.f177411e.mo73780k())) == null) {
+            if (a != null || (b = cbki.m127938b(cbkj.f177410d)) == 0 || b != 15 || (cbij = (cbij) azol.m85935a((bxxk) cbij.f177251e.mo74142c(7), cbkj.f177411e.getKey())) == null) {
                 return a;
             }
             cbma cbma4 = cbkj.f177414h;
@@ -212,13 +212,13 @@ public final class azgy extends azgx {
     public final /* bridge */ /* synthetic */ bxxc mo54916a(cbkj cbkj) {
         int b = cbki.m127938b(cbkj.f177410d);
         if (b != 0 && b == 10) {
-            return (cbmh) azol.m85935a((bxxk) cbmh.f177621c.mo74142c(7), cbkj.f177411e.mo73780k());
+            return (cbmh) azol.m85935a((bxxk) cbmh.f177621c.mo74142c(7), cbkj.f177411e.getKey());
         }
         int b2 = cbki.m127938b(cbkj.f177410d);
         if (b2 == 0 || b2 != 15) {
             return null;
         }
-        cbij cbij = (cbij) azol.m85935a((bxxk) cbij.f177251e.mo74142c(7), cbkj.f177411e.mo73780k());
+        cbij cbij = (cbij) azol.m85935a((bxxk) cbij.f177251e.mo74142c(7), cbkj.f177411e.getKey());
         if (cbij.f177253a.size() <= 0 || ((cbil) cbij.f177253a.get(0)).f177259a != 3) {
             return null;
         }

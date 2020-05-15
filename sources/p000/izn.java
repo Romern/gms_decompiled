@@ -19,7 +19,7 @@ public final class izn {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final izo mo13531a() {
-        sdo.m34966a((Object) this.f22004a, (Object) "A valid security domain is required.");
+        sdo.checkIfNull((Object) this.f22004a, (Object) "A valid security domain is required.");
         return new izo(this);
     }
 }

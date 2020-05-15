@@ -52,7 +52,7 @@ public final class bgld {
                     bucb bucb3 = (bucb) da2.mo74062i();
                     bucb3.getClass();
                     if (!bubt2.f153280d.mo73666a()) {
-                        bubt2.f153280d = bxvk.m124021a(bubt2.f153280d);
+                        bubt2.f153280d = GeneratedMessageLite.m124021a(bubt2.f153280d);
                     }
                     bubt2.f153280d.add(bucb3);
                 }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btsl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btsl extends bxvk implements bxxd {
+public final class btsl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final btsl f150229d;
@@ -25,7 +25,7 @@ public final class btsl extends bxvk implements bxxd {
     static {
         btsl btsl = new btsl();
         f150229d = btsl;
-        bxvk.m124024a(btsl.class, btsl);
+        GeneratedMessageLite.m124024a(btsl.class, btsl);
     }
 
     private btsl() {
@@ -46,7 +46,7 @@ public final class btsl extends bxvk implements bxxd {
             this.f150234e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f150229d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0001\u0001Љ\u0002\t\u0003\t", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f150229d, "\u0000\u0003\u0000\u0000\u0001\u0003\u0003\u0000\u0000\u0001\u0001Љ\u0002\t\u0003\t", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new btsl();
         } else {

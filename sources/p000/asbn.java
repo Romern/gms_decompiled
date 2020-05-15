@@ -18,7 +18,7 @@ import org.apache.http.util.EntityUtils;
 public final class asbn {
 
     /* renamed from: a */
-    public static final sek f88672a = new sek("D2D", "WifiBackupServerManager");
+    public static final Logger f88672a = new Logger("D2D", "WifiBackupServerManager");
 
     /* renamed from: b */
     public final Context f88673b;
@@ -28,7 +28,7 @@ public final class asbn {
 
     public asbn(Context context) {
         abop abop = new abop(context, "Android-Backup/1.0", false);
-        sek sek = asbq.f88679a;
+        Logger Logger = asbq.f88679a;
         this.f88673b = context;
         this.f88674c = abop;
     }
@@ -61,14 +61,14 @@ public final class asbn {
         }
         shr.m35316b(1029);
         try {
-            byte[] k = lth.mo73642k();
+            byte[] k = lth.serializeToBytes();
             HttpPost httpPost = new HttpPost(maa.m24747a(this.f88673b));
             httpPost.setHeader("Content-Type", "application/octet-stream");
             httpPost.setEntity(new ByteArrayEntity(k));
             HttpResponse execute = this.f88674c.execute(httpPost);
             HttpEntity entity = execute.getEntity();
             if (execute.getStatusLine().getStatusCode() == 503) {
-                f88672a.mo25409a("Sc Service Unavailable", new Object[0]);
+                f88672a.logVerbose("Sc Service Unavailable", new Object[0]);
                 shr.m35312a();
                 return null;
             } else if (execute.getStatusLine().getStatusCode() != 200) {
@@ -80,7 +80,7 @@ public final class asbn {
             } else if (entity != null) {
                 ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
                 entity.writeTo(byteArrayOutputStream);
-                ltq ltq = (ltq) bxvk.m124016a(ltq.f32971i, byteArrayOutputStream.toByteArray(), bxus.m123744c());
+                ltq ltq = (ltq) GeneratedMessageLite.m124016a(ltq.f32971i, byteArrayOutputStream.toByteArray(), bxus.m123744c());
                 shr.m35312a();
                 return ltq;
             } else {

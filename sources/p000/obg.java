@@ -43,7 +43,7 @@ class obg extends obe {
         if (i2 != 1) {
             switch (i2) {
                 case AndroidInputTypeSignal.TYPE_TEXT_FLAG_AUTO_CORRECT /*32768*/:
-                    bivf bivf = (bivf) bxvk.m124013a(bivf.f121970c, byteBuffer2, bxus.m123744c());
+                    bivf bivf = (bivf) GeneratedMessageLite.m124013a(bivf.f121970c, byteBuffer2, bxus.m123744c());
                     if (bivf != null) {
                         birv a = birv.m102768a(bivf.f121973b);
                         if (a == null) {
@@ -54,7 +54,7 @@ class obg extends obe {
                     }
                     break;
                 case 32769:
-                    bivh bivh = (bivh) bxvk.m124013a(bivh.f121982d, byteBuffer2, bxus.m123744c());
+                    bivh bivh = (bivh) GeneratedMessageLite.m124013a(bivh.f121982d, byteBuffer2, bxus.m123744c());
                     if (bivh != null) {
                         printWriter2.printf("%d:%d", Integer.valueOf(bivh.f121985b), Integer.valueOf(bivh.f121986c));
                         break;
@@ -63,14 +63,14 @@ class obg extends obe {
                 case 32770:
                     break;
                 case 32771:
-                    bipu bipu = (bipu) bxvk.m124013a(bipu.f121213d, byteBuffer2, bxus.m123744c());
+                    bipu bipu = (bipu) GeneratedMessageLite.m124013a(bipu.f121213d, byteBuffer2, bxus.m123744c());
                     if (bipu != null) {
                         printWriter2.printf("%d", Integer.valueOf(bipu.f121216b));
                         break;
                     }
                     break;
                 case 32772:
-                    biom biom = (biom) bxvk.m124013a(biom.f121063d, byteBuffer2, bxus.m123744c());
+                    biom biom = (biom) GeneratedMessageLite.m124013a(biom.f121063d, byteBuffer2, bxus.m123744c());
                     if (biom != null) {
                         printWriter2.printf("%d:%d", Integer.valueOf(biom.f121066b), Integer.valueOf(((Integer) ooe.m29303a(Integer.valueOf(biom.f121067c)).mo22383a((Object) 0)).intValue()));
                         break;

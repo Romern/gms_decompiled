@@ -84,7 +84,7 @@ public final class dop {
         }
         bxhp bxhp2 = (bxhp) da.f164949b;
         if (!bxhp2.f163449c.mo73666a()) {
-            bxhp2.f163449c = bxvk.m124021a(bxhp2.f163449c);
+            bxhp2.f163449c = GeneratedMessageLite.m124021a(bxhp2.f163449c);
         }
         bxsy.m123078a(asList, bxhp2.f163449c);
         bxvd da3 = bxjo.f163657c.mo74144da();

@@ -17,7 +17,7 @@ final class bvcp implements bvat {
     public final /* bridge */ /* synthetic */ void mo36284a(bxxc bxxc) {
         bvam bvam = (bvam) bxxc;
         bxvd bxvd = (bxvd) bvam.mo74142c(5);
-        bxvd.mo73625a((bxvk) bvam);
+        bxvd.mo73625a((GeneratedMessageLite) bvam);
         bvaa d = this.f155601a.mo73288d();
         if (bxvd.f164950c) {
             bxvd.mo74035c();

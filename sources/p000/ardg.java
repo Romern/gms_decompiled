@@ -38,7 +38,7 @@ final class ardg implements aram {
 
     /* renamed from: a */
     public final void mo48342a(String str) {
-        ardn.f87438h.mo25409a("onTextMessage: ", str);
+        ardn.f87438h.logVerbose("onTextMessage: ", str);
     }
 
     /* renamed from: a */

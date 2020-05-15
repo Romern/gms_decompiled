@@ -161,7 +161,7 @@ public final class acbf {
         }
         abus abus = (abus) da2.f164949b;
         if (!abus.f58462a.mo73666a()) {
-            abus.f58462a = bxvk.m124021a(abus.f58462a);
+            abus.f58462a = GeneratedMessageLite.m124021a(abus.f58462a);
         }
         bxsy.m123078a(asList, abus.f58462a);
         abus abus2 = (abus) da2.mo74062i();
@@ -400,7 +400,7 @@ public final class acbf {
                                             }
                                             abup abup4 = (abup) da3.mo74062i();
                                             bxvd bxvd = (bxvd) abup4.mo74142c(5);
-                                            bxvd.mo73625a((bxvk) abup4);
+                                            bxvd.mo73625a((GeneratedMessageLite) abup4);
                                             if (bxvd.f164950c) {
                                                 bxvd.mo74035c();
                                                 bxvd.f164950c = false;

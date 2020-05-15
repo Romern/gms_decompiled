@@ -22,7 +22,7 @@ public final class cimz extends bxvg implements bxvh {
     static {
         cimz cimz = new cimz();
         f190878c = cimz;
-        bxvk.m124024a(cimz.class, cimz);
+        GeneratedMessageLite.m124024a(cimz.class, cimz);
     }
 
     private cimz() {
@@ -43,7 +43,7 @@ public final class cimz extends bxvg implements bxvh {
             this.f190882d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f190878c, "\u0001\u0001\u0000\u0001\b\b\u0001\u0000\u0000\u0000\bဉ\u0005", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f190878c, "\u0001\u0001\u0000\u0001\b\b\u0001\u0000\u0000\u0000\bဉ\u0005", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cimz();
         } else {

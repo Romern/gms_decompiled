@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byul */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byul extends bxvk implements bxxd {
+public final class byul extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final byul f168303d;
@@ -22,7 +22,7 @@ public final class byul extends bxvk implements bxxd {
     static {
         byul byul = new byul();
         f168303d = byul;
-        bxvk.m124024a(byul.class, byul);
+        GeneratedMessageLite.m124024a(byul.class, byul);
     }
 
     private byul() {
@@ -39,7 +39,7 @@ public final class byul extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168303d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001စ\u0000\u0002စ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f168303d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001စ\u0000\u0002စ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new byul();
         } else {

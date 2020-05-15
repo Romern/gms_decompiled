@@ -49,7 +49,7 @@ public final class PurchaseManagerResultTransformer implements DataIntent$Result
                 byte[] byteArrayExtra = intent.getByteArrayExtra("com.google.android.gms.wallet.firstparty.SECURE_DATA_RESULT");
                 if (byteArrayExtra != null) {
                     try {
-                        bxwc bxwc = ((bwel) bxvk.m124014a(bwel.f159000b, byteArrayExtra)).f159002a;
+                        bxwc bxwc = ((bwel) GeneratedMessageLite.m124014a(bwel.f159000b, byteArrayExtra)).f159002a;
                         int size = bxwc.size();
                         int i2 = 0;
                         while (true) {

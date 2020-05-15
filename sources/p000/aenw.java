@@ -27,7 +27,7 @@ final class aenw extends aeme {
         aemf aemf = new aemf((aeme) this);
         NearbyAlertRequest nearbyAlertRequest = this.f63541a;
         PendingIntent pendingIntent = this.f63542b;
-        sdo.m34966a(aemf, "callback == null");
+        sdo.checkIfNull(aemf, "callback == null");
         ((aeni) aeoa.mo25289B()).mo34349a(nearbyAlertRequest, aeoa.f63545a, pendingIntent, aemf);
     }
 }

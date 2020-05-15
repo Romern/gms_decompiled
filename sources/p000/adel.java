@@ -44,7 +44,7 @@ public final class adel implements adeo {
             if (query != null) {
                 if (query.moveToFirst()) {
                     f61496a.mo33423a("AIA is sideloaded: %s", str);
-                    btib = (btib) bxvk.m124016a(btib.f148936m, query.getBlob(0), bxus.m123743b());
+                    btib = (btib) GeneratedMessageLite.m124016a(btib.f148936m, query.getBlob(0), bxus.m123743b());
                     if (btib != null) {
                         return this.f61498c.mo33392a(str, i, i2, list);
                     }

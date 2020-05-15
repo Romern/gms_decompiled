@@ -243,7 +243,7 @@ public final class zor extends zmd {
                     cadz cadz2 = (cadz) a.get(i4);
                     bmxy.m108596a(yym.m45037b(cadz2), "Session is not active: %s", cadz2);
                     bxvd bxvd = (bxvd) cadz2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) cadz2);
+                    bxvd.mo73625a((GeneratedMessageLite) cadz2);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = z;

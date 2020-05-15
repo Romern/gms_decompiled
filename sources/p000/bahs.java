@@ -29,7 +29,7 @@ public final class bahs extends cazu {
         while (i < size) {
             byhy byhy = (byhy) bngx.get(i);
             bxvd da = byhi.f166451f.mo74144da();
-            bxtx bxtx = byhy.f166532c;
+            ByteString bxtx = byhy.f166532c;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

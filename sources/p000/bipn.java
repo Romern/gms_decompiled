@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bipn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bipn extends bxvk implements bxxd {
+public final class bipn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bipn f121186c;
@@ -25,7 +25,7 @@ public final class bipn extends bxvk implements bxxd {
     static {
         bipn bipn = new bipn();
         f121186c = bipn;
-        bxvk.m124024a(bipn.class, bipn);
+        GeneratedMessageLite.m124024a(bipn.class, bipn);
     }
 
     private bipn() {
@@ -46,7 +46,7 @@ public final class bipn extends bxvk implements bxxd {
             this.f121191e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121186c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔄ\u0001", new Object[]{"d", "a", bisf.m102782b(), "b"});
+            return GeneratedMessageLite.m124022a(f121186c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔌ\u0000\u0002ᔄ\u0001", new Object[]{"d", "a", bisf.m102782b(), "b"});
         } else if (i2 == 3) {
             return new bipn();
         } else {

@@ -43,7 +43,7 @@ public final /* synthetic */ class ahui implements Runnable {
                 ahza a = ahur.m56666a((List) buru.mo73055a(account).get(), ahyz);
                 if (a != null) {
                     try {
-                        ahsu = new ahsu(context, (aiaa) bxvk.m124016a(aiaa.f68501K, a.f68445c.mo73780k(), bxus.m123744c()));
+                        ahsu = new ahsu(context, (aiaa) GeneratedMessageLite.m124016a(aiaa.f68501K, a.f68445c.getKey(), bxus.m123744c()));
                         break;
                     } catch (bxwf e) {
                         ((bnsl) ahsd.f67925a.mo68388c()).mo68405a("FastPair: RemoveBond: parse item failed");
@@ -60,7 +60,7 @@ public final /* synthetic */ class ahui implements Runnable {
             ((ahyr) ahgz.m55754a(context, ahyr.class)).mo37304a(str);
         }
         if (account != null) {
-            byte[] k = ahyz.f68429c.mo73780k();
+            byte[] k = ahyz.f68429c.getKey();
             buru.mo73060a(account, k, bnzi.m110902d().mo68722a(bqce.m112562a(k, aynj.m84359a(str))).mo68740b());
             ahvb ahvb = new ahvb(context, ahsu, true);
             if (cfoj.m141534O()) {

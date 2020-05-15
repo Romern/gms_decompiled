@@ -24,7 +24,7 @@ public final class acxd {
         while (it.hasNext()) {
             absu absu = (absu) it.next();
             bxvd bxvd = (bxvd) absu.mo74142c(5);
-            bxvd.mo73625a((bxvk) absu);
+            bxvd.mo73625a((GeneratedMessageLite) absu);
             int[] iArr = (int[]) this.f61003a.get(absu.f58168b);
             if (iArr != null) {
                 int i = absu.f58169c + iArr[0];

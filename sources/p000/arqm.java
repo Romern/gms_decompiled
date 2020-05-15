@@ -40,7 +40,7 @@ public final class arqm {
 
     /* renamed from: a */
     public final void mo48750a() {
-        f88123f.mo25409a("started", new Object[0]);
+        f88123f.logVerbose("started", new Object[0]);
         this.f88127d = System.currentTimeMillis();
         this.f88128e = false;
         mo48753d();
@@ -48,13 +48,13 @@ public final class arqm {
 
     /* renamed from: b */
     public final synchronized void mo48751b() {
-        f88123f.mo25409a("stopped", new Object[0]);
+        f88123f.logVerbose("stopped", new Object[0]);
         this.f88128e = true;
     }
 
     /* renamed from: c */
     public final synchronized void mo48752c() {
-        f88123f.mo25409a("updated", new Object[0]);
+        f88123f.logVerbose("updated", new Object[0]);
         this.f88127d = System.currentTimeMillis();
     }
 

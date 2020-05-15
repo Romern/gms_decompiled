@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cimh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cimh extends bxvk implements bxxd {
+public final class cimh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cimh f190716c;
@@ -19,7 +19,7 @@ public final class cimh extends bxvk implements bxxd {
     static {
         cimh cimh = new cimh();
         f190716c = cimh;
-        bxvk.m124024a(cimh.class, cimh);
+        GeneratedMessageLite.m124024a(cimh.class, cimh);
     }
 
     private cimh() {
@@ -36,7 +36,7 @@ public final class cimh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f190716c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", cimd.f190701a});
+            return GeneratedMessageLite.m124022a(f190716c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဌ\u0000", new Object[]{"a", "b", cimd.f190701a});
         } else if (i2 == 3) {
             return new cimh();
         } else {

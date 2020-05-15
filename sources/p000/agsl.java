@@ -189,7 +189,7 @@ public final class agsl {
         List asList = Arrays.asList(bxzv);
         boot a2 = a.mo35978a(20, "GTAF_Server", "MDP_PeriodicService");
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         bxvd da = bonz.f133873h.mo74144da();
         if (bxzu == null) {
             bxzu2 = bxzu.EVENT_UNKNOWN;
@@ -233,7 +233,7 @@ public final class agsl {
         List asList = Arrays.asList(bxzv);
         boot a2 = a.mo35978a(20, "GTAF_Server", "MDP_PeriodicService");
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         bonx bonx = (bonx) bony.f133869c.mo74144da();
         if (bonx.f164950c) {
             bonx.mo74035c();

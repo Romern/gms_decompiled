@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: botw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class botw extends bxvk implements bxxd {
+public final class botw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final botw f134882d;
@@ -22,7 +22,7 @@ public final class botw extends bxvk implements bxxd {
     static {
         botw botw = new botw();
         f134882d = botw;
-        bxvk.m124024a(botw.class, botw);
+        GeneratedMessageLite.m124024a(botw.class, botw);
     }
 
     private botw() {
@@ -39,7 +39,7 @@ public final class botw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134882d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", bots.f134870a});
+            return GeneratedMessageLite.m124022a(f134882d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဌ\u0001", new Object[]{"a", "b", "c", bots.f134870a});
         } else if (i2 == 3) {
             return new botw();
         } else {

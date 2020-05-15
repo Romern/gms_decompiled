@@ -168,7 +168,7 @@ public final class beai {
                                                 m91662a(xml, "log-sources");
                                                 braf.mo69472a(arrayList3);
                                             } else if (c == 3) {
-                                                bxtx a = bxtx.m123261a(Base64.decode(xml.nextText(), 8));
+                                                ByteString a = ByteString.m123261a(Base64.decode(xml.nextText(), 8));
                                                 if (braf.f164950c) {
                                                     braf.mo74035c();
                                                     braf.f164950c = false;
@@ -370,7 +370,7 @@ public final class beai {
                                         if (("com.google.android.gms.phenotype.registration.xml".equals(str2) || str2.startsWith("com.google.android.gms.phenotype.registration.xml:")) && (i2 = serviceInfo.metaData.getInt(str2, 0)) != 0) {
                                             for (braj braj : m91660a(i2, packageInfo2)) {
                                                 bxvd bxvd = (bxvd) braj.mo74142c(5);
-                                                bxvd.mo73625a((bxvk) braj);
+                                                bxvd.mo73625a((GeneratedMessageLite) braj);
                                                 braf braf = (braf) bxvd;
                                                 if (braf.f164950c) {
                                                     braf.mo74035c();
@@ -393,7 +393,7 @@ public final class beai {
                 arrayList = new ArrayList(arrayList3.size());
                 for (braj braj4 : arrayList3) {
                     bxvd bxvd2 = (bxvd) braj4.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) braj4);
+                    bxvd2.mo73625a((GeneratedMessageLite) braj4);
                     braf braf2 = (braf) bxvd2;
                     String str3 = packageInfo2.packageName;
                     if (braf2.f164950c) {
@@ -487,7 +487,7 @@ public final class beai {
                                     String valueOf3 = String.valueOf(replaceAll);
                                     int identifier3 = resourcesForApplication.getIdentifier(valueOf3.length() == 0 ? new String("phenotype_params_") : "phenotype_params_".concat(valueOf3), "string", packageInfo2.packageName);
                                     if (identifier3 != 0) {
-                                        bxtx a = bxtx.m123261a(Base64.decode(resourcesForApplication.getString(identifier3), 8));
+                                        ByteString a = ByteString.m123261a(Base64.decode(resourcesForApplication.getString(identifier3), 8));
                                         if (braf3.f164950c) {
                                             braf3.mo74035c();
                                             braf3.f164950c = false;

@@ -51,7 +51,7 @@ public final class gas implements gai {
         this.f17802a = sck;
         this.f17803b = i;
         this.f17804c = str;
-        sdo.m34966a(account, "RequestedAccount cannot be null.");
+        sdo.checkIfNull(account, "RequestedAccount cannot be null.");
         this.f17805d = account;
         this.f17806e = account2;
         this.f17807f = strArr;

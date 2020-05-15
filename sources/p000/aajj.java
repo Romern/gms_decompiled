@@ -162,7 +162,7 @@ public final /* synthetic */ class aajj implements Runnable {
                                         i += str.length() + str2.length();
                                     } else if ((obj instanceof byte[]) && str.equals("rawData")) {
                                         byte[] bArr = (byte[]) obj;
-                                        bxtx a3 = bxtx.m123261a(bArr);
+                                        ByteString a3 = ByteString.m123261a(bArr);
                                         if (blmo.f164950c) {
                                             blmo.mo74035c();
                                             blmo.f164950c = false;

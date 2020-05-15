@@ -370,7 +370,7 @@ public final class abrv implements abqv {
         byte[] bArr = (byte[]) abzt.f58915bC.mo58455c();
         if (bArr != null && bArr.length > 0) {
             try {
-                abpr abpr = (abpr) bxvk.m124016a(abpr.f57891d, bArr, bxus.m123744c());
+                abpr abpr = (abpr) GeneratedMessageLite.m124016a(abpr.f57891d, bArr, bxus.m123744c());
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -622,7 +622,7 @@ public final class abrv implements abqv {
                             bxsi bxsi3 = (bxsi) da2.mo74062i();
                             bxsi3.getClass();
                             if (!acqu.f60546b.mo73666a()) {
-                                acqu.f60546b = bxvk.m124021a(acqu.f60546b);
+                                acqu.f60546b = GeneratedMessageLite.m124021a(acqu.f60546b);
                             }
                             acqu.f60546b.add(bxsi3);
                         }
@@ -728,7 +728,7 @@ public final class abrv implements abqv {
                         if (abpr != null) {
                             abpr = abpr.f57891d;
                         }
-                        String bnzb = b2.mo68722a(abpr.mo73642k()).toString();
+                        String bnzb = b2.mo68722a(abpr.serializeToBytes()).toString();
                         boolean z7 = !this.f58062A.equals(bnzb);
                         if (z2) {
                             if (!z3 && !z4 && !z7) {
@@ -738,7 +738,7 @@ public final class abrv implements abqv {
                                 nativeGetStorageState = NativeIndex.nativeGetStorageState(this.f58078n.f79071b);
                                 if (nativeGetStorageState != null) {
                                     try {
-                                        bpxe = (bpxe) bxvk.m124016a(bpxe.f139685g, nativeGetStorageState, bxus.m123744c());
+                                        bpxe = (bpxe) GeneratedMessageLite.m124016a(bpxe.f139685g, nativeGetStorageState, bxus.m123744c());
                                     } catch (bxwf e2) {
                                         absg.m48189a(e2, "Failed parsing storage state");
                                         bpxe = null;
@@ -753,7 +753,7 @@ public final class abrv implements abqv {
                                 if (a) {
                                     if (bpxe != null) {
                                         bxvd = (bxvd) bpxe.mo74142c(5);
-                                        bxvd.mo73625a((bxvk) bpxe);
+                                        bxvd.mo73625a((GeneratedMessageLite) bpxe);
                                     } else {
                                         bxvd = bpxe.f139685g.mo74144da();
                                     }
@@ -887,7 +887,7 @@ public final class abrv implements abqv {
                 abpr = i.f58268h;
                 if (abpr != null) {
                 }
-                String bnzb2 = b22.mo68722a(abpr.mo73642k()).toString();
+                String bnzb2 = b22.mo68722a(abpr.serializeToBytes()).toString();
                 boolean z72 = !this.f58062A.equals(bnzb2);
                 if (z2) {
                 }
@@ -1426,7 +1426,7 @@ public final class abrv implements abqv {
                         absr absr4 = (absr) abzr.mo32560c();
                         int i4 = 5;
                         bxvd bxvd = (bxvd) absr3.mo74142c(5);
-                        bxvd.mo73625a((bxvk) absr3);
+                        bxvd.mo73625a((GeneratedMessageLite) absr3);
                         if (e.mo32553a() != abzr.mo32553a()) {
                             int a3 = abzr.mo32553a();
                             if (bxvd.f164950c) {
@@ -1462,7 +1462,7 @@ public final class abrv implements abqv {
                                         abqo abqo = (abqo) absr3.f58145j.get(i5);
                                         abqo abqo2 = (abqo) absr4.f58145j.get(i5);
                                         bxvd bxvd2 = (bxvd) abqo.mo74142c(i4);
-                                        bxvd2.mo73625a((bxvk) abqo);
+                                        bxvd2.mo73625a((GeneratedMessageLite) abqo);
                                         if (!abqo.f57978b.equals(abqo2.f57978b) || abqo.f57979c != abqo2.f57979c) {
                                             break;
                                         }
@@ -1508,7 +1508,7 @@ public final class abrv implements abqv {
                                                     bxvd2.mo74035c();
                                                     bxvd2.f164950c = false;
                                                 }
-                                                ((abqo) bxvd2.f164949b).f57984h = bxvk.m124028dc();
+                                                ((abqo) bxvd2.f164949b).f57984h = GeneratedMessageLite.m124028dc();
                                                 bxvd2.mo73948K(new bxvv(abqo2.f57984h, abqo.f57974i));
                                                 z5 = true;
                                             }
@@ -1517,7 +1517,7 @@ public final class abrv implements abqv {
                                                     bxvd2.mo74035c();
                                                     bxvd2.f164950c = false;
                                                 }
-                                                ((abqo) bxvd2.f164949b).f57985j = bxvk.m124030de();
+                                                ((abqo) bxvd2.f164949b).f57985j = GeneratedMessageLite.m124030de();
                                                 bxvd2.mo73947J(abqo2.f57985j);
                                                 z5 = true;
                                             }
@@ -1596,7 +1596,7 @@ public final class abrv implements abqv {
                                                 bxvd.f164950c = false;
                                             }
                                             absr absr11 = absr.f58134s;
-                                            ((absr) bxvd.f164949b).f58146k = bxvk.m124030de();
+                                            ((absr) bxvd.f164949b).f58146k = GeneratedMessageLite.m124030de();
                                             bxvd.mo73949L(absr4.f58146k);
                                             z3 = true;
                                         }
@@ -1824,7 +1824,7 @@ public final class abrv implements abqv {
         }
         bomn a2 = nativeIndex.mo43396a(d, i2, a, jArr, iArr, mo32314b().mo32546e());
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -1840,7 +1840,7 @@ public final class abrv implements abqv {
         absg.m48198c("Starting compaction min disk %.3f%% min index %.3f%%", Double.valueOf(this.f58073i.mo32352b() * 100.0d), Double.valueOf(this.f58078n.mo43412g() * 100.0d));
         bomn a = this.f58078n.mo43396a(0.0d, abzm.f58810a, abzu.m48730a(), null, null, mo32314b().mo32546e());
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -2019,11 +2019,11 @@ public final class abrv implements abqv {
                 abpe abpe = (abpe) da.f164949b;
                 abpd3.getClass();
                 if (!abpe.f57838a.mo73666a()) {
-                    abpe.f57838a = bxvk.m124021a(abpe.f57838a);
+                    abpe.f57838a = GeneratedMessageLite.m124021a(abpe.f57838a);
                 }
                 abpe.f57838a.add(abpd3);
             }
-            acrl.f60620b.edit().putString("known-accounts", Base64.encodeToString(((abpe) da.mo74062i()).mo73642k(), 0)).apply();
+            acrl.f60620b.edit().putString("known-accounts", Base64.encodeToString(((abpe) da.mo74062i()).serializeToBytes(), 0)).apply();
         }
     }
 
@@ -2105,7 +2105,7 @@ public final class abrv implements abqv {
         acbf.mo32603a();
         absr a3 = abzm.m48649a(a2, (RegisterCorpusInfo) abzr.mo32560c());
         bxvd bxvd = (bxvd) a3.mo74142c(5);
-        bxvd.mo73625a((bxvk) a3);
+        bxvd.mo73625a((GeneratedMessageLite) a3);
         List b = acbf.mo32604b();
         if (b != null) {
             if (bxvd.f164950c) {
@@ -2113,7 +2113,7 @@ public final class abrv implements abqv {
                 bxvd.f164950c = false;
             }
             absr absr = absr.f58134s;
-            ((absr) bxvd.f164949b).f58146k = bxvk.m124030de();
+            ((absr) bxvd.f164949b).f58146k = GeneratedMessageLite.m124030de();
             bxvd.mo73949L(b);
         }
         absr d = mo32314b().mo32543d(new acak(a2.f58761b, ((RegisterCorpusInfo) abzr.mo32560c()).f9635a));
@@ -2181,13 +2181,13 @@ public final class abrv implements abqv {
                     }
                 }
                 bxvd bxvd = (bxvd) abss.mo74142c(5);
-                bxvd.mo73625a((bxvk) abss);
+                bxvd.mo73625a((GeneratedMessageLite) abss);
                 absy absy2 = abss.f58158c;
                 if (absy2 == null) {
                     absy2 = absy.f58176h;
                 }
                 bxvd bxvd2 = (bxvd) absy2.mo74142c(5);
-                bxvd2.mo73625a((bxvk) absy2);
+                bxvd2.mo73625a((GeneratedMessageLite) absy2);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
                     bxvd2.f164950c = false;
@@ -2277,13 +2277,13 @@ public final class abrv implements abqv {
                                 absg.m48199c("Can't remove corpus %s, not in expected state %s, actual state=%s", objArr);
                             }
                             bxvd bxvd3 = (bxvd) abss4.mo74142c(5);
-                            bxvd3.mo73625a((bxvk) abss4);
+                            bxvd3.mo73625a((GeneratedMessageLite) abss4);
                             absy absy8 = abss4.f58158c;
                             if (absy8 == null) {
                                 absy8 = absy.f58176h;
                             }
                             bxvd bxvd4 = (bxvd) absy8.mo74142c(5);
-                            bxvd4.mo73625a((bxvk) absy8);
+                            bxvd4.mo73625a((GeneratedMessageLite) absy8);
                             if (bxvd4.f164950c) {
                                 bxvd4.mo74035c();
                                 bxvd4.f164950c = false;

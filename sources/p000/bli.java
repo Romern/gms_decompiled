@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bli */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bli extends bxvk implements bxxd {
+public final class bli extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bli f5101b;
@@ -16,7 +16,7 @@ public final class bli extends bxvk implements bxxd {
     static {
         bli bli = new bli();
         f5101b = bli;
-        bxvk.m124024a(bli.class, bli);
+        GeneratedMessageLite.m124024a(bli.class, bli);
     }
 
     private bli() {
@@ -33,7 +33,7 @@ public final class bli extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f5101b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", blh.class});
+            return GeneratedMessageLite.m124022a(f5101b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", blh.class});
         } else if (i2 == 3) {
             return new bli();
         } else {
@@ -60,7 +60,7 @@ public final class bli extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo3222a() {
         if (!this.f5103a.mo73666a()) {
-            this.f5103a = bxvk.m124021a(this.f5103a);
+            this.f5103a = GeneratedMessageLite.m124021a(this.f5103a);
         }
     }
 }

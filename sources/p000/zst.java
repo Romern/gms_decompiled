@@ -54,7 +54,7 @@ public final class zst {
             String string = this.f55835d.getString(str, null);
             if (string != null) {
                 try {
-                    bpgw = (bpgw) bxvk.m124016a(bpgw.f137569C, Base64.decode(string, 0), bxus.m123744c());
+                    bpgw = (bpgw) GeneratedMessageLite.m124016a(bpgw.f137569C, Base64.decode(string, 0), bxus.m123744c());
                 } catch (bxwf e) {
                     ((bnsl) f55833b.mo68388c()).mo68420a("Failed to decode SyncDetails proto with key %s", str);
                 }
@@ -68,7 +68,7 @@ public final class zst {
 
     /* renamed from: a */
     public final void mo31468a(bpgw bpgw) {
-        this.f55835d.edit().putString(Long.toString(bpgw.f137574b), Base64.encodeToString(bpgw.mo73642k(), 0)).apply();
+        this.f55835d.edit().putString(Long.toString(bpgw.f137574b), Base64.encodeToString(bpgw.serializeToBytes(), 0)).apply();
         long j = bpgw.f137574b;
         SharedPreferences.Editor edit = this.f55835d.edit();
         for (String str : this.f55835d.getAll().keySet()) {

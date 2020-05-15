@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brzc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brzc extends bxvk implements bxxd {
+public final class brzc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final brzc f143712e;
@@ -25,7 +25,7 @@ public final class brzc extends bxvk implements bxxd {
     static {
         brzc brzc = new brzc();
         f143712e = brzc;
-        bxvk.m124024a(brzc.class, brzc);
+        GeneratedMessageLite.m124024a(brzc.class, brzc);
     }
 
     private brzc() {
@@ -42,7 +42,7 @@ public final class brzc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f143712e, "\u0001\u0003\u0000\u0001\u0002\u0005\u0003\u0000\u0000\u0000\u0002င\u0000\u0004ဈ\u0001\u0005ဈ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f143712e, "\u0001\u0003\u0000\u0001\u0002\u0005\u0003\u0000\u0000\u0000\u0002င\u0000\u0004ဈ\u0001\u0005ဈ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new brzc();
         } else {

@@ -197,7 +197,7 @@ public final class bglo implements SharedPreferences.OnSharedPreferenceChangeLis
         bubq bubq = (bubq) da.f164949b;
         bucq.getClass();
         if (!bubq.f153260b.mo73666a()) {
-            bubq.f153260b = bxvk.m124019a(bubq.f153260b);
+            bubq.f153260b = GeneratedMessageLite.m124019a(bubq.f153260b);
         }
         bubq.f153260b.mo74153d(bucq.f153402g);
         if (da.f164950c) {

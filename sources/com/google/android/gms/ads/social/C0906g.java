@@ -61,7 +61,7 @@ final class C0906g implements Callable {
         if (arrayList.size() > 0) {
             bqkf bqkf3 = (bqkf) arrayList.get(0);
             bxvd bxvd = (bxvd) bqkf3.mo74142c(5);
-            bxvd.mo73625a((bxvk) bqkf3);
+            bxvd.mo73625a((GeneratedMessageLite) bqkf3);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -79,7 +79,7 @@ final class C0906g implements Callable {
         }
         bqkg bqkg = (bqkg) da2.f164949b;
         if (!bqkg.f140985a.mo73666a()) {
-            bqkg.f140985a = bxvk.m124021a(bqkg.f140985a);
+            bqkg.f140985a = GeneratedMessageLite.m124021a(bqkg.f140985a);
         }
         bxsy.m123078a(arrayList, bqkg.f140985a);
         return Base64.encodeToString(((bqkg) da2.mo74062i()).mo73642k(), 10);

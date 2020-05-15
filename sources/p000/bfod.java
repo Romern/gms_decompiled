@@ -37,8 +37,8 @@ public final class bfod {
     /* renamed from: b */
     public final byte[] mo62032b(byte[] bArr) {
         try {
-            buim buim = (buim) bxvk.m124016a(buim.f153954d, bArr, bxus.m123744c());
-            return m97403a(2, this.f114544b, buim.f153956a.mo73780k(), buim.f153957b.mo73780k()).doFinal(buim.f153958c.mo73780k());
+            buim buim = (buim) GeneratedMessageLite.m124016a(buim.f153954d, bArr, bxus.m123744c());
+            return m97403a(2, this.f114544b, buim.f153956a.getKey(), buim.f153957b.getKey()).doFinal(buim.f153958c.getKey());
         } catch (bxwf | GeneralSecurityException e) {
             throw new bfof(e);
         }
@@ -53,28 +53,28 @@ public final class bfod {
             this.f114543a.nextBytes(bArr3);
             Cipher a = m97403a(1, this.f114544b, bArr2, bArr3);
             bxvd da = buim.f153954d.mo74144da();
-            bxtx a2 = bxtx.m123261a(bArr2);
+            ByteString a2 = ByteString.m123261a(bArr2);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
             }
             a2.getClass();
             ((buim) da.f164949b).f153956a = a2;
-            bxtx a3 = bxtx.m123261a(bArr3);
+            ByteString a3 = ByteString.m123261a(bArr3);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
             }
             a3.getClass();
             ((buim) da.f164949b).f153957b = a3;
-            bxtx a4 = bxtx.m123261a(a.doFinal(bArr));
+            ByteString a4 = ByteString.m123261a(a.doFinal(bArr));
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
             }
             a4.getClass();
             ((buim) da.f164949b).f153958c = a4;
-            return ((buim) da.mo74062i()).mo73642k();
+            return ((buim) da.mo74062i()).serializeToBytes();
         } catch (GeneralSecurityException e) {
             throw new bfof(e);
         }

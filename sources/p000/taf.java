@@ -21,7 +21,7 @@ public final class taf extends tdl {
     /* renamed from: a */
     public final void mo26315a(String str, ArrayList arrayList) {
         ApiConsentChimeraActivity apiConsentChimeraActivity = this.f45547a;
-        sek sek = ApiConsentChimeraActivity.f30509a;
+        Logger Logger = ApiConsentChimeraActivity.f30509a;
         tdx tdx = apiConsentChimeraActivity.f30511c;
         tdx.f45713f = arrayList;
         tdx.f45712e = str;
@@ -35,7 +35,7 @@ public final class taf extends tdl {
     /* renamed from: a */
     public final void mo11624a(tdw tdw) {
         ApiConsentChimeraActivity apiConsentChimeraActivity = this.f45547a;
-        sek sek = ApiConsentChimeraActivity.f30509a;
+        Logger Logger = ApiConsentChimeraActivity.f30509a;
         apiConsentChimeraActivity.f30513e.post(new tae(this));
     }
 }

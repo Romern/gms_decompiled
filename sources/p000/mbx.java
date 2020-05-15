@@ -597,7 +597,7 @@ public final class mbx {
                 a = mbu.mo19818a(elapsedRealtime, i2);
             }
             try {
-                mbu.f33376a.mo25409a("Dumping log to file %s", a.getName());
+                mbu.f33376a.logVerbose("Dumping log to file %s", a.getName());
                 fileOutputStream = new FileOutputStream(a);
                 mqk3.mo73638a(fileOutputStream);
                 fileOutputStream.close();
@@ -609,7 +609,7 @@ public final class mbx {
                 bqye.m113761a(th, th);
             }
         } else {
-            qwo a2 = this.f33386g.mo24335a(((mqk) bxvd.mo74062i()).mo73642k());
+            qwo a2 = this.f33386g.mo24335a(((mqk) bxvd.mo74062i()).serializeToBytes());
             a2.mo24328b(mqj.f34275R);
             a2.mo24323a((long) i);
             a2.mo24327b();

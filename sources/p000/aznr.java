@@ -189,9 +189,9 @@ public final class aznr extends aznc {
         ScriptIntrinsicBlur scriptIntrinsicBlur;
         Allocation allocation3;
         cbin cbin;
-        bxtx bxtx;
+        ByteString bxtx;
         String str;
-        bxtx bxtx2;
+        ByteString bxtx2;
         cbin cbin2;
         Cursor cursor2 = cursor;
         aznn aznn = (aznn) view.getTag();
@@ -223,11 +223,11 @@ public final class aznr extends aznc {
                 int i = cbio.f177280b;
                 String str2 = cbin.f177274c;
                 if (cbin.f177272a == 5) {
-                    bxtx = (bxtx) cbin.f177273b;
+                    bxtx = (ByteString) cbin.f177273b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
-                byte[] k = bxtx.mo73780k();
+                byte[] k = bxtx.getKey();
                 if (cbin.f177272a == 2) {
                     str = (String) cbin.f177273b;
                 } else {
@@ -242,11 +242,11 @@ public final class aznr extends aznc {
                     cbhy = cbhy.f177214d;
                 }
                 if (cbhy.f177216a == 1) {
-                    bxtx2 = (bxtx) cbhy.f177217b;
+                    bxtx2 = (ByteString) cbhy.f177217b;
                 } else {
                     bxtx2 = bxtx.f164797b;
                 }
-                azom = new azom(i, str2, k, str, bxtx2.mo73780k());
+                azom = new azom(i, str2, k, str, bxtx2.getKey());
             } else {
                 azom = null;
             }

@@ -61,16 +61,16 @@ public final class idm extends idl {
                             try {
                                 this.f20765e.mo25539a(clientContext, 0, a.length() == 0 ? new String("/revoke?token=") : "/revoke?token=".concat(a), null);
                             } catch (VolleyError | gid e) {
-                                sek sek = f20761a;
+                                Logger Logger = f20761a;
                                 String valueOf = String.valueOf(e.toString());
-                                sek.mo25416d(valueOf.length() == 0 ? new String("Revoke access request failed when calling LSO: ") : "Revoke access request failed when calling LSO: ".concat(valueOf), new Object[0]);
+                                Logger.mo25416d(valueOf.length() == 0 ? new String("Revoke access request failed when calling LSO: ") : "Revoke access request failed when calling LSO: ".concat(valueOf), new Object[0]);
                             }
                             try {
                                 gie.m13196b(context, a);
                             } catch (gid | IOException e2) {
-                                sek sek2 = f20761a;
+                                Logger logger2 = f20761a;
                                 String valueOf2 = String.valueOf(e2.toString());
-                                sek2.mo25416d(valueOf2.length() == 0 ? new String("Error clearing the tokens locally: ") : "Error clearing the tokens locally: ".concat(valueOf2), new Object[0]);
+                                logger2.mo25416d(valueOf2.length() == 0 ? new String("Error clearing the tokens locally: ") : "Error clearing the tokens locally: ".concat(valueOf2), new Object[0]);
                             }
                             new idn(new idq(), this.f20762b).mo6502a(context);
                             this.f20764d.mo12921b(Status.f30107a);

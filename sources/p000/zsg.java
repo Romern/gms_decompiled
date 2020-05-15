@@ -44,7 +44,7 @@ public final class zsg implements Closeable {
             return cadn;
         }
         bxvd bxvd = (bxvd) cadn.mo74142c(5);
-        bxvd.mo73625a((bxvk) cadn);
+        bxvd.mo73625a((GeneratedMessageLite) cadn);
         cadm cadm = (cadm) bxvd;
         if (cadm.f164950c) {
             cadm.mo74035c();

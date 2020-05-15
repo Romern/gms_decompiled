@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blyn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blyn extends bxvk implements bxxd {
+public final class blyn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final blyn f128261o;
@@ -29,7 +29,7 @@ public final class blyn extends bxvk implements bxxd {
     public bxwc f128268f = bxxn.f165040b;
 
     /* renamed from: g */
-    public bxtx f128269g = bxtx.f164797b;
+    public ByteString f128269g = ByteString.f164797b;
 
     /* renamed from: h */
     public bmgo f128270h;
@@ -44,7 +44,7 @@ public final class blyn extends bxvk implements bxxd {
     public bxwc f128273k = bxxn.f165040b;
 
     /* renamed from: l */
-    public bxtx f128274l = bxtx.f164797b;
+    public ByteString f128274l = ByteString.f164797b;
 
     /* renamed from: m */
     public bmcc f128275m;
@@ -55,7 +55,7 @@ public final class blyn extends bxvk implements bxxd {
     static {
         blyn blyn = new blyn();
         f128261o = blyn;
-        bxvk.m124024a(blyn.class, blyn);
+        GeneratedMessageLite.m124024a(blyn.class, blyn);
     }
 
     private blyn() {
@@ -72,7 +72,7 @@ public final class blyn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128261o, "\u0001\r\u0000\u0001\u0001\u0017\r\u0000\u0003\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0005\u001a\u0006ည\u0004\u0007ဉ\u0005\bဉ\u0003\n\u001b\u000bည\t\fဉ\u0006\rဉ\b\u0012\u001b\u0015ဉ\n\u0017ဉ\u000b", new Object[]{"a", "b", "c", "f", "g", "h", "d", "k", bmed.class, "l", "i", "j", "e", bmog.class, "m", "n"});
+            return GeneratedMessageLite.m124022a(f128261o, "\u0001\r\u0000\u0001\u0001\u0017\r\u0000\u0003\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0005\u001a\u0006ည\u0004\u0007ဉ\u0005\bဉ\u0003\n\u001b\u000bည\t\fဉ\u0006\rဉ\b\u0012\u001b\u0015ဉ\n\u0017ဉ\u000b", new Object[]{"a", "b", "c", "f", "g", "h", "d", "k", bmed.class, "l", "i", "j", "e", bmog.class, "m", "n"});
         } else if (i2 == 3) {
             return new blyn();
         } else {
@@ -99,14 +99,14 @@ public final class blyn extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo66773b() {
         if (!this.f128273k.mo73666a()) {
-            this.f128273k = bxvk.m124021a(this.f128273k);
+            this.f128273k = GeneratedMessageLite.m124021a(this.f128273k);
         }
     }
 
     /* renamed from: a */
     public final void mo66772a() {
         if (!this.f128268f.mo73666a()) {
-            this.f128268f = bxvk.m124021a(this.f128268f);
+            this.f128268f = GeneratedMessageLite.m124021a(this.f128268f);
         }
     }
 }

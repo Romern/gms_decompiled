@@ -22,7 +22,7 @@ public final class aqzh extends aqzj {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo48296a(int i) {
-        sek sek = aqzk.f87154b;
+        Logger Logger = aqzk.f87154b;
         bxvd da = bzwx.f171692g.mo74144da();
         bxvd da2 = bzwv.f171681c.mo74144da();
         if (da2.f164950c) {
@@ -47,6 +47,6 @@ public final class aqzh extends aqzj {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final Future mo48297a() {
-        return this.f87148b.mo48299a().mo48705a("post", cbxv.f178529a.mo6606a().mo75589c(), this.f87147a.mo73642k(), bzwx.f171692g);
+        return this.f87148b.mo48299a().mo48705a("post", cbxv.f178529a.mo6606a().mo75589c(), this.f87147a.serializeToBytes(), bzwx.f171692g);
     }
 }

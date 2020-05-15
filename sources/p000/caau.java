@@ -16,7 +16,7 @@ public final class caau extends bxvd implements bxxd {
         caaw caaw = (caaw) this.f164949b;
         caaw caaw2 = caaw.f172379i;
         if (!caaw.f172387g.mo73666a()) {
-            caaw.f172387g = bxvk.m124018a(caaw.f172387g);
+            caaw.f172387g = GeneratedMessageLite.m124018a(caaw.f172387g);
         }
         bxsy.m123078a(iterable, caaw.f172387g);
     }
@@ -30,7 +30,7 @@ public final class caau extends bxvd implements bxxd {
         caaw caaw = (caaw) this.f164949b;
         caaw caaw2 = caaw.f172379i;
         if (!caaw.f172386f.mo73666a()) {
-            caaw.f172386f = bxvk.m124019a(caaw.f172386f);
+            caaw.f172386f = GeneratedMessageLite.m124019a(caaw.f172386f);
         }
         bxsy.m123078a(iterable, caaw.f172386f);
     }

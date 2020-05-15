@@ -14,6 +14,6 @@ public final /* synthetic */ class atan implements qwq {
     public final byte[] mo14930a() {
         bpbx bpbx = this.f89959a;
         int i = atao.f89960c;
-        return bpbx.mo73642k();
+        return bpbx.serializeToBytes();
     }
 }

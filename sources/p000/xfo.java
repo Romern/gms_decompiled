@@ -23,7 +23,7 @@ public abstract class xfo {
     }
 
     /* renamed from: a */
-    public abstract bxtx mo29694a();
+    public abstract ByteString mo29694a();
 
     public boolean equals(Object obj) {
         if (this == obj) {

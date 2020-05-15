@@ -54,7 +54,7 @@ final class okw {
     public final synchronized void mo22268a(nqi nqi, ByteBuffer byteBuffer) {
         try {
             ByteBuffer allocate = ByteBuffer.allocate(1);
-            ByteBuffer wrap = ByteBuffer.wrap(nqi.mo73642k());
+            ByteBuffer wrap = ByteBuffer.wrap(nqi.serializeToBytes());
             allocate.put((byte) wrap.remaining());
             allocate.flip();
             ByteBuffer[] byteBufferArr = {allocate, wrap, byteBuffer};

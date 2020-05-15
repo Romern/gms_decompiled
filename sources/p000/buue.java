@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buue */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buue extends bxvk implements bxxd {
+public final class buue extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final buue f154937a;
@@ -13,7 +13,7 @@ public final class buue extends bxvk implements bxxd {
     static {
         buue buue = new buue();
         f154937a = buue;
-        bxvk.m124024a(buue.class, buue);
+        GeneratedMessageLite.m124024a(buue.class, buue);
     }
 
     private buue() {
@@ -30,7 +30,7 @@ public final class buue extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154937a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f154937a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new buue();

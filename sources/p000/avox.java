@@ -11,7 +11,7 @@ import java.io.RandomAccessFile;
 public final class avox implements avpv {
 
     /* renamed from: a */
-    private static final sek f93683a = avpq.m79018e("PropertyFileProvider");
+    private static final Logger f93683a = avpq.m79018e("PropertyFileProvider");
 
     /* renamed from: b */
     private final String f93684b;

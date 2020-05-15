@@ -239,7 +239,7 @@ public final class azet {
                 shl shl = afjc.f64288a;
                 chtv a = shl.mo25552a(afjc.f64287d);
                 shk shk = new shk(shl, azes, a);
-                sdo.m34966a(shl.f44480b, "grpc channel is null, cannot make grpc request");
+                sdo.checkIfNull(shl.f44480b, "grpc channel is null, cannot make grpc request");
                 String d = shl.mo25529d(clientContext2);
                 this.f99201q = ciiq.m150393a(shv.m35322a(shl.f44453i, shl.f44480b, d, shl.mo25528c(clientContext2), shl.mo25560e(clientContext2), shl.f44482d).mo70053a(a, shl.mo25551a(-1, (TimeUnit) null)), (ciiv) shk);
             } catch (VolleyError e) {

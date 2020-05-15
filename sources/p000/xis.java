@@ -18,7 +18,7 @@ public final class xis {
     public static final /* synthetic */ int f52369e = 0;
 
     /* renamed from: h */
-    private static final sek f52370h = new sek(new String[]{"BleScanner"}, (short[]) null);
+    private static final Logger f52370h = new Logger(new String[]{"BleScanner"}, (short[]) null);
 
     /* renamed from: a */
     public final Handler f52371a = new adzt(Looper.getMainLooper());

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buty */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buty extends bxvk implements bxxd {
+public final class buty extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final buty f154902e;
@@ -25,7 +25,7 @@ public final class buty extends bxvk implements bxxd {
     static {
         buty buty = new buty();
         f154902e = buty;
-        bxvk.m124024a(buty.class, buty);
+        GeneratedMessageLite.m124024a(buty.class, buty);
     }
 
     private buty() {
@@ -42,7 +42,7 @@ public final class buty extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154902e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", buto.f154861a, "c", "d"});
+            return GeneratedMessageLite.m124022a(f154902e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ဉ\u0002", new Object[]{"a", "b", buto.f154861a, "c", "d"});
         } else if (i2 == 3) {
             return new buty();
         } else {

@@ -10,7 +10,7 @@ import java.util.concurrent.TimeoutException;
 public final class itm {
 
     /* renamed from: c */
-    private static final sek f21692c = new sek(new String[]{"TrustAgentHelper"}, (byte[]) null);
+    private static final Logger f21692c = new Logger(new String[]{"TrustAgentHelper"}, (byte[]) null);
 
     /* renamed from: a */
     rjx f21693a;

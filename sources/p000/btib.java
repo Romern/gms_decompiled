@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btib */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btib extends bxvk implements bxxd {
+public final class btib extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final btib f148936m;
@@ -35,13 +35,13 @@ public final class btib extends bxvk implements bxxd {
     public bxwc f148945h = bxxn.f165040b;
 
     /* renamed from: i */
-    public bxtx f148946i = bxtx.f164797b;
+    public ByteString f148946i = ByteString.f164797b;
 
     /* renamed from: j */
     public bxwc f148947j = bxxn.f165040b;
 
     /* renamed from: k */
-    public bxtx f148948k = bxtx.f164797b;
+    public ByteString f148948k = ByteString.f164797b;
 
     /* renamed from: l */
     public long f148949l;
@@ -49,7 +49,7 @@ public final class btib extends bxvk implements bxxd {
     static {
         btib btib = new btib();
         f148936m = btib;
-        bxvk.m124024a(btib.class, btib);
+        GeneratedMessageLite.m124024a(btib.class, btib);
     }
 
     private btib() {
@@ -66,7 +66,7 @@ public final class btib extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148936m, "\u0000\f\u0000\u0000\u0001\u000e\f\u0000\u0004\u0000\u0001Ȉ\u0002Ȉ\u0003\u001b\u0004Ȉ\u0005Ȉ\u0006\t\u0007\u001b\nȚ\u000b\n\f\u001b\r\u0002\u000e\n", new Object[]{"a", "b", "c", btir.class, "d", "e", "f", "g", btip.class, "h", "i", "j", camg.class, "l", "k"});
+            return GeneratedMessageLite.m124022a(f148936m, "\u0000\f\u0000\u0000\u0001\u000e\f\u0000\u0004\u0000\u0001Ȉ\u0002Ȉ\u0003\u001b\u0004Ȉ\u0005Ȉ\u0006\t\u0007\u001b\nȚ\u000b\n\f\u001b\r\u0002\u000e\n", new Object[]{"a", "b", "c", btir.class, "d", "e", "f", "g", btip.class, "h", "i", "j", camg.class, "l", "k"});
         } else if (i2 == 3) {
             return new btib();
         } else {

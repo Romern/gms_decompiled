@@ -43,7 +43,7 @@ public final class DataSet extends AbstractSafeParcelable implements ReflectedPa
 
     /* renamed from: a */
     public static ywo m23672a(DataSource dataSource) {
-        sdo.m34966a(dataSource, "DataSource should be specified");
+        sdo.checkIfNull(dataSource, "DataSource should be specified");
         return new ywo(dataSource);
     }
 

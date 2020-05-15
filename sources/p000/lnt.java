@@ -118,7 +118,7 @@ public final class lnt extends Fragment {
                 }
                 for (bxte bxte : kwp2.f25304b) {
                     if (bxte.f164765a.equals("PREDICTION_PROCESSOR_TRACE")) {
-                        kwn kwn = (kwn) bxvk.m124007a(kwn.f25290e, bxte.f164766b);
+                        kwn kwn = (kwn) GeneratedMessageLite.m124007a(kwn.f25290e, bxte.f164766b);
                         lqg f4 = lql.m19524f();
                         f4.mo15376b("Prediction Processor Trace");
                         lbc a3 = lbc.m18872a(kwn.f25292a);
@@ -141,7 +141,7 @@ public final class lnt extends Fragment {
                         f4.mo15374a(sb4.toString());
                         bngs.mo67668c(f4.mo15372a());
                     } else if (bxte.f164765a.equals("PROCESSOR_LABELED_FIELD_TRACE")) {
-                        kwo kwo = (kwo) bxvk.m124007a(kwo.f25296d, bxte.f164766b);
+                        kwo kwo = (kwo) GeneratedMessageLite.m124007a(kwo.f25296d, bxte.f164766b);
                         lqg f5 = lql.m19524f();
                         f5.mo15376b("Processor Labeled Node Trace");
                         int i6 = kwo.f25299b;
@@ -161,7 +161,7 @@ public final class lnt extends Fragment {
                         f5.mo15374a(sb5.toString());
                         bngs.mo67668c(f5.mo15372a());
                     } else if (bxte.f164765a.equals("POST_PROCESSOR_IGNORED_FIELD_TRACE_TYPE_URL")) {
-                        kwl kwl = (kwl) bxvk.m124007a(kwl.f25280c, bxte.f164766b);
+                        kwl kwl = (kwl) GeneratedMessageLite.m124007a(kwl.f25280c, bxte.f164766b);
                         lqg f6 = lql.m19524f();
                         f6.mo15376b("Post Processor Ignored Field Trace");
                         int i7 = kwl.f25283b;
@@ -174,7 +174,7 @@ public final class lnt extends Fragment {
                         f6.mo15374a(sb6.toString());
                         bngs.mo67668c(f6.mo15372a());
                     } else if (bxte.f164765a.equals("POST_PROCESSOR_MODIFIED_TYPES_TRACES_TYPE_URL")) {
-                        kwm kwm = (kwm) bxvk.m124007a(kwm.f25284e, bxte.f164766b);
+                        kwm kwm = (kwm) GeneratedMessageLite.m124007a(kwm.f25284e, bxte.f164766b);
                         lqg f7 = lql.m19524f();
                         f7.mo15376b("Post Processor Modified Types Trace");
                         int i8 = kwm.f25287b;

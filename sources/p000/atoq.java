@@ -122,7 +122,7 @@ public final class atoq {
                                     btqp2.getClass();
                                     String[] strArr5 = a;
                                     if (!btqr.f150034a.mo73666a()) {
-                                        btqr.f150034a = bxvk.m124021a(btqr.f150034a);
+                                        btqr.f150034a = GeneratedMessageLite.m124021a(btqr.f150034a);
                                     }
                                     btqr.f150034a.add(btqp2);
                                     jArr[i8] = ((Long) entry.getKey()).longValue();

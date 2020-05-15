@@ -849,7 +849,7 @@ public final class asgo extends asgr {
             bybk.f165512a = i2 | 4;
             bybk.f165515d = parseFloat2;
             if (!bybk.f165516e.mo73666a()) {
-                bybk.f165516e = bxvk.m124019a(bybk.f165516e);
+                bybk.f165516e = GeneratedMessageLite.m124019a(bybk.f165516e);
             }
             bxsy.m123078a(arrayList, bybk.f165516e);
             return (bybk) da.mo74062i();
@@ -2919,7 +2919,7 @@ public final class asgo extends asgr {
                                     byaq byaq = (byaq) da.f164949b;
                                     a.getClass();
                                     if (!byaq.f165299b.mo73666a()) {
-                                        byaq.f165299b = bxvk.m124019a(byaq.f165299b);
+                                        byaq.f165299b = GeneratedMessageLite.m124019a(byaq.f165299b);
                                     }
                                     byaq.f165299b.mo74153d(a.f165294f);
                                 } catch (IllegalArgumentException e) {

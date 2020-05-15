@@ -473,7 +473,7 @@ public final class bclb {
         }
         ((cbec) da2.f164949b).f176828f = g;
         if (bctn.mo57385b().mo66813a()) {
-            bxtx bxtx = (bxtx) bctn.mo57385b().mo66814b();
+            ByteString bxtx = (ByteString) bctn.mo57385b().mo66814b();
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;

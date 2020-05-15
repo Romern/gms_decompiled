@@ -13,6 +13,6 @@ public final /* synthetic */ class wes implements roo {
     /* renamed from: a */
     public final void mo6476a(Object obj, Object obj2) {
         bxok bxok = this.f50596a;
-        ((wfv) ((wfo) obj).mo25289B()).mo29091a(new wey((aucf) obj2), bxok.mo73642k());
+        ((wfv) ((wfo) obj).mo25289B()).mo29091a(new wey((aucf) obj2), bxok.serializeToBytes());
     }
 }

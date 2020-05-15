@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutionException;
 public final class avln extends aaab {
 
     /* renamed from: a */
-    private static final sek f93317a = avpq.m79015b("CheckForConfigUpdateOperation");
+    private static final Logger f93317a = avpq.m79015b("CheckForConfigUpdateOperation");
 
     /* renamed from: b */
     private final rnt f93318b;

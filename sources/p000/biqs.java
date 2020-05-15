@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biqs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biqs extends bxvk implements bxxd {
+public final class biqs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final biqs f121330d;
@@ -28,7 +28,7 @@ public final class biqs extends bxvk implements bxxd {
     static {
         biqs biqs = new biqs();
         f121330d = biqs;
-        bxvk.m124024a(biqs.class, biqs);
+        GeneratedMessageLite.m124024a(biqs.class, biqs);
     }
 
     private biqs() {
@@ -49,7 +49,7 @@ public final class biqs extends bxvk implements bxxd {
             this.f121336f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121330d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0003\u0001ᔌ\u0000\u0002ᔄ\u0001\u0003Л", new Object[]{"e", "a", bisf.m102782b(), "b", "c", bivu.class});
+            return GeneratedMessageLite.m124022a(f121330d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0003\u0001ᔌ\u0000\u0002ᔄ\u0001\u0003Л", new Object[]{"e", "a", bisf.m102782b(), "b", "c", bivu.class});
         } else if (i2 == 3) {
             return new biqs();
         } else {

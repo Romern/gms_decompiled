@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byvd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byvd extends bxvk implements bxxd {
+public final class byvd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bxvu f168413b = new byvc();
@@ -28,7 +28,7 @@ public final class byvd extends bxvk implements bxxd {
     static {
         byvd byvd = new byvd();
         f168414e = byvd;
-        bxvk.m124024a(byvd.class, byvd);
+        GeneratedMessageLite.m124024a(byvd.class, byvd);
     }
 
     private byvd() {
@@ -45,7 +45,7 @@ public final class byvd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168414e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001e\u0002ဉ\u0000\u0003ဈ\u0001", new Object[]{"f", "a", bzbu.m125628b(), "c", "d"});
+            return GeneratedMessageLite.m124022a(f168414e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u001e\u0002ဉ\u0000\u0003ဈ\u0001", new Object[]{"f", "a", bzbu.m125628b(), "c", "d"});
         } else if (i2 == 3) {
             return new byvd();
         } else {

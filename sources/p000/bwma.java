@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwma */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwma extends bxvk implements bxxd {
+public final class bwma extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: M */
     public static final bwma f160196M;
@@ -127,7 +127,7 @@ public final class bwma extends bxvk implements bxxd {
     static {
         bwma bwma = new bwma();
         f160196M = bwma;
-        bxvk.m124024a(bwma.class, bwma);
+        GeneratedMessageLite.m124024a(bwma.class, bwma);
     }
 
     private bwma() {
@@ -144,7 +144,7 @@ public final class bwma extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f160196M, "\u0001$\u0000\u0002\u0001,$\u0000\u0005\u0000\u0001ဈ\u0002\u0002ဈ\u0003\u0003ဈ\u0004\u0004ဈ\u0005\u0005င\n\u0006င\u000b\u0007ခ\f\bခ\r\tဈ\u0010\nဈ\u0011\u000bဈ\u0012\fဉ \rဈ\u0013\u000eဈ\u0016\u000fဌ\u000f\u0010ဌ\u0000\u0011ဈ\u0017\u0012ဈ\u0018\u0013ဂ\u001c\u0014ဂ\u0015\u0015,\u0016ဌ\u0001\u0017ဂ\u001d\u0018ဂ\u001e\u0019ဇ\u001f\u001a\u001e\u001b\u001b\u001cင\u000e!\u001a\"ဌ\"#ဂ\b$ဈ\t'ဂ\u0006)ဈ\u0014+\u001e,ဇ$", new Object[]{"a", "b", "e", "f", "g", "h", "l", "m", "n", "o", "r", "s", "t", "G", "u", "y", "q", bwlq.f160169a, "c", bwlw.f160184a, "A", "B", "C", "w", "x", bwly.m122091b(), "d", bwlw.f160184a, "D", "E", "F", "H", bwls.m122080b(), "I", bwlp.class, "p", "z", "J", bwlz.f160195a, "j", "k", "i", "v", "K", bwlv.m122086b(), "L"});
+            return GeneratedMessageLite.m124022a(f160196M, "\u0001$\u0000\u0002\u0001,$\u0000\u0005\u0000\u0001ဈ\u0002\u0002ဈ\u0003\u0003ဈ\u0004\u0004ဈ\u0005\u0005င\n\u0006င\u000b\u0007ခ\f\bခ\r\tဈ\u0010\nဈ\u0011\u000bဈ\u0012\fဉ \rဈ\u0013\u000eဈ\u0016\u000fဌ\u000f\u0010ဌ\u0000\u0011ဈ\u0017\u0012ဈ\u0018\u0013ဂ\u001c\u0014ဂ\u0015\u0015,\u0016ဌ\u0001\u0017ဂ\u001d\u0018ဂ\u001e\u0019ဇ\u001f\u001a\u001e\u001b\u001b\u001cင\u000e!\u001a\"ဌ\"#ဂ\b$ဈ\t'ဂ\u0006)ဈ\u0014+\u001e,ဇ$", new Object[]{"a", "b", "e", "f", "g", "h", "l", "m", "n", "o", "r", "s", "t", "G", "u", "y", "q", bwlq.f160169a, "c", bwlw.f160184a, "A", "B", "C", "w", "x", bwly.m122091b(), "d", bwlw.f160184a, "D", "E", "F", "H", bwls.m122080b(), "I", bwlp.class, "p", "z", "J", bwlz.f160195a, "j", "k", "i", "v", "K", bwlv.m122086b(), "L"});
         } else if (i2 == 3) {
             return new bwma();
         } else {

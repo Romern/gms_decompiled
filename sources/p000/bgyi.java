@@ -212,7 +212,7 @@ public final class bgyi {
     public static synchronized bgyi m100376a(Account account) {
         bgyi bgyi;
         synchronized (bgyi.class) {
-            sdo.m34966a(account, "null account");
+            sdo.checkIfNull(account, "null account");
             int i = 0;
             while (true) {
                 if (i >= f118033x.size()) {

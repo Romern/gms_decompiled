@@ -43,7 +43,7 @@ public final class aovw extends aovg {
                 bloy bloy2 = (bloy) da2.mo74062i();
                 blrk a3 = aowp.m69707a(context, mo46944b());
                 bxvd bxvd = (bxvd) a3.mo74142c(5);
-                bxvd.mo73625a((bxvk) a3);
+                bxvd.mo73625a((GeneratedMessageLite) a3);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

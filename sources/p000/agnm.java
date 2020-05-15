@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: agnm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class agnm extends bxvk implements bxxd {
+public final class agnm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: P */
     public static final agnm f66088P;
@@ -136,7 +136,7 @@ public final class agnm extends bxvk implements bxxd {
     static {
         agnm agnm = new agnm();
         f66088P = agnm;
-        bxvk.m124024a(agnm.class, agnm);
+        GeneratedMessageLite.m124024a(agnm.class, agnm);
     }
 
     private agnm() {
@@ -151,7 +151,7 @@ public final class agnm extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo35759b() {
         if (!this.f66109e.mo73666a()) {
-            this.f66109e = bxvk.m124021a(this.f66109e);
+            this.f66109e = GeneratedMessageLite.m124021a(this.f66109e);
         }
     }
 
@@ -166,7 +166,7 @@ public final class agnm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f66088P, "\u0001'\u0000\u0002\u0001/'\u0000\u0004\u0000\u0001င\u0000\u0002\u001b\u0003\u001b\u0004ဂ\u0001\u0005ဂ\u0002\u0006ဂ\u0003\u0007ဂ\u0005\bဈ\u0006\tဈ\u0007\nဈ\b\u000bဈ\t\fင\n\rဈ\u000b\u000eဈ\f\u0010ဈ\r\u0011ဂ\u000e\u0012ဂ\u000f\u0013ဈ\u0010\u0014ဇ\u0011\u0015ဈ\u0012\u0016ဂ\u0013\u0017င\u0014\u0018ဈ\u0015\u0019ဈ\u0016\u001aဂ\u0004\u001cဇ\u0017\u001d\u001b\u001eဈ\u0018\u001fင\u0019\"ဈ\u001c#ဂ\u001d$ဂ\u001e%ဈ\u001f'င!)ဈ\",ဉ#-\u001d.ဂ$/ဂ%", new Object[]{"a", "b", "c", "d", agni.class, "e", agnq.class, "f", "g", "h", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "i", "B", "C", agng.class, "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O"});
+            return GeneratedMessageLite.m124022a(f66088P, "\u0001'\u0000\u0002\u0001/'\u0000\u0004\u0000\u0001င\u0000\u0002\u001b\u0003\u001b\u0004ဂ\u0001\u0005ဂ\u0002\u0006ဂ\u0003\u0007ဂ\u0005\bဈ\u0006\tဈ\u0007\nဈ\b\u000bဈ\t\fင\n\rဈ\u000b\u000eဈ\f\u0010ဈ\r\u0011ဂ\u000e\u0012ဂ\u000f\u0013ဈ\u0010\u0014ဇ\u0011\u0015ဈ\u0012\u0016ဂ\u0013\u0017င\u0014\u0018ဈ\u0015\u0019ဈ\u0016\u001aဂ\u0004\u001cဇ\u0017\u001d\u001b\u001eဈ\u0018\u001fင\u0019\"ဈ\u001c#ဂ\u001d$ဂ\u001e%ဈ\u001f'င!)ဈ\",ဉ#-\u001d.ဂ$/ဂ%", new Object[]{"a", "b", "c", "d", agni.class, "e", agnq.class, "f", "g", "h", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "i", "B", "C", agng.class, "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O"});
         } else if (i2 == 3) {
             return new agnm();
         } else {
@@ -193,7 +193,7 @@ public final class agnm extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo35758a() {
         if (!this.f66108d.mo73666a()) {
-            this.f66108d = bxvk.m124021a(this.f66108d);
+            this.f66108d = GeneratedMessageLite.m124021a(this.f66108d);
         }
     }
 }

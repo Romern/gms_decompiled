@@ -297,8 +297,8 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
     /* renamed from: a */
     public static Bundle m81652a(BuyFlowConfig buyFlowConfig, String str, PageDetails pageDetails, LogContext logContext) {
         boolean z;
-        sdo.m34966a(buyFlowConfig, "buyFlowConfig must not be null");
-        sdo.m34966a(buyFlowConfig.f110418b.f110407b, "account must be set in buyFlowConfig");
+        sdo.checkIfNull(buyFlowConfig, "buyFlowConfig must not be null");
+        sdo.checkIfNull(buyFlowConfig.f110418b.f110407b, "account must be set in buyFlowConfig");
         if (pageDetails != null) {
             z = true;
         } else {
@@ -1446,8 +1446,8 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
       sdo.a(java.lang.String, java.lang.Object):void */
     /* renamed from: a */
     public static Bundle m81653a(BuyFlowConfig buyFlowConfig, String str, LogContext logContext) {
-        sdo.m34966a(buyFlowConfig, "buyFlowConfig must not be null");
-        sdo.m34966a(buyFlowConfig.f110418b.f110407b, "account must be set in buyFlowConfig");
+        sdo.checkIfNull(buyFlowConfig, "buyFlowConfig must not be null");
+        sdo.checkIfNull(buyFlowConfig.f110418b.f110407b, "account must be set in buyFlowConfig");
         sdo.m34969a(str, (Object) "analyticsSessionId must be valid");
         Bundle a = bkbr.m105273a((int) C0126R.style.WalletEmptyStyle, logContext);
         a.putParcelable("buyFlowConfig", buyFlowConfig);
@@ -2140,7 +2140,7 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
                 bmeb bmeb2 = (bmeb) bxxc;
                 if (awzs.m81801a(bmeb2)) {
                     bxvd bxvd = (bxvd) bmeb2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bmeb2);
+                    bxvd.mo73625a((GeneratedMessageLite) bmeb2);
                     bmeb = (bmeb) ((bmdz) bxvd).mo74062i();
                 } else {
                     bmeb = bmeb2;
@@ -2381,7 +2381,7 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
                 bwfr3.f159116b = 16;
                 if (bmaq != null) {
                     bxvd da = bwfv.f159143e.mo74144da();
-                    bxtx bxtx = bmaq.f128484d;
+                    ByteString bxtx = bmaq.f128484d;
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -2402,7 +2402,7 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
                     }
                     bwfv bwfv4 = (bwfv) da.f164949b;
                     if (!bwfv4.f159147c.mo73666a()) {
-                        bwfv4.f159147c = bxvk.m124019a(bwfv4.f159147c);
+                        bwfv4.f159147c = GeneratedMessageLite.m124019a(bwfv4.f159147c);
                     }
                     bxsy.m123078a(arrayList, bwfv4.f159147c);
                     if (e.f164950c) {
@@ -2423,14 +2423,14 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
                         bwfv = bwfv.f159143e;
                     }
                     bxvd bxvd = (bxvd) bwfv.mo74142c(5);
-                    bxvd.mo73625a((bxvk) bwfv);
+                    bxvd.mo73625a((GeneratedMessageLite) bwfv);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;
                     }
                     bwfv bwfv6 = (bwfv) bxvd.f164949b;
                     if (!bwfv6.f159148d.mo73666a()) {
-                        bwfv6.f159148d = bxvk.m124019a(bwfv6.f159148d);
+                        bwfv6.f159148d = GeneratedMessageLite.m124019a(bwfv6.f159148d);
                     }
                     bxsy.m123078a(list, bwfv6.f159148d);
                     if (e.f164950c) {
@@ -2504,7 +2504,7 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
     /* renamed from: a */
     public final void mo52848a(int i, int i2, bmaq bmaq, List list, int i3) {
         if (C1710chip.m148790b() && (getActivity() instanceof awfk) && bmaq != null) {
-            ((awfk) getActivity()).mo51887o().f94272c = bmaq.f128484d.mo73780k();
+            ((awfk) getActivity()).mo51887o().f94272c = bmaq.f128484d.getKey();
         }
         bjst.m104524a(mo65980at(), this.f95364H, i, i2, bmaq, list, i3);
         this.f95364H = null;
@@ -3069,7 +3069,7 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
                         int a5 = bwhl.m121966a(bwhm.f159529f);
                         if (a5 == 0 || a5 == 1) {
                             bxvd bxvd = (bxvd) bwhm.mo74142c(5);
-                            bxvd.mo73625a((bxvk) bwhm);
+                            bxvd.mo73625a((GeneratedMessageLite) bwhm);
                             if (bxvd.f164950c) {
                                 bxvd.mo74035c();
                                 bxvd.f164950c = false;
@@ -3428,7 +3428,7 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
             bwio bwio = (bwio) this.f95387aE.mo15534a(bmmv.f130059e);
             if (bwio != null) {
                 bxvd bxvd = (bxvd) bwio.mo74142c(5);
-                bxvd.mo73625a((bxvk) bwio);
+                bxvd.mo73625a((GeneratedMessageLite) bwio);
                 if (bmmv.f130056b == 10) {
                     bmmu = (bmmu) bmmv.f130057c;
                 } else {
@@ -3526,7 +3526,7 @@ public abstract class awzk extends bkge implements bkcy, bjwp, bjwm, bjwi, bjel,
                     a4 = bwgz.UNKNOWN_FLOW_INSTRUCTION;
                 }
                 pageDetails2.f110454c = a4;
-                this.f95398ak.f110453b = bmmh.f130014b.mo73780k();
+                this.f95398ak.f110453b = bmmh.f130014b.getKey();
                 mo52364a(this.f95398ak, false, "flowInstructionAction");
             }
         } else if (i3 != 32) {

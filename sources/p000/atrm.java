@@ -55,7 +55,7 @@ public final class atrm extends adzt {
                 srn srn2 = TokenizePanChimeraService.f108922a;
                 if (data.getByteArray("data_card_id") != null) {
                     try {
-                        btiy = (btiy) bxvk.m124016a(btiy.f149054c, data.getByteArray("data_card_id"), bxus.m123744c());
+                        btiy = (btiy) GeneratedMessageLite.m124016a(btiy.f149054c, data.getByteArray("data_card_id"), bxus.m123744c());
                     } catch (bxwf e) {
                         btiy = null;
                     }
@@ -93,7 +93,7 @@ public final class atrm extends adzt {
                 String str2 = str;
                 try {
                     if (data.getByteArray(str2) != null) {
-                        btjq = (btjq) bxvk.m124016a(btjq.f149162e, data.getByteArray(str2), bxus.m123744c());
+                        btjq = (btjq) GeneratedMessageLite.m124016a(btjq.f149162e, data.getByteArray(str2), bxus.m123744c());
                     } else {
                         btjq = null;
                     }

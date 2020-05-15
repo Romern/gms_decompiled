@@ -16,7 +16,7 @@ public final class ciwm {
         ciwu ciwu = (ciwu) da.f164949b;
         ciwu.f191612a |= 1;
         ciwu.f191613b = i;
-        bxtx a = bxtx.m123261a(civt.f191540a.mo86595a());
+        ByteString a = ByteString.m123261a(civt.f191540a.mo86595a());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -25,7 +25,7 @@ public final class ciwm {
         a.getClass();
         ciwu2.f191612a |= 2;
         ciwu2.f191614c = a;
-        bxtx a2 = bxtx.m123261a(civt.f191541b.f191538a);
+        ByteString a2 = ByteString.m123261a(civt.f191541b.f191538a);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -40,13 +40,13 @@ public final class ciwm {
     /* renamed from: a */
     public final civt mo86607a() {
         try {
-            return new civt(civq.m151054b(this.f191601a.f191614c.mo73780k()), civq.m151050a(this.f191601a.f191615d.mo73780k()));
+            return new civt(civq.m151054b(this.f191601a.f191614c.getKey()), civq.m151050a(this.f191601a.f191615d.getKey()));
         } catch (civg e) {
             throw new AssertionError(e);
         }
     }
 
     public ciwm(byte[] bArr) {
-        this.f191601a = (ciwu) bxvk.m124014a(ciwu.f191610e, bArr);
+        this.f191601a = (ciwu) GeneratedMessageLite.m124014a(ciwu.f191610e, bArr);
     }
 }

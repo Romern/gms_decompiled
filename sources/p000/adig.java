@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: adig */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class adig extends bxvk implements bxxd {
+public final class adig extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final adig f61785g;
@@ -31,7 +31,7 @@ public final class adig extends bxvk implements bxxd {
     static {
         adig adig = new adig();
         f61785g = adig;
-        bxvk.m124024a(adig.class, adig);
+        GeneratedMessageLite.m124024a(adig.class, adig);
     }
 
     private adig() {
@@ -48,7 +48,7 @@ public final class adig extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f61785g, "\u0000\b\u0001\u0000\u0001\b\b\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȼ\u0000\u0004Ȼ\u0000\u0005Ȼ\u0000\u0006Ȉ\u0007Ȉ\bȻ\u0000", new Object[]{"b", "a", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f61785g, "\u0000\b\u0001\u0000\u0001\b\b\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȼ\u0000\u0004Ȼ\u0000\u0005Ȼ\u0000\u0006Ȉ\u0007Ȉ\bȻ\u0000", new Object[]{"b", "a", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new adig();
         } else {

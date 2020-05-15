@@ -11,7 +11,7 @@ import android.text.TextUtils;
 public final class ibc {
 
     /* renamed from: a */
-    private static final sek f20669a = new sek("ContactsUtil");
+    private static final Logger f20669a = new Logger("ContactsUtil");
 
     /* renamed from: a */
     public static boolean m15159a(Context context, String str) {

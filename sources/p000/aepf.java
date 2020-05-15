@@ -9,8 +9,8 @@ import com.google.android.gms.location.places.internal.PlaceEntity;
 public final class aepf {
     /* renamed from: a */
     public static aelh m52337a(Context context, Intent intent) {
-        sdo.m34966a(intent, "intent must not be null");
-        sdo.m34966a(context, "context must not be null");
+        sdo.checkIfNull(intent, "intent must not be null");
+        sdo.checkIfNull(context, "context must not be null");
         return (aelh) sef.m35067a(intent, "selected_place", PlaceEntity.CREATOR);
     }
 }

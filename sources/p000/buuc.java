@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buuc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buuc extends bxvk implements bxxd {
+public final class buuc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bxvu f154921g = new butz();
@@ -23,7 +23,7 @@ public final class buuc extends bxvk implements bxxd {
     public String f154926c = "";
 
     /* renamed from: d */
-    public bxtx f154927d = bxtx.f164797b;
+    public ByteString f154927d = ByteString.f164797b;
 
     /* renamed from: e */
     public int f154928e;
@@ -32,7 +32,7 @@ public final class buuc extends bxvk implements bxxd {
     public bxvt f154929f = bxvm.f164965b;
 
     /* renamed from: h */
-    public bxtx f154930h = bxtx.f164797b;
+    public ByteString f154930h = ByteString.f164797b;
 
     /* renamed from: i */
     public buug f154931i;
@@ -40,7 +40,7 @@ public final class buuc extends bxvk implements bxxd {
     static {
         buuc buuc = new buuc();
         f154922j = buuc;
-        bxvk.m124024a(buuc.class, buuc);
+        GeneratedMessageLite.m124024a(buuc.class, buuc);
     }
 
     private buuc() {
@@ -57,7 +57,7 @@ public final class buuc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154922j, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ည\u0002\u0004င\u0003\u0005\u001e\u0006ည\u0004\u0007ဉ\u0005", new Object[]{"a", "b", "c", "d", "e", "f", buub.m120452b(), "h", "i"});
+            return GeneratedMessageLite.m124022a(f154922j, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ည\u0002\u0004င\u0003\u0005\u001e\u0006ည\u0004\u0007ဉ\u0005", new Object[]{"a", "b", "c", "d", "e", "f", buub.m120452b(), "h", "i"});
         } else if (i2 == 3) {
             return new buuc();
         } else {

@@ -102,7 +102,7 @@ public final class zoh extends zmd {
             }
             caae a3 = zqx.mo30458a(caae, str);
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -614,7 +614,7 @@ public final class zoh extends zmd {
                             }
                             caae a4 = zqx.mo30458a(caae, str3);
                             bxvd bxvd = (bxvd) a2.mo74142c(5);
-                            bxvd.mo73625a((bxvk) a2);
+                            bxvd.mo73625a((GeneratedMessageLite) a2);
                             if (bxvd.f164950c) {
                                 bxvd.mo74035c();
                                 bxvd.f164950c = false;

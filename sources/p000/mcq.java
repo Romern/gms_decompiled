@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mcq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mcq extends bxvk implements bxxd {
+public final class mcq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final mcq f33439d;
@@ -17,12 +17,12 @@ public final class mcq extends bxvk implements bxxd {
     public bxvt f33442b = bxvm.f164965b;
 
     /* renamed from: c */
-    public bxtx f33443c = bxtx.f164797b;
+    public ByteString f33443c = ByteString.f164797b;
 
     static {
         mcq mcq = new mcq();
         f33439d = mcq;
-        bxvk.m124024a(mcq.class, mcq);
+        GeneratedMessageLite.m124024a(mcq.class, mcq);
     }
 
     private mcq() {
@@ -39,7 +39,7 @@ public final class mcq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f33439d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001'\u0002ည\u0000", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f33439d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001'\u0002ည\u0000", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new mcq();
         } else {

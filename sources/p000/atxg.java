@@ -35,7 +35,7 @@ public final class atxg extends Fragment {
     public static atxg m76497a(bmuj bmuj) {
         atxg atxg = new atxg();
         Bundle bundle = new Bundle();
-        bundle.putByteArray("content_key", bmuj != null ? bmuj.mo73642k() : null);
+        bundle.putByteArray("content_key", bmuj != null ? bmuj.serializeToBytes() : null);
         atxg.setArguments(bundle);
         return atxg;
     }
@@ -64,7 +64,7 @@ public final class atxg extends Fragment {
         bmuj bmuj = null;
         if (byteArray != null) {
             try {
-                bmuj = (bmuj) bxvk.m124016a(bmuj.f130934f, byteArray, bxus.m123744c());
+                bmuj = (bmuj) GeneratedMessageLite.m124016a(bmuj.f130934f, byteArray, bxus.m123744c());
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) f91073c.mo68388c();
                 bnsl.mo68437a(e);

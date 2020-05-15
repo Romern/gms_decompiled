@@ -112,7 +112,7 @@ public final class axkr extends axlx {
             btsh5.f150208a |= 2;
         }
         btrs btrs = (btrs) btrt.f150144e.mo74144da();
-        bxtx a3 = bxtx.m123261a(this.f96086h);
+        ByteString a3 = ByteString.m123261a(this.f96086h);
         if (btrs.f164950c) {
             btrs.mo74035c();
             btrs.f164950c = false;

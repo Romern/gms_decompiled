@@ -80,7 +80,7 @@ public final class luy extends aaab {
             lth.f32927l = lte3;
             lth.f32916a = i | 4096;
             if (!cckq.m130234b()) {
-                long a2 = spn.m35843a(context);
+                long a2 = spn.getAndroidId(context);
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -89,7 +89,7 @@ public final class luy extends aaab {
                 lth2.f32916a |= 1;
                 lth2.f32917b = a2;
             } else {
-                long a3 = spn.m35843a(context);
+                long a3 = spn.getAndroidId(context);
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -106,7 +106,7 @@ public final class luy extends aaab {
             int size = a4.f32978f.size();
             ArrayList arrayList = new ArrayList(size);
             for (int i3 = 0; i3 < size; i3++) {
-                arrayList.add(new ParcelableDevice(((ltn) a4.f32978f.get(i3)).mo73642k()));
+                arrayList.add(new ParcelableDevice(((ltn) a4.f32978f.get(i3)).serializeToBytes()));
             }
             this.f33014b.mo20219a(arrayList);
         } catch (gid | IOException | mbd e) {

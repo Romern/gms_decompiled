@@ -10,7 +10,7 @@ import java.security.SecureRandom;
 public final class arqc implements arac {
 
     /* renamed from: c */
-    private static final sek f88111c = ascp.m73787a("Setup", "Util", "PostSetupHelperImpl");
+    private static final Logger f88111c = ascp.m73787a("Setup", "Util", "PostSetupHelperImpl");
 
     /* renamed from: a */
     public final SharedPreferences f88112a;

@@ -44,10 +44,10 @@ final /* synthetic */ class bbaq implements bqeh {
         }
         int i = bauz.f101867f;
         bxvd bxvd = (bxvd) bavd.mo74142c(5);
-        bxvd.mo73625a((bxvk) bavd);
+        bxvd.mo73625a((GeneratedMessageLite) bavd);
         bavc bavc = (bavc) bxvd;
         bxvd bxvd2 = (bxvd) bauz.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bauz);
+        bxvd2.mo73625a((GeneratedMessageLite) bauz);
         int i2 = i + 1;
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
@@ -74,7 +74,7 @@ final /* synthetic */ class bbaq implements bqeh {
                 bauz4 = bauz.f101860g;
             }
             bxvd bxvd3 = (bxvd) bauz4.mo74142c(5);
-            bxvd3.mo73625a((bxvk) bauz4);
+            bxvd3.mo73625a((GeneratedMessageLite) bauz4);
             if (bxvd3.f164950c) {
                 bxvd3.mo74035c();
                 bxvd3.f164950c = false;
@@ -84,7 +84,7 @@ final /* synthetic */ class bbaq implements bqeh {
             bauz5.f101866e = a;
             bauz bauz6 = (bauz) bxvd3.mo74062i();
             bxvd bxvd4 = (bxvd) bavd3.mo74142c(5);
-            bxvd4.mo73625a((bxvk) bavd3);
+            bxvd4.mo73625a((GeneratedMessageLite) bavd3);
             bavc bavc2 = (bavc) bxvd4;
             if (bavc2.f164950c) {
                 bavc2.mo74035c();
@@ -97,7 +97,7 @@ final /* synthetic */ class bbaq implements bqeh {
             bavd3 = (bavd) bavc2.mo74062i();
         }
         bxvd bxvd5 = (bxvd) bavr.mo74142c(5);
-        bxvd5.mo73625a((bxvk) bavr);
+        bxvd5.mo73625a((GeneratedMessageLite) bavr);
         if (bxvd5.f164950c) {
             bxvd5.mo74035c();
             bxvd5.f164950c = false;

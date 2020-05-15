@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmux */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmux extends bxvk implements bxxd {
+public final class bmux extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final bmux f130989i;
@@ -40,10 +40,10 @@ public final class bmux extends bxvk implements bxxd {
     static {
         bmux bmux = new bmux();
         f130989i = bmux;
-        bxvk.m124024a(bmux.class, bmux);
+        GeneratedMessageLite.m124024a(bmux.class, bmux);
         bldd bldd = bldd.f126046a;
         bmux bmux2 = f130989i;
-        f130990j = bxvk.m124006a(bldd, bmux2, bmux2, 89755494, bxzf.MESSAGE);
+        f130990j = GeneratedMessageLite.m124006a(bldd, bmux2, bmux2, 89755494, bxzf.MESSAGE);
     }
 
     private bmux() {
@@ -60,7 +60,7 @@ public final class bmux extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130989i, "\u0001\u000f\u0001\u0001\u0001\u0019\u000f\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ျ\u0000\u0005ျ\u0000\u0007ဈ\u000e\u000bျ\u0000\fြ\u0000\u000fဉ\u0014\u0011ျ\u0000\u0012ြ\u0000\u0013ျ\u0000\u0014ျ\u0000\u0015ဿ\u0000\u0018ဉ\u0018\u0019ဵ\u0000", new Object[]{"c", "b", "a", "d", bmuo.f130965a, "e", "f", bztu.class, "g", bztv.class, btoc.f149733a, "h"});
+            return GeneratedMessageLite.m124022a(f130989i, "\u0001\u000f\u0001\u0001\u0001\u0019\u000f\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003ျ\u0000\u0005ျ\u0000\u0007ဈ\u000e\u000bျ\u0000\fြ\u0000\u000fဉ\u0014\u0011ျ\u0000\u0012ြ\u0000\u0013ျ\u0000\u0014ျ\u0000\u0015ဿ\u0000\u0018ဉ\u0018\u0019ဵ\u0000", new Object[]{"c", "b", "a", "d", bmuo.f130965a, "e", "f", bztu.class, "g", bztv.class, btoc.f149733a, "h"});
         } else if (i2 == 3) {
             return new bmux();
         } else {

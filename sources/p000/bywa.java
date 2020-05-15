@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bywa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bywa extends bxvk implements bxxd {
+public final class bywa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bywa f168547c;
@@ -19,7 +19,7 @@ public final class bywa extends bxvk implements bxxd {
     static {
         bywa bywa = new bywa();
         f168547c = bywa;
-        bxvk.m124024a(bywa.class, bywa);
+        GeneratedMessageLite.m124024a(bywa.class, bywa);
     }
 
     private bywa() {
@@ -36,7 +36,7 @@ public final class bywa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f168547c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f168547c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bywa();
         } else {

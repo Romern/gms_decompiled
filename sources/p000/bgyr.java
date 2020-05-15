@@ -61,7 +61,7 @@ public final class bgyr {
     public boolean f118110r = false;
 
     public bgyr(Account account, String str) {
-        sdo.m34966a(account, "null account");
+        sdo.checkIfNull(account, "null account");
         this.f118093a = account;
         this.f118101i = str;
     }

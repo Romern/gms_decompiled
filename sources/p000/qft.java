@@ -8,7 +8,7 @@ import android.telephony.TelephonyManager;
 public final class qft {
 
     /* renamed from: a */
-    public static final sek f41131a = qgn.m32143a("SimHelper");
+    public static final Logger f41131a = qgn.m32143a("SimHelper");
 
     /* renamed from: b */
     public final Context f41132b;

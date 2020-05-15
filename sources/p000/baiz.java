@@ -44,7 +44,7 @@ public final class baiz extends cazu {
         }
         byhb byhb = (byhb) da.f164949b;
         if (!byhb.f166423a.mo73666a()) {
-            byhb.f166423a = bxvk.m124021a(byhb.f166423a);
+            byhb.f166423a = GeneratedMessageLite.m124021a(byhb.f166423a);
         }
         bxsy.m123078a(a, byhb.f166423a);
         return bqga.m112775a((byhb) da.mo74062i());

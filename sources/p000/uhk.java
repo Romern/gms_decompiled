@@ -445,8 +445,8 @@ public final class uhk extends uha {
         uol.f48410b = str;
         uol.f48409a = true;
         uol.f48411c = uof;
-        sdo.m34966a((Object) uol.f48410b, (Object) "Must set the name of the VIEW being created");
-        sdo.m34966a(uol.f48411c, "Must set the select statement for the VIEW being created.");
+        sdo.checkIfNull((Object) uol.f48410b, (Object) "Must set the name of the VIEW being created");
+        sdo.checkIfNull(uol.f48411c, "Must set the select statement for the VIEW being created.");
         if (!uol.f48409a) {
             str2 = "'";
         } else {

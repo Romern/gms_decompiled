@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bstc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bstc extends bxvk implements bxxd {
+public final class bstc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: u */
     public static final bstc f146969u;
@@ -44,10 +44,10 @@ public final class bstc extends bxvk implements bxxd {
     public String f146981k = "";
 
     /* renamed from: l */
-    public bxtx f146982l = bxtx.f164797b;
+    public ByteString f146982l = ByteString.f164797b;
 
     /* renamed from: m */
-    public bxtx f146983m = bxtx.f164797b;
+    public ByteString f146983m = ByteString.f164797b;
 
     /* renamed from: n */
     public bssy f146984n;
@@ -73,7 +73,7 @@ public final class bstc extends bxvk implements bxxd {
     static {
         bstc bstc = new bstc();
         f146969u = bstc;
-        bxvk.m124024a(bstc.class, bstc);
+        GeneratedMessageLite.m124024a(bstc.class, bstc);
     }
 
     private bstc() {
@@ -90,7 +90,7 @@ public final class bstc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f146969u, "\u0000\u0014\u0000\u0000\u0001\u0017\u0014\u0000\u0006\u0000\u0001Ȉ\u0003\u001b\u0004\u001b\u0005\u001b\u0006Ȉ\u0007\u0004\b\u0003\nȈ\u000bȈ\f\n\r\n\u000e\t\u000f\u0007\u0010\u001b\u0011\t\u0012\u001b\u0013\u001b\u0014\u0002\u0015Ȉ\u0017\u0002", new Object[]{"a", "b", bssw.class, "c", bsta.class, "d", bstb.class, "e", "f", "g", "h", "k", "l", "m", "n", "o", "p", bstg.class, "q", "r", bssx.class, "s", bstd.class, "i", "t", "j"});
+            return GeneratedMessageLite.m124022a(f146969u, "\u0000\u0014\u0000\u0000\u0001\u0017\u0014\u0000\u0006\u0000\u0001Ȉ\u0003\u001b\u0004\u001b\u0005\u001b\u0006Ȉ\u0007\u0004\b\u0003\nȈ\u000bȈ\f\n\r\n\u000e\t\u000f\u0007\u0010\u001b\u0011\t\u0012\u001b\u0013\u001b\u0014\u0002\u0015Ȉ\u0017\u0002", new Object[]{"a", "b", bssw.class, "c", bsta.class, "d", bstb.class, "e", "f", "g", "h", "k", "l", "m", "n", "o", "p", bstg.class, "q", "r", bssx.class, "s", bstd.class, "i", "t", "j"});
         } else if (i2 == 3) {
             return new bstc();
         } else {

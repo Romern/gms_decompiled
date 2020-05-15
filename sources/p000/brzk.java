@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brzk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brzk extends bxvk implements bxxd {
+public final class brzk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final brzk f143748c;
@@ -19,7 +19,7 @@ public final class brzk extends bxvk implements bxxd {
     static {
         brzk brzk = new brzk();
         f143748c = brzk;
-        bxvk.m124024a(brzk.class, brzk);
+        GeneratedMessageLite.m124024a(brzk.class, brzk);
     }
 
     private brzk() {
@@ -36,7 +36,7 @@ public final class brzk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f143748c, "\u0001\u0003\u0001\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001ျ\u0000\u0002့\u0000\u0003်\u0000", new Object[]{"b", "a"});
+            return GeneratedMessageLite.m124022a(f143748c, "\u0001\u0003\u0001\u0000\u0001\u0003\u0003\u0000\u0000\u0000\u0001ျ\u0000\u0002့\u0000\u0003်\u0000", new Object[]{"b", "a"});
         } else if (i2 == 3) {
             return new brzk();
         } else {

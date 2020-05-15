@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cinf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cinf extends bxvk implements bxxd {
+public final class cinf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cinf f190928d;
@@ -22,7 +22,7 @@ public final class cinf extends bxvk implements bxxd {
     static {
         cinf cinf = new cinf();
         f190928d = cinf;
-        bxvk.m124024a(cinf.class, cinf);
+        GeneratedMessageLite.m124024a(cinf.class, cinf);
     }
 
     private cinf() {
@@ -39,7 +39,7 @@ public final class cinf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f190928d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f190928d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new cinf();
         } else {

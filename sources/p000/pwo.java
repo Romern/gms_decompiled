@@ -95,7 +95,7 @@ public final class pwo implements pwm {
             }
             blrx blrx = (blrx) da.f164949b;
             if (!blrx.f127550d.mo73666a()) {
-                blrx.f127550d = bxvk.m124021a(blrx.f127550d);
+                blrx.f127550d = GeneratedMessageLite.m124021a(blrx.f127550d);
             }
             bxsy.m123078a(list, blrx.f127550d);
             if (da.f164950c) {
@@ -111,7 +111,7 @@ public final class pwo implements pwm {
             blrx2.f127549c = str2;
             byte[] bArr2 = new byte[12];
             new SecureRandom().nextBytes(bArr2);
-            byte[] k = ((blrx) da.mo74062i()).mo73642k();
+            byte[] k = ((blrx) da.mo74062i()).serializeToBytes();
             qag.f40785a = null;
             qag.f40786b = null;
             if (bArr.length == 48) {
@@ -162,7 +162,7 @@ public final class pwo implements pwm {
                 blse.getClass();
                 blrz.f127556b = blse;
                 blrz.f127555a |= 1;
-                bxtx a = bxtx.m123261a(bArr2);
+                ByteString a = ByteString.m123261a(bArr2);
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -174,7 +174,7 @@ public final class pwo implements pwm {
                 blrz2.f127557c = a;
                 blrz2.f127558d = 1;
                 blrz2.f127555a = i7 | 4;
-                bxtx a2 = bxtx.m123261a(bArr4);
+                ByteString a2 = ByteString.m123261a(bArr4);
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -189,7 +189,7 @@ public final class pwo implements pwm {
                     if (e.isEmpty()) {
                         this.f40507g.mo23797a(11);
                     } else if (!this.f40506f.f40510c.mo23855g()) {
-                        byte[] k2 = blrz4.mo73642k();
+                        byte[] k2 = blrz4.serializeToBytes();
                         DatagramPacket datagramPacket = new DatagramPacket(k2, k2.length);
                         datagramPacket.setAddress(this.f40506f.f40513f);
                         datagramPacket.setPort((int) cdaj.f180379a.mo6606a().mo77166a());

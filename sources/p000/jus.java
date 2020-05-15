@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: jus */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class jus extends bxvk implements bxxd {
+public final class jus extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final jus f23257h;
@@ -40,7 +40,7 @@ public final class jus extends bxvk implements bxxd {
     static {
         jus jus = new jus();
         f23257h = jus;
-        bxvk.m124024a(jus.class, jus);
+        GeneratedMessageLite.m124024a(jus.class, jus);
     }
 
     private jus() {
@@ -67,7 +67,7 @@ public final class jus extends bxvk implements bxxd {
             this.f23267j = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f23257h, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0001\u0002\u0001ᔄ\u0000\u0002ဈ\u0001\u0003ဇ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ᐉ\u0005\u0007\u001a", new Object[]{"a", "i", "b", "c", "d", "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f23257h, "\u0001\u0007\u0000\u0001\u0001\u0007\u0007\u0000\u0001\u0002\u0001ᔄ\u0000\u0002ဈ\u0001\u0003ဇ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ᐉ\u0005\u0007\u001a", new Object[]{"a", "i", "b", "c", "d", "e", "f", "g"});
         } else if (i2 == 3) {
             return new jus();
         } else {

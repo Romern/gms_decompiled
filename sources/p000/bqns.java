@@ -49,7 +49,7 @@ public final class bqns {
                     throw new GeneralSecurityException("The keyset contains a non-private key");
                 }
                 String str = bqsd.f141511a;
-                bxtx bxtx = bqsd.f141512b;
+                ByteString bxtx = bqsd.f141512b;
                 bqnm a = bqok.m113100a(str, (Class) null);
                 if (a instanceof bqob) {
                     bqob bqob = (bqob) a;
@@ -66,7 +66,7 @@ public final class bqns {
                         }
                         a3.getClass();
                         ((bqsd) da.f164949b).f141511a = a3;
-                        bxtx aL = b2.mo73639aL();
+                        ByteString aL = b2.mo73639aL();
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -82,7 +82,7 @@ public final class bqns {
                         bqsd bqsd2 = (bqsd) da.mo74062i();
                         bqok.m113112a(bqsd2);
                         bxvd da2 = bqsi.f141525e.mo74144da();
-                        da2.mo73625a((bxvk) bqsi);
+                        da2.mo73625a((GeneratedMessageLite) bqsi);
                         if (da2.f164950c) {
                             da2.mo74035c();
                             da2.f164950c = false;
@@ -121,11 +121,11 @@ public final class bqns {
     /* renamed from: a */
     public final void mo69306a(bqqi bqqi, bqng bqng) {
         bqsj bqsj = this.f141318a;
-        byte[] a = bqng.mo69281a(bqsj.mo73642k(), new byte[0]);
+        byte[] a = bqng.mo69281a(bqsj.serializeToBytes(), new byte[0]);
         try {
-            if (((bqsj) bxvk.m124016a(bqsj.f141531c, bqng.mo69282b(a, new byte[0]), bxus.m123743b())).equals(bqsj)) {
+            if (((bqsj) GeneratedMessageLite.m124016a(bqsj.f141531c, bqng.mo69282b(a, new byte[0]), bxus.m123743b())).equals(bqsj)) {
                 bxvd da = bqrx.f141492c.mo74144da();
-                bxtx a2 = bxtx.m123261a(a);
+                ByteString a2 = ByteString.m123261a(a);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -139,7 +139,7 @@ public final class bqns {
                 }
                 a3.getClass();
                 ((bqrx) da.f164949b).f141495b = a3;
-                if (!bqqi.f141373a.putString(bqqi.f141374b, bqvz.m113507a(((bqrx) da.mo74062i()).mo73642k())).commit()) {
+                if (!bqqi.f141373a.putString(bqqi.f141374b, bqvz.m113507a(((bqrx) da.mo74062i()).serializeToBytes())).commit()) {
                     throw new IOException("Failed to write to SharedPreferences");
                 }
                 return;

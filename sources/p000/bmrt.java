@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmrt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmrt extends bxvk implements bxxd {
+public final class bmrt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bmrt f130579a;
@@ -13,7 +13,7 @@ public final class bmrt extends bxvk implements bxxd {
     static {
         bmrt bmrt = new bmrt();
         f130579a = bmrt;
-        bxvk.m124024a(bmrt.class, bmrt);
+        GeneratedMessageLite.m124024a(bmrt.class, bmrt);
     }
 
     private bmrt() {
@@ -30,7 +30,7 @@ public final class bmrt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130579a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f130579a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bmrt();

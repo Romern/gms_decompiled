@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cahh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cahh extends bxvk implements bxxd {
+public final class cahh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cahh f174545b;
@@ -16,7 +16,7 @@ public final class cahh extends bxvk implements bxxd {
     static {
         cahh cahh = new cahh();
         f174545b = cahh;
-        bxvk.m124024a(cahh.class, cahh);
+        GeneratedMessageLite.m124024a(cahh.class, cahh);
     }
 
     private cahh() {
@@ -33,7 +33,7 @@ public final class cahh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174545b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", cahg.f174544a});
+            return GeneratedMessageLite.m124022a(f174545b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", cahg.f174544a});
         } else if (i2 == 3) {
             return new cahh();
         } else {

@@ -28,7 +28,7 @@ public final class bwou extends bxvg implements bxvh {
     static {
         bwou bwou = new bwou();
         f160492e = bwou;
-        bxvk.m124024a(bwou.class, bwou);
+        GeneratedMessageLite.m124024a(bwou.class, bwou);
     }
 
     private bwou() {
@@ -49,7 +49,7 @@ public final class bwou extends bxvg implements bxvh {
             this.f160498f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f160492e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u0014\u0002င\u0000\u0003င\u0001", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f160492e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001\u0014\u0002င\u0000\u0003င\u0001", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bwou();
         } else {

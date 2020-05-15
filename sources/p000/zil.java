@@ -22,7 +22,7 @@ public final class zil extends zim implements zir {
     private final Object f55146e = new Object();
 
     /* renamed from: f */
-    private final Map f55147f = bnmt.m109794a();
+    private final Map f55147f = bnmt.getNewHashMap();
 
     /* renamed from: g */
     private boolean f55148g;

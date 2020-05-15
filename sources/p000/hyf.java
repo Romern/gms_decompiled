@@ -15,7 +15,7 @@ import java.util.Map;
 public final class hyf {
 
     /* renamed from: a */
-    public final sek f20556a = new sek("ConsentPromptRequestHandler");
+    public final Logger f20556a = new Logger("ConsentPromptRequestHandler");
 
     /* renamed from: b */
     public final hzs f20557b = new hzj();

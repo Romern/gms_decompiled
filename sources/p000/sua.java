@@ -31,7 +31,7 @@ public final class sua implements ThreadFactory {
       sdo.a(boolean, java.lang.Object):void
       sdo.a(java.lang.Object, java.lang.Object):void */
     public sua(String str, int i) {
-        sdo.m34966a((Object) str, (Object) "Name must not be null");
+        sdo.checkIfNull((Object) str, (Object) "Name must not be null");
         this.f45159a = str;
         this.f45160b = i;
     }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: afiu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class afiu extends bxvk implements bxxd {
+public final class afiu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final afiu f64251d;
@@ -22,7 +22,7 @@ public final class afiu extends bxvk implements bxxd {
     static {
         afiu afiu = new afiu();
         f64251d = afiu;
-        bxvk.m124024a(afiu.class, afiu);
+        GeneratedMessageLite.m124024a(afiu.class, afiu);
     }
 
     private afiu() {
@@ -39,7 +39,7 @@ public final class afiu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f64251d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဌ\u0000\u0002\u001a", new Object[]{"a", "b", afit.f64250a, "c"});
+            return GeneratedMessageLite.m124022a(f64251d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001ဌ\u0000\u0002\u001a", new Object[]{"a", "b", afit.f64250a, "c"});
         } else if (i2 == 3) {
             return new afiu();
         } else {

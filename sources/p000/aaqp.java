@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aaqp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aaqp extends bxvk implements bxxd {
+public final class aaqp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final aaqp f28931a;
@@ -25,7 +25,7 @@ public final class aaqp extends bxvk implements bxxd {
     static {
         aaqp aaqp = new aaqp();
         f28931a = aaqp;
-        bxvk.m124024a(aaqp.class, aaqp);
+        GeneratedMessageLite.m124024a(aaqp.class, aaqp);
     }
 
     private aaqp() {
@@ -46,7 +46,7 @@ public final class aaqp extends bxvk implements bxxd {
             this.f28936e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f28931a, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔂ\u0000\u0002ᔇ\u0001", new Object[]{"b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f28931a, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0002\u0001ᔂ\u0000\u0002ᔇ\u0001", new Object[]{"b", "c", "d"});
         } else if (i2 == 3) {
             return new aaqp();
         } else {

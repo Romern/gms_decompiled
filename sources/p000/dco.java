@@ -16,7 +16,7 @@ public final class dco extends bxvg implements bxvh {
     static {
         dco dco = new dco();
         f12865a = dco;
-        bxvk.m124024a(dco.class, dco);
+        GeneratedMessageLite.m124024a(dco.class, dco);
     }
 
     private dco() {
@@ -37,7 +37,7 @@ public final class dco extends bxvg implements bxvh {
             this.f12867b = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f12865a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f12865a, "\u0001\u0000", (Object[]) null);
         } else {
             if (i2 == 3) {
                 return new dco();

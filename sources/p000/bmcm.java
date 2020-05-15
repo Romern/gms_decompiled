@@ -31,7 +31,7 @@ public final class bmcm extends bxvg implements bxvh {
     static {
         bmcm bmcm = new bmcm();
         f128714f = bmcm;
-        bxvk.m124024a(bmcm.class, bmcm);
+        GeneratedMessageLite.m124024a(bmcm.class, bmcm);
     }
 
     private bmcm() {
@@ -52,7 +52,7 @@ public final class bmcm extends bxvg implements bxvh {
             this.f128721g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f128714f, "\u0001\u0004\u0000\u0001\u0001\u0006\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0005ဉ\u0002\u0006ဉ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f128714f, "\u0001\u0004\u0000\u0001\u0001\u0006\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0005ဉ\u0002\u0006ဉ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bmcm();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: camm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class camm extends bxvk implements bxxd {
+public final class camm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final camm f175301e;
@@ -25,7 +25,7 @@ public final class camm extends bxvk implements bxxd {
     static {
         camm camm = new camm();
         f175301e = camm;
-        bxvk.m124024a(camm.class, camm);
+        GeneratedMessageLite.m124024a(camm.class, camm);
     }
 
     private camm() {
@@ -42,7 +42,7 @@ public final class camm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175301e, "\u0000\u0007\u0001\u0000\u0001\u0007\u0007\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȼ\u0000\u0004Ȼ\u0000\u0005Ȼ\u0000\u0006:\u0000\u0007Ȼ\u0000", new Object[]{"b", "a", "c", "d"});
+            return GeneratedMessageLite.m124022a(f175301e, "\u0000\u0007\u0001\u0000\u0001\u0007\u0007\u0000\u0000\u0000\u0001Ȉ\u0002Ȉ\u0003Ȼ\u0000\u0004Ȼ\u0000\u0005Ȼ\u0000\u0006:\u0000\u0007Ȼ\u0000", new Object[]{"b", "a", "c", "d"});
         } else if (i2 == 3) {
             return new camm();
         } else {

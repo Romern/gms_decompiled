@@ -2199,8 +2199,8 @@ public final class aypk {
                                             }
                                             aypm aypm = (aypm) it.next();
                                             byte[] a3 = aynj.m84359a(str);
-                                            if (Arrays.equals(aypm.mo54089b().mo73780k(), bnzi.m110902d().mo68722a(bqce.m112562a(aypm.mo54088a().mo73780k(), a3)).mo68740b())) {
-                                                aypg.f98161a = aypm.mo54088a().mo73780k();
+                                            if (Arrays.equals(aypm.mo54089b().getKey(), bnzi.m110902d().mo68722a(bqce.m112562a(aypm.mo54088a().getKey(), a3)).mo68740b())) {
+                                                aypg.f98161a = aypm.mo54088a().getKey();
                                                 bnsl bnsl6 = (bnsl) aypn.f98194a.mo68390d();
                                                 bnsl6.mo68432a("aypk", "a", 448, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                                                 bnsl6.mo68405a("The provider is found in paired history.");

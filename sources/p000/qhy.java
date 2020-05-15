@@ -14,7 +14,7 @@ import java.io.File;
 final class qhy {
 
     /* renamed from: a */
-    private static final sek f41437a = qgn.m32143a("AndroidBuildModule");
+    private static final Logger f41437a = qgn.m32143a("AndroidBuildModule");
 
     /* renamed from: b */
     private static final bnhe f41438b;

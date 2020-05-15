@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: botg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class botg extends bxvk implements bxxd {
+public final class botg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final botg f134774e;
@@ -25,7 +25,7 @@ public final class botg extends bxvk implements bxxd {
     static {
         botg botg = new botg();
         f134774e = botg;
-        bxvk.m124024a(botg.class, botg);
+        GeneratedMessageLite.m124024a(botg.class, botg);
     }
 
     private botg() {
@@ -42,7 +42,7 @@ public final class botg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f134774e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", bote.f134772a, "c", botf.f134773a, "d", botd.f134771a});
+            return GeneratedMessageLite.m124022a(f134774e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002", new Object[]{"a", "b", bote.f134772a, "c", botf.f134773a, "d", botd.f134771a});
         } else if (i2 == 3) {
             return new botg();
         } else {

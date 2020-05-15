@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cble */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cble extends bxvk implements bxxd {
+public final class cble extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cble f177480a;
@@ -13,7 +13,7 @@ public final class cble extends bxvk implements bxxd {
     static {
         cble cble = new cble();
         f177480a = cble;
-        bxvk.m124024a(cble.class, cble);
+        GeneratedMessageLite.m124024a(cble.class, cble);
     }
 
     private cble() {
@@ -30,7 +30,7 @@ public final class cble extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177480a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f177480a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cble();

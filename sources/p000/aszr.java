@@ -25,7 +25,7 @@ public final class aszr {
         SQLiteDatabase a = asko.m74292a(context).mo49214a();
         byte[] b2 = atxr.m76518b(a, "SELECT response_proto from WhitelistVerdicts where package_name = ? and environment = ?", new String[]{str, b});
         if (b2 != null) {
-            btow = (btow) bxvk.m124016a(btow.f149810d, b2, bxus.m123744c());
+            btow = (btow) GeneratedMessageLite.m124016a(btow.f149810d, b2, bxus.m123744c());
         } else {
             btow = null;
         }
@@ -55,7 +55,7 @@ public final class aszr {
         }
         btov btov = (btov) da.f164949b;
         if (!btov.f149809b.mo73666a()) {
-            btov.f149809b = bxvk.m124021a(btov.f149809b);
+            btov.f149809b = GeneratedMessageLite.m124021a(btov.f149809b);
         }
         bxsy.m123078a(arrayList, btov.f149809b);
         btov btov2 = (btov) da.mo74062i();
@@ -67,7 +67,7 @@ public final class aszr {
         String b4 = askc.m74272b();
         ContentValues contentValues = new ContentValues();
         contentValues.put("package_name", str);
-        contentValues.put("response_proto", btow2.mo73642k());
+        contentValues.put("response_proto", btow2.serializeToBytes());
         contentValues.put("environment", b4);
         a.insertWithOnConflict("WhitelistVerdicts", null, contentValues, 5);
         return btow2;

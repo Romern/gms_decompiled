@@ -26,7 +26,7 @@ final class juj extends AsyncTask {
     /* renamed from: a */
     public final bsai[] mo14106a() {
         SourceChimeraActivity sourceChimeraActivity = this.f23231a;
-        sek sek = SourceChimeraActivity.f11265a;
+        Logger Logger = SourceChimeraActivity.f11265a;
         bsai[] bsaiArr = new bsai[sourceChimeraActivity.f11267b.length];
         int i = 0;
         while (true) {
@@ -46,7 +46,7 @@ final class juj extends AsyncTask {
             bsai.f143850b = str;
             try {
                 SourceChimeraActivity sourceChimeraActivity2 = this.f23231a;
-                bxtx a = bxtx.m123261a(byrr.m125226a(byrr.m125227b(((CryptauthPublicKey) SourceChimeraActivity.m6888a(sourceChimeraActivity2.f11281p.mo13188d("PublicKey", sourceChimeraActivity2.f11267b[i]))).f10517b)));
+                ByteString a = ByteString.m123261a(byrr.m125226a(byrr.m125227b(((CryptauthPublicKey) SourceChimeraActivity.m6888a(sourceChimeraActivity2.f11281p.mo13188d("PublicKey", sourceChimeraActivity2.f11267b[i]))).f10517b)));
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -58,14 +58,14 @@ final class juj extends AsyncTask {
                 bsaiArr[i] = (bsai) da.mo74062i();
                 i++;
             } catch (InvalidKeySpecException e) {
-                sek sek2 = SourceChimeraActivity.f11265a;
+                Logger logger2 = SourceChimeraActivity.f11265a;
                 String valueOf = String.valueOf(str);
-                sek2.mo25417e(valueOf.length() == 0 ? new String("Could not get public key of user: ") : "Could not get public key of user: ".concat(valueOf), e, new Object[0]);
+                logger2.mo25417e(valueOf.length() == 0 ? new String("Could not get public key of user: ") : "Could not get public key of user: ".concat(valueOf), e, new Object[0]);
                 return null;
             } catch (InterruptedException | ExecutionException | TimeoutException e2) {
-                sek sek3 = SourceChimeraActivity.f11265a;
-                String valueOf2 = String.valueOf(sek.m35081a(str));
-                sek3.mo25417e(valueOf2.length() == 0 ? new String("Failed retrieve PublicKey for account: ") : "Failed retrieve PublicKey for account: ".concat(valueOf2), e2, new Object[0]);
+                Logger logger3 = SourceChimeraActivity.f11265a;
+                String valueOf2 = String.valueOf(Logger.m35081a(str));
+                logger3.mo25417e(valueOf2.length() == 0 ? new String("Failed retrieve PublicKey for account: ") : "Failed retrieve PublicKey for account: ".concat(valueOf2), e2, new Object[0]);
                 return null;
             }
         }
@@ -130,12 +130,12 @@ final class juj extends AsyncTask {
                 SourceChimeraActivity.f11265a.mo25410a((Throwable) e);
             }
             SourceChimeraActivity sourceChimeraActivity = this.f23231a;
-            sek sek = SourceChimeraActivity.f11265a;
+            Logger Logger = SourceChimeraActivity.f11265a;
             sourceChimeraActivity.f11283r = null;
             return;
         }
         SourceChimeraActivity sourceChimeraActivity2 = this.f23231a;
-        sek sek2 = SourceChimeraActivity.f11265a;
+        Logger logger2 = SourceChimeraActivity.f11265a;
         sourceChimeraActivity2.mo7853a((int) C0126R.string.common_something_went_wrong);
     }
 }

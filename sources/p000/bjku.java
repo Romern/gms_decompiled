@@ -743,7 +743,7 @@ public final class bjku {
             bxvd = null;
         } else {
             bxvd = (bxvd) bygi.mo74142c(5);
-            bxvd.mo73625a((bxvk) bygi);
+            bxvd.mo73625a((GeneratedMessageLite) bygi);
         }
         if (bxvd != null) {
             if (bygh.f164950c) {
@@ -1148,7 +1148,7 @@ public final class bjku {
             List list3 = this.f122900g;
             if (list3 != null) {
                 if (!bwma9.f160235z.mo73666a()) {
-                    bwma9.f160235z = bxvk.m124021a(bwma9.f160235z);
+                    bwma9.f160235z = GeneratedMessageLite.m124021a(bwma9.f160235z);
                 }
                 bxsy.m123078a(list3, bwma9.f160235z);
             }
@@ -1438,7 +1438,7 @@ public final class bjku {
                                 }
                                 bwlp bwlp3 = (bwlp) da4.f164949b;
                                 if (!bwlp3.f160168d.mo73666a()) {
-                                    bwlp3.f160168d = bxvk.m124021a(bwlp3.f160168d);
+                                    bwlp3.f160168d = GeneratedMessageLite.m124021a(bwlp3.f160168d);
                                 }
                                 bxsy.m123078a(list5, bwlp3.f160168d);
                                 f122878A.add((bwlp) da4.mo74062i());
@@ -1453,7 +1453,7 @@ public final class bjku {
                         }
                         bwma = (bwma) bwlt2.f164949b;
                         if (!bwma.f160206I.mo73666a()) {
-                            bwma.f160206I = bxvk.m124021a(bwma.f160206I);
+                            bwma.f160206I = GeneratedMessageLite.m124021a(bwma.f160206I);
                         }
                         bxsy.m123078a(list6, bwma.f160206I);
                         if (f122883p == null) {
@@ -1866,7 +1866,7 @@ public final class bjku {
                             }
                             bwma2 = (bwma) bwlt.f164949b;
                             if (!bwma2.f160205H.mo73666a()) {
-                                bwma2.f160205H = bxvk.m124019a(bwma2.f160205H);
+                                bwma2.f160205H = GeneratedMessageLite.m124019a(bwma2.f160205H);
                             }
                             size = arrayList.size();
                             for (i2 = 0; i2 < size; i2++) {

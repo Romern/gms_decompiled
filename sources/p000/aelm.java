@@ -29,7 +29,7 @@ public final class aelm extends rjx {
     public final aucb mo34302f(PendingIntent pendingIntent) {
         rjo rjo = aema.f63501a;
         rkb rkb = this.f43165D;
-        sdo.m34966a(pendingIntent, "callbackIntent == null");
+        sdo.checkIfNull(pendingIntent, "callbackIntent == null");
         aenv aenv = new aenv(aema.f63502b, rkb, pendingIntent);
         rkb.mo24795b(aenv);
         return sdl.m34954a(aenv);
@@ -39,8 +39,8 @@ public final class aelm extends rjx {
     public final aucb mo34300a(PlaceRequest placeRequest, PendingIntent pendingIntent) {
         rjo rjo = aema.f63501a;
         rkb rkb = this.f43165D;
-        sdo.m34966a(placeRequest, "request == null");
-        sdo.m34966a(pendingIntent, "callbackIntent == null");
+        sdo.checkIfNull(placeRequest, "request == null");
+        sdo.checkIfNull(pendingIntent, "callbackIntent == null");
         aenx aenx = new aenx(aema.f63502b, rkb, placeRequest, pendingIntent);
         rkb.mo24795b(aenx);
         return sdl.m34954a(aenx);

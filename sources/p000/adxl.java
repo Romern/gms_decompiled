@@ -42,9 +42,9 @@ public final class adxl {
         String string = m51326d().getString(str, null);
         if (string != null) {
             try {
-                bsiw bsiw = (bsiw) bxvk.m124014a(bsiw.f144758d, Base64.decode(string, 0));
+                bsiw bsiw = (bsiw) GeneratedMessageLite.m124014a(bsiw.f144758d, Base64.decode(string, 0));
                 bxvd bxvd = (bxvd) bsiw.mo74142c(5);
-                bxvd.mo73625a((bxvk) bsiw);
+                bxvd.mo73625a((GeneratedMessageLite) bsiw);
                 return (bsiv) bxvd;
             } catch (bxwf e) {
                 bsiv bsiv = (bsiv) bsiw.f144758d.mo74144da();
@@ -138,7 +138,7 @@ public final class adxl {
                             }
                             bsit bsit = (bsit) da.f164949b;
                             if (!bsit.f144755a.mo73666a()) {
-                                bsit.f144755a = bxvk.m124021a(bsit.f144755a);
+                                bsit.f144755a = GeneratedMessageLite.m124021a(bsit.f144755a);
                             }
                             bxsy.m123078a(bngx, bsit.f144755a);
                             bsit bsit2 = (bsit) da.mo74062i();
@@ -279,7 +279,7 @@ public final class adxl {
                     b.f164950c = false;
                 }
                 bsiw bsiw = bsiw.f144758d;
-                ((bsiw) b.f164949b).f144760a = bxvk.m124030de();
+                ((bsiw) b.f164949b).f144760a = GeneratedMessageLite.m124030de();
                 if (b.f164950c) {
                     b.mo74035c();
                     b.f164950c = false;
@@ -388,7 +388,7 @@ public final class adxl {
 
     /* renamed from: a */
     private static final void m51321a(String str, bsiw bsiw) {
-        String encodeToString = Base64.encodeToString(bsiw.mo73642k(), 0);
+        String encodeToString = Base64.encodeToString(bsiw.serializeToBytes(), 0);
         SharedPreferences.Editor edit = m51326d().edit();
         edit.putString(str, encodeToString);
         edit.apply();

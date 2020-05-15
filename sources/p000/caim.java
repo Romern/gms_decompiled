@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caim */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caim extends bxvk implements bxxd {
+public final class caim extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: k */
     public static final caim f174735k;
@@ -17,7 +17,7 @@ public final class caim extends bxvk implements bxxd {
     public caik f174738b;
 
     /* renamed from: c */
-    public bxtx f174739c = bxtx.f164797b;
+    public ByteString f174739c = ByteString.f164797b;
 
     /* renamed from: d */
     public bxvt f174740d = bxvm.f164965b;
@@ -46,7 +46,7 @@ public final class caim extends bxvk implements bxxd {
     static {
         caim caim = new caim();
         f174735k = caim;
-        bxvk.m124024a(caim.class, caim);
+        GeneratedMessageLite.m124024a(caim.class, caim);
     }
 
     private caim() {
@@ -67,7 +67,7 @@ public final class caim extends bxvk implements bxxd {
             this.f174747l = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f174735k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0006\u0001\u0001ᐉ\u0000\u0002ည\u0001\u0003\u0016\u0004\u001a\u0005\u0016\u0006\u001c\u0007ဇ\u0002\b\u001a\t\u0016", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"});
+            return GeneratedMessageLite.m124022a(f174735k, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0006\u0001\u0001ᐉ\u0000\u0002ည\u0001\u0003\u0016\u0004\u001a\u0005\u0016\u0006\u001c\u0007ဇ\u0002\b\u001a\t\u0016", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"});
         } else if (i2 == 3) {
             return new caim();
         } else {

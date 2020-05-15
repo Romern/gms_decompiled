@@ -39,21 +39,21 @@ public final class acpy {
         acqc.f60464b = acqo;
         acqc.f60463a |= 2;
         try {
-            acqd acqd = (acqd) this.f60458b.mo25515a(this.f60457a, 1, "context", ((acqc) da.mo74062i()).mo73642k(), acqd.f60466b, ((Long) abzt.f59001u.mo58455c()).longValue(), 12802);
+            acqd acqd = (acqd) this.f60458b.mo25515a(this.f60457a, 1, "context", ((acqc) da.mo74062i()).serializeToBytes(), acqd.f60466b, ((Long) abzt.f59001u.mo58455c()).longValue(), 12802);
             if (acqd != null) {
                 try {
-                    bxtx bxtx = acqd.f60468a;
+                    ByteString bxtx = acqd.f60468a;
                     bxus c = bxus.m123744c();
                     acqs acqs = acqs.f60532b;
                     try {
                         bxuc h = bxtx.mo73764h();
-                        bxvk bxvk = (bxvk) acqs.mo74142c(4);
-                        bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                        a.mo74220a(bxvk, bxud.m123454a(h), c);
-                        a.mo74225d(bxvk);
+                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) acqs.mo74142c(4);
+                        bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                        a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                        a.mo74225d(GeneratedMessageLite);
                         h.mo73787a(0);
-                        bxvk.m124027b(bxvk);
-                        return (acqs) bxvk;
+                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                        return (acqs) GeneratedMessageLite;
                     } catch (IOException e) {
                         if (!(e.getCause() instanceof bxwf)) {
                             throw new bxwf(e.getMessage());

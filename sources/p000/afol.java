@@ -95,6 +95,6 @@ public final class afol {
         } else {
             str = "com.google.android.gms.icing.mdd";
         }
-        a2.mo41761a(str, ((acbl) da.mo74062i()).mo73642k());
+        a2.mo41761a(str, ((acbl) da.mo74062i()).serializeToBytes());
     }
 }

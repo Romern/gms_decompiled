@@ -15,7 +15,7 @@ import java.util.Set;
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
 public final class acyo {
     static {
-        new sek("CommonAccount", "AccountUtil");
+        new Logger("CommonAccount", "AccountUtil");
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead

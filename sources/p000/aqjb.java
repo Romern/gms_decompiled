@@ -21,7 +21,7 @@ final /* synthetic */ class aqjb implements Response.Listener {
     public final void onResponse(Object obj) {
         String str = this.f86189a;
         aucf aucf = this.f86190b;
-        sek sek = aqjd.f86192a;
+        Logger Logger = aqjd.f86192a;
         Spanned fromHtml = Html.fromHtml((String) obj);
         bxvd da = bsrz.f146816d.mo74144da();
         if (da.f164950c) {

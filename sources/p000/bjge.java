@@ -257,7 +257,7 @@ public final class bjge extends bjil {
             bmxy.m108601b(this.f122651a.mo15544d(j), "Can not replace unknown data.");
             bwny bwny2 = (bwny) this.f122651a.mo15534a(j);
             bxvd bxvd = (bxvd) bwny2.mo74142c(5);
-            bxvd.mo73625a((bxvk) bwny2);
+            bxvd.mo73625a((GeneratedMessageLite) bwny2);
             bxvf bxvf = (bxvf) bxvd;
             if (bxvf.f164950c) {
                 bxvf.mo74035c();

@@ -38,7 +38,7 @@ public final class bhpt {
     public final void mo64139a(bonq bonq) {
         bxvd bxvd;
         bxvd bxvd2 = (bxvd) bonq.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bonq);
+        bxvd2.mo73625a((GeneratedMessageLite) bonq);
         int a = (int) m101286a();
         bonq bonq2 = (bonq) bxvd2.f164949b;
         bxvd bxvd3 = null;
@@ -48,7 +48,7 @@ public final class bhpt {
                 bpqk = bpqk.f138732w;
             }
             bxvd = (bxvd) bpqk.mo74142c(5);
-            bxvd.mo73625a((bxvk) bpqk);
+            bxvd.mo73625a((GeneratedMessageLite) bpqk);
         } else {
             bxvd = null;
         }
@@ -70,7 +70,7 @@ public final class bhpt {
                 bpoh = bpoh.f138508s;
             }
             bxvd3 = (bxvd) bpoh.mo74142c(5);
-            bxvd3.mo73625a((bxvk) bpoh);
+            bxvd3.mo73625a((GeneratedMessageLite) bpoh);
         }
         int a3 = bonp.m111368a(((bonq) bxvd2.f164949b).f133836b);
         if (!(a3 == 0 || a3 != 4 || bxvd3 == null)) {

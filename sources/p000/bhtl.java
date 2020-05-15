@@ -204,7 +204,7 @@ public final class bhtl implements bhtp {
             bicx bicx = (bicx) bhuk;
             bpoh a2 = bicx.mo64530a();
             bxvd bxvd = (bxvd) a2.mo74142c(5);
-            bxvd.mo73625a((bxvk) a2);
+            bxvd.mo73625a((GeneratedMessageLite) a2);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -257,7 +257,7 @@ public final class bhtl implements bhtp {
         bicx bicx = (bicx) bhuk;
         bpoh a3 = bicx.mo64530a();
         bxvd bxvd = (bxvd) a3.mo74142c(5);
-        bxvd.mo73625a((bxvk) a3);
+        bxvd.mo73625a((GeneratedMessageLite) a3);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

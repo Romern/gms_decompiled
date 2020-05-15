@@ -38,7 +38,7 @@ public final class dxk extends dxd {
         bxjs.f163675b = a;
         bxjs.f163674a |= 1;
         for (ContextData contextData : this.f14360f) {
-            bxtx aL = contextData.mo18013c().mo73639aL();
+            ByteString aL = contextData.mo18013c().mo73639aL();
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -46,7 +46,7 @@ public final class dxk extends dxd {
             bxjs bxjs2 = (bxjs) da.f164949b;
             aL.getClass();
             if (!bxjs2.f163676c.mo73666a()) {
-                bxjs2.f163676c = bxvk.m124021a(bxjs2.f163676c);
+                bxjs2.f163676c = GeneratedMessageLite.m124021a(bxjs2.f163676c);
             }
             bxjs2.f163676c.add(aL);
             new Object[1][0] = contextData;

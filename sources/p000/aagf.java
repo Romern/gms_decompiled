@@ -80,7 +80,7 @@ public final class aagf extends aaho {
             if (c != null) {
                 try {
                     c.moveToFirst();
-                    aaim = (aaim) bxvk.m124016a(aaim.f28200g, c.getBlob(1), bxus.m123744c());
+                    aaim = (aaim) GeneratedMessageLite.m124016a(aaim.f28200g, c.getBlob(1), bxus.m123744c());
                     c.close();
                 } catch (bxwf e) {
                     new Object[1][0] = e.toString();
@@ -118,7 +118,7 @@ public final class aagf extends aaho {
         if (j > -1) {
             contentValues.put("_id", Long.valueOf(j));
         }
-        contentValues.put("pb", aaim.mo73642k());
+        contentValues.put("pb", aaim.serializeToBytes());
         if ((aaim.f28202a & 1) != 0) {
             str = aaim.f28203b;
         } else {

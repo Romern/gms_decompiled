@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: budx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class budx extends bxvk implements bxxd {
+public final class budx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final budx f153536m;
@@ -52,7 +52,7 @@ public final class budx extends bxvk implements bxxd {
     static {
         budx budx = new budx();
         f153536m = budx;
-        bxvk.m124024a(budx.class, budx);
+        GeneratedMessageLite.m124024a(budx.class, budx);
     }
 
     private budx() {
@@ -69,7 +69,7 @@ public final class budx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153536m, "\u0001\f\u0000\u0001\u0001\f\f\u0000\u0007\u0000\u0001ခ\u0000\u0002ဃ\u0001\u0003\u001b\u0004\u001b\u0005ခ\u0002\u0006ခ\u0003\u0007\u001b\b\u001b\tခ\u0004\n\u001b\u000b\u001b\f\u001b", new Object[]{"n", "a", "b", "c", buem.class, "f", buej.class, "g", "h", "i", budu.class, "j", budu.class, "k", "l", budv.class, "d", buem.class, "e", buem.class});
+            return GeneratedMessageLite.m124022a(f153536m, "\u0001\f\u0000\u0001\u0001\f\f\u0000\u0007\u0000\u0001ခ\u0000\u0002ဃ\u0001\u0003\u001b\u0004\u001b\u0005ခ\u0002\u0006ခ\u0003\u0007\u001b\b\u001b\tခ\u0004\n\u001b\u000b\u001b\f\u001b", new Object[]{"n", "a", "b", "c", buem.class, "f", buej.class, "g", "h", "i", budu.class, "j", budu.class, "k", "l", budv.class, "d", buem.class, "e", buem.class});
         } else if (i2 == 3) {
             return new budx();
         } else {

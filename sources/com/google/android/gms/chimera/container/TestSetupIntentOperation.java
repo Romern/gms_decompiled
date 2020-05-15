@@ -273,7 +273,7 @@ public final class TestSetupIntentOperation extends IntentOperation {
             for (ModuleManager.ModuleInfo moduleInfo : allModules) {
                 b.add(moduleInfo.moduleApk.apkPackageName);
                 if (set.contains(moduleInfo.moduleApk.apkPackageName) && (byteArray = moduleInfo.getMetadata(this).getByteArray("com.google.android.gms.phenotype.registration.proto")) != null && byteArray.length > 0) {
-                    bxwc bxwc = ((zzv) bxvk.m124016a(zzv.f56346b, byteArray, bxus.m123743b())).f56348a;
+                    bxwc bxwc = ((zzv) GeneratedMessageLite.m124016a(zzv.f56346b, byteArray, bxus.m123743b())).f56348a;
                     int size = bxwc.size();
                     for (int i = 0; i < size; i++) {
                         zzu zzu = (zzu) bxwc.get(i);

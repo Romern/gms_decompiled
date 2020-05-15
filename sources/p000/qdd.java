@@ -41,7 +41,7 @@ import javax.net.ssl.SSLException;
 public final class qdd {
 
     /* renamed from: a */
-    public static final sek f40972a = qgn.m32143a("CheckinRequestProcessor");
+    public static final Logger f40972a = qgn.m32143a("CheckinRequestProcessor");
 
     /* renamed from: b */
     private final qcy f40973b;
@@ -167,7 +167,7 @@ public final class qdd {
             }
             qgv qgv = qgv.f41250l;
             try {
-                qgv qgv2 = (qgv) bxvk.m124011a(qgv.f41250l, inputStream, bxus.m123744c());
+                qgv qgv2 = (qgv) GeneratedMessageLite.m124011a(qgv.f41250l, inputStream, bxus.m123744c());
                 inputStream.close();
                 if ((qgv2.f41252a & 1) != 0 && qgv2.f41253b) {
                     return qgv2;
@@ -307,7 +307,7 @@ public final class qdd {
      */
     /* JADX WARNING: Code restructure failed: missing block: B:333:0x078b, code lost:
         r5 = (p000.bxvd) r3.mo74142c(5);
-        r5.mo73625a((p000.bxvk) r3);
+        r5.mo73625a((p000.GeneratedMessageLite) r3);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:334:0x0795, code lost:
         if (r10 == null) goto L_0x07d3;
@@ -321,7 +321,7 @@ public final class qdd {
      */
     /* JADX WARNING: Code restructure failed: missing block: B:339:0x07a3, code lost:
         r9 = p000.qgv.f41250l;
-        ((p000.qgv) r5.f164949b).f41255d = p000.bxvk.m124030de();
+        ((p000.qgv) r5.f164949b).f41255d = p000.GeneratedMessageLite.m124030de();
      */
     /* JADX WARNING: Code restructure failed: missing block: B:340:0x07b1, code lost:
         if (r5.f164950c != false) goto L_0x07b4;
@@ -337,7 +337,7 @@ public final class qdd {
         if (r6.f41255d.mo73666a() != false) goto L_0x07ce;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:345:0x07c6, code lost:
-        r6.f41255d = p000.bxvk.m124021a(r6.f41255d);
+        r6.f41255d = p000.GeneratedMessageLite.m124021a(r6.f41255d);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:346:0x07ce, code lost:
         p000.bxsy.m123078a(r10, r6.f41255d);
@@ -403,7 +403,7 @@ public final class qdd {
      */
     /* JADX WARNING: Code restructure failed: missing block: B:375:0x0850, code lost:
         r9 = p000.qgv.f41250l;
-        ((p000.qgv) r5.f164949b).f41262k = p000.bxvk.m124030de();
+        ((p000.qgv) r5.f164949b).f41262k = p000.GeneratedMessageLite.m124030de();
         r6 = r12.f41262k;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:376:0x0860, code lost:
@@ -420,7 +420,7 @@ public final class qdd {
         if (r9.f41262k.mo73666a() != false) goto L_0x087d;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:381:0x0875, code lost:
-        r9.f41262k = p000.bxvk.m124021a(r9.f41262k);
+        r9.f41262k = p000.GeneratedMessageLite.m124021a(r9.f41262k);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:382:0x087d, code lost:
         p000.bxsy.m123078a(r6, r9.f41262k);
@@ -1010,7 +1010,7 @@ public final class qdd {
             bmza b = bmza.m108659b(bmvy.f131119a);
             qgu a3 = qcx.m31875a(qdu2.f41046p);
             bxvd bxvd4 = (bxvd) a3.mo74142c(5);
-            bxvd4.mo73625a((bxvk) a3);
+            bxvd4.mo73625a((GeneratedMessageLite) a3);
             qdb.f40969d = bxvd4;
             int i11 = Build.VERSION.SDK_INT;
             UserManager userManager = (UserManager) qdb.f40966a.getSystemService("user");
@@ -1142,7 +1142,7 @@ public final class qdd {
             qgu4.f41249z = z10;
             qgu qgu5 = (qgu) qdb.f40969d.mo74062i();
             bxvd bxvd7 = (bxvd) qgu5.mo74142c(5);
-            bxvd7.mo73625a((bxvk) qgu5);
+            bxvd7.mo73625a((GeneratedMessageLite) qgu5);
             bxvd = bxvd7;
             list = a2;
         } else {
@@ -1158,7 +1158,7 @@ public final class qdd {
             bmxv2 = bmxv.m108566b(new qjz(qit.f41482a, qit.f41483b));
             qgu qgu6 = ((qjz) ((bmyg) bmxv2).f131198a).mo24055a().f41520a;
             bxvd bxvd8 = (bxvd) qgu6.mo74142c(5);
-            bxvd8.mo73625a((bxvk) qgu6);
+            bxvd8.mo73625a((GeneratedMessageLite) qgu6);
             bxvd = bxvd8;
             list = a7;
         }
@@ -1230,13 +1230,13 @@ public final class qdd {
                     qhg = qhg.f41336o;
                 }
                 bxvd bxvd9 = (bxvd) qhg.mo74142c(5);
-                bxvd9.mo73625a((bxvk) qhg);
+                bxvd9.mo73625a((GeneratedMessageLite) qhg);
                 if (bxvd9.f164950c) {
                     bxvd9.mo74035c();
                     bxvd9.f164950c = false;
                 }
                 bmxv = bmxv2;
-                ((qhg) bxvd9.f164949b).f41342e = bxvk.m124030de();
+                ((qhg) bxvd9.f164949b).f41342e = GeneratedMessageLite.m124030de();
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

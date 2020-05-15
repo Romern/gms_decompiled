@@ -203,7 +203,7 @@ public final class bcte {
     }
 
     /* renamed from: a */
-    public final void mo57509a(bxtx bxtx) {
+    public final void mo57509a(ByteString bxtx) {
         mo57505a(bcqa.m89618a(bxtx));
     }
 

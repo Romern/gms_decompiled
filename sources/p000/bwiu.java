@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwiu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwiu extends bxvk implements bxxd {
+public final class bwiu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bwiu f159689b;
@@ -19,7 +19,7 @@ public final class bwiu extends bxvk implements bxxd {
     static {
         bwiu bwiu = new bwiu();
         f159689b = bwiu;
-        bxvk.m124024a(bwiu.class, bwiu);
+        GeneratedMessageLite.m124024a(bwiu.class, bwiu);
     }
 
     private bwiu() {
@@ -36,7 +36,7 @@ public final class bwiu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f159689b, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0000\u0002ဉ\u0001", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f159689b, "\u0001\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0000\u0002ဉ\u0001", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new bwiu();
         } else {

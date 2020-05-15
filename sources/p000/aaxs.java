@@ -85,7 +85,7 @@ public final class aaxs extends aaru {
         abdr abdr2 = (abdr) da.mo74062i();
         abdu a2 = aaxt.m47185a(aarp, helpConfig);
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

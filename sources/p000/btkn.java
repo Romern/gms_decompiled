@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btkn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btkn extends bxvk implements bxxd {
+public final class btkn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final btkn f149277e;
@@ -25,7 +25,7 @@ public final class btkn extends bxvk implements bxxd {
     static {
         btkn btkn = new btkn();
         f149277e = btkn;
-        bxvk.m124024a(btkn.class, btkn);
+        GeneratedMessageLite.m124024a(btkn.class, btkn);
     }
 
     private btkn() {
@@ -42,7 +42,7 @@ public final class btkn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f149277e, "\u0000\u0004\u0001\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\t\u0002=\u0000\u0003Ȼ\u0000\u0004Ȉ", new Object[]{"b", "a", "c", "d"});
+            return GeneratedMessageLite.m124022a(f149277e, "\u0000\u0004\u0001\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001\t\u0002=\u0000\u0003Ȼ\u0000\u0004Ȉ", new Object[]{"b", "a", "c", "d"});
         } else if (i2 == 3) {
             return new btkn();
         } else {

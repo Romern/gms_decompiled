@@ -40,7 +40,7 @@ public class FontMatchSpec extends AbstractSafeParcelable {
     public FontMatchSpec(int i, String str, float f, int i2, float f2, boolean z) {
         boolean z2;
         this.f32463a = i;
-        sdo.m34966a((Object) str, (Object) "family");
+        sdo.checkIfNull((Object) str, (Object) "family");
         this.f32464b = str;
         this.f32465c = f;
         this.f32466d = i2;

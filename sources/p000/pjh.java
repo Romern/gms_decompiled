@@ -100,7 +100,7 @@ public final class pjh {
                                 if (!z) {
                                     m30556a(blsx.f127646h.mo73781l(), str);
                                 } else {
-                                    m30557a(blsx.f127646h.mo73780k(), str);
+                                    m30557a(blsx.f127646h.getKey(), str);
                                 }
                                 bpeq bpeq2 = bpeq.CONSUME_CHUNK_RESULT_SUCCESS;
                                 blsw a3 = blsw.m107539a(blsx.f127640b);
@@ -112,9 +112,9 @@ public final class pjh {
                             }
                             pjg.f39342a = pjg.f39342a.mo73770a(blsx.f127646h);
                             if (!z2) {
-                                bxtx bxtx = pjg.f39342a;
+                                ByteString bxtx = pjg.f39342a;
                                 if (pjg.f39343b) {
-                                    m30557a(bxtx.mo73780k(), str);
+                                    m30557a(bxtx.getKey(), str);
                                 } else {
                                     m30556a(bxtx.mo73781l(), str);
                                 }

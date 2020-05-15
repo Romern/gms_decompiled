@@ -2,13 +2,13 @@ package p000;
 
 /* renamed from: bmdo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmdo extends bxvk implements bxxd {
+public final class bmdo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bmdo f128843a;
 
     /* renamed from: b */
-    public static final bxvj f128844b = bxvk.m124006a(bmcm.f128714f, bmki.f129802w, bmki.f129802w, 4, bxzf.MESSAGE);
+    public static final bxvj f128844b = GeneratedMessageLite.m124006a(bmcm.f128714f, bmki.f129802w, bmki.f129802w, 4, bxzf.MESSAGE);
 
     /* renamed from: c */
     private static volatile bxxk f128845c;
@@ -16,7 +16,7 @@ public final class bmdo extends bxvk implements bxxd {
     static {
         bmdo bmdo = new bmdo();
         f128843a = bmdo;
-        bxvk.m124024a(bmdo.class, bmdo);
+        GeneratedMessageLite.m124024a(bmdo.class, bmdo);
     }
 
     private bmdo() {
@@ -33,7 +33,7 @@ public final class bmdo extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128843a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f128843a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bmdo();

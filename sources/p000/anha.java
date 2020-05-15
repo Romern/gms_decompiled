@@ -101,7 +101,7 @@ public final class anha extends angu {
                             braj3.f142142b = 7;
                             braj3.f142143c = string2;
                             braj braj4 = (braj) braf.mo74062i();
-                            arrayList.add(new Flag(braj4.f142144d, braj4.mo73642k(), 0));
+                            arrayList.add(new Flag(braj4.f142144d, braj4.serializeToBytes(), 0));
                         }
                         configurations = new Configurations("", "", new Configuration[]{new Configuration(0, (Flag[]) arrayList.toArray(new Flag[0]), new String[0])}, false, null, 0);
                         if (query != null) {

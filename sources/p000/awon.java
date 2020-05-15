@@ -10,7 +10,7 @@ import com.google.android.gms.wallet.selector.GenericSelectorResult;
 public final class awon implements Parcelable.Creator {
     public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
         boolean z;
-        bxtx bxtx;
+        ByteString bxtx;
         UserAddress userAddress = (UserAddress) parcel.readParcelable(UserAddress.class.getClassLoader());
         long readLong = parcel.readLong();
         if (parcel.readByte() != 0) {

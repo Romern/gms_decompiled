@@ -166,7 +166,7 @@ public final class agpl {
             return null;
         }
         try {
-            return (ConsentAgreementText) sef.m35069a(a.mo35892f().f165194a.mo73780k(), ConsentAgreementText.CREATOR);
+            return (ConsentAgreementText) sef.m35069a(a.mo35892f().f165194a.getKey(), ConsentAgreementText.CREATOR);
         } catch (sec e) {
             bnsl bnsl = (bnsl) f66243c.mo68387b();
             bnsl.mo68437a(e);
@@ -353,7 +353,7 @@ public final class agpl {
         } else {
             bxzz h = a.mo35917h();
             bxvd = (bxvd) h.mo74142c(5);
-            bxvd.mo73625a((bxvk) h);
+            bxvd.mo73625a((GeneratedMessageLite) h);
         }
         agpv agpv = new agpv();
         agpv.mo35904a(l);

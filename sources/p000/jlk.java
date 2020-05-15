@@ -12,7 +12,7 @@ import java.util.Map;
 public final class jlk {
 
     /* renamed from: c */
-    private static final sek f22755c = jsy.m17256a("GcmMessageBus");
+    private static final Logger f22755c = jsy.m17256a("GcmMessageBus");
 
     /* renamed from: d */
     private static jlk f22756d;

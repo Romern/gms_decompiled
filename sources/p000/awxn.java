@@ -84,7 +84,7 @@ public final class awxn extends dck implements awxo {
                 }
                 i = 3;
                 try {
-                    return new ReauthProofTokenResponse(((bsls) sgv.mo25514a(clientContext, 1, (String) awiy.f94506d.mo58455c(), bsli2.mo73642k(), bsls.f144946b, chiv.f188665a.mo6606a().mo85268a())).f144948a, 0, m81411a(elapsedRealtime));
+                    return new ReauthProofTokenResponse(((bsls) sgv.mo25514a(clientContext, 1, (String) awiy.f94506d.mo58455c(), bsli2.serializeToBytes(), bsls.f144946b, chiv.f188665a.mo6606a().mo85268a())).f144948a, 0, m81411a(elapsedRealtime));
                 } catch (gid e) {
                 } catch (VolleyError e2) {
                     e = e2;

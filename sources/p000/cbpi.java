@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbpi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbpi extends bxvk implements bxxd {
+public final class cbpi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbpi f177930b;
@@ -16,7 +16,7 @@ public final class cbpi extends bxvk implements bxxd {
     static {
         cbpi cbpi = new cbpi();
         f177930b = cbpi;
-        bxvk.m124024a(cbpi.class, cbpi);
+        GeneratedMessageLite.m124024a(cbpi.class, cbpi);
     }
 
     private cbpi() {
@@ -33,7 +33,7 @@ public final class cbpi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177930b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\f", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f177930b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\f", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cbpi();
         } else {

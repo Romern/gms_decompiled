@@ -84,7 +84,7 @@ public final class ndu extends ndr {
             mrn3 = mrn.f34444k;
         }
         bxvd bxvd2 = (bxvd) mrn3.mo74142c(5);
-        bxvd2.mo73625a((bxvk) mrn3);
+        bxvd2.mo73625a((GeneratedMessageLite) mrn3);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;
@@ -112,7 +112,7 @@ public final class ndu extends ndr {
             mrn = mrn.f34444k;
         }
         bxvd bxvd2 = (bxvd) mrn.mo74142c(5);
-        bxvd2.mo73625a((bxvk) mrn);
+        bxvd2.mo73625a((GeneratedMessageLite) mrn);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;
@@ -120,7 +120,7 @@ public final class ndu extends ndr {
         mrn mrn2 = (mrn) bxvd2.f164949b;
         mrl.getClass();
         if (!mrn2.f34451f.mo73666a()) {
-            mrn2.f34451f = bxvk.m124019a(mrn2.f34451f);
+            mrn2.f34451f = GeneratedMessageLite.m124019a(mrn2.f34451f);
         }
         mrn2.f34451f.mo74153d(mrl.f34442e);
         if (bxvd.f164950c) {

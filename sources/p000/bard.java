@@ -22,7 +22,7 @@ public final class bard {
         byjd byjd2 = (byjd) da2.mo74062i();
         byjd2.getClass();
         if (!byje.f166645b.mo73666a()) {
-            byje.f166645b = bxvk.m124021a(byje.f166645b);
+            byje.f166645b = GeneratedMessageLite.m124021a(byje.f166645b);
         }
         byje.f166645b.add(byjd2);
         boolean a = bacx.mo55587a();

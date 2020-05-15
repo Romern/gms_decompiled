@@ -15,7 +15,7 @@ final /* synthetic */ class hmn implements bmxj {
     public final Object apply(Object obj) {
         Credential credential = this.f20031a;
         qun qun = (qun) obj;
-        sek sek = hms.f20041a;
+        Logger Logger = hms.f20041a;
         return credential;
     }
 }

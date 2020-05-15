@@ -22,7 +22,7 @@ public final class byrr {
     /* renamed from: b */
     public static PublicKey m125227b(byte[] bArr) {
         try {
-            return bysu.m125293a((bytb) bxvk.m124014a(bytb.f167639f, bArr));
+            return bysu.m125293a((bytb) GeneratedMessageLite.m124014a(bytb.f167639f, bArr));
         } catch (bxwf e) {
             throw new InvalidKeySpecException("Unable to parse GenericPublicKey", e);
         } catch (IllegalArgumentException e2) {
@@ -37,6 +37,6 @@ public final class byrr {
 
     /* renamed from: a */
     public static byte[] m125226a(PublicKey publicKey) {
-        return bysu.m125290a(publicKey).mo73642k();
+        return bysu.m125290a(publicKey).serializeToBytes();
     }
 }

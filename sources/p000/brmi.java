@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public final class brmi implements sjv {
 
     /* renamed from: a */
-    private static final sek f142966a = new sek("FirebaseAuth", "PhoneNumberAuthPostProcessor");
+    private static final Logger f142966a = new Logger("FirebaseAuth", "PhoneNumberAuthPostProcessor");
 
     /* renamed from: a */
     public final void mo25654a() {

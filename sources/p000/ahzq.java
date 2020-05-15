@@ -14,5 +14,5 @@ final class ahzq {
     public String f68487c;
 
     /* renamed from: d */
-    public bxtx f68488d;
+    public ByteString f68488d;
 }

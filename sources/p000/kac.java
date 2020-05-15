@@ -33,10 +33,10 @@ import org.json.JSONObject;
 public final class kac {
 
     /* renamed from: a */
-    private static final sek f23639a = ght.m13171a("MinuteMaid", "MinuteMaidJsBridge");
+    private static final Logger f23639a = ght.m13171a("MinuteMaid", "MinuteMaidJsBridge");
 
     /* renamed from: b */
-    private static final sek f23640b = new sek("MinuteMaidLog", new String[0]);
+    private static final Logger f23640b = new Logger("MinuteMaidLog", new String[0]);
 
     /* renamed from: c */
     private final kab f23641c;
@@ -183,7 +183,7 @@ public final class kac {
 
     @JavascriptInterface
     public String getAndroidId() {
-        long a = spn.m35843a(this.f23642d);
+        long a = spn.getAndroidId(this.f23642d);
         if (a != 0) {
             return Long.toHexString(a);
         }
@@ -236,7 +236,7 @@ public final class kac {
             f23639a.mo25412b("onRequestDroidGuardResult", new Object[0]);
             kab kab = this.f23641c;
             StringBuilder sb = new StringBuilder();
-            sb.append(Long.toHexString(spn.m35843a((Context) ((Fragment) kab).getActivity())));
+            sb.append(Long.toHexString(spn.getAndroidId((Context) ((Fragment) kab).getActivity())));
             sb.append(':');
             sb.append(Build.VERSION.SDK_INT);
             sb.append(':');
@@ -451,9 +451,9 @@ public final class kac {
     public final void startFido2SignRequest(String str) {
         f23639a.mo25412b("startFido2SecurityKeyAssertionRequest", new Object[0]);
         kab kab = this.f23641c;
-        sek sek = kaa.f23599d;
+        Logger Logger = kaa.f23599d;
         String valueOf = String.valueOf(str);
-        sek.mo25412b(valueOf.length() == 0 ? new String("Got Security Key request: ") : "Got Security Key request: ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("Got Security Key request: ") : "Got Security Key request: ".concat(valueOf), new Object[0]);
         kaa kaa = (kaa) kab;
         kaa.f23618E = wzk.m42529c(((Fragment) kab).getActivity());
         try {
@@ -478,9 +478,9 @@ public final class kac {
     public void startSecurityKeyAssertionRequest(String str) {
         f23639a.mo25412b("startSecurityKeyAssertionRequest", new Object[0]);
         kab kab = this.f23641c;
-        sek sek = kaa.f23599d;
+        Logger Logger = kaa.f23599d;
         String valueOf = String.valueOf(str);
-        sek.mo25412b(valueOf.length() == 0 ? new String("Got Security Key request: ") : "Got Security Key request: ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("Got Security Key request: ") : "Got Security Key request: ".concat(valueOf), new Object[0]);
         try {
             yai yai = new yai(yah.m43722a(new JSONObject(str)));
             kaa kaa = (kaa) kab;

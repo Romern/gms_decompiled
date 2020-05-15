@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public final class jma implements jnt, jlj {
 
     /* renamed from: a */
-    public static final sek f22787a = jsy.m17256a("GcmSecureChannel");
+    public static final Logger f22787a = jsy.m17256a("GcmSecureChannel");
 
     /* renamed from: b */
     public final ScheduledExecutorService f22788b;

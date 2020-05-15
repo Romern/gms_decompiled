@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: apzg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class apzg extends bxvk implements bxxd {
+public final class apzg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: l */
     public static final apzg f85233l;
@@ -20,7 +20,7 @@ public final class apzg extends bxvk implements bxxd {
     public boolean f85237c;
 
     /* renamed from: d */
-    public bxtx f85238d = bxtx.f164797b;
+    public ByteString f85238d = ByteString.f164797b;
 
     /* renamed from: e */
     public bxwc f85239e = bxxn.f165040b;
@@ -46,7 +46,7 @@ public final class apzg extends bxvk implements bxxd {
     static {
         apzg apzg = new apzg();
         f85233l = apzg;
-        bxvk.m124024a(apzg.class, apzg);
+        GeneratedMessageLite.m124024a(apzg.class, apzg);
     }
 
     private apzg() {
@@ -63,7 +63,7 @@ public final class apzg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85233l, "\u0001\n\u0000\u0001\u0001\f\n\u0000\u0004\u0000\u0001ဈ\u0000\u0004ဇ\u0001\u0005ည\u0002\u0006\u001c\u0007င\u0003\b\u001a\t\u001a\n\u001b\u000bင\u0004\fဇ\u0005", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", aqah.class, "j", "k"});
+            return GeneratedMessageLite.m124022a(f85233l, "\u0001\n\u0000\u0001\u0001\f\n\u0000\u0004\u0000\u0001ဈ\u0000\u0004ဇ\u0001\u0005ည\u0002\u0006\u001c\u0007င\u0003\b\u001a\t\u001a\n\u001b\u000bင\u0004\fဇ\u0005", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", aqah.class, "j", "k"});
         } else if (i2 == 3) {
             return new apzg();
         } else {

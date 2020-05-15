@@ -16,7 +16,7 @@ public final class avor extends avnn {
     public static final avto f93664e = new avto("dir_path", "");
 
     /* renamed from: f */
-    private static final sek f93665f = avpq.m79018e("StreamingProcessPackageAction");
+    private static final Logger f93665f = avpq.m79018e("StreamingProcessPackageAction");
 
     /* renamed from: g */
     private final Context f93666g;

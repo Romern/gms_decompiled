@@ -54,7 +54,7 @@ public final class bifj implements bieq {
         PlaceReport placeReport = this.f120448a;
         bpqk c2 = bhqq.m101365c(3, placesParams);
         bxvd bxvd = (bxvd) c2.mo74142c(5);
-        bxvd.mo73625a((bxvk) c2);
+        bxvd.mo73625a((GeneratedMessageLite) c2);
         bxvd da = bppr.f138652d.mo74144da();
         String str = placeReport.f79488c;
         int i = 2;

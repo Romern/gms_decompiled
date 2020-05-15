@@ -91,7 +91,7 @@ final /* synthetic */ class bdzn implements aubq {
                                 beag5.f106735b = 5;
                                 beag5.f106736c = d;
                             } else if (i3 == 5) {
-                                bxtx a2 = bxtx.m123261a(flag.mo46503e());
+                                ByteString a2 = ByteString.m123261a(flag.mo46503e());
                                 if (da.f164950c) {
                                     da.mo74035c();
                                     da.f164950c = false;
@@ -148,7 +148,7 @@ final /* synthetic */ class bdzn implements aubq {
             beaf3.f106730e = j;
             byte[] bArr = configurations.f82075b;
             if (bArr != null) {
-                bxtx a3 = bxtx.m123261a(bArr);
+                ByteString a3 = ByteString.m123261a(bArr);
                 if (beae.f164950c) {
                     beae.mo74035c();
                     beae.f164950c = false;

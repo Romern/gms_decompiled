@@ -391,7 +391,7 @@ public final class awrt {
     /* JADX WARNING: Unknown variable types count: 1 */
     /* renamed from: b */
     public static int m80855b(String str, awru awru) {
-        sdo.m34966a((Object) str, (Object) "Country code cannot be null.");
+        sdo.checkIfNull((Object) str, (Object) "Country code cannot be null.");
         ? r2 = 0;
         r2 = 0;
         r2 = 0;
@@ -4065,7 +4065,7 @@ public final class awrt {
                     bwds bwds3 = (bwds) da4.mo74062i();
                     bwds3.getClass();
                     if (!bwef2.f158973c.mo73666a()) {
-                        bwef2.f158973c = bxvk.m124021a(bwef2.f158973c);
+                        bwef2.f158973c = GeneratedMessageLite.m124021a(bwef2.f158973c);
                     }
                     bwef2.f158973c.add(bwds3);
                     i12++;
@@ -4222,7 +4222,7 @@ public final class awrt {
         bwgu bwgu = (bwgu) da.f164949b;
         str.getClass();
         if (!bwgu.f159272f.mo73666a()) {
-            bwgu.f159272f = bxvk.m124021a(bwgu.f159272f);
+            bwgu.f159272f = GeneratedMessageLite.m124021a(bwgu.f159272f);
         }
         bwgu.f159272f.add(str);
         String str2 = btrn.f150120a;
@@ -4244,7 +4244,7 @@ public final class awrt {
         bwgu2.f159273g = i4;
         bxwc bxwc = btrn.f150122c;
         if (!bwgu2.f159271e.mo73666a()) {
-            bwgu2.f159271e = bxvk.m124021a(bwgu2.f159271e);
+            bwgu2.f159271e = GeneratedMessageLite.m124021a(bwgu2.f159271e);
         }
         bxsy.m123078a(bxwc, bwgu2.f159271e);
         if (da.f164950c) {
@@ -4279,7 +4279,7 @@ public final class awrt {
             bwgu bwgu4 = (bwgu) da.f164949b;
             bwgt2.getClass();
             if (!bwgu4.f159270d.mo73666a()) {
-                bwgu4.f159270d = bxvk.m124021a(bwgu4.f159270d);
+                bwgu4.f159270d = GeneratedMessageLite.m124021a(bwgu4.f159270d);
             }
             bwgu4.f159270d.add(bwgt2);
         }
@@ -4701,7 +4701,7 @@ public final class awrt {
         }
         jSONObject.put("callbackTrigger", str);
         String jSONObject3 = jSONObject.toString();
-        sdo.m34966a((Object) jSONObject3, (Object) "JSON cannot be null!");
+        sdo.checkIfNull((Object) jSONObject3, (Object) "JSON cannot be null!");
         return new IntermediatePaymentData(jSONObject3, null);
     }
 
@@ -5041,7 +5041,7 @@ public final class awrt {
                 }
                 byte[] bArr = cardInfoArr[i2].f108354o;
                 if (bArr != null) {
-                    bxtx a3 = bxtx.m123261a(bArr);
+                    ByteString a3 = ByteString.m123261a(bArr);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;

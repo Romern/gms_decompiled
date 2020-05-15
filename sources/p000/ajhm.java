@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ajhm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ajhm extends bxvk implements bxxd {
+public final class ajhm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final ajhm f70666b;
@@ -16,7 +16,7 @@ public final class ajhm extends bxvk implements bxxd {
     static {
         ajhm ajhm = new ajhm();
         f70666b = ajhm;
-        bxvk.m124024a(ajhm.class, ajhm);
+        GeneratedMessageLite.m124024a(ajhm.class, ajhm);
     }
 
     private ajhm() {
@@ -33,7 +33,7 @@ public final class ajhm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f70666b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", ajhl.class});
+            return GeneratedMessageLite.m124022a(f70666b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", ajhl.class});
         } else if (i2 == 3) {
             return new ajhm();
         } else {
@@ -60,7 +60,7 @@ public final class ajhm extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo38662a() {
         if (!this.f70668a.mo73666a()) {
-            this.f70668a = bxvk.m124021a(this.f70668a);
+            this.f70668a = GeneratedMessageLite.m124021a(this.f70668a);
         }
     }
 }

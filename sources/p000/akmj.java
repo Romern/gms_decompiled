@@ -11,7 +11,7 @@ public final class akmj {
     /* renamed from: a */
     public static caey m60011a(String str) {
         try {
-            return (caey) bxvk.m124016a(caey.f172871e, Base64.decode(str, 0), bxus.m123744c());
+            return (caey) GeneratedMessageLite.m124016a(caey.f172871e, Base64.decode(str, 0), bxus.m123744c());
         } catch (bxwf e) {
             return caey.f172871e;
         }

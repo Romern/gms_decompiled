@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpup */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpup extends bxvk implements bxxd {
+public final class bpup extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bpup f139273c;
@@ -19,7 +19,7 @@ public final class bpup extends bxvk implements bxxd {
     static {
         bpup bpup = new bpup();
         f139273c = bpup;
-        bxvk.m124024a(bpup.class, bpup);
+        GeneratedMessageLite.m124024a(bpup.class, bpup);
     }
 
     private bpup() {
@@ -36,7 +36,7 @@ public final class bpup extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139273c, "\u0001\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001ြ\u0000", new Object[]{"b", "a", bpuo.class});
+            return GeneratedMessageLite.m124022a(f139273c, "\u0001\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001ြ\u0000", new Object[]{"b", "a", bpuo.class});
         } else if (i2 == 3) {
             return new bpup();
         } else {

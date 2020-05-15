@@ -36,11 +36,11 @@ final class aphy {
             if (a.size() <= 0) {
                 Log.e("NetworkScheduler.Stats", "Unable to log scheduler event because OptInLoggerCreator did not return any functional loggers.");
             } else if (cdnk.f181321a.mo6606a().mo77968b()) {
-                qwo a2 = ((qws) a.get(0)).mo24335a(aaps.mo73642k());
+                qwo a2 = ((qws) a.get(0)).mo24335a(aaps.serializeToBytes());
                 a2.f42322f = cagz.UNMETERED_OR_DAILY;
                 a2.mo24327b();
             } else {
-                qwo a3 = ((qws) a.get(0)).mo24335a(aaps.mo73642k());
+                qwo a3 = ((qws) a.get(0)).mo24335a(aaps.serializeToBytes());
                 a3.f42322f = cagz.UNMETERED_ONLY;
                 a3.mo24327b();
             }

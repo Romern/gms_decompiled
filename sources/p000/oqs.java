@@ -9,7 +9,7 @@ import com.google.android.gms.common.api.Status;
 public final class oqs extends oqq implements aaai {
 
     /* renamed from: a */
-    private static final sek f38241a = tea.m36798a("carrier-auth-api-stub");
+    private static final Logger f38241a = tea.m36798a("carrier-auth-api-stub");
 
     /* renamed from: b */
     private final Context f38242b;

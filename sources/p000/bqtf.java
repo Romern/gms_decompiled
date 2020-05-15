@@ -21,7 +21,7 @@ final class bqtf extends bqnq {
         if (b == 0) {
             b = 1;
         }
-        ECPublicKey a = bqvm.m113478a(bqua.m113410b(b), bqrl.f141452c.mo73780k(), bqrl.f141453d.mo73780k());
+        ECPublicKey a = bqvm.m113478a(bqua.m113410b(b), bqrl.f141452c.getKey(), bqrl.f141453d.getKey());
         bqrj bqrj2 = bqrl.f141451b;
         if (bqrj2 == null) {
             bqrj2 = bqrj.f141438d;

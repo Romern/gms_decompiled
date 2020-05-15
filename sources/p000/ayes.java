@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayes */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayes extends bxvk implements bxxd {
+public final class ayes extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final ayes f97358f;
@@ -31,7 +31,7 @@ public final class ayes extends bxvk implements bxxd {
     static {
         ayes ayes = new ayes();
         f97358f = ayes;
-        bxvk.m124024a(ayes.class, ayes);
+        GeneratedMessageLite.m124024a(ayes.class, ayes);
     }
 
     private ayes() {
@@ -52,7 +52,7 @@ public final class ayes extends bxvk implements bxxd {
             this.f97365g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f97358f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0003\u0001ᔈ\u0000\u0002ᔈ\u0002\u0003ဇ\u0003\u0004ᔈ\u0001", new Object[]{"a", "b", "d", "e", "c"});
+            return GeneratedMessageLite.m124022a(f97358f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0003\u0001ᔈ\u0000\u0002ᔈ\u0002\u0003ဇ\u0003\u0004ᔈ\u0001", new Object[]{"a", "b", "d", "e", "c"});
         } else if (i2 == 3) {
             return new ayes();
         } else {

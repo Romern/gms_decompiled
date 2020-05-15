@@ -16,7 +16,7 @@ public final class caco extends bxvd implements bxxd {
         cacp cacp = (cacp) this.f164949b;
         cacp cacp2 = cacp.f172587f;
         if (!cacp.f172590b.mo73666a()) {
-            cacp.f172590b = bxvk.m124021a(cacp.f172590b);
+            cacp.f172590b = GeneratedMessageLite.m124021a(cacp.f172590b);
         }
         bxsy.m123078a(iterable, cacp.f172590b);
     }

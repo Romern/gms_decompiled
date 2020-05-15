@@ -17,7 +17,7 @@ final class ipu {
         ArrayList arrayList = new ArrayList();
         while (true) {
             try {
-                bqld bqld = (bqld) bxvk.m124026b(bqld.f141081f, byteArrayInputStream);
+                bqld bqld = (bqld) GeneratedMessageLite.m124026b(bqld.f141081f, byteArrayInputStream);
                 if (bqld == null) {
                     break;
                 }
@@ -37,7 +37,7 @@ final class ipu {
         ArrayList arrayList = new ArrayList();
         while (true) {
             try {
-                bqlc bqlc = (bqlc) bxvk.m124026b(bqlc.f141077c, byteArrayInputStream);
+                bqlc bqlc = (bqlc) GeneratedMessageLite.m124026b(bqlc.f141077c, byteArrayInputStream);
                 if (bqlc == null) {
                     break;
                 }

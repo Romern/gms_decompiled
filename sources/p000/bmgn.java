@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmgn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmgn extends bxvk implements bxxd {
+public final class bmgn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: o */
     public static final bmgn f129273o;
@@ -58,7 +58,7 @@ public final class bmgn extends bxvk implements bxxd {
     static {
         bmgn bmgn = new bmgn();
         f129273o = bmgn;
-        bxvk.m124024a(bmgn.class, bmgn);
+        GeneratedMessageLite.m124024a(bmgn.class, bmgn);
     }
 
     private bmgn() {
@@ -79,7 +79,7 @@ public final class bmgn extends bxvk implements bxxd {
             this.f129289p = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f129273o, "\u0001\r\u0000\u0001\u0001\u0012\r\u0000\u0003\u0002\u0001Л\u0003Л\u0004ဂ\u0000\u0006င\u0002\u0007င\u0003\bဇ\u0004\tဈ\u0001\fဂ\u0005\rဂ\u0007\u000eဇ\b\u000f\u001b\u0011ဉ\t\u0012ဂ\u0006", new Object[]{"a", "d", bmgk.class, "e", bmgd.class, "b", "g", "h", "i", "c", "j", "l", "m", "f", bmgh.class, "n", "k"});
+            return GeneratedMessageLite.m124022a(f129273o, "\u0001\r\u0000\u0001\u0001\u0012\r\u0000\u0003\u0002\u0001Л\u0003Л\u0004ဂ\u0000\u0006င\u0002\u0007င\u0003\bဇ\u0004\tဈ\u0001\fဂ\u0005\rဂ\u0007\u000eဇ\b\u000f\u001b\u0011ဉ\t\u0012ဂ\u0006", new Object[]{"a", "d", bmgk.class, "e", bmgd.class, "b", "g", "h", "i", "c", "j", "l", "m", "f", bmgh.class, "n", "k"});
         } else if (i2 == 3) {
             return new bmgn();
         } else {
@@ -106,14 +106,14 @@ public final class bmgn extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo66790b() {
         if (!this.f129279e.mo73666a()) {
-            this.f129279e = bxvk.m124021a(this.f129279e);
+            this.f129279e = GeneratedMessageLite.m124021a(this.f129279e);
         }
     }
 
     /* renamed from: a */
     public final void mo66789a() {
         if (!this.f129278d.mo73666a()) {
-            this.f129278d = bxvk.m124021a(this.f129278d);
+            this.f129278d = GeneratedMessageLite.m124021a(this.f129278d);
         }
     }
 }

@@ -40,13 +40,13 @@ public final class cdgl implements cdgg {
         bdyw a = new bdyw(bdyj.m91581a("com.google.android.gms.contextmanager")).mo58443a();
         bdyx.m91607a(a, "acl_server_retry_timeout_millis", 1800000L);
         try {
-            bdyx.m91608a(a, "acl_set_override", (bxga) bxvk.m124014a(bxga.f163216d, new byte[0]), cdgh.f180771a);
+            bdyx.m91608a(a, "acl_set_override", (bxga) GeneratedMessageLite.m124014a(bxga.f163216d, new byte[0]), cdgh.f180771a);
             try {
-                f180775a = bdyx.m91608a(a, "context_acl_anonymous_acl", (bxga) bxvk.m124014a(bxga.f163216d, new byte[0]), cdgi.f180772a);
+                f180775a = bdyx.m91608a(a, "context_acl_anonymous_acl", (bxga) GeneratedMessageLite.m124014a(bxga.f163216d, new byte[0]), cdgi.f180772a);
                 try {
-                    f180776b = bdyx.m91608a(a, "context_acl_context_acl", (bxga) bxvk.m124014a(bxga.f163216d, new byte[0]), cdgj.f180773a);
+                    f180776b = bdyx.m91608a(a, "context_acl_context_acl", (bxga) GeneratedMessageLite.m124014a(bxga.f163216d, new byte[0]), cdgj.f180773a);
                     try {
-                        f180777c = bdyx.m91608a(a, "context_acl_synchronizable_contexts", (bxjr) bxvk.m124014a(bxjr.f163669b, new byte[]{10, 3, 8, -110, 78, 10, 3, 8, -108, 78, 10, 3, 8, -109, 78, 10, 3, 8, -107, 78}), cdgk.f180774a);
+                        f180777c = bdyx.m91608a(a, "context_acl_synchronizable_contexts", (bxjr) GeneratedMessageLite.m124014a(bxjr.f163669b, new byte[]{10, 3, 8, -110, 78, 10, 3, 8, -108, 78, 10, 3, 8, -109, 78, 10, 3, 8, -107, 78}), cdgk.f180774a);
                         f180778d = bdyx.m91610a(a, "no_acl_fetching_if_gms", true);
                     } catch (bxwf e) {
                         throw new AssertionError("Could not parse proto flag \"context_acl_synchronizable_contexts\"");

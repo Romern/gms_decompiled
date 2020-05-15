@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cala */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cala extends bxvk implements bxxd {
+public final class cala extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final cala f175092h;
@@ -34,7 +34,7 @@ public final class cala extends bxvk implements bxxd {
     static {
         cala cala = new cala();
         f175092h = cala;
-        bxvk.m124024a(cala.class, cala);
+        GeneratedMessageLite.m124024a(cala.class, cala);
     }
 
     private cala() {
@@ -51,7 +51,7 @@ public final class cala extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175092h, "\u0001\u0006\u0000\u0001\u0001\b\u0006\u0001\u0002\u0000\u0001င\u0000\u0002င\u0001\u0003\u001b\u00052\u0006\u001b\bင\u0003", new Object[]{"a", "b", "c", "d", cakw.class, "e", cakz.f175091a, "f", cakx.class, "g"});
+            return GeneratedMessageLite.m124022a(f175092h, "\u0001\u0006\u0000\u0001\u0001\b\u0006\u0001\u0002\u0000\u0001င\u0000\u0002င\u0001\u0003\u001b\u00052\u0006\u001b\bင\u0003", new Object[]{"a", "b", "c", "d", cakw.class, "e", cakz.f175091a, "f", cakx.class, "g"});
         } else if (i2 == 3) {
             return new cala();
         } else {
@@ -78,7 +78,7 @@ public final class cala extends bxvk implements bxxd {
     /* renamed from: c */
     public final void mo74657c() {
         if (!this.f175097d.mo73666a()) {
-            this.f175097d = bxvk.m124021a(this.f175097d);
+            this.f175097d = GeneratedMessageLite.m124021a(this.f175097d);
         }
     }
 }

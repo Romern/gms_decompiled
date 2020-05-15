@@ -36,8 +36,8 @@ public final class uej extends uch {
         this.f47239c.mo28283a(a, false, null, null, null);
         ubk ubk = this.f47237a;
         uei uei = new uei(this.f47238b, this.f47239c);
-        sdo.m34966a(a, "Query can't be null");
-        sdo.m34966a(a.mo18285a(), "Query can't have null spaces (have you validated them?)");
+        sdo.checkIfNull(a, "Query can't be null");
+        sdo.checkIfNull(a.mo18285a(), "Query can't have null spaces (have you validated them?)");
         boolean z = true;
         sdo.m34975b(!a.mo18285a().isEmpty(), "Query can't have empty spaces (have you validated them?)");
         val val = ubk.f47155p;

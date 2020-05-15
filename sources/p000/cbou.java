@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbou */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbou extends bxvk implements bxxd {
+public final class cbou extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cbou f177864b;
@@ -16,7 +16,7 @@ public final class cbou extends bxvk implements bxxd {
     static {
         cbou cbou = new cbou();
         f177864b = cbou;
-        bxvk.m124024a(cbou.class, cbou);
+        GeneratedMessageLite.m124024a(cbou.class, cbou);
     }
 
     private cbou() {
@@ -33,7 +33,7 @@ public final class cbou extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177864b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cboq.class});
+            return GeneratedMessageLite.m124022a(f177864b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cboq.class});
         } else if (i2 == 3) {
             return new cbou();
         } else {

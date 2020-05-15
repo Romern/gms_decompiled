@@ -128,9 +128,9 @@ public final class acgf {
                                 byhr byhr = (byhr) it2.next();
                                 for (acgd acgd2 : this.f59756a.values()) {
                                     if (acgd2.f59750f != i2) {
-                                        bxtx a3 = a.mo55665a(byhr.f166499d);
+                                        ByteString a3 = a.mo55665a(byhr.f166499d);
                                         if (a3 != null) {
-                                            bArr = a3.mo73780k();
+                                            bArr = a3.getKey();
                                         } else {
                                             bArr = null;
                                         }
@@ -142,7 +142,7 @@ public final class acgf {
                                                 a4 = byhq.UNKNOWN;
                                             }
                                             if ((byhr.f166496a & 2) != 0) {
-                                                mdhFootprint = new MdhFootprint(byhr.f166498c.mo73780k(), bArr, byhr.f166500e);
+                                                mdhFootprint = new MdhFootprint(byhr.f166498c.getKey(), bArr, byhr.f166500e);
                                             } else {
                                                 mdhFootprint = null;
                                             }
@@ -161,8 +161,8 @@ public final class acgf {
                                 for (Pair pair : azzy.mo55538a(((babn) babm3).f100438b, ((babn) babm3).f100437a)) {
                                     if (((baac) pair.second).mo55534a().f166403a == i2) {
                                         badj a5 = bafi.m86736a(((baac) pair.second).mo55534a());
-                                        bxtx a6 = a.mo55665a(byhr.f166499d);
-                                        if (a5.mo55647a(a6 != null ? a6.mo73780k() : null)) {
+                                        ByteString a6 = a.mo55665a(byhr.f166499d);
+                                        if (a5.mo55647a(a6 != null ? a6.getKey() : null)) {
                                             bnia.mo67629b((baab) pair.first);
                                         }
                                     }

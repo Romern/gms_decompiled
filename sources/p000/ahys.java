@@ -31,14 +31,14 @@ public final class ahys {
             srn srn = ahsd.f67925a;
             aiad a3 = aiae.m56945a(context, ahyw);
             Intent intent = a3.f68556a;
-            intent.putExtra("com.google.android.gms.nearby.discovery.fastpair:EXTRA_NOTIFICATION_ID", num).putExtra("com.google.android.gms.nearby.discovery:EXTRA_NOTIFICATION_ID", num).putExtra("com.google.android.gms.nearby.discovery.EXTRA_DISCOVERY_ITEM", ahvd.m56706a(ahyw).mo73642k());
+            intent.putExtra("com.google.android.gms.nearby.discovery.fastpair:EXTRA_NOTIFICATION_ID", num).putExtra("com.google.android.gms.nearby.discovery:EXTRA_NOTIFICATION_ID", num).putExtra("com.google.android.gms.nearby.discovery.EXTRA_DISCOVERY_ITEM", ahvd.m56706a(ahyw).serializeToBytes());
             if (!ahyw.f68399h.isEmpty() && (a2 = ahvd.m56710a(ahyw.f68399h)) != null) {
                 intent.putExtra("com.google.android.gms.nearby.discovery:EXTRA_COMPANION_APP", a2);
             }
             return DiscoveryChimeraService.m67336a(context).setPackage(context.getPackageName()).setAction("com.google.android.gms.nearby.discovery:ACTION_FAST_PAIR_NOTIFICATION_CLICKED").putExtra("com.google.android.gms.nearby.discovery:ACTION_FORWARDED_ACTION_URL", intent).putExtra("com.google.android.gms.nearby.discovery:ACTION_FORWARDED_ACTION_URL_TYPE", a3.f68557b).putExtra("com.google.android.gms.nearby.discovery.fastpair.MODEL_ID", ahyw.f68393b).putExtra("com.google.android.gms.nearby.discovery:EXTRA_PRIVATE_BLE_ADDRESS", ahyw.f68400i).putExtra("com.google.android.gms.nearby.discovery:EXTRA_COMPANION_APP", a3.f68558c);
         }
         srn srn2 = ahsd.f67925a;
-        Intent putExtra = DiscoveryChimeraService.m67336a(context).setAction("com.google.android.gms.nearby.discovery:ACTION_MAGIC_PAIR").putExtra("com.google.android.gms.nearby.discovery.fastpair:EXTRA_NOTIFICATION_ID", num).putExtra("com.google.android.gms.nearby.discovery.EXTRA_ITEM_ID", Long.valueOf(ahyw.f68393b, 16)).putExtra("com.google.android.gms.nearby.discovery:EXTRA_NOTIFICATION_ID", num).putExtra("com.google.android.gms.nearby.discovery.EXTRA_DISCOVERY_ITEM", ahvd.m56706a(ahyw).mo73642k()).putExtra("com.google.android.gms.nearby.discovery.fastpair.MODEL_ID", ahyw.f68393b).putExtra("com.google.android.gms.nearby.discovery:EXTRA_PRIVATE_BLE_ADDRESS", ahyw.f68400i);
+        Intent putExtra = DiscoveryChimeraService.m67336a(context).setAction("com.google.android.gms.nearby.discovery:ACTION_MAGIC_PAIR").putExtra("com.google.android.gms.nearby.discovery.fastpair:EXTRA_NOTIFICATION_ID", num).putExtra("com.google.android.gms.nearby.discovery.EXTRA_ITEM_ID", Long.valueOf(ahyw.f68393b, 16)).putExtra("com.google.android.gms.nearby.discovery:EXTRA_NOTIFICATION_ID", num).putExtra("com.google.android.gms.nearby.discovery.EXTRA_DISCOVERY_ITEM", ahvd.m56706a(ahyw).serializeToBytes()).putExtra("com.google.android.gms.nearby.discovery.fastpair.MODEL_ID", ahyw.f68393b).putExtra("com.google.android.gms.nearby.discovery:EXTRA_PRIVATE_BLE_ADDRESS", ahyw.f68400i);
         if (!ahyw.f68399h.isEmpty() && (a = ahvd.m56710a(ahyw.f68399h)) != null) {
             putExtra.putExtra("com.google.android.gms.nearby.discovery:EXTRA_COMPANION_APP", a);
         }
@@ -77,7 +77,7 @@ public final class ahys {
     public static Bitmap m56885a(Context context, ahyw ahyw) {
         if ((ahyw.f68392a & 8) != 0) {
             try {
-                Bitmap decodeByteArray = BitmapFactory.decodeByteArray(ahyw.f68396e.mo73780k(), 0, ahyw.f68396e.mo73744a());
+                Bitmap decodeByteArray = BitmapFactory.decodeByteArray(ahyw.f68396e.getKey(), 0, ahyw.f68396e.mo73744a());
                 if (bush.m120379a(decodeByteArray)) {
                     return bush.m120378a(context, decodeByteArray);
                 }

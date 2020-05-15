@@ -100,9 +100,9 @@ public final class aowp {
                 }
                 return da.mo74062i();
             case 1:
-                blpo blpo = (blpo) bxvk.m124016a(blpo.f127258h, bArr, bxus.m123744c());
+                blpo blpo = (blpo) GeneratedMessageLite.m124016a(blpo.f127258h, bArr, bxus.m123744c());
                 bxvd bxvd2 = (bxvd) blpo.mo74142c(5);
-                bxvd2.mo73625a((bxvk) blpo);
+                bxvd2.mo73625a((GeneratedMessageLite) blpo);
                 Context context2 = this.f83771h;
                 blrk blrk3 = ((blpo) bxvd2.f164949b).f127261b;
                 if (blrk3 == null) {
@@ -138,9 +138,9 @@ public final class aowp {
                 }
                 return bxvd2.mo74062i();
             case 2:
-                blpm blpm = (blpm) bxvk.m124016a(blpm.f127244g, bArr, bxus.m123744c());
+                blpm blpm = (blpm) GeneratedMessageLite.m124016a(blpm.f127244g, bArr, bxus.m123744c());
                 bxvd bxvd4 = (bxvd) blpm.mo74142c(5);
-                bxvd4.mo73625a((bxvk) blpm);
+                bxvd4.mo73625a((GeneratedMessageLite) blpm);
                 Context context3 = this.f83771h;
                 blrk blrk5 = ((blpm) bxvd4.f164949b).f127247b;
                 if (blrk5 == null) {
@@ -472,7 +472,7 @@ public final class aowp {
                 }
                 return da9.mo74062i();
             case 11:
-                return (blrh) bxvk.m124016a(blrh.f127450b, bArr, bxus.m123744c());
+                return (blrh) GeneratedMessageLite.m124016a(blrh.f127450b, bArr, bxus.m123744c());
             default:
                 try {
                     StringBuilder sb = new StringBuilder(29);

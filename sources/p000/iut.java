@@ -18,7 +18,7 @@ final /* synthetic */ class iut implements bqeh {
     public final bqgg mo6375a(Object obj) {
         iuq iuq = this.f21820a;
         ivc ivc = this.f21821b;
-        sek sek = iuv.f21824j;
+        Logger Logger = iuv.f21824j;
         return iuq.mo13342a(ivc.f21854a, (byte[]) obj);
     }
 }

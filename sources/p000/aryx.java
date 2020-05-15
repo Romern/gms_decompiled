@@ -33,12 +33,12 @@ final class aryx extends FingerprintManager.AuthenticationCallback {
     }
 
     public final void onAuthenticationSucceeded(FingerprintManager.AuthenticationResult authenticationResult) {
-        sek sek = arza.f88493a;
+        Logger Logger = arza.f88493a;
         String valueOf = String.valueOf(authenticationResult);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 49);
         sb.append("Fingerprint recognized! AuthenticationResult is: ");
         sb.append(valueOf);
-        sek.mo25412b(sb.toString(), new Object[0]);
+        Logger.mo25412b(sb.toString(), new Object[0]);
         this.f88491a.f88494b.mo48956e();
     }
 }

@@ -24,7 +24,7 @@ public final class aaoc {
         Bundle bundle = new Bundle();
         bundle.putString("from", blmp.f126868c);
         if (!blmp.f126880o.mo73779j()) {
-            bundle.putByteArray("rawData", blmp.f126880o.mo73780k());
+            bundle.putByteArray("rawData", blmp.f126880o.getKey());
         }
         String str = blmp.f126871f;
         if (!TextUtils.isEmpty(str)) {

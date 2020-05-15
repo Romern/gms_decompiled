@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aorw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aorw extends bxvk implements bxxd {
+public final class aorw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final aorw f78742b;
@@ -16,7 +16,7 @@ public final class aorw extends bxvk implements bxxd {
     static {
         aorw aorw = new aorw();
         f78742b = aorw;
-        bxvk.m124024a(aorw.class, aorw);
+        GeneratedMessageLite.m124024a(aorw.class, aorw);
     }
 
     private aorw() {
@@ -33,7 +33,7 @@ public final class aorw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f78742b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", aorv.f78741a});
+            return GeneratedMessageLite.m124022a(f78742b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u00012", new Object[]{"a", aorv.f78741a});
         } else if (i2 == 3) {
             return new aorw();
         } else {

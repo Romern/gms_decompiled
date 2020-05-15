@@ -11,9 +11,9 @@ public final class xlf {
     public final short f52655a;
 
     /* renamed from: b */
-    private final bxtx f52656b;
+    private final ByteString f52656b;
 
-    private xlf(short s, bxtx bxtx) {
+    private xlf(short s, ByteString bxtx) {
         this.f52655a = s;
         this.f52656b = bxtx;
     }
@@ -23,7 +23,7 @@ public final class xlf {
         int length = bArr.length;
         if (length >= 2) {
             int i = length - 2;
-            return new xlf(boav.m111014a(bArr, i).readShort(), bxtx.m123262a(bArr, 0, i));
+            return new xlf(boav.m111014a(bArr, i).readShort(), ByteString.m123262a(bArr, 0, i));
         }
         throw new IOException("Invalid response length");
     }
@@ -45,6 +45,6 @@ public final class xlf {
 
     /* renamed from: a */
     public final byte[] mo29900a() {
-        return this.f52656b.mo73780k();
+        return this.f52656b.getKey();
     }
 }

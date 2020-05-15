@@ -14,7 +14,7 @@ import java.util.Map;
 public final class tdk {
 
     /* renamed from: a */
-    private static final sek f45698a = tea.m36798a("gaia_util");
+    private static final Logger f45698a = tea.m36798a("gaia_util");
 
     /* renamed from: b */
     private static WeakReference f45699b = new WeakReference(null);
@@ -29,9 +29,9 @@ public final class tdk {
                     hashMap.put(gie.m13198c(context, account.name), gie.m13188a(context, account, str, bundle));
                 } catch (gid | IOException e) {
                     tds.m36774a(context).mo26410a(tdx, 17, e);
-                    sek sek = f45698a;
+                    Logger Logger = f45698a;
                     String valueOf = String.valueOf(account.name);
-                    sek.mo25416d(valueOf.length() == 0 ? new String("Account id cannot be obtained for account ") : "Account id cannot be obtained for account ".concat(valueOf), new Object[0]);
+                    Logger.mo25416d(valueOf.length() == 0 ? new String("Account id cannot be obtained for account ") : "Account id cannot be obtained for account ".concat(valueOf), new Object[0]);
                 }
             }
             return hashMap;

@@ -11,9 +11,9 @@ public final class bamm {
     final /* synthetic */ bamn f101271b;
 
     /* renamed from: c */
-    private final bxtx f101272c;
+    private final ByteString f101272c;
 
-    public bamm(bamn bamn, bngx bngx, bxtx bxtx) {
+    public bamm(bamn bamn, bngx bngx, ByteString bxtx) {
         this.f101271b = bamn;
         this.f101270a = bngx;
         this.f101272c = bxtx;

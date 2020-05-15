@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwnu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwnu extends bxvk implements bxxd {
+public final class bwnu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bwnu f160392d;
@@ -22,7 +22,7 @@ public final class bwnu extends bxvk implements bxxd {
     static {
         bwnu bwnu = new bwnu();
         f160392d = bwnu;
-        bxvk.m124024a(bwnu.class, bwnu);
+        GeneratedMessageLite.m124024a(bwnu.class, bwnu);
     }
 
     private bwnu() {
@@ -39,7 +39,7 @@ public final class bwnu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f160392d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", bwnl.f160372a, "c"});
+            return GeneratedMessageLite.m124022a(f160392d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", bwnl.f160372a, "c"});
         } else if (i2 == 3) {
             return new bwnu();
         } else {

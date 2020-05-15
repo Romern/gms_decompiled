@@ -12,7 +12,7 @@ public final class axik implements Parcelable.Creator {
         ArrayList arrayList = new ArrayList();
         int readInt = parcel.readInt();
         for (int i = 0; i < readInt; i++) {
-            arrayList.add((bttm) bxvk.m124014a(bttm.f150361c, parcel.createByteArray()));
+            arrayList.add((bttm) GeneratedMessageLite.m124014a(bttm.f150361c, parcel.createByteArray()));
         }
         try {
             return new LegalDocuments(arrayList);

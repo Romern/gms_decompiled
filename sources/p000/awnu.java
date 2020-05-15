@@ -59,7 +59,7 @@ public final class awnu extends awzk {
             a.getClass();
             bwjq.f159855b = a;
             bwjq.f159854a = 1 | bwjq.f159854a;
-            bxtx a2 = bxtx.m123261a(this.f94675d);
+            ByteString a2 = ByteString.m123261a(this.f94675d);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

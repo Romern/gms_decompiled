@@ -114,7 +114,7 @@ public final class aufq {
             auff.f91650c = (int) (d * 100.0d);
             List list = aufq.f91722d;
             if (!auff.f91651d.mo73666a()) {
-                auff.f91651d = bxvk.m124021a(auff.f91651d);
+                auff.f91651d = GeneratedMessageLite.m124021a(auff.f91651d);
             }
             bxsy.m123078a(list, auff.f91651d);
             List list2 = aufq.f91723e;
@@ -124,7 +124,7 @@ public final class aufq {
             }
             auff auff2 = (auff) da.f164949b;
             if (!auff2.f91652e.mo73666a()) {
-                auff2.f91652e = bxvk.m124021a(auff2.f91652e);
+                auff2.f91652e = GeneratedMessageLite.m124021a(auff2.f91652e);
             }
             bxsy.m123078a(list2, auff2.f91652e);
             List list3 = aufq.f91724f;
@@ -134,7 +134,7 @@ public final class aufq {
             }
             auff auff3 = (auff) da.f164949b;
             if (!auff3.f91653f.mo73666a()) {
-                auff3.f91653f = bxvk.m124021a(auff3.f91653f);
+                auff3.f91653f = GeneratedMessageLite.m124021a(auff3.f91653f);
             }
             bxsy.m123078a(list3, auff3.f91653f);
             List list4 = aufq.f91725g;
@@ -144,7 +144,7 @@ public final class aufq {
             }
             auff auff4 = (auff) da.f164949b;
             if (!auff4.f91654g.mo73666a()) {
-                auff4.f91654g = bxvk.m124021a(auff4.f91654g);
+                auff4.f91654g = GeneratedMessageLite.m124021a(auff4.f91654g);
             }
             bxsy.m123078a(list4, auff4.f91654g);
             List list5 = aufq.f91726h;
@@ -154,7 +154,7 @@ public final class aufq {
             }
             auff auff5 = (auff) da.f164949b;
             if (!auff5.f91655h.mo73666a()) {
-                auff5.f91655h = bxvk.m124021a(auff5.f91655h);
+                auff5.f91655h = GeneratedMessageLite.m124021a(auff5.f91655h);
             }
             bxsy.m123078a(list5, auff5.f91655h);
             List list6 = aufq.f91727i;
@@ -164,7 +164,7 @@ public final class aufq {
             }
             auff auff6 = (auff) da.f164949b;
             if (!auff6.f91656i.mo73666a()) {
-                auff6.f91656i = bxvk.m124021a(auff6.f91656i);
+                auff6.f91656i = GeneratedMessageLite.m124021a(auff6.f91656i);
             }
             bxsy.m123078a(list6, auff6.f91656i);
             List list7 = aufq.f91728j;
@@ -174,7 +174,7 @@ public final class aufq {
             }
             auff auff7 = (auff) da.f164949b;
             if (!auff7.f91657j.mo73666a()) {
-                auff7.f91657j = bxvk.m124021a(auff7.f91657j);
+                auff7.f91657j = GeneratedMessageLite.m124021a(auff7.f91657j);
             }
             bxsy.m123078a(list7, auff7.f91657j);
             List list8 = aufq.f91729k;
@@ -184,7 +184,7 @@ public final class aufq {
             }
             auff auff8 = (auff) da.f164949b;
             if (!auff8.f91658k.mo73666a()) {
-                auff8.f91658k = bxvk.m124021a(auff8.f91658k);
+                auff8.f91658k = GeneratedMessageLite.m124021a(auff8.f91658k);
             }
             bxsy.m123078a(list8, auff8.f91658k);
             float f2 = aufq.f91731m;
@@ -205,7 +205,7 @@ public final class aufq {
             auff9.f91662o = z2;
             List list9 = aufq.f91734p;
             if (!auff9.f91663p.mo73666a()) {
-                auff9.f91663p = bxvk.m124020a(auff9.f91663p);
+                auff9.f91663p = GeneratedMessageLite.m124020a(auff9.f91663p);
             }
             bxsy.m123078a(list9, auff9.f91663p);
             long j = aufq.f91735q;
@@ -249,7 +249,7 @@ public final class aufq {
                     bsan bsan = (bsan) da4.f164949b;
                     bsal3.getClass();
                     if (!bsan.f143880a.mo73666a()) {
-                        bsan.f143880a = bxvk.m124021a(bsan.f143880a);
+                        bsan.f143880a = GeneratedMessageLite.m124021a(bsan.f143880a);
                     }
                     bsan.f143880a.add(bsal3);
                 }
@@ -261,7 +261,7 @@ public final class aufq {
                 bsam bsam = (bsam) da3.f164949b;
                 bsan2.getClass();
                 if (!bsam.f143875b.mo73666a()) {
-                    bsam.f143875b = bxvk.m124021a(bsam.f143875b);
+                    bsam.f143875b = GeneratedMessageLite.m124021a(bsam.f143875b);
                 }
                 bsam.f143875b.add(bsan2);
             }
@@ -294,7 +294,7 @@ public final class aufq {
                 auff auff12 = (auff) da.f164949b;
                 b3.getClass();
                 if (!auff12.f91665r.mo73666a()) {
-                    auff12.f91665r = bxvk.m124021a(auff12.f91665r);
+                    auff12.f91665r = GeneratedMessageLite.m124021a(auff12.f91665r);
                 }
                 auff12.f91665r.add(b3);
             }

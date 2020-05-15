@@ -216,7 +216,7 @@ public final class spn {
     }
 
     /* renamed from: a */
-    public static long m35843a(Context context) {
+    public static long getAndroidId(Context context) {
         if (aytw.m84813a(context)) {
             Log.w("AndroidUtils", "getAndroidId is called in direct boot mode.");
             return 0;
@@ -433,8 +433,8 @@ public final class spn {
     }
 
     /* renamed from: f */
-    public static byte[] m35888f(Context context, String str) {
-        return spo.m35904a(context, str, "SHA1");
+    public static byte[] getSHA1OfPackage(Context context, String str) {
+        return spo.getPackageCertificateHash(context, str, "SHA1");
     }
 
     /* renamed from: c */
@@ -466,7 +466,7 @@ public final class spn {
     @Deprecated
     /* renamed from: c */
     public static byte[] m35875c(Context context, String str, String str2) {
-        return spo.m35904a(context, str, str2);
+        return spo.getPackageCertificateHash(context, str, str2);
     }
 
     /* renamed from: a */
@@ -478,7 +478,7 @@ public final class spn {
     public static cafx m35846a(Context context, boolean z, String str, int i, Integer num, sqp sqp, boci boci) {
         bxvf bxvf = (bxvf) cafx.f173026C.mo74144da();
         if (z) {
-            long a = m35843a(context);
+            long a = getAndroidId(context);
             if (bxvf.f164950c) {
                 bxvf.mo74035c();
                 bxvf.f164950c = false;
@@ -780,7 +780,7 @@ public final class spn {
 
     /* renamed from: a */
     public static String m35851a(PackageInfo packageInfo, String str) {
-        byte[] a = spo.m35905a(packageInfo, str);
+        byte[] a = spo.getPackageCertificateHash(packageInfo, str);
         if (a != null) {
             return srv.m36164d(a);
         }

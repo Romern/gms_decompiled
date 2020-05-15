@@ -871,7 +871,7 @@ public final class aanr implements aand {
         blnf blnf2 = blnf.f126936z;
         blni2.getClass();
         if (!blnf.f126945h.mo73666a()) {
-            blnf.f126945h = bxvk.m124021a(blnf.f126945h);
+            blnf.f126945h = GeneratedMessageLite.m124021a(blnf.f126945h);
         }
         blnf.f126945h.add(blni2);
     }
@@ -1210,7 +1210,7 @@ public final class aanr implements aand {
                     blnf blnf10 = (blnf) blnc.f164949b;
                     str3.getClass();
                     if (!blnf10.f126946i.mo73666a()) {
-                        blnf10.f126946i = bxvk.m124021a(blnf10.f126946i);
+                        blnf10.f126946i = GeneratedMessageLite.m124021a(blnf10.f126946i);
                     }
                     blnf10.f126946i.add(str3);
                 }
@@ -1339,7 +1339,7 @@ public final class aanr implements aand {
                     }
                     blnf blnf17 = (blnf) blnc.f164949b;
                     if (!blnf17.f126962y.mo73666a()) {
-                        blnf17.f126962y = bxvk.m124021a(blnf17.f126962y);
+                        blnf17.f126962y = GeneratedMessageLite.m124021a(blnf17.f126962y);
                     }
                     bxsy.m123078a(a6, blnf17.f126962y);
                 }

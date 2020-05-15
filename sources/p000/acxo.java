@@ -121,7 +121,7 @@ public final class acxo {
                 abqd.f57946b = i7;
                 try {
                     String str7 = documentSection.f9543c;
-                    bxtx a = bxtx.m123261a(str7 != null ? str7.getBytes("UTF-8") : documentSection.f9546f);
+                    ByteString a = ByteString.m123261a(str7 != null ? str7.getBytes("UTF-8") : documentSection.f9546f);
                     if (da3.f164950c) {
                         da3.mo74035c();
                         da3.f164950c = z;
@@ -132,7 +132,7 @@ public final class acxo {
                     abqd2.f57947c = a;
                     abqo a2 = abzm.m48648a(documentSection.f9544d);
                     bxvd bxvd = (bxvd) a2.mo74142c(5);
-                    bxvd.mo73625a((bxvk) a2);
+                    bxvd.mo73625a((GeneratedMessageLite) a2);
                     if (documentSection.f9545e != DocumentSection.f9541a) {
                         int i8 = documentSection.f9545e;
                         if (bxvd.f164950c) {
@@ -155,7 +155,7 @@ public final class acxo {
                     abqd3.f57945a |= 32;
                     if (celu.m137198b() && documentContents.f9533d != null && ".private:action".equals(documentSection.f9544d.f9646a)) {
                         try {
-                            cixm cixm = (cixm) bxvk.m124016a(cixm.f191686d, documentSection.f9546f, bxus.m123744c());
+                            cixm cixm = (cixm) GeneratedMessageLite.m124016a(cixm.f191686d, documentSection.f9546f, bxus.m123744c());
                             bxvd da4 = cixn.f191691g.mo74144da();
                             String str8 = documentContents.f9533d.name;
                             if (da4.f164950c) {
@@ -181,10 +181,10 @@ public final class acxo {
                             cixk.f191685c = cixn2;
                             cixk.f191683a = i9 | 2;
                             bxvd bxvd2 = (bxvd) cixm.mo74142c(5);
-                            bxvd2.mo73625a((bxvk) cixm);
+                            bxvd2.mo73625a((GeneratedMessageLite) cixm);
                             cixl cixl = (cixl) bxvd2;
                             cixl.mo86632a((cixk) da5.mo74062i());
-                            bxtx aL = ((cixm) cixl.mo74062i()).mo73639aL();
+                            ByteString aL = ((cixm) cixl.mo74062i()).mo73639aL();
                             if (da3.f164950c) {
                                 da3.mo74035c();
                                 da3.f164950c = false;

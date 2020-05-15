@@ -9,7 +9,7 @@ import com.google.android.chimera.Loader;
 final class jvf extends Loader implements jvg {
 
     /* renamed from: a */
-    public static final sek f23330a = ght.m13171a("AddAccountLoader");
+    public static final Logger f23330a = ght.m13171a("AddAccountLoader");
 
     /* renamed from: b */
     jvh f23331b = null;
@@ -123,9 +123,9 @@ final class jvf extends Loader implements jvg {
     /* renamed from: a */
     public final void deliverResult(jvh jvh) {
         this.f23331b = jvh;
-        sek sek = f23330a;
+        Logger Logger = f23330a;
         String valueOf = String.valueOf(jvh.toString());
-        sek.mo25414c(valueOf.length() == 0 ? new String("Got result: ") : "Got result: ".concat(valueOf), new Object[0]);
+        Logger.mo25414c(valueOf.length() == 0 ? new String("Got result: ") : "Got result: ".concat(valueOf), new Object[0]);
         super.deliverResult(jvh);
     }
 }

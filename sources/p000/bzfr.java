@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzfr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzfr extends bxvk implements bxxd {
+public final class bzfr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bzfr f169857e;
@@ -25,7 +25,7 @@ public final class bzfr extends bxvk implements bxxd {
     static {
         bzfr bzfr = new bzfr();
         f169857e = bzfr;
-        bxvk.m124024a(bzfr.class, bzfr);
+        GeneratedMessageLite.m124024a(bzfr.class, bzfr);
     }
 
     private bzfr() {
@@ -42,7 +42,7 @@ public final class bzfr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f169857e, "\u0001\u0003\u0000\u0001\u0001\u0006\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0003ဉ\u0002\u0006ဉ\u0005", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f169857e, "\u0001\u0003\u0000\u0001\u0001\u0006\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0003ဉ\u0002\u0006ဉ\u0005", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bzfr();
         } else {

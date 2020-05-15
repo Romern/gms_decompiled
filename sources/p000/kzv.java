@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: kzv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class kzv extends bxvk implements bxxd {
+public final class kzv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final kzv f25479f;
@@ -28,7 +28,7 @@ public final class kzv extends bxvk implements bxxd {
     static {
         kzv kzv = new kzv();
         f25479f = kzv;
-        bxvk.m124024a(kzv.class, kzv);
+        GeneratedMessageLite.m124024a(kzv.class, kzv);
     }
 
     private kzv() {
@@ -45,7 +45,7 @@ public final class kzv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f25479f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဆ\u0000\u0002ဆ\u0001\u0003ဉ\u0002\u0004ဆ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f25479f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဆ\u0000\u0002ဆ\u0001\u0003ဉ\u0002\u0004ဆ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new kzv();
         } else {

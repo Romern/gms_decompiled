@@ -16,7 +16,7 @@ public final class bmrm extends bxvd implements bxxd {
         bmrn bmrn = (bmrn) this.f164949b;
         bmrn bmrn2 = bmrn.f130543i;
         if (!bmrn.f130548d.mo73666a()) {
-            bmrn.f130548d = bxvk.m124021a(bmrn.f130548d);
+            bmrn.f130548d = GeneratedMessageLite.m124021a(bmrn.f130548d);
         }
         bxsy.m123078a(iterable, bmrn.f130548d);
     }

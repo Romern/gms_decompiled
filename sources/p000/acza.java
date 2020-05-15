@@ -26,7 +26,7 @@ import java.util.Set;
 public final class acza extends adcf {
 
     /* renamed from: a */
-    public static final sek f61102a = new sek("CommonAccount", "AccountChooserFragment");
+    public static final Logger f61102a = new Logger("CommonAccount", "AccountChooserFragment");
 
     /* renamed from: g */
     private static final allq f61103g;
@@ -174,7 +174,7 @@ public final class acza extends adcf {
                 }
                 f61102a.mo25412b("Unable to find added account, pretending the request was canceled", new Object[0]);
             }
-            f61102a.mo25409a("Canceled", new Object[0]);
+            f61102a.logVerbose("Canceled", new Object[0]);
             this.f61108f.mo33265a(new acyz(0, null));
         } else if (mo33264b().isEmpty()) {
             this.f61108f.mo33265a(new acyz(0, null));

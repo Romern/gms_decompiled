@@ -115,7 +115,7 @@ public final class cges implements cgen {
         bdyx.m91610a(b, "enable_schedule_on_register_delta", true);
         f186676h = bdyx.m91610a(b, "enable_task_reachability", false);
         try {
-            f186677i = bdyx.m91608a(b, "Sync__garbage_collection_fetch_reasons", (bydh) bxvk.m124014a(bydh.f165789b, new byte[0]), cgeo.f186665a);
+            f186677i = bdyx.m91608a(b, "Sync__garbage_collection_fetch_reasons", (bydh) GeneratedMessageLite.m124014a(bydh.f165789b, new byte[0]), cgeo.f186665a);
             f186678j = bdyx.m91610a(b, "Sync__guard_against_same_tokens_tag", true);
             f186679k = bdyx.m91610a(b, "Sync__include_client_type", true);
             f186680l = bdyx.m91607a(b, "interval_seconds", 14400L);
@@ -127,13 +127,13 @@ public final class cges implements cgen {
             f186686r = bdyx.m91610a(b, "Sync__stop_sync_on_pseudonymous_api_error", true);
             f186687s = bdyx.m91610a(b, "Sync__sync_on_checkin", false);
             try {
-                f186688t = bdyx.m91608a(b, "Sync__sync_on_delta_blacklist", (bydj) bxvk.m124014a(bydj.f165795b, new byte[0]), cgep.f186666a);
+                f186688t = bdyx.m91608a(b, "Sync__sync_on_delta_blacklist", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[0]), cgep.f186666a);
                 f186689u = bdyx.m91610a(b, "Sync__sync_on_flag_corruption", true);
                 try {
-                    f186690v = bdyx.m91608a(b, "Sync__sync_on_nonsync_params_delta_blacklist", (bydj) bxvk.m124014a(bydj.f165795b, new byte[]{10, 39, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 111, 111, 103, 108, 101, 113, 117, 105, 99, 107, 115, 101, 97, 114, 99, 104, 98, 111, 120}), cgeq.f186667a);
+                    f186690v = bdyx.m91608a(b, "Sync__sync_on_nonsync_params_delta_blacklist", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[]{10, 39, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 111, 111, 103, 108, 101, 113, 117, 105, 99, 107, 115, 101, 97, 114, 99, 104, 98, 111, 120}), cgeq.f186667a);
                     f186691w = bdyx.m91609a(b, "sync_on_params_delta_blacklist", "com.google.android.gms.phenotype,com.google.android.contacts,com.google.android.apps.links#com.google.android.apps.cerebra.links,com.google.android.apps.links#com.google.android.apps.cerebra.links.dogfood,com.google.android.gms.people");
                     try {
-                        f186692x = bdyx.m91608a(b, "Sync__unregister_config_packages", (bydj) bxvk.m124014a(bydj.f165795b, new byte[0]), cger.f186668a);
+                        f186692x = bdyx.m91608a(b, "Sync__unregister_config_packages", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[0]), cger.f186668a);
                         f186693y = bdyx.m91610a(b, "Sync__update_config_hash", true);
                         f186694z = bdyx.m91610a(b, "use_http_url_connection", false);
                     } catch (bxwf e) {

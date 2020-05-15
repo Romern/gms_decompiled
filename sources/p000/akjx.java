@@ -35,7 +35,7 @@ public final class akjx implements Response.Listener {
             }
             akkp akkp = (akkp) this.f72121a.get(cafh.f172905b);
             bxvd bxvd = (bxvd) akkp.mo74142c(5);
-            bxvd.mo73625a((bxvk) akkp);
+            bxvd.mo73625a((GeneratedMessageLite) akkp);
             if (bxvd != null) {
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();

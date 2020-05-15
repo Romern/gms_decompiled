@@ -15,7 +15,7 @@ public final class aksb {
 
     /* renamed from: a */
     public final void mo39750a(botq botq) {
-        qwo a = this.f72549a.mo24335a(botq.mo73642k());
+        qwo a = this.f72549a.mo24335a(botq.serializeToBytes());
         int a2 = boti.m111527a(botq.f134862d);
         if (a2 == 0) {
             a2 = 1;

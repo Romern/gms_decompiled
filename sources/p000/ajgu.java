@@ -87,7 +87,7 @@ public final class ajgu {
                     byzz byzz = (byzz) bxwc.get(i);
                     long currentTimeMillis = System.currentTimeMillis();
                     bxvd bxvd = (bxvd) byzz.mo74142c(5);
-                    bxvd.mo73625a((bxvk) byzz);
+                    bxvd.mo73625a((GeneratedMessageLite) byzz);
                     if (bxvd.f164950c) {
                         bxvd.mo74035c();
                         bxvd.f164950c = false;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blpa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blpa extends bxvk implements bxxd {
+public final class blpa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final blpa f127184d;
@@ -25,7 +25,7 @@ public final class blpa extends bxvk implements bxxd {
     static {
         blpa blpa = new blpa();
         f127184d = blpa;
-        bxvk.m124024a(blpa.class, blpa);
+        GeneratedMessageLite.m124024a(blpa.class, blpa);
     }
 
     private blpa() {
@@ -46,7 +46,7 @@ public final class blpa extends bxvk implements bxxd {
             this.f127189e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127184d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0001\u0001ဉ\u0000\u0002Л", new Object[]{"a", "b", "c", bloz.class});
+            return GeneratedMessageLite.m124022a(f127184d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0001\u0001ဉ\u0000\u0002Л", new Object[]{"a", "b", "c", bloz.class});
         } else if (i2 == 3) {
             return new blpa();
         } else {

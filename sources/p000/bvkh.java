@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvkh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvkh extends bxvk implements bxxd {
+public final class bvkh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bvkh f156412b;
@@ -11,16 +11,16 @@ public final class bvkh extends bxvk implements bxxd {
     private static volatile bxxk f156413c;
 
     /* renamed from: a */
-    public bxtx f156414a = bxtx.f164797b;
+    public ByteString f156414a = ByteString.f164797b;
 
     static {
         bvkh bvkh = new bvkh();
         f156412b = bvkh;
-        bxvk.m124024a(bvkh.class, bvkh);
+        GeneratedMessageLite.m124024a(bvkh.class, bvkh);
     }
 
     private bvkh() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -34,7 +34,7 @@ public final class bvkh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f156412b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002\n", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f156412b, "\u0000\u0001\u0000\u0000\u0002\u0002\u0001\u0000\u0000\u0000\u0002\n", new Object[]{"a"});
         } else if (i2 == 3) {
             return new bvkh();
         } else {

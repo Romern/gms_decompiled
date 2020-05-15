@@ -25,7 +25,7 @@ final class awlu implements Runnable {
         a.getClass();
         bwjk.f159799b = a;
         bwjk.f159798a |= 1;
-        bxtx a2 = bxtx.m123261a(awma.f94605d);
+        ByteString a2 = ByteString.m123261a(awma.f94605d);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

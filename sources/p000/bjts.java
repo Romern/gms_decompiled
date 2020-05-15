@@ -121,7 +121,7 @@ public abstract class bjts implements bjth {
                 while (i7 < size) {
                     btwp btwp = (btwp) arrayList.get(i7);
                     bxvd bxvd = (bxvd) btwp.mo74142c(i6);
-                    bxvd.mo73625a((bxvk) btwp);
+                    bxvd.mo73625a((GeneratedMessageLite) btwp);
                     btwo btwo = (btwo) bxvd;
                     int i8 = size;
                     if (((btwp) btwo.f164949b).f152745p.size() == 1) {
@@ -141,7 +141,7 @@ public abstract class bjts implements bjth {
         while (i9 < size2) {
             btwp btwp2 = (btwp) arrayList.get(i9);
             bxvd bxvd2 = (bxvd) btwp2.mo74142c(5);
-            bxvd2.mo73625a((bxvk) btwp2);
+            bxvd2.mo73625a((GeneratedMessageLite) btwp2);
             btwo btwo2 = (btwo) bxvd2;
             if (btwo2 != null) {
                 String a2 = bjtg.m104555a((btwp) btwo2.mo74062i(), c2);

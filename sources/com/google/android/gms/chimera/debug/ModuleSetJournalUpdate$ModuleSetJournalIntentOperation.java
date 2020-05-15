@@ -22,7 +22,7 @@ public final class ModuleSetJournalUpdate$ModuleSetJournalIntentOperation extend
         byte[] bArr2 = bArr;
         if (bArr2 != null) {
             try {
-                qor qor = (qor) bxvk.m124016a(qor.f41889b, bArr2, bxus.m123743b());
+                qor qor = (qor) GeneratedMessageLite.m124016a(qor.f41889b, bArr2, bxus.m123743b());
                 qli a = qli.m32351a(this);
                 qor c = a.mo24079c();
                 C1245ok okVar2 = new C1245ok();
@@ -48,12 +48,12 @@ public final class ModuleSetJournalUpdate$ModuleSetJournalIntentOperation extend
                     if (qov3 != null) {
                         bxwc bxwc3 = qov2.f41902d;
                         bxvd bxvd = (bxvd) qov2.mo74142c(5);
-                        bxvd.mo73625a((bxvk) qov2);
+                        bxvd.mo73625a((GeneratedMessageLite) qov2);
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;
                         }
-                        ((qov) bxvd.f164949b).f41902d = bxvk.m124030de();
+                        ((qov) bxvd.f164949b).f41902d = GeneratedMessageLite.m124030de();
                         bxvd.mo73943F(bxwc3);
                         bxvd.mo73943F(qov3.f41902d);
                         if (((qov) bxvd.f164949b).f41902d.size() >= 2) {
@@ -78,7 +78,7 @@ public final class ModuleSetJournalUpdate$ModuleSetJournalIntentOperation extend
                                 bxvd.mo74035c();
                                 bxvd.f164950c = false;
                             }
-                            ((qov) bxvd.f164949b).f41902d = bxvk.m124030de();
+                            ((qov) bxvd.f164949b).f41902d = GeneratedMessageLite.m124030de();
                             bxvd.mo73943F(arrayList);
                         }
                         qox.m32597a(bxvd);

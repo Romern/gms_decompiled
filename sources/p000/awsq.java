@@ -157,7 +157,7 @@ public final class awsq {
                     }
                     blzw blzw = (blzw) bjvp.m104733a(this.f95056i.f110357b, (bxxk) blzw.f128403k.mo74142c(7));
                     bxvd bxvd2 = (bxvd) blzw.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) blzw);
+                    bxvd2.mo73625a((GeneratedMessageLite) blzw);
                     BuyFlowConfig buyFlowConfig = this.f95055h;
                     ApplicationParameters applicationParameters = buyFlowConfig.f110418b;
                     int i3 = applicationParameters.f110406a;
@@ -166,7 +166,7 @@ public final class awsq {
                     byal a2 = this.f95054g.mo52547a(i3, account, str);
                     if (a2 != null) {
                         bxvd = (bxvd) a2.mo74142c(5);
-                        bxvd.mo73625a((bxvk) a2);
+                        bxvd.mo73625a((GeneratedMessageLite) a2);
                     } else {
                         bxvd = byal.f165279g.mo74144da();
                     }
@@ -216,7 +216,7 @@ public final class awsq {
                         if (blzr == null) {
                             blzr = blzr.f128380e;
                         }
-                        bxtx bxtx = blzr.f128383b;
+                        ByteString bxtx = blzr.f128383b;
                         if (bxvd.f164950c) {
                             bxvd.mo74035c();
                             bxvd.f164950c = false;
@@ -256,7 +256,7 @@ public final class awsq {
                         blzq3 = blzq.f128364p;
                     }
                     bxvd bxvd3 = (bxvd) blzq3.mo74142c(5);
-                    bxvd3.mo73625a((bxvk) blzq3);
+                    bxvd3.mo73625a((GeneratedMessageLite) blzq3);
                     if (bxvd3.f164950c) {
                         bxvd3.mo74035c();
                         bxvd3.f164950c = false;
@@ -291,7 +291,7 @@ public final class awsq {
                     str3.getClass();
                     byak2.f165271a |= 2;
                     byak2.f165273c = str3;
-                    bxtx a4 = bxtx.m123261a(this.f95056i.f110356a);
+                    ByteString a4 = ByteString.m123261a(this.f95056i.f110356a);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -300,7 +300,7 @@ public final class awsq {
                     a4.getClass();
                     byak3.f165271a |= 8;
                     byak3.f165275e = a4;
-                    bxtx a5 = bxtx.m123261a(b.mo59990c());
+                    ByteString a5 = ByteString.m123261a(b.mo59990c());
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -499,9 +499,9 @@ public final class awsq {
                                 }
                                 BuyFlowConfig buyFlowConfig2 = this.f95055h;
                                 Context context = this.f95050b;
-                                byte[] k = ((blzw) bxvd2.f164949b).f128412h.mo73780k();
+                                byte[] k = ((blzw) bxvd2.f164949b).f128412h.getKey();
                                 if (((Boolean) awip.f94485e.mo58455c()).booleanValue()) {
-                                    sdo.m34966a(buyFlowConfig2, "buyFlowConfig is required");
+                                    sdo.checkIfNull(buyFlowConfig2, "buyFlowConfig is required");
                                     Intent startIntent = IntentOperation.getStartIntent(context, ReportFacilitatedTransactionChimeraIntentOperation.class, "com.google.android.gms.wallet.ib.REPORT_FACILITATED_TRANSACTION");
                                     sef.m35071a(buyFlowConfig2, startIntent, "com.google.android.gms.wallet.buyFlowConfig");
                                     startIntent.putExtra("com.google.android.gms.wallet.service.ib.ReportFacilitatedTransactionChimeraIntentOperation.transactionCompletionToken", k);
@@ -522,7 +522,7 @@ public final class awsq {
                             }
                             BuyFlowConfig buyFlowConfig22 = this.f95055h;
                             Context context2 = this.f95050b;
-                            byte[] k2 = ((blzw) bxvd2.f164949b).f128412h.mo73780k();
+                            byte[] k2 = ((blzw) bxvd2.f164949b).f128412h.getKey();
                             if (((Boolean) awip.f94485e.mo58455c()).booleanValue()) {
                             }
                             if (!TextUtils.isEmpty(((blzw) bxvd2.f164949b).f128413i)) {

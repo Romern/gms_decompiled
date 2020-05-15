@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aqao */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aqao extends bxvk implements bxxd {
+public final class aqao extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final aqao f85418e;
@@ -25,7 +25,7 @@ public final class aqao extends bxvk implements bxxd {
     static {
         aqao aqao = new aqao();
         f85418e = aqao;
-        bxvk.m124024a(aqao.class, aqao);
+        GeneratedMessageLite.m124024a(aqao.class, aqao);
     }
 
     private aqao() {
@@ -43,7 +43,7 @@ public final class aqao extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85418e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001ဇ\u0000\u0002ဂ\u0001\u0004\u001b", new Object[]{"a", "b", "c", "d", aqan.class});
+            return GeneratedMessageLite.m124022a(f85418e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0001\u0000\u0001ဇ\u0000\u0002ဂ\u0001\u0004\u001b", new Object[]{"a", "b", "c", "d", aqan.class});
         } else if (i2 == 3) {
             return new aqao();
         } else {

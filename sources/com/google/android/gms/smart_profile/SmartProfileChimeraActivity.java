@@ -459,7 +459,7 @@ public class SmartProfileChimeraActivity extends deu implements aqqh {
                 Bundle extras2 = aqre.f86656o.getIntent().getExtras();
                 if (extras2 != null && extras2.containsKey("com.google.android.gms.people.smart_profile.CARD_BYTES")) {
                     try {
-                        bzhm = (bzhm) bxvk.m124016a(bzhm.f170090b, aqre.f86656o.getIntent().getExtras().getByteArray("com.google.android.gms.people.smart_profile.CARD_BYTES"), bxus.m123744c());
+                        bzhm = (bzhm) GeneratedMessageLite.m124016a(bzhm.f170090b, aqre.f86656o.getIntent().getExtras().getByteArray("com.google.android.gms.people.smart_profile.CARD_BYTES"), bxus.m123744c());
                     } catch (bxwf e) {
                         bzhm = null;
                     }

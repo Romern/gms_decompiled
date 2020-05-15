@@ -14,7 +14,7 @@ public final class jqw {
     public static final /* synthetic */ int f23083e = 0;
 
     /* renamed from: f */
-    private static final sek f23084f = jsy.m17256a("SubscriptionCache");
+    private static final Logger f23084f = jsy.m17256a("SubscriptionCache");
 
     /* renamed from: h */
     private static jqw f23085h;

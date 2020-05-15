@@ -153,7 +153,7 @@ public final class barj implements barw {
                         ContentValues contentValues = new ContentValues();
                         contentValues.put("account", account2.name);
                         contentValues.put("channel_key", a);
-                        contentValues.put("channel_id", bygz.mo73642k());
+                        contentValues.put("channel_id", bygz.serializeToBytes());
                         contentValues.put("last_sync_timestamp", Long.valueOf(System.currentTimeMillis()));
                         c.insert("wipeout", null, contentValues);
                     } else if (query2.isNull(0)) {
@@ -209,7 +209,7 @@ public final class barj implements barw {
                                             ContentValues contentValues3 = new ContentValues();
                                             contentValues3.put("account", account2.name);
                                             contentValues3.put("channel_key", a2);
-                                            contentValues3.put("channel_id", bygz.mo73642k());
+                                            contentValues3.put("channel_id", bygz.serializeToBytes());
                                             contentValues3.put("last_sync_timestamp", Long.valueOf(System.currentTimeMillis()));
                                             c2.insert("wipeout", null, contentValues3);
                                         } else if (query.isNull(0)) {
@@ -273,7 +273,7 @@ public final class barj implements barw {
                         ContentValues contentValues2 = new ContentValues(contentValues);
                         contentValues2.put("account", account.name);
                         contentValues2.put("channel_key", a);
-                        contentValues2.put("channel_id", bygz.mo73642k());
+                        contentValues2.put("channel_id", bygz.serializeToBytes());
                         c.insert("wipeout", null, contentValues2);
                     }
                     c.setTransactionSuccessful();
@@ -311,7 +311,7 @@ public final class barj implements barw {
                                 ContentValues contentValues3 = new ContentValues(contentValues);
                                 contentValues3.put("account", account.name);
                                 contentValues3.put("channel_key", a2);
-                                contentValues3.put("channel_id", bygz.mo73642k());
+                                contentValues3.put("channel_id", bygz.serializeToBytes());
                                 c2.insert("wipeout", null, contentValues3);
                             }
                             c2.setTransactionSuccessful();
@@ -381,7 +381,7 @@ public final class barj implements barw {
                     bygv bygv = (bygv) b.get(query.getString(1));
                     Long valueOf = Long.valueOf(query.getLong(2));
                     if (bygv == null) {
-                        m87452c(account, (bygz) bxvk.m124014a(bygz.f166410c, query.getBlob(3)));
+                        m87452c(account, (bygz) GeneratedMessageLite.m124014a(bygz.f166410c, query.getBlob(3)));
                     } else if (System.currentTimeMillis() - valueOf.longValue() > TimeUnit.DAYS.toMillis((long) bygv.f166395f)) {
                         bygz bygz = bygv.f166392c;
                         if (bygz == null) {
@@ -535,7 +535,7 @@ public final class barj implements barw {
         if (r6 != null) goto L_0x00e4;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:36:0x00b2, code lost:
-        if (m87452c(r4, (p000.bygz) p000.bxvk.m124014a(p000.bygz.f166410c, r3.getBlob(3))) == false) goto L_0x00be;
+        if (m87452c(r4, (p000.bygz) p000.GeneratedMessageLite.m124014a(p000.bygz.f166410c, r3.getBlob(3))) == false) goto L_0x00be;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:37:0x00b4, code lost:
         r11.add(p000.barh.m87441a(r4, r5));

@@ -17,7 +17,7 @@ public final class xlu {
     private static final bypv f52694e = bypx.m125085a("lk");
 
     /* renamed from: g */
-    private static final sek f52695g = new sek(new String[]{"CableCredentialData"}, (short[]) null);
+    private static final Logger f52695g = new Logger(new String[]{"CableCredentialData"}, (short[]) null);
 
     /* renamed from: a */
     public final byte[] f52696a;
@@ -43,7 +43,7 @@ public final class xlu {
             if (bnim.containsKey(f52692c)) {
                 if (((bypx) bnim.get(f52692c)).mo74446e().f167358a == 1) {
                     if (bnim.containsKey(f52693d) && bnim.containsKey(f52694e)) {
-                        return new xlu(((bypx) bnim.get(f52693d)).mo74445d().f167357a.mo73780k(), ((bypx) bnim.get(f52694e)).mo74445d().f167357a.mo73780k());
+                        return new xlu(((bypx) bnim.get(f52693d)).mo74445d().f167357a.getKey(), ((bypx) bnim.get(f52694e)).mo74445d().f167357a.getKey());
                     }
                     f52695g.mo25418e("Missing key material in CableCredentialData decoding", new Object[0]);
                     return null;

@@ -133,7 +133,7 @@ public final class aexg extends aesx {
         }
         bznb bznb = (bznb) da.f164949b;
         if (!bznb.f170695a.mo73666a()) {
-            bznb.f170695a = bxvk.m124021a(bznb.f170695a);
+            bznb.f170695a = GeneratedMessageLite.m124021a(bznb.f170695a);
         }
         bxsy.m123078a(asList, bznb.f170695a);
         try {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayet */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayet extends bxvk implements bxxd {
+public final class ayet extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final ayet f97366f;
@@ -20,7 +20,7 @@ public final class ayet extends bxvk implements bxxd {
     public boolean f97370c;
 
     /* renamed from: d */
-    public bxtx f97371d = bxtx.f164797b;
+    public ByteString f97371d = ByteString.f164797b;
 
     /* renamed from: e */
     public String f97372e = "";
@@ -31,7 +31,7 @@ public final class ayet extends bxvk implements bxxd {
     static {
         ayet ayet = new ayet();
         f97366f = ayet;
-        bxvk.m124024a(ayet.class, ayet);
+        GeneratedMessageLite.m124024a(ayet.class, ayet);
     }
 
     private ayet() {
@@ -52,7 +52,7 @@ public final class ayet extends bxvk implements bxxd {
             this.f97373g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f97366f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0003\u0001ᔈ\u0000\u0002ᔇ\u0001\u0003ᔊ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f97366f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0003\u0001ᔈ\u0000\u0002ᔇ\u0001\u0003ᔊ\u0002\u0004ဈ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new ayet();
         } else {

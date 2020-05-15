@@ -465,7 +465,7 @@ public final class cfxr implements cfxo {
         f186055g = bdyx.m91607a(bdyw, "Fsa__contact_insert_eventual_consistency_delay_seconds", 60L);
         f186056h = bdyx.m91607a(bdyw, "Fsa__contact_limit_to_migrate_over_duplicate_group", 100L);
         try {
-            f186057i = bdyx.m91608a(bdyw, "Fsa__contact_sync_up_status_config", (aluw) bxvk.m124014a(aluw.f74347c, new byte[0]), cfxp.f185933a);
+            f186057i = bdyx.m91608a(bdyw, "Fsa__contact_sync_up_status_config", (aluw) GeneratedMessageLite.m124014a(aluw.f74347c, new byte[0]), cfxp.f185933a);
             f186058j = bdyx.m91607a(bdyw, "Fsa__continuous_cancel_count_to_reduce_page_size_v27", 5L);
             f186059k = bdyx.m91607a(bdyw, "Fsa__continuous_cancel_count_to_resume_page_size_to_default_v27", 5L);
             f186060l = bdyx.m91607a(bdyw, "Fsa__cp2_batch_read_size", 64L);
@@ -542,7 +542,7 @@ public final class cfxr implements cfxo {
             f186004aq = bdyx.m91610a(bdyw, "Fsa__get_changed_contacts_number_from_sync_people_response", true);
             f186005ar = bdyx.m91609a(bdyw, "Fsa__group_id_black_list", "1");
             try {
-                f186006as = bdyx.m91608a(bdyw, "Fsa__group_sync_up_status_config", (aluw) bxvk.m124014a(aluw.f74347c, new byte[0]), cfxq.f185934a);
+                f186006as = bdyx.m91608a(bdyw, "Fsa__group_sync_up_status_config", (aluw) GeneratedMessageLite.m124014a(aluw.f74347c, new byte[0]), cfxq.f185934a);
                 f186007at = bdyx.m91609a(bdyw, "Fsa__grpc_compressor", "identity");
                 f186008au = bdyx.m91607a(bdyw, "Fsa__grpc_deadline_millis", 25000L);
                 bdyx.m91610a(bdyw, "Fsa__include_sync_id_in_contacts_googlification", false);

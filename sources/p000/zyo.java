@@ -19,9 +19,9 @@ public final class zyo {
         boolean z2;
         boolean z3;
         boolean z4;
-        sdo.m34966a(bArr, "null input");
+        sdo.checkIfNull(bArr, "null input");
         try {
-            zxe zxe = (zxe) bxvk.m124014a(zxe.f56079c, bArr);
+            zxe zxe = (zxe) GeneratedMessageLite.m124014a(zxe.f56079c, bArr);
             if (zxe.f56082b > 0) {
                 z = true;
             } else {
@@ -38,7 +38,7 @@ public final class zyo {
             int size = bxwc.size();
             for (int i = 0; i < size; i++) {
                 zxi zxi = (zxi) bxwc.get(i);
-                sdo.m34966a(zxi, "family");
+                sdo.checkIfNull(zxi, "family");
                 if ((zxi.f56104a & 1) == 0 || zxi.f56105b.length() <= 0) {
                     z3 = false;
                 } else {

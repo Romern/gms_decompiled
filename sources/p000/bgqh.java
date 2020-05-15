@@ -48,9 +48,9 @@ final /* synthetic */ class bgqh implements bgql {
             }
             a.getClass();
             ((buoj) da.f164949b).f154539a = a;
-            bxtx aL = ((buoj) da.mo74062i()).mo73639aL();
+            ByteString aL = ((buoj) da.mo74062i()).mo73639aL();
             bxvd da2 = buok.f154541d.mo74144da();
-            bxtx bxtx = bgqm.f117292k.f117286a;
+            ByteString bxtx = bgqm.f117292k.f117286a;
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;

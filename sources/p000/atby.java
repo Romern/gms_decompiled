@@ -25,7 +25,7 @@ public final class atby implements atcv {
     public atby(Context context, bycu bycu) {
         this.f90046d = context;
         bxvd bxvd = (bxvd) bycu.mo74142c(5);
-        bxvd.mo73625a((bxvk) bycu);
+        bxvd.mo73625a((GeneratedMessageLite) bycu);
         this.f90045b = bxvd;
     }
 
@@ -900,14 +900,14 @@ public final class atby implements atcv {
 
     /* renamed from: h */
     public final byte[] mo49806h() {
-        return ((bycu) this.f90045b.mo74062i()).mo73642k();
+        return ((bycu) this.f90045b.mo74062i()).serializeToBytes();
     }
 
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ asqs mo49793a(askf askf, asqq asqq, String str) {
         try {
             if (m75456i()) {
-                return new asrf(mo49811a((byte[]) null), asqq, ((bycu) this.f90045b.f164949b).f165713g.mo73780k(), str);
+                return new asrf(mo49811a((byte[]) null), asqq, ((bycu) this.f90045b.f164949b).f165713g.getKey(), str);
             }
             return null;
         } catch (atcd | atcz e) {

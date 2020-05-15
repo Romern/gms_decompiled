@@ -17,7 +17,7 @@ public final class bopc extends bxvd implements bxxd {
         bopd bopd2 = bopd.f134098i;
         boow.getClass();
         if (!bopd.f134107h.mo73666a()) {
-            bopd.f134107h = bxvk.m124021a(bopd.f134107h);
+            bopd.f134107h = GeneratedMessageLite.m124021a(bopd.f134107h);
         }
         bopd.f134107h.add(boow);
     }

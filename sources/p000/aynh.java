@@ -5,12 +5,12 @@ package p000;
 public final class aynh extends aypm {
 
     /* renamed from: a */
-    private final bxtx f98007a;
+    private final ByteString f98007a;
 
     /* renamed from: b */
-    private final bxtx f98008b;
+    private final ByteString f98008b;
 
-    public aynh(bxtx bxtx, bxtx bxtx2) {
+    public aynh(ByteString bxtx, ByteString bxtx2) {
         if (bxtx != null) {
             this.f98007a = bxtx;
             if (bxtx2 != null) {
@@ -23,12 +23,12 @@ public final class aynh extends aypm {
     }
 
     /* renamed from: a */
-    public final bxtx mo54088a() {
+    public final ByteString mo54088a() {
         return this.f98007a;
     }
 
     /* renamed from: b */
-    public final bxtx mo54089b() {
+    public final ByteString mo54089b() {
         return this.f98008b;
     }
 

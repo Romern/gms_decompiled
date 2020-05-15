@@ -137,7 +137,7 @@ final class agsz implements Callable {
                         byge byge2 = byge;
                         boot a6 = b4.mo35978a(20, "GTAF_Server", "MDP_BgTask");
                         bxvd bxvd = (bxvd) a6.mo74142c(5);
-                        bxvd.mo73625a((bxvk) a6);
+                        bxvd.mo73625a((GeneratedMessageLite) a6);
                         String a7 = stm.m36299a(e);
                         String str5 = "MDP_BgTask";
                         if (bxvd.f164950c) {
@@ -207,7 +207,7 @@ final class agsz implements Callable {
                                 m55063b().mo36014a(e, this.f66415c, j6);
                                 agpk agpk = this.f66416d;
                                 bxvd bxvd2 = (bxvd) bxzx.mo74142c(5);
-                                bxvd2.mo73625a((bxvk) bxzx);
+                                bxvd2.mo73625a((GeneratedMessageLite) bxzx);
                                 if (bxvd2.f164950c) {
                                     bxvd2.mo74035c();
                                     bxvd2.f164950c = false;

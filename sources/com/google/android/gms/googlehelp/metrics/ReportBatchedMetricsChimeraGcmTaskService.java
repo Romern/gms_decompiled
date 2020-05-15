@@ -43,7 +43,7 @@ public class ReportBatchedMetricsChimeraGcmTaskService extends aeah {
         for (int i3 = 0; i3 < size; i3++) {
             abeh abeh = (abeh) list.get(i3);
             bxvd bxvd = (bxvd) abeh.mo74142c(5);
-            bxvd.mo73625a((bxvk) abeh);
+            bxvd.mo73625a((GeneratedMessageLite) abeh);
             if (!TextUtils.equals(((abeh) bxvd.f164949b).f57214i, "UNKNOWN_SESSION_ID")) {
                 i2 = i3;
             } else {

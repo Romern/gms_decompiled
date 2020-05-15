@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caaa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caaa extends bxvk implements bxxd {
+public final class caaa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final caaa f172305j;
@@ -35,12 +35,12 @@ public final class caaa extends bxvk implements bxxd {
     public long f172314h;
 
     /* renamed from: i */
-    public bxtx f172315i = bxtx.f164797b;
+    public ByteString f172315i = ByteString.f164797b;
 
     static {
         caaa caaa = new caaa();
         f172305j = caaa;
-        bxvk.m124024a(caaa.class, caaa);
+        GeneratedMessageLite.m124024a(caaa.class, caaa);
     }
 
     private caaa() {
@@ -57,7 +57,7 @@ public final class caaa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172305j, "\u0001\b\u0000\u0001\u0001\t\b\u0000\u0001\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005\u001b\u0006ဂ\u0004\u0007ဂ\u0005\tည\u0007", new Object[]{"a", "b", "c", "d", "e", "f", caaw.class, "g", "h", "i"});
+            return GeneratedMessageLite.m124022a(f172305j, "\u0001\b\u0000\u0001\u0001\t\b\u0000\u0001\u0000\u0001ဂ\u0000\u0002ဂ\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005\u001b\u0006ဂ\u0004\u0007ဂ\u0005\tည\u0007", new Object[]{"a", "b", "c", "d", "e", "f", caaw.class, "g", "h", "i"});
         } else if (i2 == 3) {
             return new caaa();
         } else {

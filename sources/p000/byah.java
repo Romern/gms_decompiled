@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byah */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byah extends bxvk implements bxxd {
+public final class byah extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final byah f165256g;
@@ -31,7 +31,7 @@ public final class byah extends bxvk implements bxxd {
     static {
         byah byah = new byah();
         f165256g = byah;
-        bxvk.m124024a(byah.class, byah);
+        GeneratedMessageLite.m124024a(byah.class, byah);
     }
 
     private byah() {
@@ -48,7 +48,7 @@ public final class byah extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165256g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0001\u0000\u0001ဂ\u0000\u0002ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006\u001b", new Object[]{"a", "b", "c", "d", "e", "f", bmcv.class});
+            return GeneratedMessageLite.m124022a(f165256g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0001\u0000\u0001ဂ\u0000\u0002ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006\u001b", new Object[]{"a", "b", "c", "d", "e", "f", bmcv.class});
         } else if (i2 == 3) {
             return new byah();
         } else {

@@ -124,7 +124,7 @@ public final class ehv {
         bmxy.m108588a(true);
         bmxy.m108588a(true);
         try {
-            return bxtx.m123262a(byst.m125284a(new SecretKeySpec(bArr, str), bArr2, bArr3), 0, i).mo73780k();
+            return ByteString.m123262a(byst.m125284a(new SecretKeySpec(bArr, str), bArr2, bArr3), 0, i).getKey();
         } catch (NoSuchAlgorithmException e) {
             throw new AssertionError(e);
         }

@@ -18,7 +18,7 @@ public final class bvvg extends bxvd implements bxxd {
         bvvl bvvl2 = bvvl.f157808e;
         bvvk.getClass();
         if (!bvvl.f157812c.mo73666a()) {
-            bvvl.f157812c = bxvk.m124019a(bvvl.f157812c);
+            bvvl.f157812c = GeneratedMessageLite.m124019a(bvvl.f157812c);
         }
         bvvl.f157812c.mo74153d(bvvk.f157807m);
     }
@@ -34,7 +34,7 @@ public final class bvvg extends bxvd implements bxxd {
         bvvl bvvl2 = bvvl.f157808e;
         bvvk.getClass();
         if (!bvvl.f157811b.mo73666a()) {
-            bvvl.f157811b = bxvk.m124019a(bvvl.f157811b);
+            bvvl.f157811b = GeneratedMessageLite.m124019a(bvvl.f157811b);
         }
         bvvl.f157811b.mo74153d(bvvk.f157807m);
     }

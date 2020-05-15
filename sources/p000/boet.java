@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boet */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boet extends bxvk implements bxxd {
+public final class boet extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: q */
     public static final boet f132836q;
@@ -61,7 +61,7 @@ public final class boet extends bxvk implements bxxd {
     static {
         boet boet = new boet();
         f132836q = boet;
-        bxvk.m124024a(boet.class, boet);
+        GeneratedMessageLite.m124024a(boet.class, boet);
     }
 
     private boet() {
@@ -78,7 +78,7 @@ public final class boet extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132836q, "\u0001\u000f\u0000\u0001\u0001\u000f\u000f\u0000\u0002\u0000\u0001ဂ\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004ဇ\u0003\u0005ဇ\u0004\u0006ဉ\u0005\u0007ဂ\u0006\bဂ\u0007\tဂ\b\nဂ\t\u000bဈ\n\f\u001a\r\u001a\u000eဇ\u000b\u000fဉ\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"});
+            return GeneratedMessageLite.m124022a(f132836q, "\u0001\u000f\u0000\u0001\u0001\u000f\u000f\u0000\u0002\u0000\u0001ဂ\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004ဇ\u0003\u0005ဇ\u0004\u0006ဉ\u0005\u0007ဂ\u0006\bဂ\u0007\tဂ\b\nဂ\t\u000bဈ\n\f\u001a\r\u001a\u000eဇ\u000b\u000fဉ\f", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"});
         } else if (i2 == 3) {
             return new boet();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bsnq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bsnq extends bxvk implements bxxd {
+public final class bsnq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bsnq f146315f;
@@ -11,24 +11,24 @@ public final class bsnq extends bxvk implements bxxd {
     private static volatile bxxk f146316g;
 
     /* renamed from: a */
-    public bxtx f146317a = bxtx.f164797b;
+    public ByteString f146317a = ByteString.f164797b;
 
     /* renamed from: b */
-    public bxtx f146318b = bxtx.f164797b;
+    public ByteString f146318b = ByteString.f164797b;
 
     /* renamed from: c */
-    public bxtx f146319c = bxtx.f164797b;
+    public ByteString f146319c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f146320d = bxtx.f164797b;
+    public ByteString f146320d = ByteString.f164797b;
 
     /* renamed from: e */
-    public bxtx f146321e = bxtx.f164797b;
+    public ByteString f146321e = ByteString.f164797b;
 
     static {
         bsnq bsnq = new bsnq();
         f146315f = bsnq;
-        bxvk.m124024a(bsnq.class, bsnq);
+        GeneratedMessageLite.m124024a(bsnq.class, bsnq);
     }
 
     private bsnq() {
@@ -45,7 +45,7 @@ public final class bsnq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f146315f, "\u0000\u0005\u0000\u0000\u0002\u0006\u0005\u0000\u0000\u0000\u0002\n\u0003\n\u0004\n\u0005\n\u0006\n", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f146315f, "\u0000\u0005\u0000\u0000\u0002\u0006\u0005\u0000\u0000\u0000\u0002\n\u0003\n\u0004\n\u0005\n\u0006\n", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bsnq();
         } else {

@@ -63,7 +63,7 @@ final class blkl implements Runnable, bliw {
             }
             bljz bljz = this.f126750h;
             bxvd bxvd = (bxvd) bljz.mo74142c(5);
-            bxvd.mo73625a((bxvk) bljz);
+            bxvd.mo73625a((GeneratedMessageLite) bljz);
             SparseArray sparseArray = new SparseArray(i2);
             boolean z = false;
             int i3 = 0;
@@ -138,7 +138,7 @@ final class blkl implements Runnable, bliw {
                 bljz bljz3 = bljz.f126712i;
                 bliz5.getClass();
                 if (!bljz2.f126717d.mo73666a()) {
-                    bljz2.f126717d = bxvk.m124021a(bljz2.f126717d);
+                    bljz2.f126717d = GeneratedMessageLite.m124021a(bljz2.f126717d);
                 }
                 bljz2.f126717d.add(bliz5);
                 sparseArray.append(blkj2.f126734e, blkj2.f126733d);
@@ -217,9 +217,9 @@ final class blkl implements Runnable, bliw {
             long b = bljq.f126689b.mo54418b() - blkk.f126739c;
             bljz bljz6 = blkk.f126740d;
             bxvd bxvd2 = (bxvd) bljz6.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bljz6);
+            bxvd2.mo73625a((GeneratedMessageLite) bljz6);
             bxvd bxvd3 = (bxvd) blim3.mo74142c(5);
-            bxvd3.mo73625a((bxvk) blim3);
+            bxvd3.mo73625a((GeneratedMessageLite) blim3);
             bxvd da4 = blik.f126620d.mo74144da();
             int i13 = blkk.f126742f;
             if (da4.f164950c) {

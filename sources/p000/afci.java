@@ -32,7 +32,7 @@ public final class afci {
     /* renamed from: a */
     public static afeb m52841a() {
         afeb afeb = f64179a;
-        sdo.m34966a(afeb, "CameraUpdateFactory is not initialized");
+        sdo.checkIfNull(afeb, "CameraUpdateFactory is not initialized");
         return afeb;
     }
 }

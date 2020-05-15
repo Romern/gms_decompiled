@@ -56,7 +56,7 @@ public final class ubr {
             for (String str2 : strArr) {
                 arrayList.add(vfu.m40352a(uzm.f48738N, str2));
             }
-            sdo.m34966a(arrayList, "Filters may not be null");
+            sdo.checkIfNull(arrayList, "Filters may not be null");
             logicalFilter = new LogicalFilter(Operator.f31128g, (Iterable) arrayList);
         }
         if (logicalFilter == null || filter == null) {

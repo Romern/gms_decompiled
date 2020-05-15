@@ -24,7 +24,7 @@ final class jyo extends AsyncTask {
     public final /* bridge */ /* synthetic */ Object doInBackground(Object[] objArr) {
         Void[] voidArr = (Void[]) objArr;
         jyp jyp = this.f23536a;
-        sek sek = jyp.f23538a;
+        Logger Logger = jyp.f23538a;
         jyn jyn = jyp.f23542e;
         if (jyn == null) {
             jyp.f23538a.mo25416d("DroidGuardHandleTask null", new Object[0]);

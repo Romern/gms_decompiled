@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public final class jqj extends aaab {
 
     /* renamed from: a */
-    private static final sek f23055a = jsy.m17256a("SetFeatureEnabled");
+    private static final Logger f23055a = jsy.m17256a("SetFeatureEnabled");
 
     /* renamed from: b */
     private final rnt f23056b;

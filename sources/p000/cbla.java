@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbla */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbla extends bxvk implements bxxd {
+public final class cbla extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final cbla f177461f;
@@ -28,7 +28,7 @@ public final class cbla extends bxvk implements bxxd {
     static {
         cbla cbla = new cbla();
         f177461f = cbla;
-        bxvk.m124024a(cbla.class, cbla);
+        GeneratedMessageLite.m124024a(cbla.class, cbla);
     }
 
     private cbla() {
@@ -45,7 +45,7 @@ public final class cbla extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177461f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\t\u0002Ȉ\u0003\t\u0004\t\u0005\t", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f177461f, "\u0000\u0005\u0000\u0000\u0001\u0005\u0005\u0000\u0000\u0000\u0001\t\u0002Ȉ\u0003\t\u0004\t\u0005\t", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new cbla();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byoz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byoz extends bxvk implements bxxd {
+public final class byoz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final byoz f167283d;
@@ -22,11 +22,11 @@ public final class byoz extends bxvk implements bxxd {
     static {
         byoz byoz = new byoz();
         f167283d = byoz;
-        bxvk.m124024a(byoz.class, byoz);
+        GeneratedMessageLite.m124024a(byoz.class, byoz);
     }
 
     private byoz() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -40,7 +40,7 @@ public final class byoz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f167283d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f167283d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new byoz();
         } else {

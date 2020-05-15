@@ -33,7 +33,7 @@ public final /* synthetic */ class muq implements View.OnClickListener {
             bxvd da2 = bsrg.f146749m.mo74144da();
             bsqi bsqi = setBackupAccountFlowChimeraActivity.f29082c;
             bxvd bxvd = (bxvd) bsqi.mo74142c(5);
-            bxvd.mo73625a((bxvk) bsqi);
+            bxvd.mo73625a((GeneratedMessageLite) bsqi);
             bxvd da3 = bssl.f146873c.mo74144da();
             if (da3.f164950c) {
                 da3.mo74035c();

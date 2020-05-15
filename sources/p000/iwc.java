@@ -79,7 +79,7 @@ public final class iwc extends ModuleManager.FeatureRequestProgressListener impl
             cimf3.getClass();
             cimg2.f190715f = cimf3;
             cimg2.f190710a |= 64;
-            this.f21909c.mo24335a(((cimg) da.mo74062i()).mo73642k()).mo24327b();
+            this.f21909c.mo24335a(((cimg) da.mo74062i()).serializeToBytes()).mo24327b();
         }
     }
 

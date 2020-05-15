@@ -569,7 +569,7 @@ public final class pjc extends pil implements pkx {
                 bptq bptq4 = (bptq) da2.mo74062i();
                 bptq4.getClass();
                 if (!bptm.f139146b.mo73666a()) {
-                    bptm.f139146b = bxvk.m124021a(bptm.f139146b);
+                    bptm.f139146b = GeneratedMessageLite.m124021a(bptm.f139146b);
                 }
                 bptm.f139146b.add(bptq4);
             }
@@ -608,7 +608,7 @@ public final class pjc extends pil implements pkx {
                 bptb bptb4 = (bptb) da3.mo74062i();
                 bptb4.getClass();
                 if (!bptm2.f139147c.mo73666a()) {
-                    bptm2.f139147c = bxvk.m124021a(bptm2.f139147c);
+                    bptm2.f139147c = GeneratedMessageLite.m124021a(bptm2.f139147c);
                 }
                 bptm2.f139147c.add(bptb4);
             }
@@ -814,7 +814,7 @@ public final class pjc extends pil implements pkx {
                     bshv.f144635c = bsib;
                     byte[] a3 = pij.m30443a(pzi.f40741c).mo23174a();
                     if (a3 != null) {
-                        bxtx a4 = bxtx.m123261a(a3);
+                        ByteString a4 = ByteString.m123261a(a3);
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -994,7 +994,7 @@ public final class pjc extends pil implements pkx {
             }
             bArr = pku2.f39534b;
         }
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -1015,7 +1015,7 @@ public final class pjc extends pil implements pkx {
         blsf2.getClass();
         blsk.f127599b = blsf2;
         blsk.f127598a |= 1;
-        byte[] k = ((blsk) da.mo74062i()).mo73642k();
+        byte[] k = ((blsk) da.mo74062i()).serializeToBytes();
         String str = pku2.f39537e;
         new Object[1][0] = str;
         pku2.f40175u.mo23230a(pku2.f40174t, k, str);

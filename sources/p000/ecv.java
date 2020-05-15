@@ -23,7 +23,7 @@ public final class ecv extends dwm implements eev {
     public static final void m10129a(doh doh, ecu ecu) {
         tjo tjo = new tjo(doh, 1);
         tjo.mo26589a(tka.m37117a(ecu.f14704b));
-        tjo.mo26590a(ecu.f14703a.mo73642k());
+        tjo.mo26590a(ecu.f14703a.serializeToBytes());
         dwq.m9673q().mo10051a(tjo.mo26587a());
     }
 
@@ -106,7 +106,7 @@ public final class ecv extends dwm implements eev {
             if (a5 == tni.NOT_SYNCED_MISSING_GCM_ID || !TextUtils.equals(a4, tnj5.f46295c)) {
                 tnj tnj6 = ecu.f14703a;
                 bxvd bxvd = (bxvd) tnj6.mo74142c(5);
-                bxvd.mo73625a((bxvk) tnj6);
+                bxvd.mo73625a((GeneratedMessageLite) tnj6);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;

@@ -85,7 +85,7 @@ final class aqei extends aqas {
                     bxvd da = apyl.f85146d.mo74144da();
                     byte[] key = iterator.key();
                     apym apym = apym.f85151d;
-                    apym apym2 = (apym) bxvk.m124014a(apym.f85151d, key);
+                    apym apym2 = (apym) GeneratedMessageLite.m124014a(apym.f85151d, key);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -168,7 +168,7 @@ final class aqei extends aqas {
                             if (apym == null) {
                                 apym = apym.f85151d;
                             }
-                            byte[] k = apym.mo73642k();
+                            byte[] k = apym.serializeToBytes();
                             byte[] bArr = this.f85874d.get(k);
                             if (bArr != null) {
                                 i = bqcn.m112579a(bArr);

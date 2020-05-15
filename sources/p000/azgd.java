@@ -315,12 +315,12 @@ public final class azgd implements Runnable {
                                                         } else {
                                                             cbil cbil2 = (cbil) azol.m85935a((bxxk) cbil.f177257h.mo74142c(7), a6.mo54712a());
                                                             bxvd = (bxvd) cbil2.mo74142c(5);
-                                                            bxvd.mo73625a((bxvk) cbil2);
+                                                            bxvd.mo73625a((GeneratedMessageLite) cbil2);
                                                         }
                                                         bmxv b2 = bxvd != null ? bmxv.m108566b(new cbil[]{(cbil) bxvd.mo74062i()}) : bmvz.f131120a;
                                                         if (b2.mo66813a()) {
                                                             cbii.mo75234a(Arrays.asList((cbil[]) b2.mo66814b()));
-                                                            bxtx aL = ((cbij) cbii.mo74062i()).mo73639aL();
+                                                            ByteString aL = ((cbij) cbii.mo74062i()).mo73639aL();
                                                             if (da.f164950c) {
                                                                 da.mo74035c();
                                                                 da.f164950c = false;

@@ -40,7 +40,7 @@ final class ujt implements Runnable {
             }
         }
         uqu uqu = uqe.f48515b;
-        sdo.m34966a(ukk, "Entry can't be null for change events");
+        sdo.checkIfNull(ukk, "Entry can't be null for change events");
         HashSet<ums> hashSet = new HashSet();
         synchronized (uqu.f48563d) {
             Set set = (Set) uqu.f48563d.get(ukk);

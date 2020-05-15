@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caar */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caar extends bxvk implements bxxd {
+public final class caar extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final caar f172365c;
@@ -19,7 +19,7 @@ public final class caar extends bxvk implements bxxd {
     static {
         caar caar = new caar();
         f172365c = caar;
-        bxvk.m124024a(caar.class, caar);
+        GeneratedMessageLite.m124024a(caar.class, caar);
     }
 
     private caar() {
@@ -36,7 +36,7 @@ public final class caar extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f172365c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001က\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f172365c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001က\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new caar();
         } else {

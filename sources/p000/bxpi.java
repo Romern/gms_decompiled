@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxpi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxpi extends bxvk implements bxxd {
+public final class bxpi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bxpi f164270c;
@@ -19,7 +19,7 @@ public final class bxpi extends bxvk implements bxxd {
     static {
         bxpi bxpi = new bxpi();
         f164270c = bxpi;
-        bxvk.m124024a(bxpi.class, bxpi);
+        GeneratedMessageLite.m124024a(bxpi.class, bxpi);
     }
 
     private bxpi() {
@@ -36,7 +36,7 @@ public final class bxpi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f164270c, "\u0001\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000", new Object[]{"b", "a", bxuo.class, bxph.class});
+            return GeneratedMessageLite.m124022a(f164270c, "\u0001\u0002\u0001\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001ြ\u0000\u0002ြ\u0000", new Object[]{"b", "a", bxuo.class, bxph.class});
         } else if (i2 == 3) {
             return new bxpi();
         } else {

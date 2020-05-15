@@ -164,7 +164,7 @@ public abstract class lys {
                 bxvd4.f164950c = false;
             }
             mta mta = mta.f34617g;
-            ((mta) bxvd4.f164949b).f34624f = bxvk.m124030de();
+            ((mta) bxvd4.f164949b).f34624f = GeneratedMessageLite.m124030de();
             ArrayList arrayList = this.f33216g;
             if (bxvd4.f164950c) {
                 bxvd4.mo74035c();
@@ -172,7 +172,7 @@ public abstract class lys {
             }
             mta mta2 = (mta) bxvd4.f164949b;
             if (!mta2.f34624f.mo73666a()) {
-                mta2.f34624f = bxvk.m124021a(mta2.f34624f);
+                mta2.f34624f = GeneratedMessageLite.m124021a(mta2.f34624f);
             }
             bxsy.m123078a(arrayList, mta2.f34624f);
         }
@@ -182,7 +182,7 @@ public abstract class lys {
             mta mta3 = (mta) this.f33214e.mo74062i();
             FileOutputStream fileOutputStream = null;
             if (cckw.f179263a.mo6606a().mo76225O()) {
-                qwo a = this.f33217h.mo24335a(mta3.mo73642k());
+                qwo a = this.f33217h.mo24335a(mta3.serializeToBytes());
                 int i = d - 1;
                 if (d != 0) {
                     a.mo24328b(i);
@@ -306,7 +306,7 @@ public abstract class lys {
         mtn mtn2 = mtn.f34677i;
         mth3.getClass();
         if (!mtn.f34682d.mo73666a()) {
-            mtn.f34682d = bxvk.m124021a(mtn.f34682d);
+            mtn.f34682d = GeneratedMessageLite.m124021a(mtn.f34682d);
         }
         mtn.f34682d.add(mth3);
     }

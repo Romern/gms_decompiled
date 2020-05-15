@@ -31,7 +31,7 @@ final /* synthetic */ class bclu implements bmxj {
         }
         cbgd cbgd = (cbgd) da.f164949b;
         if (!cbgd.f177020c.mo73666a()) {
-            cbgd.f177020c = bxvk.m124021a(cbgd.f177020c);
+            cbgd.f177020c = GeneratedMessageLite.m124021a(cbgd.f177020c);
         }
         bxsy.m123078a(a2, cbgd.f177020c);
         return (cbgd) da.mo74062i();

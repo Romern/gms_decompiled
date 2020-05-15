@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: jbf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class jbf extends bxvk implements bxxd {
+public final class jbf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final jbf f22084e;
@@ -11,10 +11,10 @@ public final class jbf extends bxvk implements bxxd {
     private static volatile bxxk f22085f;
 
     /* renamed from: a */
-    public bxtx f22086a = bxtx.f164797b;
+    public ByteString f22086a = ByteString.f164797b;
 
     /* renamed from: b */
-    public bxtx f22087b = bxtx.f164797b;
+    public ByteString f22087b = ByteString.f164797b;
 
     /* renamed from: c */
     public bxww f22088c = bxww.f165013b;
@@ -25,7 +25,7 @@ public final class jbf extends bxvk implements bxxd {
     static {
         jbf jbf = new jbf();
         f22084e = jbf;
-        bxvk.m124024a(jbf.class, jbf);
+        GeneratedMessageLite.m124024a(jbf.class, jbf);
     }
 
     private jbf() {
@@ -42,7 +42,7 @@ public final class jbf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f22084e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0001\u0000\u0000\u0001\n\u0002\n\u00032\u0004\u0004", new Object[]{"a", "b", "c", jbe.f22083a, "d"});
+            return GeneratedMessageLite.m124022a(f22084e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0001\u0000\u0000\u0001\n\u0002\n\u00032\u0004\u0004", new Object[]{"a", "b", "c", jbe.f22083a, "d"});
         } else if (i2 == 3) {
             return new jbf();
         } else {

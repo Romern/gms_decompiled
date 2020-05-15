@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bipj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bipj extends bxvk implements bxxd {
+public final class bipj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bipj f121170c;
@@ -22,7 +22,7 @@ public final class bipj extends bxvk implements bxxd {
     static {
         bipj bipj = new bipj();
         f121170c = bipj;
-        bxvk.m124024a(bipj.class, bipj);
+        GeneratedMessageLite.m124024a(bipj.class, bipj);
     }
 
     private bipj() {
@@ -43,7 +43,7 @@ public final class bipj extends bxvk implements bxxd {
             this.f121174d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121170c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"a", "b", bipi.m102696b()});
+            return GeneratedMessageLite.m124022a(f121170c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"a", "b", bipi.m102696b()});
         } else if (i2 == 3) {
             return new bipj();
         } else {

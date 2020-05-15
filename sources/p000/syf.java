@@ -24,7 +24,7 @@ public final class syf {
     public static final /* synthetic */ int f45418h = 0;
 
     /* renamed from: a */
-    public final sek f45419a = tea.m36798a("verification_manager");
+    public final Logger f45419a = tea.m36798a("verification_manager");
 
     /* renamed from: b */
     public final Context f45420b;
@@ -186,7 +186,7 @@ public final class syf {
         tdx tdx2 = tdx;
         this.f45427j.mo26263a();
         sza sza = this.f45421c;
-        sza.f45464c.mo25409a("sync", new Object[0]);
+        sza.f45464c.logVerbose("sync", new Object[0]);
         bxvd da = cbqu.f178071c.mo74144da();
         cbqj a = sza.mo26252a(tdx2, true, cdfq.m133005e(), "sync");
         if (da.f164950c) {
@@ -197,7 +197,7 @@ public final class syf {
         a.getClass();
         cbqu.f178073a = a;
         if (!cbqu.f178074b.mo73666a()) {
-            cbqu.f178074b = bxvk.m124021a(cbqu.f178074b);
+            cbqu.f178074b = GeneratedMessageLite.m124021a(cbqu.f178074b);
         }
         bxsy.m123078a(list, cbqu.f178074b);
         cbqu cbqu2 = (cbqu) da.mo74062i();
@@ -424,9 +424,9 @@ public final class syf {
             while (i2 < size2) {
                 Pair pair = (Pair) list.get(i2);
                 if (pair.first != null) {
-                    sek sek = this.f45419a;
+                    Logger Logger = this.f45419a;
                     String valueOf = String.valueOf((String) pair.first);
-                    sek.mo25409a(valueOf.length() == 0 ? new String("observed a imsi ") : "observed a imsi ".concat(valueOf), new Object[r6]);
+                    Logger.logVerbose(valueOf.length() == 0 ? new String("observed a imsi ") : "observed a imsi ".concat(valueOf), new Object[r6]);
                     String str2 = (String) pair.first;
                     String str3 = (String) pair.second;
                     cbqo cbqo = (cbqo) cbqp.f178048c.mo74144da();
@@ -451,7 +451,7 @@ public final class syf {
                     if (b.containsKey(str2)) {
                         cbrh cbrh = (cbrh) b.get(str2);
                         bxvd bxvd = (bxvd) cbrh.mo74142c(5);
-                        bxvd.mo73625a((bxvk) cbrh);
+                        bxvd.mo73625a((GeneratedMessageLite) cbrh);
                         cbre = (cbre) bxvd;
                     } else {
                         cbre = null;
@@ -502,7 +502,7 @@ public final class syf {
                                 cbre.f164950c = false;
                             }
                             cbrh cbrh2 = cbrh.f178114t;
-                            ((cbrh) cbre.f164949b).f178131p = bxvk.m124030de();
+                            ((cbrh) cbre.f164949b).f178131p = GeneratedMessageLite.m124030de();
                             cbre.mo75247b(szr.m36691a(intValue));
                         }
                         if (cbre != null && cdfn.m132940c()) {
@@ -511,7 +511,7 @@ public final class syf {
                                 cbre.f164950c = false;
                             }
                             cbrh cbrh3 = cbrh.f178114t;
-                            ((cbrh) cbre.f164949b).f178134s = bxvk.m124030de();
+                            ((cbrh) cbre.f164949b).f178134s = GeneratedMessageLite.m124030de();
                             cbre.mo75248c(szr.m36697b(intValue));
                         }
                         if (cbre != null) {
@@ -522,13 +522,13 @@ public final class syf {
                                     cbre.f164950c = false;
                                 }
                                 cbrh cbrh4 = cbrh.f178114t;
-                                ((cbrh) cbre.f164949b).f178133r = bxvk.m124030de();
+                                ((cbrh) cbre.f164949b).f178133r = GeneratedMessageLite.m124030de();
                                 cbre.mo75249d((Iterable) ((Pair) a4.get(valueOf2)).first);
                                 if (cbre.f164950c) {
                                     cbre.mo74035c();
                                     cbre.f164950c = false;
                                 }
-                                ((cbrh) cbre.f164949b).f178132q = bxvk.m124030de();
+                                ((cbrh) cbre.f164949b).f178132q = GeneratedMessageLite.m124030de();
                                 cbre.mo75246a((Iterable) ((Pair) a4.get(valueOf2)).second);
                             }
                         }
@@ -573,7 +573,7 @@ public final class syf {
                         cbqw.mo75244a(a2);
                         cbod b2 = m36578b();
                         bxvd bxvd2 = (bxvd) b2.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) b2);
+                        bxvd2.mo73625a((GeneratedMessageLite) b2);
                         cboc = (cboc) bxvd2;
                         da2 = cbon.f177839b.mo74144da();
                         String a5 = tes.mo26445a();
@@ -642,7 +642,7 @@ public final class syf {
                     cbqw.mo75244a(a2);
                     cbod b22 = m36578b();
                     bxvd bxvd22 = (bxvd) b22.mo74142c(5);
-                    bxvd22.mo73625a((bxvk) b22);
+                    bxvd22.mo73625a((GeneratedMessageLite) b22);
                     cboc = (cboc) bxvd22;
                     da2 = cbon.f177839b.mo74144da();
                     String a52 = tes.mo26445a();
@@ -719,14 +719,14 @@ public final class syf {
                     arrayList4.add(a);
                 }
             } else {
-                sek sek = this.f45419a;
+                Logger Logger = this.f45419a;
                 Object[] objArr = new Object[1];
                 int b2 = cbqx.m128116b(cbqy.f178086d);
                 if (b2 != 0) {
                     i = b2;
                 }
                 objArr[0] = Integer.valueOf(cbqx.m128115a(i));
-                sek.mo25414c("No challenge issued due to state: %s", objArr);
+                Logger.mo25414c("No challenge issued due to state: %s", objArr);
                 arrayList3.add(cbqy);
             }
         }
@@ -840,14 +840,14 @@ public final class syf {
                     break;
                 }
             }
-            sek sek2 = this.f45419a;
+            Logger logger2 = this.f45419a;
             Object[] objArr2 = new Object[1];
             int b5 = cbqx.m128116b(cbqy2.f178086d);
             if (b5 == 0) {
                 b5 = 1;
             }
             objArr2[0] = Integer.valueOf(cbqx.m128115a(b5));
-            sek2.mo25414c("Final verification state: %s", objArr2);
+            logger2.mo25414c("Final verification state: %s", objArr2);
             arrayList3.add(cbqy2);
             i3++;
             str = str2;
@@ -898,10 +898,10 @@ public final class syf {
     /* renamed from: a */
     public final void mo26238a() {
         if (!this.f45422d.mo26264b()) {
-            this.f45419a.mo25409a("Throwing throttler exception for get consent", new Object[0]);
+            this.f45419a.logVerbose("Throwing throttler exception for get consent", new Object[0]);
             throw new tdv("Throttled by getConsent RPC");
         } else if (!this.f45427j.mo26264b()) {
-            this.f45419a.mo25409a("Throwing throttler exception for sync", new Object[0]);
+            this.f45419a.logVerbose("Throwing throttler exception for sync", new Object[0]);
             throw new tdv("Throttled by sync RPC");
         }
     }

@@ -441,7 +441,7 @@ public class ContactsRestoreSettingsChimeraActivity extends deu {
         byte[] bArr = this.f107295g;
         if (bArr != null) {
             try {
-                ltn ltn = (ltn) bxvk.m124016a(ltn.f32960g, bArr, bxus.m123744c());
+                ltn ltn = (ltn) GeneratedMessageLite.m124016a(ltn.f32960g, bArr, bxus.m123744c());
                 aucb a = aucu.m76780a(this.f107302n, new apdi(this, str)).mo50364a(new apdj(ltz, ltn)).mo50364a(new apdk(aoxr, str, ltn));
                 a.mo50373a(new apdl(this, ltn));
                 a.mo50372a(new apdm(this));

@@ -9,7 +9,7 @@ import java.util.concurrent.ExecutionException;
 public final class avtp extends AsyncTaskLoader {
 
     /* renamed from: a */
-    private static final sek f93895a = avpq.m79014a("LastConfigUpdateTimeLoader");
+    private static final Logger f93895a = avpq.m79014a("LastConfigUpdateTimeLoader");
 
     /* renamed from: b */
     private final avlf f93896b;

@@ -25,7 +25,7 @@ final /* synthetic */ class aops implements bmxj {
         str.getClass();
         aorx.f78747a = str;
         if (!aorx.f78749c.mo73666a()) {
-            aorx.f78749c = bxvk.m124021a(aorx.f78749c);
+            aorx.f78749c = GeneratedMessageLite.m124021a(aorx.f78749c);
         }
         bxsy.m123078a(bxwc, aorx.f78749c);
         if (da.f164950c) {

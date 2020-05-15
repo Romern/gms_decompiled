@@ -162,7 +162,7 @@ public class akgy implements akcd, akds, akdr {
     public BroadcastReceiver f71959z;
 
     public akgy(Context context, akbu akbu, ajvg ajvg) {
-        bxtx bxtx;
+        ByteString bxtx;
         this.f71957x = 0;
         this.f71927A = 0;
         this.f71939f = context;
@@ -344,7 +344,7 @@ public class akgy implements akcd, akds, akdr {
                 ajnh ajnh2 = (ajnh) da2.mo74062i();
                 ajnh2.getClass();
                 if (!ajnl.f70982b.mo73666a()) {
-                    ajnl.f70982b = bxvk.m124021a(ajnl.f70982b);
+                    ajnl.f70982b = GeneratedMessageLite.m124021a(ajnl.f70982b);
                 }
                 ajnl.f70982b.add(ajnh2);
             } else {
@@ -395,7 +395,7 @@ public class akgy implements akcd, akds, akdr {
             ajnt ajnt2 = (ajnt) da3.mo74062i();
             ajnt2.getClass();
             if (!ajnl2.f70983c.mo73666a()) {
-                ajnl2.f70983c = bxvk.m124021a(ajnl2.f70983c);
+                ajnl2.f70983c = GeneratedMessageLite.m124021a(ajnl2.f70983c);
             }
             ajnl2.f70983c.add(ajnt2);
         }
@@ -445,7 +445,7 @@ public class akgy implements akcd, akds, akdr {
             ajnl ajnl3 = (ajnl) da.f164949b;
             ajoa3.getClass();
             if (!ajnl3.f70985e.mo73666a()) {
-                ajnl3.f70985e = bxvk.m124021a(ajnl3.f70985e);
+                ajnl3.f70985e = GeneratedMessageLite.m124021a(ajnl3.f70985e);
             }
             ajnl3.f70985e.add(ajoa3);
         }
@@ -492,7 +492,7 @@ public class akgy implements akcd, akds, akdr {
             ajnw2.getClass();
             ajnk2.f70978c = ajnw2;
             ajnk2.f70976a |= 2;
-            o.mo39251a(((ajnk) da5.mo74062i()).mo73642k());
+            o.mo39251a(((ajnk) da5.mo74062i()).serializeToBytes());
             try {
                 ajvg ajvg = this.f71948o;
                 long j5 = this.f71953t;
@@ -686,7 +686,7 @@ public class akgy implements akcd, akds, akdr {
                 ajnx ajnx2 = (ajnx) da.f164949b;
                 ajnx2.f71033a |= 2;
                 ajnx2.f71035c = z3;
-                ahiq a3 = ahiq.m55840a(((ajnx) da.mo74062i()).mo73642k());
+                ahiq a3 = ahiq.m55840a(((ajnx) da.mo74062i()).serializeToBytes());
                 ahiqArr3[i3] = a3;
                 mo39382a(wifiCredentialsAttachment, a3.f67251a);
                 i3++;
@@ -906,9 +906,9 @@ public class akgy implements akcd, akds, akdr {
         if (akcj != null) {
             ajhh ajhh = akcj.f71590b;
             if ((ajhh.f70630a & 8) != 0) {
-                bxtx bxtx = ajhh.f70634e;
+                ByteString bxtx = ajhh.f70634e;
                 if (bxtx.mo73744a() == 6) {
-                    return bxtx.mo73780k();
+                    return bxtx.getKey();
                 }
             }
         }
@@ -1078,7 +1078,7 @@ public class akgy implements akcd, akds, akdr {
             ajnm = ajnm.f70986d;
         } else {
             if (akcj != null) {
-                bArr2 = akid.m59792a(d, akcj.f71589a.f70660c.mo73780k(), 6);
+                bArr2 = akid.m59792a(d, akcj.f71589a.f70660c.getKey(), 6);
             } else {
                 bArr2 = akid.m59788a(6);
             }
@@ -1086,7 +1086,7 @@ public class akgy implements akcd, akds, akdr {
                 bArr2 = akid.m59788a(6);
             }
             bxvd da = ajnm.f70986d.mo74144da();
-            bxtx a2 = bxtx.m123261a(a);
+            ByteString a2 = ByteString.m123261a(a);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -1095,7 +1095,7 @@ public class akgy implements akcd, akds, akdr {
             a2.getClass();
             ajnm2.f70988a |= 1;
             ajnm2.f70989b = a2;
-            bxtx a3 = bxtx.m123261a(bArr2);
+            ByteString a3 = ByteString.m123261a(bArr2);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -1137,7 +1137,7 @@ public class akgy implements akcd, akds, akdr {
             ajnw3.getClass();
             ajnk2.f70978c = ajnw3;
             ajnk2.f70976a |= 2;
-            akdd.mo39251a(((ajnk) da2.mo74062i()).mo73642k());
+            akdd.mo39251a(((ajnk) da2.mo74062i()).serializeToBytes());
             bnsl bnsl3 = (bnsl) ajvp.f71371a.mo68390d();
             bnsl3.mo68432a("akgy", "f", 1279, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             bnsl3.mo68420a("Wrote paired key encryption when connecting to %s.", shareTarget2);
@@ -1158,7 +1158,7 @@ public class akgy implements akcd, akds, akdr {
                 bnsl5.mo68432a("akgy", "a", 4069, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                 bnsl5.mo68405a("Unable to verify remote certificate. Failed to load a valid local certificate.");
                 akgr = akgr.UNABLE;
-            } else if (Arrays.equals(ajnm4.f70990c.mo73780k(), akid.m59792a(d, d2.f70640d.mo73780k(), 6))) {
+            } else if (Arrays.equals(ajnm4.f70990c.getKey(), akid.m59792a(d, d2.f70640d.getKey(), 6))) {
                 bnsl bnsl6 = (bnsl) ajvp.f71371a.mo68390d();
                 bnsl6.mo68432a("akgy", "a", 4080, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                 bnsl6.mo68405a("Successfully verified remote certificate.");
@@ -1187,7 +1187,7 @@ public class akgy implements akcd, akds, akdr {
                         int i4 = size;
                         bxvd da5 = ajnq.f70996i.mo74144da();
                         akgr akgr6 = akgr;
-                        bxtx bxtx = ajhl.f70659b;
+                        ByteString bxtx = ajhl.f70659b;
                         byte b4 = b;
                         if (da5.f164950c) {
                             da5.mo74035c();
@@ -1198,12 +1198,12 @@ public class akgy implements akcd, akds, akdr {
                         int i5 = ajnq.f70998a | 1;
                         ajnq.f70998a = i5;
                         ajnq.f70999b = bxtx;
-                        bxtx bxtx2 = ajhl.f70660c;
+                        ByteString bxtx2 = ajhl.f70660c;
                         bxtx2.getClass();
                         int i6 = i5 | 2;
                         ajnq.f70998a = i6;
                         ajnq.f71000c = bxtx2;
-                        bxtx bxtx3 = ajhl.f70661d;
+                        ByteString bxtx3 = ajhl.f70661d;
                         bxtx3.getClass();
                         int i7 = i6 | 4;
                         ajnq.f70998a = i7;
@@ -1216,12 +1216,12 @@ public class akgy implements akcd, akds, akdr {
                         int i9 = i8 | 16;
                         ajnq.f70998a = i9;
                         ajnq.f71003f = j2;
-                        bxtx bxtx4 = ajhl.f70664g;
+                        ByteString bxtx4 = ajhl.f70664g;
                         bxtx4.getClass();
                         int i10 = i9 | 32;
                         ajnq.f70998a = i10;
                         ajnq.f71004g = bxtx4;
-                        bxtx bxtx5 = ajhl.f70665h;
+                        ByteString bxtx5 = ajhl.f70665h;
                         bxtx5.getClass();
                         ajnq.f70998a = i10 | 64;
                         ajnq.f71005h = bxtx5;
@@ -1271,7 +1271,7 @@ public class akgy implements akcd, akds, akdr {
                         ajnw5.getClass();
                         ajnk4.f70978c = ajnw5;
                         ajnk4.f70976a |= 2;
-                        akdd.mo39251a(((ajnk) da6.mo74062i()).mo73642k());
+                        akdd.mo39251a(((ajnk) da6.mo74062i()).serializeToBytes());
                     } catch (IOException e2) {
                         bnsl bnsl8 = (bnsl) ajvp.f71371a.mo68388c();
                         bnsl8.mo68437a(e2);
@@ -1307,7 +1307,7 @@ public class akgy implements akcd, akds, akdr {
                 bnsl10.mo68432a("akgy", "a", 4037, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                 bnsl10.mo68405a("Unable to verify remote paired key encryption frame. Cannot locate remote certificate.");
                 akgr3 = akgr.UNABLE;
-            } else if (!this.f71946m.mo39197a(akcj.f71589a.f70661d.mo73780k(), m59554a(b3, bArr), ajnm5.f70989b.mo73780k())) {
+            } else if (!this.f71946m.mo39197a(akcj.f71589a.f70661d.getKey(), m59554a(b3, bArr), ajnm5.f70989b.getKey())) {
                 bnsl bnsl11 = (bnsl) ajvp.f71371a.mo68390d();
                 bnsl11.mo68432a("akgy", "a", 4047, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                 bnsl11.mo68405a("Failed to verify remote paired key encryption frame.");
@@ -1372,7 +1372,7 @@ public class akgy implements akcd, akds, akdr {
                 ajnw7.getClass();
                 ajnk6.f70978c = ajnw7;
                 ajnk6.f70976a |= 2;
-                akdd.mo39251a(((ajnk) da9.mo74062i()).mo73642k());
+                akdd.mo39251a(((ajnk) da9.mo74062i()).serializeToBytes());
                 bnsl bnsl14 = (bnsl) ajvp.f71371a.mo68390d();
                 bnsl14.mo68432a("akgy", "f", 1322, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                 bnsl14.mo68424a("Wrote paired key verification result %s when connecting to %s.", akgr3, shareTarget2);
@@ -1767,7 +1767,7 @@ public class akgy implements akcd, akds, akdr {
                     throw new IOException("Connection closed. Quit reading.");
                 }
             }
-            ajnk ajnk = (ajnk) bxvk.m124014a(ajnk.f70974d, bArr);
+            ajnk ajnk = (ajnk) GeneratedMessageLite.m124014a(ajnk.f70974d, bArr);
             int a = ajnj.m58884a(ajnk.f70977b);
             if (a == 0) {
                 a = 1;
@@ -1829,7 +1829,7 @@ public class akgy implements akcd, akds, akdr {
             for (int i = 0; i < size; i++) {
                 ajhl ajhl = (ajhl) e.get(i);
                 bxvd da2 = ajnq.f70996i.mo74144da();
-                bxtx bxtx = ajhl.f70659b;
+                ByteString bxtx = ajhl.f70659b;
                 if (da2.f164950c) {
                     da2.mo74035c();
                     da2.f164950c = false;
@@ -1839,12 +1839,12 @@ public class akgy implements akcd, akds, akdr {
                 int i2 = 1 | ajnq.f70998a;
                 ajnq.f70998a = i2;
                 ajnq.f70999b = bxtx;
-                bxtx bxtx2 = ajhl.f70660c;
+                ByteString bxtx2 = ajhl.f70660c;
                 bxtx2.getClass();
                 int i3 = i2 | 2;
                 ajnq.f70998a = i3;
                 ajnq.f71000c = bxtx2;
-                bxtx bxtx3 = ajhl.f70661d;
+                ByteString bxtx3 = ajhl.f70661d;
                 bxtx3.getClass();
                 int i4 = i3 | 4;
                 ajnq.f70998a = i4;
@@ -1857,12 +1857,12 @@ public class akgy implements akcd, akds, akdr {
                 int i6 = i5 | 16;
                 ajnq.f70998a = i6;
                 ajnq.f71003f = j2;
-                bxtx bxtx4 = ajhl.f70664g;
+                ByteString bxtx4 = ajhl.f70664g;
                 bxtx4.getClass();
                 int i7 = i6 | 32;
                 ajnq.f70998a = i7;
                 ajnq.f71004g = bxtx4;
-                bxtx bxtx5 = ajhl.f70665h;
+                ByteString bxtx5 = ajhl.f70665h;
                 bxtx5.getClass();
                 ajnq.f70998a = i7 | 64;
                 ajnq.f71005h = bxtx5;
@@ -1900,7 +1900,7 @@ public class akgy implements akcd, akds, akdr {
                 ajnw2.getClass();
                 ajnk2.f70978c = ajnw2;
                 ajnk2.f70976a |= 2;
-                akdd.mo39251a(((ajnk) da3.mo74062i()).mo73642k());
+                akdd.mo39251a(((ajnk) da3.mo74062i()).serializeToBytes());
             } catch (IOException e2) {
                 bnsl bnsl = (bnsl) ajvp.f71371a.mo68388c();
                 bnsl.mo68437a(e2);
@@ -2031,7 +2031,7 @@ public class akgy implements akcd, akds, akdr {
             bnsl.mo68432a("akgy", "a", 4037, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             bnsl.mo68405a("Unable to verify remote paired key encryption frame. Cannot locate remote certificate.");
             return akgr.UNABLE;
-        } else if (!this.f71946m.mo39197a(akcj.f71589a.f70661d.mo73780k(), m59554a(b, bArr), ajnm.f70989b.mo73780k())) {
+        } else if (!this.f71946m.mo39197a(akcj.f71589a.f70661d.getKey(), m59554a(b, bArr), ajnm.f70989b.getKey())) {
             bnsl bnsl2 = (bnsl) ajvp.f71371a.mo68390d();
             bnsl2.mo68432a("akgy", "a", 4047, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             bnsl2.mo68405a("Failed to verify remote paired key encryption frame.");
@@ -2098,7 +2098,7 @@ public class akgy implements akcd, akds, akdr {
             bnsl.mo68432a("akgy", "a", 4069, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             bnsl.mo68405a("Unable to verify remote certificate. Failed to load a valid local certificate.");
             return akgr.UNABLE;
-        } else if (Arrays.equals(ajnm.f70990c.mo73780k(), akid.m59792a(bArr, d.f70640d.mo73780k(), 6))) {
+        } else if (Arrays.equals(ajnm.f70990c.getKey(), akid.m59792a(bArr, d.f70640d.getKey(), 6))) {
             bnsl bnsl2 = (bnsl) ajvp.f71371a.mo68390d();
             bnsl2.mo68432a("akgy", "a", 4080, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
             bnsl2.mo68405a("Successfully verified remote certificate.");
@@ -2543,7 +2543,7 @@ public class akgy implements akcd, akds, akdr {
         ajnw2.getClass();
         ajnk2.f70978c = ajnw2;
         ajnk2.f70976a |= 2;
-        akdd.mo39251a(((ajnk) da.mo74062i()).mo73642k());
+        akdd.mo39251a(((ajnk) da.mo74062i()).serializeToBytes());
     }
 
     /* renamed from: c */
@@ -2572,7 +2572,7 @@ public class akgy implements akcd, akds, akdr {
             ajnx ajnx2 = (ajnx) da.f164949b;
             ajnx2.f71033a |= 2;
             ajnx2.f71035c = z;
-            ahiq a = ahiq.m55840a(((ajnx) da.mo74062i()).mo73642k());
+            ahiq a = ahiq.m55840a(((ajnx) da.mo74062i()).serializeToBytes());
             ahiqArr[i] = a;
             mo39382a(wifiCredentialsAttachment, a.f67251a);
         }
@@ -3779,7 +3779,7 @@ public class akgy implements akcd, akds, akdr {
                     ajnx ajnx2 = (ajnx) da.f164949b;
                     ajnx2.f71033a |= 2;
                     ajnx2.f71035c = z;
-                    ahiq a4 = ahiq.m55840a(((ajnx) da.mo74062i()).mo73642k());
+                    ahiq a4 = ahiq.m55840a(((ajnx) da.mo74062i()).serializeToBytes());
                     ahiqArr3[i3] = a4;
                     mo39382a(wifiCredentialsAttachment, a4.f67251a);
                     i3++;
@@ -4439,7 +4439,7 @@ public class akgy implements akcd, akds, akdr {
         byte[] bArr = a.f67253c;
         if (!akid.m59787a(bArr)) {
             try {
-                ajnx ajnx = (ajnx) bxvk.m124016a(ajnx.f71031d, bArr, bxus.m123744c());
+                ajnx ajnx = (ajnx) GeneratedMessageLite.m124016a(ajnx.f71031d, bArr, bxus.m123744c());
                 akgk akgk = (akgk) this.f71935b.get(wifiCredentialsAttachment);
                 if (akgk == null) {
                     akgk = new akgk();

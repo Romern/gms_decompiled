@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buzb */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buzb extends bxvk implements bxxd {
+public final class buzb extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bxvu f155364e = new buza();
@@ -28,7 +28,7 @@ public final class buzb extends bxvk implements bxxd {
     static {
         buzb buzb = new buzb();
         f155365f = buzb;
-        bxvk.m124024a(buzb.class, buzb);
+        GeneratedMessageLite.m124024a(buzb.class, buzb);
     }
 
     private buzb() {
@@ -45,7 +45,7 @@ public final class buzb extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155365f, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003\u001e", new Object[]{"a", "b", buze.f155372a, "c", buyv.m120789b(), "d", buyz.m120795b()});
+            return GeneratedMessageLite.m124022a(f155365f, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003\u001e", new Object[]{"a", "b", buze.f155372a, "c", buyv.m120789b(), "d", buyz.m120795b()});
         } else if (i2 == 3) {
             return new buzb();
         } else {

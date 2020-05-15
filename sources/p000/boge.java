@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boge */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boge extends bxvk implements bxxd {
+public final class boge extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final boge f132963m;
@@ -49,7 +49,7 @@ public final class boge extends bxvk implements bxxd {
     static {
         boge boge = new boge();
         f132963m = boge;
-        bxvk.m124024a(boge.class, boge);
+        GeneratedMessageLite.m124024a(boge.class, boge);
     }
 
     private boge() {
@@ -66,7 +66,7 @@ public final class boge extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132963m, "\u0001\u000b\u0000\u0001\u0001\u000b\u000b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003င\u0002\u0004ဌ\u0003\u0005ဈ\u0004\u0006ဈ\u0005\u0007င\u0006\bင\u0007\tဌ\b\nဌ\t\u000bဇ\n", new Object[]{"a", "b", bogc.f132962a, "c", "d", "e", boga.f132961a, "f", "g", "h", "i", "j", bofz.m111163b(), "k", bofz.m111163b(), "l"});
+            return GeneratedMessageLite.m124022a(f132963m, "\u0001\u000b\u0000\u0001\u0001\u000b\u000b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003င\u0002\u0004ဌ\u0003\u0005ဈ\u0004\u0006ဈ\u0005\u0007င\u0006\bင\u0007\tဌ\b\nဌ\t\u000bဇ\n", new Object[]{"a", "b", bogc.f132962a, "c", "d", "e", boga.f132961a, "f", "g", "h", "i", "j", bofz.m111163b(), "k", bofz.m111163b(), "l"});
         } else if (i2 == 3) {
             return new boge();
         } else {

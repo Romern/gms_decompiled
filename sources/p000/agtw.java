@@ -485,7 +485,7 @@ public final class agtw {
                     btar = (btar) btas.f148044c.mo74144da();
                 } else {
                     bxvd bxvd = (bxvd) d.mo74142c(5);
-                    bxvd.mo73625a((bxvk) d);
+                    bxvd.mo73625a((GeneratedMessageLite) d);
                     btar = (btar) bxvd;
                 }
                 long j = ((btas) btar.f164949b).f148047b + 1;

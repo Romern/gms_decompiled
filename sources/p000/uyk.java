@@ -17,7 +17,7 @@ public abstract class uyk {
     public final vad f48717c;
 
     public uyk(uvy uvy, boolean z, vad vad) {
-        sdo.m34966a(uvy, "field");
+        sdo.checkIfNull(uvy, "field");
         this.f48716b = uvy;
         this.f48715a = z;
         this.f48717c = vad;

@@ -12,7 +12,7 @@ import com.google.android.gms.smartdevice.d2d.D2DDevice;
 public final class arxy extends Fragment {
 
     /* renamed from: a */
-    public static final sek f88430a = ascp.m73787a("Setup", "UI", "D2DConnectionFragment");
+    public static final Logger f88430a = ascp.m73787a("Setup", "UI", "D2DConnectionFragment");
 
     /* renamed from: b */
     public final arxx f88431b = new arxx();
@@ -43,7 +43,7 @@ public final class arxy extends Fragment {
 
     /* renamed from: a */
     public final void mo48922a() {
-        f88430a.mo25409a(String.format("Connecting to target: %s", this.f88433d.f107874c), new Object[0]);
+        f88430a.logVerbose(String.format("Connecting to target: %s", this.f88433d.f107874c), new Object[0]);
         if (cgql.m146579d()) {
             this.f88432c.mo48360a(new ConnectionRequest(this.f88433d, this.f88435f, null, null, null, this.f88434e), this.f88437h).mo50372a(new arxd(this));
             return;
@@ -65,7 +65,7 @@ public final class arxy extends Fragment {
     }
 
     public final void onDestroy() {
-        f88430a.mo25409a("onDestroy", new Object[0]);
+        f88430a.logVerbose("onDestroy", new Object[0]);
         super.onDestroy();
     }
 

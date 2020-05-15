@@ -48,7 +48,7 @@ public class arap implements armu {
         aqxm.m72204e();
         aray aray = this.f87225b;
         aray.f87241d.mo25412b("Connected to target device.", new Object[0]);
-        sdo.m34966a(aqzo, "deviceMessageSender cannot be null.");
+        sdo.checkIfNull(aqzo, "deviceMessageSender cannot be null.");
         aray.f87243f = aqzo;
     }
 

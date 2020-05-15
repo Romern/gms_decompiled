@@ -10,7 +10,7 @@ import java.util.concurrent.TimeoutException;
 public final class ikf {
 
     /* renamed from: d */
-    public static final sek f21178d = new sek("TransactionBackend");
+    public static final Logger f21178d = new Logger("TransactionBackend");
 
     /* renamed from: a */
     public final ijk f21179a;
@@ -78,10 +78,10 @@ public final class ikf {
         iir.f21069d = 4;
         iir.f21068c = (long) i;
         iir.mo13046a();
-        sek sek = f21178d;
+        Logger Logger = f21178d;
         StringBuilder sb = new StringBuilder(48);
         sb.append("Error sending message to server. Try ");
         sb.append(i + 1);
-        sek.mo25417e(sb.toString(), exc, new Object[0]);
+        Logger.mo25417e(sb.toString(), exc, new Object[0]);
     }
 }

@@ -12,7 +12,7 @@ import java.util.List;
 public final class itv extends aaab {
 
     /* renamed from: f */
-    private static final sek f21724f = new sek(new String[]{"InvalidateCustomKeyOperation"}, (byte[]) null);
+    private static final Logger f21724f = new Logger(new String[]{"InvalidateCustomKeyOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final irt f21725a;
@@ -46,12 +46,12 @@ public final class itv extends aaab {
         try {
             this.f21725a.mo13303a(new KeyInvalidationResult(1, ito.m16125a(new itd(context, this.f21726b, Arrays.asList(this.f21727c), null, this.f21728d, null, null, null, null, this.f21729e).mo13332a().f14968a)));
         } catch (ehf e) {
-            sek sek = f21724f;
+            Logger Logger = f21724f;
             String valueOf = String.valueOf(e.f14947a);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 54);
             sb.append("Failed to perform custom key invalidation. StatusCode=");
             sb.append(valueOf);
-            sek.mo25415d(sb.toString(), e, new Object[0]);
+            Logger.mo25415d(sb.toString(), e, new Object[0]);
             this.f21725a.mo13304a(ito.m16125a(e.f14947a));
         }
     }

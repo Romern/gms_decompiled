@@ -22,7 +22,7 @@ final class byrb {
         try {
             byrz a = m125174a(bArr, secretKey);
             if (bysa.DEVICE_TO_DEVICE_RESPONDER_HELLO_PAYLOAD.equals(a.f167530a)) {
-                return (byri) bxvk.m124014a(byri.f167474d, a.f167531b);
+                return (byri) GeneratedMessageLite.m124014a(byri.f167474d, a.f167531b);
             }
             throw new SignatureException("wrong message type in responder hello");
         } catch (bxwf e) {
@@ -40,7 +40,7 @@ final class byrb {
             throw null;
         } else if (secretKey != null) {
             try {
-                bytd a = bysw.m125311a((byti) bxvk.m124014a(byti.f167671d, bArr), secretKey, byss.HMAC_SHA256, secretKey, bysr.AES_256_CBC);
+                bytd a = bysw.m125311a((byti) GeneratedMessageLite.m124014a(byti.f167671d, bArr), secretKey, byss.HMAC_SHA256, secretKey, bysr.AES_256_CBC);
                 bytc bytc = a.f167661b;
                 if (bytc == null) {
                     bytc = bytc.f167647i;
@@ -50,14 +50,14 @@ final class byrb {
                     if (bytc2 == null) {
                         bytc2 = bytc.f167647i;
                     }
-                    byrv byrv = (byrv) bxvk.m124007a(byrv.f167517d, bytc2.f167655g);
+                    byrv byrv = (byrv) GeneratedMessageLite.m124007a(byrv.f167517d, bytc2.f167655g);
                     int i = 1;
                     if (byrv.f167521c <= 1) {
                         int a2 = byrx.m125235a(byrv.f167520b);
                         if (a2 != 0) {
                             i = a2;
                         }
-                        return new byrz(bysa.m125238b(i), a.f167662c.mo73780k());
+                        return new byrz(bysa.m125238b(i), a.f167662c.getKey());
                     }
                     throw new SignatureException("Unsupported protocol version");
                 }
@@ -109,11 +109,11 @@ final class byrb {
                 byrv.f167520b = i2;
                 byrv.f167519a |= 1;
                 byrv.m125232a(byrv);
-                bysv.mo74501b(((byrv) da.mo74062i()).mo73642k());
+                bysv.mo74501b(((byrv) da.mo74062i()).serializeToBytes());
                 if (bArr != null) {
                     bysv.mo74500a(bArr);
                 }
-                return bysv.mo74498a(secretKey, byss.HMAC_SHA256, secretKey, bysr.AES_256_CBC, byrz.f167531b).mo73642k();
+                return bysv.mo74498a(secretKey, byss.HMAC_SHA256, secretKey, bysr.AES_256_CBC, byrz.f167531b).serializeToBytes();
             }
             throw null;
         }

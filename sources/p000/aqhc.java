@@ -17,12 +17,12 @@ final /* synthetic */ class aqhc implements bizt {
     public final void mo47885a(bizl bizl) {
         GoogleServicesChimeraActivity googleServicesChimeraActivity = this.f86103a;
         if (!(bizl instanceof Item)) {
-            sek sek = GoogleServicesChimeraActivity.f107625c;
+            Logger Logger = GoogleServicesChimeraActivity.f107625c;
             String valueOf = String.valueOf(bizl);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 32);
             sb.append("item is not an instanceof Item: ");
             sb.append(valueOf);
-            sek.mo25418e(sb.toString(), new Object[0]);
+            Logger.mo25418e(sb.toString(), new Object[0]);
             return;
         }
         googleServicesChimeraActivity.mo58956a((String) null, ((Item) bizl).f151489c);

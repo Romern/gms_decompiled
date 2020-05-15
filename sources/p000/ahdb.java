@@ -72,7 +72,7 @@ public abstract class ahdb extends ahcy {
         buzk.f155393a = i;
         buzk.f155396d = 3;
         buzk.f155393a = i | 4;
-        bxtx a = bxtx.m123258a(str);
+        ByteString a = ByteString.m123258a(str);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

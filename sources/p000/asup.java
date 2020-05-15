@@ -107,7 +107,7 @@ public final class asup extends asum {
         bnsl a = f89763a.mo26019b(aske.m74275a());
         a.mo68432a("asup", "b", 597, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
         a.mo68405a("Reporting tap to server");
-        context.startService(IntentOperation.getStartIntent(context, "com.google.android.gms.tapandpay.tapreporting.TapLocationReportingIntentOperation", "com.google.android.gms.tapandpay.tapreporting.TAP_LOCATION_ACTION").putExtra("account_id_extra", asqw.f89440d).putExtra("account_name_extra", asqw.f89441e).putExtra("tap_info_extra", btqp.mo73642k()));
+        context.startService(IntentOperation.getStartIntent(context, "com.google.android.gms.tapandpay.tapreporting.TapLocationReportingIntentOperation", "com.google.android.gms.tapandpay.tapreporting.TAP_LOCATION_ACTION").putExtra("account_id_extra", asqw.f89440d).putExtra("account_name_extra", asqw.f89441e).putExtra("tap_info_extra", btqp.serializeToBytes()));
     }
 
     /* renamed from: b */
@@ -260,7 +260,7 @@ public final class asup extends asum {
                 btqq = btqq.f150008w;
             }
             bxvd bxvd3 = (bxvd) btqq.mo74142c(5);
-            bxvd3.mo73625a((bxvk) btqq);
+            bxvd3.mo73625a((GeneratedMessageLite) btqq);
             for (Integer num : asrb.f89474a.f89482a.keySet()) {
                 int intValue = num.intValue();
                 byte[] a = asrb.mo49400a(intValue);
@@ -469,7 +469,7 @@ public final class asup extends asum {
                             btql = btql.f149970i;
                         }
                         bxvd bxvd4 = (bxvd) btql.mo74142c(5);
-                        bxvd4.mo73625a((bxvk) btql);
+                        bxvd4.mo73625a((GeneratedMessageLite) btql);
                         String a18 = asti.m74760a(a);
                         if (bxvd4.f164950c) {
                             bxvd4.mo74035c();
@@ -564,7 +564,7 @@ public final class asup extends asum {
                 btqp btqp2 = btqp.f149992o;
                 a.getClass();
                 if (!btqp.f150006m.mo73666a()) {
-                    btqp.f150006m = bxvk.m124021a(btqp.f150006m);
+                    btqp.f150006m = GeneratedMessageLite.m124021a(btqp.f150006m);
                 }
                 btqp.f150006m.add(a);
                 return;
@@ -579,7 +579,7 @@ public final class asup extends asum {
                         btql2 = btql.f149970i;
                     }
                     bxvd bxvd3 = (bxvd) btql2.mo74142c(5);
-                    bxvd3.mo73625a((bxvk) btql2);
+                    bxvd3.mo73625a((GeneratedMessageLite) btql2);
                     bozu a2 = bozu.m111702a(((bozw) bxvd.f164949b).f135431H);
                     if (a2 == null) {
                         a2 = bozu.UNKNOWN_TAP_PATH;
@@ -630,7 +630,7 @@ public final class asup extends asum {
                     btql4 = btql.f149970i;
                 }
                 bxvd bxvd4 = (bxvd) btql4.mo74142c(5);
-                bxvd4.mo73625a((bxvk) btql4);
+                bxvd4.mo73625a((GeneratedMessageLite) btql4);
                 String a5 = asti.m74760a(bArr);
                 if (bxvd4.f164950c) {
                     bxvd4.mo74035c();
@@ -653,7 +653,7 @@ public final class asup extends asum {
                     btql6 = btql.f149970i;
                 }
                 bxvd bxvd5 = (bxvd) btql6.mo74142c(5);
-                bxvd5.mo73625a((bxvk) btql6);
+                bxvd5.mo73625a((GeneratedMessageLite) btql6);
                 int a6 = (int) asuv.m74875a(bArr);
                 if (bxvd5.f164950c) {
                     bxvd5.mo74035c();
@@ -675,7 +675,7 @@ public final class asup extends asum {
                     btql8 = btql.f149970i;
                 }
                 bxvd bxvd6 = (bxvd) btql8.mo74142c(5);
-                bxvd6.mo73625a((bxvk) btql8);
+                bxvd6.mo73625a((GeneratedMessageLite) btql8);
                 String a7 = asti.m74760a(bArr);
                 if (bxvd6.f164950c) {
                     bxvd6.mo74035c();
@@ -698,7 +698,7 @@ public final class asup extends asum {
                     btql10 = btql.f149970i;
                 }
                 bxvd bxvd7 = (bxvd) btql10.mo74142c(5);
-                bxvd7.mo73625a((bxvk) btql10);
+                bxvd7.mo73625a((GeneratedMessageLite) btql10);
                 int a8 = (int) asuv.m74875a(bArr);
                 if (bxvd7.f164950c) {
                     bxvd7.mo74035c();
@@ -720,7 +720,7 @@ public final class asup extends asum {
                     btql12 = btql.f149970i;
                 }
                 bxvd bxvd8 = (bxvd) btql12.mo74142c(5);
-                bxvd8.mo73625a((bxvk) btql12);
+                bxvd8.mo73625a((GeneratedMessageLite) btql12);
                 String a9 = asti.m74760a(bArr);
                 if (bxvd8.f164950c) {
                     bxvd8.mo74035c();
@@ -751,7 +751,7 @@ public final class asup extends asum {
                     btql14 = btql.f149970i;
                 }
                 bxvd bxvd9 = (bxvd) btql14.mo74142c(5);
-                bxvd9.mo73625a((bxvk) btql14);
+                bxvd9.mo73625a((GeneratedMessageLite) btql14);
                 String a11 = asti.m74760a(bArr);
                 if (bxvd9.f164950c) {
                     bxvd9.mo74035c();
@@ -788,7 +788,7 @@ public final class asup extends asum {
                     btql17 = btql.f149970i;
                 }
                 bxvd bxvd10 = (bxvd) btql17.mo74142c(5);
-                bxvd10.mo73625a((bxvk) btql17);
+                bxvd10.mo73625a((GeneratedMessageLite) btql17);
                 String a12 = asti.m74760a(bArr);
                 if (bxvd10.f164950c) {
                     bxvd10.mo74035c();
@@ -820,7 +820,7 @@ public final class asup extends asum {
             bxvd2 = btqq.f150008w.mo74144da();
         } else {
             bxvd bxvd3 = (bxvd) btqq.mo74142c(5);
-            bxvd3.mo73625a((bxvk) btqq);
+            bxvd3.mo73625a((GeneratedMessageLite) btqq);
             bxvd2 = bxvd3;
         }
         if (bxvd2.f164950c) {
@@ -1235,7 +1235,7 @@ public final class asup extends asum {
                         str4.getClass();
                         btqp.f149994a = str4;
                         if (!btqp.f149998e.mo73666a()) {
-                            btqp.f149998e = bxvk.m124021a(btqp.f149998e);
+                            btqp.f149998e = GeneratedMessageLite.m124021a(btqp.f149998e);
                         }
                         bxsy.m123078a(arrayList, btqp.f149998e);
                         if (da2.f164950c) {
@@ -1288,7 +1288,7 @@ public final class asup extends asum {
                             ((btiy) da4.f164949b).f149056a = a6;
                             byte[] bArr = cardInfo.f108341b;
                             if (bArr != null) {
-                                bxtx a7 = bxtx.m123261a(bArr);
+                                ByteString a7 = ByteString.m123261a(bArr);
                                 if (da4.f164950c) {
                                     da4.mo74035c();
                                     da4.f164950c = false;
@@ -1436,7 +1436,7 @@ public final class asup extends asum {
                                 bnsl a10 = f89763a.mo26019b(aske.m74275a());
                                 a10.mo68432a("asup", "b", 597, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                                 a10.mo68405a("Reporting tap to server");
-                                context2.startService(IntentOperation.getStartIntent(context2, "com.google.android.gms.tapandpay.tapreporting.TapLocationReportingIntentOperation", "com.google.android.gms.tapandpay.tapreporting.TAP_LOCATION_ACTION").putExtra("account_id_extra", asqw2.f89440d).putExtra("account_name_extra", asqw2.f89441e).putExtra("tap_info_extra", ((btqp) bxvd2.mo74062i()).mo73642k()));
+                                context2.startService(IntentOperation.getStartIntent(context2, "com.google.android.gms.tapandpay.tapreporting.TapLocationReportingIntentOperation", "com.google.android.gms.tapandpay.tapreporting.TAP_LOCATION_ACTION").putExtra("account_id_extra", asqw2.f89440d).putExtra("account_name_extra", asqw2.f89441e).putExtra("tap_info_extra", ((btqp) bxvd2.mo74062i()).serializeToBytes()));
                             }
                         }
                         int i33 = ((btqp) bxvd2.f164949b).f150005l;
@@ -1455,11 +1455,11 @@ public final class asup extends asum {
                                 bnsl2.mo68405a("Null card info or account, not reporting tap");
                                 return;
                             }
-                            Intent putExtra = new Intent("com.google.android.gms.STORE_TAP").putExtra("account_id_extra", asqw2.f89440d).putExtra("card_info_extra", asqw2.f89457u).putExtra("tap_info_extra", btqp2.mo73642k());
+                            Intent putExtra = new Intent("com.google.android.gms.STORE_TAP").putExtra("account_id_extra", asqw2.f89440d).putExtra("card_info_extra", asqw2.f89457u).putExtra("tap_info_extra", btqp2.serializeToBytes());
                             atxn.m76508c(context2, putExtra);
                             atxn.m76509d(context2, putExtra);
                             if (cgwn.f187872a.mo6606a().mo84642w() && (startIntent = IntentOperation.getStartIntent(context2, "com.google.android.gms.pay.transactions.data.StoreTapIntentOperation", "com.google.android.gms.STORE_TAP")) != null) {
-                                startIntent.putExtra("card_info_extra", asqw2.f89457u).putExtra("tap_info_extra", btqp2.mo73642k());
+                                startIntent.putExtra("card_info_extra", asqw2.f89457u).putExtra("tap_info_extra", btqp2.serializeToBytes());
                                 context2.startService(startIntent);
                                 return;
                             }
@@ -1498,11 +1498,11 @@ public final class asup extends asum {
             bnsl.mo68405a("Null card info or account, not reporting tap");
             return;
         }
-        Intent putExtra = new Intent("com.google.android.gms.STORE_TAP").putExtra("account_id_extra", asqw.f89440d).putExtra("card_info_extra", asqw.f89457u).putExtra("tap_info_extra", btqp.mo73642k());
+        Intent putExtra = new Intent("com.google.android.gms.STORE_TAP").putExtra("account_id_extra", asqw.f89440d).putExtra("card_info_extra", asqw.f89457u).putExtra("tap_info_extra", btqp.serializeToBytes());
         atxn.m76508c(context, putExtra);
         atxn.m76509d(context, putExtra);
         if (cgwn.f187872a.mo6606a().mo84642w() && (startIntent = IntentOperation.getStartIntent(context, "com.google.android.gms.pay.transactions.data.StoreTapIntentOperation", "com.google.android.gms.STORE_TAP")) != null) {
-            startIntent.putExtra("card_info_extra", asqw.f89457u).putExtra("tap_info_extra", btqp.mo73642k());
+            startIntent.putExtra("card_info_extra", asqw.f89457u).putExtra("tap_info_extra", btqp.serializeToBytes());
             context.startService(startIntent);
         }
     }

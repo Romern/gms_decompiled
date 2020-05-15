@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buzo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buzo extends bxvk implements bxxd {
+public final class buzo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buzo f155407d;
@@ -25,7 +25,7 @@ public final class buzo extends bxvk implements bxxd {
     static {
         buzo buzo = new buzo();
         f155407d = buzo;
-        bxvk.m124024a(buzo.class, buzo);
+        GeneratedMessageLite.m124024a(buzo.class, buzo);
     }
 
     private buzo() {
@@ -46,7 +46,7 @@ public final class buzo extends bxvk implements bxxd {
             this.f155412e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f155407d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ဈ\u0000\u0002ᐉ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f155407d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ဈ\u0000\u0002ᐉ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new buzo();
         } else {

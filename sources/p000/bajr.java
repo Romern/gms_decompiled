@@ -57,7 +57,7 @@ public final class bajr extends cazu {
                 if (byhd2 == null) {
                     byhd2 = byhd.f166431c;
                 }
-                bxtx.m123258a(byhd2.f166434b).mo73780k();
+                ByteString.m123258a(byhd2.f166434b).getKey();
             }
             bafh.mo55657e();
             bafh.mo55745a(b, byjj);

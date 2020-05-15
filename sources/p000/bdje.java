@@ -600,7 +600,7 @@ public final class bdje {
         }
         cimv cimv54 = (cimv) cimu.mo74062i();
         bxvd bxvd = (bxvd) cimv54.mo74142c(5);
-        bxvd.mo73625a((bxvk) cimv54);
+        bxvd.mo73625a((GeneratedMessageLite) cimv54);
         cimu cimu2 = (cimu) bxvd;
         bdjp bdjp = bdkc.f105784b;
         Collections.unmodifiableList(((cimv) cimu2.f164949b).f190835g);

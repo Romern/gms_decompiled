@@ -69,7 +69,7 @@ public class SeedingIntentOperation extends IntentOperation {
                     sb.append(length);
                     Log.i("SeedingIntentOperation", sb.toString());
                     fileInputStream = new FileInputStream(file);
-                    eno eno = (eno) bxvk.m124011a(eno.f15330e, fileInputStream, bxus.m123744c());
+                    eno eno = (eno) GeneratedMessageLite.m124011a(eno.f15330e, fileInputStream, bxus.m123744c());
                     fileInputStream.close();
                     zre c = yzp.m45078a(getApplicationContext()).mo30877c(stringExtra);
                     caaq a = zvn.m46574a(this);
@@ -121,7 +121,7 @@ public class SeedingIntentOperation extends IntentOperation {
                         for (cadn cadn : cadp.f172714c) {
                             long j2 = nanos;
                             bxvd bxvd = (bxvd) cadn.mo74142c(5);
-                            bxvd.mo73625a((bxvk) cadn);
+                            bxvd.mo73625a((GeneratedMessageLite) cadn);
                             cadm cadm = (cadm) bxvd;
                             cadn cadn2 = (cadn) cadm.f164949b;
                             if ((cadn2.f172701a & 1) != 0) {

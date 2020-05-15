@@ -15,7 +15,7 @@ import java.util.List;
 public final class hju extends hwh implements aaai {
 
     /* renamed from: a */
-    public static final sek f19915a = ght.m13172b("IdentityGisInternalServiceImpl");
+    public static final Logger f19915a = ght.m13172b("IdentityGisInternalServiceImpl");
 
     /* renamed from: b */
     private final Context f19916b;

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abpr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abpr extends bxvk implements bxxd {
+public final class abpr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final abpr f57891d;
@@ -22,7 +22,7 @@ public final class abpr extends bxvk implements bxxd {
     static {
         abpr abpr = new abpr();
         f57891d = abpr;
-        bxvk.m124024a(abpr.class, abpr);
+        GeneratedMessageLite.m124024a(abpr.class, abpr);
     }
 
     private abpr() {
@@ -39,7 +39,7 @@ public final class abpr extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57891d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002င\u0000", new Object[]{"a", "b", abpx.class, "c"});
+            return GeneratedMessageLite.m124022a(f57891d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002င\u0000", new Object[]{"a", "b", abpx.class, "c"});
         } else if (i2 == 3) {
             return new abpr();
         } else {
@@ -66,7 +66,7 @@ public final class abpr extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo32277a() {
         if (!this.f57894b.mo73666a()) {
-            this.f57894b = bxvk.m124021a(this.f57894b);
+            this.f57894b = GeneratedMessageLite.m124021a(this.f57894b);
         }
     }
 }

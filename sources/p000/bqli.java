@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bqli */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bqli extends bxvk implements bxxd {
+public final class bqli extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bqli f141098e;
@@ -25,7 +25,7 @@ public final class bqli extends bxvk implements bxxd {
     static {
         bqli bqli = new bqli();
         f141098e = bqli;
-        bxvk.m124024a(bqli.class, bqli);
+        GeneratedMessageLite.m124024a(bqli.class, bqli);
     }
 
     private bqli() {
@@ -42,7 +42,7 @@ public final class bqli extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f141098e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002\t\u0003Ȉ\u0004Ȉ", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f141098e, "\u0000\u0004\u0000\u0000\u0001\u0004\u0004\u0000\u0000\u0000\u0001Ȉ\u0002\t\u0003Ȉ\u0004Ȉ", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bqli();
         } else {

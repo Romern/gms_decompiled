@@ -308,7 +308,7 @@ public class SetBackupAccountFlowChimeraActivity extends Activity implements muz
             bxvd da6 = bssi.f146862i.mo74144da();
             bsqh bsqh = this.f29081b;
             bxvd bxvd = (bxvd) bsqh.mo74142c(5);
-            bxvd.mo73625a((bxvk) bsqh);
+            bxvd.mo73625a((GeneratedMessageLite) bsqh);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;

@@ -110,7 +110,7 @@ public final class aaic {
         try {
             fileInputStream = new FileInputStream(file);
             try {
-                byte[] k = bxtx.m123256a(fileInputStream).mo73780k();
+                byte[] k = ByteString.m123256a(fileInputStream).getKey();
                 srz.m36171a((Closeable) fileInputStream);
                 return k;
             } catch (IOException e) {

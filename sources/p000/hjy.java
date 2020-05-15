@@ -22,7 +22,7 @@ final /* synthetic */ class hjy implements Callable {
     public final Object call() {
         bqgg bqgg = this.f19924a;
         bqgg bqgg2 = this.f19925b;
-        sek sek = hkh.f19936a;
+        Logger Logger = hkh.f19936a;
         bngs j = bngx.m109377j();
         bngs j2 = bngx.m109377j();
         j2.mo67666b((Iterable) bqga.m112780a((Future) bqgg));

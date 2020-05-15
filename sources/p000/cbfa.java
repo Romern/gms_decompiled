@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbfa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbfa extends bxvk implements bxxd {
+public final class cbfa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbfa f176878a;
@@ -13,7 +13,7 @@ public final class cbfa extends bxvk implements bxxd {
     static {
         cbfa cbfa = new cbfa();
         f176878a = cbfa;
-        bxvk.m124024a(cbfa.class, cbfa);
+        GeneratedMessageLite.m124024a(cbfa.class, cbfa);
     }
 
     private cbfa() {
@@ -30,7 +30,7 @@ public final class cbfa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176878a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f176878a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbfa();

@@ -59,7 +59,7 @@ public final class aazy extends DialogFragment {
             this.f56913c = bundle.getString("metrics_url");
             this.f56917g = (HelpConfig) bundle.getParcelable("EXTRA_HELP_CONFIG");
             try {
-                this.f56914d = (bzpb) bxvk.m124016a(bzpb.f170891d, bundle.getByteArray("setting_action_definition"), bxus.m123744c());
+                this.f56914d = (bzpb) GeneratedMessageLite.m124016a(bzpb.f170891d, bundle.getByteArray("setting_action_definition"), bxus.m123744c());
             } catch (bxwf e) {
                 Log.e("gH_SettingActionDialog", "Failed to parse AndroidSettingDefinition proto", e);
             }
@@ -134,7 +134,7 @@ public final class aazy extends DialogFragment {
         }
         bzpb bzpb = this.f56914d;
         if (bzpb != null) {
-            bundle.putByteArray("setting_action_definition", bzpb.mo73642k());
+            bundle.putByteArray("setting_action_definition", bzpb.serializeToBytes());
         }
         if (!TextUtils.isEmpty(this.f56913c)) {
             bundle.putString("metrics_url", this.f56913c);

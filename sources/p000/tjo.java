@@ -75,7 +75,7 @@ public final class tjo {
     /* renamed from: a */
     public final void mo26590a(byte[] bArr) {
         bxvd bxvd = this.f46202b;
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

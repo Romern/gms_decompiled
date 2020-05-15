@@ -28,7 +28,7 @@ public final class ahwk {
     public final Set f68227c = new HashSet();
 
     /* renamed from: d */
-    public bxtx f68228d = null;
+    public ByteString f68228d = null;
 
     /* renamed from: e */
     private final Context f68229e;
@@ -78,7 +78,7 @@ public final class ahwk {
     private final void m56785d(BatteryAdvertisement batteryAdvertisement) {
         TrueWirelessHeadset a;
         if (cfoj.f184966a.mo6606a().mo82062M()) {
-            bxtx bxtx = this.f68228d;
+            ByteString bxtx = this.f68228d;
             if ((bxtx == null || !bxtx.equals(batteryAdvertisement.f80509f)) && batteryAdvertisement.f80506c) {
                 int i = batteryAdvertisement.f80522s;
                 if (i == 0) {
@@ -88,7 +88,7 @@ public final class ahwk {
                     this.f68225a.mo37241a(batteryAdvertisement.f80504a);
                 }
             }
-            bxtx bxtx2 = this.f68228d;
+            ByteString bxtx2 = this.f68228d;
             if (bxtx2 != null) {
                 if (bxtx2.equals(batteryAdvertisement.f80509f)) {
                     buqh buqh = (buqh) ahgz.m55754a(this.f68229e, buqh.class);
@@ -187,7 +187,7 @@ public final class ahwk {
      */
     /* JADX WARNING: Code restructure failed: missing block: B:30:?, code lost:
         r0 = r0.mo73764h();
-        r5 = (p000.bxvk) r5.mo74142c(4);
+        r5 = (p000.GeneratedMessageLite) r5.mo74142c(4);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:32:?, code lost:
         r6 = p000.bxxm.f165037a.mo74228a(r5);
@@ -198,7 +198,7 @@ public final class ahwk {
         r0.mo73787a(0);
      */
     /* JADX WARNING: Code restructure failed: missing block: B:37:?, code lost:
-        p000.bxvk.m124027b(r5);
+        p000.GeneratedMessageLite.m124027b(r5);
         r0 = (p000.aiaa) r5;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:38:0x00b6, code lost:
@@ -265,7 +265,7 @@ public final class ahwk {
             return null;
         }
         ((bnsl) ahsd.f67925a.mo68390d()).mo68420a("FastPairBattery: query battery advertisement, address: %s", str);
-        bxtx bxtx = a.f68429c;
+        ByteString bxtx = a.f68429c;
         synchronized (this) {
             b = mo37236b(bxtx);
         }
@@ -328,7 +328,7 @@ public final class ahwk {
 
     /* access modifiers changed from: package-private */
     /* renamed from: b */
-    public final BatteryAdvertisement mo37236b(bxtx bxtx) {
+    public final BatteryAdvertisement mo37236b(ByteString bxtx) {
         return (BatteryAdvertisement) this.f68226b.get(bxtx);
     }
 
@@ -339,7 +339,7 @@ public final class ahwk {
     public final synchronized void mo37237b(BatteryAdvertisement batteryAdvertisement) {
         boolean z;
         if (batteryAdvertisement.f80505b.length == 3) {
-            bxtx bxtx = batteryAdvertisement.f80509f;
+            ByteString bxtx = batteryAdvertisement.f80509f;
             if (bxtx == null) {
                 ((bnsl) ahsd.f67925a.mo68388c()).mo68420a("FastPairBattery: invalid batteryAdvertisement when updateCache, %s", batteryAdvertisement);
                 batteryAdvertisement = null;
@@ -409,7 +409,7 @@ public final class ahwk {
     }
 
     /* renamed from: a */
-    public final synchronized void mo37232a(bxtx bxtx) {
+    public final synchronized void mo37232a(ByteString bxtx) {
         BatteryAdvertisement batteryAdvertisement = (BatteryAdvertisement) this.f68226b.remove(bxtx);
         if (bxtx.equals(this.f68228d)) {
             ((bnsl) ahsd.f67925a.mo68390d()).mo68405a("FastPairBattery: Dismiss battery notification when adv removed");
@@ -421,7 +421,7 @@ public final class ahwk {
         return;
      */
     /* renamed from: a */
-    public final synchronized void mo37233a(bxtx bxtx, String str) {
+    public final synchronized void mo37233a(ByteString bxtx, String str) {
         BatteryAdvertisement b = mo37236b(bxtx);
         if (b == null) {
             ((bnsl) ahsd.f67925a.mo68390d()).mo68405a("FastPairBattery: no cached battery advertisement when device name is changed");

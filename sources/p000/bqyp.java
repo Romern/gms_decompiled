@@ -8,7 +8,7 @@ public final class bqyp extends bxvd implements bxxd {
     }
 
     /* renamed from: a */
-    public final void mo69467a(bxtx bxtx) {
+    public final void mo69467a(ByteString bxtx) {
         if (this.f164950c) {
             mo74035c();
             this.f164950c = false;

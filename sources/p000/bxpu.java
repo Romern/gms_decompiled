@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bxpu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bxpu extends bxvk implements bxxd {
+public final class bxpu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bxpu f164309d;
@@ -22,7 +22,7 @@ public final class bxpu extends bxvk implements bxxd {
     static {
         bxpu bxpu = new bxpu();
         f164309d = bxpu;
-        bxvk.m124024a(bxpu.class, bxpu);
+        GeneratedMessageLite.m124024a(bxpu.class, bxpu);
     }
 
     private bxpu() {
@@ -39,7 +39,7 @@ public final class bxpu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f164309d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001", new Object[]{"a", "b", bxqc.m122976b(), "c"});
+            return GeneratedMessageLite.m124022a(f164309d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001", new Object[]{"a", "b", bxqc.m122976b(), "c"});
         } else if (i2 == 3) {
             return new bxpu();
         } else {

@@ -184,7 +184,7 @@ public final class aklk {
     public final void mo39540a(Network network) {
         String str;
         boolean z;
-        sdo.m34966a(this.f72202d, "WfaNetworkStatusClient can not be null in network available callback.");
+        sdo.checkIfNull(this.f72202d, "WfaNetworkStatusClient can not be null in network available callback.");
         synchronized (this.f72204f) {
             if (this.f72205g == null) {
                 this.f72205g = network;

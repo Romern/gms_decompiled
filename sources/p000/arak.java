@@ -33,20 +33,20 @@ public final class arak implements Runnable {
             aral aral = this.f87204b.f107912a;
             String[] strArr = this.f87203a;
             if (strArr != null && aral.f87211g.containsAll(Arrays.asList(strArr))) {
-                aral.f87205a.mo25409a("Skipping broadcast. Already processed %s", Arrays.toString(this.f87203a));
+                aral.f87205a.logVerbose("Skipping broadcast. Already processed %s", Arrays.toString(this.f87203a));
                 return;
             }
         }
-        aral.f87205a.mo25409a("Handling authenticatorIds %s", Arrays.toString(this.f87203a));
+        aral.f87205a.logVerbose("Handling authenticatorIds %s", Arrays.toString(this.f87203a));
         aral aral2 = this.f87204b.f107912a;
         gtq gtq = new gtq();
         gtq.mo12204a(2);
         aucb a = aral2.f87207c.mo12200a(gtq.mo12203a());
         Status a2 = ascs.m73792a(a);
         AccountTransferMsg accountTransferMsg = a2.mo17710c() ? (AccountTransferMsg) a.mo50386d() : null;
-        aral.f87205a.mo25409a("exportAccounts(RETRIEVE_DATA) %s", a2);
+        aral.f87205a.logVerbose("exportAccounts(RETRIEVE_DATA) %s", a2);
         if (a2.f30115i == 20501) {
-            aral.f87205a.mo25409a("No data available", new Object[0]);
+            aral.f87205a.logVerbose("No data available", new Object[0]);
         } else if (accountTransferMsg != null) {
             ArrayList arrayList = accountTransferMsg.f10042c;
             ArrayList arrayList2 = new ArrayList();

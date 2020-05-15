@@ -80,7 +80,7 @@ public final class agtp extends aaab {
             String str = eventListenerRequest2.f80296b;
             boot a2 = a.mo35978a(18, "GTAF_Server", str != null ? str.length() == 0 ? new String("CLIENT_") : "CLIENT_".concat(str) : "CLIENT_TestInvalid");
             bxvd bxvd = (bxvd) a2.mo74142c(5);
-            bxvd.mo73625a((bxvk) a2);
+            bxvd.mo73625a((GeneratedMessageLite) a2);
             if (cfmq.m140238i()) {
                 agrl.m54945a(bxvd, eventListenerRequest2.f80300f);
             }

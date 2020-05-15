@@ -36,7 +36,7 @@ final class ayii extends ayfu {
             axvz a = axvz.m83357a(ayja.f97726e, this.f97661c);
             int i = this.f97662d;
             if (!Log.isLoggable("ChannelManager", 2)) {
-                sdo.m34966a(a, "token");
+                sdo.checkIfNull(a, "token");
                 axvr.mo53625a(new axvb(axvr, a, i));
                 this.f97663e.mo53461b(new CloseChannelResponse(0));
                 return;

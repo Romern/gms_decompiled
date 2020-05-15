@@ -11,7 +11,7 @@ import com.google.android.gms.common.ConnectionResult;
 public final class ijw implements rjz, rka {
 
     /* renamed from: e */
-    private static final sek f21152e = new sek("ProfilePictureFetcher");
+    private static final Logger f21152e = new Logger("ProfilePictureFetcher");
 
     /* renamed from: a */
     public int f21153a = 1;
@@ -54,12 +54,12 @@ public final class ijw implements rjz, rka {
 
     /* renamed from: a */
     public final void mo7249a(ConnectionResult connectionResult) {
-        sek sek = f21152e;
+        Logger Logger = f21152e;
         int i = connectionResult.f30065c;
         StringBuilder sb = new StringBuilder(60);
         sb.append("Failed to load Image due to connection failure : ");
         sb.append(i);
-        sek.mo25416d(sb.toString(), new Object[0]);
+        Logger.mo25416d(sb.toString(), new Object[0]);
     }
 
     /* renamed from: a */

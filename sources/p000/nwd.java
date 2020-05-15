@@ -138,7 +138,7 @@ final class nwd extends Thread {
                                 bpcn bpcn4 = (bpcn) da.f164949b;
                                 bpco2.getClass();
                                 if (!bpcn4.f135807g.mo73666a()) {
-                                    bpcn4.f135807g = bxvk.m124021a(bpcn4.f135807g);
+                                    bpcn4.f135807g = GeneratedMessageLite.m124021a(bpcn4.f135807g);
                                 }
                                 bpcn4.f135807g.add(bpco2);
                             }

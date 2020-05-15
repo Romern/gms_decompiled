@@ -82,7 +82,7 @@ public final class adag {
 
     /* renamed from: a */
     public final TokenRequest mo33282a() {
-        sdo.m34966a(this.f61202d.f10714j, "consumer should be set");
+        sdo.checkIfNull(this.f61202d.f10714j, "consumer should be set");
         int a = bsnw.m116023a(((bsoa) this.f61201c.f164949b).f146361i);
         boolean z = false;
         if (!(a == 0 || a == 1)) {
@@ -93,7 +93,7 @@ public final class adag {
         this.f61203e.putString("clientPackageName", "com.google.android.gms");
         Bundle bundle = this.f61203e;
         Bundle bundle2 = new Bundle();
-        bundle2.putByteArray("keyTokenRequestOptionsWrapperBundle", ((bsoa) this.f61201c.mo74062i()).mo73642k());
+        bundle2.putByteArray("keyTokenRequestOptionsWrapperBundle", ((bsoa) this.f61201c.mo74062i()).serializeToBytes());
         bundle.putBundle("keyTokenRequestOptionsAuthExtrasBundle", bundle2);
         TokenRequest tokenRequest = this.f61202d;
         tokenRequest.mo7638a(this.f61203e);

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bavs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bavs extends bxvk implements bxxd {
+public final class bavs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bavs f101923c;
@@ -19,7 +19,7 @@ public final class bavs extends bxvk implements bxxd {
     static {
         bavs bavs = new bavs();
         f101923c = bavs;
-        bxvk.m124024a(bavs.class, bavs);
+        GeneratedMessageLite.m124024a(bavs.class, bavs);
     }
 
     private bavs() {
@@ -36,7 +36,7 @@ public final class bavs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f101923c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f101923c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဇ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bavs();
         } else {

@@ -14,7 +14,7 @@ final class bxxs implements Iterator {
     /* renamed from: b */
     private bxtt f165052b;
 
-    public bxxs(bxtx bxtx) {
+    public bxxs(ByteString bxtx) {
         if (bxtx instanceof bxxu) {
             bxxu bxxu = (bxxu) bxtx;
             ArrayDeque arrayDeque = new ArrayDeque(bxxu.f165065g);
@@ -29,7 +29,7 @@ final class bxxs implements Iterator {
     }
 
     /* renamed from: a */
-    private final bxtt m124307a(bxtx bxtx) {
+    private final bxtt m124307a(ByteString bxtx) {
         while (bxtx instanceof bxxu) {
             bxxu bxxu = (bxxu) bxtx;
             this.f165051a.push(bxxu);

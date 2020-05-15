@@ -30,7 +30,7 @@ final class myv extends bzsu {
         StringBuilder sb = new StringBuilder(44);
         sb.append("Scotty bytes uploaded : ");
         sb.append(d);
-        lvn.mo25409a(sb.toString(), new Object[0]);
+        lvn.logVerbose(sb.toString(), new Object[0]);
     }
 
     /* renamed from: a */
@@ -105,7 +105,7 @@ final class myv extends bzsu {
             this.f34970a.f34973c.mo20318a();
             lvn lvn3 = myw.f34971a;
             String valueOf2 = String.valueOf(bzsb.mo74565a());
-            lvn3.mo25409a(valueOf2.length() == 0 ? new String("Scotty http response headers: ") : "Scotty http response headers: ".concat(valueOf2), new Object[0]);
+            lvn3.logVerbose(valueOf2.length() == 0 ? new String("Scotty http response headers: ") : "Scotty http response headers: ".concat(valueOf2), new Object[0]);
             if (ccnf.f179489a.mo6606a().mo76422P()) {
                 try {
                     InputStream inputStream = bzsb.f171222c;
@@ -115,7 +115,7 @@ final class myv extends bzsu {
                         bArr = null;
                     }
                     if (bArr != null) {
-                        myw.f34971a.mo25409a("Full response: %s", new String(bArr, StandardCharsets.UTF_8));
+                        myw.f34971a.logVerbose("Full response: %s", new String(bArr, StandardCharsets.UTF_8));
                     } else {
                         myw.f34971a.mo25418e("Response body is null", new Object[0]);
                     }

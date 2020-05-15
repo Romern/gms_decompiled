@@ -42,7 +42,7 @@ public final class biee extends bien {
     public final bpqk mo64564c() {
         bpqk c = bhqq.m101365c(5, this.f120388a);
         bxvd bxvd = (bxvd) c.mo74142c(5);
-        bxvd.mo73625a((bxvk) c);
+        bxvd.mo73625a((GeneratedMessageLite) c);
         bxvd da = bprb.f138816d.mo74144da();
         if (da.f164950c) {
             da.mo74035c();
@@ -90,7 +90,7 @@ public final class biee extends bien {
             str.getClass();
             bvmc.f156637a = i | 2;
             bvmc.f156639c = str;
-            bvmd bvmd = (bvmd) f.mo64492a(new bibc(sgv, str2, str3, "getPlacePhotoMetadata", ((bvmc) da.mo74062i()).mo73642k(), bvmd.f156640c, 9, 10266), placesParams);
+            bvmd bvmd = (bvmd) f.mo64492a(new bibc(sgv, str2, str3, "getPlacePhotoMetadata", ((bvmc) da.mo74062i()).serializeToBytes(), bvmd.f156640c, 9, 10266), placesParams);
             Context context3 = f.f120053a;
             if (bvmd != null) {
                 if (bvmd.f156643b.size() != 0) {

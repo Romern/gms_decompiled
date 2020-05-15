@@ -28,7 +28,7 @@ public class RemoveGeofencingRequest extends AbstractSafeParcelable {
 
     /* renamed from: a */
     public static RemoveGeofencingRequest m66873a(PendingIntent pendingIntent) {
-        sdo.m34966a(pendingIntent, "PendingIntent can not be null.");
+        sdo.checkIfNull(pendingIntent, "PendingIntent can not be null.");
         return new RemoveGeofencingRequest(null, pendingIntent, "");
     }
 

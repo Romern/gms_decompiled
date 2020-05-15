@@ -33,7 +33,7 @@ final class ayih extends ayfu {
             if (Log.isLoggable("ChannelManager", 2)) {
                 Log.v("ChannelManager", String.format("Posting closeChannel(%s)", a));
             }
-            sdo.m34966a(a, "token");
+            sdo.checkIfNull(a, "token");
             axvr.mo53625a(new axva(axvr, a));
             this.f97659d.mo53442a(new CloseChannelResponse(0));
         } catch (axvy e) {

@@ -422,7 +422,7 @@ final /* synthetic */ class asuo implements Runnable {
                         str5.getClass();
                         btqp.f149994a = str5;
                         if (!btqp.f149998e.mo73666a()) {
-                            btqp.f149998e = bxvk.m124021a(btqp.f149998e);
+                            btqp.f149998e = GeneratedMessageLite.m124021a(btqp.f149998e);
                         }
                         bxsy.m123078a(arrayList, btqp.f149998e);
                         if (da2.f164950c) {
@@ -474,7 +474,7 @@ final /* synthetic */ class asuo implements Runnable {
                             ((btiy) da4.f164949b).f149056a = a6;
                             byte[] bArr = cardInfo.f108341b;
                             if (bArr != null) {
-                                bxtx a7 = bxtx.m123261a(bArr);
+                                ByteString a7 = ByteString.m123261a(bArr);
                                 if (da4.f164950c) {
                                     da4.mo74035c();
                                     da4.f164950c = false;
@@ -620,7 +620,7 @@ final /* synthetic */ class asuo implements Runnable {
                                 bnsl a10 = asup.f89763a.mo26019b(aske.m74275a());
                                 a10.mo68432a("asup", "b", 597, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                                 a10.mo68405a("Reporting tap to server");
-                                context.startService(IntentOperation.getStartIntent(context, "com.google.android.gms.tapandpay.tapreporting.TapLocationReportingIntentOperation", "com.google.android.gms.tapandpay.tapreporting.TAP_LOCATION_ACTION").putExtra("account_id_extra", asqw.f89440d).putExtra("account_name_extra", asqw.f89441e).putExtra("tap_info_extra", ((btqp) da2.mo74062i()).mo73642k()));
+                                context.startService(IntentOperation.getStartIntent(context, "com.google.android.gms.tapandpay.tapreporting.TapLocationReportingIntentOperation", "com.google.android.gms.tapandpay.tapreporting.TAP_LOCATION_ACTION").putExtra("account_id_extra", asqw.f89440d).putExtra("account_name_extra", asqw.f89441e).putExtra("tap_info_extra", ((btqp) da2.mo74062i()).serializeToBytes()));
                             }
                         }
                         int i33 = ((btqp) da2.f164949b).f150005l;
@@ -633,11 +633,11 @@ final /* synthetic */ class asuo implements Runnable {
                                 bnsl2.mo68405a("Null card info or account, not reporting tap");
                                 return;
                             }
-                            Intent putExtra = new Intent(str6).putExtra("account_id_extra", asqw.f89440d).putExtra(str4, asqw.f89457u).putExtra("tap_info_extra", btqp2.mo73642k());
+                            Intent putExtra = new Intent(str6).putExtra("account_id_extra", asqw.f89440d).putExtra(str4, asqw.f89457u).putExtra("tap_info_extra", btqp2.serializeToBytes());
                             atxn.m76508c(context, putExtra);
                             atxn.m76509d(context, putExtra);
                             if (cgwn.f187872a.mo6606a().mo84642w() && (startIntent = IntentOperation.getStartIntent(context, "com.google.android.gms.pay.transactions.data.StoreTapIntentOperation", str6)) != null) {
-                                startIntent.putExtra(str4, asqw.f89457u).putExtra("tap_info_extra", btqp2.mo73642k());
+                                startIntent.putExtra(str4, asqw.f89457u).putExtra("tap_info_extra", btqp2.serializeToBytes());
                                 context.startService(startIntent);
                                 return;
                             }

@@ -35,7 +35,7 @@ public final class bica implements Callable {
         }
         bvui bvui = (bvui) da.f164949b;
         if (!bvui.f157696b.mo73666a()) {
-            bvui.f157696b = bxvk.m124020a(bvui.f157696b);
+            bvui.f157696b = GeneratedMessageLite.m124020a(bvui.f157696b);
         }
         bxsy.m123078a(arrayList, bvui.f157696b);
         bxvd da2 = bvny.f156984c.mo74144da();

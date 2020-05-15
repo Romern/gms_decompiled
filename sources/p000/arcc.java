@@ -28,9 +28,9 @@ final class arcc implements Runnable {
         armj.m73128a(ardc.f87413b, 5);
         arbt arbt = ardc.f87415d;
         if (!cgpg.m146451e()) {
-            sdo.m34966a(d2DDevice, "device should not be null.");
+            sdo.checkIfNull(d2DDevice, "device should not be null.");
         }
-        sdo.m34966a(arin, "bootstrapListener should not be null.");
+        sdo.checkIfNull(arin, "bootstrapListener should not be null.");
         if (!arbt.mo48381b()) {
             arbt.f87315a.mo25418e("No connection established. Before bootstrapping, you should connect to the device", new Object[0]);
             arbt.m72423d(arit, new Status(10567));
@@ -39,7 +39,7 @@ final class arcc implements Runnable {
             arbt.m72423d(arit, new Status(10561));
         } else {
             if (!cgpg.m146451e() || d2DDevice != null) {
-                sdo.m34966a(arbt.f87324j, "mTargetDevice should not be null!");
+                sdo.checkIfNull(arbt.f87324j, "mTargetDevice should not be null!");
                 if (!sdg.m34949a(d2DDevice.f107875d, arbt.f87324j.f107875d)) {
                     arbt.f87315a.mo25418e("Device that should be bootstrapped does not match device we're currently connected to.", new Object[0]);
                     arbt.m72423d(arit, new Status(10568));

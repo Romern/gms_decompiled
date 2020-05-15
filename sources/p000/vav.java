@@ -96,7 +96,7 @@ public final class vav implements vcf {
     /* renamed from: c */
     public static vav m39900c() {
         vav vav = f48882c;
-        sdo.m34966a(vav, "Must be inited before get");
+        sdo.checkIfNull(vav, "Must be inited before get");
         return vav;
     }
 

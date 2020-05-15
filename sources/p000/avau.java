@@ -78,7 +78,7 @@ public class avau extends avav {
     /* renamed from: a */
     public final bxvd mo51130a(bxss bxss) {
         bxvd bxvd = (bxvd) bxss.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxss);
+        bxvd.mo73625a((GeneratedMessageLite) bxss);
         String format = String.format(Locale.ENGLISH, "%d;%d", 201515000, Integer.valueOf(ModuleManager.get(this.f92882c).getCurrentModule().moduleVersion));
         if (bxvd.f164950c) {
             bxvd.mo74035c();

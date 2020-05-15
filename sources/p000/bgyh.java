@@ -97,7 +97,7 @@ public final class bgyh {
             return null;
         }
         try {
-            bgvv bgvv = (bgvv) bxvk.m124016a(bgvv.f117752d, bArr, bxus.m123744c());
+            bgvv bgvv = (bgvv) GeneratedMessageLite.m124016a(bgvv.f117752d, bArr, bxus.m123744c());
             ArrayList arrayList = new ArrayList();
             if ((2 & bgvv.f117754a) != 0) {
                 bxwc bxwc = bgvv.f117755b;

@@ -34,7 +34,7 @@ abstract class bcpz extends bcti {
     }
 
     /* renamed from: e */
-    public bxtx mo57196e() {
+    public ByteString mo57196e() {
         int a = mo57180a();
         String a2 = bctf.m89915a(a);
         if (a != 0) {

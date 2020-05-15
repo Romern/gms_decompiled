@@ -20,7 +20,7 @@ public final class khm implements Parcelable.Creator {
         byte[] createByteArray = parcel.createByteArray();
         if (createByteArray != null) {
             try {
-                kdg = (kdg) bxvk.m124014a(kdg.f23871j, createByteArray);
+                kdg = (kdg) GeneratedMessageLite.m124014a(kdg.f23871j, createByteArray);
             } catch (bxwf e) {
                 bnsl bnsl = (bnsl) PurchaseManagerResultTransformer.f11619a.mo68388c();
                 bnsl.mo68437a(e);

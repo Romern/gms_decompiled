@@ -27,7 +27,7 @@ import org.json.JSONObject;
 public abstract class xhp implements xzq {
 
     /* renamed from: m */
-    private static final sek f52302m = new sek(new String[]{"RequestController"}, (short[]) null);
+    private static final Logger f52302m = new Logger(new String[]{"RequestController"}, (short[]) null);
 
     /* renamed from: a */
     protected Handler f52303a = new adzt(Looper.getMainLooper());
@@ -110,22 +110,22 @@ public abstract class xhp implements xzq {
                 int i = 0;
                 while (true) {
                     if (i >= size) {
-                        sek sek = xzh.f53445b;
+                        Logger Logger = xzh.f53445b;
                         String valueOf = String.valueOf(a);
                         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 21);
                         sb.append("Returning transports ");
                         sb.append(valueOf);
-                        sek.mo25414c(sb.toString(), new Object[0]);
+                        Logger.mo25414c(sb.toString(), new Object[0]);
                         break;
                     }
                     List list2 = ((xfr) list.get(i)).f52138a.f31913d;
                     if (list2 != null && !list2.isEmpty()) {
-                        sek sek2 = xzh.f53445b;
+                        Logger logger2 = xzh.f53445b;
                         String valueOf2 = String.valueOf(list2);
                         StringBuilder sb2 = new StringBuilder(String.valueOf(valueOf2).length() + 35);
                         sb2.append("Adding transports from key handle: ");
                         sb2.append(valueOf2);
-                        sek2.mo25414c(sb2.toString(), new Object[0]);
+                        logger2.mo25414c(sb2.toString(), new Object[0]);
                         a.addAll(list2);
                         i++;
                     }
@@ -137,22 +137,22 @@ public abstract class xhp implements xzq {
                     if (b.isEmpty()) {
                         xzh.f53445b.mo25414c(String.format("Intersection of enabled transports %s and key handle transports %s is empty", xzh.f53446a, a), new Object[0]);
                     } else if (b.size() != 1) {
-                        sek sek3 = xzh.f53445b;
+                        Logger logger3 = xzh.f53445b;
                         String valueOf3 = String.valueOf(b);
                         StringBuilder sb3 = new StringBuilder(String.valueOf(valueOf3).length() + 49);
                         sb3.append("Enabled transports and key handles had ");
                         sb3.append(valueOf3);
                         sb3.append(" in common");
-                        sek3.mo25414c(sb3.toString(), new Object[0]);
+                        logger3.mo25414c(sb3.toString(), new Object[0]);
                     } else {
                         transport = (Transport) ((bnox) b).iterator().next();
-                        sek sek4 = xzh.f53445b;
+                        Logger logger4 = xzh.f53445b;
                         String valueOf4 = String.valueOf(transport);
                         StringBuilder sb4 = new StringBuilder(String.valueOf(valueOf4).length() + 49);
                         sb4.append("Enabled transports and key handles had ");
                         sb4.append(valueOf4);
                         sb4.append(" in common");
-                        sek4.mo25414c(sb4.toString(), new Object[0]);
+                        logger4.mo25414c(sb4.toString(), new Object[0]);
                     }
                 } else {
                     xzh.f53445b.mo25414c("Key handle had no transports", new Object[0]);
@@ -293,7 +293,7 @@ public abstract class xhp implements xzq {
             this.f52310h = new HashMap();
         }
         xfo d = this.f52306d.mo30224d();
-        bxtx a = d.mo29694a();
+        ByteString a = d.mo29694a();
         Iterator it = set.iterator();
         while (it.hasNext()) {
             Transport transport = (Transport) it.next();
@@ -305,7 +305,7 @@ public abstract class xhp implements xzq {
                     return;
                 }
                 if (d.f52132d == 2) {
-                    byte[] k = a.mo73780k();
+                    byte[] k = a.getKey();
                     bmxy.m108600b(d.f52132d == 2);
                     xfp xfp = (xfp) d;
                     xzb xzb = this.f52308f;

@@ -20,7 +20,7 @@ public final class his {
 
     /* renamed from: a */
     public final void mo12509a(boct boct) {
-        this.f19834a.mo24335a(boct.mo73642k()).mo24327b();
+        this.f19834a.mo24335a(boct.serializeToBytes()).mo24327b();
     }
 
     /* renamed from: a */

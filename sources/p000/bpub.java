@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpub */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpub extends bxvk implements bxxd {
+public final class bpub extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bpub f139226d;
@@ -22,7 +22,7 @@ public final class bpub extends bxvk implements bxxd {
     static {
         bpub bpub = new bpub();
         f139226d = bpub;
-        bxvk.m124024a(bpub.class, bpub);
+        GeneratedMessageLite.m124024a(bpub.class, bpub);
     }
 
     private bpub() {
@@ -40,7 +40,7 @@ public final class bpub extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139226d, "\u0001\u0002\u0000\u0001\u0001\u0004\u0002\u0000\u0001\u0000\u0001ဂ\u0000\u0004\u001b", new Object[]{"a", "b", "c", bpua.class});
+            return GeneratedMessageLite.m124022a(f139226d, "\u0001\u0002\u0000\u0001\u0001\u0004\u0002\u0000\u0001\u0000\u0001ဂ\u0000\u0004\u001b", new Object[]{"a", "b", "c", bpua.class});
         } else if (i2 == 3) {
             return new bpub();
         } else {

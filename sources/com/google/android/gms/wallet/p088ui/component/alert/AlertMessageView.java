@@ -90,7 +90,7 @@ public class AlertMessageView extends LinearLayout implements View.OnClickListen
             int a = bwhl.m121966a(bwhm2.f159529f);
             if (a == 0 || a == 1) {
                 bxvd bxvd = (bxvd) bwhm2.mo74142c(5);
-                bxvd.mo73625a((bxvk) bwhm2);
+                bxvd.mo73625a((GeneratedMessageLite) bwhm2);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -129,7 +129,7 @@ public class AlertMessageView extends LinearLayout implements View.OnClickListen
             this.f110491g = (bkbn) layoutInflater.inflate((int) C0126R.C0128layout.wallet_view_standard_button_basic, this.f110488d, false);
             if (((bmdb.f128769a & 8) == 0 || bmdb.f128773e.isEmpty()) && getContext().getString(C0126R.string.common_dismiss) != null) {
                 bxvd bxvd2 = (bxvd) bmdb.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bmdb);
+                bxvd2.mo73625a((GeneratedMessageLite) bmdb);
                 String string = getContext().getString(C0126R.string.common_dismiss);
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();

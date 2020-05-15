@@ -35,7 +35,7 @@ final /* synthetic */ class bgpy implements bgqb {
             da.f164950c = false;
         }
         ((buon) da.f164949b).f154555a = j;
-        bxtx bxtx = (bxtx) bgqc.f117266k.get();
+        ByteString bxtx = (ByteString) bgqc.f117266k.get();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

@@ -18,7 +18,7 @@ public final class cahw extends bxvd implements bxxd {
         cahz cahz2 = cahz.f174610h;
         cahv.getClass();
         if (!cahz.f174616e.mo73666a()) {
-            cahz.f174616e = bxvk.m124021a(cahz.f174616e);
+            cahz.f174616e = GeneratedMessageLite.m124021a(cahz.f174616e);
         }
         cahz.f174616e.add(cahv);
     }

@@ -17,7 +17,7 @@ final /* synthetic */ class bbnk implements bmxj {
         bbnu bbnu = (bbnu) obj;
         bbnu bbnu2 = this.f102951a.f102954b;
         bxvd bxvd = (bxvd) bbnu.mo74142c(5);
-        bxvd.mo73625a((bxvk) bbnu);
+        bxvd.mo73625a((GeneratedMessageLite) bbnu);
         bbnr bbnr = (bbnr) bxvd;
         Map b = bbnv.m88252b(bbnu2);
         for (Integer num : b.keySet()) {

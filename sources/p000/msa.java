@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: msa */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class msa extends bxvk implements bxxd {
+public final class msa extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final msa f34506g;
@@ -31,7 +31,7 @@ public final class msa extends bxvk implements bxxd {
     static {
         msa msa = new msa();
         f34506g = msa;
-        bxvk.m124024a(msa.class, msa);
+        GeneratedMessageLite.m124024a(msa.class, msa);
     }
 
     private msa() {
@@ -48,7 +48,7 @@ public final class msa extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34506g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004ဇ\u0003\u0005ဂ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
+            return GeneratedMessageLite.m124022a(f34506g, "\u0001\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004ဇ\u0003\u0005ဂ\u0004", new Object[]{"a", "b", "c", "d", "e", "f"});
         } else if (i2 == 3) {
             return new msa();
         } else {

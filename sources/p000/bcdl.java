@@ -9,7 +9,7 @@ import java.util.Map;
 public final class bcdl extends bcdf {
 
     /* renamed from: e */
-    private final Map f104005e = bnmt.m109794a();
+    private final Map f104005e = bnmt.getNewHashMap();
 
     /* renamed from: h */
     private final C0034at f104006h = new bcdk(this);

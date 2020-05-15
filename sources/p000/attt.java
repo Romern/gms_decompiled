@@ -31,7 +31,7 @@ final /* synthetic */ class attt implements aubq {
             } else if (atsy.f90811C == null && atsy.f90812D == null) {
                 askf askf = new askf(atsy.f90857t, askc.m74272b(), attw.f90898f);
                 bxvd da = btjf.f149105c.mo74144da();
-                bxtx a = bxtx.m123261a(bArr);
+                ByteString a = ByteString.m123261a(bArr);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

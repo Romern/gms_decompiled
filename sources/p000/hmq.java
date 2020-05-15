@@ -15,7 +15,7 @@ final /* synthetic */ class hmq implements bmxz {
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
         Credential credential = this.f20039a;
-        sek sek = hms.f20041a;
+        Logger Logger = hms.f20041a;
         return credential.f10092a.equals(((qun) obj).f42170e);
     }
 }

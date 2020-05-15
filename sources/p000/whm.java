@@ -193,7 +193,7 @@ public final class whm extends whz {
             a2.getClass();
             brbk.f142275b = a2;
             brbk.f142274a |= 1;
-            bxtx a3 = bxtx.m123261a(bArr);
+            ByteString a3 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = z;
@@ -203,7 +203,7 @@ public final class whm extends whz {
             brbk2.f142274a |= 2;
             brbk2.f142277d = a3;
             if (!brbk2.f142276c.mo73666a()) {
-                brbk2.f142276c = bxvk.m124021a(brbk2.f142276c);
+                brbk2.f142276c = GeneratedMessageLite.m124021a(brbk2.f142276c);
             }
             bxsy.m123078a(arrayList, brbk2.f142276c);
             String valueOf = String.valueOf(da);

@@ -79,7 +79,7 @@ public final class byyl extends bxvg implements bxvh {
     static {
         byyl byyl = new byyl();
         f168949v = byyl;
-        bxvk.m124024a(byyl.class, byyl);
+        GeneratedMessageLite.m124024a(byyl.class, byyl);
     }
 
     private byyl() {
@@ -136,7 +136,7 @@ public final class byyl extends bxvg implements bxvh {
             this.f168971w = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f168949v, "\u0001\u0013\u0000\u0001\u0001&\u0013\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004ဇ\u0003\u0005ဇ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\u0012င\u0007\u0013ဂ\b\u0015ဂ\t\u0017ဈ\n\u0019ဇ\f\u001aဇ\r\u001bဇ\u000e\u001cဇ\u000f!ဂ\u0011#င\u0012%ဇ\u0013&င\u0014", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "n", "o", "p", "q", "r", "s", "t", "u"});
+            return GeneratedMessageLite.m124022a(f168949v, "\u0001\u0013\u0000\u0001\u0001&\u0013\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001\u0003ဇ\u0002\u0004ဇ\u0003\u0005ဇ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\u0012င\u0007\u0013ဂ\b\u0015ဂ\t\u0017ဈ\n\u0019ဇ\f\u001aဇ\r\u001bဇ\u000e\u001cဇ\u000f!ဂ\u0011#င\u0012%ဇ\u0013&င\u0014", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "n", "o", "p", "q", "r", "s", "t", "u"});
         } else if (i2 == 3) {
             return new byyl();
         } else {

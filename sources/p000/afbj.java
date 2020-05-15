@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: afbj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class afbj extends bxvk implements bxxd {
+public final class afbj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final afbj f64141a;
@@ -13,7 +13,7 @@ public final class afbj extends bxvk implements bxxd {
     static {
         afbj afbj = new afbj();
         f64141a = afbj;
-        bxvk.m124024a(afbj.class, afbj);
+        GeneratedMessageLite.m124024a(afbj.class, afbj);
     }
 
     private afbj() {
@@ -30,7 +30,7 @@ public final class afbj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f64141a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f64141a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new afbj();

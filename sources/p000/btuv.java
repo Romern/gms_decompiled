@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btuv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btuv extends bxvk implements bxxd {
+public final class btuv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final btuv f150638e;
@@ -28,10 +28,10 @@ public final class btuv extends bxvk implements bxxd {
     static {
         btuv btuv = new btuv();
         f150638e = btuv;
-        bxvk.m124024a(btuv.class, btuv);
+        GeneratedMessageLite.m124024a(btuv.class, btuv);
         bygn bygn = bygn.f166357a;
         btuv btuv2 = f150638e;
-        f150639f = bxvk.m124006a(bygn, btuv2, btuv2, 215961826, bxzf.MESSAGE);
+        f150639f = GeneratedMessageLite.m124006a(bygn, btuv2, btuv2, 215961826, bxzf.MESSAGE);
     }
 
     private btuv() {
@@ -48,7 +48,7 @@ public final class btuv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150638e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0003ဉ\u0003\u0004ဉ\u0001", new Object[]{"a", "b", "d", "c"});
+            return GeneratedMessageLite.m124022a(f150638e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0003ဉ\u0003\u0004ဉ\u0001", new Object[]{"a", "b", "d", "c"});
         } else if (i2 == 3) {
             return new btuv();
         } else {

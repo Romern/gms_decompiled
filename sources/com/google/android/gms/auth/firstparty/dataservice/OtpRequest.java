@@ -28,7 +28,7 @@ public class OtpRequest extends AbstractSafeParcelable {
         this.f10667a = i;
         this.f10668b = str;
         this.f10670d = bArr;
-        sdo.m34966a(appDescription, "Caller's app description cannot be null!");
+        sdo.checkIfNull(appDescription, "Caller's app description cannot be null!");
         this.f10669c = appDescription;
         this.f10671e = z;
     }

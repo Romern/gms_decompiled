@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: caiu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class caiu extends bxvk implements bxxd {
+public final class caiu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final caiu f174770d;
@@ -22,7 +22,7 @@ public final class caiu extends bxvk implements bxxd {
     static {
         caiu caiu = new caiu();
         f174770d = caiu;
-        bxvk.m124024a(caiu.class, caiu);
+        GeneratedMessageLite.m124024a(caiu.class, caiu);
     }
 
     private caiu() {
@@ -39,7 +39,7 @@ public final class caiu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f174770d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", cait.f174769a, "c"});
+            return GeneratedMessageLite.m124022a(f174770d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", cait.f174769a, "c"});
         } else if (i2 == 3) {
             return new caiu();
         } else {

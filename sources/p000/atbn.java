@@ -94,7 +94,7 @@ final /* synthetic */ class atbn implements atbl {
                         bnsl.mo68432a("atbq", "a", 617, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
                         bnsl.mo68420a("Payment bundle %s included", str6);
                         try {
-                            bmtc bmtc2 = (bmtc) bxvk.m124016a(bmtc.f130813c, boan.f132470d.mo68796b(str3), bxus.m123744c());
+                            bmtc bmtc2 = (bmtc) GeneratedMessageLite.m124016a(bmtc.f130813c, boan.f132470d.mo68796b(str3), bxus.m123744c());
                             if (cgwn.m147258h()) {
                                 if (bmtc2.f130815a != 3) {
                                     bArr = bArr3;
@@ -114,14 +114,14 @@ final /* synthetic */ class atbn implements atbl {
                                     }
                                     if (bmto.f130892j.isEmpty()) {
                                         bxvd bxvd2 = (bxvd) bmtc2.mo74142c(5);
-                                        bxvd2.mo73625a((bxvk) bmtc2);
+                                        bxvd2.mo73625a((GeneratedMessageLite) bmtc2);
                                         if (bmtc2.f130815a == 3) {
                                             bmts = (bmts) bmtc2.f130816b;
                                         } else {
                                             bmts = bmts.f130908c;
                                         }
                                         bxvd bxvd3 = (bxvd) bmts.mo74142c(5);
-                                        bxvd3.mo73625a((bxvk) bmts);
+                                        bxvd3.mo73625a((GeneratedMessageLite) bmts);
                                         if (bmtc2.f130815a == 3) {
                                             bmts2 = (bmts) bmtc2.f130816b;
                                         } else {
@@ -132,7 +132,7 @@ final /* synthetic */ class atbn implements atbl {
                                             bmtp2 = bmtp.f130893f;
                                         }
                                         bxvd bxvd4 = (bxvd) bmtp2.mo74142c(5);
-                                        bxvd4.mo73625a((bxvk) bmtp2);
+                                        bxvd4.mo73625a((GeneratedMessageLite) bmtp2);
                                         str = str6;
                                         if (bmtc2.f130815a == 3) {
                                             try {
@@ -174,7 +174,7 @@ final /* synthetic */ class atbn implements atbl {
                                             bmti2 = bmti.f130844c;
                                         }
                                         bxvd bxvd5 = (bxvd) bmti2.mo74142c(5);
-                                        bxvd5.mo73625a((bxvk) bmti2);
+                                        bxvd5.mo73625a((GeneratedMessageLite) bmti2);
                                         bArr = bArr3;
                                         if (bmtc2.f130815a == 3) {
                                             try {
@@ -219,7 +219,7 @@ final /* synthetic */ class atbn implements atbl {
                                             bmto2 = bmto.f130881k;
                                         }
                                         bxvd bxvd6 = (bxvd) bmto2.mo74142c(5);
-                                        bxvd6.mo73625a((bxvk) bmto2);
+                                        bxvd6.mo73625a((GeneratedMessageLite) bmto2);
                                         if (bxvd6.f164950c) {
                                             bxvd6.mo74035c();
                                             bxvd6.f164950c = false;
@@ -333,7 +333,7 @@ final /* synthetic */ class atbn implements atbl {
                     byda2 = atda2.f90109j;
                     if (byda2 == null) {
                         bxvd = (bxvd) byda2.mo74142c(5);
-                        bxvd.mo73625a((bxvk) byda2);
+                        bxvd.mo73625a((GeneratedMessageLite) byda2);
                     } else {
                         bxvd = byda.f165750e.mo74144da();
                     }

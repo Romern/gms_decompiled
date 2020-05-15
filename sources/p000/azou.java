@@ -79,7 +79,7 @@ public final class azou {
         if (arrayList != null) {
             cioz cioz = (cioz) da.f164949b;
             if (!cioz.f191170b.mo73666a()) {
-                cioz.f191170b = bxvk.m124021a(cioz.f191170b);
+                cioz.f191170b = GeneratedMessageLite.m124021a(cioz.f191170b);
             }
             bxsy.m123078a(arrayList, cioz.f191170b);
         }

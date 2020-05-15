@@ -22,7 +22,7 @@ public final class iuc extends aaab {
     private final Account f21767c;
 
     /* renamed from: d */
-    private final sek f21768d = new sek(new String[]{"RetrieveExportedSymmetricKeyOperation"}, (byte[]) null);
+    private final Logger f21768d = new Logger(new String[]{"RetrieveExportedSymmetricKeyOperation"}, (byte[]) null);
 
     public iuc(irb irb, String str, Account account) {
         super(129, "RetrieveExportedSymmetricKeyOperation");

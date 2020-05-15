@@ -249,7 +249,7 @@ public final class abvo extends srp {
                     break;
                 }
                 try {
-                    arrayList.add((caef) bxvk.m124012a(caef.f172809f, abue.f58375b.mo73754a(i6, abue.f58374a.mo74151b(i5) + i6).mo73760e()));
+                    arrayList.add((caef) GeneratedMessageLite.m124012a(caef.f172809f, abue.f58375b.mo73754a(i6, abue.f58374a.mo74151b(i5) + i6).mo73760e()));
                     i6 += abue.f58374a.mo74151b(i5);
                     i5++;
                 } catch (bxwf e) {
@@ -312,7 +312,7 @@ public final class abvo extends srp {
         abrv abrv2 = abrv;
         bpws a = acxi.m49935a(abrv2.f58066b);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (((bpws) bxvd.f164949b).f139566g) {
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

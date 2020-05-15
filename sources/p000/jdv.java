@@ -30,12 +30,12 @@ public final class jdv extends adzx {
     /* renamed from: a */
     public final void mo13611a(boolean z, Uri uri) {
         if (this.f22235b.equals(uri)) {
-            sek sek = FrpUpdateIntentOperation.f10953a;
+            Logger Logger = FrpUpdateIntentOperation.f10953a;
             String valueOf = String.valueOf(this.f22235b);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 8);
             sb.append(valueOf);
             sb.append(" changed");
-            sek.mo25414c(sb.toString(), new Object[0]);
+            Logger.mo25414c(sb.toString(), new Object[0]);
             this.f22236c.countDown();
         }
     }

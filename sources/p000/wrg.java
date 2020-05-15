@@ -91,7 +91,7 @@ public final class wrg extends DialogFragment {
             byte[] byteArrayExtra = intent.getByteArrayExtra("com.google.android.gms.wallet.firstparty.EXTRA_INTEGRATOR_CALLBACK_DATA_TOKEN");
             if (byteArrayExtra != null) {
                 try {
-                    bwer bwer = (bwer) bxvk.m124016a(bwer.f159019c, byteArrayExtra, bxus.m123744c());
+                    bwer bwer = (bwer) GeneratedMessageLite.m124016a(bwer.f159019c, byteArrayExtra, bxus.m123744c());
                     int a = bweq.m121888a(bwer.f159021a);
                     if (a != 0 && a == 3) {
                         this.f51173d.mo18448d(this.f51172c);

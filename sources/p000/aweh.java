@@ -60,7 +60,7 @@ public final class aweh extends awei implements bjfg {
         byte[] d = m79700c().mo59992d();
         bjhm bjhm = this.f94213b;
         bxvd da = bwzf.f161591f.mo74144da();
-        bxtx a = bxtx.m123261a(d);
+        ByteString a = ByteString.m123261a(d);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

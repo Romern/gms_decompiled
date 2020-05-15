@@ -10,7 +10,7 @@ import java.util.Locale;
 public final class teb {
 
     /* renamed from: a */
-    public static final sek f45717a = tea.m36798a("phone_formatting_util");
+    public static final Logger f45717a = tea.m36798a("phone_formatting_util");
 
     /* renamed from: b */
     public final beao f45718b;

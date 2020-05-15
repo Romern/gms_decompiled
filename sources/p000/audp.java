@@ -22,6 +22,6 @@ public final class audp {
                 }
             }
         }
-        f91424b.mo24335a(bolj.mo73642k()).mo24327b();
+        f91424b.mo24335a(bolj.serializeToBytes()).mo24327b();
     }
 }

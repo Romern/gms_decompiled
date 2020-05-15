@@ -34,7 +34,7 @@ public final class bpcb extends bxvg implements bxvh {
     static {
         bpcb bpcb = new bpcb();
         f135695g = bpcb;
-        bxvk.m124024a(bpcb.class, bpcb);
+        GeneratedMessageLite.m124024a(bpcb.class, bpcb);
     }
 
     private bpcb() {
@@ -55,7 +55,7 @@ public final class bpcb extends bxvg implements bxvh {
             this.f135703h = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f135695g, "\u0001\u0005\u0000\u0001\u0001\u000b\u0005\u0000\u0001\u0001\u0001င\u0000\u0003င\u0001\u0004\u0016\u0006ဌ\u0005\u000bᐉ\u0004", new Object[]{"a", "b", "c", "d", "f", bpbz.f135694a, "e"});
+            return GeneratedMessageLite.m124022a(f135695g, "\u0001\u0005\u0000\u0001\u0001\u000b\u0005\u0000\u0001\u0001\u0001င\u0000\u0003င\u0001\u0004\u0016\u0006ဌ\u0005\u000bᐉ\u0004", new Object[]{"a", "b", "c", "d", "f", bpbz.f135694a, "e"});
         } else if (i2 == 3) {
             return new bpcb();
         } else {

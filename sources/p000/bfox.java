@@ -71,7 +71,7 @@ public final class bfox {
                 da.mo74035c();
                 da.f164950c = false;
             }
-            ((bplc) da.f164949b).f138066c = bxvk.m124030de();
+            ((bplc) da.f164949b).f138066c = GeneratedMessageLite.m124030de();
             for (bxvd bxvd2 : this.f114736d.values()) {
                 bpla bpla = (bpla) bxvd2.mo74062i();
                 if (da.f164950c) {
@@ -81,7 +81,7 @@ public final class bfox {
                 bplc bplc = (bplc) da.f164949b;
                 bpla.getClass();
                 if (!bplc.f138066c.mo73666a()) {
-                    bplc.f138066c = bxvk.m124021a(bplc.f138066c);
+                    bplc.f138066c = GeneratedMessageLite.m124021a(bplc.f138066c);
                 }
                 bplc.f138066c.add(bpla);
             }
@@ -125,7 +125,7 @@ public final class bfox {
             bxvd.f164950c = false;
         }
         bplb bplb = bplb.f138053h;
-        ((bplb) bxvd.f164949b).f138056b = bxvk.m124028dc();
+        ((bplb) bxvd.f164949b).f138056b = GeneratedMessageLite.m124028dc();
         List b = bqcn.m112586b(new int[5]);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
@@ -139,7 +139,7 @@ public final class bfox {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;
         }
-        ((bplb) bxvd2.f164949b).f138057c = bxvk.m124028dc();
+        ((bplb) bxvd2.f164949b).f138057c = GeneratedMessageLite.m124028dc();
         List b2 = bqcn.m112586b(new int[9]);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();

@@ -726,7 +726,7 @@ public class MmsBackupChimeraService extends sno implements ndd {
                                     }
                                     bzoj bzoj = (bzoj) da6.f164949b;
                                     if (!bzoj.f170822b.mo73666a()) {
-                                        bzoj.f170822b = bxvk.m124021a(bzoj.f170822b);
+                                        bzoj.f170822b = GeneratedMessageLite.m124021a(bzoj.f170822b);
                                     }
                                     bxsy.m123078a(arrayList4, bzoj.f170822b);
                                     String str9 = bzoq.f170859a;

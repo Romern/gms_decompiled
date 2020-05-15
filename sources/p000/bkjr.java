@@ -44,7 +44,7 @@ public final class bkjr extends LinearLayout implements View.OnClickListener, bk
             return bmel;
         }
         bxvd bxvd = (bxvd) bmel.mo74142c(5);
-        bxvd.mo73625a((bxvk) bmel);
+        bxvd.mo73625a((GeneratedMessageLite) bmel);
         bxwc bxwc = bkcb.mo52029A().f158972b;
         ArrayList arrayList = new ArrayList();
         int size = bxwc.size();
@@ -61,7 +61,7 @@ public final class bkjr extends LinearLayout implements View.OnClickListener, bk
                     bmei = bmei.f128941d;
                 }
                 bxvd bxvd2 = (bxvd) bmei.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bmei);
+                bxvd2.mo73625a((GeneratedMessageLite) bmei);
                 bmei bmei2 = bmel.f128962d;
                 if (bmei2 == null) {
                     bmei2 = bmei.f128941d;
@@ -71,7 +71,7 @@ public final class bkjr extends LinearLayout implements View.OnClickListener, bk
                     bmej = bmej.f128946e;
                 }
                 bxvd bxvd3 = (bxvd) bmej.mo74142c(5);
-                bxvd3.mo73625a((bxvk) bmej);
+                bxvd3.mo73625a((GeneratedMessageLite) bmej);
                 if (bxvd3.f164950c) {
                     bxvd3.mo74035c();
                     bxvd3.f164950c = false;
@@ -122,14 +122,14 @@ public final class bkjr extends LinearLayout implements View.OnClickListener, bk
                 bxvd.f164950c = false;
             }
             bmel bmel4 = bmel.f128957f;
-            ((bmel) bxvd.f164949b).f128961c = bxvk.m124030de();
+            ((bmel) bxvd.f164949b).f128961c = GeneratedMessageLite.m124030de();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
             }
             bmel bmel5 = (bmel) bxvd.f164949b;
             if (!bmel5.f128961c.mo73666a()) {
-                bmel5.f128961c = bxvk.m124021a(bmel5.f128961c);
+                bmel5.f128961c = GeneratedMessageLite.m124021a(bmel5.f128961c);
             }
             bxsy.m123078a(arrayList, bmel5.f128961c);
         }

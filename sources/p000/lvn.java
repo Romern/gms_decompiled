@@ -4,7 +4,7 @@ import android.os.Build;
 
 /* renamed from: lvn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class lvn extends sek {
+public final class lvn extends Logger {
     public lvn(String... strArr) {
         super("Backup", strArr);
     }

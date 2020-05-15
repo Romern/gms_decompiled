@@ -82,7 +82,7 @@ public final class awwt extends bjuq {
             }
             bpjw bpjw4 = (bpjw) da.mo74062i();
             bxvd bxvd = (bxvd) bpjw4.mo74142c(5);
-            bxvd.mo73625a((bxvk) bpjw4);
+            bxvd.mo73625a((GeneratedMessageLite) bpjw4);
             if (i5 != 0) {
                 if (i5 == 1) {
                     bxvd da2 = bpjv.f137913c.mo74144da();

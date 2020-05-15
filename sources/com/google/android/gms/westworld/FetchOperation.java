@@ -211,9 +211,9 @@ public class FetchOperation extends IntentOperation {
                     if (!aykk.m84183d(context).getStringSet("KEEP_UID_MAP_CONFIGS", bnon.f131923a).contains(String.valueOf(j))) {
                         bxus c = bxus.m123744c();
                         bxvd da = byml.f167033b.mo74144da();
-                        for (bymm bymm : ((byml) bxvk.m124016a(byml.f167033b, reports, c)).f167035a) {
+                        for (bymm bymm : ((byml) GeneratedMessageLite.m124016a(byml.f167033b, reports, c)).f167035a) {
                             bxvd bxvd = (bxvd) bymm.mo74142c(5);
-                            bxvd.mo73625a((bxvk) bymm);
+                            bxvd.mo73625a((GeneratedMessageLite) bymm);
                             if (bxvd.f164950c) {
                                 bxvd.mo74035c();
                                 bxvd.f164950c = false;
@@ -230,7 +230,7 @@ public class FetchOperation extends IntentOperation {
                             byml byml = (byml) da.f164949b;
                             bymm4.getClass();
                             if (!byml.f167035a.mo73666a()) {
-                                byml.f167035a = bxvk.m124021a(byml.f167035a);
+                                byml.f167035a = GeneratedMessageLite.m124021a(byml.f167035a);
                             }
                             byml.f167035a.add(bymm4);
                         }

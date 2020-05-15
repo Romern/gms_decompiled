@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btcn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btcn extends bxvk implements bxxd {
+public final class btcn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btcn f148291a;
@@ -13,7 +13,7 @@ public final class btcn extends bxvk implements bxxd {
     static {
         btcn btcn = new btcn();
         f148291a = btcn;
-        bxvk.m124024a(btcn.class, btcn);
+        GeneratedMessageLite.m124024a(btcn.class, btcn);
     }
 
     private btcn() {
@@ -30,7 +30,7 @@ public final class btcn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148291a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f148291a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btcn();

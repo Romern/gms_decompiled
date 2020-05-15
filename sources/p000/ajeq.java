@@ -184,7 +184,7 @@ public final class ajeq {
                     if (!sdg.m34949a(a4.f70238h, byys)) {
                         byte[] bArr = a4.f70239i;
                         if (bArr != null) {
-                            bxtx a5 = bxtx.m123261a(bArr);
+                            ByteString a5 = ByteString.m123261a(bArr);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
@@ -242,7 +242,7 @@ public final class ajeq {
                     bzab.f169211b = str;
                     byte[] bArr2 = ajag.f70239i;
                     if (bArr2 != null) {
-                        bxtx a8 = bxtx.m123261a(bArr2);
+                        ByteString a8 = ByteString.m123261a(bArr2);
                         if (da2.f164950c) {
                             da2.mo74035c();
                             da2.f164950c = z;
@@ -405,7 +405,7 @@ public final class ajeq {
                                 byzs byzs2 = (byzs) it.next();
                                 if (byzs2.f169164c == Long.MAX_VALUE) {
                                     bxvd bxvd = (bxvd) byzs2.mo74142c(5);
-                                    bxvd.mo73625a((bxvk) byzs2);
+                                    bxvd.mo73625a((GeneratedMessageLite) byzs2);
                                     bxvf bxvf2 = (bxvf) bxvd;
                                     int i6 = i5 + 1;
                                     long e = ajeq.f70466h.mo38419e();

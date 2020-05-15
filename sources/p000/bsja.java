@@ -18,7 +18,7 @@ public final class bsja extends bxvd implements bxxd {
         bsjd bsjd2 = bsjd.f144778e;
         bsjc.getClass();
         if (!bsjd.f144782c.mo73666a()) {
-            bsjd.f144782c = bxvk.m124021a(bsjd.f144782c);
+            bsjd.f144782c = GeneratedMessageLite.m124021a(bsjd.f144782c);
         }
         bsjd.f144782c.add(bsjc);
     }
@@ -32,7 +32,7 @@ public final class bsja extends bxvd implements bxxd {
         bsjd bsjd = (bsjd) this.f164949b;
         bsjd bsjd2 = bsjd.f144778e;
         if (!bsjd.f144781b.mo73666a()) {
-            bsjd.f144781b = bxvk.m124021a(bsjd.f144781b);
+            bsjd.f144781b = GeneratedMessageLite.m124021a(bsjd.f144781b);
         }
         bxsy.m123078a(iterable, bsjd.f144781b);
     }

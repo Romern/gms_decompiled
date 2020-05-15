@@ -17,22 +17,22 @@ final class bxxr {
     }
 
     /* renamed from: a */
-    public final void mo74232a(bxtx bxtx) {
+    public final void mo74232a(ByteString bxtx) {
         if (bxtx.mo73752d()) {
             int a = m124305a(bxtx.mo73744a());
             int f = bxxu.m124313f(a + 1);
-            if (this.f165050a.isEmpty() || ((bxtx) this.f165050a.peek()).mo73744a() >= f) {
+            if (this.f165050a.isEmpty() || ((ByteString) this.f165050a.peek()).mo73744a() >= f) {
                 this.f165050a.push(bxtx);
                 return;
             }
             int f2 = bxxu.m124313f(a);
-            bxtx bxtx2 = (bxtx) this.f165050a.pop();
-            while (!this.f165050a.isEmpty() && ((bxtx) this.f165050a.peek()).mo73744a() < f2) {
-                bxtx2 = new bxxu((bxtx) this.f165050a.pop(), bxtx2);
+            ByteString bxtx2 = (ByteString) this.f165050a.pop();
+            while (!this.f165050a.isEmpty() && ((ByteString) this.f165050a.peek()).mo73744a() < f2) {
+                bxtx2 = new bxxu((ByteString) this.f165050a.pop(), bxtx2);
             }
             bxxu bxxu = new bxxu(bxtx2, bxtx);
-            while (!this.f165050a.isEmpty() && ((bxtx) this.f165050a.peek()).mo73744a() < bxxu.m124313f(m124305a(bxxu.f165062d) + 1)) {
-                bxxu = new bxxu((bxtx) this.f165050a.pop(), bxxu);
+            while (!this.f165050a.isEmpty() && ((ByteString) this.f165050a.peek()).mo73744a() < bxxu.m124313f(m124305a(bxxu.f165062d) + 1)) {
+                bxxu = new bxxu((ByteString) this.f165050a.pop(), bxxu);
             }
             this.f165050a.push(bxxu);
         } else if (bxtx instanceof bxxu) {

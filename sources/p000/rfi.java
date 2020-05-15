@@ -85,12 +85,12 @@ public final class rfi extends rfj {
     /* renamed from: a */
     public final aucb mo24582a(rkc rkc, rkc... rkcArr) {
         rnm rnm;
-        sdo.m34966a(rkc, "Requested API must not be null.");
+        sdo.checkIfNull(rkc, "Requested API must not be null.");
         ArrayList arrayList = new ArrayList(1);
         arrayList.add(rkc);
         arrayList.addAll(Arrays.asList(rkcArr));
         synchronized (rnm.f43393f) {
-            sdo.m34966a(rnm.f43394g, "Must guarantee manager is non-null before using getInstance");
+            sdo.checkIfNull(rnm.f43394g, "Must guarantee manager is non-null before using getInstance");
             rnm = rnm.f43394g;
         }
         rlc rlc = new rlc(arrayList);
@@ -120,7 +120,7 @@ public final class rfi extends rfj {
             if (activity instanceof C1021gj) {
                 C1050hj aK = ((C1021gj) activity).mo11924aK();
                 rgd rgd = new rgd();
-                sdo.m34966a(dialog, "Cannot display null dialog");
+                sdo.checkIfNull(dialog, "Cannot display null dialog");
                 dialog.setOnCancelListener(null);
                 dialog.setOnDismissListener(null);
                 rgd.f42910Y = dialog;
@@ -134,7 +134,7 @@ public final class rfi extends rfj {
         }
         FragmentManager fragmentManager = activity.getFragmentManager();
         rfd rfd = new rfd();
-        sdo.m34966a(dialog, "Cannot display null dialog");
+        sdo.checkIfNull(dialog, "Cannot display null dialog");
         dialog.setOnCancelListener(null);
         dialog.setOnDismissListener(null);
         rfd.f42862a = dialog;

@@ -79,9 +79,9 @@ final class ayho extends ayfu {
             if (str4 != null) {
                 ayai ayai = this.f97612h.f97732k;
                 axue axue = this.f97611g;
-                sdo.m34966a(axue, "appKey was null");
-                sdo.m34966a((Object) str4, (Object) "target was null");
-                sdo.m34966a((Object) str3, (Object) "action was null");
+                sdo.checkIfNull(axue, "appKey was null");
+                sdo.checkIfNull((Object) str4, (Object) "target was null");
+                sdo.checkIfNull((Object) str3, (Object) "action was null");
                 axty.m83205b(5, axue.f96377a);
                 int a2 = ayai.mo53831a(axue, str4, true, str3, bArr, null);
                 if (a2 != -1) {

@@ -88,7 +88,7 @@ final class phi extends qal {
     /* renamed from: a */
     public final void mo23075a(byte[] bArr) {
         try {
-            bluh bluh = (bluh) bxvk.m124016a(bluh.f127804d, bArr, bxus.m123744c());
+            bluh bluh = (bluh) GeneratedMessageLite.m124016a(bluh.f127804d, bArr, bxus.m123744c());
             this.f40798d.mo23673b("Successfully requested the %s for nearby devices", this.f39107b);
             this.f40798d.mo23673b("success count=%d, offline count=%d, error count=%d", Integer.valueOf(bluh.f127806a), Integer.valueOf(bluh.f127807b), Integer.valueOf(bluh.f127808c));
         } catch (bxwf e) {

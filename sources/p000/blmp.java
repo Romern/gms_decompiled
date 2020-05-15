@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blmp */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blmp extends bxvk implements bxxd {
+public final class blmp extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: r */
     public static final blmp f126864r;
@@ -53,7 +53,7 @@ public final class blmp extends bxvk implements bxxd {
     public long f126879n;
 
     /* renamed from: o */
-    public bxtx f126880o = bxtx.f164797b;
+    public ByteString f126880o = ByteString.f164797b;
 
     /* renamed from: p */
     public boolean f126881p;
@@ -67,7 +67,7 @@ public final class blmp extends bxvk implements bxxd {
     static {
         blmp blmp = new blmp();
         f126864r = blmp;
-        bxvk.m124024a(blmp.class, blmp);
+        GeneratedMessageLite.m124024a(blmp.class, blmp);
     }
 
     private blmp() {
@@ -88,7 +88,7 @@ public final class blmp extends bxvk implements bxxd {
             this.f126883s = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f126864r, "\u0001\u0010\u0000\u0001\u0002\u001d\u0010\u0000\u0001\u0003\u0002ဈ\u0001\u0003ᔈ\u0002\u0004ဈ\u0003\u0005ᔈ\u0004\u0006ဈ\u0005\u0007Л\tဈ\u0007\u000bင\t\rဈ\u000b\u0010ဂ\u000e\u0011င\u000f\u0012ဂ\u0010\u0014ဂ\u0012\u0015ည\u0013\u0018ဇ\u0016\u001dင\u001b", new Object[]{"a", "b", "c", "d", "e", "f", "g", blmi.class, "h", "i", "j", "k", "l", "m", "n", "o", "p", "q"});
+            return GeneratedMessageLite.m124022a(f126864r, "\u0001\u0010\u0000\u0001\u0002\u001d\u0010\u0000\u0001\u0003\u0002ဈ\u0001\u0003ᔈ\u0002\u0004ဈ\u0003\u0005ᔈ\u0004\u0006ဈ\u0005\u0007Л\tဈ\u0007\u000bင\t\rဈ\u000b\u0010ဂ\u000e\u0011င\u000f\u0012ဂ\u0010\u0014ဂ\u0012\u0015ည\u0013\u0018ဇ\u0016\u001dင\u001b", new Object[]{"a", "b", "c", "d", "e", "f", "g", blmi.class, "h", "i", "j", "k", "l", "m", "n", "o", "p", "q"});
         } else if (i2 == 3) {
             return new blmp();
         } else {

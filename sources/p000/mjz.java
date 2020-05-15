@@ -52,7 +52,7 @@ final /* synthetic */ class mjz implements Runnable {
                             if (byteBuffer.position() == 0 && byteBuffer.limit() == byteBuffer.array().length) {
                                 byte[] array = byteBuffer.array();
                                 bxus c = bxus.m123744c();
-                                mkt.f33841a.mo20043b((mpm) bxvk.m124016a(mpm.f34178i, array, c));
+                                mkt.f33841a.mo20043b((mpm) GeneratedMessageLite.m124016a(mpm.f34178i, array, c));
                                 return;
                             }
                             throw new RuntimeException("We don't yet support slices of byte buffers.");

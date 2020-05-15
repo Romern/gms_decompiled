@@ -119,7 +119,7 @@ public final class attp extends atue {
         }
         str.getClass();
         ((btlt) da.f164949b).f149428c = str;
-        bxtx a = bxtx.m123261a(atsy.f90809A);
+        ByteString a = ByteString.m123261a(atsy.f90809A);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -149,7 +149,7 @@ public final class attp extends atue {
             ((btlt) da.f164949b).f149429d = btlv;
             UserAddress userAddress = pushTokenizeRequest.f108575f;
             if (userAddress == null) {
-                bxtx a3 = bxtx.m123261a(pushTokenizeRequest.f108572c);
+                ByteString a3 = ByteString.m123261a(pushTokenizeRequest.f108572c);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

@@ -60,9 +60,9 @@ final class aied extends aign {
                     ParcelFileDescriptor openFileDescriptor = context.getContentResolver().openFileDescriptor(uri, "r");
                     File file = new File(str);
                     long j2 = parcelablePayload.f80610f;
-                    sdo.m34966a(file, "Cannot create Payload.File from null java.io.File.");
-                    sdo.m34966a(openFileDescriptor, "Cannot create Payload.File from null ParcelFileDescriptor.");
-                    sdo.m34966a(uri, "Cannot create Payload.File from null Uri");
+                    sdo.checkIfNull(file, "Cannot create Payload.File from null java.io.File.");
+                    sdo.checkIfNull(openFileDescriptor, "Cannot create Payload.File from null ParcelFileDescriptor.");
+                    sdo.checkIfNull(uri, "Cannot create Payload.File from null Uri");
                     ahiq = ahiq.m55837a(new ahio(file, openFileDescriptor, j2), j);
                 } catch (FileNotFoundException e) {
                     Log.w("NearbyConnections", String.format("Failed to create Payload from ParcelablePayload: unable to open uri %s for file %s.", uri, str), e);
@@ -72,7 +72,7 @@ final class aied extends aign {
             Log.w("NearbyConnections", String.format("Incoming ParcelablePayload %d has unknown type %d", Long.valueOf(j), Integer.valueOf(parcelablePayload.f80606b)));
         } else {
             ParcelFileDescriptor parcelFileDescriptor = parcelablePayload.f80608d;
-            sdo.m34966a(parcelFileDescriptor, "Cannot create Payload.Stream from null ParcelFileDescriptor.");
+            sdo.checkIfNull(parcelFileDescriptor, "Cannot create Payload.Stream from null ParcelFileDescriptor.");
             ahiq = ahiq.m55838a(new ahip(parcelFileDescriptor, null), j);
         }
         if (ahiq != null) {

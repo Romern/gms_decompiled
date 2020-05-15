@@ -48,7 +48,7 @@ public class FontFetchResult extends AbstractSafeParcelable implements rkk {
         boolean z;
         String str2;
         this.f32458a = i;
-        sdo.m34966a(status, "status");
+        sdo.checkIfNull(status, "status");
         this.f32459b = status;
         this.f32460c = str;
         this.f32461d = parcelFileDescriptor;
@@ -89,7 +89,7 @@ public class FontFetchResult extends AbstractSafeParcelable implements rkk {
       sdo.a(boolean, java.lang.Object):void */
     /* renamed from: a */
     public static FontFetchResult m23827a(Status status) {
-        sdo.m34966a(status, "failureStatus");
+        sdo.checkIfNull(status, "failureStatus");
         boolean c = status.mo17710c();
         String valueOf = String.valueOf(status);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 37);
@@ -110,8 +110,8 @@ public class FontFetchResult extends AbstractSafeParcelable implements rkk {
 
     /* renamed from: a */
     public static FontFetchResult m23828a(FontMatchSpec fontMatchSpec, File file) {
-        sdo.m34966a(fontMatchSpec, "spec");
-        sdo.m34966a(file, "file");
+        sdo.checkIfNull(fontMatchSpec, "spec");
+        sdo.checkIfNull(file, "file");
         if (!file.exists()) {
             return m23827a(f32456f);
         }

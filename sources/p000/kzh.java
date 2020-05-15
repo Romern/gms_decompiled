@@ -22,6 +22,6 @@ final /* synthetic */ class kzh implements bqeh {
         if (bmxv.mo66813a()) {
             return bqga.m112775a(bmxv);
         }
-        return bqdx.m112674a(kzm.f25462c.mo56101a(bngx.m109356a((Object) bxtx.m123258a(str)), bbfu.f102569c), new kzi(kzm, str), bqfb.INSTANCE);
+        return bqdx.m112674a(kzm.f25462c.mo56101a(bngx.m109356a((Object) ByteString.m123258a(str)), bbfu.f102569c), new kzi(kzm, str), bqfb.INSTANCE);
     }
 }

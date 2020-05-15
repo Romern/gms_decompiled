@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: aafk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class aafk extends bxvk implements bxxd {
+public final class aafk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final aafk f28015f;
@@ -28,7 +28,7 @@ public final class aafk extends bxvk implements bxxd {
     static {
         aafk aafk = new aafk();
         f28015f = aafk;
-        bxvk.m124024a(aafk.class, aafk);
+        GeneratedMessageLite.m124024a(aafk.class, aafk);
     }
 
     private aafk() {
@@ -45,7 +45,7 @@ public final class aafk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f28015f, "\u0001\u0004\u0000\u0001\u0001\u001d\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0003ဉ\u0002\u001cဉ\u001a\u001dဉ\u001b", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f28015f, "\u0001\u0004\u0000\u0001\u0001\u001d\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0003ဉ\u0002\u001cဉ\u001a\u001dဉ\u001b", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new aafk();
         } else {

@@ -33,7 +33,7 @@ public final class aybb {
         axua axua2 = axua;
         ayas2.mo53844a(true);
         if (axua2 != null) {
-            bArr = axua2.f96358d.mo74476a(ayew.mo73642k());
+            bArr = axua2.f96358d.mo74476a(ayew.serializeToBytes());
             i2 = bArr.length;
         } else {
             i2 = ayew2.f164961ai;
@@ -88,9 +88,9 @@ public final class aybb {
 
     /* renamed from: b */
     public static ayew m83734b(ayev ayev) {
-        byte[] k = ayev.mo73642k();
+        byte[] k = ayev.serializeToBytes();
         bxvd da = ayew.f97392g.mo74144da();
-        bxtx a = bxtx.m123261a(k);
+        ByteString a = ByteString.m123261a(k);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -250,9 +250,9 @@ public final class aybb {
     /* renamed from: a */
     public static ayev m83727a(ayew ayew) {
         bxvd da = ayev.f97376n.mo74144da();
-        da.mo73631a(ayew.f97395b.mo73780k(), 0, ayew.f97395b.mo73744a());
+        da.mo73631a(ayew.f97395b.getKey(), 0, ayew.f97395b.mo73744a());
         ayev ayev = (ayev) da.mo74062i();
-        String a = axxv.m83495a(ayew.f97395b.mo73780k());
+        String a = axxv.m83495a(ayew.f97395b.getKey());
         if (ayew.f97396c.equals(a)) {
             return ayev;
         }
@@ -276,7 +276,7 @@ public final class aybb {
         }
         ByteBuffer allocate = ByteBuffer.allocate(i);
         for (int i2 = 0; i2 < list.size(); i2++) {
-            allocate.put(((ayew) list.get(i2)).f97395b.mo73780k());
+            allocate.put(((ayew) list.get(i2)).f97395b.getKey());
         }
         String a = axxv.m83495a(allocate.array());
         if (str.equals(a)) {
@@ -293,7 +293,7 @@ public final class aybb {
 
     /* renamed from: a */
     public static List m83729a(ayev ayev, int i, int i2) {
-        byte[] k = ayev.mo73642k();
+        byte[] k = ayev.serializeToBytes();
         String a = axxv.m83495a(k);
         int length = ((k.length + i) - 1) / i;
         ArrayList arrayList = new ArrayList(length);
@@ -317,7 +317,7 @@ public final class aybb {
             a.getClass();
             ayew.f97394a = i6 | 2;
             ayew.f97396c = a;
-            bxtx a2 = bxtx.m123262a(k, i4, min);
+            ByteString a2 = ByteString.m123262a(k, i4, min);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;

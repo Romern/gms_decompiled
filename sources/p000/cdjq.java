@@ -11,6 +11,6 @@ final /* synthetic */ class cdjq implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (qml) bxvk.m124014a(qml.f41710b, bArr);
+        return (qml) GeneratedMessageLite.m124014a(qml.f41710b, bArr);
     }
 }

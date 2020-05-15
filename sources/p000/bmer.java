@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmer */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmer extends bxvk implements bxxd {
+public final class bmer extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: g */
     public static final bmer f129000g;
@@ -31,7 +31,7 @@ public final class bmer extends bxvk implements bxxd {
     static {
         bmer bmer = new bmer();
         f129000g = bmer;
-        bxvk.m124024a(bmer.class, bmer);
+        GeneratedMessageLite.m124024a(bmer.class, bmer);
     }
 
     private bmer() {
@@ -48,7 +48,7 @@ public final class bmer extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f129000g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0000\u0000\u0001ဉ\u0000\u0003ဈ\u0002\u0004ဉ\u0001\u0005ဈ\u0003\u0006ဉ\u0004", new Object[]{"a", "b", "d", "c", "e", "f"});
+            return GeneratedMessageLite.m124022a(f129000g, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0000\u0000\u0001ဉ\u0000\u0003ဈ\u0002\u0004ဉ\u0001\u0005ဈ\u0003\u0006ဉ\u0004", new Object[]{"a", "b", "d", "c", "e", "f"});
         } else if (i2 == 3) {
             return new bmer();
         } else {

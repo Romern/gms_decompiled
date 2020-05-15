@@ -19,13 +19,13 @@ import java.util.concurrent.ExecutionException;
 public abstract class xft {
 
     /* renamed from: a */
-    private static final sek f52143a = new sek(new String[]{"SecurityKey"}, (short[]) null);
+    private static final Logger f52143a = new Logger(new String[]{"SecurityKey"}, (short[]) null);
 
     /* renamed from: d */
-    public static final bxtx f52144d = bxtx.m123261a(new byte[]{100, 70, 71, 47, -33, 110, -19, 123, -13, -61, 55, 32, -14, 54, 103, 108, 54, -31, -76, 94, -66, 4, -123, -37, -119, -93, -51, -3, -46, 75, -42, -97});
+    public static final ByteString f52144d = ByteString.m123261a(new byte[]{100, 70, 71, 47, -33, 110, -19, 123, -13, -61, 55, 32, -14, 54, 103, 108, 54, -31, -76, 94, -66, 4, -123, -37, -119, -93, -51, -3, -46, 75, -42, -97});
 
     /* renamed from: e */
-    static final bxtx f52145e;
+    static final ByteString f52145e;
 
     /* renamed from: f */
     protected final xjb f52146f;
@@ -39,7 +39,7 @@ public abstract class xft {
     static {
         byte[] bArr = new byte[32];
         new Random().nextBytes(bArr);
-        f52145e = bxtx.m123261a(bArr);
+        f52145e = ByteString.m123261a(bArr);
     }
 
     protected xft(xwj xwj, xjb xjb, xws xws) {
@@ -56,7 +56,7 @@ public abstract class xft {
 
     /* access modifiers changed from: protected */
     /* renamed from: a */
-    public abstract ProtocolVersion mo29693a(bxtx bxtx);
+    public abstract ProtocolVersion mo29693a(ByteString bxtx);
 
     /* access modifiers changed from: protected */
     /* renamed from: a */
@@ -81,7 +81,7 @@ public abstract class xft {
             return mo29708a((xfp) xfo);
         }
         xfm xfm = (xfm) xfo;
-        bxtx a = xfm.mo29694a();
+        ByteString a = xfm.mo29694a();
         ProtocolVersion a2 = mo29693a(a);
         ArrayList arrayList = new ArrayList(xfm.f52130b.size());
         List list = xfm.f52130b;
@@ -103,9 +103,9 @@ public abstract class xft {
             bmxv f = bnjd.m109599f(xfm.f52129a, new xfs(a2));
             if (f.mo66813a()) {
                 xlg xlg = new xlg(mo29692a());
-                bxtx bxtx = ((xfq) f.mo66814b()).f52136c;
+                ByteString bxtx = ((xfq) f.mo66814b()).f52136c;
                 boolean equals = f52144d.equals(a);
-                return mo29705a(xlg, xlg.mo29904a(a.mo73780k(), bxtx.mo73780k(), equals), a2, ((xfq) f.mo66814b()).f52137d);
+                return mo29705a(xlg, xlg.mo29904a(a.getKey(), bxtx.getKey(), equals), a2, ((xfq) f.mo66814b()).f52137d);
             }
             f52143a.mo25416d("No register request matching security key version %s.", a2);
             xfv a3 = xfv.m42834a(27264);
@@ -202,10 +202,10 @@ public abstract class xft {
             ProtocolVersion protocolVersion2 = keyHandle.f31912c;
             if (protocolVersion2.equals(ProtocolVersion.UNKNOWN) || protocolVersion.equals(ProtocolVersion.UNKNOWN) || protocolVersion2.equals(protocolVersion)) {
                 try {
-                    byte[] k = xfr.f52140c.mo73780k();
+                    byte[] k = xfr.f52140c.getKey();
                     if (protocolVersion.ordinal() != 1) {
                         xlg xlg = new xlg(mo29692a());
-                        byte[] k2 = xfr.f52139b.mo73780k();
+                        byte[] k2 = xfr.f52139b.getKey();
                         byte[] bArr = keyHandle.f31911b;
                         xle = xle.m43131a((byte) 0, (byte) 2, xlg.f52660d);
                         xle.mo29894a((byte) 3);
@@ -221,7 +221,7 @@ public abstract class xft {
                         xle.mo29897b(xlg.f52659c);
                     } else {
                         xlg xlg2 = new xlg(mo29692a());
-                        byte[] k3 = xfr.f52139b.mo73780k();
+                        byte[] k3 = xfr.f52139b.getKey();
                         byte[] bArr2 = keyHandle.f31911b;
                         xle = xle.m43131a((byte) 0, (byte) 2, xlg2.f52660d);
                         xle.mo29894a((byte) 3);
@@ -238,7 +238,7 @@ public abstract class xft {
                         byte[] a = xlf.mo29900a();
                         f52143a.mo25414c("Received response data: %s.", boan.f132472f.mo68794a(a));
                         if (xfr.f52141d.mo66813a()) {
-                            return new SignResponseData(keyHandle.f31911b, (String) xfr.f52141d.mo66814b(), a, xfr.f52139b.mo73780k());
+                            return new SignResponseData(keyHandle.f31911b, (String) xfr.f52141d.mo66814b(), a, xfr.f52139b.getKey());
                         }
                         throw xfv.m42834a(27264);
                     } else if (s == 26368) {

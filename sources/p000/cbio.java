@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbio */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbio extends bxvk implements bxxd {
+public final class cbio extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final cbio f177277c;
@@ -19,7 +19,7 @@ public final class cbio extends bxvk implements bxxd {
     static {
         cbio cbio = new cbio();
         f177277c = cbio;
-        bxvk.m124024a(cbio.class, cbio);
+        GeneratedMessageLite.m124024a(cbio.class, cbio);
     }
 
     private cbio() {
@@ -36,7 +36,7 @@ public final class cbio extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f177277c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002\u0004", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f177277c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002\u0004", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new cbio();
         } else {

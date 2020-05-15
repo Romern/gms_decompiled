@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bprd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bprd extends bxvk implements bxxd {
+public final class bprd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bprd f138822e;
@@ -25,7 +25,7 @@ public final class bprd extends bxvk implements bxxd {
     static {
         bprd bprd = new bprd();
         f138822e = bprd;
-        bxvk.m124024a(bprd.class, bprd);
+        GeneratedMessageLite.m124024a(bprd.class, bprd);
     }
 
     private bprd() {
@@ -42,7 +42,7 @@ public final class bprd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138822e, "\u0001\u0003\u0000\u0001\u0001\b\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\bဌ\u0002", new Object[]{"a", "b", bprc.f138821a, "c", "d", bpor.f138568a});
+            return GeneratedMessageLite.m124022a(f138822e, "\u0001\u0003\u0000\u0001\u0001\b\u0003\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\bဌ\u0002", new Object[]{"a", "b", bprc.f138821a, "c", "d", bpor.f138568a});
         } else if (i2 == 3) {
             return new bprd();
         } else {

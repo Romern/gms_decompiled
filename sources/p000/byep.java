@@ -17,7 +17,7 @@ public final class byep extends bxvd implements bxxd {
         byev byev2 = byev.f165940w;
         byek.getClass();
         if (!byev.f165953l.mo73666a()) {
-            byev.f165953l = bxvk.m124021a(byev.f165953l);
+            byev.f165953l = GeneratedMessageLite.m124021a(byev.f165953l);
         }
         byev.f165953l.add(byek);
     }

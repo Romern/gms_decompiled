@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boiu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boiu extends bxvk implements bxxd {
+public final class boiu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final boiu f133232f;
@@ -28,7 +28,7 @@ public final class boiu extends bxvk implements bxxd {
     static {
         boiu boiu = new boiu();
         f133232f = boiu;
-        bxvk.m124024a(boiu.class, boiu);
+        GeneratedMessageLite.m124024a(boiu.class, boiu);
     }
 
     private boiu() {
@@ -45,7 +45,7 @@ public final class boiu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133232f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဌ\u0001\u0003ဉ\u0002\u0004ဌ\u0003", new Object[]{"a", "b", "c", bojc.f133262a, "d", "e", bojb.f133261a});
+            return GeneratedMessageLite.m124022a(f133232f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဌ\u0001\u0003ဉ\u0002\u0004ဌ\u0003", new Object[]{"a", "b", "c", bojc.f133262a, "d", "e", bojb.f133261a});
         } else if (i2 == 3) {
             return new boiu();
         } else {

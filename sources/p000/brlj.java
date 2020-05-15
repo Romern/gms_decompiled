@@ -20,7 +20,7 @@ public final class brlj {
     private static final Object f142926b = new Object();
 
     /* renamed from: c */
-    private static final sek f142927c = new sek("FirebaseAuth", "PhoneVerificationSessionManager");
+    private static final Logger f142927c = new Logger("FirebaseAuth", "PhoneVerificationSessionManager");
 
     /* renamed from: a */
     public static void m114134a(long j) {

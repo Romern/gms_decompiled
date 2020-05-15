@@ -83,22 +83,22 @@ public final class pra {
         byte[] bArr2 = bArr;
         long j2 = j;
         try {
-            blsq blsq = (blsq) bxvk.m124016a(blsq.f127611b, bArr2, bxus.m123744c());
+            blsq blsq = (blsq) GeneratedMessageLite.m124016a(blsq.f127611b, bArr2, bxus.m123744c());
             m31051a(blsq.f127613a.size() > 0, "Empty CRL bundle");
             for (blsp blsp : blsq.f127613a) {
                 int i = blsp.f127607a;
                 m31051a(((i & 1) == 0 || (i & 2) == 0) ? false : (i & 4) != 0, "CRL is missing a required field.");
-                bxtx bxtx = blsp.f127608b;
+                ByteString bxtx = blsp.f127608b;
                 bxus c = bxus.m123744c();
                 blss blss = blss.f127620f;
                 bxuc h = bxtx.mo73764h();
-                bxvk bxvk = (bxvk) blss.mo74142c(4);
-                bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                a.mo74220a(bxvk, bxud.m123454a(h), c);
-                a.mo74225d(bxvk);
+                GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) blss.mo74142c(4);
+                bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                a.mo74225d(GeneratedMessageLite);
                 h.mo73787a(0);
-                bxvk.m124027b(bxvk);
-                blss blss2 = (blss) bxvk;
+                GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                blss blss2 = (blss) GeneratedMessageLite;
                 long j3 = blss2.f127622a;
                 if (j3 == 0) {
                     long j4 = blss2.f127623b;
@@ -124,14 +124,14 @@ public final class pra {
                         long j7 = blss2.f127624c;
                         if (j2 <= j7) {
                             m31051a((blsp.f127607a & 2) != 0, "CRL is missing a signer certificate.");
-                            X509Certificate a2 = this.f40092e.mo23569a(blsp.f127609c.mo73780k());
+                            X509Certificate a2 = this.f40092e.mo23569a(blsp.f127609c.getKey());
                             try {
                                 X509Certificate trustedCert = pqz.m31042a(this.f40092e.f40087a.generateCertPath(Arrays.asList(a2)), TimeUnit.SECONDS.toMillis(j2), this.f40090c).getTrustAnchor().getTrustedCert();
                                 if (trustedCert != null) {
                                     Signature c2 = pqz.m31046c();
                                     c2.initVerify(a2.getPublicKey());
-                                    c2.update(blsp.f127608b.mo73780k());
-                                    if (c2.verify(blsp.f127610d.mo73780k())) {
+                                    c2.update(blsp.f127608b.getKey());
+                                    if (c2.verify(blsp.f127610d.getKey())) {
                                         pqv pqv = this.f40088a;
                                         pqz.m31045b().digest(bArr2);
                                         return new pqx(pqv, blss2, new pqy(blss2.f127623b, blss2.f127624c, a2, trustedCert));

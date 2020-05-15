@@ -28,7 +28,7 @@ public final class braf extends bxvd implements bxxd {
         braj braj = (braj) this.f164949b;
         braj braj2 = braj.f142139l;
         if (!braj.f142146f.mo73666a()) {
-            braj.f142146f = bxvk.m124021a(braj.f142146f);
+            braj.f142146f = GeneratedMessageLite.m124021a(braj.f142146f);
         }
         bxsy.m123078a(iterable, braj.f142146f);
     }

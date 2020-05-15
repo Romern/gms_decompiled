@@ -29,7 +29,7 @@ import java.util.Map;
 public final class tec {
 
     /* renamed from: a */
-    public static final sek f45721a = tea.m36798a("phone_util");
+    public static final Logger f45721a = tea.m36798a("phone_util");
 
     /* renamed from: e */
     private static WeakReference f45722e = new WeakReference(null);
@@ -311,7 +311,7 @@ public final class tec {
             String str7 = (String) entry.getKey();
             cbrh cbrh = (cbrh) entry.getValue();
             bxvd bxvd = (bxvd) cbrh.mo74142c(5);
-            bxvd.mo73625a((bxvk) cbrh);
+            bxvd.mo73625a((GeneratedMessageLite) cbrh);
             cbre cbre2 = (cbre) bxvd;
             if (cbre2 != null) {
                 cbrd cbrd3 = ((cbrh) cbre2.f164949b).f178120e;
@@ -336,7 +336,7 @@ public final class tec {
                             cbrd5 = cbrd.f178108e;
                         }
                         bxvd bxvd2 = (bxvd) cbrd5.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) cbrd5);
+                        bxvd2.mo73625a((GeneratedMessageLite) cbrd5);
                         int i16 = (int) (currentTimeMillis - j);
                         if (bxvd2.f164950c) {
                             bxvd2.mo74035c();

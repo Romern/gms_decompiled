@@ -22,7 +22,7 @@ final class adnb implements aubw {
         Void voidR = (Void) obj;
         boly boly = this.f62194a;
         bxvd bxvd = (bxvd) boly.mo74142c(5);
-        bxvd.mo73625a((bxvk) boly);
+        bxvd.mo73625a((GeneratedMessageLite) boly);
         int i = ((boly) bxvd.f164949b).f133596b;
         if (bxvd.f164950c) {
             bxvd.mo74035c();

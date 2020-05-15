@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abet */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abet extends bxvk implements bxxd {
+public final class abet extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: q */
     public static final abet f57292q;
@@ -61,7 +61,7 @@ public final class abet extends bxvk implements bxxd {
     static {
         abet abet = new abet();
         f57292q = abet;
-        bxvk.m124024a(abet.class, abet);
+        GeneratedMessageLite.m124024a(abet.class, abet);
     }
 
     private abet() {
@@ -78,7 +78,7 @@ public final class abet extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f57292q, "\u0001\u000f\u0000\u0001\u0001\u0016\u000f\u0000\u0001\u0000\u0001ဈ\u0000\u0003ဈ\u0002\u0004ဈ\u0003\u0005\u001b\u0006ဉ\u0004\u0007ဉ\u0005\nဉ\b\u000bဉ\t\fင\n\rဈ\u000b\u000eဉ\f\u000fဉ\r\u0010ဈ\u000e\u0015ဈ\u0013\u0016ဈ\u0014", new Object[]{"a", "b", "c", "d", "e", abes.class, "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"});
+            return GeneratedMessageLite.m124022a(f57292q, "\u0001\u000f\u0000\u0001\u0001\u0016\u000f\u0000\u0001\u0000\u0001ဈ\u0000\u0003ဈ\u0002\u0004ဈ\u0003\u0005\u001b\u0006ဉ\u0004\u0007ဉ\u0005\nဉ\b\u000bဉ\t\fင\n\rဈ\u000b\u000eဉ\f\u000fဉ\r\u0010ဈ\u000e\u0015ဈ\u0013\u0016ဈ\u0014", new Object[]{"a", "b", "c", "d", "e", abes.class, "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"});
         } else if (i2 == 3) {
             return new abet();
         } else {

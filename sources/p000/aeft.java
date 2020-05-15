@@ -24,7 +24,7 @@ public final /* synthetic */ class aeft implements roo {
         aekl aekl = (aekl) obj;
         aefx aefx = new aefx((aucf) obj2);
         aekl.mo25288A();
-        sdo.m34966a(aefx, "ResultHolder not provided.");
+        sdo.checkIfNull(aefx, "ResultHolder not provided.");
         ((aekb) aekl.mo25289B()).mo34219a(activityTransitionRequest, pendingIntent, new ros(aefx));
     }
 }

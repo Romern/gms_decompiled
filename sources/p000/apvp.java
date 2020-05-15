@@ -57,7 +57,7 @@ final /* synthetic */ class apvp implements Runnable {
             if (i4 != 0) {
                 bvzx2.f158591d = i5;
                 bvzx2.f158588a |= 4;
-                apvs.f85002a.mo24335a(((bvzx) da.mo74062i()).mo73642k()).mo24327b();
+                apvs.f85002a.mo24335a(((bvzx) da.mo74062i()).serializeToBytes()).mo24327b();
                 return;
             }
             throw null;

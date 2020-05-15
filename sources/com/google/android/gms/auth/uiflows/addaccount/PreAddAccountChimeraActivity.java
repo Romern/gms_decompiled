@@ -293,7 +293,7 @@ public class PreAddAccountChimeraActivity extends jxf implements LoaderManager.L
                     bodh = bodh.f132682k;
                 }
                 bxvd bxvd = (bxvd) bodh.mo74142c(5);
-                bxvd.mo73625a((bxvk) bodh);
+                bxvd.mo73625a((GeneratedMessageLite) bodh);
                 da = bxvd;
             }
             bxvd da2 = bocr.f132595c.mo74144da();
@@ -304,7 +304,7 @@ public class PreAddAccountChimeraActivity extends jxf implements LoaderManager.L
                     bocr = bocr.f132595c;
                 }
                 bxvd bxvd2 = (bxvd) bocr.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bocr);
+                bxvd2.mo73625a((GeneratedMessageLite) bocr);
                 da2 = bxvd2;
             }
             bxvd da3 = boer.f132825d.mo74144da();

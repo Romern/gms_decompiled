@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbaz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbaz extends bxvk implements bxxd {
+public final class cbaz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final cbaz f176518a;
@@ -13,11 +13,11 @@ public final class cbaz extends bxvk implements bxxd {
     static {
         cbaz cbaz = new cbaz();
         f176518a = cbaz;
-        bxvk.m124024a(cbaz.class, cbaz);
+        GeneratedMessageLite.m124024a(cbaz.class, cbaz);
     }
 
     private cbaz() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -31,7 +31,7 @@ public final class cbaz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176518a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f176518a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new cbaz();

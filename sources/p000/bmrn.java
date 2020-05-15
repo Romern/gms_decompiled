@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmrn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmrn extends bxvk implements bxxd {
+public final class bmrn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: i */
     public static final bmrn f130543i;
@@ -29,7 +29,7 @@ public final class bmrn extends bxvk implements bxxd {
     public bxwc f130550f = bxxn.f165040b;
 
     /* renamed from: g */
-    public bxtx f130551g = bxtx.f164797b;
+    public ByteString f130551g = ByteString.f164797b;
 
     /* renamed from: h */
     public bmeu f130552h;
@@ -37,7 +37,7 @@ public final class bmrn extends bxvk implements bxxd {
     static {
         bmrn bmrn = new bmrn();
         f130543i = bmrn;
-        bxvk.m124024a(bmrn.class, bmrn);
+        GeneratedMessageLite.m124024a(bmrn.class, bmrn);
     }
 
     private bmrn() {
@@ -54,7 +54,7 @@ public final class bmrn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f130543i, "\u0001\u0007\u0000\u0001\u0004\u000b\u0007\u0000\u0004\u0000\u0004\u001b\u0005\u001b\u0006\u001a\u0007ဉ\u0000\b\u001b\tည\u0001\u000bဉ\u0002", new Object[]{"a", "b", bmed.class, "c", bmfc.class, "d", "e", "f", bmog.class, "g", "h"});
+            return GeneratedMessageLite.m124022a(f130543i, "\u0001\u0007\u0000\u0001\u0004\u000b\u0007\u0000\u0004\u0000\u0004\u001b\u0005\u001b\u0006\u001a\u0007ဉ\u0000\b\u001b\tည\u0001\u000bဉ\u0002", new Object[]{"a", "b", bmed.class, "c", bmfc.class, "d", "e", "f", bmog.class, "g", "h"});
         } else if (i2 == 3) {
             return new bmrn();
         } else {
@@ -81,21 +81,21 @@ public final class bmrn extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo66808b() {
         if (!this.f130547c.mo73666a()) {
-            this.f130547c = bxvk.m124021a(this.f130547c);
+            this.f130547c = GeneratedMessageLite.m124021a(this.f130547c);
         }
     }
 
     /* renamed from: c */
     public final void mo66809c() {
         if (!this.f130550f.mo73666a()) {
-            this.f130550f = bxvk.m124021a(this.f130550f);
+            this.f130550f = GeneratedMessageLite.m124021a(this.f130550f);
         }
     }
 
     /* renamed from: a */
     public final void mo66807a() {
         if (!this.f130546b.mo73666a()) {
-            this.f130546b = bxvk.m124021a(this.f130546b);
+            this.f130546b = GeneratedMessageLite.m124021a(this.f130546b);
         }
     }
 }

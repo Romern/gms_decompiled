@@ -45,7 +45,7 @@ public final class bcmm implements bcnl {
         }
         a.getClass();
         ((cbcr) da.f164949b).f176682d = a;
-        bxtx c = this.f104483a.mo57059c();
+        ByteString c = this.f104483a.mo57059c();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -59,7 +59,7 @@ public final class bcmm implements bcnl {
         }
         cbcr cbcr = (cbcr) da.f164949b;
         if (!cbcr.f176681c.mo73666a()) {
-            cbcr.f176681c = bxvk.m124019a(cbcr.f176681c);
+            cbcr.f176681c = GeneratedMessageLite.m124019a(cbcr.f176681c);
         }
         int size = a2.size();
         for (int i = 0; i < size; i++) {

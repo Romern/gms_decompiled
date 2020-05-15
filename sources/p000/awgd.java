@@ -39,14 +39,14 @@ public final class awgd extends ExceptionHandlingAsyncTask {
         Void[] voidArr = (Void[]) objArr;
         byte[] a = this.f94288a.mo52106a(this.f94289b, this.f94290c);
         if (a != null) {
-            return bxtx.m123261a(a);
+            return ByteString.m123261a(a);
         }
         return null;
     }
 
     /* access modifiers changed from: protected */
     public final /* bridge */ /* synthetic */ void onPostExecute(Object obj) {
-        bxtx bxtx = (bxtx) obj;
+        ByteString bxtx = (ByteString) obj;
         awgf awgf = this.f94292e;
         awgf.f94296g = false;
         awge awge = awgf.f94294e;

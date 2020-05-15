@@ -51,7 +51,7 @@ public final class eez {
                 m.f13973a.remove("ContextManagerStore");
             }
             bxvd da = bxht.f163469c.mo74144da();
-            bxtx a2 = bxtx.m123261a(bArr);
+            ByteString a2 = ByteString.m123261a(bArr);
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -62,7 +62,7 @@ public final class eez {
             bxht.f163472b = a2;
             bxht bxht2 = (bxht) da.mo74062i();
             tjo tjo = new tjo(null, 4);
-            tjo.mo26590a(bxht2.mo73642k());
+            tjo.mo26590a(bxht2.serializeToBytes());
             tjo.mo26588a(tju.m37104a("ContextManagerStore", null, null));
             dwq.m9673q().mo10051a(tjo.mo26587a());
             m.f13973a.put("ContextManagerStore", bxht2);

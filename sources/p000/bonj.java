@@ -17,7 +17,7 @@ public final class bonj extends bxvd implements bxxd {
         bonk bonk2 = bonk.f133815e;
         boni.getClass();
         if (!bonk.f133819b.mo73666a()) {
-            bonk.f133819b = bxvk.m124021a(bonk.f133819b);
+            bonk.f133819b = GeneratedMessageLite.m124021a(bonk.f133819b);
         }
         bonk.f133819b.add(boni);
     }

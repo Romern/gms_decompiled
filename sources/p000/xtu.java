@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 public final class xtu {
 
     /* renamed from: g */
-    public static final sek f53088g = new sek(new String[]{"CtapAuthenticatorRequestHandler"}, (short[]) null);
+    public static final Logger f53088g = new Logger(new String[]{"CtapAuthenticatorRequestHandler"}, (short[]) null);
 
     /* renamed from: a */
     public final Context f53089a;

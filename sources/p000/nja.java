@@ -143,7 +143,7 @@ public final class nja implements niw {
         }
         bpcl a = this.f35790h.mo20864a();
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (this.f35789g.mo21046f() == null) {
             return bxvd;
         }

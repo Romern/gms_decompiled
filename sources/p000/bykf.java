@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bykf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bykf extends bxvk implements bxxd {
+public final class bykf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bykf f166742c;
@@ -22,7 +22,7 @@ public final class bykf extends bxvk implements bxxd {
     static {
         bykf bykf = new bykf();
         f166742c = bykf;
-        bxvk.m124024a(bykf.class, bykf);
+        GeneratedMessageLite.m124024a(bykf.class, bykf);
     }
 
     private bykf() {
@@ -39,7 +39,7 @@ public final class bykf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166742c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f166742c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new bykf();
         } else {

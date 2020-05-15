@@ -39,7 +39,7 @@ public final class ariy extends dck implements ariz {
     public ariy(ardt ardt) {
         super("com.google.android.gms.smartdevice.d2d.internal.ISourceScanListener");
         this.f87786b = new arjo(this, Looper.getMainLooper());
-        sdo.m34966a(ardt, "listener cannot be null.");
+        sdo.checkIfNull(ardt, "listener cannot be null.");
         this.f87785a = ardt;
     }
 

@@ -8,7 +8,7 @@ public final class cetm implements cetk {
     static {
         bdyw a = new bdyw(bdyj.m91581a("com.google.android.location")).mo58445a("location:");
         try {
-            chreCcConfig = bdyx.m91608a(a, "chre_cc_config", (bybx) bxvk.m124014a(bybx.f165606a, new byte[0]), cetl.f183424a);
+            chreCcConfig = bdyx.m91608a(a, "chre_cc_config", (bybx) GeneratedMessageLite.m124014a(bybx.f165606a, new byte[0]), cetl.f183424a);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"chre_cc_config\"");
         }

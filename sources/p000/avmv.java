@@ -10,7 +10,7 @@ public final class avmv {
     public static final avsz f93428a = new avmu();
 
     /* renamed from: b */
-    private static final sek f93429b = avpq.m79017d("ExperimentControl");
+    private static final Logger f93429b = avpq.m79017d("ExperimentControl");
 
     /* renamed from: c */
     private static final avti f93430c = new avto("control.experiment.exp_id_key", "");

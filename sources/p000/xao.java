@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: xao */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class xao extends bxvk implements bxxd {
+public final class xao extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final xao f51799d;
@@ -17,12 +17,12 @@ public final class xao extends bxvk implements bxxd {
     public bxvt f51802b = bxvm.f164965b;
 
     /* renamed from: c */
-    public bxtx f51803c = bxtx.f164797b;
+    public ByteString f51803c = ByteString.f164797b;
 
     static {
         xao xao = new xao();
         f51799d = xao;
-        bxvk.m124024a(xao.class, xao);
+        GeneratedMessageLite.m124024a(xao.class, xao);
     }
 
     private xao() {
@@ -39,7 +39,7 @@ public final class xao extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f51799d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001e\u0002ည\u0000", new Object[]{"a", "b", xan.m42568b(), "c"});
+            return GeneratedMessageLite.m124022a(f51799d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001e\u0002ည\u0000", new Object[]{"a", "b", xan.m42568b(), "c"});
         } else if (i2 == 3) {
             return new xao();
         } else {

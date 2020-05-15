@@ -346,7 +346,7 @@ public final class akdw {
         a = ahie.mo24714a(new aifi((aifl) ahie, ahia), ahia.class.getName());
         a2 = ((aifl) ahie).f68876a.mo37440a(ahie, new Object(), "advertising");
         rob = a2.f43429b;
-        sdo.m34966a(rob, "Key must not be null");
+        sdo.checkIfNull(rob, "Key must not be null");
         return ahhf.m55776b("startAdvertising", ((aifl) ahie).f68876a.mo37437a(ahie, new aifc(a2, new Feature[]{ahca.f66971b}, bArr, "NearbySharing", a, advertisingOptions), new aifd(rob)), cfov.m142058k());
     }
 

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: tnn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class tnn extends bxvk implements bxxd {
+public final class tnn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final tnn f46304b;
@@ -16,7 +16,7 @@ public final class tnn extends bxvk implements bxxd {
     static {
         tnn tnn = new tnn();
         f46304b = tnn;
-        bxvk.m124024a(tnn.class, tnn);
+        GeneratedMessageLite.m124024a(tnn.class, tnn);
     }
 
     private tnn() {
@@ -33,7 +33,7 @@ public final class tnn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f46304b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bxcx.class});
+            return GeneratedMessageLite.m124022a(f46304b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bxcx.class});
         } else if (i2 == 3) {
             return new tnn();
         } else {

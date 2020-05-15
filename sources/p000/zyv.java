@@ -8,7 +8,7 @@ public final class zyv {
     public final zxe f56231a;
 
     public zyv(zxe zxe) {
-        sdo.m34966a(zxe, "directory");
+        sdo.checkIfNull(zxe, "directory");
         this.f56231a = zxe;
     }
 

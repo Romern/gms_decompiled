@@ -5,7 +5,7 @@ package p000;
 public final class avtj extends avti {
 
     /* renamed from: c */
-    private static final sek f93888c = avpq.m79021h("LiteProtoKey");
+    private static final Logger f93888c = avpq.m79021h("LiteProtoKey");
 
     /* renamed from: d */
     private final bxxc f93889d;
@@ -30,6 +30,6 @@ public final class avtj extends avti {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ String mo51591a(Object obj) {
         bmxv bmxv = (bmxv) obj;
-        return bmxv.mo66813a() ? sqd.m35968b(((bxxc) bmxv.mo66814b()).mo73642k()) : "";
+        return bmxv.mo66813a() ? sqd.m35968b(((bxxc) bmxv.mo66814b()).serializeToBytes()) : "";
     }
 }

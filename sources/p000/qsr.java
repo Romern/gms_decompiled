@@ -22,7 +22,7 @@ public final class qsr extends qsi {
     public static final /* synthetic */ int f42053b = 0;
 
     /* renamed from: c */
-    private static final sek f42054c = qqu.m32670a("ListOperation");
+    private static final Logger f42054c = qqu.m32670a("ListOperation");
 
     /* renamed from: d */
     private final qrx f42055d;
@@ -153,8 +153,8 @@ public final class qsr extends qsi {
                                 }
                             }
                             long elapsedRealtime5 = SystemClock.elapsedRealtime();
-                            sek sek = qvp.f42249a;
-                            sek.mo25412b("Listed " + arrayList.size() + " entries. [entry type: " + i + ", number of invalid entries: " + i2 + ", data initialization latency: " + (elapsedRealtime2 - elapsedRealtime) + "ms, cryptographer retrival latency: " + (elapsedRealtime3 - elapsedRealtime2) + "ms, database query latency: " + (elapsedRealtime4 - elapsedRealtime3) + "ms, data conversion latency: " + (elapsedRealtime5 - elapsedRealtime4) + str, new Object[0]);
+                            Logger Logger = qvp.f42249a;
+                            Logger.mo25412b("Listed " + arrayList.size() + " entries. [entry type: " + i + ", number of invalid entries: " + i2 + ", data initialization latency: " + (elapsedRealtime2 - elapsedRealtime) + "ms, cryptographer retrival latency: " + (elapsedRealtime3 - elapsedRealtime2) + "ms, database query latency: " + (elapsedRealtime4 - elapsedRealtime3) + "ms, data conversion latency: " + (elapsedRealtime5 - elapsedRealtime4) + str, new Object[0]);
                             bngx = bngx.m109368a((Collection) arrayList);
                         } catch (SQLiteException e2) {
                             throw new qrp(769, e2);

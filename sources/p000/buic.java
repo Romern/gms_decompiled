@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buic */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buic extends bxvk implements bxxd {
+public final class buic extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final buic f153922c;
@@ -22,7 +22,7 @@ public final class buic extends bxvk implements bxxd {
     static {
         buic buic = new buic();
         f153922c = buic;
-        bxvk.m124024a(buic.class, buic);
+        GeneratedMessageLite.m124024a(buic.class, buic);
     }
 
     private buic() {
@@ -39,7 +39,7 @@ public final class buic extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153922c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဃ\u0000\u0002ဏ\u0001", new Object[]{"d", "a", "b"});
+            return GeneratedMessageLite.m124022a(f153922c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဃ\u0000\u0002ဏ\u0001", new Object[]{"d", "a", "b"});
         } else if (i2 == 3) {
             return new buic();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btvu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btvu extends bxvk implements bxxd {
+public final class btvu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btvu f152642a;
@@ -13,7 +13,7 @@ public final class btvu extends bxvk implements bxxd {
     static {
         btvu btvu = new btvu();
         f152642a = btvu;
-        bxvk.m124024a(btvu.class, btvu);
+        GeneratedMessageLite.m124024a(btvu.class, btvu);
     }
 
     private btvu() {
@@ -31,7 +31,7 @@ public final class btvu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f152642a, "\u0000\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f152642a, "\u0000\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btvu();

@@ -12,7 +12,7 @@ final /* synthetic */ class apdy implements auca {
         aoyj.m69819a().mo46988a(14);
         ArrayList arrayList = new ArrayList();
         for (ParcelableDevice parcelableDevice : (List) obj) {
-            arrayList.add((ltn) bxvk.m124016a(ltn.f32960g, parcelableDevice.f28992a, bxus.m123744c()));
+            arrayList.add((ltn) GeneratedMessageLite.m124016a(ltn.f32960g, parcelableDevice.f28992a, bxus.m123744c()));
         }
         ArrayList arrayList2 = new ArrayList();
         int size = arrayList.size();

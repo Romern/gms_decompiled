@@ -53,7 +53,7 @@ final class ahuw extends buqn {
         ahst ahst = (ahst) ahgz.m55754a(this.f68127e, ahst.class);
         ahyz ahyz = this.f68128f;
         bxvd bxvd = (bxvd) ahyz.mo74142c(5);
-        bxvd.mo73625a((bxvk) ahyz);
+        bxvd.mo73625a((GeneratedMessageLite) ahyz);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

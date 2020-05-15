@@ -17,7 +17,7 @@ import javax.crypto.spec.SecretKeySpec;
 public final class grm {
 
     /* renamed from: a */
-    private static final sek f18891a = new sek("Auth", "AuthzenSecretProviderHelper");
+    private static final Logger f18891a = new Logger("Auth", "AuthzenSecretProviderHelper");
 
     /* renamed from: b */
     private static final long f18892b = TimeUnit.MINUTES.toMillis(60);
@@ -63,7 +63,7 @@ public final class grm {
             if (a != null) {
                 return new grv(str, a.getEncoded(), j);
             }
-            f18891a.mo25418e("Failed to derive secret for %s.", sek.m35081a(str));
+            f18891a.mo25418e("Failed to derive secret for %s.", Logger.m35081a(str));
             return null;
         } catch (InterruptedException | ExecutionException | TimeoutException e) {
             f18891a.mo25417e("Error fetching key from Cryptauth", e, new Object[0]);

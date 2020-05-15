@@ -15,7 +15,7 @@ final /* synthetic */ class xcw implements bmxj {
     public final Object apply(Object obj) {
         List list = this.f51976a;
         List list2 = (List) obj;
-        sek sek = xdc.f51982b;
+        Logger Logger = xdc.f51982b;
         if (!list2.isEmpty()) {
             list.addAll(list2);
         }

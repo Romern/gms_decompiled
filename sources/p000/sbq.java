@@ -74,7 +74,7 @@ public final class sbq {
     /* access modifiers changed from: protected */
     /* renamed from: a */
     public final void mo25354a(sbp sbp, ServiceConnection serviceConnection) {
-        sdo.m34966a(serviceConnection, "ServiceConnection must not be null");
+        sdo.checkIfNull(serviceConnection, "ServiceConnection must not be null");
         synchronized (this.f44023a) {
             sbr sbr = (sbr) this.f44023a.get(sbp);
             if (sbr == null) {
@@ -112,7 +112,7 @@ public final class sbq {
     /* renamed from: a */
     public final boolean mo25357a(sbp sbp, ServiceConnection serviceConnection, String str) {
         boolean z;
-        sdo.m34966a(serviceConnection, "ServiceConnection must not be null");
+        sdo.checkIfNull(serviceConnection, "ServiceConnection must not be null");
         ServiceConnection a = sbu.m34868a(serviceConnection);
         synchronized (this.f44023a) {
             sbr sbr = (sbr) this.f44023a.get(sbp);

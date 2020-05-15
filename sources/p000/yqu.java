@@ -65,7 +65,7 @@ public final class yqu extends yqr {
         } else if (yyk.m45020a(cadn, this.f54443d, this.f54442c)) {
             cadn a = yyk.m45010a(mo30664c());
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             cadm cadm = (cadm) bxvd;
             int a2 = caak.m126415a(this.f54443d.f172343c);
             int i = 1;

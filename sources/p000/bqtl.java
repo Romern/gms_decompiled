@@ -29,18 +29,18 @@ final class bqtl extends bqnr {
     }
 
     /* renamed from: a */
-    public final /* bridge */ /* synthetic */ bxxc mo69297a(bxtx bxtx) {
+    public final /* bridge */ /* synthetic */ bxxc mo69297a(ByteString bxtx) {
         bxus b = bxus.m123743b();
         bqrv bqrv = bqrv.f141488c;
         try {
             bxuc h = bxtx.mo73764h();
-            bxvk bxvk = (bxvk) bqrv.mo74142c(4);
-            bxxv a = bxxm.f165037a.mo74228a(bxvk);
-            a.mo74220a(bxvk, bxud.m123454a(h), b);
-            a.mo74225d(bxvk);
+            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bqrv.mo74142c(4);
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+            a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), b);
+            a.mo74225d(GeneratedMessageLite);
             h.mo73787a(0);
-            bxvk.m124027b(bxvk);
-            return (bqrv) bxvk;
+            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+            return (bqrv) GeneratedMessageLite;
         } catch (IOException e) {
             if (!(e.getCause() instanceof bxwf)) {
                 throw new bxwf(e.getMessage());

@@ -11,7 +11,7 @@ import com.google.android.gms.smartdevice.wifi.ConnectToWifiNetworkResponse;
 public final class asdv extends aaab {
 
     /* renamed from: a */
-    private static final sek f88741a = ascp.m73787a("Wifi", "ConnectToWifiNetworkOperation");
+    private static final Logger f88741a = ascp.m73787a("Wifi", "ConnectToWifiNetworkOperation");
 
     /* renamed from: b */
     private final asdq f88742b;
@@ -35,10 +35,10 @@ public final class asdv extends aaab {
     /* renamed from: a */
     public final void mo49074a(ascz ascz) {
         String str = this.f88743c.f108266a;
-        sek sek = f88741a;
+        Logger Logger = f88741a;
         String valueOf = String.valueOf(str);
-        sek.mo25409a(valueOf.length() == 0 ? new String("SSID: ") : "SSID: ".concat(valueOf), new Object[0]);
-        f88741a.mo25409a("Creating WifiConfiguration", new Object[0]);
+        Logger.logVerbose(valueOf.length() == 0 ? new String("SSID: ") : "SSID: ".concat(valueOf), new Object[0]);
+        f88741a.logVerbose("Creating WifiConfiguration", new Object[0]);
         try {
             ConnectToWifiNetworkRequest connectToWifiNetworkRequest = this.f88743c;
             if (ascz.mo49053a(asdd.m73821a(connectToWifiNetworkRequest.f108267b, connectToWifiNetworkRequest.f108266a, connectToWifiNetworkRequest.f108268c, connectToWifiNetworkRequest.f108269d)) == -1) {

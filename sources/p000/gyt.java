@@ -16,7 +16,7 @@ import com.google.android.chimera.Activity;
 public final class gyt extends adcf {
 
     /* renamed from: a */
-    public static final sek f19252a = ght.m13172b("GoogleSignInAccountChooserFragment");
+    public static final Logger f19252a = ght.m13172b("GoogleSignInAccountChooserFragment");
 
     /* renamed from: i */
     private static final int f19253i = C0126R.style.CredentialsDialogTheme;

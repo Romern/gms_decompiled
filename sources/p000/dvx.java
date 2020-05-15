@@ -55,7 +55,7 @@ public final class dvx extends dwm implements aerc {
             tjq a2 = dwq.m9673q().mo10053a(doh, 14);
             if (a2 != null) {
                 try {
-                    tnn tnn = (tnn) bxvk.m124014a(tnn.f46304b, a2.mo26593c());
+                    tnn tnn = (tnn) GeneratedMessageLite.m124014a(tnn.f46304b, a2.mo26593c());
                     if (tnn != null && !sqw.m36041a((Collection) tnn.f46306a)) {
                         bxwc bxwc = tnn.f46306a;
                         int size = bxwc.size();
@@ -181,7 +181,7 @@ public final class dvx extends dwm implements aerc {
                 }
                 tnn tnn = (tnn) da.f164949b;
                 if (!tnn.f46306a.mo73666a()) {
-                    tnn.f46306a = bxvk.m124021a(tnn.f46306a);
+                    tnn.f46306a = GeneratedMessageLite.m124021a(tnn.f46306a);
                 }
                 bxsy.m123078a(arrayList, tnn.f46306a);
                 dwq.m9673q().mo10051a(tjq.m37092a(doh, 14, (tnn) da.mo74062i()));

@@ -7,7 +7,7 @@ import android.content.Intent;
 final class aooy implements aoot {
 
     /* renamed from: b */
-    private static final sek f78628b = aope.m66267a("RcsBindingManager");
+    private static final Logger f78628b = aope.m66267a("RcsBindingManager");
 
     /* renamed from: a */
     aoou f78629a;
@@ -22,12 +22,12 @@ final class aooy implements aoot {
             try {
                 skh.m35531a().mo25689a(rpr.m34216b(), this.f78630c);
             } catch (IllegalArgumentException | IllegalStateException e) {
-                sek sek = f78628b;
+                Logger Logger = f78628b;
                 String valueOf = String.valueOf(e);
                 StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 17);
                 sb.append("Error unbinding: ");
                 sb.append(valueOf);
-                sek.mo25418e(sb.toString(), new Object[0]);
+                Logger.mo25418e(sb.toString(), new Object[0]);
             }
             this.f78630c = null;
         }
@@ -59,13 +59,13 @@ final class aooy implements aoot {
         Intent intent = new Intent(str2);
         intent.setPackage(str);
         aoox aoox = new aoox(this, str, str3);
-        sek sek = f78628b;
+        Logger Logger = f78628b;
         String valueOf = String.valueOf(intent);
         StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 13);
         sb.append("Binding with ");
         sb.append(valueOf);
         z = false;
-        sek.mo25414c(sb.toString(), new Object[0]);
+        Logger.mo25414c(sb.toString(), new Object[0]);
         if (!cghr.f186962a.mo6606a().mo83810a()) {
             i = 5;
         } else {
@@ -74,9 +74,9 @@ final class aooy implements aoot {
         try {
             z = skh.m35531a().mo25690a(rpr.m34216b(), intent, aoox, i);
         } catch (SecurityException e) {
-            sek sek2 = f78628b;
+            Logger logger2 = f78628b;
             String valueOf2 = String.valueOf(e.getMessage());
-            sek2.mo25418e(valueOf2.length() == 0 ? new String("Missing permission to access the service or the service cannot be found: ") : "Missing permission to access the service or the service cannot be found: ".concat(valueOf2), new Object[0]);
+            logger2.mo25418e(valueOf2.length() == 0 ? new String("Missing permission to access the service or the service cannot be found: ") : "Missing permission to access the service or the service cannot be found: ".concat(valueOf2), new Object[0]);
         }
         if (z) {
             this.f78630c = aoox;

@@ -21,7 +21,7 @@ final class bqqm extends bqnq {
         if (b == 0) {
             b = 1;
         }
-        SecretKeySpec secretKeySpec = new SecretKeySpec(bqrz.f141500c.mo73780k(), "HMAC");
+        SecretKeySpec secretKeySpec = new SecretKeySpec(bqrz.f141500c.getKey(), "HMAC");
         bqsb bqsb2 = bqrz.f141499b;
         if (bqsb2 == null) {
             bqsb2 = bqsb.f141505c;

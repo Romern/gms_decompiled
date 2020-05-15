@@ -141,7 +141,7 @@ public final class qws {
 
     /* renamed from: a */
     public final qwo mo24335a(byte[] bArr) {
-        bxtx bxtx;
+        ByteString bxtx;
         if (bArr != null) {
             bxtx = bxtx.m123261a(bArr);
         } else {

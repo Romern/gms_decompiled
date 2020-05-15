@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ayee */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ayee extends bxvk implements bxxd {
+public final class ayee extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final ayee f97286c;
@@ -22,11 +22,11 @@ public final class ayee extends bxvk implements bxxd {
     static {
         ayee ayee = new ayee();
         f97286c = ayee;
-        bxvk.m124024a(ayee.class, ayee);
+        GeneratedMessageLite.m124024a(ayee.class, ayee);
     }
 
     private ayee() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
         this.f97289b = "";
         bxxn bxxn = bxxn.f165040b;
         bxwq bxwq = bxwq.f165002b;
@@ -48,7 +48,7 @@ public final class ayee extends bxvk implements bxxd {
             this.f97290d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f97286c, "\u0001\u0001\u0000\u0001\u0004\u0004\u0001\u0000\u0000\u0000\u0004ဈ\u0003", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f97286c, "\u0001\u0001\u0000\u0001\u0004\u0004\u0001\u0000\u0000\u0000\u0004ဈ\u0003", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new ayee();
         } else {

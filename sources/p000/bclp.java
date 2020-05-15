@@ -29,7 +29,7 @@ final /* synthetic */ class bclp implements bmxj {
             }
             cbgc cbgc = (cbgc) da.f164949b;
             if (!cbgc.f177014c.mo73666a()) {
-                cbgc.f177014c = bxvk.m124021a(cbgc.f177014c);
+                cbgc.f177014c = GeneratedMessageLite.m124021a(cbgc.f177014c);
             }
             bxsy.m123078a(a2, cbgc.f177014c);
         }
@@ -42,7 +42,7 @@ final /* synthetic */ class bclp implements bmxj {
             }
             cbgc cbgc2 = (cbgc) da.f164949b;
             if (!cbgc2.f177015d.mo73666a()) {
-                cbgc2.f177015d = bxvk.m124021a(cbgc2.f177015d);
+                cbgc2.f177015d = GeneratedMessageLite.m124021a(cbgc2.f177015d);
             }
             bxsy.m123078a(a3, cbgc2.f177015d);
         }

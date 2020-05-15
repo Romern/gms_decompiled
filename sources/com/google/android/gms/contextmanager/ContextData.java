@@ -51,7 +51,7 @@ public class ContextData extends AbstractSafeParcelable {
         byte[] bArr;
         if (!mo18011a() && (bArr = this.f30621d) != null) {
             try {
-                this.f30620b = (bxce) bxvk.m124016a(bxce.f162766k, bArr, bxus.m123744c());
+                this.f30620b = (bxce) GeneratedMessageLite.m124016a(bxce.f162766k, bArr, bxus.m123744c());
                 this.f30621d = null;
             } catch (bxwf e) {
                 Log.e("ContextData", "Could not deserialize context bytes.", e);
@@ -343,13 +343,13 @@ public class ContextData extends AbstractSafeParcelable {
         m22844n();
         bxce bxce = this.f30620b;
         bxvd bxvd = (bxvd) bxce.mo74142c(5);
-        bxvd.mo73625a((bxvk) bxce);
+        bxvd.mo73625a((GeneratedMessageLite) bxce);
         bxcp bxcp = this.f30620b.f162770c;
         if (bxcp == null) {
             bxcp = bxcp.f162974g;
         }
         bxvd bxvd2 = (bxvd) bxcp.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bxcp);
+        bxvd2.mo73625a((GeneratedMessageLite) bxcp);
         if (bxvd2.f164950c) {
             bxvd2.mo74035c();
             bxvd2.f164950c = false;

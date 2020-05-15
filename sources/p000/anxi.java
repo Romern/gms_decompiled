@@ -138,7 +138,7 @@ public final class anxi {
 
     /* renamed from: a */
     public static List m65493a(byte[] bArr) {
-        sfj sfj = (sfj) bxvk.m124016a(sfj.f44114c, bArr, bxus.m123744c());
+        sfj sfj = (sfj) GeneratedMessageLite.m124016a(sfj.f44114c, bArr, bxus.m123744c());
         ArrayList arrayList = new ArrayList();
         HashMap hashMap = new HashMap();
         ArrayList arrayList2 = new ArrayList();

@@ -22,27 +22,27 @@ public class OcrImage {
     }
 
     public byte[] getData() {
-        sdo.m34966a(this.f81266a, "no data buffer allocated");
+        sdo.checkIfNull(this.f81266a, "no data buffer allocated");
         return this.f81266a;
     }
 
     public int getFormat() {
-        sdo.m34966a(this.f81266a, "no data buffer allocated");
+        sdo.checkIfNull(this.f81266a, "no data buffer allocated");
         return this.f81267b;
     }
 
     public int getHeight() {
-        sdo.m34966a(this.f81266a, "no data buffer allocated");
+        sdo.checkIfNull(this.f81266a, "no data buffer allocated");
         return this.f81269d;
     }
 
     public int getOrientation() {
-        sdo.m34966a(Boolean.valueOf(this.f81270e != Integer.MIN_VALUE), "no data buffer allocated");
+        sdo.checkIfNull(Boolean.valueOf(this.f81270e != Integer.MIN_VALUE), "no data buffer allocated");
         return this.f81270e;
     }
 
     public int getWidth() {
-        sdo.m34966a(this.f81266a, "no data buffer allocated");
+        sdo.checkIfNull(this.f81266a, "no data buffer allocated");
         return this.f81268c;
     }
 
@@ -61,7 +61,7 @@ public class OcrImage {
 
     public OcrImage(byte[] bArr, int i, int i2, int i3, int i4) {
         boolean z;
-        sdo.m34966a(bArr, "must have data for image");
+        sdo.checkIfNull(bArr, "must have data for image");
         if (!(i == 256 || i == 16 || i == 17)) {
             if (i == 4) {
                 z = true;

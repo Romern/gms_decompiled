@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bome */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bome extends bxvk implements bxxd {
+public final class bome extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final bome f133636h;
@@ -34,7 +34,7 @@ public final class bome extends bxvk implements bxxd {
     static {
         bome bome = new bome();
         f133636h = bome;
-        bxvk.m124024a(bome.class, bome);
+        GeneratedMessageLite.m124024a(bome.class, bome);
     }
 
     private bome() {
@@ -51,7 +51,7 @@ public final class bome extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133636h, "\u0000\u0007\u0000\u0000\u0001\b\u0007\u0000\u0000\u0000\u0001\f\u0002\f\u0003\u0002\u0004\u0004\u0005\u0004\u0006\u0004\b\u0004", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
+            return GeneratedMessageLite.m124022a(f133636h, "\u0000\u0007\u0000\u0000\u0001\b\u0007\u0000\u0000\u0000\u0001\f\u0002\f\u0003\u0002\u0004\u0004\u0005\u0004\u0006\u0004\b\u0004", new Object[]{"a", "b", "c", "d", "e", "f", "g"});
         } else if (i2 == 3) {
             return new bome();
         } else {

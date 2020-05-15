@@ -291,7 +291,7 @@ public final class aoww {
             }
             bloj bloj = (bloj) da.f164949b;
             if (!bloj.f127096b.mo73666a()) {
-                bloj.f127096b = bxvk.m124019a(bloj.f127096b);
+                bloj.f127096b = GeneratedMessageLite.m124019a(bloj.f127096b);
             }
             bxsy.m123078a(c, bloj.f127096b);
         }
@@ -1012,7 +1012,7 @@ public final class aoww {
                     }
                     bloq bloq2 = (bloq) da14.f164949b;
                     if (!bloq2.f127126a.mo73666a()) {
-                        bloq2.f127126a = bxvk.m124019a(bloq2.f127126a);
+                        bloq2.f127126a = GeneratedMessageLite.m124019a(bloq2.f127126a);
                     }
                     for (bloo bloo : asList) {
                         bloq2.f127126a.mo74153d(bloo.f127122i);
@@ -1078,7 +1078,7 @@ public final class aoww {
                         }
                         blos blos3 = (blos) da15.f164949b;
                         if (!blos3.f127132c.mo73666a()) {
-                            blos3.f127132c = bxvk.m124019a(blos3.f127132c);
+                            blos3.f127132c = GeneratedMessageLite.m124019a(blos3.f127132c);
                         }
                         for (bloi bloi : unmodifiableList) {
                             blos3.f127132c.mo74153d(bloi.f127092n);
@@ -1160,7 +1160,7 @@ public final class aoww {
         byte[] w = task.mo58719w();
         if (w != null) {
             try {
-                blnk blnk = (blnk) bxvk.m124016a(blnk.f126992a, w, bxus.m123744c());
+                blnk blnk = (blnk) GeneratedMessageLite.m124016a(blnk.f126992a, w, bxus.m123744c());
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;
@@ -1176,7 +1176,7 @@ public final class aoww {
         byte[] u = task.mo58717u();
         if (u != null) {
             try {
-                blow blow = (blow) bxvk.m124016a(blow.f127157a, u, bxus.m123744c());
+                blow blow = (blow) GeneratedMessageLite.m124016a(blow.f127157a, u, bxus.m123744c());
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

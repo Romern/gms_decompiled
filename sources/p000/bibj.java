@@ -13,7 +13,7 @@ public final class bibj extends bibd {
         bvmb bvmb = (bvmb) obj;
         bonq a = super.mo64506a(i, j, placesParams, bvmb);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bppa bppa = (bppa) bppb.f138595d.mo74144da();
         bppa.mo68969a(bpoz.HOME);
         bppa.mo68969a(bpoz.WORK);
@@ -35,13 +35,13 @@ public final class bibj extends bibd {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         if (bxvd3.f164950c) {
             bxvd3.mo74035c();
             bxvd3.f164950c = false;
@@ -74,7 +74,7 @@ public final class bibj extends bibd {
 
     /* JADX WARNING: Illegal instructions before constructor call */
     public bibj(sgv sgv, Context context, ClientContext clientContext, String str, PlacesParams placesParams) {
-        super(sgv, clientContext, str, ((bvma) r0.mo74062i()).mo73642k(), bvmb.f156630c, 5, 10244);
+        super(sgv, clientContext, str, ((bvma) r0.mo74062i()).serializeToBytes(), bvmb.f156630c, 5, 10244);
         bvlz bvlz = (bvlz) bvma.f156625d.mo74144da();
         bvov a = bian.m101870a(context, placesParams);
         if (bvlz.f164950c) {

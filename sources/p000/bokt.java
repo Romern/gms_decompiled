@@ -5,5 +5,5 @@ package p000;
 public final class bokt {
 
     /* renamed from: a */
-    public static final bxvj f133455a = bxvk.m124006a((bxxc) bpcb.f135695g, (Object) 0L, (bxxc) null, 508, bxzf.INT64);
+    public static final bxvj f133455a = GeneratedMessageLite.m124006a((bxxc) bpcb.f135695g, (Object) 0L, (bxxc) null, 508, bxzf.INT64);
 }

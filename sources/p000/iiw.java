@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteException;
 public final class iiw {
 
     /* renamed from: a */
-    public static final sek f21076a = new sek(iiw.class.getSimpleName());
+    public static final Logger f21076a = new Logger(iiw.class.getSimpleName());
 
     /* renamed from: b */
     private static iiw f21077b;

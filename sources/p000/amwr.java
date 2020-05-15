@@ -138,7 +138,7 @@ public class amwr {
                 btdd a = this.f76214b.mo41250a(this.f76213a, (btde) da.mo74062i());
                 this.f76216d.mo41628a("FSA_getPersonPhotoEncoded", 1, amwy.m63594a(a));
                 if (a != null) {
-                    return a.f148383b.mo73780k();
+                    return a.f148383b.getKey();
                 }
                 throw new amxy(3);
             } catch (chuw | gid e) {

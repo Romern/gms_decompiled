@@ -17,19 +17,19 @@ public final class bibg extends bibc {
         bvmu bvmu = (bvmu) obj;
         bonq a = super.mo64506a(i, j, placesParams, bvmu);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bpqk bpqk = ((bonq) bxvd.f164949b).f133837c;
         if (bpqk == null) {
             bpqk = bpqk.f138732w;
         }
         bxvd bxvd2 = (bxvd) bpqk.mo74142c(5);
-        bxvd2.mo73625a((bxvk) bpqk);
+        bxvd2.mo73625a((GeneratedMessageLite) bpqk);
         bppp bppp = ((bpqk) bxvd2.f164949b).f138755v;
         if (bppp == null) {
             bppp = bppp.f138633q;
         }
         bxvd bxvd3 = (bxvd) bppp.mo74142c(5);
-        bxvd3.mo73625a((bxvk) bppp);
+        bxvd3.mo73625a((GeneratedMessageLite) bppp);
         bxvd da = bppe.f138605d.mo74144da();
         int size = this.f120132b.size();
         if (da.f164950c) {
@@ -84,7 +84,7 @@ public final class bibg extends bibc {
 
     /* JADX WARNING: Illegal instructions before constructor call */
     public bibg(sgv sgv, Context context, String str, String str2, List list, String str3, PlacesParams placesParams) {
-        super(sgv, str, str2, str3, ((bvmt) r1.mo74062i()).mo73642k(), bvmu.f156793c, 7, 10264);
+        super(sgv, str, str2, str3, ((bvmt) r1.mo74062i()).serializeToBytes(), bvmu.f156793c, 7, 10264);
         List list2 = list;
         bxvd da = bvmt.f156788d.mo74144da();
         bvov a = bian.m101870a(context, placesParams);
@@ -97,7 +97,7 @@ public final class bibg extends bibc {
         bvmt.f156791b = a;
         bvmt.f156790a |= 1;
         if (!bvmt.f156792c.mo73666a()) {
-            bvmt.f156792c = bxvk.m124021a(bvmt.f156792c);
+            bvmt.f156792c = GeneratedMessageLite.m124021a(bvmt.f156792c);
         }
         bxsy.m123078a(list2, bvmt.f156792c);
         this.f120132b = list2;

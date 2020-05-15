@@ -44,7 +44,7 @@ public final class abxj extends abwz {
 
     /* renamed from: a */
     public final void mo32405a(abrv abrv, abyy abyy, abvx abvx) {
-        sdo.m34966a(this.f58681f, "execute called without validateInput");
+        sdo.checkIfNull(this.f58681f, "execute called without validateInput");
         abvr.m48357a(abrv, abyy, this.f58681f);
         caef b = abyd.m48530b(this.f58682g);
         bxvd da = abqq.f58001c.mo74144da();
@@ -254,7 +254,7 @@ public final class abxj extends abwz {
     /* renamed from: a */
     public final void mo32403a(Context context, SQLiteDatabase sQLiteDatabase, abvo abvo, abyy abyy, abxt abxt) {
         UsageInfo usageInfo;
-        sdo.m34966a(this.f58680e, "executeOnDb called without successful validateInput");
+        sdo.checkIfNull(this.f58680e, "executeOnDb called without successful validateInput");
         long currentTimeMillis = System.currentTimeMillis();
         String a = acxb.m49919a(this.f58677b.f152343c);
         if ("com.google.android.gms".equals(this.f58679d) && a != null) {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: apym */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class apym extends bxvk implements bxxd {
+public final class apym extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final apym f85151d;
@@ -22,7 +22,7 @@ public final class apym extends bxvk implements bxxd {
     static {
         apym apym = new apym();
         f85151d = apym;
-        bxvk.m124024a(apym.class, apym);
+        GeneratedMessageLite.m124024a(apym.class, apym);
     }
 
     private apym() {
@@ -39,7 +39,7 @@ public final class apym extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f85151d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f85151d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001င\u0000\u0002ဈ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new apym();
         } else {

@@ -169,7 +169,7 @@ public final class apia {
                 aapm = aapm.f28803f;
             } else {
                 bxvd bxvd = (bxvd) aapm2.mo74142c(5);
-                bxvd.mo73625a((bxvk) aapm2);
+                bxvd.mo73625a((GeneratedMessageLite) aapm2);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -317,13 +317,13 @@ public final class apia {
                 if (aapc != null) {
                     bxwc bxwc = aapc.f28740a;
                     bxvd bxvd2 = (bxvd) aapc.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) aapc);
+                    bxvd2.mo73625a((GeneratedMessageLite) aapc);
                     if (bxvd2.f164950c) {
                         bxvd2.mo74035c();
                         bxvd2.f164950c = false;
                     }
                     aapc aapc3 = aapc.f28738b;
-                    ((aapc) bxvd2.f164949b).f28740a = bxvk.m124030de();
+                    ((aapc) bxvd2.f164949b).f28740a = GeneratedMessageLite.m124030de();
                     int size = bxwc.size();
                     for (int i8 = 0; i8 < size; i8++) {
                         aapb aapb2 = (aapb) bxwc.get(i8);
@@ -371,7 +371,7 @@ public final class apia {
                     aapc2 = aapc.f28738b;
                 }
                 bxvd bxvd3 = (bxvd) aapp.mo74142c(5);
-                bxvd3.mo73625a((bxvk) aapp);
+                bxvd3.mo73625a((GeneratedMessageLite) aapp);
                 if (bxvd3.f164950c) {
                     bxvd3.mo74035c();
                     bxvd3.f164950c = false;

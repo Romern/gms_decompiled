@@ -8,7 +8,7 @@ import com.google.android.gms.common.api.Status;
 public final class itu extends aaab {
 
     /* renamed from: c */
-    private static final sek f21721c = new sek(new String[]{"IncrementAndGetCounterOperation"}, (byte[]) null);
+    private static final Logger f21721c = new Logger(new String[]{"IncrementAndGetCounterOperation"}, (byte[]) null);
 
     /* renamed from: a */
     private final irn f21722a;
@@ -47,19 +47,19 @@ public final class itu extends aaab {
                         da2.f164950c = false;
                     }
                     ((bsns) da2.f164949b).f146329a = 0;
-                    bxtx aL = ((bsns) da2.mo74062i()).mo73639aL();
+                    ByteString aL = ((bsns) da2.mo74062i()).mo73639aL();
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
                     }
                     aL.getClass();
                     ((bsnn) da.f164949b).f146307b = aL;
-                    a3 = ((bsnn) da.mo74062i()).mo73642k();
+                    a3 = ((bsnn) da.mo74062i()).serializeToBytes();
                 } else {
                     throw new isu("No feature metadata found in database.");
                 }
             }
-            long j = ((bsns) bxvk.m124007a(bsns.f146327b, ((bsnn) bxvk.m124014a(bsnn.f146304c, a3)).f146307b)).f146329a + 1;
+            long j = ((bsns) GeneratedMessageLite.m124007a(bsns.f146327b, ((bsnn) GeneratedMessageLite.m124014a(bsnn.f146304c, a3)).f146307b)).f146329a + 1;
             bxvd da3 = bsnn.f146304c.mo74144da();
             bsnm bsnm2 = bsnm.FIDO;
             if (da3.f164950c) {
@@ -73,14 +73,14 @@ public final class itu extends aaab {
                 da4.f164950c = false;
             }
             ((bsns) da4.f164949b).f146329a = j;
-            bxtx aL2 = ((bsns) da4.mo74062i()).mo73639aL();
+            ByteString aL2 = ((bsns) da4.mo74062i()).mo73639aL();
             if (da3.f164950c) {
                 da3.mo74035c();
                 da3.f164950c = false;
             }
             aL2.getClass();
             ((bsnn) da3.f164949b).f146307b = aL2;
-            a.f21633b.mo13228a(a2.f21640e, bsnm.FIDO, ((bsnn) da3.mo74062i()).mo73642k());
+            a.f21633b.mo13228a(a2.f21640e, bsnm.FIDO, ((bsnn) da3.mo74062i()).serializeToBytes());
             isn.f21613b = 1;
             isn.mo13317a();
             this.f21722a.mo13299a(j);

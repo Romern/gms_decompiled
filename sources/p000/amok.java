@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amok */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amok extends bxvk implements bxxd {
+public final class amok extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final amok f75623b;
@@ -16,7 +16,7 @@ public final class amok extends bxvk implements bxxd {
     static {
         amok amok = new amok();
         f75623b = amok;
-        bxvk.m124024a(amok.class, amok);
+        GeneratedMessageLite.m124024a(amok.class, amok);
     }
 
     private amok() {
@@ -33,7 +33,7 @@ public final class amok extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75623b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001a", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f75623b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001a", new Object[]{"a"});
         } else if (i2 == 3) {
             return new amok();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: abua */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class abua extends bxvk implements bxxd {
+public final class abua extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final abua f58332d;
@@ -22,7 +22,7 @@ public final class abua extends bxvk implements bxxd {
     static {
         abua abua = new abua();
         f58332d = abua;
-        bxvk.m124024a(abua.class, abua);
+        GeneratedMessageLite.m124024a(abua.class, abua);
     }
 
     private abua() {
@@ -39,7 +39,7 @@ public final class abua extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f58332d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဋ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f58332d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0003ဋ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new abua();
         } else {

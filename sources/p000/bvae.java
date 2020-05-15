@@ -28,7 +28,7 @@ public final class bvae extends bxvg implements bxvh {
     static {
         bvae bvae = new bvae();
         f155472e = bvae;
-        bxvk.m124024a(bvae.class, bvae);
+        GeneratedMessageLite.m124024a(bvae.class, bvae);
     }
 
     private bvae() {
@@ -49,7 +49,7 @@ public final class bvae extends bxvg implements bxvh {
             this.f155478f = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f155472e, "\u0001\u0003\u0000\u0001\u0001\u0005\u0003\u0000\u0000\u0001\u0001ဌ\u0000\u0004ဉ\u0001\u0005ᐉ\u0002", new Object[]{"a", "b", bvaf.f155479a, "c", "d"});
+            return GeneratedMessageLite.m124022a(f155472e, "\u0001\u0003\u0000\u0001\u0001\u0005\u0003\u0000\u0000\u0001\u0001ဌ\u0000\u0004ဉ\u0001\u0005ᐉ\u0002", new Object[]{"a", "b", bvaf.f155479a, "c", "d"});
         } else if (i2 == 3) {
             return new bvae();
         } else {

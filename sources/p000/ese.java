@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 final class ese extends ThreadPoolExecutor.DiscardPolicy {
 
     /* renamed from: a */
-    private static final sek f15602a = ffw.m11631a("ResourceExecutor");
+    private static final Logger f15602a = ffw.m11631a("ResourceExecutor");
 
     public final void rejectedExecution(Runnable runnable, ThreadPoolExecutor threadPoolExecutor) {
         f15602a.mo25412b("Execution rejected - isShutdown:%b", Boolean.valueOf(threadPoolExecutor.isShutdown()));

@@ -61,11 +61,11 @@ public final class bxux {
                 i3 = 1;
                 break;
             case 8:
-                if (!(obj instanceof bxtx)) {
+                if (!(obj instanceof ByteString)) {
                     i3 = bxuk.m123641b((String) obj);
                     break;
                 } else {
-                    i3 = bxuk.m123640b((bxtx) obj);
+                    i3 = bxuk.m123640b((ByteString) obj);
                     break;
                 }
             case 9:
@@ -80,11 +80,11 @@ public final class bxux {
                     break;
                 }
             case 11:
-                if (!(obj instanceof bxtx)) {
+                if (!(obj instanceof ByteString)) {
                     i3 = bxuk.m123646d((byte[]) obj);
                     break;
                 } else {
-                    i3 = bxuk.m123640b((bxtx) obj);
+                    i3 = bxuk.m123640b((ByteString) obj);
                     break;
                 }
             case 12:
@@ -308,8 +308,8 @@ public final class bxux {
                 bxuk.mo73843b(((Boolean) obj).booleanValue() ? (byte) 1 : 0);
                 return;
             case 8:
-                if (obj instanceof bxtx) {
-                    bxuk.mo73838a((bxtx) obj);
+                if (obj instanceof ByteString) {
+                    bxuk.mo73838a((ByteString) obj);
                     return;
                 } else {
                     bxuk.mo73840a((String) obj);
@@ -322,8 +322,8 @@ public final class bxux {
                 bxuk.mo73839a((bxxc) obj);
                 return;
             case 11:
-                if (obj instanceof bxtx) {
-                    bxuk.mo73838a((bxtx) obj);
+                if (obj instanceof ByteString) {
+                    bxuk.mo73838a((ByteString) obj);
                     return;
                 } else {
                     bxuk.mo73867c((byte[]) obj);
@@ -397,7 +397,7 @@ public final class bxux {
                 z = obj instanceof String;
                 break;
             case 6:
-                if (!(obj instanceof bxtx)) {
+                if (!(obj instanceof ByteString)) {
                     break;
                 }
                 if (obj instanceof bxwj) {
@@ -439,7 +439,7 @@ public final class bxux {
                 this.f164882a.put(bxvi, m123759a(value));
             } else if (!(b instanceof bxxh)) {
                 bxvd bxvd = (bxvd) ((bxxc) b).mo73645aM();
-                bxvd.mo73625a((bxvk) ((bxxc) value));
+                bxvd.mo73625a((GeneratedMessageLite) ((bxxc) value));
                 this.f164882a.put(bxvi, bxvd.mo74062i());
             } else {
                 bxxh bxxh = (bxxh) b;

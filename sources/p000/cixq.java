@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cixq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cixq extends bxvk implements bxxd {
+public final class cixq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cixq f191707b;
@@ -16,7 +16,7 @@ public final class cixq extends bxvk implements bxxd {
     static {
         cixq cixq = new cixq();
         f191707b = cixq;
-        bxvk.m124024a(cixq.class, cixq);
+        GeneratedMessageLite.m124024a(cixq.class, cixq);
     }
 
     private cixq() {
@@ -24,8 +24,8 @@ public final class cixq extends bxvk implements bxxd {
 
     /* renamed from: a */
     public static cixq m151127a(byte[] bArr) {
-        bxvk a = bxvk.m124015a(f191707b, bArr, 0, bArr.length, bxus.m123743b());
-        bxvk.m124027b(a);
+        GeneratedMessageLite a = GeneratedMessageLite.m124015a(f191707b, bArr, 0, bArr.length, bxus.m123743b());
+        GeneratedMessageLite.m124027b(a);
         return (cixq) a;
     }
 
@@ -40,7 +40,7 @@ public final class cixq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191707b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cixr.class});
+            return GeneratedMessageLite.m124022a(f191707b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", cixr.class});
         } else if (i2 == 3) {
             return new cixq();
         } else {

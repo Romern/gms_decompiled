@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buif */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buif extends bxvk implements bxxd {
+public final class buif extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final buif f153928d;
@@ -25,7 +25,7 @@ public final class buif extends bxvk implements bxxd {
     static {
         buif buif = new buif();
         f153928d = buif;
-        bxvk.m124024a(buif.class, buif);
+        GeneratedMessageLite.m124024a(buif.class, buif);
     }
 
     private buif() {
@@ -42,7 +42,7 @@ public final class buif extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153928d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဇ\u0000\u0002\u001b\u0003ဌ\u0001", new Object[]{"e", "a", "b", buik.class, "c", buid.f153927a});
+            return GeneratedMessageLite.m124022a(f153928d, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဇ\u0000\u0002\u001b\u0003ဌ\u0001", new Object[]{"e", "a", "b", buik.class, "c", buid.f153927a});
         } else if (i2 == 3) {
             return new buif();
         } else {

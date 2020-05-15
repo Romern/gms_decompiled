@@ -153,7 +153,7 @@ public final class aira extends airi implements aiqp {
     /* renamed from: c */
     private final void m57767c(byte[] bArr) {
         try {
-            bvgi bvgi = (bvgi) bxvk.m124014a(bvgi.f156000e, bArr);
+            bvgi bvgi = (bvgi) GeneratedMessageLite.m124014a(bvgi.f156000e, bArr);
             int a = bvgh.m121088a(bvgi.f156003b);
             int i = 1;
             if (a == 0) {
@@ -169,7 +169,7 @@ public final class aira extends airi implements aiqp {
                 if (bvge == null) {
                     bvge = bvge.f155990c;
                 }
-                mo37881a(bvge.f155993b.mo73780k());
+                mo37881a(bvge.f155993b.getKey());
             } else {
                 bvgf bvgf = bvgi.f156004c;
                 if (bvgf == null) {
@@ -184,7 +184,7 @@ public final class aira extends airi implements aiqp {
                 if (bvgf2 == null) {
                     bvgf2 = bvgf.f155994d;
                 }
-                byte[] k = bvgf2.f155997b.mo73780k();
+                byte[] k = bvgf2.f155997b.getKey();
                 if (this.f69533l == null) {
                     bnsl bnsl2 = (bnsl) ailf.f69111a.mo68387b();
                     bnsl2.mo68432a("aira", "b", 349, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -226,7 +226,7 @@ public final class aira extends airi implements aiqp {
         bvgi.f156003b = 1;
         bvgi.f156002a |= 1;
         bxvd da2 = bvgf.f155994d.mo74144da();
-        bxtx a2 = bxtx.m123261a(a.f69496c);
+        ByteString a2 = ByteString.m123261a(a.f69496c);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -248,7 +248,7 @@ public final class aira extends airi implements aiqp {
         bvgi2.f156004c = bvgf2;
         bvgi2.f156002a |= 2;
         try {
-            a.f69498e.mo37847a(((bvgi) da.mo74062i()).mo73642k());
+            a.f69498e.mo37847a(((bvgi) da.mo74062i()).serializeToBytes());
             return a;
         } catch (IOException e) {
             bnsl bnsl2 = (bnsl) ailf.f69111a.mo68387b();
@@ -443,7 +443,7 @@ public final class aira extends airi implements aiqp {
             }
         } else {
             try {
-                bvgi bvgi = (bvgi) bxvk.m124014a(bvgi.f156000e, aips.f69460c);
+                bvgi bvgi = (bvgi) GeneratedMessageLite.m124014a(bvgi.f156000e, aips.f69460c);
                 int a = bvgh.m121088a(bvgi.f156003b);
                 int i = 1;
                 if (a == 0) {
@@ -459,7 +459,7 @@ public final class aira extends airi implements aiqp {
                     if (bvge == null) {
                         bvge = bvge.f155990c;
                     }
-                    mo37881a(bvge.f155993b.mo73780k());
+                    mo37881a(bvge.f155993b.getKey());
                 } else {
                     bvgf bvgf = bvgi.f156004c;
                     if (bvgf == null) {
@@ -474,7 +474,7 @@ public final class aira extends airi implements aiqp {
                     if (bvgf2 == null) {
                         bvgf2 = bvgf.f155994d;
                     }
-                    byte[] k = bvgf2.f155997b.mo73780k();
+                    byte[] k = bvgf2.f155997b.getKey();
                     if (this.f69533l == null) {
                         bnsl bnsl4 = (bnsl) ailf.f69111a.mo68387b();
                         bnsl4.mo68432a("aira", "b", 349, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");

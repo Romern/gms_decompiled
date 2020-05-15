@@ -23,7 +23,7 @@ import java.util.concurrent.TimeUnit;
 public final class eqg implements eqc {
 
     /* renamed from: d */
-    private static final sek f15515d = ffw.m11631a("LocalResourceProducer");
+    private static final Logger f15515d = ffw.m11631a("LocalResourceProducer");
 
     /* renamed from: a */
     public final ffk f15516a;
@@ -463,7 +463,7 @@ public final class eqg implements eqc {
         }
         bsvo bsvo = (bsvo) da2.f164949b;
         if (!bsvo.f147316a.mo73666a()) {
-            bsvo.f147316a = bxvk.m124021a(bsvo.f147316a);
+            bsvo.f147316a = GeneratedMessageLite.m124021a(bsvo.f147316a);
         }
         bxsy.m123078a(a, bsvo.f147316a);
         if (da.f164950c) {

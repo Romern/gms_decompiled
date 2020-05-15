@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ddd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ddd extends bxvk implements bxxd {
+public final class ddd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final ddd f12919d;
@@ -22,7 +22,7 @@ public final class ddd extends bxvk implements bxxd {
     static {
         ddd ddd = new ddd();
         f12919d = ddd;
-        bxvk.m124024a(ddd.class, ddd);
+        GeneratedMessageLite.m124024a(ddd.class, ddd);
     }
 
     private ddd() {
@@ -39,7 +39,7 @@ public final class ddd extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f12919d, "\u0001\u0002\u0000\u0001\u0002\u0003\u0002\u0000\u0000\u0000\u0002ဉ\u0001\u0003ဌ\u0000", new Object[]{"a", "c", "b", dda.f12910a});
+            return GeneratedMessageLite.m124022a(f12919d, "\u0001\u0002\u0000\u0001\u0002\u0003\u0002\u0000\u0000\u0000\u0002ဉ\u0001\u0003ဌ\u0000", new Object[]{"a", "c", "b", dda.f12910a});
         } else if (i2 == 3) {
             return new ddd();
         } else {

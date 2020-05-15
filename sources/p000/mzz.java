@@ -64,7 +64,7 @@ final /* synthetic */ class mzz implements Callable {
             File b = myr.f34967f.mo19847b(str);
             lvn lvn = myr.f34962a;
             String valueOf = String.valueOf(str);
-            lvn.mo25409a(valueOf.length() == 0 ? new String("Starting d2d restore of k/v package: ") : "Starting d2d restore of k/v package: ".concat(valueOf), new Object[0]);
+            lvn.logVerbose(valueOf.length() == 0 ? new String("Starting d2d restore of k/v package: ") : "Starting d2d restore of k/v package: ".concat(valueOf), new Object[0]);
             try {
                 fileInputStream2 = new FileInputStream(b);
             } catch (IOException e) {
@@ -123,7 +123,7 @@ final /* synthetic */ class mzz implements Callable {
                     backupDataOutput.writeEntityHeader(str2, length);
                     backupDataOutput.writeEntityData(bArr2, length);
                 }
-                myr.f34962a.mo25409a("D2d restore complete.", new Object[0]);
+                myr.f34962a.logVerbose("D2d restore complete.", new Object[0]);
                 srz.m36171a((Closeable) fileInputStream2);
                 srz.m36170a(parcelFileDescriptor);
                 if (!"@pm@".equals(str)) {
@@ -238,7 +238,7 @@ final /* synthetic */ class mzz implements Callable {
                             mcy mcy = (mcy) i2.next();
                             if (!ccmw.m130709b() || (ltj = ncn.f35292e) == null || !ltj.f32944b.contains(mcy.f33464b)) {
                                 backupDataOutput2.writeEntityHeader(mcy.f33464b, mcy.f33465c.mo73744a());
-                                backupDataOutput2.writeEntityData(mcy.f33465c.mo73780k(), mcy.f33465c.mo73744a());
+                                backupDataOutput2.writeEntityData(mcy.f33465c.getKey(), mcy.f33465c.mo73744a());
                             }
                         }
                         file.delete();

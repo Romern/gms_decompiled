@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bydv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bydv extends bxvk implements bxxd {
+public final class bydv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bydv f165861c;
@@ -19,7 +19,7 @@ public final class bydv extends bxvk implements bxxd {
     static {
         bydv bydv = new bydv();
         f165861c = bydv;
-        bxvk.m124024a(bydv.class, bydv);
+        GeneratedMessageLite.m124024a(bydv.class, bydv);
     }
 
     private bydv() {
@@ -38,7 +38,7 @@ public final class bydv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165861c, "\u0000\u0002\u0000\u0000\u0007\b\u0002\u0000\u0002\u0000\u0007Ț\bȚ", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f165861c, "\u0000\u0002\u0000\u0000\u0007\b\u0002\u0000\u0002\u0000\u0007Ț\bȚ", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bydv();
         } else {

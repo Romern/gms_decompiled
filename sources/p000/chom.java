@@ -11,6 +11,6 @@ final /* synthetic */ class chom implements bdyv {
 
     /* renamed from: a */
     public final Object mo24436a(byte[] bArr) {
-        return (bky) bxvk.m124014a(bky.f5051v, bArr);
+        return (bky) GeneratedMessageLite.m124014a(bky.f5051v, bArr);
     }
 }

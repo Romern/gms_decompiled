@@ -51,6 +51,6 @@ public final class tpy {
 
     /* renamed from: a */
     public final void mo26716a(bspq bspq) {
-        this.f46471a.mo24335a(bspq.mo73642k()).mo24327b();
+        this.f46471a.mo24335a(bspq.serializeToBytes()).mo24327b();
     }
 }

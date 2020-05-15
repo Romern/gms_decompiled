@@ -83,7 +83,7 @@ public final class bclm {
             bxty bxty = cbmi.f177629c;
             if (bxty != null) {
                 try {
-                    cbdx = (cbdx) bxvk.m124007a(cbdx.f176806b, bxty.f164801a);
+                    cbdx = (cbdx) GeneratedMessageLite.m124007a(cbdx.f176806b, bxty.f164801a);
                     try {
                         "Lighter".getClass();
                         if (cbdx.f176808a.containsKey("Lighter")) {
@@ -190,14 +190,14 @@ public final class bclm {
                         if (cbme2 == null) {
                             cbme2 = cbme.f177607c;
                         }
-                        l.mo56893a(cbme2.f177609a.mo73780k());
+                        l.mo56893a(cbme2.f177609a.getKey());
                     }
                 }
                 if (cbdx2 != null) {
                     HashMap hashMap = new HashMap();
                     Map unmodifiableMap = Collections.unmodifiableMap(cbdx2.f176808a);
                     for (String str3 : unmodifiableMap.keySet()) {
-                        hashMap.put(str3, ((bxte) unmodifiableMap.get(str3)).mo73642k());
+                        hashMap.put(str3, ((bxte) unmodifiableMap.get(str3)).serializeToBytes());
                     }
                     l.mo56892a(hashMap);
                 }
@@ -313,7 +313,7 @@ public final class bclm {
                     if (bxte == null) {
                         bxte = bxte.f164763c;
                     }
-                    cbfl cbfl = (cbfl) bxvk.m124007a(cbfl.f176931c, bxte.f164766b);
+                    cbfl cbfl = (cbfl) GeneratedMessageLite.m124007a(cbfl.f176931c, bxte.f164766b);
                     int i6 = cbfl.f176933a;
                     if (i6 == 0) {
                         i3 = 2;
@@ -364,7 +364,7 @@ public final class bclm {
                 if (bxte2 == null) {
                     bxte2 = bxte.f164763c;
                 }
-                cbfj cbfj = (cbfj) bxvk.m124007a(cbfj.f176924c, bxte2.f164766b);
+                cbfj cbfj = (cbfj) GeneratedMessageLite.m124007a(cbfj.f176924c, bxte2.f164766b);
                 int i8 = cbfj.f176927b;
                 if (i8 == 0) {
                     i4 = 2;
@@ -454,18 +454,18 @@ public final class bclm {
                 if (bxte3 == null) {
                     bxte3 = bxte.f164763c;
                 }
-                bxtx bxtx = bxte3.f164766b;
+                ByteString bxtx = bxte3.f164766b;
                 bxus c = bxus.m123744c();
                 cbcz cbcz = cbcz.f176713c;
                 try {
                     bxuc h = bxtx.mo73764h();
-                    bxvk bxvk = (bxvk) cbcz.mo74142c(4);
-                    bxxv a5 = bxxm.f165037a.mo74228a(bxvk);
-                    a5.mo74220a(bxvk, bxud.m123454a(h), c);
-                    a5.mo74225d(bxvk);
+                    GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) cbcz.mo74142c(4);
+                    bxxv a5 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                    a5.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                    a5.mo74225d(GeneratedMessageLite);
                     h.mo73787a(0);
-                    bxvk.m124027b(bxvk);
-                    cbcz cbcz2 = (cbcz) bxvk;
+                    GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                    cbcz cbcz2 = (cbcz) GeneratedMessageLite;
                     cbdl cbdl3 = cbff.f176903j;
                     if (cbdl3 == null) {
                         cbdl3 = cbdl.f176754d;
@@ -491,18 +491,18 @@ public final class bclm {
                             if (bxte4 == null) {
                                 bxte4 = bxte.f164763c;
                             }
-                            bxtx bxtx2 = bxte4.f164766b;
+                            ByteString bxtx2 = bxte4.f164766b;
                             bxus c2 = bxus.m123744c();
                             cbcy cbcy = cbcy.f176710b;
                             try {
                                 bxuc h2 = bxtx2.mo73764h();
-                                bxvk bxvk2 = (bxvk) cbcy.mo74142c(4);
-                                bxxv a7 = bxxm.f165037a.mo74228a(bxvk2);
-                                a7.mo74220a(bxvk2, bxud.m123454a(h2), c2);
-                                a7.mo74225d(bxvk2);
+                                GeneratedMessageLite GeneratedMessageLite2 = (GeneratedMessageLite) cbcy.mo74142c(4);
+                                bxxv a7 = bxxm.f165037a.mo74228a(GeneratedMessageLite2);
+                                a7.mo74220a(GeneratedMessageLite2, bxud.m123454a(h2), c2);
+                                a7.mo74225d(GeneratedMessageLite2);
                                 h2.mo73787a(0);
-                                bxvk.m124027b(bxvk2);
-                                long j = ((cbcy) bxvk2).f176712a;
+                                GeneratedMessageLite.m124027b(GeneratedMessageLite2);
+                                long j = ((cbcy) GeneratedMessageLite2).f176712a;
                                 bchf bchf = new bchf();
                                 bchf.f104162a = new bcga(new bcgt(a6, j));
                                 String str = "";
@@ -628,7 +628,7 @@ public final class bclm {
         if (i5 == 5) {
             String str5 = "MsgProtoConverter";
             try {
-                cbkg cbkg = (cbkg) bxvk.m124007a(cbkg.f177400d, cbkj2.f177411e);
+                cbkg cbkg = (cbkg) GeneratedMessageLite.m124007a(cbkg.f177400d, cbkj2.f177411e);
                 int a2 = cbkf.m127933a(cbkg.f177404c);
                 if (a2 == 0) {
                     a2 = 1;
@@ -788,24 +788,24 @@ public final class bclm {
                             if (cbmk3 == null) {
                                 cbmk3 = cbmk.f177636e;
                             }
-                            if (cbmk3.f177640c.mo73780k().length > 0) {
+                            if (cbmk3.f177640c.getKey().length > 0) {
                                 cbmk cbmk4 = cbmx.f177695b;
                                 if (cbmk4 == null) {
                                     cbmk4 = cbmk.f177636e;
                                 }
-                                byte[] k4 = cbmk4.f177640c.mo73780k();
+                                byte[] k4 = cbmk4.f177640c.getKey();
                                 cbmk cbmk5 = cbmx.f177695b;
                                 if (cbmk5 == null) {
                                     cbmk5 = cbmk.f177636e;
                                 }
-                                n.mo57458a(BitmapFactory.decodeByteArray(k4, 0, cbmk5.f177640c.mo73780k().length));
+                                n.mo57458a(BitmapFactory.decodeByteArray(k4, 0, cbmk5.f177640c.getKey().length));
                             }
                             try {
                                 cbmk cbmk6 = cbmx.f177695b;
                                 if (cbmk6 == null) {
                                     cbmk6 = cbmk.f177636e;
                                 }
-                                cbdx = (cbdx) bxvk.m124007a(cbdx.f176806b, cbmk6.f177641d);
+                                cbdx = (cbdx) GeneratedMessageLite.m124007a(cbdx.f176806b, cbmk6.f177641d);
                             } catch (bxwf e) {
                                 bbos.m88292b(str5, "Error parsing AppData", e);
                                 cbdx = null;
@@ -814,7 +814,7 @@ public final class bclm {
                                 HashMap hashMap = new HashMap();
                                 Map unmodifiableMap = Collections.unmodifiableMap(cbdx.f176808a);
                                 for (String str6 : unmodifiableMap.keySet()) {
-                                    hashMap.put(str6, ((bxte) unmodifiableMap.get(str6)).mo73642k());
+                                    hashMap.put(str6, ((bxte) unmodifiableMap.get(str6)).serializeToBytes());
                                 }
                                 n.mo57464a(hashMap);
                             }
@@ -872,7 +872,7 @@ public final class bclm {
         } else if (i5 == 7) {
             String str8 = "MsgProtoConverter";
             try {
-                cblu cblu = (cblu) bxvk.m124007a(cblu.f177563d, cbkj2.f177411e);
+                cblu cblu = (cblu) GeneratedMessageLite.m124007a(cblu.f177563d, cbkj2.f177411e);
                 bchr g4 = bchu.m89062g();
                 g4.mo56898a(cbkj2.f177409c);
                 int a8 = cipn.m150698a(cblu.f177567c);
@@ -919,7 +919,7 @@ public final class bclm {
             return bmvz.f131120a;
         } else {
             try {
-                cbff cbff2 = (cbff) bxvk.m124007a(cbff.f176892t, cbkj2.f177411e);
+                cbff cbff2 = (cbff) GeneratedMessageLite.m124007a(cbff.f176892t, cbkj2.f177411e);
                 String valueOf6 = String.valueOf(cbff2);
                 StringBuilder sb7 = new StringBuilder(String.valueOf(valueOf6).length() + 25);
                 sb7.append("LighterMessage received: ");
@@ -1103,7 +1103,7 @@ public final class bclm {
                                     bcnt2.mo56753a(q3.mo57002a());
                                     break;
                                 } else {
-                                    bcte.mo57509a(bxtx.f164797b);
+                                    bcte.mo57509a(ByteString.f164797b);
                                     break;
                                 }
                                 break;
@@ -1140,7 +1140,7 @@ public final class bclm {
                                         q5.mo57010a(bcoh.mo57059c().mo73781l());
                                         q5.mo57003a(e.f104430a);
                                         bcnt2.mo56753a(q5.mo57002a());
-                                        bcte.mo57509a(bxtx.f164797b);
+                                        bcte.mo57509a(ByteString.f164797b);
                                         bcte.mo57503a(-1);
                                         bchx d = m89249a(bcte, cbff, a10, a9, bcoh, cbkj, bcnt).mo56871d();
                                         cbcx = cbff.f176909p;
@@ -1177,7 +1177,7 @@ public final class bclm {
                                     q52.mo57010a(bcoh.mo57059c().mo73781l());
                                     q52.mo57003a(e.f104430a);
                                     bcnt2.mo56753a(q52.mo57002a());
-                                    bcte.mo57509a(bxtx.f164797b);
+                                    bcte.mo57509a(ByteString.f164797b);
                                     bcte.mo57503a(-1);
                                     bchx d2 = m89249a(bcte, cbff, a10, a9, bcoh, cbkj, bcnt).mo56871d();
                                     cbcx = cbff.f176909p;
@@ -1205,7 +1205,7 @@ public final class bclm {
                                 break;
                             default:
                                 bbos.m88291b("MsgProtoConverter", "UNSUPPORTED type LighterMessage received");
-                                bcte.mo57509a(bxtx.f164797b);
+                                bcte.mo57509a(ByteString.f164797b);
                                 cbff = cbff2;
                                 break;
                         }
@@ -1216,7 +1216,7 @@ public final class bclm {
                             m89261a(cbei.PHOTO, bcte, map, cbff, bcoh, cbkj);
                         } catch (bcld e6) {
                             bbos.m88294d(str12, "Photos handler threw an exception it didn't need to");
-                            bcte.mo57509a(bxtx.f164797b);
+                            bcte.mo57509a(ByteString.f164797b);
                             bcte.mo57503a(-1);
                         }
                     }
@@ -1262,7 +1262,7 @@ public final class bclm {
                                     if (cbdr3 == null) {
                                         cbdr3 = cbdr.f176775f;
                                     }
-                                    f2.mo57490a(cbdr3.f176777a.mo73780k());
+                                    f2.mo57490a(cbdr3.f176777a.getKey());
                                     cbdr cbdr4 = cbcw.f176700c;
                                     if (cbdr4 == null) {
                                         cbdr4 = cbdr.f176775f;
@@ -1396,7 +1396,7 @@ public final class bclm {
 
     /* renamed from: a */
     private static bmxv m89253a(cbkj cbkj, bcoh bcoh, bcnt bcnt, cbff cbff, ConversationId conversationId, ContactId contactId, bcte bcte) {
-        bcte.mo57509a(bxtx.m123261a(Base64.encode(cbkj.mo73642k(), 8)));
+        bcte.mo57509a(ByteString.m123261a(Base64.encode(cbkj.serializeToBytes(), 8)));
         bcte.mo57503a(cbff.f176910q);
         return bmxv.m108566b(m89249a(bcte, cbff, contactId, conversationId, bcoh, cbkj, bcnt));
     }
@@ -1581,7 +1581,7 @@ public final class bclm {
                 while (a7.hasNext()) {
                     String str4 = (String) a7.next();
                     try {
-                        bxte bxte = (bxte) bxvk.m124007a(bxte.f164763c, (bxtx) bctr.mo57369i().get(str4));
+                        bxte bxte = (bxte) GeneratedMessageLite.m124007a(bxte.f164763c, (ByteString) bctr.mo57369i().get(str4));
                         str4.getClass();
                         bxte.getClass();
                         if (bxvd.f164950c) {
@@ -1658,7 +1658,7 @@ public final class bclm {
         cbez.f176876a = str3;
         str2.getClass();
         cbez.f176877b = str2;
-        bxtx aL = ((cbez) da4.mo74062i()).mo73639aL();
+        ByteString aL = ((cbez) da4.mo74062i()).mo73639aL();
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;
@@ -1728,7 +1728,7 @@ public final class bclm {
         "type.googleapis.com/google.internal.communications.instantmessaging.v1.ConversationIntentOpenedEvent".getClass();
         ((bxte) da3.f164949b).f164765a = "type.googleapis.com/google.internal.communications.instantmessaging.v1.ConversationIntentOpenedEvent";
         bxvd da4 = cbfb.f176880d.mo74144da();
-        bxtx a3 = bxtx.m123261a(bArr);
+        ByteString a3 = ByteString.m123261a(bArr);
         if (da4.f164950c) {
             da4.mo74035c();
             da4.f164950c = false;
@@ -1738,7 +1738,7 @@ public final class bclm {
         cbfb.f176882a = a3;
         cbfb.f176883b = z;
         cbfb.f176884c = z2;
-        bxtx aL = ((cbfb) da4.mo74062i()).mo73639aL();
+        ByteString aL = ((cbfb) da4.mo74062i()).mo73639aL();
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;
@@ -1830,7 +1830,7 @@ public final class bclm {
             bcte.mo57505a(((bclf) map.get(str)).mo56971a().mo56967a(bcoh, cbff));
             return true;
         }
-        bcte.mo57509a(bxtx.m123261a(Base64.encode(cbkj.mo73642k(), 8)));
+        bcte.mo57509a(ByteString.m123261a(Base64.encode(cbkj.serializeToBytes(), 8)));
         bcte.mo57503a(cbff.f176910q);
         return false;
     }

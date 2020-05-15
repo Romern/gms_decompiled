@@ -9,7 +9,7 @@ import com.google.android.gms.auth.easyunlock.userpresence.UserPresenceUpdateInt
 public final class ivl extends aseo {
 
     /* renamed from: b */
-    private static final sek f21869b = new sek(new String[]{"DeviceStateChangeReceiver"}, (char[]) null);
+    private static final Logger f21869b = new Logger(new String[]{"DeviceStateChangeReceiver"}, (char[]) null);
 
     /* renamed from: a */
     public final Context f21870a;

@@ -141,7 +141,7 @@ public class TokenResponse extends AbstractSafeParcelable implements ReflectedPa
 
     /* renamed from: a */
     public final void mo7644a(Account account) {
-        sdo.m34966a(account, "Account can't be null.");
+        sdo.checkIfNull(account, "Account can't be null.");
         this.f10744u = account;
         this.f10725b = account.name;
     }

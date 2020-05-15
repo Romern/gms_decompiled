@@ -12,6 +12,6 @@ final /* synthetic */ class atse implements aubt {
 
     /* renamed from: a */
     public final void mo10476a(Exception exc) {
-        this.f90761a.mo50151a(bxtx.f164797b);
+        this.f90761a.mo50151a(ByteString.f164797b);
     }
 }

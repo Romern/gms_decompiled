@@ -46,7 +46,7 @@ final /* synthetic */ class bbgq implements benr {
         Iterator it = iterable.iterator();
         while (it.hasNext()) {
             benp.mo60824a("?");
-            benp.f111886a.add(((bxtx) it.next()).mo73780k());
+            benp.f111886a.add(((ByteString) it.next()).getKey());
             if (it.hasNext()) {
                 benp.mo60824a(", ");
             }
@@ -94,9 +94,9 @@ final /* synthetic */ class bbgq implements benr {
                     d.f102572a = i;
                     d.mo56123a(j);
                     if (blob2 != null) {
-                        d.mo56124a(bxtx.m123261a(blob2));
+                        d.mo56124a(ByteString.m123261a(blob2));
                     }
-                    h.mo67695b(bxtx.m123261a(blob), d.mo56122a());
+                    h.mo67695b(ByteString.m123261a(blob), d.mo56122a());
                 }
                 if (rawQueryWithFactory.getCount() > 0) {
                     bens2.mo60826a(benp2.mo60822a());

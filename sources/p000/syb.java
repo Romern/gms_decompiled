@@ -30,7 +30,7 @@ public final class syb extends tdl {
     public final void mo11624a(tdw tdw) {
         int i;
         RefreshGcmTaskChimeraService refreshGcmTaskChimeraService = this.f45413c;
-        sek sek = RefreshGcmTaskChimeraService.f30484a;
+        Logger Logger = RefreshGcmTaskChimeraService.f30484a;
         tds tds = refreshGcmTaskChimeraService.f30485b;
         UUID uuid = this.f45411a;
         if (!this.f45412b) {
@@ -46,7 +46,7 @@ public final class syb extends tdl {
     public final void mo11625a(boolean z, Map map) {
         int i;
         RefreshGcmTaskChimeraService refreshGcmTaskChimeraService = this.f45413c;
-        sek sek = RefreshGcmTaskChimeraService.f30484a;
+        Logger Logger = RefreshGcmTaskChimeraService.f30484a;
         tds tds = refreshGcmTaskChimeraService.f30485b;
         UUID uuid = this.f45411a;
         if (!this.f45412b) {

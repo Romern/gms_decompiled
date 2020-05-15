@@ -2,7 +2,7 @@ package com.google.ads.afma.proto2api;
 
 /* renamed from: com.google.ads.afma.proto2api.c */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class C0152c extends bxvk implements bxxd {
+public final class C0152c extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: Q */
     public static final C0152c f7500Q;
@@ -139,7 +139,7 @@ public final class C0152c extends bxvk implements bxxd {
     static {
         C0152c cVar = new C0152c();
         f7500Q = cVar;
-        bxvk.m124024a(C0152c.class, cVar);
+        GeneratedMessageLite.m124024a(C0152c.class, cVar);
     }
 
     private C0152c() {
@@ -167,7 +167,7 @@ public final class C0152c extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f7500Q, "\u0001'\u0000\u0003\u0001É'\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0005ဂ\u0004\u0006ဂ\u0005\u000bဂ\n\fဂ\u000b\u0011ဂ\u0010\u0014ဂ\u0013\u0016ဂ\u0014\u0017ဂ\u0015\u0018ဈG\u0019ဂK\u001aဌH\u001bဈ\u0016\u001cဇI\u001dဈ\u0018\u001fဂ\u0019 ဂ\u001a!ဂ\u001b\"ဈ\u001c#ဂ\u001d,ဂ%.ဈ'/ဈ(0ဌ*1ဌ+3ဂ,4ဂ-:ဂ4;ဂ5<ဂ6=ဂ7@ဂ=Gဂ8IဌCJဂ)LဌDÉဉL", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "L", "O", "M", C0150a.f7499a, "o", "N", "p", "q", "r", "s", "t", "u", "v", "w", "x", "z", C0156g.f7557a, "A", C0156g.f7557a, "B", "C", "D", "E", "F", "G", "I", "H", "J", C0156g.f7557a, "y", "K", C0156g.f7557a, "P"});
+            return GeneratedMessageLite.m124022a(f7500Q, "\u0001'\u0000\u0003\u0001É'\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဂ\u0002\u0005ဂ\u0004\u0006ဂ\u0005\u000bဂ\n\fဂ\u000b\u0011ဂ\u0010\u0014ဂ\u0013\u0016ဂ\u0014\u0017ဂ\u0015\u0018ဈG\u0019ဂK\u001aဌH\u001bဈ\u0016\u001cဇI\u001dဈ\u0018\u001fဂ\u0019 ဂ\u001a!ဂ\u001b\"ဈ\u001c#ဂ\u001d,ဂ%.ဈ'/ဈ(0ဌ*1ဌ+3ဂ,4ဂ-:ဂ4;ဂ5<ဂ6=ဂ7@ဂ=Gဂ8IဌCJဂ)LဌDÉဉL", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "L", "O", "M", C0150a.f7499a, "o", "N", "p", "q", "r", "s", "t", "u", "v", "w", "x", "z", C0156g.f7557a, "A", C0156g.f7557a, "B", "C", "D", "E", "F", "G", "I", "H", "J", C0156g.f7557a, "y", "K", C0156g.f7557a, "P"});
         } else if (i2 == 3) {
             return new C0152c();
         } else {

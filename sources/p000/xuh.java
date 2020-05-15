@@ -13,7 +13,7 @@ import com.google.autofill.detection.p098ml.AndroidInputTypeSignal;
 public final class xuh {
 
     /* renamed from: i */
-    public static final sek f53152i = new sek(new String[]{"UserApprovalPromptController"}, (short[]) null);
+    public static final Logger f53152i = new Logger(new String[]{"UserApprovalPromptController"}, (short[]) null);
 
     /* renamed from: a */
     public final xwj f53153a;

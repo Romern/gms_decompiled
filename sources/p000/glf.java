@@ -16,14 +16,14 @@ public final class glf {
 
     public glf(Context context) {
         this.f18459b = new jyj(context);
-        long a = spn.m35843a(context);
+        long a = spn.getAndroidId(context);
         if (a != 0) {
             this.f18458a.setSeed(a);
         }
     }
 
     /* renamed from: a */
-    public final void mo12006a(sek sek, bofx bofx) {
+    public final void mo12006a(Logger Logger, bofx bofx) {
         String str;
         String str2;
         int a = bofu.m111157a(bofx.f132954c);
@@ -89,7 +89,7 @@ public final class glf {
                 break;
         }
         objArr[1] = str2;
-        sek.mo25414c(String.format("Sync reported at %s has status of %s.", objArr), new Object[0]);
+        Logger.mo25414c(String.format("Sync reported at %s has status of %s.", objArr), new Object[0]);
         if (this.f18458a.nextDouble() < ccar.f178695a.mo6606a().mo75729c()) {
             bxvd da = boct.f132600I.mo74144da();
             if (da.f164950c) {

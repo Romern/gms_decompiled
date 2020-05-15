@@ -213,7 +213,7 @@ public final class atff {
             btpu btpu2 = (btpu) btpt.f164949b;
             btpy2.getClass();
             if (!btpu2.f149894e.mo73666a()) {
-                btpu2.f149894e = bxvk.m124019a(btpu2.f149894e);
+                btpu2.f149894e = GeneratedMessageLite.m124019a(btpu2.f149894e);
             }
             btpu2.f149894e.mo74153d(btpy2.mo3214a());
         }
@@ -259,7 +259,7 @@ public final class atff {
         btpu3.getClass();
         ((btpv) da3.f164949b).f149897a = btpu3;
         bxvd da4 = bxte.f164763c.mo74144da();
-        bxtx aL = bxxc.mo73639aL();
+        ByteString aL = bxxc.mo73639aL();
         if (da4.f164950c) {
             da4.mo74035c();
             da4.f164950c = false;
@@ -273,7 +273,7 @@ public final class atff {
         bxte bxte = (bxte) da4.mo74062i();
         bxte.getClass();
         ((btpv) da3.f164949b).f149898b = bxte;
-        byte[] k = ((btpv) da3.mo74062i()).mo73642k();
+        byte[] k = ((btpv) da3.mo74062i()).serializeToBytes();
         Context context2 = askf2.f89126d;
         if (!TextUtils.isEmpty(askf2.f89124b)) {
             account = new Account(askf2.f89124b, "com.google");

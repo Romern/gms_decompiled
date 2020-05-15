@@ -10,7 +10,7 @@ import com.google.android.gms.common.api.Status;
 public final class iud extends aaab {
 
     /* renamed from: d */
-    private static final sek f21769d = new sek(new String[]{"RetrievePublicKey"}, (byte[]) null);
+    private static final Logger f21769d = new Logger(new String[]{"RetrievePublicKey"}, (byte[]) null);
 
     /* renamed from: a */
     private final isc f21770a;

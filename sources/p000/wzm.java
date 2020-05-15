@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: wzm */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class wzm extends bxvk implements bxxd {
+public final class wzm extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final wzm f51614c;
@@ -19,7 +19,7 @@ public final class wzm extends bxvk implements bxxd {
     static {
         wzm wzm = new wzm();
         f51614c = wzm;
-        bxvk.m124024a(wzm.class, wzm);
+        GeneratedMessageLite.m124024a(wzm.class, wzm);
     }
 
     private wzm() {
@@ -36,7 +36,7 @@ public final class wzm extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f51614c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဋ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f51614c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဋ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new wzm();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cinz */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cinz extends bxvk implements bxxd {
+public final class cinz extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final cinz f191015m;
@@ -49,7 +49,7 @@ public final class cinz extends bxvk implements bxxd {
     static {
         cinz cinz = new cinz();
         f191015m = cinz;
-        bxvk.m124024a(cinz.class, cinz);
+        GeneratedMessageLite.m124024a(cinz.class, cinz);
     }
 
     private cinz() {
@@ -66,7 +66,7 @@ public final class cinz extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f191015m, "\u0001\u000b\u0000\u0001\u0001\u000f\u000b\u0000\u0000\u0000\u0001ဂ\u0000\u0003ဂ\u0004\u0004ဂ\u0005\u0005ဂ\u0006\tဂ\u0007\nဂ\b\u000bဇ\t\fဉ\n\rဉ\u000b\u000eဂ\u0001\u000fဂ\u0002", new Object[]{"a", "b", "e", "f", "g", "h", "i", "j", "k", "l", "c", "d"});
+            return GeneratedMessageLite.m124022a(f191015m, "\u0001\u000b\u0000\u0001\u0001\u000f\u000b\u0000\u0000\u0000\u0001ဂ\u0000\u0003ဂ\u0004\u0004ဂ\u0005\u0005ဂ\u0006\tဂ\u0007\nဂ\b\u000bဇ\t\fဉ\n\rဉ\u000b\u000eဂ\u0001\u000fဂ\u0002", new Object[]{"a", "b", "e", "f", "g", "h", "i", "j", "k", "l", "c", "d"});
         } else if (i2 == 3) {
             return new cinz();
         } else {

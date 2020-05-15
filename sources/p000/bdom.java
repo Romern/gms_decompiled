@@ -188,14 +188,14 @@ final class bdom extends bdok implements bdhy, bdez, bdkj {
         ciom8.f191093i = j8;
         ciom ciom9 = (ciom) ciok.mo74062i();
         bxvd bxvd = (bxvd) ciom9.mo74142c(5);
-        bxvd.mo73625a((bxvk) ciom9);
+        bxvd.mo73625a((GeneratedMessageLite) ciom9);
         ciok ciok2 = (ciok) bxvd;
         if (this.f106145f) {
             if (ciok2.f164950c) {
                 ciok2.mo74035c();
                 ciok2.f164950c = false;
             }
-            ((ciom) ciok2.f164949b).f191094j = bxvk.m124030de();
+            ((ciom) ciok2.f164949b).f191094j = GeneratedMessageLite.m124030de();
             Application application = this.f106143d;
             int i = this.f106147h;
             bngx bngx2 = this.f106148i;

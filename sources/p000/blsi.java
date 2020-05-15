@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blsi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blsi extends bxvk implements bxxd {
+public final class blsi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final blsi f127580b;
@@ -22,7 +22,7 @@ public final class blsi extends bxvk implements bxxd {
     static {
         blsi blsi = new blsi();
         f127580b = blsi;
-        bxvk.m124024a(blsi.class, blsi);
+        GeneratedMessageLite.m124024a(blsi.class, blsi);
     }
 
     private blsi() {
@@ -43,7 +43,7 @@ public final class blsi extends bxvk implements bxxd {
             this.f127584d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f127580b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"c", "a", blsg.f127579a});
+            return GeneratedMessageLite.m124022a(f127580b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"c", "a", blsg.f127579a});
         } else if (i2 == 3) {
             return new blsi();
         } else {

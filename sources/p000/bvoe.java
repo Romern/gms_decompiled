@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvoe */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvoe extends bxvk implements bxxd {
+public final class bvoe extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bvoe f157019e;
@@ -25,7 +25,7 @@ public final class bvoe extends bxvk implements bxxd {
     static {
         bvoe bvoe = new bvoe();
         f157019e = bvoe;
-        bxvk.m124024a(bvoe.class, bvoe);
+        GeneratedMessageLite.m124024a(bvoe.class, bvoe);
     }
 
     private bvoe() {
@@ -42,7 +42,7 @@ public final class bvoe extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f157019e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0002င\u0001\u0004ဋ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f157019e, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001ဂ\u0000\u0002င\u0001\u0004ဋ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new bvoe();
         } else {

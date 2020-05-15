@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: budt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class budt extends bxvk implements bxxd {
+public final class budt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final budt f153515b;
@@ -16,7 +16,7 @@ public final class budt extends bxvk implements bxxd {
     static {
         budt budt = new budt();
         f153515b = budt;
-        bxvk.m124024a(budt.class, budt);
+        GeneratedMessageLite.m124024a(budt.class, budt);
     }
 
     private budt() {
@@ -33,7 +33,7 @@ public final class budt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f153515b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", buds.class});
+            return GeneratedMessageLite.m124022a(f153515b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", buds.class});
         } else if (i2 == 3) {
             return new budt();
         } else {

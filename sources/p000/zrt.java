@@ -5,9 +5,9 @@ package p000;
 final class zrt implements zrv {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo31415a(byte[] bArr, long j, boolean z, int i, long j2) {
-        cabc cabc = (cabc) bxvk.m124016a(cabc.f172411k, bArr, bxus.m123744c());
+        cabc cabc = (cabc) GeneratedMessageLite.m124016a(cabc.f172411k, bArr, bxus.m123744c());
         bxvd bxvd = (bxvd) cabc.mo74142c(5);
-        bxvd.mo73625a((bxvk) cabc);
+        bxvd.mo73625a((GeneratedMessageLite) cabc);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;

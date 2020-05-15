@@ -27,7 +27,7 @@ public final class xvo extends DialogFragment implements xvs {
     private static xvn f53225e;
 
     /* renamed from: o */
-    private static final sek f53226o = new sek(new String[]{"FingerprintDialogFragment"}, (short[]) null);
+    private static final Logger f53226o = new Logger(new String[]{"FingerprintDialogFragment"}, (short[]) null);
 
     /* renamed from: a */
     public xwn f53227a;
@@ -81,7 +81,7 @@ public final class xvo extends DialogFragment implements xvs {
         xvn xvn = new xvn();
         f53225e = xvn;
         xvm xvm = f53224d;
-        sdo.m34966a((Object) str, (Object) "Caller name must be not null");
+        sdo.checkIfNull((Object) str, (Object) "Caller name must be not null");
         f53224d = xvm;
         f53225e = xvn;
         xvo xvo = new xvo();

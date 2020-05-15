@@ -10,6 +10,6 @@ final /* synthetic */ class arxh implements Runnable {
     }
 
     public final void run() {
-        arxy.f88430a.mo25409a("Called connect", new Object[0]);
+        arxy.f88430a.logVerbose("Called connect", new Object[0]);
     }
 }

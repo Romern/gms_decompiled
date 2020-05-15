@@ -15,9 +15,9 @@ final class arbl extends ahin {
 
     /* renamed from: a */
     public final void mo20146a(String str) {
-        sek sek = arbr.f87299b;
+        Logger Logger = arbr.f87299b;
         String valueOf = String.valueOf(str);
-        sek.mo25418e(valueOf.length() == 0 ? new String("Nearby.Connections error: lost endpoint with ID ") : "Nearby.Connections error: lost endpoint with ID ".concat(valueOf), new Object[0]);
+        Logger.mo25418e(valueOf.length() == 0 ? new String("Nearby.Connections error: lost endpoint with ID ") : "Nearby.Connections error: lost endpoint with ID ".concat(valueOf), new Object[0]);
         arbr arbr = this.f87288a;
         ardt ardt = arbr.f87303f;
         D2DDevice d2DDevice = (D2DDevice) arbr.f87307j.remove(str);
@@ -58,8 +58,8 @@ final class arbl extends ahin {
                         b = 0;
                         break;
                 }
-                arbr.f87299b.mo25409a("Device name: %s", a.mo48698a());
-                arbr.f87299b.mo25409a("Verification style: %s", b2.mo48692a());
+                arbr.f87299b.logVerbose("Device name: %s", a.mo48698a());
+                arbr.f87299b.logVerbose("Verification style: %s", b2.mo48692a());
                 D2DDevice d2DDevice = new D2DDevice(2, a.mo48698a(), str, b, b2.mo48692a().f135131g);
                 this.f87288a.f87307j.put(str, d2DDevice);
                 bmxy.m108582a(this.f87288a.f87303f, "ScanController is null.");
@@ -68,8 +68,8 @@ final class arbl extends ahin {
             throw null;
         }
         b = 1;
-        arbr.f87299b.mo25409a("Device name: %s", a.mo48698a());
-        arbr.f87299b.mo25409a("Verification style: %s", b2.mo48692a());
+        arbr.f87299b.logVerbose("Device name: %s", a.mo48698a());
+        arbr.f87299b.logVerbose("Verification style: %s", b2.mo48692a());
         D2DDevice d2DDevice2 = new D2DDevice(2, a.mo48698a(), str, b, b2.mo48692a().f135131g);
         this.f87288a.f87307j.put(str, d2DDevice2);
         bmxy.m108582a(this.f87288a.f87303f, "ScanController is null.");

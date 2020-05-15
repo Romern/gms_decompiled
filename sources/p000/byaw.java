@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byaw */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byaw extends bxvk implements bxxd {
+public final class byaw extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: u */
     public static final byaw f165345u;
@@ -73,7 +73,7 @@ public final class byaw extends bxvk implements bxxd {
     static {
         byaw byaw = new byaw();
         f165345u = byaw;
-        bxvk.m124024a(byaw.class, byaw);
+        GeneratedMessageLite.m124024a(byaw.class, byaw);
     }
 
     private byaw() {
@@ -90,7 +90,7 @@ public final class byaw extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f165345u, "\u0001\u0013\u0000\u0001\u0001\u0014\u0013\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဌ\u0002\u0004ဇ\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0006\bဇ\u0007\tဈ\b\nဂ\t\u000bဂ\n\fဂ\u000b\rဂ\f\u000eဂ\r\u000fင\u000e\u0010င\u000f\u0011င\u0010\u0013င\u0011\u0014င\u0012", new Object[]{"a", "b", "c", "d", byav.f165344a, "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t"});
+            return GeneratedMessageLite.m124022a(f165345u, "\u0001\u0013\u0000\u0001\u0001\u0014\u0013\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003ဌ\u0002\u0004ဇ\u0003\u0005င\u0004\u0006င\u0005\u0007င\u0006\bဇ\u0007\tဈ\b\nဂ\t\u000bဂ\n\fဂ\u000b\rဂ\f\u000eဂ\r\u000fင\u000e\u0010င\u000f\u0011င\u0010\u0013င\u0011\u0014င\u0012", new Object[]{"a", "b", "c", "d", byav.f165344a, "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t"});
         } else if (i2 == 3) {
             return new byaw();
         } else {

@@ -202,7 +202,7 @@ public final class atsy {
             this.f90858u = bundle.getString("state_bundle_type");
             if (byteArray != null) {
                 try {
-                    this.f90846i = (btmo) bxvk.m124016a(btmo.f149520c, byteArray, bxus.m123744c());
+                    this.f90846i = (btmo) GeneratedMessageLite.m124016a(btmo.f149520c, byteArray, bxus.m123744c());
                 } catch (bxwf e) {
                 }
             }
@@ -245,7 +245,7 @@ public final class atsy {
             byte[] byteArray2 = bundle.getByteArray("state_api_error");
             if (byteArray2 != null) {
                 try {
-                    this.f90832X = (btnf) bxvk.m124016a(btnf.f149600f, byteArray2, bxus.m123744c());
+                    this.f90832X = (btnf) GeneratedMessageLite.m124016a(btnf.f149600f, byteArray2, bxus.m123744c());
                 } catch (bxwf e2) {
                     bnsl bnsl = (bnsl) f90808a.mo68388c();
                     bnsl.mo68437a(e2);
@@ -258,7 +258,7 @@ public final class atsy {
             byte[] byteArray3 = bundle.getByteArray("token_provisioning_data");
             if (byteArray3 != null) {
                 try {
-                    this.f90835aa = (bmuw) bxvk.m124016a(bmuw.f130975l, byteArray3, bxus.m123744c());
+                    this.f90835aa = (bmuw) GeneratedMessageLite.m124016a(bmuw.f130975l, byteArray3, bxus.m123744c());
                 } catch (bxwf e3) {
                 }
             }

@@ -20,7 +20,7 @@ public final class rrk {
     static final Intent f43548a;
 
     /* renamed from: b */
-    private static final sek f43549b = ght.m13171a("CommonAuth", "ManagedAccountUtil");
+    private static final Logger f43549b = ght.m13171a("CommonAuth", "ManagedAccountUtil");
 
     static {
         Intent intent = new Intent("com.google.android.gms.auth.account.HANDLE_MANAGED");
@@ -30,8 +30,8 @@ public final class rrk {
 
     /* renamed from: a */
     public static Intent m34290a(Context context, Account account) {
-        sdo.m34966a(context, "Context cannot be null");
-        sdo.m34966a(account, "Account cannot be null");
+        sdo.checkIfNull(context, "Context cannot be null");
+        sdo.checkIfNull(account, "Account cannot be null");
         Intent a = m34292a(context, "com.google.android.gms.auth.removeaccount.DM_PRE_REMOVE_ACCOUNT");
         if (a != null) {
             a.putExtra("account", account);
@@ -54,10 +54,10 @@ public final class rrk {
         Bundle bundle3 = bundle;
         boolean z8 = z5;
         Bundle bundle4 = bundle2;
-        sdo.m34966a(context, "Context cannot be null");
-        sdo.m34966a(account, "Account cannot be null");
-        sdo.m34966a(bundle3, "UiParameters cannot be null");
-        sdo.m34966a(bundle4, "Options cannot be null");
+        sdo.checkIfNull(context, "Context cannot be null");
+        sdo.checkIfNull(account, "Account cannot be null");
+        sdo.checkIfNull(bundle3, "UiParameters cannot be null");
+        sdo.checkIfNull(bundle4, "Options cannot be null");
         List<ResolveInfo> queryIntentActivities = context.getPackageManager().queryIntentActivities(f43548a, 128);
         if (z8) {
             if (cbxv.f178529a.mo6606a().mo75594h()) {
@@ -136,8 +136,8 @@ public final class rrk {
 
     /* renamed from: a */
     public static Intent m34293a(Context context, boolean z, boolean z2, Bundle bundle, Bundle bundle2) {
-        sdo.m34966a(context, "Context cannot be null");
-        sdo.m34966a(bundle, "UiParameters cannot be null");
+        sdo.checkIfNull(context, "Context cannot be null");
+        sdo.checkIfNull(bundle, "UiParameters cannot be null");
         Intent a = m34292a(context, "com.google.android.gms.auth.addaccount.DM_PRE_ADD_ACCOUNT");
         if (a != null) {
             a.putExtra("is_setup_wizard", z2).putExtra("use_immersive_mode", z).putExtra("ui_parameters", bundle).putExtra("options", bundle2);

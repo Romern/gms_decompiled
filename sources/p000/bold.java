@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bold */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bold extends bxvk implements bxxd {
+public final class bold extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bold f133497f;
@@ -28,7 +28,7 @@ public final class bold extends bxvk implements bxxd {
     static {
         bold bold = new bold();
         f133497f = bold;
-        bxvk.m124024a(bold.class, bold);
+        GeneratedMessageLite.m124024a(bold.class, bold);
     }
 
     private bold() {
@@ -45,7 +45,7 @@ public final class bold extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133497f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003ခ\u0002\u0004ခ\u0003", new Object[]{"a", "b", bolc.f133496a, "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f133497f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဂ\u0001\u0003ခ\u0002\u0004ခ\u0003", new Object[]{"a", "b", bolc.f133496a, "c", "d", "e"});
         } else if (i2 == 3) {
             return new bold();
         } else {

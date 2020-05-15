@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cimx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cimx extends bxvk implements bxxd {
+public final class cimx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final cimx f190865e;
@@ -25,7 +25,7 @@ public final class cimx extends bxvk implements bxxd {
     static {
         cimx cimx = new cimx();
         f190865e = cimx;
-        bxvk.m124024a(cimx.class, cimx);
+        GeneratedMessageLite.m124024a(cimx.class, cimx);
     }
 
     private cimx() {
@@ -42,7 +42,7 @@ public final class cimx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f190865e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ခ\u0002", new Object[]{"a", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f190865e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ခ\u0002", new Object[]{"a", "b", "c", "d"});
         } else if (i2 == 3) {
             return new cimx();
         } else {

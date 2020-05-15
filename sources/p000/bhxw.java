@@ -162,10 +162,10 @@ public final class bhxw {
                 if (cgfl.m145006b()) {
                     bpqk c = bhqq.m101365c(1, placesParams4);
                     bxvd bxvd = (bxvd) c.mo74142c(5);
-                    bxvd.mo73625a((bxvk) c);
+                    bxvd.mo73625a((GeneratedMessageLite) c);
                     bprg a4 = bhqq.m101359a(15, placesParams4.f79573c, Locale.getDefault().toString());
                     bxvd bxvd2 = (bxvd) a4.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) a4);
+                    bxvd2.mo73625a((GeneratedMessageLite) a4);
                     bxvd da = bprj.f138858b.mo74144da();
                     for (String str4 : hashSet) {
                         bpov a5 = bhqq.m101347a(bhqq.m101362b(str4), bhqq.m101360a(str4));
@@ -176,7 +176,7 @@ public final class bhxw {
                         bprj bprj = (bprj) da.f164949b;
                         a5.getClass();
                         if (!bprj.f138860a.mo73666a()) {
-                            bprj.f138860a = bxvk.m124021a(bprj.f138860a);
+                            bprj.f138860a = GeneratedMessageLite.m124021a(bprj.f138860a);
                         }
                         bprj.f138860a.add(a5);
                     }

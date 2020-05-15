@@ -108,7 +108,7 @@ public final class fuz {
     /* renamed from: a */
     public final bzex mo11383a(String str) {
         try {
-            byte[] f = spn.m35888f(this.f17323b, str);
+            byte[] f = spn.getSHA1OfPackage(this.f17323b, str);
             if (f == null) {
                 return null;
             }

@@ -147,7 +147,7 @@ public class DroidGuardChimeraService extends TracingIntentService {
                 a3.mo28946a(vyc.f50222c);
                 if (bArr != null) {
                     bxvd bxvd7 = a3.f50215a;
-                    vwa vwa = (vwa) bxvk.m124016a(vwa.f50105c, bArr, bxus.m123743b());
+                    vwa vwa = (vwa) GeneratedMessageLite.m124016a(vwa.f50105c, bArr, bxus.m123743b());
                     if (bxvd7.f164950c) {
                         bxvd7.mo74035c();
                         bxvd7.f164950c = false;

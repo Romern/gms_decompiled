@@ -7,7 +7,7 @@ public final class baqs {
     public static byjk m87414a(byjk byjk, byjh byjh) {
         boolean z;
         bxvd bxvd = (bxvd) byjk.mo74142c(5);
-        bxvd.mo73625a((bxvk) byjk);
+        bxvd.mo73625a((GeneratedMessageLite) byjk);
         boolean z2 = false;
         if (byjk.f166665b || byjh.f166656f) {
             z = true;

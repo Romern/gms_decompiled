@@ -14,7 +14,7 @@ import com.google.autofill.detection.p098ml.AndroidInputTypeSignal;
 public final class xvt extends FingerprintManager.AuthenticationCallback {
 
     /* renamed from: g */
-    public static final sek f53242g = new sek(new String[]{"FingerprintUiHelper"}, (short[]) null);
+    public static final Logger f53242g = new Logger(new String[]{"FingerprintUiHelper"}, (short[]) null);
 
     /* renamed from: a */
     final Runnable f53243a = new xvp(this);

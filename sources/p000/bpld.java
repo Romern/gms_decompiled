@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpld */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpld extends bxvk implements bxxd {
+public final class bpld extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bpld f138067f;
@@ -28,7 +28,7 @@ public final class bpld extends bxvk implements bxxd {
     static {
         bpld bpld = new bpld();
         f138067f = bpld;
-        bxvk.m124024a(bpld.class, bpld);
+        GeneratedMessageLite.m124024a(bpld.class, bpld);
     }
 
     private bpld() {
@@ -45,7 +45,7 @@ public final class bpld extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f138067f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f138067f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001င\u0000\u0002င\u0001\u0003င\u0002\u0004င\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new bpld();
         } else {

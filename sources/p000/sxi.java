@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: sxi */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class sxi extends bxvk implements bxxd {
+public final class sxi extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final sxi f45356d;
@@ -25,7 +25,7 @@ public final class sxi extends bxvk implements bxxd {
     static {
         sxi sxi = new sxi();
         f45356d = sxi;
-        bxvk.m124024a(sxi.class, sxi);
+        GeneratedMessageLite.m124024a(sxi.class, sxi);
     }
 
     private sxi() {
@@ -43,7 +43,7 @@ public final class sxi extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f45356d, "\u0001\u0003\u0000\u0001\u0002\u0004\u0003\u0000\u0002\u0000\u0002ဌ\u0000\u0003\u001b\u0004\u001b", new Object[]{"e", "a", sxg.f45355a, "b", sxj.class, "c", sxb.class});
+            return GeneratedMessageLite.m124022a(f45356d, "\u0001\u0003\u0000\u0001\u0002\u0004\u0003\u0000\u0002\u0000\u0002ဌ\u0000\u0003\u001b\u0004\u001b", new Object[]{"e", "a", sxg.f45355a, "b", sxj.class, "c", sxb.class});
         } else if (i2 == 3) {
             return new sxi();
         } else {

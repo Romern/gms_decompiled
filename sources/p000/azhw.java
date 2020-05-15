@@ -80,7 +80,7 @@ public final class azhw extends azhc {
         }
         cbns cbns = (cbns) da.f164949b;
         if (!cbns.f177758b.mo73666a()) {
-            cbns.f177758b = bxvk.m124021a(cbns.f177758b);
+            cbns.f177758b = GeneratedMessageLite.m124021a(cbns.f177758b);
         }
         bxsy.m123078a(a3, cbns.f177758b);
         new Object[1][0] = da.mo74062i();

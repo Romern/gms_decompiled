@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpag */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpag extends bxvk implements bxxd {
+public final class bpag extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final bpag f135480d;
@@ -22,7 +22,7 @@ public final class bpag extends bxvk implements bxxd {
     static {
         bpag bpag = new bpag();
         f135480d = bpag;
-        bxvk.m124024a(bpag.class, bpag);
+        GeneratedMessageLite.m124024a(bpag.class, bpag);
     }
 
     private bpag() {
@@ -39,7 +39,7 @@ public final class bpag extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f135480d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0003ဌ\u0002", new Object[]{"a", "b", bpae.f135478a, "c", bpaf.f135479a});
+            return GeneratedMessageLite.m124022a(f135480d, "\u0001\u0002\u0000\u0001\u0001\u0003\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0003ဌ\u0002", new Object[]{"a", "b", bpae.f135478a, "c", bpaf.f135479a});
         } else if (i2 == 3) {
             return new bpag();
         } else {

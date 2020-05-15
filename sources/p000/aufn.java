@@ -190,7 +190,7 @@ final /* synthetic */ class aufn implements bmxj {
                             bokz4.f133486f = null;
                             bokz4.f133481a &= -9;
                         }
-                        ((bokz) da2.f164949b).f133484d = bxvk.m124030de();
+                        ((bokz) da2.f164949b).f133484d = GeneratedMessageLite.m124030de();
                         List list7 = auit6.f91916e;
                         size2 = list7.size();
                         i2 = 0;
@@ -260,7 +260,7 @@ final /* synthetic */ class aufn implements bmxj {
                                     bokw bokw2 = (bokw) da5.f164949b;
                                     bokv4.getClass();
                                     if (!bokw2.f133469d.mo73666a()) {
-                                        bokw2.f133469d = bxvk.m124021a(bokw2.f133469d);
+                                        bokw2.f133469d = GeneratedMessageLite.m124021a(bokw2.f133469d);
                                     }
                                     bokw2.f133469d.add(bokv4);
                                     i12++;
@@ -471,7 +471,7 @@ final /* synthetic */ class aufn implements bmxj {
                                                                 bolf bolf3 = (bolf) da7.f164949b;
                                                                 bolh7.getClass();
                                                                 if (!bolf3.f133519d.mo73666a()) {
-                                                                    bolf3.f133519d = bxvk.m124021a(bolf3.f133519d);
+                                                                    bolf3.f133519d = GeneratedMessageLite.m124021a(bolf3.f133519d);
                                                                 }
                                                                 bolf3.f133519d.add(bolh7);
                                                                 it = it2;
@@ -490,7 +490,7 @@ final /* synthetic */ class aufn implements bmxj {
                                                     bokw bokw3 = (bokw) da5.f164949b;
                                                     bolf4.getClass();
                                                     if (!bokw3.f133470e.mo73666a()) {
-                                                        bokw3.f133470e = bxvk.m124021a(bokw3.f133470e);
+                                                        bokw3.f133470e = GeneratedMessageLite.m124021a(bokw3.f133470e);
                                                     }
                                                     bokw3.f133470e.add(bolf4);
                                                     i14++;
@@ -574,7 +574,7 @@ final /* synthetic */ class aufn implements bmxj {
                                 bokz bokz5 = (bokz) da2.f164949b;
                                 bokw4.getClass();
                                 if (!bokz5.f133484d.mo73666a()) {
-                                    bokz5.f133484d = bxvk.m124021a(bokz5.f133484d);
+                                    bokz5.f133484d = GeneratedMessageLite.m124021a(bokz5.f133484d);
                                 }
                                 bokz5.f133484d.add(bokw4);
                             } else {
@@ -641,7 +641,7 @@ final /* synthetic */ class aufn implements bmxj {
                         bole2.getClass();
                         bokz6.f133485e = bole2;
                         bokz6.f133481a |= i9;
-                        emergencyLocationChimeraService.f109052d.mo24335a(((bokz) da2.mo74062i()).mo73642k()).mo24327b();
+                        emergencyLocationChimeraService.f109052d.mo24335a(((bokz) da2.mo74062i()).serializeToBytes()).mo24327b();
                         C1223np npVar = auho.f91828a;
                         auit = auit6;
                     }
@@ -665,7 +665,7 @@ final /* synthetic */ class aufn implements bmxj {
                     }
                     if (location != null) {
                     }
-                    ((bokz) da2.f164949b).f133484d = bxvk.m124030de();
+                    ((bokz) da2.f164949b).f133484d = GeneratedMessageLite.m124030de();
                     List list72 = auit6.f91916e;
                     size2 = list72.size();
                     i2 = 0;
@@ -712,7 +712,7 @@ final /* synthetic */ class aufn implements bmxj {
                     bole22.getClass();
                     bokz62.f133485e = bole22;
                     bokz62.f133481a |= i9;
-                    emergencyLocationChimeraService.f109052d.mo24335a(((bokz) da2.mo74062i()).mo73642k()).mo24327b();
+                    emergencyLocationChimeraService.f109052d.mo24335a(((bokz) da2.mo74062i()).serializeToBytes()).mo24327b();
                     C1223np npVar2 = auho.f91828a;
                     auit = auit6;
                 }
@@ -735,7 +735,7 @@ final /* synthetic */ class aufn implements bmxj {
                 }
                 if (location != null) {
                 }
-                ((bokz) da2.f164949b).f133484d = bxvk.m124030de();
+                ((bokz) da2.f164949b).f133484d = GeneratedMessageLite.m124030de();
                 List list722 = auit6.f91916e;
                 size2 = list722.size();
                 i2 = 0;
@@ -782,7 +782,7 @@ final /* synthetic */ class aufn implements bmxj {
                 bole222.getClass();
                 bokz622.f133485e = bole222;
                 bokz622.f133481a |= i9;
-                emergencyLocationChimeraService.f109052d.mo24335a(((bokz) da2.mo74062i()).mo73642k()).mo24327b();
+                emergencyLocationChimeraService.f109052d.mo24335a(((bokz) da2.mo74062i()).serializeToBytes()).mo24327b();
                 C1223np npVar22 = auho.f91828a;
                 auit = auit6;
             } else {

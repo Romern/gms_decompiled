@@ -97,7 +97,7 @@ public final class cafx extends bxvg implements bxvh {
     static {
         cafx cafx = new cafx();
         f173026C = cafx;
-        bxvk.m124024a(cafx.class, cafx);
+        GeneratedMessageLite.m124024a(cafx.class, cafx);
     }
 
     private cafx() {
@@ -119,7 +119,7 @@ public final class cafx extends bxvg implements bxvh {
             this.f173030D = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f173026C, "\u0001\u001a\u0000\u0001\u0001!\u001a\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဈ\u0001\u0003င\u0003\u0004ဈ\u0004\u0005ဈ\u0005\u0006ဈ\b\u0007ဈ\t\bဈ\u0006\tဈ\u0007\nဈ\n\u000bဈ\u000b\fဈ\f\rဈ\r\u000eဈ\u000e\u000fဈ\u000f\u0010ဈ\u0010\u0011ဈ\u0011\u0013င\u0012\u0014ဇ\u0014\u0017ဌ\u0016\u0018ဉ\u0017\u0019ဉ\u0018\u001aဈ\u0019\u001bဈ\u001a ဉ\u0013!င\u001c", new Object[]{"a", "b", "c", "d", "e", "f", "i", "j", "g", "h", "k", "l", "n", "o", "p", "q", "r", "s", "t", "v", "w", cahf.f174543a, "x", "y", "z", "A", "u", "B"});
+            return GeneratedMessageLite.m124022a(f173026C, "\u0001\u001a\u0000\u0001\u0001!\u001a\u0000\u0000\u0000\u0001ဂ\u0000\u0002ဈ\u0001\u0003င\u0003\u0004ဈ\u0004\u0005ဈ\u0005\u0006ဈ\b\u0007ဈ\t\bဈ\u0006\tဈ\u0007\nဈ\n\u000bဈ\u000b\fဈ\f\rဈ\r\u000eဈ\u000e\u000fဈ\u000f\u0010ဈ\u0010\u0011ဈ\u0011\u0013င\u0012\u0014ဇ\u0014\u0017ဌ\u0016\u0018ဉ\u0017\u0019ဉ\u0018\u001aဈ\u0019\u001bဈ\u001a ဉ\u0013!င\u001c", new Object[]{"a", "b", "c", "d", "e", "f", "i", "j", "g", "h", "k", "l", "n", "o", "p", "q", "r", "s", "t", "v", "w", cahf.f174543a, "x", "y", "z", "A", "u", "B"});
         } else if (i2 == 3) {
             return new cafx();
         } else {

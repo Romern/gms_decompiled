@@ -17,7 +17,7 @@ public final class bmef extends bxvd implements bxxd {
         bmeg bmeg2 = bmeg.f128929f;
         bmdy.getClass();
         if (!bmeg.f128934d.mo73666a()) {
-            bmeg.f128934d = bxvk.m124021a(bmeg.f128934d);
+            bmeg.f128934d = GeneratedMessageLite.m124021a(bmeg.f128934d);
         }
         bmeg.f128934d.add(bmdy);
     }

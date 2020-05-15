@@ -15,7 +15,7 @@ public final class xfl extends xft {
     public static final byte[] f52127b = {0, 1, -48};
 
     /* renamed from: c */
-    public static final sek f52128c = new sek(new String[]{"NfcSecurityKey"}, (short[]) null);
+    public static final Logger f52128c = new Logger(new String[]{"NfcSecurityKey"}, (short[]) null);
 
     public xfl(xwj xwj, xlc xlc, xws xws) {
         super(xwj, xlc, xws);
@@ -29,7 +29,7 @@ public final class xfl extends xft {
 
     /* access modifiers changed from: protected */
     /* renamed from: a */
-    public final ProtocolVersion mo29693a(bxtx bxtx) {
+    public final ProtocolVersion mo29693a(ByteString bxtx) {
         ProtocolVersion protocolVersion;
         try {
             if (!bmxi.m108538a(xft.f52144d, bxtx)) {
@@ -68,12 +68,12 @@ public final class xfl extends xft {
                 }
             }
             if (protocolVersion != ProtocolVersion.UNKNOWN) {
-                sek sek = f52128c;
+                Logger Logger = f52128c;
                 String valueOf = String.valueOf(protocolVersion);
                 StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 12);
                 sb.append("Got version ");
                 sb.append(valueOf);
-                sek.mo25414c(sb.toString(), new Object[0]);
+                Logger.mo25414c(sb.toString(), new Object[0]);
             }
             return protocolVersion;
         } catch (IOException | InterruptedException | ExecutionException e) {

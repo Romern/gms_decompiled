@@ -31,7 +31,7 @@ public final class bpsy extends bxvd implements bxxd {
         bpsz bpsz2 = bpsz.f139036I;
         bptg.getClass();
         if (!bpsz.f139058l.mo73666a()) {
-            bpsz.f139058l = bxvk.m124021a(bpsz.f139058l);
+            bpsz.f139058l = GeneratedMessageLite.m124021a(bpsz.f139058l);
         }
         bpsz.f139058l.add(bptg);
     }
@@ -45,7 +45,7 @@ public final class bpsy extends bxvd implements bxxd {
         bpsz bpsz = (bpsz) this.f164949b;
         bpsz bpsz2 = bpsz.f139036I;
         if (!bpsz.f139065s.mo73666a()) {
-            bpsz.f139065s = bxvk.m124021a(bpsz.f139065s);
+            bpsz.f139065s = GeneratedMessageLite.m124021a(bpsz.f139065s);
         }
         bxsy.m123078a(iterable, bpsz.f139065s);
     }

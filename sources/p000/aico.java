@@ -30,7 +30,7 @@ public final class aico extends buqn {
             srn srn = ahsd.f67925a;
             return;
         }
-        bxtx a = bxtx.m123261a(this.f68696a.getByteArrayExtra("com.google.android.gms.nearby.discovery.ACCOUNT_KEY"));
+        ByteString a = ByteString.m123261a(this.f68696a.getByteArrayExtra("com.google.android.gms.nearby.discovery.ACCOUNT_KEY"));
         Set<BluetoothDevice> bondedDevices = defaultAdapter.getBondedDevices();
         Iterator it = this.f68697b.f68705b.mo37050d().iterator();
         while (true) {

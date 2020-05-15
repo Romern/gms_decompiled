@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cako */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cako extends bxvk implements bxxd {
+public final class cako extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final cako f175025b;
@@ -16,7 +16,7 @@ public final class cako extends bxvk implements bxxd {
     static {
         cako cako = new cako();
         f175025b = cako;
-        bxvk.m124024a(cako.class, cako);
+        GeneratedMessageLite.m124024a(cako.class, cako);
     }
 
     private cako() {
@@ -33,7 +33,7 @@ public final class cako extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175025b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0004", new Object[]{"a"});
+            return GeneratedMessageLite.m124022a(f175025b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0004", new Object[]{"a"});
         } else if (i2 == 3) {
             return new cako();
         } else {

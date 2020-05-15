@@ -154,7 +154,7 @@ public final class aacz {
                         } else {
                             str2 = null;
                         }
-                        new qws(context, "GAMES", str2).mo24335a(aafk4.mo73642k()).mo24327b();
+                        new qws(context, "GAMES", str2).mo24335a(aafk4.serializeToBytes()).mo24327b();
                     } finally {
                         Binder.restoreCallingIdentity(clearCallingIdentity);
                     }
@@ -259,7 +259,7 @@ public final class aacz {
                     long clearCallingIdentity2 = Binder.clearCallingIdentity();
                     if (account == null) {
                     }
-                    new qws(context, "GAMES", str2).mo24335a(aafk42.mo73642k()).mo24327b();
+                    new qws(context, "GAMES", str2).mo24335a(aafk42.serializeToBytes()).mo24327b();
                 }
             } catch (SecurityException e) {
                 i2 = 1;

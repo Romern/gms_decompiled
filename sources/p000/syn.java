@@ -15,7 +15,7 @@ public final class syn extends tdl {
     final tds f45451b;
 
     /* renamed from: c */
-    final sek f45452c;
+    final Logger f45452c;
 
     /* renamed from: d */
     final boolean f45453d;
@@ -23,10 +23,10 @@ public final class syn extends tdl {
     /* renamed from: f */
     private final int f45454f;
 
-    public syn(tds tds, sek sek, UUID uuid, int i, Handler handler, boolean z) {
+    public syn(tds tds, Logger Logger, UUID uuid, int i, Handler handler, boolean z) {
         super(handler);
         this.f45451b = tds;
-        this.f45452c = sek;
+        this.f45452c = Logger;
         this.f45454f = i;
         this.f45450a = uuid;
         this.f45453d = z;

@@ -22,7 +22,7 @@ public final class mck {
         bzxu bzxu2 = (bzxu) da.mo74062i();
         try {
             try {
-                bzxw bzxw = (bzxw) bxvk.m124014a(bzxw.f171807d, boav.m111020a(bzsb.f171222c));
+                bzxw bzxw = (bzxw) GeneratedMessageLite.m124014a(bzxw.f171807d, boav.m111020a(bzsb.f171222c));
                 bzxu bzxu3 = bzxw.f171810b;
                 if (bzxu3 == null) {
                     bzxu3 = bzxu.f171798d;

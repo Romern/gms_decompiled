@@ -148,7 +148,7 @@ public abstract class ucg extends aaab {
     /* renamed from: b */
     public final uey mo27233b() {
         uey uey = this.f47241e;
-        sdo.m34966a(uey, "The authorized app is not defined");
+        sdo.checkIfNull(uey, "The authorized app is not defined");
         return uey;
     }
 

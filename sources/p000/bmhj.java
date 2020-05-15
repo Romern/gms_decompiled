@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmhj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmhj extends bxvk implements bxxd {
+public final class bmhj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final bmhj f129426h;
@@ -17,7 +17,7 @@ public final class bmhj extends bxvk implements bxxd {
     public String f129429b = "";
 
     /* renamed from: c */
-    public bxtx f129430c = bxtx.f164797b;
+    public ByteString f129430c = ByteString.f164797b;
 
     /* renamed from: d */
     public String f129431d = "";
@@ -29,12 +29,12 @@ public final class bmhj extends bxvk implements bxxd {
     public bxwc f129433f = bxxn.f165040b;
 
     /* renamed from: g */
-    public bxtx f129434g = bxtx.f164797b;
+    public ByteString f129434g = ByteString.f164797b;
 
     static {
         bmhj bmhj = new bmhj();
         f129426h = bmhj;
-        bxvk.m124024a(bmhj.class, bmhj);
+        GeneratedMessageLite.m124024a(bmhj.class, bmhj);
     }
 
     private bmhj() {
@@ -51,7 +51,7 @@ public final class bmhj extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f129426h, "\u0001\u0006\u0000\u0001\u0001\u0007\u0006\u0000\u0002\u0000\u0001ဈ\u0000\u0002ည\u0001\u0003ဈ\u0002\u0005\u001b\u0006\u001b\u0007ည\u0003", new Object[]{"a", "b", "c", "d", "e", bmhl.class, "f", bmik.class, "g"});
+            return GeneratedMessageLite.m124022a(f129426h, "\u0001\u0006\u0000\u0001\u0001\u0007\u0006\u0000\u0002\u0000\u0001ဈ\u0000\u0002ည\u0001\u0003ဈ\u0002\u0005\u001b\u0006\u001b\u0007ည\u0003", new Object[]{"a", "b", "c", "d", "e", bmhl.class, "f", bmik.class, "g"});
         } else if (i2 == 3) {
             return new bmhj();
         } else {
@@ -78,14 +78,14 @@ public final class bmhj extends bxvk implements bxxd {
     /* renamed from: b */
     public final void mo66792b() {
         if (!this.f129433f.mo73666a()) {
-            this.f129433f = bxvk.m124021a(this.f129433f);
+            this.f129433f = GeneratedMessageLite.m124021a(this.f129433f);
         }
     }
 
     /* renamed from: a */
     public final void mo66791a() {
         if (!this.f129432e.mo73666a()) {
-            this.f129432e = bxvk.m124021a(this.f129432e);
+            this.f129432e = GeneratedMessageLite.m124021a(this.f129432e);
         }
     }
 }

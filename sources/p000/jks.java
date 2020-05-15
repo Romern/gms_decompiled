@@ -45,7 +45,7 @@ public final class jks {
             byte[] a = jtq.mo14080a(jto.f23189b);
             if (a != null) {
                 bxvd a2 = jto.f23186d.mo74141a(jto);
-                bxtx a3 = bxtx.m123261a(a);
+                ByteString a3 = ByteString.m123261a(a);
                 if (a2.f164950c) {
                     a2.mo74035c();
                     a2.f164950c = false;

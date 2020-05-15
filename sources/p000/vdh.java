@@ -23,7 +23,7 @@ final class vdh implements vcu {
 
     /* renamed from: b */
     private final void m40115b() {
-        sdo.m34966a(this.f49071c, "Builder can only be used once.");
+        sdo.checkIfNull(this.f49071c, "Builder can only be used once.");
     }
 
     /* JADX DEBUG: Failed to find minimal casts for resolve overloaded methods, cast all args instead
@@ -292,7 +292,7 @@ final class vdh implements vcu {
             bxvd.f164950c = false;
         }
         bkyt bkyt = bkyt.f125495l;
-        ((bkyt) bxvd.f164949b).f125502f = bxvk.m124028dc();
+        ((bkyt) bxvd.f164949b).f125502f = GeneratedMessageLite.m124028dc();
         Iterator it = set.iterator();
         while (it.hasNext()) {
             twt twt = (twt) it.next();
@@ -318,7 +318,7 @@ final class vdh implements vcu {
             bkyt bkyt2 = (bkyt) bxvd2.f164949b;
             blbd.getClass();
             if (!bkyt2.f125502f.mo73666a()) {
-                bkyt2.f125502f = bxvk.m124019a(bkyt2.f125502f);
+                bkyt2.f125502f = GeneratedMessageLite.m124019a(bkyt2.f125502f);
             }
             bkyt2.f125502f.mo74153d(blbd.f125820h);
         }

@@ -33,8 +33,8 @@ public final class awlo {
             z = false;
         }
         sdo.m34971a(z, (Object) "Bin regexes much be paired with a card type");
-        sdo.m34966a(this.f94597a.f110186c, "Legal RemoteViews is required");
-        sdo.m34966a(this.f94597a.f110187d, "Session data is required");
+        sdo.checkIfNull(this.f94597a.f110186c, "Legal RemoteViews is required");
+        sdo.checkIfNull(this.f94597a.f110187d, "Session data is required");
         return this.f94597a;
     }
 }

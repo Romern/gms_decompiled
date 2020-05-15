@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: amkv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class amkv extends bxvk implements bxxd {
+public final class amkv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: m */
     public static final amkv f75106m;
@@ -49,7 +49,7 @@ public final class amkv extends bxvk implements bxxd {
     static {
         amkv amkv = new amkv();
         f75106m = amkv;
-        bxvk.m124024a(amkv.class, amkv);
+        GeneratedMessageLite.m124024a(amkv.class, amkv);
     }
 
     private amkv() {
@@ -66,7 +66,7 @@ public final class amkv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f75106m, "\u0001\u000b\u0000\u0001\u0004\u0012\u000b\u0000\u0000\u0000\u0004ဇ\u0003\u0005ဇ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\bဇ\u0007\u000bင\n\rဇ\f\u000eဇ\r\u0010ဇ\u000f\u0011ဉ\u0010\u0012ဉ\u0011", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"});
+            return GeneratedMessageLite.m124022a(f75106m, "\u0001\u000b\u0000\u0001\u0004\u0012\u000b\u0000\u0000\u0000\u0004ဇ\u0003\u0005ဇ\u0004\u0006ဇ\u0005\u0007ဇ\u0006\bဇ\u0007\u000bင\n\rဇ\f\u000eဇ\r\u0010ဇ\u000f\u0011ဉ\u0010\u0012ဉ\u0011", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"});
         } else if (i2 == 3) {
             return new amkv();
         } else {

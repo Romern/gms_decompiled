@@ -71,7 +71,7 @@ public final class vxx implements vxu {
             bltb bltb2 = bltb.f127660b;
             blta3.getClass();
             if (!bltb.f127662a.mo73666a()) {
-                bltb.f127662a = bxvk.m124021a(bltb.f127662a);
+                bltb.f127662a = GeneratedMessageLite.m124021a(bltb.f127662a);
             }
             bltb.f127662a.add(blta3);
         }

@@ -11,7 +11,7 @@ public final class iej extends dcj implements iel {
     }
 
     /* renamed from: a */
-    public final String mo12953a(String str) {
+    public final String getSpatulaHeader(String str) {
         Parcel bj = mo8529bj();
         bj.writeString(str);
         Parcel a = mo8526a(2, bj);

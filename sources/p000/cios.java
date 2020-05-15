@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cios */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cios extends bxvk implements bxxd {
+public final class cios extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: s */
     public static final cios f191113s;
@@ -73,7 +73,7 @@ public final class cios extends bxvk implements bxxd {
     static {
         cios cios = new cios();
         f191113s = cios;
-        bxvk.m124024a(cios.class, cios);
+        GeneratedMessageLite.m124024a(cios.class, cios);
     }
 
     private cios() {
@@ -95,7 +95,7 @@ public final class cios extends bxvk implements bxxd {
             this.f191134u = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f191113s, "\u0001\u0012\u0000\u0001\u0001\u001c\u0012\u0000\u0000\u0005\u0001ᐉ\u0000\u0002စ\u0001\u0003ဈ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ᐉ\u0005\bဉ\u0007\tဉ\b\nᐉ\t\fဉ\u000b\rဉ\f\u000eᐉ\r\u0010ᐉ\u000f\u0011ဈ\u0010\u0015ဉ\u0014\u0017ဉ\u0016\u001bဉ\u0012\u001cဉ\u0019", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "t", "l", "m", "n", "p", "q", "o", "r"});
+            return GeneratedMessageLite.m124022a(f191113s, "\u0001\u0012\u0000\u0001\u0001\u001c\u0012\u0000\u0000\u0005\u0001ᐉ\u0000\u0002စ\u0001\u0003ဈ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ᐉ\u0005\bဉ\u0007\tဉ\b\nᐉ\t\fဉ\u000b\rဉ\f\u000eᐉ\r\u0010ᐉ\u000f\u0011ဈ\u0010\u0015ဉ\u0014\u0017ဉ\u0016\u001bဉ\u0012\u001cဉ\u0019", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "t", "l", "m", "n", "p", "q", "o", "r"});
         } else if (i2 == 3) {
             return new cios();
         } else {

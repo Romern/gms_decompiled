@@ -32,7 +32,7 @@ public final /* synthetic */ class aqhf implements aubg {
         ggp ggp = this.f86108c;
         bsqw a = aqjw.m71745a(googleServicesChimeraActivity, (String) aucb.mo50386d(), z, aqjv.PHONE);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         bsqv bsqv = (bsqv) bxvd;
         bxvd da = bsry.f146810e.mo74144da();
         bxvd da2 = bsse.f146846h.mo74144da();
@@ -68,7 +68,7 @@ public final /* synthetic */ class aqhf implements aubg {
                 aqju d = aqiv.f86182g.mo47909d();
                 bsrw bsrw = d.f86238a;
                 bxvd bxvd2 = (bxvd) bsrw.mo74142c(5);
-                bxvd2.mo73625a((bxvk) bsrw);
+                bxvd2.mo73625a((GeneratedMessageLite) bsrw);
                 int i3 = aqiv.f86183h;
                 if (bxvd2.f164950c) {
                     bxvd2.mo74035c();
@@ -81,7 +81,7 @@ public final /* synthetic */ class aqhf implements aubg {
                 bsrw bsrw4 = (bsrw) bxvd2.mo74062i();
                 bssd bssd = d.f86239b;
                 bxvd bxvd3 = (bxvd) bssd.mo74142c(5);
-                bxvd3.mo73625a((bxvk) bssd);
+                bxvd3.mo73625a((GeneratedMessageLite) bssd);
                 bssc a3 = bssc.m116141a(aqiv.f86183h - 1);
                 sdo.m34959a(a3);
                 if (bxvd3.f164950c) {
@@ -101,7 +101,7 @@ public final /* synthetic */ class aqhf implements aubg {
                 bsry bsry3 = (bsry) da.f164949b;
                 bsrw5.getClass();
                 if (!bsry3.f146813b.mo73666a()) {
-                    bsry3.f146813b = bxvk.m124021a(bsry3.f146813b);
+                    bsry3.f146813b = GeneratedMessageLite.m124021a(bsry3.f146813b);
                 }
                 bsry3.f146813b.add(bsrw5);
                 bssd bssd4 = aqju.f86239b;
@@ -112,7 +112,7 @@ public final /* synthetic */ class aqhf implements aubg {
                 bsse bsse = (bsse) da2.f164949b;
                 bssd4.getClass();
                 if (!bsse.f146849b.mo73666a()) {
-                    bsse.f146849b = bxvk.m124021a(bsse.f146849b);
+                    bsse.f146849b = GeneratedMessageLite.m124021a(bsse.f146849b);
                 }
                 bsse.f146849b.add(bssd4);
                 aqiv.mo47889a(bsqv);
@@ -189,18 +189,18 @@ public final /* synthetic */ class aqhf implements aubg {
             bsse6.f146848a |= 16;
         }
         if (GoogleServicesChimeraActivity.f107625c.mo19637a(3)) {
-            sek sek = GoogleServicesChimeraActivity.f107625c;
+            Logger Logger = GoogleServicesChimeraActivity.f107625c;
             String valueOf = String.valueOf(bsqv);
             StringBuilder sb = new StringBuilder(String.valueOf(valueOf).length() + 13);
             sb.append("Audit record=");
             sb.append(valueOf);
-            sek.mo25412b(sb.toString(), new Object[0]);
-            sek sek2 = GoogleServicesChimeraActivity.f107625c;
-            int length = ((bsqw) bsqv.mo74062i()).mo73642k().length;
+            Logger.mo25412b(sb.toString(), new Object[0]);
+            Logger logger2 = GoogleServicesChimeraActivity.f107625c;
+            int length = ((bsqw) bsqv.mo74062i()).serializeToBytes().length;
             StringBuilder sb2 = new StringBuilder(18);
             sb2.append("Length=");
             sb2.append(length);
-            sek2.mo25412b(sb2.toString(), new Object[0]);
+            logger2.mo25412b(sb2.toString(), new Object[0]);
         }
         bsrf bsrf = ((bsqw) bsqv.f164949b).f146701e;
         if (bsrf == null) {
@@ -211,7 +211,7 @@ public final /* synthetic */ class aqhf implements aubg {
             bsrg = bsrg.f146749m;
         }
         bxvd bxvd4 = (bxvd) bsrg.mo74142c(5);
-        bxvd4.mo73625a((bxvk) bsrg);
+        bxvd4.mo73625a((GeneratedMessageLite) bsrg);
         if (bxvd4.f164950c) {
             bxvd4.mo74035c();
             bxvd4.f164950c = false;
@@ -227,7 +227,7 @@ public final /* synthetic */ class aqhf implements aubg {
             bsrf2 = bsrf.f146744d;
         }
         bxvd bxvd5 = (bxvd) bsrf2.mo74142c(5);
-        bxvd5.mo73625a((bxvk) bsrf2);
+        bxvd5.mo73625a((GeneratedMessageLite) bsrf2);
         if (bxvd5.f164950c) {
             bxvd5.mo74035c();
             bxvd5.f164950c = false;
@@ -255,7 +255,7 @@ public final /* synthetic */ class aqhf implements aubg {
             bssi = bssi.f146862i;
         }
         bxvd bxvd6 = (bxvd) bssi.mo74142c(5);
-        bxvd6.mo73625a((bxvk) bssi);
+        bxvd6.mo73625a((GeneratedMessageLite) bssi);
         if (bxvd6.f164950c) {
             bxvd6.mo74035c();
             bxvd6.f164950c = false;
@@ -271,7 +271,7 @@ public final /* synthetic */ class aqhf implements aubg {
             bssm2 = bssm.f146877d;
         }
         bxvd bxvd7 = (bxvd) bssm2.mo74142c(5);
-        bxvd7.mo73625a((bxvk) bssm2);
+        bxvd7.mo73625a((GeneratedMessageLite) bssm2);
         if (bxvd7.f164950c) {
             bxvd7.mo74035c();
             bxvd7.f164950c = false;
@@ -289,7 +289,7 @@ public final /* synthetic */ class aqhf implements aubg {
         bssm4.getClass();
         bsqw3.f146702f = bssm4;
         bsqw3.f146697a |= 8;
-        ggp.mo11800a(((bsqw) bsqv.mo74062i()).mo73642k());
+        ggp.mo11800a(((bsqw) bsqv.mo74062i()).serializeToBytes());
         return aqjw.m71744a(googleServicesChimeraActivity.getApplicationContext(), ggp, googleServicesChimeraActivity.f107633k);
     }
 }

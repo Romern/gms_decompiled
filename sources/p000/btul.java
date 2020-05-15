@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btul */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btul extends bxvk implements bxxd {
+public final class btul extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final btul f150503a;
@@ -13,7 +13,7 @@ public final class btul extends bxvk implements bxxd {
     static {
         btul btul = new btul();
         f150503a = btul;
-        bxvk.m124024a(btul.class, btul);
+        GeneratedMessageLite.m124024a(btul.class, btul);
     }
 
     private btul() {
@@ -30,7 +30,7 @@ public final class btul extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150503a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f150503a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new btul();

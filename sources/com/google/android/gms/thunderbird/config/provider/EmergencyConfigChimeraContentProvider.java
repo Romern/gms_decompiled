@@ -184,7 +184,7 @@ public class EmergencyConfigChimeraContentProvider extends ContentProvider {
             throw new IllegalArgumentException("No values provided");
         } else {
             try {
-                auff auff = (auff) bxvk.m124014a(auff.f91640C, asByteArray);
+                auff auff = (auff) GeneratedMessageLite.m124014a(auff.f91640C, asByteArray);
                 if (this.f109066c.mo50506a(getContext(), auff, false)) {
                     return uri.buildUpon().appendPath(auff.f91649b).build();
                 }
@@ -309,7 +309,7 @@ public class EmergencyConfigChimeraContentProvider extends ContentProvider {
                 throw new IllegalArgumentException("No values provided");
             }
             try {
-                auff auff = (auff) bxvk.m124014a(auff.f91640C, asByteArray);
+                auff auff = (auff) GeneratedMessageLite.m124014a(auff.f91640C, asByteArray);
                 if (!a.equals(auff.f91649b)) {
                     throw new IllegalArgumentException("Config name must match updated config name");
                 } else if (this.f109066c.mo50506a(getContext(), auff, true)) {

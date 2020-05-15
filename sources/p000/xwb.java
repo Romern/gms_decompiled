@@ -18,7 +18,7 @@ import com.google.android.material.chip.Chip;
 public final class xwb extends Fragment implements View.OnClickListener {
 
     /* renamed from: c */
-    public static final sek f53263c = new sek(new String[]{"PolluxNoFragment"}, (short[]) null);
+    public static final Logger f53263c = new Logger(new String[]{"PolluxNoFragment"}, (short[]) null);
 
     /* renamed from: a */
     public String f53264a;

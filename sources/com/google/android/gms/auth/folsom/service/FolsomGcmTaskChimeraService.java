@@ -332,7 +332,7 @@ public class FolsomGcmTaskChimeraService extends aeah {
                         }
                         bqmo bqmo = (bqmo) da.f164949b;
                         if (!bqmo.f141245a.mo73666a()) {
-                            bqmo.f141245a = bxvk.m124020a(bqmo.f141245a);
+                            bqmo.f141245a = GeneratedMessageLite.m124020a(bqmo.f141245a);
                         }
                         bqmo.f141245a.mo74161a(j);
                         try {

@@ -12,7 +12,7 @@ import java.util.Iterator;
 public final class jdg {
 
     /* renamed from: a */
-    private static final sek f22219a = jdh.m16547a("RecoverableKeyStoreGmsEventLogger");
+    private static final Logger f22219a = jdh.m16547a("RecoverableKeyStoreGmsEventLogger");
 
     /* renamed from: a */
     public static void m16541a(int i) {
@@ -225,7 +225,7 @@ public final class jdg {
         boep3.getClass();
         boct.f132635z = boep3;
         boct.f132611b |= 16;
-        new qws(context, "ANDROID_AUTH", null).mo24335a(((boct) da.mo74062i()).mo73642k()).mo24327b();
+        new qws(context, "ANDROID_AUTH", null).mo24335a(((boct) da.mo74062i()).serializeToBytes()).mo24327b();
         f22219a.mo25412b("Event logged", new Object[0]);
     }
 }

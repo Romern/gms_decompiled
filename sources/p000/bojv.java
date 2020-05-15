@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bojv */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bojv extends bxvk implements bxxd {
+public final class bojv extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final bojv f133355f;
@@ -28,7 +28,7 @@ public final class bojv extends bxvk implements bxxd {
     static {
         bojv bojv = new bojv();
         f133355f = bojv;
-        bxvk.m124024a(bojv.class, bojv);
+        GeneratedMessageLite.m124024a(bojv.class, bojv);
     }
 
     private bojv() {
@@ -45,7 +45,7 @@ public final class bojv extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133355f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003င\u0002\u0004\u001b", new Object[]{"a", "b", "c", "d", "e", bojw.class});
+            return GeneratedMessageLite.m124022a(f133355f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0001\u0000\u0001ဈ\u0000\u0002ဈ\u0001\u0003င\u0002\u0004\u001b", new Object[]{"a", "b", "c", "d", "e", bojw.class});
         } else if (i2 == 3) {
             return new bojv();
         } else {

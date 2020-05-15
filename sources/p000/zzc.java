@@ -40,13 +40,13 @@ public final class zzc extends aaab {
       sdo.a(java.lang.Object, java.lang.Object):void */
     public zzc(zyc zyc, FontMatchSpec fontMatchSpec, zyn zyn, String str) {
         super(132, "GetFont");
-        sdo.m34966a(zyc, "callback");
+        sdo.checkIfNull(zyc, "callback");
         this.f56243d = zyc;
-        sdo.m34966a(fontMatchSpec, "fontMatchSpec");
+        sdo.checkIfNull(fontMatchSpec, "fontMatchSpec");
         this.f56242c = fontMatchSpec;
-        sdo.m34966a(zyn, "server");
+        sdo.checkIfNull(zyn, "server");
         this.f56244e = zyn;
-        sdo.m34966a((Object) str, (Object) "requestingPackage");
+        sdo.checkIfNull((Object) str, (Object) "requestingPackage");
         this.f56245f = str;
         zyh.m46683c("GetFontOperation", "ctor; requestingPackage=%s", str);
     }

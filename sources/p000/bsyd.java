@@ -18,7 +18,7 @@ public final class bsyd extends bxvd implements bxxd {
         bsye bsye2 = bsye.f147660e;
         bsut.getClass();
         if (!bsye.f147664c.mo73666a()) {
-            bsye.f147664c = bxvk.m124021a(bsye.f147664c);
+            bsye.f147664c = GeneratedMessageLite.m124021a(bsye.f147664c);
         }
         bsye.f147664c.add(bsut);
     }

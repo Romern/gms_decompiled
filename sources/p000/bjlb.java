@@ -415,7 +415,7 @@ public final class bjlb {
         bwou.f160494a |= 1;
         bwou.f160496c = i6;
         if (!bwou.f160495b.mo73666a()) {
-            bwou.f160495b = bxvk.m124020a(bwou.f160495b);
+            bwou.f160495b = GeneratedMessageLite.m124020a(bwou.f160495b);
         }
         bwou.f160495b.mo74161a(j);
         int a11 = bwov.f160500b.mo73900a();
@@ -435,7 +435,7 @@ public final class bjlb {
         bwou bwou3 = (bwou) bxvf9.mo74062i();
         bwou3.getClass();
         if (!bwny9.f160420e.mo73666a()) {
-            bwny9.f160420e = bxvk.m124021a(bwny9.f160420e);
+            bwny9.f160420e = GeneratedMessageLite.m124021a(bwny9.f160420e);
         }
         bwny9.f160420e.add(bwou3);
         bxvf bxvf10 = (bxvf) bwoi.f160451f.mo74144da();
@@ -447,7 +447,7 @@ public final class bjlb {
         bwoi.f160453a |= 2;
         bwoi.f160456d = i7;
         if (!bwoi.f160454b.mo73666a()) {
-            bwoi.f160454b = bxvk.m124020a(bwoi.f160454b);
+            bwoi.f160454b = GeneratedMessageLite.m124020a(bwoi.f160454b);
         }
         bwoi.f160454b.mo74161a(j);
         int a12 = bwmn.f160290f.mo73900a();
@@ -484,7 +484,7 @@ public final class bjlb {
         bwoi bwoi3 = (bwoi) bxvf10.mo74062i();
         bwoi3.getClass();
         if (!bwny10.f160421f.mo73666a()) {
-            bwny10.f160421f = bxvk.m124021a(bwny10.f160421f);
+            bwny10.f160421f = GeneratedMessageLite.m124021a(bwny10.f160421f);
         }
         bwny10.f160421f.add(bwoi3);
         bwny bwny11 = (bwny) bxvf8.mo74062i();
@@ -561,7 +561,7 @@ public final class bjlb {
         }
         bwoq bwoq = (bwoq) bxvf14.f164949b;
         if (!bwoq.f160483b.mo73666a()) {
-            bwoq.f160483b = bxvk.m124020a(bwoq.f160483b);
+            bwoq.f160483b = GeneratedMessageLite.m124020a(bwoq.f160483b);
         }
         bwoq.f160483b.mo74161a(j);
         int a15 = bwrf.f160755f.mo73900a();
@@ -607,7 +607,7 @@ public final class bjlb {
         bwoq bwoq3 = (bwoq) bxvf14.mo74062i();
         bwoq3.getClass();
         if (!bwny14.f160422g.mo73666a()) {
-            bwny14.f160422g = bxvk.m124021a(bwny14.f160422g);
+            bwny14.f160422g = GeneratedMessageLite.m124021a(bwny14.f160422g);
         }
         bwny14.f160422g.add(bwoq3);
         bwny bwny15 = (bwny) bxvf13.mo74062i();

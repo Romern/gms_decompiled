@@ -6,7 +6,7 @@ final class azfm implements chtk {
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo26261a(byte[] bArr) {
         try {
-            return (cbms) bxvk.m124016a(cbms.f177673b, bArr, bxus.m123744c());
+            return (cbms) GeneratedMessageLite.m124016a(cbms.f177673b, bArr, bxus.m123744c());
         } catch (bxwf e) {
             azoj.m85933c("NetworkUtils", "Invalid Tachyon error details.", e);
             throw new RuntimeException(e);
@@ -15,6 +15,6 @@ final class azfm implements chtk {
 
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ byte[] mo26262a(Object obj) {
-        return ((cbms) obj).mo73642k();
+        return ((cbms) obj).serializeToBytes();
     }
 }

@@ -204,7 +204,7 @@ public final class cfni implements cfng {
         f184528I = bdyx.m91610a(bdyw, "NotificationImprovements__enable_welcome_after_ux_open", true);
         f184529J = bdyx.m91607a(bdyw, "NotificationImprovements__expiration_reminder_notification_time_out_millis", 86400000L);
         try {
-            f184530K = bdyx.m91608a(bdyw, "NotificationImprovements__non_consent_whitelisted_types", (bydj) bxvk.m124014a(bydj.f165795b, new byte[0]), cfnh.f184519a);
+            f184530K = bdyx.m91608a(bdyw, "NotificationImprovements__non_consent_whitelisted_types", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[0]), cfnh.f184519a);
             f184531L = bdyx.m91607a(bdyw, "NotificationImprovements__other_notification_time_out_millis", 86400000L);
             f184532M = bdyx.m91607a(bdyw, "NotificationImprovements__out_of_data_notification_time_out_millis", 86400000L);
             f184533N = bdyx.m91607a(bdyw, "NotificationImprovements__paygo_notification_time_out_millis", 86400000L);

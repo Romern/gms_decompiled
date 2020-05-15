@@ -37,7 +37,7 @@ public final class ahrf implements ahll, ahop {
         ahfk q = ahkv.mo36739q(str);
         bqgy c = bqgy.m112818c();
         if (!this.f67865c.mo36918a(butt.f154871b, new ahre(butt, c))) {
-            ((bnsl) ahkm.f67363a.mo68387b()).mo68420a("Failed to start scanning for Wifi Aware device %s", ahkm.m55981a(butt.f154872c.mo73780k()));
+            ((bnsl) ahkm.f67363a.mo68387b()).mo68420a("Failed to start scanning for Wifi Aware device %s", ahkm.m55981a(butt.f154872c.getKey()));
             aivw = null;
         } else {
             Exception exc = new Exception("Future cancelled.");
@@ -103,7 +103,7 @@ public final class ahrf implements ahll, ahop {
                 a.getClass();
                 butt.f154870a |= 1;
                 butt.f154871b = a;
-                bxtx a3 = bxtx.m123261a(bytes);
+                ByteString a3 = ByteString.m123261a(bytes);
                 if (da.f164950c) {
                     da.mo74035c();
                     da.f164950c = false;

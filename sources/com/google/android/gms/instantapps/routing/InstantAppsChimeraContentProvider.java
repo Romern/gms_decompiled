@@ -206,7 +206,7 @@ public class InstantAppsChimeraContentProvider extends ContentProvider {
                             byte[] b3 = a.mo33503b();
                             bxus b4 = bxus.m123743b();
                             long currentTimeMillis = System.currentTimeMillis();
-                            adia adia = ((adhw) bxvk.m124016a(adhw.f61742b, b3, b4)).f61744a;
+                            adia adia = ((adhw) GeneratedMessageLite.m124016a(adhw.f61742b, b3, b4)).f61744a;
                             if (adia == null) {
                                 adia = adia.f61759b;
                             }

@@ -22,7 +22,7 @@ public final class rmh implements rmy {
             this.f43279a.f43358l.f43331k.mo24980a(rle);
             rmx rmx = this.f43279a.f43358l;
             rjm rjm = (rjm) rmx.f43327g.get(rle.f43219d);
-            sdo.m34966a(rjm, "Appropriate Api was not requested.");
+            sdo.checkIfNull(rjm, "Appropriate Api was not requested.");
             if (rjm.mo24648p() || !this.f43279a.f43353g.containsKey(rle.f43219d)) {
                 if (rjm instanceof sdx) {
                     rjn rjn = ((sdx) rjm).f44080a;

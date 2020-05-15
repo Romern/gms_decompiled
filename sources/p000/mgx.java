@@ -26,10 +26,10 @@ public final class mgx {
     public final boolean mo20007a() {
         sdo.m34967a("Wake lock must be released from the main thread.");
         if (!this.f33675b.mo49124e()) {
-            f33674a.mo25409a("releaseWakeLockIfHeld(): wake lock not held so not releasing", new Object[0]);
+            f33674a.logVerbose("releaseWakeLockIfHeld(): wake lock not held so not releasing", new Object[0]);
             return false;
         }
-        f33674a.mo25409a("releaseWakeLockIfHeld(): wake lock held so releasing", new Object[0]);
+        f33674a.logVerbose("releaseWakeLockIfHeld(): wake lock held so releasing", new Object[0]);
         this.f33675b.mo49122c("migrate_transfer");
         return true;
     }

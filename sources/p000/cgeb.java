@@ -52,7 +52,7 @@ public final class cgeb implements cgdz {
         f186632d = bdyx.m91607a(b, "PackageUpdateOptimization__min_timeout_seconds", 14400L);
         f186633e = bdyx.m91607a(b, "PackageUpdateOptimization__notify_all_uncommitted_timeout_seconds", 86400L);
         try {
-            f186634f = bdyx.m91608a(b, "PackageUpdateOptimization__update_now_app_whitelist", (bydj) bxvk.m124014a(bydj.f165795b, new byte[]{10, 22, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 10, 26, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 99, 97, 114, 114, 105, 101, 114}), cgea.f186628a);
+            f186634f = bdyx.m91608a(b, "PackageUpdateOptimization__update_now_app_whitelist", (bydj) GeneratedMessageLite.m124014a(bydj.f165795b, new byte[]{10, 22, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 103, 109, 115, 10, 26, 99, 111, 109, 46, 103, 111, 111, 103, 108, 101, 46, 97, 110, 100, 114, 111, 105, 100, 46, 99, 97, 114, 114, 105, 101, 114}), cgea.f186628a);
             bdyx.m91607a(b, "PackageUpdateOptimization__update_now_bucket_upper_bound", 10L);
         } catch (bxwf e) {
             throw new AssertionError("Could not parse proto flag \"PackageUpdateOptimization__update_now_app_whitelist\"");

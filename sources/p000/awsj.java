@@ -229,10 +229,10 @@ public final class awsj extends awrb {
             bwgu.getClass();
             bwes.f159027b = bwgu;
             bwes.f159026a |= 1;
-            byte[] k = ((bwes) da.mo74062i()).mo73642k();
-            sdo.m34966a(buyFlowConfig, "buyFlowConfig is required");
+            byte[] k = ((bwes) da.mo74062i()).serializeToBytes();
+            sdo.checkIfNull(buyFlowConfig, "buyFlowConfig is required");
             sdo.m34969a(e, (Object) "paymentDataRequestJson is required");
-            sdo.m34966a(k, "additionalClientParameterToken is required");
+            sdo.checkIfNull(k, "additionalClientParameterToken is required");
             sdo.m34969a(buyFlowConfig.f110419c, (Object) "A calling package is required");
             Bundle bundle = new Bundle();
             bundle.putString("paymentDataRequestJson", e);
@@ -419,7 +419,7 @@ public final class awsj extends awrb {
                     blzq = blzq.f128364p;
                 }
                 bxvd bxvd = (bxvd) blzq.mo74142c(5);
-                bxvd.mo73625a((bxvk) blzq);
+                bxvd.mo73625a((GeneratedMessageLite) blzq);
                 if (bxvd.f164950c) {
                     bxvd.mo74035c();
                     bxvd.f164950c = false;
@@ -446,7 +446,7 @@ public final class awsj extends awrb {
                     blze.f164950c = false;
                 }
                 bxvu bxvu = blzf.f128336h;
-                ((blzf) blze.f164949b).f128345g = bxvk.m124028dc();
+                ((blzf) blze.f164949b).f128345g = GeneratedMessageLite.m124028dc();
                 CardRequirements cardRequirements3 = paymentDataRequest.f109886c;
                 blze.mo66774a(Arrays.asList(IbBuyFlowInput.m94106a(cardRequirements3.f109773b, true, cardRequirements3.f109772a, ibBuyFlowInput.mo60006n())));
                 blze blze2 = ibBuyFlowInput2.f110340b;
@@ -471,7 +471,7 @@ public final class awsj extends awrb {
                 }
                 blzq blzq3 = (blzq) bxvd.f164949b;
                 if (!blzq3.f128377l.mo73666a()) {
-                    blzq3.f128377l = bxvk.m124019a(blzq3.f128377l);
+                    blzq3.f128377l = GeneratedMessageLite.m124019a(blzq3.f128377l);
                 }
                 int size = arrayList4.size();
                 for (int i4 = 0; i4 < size; i4++) {
@@ -536,7 +536,7 @@ public final class awsj extends awrb {
                         blzq5 = blzq.f128364p;
                     }
                     bxvd bxvd2 = (bxvd) blzq5.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) blzq5);
+                    bxvd2.mo73625a((GeneratedMessageLite) blzq5);
                     if (bxvd2.f164950c) {
                         bxvd2.mo74035c();
                         bxvd2.f164950c = false;

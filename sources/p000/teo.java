@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public final class teo implements teu {
 
     /* renamed from: a */
-    public static final sek f45776a = tea.m36798a("verifier");
+    public static final Logger f45776a = tea.m36798a("verifier");
 
     /* renamed from: b */
     public final BlockingQueue f45777b;
@@ -109,7 +109,7 @@ public final class teo implements teu {
     public final cbqy mo26430d() {
         cbqg cbqg;
         cbqg cbqg2;
-        f45776a.mo25409a("do verification", new Object[0]);
+        f45776a.logVerbose("do verification", new Object[0]);
         this.f45781f.mo26447a(this.f45782g);
         try {
             BlockingQueue blockingQueue = this.f45777b;
@@ -151,7 +151,7 @@ public final class teo implements teu {
                 bxyk2 = bxyk.f165095c;
             }
             cbqy cbqy3 = (cbqy) blockingQueue.poll(Math.min(cdgc.m133124e(), j - bxyk2.f165097a), TimeUnit.SECONDS);
-            f45776a.mo25409a("Found verification %s", cbqy3);
+            f45776a.logVerbose("Found verification %s", cbqy3);
             if (cbqy3 == null) {
                 m36847e();
                 tds.m36774a(rpr.m34216b()).mo26411a(this.f45780e, this.f45778c, 11);

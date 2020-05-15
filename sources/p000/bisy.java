@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bisy */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bisy extends bxvk implements bxxd {
+public final class bisy extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bisy f121611c;
@@ -22,7 +22,7 @@ public final class bisy extends bxvk implements bxxd {
     static {
         bisy bisy = new bisy();
         f121611c = bisy;
-        bxvk.m124024a(bisy.class, bisy);
+        GeneratedMessageLite.m124024a(bisy.class, bisy);
     }
 
     private bisy() {
@@ -43,7 +43,7 @@ public final class bisy extends bxvk implements bxxd {
             this.f121615d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f121611c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"a", "b", bisw.f121610a});
+            return GeneratedMessageLite.m124022a(f121611c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0001\u0001ᔌ\u0000", new Object[]{"a", "b", bisw.f121610a});
         } else if (i2 == 3) {
             return new bisy();
         } else {

@@ -17,7 +17,7 @@ public final class bomh extends bxvd implements bxxd {
         bomi bomi2 = bomi.f133655b;
         bomg.getClass();
         if (!bomi.f133657a.mo73666a()) {
-            bomi.f133657a = bxvk.m124021a(bomi.f133657a);
+            bomi.f133657a = GeneratedMessageLite.m124021a(bomi.f133657a);
         }
         bomi.f133657a.add(bomg);
     }

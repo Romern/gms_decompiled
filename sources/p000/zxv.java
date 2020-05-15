@@ -63,8 +63,8 @@ public final class zxv {
     }
 
     public zxv(Context context, zxq zxq, ExecutorService executorService, zyg zyg, long j, long j2, boolean z) {
-        sdo.m34966a(context, "context");
-        sdo.m34966a(zxq, "databaseHelper");
+        sdo.checkIfNull(context, "context");
+        sdo.checkIfNull(zxq, "databaseHelper");
         this.f56136d = zxq;
         int i = Build.VERSION.SDK_INT;
         this.f56143k = new File(context.getFilesDir(), "fonts");
@@ -155,7 +155,7 @@ public final class zxv {
             while (!arrayList.isEmpty() && !mo31574b(j)) {
                 FontMatchSpec fontMatchSpec = (FontMatchSpec) arrayList.get(0);
                 zyh.m46683c("FontDisk", "Evicting %s", fontMatchSpec);
-                sdo.m34966a(fontMatchSpec, "fontMatchSpec");
+                sdo.checkIfNull(fontMatchSpec, "fontMatchSpec");
                 File file = new File(this.f56133a, m46648a(fontMatchSpec));
                 if (file.exists() && !file.isDirectory()) {
                     j2 += file.length();
@@ -233,8 +233,8 @@ public final class zxv {
     public final File mo31568a(File file, zxi zxi, zxh zxh) {
         long j;
         String str;
-        sdo.m34966a(zxi, "family");
-        sdo.m34966a(zxh, "font");
+        sdo.checkIfNull(zxi, "family");
+        sdo.checkIfNull(zxh, "font");
         File a = mo31569a(zxi, zxh);
         zyh.m46683c("FontDisk", "takeFont(%s); may put in %s", file, a);
         synchronized (this.f56135c) {
@@ -304,8 +304,8 @@ public final class zxv {
 
     /* renamed from: a */
     public final File mo31569a(zxi zxi, zxh zxh) {
-        sdo.m34966a(zxi, "family");
-        sdo.m34966a(zxh, "font");
+        sdo.checkIfNull(zxi, "family");
+        sdo.checkIfNull(zxh, "font");
         zxf zxf = zxh.f56097a;
         if (zxf == null) {
             zxf = zxf.f56084e;
@@ -357,7 +357,7 @@ public final class zxv {
 
     /* renamed from: a */
     public final void mo31572a(zxe zxe) {
-        sdo.m34966a(zxe, "directory");
+        sdo.checkIfNull(zxe, "directory");
         File file = new File(this.f56134b, String.valueOf(zxe.f56082b));
         int i = zxe.f56082b;
         StringBuilder sb = new StringBuilder(68);
@@ -372,7 +372,7 @@ public final class zxv {
         file.mkdir();
         try {
             synchronized (this.f56142j) {
-                bobi.m111040a(zxe.mo73642k(), file2);
+                bobi.m111040a(zxe.serializeToBytes(), file2);
             }
         } catch (IOException e) {
             if (file.exists()) {

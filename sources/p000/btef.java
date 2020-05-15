@@ -17,7 +17,7 @@ public final class btef extends bxvd implements bxxd {
         bteh bteh2 = bteh.f148502d;
         btei.getClass();
         if (!bteh.f148505b.mo73666a()) {
-            bteh.f148505b = bxvk.m124019a(bteh.f148505b);
+            bteh.f148505b = GeneratedMessageLite.m124019a(bteh.f148505b);
         }
         bteh.f148505b.mo74153d(btei.mo3214a());
     }

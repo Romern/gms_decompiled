@@ -157,13 +157,13 @@ public final class C0305w {
                                     bqrl bqrl = bqrl.f141448e;
                                     try {
                                         bxuc h = bxtx.mo73764h();
-                                        bxvk bxvk = (bxvk) bqrl.mo74142c(4);
-                                        bxxv a2 = bxxm.f165037a.mo74228a(bxvk);
-                                        a2.mo74220a(bxvk, bxud.m123454a(h), c);
-                                        a2.mo74225d(bxvk);
+                                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bqrl.mo74142c(4);
+                                        bxxv a2 = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                                        a2.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                                        a2.mo74225d(GeneratedMessageLite);
                                         h.mo73787a(0);
-                                        bxvk.m124027b(bxvk);
-                                        bqrl bqrl2 = (bqrl) bxvk;
+                                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                                        bqrl bqrl2 = (bqrl) GeneratedMessageLite;
                                         bqrj bqrj = bqrl2.f141451b;
                                         if (bqrj == null) {
                                             bqrj = bqrj.f141438d;
@@ -211,7 +211,7 @@ public final class C0305w {
             return null;
         }
         try {
-            return (bqkw) bxvk.m124016a(bqkw.f141054d, string.getBytes(bmwy.f131157b), bxus.m123744c());
+            return (bqkw) GeneratedMessageLite.m124016a(bqkw.f141054d, string.getBytes(bmwy.f131157b), bxus.m123744c());
         } catch (bxwf e) {
             C0288f.m5215a(this.f8049b, "deviceIntegrityTokenError", e);
             return null;
@@ -224,18 +224,18 @@ public final class C0305w {
         if (bArr != null) {
             if (bArr.length != 0) {
                 try {
-                    bxtx bxtx = ((bqkw) bxvk.m124016a(bqkw.f141054d, bArr, bxus.m123744c())).f141057b;
+                    bxtx bxtx = ((bqkw) GeneratedMessageLite.m124016a(bqkw.f141054d, bArr, bxus.m123744c())).f141057b;
                     bxus c = bxus.m123744c();
                     bqks bqks = bqks.f141034b;
                     try {
                         bxuc h = bxtx.mo73764h();
-                        bxvk bxvk = (bxvk) bqks.mo74142c(4);
-                        bxxv a = bxxm.f165037a.mo74228a(bxvk);
-                        a.mo74220a(bxvk, bxud.m123454a(h), c);
-                        a.mo74225d(bxvk);
+                        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bqks.mo74142c(4);
+                        bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+                        a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), c);
+                        a.mo74225d(GeneratedMessageLite);
                         h.mo73787a(0);
-                        bxvk.m124027b(bxvk);
-                        bqks bqks2 = (bqks) bxvk;
+                        GeneratedMessageLite.m124027b(GeneratedMessageLite);
+                        bqks bqks2 = (bqks) GeneratedMessageLite;
                         try {
                             byte[] c2 = mo6531c();
                             if (!(bqks2 == null || c2 == null)) {

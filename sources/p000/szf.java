@@ -90,7 +90,7 @@ final class szf extends ConnectivityManager.NetworkCallback {
                     }
                     cbow cbow = (cbow) da.f164949b;
                     if (!cbow.f177873a.mo73666a()) {
-                        cbow.f177873a = bxvk.m124019a(cbow.f177873a);
+                        cbow.f177873a = GeneratedMessageLite.m124019a(cbow.f177873a);
                     }
                     bxsy.m123078a(arrayList, cbow.f177873a);
                     rpr.m34216b();
@@ -162,14 +162,14 @@ final class szf extends ConnectivityManager.NetworkCallback {
             }
             cbox cbox2 = (cbox) da2.f164949b;
             if (!cbox2.f177882f.mo73666a()) {
-                cbox2.f177882f = bxvk.m124021a(cbox2.f177882f);
+                cbox2.f177882f = GeneratedMessageLite.m124021a(cbox2.f177882f);
             }
             bxsy.m123078a(iterable, cbox2.f177882f);
             cbox cbox3 = (cbox) da2.mo74062i();
             szr.m36692a();
             int intValue = num.intValue();
             boolean contains = hashSet.contains(num);
-            szr.f45526a.mo25409a("Saving a CellularNetworkEvent", new Object[0]);
+            szr.f45526a.logVerbose("Saving a CellularNetworkEvent", new Object[0]);
             ContentValues contentValues = new ContentValues();
             contentValues.put("subscription_id", Integer.valueOf(intValue));
             bxyk bxyk = cbox3.f177877a;
@@ -179,7 +179,7 @@ final class szf extends ConnectivityManager.NetworkCallback {
             contentValues.put("event_time", Long.valueOf(tdo.m36763a(bxyk)));
             contentValues.put("event_type", (Integer) 1);
             contentValues.put(NetworkLatencyContract.NetworkLatencyColumns.SUCCESSFUL, Integer.valueOf(contains ? 1 : 0));
-            contentValues.put("event_proto", cbox3.mo73642k());
+            contentValues.put("event_proto", cbox3.serializeToBytes());
             szr.m36693a(contentValues);
         }
         if (hashSet.isEmpty()) {

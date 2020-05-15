@@ -6,7 +6,7 @@ import java.util.Locale;
 
 /* renamed from: asco */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class asco extends sek {
+public final class asco extends Logger {
 
     /* renamed from: b */
     public final String f88711b;
@@ -64,7 +64,7 @@ public final class asco extends sek {
     }
 
     /* renamed from: a */
-    public final void mo25409a(String str, Object... objArr) {
+    public final void logVerbose(String str, Object... objArr) {
         if (mo19637a(2) || !m73782a()) {
             Log.v(this.f88711b, mo49046h(str, objArr));
         }

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bmca */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bmca extends bxvk implements bxxd {
+public final class bmca extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bmca f128644c;
@@ -22,7 +22,7 @@ public final class bmca extends bxvk implements bxxd {
     static {
         bmca bmca = new bmca();
         f128644c = bmca;
-        bxvk.m124024a(bmca.class, bmca);
+        GeneratedMessageLite.m124024a(bmca.class, bmca);
     }
 
     private bmca() {
@@ -43,7 +43,7 @@ public final class bmca extends bxvk implements bxxd {
             this.f128648d = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f128644c, "\u0001\u0007\u0001\u0000\u0001\u0007\u0007\u0000\u0000\u0001\u0001ြ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000\u0005ᐼ\u0000\u0006ြ\u0000\u0007ြ\u0000", new Object[]{"b", "a", bmck.class, bmdb.class, bmjb.class, bmcr.class, bmcm.class, bmcf.class, bmch.class});
+            return GeneratedMessageLite.m124022a(f128644c, "\u0001\u0007\u0001\u0000\u0001\u0007\u0007\u0000\u0000\u0001\u0001ြ\u0000\u0002ြ\u0000\u0003ြ\u0000\u0004ြ\u0000\u0005ᐼ\u0000\u0006ြ\u0000\u0007ြ\u0000", new Object[]{"b", "a", bmck.class, bmdb.class, bmjb.class, bmcr.class, bmcm.class, bmcf.class, bmch.class});
         } else if (i2 == 3) {
             return new bmca();
         } else {

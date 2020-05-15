@@ -147,7 +147,7 @@ public final class aezb implements aeyq {
             }
             bojq bojq11 = (bojq) da.mo74062i();
             bxvd bxvd = (bxvd) bojq11.mo74142c(5);
-            bxvd.mo73625a((bxvk) bojq11);
+            bxvd.mo73625a((GeneratedMessageLite) bojq11);
             bosx bosx = this.f64032d;
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

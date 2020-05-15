@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: calt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class calt extends bxvk implements bxxd {
+public final class calt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final calt f175176c;
@@ -19,7 +19,7 @@ public final class calt extends bxvk implements bxxd {
     static {
         calt calt = new calt();
         f175176c = calt;
-        bxvk.m124024a(calt.class, calt);
+        GeneratedMessageLite.m124024a(calt.class, calt);
     }
 
     private calt() {
@@ -36,7 +36,7 @@ public final class calt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f175176c, "\u0001\u0001\u0000\u0001\u0003\u0003\u0001\u0000\u0000\u0000\u0003ဂ\u0002", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f175176c, "\u0001\u0001\u0000\u0001\u0003\u0003\u0001\u0000\u0000\u0000\u0003ဂ\u0002", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new calt();
         } else {

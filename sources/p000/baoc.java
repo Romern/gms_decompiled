@@ -80,7 +80,7 @@ public final class baoc implements baok {
                         achw.mo25414c("No subscription found for %s from %s", str, baoa2);
                     }
                 } else {
-                    byjb byjb = (byjb) bxvk.m124014a(byjb.f166629h, query.getBlob(0));
+                    byjb byjb = (byjb) GeneratedMessageLite.m124014a(byjb.f166629h, query.getBlob(0));
                     byjh byjh2 = byjb.f166632b;
                     if (byjh2 != null) {
                         byjh = byjh2;
@@ -164,7 +164,7 @@ public final class baoc implements baok {
                             compileStatement.bindString(1, str2);
                             compileStatement.bindString(2, account2.name);
                             compileStatement.bindString(3, m87253a(bygz2));
-                            compileStatement.bindBlob(4, ((byjb) da.mo74062i()).mo73642k());
+                            compileStatement.bindBlob(4, ((byjb) da.mo74062i()).serializeToBytes());
                             if (compileStatement.executeInsert() != -1) {
                             }
                         }
@@ -174,7 +174,7 @@ public final class baoc implements baok {
                         compileStatement.bindString(1, str2);
                         compileStatement.bindString(2, account2.name);
                         compileStatement.bindString(3, m87253a(bygz2));
-                        compileStatement.bindBlob(4, ((byjb) da.mo74062i()).mo73642k());
+                        compileStatement.bindBlob(4, ((byjb) da.mo74062i()).serializeToBytes());
                         if (compileStatement.executeInsert() != -1) {
                         }
                     }
@@ -182,7 +182,7 @@ public final class baoc implements baok {
                 compileStatement.bindString(1, str2);
                 compileStatement.bindString(2, account2.name);
                 compileStatement.bindString(3, m87253a(bygz2));
-                compileStatement.bindBlob(4, ((byjb) da.mo74062i()).mo73642k());
+                compileStatement.bindBlob(4, ((byjb) da.mo74062i()).serializeToBytes());
                 if (compileStatement.executeInsert() != -1) {
                     return baog.m87266a(str, account, bygz, byjh, bygx, -1, -1, -1);
                 }
@@ -213,7 +213,7 @@ public final class baoc implements baok {
                 while (!query.isAfterLast()) {
                     String string = query.getString(0);
                     String string2 = query.getString(1);
-                    byjb byjb = (byjb) bxvk.m124014a(byjb.f166629h, query.getBlob(3));
+                    byjb byjb = (byjb) GeneratedMessageLite.m124014a(byjb.f166629h, query.getBlob(3));
                     Account account = new Account(string2, "com.google");
                     bygz bygz = byjb.f166634d;
                     if (bygz == null) {
@@ -261,7 +261,7 @@ public final class baoc implements baok {
                 query.moveToFirst();
                 while (!query.isAfterLast()) {
                     String string = query.getString(0);
-                    byjb byjb = (byjb) bxvk.m124014a(byjb.f166629h, query.getBlob(1));
+                    byjb byjb = (byjb) GeneratedMessageLite.m124014a(byjb.f166629h, query.getBlob(1));
                     byjh byjh = byjb.f166632b;
                     if (byjh == null) {
                         byjh = byjh.f166649h;

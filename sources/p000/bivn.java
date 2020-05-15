@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bivn */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bivn extends bxvk implements bxxd {
+public final class bivn extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: a */
     public static final bivn f122019a;
@@ -13,7 +13,7 @@ public final class bivn extends bxvk implements bxxd {
     static {
         bivn bivn = new bivn();
         f122019a = bivn;
-        bxvk.m124024a(bivn.class, bivn);
+        GeneratedMessageLite.m124024a(bivn.class, bivn);
     }
 
     private bivn() {
@@ -30,7 +30,7 @@ public final class bivn extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f122019a, "\u0001\u0000", (Object[]) null);
+            return GeneratedMessageLite.m124022a(f122019a, "\u0001\u0000", (Object[]) null);
         }
         if (i2 == 3) {
             return new bivn();

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cixj */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cixj extends bxvk implements bxxd {
+public final class cixj extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final cixj f191673e;
@@ -31,7 +31,7 @@ public final class cixj extends bxvk implements bxxd {
     static {
         cixj cixj = new cixj();
         f191673e = cixj;
-        bxvk.m124024a(cixj.class, cixj);
+        GeneratedMessageLite.m124024a(cixj.class, cixj);
     }
 
     private cixj() {
@@ -52,7 +52,7 @@ public final class cixj extends bxvk implements bxxd {
             this.f191680g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f191673e, "\u0001\u0004\u0000\u0001\u0005\u000e\u0004\u0000\u0000\u0001\u0005ᐉ\u0004\tဈ\b\nင\t\u000eဉ\r", new Object[]{"a", "f", "b", "c", "d"});
+            return GeneratedMessageLite.m124022a(f191673e, "\u0001\u0004\u0000\u0001\u0005\u000e\u0004\u0000\u0000\u0001\u0005ᐉ\u0004\tဈ\b\nင\t\u000eဉ\r", new Object[]{"a", "f", "b", "c", "d"});
         } else if (i2 == 3) {
             return new cixj();
         } else {

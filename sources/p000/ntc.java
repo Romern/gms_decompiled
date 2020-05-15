@@ -249,7 +249,7 @@ public final class ntc extends dck implements ntd {
                     bitp.f121692b = readLong;
                     bitp.f121691a = 2 | i4;
                     bitp.f121693c = a2;
-                    bxtx a3 = bxtx.m123261a(createByteArray);
+                    ByteString a3 = ByteString.m123261a(createByteArray);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;

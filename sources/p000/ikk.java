@@ -16,7 +16,7 @@ import java.util.concurrent.TimeoutException;
 public final class ikk {
 
     /* renamed from: c */
-    public static final sek f21208c = new sek("TransactionMessageBuilder");
+    public static final Logger f21208c = new Logger("TransactionMessageBuilder");
 
     /* renamed from: a */
     public final igh f21209a;
@@ -71,12 +71,12 @@ public final class ikk {
             ConnectionResult f = b.mo24802f();
             try {
                 if (!f.mo17671b()) {
-                    sek sek = f21208c;
+                    Logger Logger = f21208c;
                     int i = f.f30065c;
                     StringBuilder sb = new StringBuilder(47);
                     sb.append("Error while connecting to trustagent");
                     sb.append(i);
-                    sek.mo25418e(sb.toString(), new Object[0]);
+                    Logger.mo25418e(sb.toString(), new Object[0]);
                     j = -1;
                     z = false;
                 } else if (aurc.m77676a(this.f21212e)) {
@@ -159,11 +159,11 @@ public final class ikk {
                 if (!z) {
                     long a2 = iyv.mo13498a();
                     if (a2 <= 0) {
-                        sek sek2 = f21208c;
+                        Logger logger2 = f21208c;
                         StringBuilder sb2 = new StringBuilder(90);
                         sb2.append("Unexpected value for IDeviceSignalsService.getLastSecureUnlockTime(): ");
                         sb2.append(a2);
-                        sek2.mo25418e(sb2.toString(), new Object[0]);
+                        logger2.mo25418e(sb2.toString(), new Object[0]);
                         j2 = 2592000000L - a2;
                     } else {
                         j2 = SystemClock.elapsedRealtime() - a2;

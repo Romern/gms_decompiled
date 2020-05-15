@@ -26,7 +26,7 @@ final class jnk {
             if (i != 0) {
                 byrv.f167520b = i2;
                 byrv.f167519a |= 1;
-                aucb a2 = ios.mo13182a("PublicKey", account, new Payload(bArr, ((byrv) da.mo74062i()).mo73642k(), new byte[0]));
+                aucb a2 = ios.mo13182a("PublicKey", account, new Payload(bArr, ((byrv) da.mo74062i()).serializeToBytes(), new byte[0]));
                 try {
                     aucu.m76783a(a2, cchc.m129656b(), TimeUnit.MILLISECONDS);
                     SignedBlob signedBlob = (SignedBlob) a2.mo50386d();

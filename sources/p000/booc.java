@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: booc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class booc extends bxvk implements bxxd {
+public final class booc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final booc f133888c;
@@ -19,7 +19,7 @@ public final class booc extends bxvk implements bxxd {
     static {
         booc booc = new booc();
         f133888c = booc;
-        bxvk.m124024a(booc.class, booc);
+        GeneratedMessageLite.m124024a(booc.class, booc);
     }
 
     private booc() {
@@ -36,7 +36,7 @@ public final class booc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133888c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\f\u0002\u0007", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f133888c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\f\u0002\u0007", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new booc();
         } else {

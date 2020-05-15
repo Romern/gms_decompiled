@@ -9,7 +9,7 @@ import com.google.android.gms.smartdevice.d2d.BootstrapOptions;
 public final class argg {
 
     /* renamed from: c */
-    private static final sek f87653c = ascp.m73787a("D2D", "TargetDeviceServiceImpl");
+    private static final Logger f87653c = ascp.m73787a("D2D", "TargetDeviceServiceImpl");
 
     /* renamed from: a */
     public final armn f87654a;
@@ -39,9 +39,9 @@ public final class argg {
 
     /* renamed from: a */
     public final void mo48510a() {
-        f87653c.mo25409a("Destroying target device API service.", new Object[0]);
+        f87653c.logVerbose("Destroying target device API service.", new Object[0]);
         arfh arfh = this.f87655b;
-        arfh.f87583a.mo25409a("cleanup()", new Object[0]);
+        arfh.f87583a.logVerbose("cleanup()", new Object[0]);
         arfa arfa = arfh.f87589g;
         if (arfa != null && arfh.f87591i) {
             arfa.mo48477a();
@@ -49,7 +49,7 @@ public final class argg {
         arfh.mo48481a();
         arfh.f87587e.mo49052b();
         argr argr = this.f87657e;
-        argr.f87699a.mo25409a("cleanup()", new Object[0]);
+        argr.f87699a.logVerbose("cleanup()", new Object[0]);
         argm argm = argr.f87700b;
         if (argm != null) {
             argm.mo48519f();

@@ -40,9 +40,9 @@ public final class ids extends idg implements aaai {
         if (cgmd.m146192b()) {
             this.f20774b.mo24333a(addd.m50199a(str, scopeArr, aqkt)).mo24327b();
         }
-        sek sek = SignInChimeraService.f10359a;
+        Logger Logger = SignInChimeraService.f10359a;
         String valueOf = String.valueOf(this.f20773a);
-        sek.mo25412b(valueOf.length() == 0 ? new String("Log Session ID: ") : "Log Session ID: ".concat(valueOf), new Object[0]);
+        Logger.mo25412b(valueOf.length() == 0 ? new String("Log Session ID: ") : "Log Session ID: ".concat(valueOf), new Object[0]);
     }
 
     /* renamed from: a */

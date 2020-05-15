@@ -61,7 +61,7 @@ public class Credential extends AbstractSafeParcelable implements ReflectedParce
     public Credential(String str, String str2, Uri uri, List list, String str3, String str4, String str5, String str6) {
         List list2;
         Boolean bool;
-        sdo.m34966a((Object) str, (Object) "credential identifier cannot be null");
+        sdo.checkIfNull((Object) str, (Object) "credential identifier cannot be null");
         String trim = str.trim();
         sdo.m34969a(trim, (Object) "credential identifier cannot be empty");
         if (str3 == null || !TextUtils.isEmpty(str3)) {

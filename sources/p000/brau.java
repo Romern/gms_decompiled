@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brau */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brau extends bxvk implements bxxd {
+public final class brau extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final brau f142188c;
@@ -19,7 +19,7 @@ public final class brau extends bxvk implements bxxd {
     static {
         brau brau = new brau();
         f142188c = brau;
-        bxvk.m124024a(brau.class, brau);
+        GeneratedMessageLite.m124024a(brau.class, brau);
     }
 
     private brau() {
@@ -36,7 +36,7 @@ public final class brau extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142188c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f142188c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new brau();
         } else {

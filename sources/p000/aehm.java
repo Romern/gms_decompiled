@@ -36,7 +36,7 @@ public final class aehm {
 
     /* renamed from: a */
     public final void mo34150a(ParcelableGeofence parcelableGeofence) {
-        sdo.m34966a(parcelableGeofence, "geofence can't be null.");
+        sdo.checkIfNull(parcelableGeofence, "geofence can't be null.");
         sdo.m34975b(parcelableGeofence instanceof ParcelableGeofence, "Geofence must be created using Geofence.Builder.");
         this.f63406a.add(parcelableGeofence);
     }
@@ -53,7 +53,7 @@ public final class aehm {
       sdo.a(java.lang.Object, java.lang.Object):void */
     /* renamed from: a */
     public final void mo34151a(String str) {
-        sdo.m34966a((Object) str, (Object) "Can not set tag to null");
+        sdo.checkIfNull((Object) str, (Object) "Can not set tag to null");
         sdo.m34975b(!str.isEmpty(), "Can not use empty string for tag");
         this.f63408c = str;
     }

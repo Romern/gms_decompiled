@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: byip */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class byip extends bxvk implements bxxd {
+public final class byip extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final byip f166587c;
@@ -25,10 +25,10 @@ public final class byip extends bxvk implements bxxd {
     static {
         byip byip = new byip();
         f166587c = byip;
-        bxvk.m124024a(byip.class, byip);
+        GeneratedMessageLite.m124024a(byip.class, byip);
         bygn bygn = bygn.f166357a;
         byip byip2 = f166587c;
-        f166588d = bxvk.m124006a(bygn, byip2, byip2, 158511070, bxzf.MESSAGE);
+        f166588d = GeneratedMessageLite.m124006a(bygn, byip2, byip2, 158511070, bxzf.MESSAGE);
     }
 
     private byip() {
@@ -45,7 +45,7 @@ public final class byip extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166587c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001", new Object[]{"e", "a", "b"});
+            return GeneratedMessageLite.m124022a(f166587c, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဇ\u0000\u0002ဇ\u0001", new Object[]{"e", "a", "b"});
         } else if (i2 == 3) {
             return new byip();
         } else {

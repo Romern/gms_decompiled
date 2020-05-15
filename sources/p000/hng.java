@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteException;
 public final class hng {
 
     /* renamed from: a */
-    public static final sek f20067a = ght.m13172b("DatabaseManager");
+    public static final Logger f20067a = ght.m13172b("DatabaseManager");
 
     /* renamed from: b */
     private static hng f20068b;

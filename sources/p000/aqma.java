@@ -14,7 +14,7 @@ public final /* synthetic */ class aqma implements bmxj {
     }
 
     public final Object apply(Object obj) {
-        sek sek = SignInChimeraActivity.f107676b;
+        Logger Logger = SignInChimeraActivity.f107676b;
         return (Scope) ((Parcelable) obj);
     }
 }

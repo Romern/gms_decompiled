@@ -19,7 +19,7 @@ public final class bgze {
             return null;
         }
         bxvd da = bsqx.f146703c.mo74144da();
-        bxtx a = bxtx.m123261a(ggj.m13107a());
+        ByteString a = ByteString.m123261a(ggj.m13107a());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -28,6 +28,6 @@ public final class bgze {
         a.getClass();
         bsqx.f146705a |= 1;
         bsqx.f146706b = a;
-        return sqd.m35970c(((bsqx) da.mo74062i()).mo73642k());
+        return sqd.m35970c(((bsqx) da.mo74062i()).serializeToBytes());
     }
 }

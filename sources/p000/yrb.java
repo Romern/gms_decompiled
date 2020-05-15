@@ -24,7 +24,7 @@ public final class yrb extends shd {
         sb2.append(a);
         sb2.append(":exchangeSyncTokens?alt=proto");
         sb.append(sb2.toString());
-        return (cacb) sgv.mo25513a(clientContext, 1, sb.toString(), caca.mo73642k(), cacb.f172505d);
+        return (cacb) sgv.mo25513a(clientContext, 1, sb.toString(), caca.serializeToBytes(), cacb.f172505d);
     }
 
     /* renamed from: a */
@@ -37,6 +37,6 @@ public final class yrb extends shd {
         sb2.append(a);
         sb2.append("/dataPointMutations:list?alt=proto");
         sb.append(sb2.toString());
-        return (cacg) sgv.mo25513a(clientContext, 1, sb.toString(), cacf.mo73642k(), cacg.f172542d);
+        return (cacg) sgv.mo25513a(clientContext, 1, sb.toString(), cacf.serializeToBytes(), cacg.f172542d);
     }
 }

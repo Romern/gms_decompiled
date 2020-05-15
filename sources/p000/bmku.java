@@ -17,7 +17,7 @@ public final class bmku extends bxvd implements bxxd {
         bmkv bmkv2 = bmkv.f129891f;
         bmqk.getClass();
         if (!bmkv.f129897e.mo73666a()) {
-            bmkv.f129897e = bxvk.m124021a(bmkv.f129897e);
+            bmkv.f129897e = GeneratedMessageLite.m124021a(bmkv.f129897e);
         }
         bmkv.f129897e.add(bmqk);
     }

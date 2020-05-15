@@ -19,7 +19,7 @@ final class aqye implements arhf {
 
     /* renamed from: a */
     public final void mo48222a(byte[] bArr) {
-        aqyf.f87072a.mo25409a("Fully decoded packet message", new Object[0]);
+        aqyf.f87072a.logVerbose("Fully decoded packet message", new Object[0]);
         this.f87071a.mo48256c(bArr);
     }
 }

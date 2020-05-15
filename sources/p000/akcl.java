@@ -73,12 +73,12 @@ public final class akcl {
     private final akhf f71599g;
 
     /* renamed from: h */
-    private final bxtx f71600h;
+    private final ByteString f71600h;
 
     /* renamed from: i */
     private int f71601i = 0;
 
-    public akcl(Context context, akbu akbu, akhf akhf, akhl akhl, bxtx bxtx) {
+    public akcl(Context context, akbu akbu, akhf akhf, akhl akhl, ByteString bxtx) {
         this.f71597e = context;
         this.f71593a = akbu;
         this.f71599g = akhf;
@@ -230,7 +230,7 @@ public final class akcl {
                         } else if (a6 != null) {
                             j = currentTimeMillis;
                             bxvd da = ajhi.f70635l.mo74144da();
-                            bxtx a7 = bxtx.m123261a(a2);
+                            ByteString a7 = ByteString.m123261a(a2);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
@@ -260,7 +260,7 @@ public final class akcl {
                             ajhi ajhi7 = (ajhi) da.f164949b;
                             ajhi7.f70637a |= 16;
                             ajhi7.f70642f = time2;
-                            bxtx a8 = bxtx.m123261a(a);
+                            ByteString a8 = ByteString.m123261a(a);
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
@@ -269,7 +269,7 @@ public final class akcl {
                             a8.getClass();
                             ajhi8.f70637a |= 4;
                             ajhi8.f70640d = a8;
-                            bxtx a9 = bxtx.m123261a(mo39198a(14));
+                            ByteString a9 = ByteString.m123261a(mo39198a(14));
                             if (da.f164950c) {
                                 da.mo74035c();
                                 da.f164950c = false;
@@ -292,7 +292,7 @@ public final class akcl {
                             ajhi9.f70647k = e;
                             ajhi ajhi10 = (ajhi) da.mo74062i();
                             bxvd da2 = ajhi.f70635l.mo74144da();
-                            bxtx a10 = bxtx.m123261a(a4);
+                            ByteString a10 = ByteString.m123261a(a4);
                             if (da2.f164950c) {
                                 da2.mo74035c();
                                 da2.f164950c = false;
@@ -321,7 +321,7 @@ public final class akcl {
                             ajhi ajhi13 = (ajhi) da2.f164949b;
                             ajhi13.f70637a |= 16;
                             ajhi13.f70642f = time4;
-                            bxtx a11 = bxtx.m123261a(a3);
+                            ByteString a11 = ByteString.m123261a(a3);
                             if (da2.f164950c) {
                                 da2.mo74035c();
                                 da2.f164950c = false;
@@ -330,7 +330,7 @@ public final class akcl {
                             a11.getClass();
                             ajhi14.f70637a |= 4;
                             ajhi14.f70640d = a11;
-                            bxtx a12 = bxtx.m123261a(mo39198a(14));
+                            ByteString a12 = ByteString.m123261a(mo39198a(14));
                             if (da2.f164950c) {
                                 da2.mo74035c();
                                 da2.f164950c = false;
@@ -476,7 +476,7 @@ public final class akcl {
         for (int i = 0; i < size; i++) {
             try {
                 fileInputStream = new FileInputStream((File) a.get(i));
-                for (ajhj ajhj : ((ajhk) bxvk.m124010a(ajhk.f70653b, fileInputStream)).f70655a) {
+                for (ajhj ajhj : ((ajhk) GeneratedMessageLite.m124010a(ajhk.f70653b, fileInputStream)).f70655a) {
                     try {
                         akhf akhf = this.f71599g;
                         ajhi ajhi = ajhj.f70651b;
@@ -612,7 +612,7 @@ public final class akcl {
                 return null;
             }
             bxvd da = ajhh.f70628f.mo74144da();
-            bxtx bxtx = this.f71600h;
+            ByteString bxtx = this.f71600h;
             if (da.f164950c) {
                 da.mo74035c();
                 da.f164950c = false;
@@ -636,9 +636,9 @@ public final class akcl {
             str3.getClass();
             ajhh.f70630a = i3 | 4;
             ajhh.f70633d = str3;
-            byte[] b = mo39203b(((ajhh) da.mo74062i()).mo73642k(), ajhi.f70644h.mo73780k(), ajhi.f70640d.mo73780k());
+            byte[] b = mo39203b(((ajhh) da.mo74062i()).serializeToBytes(), ajhi.f70644h.getKey(), ajhi.f70640d.getKey());
             bxvd da2 = ajhl.f70656i.mo74144da();
-            bxtx bxtx2 = ajhi.f70638b;
+            ByteString bxtx2 = ajhi.f70638b;
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -648,11 +648,11 @@ public final class akcl {
             int i4 = ajhl.f70658a | 1;
             ajhl.f70658a = i4;
             ajhl.f70659b = bxtx2;
-            bxtx bxtx3 = ajhi.f70640d;
+            ByteString bxtx3 = ajhi.f70640d;
             bxtx3.getClass();
             ajhl.f70658a = i4 | 2;
             ajhl.f70660c = bxtx3;
-            bxtx a = bxtx.m123261a(x509Certificate.getPublicKey().getEncoded());
+            ByteString a = bxtx.m123261a(x509Certificate.getPublicKey().getEncoded());
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -677,7 +677,7 @@ public final class akcl {
             ajhl ajhl4 = (ajhl) da2.f164949b;
             ajhl4.f70658a |= 16;
             ajhl4.f70663f = millis2;
-            bxtx a2 = bxtx.m123261a(b);
+            ByteString a2 = bxtx.m123261a(b);
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -686,7 +686,7 @@ public final class akcl {
             a2.getClass();
             ajhl5.f70658a |= 32;
             ajhl5.f70664g = a2;
-            bxtx a3 = bxtx.m123261a(m59356b(ajhi.f70644h.mo73780k()));
+            ByteString a3 = bxtx.m123261a(m59356b(ajhi.f70644h.getKey()));
             if (da2.f164950c) {
                 da2.mo74035c();
                 da2.f164950c = false;
@@ -738,7 +738,7 @@ public final class akcl {
         try {
             fileInputStream = new FileInputStream(h);
             bxvd da = ajhm.f70666b.mo74144da();
-            for (ajhl ajhl : ((ajhm) bxvk.m124010a(ajhm.f70666b, fileInputStream)).f70668a) {
+            for (ajhl ajhl : ((ajhm) GeneratedMessageLite.m124010a(ajhm.f70666b, fileInputStream)).f70668a) {
                 long currentTimeMillis = System.currentTimeMillis();
                 if (m59347a(ajhl.f70662e, -1800000) <= currentTimeMillis && currentTimeMillis < m59347a(ajhl.f70663f, 1800000)) {
                     if (da.f164950c) {
@@ -794,7 +794,7 @@ public final class akcl {
         }
         try {
             fileInputStream = new FileInputStream(d);
-            ajhk ajhk = (ajhk) bxvk.m124010a(ajhk.f70653b, fileInputStream);
+            ajhk ajhk = (ajhk) GeneratedMessageLite.m124010a(ajhk.f70653b, fileInputStream);
             fileInputStream.close();
             return ajhk;
         } catch (bxwf e) {
@@ -971,12 +971,12 @@ public final class akcl {
                         short a2 = bqct.m112601a(a);
                         if (!bxvt.contains(Integer.valueOf(a2))) {
                             bxvd bxvd = (bxvd) g.mo74142c(5);
-                            bxvd.mo73625a((bxvk) g);
+                            bxvd.mo73625a((GeneratedMessageLite) g);
                             int i3 = this.f71601i;
                             if (i3 != 0) {
                                 if (i3 != 2) {
                                     bxvd bxvd2 = (bxvd) ajhi.mo74142c(5);
-                                    bxvd2.mo73625a((bxvk) ajhi);
+                                    bxvd2.mo73625a((GeneratedMessageLite) ajhi);
                                     bxvd2.mo73942F(a2);
                                     ajhi ajhi2 = (ajhi) bxvd2.mo74062i();
                                     if (bxvd.f164950c) {
@@ -989,7 +989,7 @@ public final class akcl {
                                     ajhj.f70650a |= 1;
                                 } else {
                                     bxvd bxvd3 = (bxvd) ajhi.mo74142c(5);
-                                    bxvd3.mo73625a((bxvk) ajhi);
+                                    bxvd3.mo73625a((GeneratedMessageLite) ajhi);
                                     bxvd3.mo73942F(a2);
                                     ajhi ajhi3 = (ajhi) bxvd3.mo74062i();
                                     if (bxvd.f164950c) {
@@ -1002,7 +1002,7 @@ public final class akcl {
                                     ajhj2.f70650a |= 2;
                                 }
                                 mo39196a(b, (ajhj) bxvd.mo74062i());
-                                return mo39208d(ajhi.f70644h.mo73780k(), ajhi.f70640d.mo73780k(), a);
+                                return mo39208d(ajhi.f70644h.getKey(), ajhi.f70640d.getKey(), a);
                             }
                             return m59361j();
                         }
@@ -1022,7 +1022,7 @@ public final class akcl {
     /* renamed from: a */
     private final boolean m59349a(ajhi ajhi, byte[] bArr) {
         try {
-            akck d = mo39208d(ajhi.f70644h.mo73780k(), ajhi.f70640d.mo73780k(), new byte[2]);
+            akck d = mo39208d(ajhi.f70644h.getKey(), ajhi.f70640d.getKey(), new byte[2]);
             akce.m59344a(d.f71592b, d.f71591a, bArr);
             if (!sdg.m34949a(this.f71593a.mo39175d(), ajhi.f70646j) || !sdg.m34949a(this.f71593a.mo39176e(), ajhi.f70647k) || !sdg.m34949a(this.f71593a.mo39177f(), ajhi.f70645i)) {
                 return false;
@@ -1194,7 +1194,7 @@ public final class akcl {
                     str3 = "akcl";
                 } else if (a6 != null) {
                     bxvd da = ajhi.f70635l.mo74144da();
-                    bxtx a7 = bxtx.m123261a(a2);
+                    ByteString a7 = ByteString.m123261a(a2);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -1224,7 +1224,7 @@ public final class akcl {
                     ajhi ajhi3 = (ajhi) da.f164949b;
                     ajhi3.f70637a |= 16;
                     ajhi3.f70642f = time2;
-                    bxtx a8 = bxtx.m123261a(a);
+                    ByteString a8 = ByteString.m123261a(a);
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -1233,7 +1233,7 @@ public final class akcl {
                     a8.getClass();
                     ajhi4.f70637a |= 4;
                     ajhi4.f70640d = a8;
-                    bxtx a9 = bxtx.m123261a(mo39198a(14));
+                    ByteString a9 = ByteString.m123261a(mo39198a(14));
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -1256,7 +1256,7 @@ public final class akcl {
                     ajhi5.f70647k = e;
                     ajhi ajhi6 = (ajhi) da.mo74062i();
                     bxvd da2 = ajhi.f70635l.mo74144da();
-                    bxtx a10 = bxtx.m123261a(a4);
+                    ByteString a10 = ByteString.m123261a(a4);
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -1285,7 +1285,7 @@ public final class akcl {
                     ajhi ajhi9 = (ajhi) da2.f164949b;
                     ajhi9.f70637a |= 16;
                     ajhi9.f70642f = time4;
-                    bxtx a11 = bxtx.m123261a(a3);
+                    ByteString a11 = ByteString.m123261a(a3);
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -1294,7 +1294,7 @@ public final class akcl {
                     a11.getClass();
                     ajhi10.f70637a |= 4;
                     ajhi10.f70640d = a11;
-                    bxtx a12 = bxtx.m123261a(mo39198a(14));
+                    ByteString a12 = ByteString.m123261a(mo39198a(14));
                     if (da2.f164950c) {
                         da2.mo74035c();
                         da2.f164950c = false;
@@ -1378,7 +1378,7 @@ public final class akcl {
         r16 = r2;
      */
     /* JADX WARNING: Code restructure failed: missing block: B:19:?, code lost:
-        r6 = (p000.ajhh) p000.bxvk.m124016a(p000.ajhh.f70628f, r6, p000.bxus.m123744c());
+        r6 = (p000.ajhh) p000.GeneratedMessageLite.m124016a(p000.ajhh.f70628f, r6, p000.bxus.m123744c());
      */
     /* JADX WARNING: Code restructure failed: missing block: B:22:0x007e, code lost:
         if (android.text.TextUtils.isEmpty(r6.f70631b) == false) goto L_0x0095;
@@ -1414,8 +1414,8 @@ public final class akcl {
             int i = 0;
             while (i < size) {
                 ajhl ajhl = (ajhl) bxwc.get(i);
-                byte[] k = ajhl.f70660c.mo73780k();
-                byte[] a = m59352a(bArr, k, bArr2, ajhl.f70665h.mo73780k());
+                byte[] k = ajhl.f70660c.getKey();
+                byte[] a = m59352a(bArr, k, bArr2, ajhl.f70665h.getKey());
                 if (a != null) {
                     bxwc bxwc2 = mo39200b(b).f70655a;
                     int size2 = bxwc2.size();
@@ -1434,14 +1434,14 @@ public final class akcl {
                             if (ajhi == null) {
                                 ajhi = ajhi.f70635l;
                             }
-                            if (Arrays.equals(ajhi.f70644h.mo73780k(), a)) {
+                            if (Arrays.equals(ajhi.f70644h.getKey(), a)) {
                                 break;
                             }
                             ajhi ajhi2 = ajhj.f70652c;
                             if (ajhi2 == null) {
                                 ajhi2 = ajhi.f70635l;
                             }
-                            if (Arrays.equals(ajhi2.f70644h.mo73780k(), a)) {
+                            if (Arrays.equals(ajhi2.f70644h.getKey(), a)) {
                                 break;
                             }
                         }
@@ -1606,7 +1606,7 @@ public final class akcl {
                 bxwc bxwc = c.f70668a;
                 int size = bxwc.size();
                 for (int i = 0; i < size; i++) {
-                    printWriter.write(String.format("    Public certificate: %s\n", Arrays.toString(((ajhl) bxwc.get(i)).f70659b.mo73780k())));
+                    printWriter.write(String.format("    Public certificate: %s\n", Arrays.toString(((ajhl) bxwc.get(i)).f70659b.getKey())));
                 }
             }
             printWriter.write("  Private certificates:\n");
@@ -1626,12 +1626,12 @@ public final class akcl {
                 if (ajhi == null) {
                     ajhi = ajhi.f70635l;
                 }
-                objArr[0] = Arrays.toString(ajhi.f70638b.mo73780k());
+                objArr[0] = Arrays.toString(ajhi.f70638b.getKey());
                 ajhi ajhi2 = ajhj.f70652c;
                 if (ajhi2 == null) {
                     ajhi2 = ajhi.f70635l;
                 }
-                objArr[1] = Arrays.toString(ajhi2.f70638b.mo73780k());
+                objArr[1] = Arrays.toString(ajhi2.f70638b.getKey());
                 printWriter.write(String.format("    Private certificate: %s, %s\n", objArr));
             }
         }
@@ -1758,7 +1758,7 @@ public final class akcl {
             if (ajhi7 == null) {
                 ajhi7 = ajhi.f70635l;
             }
-            bxtx bxtx = ajhi7.f70638b;
+            ByteString bxtx = ajhi7.f70638b;
             ajhi ajhi8 = ajhj.f70651b;
             if (ajhi8 == null) {
                 ajhi8 = ajhi.f70635l;
@@ -1768,7 +1768,7 @@ public final class akcl {
                 if (ajhi9 == null) {
                     ajhi9 = ajhi.f70635l;
                 }
-                bxtx bxtx2 = ajhi9.f70638b;
+                ByteString bxtx2 = ajhi9.f70638b;
                 ajhi ajhi10 = ajhj.f70652c;
                 if (ajhi10 == null) {
                     ajhi10 = ajhi.f70635l;

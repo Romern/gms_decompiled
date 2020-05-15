@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: biwc */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class biwc extends bxvk implements bxxd {
+public final class biwc extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final biwc f122068c;
@@ -19,7 +19,7 @@ public final class biwc extends bxvk implements bxxd {
     static {
         biwc biwc = new biwc();
         f122068c = biwc;
-        bxvk.m124024a(biwc.class, biwc);
+        GeneratedMessageLite.m124024a(biwc.class, biwc);
     }
 
     private biwc() {
@@ -36,7 +36,7 @@ public final class biwc extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f122068c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f122068c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new biwc();
         } else {

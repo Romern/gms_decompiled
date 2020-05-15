@@ -16,7 +16,7 @@ public final class bxfz extends bxvd implements bxxd {
         bxga bxga = (bxga) this.f164949b;
         bxga bxga2 = bxga.f163216d;
         if (!bxga.f163219b.mo73666a()) {
-            bxga.f163219b = bxvk.m124021a(bxga.f163219b);
+            bxga.f163219b = GeneratedMessageLite.m124021a(bxga.f163219b);
         }
         bxsy.m123078a(iterable, bxga.f163219b);
     }

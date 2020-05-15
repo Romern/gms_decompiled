@@ -27,7 +27,7 @@ final /* synthetic */ class bbao implements bqeh {
         bavd bavd = this.f102228c;
         if (((Boolean) obj).booleanValue()) {
             bxvd bxvd = (bxvd) bavr.mo74142c(5);
-            bxvd.mo73625a((bxvk) bavr);
+            bxvd.mo73625a((GeneratedMessageLite) bavr);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;

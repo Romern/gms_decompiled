@@ -55,7 +55,7 @@ public final class aaxn extends aaru {
         abcr abcr = this.f56772h;
         abdu a2 = aaxt.m47185a(aarp, helpConfig);
         bxvd bxvd = (bxvd) a2.mo74142c(5);
-        bxvd.mo73625a((bxvk) a2);
+        bxvd.mo73625a((GeneratedMessageLite) a2);
         abdh abdh = abdh.f57087a;
         if (bxvd.f164950c) {
             bxvd.mo74035c();

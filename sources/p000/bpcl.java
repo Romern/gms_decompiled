@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bpcl */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bpcl extends bxvk implements bxxd {
+public final class bpcl extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: L */
     public static final bpcl f135759L;
@@ -127,7 +127,7 @@ public final class bpcl extends bxvk implements bxxd {
     static {
         bpcl bpcl = new bpcl();
         f135759L = bpcl;
-        bxvk.m124024a(bpcl.class, bpcl);
+        GeneratedMessageLite.m124024a(bpcl.class, bpcl);
     }
 
     private bpcl() {
@@ -148,7 +148,7 @@ public final class bpcl extends bxvk implements bxxd {
             this.f135772M = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f135759L, "\u0001#\u0000\u0002\u0001K#\u0000\u0001\u0001\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\rဉ\u000b\u000eဉ\f\u000fဉ\r\u0010ဉ\u000e\u0012ဉ\u0010\u0013ဉ\u0011 င\u0013!ဇ\u0014\"င\u0015#င\u0016$င\u0017%င\u0018&ဇ\u0019*ဉ\u001d,ဉ\u001f0ဉ#1ဉ$3ဉ&9ဉ+:ဉ,=ဉ/>\u001b@ဉ1Bဂ3Cင4Hင9Kᐉ<", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", bpcx.class, "G", "H", "I", "J", "K"});
+            return GeneratedMessageLite.m124022a(f135759L, "\u0001#\u0000\u0002\u0001K#\u0000\u0001\u0001\u0001ဉ\u0000\u0002ဉ\u0001\u0003ဉ\u0002\u0004ဉ\u0003\u0005ဉ\u0004\u0006ဉ\u0005\u0007ဉ\u0006\bဉ\u0007\rဉ\u000b\u000eဉ\f\u000fဉ\r\u0010ဉ\u000e\u0012ဉ\u0010\u0013ဉ\u0011 င\u0013!ဇ\u0014\"င\u0015#င\u0016$င\u0017%င\u0018&ဇ\u0019*ဉ\u001d,ဉ\u001f0ဉ#1ဉ$3ဉ&9ဉ+:ဉ,=ဉ/>\u001b@ဉ1Bဂ3Cင4Hင9Kᐉ<", new Object[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", bpcx.class, "G", "H", "I", "J", "K"});
         } else if (i2 == 3) {
             return new bpcl();
         } else {

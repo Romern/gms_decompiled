@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bput */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bput extends bxvk implements bxxd {
+public final class bput extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final bput f139284e;
@@ -25,7 +25,7 @@ public final class bput extends bxvk implements bxxd {
     static {
         bput bput = new bput();
         f139284e = bput;
-        bxvk.m124024a(bput.class, bput);
+        GeneratedMessageLite.m124024a(bput.class, bput);
     }
 
     private bput() {
@@ -42,7 +42,7 @@ public final class bput extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f139284e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003\u001b", new Object[]{"a", "b", bpun.m112299b(), "c", "d", bpus.class});
+            return GeneratedMessageLite.m124022a(f139284e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0000\u0001ဌ\u0000\u0002ဉ\u0001\u0003\u001b", new Object[]{"a", "b", bpun.m112299b(), "c", "d", bpus.class});
         } else if (i2 == 3) {
             return new bput();
         } else {
@@ -69,7 +69,7 @@ public final class bput extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo68990a() {
         if (!this.f139289d.mo73666a()) {
-            this.f139289d = bxvk.m124021a(this.f139289d);
+            this.f139289d = GeneratedMessageLite.m124021a(this.f139289d);
         }
     }
 }

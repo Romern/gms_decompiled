@@ -13,7 +13,7 @@ final class bqnn {
 
     /* access modifiers changed from: package-private */
     /* renamed from: a */
-    public final bxxc mo69292a(bxtx bxtx) {
+    public final bxxc mo69292a(ByteString bxtx) {
         bxxc a = this.f141310a.mo69293a(bxtx);
         this.f141310a.mo69294a(a);
         return (bxxc) this.f141310a.mo69295b(a);

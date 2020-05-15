@@ -466,7 +466,7 @@ public final class ibu extends sji {
             bofs.getClass();
             boct.f132622m = bofs;
             boct.f132610a = i | 8192;
-            this.f20704j.mo24335a(((boct) da.mo74062i()).mo73642k()).mo24327b();
+            this.f20704j.mo24335a(((boct) da.mo74062i()).serializeToBytes()).mo24327b();
         }
     }
 }

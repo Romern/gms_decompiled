@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: djf */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class djf extends bxvk implements bxxd {
+public final class djf extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final djf f13322b;
@@ -16,7 +16,7 @@ public final class djf extends bxvk implements bxxd {
     static {
         djf djf = new djf();
         f13322b = djf;
-        bxvk.m124024a(djf.class, djf);
+        GeneratedMessageLite.m124024a(djf.class, djf);
     }
 
     private djf() {
@@ -33,7 +33,7 @@ public final class djf extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f13322b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", djc.class});
+            return GeneratedMessageLite.m124022a(f13322b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", djc.class});
         } else if (i2 == 3) {
             return new djf();
         } else {
@@ -60,7 +60,7 @@ public final class djf extends bxvk implements bxxd {
     /* renamed from: a */
     public final void mo9124a() {
         if (!this.f13324a.mo73666a()) {
-            this.f13324a = bxvk.m124021a(this.f13324a);
+            this.f13324a = GeneratedMessageLite.m124021a(this.f13324a);
         }
     }
 }

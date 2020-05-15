@@ -12,7 +12,7 @@ import java.nio.ByteBuffer;
 public final class xbi {
 
     /* renamed from: a */
-    private static final sek f51874a = new sek(new String[]{"OriginCalculator"}, (short[]) null);
+    private static final Logger f51874a = new Logger(new String[]{"OriginCalculator"}, (short[]) null);
 
     /* renamed from: a */
     public final String mo29607a(BrowserRequestOptions browserRequestOptions) {

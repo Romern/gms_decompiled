@@ -47,14 +47,14 @@ final class bqpq extends bqnp {
         }
         bqrp2.getClass();
         ((bqrr) da.f164949b).f141473b = bqrp2;
-        bxtx a = bxtx.m123261a(w.getAffineX().toByteArray());
+        ByteString a = ByteString.m123261a(w.getAffineX().toByteArray());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
         }
         a.getClass();
         ((bqrr) da.f164949b).f141474c = a;
-        bxtx a2 = bxtx.m123261a(w.getAffineY().toByteArray());
+        ByteString a2 = ByteString.m123261a(w.getAffineY().toByteArray());
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -71,7 +71,7 @@ final class bqpq extends bqnp {
         bqrq.f141467a = 0;
         bqrr.getClass();
         bqrq.f141468b = bqrr;
-        bxtx a3 = bxtx.m123261a(eCPrivateKey.getS().toByteArray());
+        ByteString a3 = ByteString.m123261a(eCPrivateKey.getS().toByteArray());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -82,18 +82,18 @@ final class bqpq extends bqnp {
     }
 
     /* renamed from: a */
-    public final /* bridge */ /* synthetic */ bxxc mo69293a(bxtx bxtx) {
+    public final /* bridge */ /* synthetic */ bxxc mo69293a(ByteString bxtx) {
         bxus b = bxus.m123743b();
         bqro bqro = bqro.f141457b;
         try {
             bxuc h = bxtx.mo73764h();
-            bxvk bxvk = (bxvk) bqro.mo74142c(4);
-            bxxv a = bxxm.f165037a.mo74228a(bxvk);
-            a.mo74220a(bxvk, bxud.m123454a(h), b);
-            a.mo74225d(bxvk);
+            GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) bqro.mo74142c(4);
+            bxxv a = bxxm.f165037a.mo74228a(GeneratedMessageLite);
+            a.mo74220a(GeneratedMessageLite, bxud.m123454a(h), b);
+            a.mo74225d(GeneratedMessageLite);
             h.mo73787a(0);
-            bxvk.m124027b(bxvk);
-            return (bqro) bxvk;
+            GeneratedMessageLite.m124027b(GeneratedMessageLite);
+            return (bqro) GeneratedMessageLite;
         } catch (IOException e) {
             if (!(e.getCause() instanceof bxwf)) {
                 throw new bxwf(e.getMessage());

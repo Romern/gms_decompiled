@@ -17,7 +17,7 @@ public final class cixl extends bxvd implements bxxd {
         cixm cixm2 = cixm.f191686d;
         cixk.getClass();
         if (!cixm.f191690c.mo73666a()) {
-            cixm.f191690c = bxvk.m124021a(cixm.f191690c);
+            cixm.f191690c = GeneratedMessageLite.m124021a(cixm.f191690c);
         }
         cixm.f191690c.add(cixk);
     }

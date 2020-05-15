@@ -1046,7 +1046,7 @@ public final class nde {
     public final void mo20485a(boolean z) {
         lyg lyg = this.f35325m;
         bxvd da = bzot.f170863d.mo74144da();
-        long a = spn.m35843a(this.f35319b);
+        long a = spn.getAndroidId(this.f35319b);
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;

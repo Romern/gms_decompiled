@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boep */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boep extends bxvk implements bxxd {
+public final class boep extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: j */
     public static final boep f132813j;
@@ -40,7 +40,7 @@ public final class boep extends bxvk implements bxxd {
     static {
         boep boep = new boep();
         f132813j = boep;
-        bxvk.m124024a(boep.class, boep);
+        GeneratedMessageLite.m124024a(boep.class, boep);
     }
 
     private boep() {
@@ -57,7 +57,7 @@ public final class boep extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f132813j, "\u0001\b\u0000\u0001\u0001\t\b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0005ဌ\u0004\u0006ဇ\u0005\u0007င\u0006\bဌ\u0007\tဌ\b", new Object[]{"a", "b", boek.f132808a, "c", boem.f132810a, "d", boel.f132809a, "e", boej.f132807a, "f", "g", "h", boen.f132811a, "i", boeo.f132812a});
+            return GeneratedMessageLite.m124022a(f132813j, "\u0001\b\u0000\u0001\u0001\t\b\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဌ\u0001\u0003ဌ\u0002\u0005ဌ\u0004\u0006ဇ\u0005\u0007င\u0006\bဌ\u0007\tဌ\b", new Object[]{"a", "b", boek.f132808a, "c", boem.f132810a, "d", boel.f132809a, "e", boej.f132807a, "f", "g", "h", boen.f132811a, "i", boeo.f132812a});
         } else if (i2 == 3) {
             return new boep();
         } else {

@@ -10,7 +10,7 @@ import java.util.Map;
 public final class gkv {
 
     /* renamed from: a */
-    public static final sek f18435a = ght.m13171a("Change", "AccountStateStore");
+    public static final Logger f18435a = ght.m13171a("Change", "AccountStateStore");
 
     /* renamed from: b */
     public static final imn f18436b = new gku();
@@ -90,7 +90,7 @@ public final class gkv {
                     imb imb = (imb) da.f164949b;
                     ima2.getClass();
                     if (!imb.f21340a.mo73666a()) {
-                        imb.f21340a = bxvk.m124021a(imb.f21340a);
+                        imb.f21340a = GeneratedMessageLite.m124021a(imb.f21340a);
                     }
                     imb.f21340a.add(ima2);
                 }

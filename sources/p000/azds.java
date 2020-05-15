@@ -113,7 +113,7 @@ public final class azds extends soa {
                 }
                 if (cbna != null) {
                     DownloadManager.Request request = new DownloadManager.Request(Uri.parse(cfeo.m138850G()));
-                    request.addRequestHeader("X-Goog-Download-Metadata", Base64.encodeToString(cbna.mo73642k(), 2));
+                    request.addRequestHeader("X-Goog-Download-Metadata", Base64.encodeToString(cbna.serializeToBytes(), 2));
                     String h = azcv.m85357a(this.f99116k.f99137b).mo54707h(this.f99115j.f99780g);
                     if (!(h == null || (a = azoe.m85908a(this.f99116k.f99137b).mo55114a(h)) == null)) {
                         String valueOf = String.valueOf(azob.m85899a(this.f99116k.f99137b).mo55112a(a, false));

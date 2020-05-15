@@ -102,7 +102,7 @@ public final class bcmq implements bcnl {
         }
         cbfj cbfj = (cbfj) da4.f164949b;
         if (!cbfj.f176926a.mo73666a()) {
-            cbfj.f176926a = bxvk.m124021a(cbfj.f176926a);
+            cbfj.f176926a = GeneratedMessageLite.m124021a(cbfj.f176926a);
         }
         bxsy.m123078a(arrayList, cbfj.f176926a);
         if (da4.f164950c) {
@@ -110,7 +110,7 @@ public final class bcmq implements bcnl {
             da4.f164950c = false;
         }
         ((cbfj) da4.f164949b).f176927b = i - 2;
-        bxtx aL = ((cbfj) da4.mo74062i()).mo73639aL();
+        ByteString aL = ((cbfj) da4.mo74062i()).mo73639aL();
         if (da3.f164950c) {
             da3.mo74035c();
             da3.f164950c = false;

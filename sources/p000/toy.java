@@ -32,7 +32,7 @@ final /* synthetic */ class toy implements DialogInterface.OnClickListener {
         tps tps = this.f46429c;
         String a = ((tpe) tpf.getItem(i)).mo26701a();
         try {
-            byte[] a2 = spo.m35904a(tph.f46441b, a, "SHA-512");
+            byte[] a2 = spo.getPackageCertificateHash(tph.f46441b, a, "SHA-512");
             if (a2 != null) {
                 bmxv = bmxv.m108566b(String.format("android://%s@%s/", Base64.encodeToString(a2, 10), a));
                 if (!bmxv.mo66813a()) {

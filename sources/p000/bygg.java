@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bygg */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bygg extends bxvk implements bxxd {
+public final class bygg extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: p */
     public static final bygg f166294p;
@@ -58,7 +58,7 @@ public final class bygg extends bxvk implements bxxd {
     static {
         bygg bygg = new bygg();
         f166294p = bygg;
-        bxvk.m124024a(bygg.class, bygg);
+        GeneratedMessageLite.m124024a(bygg.class, bygg);
     }
 
     private bygg() {
@@ -75,7 +75,7 @@ public final class bygg extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f166294p, "\u0001\u000e\u0000\u0001\u0001\u0016\u000e\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0005ဈ\u0004\u0006ဈ\u0005\u0007ဂ\u0006\tဈ\b\nဈ\t\u000bဈ\n\fဈ\u000b\rဈ\f\u000fဈ\u000e\u0015ဈ\u0014\u0016ဈ\u0015", new Object[]{"a", "b", bygf.f166293a, "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o"});
+            return GeneratedMessageLite.m124022a(f166294p, "\u0001\u000e\u0000\u0001\u0001\u0016\u000e\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001\u0003ဈ\u0002\u0005ဈ\u0004\u0006ဈ\u0005\u0007ဂ\u0006\tဈ\b\nဈ\t\u000bဈ\n\fဈ\u000b\rဈ\f\u000fဈ\u000e\u0015ဈ\u0014\u0016ဈ\u0015", new Object[]{"a", "b", bygf.f166293a, "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o"});
         } else if (i2 == 3) {
             return new bygg();
         } else {

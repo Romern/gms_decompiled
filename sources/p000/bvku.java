@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bvku */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bvku extends bxvk implements bxxd {
+public final class bvku extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bvku f156466c;
@@ -19,7 +19,7 @@ public final class bvku extends bxvk implements bxxd {
     static {
         bvku bvku = new bvku();
         f156466c = bvku;
-        bxvk.m124024a(bvku.class, bvku);
+        GeneratedMessageLite.m124024a(bvku.class, bvku);
     }
 
     private bvku() {
@@ -36,7 +36,7 @@ public final class bvku extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f156466c, "\u0000\u0002\u0000\u0000\u0002\u0003\u0002\u0000\u0000\u0000\u0002Ȉ\u0003Ȉ", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f156466c, "\u0000\u0002\u0000\u0000\u0002\u0003\u0002\u0000\u0000\u0000\u0002Ȉ\u0003Ȉ", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bvku();
         } else {

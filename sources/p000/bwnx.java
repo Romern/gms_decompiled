@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bwnx */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bwnx extends bxvk implements bxxd {
+public final class bwnx extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bwnx f160410b;
@@ -19,7 +19,7 @@ public final class bwnx extends bxvk implements bxxd {
     static {
         bwnx bwnx = new bwnx();
         f160410b = bwnx;
-        bxvk.m124024a(bwnx.class, bwnx);
+        GeneratedMessageLite.m124024a(bwnx.class, bwnx);
     }
 
     private bwnx() {
@@ -36,7 +36,7 @@ public final class bwnx extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f160410b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f160410b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဈ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new bwnx();
         } else {

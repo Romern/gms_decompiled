@@ -126,7 +126,7 @@ public final class atfa extends Request implements NetworkCallbacks {
             return Response.error(new VolleyError(sb.toString()));
         }
         try {
-            btpx btpx = (btpx) bxvk.m124016a(btpx.f149902c, networkResponse.data, bxus.m123744c());
+            btpx btpx = (btpx) GeneratedMessageLite.m124016a(btpx.f149902c, networkResponse.data, bxus.m123744c());
             btpw btpw = btpx.f149904a;
             if (btpw == null) {
                 btpw = btpw.f149899b;

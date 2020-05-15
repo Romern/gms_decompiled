@@ -117,7 +117,7 @@ public final class mib extends mhu {
         mpm.f34181b = mpl.f34177s;
         mpm.f34180a |= 1;
         bxvd da2 = mpg.f34125o.mo74144da();
-        bxtx a = bxtx.m123261a(handshakeData.mo59188g());
+        ByteString a = ByteString.m123261a(handshakeData.mo59188g());
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -302,7 +302,7 @@ public final class mib extends mhu {
                     mta mta = (mta) this.f33760k.f33214e.mo74062i();
                     mpm b = mhu.m25130b(mpl.HANDSHAKE);
                     bxvd bxvd2 = (bxvd) b.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) b);
+                    bxvd2.mo73625a((GeneratedMessageLite) b);
                     bxvd da = mpg.f34125o.mo74144da();
                     if (da.f164950c) {
                         da.mo74035c();
@@ -402,7 +402,7 @@ public final class mib extends mhu {
                         mpg10.f34133g = -1;
                     }
                     if (mta != null) {
-                        bxtx aL = mta.mo73639aL();
+                        ByteString aL = mta.mo73639aL();
                         if (da.f164950c) {
                             da.mo74035c();
                             da.f164950c = false;
@@ -481,7 +481,7 @@ public final class mib extends mhu {
                     } else if (ordinal2 == 2) {
                         mjj mjj = this.f33762m;
                         if (mjj != null) {
-                            byte[] k = mpq.f34207c.mo73780k();
+                            byte[] k = mpq.f34207c.getKey();
                             int a7 = mpq.f34207c.mo73744a();
                             OutputStream outputStream = mjj.f33832f;
                             if (outputStream != null) {
@@ -495,7 +495,7 @@ public final class mib extends mhu {
                                 }
                             } else {
                                 mjj.f33835i.write(k, 0, a7);
-                                mjj.f33830d.mo25409a("deliverData called before onInitialized() callback, queuing data to send after", new Object[0]);
+                                mjj.f33830d.logVerbose("deliverData called before onInitialized() callback, queuing data to send after", new Object[0]);
                                 return;
                             }
                         } else {
@@ -608,7 +608,7 @@ public final class mib extends mhu {
                     moz moz2 = (moz) da5.mo74062i();
                     moz2.getClass();
                     if (!mpa.f34098a.mo73666a()) {
-                        mpa.f34098a = bxvk.m124021a(mpa.f34098a);
+                        mpa.f34098a = GeneratedMessageLite.m124021a(mpa.f34098a);
                     }
                     mpa.f34098a.add(moz2);
                 }
@@ -618,7 +618,7 @@ public final class mib extends mhu {
                     if (mpe == null) {
                         mpe = mpe.f34116b;
                     }
-                    bArr = mpe.f34118a.mo73780k();
+                    bArr = mpe.f34118a.getKey();
                 }
                 if (bArr == null || !cckw.m130273k()) {
                     if (bArr != null) {
@@ -631,7 +631,7 @@ public final class mib extends mhu {
                 }
                 lvn lvn5 = f33754e;
                 String valueOf = String.valueOf(Arrays.toString(bArr));
-                lvn5.mo25409a(valueOf.length() == 0 ? new String("Device Token: ") : "Device Token: ".concat(valueOf), new Object[0]);
+                lvn5.logVerbose(valueOf.length() == 0 ? new String("Device Token: ") : "Device Token: ".concat(valueOf), new Object[0]);
                 mio mio = this.f33758i;
                 Intent intent = new Intent();
                 intent.setPackage("com.android.vending");
@@ -691,7 +691,7 @@ public final class mib extends mhu {
                 mta2.f34621c = j;
                 bxvd bxvd4 = met2.f33214e;
                 if (((mta) bxvd4.f164949b).f34620b != -1) {
-                    lys.f33210a.mo25409a("Migrate status code overwritten explicitly", new Object[0]);
+                    lys.f33210a.logVerbose("Migrate status code overwritten explicitly", new Object[0]);
                 } else {
                     if (bxvd4.f164950c) {
                         bxvd4.mo74035c();
@@ -739,21 +739,21 @@ public final class mib extends mhu {
                 if (mpg13 == null) {
                     mpg13 = mpg.f34125o;
                 }
-                bxtx bxtx = mpg13.f34140n;
+                ByteString bxtx = mpg13.f34140n;
                 bmxy.m108582a(this.f33763n, "postSmartSetupAuthenticator must not be null for WiFi D2D.");
                 try {
                     HandshakeData handshakeData = new HandshakeData();
-                    handshakeData.mo59187e(bxtx.mo73780k());
+                    handshakeData.mo59187e(bxtx.getKey());
                     if (a9 != mpl.POST_SMARTSETUP_AUTH_INIT) {
                         mle mle = this.f33763n;
-                        mle.f33932a.mo25409a("authenticate", new Object[0]);
+                        mle.f33932a.logVerbose("authenticate", new Object[0]);
                         PostSetupAuthData postSetupAuthData = (PostSetupAuthData) mle.mo20138a(new mkz(mle, handshakeData));
                         m25150a(mpl.POST_SMARTSETUP_AUTH_FINISH, postSetupAuthData.f108107c);
                         this.f33764o.f33738a = postSetupAuthData.f108106b;
                         return;
                     }
                     mle mle2 = this.f33763n;
-                    mle.f33932a.mo25409a("handshakeInit", new Object[0]);
+                    mle.f33932a.logVerbose("handshakeInit", new Object[0]);
                     m25150a(mpl.POST_SMARTSETUP_AUTH_INIT, (HandshakeData) mle2.mo20138a(new mky(mle2, handshakeData)));
                     return;
                 } catch (asbx | mld e6) {
@@ -771,7 +771,7 @@ public final class mib extends mhu {
                     mhp mhp = this.f33764o;
                     if (mhp.f33738a == null) {
                         throw new mho("Missing secret key (likely post-smartsetup auth was skipped).");
-                    } else if (Arrays.equals(mhn.m25123a(mhp.f33738a, mpj.f34155a.mo73780k()), bArr2)) {
+                    } else if (Arrays.equals(mhn.m25123a(mhp.f33738a, mpj.f34155a.getKey()), bArr2)) {
                         f33754e.mo25414c("Nearby authentication success.", new Object[0]);
                         this.f33759j = true;
                         mo20034a(mpl.NEARBY_AUTHENTICATION_SUCCESS);
@@ -800,7 +800,7 @@ public final class mib extends mhu {
     public final void mo20031a(int i, String str, boolean z) {
         f33754e.mo25412b("Fatal protocol error. Shutting transport down.", new Object[0]);
         if (z) {
-            this.f33745d.mo20097a(mo20030a(i - 1, str).mo73642k());
+            this.f33745d.mo20097a(mo20030a(i - 1, str).serializeToBytes());
         } else {
             this.f33745d.mo20095a();
         }
@@ -812,7 +812,7 @@ public final class mib extends mhu {
     public final void mo20036a(mpq mpq, mpn mpn) {
         mpm b = mhu.m25130b(mpl.SMART_DEVICE);
         bxvd bxvd = (bxvd) b.mo74142c(5);
-        bxvd.mo73625a((bxvk) b);
+        bxvd.mo73625a((GeneratedMessageLite) b);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -842,7 +842,7 @@ public final class mib extends mhu {
         objArr[0] = a;
         objArr[1] = Long.valueOf(P);
         lvn.mo25412b("Sending packet of type: %s, timeout: %d", objArr);
-        this.f33745d.mo20103a(mpm3.mo73642k(), P);
+        this.f33745d.mo20103a(mpm3.serializeToBytes(), P);
         if (mpn != null) {
             f33754e.mo25418e("SmartDevice error encountered: code %d and category %d", Integer.valueOf(mpn.f34191b), Integer.valueOf(mpn.f34193d));
             met met = this.f33760k;

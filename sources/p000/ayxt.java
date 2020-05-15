@@ -71,7 +71,7 @@ public final class ayxt {
             if (aywp2 == null) {
                 aywu a = aywp.mo54483a();
                 bxvj bxvj = azag.f98830a;
-                Map map = bxvk.f164959aj;
+                Map map = GeneratedMessageLite.f164959aj;
                 a.mo74135a(bxvj);
                 if (a.f164952m.mo73911a(bxvj.f164958d)) {
                     return m85050b(aywp);

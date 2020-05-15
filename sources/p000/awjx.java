@@ -46,7 +46,7 @@ public class awjx {
         this.f94574a.putExtra("com.google.android.gms.wallet.buyFlowConfig", a);
         if (this.f94578e) {
             Account account = a.f110418b.f110407b;
-            sdo.m34966a(account, "Buyer account is required");
+            sdo.checkIfNull(account, "Buyer account is required");
             this.f94574a.putExtra("com.google.android.gms.wallet.account", account);
         }
         if (this.f94574a.getLongExtra("com.google.android.gms.wallet.intentBuildTimeMs", 0) == 0) {

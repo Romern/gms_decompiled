@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bleu */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bleu extends bxvk implements bxxd {
+public final class bleu extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final bleu f126278h;
@@ -34,7 +34,7 @@ public final class bleu extends bxvk implements bxxd {
     static {
         bleu bleu = new bleu();
         f126278h = bleu;
-        bxvk.m124024a(bleu.class, bleu);
+        GeneratedMessageLite.m124024a(bleu.class, bleu);
     }
 
     private bleu() {
@@ -52,7 +52,7 @@ public final class bleu extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f126278h, "\u0001\u0006\u0000\u0001\u0002\u000f\u0006\u0000\u0001\u0000\u0002ဌ\u0001\u0003ဇ\u0005\tဈ\u0004\fဇ\u000b\r\u001b\u000fဌ\u0002", new Object[]{"a", "b", bles.f126277a, "e", "d", "g", "f", bldt.class, "c", bldm.f126106a});
+            return GeneratedMessageLite.m124022a(f126278h, "\u0001\u0006\u0000\u0001\u0002\u000f\u0006\u0000\u0001\u0000\u0002ဌ\u0001\u0003ဇ\u0005\tဈ\u0004\fဇ\u000b\r\u001b\u000fဌ\u0002", new Object[]{"a", "b", bles.f126277a, "e", "d", "g", "f", bldt.class, "c", bldm.f126106a});
         } else if (i2 == 3) {
             return new bleu();
         } else {

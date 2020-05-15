@@ -145,7 +145,7 @@ public final /* synthetic */ class aqha implements aubg {
             }
             bofc bofc = (bofc) bofd.f132882a.get(a4);
             bxvd bxvd = (bxvd) bofc.mo74142c(5);
-            bxvd.mo73625a((bxvk) bofc);
+            bxvd.mo73625a((GeneratedMessageLite) bofc);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = z2;
@@ -159,7 +159,7 @@ public final /* synthetic */ class aqha implements aubg {
                 bofd2 = bofd.f132880b;
             }
             bxvd bxvd2 = (bxvd) bofd2.mo74142c(5);
-            bxvd2.mo73625a((bxvk) bofd2);
+            bxvd2.mo73625a((GeneratedMessageLite) bofd2);
             boez boez = (boez) bxvd2;
             boez.mo68904a(a4, (bofc) bxvd.mo74062i());
             bofd bofd3 = (bofd) boez.mo74062i();
@@ -238,7 +238,7 @@ public final /* synthetic */ class aqha implements aubg {
             }
             googleServicesExpandableItem4.mo58960a(aqje6);
             ItemGroup itemGroup = (ItemGroup) googleServicesChimeraActivity.f107632j.mo64921b((int) C0126R.C0129id.section_device_maintenance);
-            sdo.m34966a(itemGroup, "Device maintenance section must not be null");
+            sdo.checkIfNull(itemGroup, "Device maintenance section must not be null");
             itemGroup.mo58966a(googleServicesChimeraActivity.f107634l);
         }
         if (aqje3 == null) {
@@ -274,7 +274,7 @@ public final /* synthetic */ class aqha implements aubg {
                     }
                     bofc bofc4 = (bofc) bofd4.f132882a.get(a7);
                     bxvd bxvd3 = (bxvd) bofc4.mo74142c(5);
-                    bxvd3.mo73625a((bxvk) bofc4);
+                    bxvd3.mo73625a((GeneratedMessageLite) bofc4);
                     if (bxvd3.f164950c) {
                         bxvd3.mo74035c();
                         bxvd3.f164950c = false;
@@ -288,7 +288,7 @@ public final /* synthetic */ class aqha implements aubg {
                         bofd5 = bofd.f132880b;
                     }
                     bxvd bxvd4 = (bxvd) bofd5.mo74142c(5);
-                    bxvd4.mo73625a((bxvk) bofd5);
+                    bxvd4.mo73625a((GeneratedMessageLite) bofd5);
                     boez boez2 = (boez) bxvd4;
                     boez2.mo68904a(a7, (bofc) bxvd3.mo74062i());
                     bofd bofd6 = (bofd) boez2.mo74062i();

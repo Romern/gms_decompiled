@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: blyq */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class blyq extends bxvk implements bxxd {
+public final class blyq extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final blyq f128291f;
@@ -20,7 +20,7 @@ public final class blyq extends bxvk implements bxxd {
     public blyn f128295c;
 
     /* renamed from: d */
-    public bxtx f128296d = bxtx.f164797b;
+    public ByteString f128296d = ByteString.f164797b;
 
     /* renamed from: e */
     public blzf f128297e;
@@ -28,7 +28,7 @@ public final class blyq extends bxvk implements bxxd {
     static {
         blyq blyq = new blyq();
         f128291f = blyq;
-        bxvk.m124024a(blyq.class, blyq);
+        GeneratedMessageLite.m124024a(blyq.class, blyq);
     }
 
     private blyq() {
@@ -45,7 +45,7 @@ public final class blyq extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f128291f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ည\u0002\u0004ဉ\u0003", new Object[]{"a", "b", "c", "d", "e"});
+            return GeneratedMessageLite.m124022a(f128291f, "\u0001\u0004\u0000\u0001\u0001\u0004\u0004\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဉ\u0001\u0003ည\u0002\u0004ဉ\u0003", new Object[]{"a", "b", "c", "d", "e"});
         } else if (i2 == 3) {
             return new blyq();
         } else {

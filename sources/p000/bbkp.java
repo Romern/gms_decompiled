@@ -45,11 +45,11 @@ final class bbkp extends bblo {
     public final int hashCode() {
         int hashCode = (this.f102820a.hashCode() ^ 1000003) * 1000003;
         Object obj = this.f102821b;
-        bxvk bxvk = (bxvk) obj;
-        int i = bxvk.f164758ag;
+        GeneratedMessageLite GeneratedMessageLite = (GeneratedMessageLite) obj;
+        int i = GeneratedMessageLite.f164758ag;
         if (i == 0) {
             i = bxxm.f165037a.mo74228a(obj).mo74216a(obj);
-            bxvk.f164758ag = i;
+            GeneratedMessageLite.f164758ag = i;
         }
         return hashCode ^ i;
     }

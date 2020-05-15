@@ -152,7 +152,7 @@ final class bglh implements Runnable {
                 sb4.toString();
                 for (int i7 = 0; i7 < buby.f153304d.size(); i7++) {
                     if ((((buca) buby.f153304d.get(i7)).f153313a & 2) != 0) {
-                        byte[] k = ((buca) buby.f153304d.get(i7)).f153315c.mo73780k();
+                        byte[] k = ((buca) buby.f153304d.get(i7)).f153315c.getKey();
                         iArr = new int[k.length];
                         for (int i8 = 0; i8 < k.length; i8++) {
                             iArr[i8] = k[i8] & 255;
@@ -227,7 +227,7 @@ final class bglh implements Runnable {
                 int size6 = bxwc.size();
                 for (int i11 = 0; i11 < size6; i11++) {
                     buca buca = (buca) bxwc.get(i11);
-                    bxtx bxtx = buca.f153315c;
+                    ByteString bxtx = buca.f153315c;
                     int length = bglp.f116789a.length;
                     float[] fArr = new float[length];
                     for (int i12 = 0; i12 < length; i12++) {

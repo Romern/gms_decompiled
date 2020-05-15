@@ -129,7 +129,7 @@ public final class ebh implements Runnable {
                             bxnx bxnx8 = (bxnx) da2.mo74062i();
                             bxnx8.getClass();
                             if (!bxnw.f164104a.mo73666a()) {
-                                bxnw.f164104a = bxvk.m124021a(bxnw.f164104a);
+                                bxnw.f164104a = GeneratedMessageLite.m124021a(bxnw.f164104a);
                             }
                             bxnw.f164104a.add(bxnx8);
                         }

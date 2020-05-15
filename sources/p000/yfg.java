@@ -27,7 +27,7 @@ public final class yfg extends yfe {
         ydu ydu = (ydu) yhg;
         cadj a = super.mo30404a(ydu, cadl);
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         cadi cadi = (cadi) bxvd;
         int i = ydu.f53675c;
         if (cadi.f164950c) {
@@ -144,7 +144,7 @@ public final class yfg extends yfe {
                 if (c2.mo66813a()) {
                     if (!f53721b.equals(c2.mo66814b())) {
                         bxvd bxvd = (bxvd) a5.mo74142c(5);
-                        bxvd.mo73625a((bxvk) a5);
+                        bxvd.mo73625a((GeneratedMessageLite) a5);
                         cadm cadm = (cadm) bxvd;
                         caae caae4 = (caae) c2.mo66814b();
                         if (cadm.f164950c) {
@@ -161,7 +161,7 @@ public final class yfg extends yfe {
                 }
                 yyl.m45031a(b, a5);
                 bxvd bxvd2 = (bxvd) cadj.mo74142c(5);
-                bxvd2.mo73625a((bxvk) cadj);
+                bxvd2.mo73625a((GeneratedMessageLite) cadj);
                 cadi cadi = (cadi) bxvd2;
                 cadi.mo74610a((cadp) b.mo74062i());
                 a4.set(i3, (cadj) cadi.mo74062i());

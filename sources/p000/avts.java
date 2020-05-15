@@ -24,7 +24,7 @@ public final class avts {
 
     /* renamed from: a */
     public final void mo51611a(ConsentInformation.AccountConsentInformation accountConsentInformation) {
-        sdo.m34966a(accountConsentInformation, "Account Consents cannot be null.");
+        sdo.checkIfNull(accountConsentInformation, "Account Consents cannot be null.");
         this.f93902c.add(accountConsentInformation);
     }
 }

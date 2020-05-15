@@ -9,6 +9,6 @@ final class bqpm extends bqnq {
 
     /* renamed from: a */
     public final /* bridge */ /* synthetic */ Object mo69296a(Object obj) {
-        return new bqwn(((bqta) obj).f141616b.mo73780k());
+        return new bqwn(((bqta) obj).f141616b.getKey());
     }
 }

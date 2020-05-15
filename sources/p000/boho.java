@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: boho */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class boho extends bxvk implements bxxd {
+public final class boho extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final boho f133117d;
@@ -22,7 +22,7 @@ public final class boho extends bxvk implements bxxd {
     static {
         boho boho = new boho();
         f133117d = boho;
-        bxvk.m124024a(boho.class, boho);
+        GeneratedMessageLite.m124024a(boho.class, boho);
     }
 
     private boho() {
@@ -39,7 +39,7 @@ public final class boho extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f133117d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဂ\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f133117d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဈ\u0000\u0002ဂ\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new boho();
         } else {

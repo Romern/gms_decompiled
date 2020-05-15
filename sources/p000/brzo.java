@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brzo */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brzo extends bxvk implements bxxd {
+public final class brzo extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: h */
     public static final brzo f143767h;
@@ -17,16 +17,16 @@ public final class brzo extends bxvk implements bxxd {
     public String f143770b = "";
 
     /* renamed from: c */
-    public bxtx f143771c = bxtx.f164797b;
+    public ByteString f143771c = ByteString.f164797b;
 
     /* renamed from: d */
-    public bxtx f143772d = bxtx.f164797b;
+    public ByteString f143772d = ByteString.f164797b;
 
     /* renamed from: e */
-    public bxtx f143773e = bxtx.f164797b;
+    public ByteString f143773e = ByteString.f164797b;
 
     /* renamed from: f */
-    public bxtx f143774f = bxtx.f164797b;
+    public ByteString f143774f = ByteString.f164797b;
 
     /* renamed from: g */
     public int f143775g;
@@ -37,7 +37,7 @@ public final class brzo extends bxvk implements bxxd {
     static {
         brzo brzo = new brzo();
         f143767h = brzo;
-        bxvk.m124024a(brzo.class, brzo);
+        GeneratedMessageLite.m124024a(brzo.class, brzo);
     }
 
     private brzo() {
@@ -58,7 +58,7 @@ public final class brzo extends bxvk implements bxxd {
             this.f143776i = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f143767h, "\u0001\u0006\u0000\u0001\u0001\u0007\u0006\u0000\u0000\u0001\u0001ဈ\u0000\u0002ည\u0001\u0004ᔊ\u0002\u0005ည\u0003\u0006ည\u0004\u0007ဌ\u0005", new Object[]{"a", "b", "c", "d", "e", "f", "g", brzp.f143777a});
+            return GeneratedMessageLite.m124022a(f143767h, "\u0001\u0006\u0000\u0001\u0001\u0007\u0006\u0000\u0000\u0001\u0001ဈ\u0000\u0002ည\u0001\u0004ᔊ\u0002\u0005ည\u0003\u0006ည\u0004\u0007ဌ\u0005", new Object[]{"a", "b", "c", "d", "e", "f", "g", brzp.f143777a});
         } else if (i2 == 3) {
             return new brzo();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: cbav */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class cbav extends bxvk implements bxxd {
+public final class cbav extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final cbav f176502d;
@@ -22,7 +22,7 @@ public final class cbav extends bxvk implements bxxd {
     static {
         cbav cbav = new cbav();
         f176502d = cbav;
-        bxvk.m124024a(cbav.class, cbav);
+        GeneratedMessageLite.m124024a(cbav.class, cbav);
     }
 
     private cbav() {
@@ -39,7 +39,7 @@ public final class cbav extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f176502d, "\u0000\u0007\u0001\u0000\u0001\f\u0007\u0000\u0000\u0000\u0001<\u0000\u0003<\u0000\u0006<\u0000\u0007<\u0000\b<\u0000\t\t\f<\u0000", new Object[]{"b", "a", cbbb.class, cbat.class, cbau.class, cbaz.class, cbax.class, "c", cbbc.class});
+            return GeneratedMessageLite.m124022a(f176502d, "\u0000\u0007\u0001\u0000\u0001\f\u0007\u0000\u0000\u0000\u0001<\u0000\u0003<\u0000\u0006<\u0000\u0007<\u0000\b<\u0000\t\t\f<\u0000", new Object[]{"b", "a", cbbb.class, cbat.class, cbau.class, cbaz.class, cbax.class, "c", cbbc.class});
         } else if (i2 == 3) {
             return new cbav();
         } else {

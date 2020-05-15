@@ -16,7 +16,7 @@ public final class cabu extends bxvd implements bxxd {
         cabv cabv = (cabv) this.f164949b;
         cabv cabv2 = cabv.f172481b;
         if (!cabv.f172483a.mo73666a()) {
-            cabv.f172483a = bxvk.m124021a(cabv.f172483a);
+            cabv.f172483a = GeneratedMessageLite.m124021a(cabv.f172483a);
         }
         bxsy.m123078a(iterable, cabv.f172483a);
     }

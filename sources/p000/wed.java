@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 final class wed implements wea {
 
     /* renamed from: b */
-    private static final sek f50579b = weh.m41831a("Loader");
+    private static final Logger f50579b = weh.m41831a("Loader");
 
     /* renamed from: a */
     public final wef f50580a;

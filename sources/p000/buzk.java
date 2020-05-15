@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: buzk */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class buzk extends bxvk implements bxxd {
+public final class buzk extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: e */
     public static final buzk f155391e;
@@ -17,7 +17,7 @@ public final class buzk extends bxvk implements bxxd {
     public buzt f155394b;
 
     /* renamed from: c */
-    public bxtx f155395c = bxtx.f164797b;
+    public ByteString f155395c = ByteString.f164797b;
 
     /* renamed from: d */
     public int f155396d;
@@ -25,7 +25,7 @@ public final class buzk extends bxvk implements bxxd {
     static {
         buzk buzk = new buzk();
         f155391e = buzk;
-        bxvk.m124024a(buzk.class, buzk);
+        GeneratedMessageLite.m124024a(buzk.class, buzk);
     }
 
     private buzk() {
@@ -42,7 +42,7 @@ public final class buzk extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f155391e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ည\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", buzr.f155422a});
+            return GeneratedMessageLite.m124022a(f155391e, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001ဉ\u0000\u0002ည\u0001\u0003ဌ\u0002", new Object[]{"a", "b", "c", "d", buzr.f155422a});
         } else if (i2 == 3) {
             return new buzk();
         } else {

@@ -5,7 +5,7 @@ package p000;
 public final class aqph {
 
     /* renamed from: a */
-    public static final sek f86499a = aqom.m71876c("ChimeraUtils");
+    public static final Logger f86499a = aqom.m71876c("ChimeraUtils");
 
     /* renamed from: b */
     public static int f86500b = -1;

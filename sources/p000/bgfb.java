@@ -260,7 +260,7 @@ public final class bgfb {
                     bgos bgos12 = (bgos) da2.mo74062i();
                     bgos12.getClass();
                     if (!bgoq2.f116952e.mo73666a()) {
-                        bgoq2.f116952e = bxvk.m124021a(bgoq2.f116952e);
+                        bgoq2.f116952e = GeneratedMessageLite.m124021a(bgoq2.f116952e);
                     }
                     bgoq2.f116952e.add(bgos12);
                 }

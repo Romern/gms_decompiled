@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: mrs */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class mrs extends bxvk implements bxxd {
+public final class mrs extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final mrs f34482d;
@@ -22,7 +22,7 @@ public final class mrs extends bxvk implements bxxd {
     static {
         mrs mrs = new mrs();
         f34482d = mrs;
-        bxvk.m124024a(mrs.class, mrs);
+        GeneratedMessageLite.m124024a(mrs.class, mrs);
     }
 
     private mrs() {
@@ -39,7 +39,7 @@ public final class mrs extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f34482d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", mrr.f34481a, "c"});
+            return GeneratedMessageLite.m124022a(f34482d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001ဌ\u0000\u0002ဈ\u0001", new Object[]{"a", "b", mrr.f34481a, "c"});
         } else if (i2 == 3) {
             return new mrs();
         } else {

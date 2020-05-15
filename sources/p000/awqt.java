@@ -23,7 +23,7 @@ public final class awqt extends awqu {
             PaySeCallEvent paySeCallEvent = (PaySeCallEvent) walletAnalyticsEvent;
             bpiw bpiw = this.f94874a;
             bxvd bxvd = (bxvd) bpiw.mo74142c(5);
-            bxvd.mo73625a((bxvk) bpiw);
+            bxvd.mo73625a((GeneratedMessageLite) bpiw);
             int a = bpiv.m111970a(paySeCallEvent.f110002c.f137822b);
             if (a == 0) {
                 a = 1;

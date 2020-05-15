@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btas */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btas extends bxvk implements btat {
+public final class btas extends GeneratedMessageLite implements btat {
 
     /* renamed from: c */
     public static final btas f148044c;
@@ -19,7 +19,7 @@ public final class btas extends bxvk implements btat {
     static {
         btas btas = new btas();
         f148044c = btas;
-        bxvk.m124024a(btas.class, btas);
+        GeneratedMessageLite.m124024a(btas.class, btas);
     }
 
     private btas() {
@@ -41,7 +41,7 @@ public final class btas extends bxvk implements btat {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f148044c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002\u0002", new Object[]{"a", btaq.class, "b"});
+            return GeneratedMessageLite.m124022a(f148044c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001\u001b\u0002\u0002", new Object[]{"a", btaq.class, "b"});
         } else if (i2 == 3) {
             return new btas();
         } else {
@@ -68,7 +68,7 @@ public final class btas extends bxvk implements btat {
     /* renamed from: a */
     public final void mo70733a() {
         if (!this.f148046a.mo73666a()) {
-            this.f148046a = bxvk.m124021a(this.f148046a);
+            this.f148046a = GeneratedMessageLite.m124021a(this.f148046a);
         }
     }
 }

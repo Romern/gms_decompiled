@@ -13,6 +13,6 @@ final class bjir implements qwq {
 
     /* renamed from: a */
     public final byte[] mo14930a() {
-        return this.f122799a.mo73642k();
+        return this.f122799a.serializeToBytes();
     }
 }

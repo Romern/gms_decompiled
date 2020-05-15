@@ -23,7 +23,7 @@ public final class iga extends ify {
     private final byte[] f20904c;
 
     /* renamed from: d */
-    private final sek f20905d = new sek("SigncryptPayloadOperation");
+    private final Logger f20905d = new Logger("SigncryptPayloadOperation");
 
     /* renamed from: e */
     private final iie f20906e;
@@ -71,7 +71,7 @@ public final class iga extends ify {
                 if (i != 0) {
                     byrv.f167520b = i2;
                     byrv.f167519a |= 1;
-                    this.f20906e.mo13040a(new iij(Status.f30107a, new SigncryptedMessage(((SignedBlob) ifj.m15368a(inl.m15759a(context).mo13182a("PublicKey", account, new Payload(this.f20904c, ((byrv) da.mo74062i()).mo73642k(), new byte[0])))).f10557b)).mo13041b());
+                    this.f20906e.mo13040a(new iij(Status.f30107a, new SigncryptedMessage(((SignedBlob) ifj.m15368a(inl.m15759a(context).mo13182a("PublicKey", account, new Payload(this.f20904c, ((byrv) da.mo74062i()).serializeToBytes(), new byte[0])))).f10557b)).mo13041b());
                     return;
                 }
                 throw null;

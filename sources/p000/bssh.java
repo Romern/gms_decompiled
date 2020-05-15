@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bssh */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bssh extends bxvk implements bxxd {
+public final class bssh extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bssh f146859b;
@@ -16,7 +16,7 @@ public final class bssh extends bxvk implements bxxd {
     static {
         bssh bssh = new bssh();
         f146859b = bssh;
-        bxvk.m124024a(bssh.class, bssh);
+        GeneratedMessageLite.m124024a(bssh.class, bssh);
     }
 
     private bssh() {
@@ -33,7 +33,7 @@ public final class bssh extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f146859b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001e", new Object[]{"a", btuh.m117152b()});
+            return GeneratedMessageLite.m124022a(f146859b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001e", new Object[]{"a", btuh.m117152b()});
         } else if (i2 == 3) {
             return new bssh();
         } else {

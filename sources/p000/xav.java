@@ -10,7 +10,7 @@ import java.util.Locale;
 public final class xav {
 
     /* renamed from: b */
-    public static final sek f51828b = new sek(new String[]{"AppIdCache"}, (short[]) null);
+    public static final Logger f51828b = new Logger(new String[]{"AppIdCache"}, (short[]) null);
 
     /* renamed from: a */
     public final xax f51829a;
@@ -21,7 +21,7 @@ public final class xav {
 
     /* renamed from: b */
     public static long m42577b() {
-        sek sek = xbh.f51873b;
+        Logger Logger = xbh.f51873b;
         HttpURLConnection httpURLConnection = (HttpURLConnection) xbh.f51872a.mo29778a();
         httpURLConnection.setRequestMethod("HEAD");
         int responseCode = httpURLConnection.getResponseCode();
@@ -34,10 +34,10 @@ public final class xav {
             xbh.f51873b.mo25412b(String.format(Locale.US, "Got date value %d", Long.valueOf(headerFieldDate)), new Object[0]);
             return headerFieldDate;
         }
-        sek sek2 = xbh.f51873b;
+        Logger logger2 = xbh.f51873b;
         Locale locale = Locale.US;
         Integer valueOf2 = Integer.valueOf(responseCode);
-        sek2.mo25412b(String.format(locale, "URL %s returned %d", xbh.f51872a, valueOf2), new Object[0]);
+        logger2.mo25412b(String.format(locale, "URL %s returned %d", xbh.f51872a, valueOf2), new Object[0]);
         throw new IOException(String.format(Locale.US, "HTTP status code %d", valueOf2));
     }
 

@@ -31,7 +31,7 @@ public final class jtq {
             int size = list.size();
             for (int i = 0; i < size; i++) {
                 jto jto = (jto) list.get(i);
-                edit.putString(m17304b(jto.f23189b), sqd.m35972d(jto.f23188a.mo73780k()));
+                edit.putString(m17304b(jto.f23189b), sqd.m35972d(jto.f23188a.getKey()));
             }
         }
         edit.apply();

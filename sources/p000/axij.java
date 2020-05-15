@@ -17,7 +17,7 @@ public final class axij implements Parcelable.Creator {
             int readInt = parcel.readInt();
             ArrayList arrayList = new ArrayList(readInt);
             for (int i = 0; i < readInt; i++) {
-                arrayList.add((bttj) bxvk.m124014a(bttj.f150351c, parcel.createByteArray()));
+                arrayList.add((bttj) GeneratedMessageLite.m124014a(bttj.f150351c, parcel.createByteArray()));
             }
             return new FundsTransferNotices(arrayList);
         } catch (bxwf e) {

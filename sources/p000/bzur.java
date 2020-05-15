@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bzur */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bzur extends bxvk implements bxxd {
+public final class bzur extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final bzur f171456c;
@@ -19,11 +19,11 @@ public final class bzur extends bxvk implements bxxd {
     static {
         bzur bzur = new bzur();
         f171456c = bzur;
-        bxvk.m124024a(bzur.class, bzur);
+        GeneratedMessageLite.m124024a(bzur.class, bzur);
     }
 
     private bzur() {
-        bxtx bxtx = bxtx.f164797b;
+        ByteString bxtx = bxtx.f164797b;
     }
 
     /* access modifiers changed from: protected */
@@ -37,7 +37,7 @@ public final class bzur extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f171456c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002\t", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f171456c, "\u0000\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0000\u0000\u0001\t\u0002\t", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new bzur();
         } else {

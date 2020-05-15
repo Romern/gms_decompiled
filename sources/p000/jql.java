@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public final class jql extends aaab {
 
     /* renamed from: a */
-    private static final sek f23061a = jsy.m17256a("SetFeatureSupported");
+    private static final Logger f23061a = jsy.m17256a("SetFeatureSupported");
 
     /* renamed from: b */
     private final rnt f23062b;

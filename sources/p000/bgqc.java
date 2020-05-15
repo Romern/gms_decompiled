@@ -26,7 +26,7 @@ public final class bgqc extends shl implements bgpv {
     public final AtomicReference f117265j = new AtomicReference();
 
     /* renamed from: k */
-    public final AtomicReference f117266k = new AtomicReference(bxtx.f164797b);
+    public final AtomicReference f117266k = new AtomicReference(ByteString.f164797b);
 
     public bgqc(Context context) {
         super(context, cezv.m138514i(), 443, Process.myUid(), 1536);

@@ -33,7 +33,7 @@ public abstract class bqnr {
     }
 
     /* renamed from: a */
-    public abstract bxxc mo69297a(bxtx bxtx);
+    public abstract bxxc mo69297a(ByteString bxtx);
 
     /* renamed from: a */
     public final Object mo69298a(bxxc bxxc, Class cls) {

@@ -14,7 +14,7 @@ final /* synthetic */ class hmg implements bmxz {
 
     /* renamed from: a */
     public final boolean mo6527a(Object obj) {
-        sek sek = hms.f20041a;
+        Logger Logger = hms.f20041a;
         return Patterns.EMAIL_ADDRESS.matcher(((Credential) obj).f10092a).matches();
     }
 }

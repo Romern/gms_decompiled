@@ -38,7 +38,7 @@ final /* synthetic */ class mmb implements mmr {
             } else {
                 j = cckw.f179263a.mo6606a().mo76237b();
             }
-            mft.f33602c.mo25409a("Timeout for %s is %s seconds", str, Long.valueOf(j));
+            mft.f33602c.logVerbose("Timeout for %s is %s seconds", str, Long.valueOf(j));
             long millis = TimeUnit.SECONDS.toMillis(j);
             mft mft = (mft) mfr;
             Context context = mft.f33598b;
@@ -47,11 +47,11 @@ final /* synthetic */ class mmb implements mmr {
             mex mex2 = new mex(context, new lvp(context), new mfp(mft.f33598b), str, millis, mft.f33604e);
             mex.mo19903a();
             if (ccnu.m130914b()) {
-                mft.f33602c.mo25409a("Waiting for backup task to finish.", new Object[0]);
+                mft.f33602c.logVerbose("Waiting for backup task to finish.", new Object[0]);
             }
             try {
                 if (ccnu.m130914b()) {
-                    mex.f33552a.mo25409a("Waiting for backup complete latch.", new Object[0]);
+                    mex.f33552a.logVerbose("Waiting for backup complete latch.", new Object[0]);
                 }
                 mex mex3 = mex;
                 mex3.f33554c.await();
@@ -117,7 +117,7 @@ final /* synthetic */ class mmb implements mmr {
         } else {
             if (cckw.m130264b()) {
                 mtr b = mmc.mo20165b();
-                mmc.f33990a.mo25409a("Sms/mms stats before backup: %s", b.toString());
+                mmc.f33990a.logVerbose("Sms/mms stats before backup: %s", b.toString());
                 mmc.f33993d.mo19897a(b);
             }
             File a2 = mmc.f33994e.mo19920a("com.android.providers.telephony");
@@ -128,7 +128,7 @@ final /* synthetic */ class mmb implements mmr {
                 mmc.f33993d.mo19896a("com.android.providers.telephony", 0);
                 if (cckw.m130264b() && ccnu.m130915c()) {
                     mtr = mmc.mo20165b();
-                    mmc.f33990a.mo25409a("Sms/mms stats after backup: %s", mtr.toString());
+                    mmc.f33990a.logVerbose("Sms/mms stats after backup: %s", mtr.toString());
                     mmc.f33993d.mo19897a(mtr);
                 }
             } catch (mae e3) {
@@ -136,12 +136,12 @@ final /* synthetic */ class mmb implements mmr {
                 mmc.f33993d.mo19896a("com.android.providers.telephony", 8);
                 if (cckw.m130264b() && ccnu.m130915c()) {
                     mtr = mmc.mo20165b();
-                    mmc.f33990a.mo25409a("Sms/mms stats after backup: %s", mtr.toString());
+                    mmc.f33990a.logVerbose("Sms/mms stats after backup: %s", mtr.toString());
                 }
             } catch (Throwable th) {
                 if (cckw.m130264b() && ccnu.m130915c()) {
                     mtr b2 = mmc.mo20165b();
-                    mmc.f33990a.mo25409a("Sms/mms stats after backup: %s", b2.toString());
+                    mmc.f33990a.logVerbose("Sms/mms stats after backup: %s", b2.toString());
                     mmc.f33993d.mo19897a(b2);
                 }
                 throw th;

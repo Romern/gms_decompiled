@@ -140,7 +140,7 @@ public final class lwk implements lwj {
         bzxr2.getClass();
         lss.f32855c = bzxr2;
         lss.f32853a |= 2;
-        bxtx aL = mde.mo73639aL();
+        ByteString aL = mde.mo73639aL();
         if (da.f164950c) {
             da.mo74035c();
             da.f164950c = false;
@@ -221,7 +221,7 @@ public final class lwk implements lwj {
         m24556c(bxvd);
         lsz k = bxvd.mo74073k();
         bxvd bxvd2 = (bxvd) k.mo74142c(5);
-        bxvd2.mo73625a((bxvk) k);
+        bxvd2.mo73625a((GeneratedMessageLite) k);
         m24551a(bxvd2, mde);
         m24550a(bxvd2);
         if (bxvd.f164950c) {
@@ -229,7 +229,7 @@ public final class lwk implements lwj {
             bxvd.f164950c = false;
         }
         lth lth = lth.f32914q;
-        ((lth) bxvd.f164949b).f32926k = bxvk.m124030de();
+        ((lth) bxvd.f164949b).f32926k = GeneratedMessageLite.m124030de();
         bxvd.mo74059h(bxvd2);
         try {
             lwn lwn = this.f33112c;
@@ -250,7 +250,7 @@ public final class lwk implements lwj {
         m24556c(bxvd);
         lsz k = bxvd.mo74073k();
         bxvd bxvd2 = (bxvd) k.mo74142c(5);
-        bxvd2.mo73625a((bxvk) k);
+        bxvd2.mo73625a((GeneratedMessageLite) k);
         m24551a(bxvd2, mde);
         m24550a(bxvd2);
         if (bxvd.f164950c) {
@@ -258,7 +258,7 @@ public final class lwk implements lwj {
             bxvd.f164950c = false;
         }
         lth lth = lth.f32914q;
-        ((lth) bxvd.f164949b).f32926k = bxvk.m124030de();
+        ((lth) bxvd.f164949b).f32926k = GeneratedMessageLite.m124030de();
         bxvd.mo74059h(bxvd2);
         try {
             lwn lwn = this.f33112c;
@@ -369,7 +369,7 @@ public final class lwk implements lwj {
                 bzxr2.getClass();
                 lss.f32855c = bzxr2;
                 lss.f32853a |= 2;
-                bxtx aL = mde.mo73639aL();
+                ByteString aL = mde.mo73639aL();
                 if (da3.f164950c) {
                     da3.mo74035c();
                     da3.f164950c = false;
@@ -406,7 +406,7 @@ public final class lwk implements lwj {
             }
             ltg ltg2 = (ltg) da5.f164949b;
             if (!ltg2.f32912c.mo73666a()) {
-                ltg2.f32912c = bxvk.m124021a(ltg2.f32912c);
+                ltg2.f32912c = GeneratedMessageLite.m124021a(ltg2.f32912c);
             }
             bxsy.m123078a(asList, ltg2.f32912c);
             if (da5.f164950c) {

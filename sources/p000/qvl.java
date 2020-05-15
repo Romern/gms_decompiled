@@ -11,6 +11,6 @@ final /* synthetic */ class qvl implements bmxj {
 
     public final Object apply(Object obj) {
         imo imo = qvn.f42243a;
-        return ((bxtx) obj).mo73780k();
+        return ((ByteString) obj).getKey();
     }
 }

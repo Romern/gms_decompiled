@@ -69,7 +69,7 @@ public final class cfhc implements cfgz {
     static {
         bdyw a = new bdyw(bdyj.m91581a("com.google.android.gms.mdisync")).mo58443a();
         try {
-            f184066a = bdyx.m91608a(a, "CoreFeature__api_blacklist", (afqw) bxvk.m124014a(afqw.f64582b, new byte[0]), cfha.f184064a);
+            f184066a = bdyx.m91608a(a, "CoreFeature__api_blacklist", (afqw) GeneratedMessageLite.m124014a(afqw.f64582b, new byte[0]), cfha.f184064a);
             f184067b = bdyx.m91607a(a, "CoreFeature__cel_severe_sampling_interval", 10L);
             f184068c = bdyx.m91607a(a, "CoreFeature__cel_warning_sampling_interval", 100L);
             f184069d = bdyx.m91607a(a, "CoreFeature__clearcut_sampling_interval", 1000L);
@@ -84,7 +84,7 @@ public final class cfhc implements cfgz {
             bdyx.m91609a(a, "CoreFeature__gaia_logging_logsource", "MDI_SYNC_COMPONENTS_GAIA");
             f184077l = bdyx.m91610a(a, "CoreFeature__get_spe_channel_with_account", false);
             try {
-                f184078m = bdyx.m91608a(a, "CoreFeature__sync_policy_policies", (byke) bxvk.m124014a(byke.f166739b, new byte[]{10, 72, 8, 1, 18, 68, 10, 64, 10, 26, 10, 16, 8, 1, 58, 12, 8, 1, 18, 2, 8, 30, 26, 4, 8, -32, -88, 1, 18, 6, 10, 0, 18, 2, 8, 1, 18, 34, 10, 18, 8, 2, 16, 2, 58, 12, 8, 1, 18, 2, 8, 30, 26, 4, 8, -32, -88, 1, 18, 12, 10, 4, 8, -32, -88, 1, 18, 4, 8, -16, -105, 1, 18, 0, 10, 72, 8, 2, 18, 68, 10, 64, 10, 26, 10, 16, 8, 3, 58, 12, 8, 1, 18, 2, 8, 30, 26, 4, 8, -32, -88, 1, 18, 6, 10, 0, 18, 2, 8, 1, 18, 34, 10, 18, 8, 3, 16, 2, 58, 12, 8, 1, 18, 2, 8, 30, 26, 4, 8, -32, -88, 1, 18, 12, 10, 4, 8, -32, -88, 1, 18, 4, 8, -16, -105, 1, 18, 0}), cfhb.f184065a);
+                f184078m = bdyx.m91608a(a, "CoreFeature__sync_policy_policies", (byke) GeneratedMessageLite.m124014a(byke.f166739b, new byte[]{10, 72, 8, 1, 18, 68, 10, 64, 10, 26, 10, 16, 8, 1, 58, 12, 8, 1, 18, 2, 8, 30, 26, 4, 8, -32, -88, 1, 18, 6, 10, 0, 18, 2, 8, 1, 18, 34, 10, 18, 8, 2, 16, 2, 58, 12, 8, 1, 18, 2, 8, 30, 26, 4, 8, -32, -88, 1, 18, 12, 10, 4, 8, -32, -88, 1, 18, 4, 8, -16, -105, 1, 18, 0, 10, 72, 8, 2, 18, 68, 10, 64, 10, 26, 10, 16, 8, 3, 58, 12, 8, 1, 18, 2, 8, 30, 26, 4, 8, -32, -88, 1, 18, 6, 10, 0, 18, 2, 8, 1, 18, 34, 10, 18, 8, 3, 16, 2, 58, 12, 8, 1, 18, 2, 8, 30, 26, 4, 8, -32, -88, 1, 18, 12, 10, 4, 8, -32, -88, 1, 18, 4, 8, -16, -105, 1, 18, 0}), cfhb.f184065a);
                 f184079n = bdyx.m91610a(a, "CoreFeature__use_gmscore_channel_provider", true);
             } catch (bxwf e) {
                 throw new AssertionError("Could not parse proto flag \"CoreFeature__sync_policy_policies\"");

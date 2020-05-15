@@ -132,7 +132,7 @@ public final class agtl extends aaab {
             if (mdpPurchaseOfferRequest3 != null) {
                 boot a3 = a2.mo35978a(10, "GTAF_Server", str3);
                 bxvd bxvd = (bxvd) a3.mo74142c(5);
-                bxvd.mo73625a((bxvk) a3);
+                bxvd.mo73625a((GeneratedMessageLite) a3);
                 if (cfmq.m140238i()) {
                     agrl.m54945a(bxvd, mdpPurchaseOfferRequest3.f80202e);
                 }

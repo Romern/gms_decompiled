@@ -54,7 +54,7 @@ public final class axua {
     public static ayev m83211a(byte[] bArr, Boolean bool, int i) {
         bxvd da = ayev.f97376n.mo74144da();
         bxvd da2 = ayer.f97351f.mo74144da();
-        bxtx a = bxtx.m123261a(bArr);
+        ByteString a = ByteString.m123261a(bArr);
         if (da2.f164950c) {
             da2.mo74035c();
             da2.f164950c = false;
@@ -126,7 +126,7 @@ public final class axua {
         if (ayer == null) {
             ayer = ayer.f97351f;
         }
-        return ayer.f97354b.mo73780k();
+        return ayer.f97354b.getKey();
     }
 
     /* renamed from: a */

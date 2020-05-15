@@ -176,7 +176,7 @@ public final class acgn {
                                                 a3 = byhx.UNKNOWN;
                                             }
                                             if ((byhy.f166530a & 2) != 0) {
-                                                mdhFootprint = new MdhFootprint(byhy.f166532c.mo73780k(), null, j6);
+                                                mdhFootprint = new MdhFootprint(byhy.f166532c.getKey(), null, j6);
                                             } else {
                                                 mdhFootprint = null;
                                             }

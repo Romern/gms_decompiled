@@ -193,8 +193,8 @@ public class IbPaymentRequestCompatChimeraActivity extends Activity {
 
     /* renamed from: a */
     public static Intent m93981a(BuyFlowConfig buyFlowConfig, WebPaymentDataRequest webPaymentDataRequest, LoadMaskedWalletServiceRequest loadMaskedWalletServiceRequest) {
-        sdo.m34966a(buyFlowConfig, "buyFlowConfig is required");
-        sdo.m34966a(webPaymentDataRequest, "request is required");
+        sdo.checkIfNull(buyFlowConfig, "buyFlowConfig is required");
+        sdo.checkIfNull(webPaymentDataRequest, "request is required");
         Intent intent = new Intent("com.google.android.gms.wallet.ib.ACTION_COMPAT_LOAD_WEB_PAYMENT_DATA");
         intent.setPackage("com.google.android.gms");
         intent.putExtra("com.google.android.gms.wallet.buyFlowConfig", buyFlowConfig);

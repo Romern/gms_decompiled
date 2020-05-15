@@ -17,7 +17,7 @@ public final class bpqt extends bxvd implements bxxd {
         bpqu bpqu2 = bpqu.f138787b;
         bpry.getClass();
         if (!bpqu.f138789a.mo73666a()) {
-            bpqu.f138789a = bxvk.m124019a(bpqu.f138789a);
+            bpqu.f138789a = GeneratedMessageLite.m124019a(bpqu.f138789a);
         }
         bpqu.f138789a.mo74153d(bpry.f138919d);
     }

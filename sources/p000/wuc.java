@@ -644,7 +644,7 @@ public class wuc extends dnu {
                 ayue4.f98511d = ayub2;
                 ayue4.f98508a |= 4;
                 bxvd da7 = ayuh.f98521c.mo74144da();
-                bxtx a = bxtx.m123261a(((ayue) da.mo74062i()).mo73642k());
+                ByteString a = ByteString.m123261a(((ayue) da.mo74062i()).serializeToBytes());
                 if (da7.f164950c) {
                     da7.mo74035c();
                     da7.f164950c = false;
@@ -653,7 +653,7 @@ public class wuc extends dnu {
                 a.getClass();
                 ayuh.f98523a |= 2;
                 ayuh.f98524b = a;
-                Intent intent = new Intent("android.intent.action.VIEW", new Uri.Builder().scheme("googleapp").authority("deeplink").path("/").appendQueryParameter("data", boan.f132471e.mo68783a().mo68794a(((ayuh) da7.mo74062i()).mo73642k())).build());
+                Intent intent = new Intent("android.intent.action.VIEW", new Uri.Builder().scheme("googleapp").authority("deeplink").path("/").appendQueryParameter("data", boan.f132471e.mo68783a().mo68794a(((ayuh) da7.mo74062i()).serializeToBytes())).build());
                 if (intent.resolveActivity(context.getPackageManager()) == null) {
                     bnsl bnsl5 = (bnsl) wtw.f51331a.mo68390d();
                     bnsl5.mo68432a("wuc", "a", 862, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");
@@ -1236,7 +1236,7 @@ public class wuc extends dnu {
                                                     ayue4.f98511d = ayub2;
                                                     ayue4.f98508a |= 4;
                                                     bxvd da7 = ayuh.f98521c.mo74144da();
-                                                    bxtx a5 = bxtx.m123261a(((ayue) da.mo74062i()).mo73642k());
+                                                    ByteString a5 = ByteString.m123261a(((ayue) da.mo74062i()).serializeToBytes());
                                                     if (da7.f164950c) {
                                                         da7.mo74035c();
                                                         da7.f164950c = false;
@@ -1245,7 +1245,7 @@ public class wuc extends dnu {
                                                     a5.getClass();
                                                     ayuh.f98523a |= 2;
                                                     ayuh.f98524b = a5;
-                                                    Intent intent = new Intent("android.intent.action.VIEW", new Uri.Builder().scheme("googleapp").authority("deeplink").path("/").appendQueryParameter("data", boan.f132471e.mo68783a().mo68794a(((ayuh) da7.mo74062i()).mo73642k())).build());
+                                                    Intent intent = new Intent("android.intent.action.VIEW", new Uri.Builder().scheme("googleapp").authority("deeplink").path("/").appendQueryParameter("data", boan.f132471e.mo68783a().mo68794a(((ayuh) da7.mo74062i()).serializeToBytes())).build());
                                                     if (intent.resolveActivity(context2.getPackageManager()) == null) {
                                                         bnsl bnsl19 = (bnsl) wtw.f51331a.mo68390d();
                                                         bnsl19.mo68432a("wuc", "a", 862, ":com.google.android.gms@201515033@20.15.15 (120300-306758586)");

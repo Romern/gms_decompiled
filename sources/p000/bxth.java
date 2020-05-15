@@ -307,14 +307,14 @@ final class bxth implements bxxp {
     }
 
     /* renamed from: n */
-    public final bxtx mo73716n() {
+    public final ByteString mo73716n() {
         m123157c(2);
         int w = m123163w();
         if (w == 0) {
-            return bxtx.f164797b;
+            return ByteString.f164797b;
         }
         m123155b(w);
-        bxtx b = bxtx.m123265b(this.f164771a, this.f164772b, w);
+        ByteString b = ByteString.m123265b(this.f164771a, this.f164772b, w);
         this.f164772b += w;
         return b;
     }

@@ -55,7 +55,7 @@ public final class azal {
         azdi azdi;
         cbgn cbgn;
         cbhy cbhy;
-        bxtx bxtx;
+        ByteString bxtx;
         int i;
         if (!cfeo.f183719a.mo6606a().mo81093v() || (i = localEntityId.f111075b) == 1 || i == 7) {
             bitmap = azny.m85882a(context, localEntityId);
@@ -70,11 +70,11 @@ public final class azal {
             }
             if (!(azdi == null || (cbgn = azdi.f99083i) == null || (cbhy = cbgn.f177055d) == null)) {
                 if (cbhy.f177216a == 1) {
-                    bxtx = (bxtx) cbhy.f177217b;
+                    bxtx = (ByteString) cbhy.f177217b;
                 } else {
                     bxtx = bxtx.f164797b;
                 }
-                byte[] k = bxtx.mo73780k();
+                byte[] k = bxtx.getKey();
                 if (!azpi.m86080b(k)) {
                     bitmap = BitmapFactory.decodeByteArray(k, 0, k.length);
                 }

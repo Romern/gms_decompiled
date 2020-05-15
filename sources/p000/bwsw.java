@@ -16,7 +16,7 @@ public final class bwsw extends bxvd implements bxxd {
         bwsx bwsx = (bwsx) this.f164949b;
         bwsx bwsx2 = bwsx.f160923b;
         if (!bwsx.f160926a.mo73666a()) {
-            bwsx.f160926a = bxvk.m124020a(bwsx.f160926a);
+            bwsx.f160926a = GeneratedMessageLite.m124020a(bwsx.f160926a);
         }
         bwsx.f160926a.mo74161a(j);
     }

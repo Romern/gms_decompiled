@@ -12,7 +12,7 @@ import com.google.android.gms.update.control.ChimeraGcmTaskService;
 public final class avmi {
 
     /* renamed from: a */
-    public static final sek f93387a = avpq.m79017d("BatteryControl");
+    public static final Logger f93387a = avpq.m79017d("BatteryControl");
 
     /* renamed from: b */
     public static final avta f93388b = new avta("control.battery.passive_battery_charging_monitoring_enabled", false);

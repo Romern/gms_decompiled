@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: btut */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class btut extends bxvk implements bxxd {
+public final class btut extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: c */
     public static final btut f150628c;
@@ -19,7 +19,7 @@ public final class btut extends bxvk implements bxxd {
     static {
         btut btut = new btut();
         f150628c = btut;
-        bxvk.m124024a(btut.class, btut);
+        GeneratedMessageLite.m124024a(btut.class, btut);
     }
 
     private btut() {
@@ -36,7 +36,7 @@ public final class btut extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f150628c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
+            return GeneratedMessageLite.m124022a(f150628c, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"a", "b"});
         } else if (i2 == 3) {
             return new btut();
         } else {

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bumt */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bumt extends bxvk implements bxxd {
+public final class bumt extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bumt f154272b;
@@ -16,7 +16,7 @@ public final class bumt extends bxvk implements bxxd {
     static {
         bumt bumt = new bumt();
         f154272b = bumt;
-        bxvk.m124024a(bumt.class, bumt);
+        GeneratedMessageLite.m124024a(bumt.class, bumt);
     }
 
     private bumt() {
@@ -33,7 +33,7 @@ public final class bumt extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f154272b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bumz.class});
+            return GeneratedMessageLite.m124022a(f154272b, "\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0001\u0000\u0001\u001b", new Object[]{"a", bumz.class});
         } else if (i2 == 3) {
             return new bumt();
         } else {

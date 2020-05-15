@@ -14,7 +14,7 @@ public final class xls {
     private static final bnic f52686f = bnic.m109492a(xqv.f52936a, xqv.f52940e, xqv.f52941f, xqv.f52939d);
 
     /* renamed from: g */
-    private static final sek f52687g = new sek(new String[]{"AuthenticatorPublicKeyCredentialUserEntity"}, (short[]) null);
+    private static final Logger f52687g = new Logger(new String[]{"AuthenticatorPublicKeyCredentialUserEntity"}, (short[]) null);
 
     /* renamed from: a */
     public final byte[] f52688a;
@@ -49,7 +49,7 @@ public final class xls {
                 bypx bypx2 = (bypx) bnim.get(xqv.f52936a);
                 bmxy.m108581a(bypx2);
                 if (bypx2 instanceof bypp) {
-                    byte[] k = ((bypp) bypx2).f167357a.mo73780k();
+                    byte[] k = ((bypp) bypx2).f167357a.getKey();
                     bmxy.m108581a(k);
                     xlr.f52681a = k;
                     if (bnim.containsKey(xqv.f52940e)) {

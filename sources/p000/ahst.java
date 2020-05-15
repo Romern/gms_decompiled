@@ -193,7 +193,7 @@ public final class ahst {
     }
 
     /* renamed from: a */
-    public final ahyz mo37032a(bxtx bxtx) {
+    public final ahyz mo37032a(ByteString bxtx) {
         return (ahyz) m56485a("getFastPairItemByAccountKey", new ahsl(this, bxtx));
     }
 
@@ -261,7 +261,7 @@ public final class ahst {
             return;
         }
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -278,7 +278,7 @@ public final class ahst {
         ahyz a = mo37033a(ahyz.f68428b);
         if (a != null) {
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             if (bxvd.f164950c) {
                 bxvd.mo74035c();
                 bxvd.f164950c = false;
@@ -318,7 +318,7 @@ public final class ahst {
         Integer num2;
         Integer num3;
         bzbk bzbk;
-        bxvk bxvk;
+        GeneratedMessageLite GeneratedMessageLite;
         if (bxvd != null) {
             srn srn = ahsd.f67925a;
             bzbk a3 = bzbk.m125615a(((aiac) bxvd.f164949b).f68548c);
@@ -346,12 +346,12 @@ public final class ahst {
                             a6 = bzbk.NEARBY_TYPE_UNKNOWN;
                         }
                         if (a6 == bzbk.NEARBY_WEAR && ((long) ((aiac) bxvd.f164949b).f68550e) < cfod.f184793a.mo6606a().mo81912ag()) {
-                            bxvk = bxvd.f164949b;
+                            GeneratedMessageLite = bxvd.f164949b;
                         }
                     } else {
-                        bxvk = bxvd.f164949b;
+                        GeneratedMessageLite = bxvd.f164949b;
                     }
-                    aiac aiac2 = (aiac) bxvk;
+                    aiac aiac2 = (aiac) GeneratedMessageLite;
                     return;
                 }
             }
@@ -401,7 +401,7 @@ public final class ahst {
             }
             aiac aiac8 = (aiac) bxvd.mo74062i();
             bxvd bxvd4 = (bxvd) aiac8.mo74142c(5);
-            bxvd4.mo73625a((bxvk) aiac8);
+            bxvd4.mo73625a((GeneratedMessageLite) aiac8);
             aiac aiac9 = (aiac) bxvd4.f164949b;
             if ((aiac9.f68546a & 4) != 0) {
                 bzbk a7 = bzbk.m125615a(aiac9.f68548c);
@@ -428,7 +428,7 @@ public final class ahst {
                         aiac aiac11 = (aiac) bxvd4.mo74062i();
                         aiaa a8 = ahsu.m56514a();
                         bxvd2 = (bxvd) a8.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) a8);
+                        bxvd2.mo73625a((GeneratedMessageLite) a8);
                         a = bzbk.m125615a(aiac11.f68548c);
                         if (a == null) {
                             a = bzbk.NEARBY_TYPE_UNKNOWN;
@@ -481,7 +481,7 @@ public final class ahst {
                         }
                         if (aiaa != null) {
                             bxvd3 = (bxvd) aiaa.mo74142c(5);
-                            bxvd3.mo73625a((bxvk) aiaa);
+                            bxvd3.mo73625a((GeneratedMessageLite) aiaa);
                             if ((aiac11.f68546a & 128) != 0) {
                                 l2 = Long.valueOf(aiac11.f68554i);
                             } else {
@@ -579,7 +579,7 @@ public final class ahst {
                                 aiaa14.f68513a &= -16385;
                                 aiaa14.f68529q = 0;
                             }
-                            ((aiaa) bxvd3.f164949b).f68505C = bxvk.m124030de();
+                            ((aiaa) bxvd3.f164949b).f68505C = GeneratedMessageLite.m124030de();
                             bxvd3.mo74023ac(ahsf.m56460a(501));
                         } else {
                             bxvd3 = null;
@@ -588,7 +588,7 @@ public final class ahst {
                             aiaa aiaa15 = (aiaa) ahsv.mo36459a(((aiaa) bxvd3.f164949b).f68515c);
                             if (aiaa15 != null) {
                                 bxvd3 = (bxvd) aiaa15.mo74142c(5);
-                                bxvd3.mo73625a((bxvk) aiaa15);
+                                bxvd3.mo73625a((GeneratedMessageLite) aiaa15);
                                 bzbk a9 = bzbk.m125615a(aiac11.f68548c);
                                 if (a9 == null) {
                                     a9 = bzbk.NEARBY_TYPE_UNKNOWN;
@@ -688,7 +688,7 @@ public final class ahst {
                     aiac aiac112 = (aiac) bxvd4.mo74062i();
                     aiaa a82 = ahsu.m56514a();
                     bxvd2 = (bxvd) a82.mo74142c(5);
-                    bxvd2.mo73625a((bxvk) a82);
+                    bxvd2.mo73625a((GeneratedMessageLite) a82);
                     a = bzbk.m125615a(aiac112.f68548c);
                     if (a == null) {
                     }
@@ -719,7 +719,7 @@ public final class ahst {
                 aiac aiac1122 = (aiac) bxvd4.mo74062i();
                 aiaa a822 = ahsu.m56514a();
                 bxvd2 = (bxvd) a822.mo74142c(5);
-                bxvd2.mo73625a((bxvk) a822);
+                bxvd2.mo73625a((GeneratedMessageLite) a822);
                 a = bzbk.m125615a(aiac1122.f68548c);
                 if (a == null) {
                 }
@@ -760,7 +760,7 @@ public final class ahst {
             return;
         }
         bxvd bxvd = (bxvd) a.mo74142c(5);
-        bxvd.mo73625a((bxvk) a);
+        bxvd.mo73625a((GeneratedMessageLite) a);
         if (bxvd.f164950c) {
             bxvd.mo74035c();
             bxvd.f164950c = false;
@@ -788,7 +788,7 @@ public final class ahst {
         ahyz a = mo37033a(str);
         if (a != null) {
             bxvd bxvd = (bxvd) a.mo74142c(5);
-            bxvd.mo73625a((bxvk) a);
+            bxvd.mo73625a((GeneratedMessageLite) a);
             long a2 = ((sqv) ahgz.m55754a(this.f67963e, sqv.class)).mo20505a();
             if (bxvd.f164950c) {
                 bxvd.mo74035c();

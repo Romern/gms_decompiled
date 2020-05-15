@@ -23,10 +23,10 @@ public final class asbu {
 
     /* renamed from: a */
     public static boolean m73761a(BootstrapOptions bootstrapOptions) {
-        f88681a.mo25409a("3pmfm supported by target device %s", Boolean.valueOf(bootstrapOptions.f107841n));
-        f88681a.mo25409a("3pmfm allowed by target client %s", Boolean.valueOf(bootstrapOptions.f107842o));
-        f88681a.mo25409a("3pmfm export allowed by smartsetup %s", Boolean.valueOf(cgqs.m146596b()));
-        f88681a.mo25409a("3pmfm forced %s", Boolean.valueOf(cgqs.m146599e()));
+        f88681a.logVerbose("3pmfm supported by target device %s", Boolean.valueOf(bootstrapOptions.f107841n));
+        f88681a.logVerbose("3pmfm allowed by target client %s", Boolean.valueOf(bootstrapOptions.f107842o));
+        f88681a.logVerbose("3pmfm export allowed by smartsetup %s", Boolean.valueOf(cgqs.m146596b()));
+        f88681a.logVerbose("3pmfm forced %s", Boolean.valueOf(cgqs.m146599e()));
         aqxm.m72204e();
         if (!bootstrapOptions.f107841n) {
             return false;

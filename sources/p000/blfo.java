@@ -18,7 +18,7 @@ public final class blfo extends bxvd implements bxxd {
         blfp blfp2 = blfp.f126399b;
         blfn.getClass();
         if (!blfp.f126401a.mo73666a()) {
-            blfp.f126401a = bxvk.m124021a(blfp.f126401a);
+            blfp.f126401a = GeneratedMessageLite.m124021a(blfp.f126401a);
         }
         blfp.f126401a.add(blfn);
     }

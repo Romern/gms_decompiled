@@ -14,7 +14,7 @@ import com.google.android.gms.update.control.ChimeraGcmTaskService;
 public final class avmq {
 
     /* renamed from: a */
-    public static final sek f93409a = avpq.m79017d("DeviceControl");
+    public static final Logger f93409a = avpq.m79017d("DeviceControl");
 
     /* renamed from: b */
     public static final avta f93410b = new avta("control.device.passive_device_idle_monitoring_enabled", false);

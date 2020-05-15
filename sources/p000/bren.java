@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: bren */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class bren extends bxvk implements bxxd {
+public final class bren extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: b */
     public static final bren f142684b;
@@ -19,7 +19,7 @@ public final class bren extends bxvk implements bxxd {
     static {
         bren bren = new bren();
         f142684b = bren;
-        bxvk.m124024a(bren.class, bren);
+        GeneratedMessageLite.m124024a(bren.class, bren);
     }
 
     private bren() {
@@ -36,7 +36,7 @@ public final class bren extends bxvk implements bxxd {
             return null;
         }
         if (i2 == 2) {
-            return bxvk.m124022a(f142684b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"c", "a"});
+            return GeneratedMessageLite.m124022a(f142684b, "\u0001\u0001\u0000\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0001ဉ\u0000", new Object[]{"c", "a"});
         } else if (i2 == 3) {
             return new bren();
         } else {

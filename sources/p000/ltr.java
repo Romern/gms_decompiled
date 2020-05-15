@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: ltr */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class ltr extends bxvk implements bxxd {
+public final class ltr extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: d */
     public static final ltr f32982d;
@@ -17,7 +17,7 @@ public final class ltr extends bxvk implements bxxd {
     public String f32985b = "";
 
     /* renamed from: c */
-    public bxtx f32986c = bxtx.f164797b;
+    public ByteString f32986c = ByteString.f164797b;
 
     /* renamed from: e */
     private byte f32987e = 2;
@@ -25,7 +25,7 @@ public final class ltr extends bxvk implements bxxd {
     static {
         ltr ltr = new ltr();
         f32982d = ltr;
-        bxvk.m124024a(ltr.class, ltr);
+        GeneratedMessageLite.m124024a(ltr.class, ltr);
     }
 
     private ltr() {
@@ -46,7 +46,7 @@ public final class ltr extends bxvk implements bxxd {
             this.f32987e = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f32982d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
+            return GeneratedMessageLite.m124022a(f32982d, "\u0001\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0001\u0001ᔈ\u0000\u0002ည\u0001", new Object[]{"a", "b", "c"});
         } else if (i2 == 3) {
             return new ltr();
         } else {

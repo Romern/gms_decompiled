@@ -197,7 +197,7 @@ public final class ebk extends dyg {
         bngs j2 = bngx.m109377j();
         bxny bxny2 = (bxny) this.f14599m.f164949b;
         if (bxny2.f164120c || bxny2.f164121d || bxny2.f164122e || bxny2.f164127j) {
-            String valueOf = String.valueOf(Base64.encodeToString(((byex) this.f14597b.mo74062i()).mo73642k(), 10));
+            String valueOf = String.valueOf(Base64.encodeToString(((byex) this.f14597b.mo74062i()).serializeToBytes(), 10));
             String str = valueOf.length() == 0 ? new String("w ") : "w ".concat(valueOf);
             if (str != null) {
                 j2.mo67668c(str);
@@ -227,7 +227,7 @@ public final class ebk extends dyg {
         if (!mo9922j() && dql.m9091a(this.f14388d)) {
             bxny bxny5 = (bxny) this.f14599m.f164949b;
             if (bxny5.f164123f || bxny5.f164125h || bxny5.f164124g || bxny5.f164126i) {
-                String valueOf2 = String.valueOf(Base64.encodeToString(((byex) this.f14598k.mo74062i()).mo73642k(), 10));
+                String valueOf2 = String.valueOf(Base64.encodeToString(((byex) this.f14598k.mo74062i()).serializeToBytes(), 10));
                 String str2 = valueOf2.length() == 0 ? new String("w ") : "w ".concat(valueOf2);
                 if (str2 != null) {
                     j2.mo67668c(str2);
@@ -285,7 +285,7 @@ public final class ebk extends dyg {
         }
         try {
             try {
-                byfi byfi = (byfi) bxvk.m124016a(byfi.f166018g, Base64.decode(str, 11), bxus.m123744c());
+                byfi byfi = (byfi) GeneratedMessageLite.m124016a(byfi.f166018g, Base64.decode(str, 11), bxus.m123744c());
                 if (!(byfi == null || (byfi.f166020a & 1) == 0)) {
                     byel byel = byfi.f166021b;
                     if (byel == null) {
@@ -311,7 +311,7 @@ public final class ebk extends dyg {
                             byfi2.f166021b = byel3;
                             byfi2.f166020a |= 1;
                             byfi byfi3 = (byfi) da.mo74062i();
-                            if (!str.equals(Base64.encodeToString(byfi3.mo73642k(), 11))) {
+                            if (!str.equals(Base64.encodeToString(byfi3.serializeToBytes(), 11))) {
                                 return null;
                             }
                             return byfi3;
@@ -630,7 +630,7 @@ public final class ebk extends dyg {
                             byev = byev.f165940w;
                         }
                         bxvd bxvd2 = (bxvd) byev.mo74142c(5);
-                        bxvd2.mo73625a((bxvk) byev);
+                        bxvd2.mo73625a((GeneratedMessageLite) byev);
                         byep byep = (byep) bxvd2;
                         int round = Math.round(bxnm.f164057e);
                         if (byep.f164950c) {
@@ -720,13 +720,13 @@ public final class ebk extends dyg {
                             byev5 = byev.f165940w;
                         }
                         bxvd bxvd4 = (bxvd) byev5.mo74142c(5);
-                        bxvd4.mo73625a((bxvk) byev5);
+                        bxvd4.mo73625a((GeneratedMessageLite) byev5);
                         byep byep2 = (byep) bxvd4;
                         if (byep2.f164950c) {
                             byep2.mo74035c();
                             byep2.f164950c = false;
                         }
-                        ((byev) byep2.f164949b).f165953l = bxvk.m124030de();
+                        ((byev) byep2.f164949b).f165953l = GeneratedMessageLite.m124030de();
                         byep2.mo74348a(byek2);
                         byev byev6 = (byev) byep2.mo74062i();
                         byew byew5 = this.f14597b;
@@ -762,7 +762,7 @@ public final class ebk extends dyg {
                         byev7 = byev.f165940w;
                     }
                     bxvd bxvd6 = (bxvd) byev7.mo74142c(5);
-                    bxvd6.mo73625a((bxvk) byev7);
+                    bxvd6.mo73625a((GeneratedMessageLite) byev7);
                     byep byep3 = (byep) bxvd6;
                     int degrees = (int) Math.toDegrees(bxnn.f164066c);
                     if (byep3.f164950c) {
@@ -835,7 +835,7 @@ public final class ebk extends dyg {
                         if (str2 != null && !str2.isEmpty()) {
                             try {
                                 try {
-                                    byfi byfi2 = (byfi) bxvk.m124016a(byfi.f166018g, Base64.decode(str2, 11), bxus.m123744c());
+                                    byfi byfi2 = (byfi) GeneratedMessageLite.m124016a(byfi.f166018g, Base64.decode(str2, 11), bxus.m123744c());
                                     if (!(byfi2 == null || (byfi2.f166020a & 1) == 0)) {
                                         byel byel = byfi2.f166021b;
                                         if (byel == null) {
@@ -861,11 +861,11 @@ public final class ebk extends dyg {
                                                 byfi3.f166021b = byel3;
                                                 byfi3.f166020a |= 1;
                                                 byfi = (byfi) da3.mo74062i();
-                                                if (!str2.equals(Base64.encodeToString(byfi.mo73642k(), 11))) {
+                                                if (!str2.equals(Base64.encodeToString(byfi.serializeToBytes(), 11))) {
                                                     byfi = null;
                                                 }
                                                 bxvd = (bxvd) byfi.mo74142c(5);
-                                                bxvd.mo73625a((bxvk) byfi);
+                                                bxvd.mo73625a((GeneratedMessageLite) byfi);
                                                 if (bxvd != null) {
                                                     double d2 = bxmm.f163949b;
                                                     double d3 = d2 > d ? d2 : d;
@@ -878,7 +878,7 @@ public final class ebk extends dyg {
                                         }
                                         byfi = null;
                                         bxvd = (bxvd) byfi.mo74142c(5);
-                                        bxvd.mo73625a((bxvk) byfi);
+                                        bxvd.mo73625a((GeneratedMessageLite) byfi);
                                         if (bxvd != null) {
                                         }
                                     }
@@ -894,7 +894,7 @@ public final class ebk extends dyg {
                         }
                         byfi = null;
                         bxvd = (bxvd) byfi.mo74142c(5);
-                        bxvd.mo73625a((bxvk) byfi);
+                        bxvd.mo73625a((GeneratedMessageLite) byfi);
                         if (bxvd != null) {
                         }
                     }
@@ -914,7 +914,7 @@ public final class ebk extends dyg {
                             byew7.f164950c = false;
                         }
                         byex byex11 = byex.f165964y;
-                        ((byex) byew7.f164949b).f165987v = bxvk.m124030de();
+                        ((byex) byew7.f164949b).f165987v = GeneratedMessageLite.m124030de();
                         if (byew7.f164950c) {
                             byew7.mo74035c();
                             byew7.f164950c = false;
@@ -1246,7 +1246,7 @@ public final class ebk extends dyg {
             byew.f164950c = false;
         }
         byex byex = byex.f165964y;
-        ((byex) byew.f164949b).f165988w = bxvk.m124030de();
+        ((byex) byew.f164949b).f165988w = GeneratedMessageLite.m124030de();
         if (byew.f164950c) {
             byew.mo74035c();
             byew.f164950c = false;
@@ -1295,7 +1295,7 @@ public final class ebk extends dyg {
         if (mo9920b(15)) {
             byex k = m10058k();
             bxvd bxvd = (bxvd) k.mo74142c(5);
-            bxvd.mo73625a((bxvk) k);
+            bxvd.mo73625a((GeneratedMessageLite) k);
             this.f14597b = (byew) bxvd;
         }
         if (mo9921c(15)) {
@@ -1304,7 +1304,7 @@ public final class ebk extends dyg {
         if (mo9920b(240)) {
             byex k2 = m10058k();
             bxvd bxvd2 = (bxvd) k2.mo74142c(5);
-            bxvd2.mo73625a((bxvk) k2);
+            bxvd2.mo73625a((GeneratedMessageLite) k2);
             this.f14598k = (byew) bxvd2;
             if (mo9920b(80)) {
                 this.f14601o = (TelephonyManager) this.f14388d.getSystemService("phone");

@@ -17,7 +17,7 @@ final /* synthetic */ class hls implements bmxj {
       hmu.a(quo, boolean):boolean */
     public final Object apply(Object obj) {
         quo quo = (quo) obj;
-        sek sek = hmc.f20015a;
+        Logger Logger = hmc.f20015a;
         return bnmt.m109797a(quo.f42182b, Boolean.valueOf(hmu.m14621a(quo, false)));
     }
 }

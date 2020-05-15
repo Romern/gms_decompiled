@@ -174,7 +174,7 @@ public final class azhu extends azhc {
                 }
                 cbhb cbhb2 = (cbhb) da2.f164949b;
                 if (!cbhb2.f177114d.mo73666a()) {
-                    cbhb2.f177114d = bxvk.m124021a(cbhb2.f177114d);
+                    cbhb2.f177114d = GeneratedMessageLite.m124021a(cbhb2.f177114d);
                 }
                 bxsy.m123078a(bngx, cbhb2.f177114d);
             }

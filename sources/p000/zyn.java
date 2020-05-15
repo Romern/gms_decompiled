@@ -58,15 +58,15 @@ public final class zyn {
     private final zxn f56214o;
 
     public zyn(zxv zxv, zxw zxw, zyg zyg, Executor executor, zyl zyl, zyw zyw, zxn zxn) {
-        sdo.m34966a(zxv, "disk");
+        sdo.checkIfNull(zxv, "disk");
         this.f56206g = zxv;
-        sdo.m34966a(zxw, "downloader");
+        sdo.checkIfNull(zxw, "downloader");
         this.f56207h = zxw;
-        sdo.m34966a(zyg, "clearcutWrapper");
+        sdo.checkIfNull(zyg, "clearcutWrapper");
         this.f56211l = zyg;
-        sdo.m34966a(executor, "executor");
+        sdo.checkIfNull(executor, "executor");
         this.f56212m = executor;
-        sdo.m34966a(zyl, "pendingResolverProvider");
+        sdo.checkIfNull(zyl, "pendingResolverProvider");
         this.f56213n = zyl;
         this.f56210k = zyw;
         this.f56214o = zxn;
@@ -240,8 +240,8 @@ public final class zyn {
     public final bqgg mo31600a(FontMatchSpec fontMatchSpec, String str) {
         zyw zyw;
         zyu zyu;
-        sdo.m34966a(fontMatchSpec, "spec");
-        sdo.m34966a((Object) str, (Object) "requestingPackage");
+        sdo.checkIfNull(fontMatchSpec, "spec");
+        sdo.checkIfNull((Object) str, (Object) "requestingPackage");
         bqgy c = bqgy.m112818c();
         if (this.f56210k != null && this.f56214o != null && fontMatchSpec.f32464b.startsWith("Google Sans") && fontMatchSpec.f32467e == 0.0f) {
             zyu zyu2 = zyu.f56227a;

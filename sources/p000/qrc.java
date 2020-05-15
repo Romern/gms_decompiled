@@ -33,9 +33,9 @@ public final class qrc {
     public final SecretKey f41991b;
 
     public qrc(SecretKey secretKey, SecretKey secretKey2) {
-        sdo.m34966a(secretKey, "encryptionKey cannot be null");
+        sdo.checkIfNull(secretKey, "encryptionKey cannot be null");
         this.f41990a = secretKey;
-        sdo.m34966a(secretKey2, "macKey cannot be null");
+        sdo.checkIfNull(secretKey2, "macKey cannot be null");
         this.f41991b = secretKey2;
     }
 
@@ -59,7 +59,7 @@ public final class qrc {
 
     /* renamed from: b */
     public final byte[] mo24217b(byte[] bArr) {
-        sdo.m34966a(bArr, "encrypted cannot be null");
+        sdo.checkIfNull(bArr, "encrypted cannot be null");
         int length = bArr.length;
         if (length >= 64) {
             try {
@@ -153,7 +153,7 @@ public final class qrc {
       sdo.a(java.lang.String, java.lang.Object):void */
     /* renamed from: a */
     public final byte[] mo24215a(qrb qrb, String str) {
-        sdo.m34966a(qrb, "type cannot be null");
+        sdo.checkIfNull(qrb, "type cannot be null");
         sdo.m34969a(str, (Object) "name cannot be empty");
         ByteBuffer allocate = ByteBuffer.allocate(4);
         qrb qrb2 = qrb.PASSWORD;
@@ -181,7 +181,7 @@ public final class qrc {
 
     /* renamed from: a */
     public final byte[] mo24216a(byte[] bArr) {
-        sdo.m34966a(bArr, "value cannot be null");
+        sdo.checkIfNull(bArr, "value cannot be null");
         int length = bArr.length;
         int i = (length + 16) - (length & 15);
         byte[] bArr2 = new byte[(i + 48)];

@@ -2,7 +2,7 @@ package p000;
 
 /* renamed from: brzd */
 /* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
-public final class brzd extends bxvk implements bxxd {
+public final class brzd extends GeneratedMessageLite implements bxxd {
 
     /* renamed from: f */
     public static final brzd f143718f;
@@ -20,7 +20,7 @@ public final class brzd extends bxvk implements bxxd {
     public bpwj f143722c;
 
     /* renamed from: d */
-    public bxtx f143723d = bxtx.f164797b;
+    public ByteString f143723d = ByteString.f164797b;
 
     /* renamed from: e */
     public bxwc f143724e = bxxn.f165040b;
@@ -31,7 +31,7 @@ public final class brzd extends bxvk implements bxxd {
     static {
         brzd brzd = new brzd();
         f143718f = brzd;
-        bxvk.m124024a(brzd.class, brzd);
+        GeneratedMessageLite.m124024a(brzd.class, brzd);
     }
 
     private brzd() {
@@ -52,7 +52,7 @@ public final class brzd extends bxvk implements bxxd {
             this.f143725g = b;
             return null;
         } else if (i2 == 2) {
-            return bxvk.m124022a(f143718f, "\u0001\u0004\u0000\u0001\u0002\t\u0004\u0000\u0001\u0001\u0002ဉ\u0000\u0003ᐉ\u0001\bည\u0003\t\u001b", new Object[]{"a", "b", "c", "d", "e", brzh.class});
+            return GeneratedMessageLite.m124022a(f143718f, "\u0001\u0004\u0000\u0001\u0002\t\u0004\u0000\u0001\u0001\u0002ဉ\u0000\u0003ᐉ\u0001\bည\u0003\t\u001b", new Object[]{"a", "b", "c", "d", "e", brzh.class});
         } else if (i2 == 3) {
             return new brzd();
         } else {

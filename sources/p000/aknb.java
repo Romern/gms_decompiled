@@ -111,7 +111,7 @@ final /* synthetic */ class aknb implements bmxj {
                         }
                         cafe cafe4 = (cafe) da4.f164949b;
                         if (!cafe4.f172894d.mo73666a()) {
-                            cafe4.f172894d = bxvk.m124019a(cafe4.f172894d);
+                            cafe4.f172894d = GeneratedMessageLite.m124019a(cafe4.f172894d);
                         }
                         cafe4.f172894d.mo74153d(parseInt3);
                     }

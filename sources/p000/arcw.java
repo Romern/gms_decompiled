@@ -33,14 +33,14 @@ final class arcw implements Runnable {
             arbb arbb = arbt.f87320f;
             ahco ahco = ((arbj) ((aras) arbb).f87231a).f87276b;
             arbr arbr = ((aras) arbb).f87232b;
-            arbr.f87299b.mo25409a("Stopping scan.", new Object[0]);
+            arbr.f87299b.logVerbose("Stopping scan.", new Object[0]);
             arbr.mo48373b();
             arbr.f87307j.clear();
             Status a = ascs.m73792a(aucu.m76781a(((ahej) ahco).f67076a.mo37435a((rjx) ahco, "scan"), aucu.m76778a((Object) null)));
             if (!a.mo17710c()) {
-                sek sek = arbt.f87315a;
+                Logger Logger = arbt.f87315a;
                 String valueOf = String.valueOf(ahcu.m55496a(a.f30115i));
-                sek.mo25418e(valueOf.length() == 0 ? new String("Error while stopping Nearby scan: ") : "Error while stopping Nearby scan: ".concat(valueOf), new Object[0]);
+                Logger.mo25418e(valueOf.length() == 0 ? new String("Error while stopping Nearby scan: ") : "Error while stopping Nearby scan: ".concat(valueOf), new Object[0]);
                 status = new Status(10557);
             } else {
                 status = new Status(0);

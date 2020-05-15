@@ -56,7 +56,7 @@ public final class bxyo {
                 ((Long) this.f165105d[i4]).longValue();
                 i = bxuk.m123668r(b);
             } else if (a == 2) {
-                i = bxuk.m123642c(b, (bxtx) this.f165105d[i4]);
+                i = bxuk.m123642c(b, (ByteString) this.f165105d[i4]);
             } else if (a == 3) {
                 int i6 = bxuk.m123657i(b);
                 i = i6 + i6 + ((bxyo) this.f165105d[i4]).mo74286c();
@@ -183,7 +183,7 @@ public final class bxyo {
                 } else if (a == 1) {
                     bxul.mo73889d(b, ((Long) obj).longValue());
                 } else if (a == 2) {
-                    bxul.mo73878a(b, (bxtx) obj);
+                    bxul.mo73878a(b, (ByteString) obj);
                 } else if (a == 3) {
                     bxul.f164857a.mo73845b(b, 3);
                     ((bxyo) obj).mo74284a(bxul);

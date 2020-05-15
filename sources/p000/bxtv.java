@@ -64,7 +64,7 @@ public final class bxtv extends OutputStream {
     }
 
     /* renamed from: a */
-    public final synchronized bxtx mo73765a() {
+    public final synchronized ByteString mo73765a() {
         int i = this.f164795f;
         byte[] bArr = this.f164794e;
         int length = bArr.length;
@@ -78,7 +78,7 @@ public final class bxtv extends OutputStream {
         }
         this.f164793d += this.f164795f;
         this.f164795f = 0;
-        return bxtx.m123257a(this.f164792c);
+        return ByteString.m123257a(this.f164792c);
     }
 
     public final synchronized void write(byte[] bArr, int i, int i2) {

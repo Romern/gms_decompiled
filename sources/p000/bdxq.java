@@ -5,7 +5,7 @@ package p000;
 final class bdxq {
 
     /* renamed from: a */
-    public bxtx f106601a;
+    public ByteString f106601a;
 
     /* renamed from: b */
     public Long f106602b;
