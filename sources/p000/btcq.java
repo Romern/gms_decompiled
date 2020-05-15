@@ -1,0 +1,59 @@
+package p000;
+
+/* renamed from: btcq */
+/* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
+public final class btcq extends bxvk implements bxxd {
+
+    /* renamed from: b */
+    public static final btcq f148303b;
+
+    /* renamed from: c */
+    private static volatile bxxk f148304c;
+
+    /* renamed from: a */
+    public long f148305a;
+
+    static {
+        btcq btcq = new btcq();
+        f148303b = btcq;
+        bxvk.m124024a(btcq.class, btcq);
+    }
+
+    private btcq() {
+    }
+
+    /* access modifiers changed from: protected */
+    /* renamed from: a */
+    public final Object mo3216a(int i, Object obj) {
+        int i2 = i - 1;
+        if (i2 == 0) {
+            return (byte) 1;
+        }
+        if (i2 == 1) {
+            return null;
+        }
+        if (i2 == 2) {
+            return bxvk.m124022a(f148303b, "\u0000\u0001\u0000\u0000\u0001\u0001\u0001\u0000\u0000\u0000\u0001\u0002", new Object[]{"a"});
+        } else if (i2 == 3) {
+            return new btcq();
+        } else {
+            if (i2 == 4) {
+                return new bxvd(f148303b);
+            }
+            if (i2 == 5) {
+                return f148303b;
+            }
+            bxxk bxxk = f148304c;
+            if (bxxk == null) {
+                synchronized (btcq.class) {
+                    bxxk = f148304c;
+                    if (bxxk == null) {
+                        bxxk = new bxve(f148303b);
+                        f148304c = bxxk;
+                    }
+                }
+            }
+            return bxxk;
+        }
+    }
+}

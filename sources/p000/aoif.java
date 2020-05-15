@@ -1,0 +1,58 @@
+package p000;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.plus.service.v1whitelisted.models.AclEntity;
+import com.google.android.gms.plus.service.v1whitelisted.models.SettingEntity;
+import java.util.HashSet;
+
+/* renamed from: aoif */
+/* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
+public final class aoif implements Parcelable.Creator {
+    public final /* bridge */ /* synthetic */ Object[] newArray(int i) {
+        return new SettingEntity[i];
+    }
+
+    public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
+        int b = sed.m35001b(parcel);
+        HashSet hashSet = new HashSet();
+        int i = 0;
+        AclEntity aclEntity = null;
+        String str = null;
+        String str2 = null;
+        boolean z = false;
+        int i2 = 0;
+        while (parcel.dataPosition() < b) {
+            int readInt = parcel.readInt();
+            int a = sed.m34995a(readInt);
+            if (a == 1) {
+                i = sed.m35010g(parcel, readInt);
+                hashSet.add(1);
+            } else if (a == 2) {
+                aclEntity = (AclEntity) sed.m34998a(parcel, readInt, AclEntity.CREATOR);
+                hashSet.add(2);
+            } else if (a == 3) {
+                z = sed.m35006c(parcel, readInt);
+                hashSet.add(3);
+            } else if (a == 5) {
+                str = sed.m35020q(parcel, readInt);
+                hashSet.add(5);
+            } else if (a == 6) {
+                i2 = sed.m35010g(parcel, readInt);
+                hashSet.add(6);
+            } else if (a != 9) {
+                sed.m35002b(parcel, readInt);
+            } else {
+                str2 = sed.m35020q(parcel, readInt);
+                hashSet.add(9);
+            }
+        }
+        if (parcel.dataPosition() == b) {
+            return new SettingEntity(hashSet, i, aclEntity, z, str, i2, str2);
+        }
+        StringBuilder sb = new StringBuilder(37);
+        sb.append("Overread allowed size end=");
+        sb.append(b);
+        throw new sec(sb.toString(), parcel);
+    }
+}

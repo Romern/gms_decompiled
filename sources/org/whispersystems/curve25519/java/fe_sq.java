@@ -1,0 +1,76 @@
+package org.whispersystems.curve25519.java;
+
+/* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
+public class fe_sq {
+    public static void fe_sq(int[] iArr, int[] iArr2) {
+        int i = iArr2[0];
+        int i2 = iArr2[1];
+        int i3 = iArr2[2];
+        int i4 = iArr2[3];
+        int i5 = iArr2[4];
+        int i6 = iArr2[5];
+        int i7 = iArr2[6];
+        int i8 = iArr2[7];
+        int i9 = iArr2[8];
+        int i10 = iArr2[9];
+        long j = (long) i;
+        long j2 = (long) (i2 + i2);
+        long j3 = (long) (i10 * 38);
+        long j4 = (long) (i3 + i3);
+        long j5 = (long) (i9 * 19);
+        long j6 = (long) (i4 + i4);
+        long j7 = (long) (i8 * 38);
+        long j8 = (long) (i5 + i5);
+        long j9 = (long) (i7 * 19);
+        long j10 = (long) i6;
+        long j11 = (j * j) + (j2 * j3) + (j4 * j5) + (j6 * j7) + (j8 * j9) + (((long) (i6 * 38)) * j10);
+        long j12 = (long) (i + i);
+        long j13 = (long) i5;
+        long j14 = (long) i3;
+        long j15 = (long) (i6 + i6);
+        long j16 = (long) i8;
+        long j17 = (j12 * j13) + (j2 * j6) + (j14 * j14) + (j15 * j3) + (((long) (i7 + i7)) * j5) + (j16 * j7);
+        long j18 = (j11 + 33554432) >> 26;
+        long j19 = (long) i2;
+        long j20 = (j12 * j19) + (j14 * j3) + (j6 * j5) + (j13 * j7) + (j15 * j9) + j18;
+        long j21 = (j17 + 33554432) >> 26;
+        long j22 = (long) i4;
+        long j23 = (long) i7;
+        long j24 = (long) (i8 + i8);
+        long j25 = (j12 * j10) + (j2 * j13) + (j4 * j22) + (j23 * j3) + (j24 * j5) + j21;
+        long j26 = (j20 + 16777216) >> 25;
+        long j27 = (j12 * j14) + (j19 * j2) + (j6 * j3) + (j8 * j5) + (j15 * j7) + (j23 * j9) + j26;
+        long j28 = (j25 + 16777216) >> 25;
+        long j29 = (long) i9;
+        long j30 = (j12 * j23) + (j2 * j15) + (j4 * j13) + (j6 * j22) + (j24 * j3) + (j29 * j5) + j28;
+        long j31 = (j27 + 33554432) >> 26;
+        long j32 = (j22 * j12) + (j14 * j2) + (j13 * j3) + (j15 * j5) + (j23 * j7) + j31;
+        long j33 = (j30 + 33554432) >> 26;
+        long j34 = (j12 * j16) + (j2 * j23) + (j4 * j10) + (j6 * j13) + (j29 * j3) + j33;
+        long j35 = j30 - (j33 << 26);
+        long j36 = (j32 + 16777216) >> 25;
+        long j37 = (j17 - (j21 << 26)) + j36;
+        long j38 = j32 - (j36 << 25);
+        long j39 = (j34 + 16777216) >> 25;
+        long j40 = (long) i10;
+        long j41 = (j12 * j29) + (j24 * j2) + (j4 * j23) + (j6 * j15) + (j13 * j13) + (j40 * j3) + j39;
+        long j42 = j34 - (j39 << 25);
+        long j43 = (j37 + 33554432) >> 26;
+        long j44 = (j41 + 33554432) >> 26;
+        long j45 = (j12 * j40) + (j29 * j2) + (j4 * j16) + (j23 * j6) + (j8 * j10) + j44;
+        long j46 = (j45 + 16777216) >> 25;
+        long j47 = (j11 - (j18 << 26)) + (19 * j46);
+        long j48 = j45 - (j46 << 25);
+        long j49 = (j47 + 33554432) >> 26;
+        iArr[0] = (int) (j47 - (j49 << 26));
+        iArr[1] = (int) ((j20 - (j26 << 25)) + j49);
+        iArr[2] = (int) (j27 - (j31 << 26));
+        iArr[3] = (int) j38;
+        iArr[4] = (int) (j37 - (j43 << 26));
+        iArr[5] = (int) ((j25 - (j28 << 25)) + j43);
+        iArr[6] = (int) j35;
+        iArr[7] = (int) j42;
+        iArr[8] = (int) (j41 - (j44 << 26));
+        iArr[9] = (int) j48;
+    }
+}

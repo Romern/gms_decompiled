@@ -1,0 +1,28 @@
+package p000;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.location.internal.NlpTestingRequest;
+
+/* renamed from: aeko */
+/* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
+public final class aeko implements Parcelable.Creator {
+    public final /* bridge */ /* synthetic */ Object[] newArray(int i) {
+        return new NlpTestingRequest[i];
+    }
+
+    public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
+        int b = sed.m35001b(parcel);
+        long j = 0;
+        while (parcel.dataPosition() < b) {
+            int readInt = parcel.readInt();
+            if (sed.m34995a(readInt) != 1) {
+                sed.m35002b(parcel, readInt);
+            } else {
+                j = sed.m35012i(parcel, readInt);
+            }
+        }
+        sed.m34994F(parcel, b);
+        return new NlpTestingRequest(j);
+    }
+}

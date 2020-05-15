@@ -1,0 +1,31 @@
+package com.google.android.gms.security.snet;
+
+import android.content.Intent;
+import android.os.IBinder;
+
+/* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
+public class SnetIdleTaskChimeraService extends aeah {
+
+    /* renamed from: a */
+    private IBinder f107573a = new aqdt();
+
+    static {
+        SnetIdleTaskChimeraService.class.getSimpleName();
+    }
+
+    /* renamed from: a */
+    public final int mo6269a(aecc aecc) {
+        SnetGcmSchedulerChimeraIntentService.m92428c(this);
+        return 0;
+    }
+
+    /* renamed from: aZ */
+    public final void mo7135aZ() {
+        SnetGcmSchedulerChimeraIntentService.m92429d(this);
+    }
+
+    public final IBinder onBind(Intent intent) {
+        IBinder onBind = super.onBind(intent);
+        return onBind == null ? this.f107573a : onBind;
+    }
+}

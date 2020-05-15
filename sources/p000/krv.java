@@ -1,0 +1,22 @@
+package p000;
+
+import android.content.Context;
+
+/* renamed from: krv */
+/* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
+public final class krv implements cayy {
+
+    /* renamed from: a */
+    private final cijl f24908a;
+
+    public krv(cijl cijl) {
+        this.f24908a = cijl;
+    }
+
+    /* renamed from: a */
+    public final /* bridge */ /* synthetic */ Object mo6445a() {
+        kqv g = krp.m18484g((Context) ((cayz) this.f24908a).f176439a);
+        cazf.m127593a(g, "Cannot return null from a non-@Nullable @Provides method");
+        return g;
+    }
+}

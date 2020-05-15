@@ -1,0 +1,19 @@
+package p000;
+
+/* renamed from: ayro */
+/* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
+public enum ayro {
+    SCAN,
+    CONNECT,
+    DISCOVER_SERVICES,
+    DISCOVER_SERVICES_INTERNAL,
+    NOTIFICATION_CHANGE,
+    READ_CHARACTERISTIC,
+    WRITE_CHARACTERISTIC,
+    READ_DESCRIPTOR,
+    WRITE_DESCRIPTOR,
+    READ_RSSI,
+    WRITE_RELIABLE,
+    CHANGE_MTU,
+    DISCONNECT
+}

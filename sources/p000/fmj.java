@@ -1,0 +1,17 @@
+package p000;
+
+/* renamed from: fmj */
+final /* synthetic */ class fmj implements fng {
+
+    /* renamed from: a */
+    static final fng f16887a = new fmj();
+
+    private fmj() {
+    }
+
+    /* renamed from: a */
+    public final Object mo11017a() {
+        fnh fnh = fni.f16923a;
+        return Long.valueOf(cbvw.f178391a.mo6606a().mo75479L());
+    }
+}

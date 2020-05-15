@@ -1,0 +1,20 @@
+package p000;
+
+import com.google.android.gms.common.api.Status;
+
+/* renamed from: afju */
+/* compiled from: :com.google.android.gms@201515033@20.15.15 (120300-306758586) */
+final class afju extends rns {
+
+    /* renamed from: a */
+    final /* synthetic */ aucf f64300a;
+
+    public afju(aucf aucf) {
+        this.f64300a = aucf;
+    }
+
+    /* renamed from: a */
+    public final void mo11797a(Status status) {
+        rpc.m34201a(status, this.f64300a);
+    }
+}
