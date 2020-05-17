@@ -65,7 +65,7 @@ public final class iek extends dck implements iel {
                         }
                         bklr bklr = (bklr) da.f164949b;
                         bklr.f124836a |= 1;
-                        bklr.packageName = packageName;
+                        bklr.packageName = packageName; //Set 1. field of appcertMessage to packageName
                         String base64PackageHash = Base64.encodeToString(sha1sum, 2);
                         if (da.f164950c) {
                             da.mo74035c();
@@ -73,7 +73,7 @@ public final class iek extends dck implements iel {
                         }
                         bklr bklr2 = (bklr) da.f164949b;
                         bklr2.f124836a |= 2;
-                        bklr2.packageCertHash = base64PackageHash;
+                        bklr2.packageCertHash = base64PackageHash; //Set 2. field of appcertMessage to base64PackageHash
                         bxvd da2 = bkls.f124839g.mo74144da();
                         if (deviceKey != null) {
                             long j = deviceKey.f171720c;
@@ -84,14 +84,14 @@ public final class iek extends dck implements iel {
                             bkls bkls = (bkls) da2.f164949b;
                             int i = bkls.f124841a | 4;
                             bkls.f124841a = i;
-                            bkls.f124844d = j;
+                            bkls.f124844d = j; //Set 3. field of spatulaHeader to deviceId
                             long j2 = deviceKey.f171719b;
                             int i2 = i | 8;
                             bkls.f124841a = i2;
-                            bkls.f124845e = j2;
+                            bkls.f124845e = j2; //Set 4. field of spatulaHeader to deviceKey.f171719b ?? --> Random session?
                             ByteString bxtx = deviceKey.f171722e;
                             bkls.f124841a = i2 | 16;
-                            bkls.f124846f = bxtx;
+                            bkls.f124846f = bxtx; //Set 5. field of spatulaHeader to deviceKey.f171722e ?? --> some key?
                             try {
                                 String valueOf = String.valueOf(packageName);
                                 String valueOf2 = String.valueOf(((bklr) da.f164949b).packageCertHash);
@@ -102,7 +102,7 @@ public final class iek extends dck implements iel {
                                 }
                                 bkls bkls2 = (bkls) da2.f164949b;
                                 bkls2.f124841a |= 2;
-                                bkls2.f124843c = a2;
+                                bkls2.f124843c = a2;  //Set 2. field of spatulaHeader to hmac of name+certhash
                             } catch (IOException | IllegalArgumentException e) {
                                 Logger Logger = iem.log;
                                 String valueOf3 = String.valueOf(e);
@@ -119,14 +119,13 @@ public final class iek extends dck implements iel {
                             }
                             bkls bkls3 = (bkls) da2.f164949b;
                             bkls3.f124841a |= 4;
-                            bkls3.f124844d = a3;
+                            bkls3.f124844d = a3; //Set 3. field of spatulaHeader to androidId
                         }
                         bkls bkls4 = (bkls) da2.f164949b;
                         bklr bklr3 = (bklr) da.mo74062i();
                         bkls4.f124842b = bklr3;
                         bkls4.f124841a |= 1;
                         str2 = Base64.encodeToString(((bkls) da2.mo74062i()).serializeToBytes(), 2);
-
                         return str2;
                     } catch (PackageManager.NameNotFoundException e2) {
                         p000.iem.log.mo25417e("Invalid package name!", e2);
