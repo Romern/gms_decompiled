@@ -102,14 +102,14 @@ public final class iem {
                     bzxc bzxc = (bzxc) da.f164949b;
                     int i = bzxc.f171725a | 2;
                     bzxc.f171725a = i;
-                    bzxc.f171727c = androidId;
+                    bzxc.f171727c = androidId; //set 2. field to androidID
                     int i2 = i | 4;
                     bzxc.f171725a = i2;
-                    bzxc.f171728d = nextLong;
+                    bzxc.f171728d = nextLong;  //set 3. field to random session token
                     if (a3 != null) {
                         a3.getClass();
                         bzxc.f171725a = i2 | 1;
-                        bzxc.f171726b = a3;
+                        bzxc.f171726b = a3; //set 1. field to the droidguard related stuff
                     }
                     HttpEntity httpEntity = null;
                     try {
@@ -126,7 +126,7 @@ public final class iem {
                         bzxc bzxc2 = (bzxc) da.f164949b;
                         str.getClass();
                         bzxc2.f171725a |= 32;
-                        bzxc2.f171730f = str;
+                        bzxc2.f171730f = str; //set 6. field to security token?
                     }
                     bxvd da2 = bzxi.f171753d.mo74144da();
                     int i3 = Build.VERSION.SDK_INT;
@@ -137,9 +137,9 @@ public final class iem {
                     bzxi bzxi = (bzxi) da2.f164949b;
                     int i4 = bzxi.f171755a | 1;
                     bzxi.f171755a = i4;
-                    bzxi.f171756b = i3;
+                    bzxi.f171756b = i3; //set 1. field to SDK Version
                     bzxi.f171755a = i4 | 2;
-                    bzxi.f171757c = 201515033;
+                    bzxi.f171757c = 201515033;  //set 2. field to SDK build date
                     if (da.f164950c) {
                         da.mo74035c();
                         da.f164950c = false;
@@ -147,7 +147,7 @@ public final class iem {
                     bzxc bzxc3 = (bzxc) da.f164949b;
                     bzxi bzxi2 = (bzxi) da2.mo74062i();
                     bzxi2.getClass();
-                    bzxc3.f171729e = bzxi2;
+                    bzxc3.f171729e = bzxi2;  //set 4. field to some message object
                     bzxc3.f171725a |= 8;
                     ByteArrayEntity byteArrayEntity = new ByteArrayEntity(((bzxc) da.mo74062i()).serializeToBytes());
                     byteArrayEntity.setContentType("application/octet-stream");
